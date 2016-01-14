@@ -1,0 +1,19 @@
+encoding: utf-8
+title: SwissUpLabs docs
+email: support@swissuplabs.com
+description: > # this means to ignore newlines until "baseurl:"
+  SwissUpLabs extensions, themes and development documentation
+baseurl: ""
+url: "http://swissup.github.io"
+
+permalink: pretty
+
+# Build settings
+safe: true
+lsi: false
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  enable_coderay: false
