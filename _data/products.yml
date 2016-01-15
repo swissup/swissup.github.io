@@ -32,6 +32,9 @@
     - title: Order Attachments
       url: /extensions/order-attachments/
 
+      - title: Sold Together
+      url: /extensions/soldtogether/
+
     - title: Testimonials
       url: /extensions/testimonials/
       free: 1
