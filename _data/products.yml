@@ -1,0 +1,50 @@
+- title: Extensions
+  items:
+    - title: Attributepages
+      url: /extensions/attributepages/
+
+    - title: Cache
+      url: /extensions/cache/
+
+    - title: Configurable Swatches
+      url: /extensions/catalog-configurable-swatches/
+      free: 1
+
+    - title: Crawler
+      url: /extensions/crawler/
+
+    - title: EasyCatalogImages
+      url: /extensions/easycatalogimages/
+      free: 1
+
+    - title: Email
+      url: /extensions/email/
+
+    - title: Firecheckout
+      url: /extensions/firecheckout/
+
+    - title: Navigation Pro
+      url: /extensions/navigationpro/
+
+    - title: Order Attachments
+      url: /extensions/order-attachments/
+
+    - title: Testimonials
+      url: /extensions/testimonials/
+      free: 1
+
+    - title: Rich Snippets
+      url: /extensions/richsnippets/
+
+# - title: Themes
+#   items:
+#     - title: Absolute Theme
+#       url: /themes/f001-absolute/
+#       free: 1
+
+#     - title: Classic Theme
+#       url: /themes/f002-classic/
+#       free: 1
+
+#     - title: Mobile Star Theme
+#       url: /themes/m001-mobile-star/

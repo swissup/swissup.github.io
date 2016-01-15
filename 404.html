@@ -1,0 +1,54 @@
+---
+layout: default
+title: 404
+permalink: 404.html
+---
+
+<div class="jumbotron">
+  <div class="mdl-grid">
+    <div class="mdl-cell mdl-cell--12-col">
+      <div class="mdl-typography--font-light mdl-typography--display-3">
+        Page Not Found.
+      </div>
+      <div class="mdl-typography--font-light mdl-color-text--grey-700 mdl-typography--headline">
+        <a href="{{ "/" | prepend: site.baseurl }}" id="back" title="Go Back">&#8656;</a> Go Back
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="mdl-grid">
+  <div class="mdl-cell mdl-cell--12-col">
+    <div class="clearfix suggestions-group">
+      <h4>Related Articles</h4>
+      <ul id="related-articles" class="search-results"></ul>
+    </div>
+  </div>
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", function(event) {
+  document.getElementById('back').addEventListener('click', function(e) {
+    if (history.length > 1) {
+      e.preventDefault();
+      history.back();
+    }
+  });
+
+  var related = new Search({
+    resultsContainer: document.getElementById('related-articles'),
+    json: '{{ "/search.json" | prepend: site.baseurl }}',
+    limit: 20
+  });
+
+  var pathParts = window.location.pathname.slice(0, -1).split('/'),
+    token = pathParts[pathParts.length - 1],
+    hash  = window.location.hash.slice(1);
+
+  if (hash.length > 1) {
+    related.searchByTwoTokens(hash, token, 16);
+  } else {
+    related.search(token);
+  }
+});
+</script>

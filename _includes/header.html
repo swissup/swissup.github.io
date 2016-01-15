@@ -1,0 +1,22 @@
+<header class="mdl-layout__header {{ include.class }}">
+    <div class="mdl-layout__header-row">
+        <span class="mdl-layout-title swissup-title">
+            <a href="{{ "/" | prepend: site.baseurl }}">
+                <img src="{{ "/images/site/logo_text.png" | prepend: site.baseurl }}"/>
+            </a>
+        </span>
+        <div class="mdl-layout-spacer"></div>
+        <div class="docs-search">
+            <div class="textfield-wrapper">
+                <div class="mdl-textfield mdl-js-textfield">
+                    <label class="mdl-button mdl-js-button mdl-button--icon" for="search">
+                        <i class="material-icons">search</i>
+                    </label>
+                    <input class="mdl-textfield__input" type="text" id="search" />
+                    <label class="mdl-textfield__label" for="search">Search...</label>
+                </div>
+                <ul id="search-results" class="search-results"></ul>
+            </div>
+        </div>
+    </div>
+</header>

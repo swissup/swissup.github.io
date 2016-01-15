@@ -8,7 +8,6 @@ url: "http://swissup.github.io"
 
 permalink: pretty
 
-# Build settings
 safe: true
 lsi: false
 
@@ -17,3 +16,34 @@ kramdown:
   input: GFM
   hard_wrap: false
   enable_coderay: false
+
+exclude:
+  - bower_components/lunr.js/example/
+  - bower_components/lunr.js/lib/
+  - bower_components/lunr.js/test/
+  - bower_components/material-design-lite/src/
+  - bower_components/material-design-lite/utils/
+  - bower_components/mustache/bin/
+  - bower_components/mustache/hooks/
+  - bower_components/mustache/spec/
+  - bower_components/mustache/wrappers/
+  - bower_components/prism/examples/
+  - bower_components/prism/plugins/
+  - bower_components/prism/tests/
+  - bower_components/prism/vendor/
+
+github:
+  repository_url: https://github.com/swissup/swissup.github.io
+
+prose:
+  siteurl: "http://swissup.github.io/"
+  media: "media"
+  ignore:
+    - .gitignore
+    - bower.json
+    - _config.yml
+    - search.json
+    - /_includes
+    - /_layouts
+    - /_posts
+    - /bower_components
