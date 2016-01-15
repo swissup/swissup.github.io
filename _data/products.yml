@@ -1,5 +1,8 @@
 - title: Extensions
   items:
+    - title: AjaxPro
+      url: /extensions/ajaxpro/
+
     - title: Attributepages
       url: /extensions/attributepages/
 
