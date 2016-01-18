@@ -1,10 +1,13 @@
 - title: Extensions
   items:
+    - title: AjaxLayeredNavigation
+      url: /extensions/ajaxlayerednavigation/
+
     - title: AjaxPro
       url: /extensions/ajaxpro/
 
-    - title: AjaxLayeredNavigation
-      url: /extensions/ajaxlayerednavigation/
+    - title: AjaxSearch
+      url: /extensions/ajaxsearch/
 
     - title: Attributepages
       url: /extensions/attributepages/
