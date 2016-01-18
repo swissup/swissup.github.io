@@ -1,8 +1,8 @@
 ---
 layout: default
 title: AjaxPro
-description:
-keywords: ""
+description: magento ajax module installation
+keywords: " magento ajax, magento ajax module, magento ajax call to block, magento ajax shopping cart, magento ajax cart pro "
 category: AjaxPro
 ---
 
