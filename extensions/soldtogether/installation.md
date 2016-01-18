@@ -16,12 +16,14 @@ Please follow next steps to complete the installation:
     Navigate to `Admin > Tools > Compilation` and deactivate the compilation
     mode for your store.
 
+* Check if your Magento store cache is enabled.
+
 * Copy all files into your magento directory:
 
     Simply copy all files from `"extension source x.x.x"` directory into your
     magento store directory.
 
-* Turn your magento cache off.
+* Refresh your magento store cache.
 
 * Refresh your admin user access rights:
 
