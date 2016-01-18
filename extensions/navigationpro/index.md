@@ -8,6 +8,8 @@ category: Navigationpro
 
 # Navigation Pro
 
+- [Installation](installation/)
+
 NavigationPro is a powerfull Magento module, that allows to create outstanding
 menu's without html and css knowledge.
 
