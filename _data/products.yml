@@ -19,6 +19,9 @@
     - title: Crawler
       url: /extensions/crawler/
 
+    - title: EasyBanners
+      url: /extensions/easybanners/
+
     - title: EasyCatalogImages
       url: /extensions/easycatalogimages/
       free: 1
