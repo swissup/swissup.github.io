@@ -8,6 +8,8 @@ category: Cache
 
 # Full Page Cache
 
+- [Installation](installation/)
+
 Full page cache makes your store faster.
 
 - Full page cache dashboard shows you the impact of cache module
