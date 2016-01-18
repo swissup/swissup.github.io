@@ -57,6 +57,9 @@
       url: /extensions/testimonials/
       free: 1
 
+    - title: Review Reminder
+      url: /extensions/reviewreminder/
+
     - title: Rich Snippets
       url: /extensions/richsnippets/
 
