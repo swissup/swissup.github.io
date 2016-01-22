@@ -12,15 +12,8 @@
     - title: Askit
       url: /extensions/askit/
 
-    - title: Attributepages
-      url: /extensions/attributepages/
-
     - title: Cache
       url: /extensions/cache/
-
-    - title: Configurable Swatches
-      url: /extensions/catalog-configurable-swatches/
-      free: 1
 
     - title: Crawler
       url: /extensions/crawler/
@@ -28,15 +21,8 @@
     - title: EasyBanners
       url: /extensions/easybanners/
 
-    - title: EasyCatalogImages
-      url: /extensions/easycatalogimages/
-      free: 1
-
     - title: Email
       url: /extensions/email/
-
-    - title: Firecheckout
-      url: /extensions/firecheckout/
 
     - title: Helpmate
       url: /extensions/helpmate/
@@ -47,24 +33,14 @@
     - title: Navigation Pro
       url: /extensions/navigationpro/
 
-    - title: Order Attachments
-      url: /extensions/order-attachments/
-
     - title: Prolabels
       url: /extensions/prolabels/
 
     - title: Sold Together
       url: /extensions/soldtogether/
 
-    - title: Testimonials
-      url: /extensions/testimonials/
-      free: 1
-
     - title: Review Reminder
       url: /extensions/reviewreminder/
-
-    - title: Rich Snippets
-      url: /extensions/richsnippets/
 
 # - title: Themes
 #   items:
