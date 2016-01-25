@@ -2,7 +2,8 @@
     <div class="mdl-layout__header-row">
         <span class="mdl-layout-title swissup-title">
             <a href="{{ "/" | prepend: site.baseurl }}">
-                <img src="{{ "/images/site/logo_text.png" | prepend: site.baseurl }}"/>
+                <img src="{{ "/images/site/logo_text.png" | prepend: site.baseurl }}"
+                     srcset="{{ "/images/site/logo_text.png" | prepend: site.baseurl }} 1x, {{ "/images/site/logo_text@2x.png" | prepend: site.baseurl }} 2x" alt="SwissUpLabs Logo"/>
             </a>
         </span>
         <div class="mdl-layout-spacer"></div>
