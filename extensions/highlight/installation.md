@@ -19,7 +19,7 @@ Please follow next steps to complete the installation:
     access rights.
 
 That's all. Now you can add Highlight widgets to any page using 
-[WYSIWYG editor][widget_wysiwyg_editor] or [CMS > Widgets][widget_widgets_page]
+[WYSIWYG editor][usage_wysiwyg_editor] or [CMS > Widgets][usage_widgets_page]
 page.
 
 ##### Next up
@@ -29,5 +29,5 @@ Great! Now you might want to see next:
 - [Highlight Widgets](/extensions/highlight/widgets/)
 - [Highlight Pages](/extensions/highlight/pages/)
 
-[widget_wysiwyg_editor]: /extensions/highlight/widgets/usage/#wysiwyg-editor
-[widget_widgets_page]: /extensions/highlight/widgets/usage/#widgets-page
+[usage_wysiwyg_editor]: /extensions/highlight/widgets/usage/#wysiwyg-editor
+[usage_widgets_page]: /extensions/highlight/widgets/usage/#widgets-page
