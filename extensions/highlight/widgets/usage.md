@@ -5,7 +5,7 @@ description: >
     Ways to use Highlight Widgets
 keywords: >
     highlight widget tutorial, wysiwyg editor, widgets page, xml layout update,
-    php inline code
+    php inline code, highlight howto
 category: Highlight
 ---
 

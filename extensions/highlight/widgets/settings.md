@@ -2,11 +2,9 @@
 layout: default
 title: Highlight Widget Settings
 description: >
-    Magento extension to show New, Featured, Popular, Bestseller and OnSale
-    products
+    Highlight widget settings
 keywords: >
-    magento featured products, magento product listing block, featured
-    products block on magento homepage
+    settings, attribute_code, link title, calculation period, highlight sort order
 category: Highlight
 ---
 

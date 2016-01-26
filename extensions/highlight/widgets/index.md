@@ -2,8 +2,7 @@
 layout: default
 title: Highlight Widgets
 description: >
-    Highlight widgets - convenient way to show magento products on your landing
-    page
+    Highlight widgets - convenient way to show promoted products on your store
 keywords: >
     magento featured products, magento new products, magento popular products,
     magento bestsellers, magento onsale products
