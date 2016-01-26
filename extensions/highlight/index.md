@@ -29,5 +29,7 @@ filtered by custom filters.
         - [XML Layout Update](widgets/usage/#xml-layout-update)
         - [PHP Inline Code](widgets/usage/#php-inline-code)
 3. [Pages](pages/)
-    - [Available Pages](pages/#list)
-    - [Configuration Settings](pages/#configuration)
+    - [Available Pages](pages/#available-pages)
+    - [Page Settings](pages/#settings)
+4. Use cases
+5. Troubleshooting
