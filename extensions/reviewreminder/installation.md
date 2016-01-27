@@ -31,9 +31,11 @@ Please follow next steps to complete the installation:
 * Navigate to `System > Configuration > Templates-Master > Review Reminder` and
 enable extension for any store you need.
 
-That's all. Navigate to your store and check how it looks.
+That's all. Now you can generate reminders for orders created before extension was installed, more info in  [Manual Order Indexing Section][manual_order_indexing]
 
 #### After you install an extension you can go to:
 
 * [Support](https://swissuplabs.com/contacts/)
 * [Forum](https://swissuplabs.com/magento-forum/)
+
+[manual_order_indexing]: /extensions/reviewreminder/#manual-order-indexing-section
