@@ -19,12 +19,12 @@ You can also index old orders to send reminders to customers who made orders bef
  - [General Section](#general-section)
  - [Email Settings Section](#email-settings-section)
  - [Manual Order Indexing Section](#manual-order-indexing-section)
-4. [Reminders grid](#grid)
- - [Reminder Information Tab](#reminder-information)
- - [Order Products Tab](#reminder-order-products)
- - [Email Preview Tab](#reminder-email-preview)
+4. [Reminders grid](#reminders-grid)
+ - [Reminder Information Tab](#reminder-information-tab)
+ - [Order Products Tab](#order-products-tab)
+ - [Email Preview Tab](#email-preview-tab)
 5. [Use cases](#use-cases)
- - [Change Email Template](#use-case-change-template)
+ - [Change Email Template](#change-email-template)
 
 ## Features
 
