@@ -1,46 +1,46 @@
-- title: Extensions
+- title: Magento 1.x Extensions
   items:
     - title: AjaxLayeredNavigation
-      url: /extensions/ajaxlayerednavigation/
+      url: /m1/ajaxlayerednavigation/
 
     - title: AjaxPro
-      url: /extensions/ajaxpro/
+      url: /m1/ajaxpro/
 
     - title: AjaxSearch
-      url: /extensions/ajaxsearch/
+      url: /m1/ajaxsearch/
 
     - title: Askit
-      url: /extensions/askit/
+      url: /m1/askit/
 
     - title: Cache
-      url: /extensions/cache/
+      url: /m1/cache/
 
     - title: Crawler
-      url: /extensions/crawler/
+      url: /m1/crawler/
 
     - title: EasyBanners
-      url: /extensions/easybanners/
+      url: /m1/easybanners/
 
     - title: Email
-      url: /extensions/email/
+      url: /m1/email/
 
     - title: Helpmate
-      url: /extensions/helpmate/
+      url: /m1/helpmate/
 
     - title: Highlight
-      url: /extensions/highlight/
+      url: /m1/highlight/
 
     - title: Navigation Pro
-      url: /extensions/navigationpro/
+      url: /m1/navigationpro/
 
     - title: Prolabels
-      url: /extensions/prolabels/
+      url: /m1/prolabels/
 
     - title: Sold Together
-      url: /extensions/soldtogether/
+      url: /m1/soldtogether/
 
     - title: Review Reminder
-      url: /extensions/reviewreminder/
+      url: /m1/reviewreminder/
 
 # - title: Themes
 #   items:
