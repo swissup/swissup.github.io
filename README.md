@@ -4,6 +4,22 @@
 
 ```bash
 git clone git@github.com:swissup/swissup.github.io.git && cd swissup.github.io
-bower install
+
+# Install bundler is you don't have it
+gem install bundler
+
+# Install dependencies
+bundle install
+```
+
+### Updating
+
+```bash
+bundle update
+```
+
+### Runing Locally
+
+```bash
 jekyll serve
 ```
