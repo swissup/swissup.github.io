@@ -12,10 +12,13 @@ safe: true
 lsi: false
 
 markdown: kramdown
+highlighter: nil
 kramdown:
   input: GFM
   hard_wrap: false
-  enable_coderay: false
+  # syntax_highlighter: nil
+  # syntax_highlighter_opts:
+  #   disable: false
 
 exclude:
   - bower_components/lunr.js/example/
