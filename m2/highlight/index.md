@@ -2,11 +2,11 @@
 layout: default
 title: Highlight
 description: >
-    Magento extension to show New, Featured, Popular, Bestseller and OnSale
+    Magento2 extension to show New, Featured, Popular, Bestseller and OnSale
     products
 keywords: >
-    magento featured products, magento product listing block, featured
-    products block on magento homepage
+    magento2 featured products, magento2 product listing block, featured
+    products block on magento2 homepage
 category: Highlight
 ---
 

@@ -34,18 +34,30 @@ Block Title
 
 ---
 
-###### Link title to highlight page | `page_title`
+###### Show Page Link | `show_page_link`
+
+Flag to indicate that link to highliht page should be shown
+
+---
+
+###### Page Url | `page_url`
+
+
+
+---
+
+###### Link title to highlight page | `page_link_title`
 
 Link title, that will point user to the one of [highlight based pages][pages].
 
 This option is available for the following widgets:
 
 ```
-- highlight/product_new
-- highlight/product_featured
-- highlight/product_special
-- highlight/product_popular
-- highlight/product_bestseller
+- Swissup\Highlight\Block\ProductList\Featured
+- Swissup\Highlight\Block\ProductList\NewList
+- Swissup\Highlight\Block\ProductList\Onsale
+- Swissup\Highlight\Block\ProductList\Popular
+- Swissup\Highlight\Block\ProductList\Bestsellers
 ```
 
 ---
@@ -56,10 +68,21 @@ Number of products to show in block.
 
 ---
 
-###### Number of Columns to Display | `column_count`
+###### Display Page Control | `show_pager`
 
-Number of columns in product listing. Used for grid listing mode. May be used 
-in custom template too.
+Flag that indicates, that pagination should be used
+
+---
+
+###### Number of Product per Page | `products_per_page`
+
+Number of products per page.
+
+---
+
+###### Page var name | `page_var_name`
+
+
 
 ---
 
@@ -68,11 +91,12 @@ in custom template too.
 Template to use for widget block. Available options:
 
 ```
-- Custom        ``
-- Grid          `tm/highlight/product/grid.phtml`
-- List          `tm/highlight/product/list.phtml`
-- Sidebar Grid  `tm/highlight/product/sidebar/grid.phtml`
-- Sidebar List  `tm/highlight/product/sidebar/list.phtml`
+- Custom                    
+- Grid                      Swissup_Highlight::product/widget/content/grid.phtml
+- List                      Swissup_Highlight::product/widget/content/list.phtml
+- Sidebar Images and Names  Swissup_Highlight::product/widget/column/list.phtml
+- Sidebar Images            Swissup_Highlight::product/widget/column/list_images.phtml
+- Sidebar Names             Swissup_Highlight::product/widget/column/list_names.phtml
 ```
 
 ---
@@ -84,9 +108,9 @@ string.
 
 ---
 
-###### Block Class Name | `class_name`
+###### Block Css Class | `css_class`
 
-Unique css class name. It must be unique per page.
+Additional css classes.
 
 ### Product collection options
 
@@ -98,44 +122,16 @@ collection filters.
 This option is available for the following widgets:
 
 ```
-- highlight/product_attribute_yesno
-- highlight/product_attribute_date
+- Swissup\Highlight\Block\ProductList\Attribute\Date
+- Swissup\Highlight\Block\ProductList\Attribute\Yesno
 ```
 
 ---
 
-###### SKU Filter | `sku_filter`
+###### Conditions | `conditions_encoded`
 
-Comma separated product sku's
-
----
-
-###### Category Filter | `category_filter`
-
-Comma separated category ids. 
-
-> `current` keyword may be used to filter products by currently viewed category
-
----
-
-###### Price Filter  | `price_filter`
-
-Comma separated min and max prices
-
----
-
-###### Product Type Filter | `product_type_filter`
-
-Comma separated products types to show. Available options:
-
-```
-- simple
-- configurable
-- grouped
-- bundle
-- downloadable
-- virtual
-```
+Magento built-in conditions support. Use them to filter product by product 
+attribute, category or price.
 
 ---
 
@@ -147,7 +143,29 @@ Period that will be used to filter popular and bestseller products.
 
 ###### Sort Order | `order`
 
-Collection sort order. Can't be used with `attribute_date` based widgets.
+Collection sort order.
+
+Available options:
+
+```
+- default       - Use default block type sort order
+- position      - Sort by product position attribute
+- price         - Sort by price
+- name          - Sort by name
+- entity_id     - Sort by product ID
+- random        - Sort by rand
+```
+
+---
+
+###### Sort Direction | `dir`
+
+Available options:
+
+```
+- asc
+- desc
+```
 
 ##### Next up
 

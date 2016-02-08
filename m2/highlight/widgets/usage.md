@@ -29,53 +29,51 @@ utilize `Insert Widget` button.
 
 1. Press `Insert Widget` button.
 
-    ![Insert Widget Button](/images/highlight/insert_widget_button.png)
+    ![Insert Widget Button](/images/m2/highlight/insert_widget_button.png)
 
 2. Select one of available highlight widgets in `Widget Type` dropdown.
 
-    ![Widgets Dropdown](/images/highlight/widgets_dropdown.png)
+    ![Widgets Dropdown](/images/m2/highlight/widgets_dropdown.png)
 
 3. Fill `Widget Options` form with values you'd like to. See the
     [Widget Settings][widget_settings] page, if you are not sure about some 
     options.
 
-    ![Widget Form](/images/highlight/widget_form.png)
+    ![Widget Form](/images/m2/highlight/widget_form.png)
 
 4. Press `Insert Widget` button at the right top corner of widget popup.
 5. Save your cms page.
 
 ## Widgets Page
 
-Magento's `CMS > Widgets` page allows easily add custom content to almost all 
+Magento's `Content > Widgets` page allows easily add custom content to almost all 
 frontend pages. This method is highly recommended to insert highlight widgets.
 
 **Example below shows how to add widget to the Product Page**
 
-1. Navigate to `CMS > Widgets` and press `Add New Widget Instance` button in the
+1. Navigate to `Content > Widgets` and press `Add Widget` button in the
     right top corner of the page.
 
-    ![Widget Instances Grid](/images/highlight/widget_instances_grid.png)
+    ![Widget Instances Grid](/images/m2/highlight/widget_instances_grid.png)
 
 2. Select one of available highlight widgets in `Widget Type` dropdown and your
     theme in `Design Package/Theme` dropdown and press `Continue`.
 
-    ![New Widget Instance form](/images/highlight/new_widget_instance.png)
+    ![New Widget Instance form](/images/m2/highlight/new_widget_instance.png)
 
 3. Now you should fill the form with two tabs: `Frontend Properties` and
     `Widget Options`. Lets fill the first one:
 
-    ![Widget Instance Frontend Properties](/images/highlight/new_widget_instance_frontend_properties.png)
+    ![Widget Instance Frontend Properties](/images/m2/highlight/new_widget_instance_frontend_properties.png)
 
     And the second one:
 
-    ![Widget Instance Options](/images/highlight/new_widget_instance_widget_options.png)
+    ![Widget Instance Options](/images/m2/highlight/new_widget_instance_widget_options.png)
 
     See the [Widget Settings][widget_settings] page, if you are not sure about 
     some options.
 
-4. Save widget and navigate to product page:
-
-    ![Highlight Widget on Product Page](/images/highlight/new_widget_instance_on_product_page.png)
+4. Save widget and navigate to product page.
 
 ## XML Layout Update
 
@@ -86,14 +84,25 @@ Here is an xml layout skeleton, that could be used to write code to call any kin
 of highlight widget:
 
 ```xml
-<block type="highlight/product_featured" name="highlight.featured">
-    <action method="setTemplate"><template>tm/highlight/product/grid.phtml</template></action>
-    <action method="setTitle"><title>Featured Products</title></action>
-    <action method="setProductsCount"><count>4</count></action>
-    <action method="setColumnCount"><count>4</count></action>
-    <action method="setClassName"><name>highlight-featured</name></action>
-    <action method="setPageTitle"><title>See All Featured Products</title></action>
-</block>
+<referenceContainer name="content">
+    <block class="Swissup\Highlight\Block\ProductList\Featured" name="highlight.featured">
+        <action method="setTemplate">
+            <argument name="template" xsi:type="string">Swissup_Highlight::product/widget/column/list.phtml</argument>
+        </action>
+        <action method="setTitle">
+            <argument name="title" xsi:type="string">Featured Products</argument>
+        </action>
+        <action method="setProductsCount">
+            <argument name="products_count" xsi:type="number">4</argument>
+        </action>
+        <action method="setCssClass">
+            <argument name="css_class" xsi:type="string">highlight-featured</argument>
+        </action>
+        <action method="setPageTitle">
+            <argument name="page_title" xsi:type="string">See All Featured Products</argument>
+        </action>
+    </block>
+</referenceContainer>
 ```
 
 ## PHP Inline Code
@@ -106,15 +115,23 @@ of highlight widget:
 
 ```php
 <?php
-$this->getLayout()
-    ->createBlock('highlight/product_attribute_yesno')
-    ->setAttributeCode('featured')
-    ->setTemplate('tm/highlight/product/grid.phtml')
+echo $this->getLayout()
+    ->createBlock('Swissup\Highlight\Block\ProductList\All')
+    ->setTemplate('Swissup_Highlight::product/widget/content/grid.phtml')
+    ->setProductsCount(20)
     ->setTitle('Featured Products')
-    ->setProductsCount(4)
-    ->setColumnCount(4)
-    ->setClassName('highlight-featured')
-    ->setPageTitle('See All Featured Products')
+
+    // show pager
+    ->setShowPager(true)
+    ->setProductsPerPage(5)
+    ->setPageVarName('page-highlight-all')
+
+    // show link to custom page
+    ->setShowPageLink(true)
+    ->setPageLinkTitle('See all Featured Products')
+    ->setPageUrl('test/test.html')
+
+    // render block
     ->toHtml();
 ?>
 ```

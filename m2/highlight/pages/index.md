@@ -34,14 +34,16 @@ Popular         | http://example.com/highlight/popular.html
 Bestsellers     | http://example.com/highlight/bestsellers.html
 
 ## Settings
-Configuration is located at `System > Configuration > Highlight` page.
+Configuration is located at `Stores > Configuration > Swissup > Highlight Pages` 
+page.
 
 Each page has configuration settings that allows to change page title and URL.
 
-![Highlight Pages Configuration](/images/highlight/pages/configuration.png)
+![Highlight Pages Configuration](/images/m2/highlight/pages/configuration.png)
 
-`Calculation period` - option that allows to filter products collection by time 
-period to get recent Bestsellers and Popular products.
+Bestsellers and Popular products settings allows to set `Calculation period` option.
+This option allows to filter products collection by time period to get recent 
+Bestsellers and Popular products.
 
 ##### Next up
 
