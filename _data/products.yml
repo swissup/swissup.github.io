@@ -42,6 +42,11 @@
     - title: Review Reminder
       url: /m1/reviewreminder/
 
+- title: Magento 2.x Extensions
+  items:
+    - title: Highlight
+      url: /m2/highlight/
+
 # - title: Themes
 #   items:
 #     - title: Absolute Theme
