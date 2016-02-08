@@ -10,9 +10,8 @@ category: Highlight
 
 Please follow next steps to complete the installation:
 
- 1. Check if your Magento store cache is enabled.
- 2. Unpack extension archive into `<magento_root>/app/code`.
- 3. Run the following commands in terminal:
+ 1. Unpack extension archive into `<magento_root>/app/code`.
+ 2. Run the following commands in terminal:
     
     ```bash
     cd <magento_root>
