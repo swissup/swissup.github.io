@@ -17,11 +17,12 @@ category: Email
 
  2. Press "Add new" button
 
- 3. Specify the Name
-    Choose Type from drop-down
-    Fill all required fields
-    Before enabling you have to click `Save and Continue` and `Check service` buttons
-    Enable/Disable
+ 3. Create service
+    - Specify the Name
+    - Choose Type from drop-down
+    - Fill all required fields
+    - Before enabling you have to click `Save and Continue` and `Check service` buttons
+    - Enable/Disable
 
  4. Navigate to
 
