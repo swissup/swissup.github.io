@@ -50,6 +50,9 @@
     - title: Store Maintenance
       url: /m2/store-maintenance/
 
+    - title: Email
+      url: /m2/email/
+
 # - title: Themes
 #   items:
 #     - title: Absolute Theme
