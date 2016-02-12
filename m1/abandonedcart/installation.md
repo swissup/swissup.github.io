@@ -1,12 +1,13 @@
 ---
 layout: default
-title: Review Reminder
-description: magento review reminder module installation
-keywords: " magento review reminder extension, magento review reminder email "
-category: Review Reminder
+title: Abandoned Cart Manager
+description: magento shopping cart abandonment module installation
+keywords: " magento shopping cart abandonment, magento abandoned cart, magento
+abandoned cart email"
+category: Abandoned Cart Manager
 ---
 
-# Review Reminder installation instructions
+# Abandoned Cart Manager installation instructions
 
 Please follow next steps to complete the installation:
 
@@ -18,14 +19,12 @@ mode for your store.
 5. Logout from your store admin and then login back, to refresh your admin user
 access rights.
 
-* Navigate to `System > Configuration > Templates-Master > Review Reminder` and
+* Navigate to `System > Configuration > Templates-Master > AbandonedCart` and
 enable extension for any store you need.
 
-That's all. Now you can generate reminders for orders created before extension was installed, more info in  [Manual Order Indexing Section][manual_order_indexing]
+That's all. Navigate to your store and check how it looks.
 
 #### After you install an extension you can go to:
 
 * [Support](https://swissuplabs.com/contacts/)
 * [Forum](https://swissuplabs.com/magento-forum/)
-
-[manual_order_indexing]: /m1/reviewreminder/#manual-order-indexing-section

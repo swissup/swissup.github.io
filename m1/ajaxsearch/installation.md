@@ -11,23 +11,13 @@ category: Ajax Search
 
 Please follow next steps to complete the installation:
 
-* Turn store compilation off:
-
-    Navigate to `Admin > Tools > Compilation` and deactivate the compilation
-    mode for your store.
-
-* Check if your Magento store cache is enabled.
-
-* Copy all files into your magento directory:
-
-    Simply copy all files from `"extension source x.x.x"` directory into your
-    magento store directory.
-
-* Refresh your magento store cache.
-
-* Refresh your admin user access rights:
-
-    Simply logout from your store admin and then login back.
+1. Navigate to `Admin > Tools > Compilation` and deactivate the compilation
+mode for your store.
+2. Check if your Magento store cache is enabled.
+3. Unpack all files from extension archive into your magento store root directory.
+4. Refresh your magento store cache.
+5. Logout from your store admin and then login back, to refresh your admin user
+access rights.
 
 * Navigate to `System > Configuration > Templates-Master > AjaxSearch` and
 enable extension for any store you need.

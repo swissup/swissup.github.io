@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Ask It
-description: magento product questions askit module installation
-keywords: " magento product questions module, product questions on magento
-product page, magento askit module installation "
-category: Ask It
+title: Easy Color Swatches
+description: magento color swatches module installation
+keywords: " magento color swatches, magento color swatch extension, magento color
+swatch, add color swatches magento "
+category: Easy Color Swatches
 ---
 
-# Ask It installation instructions
+# Easy Color Swatches installation instructions
 
 Please follow next steps to complete the installation:
 
@@ -19,17 +19,8 @@ mode for your store.
 5. Logout from your store admin and then login back, to refresh your admin user
 access rights.
 
-* Navigate to `System > Configuration > Templates-Master > Askit` and
+* Navigate to `System > Configuration > Templates-Master > EasyColorSwatches` and
 enable extension for any store you need.
-
-* Please add the following code where you want to show Ask It product questions
-block.
-
-```html
-<!-- AskIt start-->
-<?php echo $this->helper('askit')->getLinkHtml($_product) ?>
-<!-- AskIt end-->
-```
 
 That's all. Navigate to your store and check how it looks.
 
@@ -37,4 +28,3 @@ That's all. Navigate to your store and check how it looks.
 
 * [Support](https://swissuplabs.com/contacts/)
 * [Forum](https://swissuplabs.com/magento-forum/)
-
