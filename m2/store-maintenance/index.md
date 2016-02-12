@@ -28,6 +28,7 @@ visitors, whether new or returning, happy.
     - [General](settings/#general)
     - [Access to frontend](settings/#access-to-frontend)
     - [Maintenance page header](settings/#maintenance-page-header)
+3. [Customize maintenance page](customize-page/)
 
 ### Technical note
 
