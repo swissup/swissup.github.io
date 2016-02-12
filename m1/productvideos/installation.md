@@ -1,13 +1,14 @@
 ---
 layout: default
-title: Ask It
-description: magento product questions askit module installation
-keywords: " magento product questions module, product questions on magento
-product page, magento askit module installation "
-category: Ask It
+title: Product Videos
+description: magento product videos module installation
+keywords: " magento product videos, magento product video gallery extension,
+add video magento product, add youtube video magento product, magento video
+extension "
+category: Product Videos
 ---
 
-# Ask It installation instructions
+# Product Videos installation instructions
 
 Please follow next steps to complete the installation:
 
@@ -19,17 +20,11 @@ mode for your store.
 5. Logout from your store admin and then login back, to refresh your admin user
 access rights.
 
-* Navigate to `System > Configuration > Templates-Master > Askit` and
+* Navigate to `System > Configuration > Templates-Master > Product Videos` and
 enable extension for any store you need.
 
-* Please add the following code where you want to show Ask It product questions
-block.
-
-```html
-<!-- AskIt start-->
-<?php echo $this->helper('askit')->getLinkHtml($_product) ?>
-<!-- AskIt end-->
-```
+* Navigate to `System > Configuration > Templates-Master > Product Videos` and
+enable jQuery.
 
 That's all. Navigate to your store and check how it looks.
 
@@ -37,4 +32,3 @@ That's all. Navigate to your store and check how it looks.
 
 * [Support](https://swissuplabs.com/contacts/)
 * [Forum](https://swissuplabs.com/magento-forum/)
-

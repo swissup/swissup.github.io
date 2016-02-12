@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Ask It
-description: magento product questions askit module installation
-keywords: " magento product questions module, product questions on magento
-product page, magento askit module installation "
-category: Ask It
+title: Easy Slider
+description: magento slider module installation
+keywords: " magento slider on homepage, magento slider extension, magento image
+slider, magento slider on product page "
+category: Easy Slider
 ---
 
-# Ask It installation instructions
+# Easy Slider installation instructions
 
 Please follow next steps to complete the installation:
 
@@ -19,17 +19,8 @@ mode for your store.
 5. Logout from your store admin and then login back, to refresh your admin user
 access rights.
 
-* Navigate to `System > Configuration > Templates-Master > Askit` and
+* Navigate to `System > Configuration > Templates-Master > Easy Slider` and
 enable extension for any store you need.
-
-* Please add the following code where you want to show Ask It product questions
-block.
-
-```html
-<!-- AskIt start-->
-<?php echo $this->helper('askit')->getLinkHtml($_product) ?>
-<!-- AskIt end-->
-```
 
 That's all. Navigate to your store and check how it looks.
 
@@ -37,4 +28,3 @@ That's all. Navigate to your store and check how it looks.
 
 * [Support](https://swissuplabs.com/contacts/)
 * [Forum](https://swissuplabs.com/magento-forum/)
-

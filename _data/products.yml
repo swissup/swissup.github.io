@@ -18,11 +18,20 @@
     - title: Crawler
       url: /m1/crawler/
 
+    - title: Daily Deals
+      url: /m1/dailydeals/
+
     - title: EasyBanners
       url: /m1/easybanners/
 
     - title: Email
       url: /m1/email/
+
+    - title: EasySlider
+      url: /m1/easyslider/
+
+    - title: EasyTabs
+      url: /m1/easytabs/
 
     - title: Helpmate
       url: /m1/helpmate/
@@ -30,17 +39,32 @@
     - title: Highlight
       url: /m1/highlight/
 
+    - title: Lightbox Pro
+      url: /m1/lightboxpro/
+
     - title: Navigation Pro
       url: /m1/navigationpro/
 
+    - title: Newsletter Booster
+      url: /m1/newsletterbooster/
+
     - title: Prolabels
       url: /m1/prolabels/
+
+    - title: Product Videos
+      url: /m1/productvideos/
+
+    - title: Quick Shopping
+      url: /m1/quickshopping/
 
     - title: Sold Together
       url: /m1/soldtogether/
 
     - title: Review Reminder
       url: /m1/reviewreminder/
+
+    - title: Rich Snippets
+      url: /m1/richsnippets/
 
 - title: Magento 2.x Extensions
   items:
