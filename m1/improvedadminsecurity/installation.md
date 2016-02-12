@@ -10,7 +10,7 @@ category: Improved Admin Security
 
 # Improved Admin Security installation instructions
 
-###Before extension installation
+### Before extension installation
 
 Please check if your mobile device is compatible with Google Authenticator
 mobile application. Our Google Authenticator extension is compatible with every
