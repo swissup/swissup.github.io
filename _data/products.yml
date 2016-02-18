@@ -81,6 +81,9 @@
     - title: Highlight
       url: /m2/highlight/
 
+    - title: Review Reminder
+      url: /m2/reviewreminder/
+
     - title: Store Maintenance
       url: /m2/store-maintenance/
 
