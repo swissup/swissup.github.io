@@ -76,6 +76,9 @@
     - title: Rich Snippets
       url: /m1/richsnippets/
 
+    - title: Testimonials
+      url: /m1/testimonials/
+
 - title: Magento 2.x Extensions
   items:
     - title: Highlight
@@ -89,6 +92,9 @@
 
     - title: Email
       url: /m2/email/
+
+    - title: Testimonials
+      url: /m2/testimonials/
 
 # - title: Themes
 #   items:
