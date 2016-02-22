@@ -31,15 +31,13 @@ Shows rotating testimonials list in side panel.
 
 *  Using widget:
 
-```
-{% raw %}
-{{widget type="testimonials/widget_list" show_block_design="1" items_number="5" view_time="10000" anim_duration="1000"}}
-{% endraw %}
+```txt
+{% raw %}{{widget type="testimonials/widget_list" show_block_design="1" items_number="5" view_time="10000" anim_duration="1000"}}{% endraw %}
 ```
 
  *  Using layout XML:
 
-{% highlight xml %}
+```xml
 <reference name='left'>
     <block type="testimonials/widget_list" name="testimonials">
         <action method="setShowBlockDesign"><flag>0</flag></action>
@@ -48,7 +46,7 @@ Shows rotating testimonials list in side panel.
         <action method="setAnimDuration"><value>1000</value></action>
     </block>
 </reference>
-{% endhighlight %}
+```
 
 Options:
 
@@ -63,15 +61,13 @@ Shows number of testimonials and average testimonial rating in side panel.
 
  *  Using widget:
 
-```
-{% raw %}
-{{widget type="testimonials/widget_review" show_block_design="1"}}
-{% endraw %}
+```txt
+{% raw %}{{widget type="testimonials/widget_review" show_block_design="1"}}{% endraw %}
 ```
 
  *  Using layout XML:
 
-{% highlight xml %}
+```xml
 <reference name='left'>
     <block type="testimonials/widget_review" name="testimonials">
         <action method="setShowBlockDesign">
@@ -79,7 +75,7 @@ Shows number of testimonials and average testimonial rating in side panel.
         </action>
     </block>
 </reference>
-{% endhighlight %}
+```
 
 Options:
 
@@ -91,15 +87,13 @@ Full testimonials list to use on custom CMS pages.
 
  *  Using widget:
 
-```
-{% raw %}
-{{widget type="testimonials/widget_listFull" show_title="1"}}
-{% endraw %}
+```txt
+{% raw %}{{widget type="testimonials/widget_listFull" show_title="1"}}{% endraw %}
 ```
 
  *  Using layout XML:
 
-{% highlight xml %}
+```xml
 <reference name='content'>
     <block type="testimonials/widget_listFull" name="testimonials">
         <action method="setShowTitle">
@@ -107,7 +101,7 @@ Full testimonials list to use on custom CMS pages.
         </action>
     </block>
 </reference>
-{% endhighlight %}
+```
 
 Options:
 
@@ -119,28 +113,26 @@ Testimonials submit form to use on custom CMS pages.
 
  *  Using widget:
 
-```
-{% raw %}
-{{widget type="testimonials/widget_form"}}
-{% endraw %}
+```txt
+{% raw %}{{widget type="testimonials/widget_form"}}{% endraw %}
 ```
 
  *  Using layout XML:
 
-{% highlight xml %}
+```xml
 <reference name='content'>
     <block type="testimonials/widget_form" name="testimonials">
     </block>
 </reference>
-{% endhighlight %}
+```
 
 ##### Testimonial submit form captcha in widget
 
 To show captcha in testimonial submit form inserted with widget, you need to include captcha javascript
 to cms page. Go to `Design` tab of CMS page edit form, insert following xml code in `Layout Update XML` field and press `Save Page` button:
 
-{% highlight xml %}
+```xml
 <reference name="head">
    <action method="addJs"><file>mage/captcha.js</file></action>
 </reference>
-{% endhighlight %}
+```

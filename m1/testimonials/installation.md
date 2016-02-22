@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Testimonials
+title: Testimonials Installation
 description: magento testimonials module installation
 keywords: " magento testimonials extension "
 category: Testimonials
