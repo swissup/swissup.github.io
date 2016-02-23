@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Easy Tabs
+title: Easy Tabs Installation
 description: magento product tabs module installation
 keywords: " magento product tabs, magento product tabs extension free, add tabs
 magento product page "
@@ -22,9 +22,10 @@ access rights.
 * Navigate to `System > Configuration > Templates-Master > Easy Tabs` and
 enable extension for any store you need.
 
-That's all. Navigate to your store and check how it looks.
+That's all. Now you can configure tabs in [Easytabs Grid][easytabs_grid]
 
 #### After you install an extension you can go to:
 
-* [Support](https://swissuplabs.com/contacts/)
-* [Forum](https://swissuplabs.com/magento-forum/)
+* [Easytabs Grid][easytabs_grid]
+
+[easytabs_grid]: /m1/easytabs/#easytabs-grid
