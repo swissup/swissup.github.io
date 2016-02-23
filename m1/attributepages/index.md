@@ -50,6 +50,8 @@ Product listing filtered by option | Brand landing page
 - [Display brand block on category page](use-cases/brand-block-on-category-page/)
 - [Display brand block in recently viewed products block](use-cases/brand-block-in-recently-viewed-block/)
 
+##### [Third-Party modules integration](third-party-modules-integration/)
+
 ##### Related Articles
 - ["Browse By" menu item with attributepages list (NavigationPro)](/m1/navigationpro/siblings/browse-by-with-attributepages-list/)
 - ["Brands" menu item with dropdown content (NavigationPro)](/m1/navigationpro/siblings/brands-with-dropdown-content/)
