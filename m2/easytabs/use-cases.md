@@ -11,8 +11,22 @@ category: Easy Tabs
 
 ### Contents
 
-1. [Dynamic tab titles](#dynamic-tab-titles)
-2. [Unset multiple blocks](#unset-multiple-blocks)
+1. [Activate and scroll to tab on external link click](#activate-and-scroll-to-tab-on-external-link-click)
+2. [Dynamic tab titles](#dynamic-tab-titles)
+3. [Unset multiple blocks](#unset-multiple-blocks)
+
+### Activate and scroll to tab on external link click
+
+If you need direct link to tab, use tab `alias` in link `href` attribute and insert link where you need:
+
+```html
+<a href="#TAB_ALIAS_FROM_BACKEND" class="action view">Description</a>
+```
+For example, the link below will activate the description tab:
+
+```html
+<a href="#product.info.description" class="action view">Description</a>
+```
 
 ### Dynamic tab titles
 
