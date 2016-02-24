@@ -19,6 +19,8 @@ category: Easy Tabs
 4. [Reccuring info tab](#reccuring-info-tab)
 5. [Dynamic tab titles](#dynamic-tab-titles)
 6. [Unset multiple blocks](#unset-multiple-blocks)
+7. [Duplicated tabs on product page](#duplicated-tabs-on-product-page)
+8. [No tabs after installation](#no-tabs-after-installation)
 
 ### Activate and scroll to tab on external link click
 
@@ -186,3 +188,28 @@ Examples:
 
 1. `parent_block1::block_to_unset1,parent_block2::block_to_unset2`
 2. `right::catalog.product.related,product.info::related_products`
+
+### Duplicated tabs on product page
+
+Many custom magento themes already contain own tabs added in layout xml files. When you install EasyTabs in such themes, you can see tabs block twice on product page. To fix it, open your theme `catalog.xml` or `local.xml` and find tabs block, it can be looking like this:
+
+```xml
+<block type="catalog/product_view_tabs" name="product.info.tabs" as="info_tabs" template="catalog/product/view/tabs.phtml" >
+    <!-- Product description -->
+    <action method="addTab" translate="title" module="catalog"><alias>description</alias><title>Product Description</title><block>catalog/product_view_description</block><template>catalog/product/view/description.phtml</template></action>
+    <!-- Product attributes -->
+    <action method="addTab" translate="title" module="catalog"><alias>additional</alias><title>Additional Information</title><block>catalog/product_view_attributes</block><template>catalog/product/view/attributes.phtml</template></action>
+    <!-- Reviews-->
+    <action method="addTab" translate="title" module="review"><alias>tabreviews</alias><title>Reviews</title><block>advancedreviews/product_reviews</block><template>advancedreviews/product/reviews.phtml</template></action>
+</block> <!-- end: tabs -->
+```
+
+Make layout xml file backup and remove this block, refresh cache.
+
+### No tabs after installation
+
+If you do not see tabs on product page after installation:
+
+1. check if you enabled extension in `System > Configuration > Templates-Master > EasyTabs > General > Enabled`
+2. check if module output is not disabled in `System > Configuration > Advanced > Advanced > Disable Modules Output > TM_EasyTabs`
+3. open your theme `catalog.xml` and check if your theme has `product.info.additional` block in `catalog_product_view` section. If not, add it or change reference to `content` or other existing block in `app/design/frontend/base/default/layout/tm/easytabs.xml`
