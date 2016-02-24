@@ -15,7 +15,7 @@ Please follow next steps to complete the installation:
     
     ```bash
     cd <magento_root>
-    bin/magento module:enable Swissup_Core Swissup_Highlight
+    bin/magento module:enable Swissup_Core Swissup_SubscriptionChecker Swissup_Highlight
     bin/magento setup:upgrade
     ```
 
