@@ -31,6 +31,9 @@
     - title: EasyBanners
       url: /m1/easybanners/
 
+    - title: Easy Catalog Images
+      url: /m1/catalogimages/
+
     - title: Easy Color Swatches
       url: /m1/colorswatches/
 
@@ -101,6 +104,9 @@
 
     - title: Testimonials
       url: /m2/testimonials/
+
+    - title: Easy Catalog Images
+      url: /m2/catalogimages/
 
 # - title: Themes
 #   items:
