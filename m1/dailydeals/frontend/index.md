@@ -10,11 +10,11 @@ category: Daily Deals
 
 - [Features right from the box](features-right-from-the-box/)
 - [Checkout feature](checkout-feature/)
-- [Additional features](#)
-	* [Deal timer for product on category page](#)
-	* [Other products with discount on today’s deals page](#)
-	* [Deal label](#)
-	* [Custom deal timer](#)
-	* [Widgets](#)
-	* [Description for page with active deals](#)
+- [Additional features](additional-features/)
+	* [Deal timer on category page](additional-features/deal-timer-on-category-page/)
+	* [Other products with discount on deals page](additional-features/other-products-with-discount/)
+	* [Deal label](additional-features/deal-label/)
+	* [Custom deal timer](additional-features/custom-deal-timer/)
+	* [Widgets](additional-features/widgets/)
+	* [Description for deals page](additional-features/description-for-deals-page/)
 
