@@ -35,3 +35,6 @@ weekend deal or periodic friday night deal.
 		* [Custom deal timer](frontend/additional-features/custom-deal-timer/)
 		* [Widgets](frontend/additional-features/widgets/)
 		* [Description for deals page](frontend/additional-features/description-for-deals-page/)
+4. [Use cases](use-cases/)
+	- [Timer can not find jQuery](use-cases/#timer-can-not-find-jquery)
+	- [jQuery(...) is not a function](use-cases/#jquery-is-not-a-function)
