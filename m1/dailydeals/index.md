@@ -17,6 +17,7 @@ Also with our extension you can create periodic deals. For example, periodic
 weekend deal or periodic friday night deal.
 
 1. [Installation](installation/)
+	- [Update from version 1.0.1](installation/#update-from-version-101)
 2. [Backend](backend/)
 	- [Create deal](backend/create-deal/)
 		* [General](backend/create-deal/#general-tab)

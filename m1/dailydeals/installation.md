@@ -8,6 +8,8 @@ category: Daily Deals
 
 # Installation
 
+* [Update from version 1.0.1](#update-from-version-101)
+
 Please follow next steps to complete the installation:
 
 1. Go to your magento store root directory (via FTP or CPanel).
