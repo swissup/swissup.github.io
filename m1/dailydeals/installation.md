@@ -26,6 +26,18 @@ If you can not find Daily Deals extension in store admin, check cache management
 and refresh cache if it is enabled. Does not help? Check store compilation and
 run recompilation if it is enabled.
 
+#### Update from version 1.0.1
+
+If you upgrade from previous from extension verion 1.0.1 you can delete useless
+files and directories (or you may leave them; they cause no harm):
+
+```
+app/code/local/TM/CountdownTimer
+app/code/local/TM/DailyDeals/Model/Deal/Product.php
+app/code/local/TM/DailyDeals/Model/Product.php
+app/code/local/TM/DailyDeals/Model/Resource/Product.php
+app/code/local/TM/DailyDeals/Model/Resource/Product/Collection.php
+```
 
 #### After you install an extension you can go to:
 
