@@ -51,9 +51,14 @@ If on frontend you see text `Flip timer can not find jQuery` or
 
 #### jQuery(...) is not a function
 
-Such java script error occurs when any other extension uses jQuery too. That
-other extension loads jQuery after timer was initilized. To solve this problem
-you have to turn off jQuery loading for that extension.
+Such java script error occurs when any other extension uses jQuery too. And that
+extension loads jQuery after timer was initilized. To solve this problem
+you have to turn off jQuery loading for that extension. Here is some our
+extensions that can cause such problem (every of it has option turn off jQuery
+loading):
+
+* [Ajax Layered Navigation](/m1/ajaxlayerednavigation/)
+* [Product Videos](/m1/productvideos/)
 
 In case of Argento theme package this error can be caused by
 `/app/design/frontend/base/default/layout/tm/configurableswatches.xml`. To solve
