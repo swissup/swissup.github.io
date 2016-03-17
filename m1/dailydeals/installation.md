@@ -30,8 +30,8 @@ run recompilation if it is enabled.
 
 #### Update from version 1.0.1
 
-If you upgrade from previous from extension verion 1.0.1 you can delete useless
-files and directories (or you may leave them; they cause no harm):
+If you upgrade from extension verion 1.0.1 you can delete useless files and
+directories (or you may leave them; they cause no harm):
 
 ```
 app/code/local/TM/CountdownTimer
