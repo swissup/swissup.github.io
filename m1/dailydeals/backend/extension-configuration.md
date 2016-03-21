@@ -27,5 +27,5 @@ link on Deals page.
 top of Deals page.
 
 `Add other products with discount to list`- use the setting in order to add all
-other products that have discount to products listing on Deals page. Please
+other products that have discount on products listing on Deals page. Please
 mention, Deals will be shown first.
