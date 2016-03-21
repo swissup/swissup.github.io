@@ -1,13 +1,14 @@
 ---
 layout: default
-title: AjaxPro Installation
-description: magento ajax module installation
-keywords: " magento ajax, magento ajax module, magento ajax call to block,
-magento ajax shopping cart, magento ajax cart pro "
-category: AjaxPro
+title: Smart Suggest Installation
+description: magento smart suggest module installation
+keywords: " magento recommended products, magento suggested products block,
+recommending products based on view history, suggest products module magento "
+category: Smart Suggest
 ---
 
-# Ajax Pro installation instructions
+
+# Smart Suggest installation instructions
 
 Please follow next steps to complete the installation:
 
@@ -19,7 +20,7 @@ mode for your store.
 5. Logout from your store admin and then login back, to refresh your admin user
 access rights.
 
-* Navigate to `System > Configuration > Templates-Master > AjaxPro` and
+* Navigate to `System > Configuration > Templates-Master > Smart Suggest` and
 enable extension for any store you need.
 
 That's all. Navigate to your store and check how it looks.

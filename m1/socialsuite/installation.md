@@ -1,13 +1,14 @@
 ---
 layout: default
-title: AjaxPro Installation
-description: magento ajax module installation
-keywords: " magento ajax, magento ajax module, magento ajax call to block,
-magento ajax shopping cart, magento ajax cart pro "
-category: AjaxPro
+title: Social Suite Installation
+description: magento social suite module installation
+keywords: " magento social media extension, magento social login extension,
+magento social media, magento social media plugin, magento social share,
+magento social share extension, magento facebook login "
+category: Social Suite
 ---
 
-# Ajax Pro installation instructions
+# Social Suite installation instructions
 
 Please follow next steps to complete the installation:
 
@@ -19,7 +20,7 @@ mode for your store.
 5. Logout from your store admin and then login back, to refresh your admin user
 access rights.
 
-* Navigate to `System > Configuration > Templates-Master > AjaxPro` and
+* Navigate to `System > Configuration > Templates-Master > Social Suite` and
 enable extension for any store you need.
 
 That's all. Navigate to your store and check how it looks.

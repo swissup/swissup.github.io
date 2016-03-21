@@ -1,13 +1,13 @@
 ---
 layout: default
-title: AjaxPro Installation
-description: magento ajax module installation
-keywords: " magento ajax, magento ajax module, magento ajax call to block,
-magento ajax shopping cart, magento ajax cart pro "
-category: AjaxPro
+title: Easy Flags Installation
+description: magento easy flags module installation
+keywords: " magento language switcher flag, magento enable language switcher, magento show language switcher, magento language selector "
+category: Easy Flags
 ---
 
-# Ajax Pro installation instructions
+
+# Easy Flags installation instructions
 
 Please follow next steps to complete the installation:
 
@@ -19,7 +19,7 @@ mode for your store.
 5. Logout from your store admin and then login back, to refresh your admin user
 access rights.
 
-* Navigate to `System > Configuration > Templates-Master > AjaxPro` and
+* Navigate to `System > Configuration > Templates-Master > Easy Flags` and
 enable extension for any store you need.
 
 That's all. Navigate to your store and check how it looks.
@@ -28,4 +28,3 @@ That's all. Navigate to your store and check how it looks.
 
 * [Support](https://swissuplabs.com/contacts/)
 * [Forum](https://swissuplabs.com/magento-forum/)
-

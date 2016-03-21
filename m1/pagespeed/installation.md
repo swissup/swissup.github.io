@@ -1,13 +1,13 @@
 ---
 layout: default
-title: AjaxPro Installation
-description: magento ajax module installation
-keywords: " magento ajax, magento ajax module, magento ajax call to block,
-magento ajax shopping cart, magento ajax cart pro "
-category: AjaxPro
+title: Page Speed Installation
+description: magento page speed module installation
+keywords: " magento speed extension, increase magento speed, improve magento speed, optimize magento speed, magento speed optimization, magento page speed module "
+category: Page Speed
 ---
 
-# Ajax Pro installation instructions
+
+# Page Speed installation instructions
 
 Please follow next steps to complete the installation:
 
@@ -19,7 +19,7 @@ mode for your store.
 5. Logout from your store admin and then login back, to refresh your admin user
 access rights.
 
-* Navigate to `System > Configuration > Templates-Master > AjaxPro` and
+* Navigate to `System > Configuration > Templates-Master > Page Speed` and
 enable extension for any store you need.
 
 That's all. Navigate to your store and check how it looks.

@@ -1,13 +1,19 @@
 ---
 layout: default
-title: AjaxPro Installation
-description: magento ajax module installation
-keywords: " magento ajax, magento ajax module, magento ajax call to block,
-magento ajax shopping cart, magento ajax cart pro "
-category: AjaxPro
+title: Prozoom Installation
+description: magento prozoom module installation
+keywords: " magento zoom, magento product image zoom,magento zoom image,
+magento zoom extension,magento product zoom extension,magento image zoom
+extension,product zoom magento,magento zoom product image,product zoom in
+magento,image zoom magento,product image zoom magento extension,product zoom
+extension in magento,magento cloud zoom extension,zoom image magento,
+zoom extension in magento,magento image zoom,magnifying image,image gallery
+with zoom effect,product image cloud zoom "
+category: Prozoom
 ---
 
-# Ajax Pro installation instructions
+
+# Prozoom installation instructions
 
 Please follow next steps to complete the installation:
 
@@ -19,7 +25,7 @@ mode for your store.
 5. Logout from your store admin and then login back, to refresh your admin user
 access rights.
 
-* Navigate to `System > Configuration > Templates-Master > AjaxPro` and
+* Navigate to `System > Configuration > Templates-Master > Prozoom` and
 enable extension for any store you need.
 
 That's all. Navigate to your store and check how it looks.

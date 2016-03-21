@@ -4,6 +4,9 @@
     - title: AbandonedCart
       url: /m1/abandonedcart/
 
+    - title: Affiliate Suite
+      url: /m1/affiliatesuite/
+
     - title: AjaxLayeredNavigation
       url: /m1/ajaxlayerednavigation/
 
@@ -40,6 +43,15 @@
     - title: Easy Color Swatches
       url: /m1/colorswatches/
 
+    - title: Easy Flags
+      url: /m1/easyflags/
+
+    - title: Easy Lightbox
+      url: /m1/easylightbox/
+
+    - title: Easy Navigation
+      url: /m1/easynavigation/
+
     - title: Email
       url: /m1/email/
 
@@ -48,6 +60,12 @@
 
     - title: EasyTabs
       url: /m1/easytabs/
+
+    - title: FacebookLikeButton
+      url: /m1/facebooklikebutton/
+
+    - title: Firecheckout
+      url: /m1/firecheckout/
 
     - title: Helpmate
       url: /m1/helpmate/
@@ -67,23 +85,35 @@
     - title: Newsletter Booster
       url: /m1/newsletterbooster/
 
+    - title: Page Speed
+      url: /m1/pagespeed/
+
     - title: Prolabels
       url: /m1/prolabels/
 
     - title: Product Videos
       url: /m1/productvideos/
 
+    - title: Prozoom
+      url: /m1/prozoom/
+
     - title: Quick Shopping
       url: /m1/quickshopping/
-
-    - title: Sold Together
-      url: /m1/soldtogether/
 
     - title: Review Reminder
       url: /m1/reviewreminder/
 
     - title: Rich Snippets
       url: /m1/richsnippets/
+
+    - title: Smart Suggest
+      url: /m1/smartsuggest/
+
+    - title: Social Suite
+      url: /m1/socialsuite/
+
+    - title: Sold Together
+      url: /m1/soldtogether/
 
     - title: Testimonials
       url: /m1/testimonials/
