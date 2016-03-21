@@ -8,8 +8,8 @@ category: Daily Deals
 
 # Edit deal
 
-Login to store backend and from top menu select `Templates Master` -> `Daily
-Deals`. It redirects you to ***"Manage Deals"*** page.
+Login store backend and navigate to `Templates Master` -> `Daily
+Deals` -> `Manage Deals`.
 
-Click on deal you want to edit in grid. After that you’ll get a form absolutely
-identical to form described in [Create deal](../create-deal/) paragraph.
+Please click on the deal you want to edit. After that you’ll see a form identical
+to form described in [Create deal](../create-deal/) paragraph.
