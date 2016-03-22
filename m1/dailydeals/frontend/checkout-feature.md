@@ -8,19 +8,19 @@ category: Daily Deals
 
 # Checkout feature
 
-There are two critical situations that can happen while customer placing order:
+There are two critical situations that can happen while placing the order by
+customer:
 
-- deal ends right before buyer clicked **`Place order`** on checkout;
-- store owner change deal or canceled before buyer clicked **`Place order`** on
+- deal ends before buyer clicked **`Place order`** on checkout;
+- store owner changes the amount of deal before buyer clicks **`Place order`** on
 checkout.
 
 In such cases can occur bad situation, when buyer saw one amount in order
-summary on checkout and this amount is different in final order.
+summary on checkout and the amount looks different in final order.
 
-That is why our extension has additional check to prevent buyers from unpleasant
-experience with your store. We redirect customer to shopping cart with a message
-if there are any mismatches during placing orders for products with deal.
+Our extension will help you to avoid unpleasant experience with your
+customers. We offer to redirect the customer to shopping cart with a message about
+any mismatches during placing orders with daily deals.
 
 This verification supports standard Magento Onepage and Multishipping Checkout
-and FireCheckout from Templates Master. If you have other checkout it also can
-be integrated in verification, just contact with our support team.
+and FireCheckout from Templates Master. If you have other checkout extension it would also be provided with verification feature. Please contact our support team.

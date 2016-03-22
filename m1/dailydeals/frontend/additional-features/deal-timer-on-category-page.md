@@ -8,11 +8,10 @@ category: Daily Deals
 
 # Deal timer on category page
 
-To add timer on category page you have to modify template little bit. In case of
-RWD theme path to template is
-`/app/design/frontend/rwd/default/template/catalog/product/list.phtml`.
-
-Code to add:
+In order to add the timer on category page, you have to modify the template.
+In case of RWD theme path to template is
+`/app/design/frontend/rwd/default/template/catalog/product/list.phtml`, add the
+following code.
 
 ```php
 <?php if (Mage::helper('core')->isModuleOutputEnabled('TM_DailyDeals')) : ?>
@@ -21,7 +20,7 @@ Code to add:
 ```
 
 This code should be added after `<h2 class="product-name">...</h2>`. It is near
-rows 68 and 134 for RWD theme. Result you can check on category view page for
-category that has products which are included in deal:
+rows 68 and 134 for RWD theme. You can check the result on catalog page. It will
+be applied to category that has products which are included in deal:
 
 ![Deal timer on category page](/images/dailydeals/frontend/deal-timer-on-category-page.png)

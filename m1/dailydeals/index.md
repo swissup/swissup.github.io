@@ -8,13 +8,13 @@ category: Daily Deals
 
 # Daily Deals
 
-By definition, daily deal is an ecommerce business model in which a website
+Daily deal is actually an ecommerce business model when a website
 offers a single product for sale for a period of 24 to 36 hours.
 
-Our extension allows you create deals that last one, two, three or more days.
-You can even make deal that lasts few weeks and include more than one product.
-Also with our extension you can create periodic deals. For example, periodic
-weekend deal or periodic friday night deal.
+Our extension allows you create deals which last one, two, three or more days.
+You can even make a deal will be active for a few weeks and will include more
+than one product. With our extension you could create periodic deals. For example,
+periodic Weekend deal or periodic Friday night deal.
 
 1. [Installation](installation/)
 	- [Update from version 1.0.1](installation/#update-from-version-101)

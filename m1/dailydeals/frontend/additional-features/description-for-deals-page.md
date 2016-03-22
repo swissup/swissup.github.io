@@ -10,7 +10,7 @@ category: Daily Deals
 
 ![Description for deals page example](/images/dailydeals/frontend/description-deals-page.png)
 
-You can customize description for page with active deals anyway you want. This
-description is CMS static block.  Go to `System` -> `Configuration` ->
-`Daily Deals` and check value of `Static block ID outputs on top` to find out
-identifier of that block.
+You can specify the description for page with active deals anyway you want. This
+description is CMS static block. Go to `System` -> `Configuration` ->
+`Daily Deals` and check the value of `Static block ID outputs on top` to find out
+an identifier of that block.

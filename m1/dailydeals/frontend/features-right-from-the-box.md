@@ -8,20 +8,20 @@ category: Daily Deals
 
 # Features right from the box
 
-After you create deal here is what you get on frontend (screenshots taken on RWD
-theme):
+Look at what you get on frontend after you create deal. Screenshots are taken from
+RWD theme:
 
 * **Product view page for product that is in deal look**
 
 ![Product view example](/images/dailydeals/frontend/product-view.png)
 
-* **Page with list of all products in active deals at this moment** (if you
-created deal but there are no products on page ***'Deals today'***, then check
-root category - it should have option `Is anchored` set to `Yes`)
+* **Page with all products listing in active deals at this moment** (if you
+created deal but there are still no products on page ***'Deals today'***, please
+check the root category - it should have option `Is anchored` set to `Yes`)
 
 ![Deals page example](/images/dailydeals/frontend/deals-page.png)
 
-* If customer **add to cart product which is in deal** and deal ends less than
-in a 10 minutes, then near product will be message
+* If customer **adds to a cart the product from deal** and deal ends less than
+in a 10 minutes, then he will see the message next to the product:
 
 ![Cart with product in deal example](/images/dailydeals/frontend/cart.png)

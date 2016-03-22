@@ -8,43 +8,45 @@ category: Daily Deals
 
 # Custom deal timer
 
-If you are tired of default deal timer, then Daily Deals extension allows you
-set custom timer for deal. Basicly you can set different timer for every deal.
+If you want to change the default deal timer, you can set the custom
+timer with Daily Deals extension. Basically you can set different timer for each
+deal.
 
-Daily Deals extension supplies with Countdown Timer extension. Countdown Timer
-has two widgets with pretty simple interface:
+Daily Deals extension comes with Countdown Timer extension. Feel free to use
+two widgets with clear interface:
 
 - Countdown Timer - Flip timer
 - Countdown Timer - Simple timer
 
-Flip Timer is default deal timer.
+Flip Timer is the default deal timer.
 
-Let set other timer for deal. And it will have call “Hurry! Don’t miss it!”.
+Let's set up the other timer for deal. It will be called “Hurry! Don’t miss it!”.
 
-To set custom timer start [edit deal](../../../backend/edit-deal/) at backend.
-Go to tab [Advanced](../../../backend/create-deal/#advanced-tab). In section
-`Deal timer` set option `Use default timer` to `No`. You can see usual magento
-textarea for content. Paste in textarea code listed below:
+Get start with setting of custom timer start value [edit deal](../../../backend/edit-deal/)
+at backend. Go to tab [Advanced](../../../backend/create-deal/#advanced-tab).
+In section `Deal timer` set the option `Use default timer` to `No`. You can see
+common magento textarea for content. Paste the code listed below to textarea:
 
 ```html
 <p style="color: #a5205f">Hurry! Don’t miss it!</p>
 {% raw %}{{widget type="tm_countdowntimer/timer_simple" date="%_ENDTIME_%" inlinecss="font-family: 'Raleway','Helvetica Neue',Verdana,Arial,sans-serif; color:#636363; font-size:2em"}}{% endraw %}
 ```
 
-Save deal and go to frontend. Result should be look like this:
+Save deal and go to frontend. Have a look at the result:
 
 ![Custom deal timer example](/images/dailydeals/frontend/custom-deal-timer.png)
 
-In code that we pasted in `Custom timer content` you can find string
-**`%_ENDTIME_%`**. It is service string for Daily Deals extension. It replace
-with actual deal end time during rendering content for frontend.
+In code that was pasted to `Custom timer content` field, you can find the following
+string **`%_ENDTIME_%`**. It is service string for Daily Deals extension. It
+will be replaced with actual deal end time during rendering content for frontend.
 
 ### Endtime calculation
 
 In case of simple deal with options `Deal is active only specific time` and
-`Deal is active specific days` set to `No`, string **`%_ENDTIME_%`** replace
-with value from field `Deal ends at` (General tab). In other cases value which
-replace this string is not so obvious. We try to explain this with examples.
+`Deal is active specific days` set to `No`, string **`%_ENDTIME_%`** will be
+replaced with value from field `Deal ends at` (General tab). In other cases the
+value that replaces this string is not so obvious. Review following samples to figure
+out how to use some settings:
 
 ##### Example 1
 
@@ -52,20 +54,19 @@ replace this string is not so obvious. We try to explain this with examples.
 
 `%_ENDTIME_%` = current date 1:45 pm
 
-Values on image above means that deal starts every day from 7:00 am and lasts
-till 1:45 pm.
+The values shown on the image above mean that deal starts every day from 7:00 am
+and is active till 1:45 pm.
 
 ##### Example 2
 
 ![Custom timer example 2](/images/dailydeals/frontend/custom-timer-example-2.png)
 
-Assume today is Wednesday. Then `%_ENDTIME_%` = current date 11:59 pm.
+Assumong you know that today is Wednesday. Then `%_ENDTIME_%` = current date 11:59 pm.
 
-If assume today is tuesday, then deal is inactive and it has no influence on
-frontend.
+If today is tuesday, then deal is inactive and it has no effect on frontend.
 
-Values on image above means deal is active only Monday, Wednesday and Friday. It
-starts at 12:00am and lasts till 11:59pm.
+The values shown on the image above mean deal is active only on Monday, Wednesday
+and Friday. It starts at 12:00am and will be active till 11:59pm.
 
 ##### Example 3
 

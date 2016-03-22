@@ -8,16 +8,16 @@ category: Daily Deals
 
 # Deal label
 
-Daily Deals exstension in combination with [Prolabels extension](/m1/prolabels/)
-version 2.7.2 or higher, then you can add label for deal. Labels output at
-categy page and at product page on product image of every product that is
-included in deal.
+Daily Deals exstension in integrated with [Prolabels extension](/m1/prolabels/)
+version 2.7.2 or higher, thereby you can easily add label for the deal. Labels
+will be displayed on the category page or on product page on the product
+related to the deal.
 
 ![Deal label example](/images/dailydeals/frontend/deal-label.png)
 
-To get label as on image above go to backend and
+In order to get a label as shown on image above, please go to backend and
 [edit deal](../../../backend/edit-deal/). Open tab
-['Label'](../../../backend/create-deal/#label-tab) and make follow settings:
+['Label'](../../../backend/create-deal/#label-tab) and make as follows:
 
 | Option           | Value |
 |------------------|-----------------------------------------------------------|
