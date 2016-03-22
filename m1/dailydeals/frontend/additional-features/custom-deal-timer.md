@@ -61,11 +61,11 @@ and is active till 1:45 pm.
 
 ![Custom timer example 2](/images/dailydeals/frontend/custom-timer-example-2.png)
 
-Assumong you know that today is Wednesday. Then `%_ENDTIME_%` = current date 11:59 pm.
+Assuming you know that today is Wednesday. Then `%_ENDTIME_%` = current date 11:59 pm.
 
-If today is tuesday, then deal is inactive and it has no effect on frontend.
+If today is Tuesday, then deal is inactive and it has no effect on frontend.
 
-The values shown on the image above mean deal is active only on Monday, Wednesday
+The values shown on the image above mean the deal is active only on Monday, Wednesday
 and Friday. It starts at 12:00am and will be active till 11:59pm.
 
 ##### Example 3

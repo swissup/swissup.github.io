@@ -16,7 +16,7 @@ Our extension provides you with two widgets:
 Both widgets insert block which displays product from active deal. You can
 display random product or other specified product. You can also specify the deal.
 
-Widget "Daily Deals - Product" can output content as column or as row. You
+Widget "Daily Deals - Product" can output content as a column or as a row. You
 are allowed to set CSS class to widget and customize its output: set background,
 set different font color to texts, etc.
 
