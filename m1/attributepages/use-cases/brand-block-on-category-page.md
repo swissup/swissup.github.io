@@ -8,7 +8,8 @@ category: Attributepages
 
 # Display brand block on category page
 
-You can add the code below in product list template, that is shown on category page.
+You can add the code mentioned below to the product list template, that is shown
+on category page.
 
 Usually you can find it at
 `app/design/frontend/YOUR_PACKAGE/YOUR_THEME/template/catalog/product/list.phtml`
@@ -35,7 +36,7 @@ Usually you can find it at
 ?>
 ```
 
-See the [list of available attributepages/product helper methods][product_helper_methods]
+Look at [list of available attributepages/product helper methods][product_helper_methods]
 
 ### Example 2
 
@@ -55,7 +56,7 @@ See the [list of available attributepages/product helper methods][product_helper
 ?>
 ```
 
-See the [list of available attributepages/product helper methods][product_helper_methods]
+Look at [list of available attributepages/product helper methods][product_helper_methods]
 
 ##### Related Articles
 - [Attributepages product helper][product_helper]

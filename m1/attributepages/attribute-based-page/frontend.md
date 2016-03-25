@@ -8,7 +8,7 @@ category: Attributepages
 
 # Frontend screenshots
 
-Here you can find a gallery of differently configured Attribute Based Pages.
+Here you can find a gallery of separately configured Attribute Based Pages.
 
 ##### Table of Contents
 - [Top fashion brand logos listed in three columns](#top-fashion-brands)
@@ -16,12 +16,12 @@ Here you can find a gallery of differently configured Attribute Based Pages.
 
 ### Top Fashion Brands
 
-This page uses image mode listing to let customers quickly find their favorite
-brand by it's recognizable logo.
+This page uses the image mode listing to provide customers with quick searching
+their favorite brand by it's recognizable logo.
 
 Display settings tab is used to configure columns count and listing mode.
 
-Layout XML Update is used to remove breadcrumbs: 
+Layout XML Update is used to remove breadcrumbs:
 
 ```xml
 <remove name="breadcrumbs"/>
@@ -38,12 +38,12 @@ of the screen:
 
 ### Browse by Author
 
-This page uses convinient way to nicely show large amount of data.
+This page will help you to show large amount of data in attractive way.
 
 Page description is used to show additional text and image. Display settings
 tab is used to configure columns count and listing mode.
 
-Layout XML Update is used to remove breadcrumbs: 
+Layout XML Update is used to remove breadcrumbs:
 
 ```xml
 <remove name="breadcrumbs"/>

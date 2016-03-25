@@ -8,30 +8,30 @@ category: Attributepages
 
 # Option based pages management
 
-See [frontend screenshots](/m1/attributepages/option-based-page/frontend/) 
+Look at [frontend screenshots](/m1/attributepages/option-based-page/frontend/)
 on a separate page.
 
 #### Option based pages grid
 
-This page is available under `Templates-Master > Attribute Pages > Manage Options`
+This page is available in `Templates-Master > Attribute Pages > Manage Options`
 menu.
 
-Here you can view, edit and create all of available Option Based pages
+You are allowed to view, edit and create all available Option Based pages
 (Brand filtered pages).
 
 ![Option based pages grid](/images/attributepages/option-based-page/backend/grid.png)
 
 #### Create option page
 
-Option pages are created automatically, when saving Attribute based page.
+Option pages are created automatically, while saving Attribute based page.
 
 If you whould like to create store specific option page, you can open existing
-option page and press `Duplicate` button, that will redirect you to 
+option page and press `Duplicate` button, that will redirect you to
 [option page form](#option-page-form).
 
 #### Option page form
 
-Option page form consists of three tabs:
+Option page form contains three tabs:
 
 - [Option Information](#page-information-tab)
 - [Content](#content-tab)
@@ -39,7 +39,7 @@ Option page form consists of three tabs:
 
 ##### Option information tab
 
-Option information tab provides following fields:
+Option information tab comes with following fields:
 
 Field | Description
 :-----|:-----------
@@ -47,13 +47,13 @@ Name | Page identifier for store owner
 Title | Used by `attributepages/option_list` block and widget.<br/> It's also used as a `Page Title` if content tab does not redefine it.
 Url key | Frontend url where the page will be available
 Image | Image to show at the Attributepage and widgets
-Thumbnail | Image to show, when tiny logo size is needed. See [Use cases](/m1/attributepages/use-cases/) page.
+Thumbnail | Image to show, when tiny logo size is needed. Look at [Use cases](/m1/attributepages/use-cases/) page.
 Store View | List of store views, where current page should be available
 Enabled | Optionpage status
 
 ##### Content tab
 
-Content tab provides following fields:
+Content tab comes with the following fields:
 
 Field | Description
 :-----|:-----------
@@ -64,7 +64,7 @@ Meta Description | Page Description
 
 ##### Display settings tab
 
-Display settings tab provides following fields:
+Display settings tab comes with following fields:
 
 Field | Description
 :-----|:-----------

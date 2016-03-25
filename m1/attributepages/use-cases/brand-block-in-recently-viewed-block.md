@@ -8,7 +8,7 @@ category: Attributepages
 
 # Display brand block in recently viewed products block
 
-You should add the code below in recently viewed list template.
+You have to add the code mentioned below to the recently viewed list template.
 
 Usually you can find it at
 `app/design/frontend/YOUR_PACKAGE/YOUR_THEME/template/reports/product_viewed.phtml`
@@ -37,7 +37,7 @@ If you can't find the template to edit, you can always find it with
 ?>
 ```
 
-See the [list of available attributepages/product helper methods][product_helper_methods]
+Look at [list of available attributepages/product helper methods][product_helper_methods]
 
 ##### Related Articles
 - [Attributepages product helper][product_helper]

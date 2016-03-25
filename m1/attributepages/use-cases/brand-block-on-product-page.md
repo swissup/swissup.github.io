@@ -9,8 +9,8 @@ category: Attributepages
 # Display brand block on product page
 
 Brand block can be added to the product page with `Inline php code`,
-`Layout update xml` or `Cms widget interface`. Below you'll find description
-on how to use each of the proposed ways.
+`Layout update xml` or `Cms widget interface`. Follow the description mentioned
+below to learn how to use each of the proposed ways.
 
 #### Table of Contents
 
@@ -25,12 +25,12 @@ on how to use each of the proposed ways.
 
 ### Inline php code
 
-You can add the code below in any template, that is shown on product page.
+You can add the code mentioned below to any template, that is shown on product page.
 
-To add block right after product name, you'll need to edit
+To add a block right after the product name, you have to edit
 `app/design/frontend/YOUR_PACKAGE/YOUR_THEME/template/catalog/product/view.phtml`
 
-See the [list of available attributepages/product helper methods][product_helper_methods]
+Look at [list of available attributepages/product helper methods][product_helper_methods]
 
 ```php
 echo Mage::helper('attributepages/product')
@@ -60,13 +60,13 @@ echo Mage::helper('attributepages/product')
 
 ### Inline block directive
 
-Inline block could be used inside cms blocks or third-party modules blocks, that
+Inline block could be used inside cms blocks or third-party modules blocks, which
 are rendered on the product page.
 
 That is how the brand block is shown on [ArgentoFlat](/argento/flat/#brand-logo-on-product-page) and
 [ArgentoPure2](/argento/pure2/product-page/#brand-information) themes.
 
-See the [list of available product_option block methods][product_option_block_methods]
+Look at [list of available product_option block methods][product_option_block_methods]
 
 ```
 {% raw %}{{block type="attributepages/product_option" attribute_code="brand" css_class="hidden-label" width="180" height="90" use_image="1" image_type="image" use_link="1" template="tm/attributepages/product/options.phtml"}}{% endraw %}
@@ -74,7 +74,7 @@ See the [list of available product_option block methods][product_option_block_me
 
 ### Layout update xml
 
-See the [list of available product_option block methods][product_option_block_methods]
+Look at [list of available product_option block methods][product_option_block_methods]
 
 ```xml
 <reference name="product.info.extrahint">
@@ -92,7 +92,7 @@ See the [list of available product_option block methods][product_option_block_me
 
 ### Cms widget interface
 
-> This feature is available since version 1.3.3
+> This feature is available starting from version 1.3.3
 
 ![Widget popup](/images/attributepages/widget.png)
 

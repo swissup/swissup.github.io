@@ -8,12 +8,12 @@ category: Attributepages
 
 # Attributepages (Brandpages)
 
-Attributepage module allows to create brand or any other attribute based page,
-based on catalog attribute. It also provides [widgets and helpers](#widgets-and-blocks) 
-for navigationpro module with 
-[brands list](/m1/navigationpro/siblings/brands-with-dropdown-content/) 
+Attributepage module allows to create brand or any other attribute page,
+based on catalog attribute. It also provides [widgets and helpers](#widgets-and-blocks)
+for NavigationPro module with
+[brands list](/m1/navigationpro/siblings/brands-with-dropdown-content/)
 and [attribute based pages list](/m1/navigationpro/siblings/browse-by-with-attributepages-list/)
-dropdowns, [product page][block_on_product_page], [category page][block_on_category_page] 
+dropdowns, [product page][block_on_product_page], [category page][block_on_category_page]
 or any other page customization.
 
 ##### [Attribute based page](attribute-based-page/) (All brands page)

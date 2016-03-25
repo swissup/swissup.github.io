@@ -8,7 +8,7 @@ category: Attributepages
 
 # Frontend screenshots
 
-Here you can find a gallery of differently configured Option Based Pages.
+Here you can find a gallery of seperately configured Option Based Pages.
 
 ##### Table of Contents
 - [Product list filtered by white color option](#product-listing-page)
@@ -16,16 +16,16 @@ Here you can find a gallery of differently configured Option Based Pages.
 
 ### Product listing page
 
-This page uses `Description and children` display mode and could be used as fully 
-functional category page.
+This page uses `Description and children` display mode and could be used as
+absolutely functional category page.
 
-Products listing settings are inherited from category page settings.
+Products listing settings are the same as category page settings.
 
 ![Product listing page](/images/attributepages/option-based-page/frontend/white_color.png)
 
 ### Brand landing page
 
-This page is used as a brand landing page. It uses `description` Display mode 
+This page is used as brand landing page. It uses `description` Display mode
 to hide brand related products from this page, and changes page layout to `1column`
 
 ![Brand landing page](/images/attributepages/option-based-page/frontend/brand_history_page.png)

@@ -10,9 +10,9 @@ category: Attributepages
 
 ### Mirasvit_Seo
 
-Mirasvit seo module automatically applies category attributes to attributepage 
-meta tags. To avoid this behavior and left correct meta tags you need to apply 
-changes to Mirasvit_Seo source code.
+Mirasvit seo module applies category attributes to attributepage
+meta tags automatically. In order to avoid this behavior and leave correct meta
+tags, you need to apply changes to Mirasvit_Seo source code.
 
 Apply the following patch to `app/code/local/Mirasvit/Seo/Model/Observer.php`:
 

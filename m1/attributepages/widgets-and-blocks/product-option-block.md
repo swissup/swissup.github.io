@@ -8,10 +8,10 @@ category: Attributepages
 
 # Product option block
 
-Product option block could be used to show brand logo (or any other attribute)
+Product option block could be used to show the brand logo (or any other attribute)
 **for a single product** with php, layout xml update or widget interface.
 
-> It's not recommended to use block for a product collection. Use specially optimized
+> It's not recommended to use the block for a product collection. Use specially optimized
 > [product option helper](/m1/attributepages/widgets-and-blocks/product-option-helper)
 > for collections.
 
@@ -41,7 +41,7 @@ Table of Contents
 
 ### Layout xml update
 
-Product will be taken from `Mage::registry` automatically.
+The product will be taken from `Mage::registry` automatically.
 
 ```xml
 <reference name="product.info.extrahint">
@@ -59,9 +59,9 @@ Product will be taken from `Mage::registry` automatically.
 
 ### Widget interface
 
-> This feature is available since version 1.3.3
+> This feature is available starting from version 1.3.3
 
-Product will be taken from `Mage::registry` automatically.
+The product will be taken from `Mage::registry` automatically.
 
 ![Widget popup](/images/attributepages/widget.png)
 

@@ -22,7 +22,7 @@ Title | Block title (not visible if `Remove Block Wrapper` is used)
 Columns Count | Columns count to split page list
 Pages to Exclude | Page identifier string (Eg. `authors, brands`) to hide block
 Pages to Include | Page identifier string (Eg. `authors, brands`) that should be rendered
-Remove Block Wrapper | Useful when inserting block into navigation dropdown and navigation parent item is used as block title.<br/> See Screenshot on the top of the page
+Remove Block Wrapper | Useful when inserting block into navigation dropdown and navigation parent item is used as block title.<br/> Look atscreenshot on the top of the page
 
 ##### Related Articles
 

@@ -8,7 +8,7 @@ category: Attributepages
 
 # Product option helper
 
-Product option helper could be used to show brand logo (or any other attribute)
+Product option helper could be used to show the brand logo (or any other attribute)
 for particular product or for the product collection.
 
 Table of Contents
@@ -24,9 +24,9 @@ Method             | Arguments            | Description
 setCollection      | Product collection | When collection is avaliable, helper will make a single database query to fetch all required attributes
 setSize            | Two arguments: width and height | Width and height of the image
 
-Product option helper proxies all calls to the product option block that is used 
-internally, so you can use any of 
-[product option block methods](/m1/attributepages/widgets-and-blocks/product-option-block/#block-methods) 
+Product option helper proxies all calls to the product option block that is used
+internally, so you can use any of
+[product option block methods](/m1/attributepages/widgets-and-blocks/product-option-block/#block-methods)
 too:
 
 {% capture block_methods %}{% include_relative includes/block_methods.md %}{% endcapture %}
@@ -49,13 +49,13 @@ from `Mage::registry` automatically.
 
 Display `brand` and `gender` images for each product of the `$_productCollection`.
 
-Brand logo will be rendered as a image link with additional link aside: 
+Brand logo will be rendered as a image link with additional link aside:
 ![Brand logo with 'View other brands' link aside](/images/attributepages/widgets-and-blocks/thumbnail/brand_logo_with_link_aside.png)
 
-Gender attribute will be rendered as a non-link image: 
+Gender attribute will be rendered as a non-link image:
 ![Gender icon](/images/attributepages/widgets-and-blocks/thumbnail/gender_image.png)
 
-> Please notice, that the code below is written inside `$_productCollection` 
+> Please notice, that the code below is written inside `$_productCollection`
 > loop
 
 ```php
