@@ -8,7 +8,7 @@ category: Testimonials
 
 # Testimonials Widgets and Blocks
 
-There are following widget types are available:
+There are following widget types available:
 
 Type                                | Description
 ------------------------------------|------------
@@ -23,7 +23,7 @@ testimonials/widget_form            | Testimonial form to use on custom CMS page
 2. [Review block widget](#review-block-widget)
 3. [Full testimonials list widget](#full-testimonials-list-widget)
 4. [Testimonial form widget](#testimonial-form-widget)
- - [Testimonial submit form captcha in widget](#testimonial-submit-form-captcha-in-widget)
+ - [Testimonial submit form captcha via widget](#testimonial-submit-form-captcha-via-widget)
 
 ### Animated list widget
 
@@ -126,10 +126,12 @@ Testimonials submit form to use on custom CMS pages.
 </reference>
 ```
 
-##### Testimonial submit form captcha in widget
+##### Testimonial submit form captcha via widget
 
-To show captcha in testimonial submit form inserted with widget, you need to include captcha javascript
-to cms page. Go to `Design` tab of CMS page edit form, insert following xml code in `Layout Update XML` field and press `Save Page` button:
+To show captcha in testimonial submit form inserted with widget, you need to
+include captcha javascript to cms page. Go to `Design` tab of CMS page edit form,
+insert the following xml code in `Layout Update XML` field and press `Save Page`
+button:
 
 ```xml
 <reference name="head">
