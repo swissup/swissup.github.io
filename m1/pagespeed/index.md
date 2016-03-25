@@ -6,23 +6,24 @@ keywords: " magento speed extension, increase magento speed, improve magento spe
 category: Page Speed
 ---
 
-# Page Speed
+# Page Speed installation instructions
 
-With this module you're taking a big step towards improving page load speed.
+Please follow next steps to complete the installation:
 
-![EasyCatalogImages at category page](/images/easycatalogimages/category_page.png)
+1. Navigate to `Admin > Tools > Compilation` and deactivate the compilation
+mode for your store.
+2. Check if your Magento store cache is enabled.
+3. Unpack all files from extension archive into your magento store root directory.
+4. Refresh your magento store cache.
+5. Logout from your store admin and then login back, to refresh your admin user
+access rights.
 
-## Contents
+* Navigate to `System > Configuration > Templates-Master > Page Speed` and
+enable extension for any store you need.
 
-1.  [Configuration](#configuration)
-2.  [Block options](#options)
-3.  [Custom usage examples](#custom-usage)
-    1. [Inline php code](#inline-php-code)
-    2. [Layout xml code](#layout-xml-code)
-    3. [Inline block for magento cms filter](#inline-block-for-magento-cms-filter)
-4.  [Use cases](#use-cases)
-    1. [Show block below the category title](#show-block-below-the-category-title)
-    2. [Show block for certain category only](#show-block-for-certain-category-only)
-    3. [Remove block from certain category](#remove-block-from-certain-category)
-    4. [Display images near subcategories](#display-images-near-subcategories)
-5. [Compatibility issues](#compatibility-issues)
+That's all. Navigate to your store and check how it looks.
+
+#### After you install an extension you can go to:
+
+* [Support](https://swissuplabs.com/contacts/)
+* [Forum](https://swissuplabs.com/magento-forum/)
