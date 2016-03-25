@@ -11,8 +11,8 @@ category: Cache
 
 Following rules are used:
 
-* Category save triggers to clear all cache because of top navigation, that
-appears across the all site pages
+* Category saves triggers to clear all cache because of top navigation, that
+appears across all site pages
 * Product changes triggers invalidation of product, quickshopping and related
 category pages
 * Cms page changes will update cms page url only. Home page will be updated too,
@@ -25,5 +25,5 @@ pages refreshing.
 
 Automatic cache updating can be disabled at
 `System > Configuration > TM > Cache > General` options.
-In this case you will be notified about cache invalidating, when one of supported
-events occurs.
+In this case you will be notified about cache invalidating, when one of the
+supported events occurs.

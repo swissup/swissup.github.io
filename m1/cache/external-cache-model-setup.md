@@ -13,8 +13,8 @@ category: Cache
 3. [Using the Cm_Cache_Backend_File model](#using-the-cmcachebackendfile)
 
 ### Using Magento local.xml file
-This method will change the cache model for all website. Every block, collection
-will use these settings.
+This method will change the cache model for the whole website. Every block and
+collection will use these settings.
 
 1. Open `app\etc\local.xml` and `app\etc\local.xml.additional`
 2. Copy the settings that you would like to change from
