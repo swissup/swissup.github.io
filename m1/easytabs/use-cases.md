@@ -11,10 +11,10 @@ category: Easy Tabs
 
 ### Contents
 
-1. [Activate and scroll to tab on external link click](#activate-and-scroll-to-tab-on-external-link-click)
+1. [Activate scrolling to tab by clicking an external link](#activate-scrolling-to-tab-by-clicking-an-external-link)
 * [Edit the link `href` and `class` attributes in template source](#edit-the-link-href-and-class-attributes-in-template-source)
 * [Use the external javascript to add the onclick observers](#use-the-external-javascript-to-add-the-onclick-observers)
-2. [Using public events to call javascript on tab activate or deativate](#using-public-events-to-call-javascript-on-tab-activate-or-deativate)
+2. [Using public events to call javascript on tab activate or deactivate](#using-public-events-to-call-javascript-on-tab-activate-or-deativate)
 3. [Disable native tabs in Magento 1.9 RWD theme](#disable-native-tabs-in-magento-19-rwd-theme)
 4. [Reccuring info tab](#reccuring-info-tab)
 5. [Dynamic tab titles](#dynamic-tab-titles)
@@ -22,7 +22,7 @@ category: Easy Tabs
 7. [Duplicated tabs on product page](#duplicated-tabs-on-product-page)
 8. [No tabs after installation](#no-tabs-after-installation)
 
-### Activate and scroll to tab on external link click
+### Activate scrolling to tab by clicking an external link
 
 There are two possible ways to implement this feature:
 
@@ -31,7 +31,7 @@ There are two possible ways to implement this feature:
 ```html
 <a href="#TAB_ALIAS_FROM_BACKEND" class="easytabs-anchor easytabs-scroll easytabs-animate">Description</a>
 ```
-For example, the link below will activate the description tab:
+For example, the link mentioned below will activate the description tab:
 
 ```html
 <a href="#product_tabs_description_tabbed" class="easytabs-anchor easytabs-scroll easytabs-animate">Description</a>
@@ -52,7 +52,8 @@ $$('WRITE_SELECTOR_HERE').first()
     });
 ```
 
-For example, the code below shows how to add onclick event to the `Write Review` and `Read Reviews` links:
+For example, the code below shows how to add the onclick event to the `Write
+Review` and `Read Reviews` links:
 
 ```js
 $$('.rating-links a, .no-rating a').each(function(el) {
@@ -67,9 +68,9 @@ $$('.rating-links a, .no-rating a').each(function(el) {
 });
 ```
 
-### Using public events to call javascript on tab activate or deativate
+### Using public events to call javascript on tab activate or deactivate
 
-There are four public events are available to listen:
+There are four public events available to listen:
 
   * easytabs:beforeActivate
   * easytabs:afterActivate
@@ -90,7 +91,7 @@ document.observe('easytabs:afterActivate', function(e) {
 
 ### Disable native tabs in Magento 1.9 RWD theme
 
-There 3 ways of dealing with native tabs:
+There are 3 ways of dealing with native tabs:
 
 - ###### Hide tabs with css
 
@@ -191,7 +192,10 @@ Examples:
 
 ### Duplicated tabs on product page
 
-Many custom magento themes already contain own tabs added in layout xml files. When you install EasyTabs in such themes, you can see tabs block twice on product page. To fix it, open your theme `catalog.xml` or `local.xml` and find tabs block, it can be looking like this:
+You can find a lot of custom magento themes with tabs added in layout xml files.
+When you install EasyTabs in such themes, you can see tabs block twice on product
+page. To fix it, open your theme `catalog.xml` or `local.xml` and find tabs
+block, it can be looking like this:
 
 ```xml
 <block type="catalog/product_view_tabs" name="product.info.tabs" as="info_tabs" template="catalog/product/view/tabs.phtml" >
@@ -210,6 +214,6 @@ Make layout xml file backup and remove this block, refresh cache.
 
 If you do not see tabs on product page after installation:
 
-1. check if you enabled extension in `System > Configuration > Templates-Master > EasyTabs > General > Enabled`
-2. check if module output is not disabled in `System > Configuration > Advanced > Advanced > Disable Modules Output > TM_EasyTabs`
-3. open your theme `catalog.xml` and check if your theme has `product.info.additional` block in `catalog_product_view` section. If not, add it or change reference to `content` or other existing block in `app/design/frontend/base/default/layout/tm/easytabs.xml`
+1. Check if the extension was enabled in `System > Configuration > Templates-Master > EasyTabs > General > Enabled`
+2. Check if module output is not disabled in `System > Configuration > Advanced > Advanced > Disable Modules Output > TM_EasyTabs`
+3. Open your theme `catalog.xml` and check if your theme has `product.info.additional` block in `catalog_product_view` section. If not, please add it or change reference to `content` or other existing block in `app/design/frontend/base/default/layout/tm/easytabs.xml`
