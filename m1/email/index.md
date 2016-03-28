@@ -10,4 +10,5 @@ category: Email
 
 Magento SMTP extension. Improved email sending settings. Easy mail server setup.
 
-1. [Disabling TM_Email module](disabling-email/)
+1. [Installation](installation/)
+2. [Disabling TM_Email module](disabling-email/)
