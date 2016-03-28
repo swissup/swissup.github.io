@@ -11,3 +11,7 @@ zoom extension in magento,magento image zoom,magnifying image,image gallery
 with zoom effect,product image cloud zoom "
 category: Prozoom
 ---
+
+# ProZoom
+
+- [Installation](installation/)
