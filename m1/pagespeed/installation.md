@@ -6,7 +6,6 @@ keywords: " magento speed extension, increase magento speed, improve magento spe
 category: Page Speed
 ---
 
-
 # Page Speed installation instructions
 
 Please follow next steps to complete the installation:
