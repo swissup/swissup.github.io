@@ -9,3 +9,4 @@ category: AjaxPro
 # AjaxPro
 
 - [Installation](installation/)
+- [Use cases](use-cases/)
