@@ -9,17 +9,17 @@
       url: /m1/argento/upgrade-instructions/
 
     - title: EE Integration
-      url: /m1/argento/ee-integration/
+      url: /m1/argento/magento-ee-integration/
 
     - title: Top Navigation Setup
-      url: /m1/argento/top-navigation-setup/
+      url: /m1/argento/navigation-setup/
 
     - title: Theme customization
       url: /m1/argento/theme-customization/
 
   themes:
-    - title: Essence
-      url: /m1/argento/essence/
+    - title: Default
+      url: /m1/argento/default/
 
     - title: Pure
       url: /m1/argento/pure/
