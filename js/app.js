@@ -11,6 +11,9 @@ document.addEventListener("readystatechange", function () {
     itemSelector: ".brick",
     gutter: ".brick-gutter"
   });
+  $grid.on('click', 'a', function(event) {
+    event.stopPropagation();
+  });
   $grid.on('click', '.brick', function(event) {
     $('.brick', $grid).not(this).removeClass('expanded');
     $(this).toggleClass('expanded');
