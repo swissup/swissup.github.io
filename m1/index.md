@@ -1,7 +1,7 @@
 ---
 layout: default
 body_class: no-anchors no-edit
-title: Magento 1.x
+title: Magento 1.x Products
 ---
 
 <div class="clearfix products-group group-argento">
