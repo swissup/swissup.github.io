@@ -201,13 +201,134 @@ blockquote > *:first-child {
 }
 
 /* Home */
+.card {
+    .card-content {
+        .actions {
+            a {
+                margin: 0 10px 0 0;
+            }
+        }
+    }
+}
+
+//
+// Masonry styles
+// ______________________________________________
+$masonry-gutter-size: 5px;
+$masonry-brick-size: 102px;
+$masonry-brick-max-size: 5;
+$masonry-brick-colors: (
+    red,
+    deepskyblue,
+    gold,
+    tomato,
+    rebeccapurple,
+    lawngreen,
+    magenta,
+    cornflowerblue,
+    peru,
+    hotpink,
+    green,
+);
+.masonry {
+    .brick-gutter {
+        width: $masonry-gutter-size;
+    }
+    .brick {
+        cursor: pointer;
+        width: $masonry-brick-size;
+        height: $masonry-brick-size;
+
+        .brick-animation {
+            overflow: hidden;
+            padding: 10px;
+            box-sizing: border-box;
+            width: $masonry-brick-size;
+            height: $masonry-brick-size;
+            background: #333;
+            transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+
+            color: #fff;
+            a {
+                color: #fff;
+                text-decoration: none;
+            }
+            h4 {
+                margin-top: 0;
+                margin-bottom: 10px;
+            }
+            .mdl-button {
+                margin: 0 5px 0 0;
+                background-color: rgba(255,255,255,0.2);
+                &:hover {
+                    background-color: rgba(255,255,255,0.3);
+                }
+            }
+        }
+
+        // Enlarge bricks
+        @for $i from 1 through $masonry-brick-max-size {
+            @for $j from 1 through $masonry-brick-max-size {
+                &.size#{$i}x#{$j},
+                &.size#{$i}x#{$j} .brick-animation {
+                    width: $masonry-brick-size * $i + ($i - 1) * $masonry-gutter-size;
+                    height: $masonry-brick-size * $j + ($j - 1) * $masonry-gutter-size;
+
+                }
+                &.size#{$i}x#{$j}:not(.expanded) {
+                    @if $i == 1 {
+                        h4 {
+                            font-size: 18px;
+                            line-height: 25px;
+                        }
+                    }
+                    @if $j == 1 and $i == 2 {
+                        h4 {
+                            font-size: 21px;
+                            line-height: 25px;
+                        }
+                    }
+                }
+            }
+        }
+
+        // Colorize bricks
+        $k: 1;
+        @for $i from 1 through 3 {
+            @each $color in $masonry-brick-colors {
+                &:nth-child(#{$k}) .brick-animation {
+                    @if $i % 2 == 0 {
+                        background-color: desaturate(darken($color, 20), 10);
+                    } @else {
+                        background-color: desaturate(darken($color, 10), 20);
+                    }
+                }
+                $k: $k + 1;
+            }
+        }
+
+        &.expanded,
+        &.expanded .brick-animation {
+            width: $masonry-brick-size * 5 + 4 * $masonry-gutter-size;
+            height: $masonry-brick-size * 2 + 1 * $masonry-gutter-size;
+        }
+
+        .brick-info {
+            display: none;
+        }
+        &.expanded .brick-info {
+            display: block;
+        }
+    }
+}
+
 .products-group h3 a {
     font-size: 29px;
 }
 .list-products {
     list-style: none;
     font-size: 1.3em;
-    padding: 0;
+    padding: 0 0 0 40px;
     box-sizing: border-box;
     column-count: 3;
     -moz-column-count: 3;
@@ -219,9 +340,22 @@ blockquote > *:first-child {
 }
 @media (max-width: 839px) {
     .list-products {
+        padding: 0;
         column-count: 2;
         -moz-column-count: 2;
         -webkit-column-count: 2;
+    }
+}
+
+.list-articles {
+    padding: 0;
+    li {
+        list-style: none;
+        display: inline-block;
+        a {
+            padding: 3px 5px;
+            font-size: 1.2em;
+        }
     }
 }
 
@@ -232,6 +366,9 @@ blockquote > *:first-child {
     right: 0;
     z-index: 900;
     margin: 0 40px 40px 0;
+}
+.no-edit #edit-page {
+    display: none;
 }
 @media (max-width: 480px) {
     #edit-page {

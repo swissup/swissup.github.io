@@ -1,0 +1,298 @@
+abandonedcart:
+  title: Abandoned Cart
+  short_description:
+  urls:
+    m1: /m1/abandonedcart/
+    m2:
+
+affiliatesuite:
+  title: Affiliate Suite
+  short_description:
+  urls:
+    m1: /m1/affiliatesuite/
+    m2:
+
+ajaxlayerednavigation:
+  title: AjaxLayeredNavigation
+  short_description:
+  urls:
+    m1: /m1/ajaxlayerednavigation/
+    m2:
+
+ajaxpro:
+  title: AjaxPro
+  short_description:
+  urls:
+    m1: /m1/ajaxpro/
+    m2:
+
+ajaxsearch:
+  title: AjaxSearch
+  short_description:
+  urls:
+    m1: /m1/ajaxsearch/
+    m2:
+
+askit:
+  title: AskIt
+  short_description:
+  urls:
+    m1: /m1/askit/
+    m2:
+
+attributepages:
+  title: Attribute based pages
+  short_description: Enhance your store with beautiful brand pages.
+  size: 2x2
+  urls:
+    m1: /m1/attributepages/
+    m2:
+
+cache:
+  title: Cache
+  short_description: Blazing fast store is the key to ecommerce success.
+  size: 1x1
+  urls:
+    m1: /m1/cache/
+    m2:
+
+countdowntimer:
+  title: Countdown Timer
+  short_description: >
+    Time is running out.. Let your customers know about store events with
+    beatifully designed timers.
+  size: 2x1
+  urls:
+    m1: /m1/countdowntimer/
+    m2: /m2/countdowntimer/
+
+crawler:
+  title: Crawler
+  short_description: Built-in crawler increases full page cache hit rate.
+  size: 1x1
+  urls:
+    m1: /m1/crawler/
+    m2:
+
+dailydeals:
+  title: DailyDeals
+  short_description: Manage amazing, time limited deals at your store.
+  size: 2x2
+  urls:
+    m1: /m1/dailydeals/
+    m2:
+
+easybanners:
+  title: EasyBanners
+  short_description:
+  urls:
+    m1: /m1/easybanners/
+    m2:
+
+easycatalogimages:
+  title: Easy Catalog Images
+  short_description: Visualize your sub-categories with beautiful images.
+  size: 2x2
+  urls:
+    m1: /m1/catalogimages/
+    m2: /m2/catalogimages/
+
+easycolorswatches:
+  title: Easy Color Swatches
+  short_description:
+  urls:
+    m1: /m1/colorswatches/
+    m2:
+
+easyflags:
+  title: Easy Flags
+  short_description:
+  urls:
+    m1: /m1/easyflags/
+    m2:
+
+easylightbox:
+  title: Easy Lightbox
+  short_description:
+  urls:
+    m1: /m1/easylightbox/
+    m2:
+
+easynavigation:
+  title: Easy Navigation
+  short_description:
+  urls:
+    m1: /m1/easynavigation/
+    m2:
+
+email:
+  title: Email
+  short_description:
+  urls:
+    m1: /m1/email/
+    m2: /m2/email/
+
+easyslider:
+  title: EasySlider
+  short_description:
+  urls:
+    m1: /m1/easyslider/
+    m2:
+
+easytabs:
+  title: EasyTabs
+  short_description:
+  urls:
+    m1: /m1/easytabs/
+    m2: /m2/easytabs/
+
+facebooklikebutton:
+  title: Facebook Like Button
+  short_description:
+  urls:
+    m1: /m1/facebooklikebutton/
+    m2:
+
+firecheckout:
+  title: Firecheckout
+  short_description:
+  urls:
+    m1: /m1/firecheckout/
+    m2:
+
+helpmate:
+  title: Helpmate
+  short_description:
+  urls:
+    m1: /m1/helpmate/
+    m2:
+
+highlight:
+  title: Highlight
+  short_description: >
+    Highlight widgets helps you to create outstanding product promotions
+    on homepage and other cms pages.
+  size: 2x1
+  urls:
+    m1: /m1/highlight/
+    m2: /m2/highlight/
+
+improvedadminsecurity:
+  title: Improved Admin Security
+  short_description:
+  urls:
+    m1: /m1/improvedadminsecurity/
+    m2:
+
+lightboxpro:
+  title: Lightbox Pro
+  short_description:
+  urls:
+    m1: /m1/lightboxpro/
+    m2:
+
+navigationpro:
+  title: Navigation Pro
+  short_description: Born to build powerful menus with unlimited posibilities.
+  size: 2x1
+  urls:
+    m1: /m1/navigationpro/
+    m2:
+
+newsletterbooster:
+  title: Newsletter Booster
+  short_description:
+  urls:
+    m1: /m1/newsletterbooster/
+    m2:
+
+pagespeed:
+  title: Page Speed
+  short_description:
+  urls:
+    m1: /m1/pagespeed/
+    m2:
+
+prolabels:
+  title: Prolabels
+  short_description:
+  urls:
+    m1: /m1/prolabels/
+    m2:
+
+productvideos:
+  title: Product Videos
+  short_description:
+  urls:
+    m1: /m1/productvideos/
+    m2:
+
+prozoom:
+  title: Prozoom
+  short_description:
+  urls:
+    m1: /m1/prozoom/
+    m2:
+
+quickshopping:
+  title: Quick Shopping
+  short_description:
+  urls:
+    m1: /m1/quickshopping/
+    m2:
+
+reviewreminder:
+  title: Review Reminder
+  short_description: >
+    Social commerce is what everyone need. Full automation of review
+    reminder feature.
+  size: 1x2
+  urls:
+    m1: /m1/reviewreminder/
+    m2: /m2/reviewreminder/
+
+richsnippets:
+  title: Rich Snippets
+  short_description:
+  urls:
+    m1: /m1/richsnippets/
+    m2:
+
+smartsuggest:
+  title: Smart Suggest
+  short_description:
+  urls:
+    m1: /m1/smartsuggest/
+    m2:
+
+socialsuite:
+  title: Social Suite
+  short_description:
+  urls:
+    m1: /m1/socialsuite/
+    m2:
+
+soldtogether:
+  title: Sold Together
+  short_description:
+  urls:
+    m1: /m1/soldtogether/
+    m2:
+
+store-maintenance:
+  title: Store Maintenance
+  short_description: >
+    Store maintenance mode done right. SEO friendly, IP adress filter,
+    maintenance period.
+  size: 2x1
+  urls:
+    m1:
+    m2: /m2/store-maintenance/
+
+testimonials:
+  title: Testimonials
+  short_description: Let the customer's speak. Your business deserves good words.
+  size: 2x1
+  urls:
+    m1: /m1/testimonials/
+    m2: /m2/testimonials/

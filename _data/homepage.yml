@@ -1,0 +1,18 @@
+extensions:
+  title: Extensions
+  url: /extensions/
+  items:
+    - attributepages
+    - cache
+    - crawler
+    - countdowntimer
+    - dailydeals
+    - easycatalogimages
+    - highlight
+    - navigationpro
+    - reviewreminder
+    - testimonials
+    - store-maintenance
+
+# themes:
+#

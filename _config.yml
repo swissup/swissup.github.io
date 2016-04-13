@@ -17,15 +17,31 @@ kramdown:
   hard_wrap: false
 
 exclude:
+  - bower_components/classie/
+  - bower_components/desandro-matches-selector/
+  - bower_components/doc-ready/
+  - bower_components/ev-emitter/
+  - bower_components/eventEmitter/
+  - bower_components/eventie/
+  - bower_components/fizzy-ui-utils/
+  - bower_components/get-size/
+  - bower_components/get-style-property/
+  - bower_components/jquery/sizzle/
+  - bower_components/jquery/src/
+  - bower_components/outlayer/
   - bower_components/lunr.js/example/
   - bower_components/lunr.js/lib/
   - bower_components/lunr.js/test/
+  - bower_components/matches-selector/
   - bower_components/material-design-lite/src/
   - bower_components/material-design-lite/utils/
   - bower_components/mustache/bin/
   - bower_components/mustache/hooks/
   - bower_components/mustache/spec/
   - bower_components/mustache/wrappers/
+  - bower_components/tap-listener/
+  - bower_components/unidragger/
+  - bower_components/unipointer/
 
 github:
   repository_url: https://github.com/swissup/swissup.github.io
