@@ -1,6 +1,8 @@
 document.addEventListener("readystatechange", function () {
   if (this.readyState === "complete") {
-    anchors.add();
+    if (!$(document.body).hasClass('no-anchors')) {
+      anchors.add();
+    }
   }
 });
 
