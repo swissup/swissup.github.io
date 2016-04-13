@@ -125,6 +125,13 @@ blockquote > *:first-child {
     }
 }
 
+footer {
+    padding: 30px 0 20px;
+    margin-top: 40px;
+    border-top: 1px solid #eaeaea;
+    text-align: center;
+}
+
 /* Search block */
 .docs-search {
     .mdl-button {
