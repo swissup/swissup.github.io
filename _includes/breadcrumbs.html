@@ -2,7 +2,7 @@
 {% capture num_parts %}{{ url_parts | number_of_words | minus: 1 }}{% endcapture %}
 {% assign previous="" %}
 
-{% if num_parts != '0' and num_parts != '-1' %}
+{% if num_parts != '-1' %}
 <div class="breadcrumbs mdl-color-text--grey-500">
   <a href="{{ "/" | prepend: site.baseurl }}">Home</a> &gt;
 
