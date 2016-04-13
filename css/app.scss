@@ -3,6 +3,9 @@
 
 a {
     word-break: break-word;
+    &.mdl-button {
+        word-break: normal;
+    }
 }
 img {
     max-width: 100%;
