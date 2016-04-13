@@ -1,57 +1,47 @@
 ---
 layout: default
+body_class: no-anchors no-edit
+title: Magento 2.x
 ---
 
-<div class="jumbotron">
-  <div class="mdl-grid">
-    <div class="mdl-cell mdl-cell--12-col">
-      <div class="mdl-typography--font-light mdl-typography--display-3">
-        Magento 2.x
+<div class="clearfix products-group group-argento">
+  <h3>Argento for Magento 2.x (beta)</h3>
+  <div class="card mdl-grid">
+    <div class="card-content mdl-cell mdl-cell--5-col mdl-cell--8-col-tablet mdl-cell--4-col-phone mdl-cell--order-2">
+      <h4>
+        Most Advanced Magento Responsive Theme, powered with Top-Quality
+        Popular Extensions
+      </h4>
+      <div class="description">
+        <p>Argento is more than just another template created for Magento. It was created right from the ground based on the best ecommerce stores practices and according to Magento developers guidelines.</p>
       </div>
-      <div class="mdl-typography--font-light mdl-color-text--grey-700 mdl-typography--headline">
-        <a href="{{ "/" | prepend: site.baseurl }}" title="Go Back">&#8656;</a> SwissUpLabs documentation
+      <div class="actions">
+        <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="{{ '/m2/argento/' | prepend: site.baseurl }}">
+          View docs
+        </a>
       </div>
+    </div>
+    <div class="carousel js-flickity card-thumbnail mdl-cell mdl-cell--7-col mdl-cell--8-col-tablet mdl-cell--4-col-phone"
+      data-flickity-options='{ "wrapAround": true, "pageDots": false, "prevNextButtons": false, "autoPlay": true, "imagesLoaded": true }'>
+      <img src="{{ '/images/site/homepage/argento/desktop.png' | prepend: site.baseurl }}" alt="Argento desktop screenshot"/>
+      <img src="{{ '/images/site/homepage/argento/tablet_and_phone.png' | prepend: site.baseurl }}" alt="Argento tablet and phone screenshot"/>
     </div>
   </div>
 </div>
 
-<div class="">
-  <div class="mdl-grid">
-    <div class="mdl-cell mdl-cell--12-col">
-      {% for group in site.data.products %}
-        {% if group.title != 'Magento 2.x Extensions' %}
-          {% continue %}
-        {% endif %}
-        <div class="clearfix products-group group-{{ group.title | downcase | replace: ' ', '-' }}">
-          <h3>
-            {{ group.title }}
-            {% if group.url %}
-              <a title="{{ group.title }}" href="{{ group.url | prepend: site.baseurl }}">&#8658;</a>
-            {% endif %}
-          </h3>
-          <ul class="list-products">
-            {% assign products = group.items | sort: "title" %}
-            {% for product in products %}
-              {% if product.hidden == true %}
-                {% continue %}
-              {% endif %}
-              <li>
-                {% assign dataBadge = "" %}
-                {% if product.badge %}
-                  {% capture dataBadge %} data-badge="{{ product.badge }}"{% endcapture %}
-                {% elsif product.free %}
-                  {% capture dataBadge %} data-badge="free"{% endcapture %}
-                {% elsif product.hot %}
-                  {% capture dataBadge %} data-badge="hot"{% endcapture %}
-                {% endif %}
+<div class="clearfix products-group group-extensions">
+  <h3>Magento 2.x Extensions</h3>
+  <ul class="list-products">
+    {% for hash in site.data.extensions %}
+      {% assign extension = hash[1] %}
 
-                {% capture className %} class="{% if product.hot %}hot mdl-badge {% endif %}{% if product.free %}free mdl-badge {% endif %}{% if product.badge %}mdl-badge {% endif %}{{ product.class }}"{% endcapture %}
-                <a href="{{ product.url | prepend: site.baseurl }}" title="{{ product.title }}"{{ className }}{{ dataBadge }}>{{ product.title }}</a>
-              </li>
-            {% endfor %}
-          </ul>
-        </div>
-      {% endfor %}
-    </div>
-  </div>
+      {% if extension.urls.m2 == null %}
+        {% continue %}
+      {% endif %}
+
+      <li>
+        <a href="{{ extension.urls.m2 | prepend: site.baseurl }}" title="{{ extension.title }}">{{ extension.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
 </div>

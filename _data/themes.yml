@@ -1,0 +1,17 @@
+- title: Magento 1.x Themes
+  url: /m1/themes/
+  items:
+    - title: Absolute Theme
+      url: /m1/themes/f001-absolute/
+
+    - title: Classic Theme
+      url: /m1/themes/f002-classic/
+
+    - title: Mobile Star Theme
+      url: /m1/themes/m001-mobile-star/
+
+- title: Magento 2.x Themes
+  url: /m2/themes/
+  items:
+    - title: Absolute Theme
+      url: /m2/themes/f001-absolute/

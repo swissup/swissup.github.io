@@ -1,0 +1,145 @@
+- title: Argento for Magento 1.x
+  url: /m1/argento/
+
+  articles:
+    - title: FAQ
+      url: /m1/argento/faq/
+
+    - title: Upgrade Instructions
+      url: /m1/argento/upgrade-instructions/
+
+    - title: EE Integration
+      url: /m1/argento/magento-ee-integration/
+
+    - title: Top Navigation Setup
+      url: /m1/argento/navigation-setup/
+
+    - title: Theme customization
+      url: /m1/argento/theme-customization/
+
+  themes:
+    - title: Default
+      url: /m1/argento/default/
+
+    - title: Pure
+      url: /m1/argento/pure/
+
+    - title: Mall
+      url: /m1/argento/mall/
+
+    - title: Flat
+      url: /m1/argento/flat/
+
+    - title: Pure2
+      url: /m1/argento/pure2/
+
+  extensions:
+    - title: AjaxPro
+      url: /m1/extensions/ajaxpro/
+
+    - title: AjaxSearch
+      url: /m1/extensions/ajaxsearch/
+
+    - title: AskiIt
+      url: /m1/extensions/askit/
+
+    - title: Attributepages
+      url: /m1/extensions/attributepages/
+
+    - title: Catalog Configurable Swatches
+      url: /m1/extensions/attributepages/
+
+    - title: Core
+      url: /m1/extensions/core/
+
+    - title: EasyBanner
+      url: /m1/extensions/easybanner/
+
+    - title: Easy Catalog Images
+      url: /m1/extensions/easycatalogimg/
+
+    - title: EasySlider
+      url: /m1/extensions/easyslider/
+
+    - title: EasyTabs
+      url: /m1/extensions/easytabs/
+
+    - title: Facebook Like Button
+      url: /m1/extensions/fblike/
+
+    - title: Highlight
+      url: /m1/extensions/highlight/
+
+    - title: LighboxPro
+      url: /m1/extensions/lightboxpro/
+
+    - title: NavigationPro
+      url: /m1/extensions/navigationpro/
+
+    - title: Prolabels
+      url: /m1/extensions/prolabels/
+
+    - title: Review Reminder
+      url: /m1/extensions/reviewreminder/
+
+    - title: Rich Snippets
+      url: /m1/extensions/richsnippets/
+
+    - title: Sold Together
+      url: /m1/extensions/soldtogether/
+
+    - title: SuggestPage
+      url: /m1/extensions/suggestpage/
+
+    - title: Testimonials
+      url: /m1/extensions/testimonials/
+
+- title: Argento for Magento 2.x
+  url: /m2/argento/
+
+  themes:
+    - title: Blank
+      url: /m2/argento/blank/
+
+    - title: Essence
+      url: /m2/argento/essence/
+
+  extensions:
+    - title: AjaxSearch
+      url: /m2/extensions/ajaxsearch/
+
+    - title: Easy Catalog Images
+      url: /m2/extensions/easycatalogimg/
+
+    - title: EasySlider
+      url: /m2/extensions/easyslider/
+
+    - title: EasyTabs
+      url: /m2/extensions/easytabs/
+
+    - title: Facebook Like Button
+      url: /m2/extensions/fblike/
+
+    - title: Font Awesome
+      url: /m2/extensions/font-awesome/
+
+    - title: Highlight
+      url: /m2/extensions/highlight/
+
+    - title: Prolabels
+      url: /m2/extensions/prolabels/
+
+    - title: Review Reminder
+      url: /m2/extensions/reviewreminder/
+
+    - title: Rich Snippets
+      url: /m2/extensions/richsnippets/
+
+    - title: Slick Carousel
+      url: /m2/extensions/slick-carousel/
+
+    - title: Sold Together
+      url: /m2/extensions/soldtogether/
+
+    - title: Testimonials
+      url: /m2/extensions/testimonials/

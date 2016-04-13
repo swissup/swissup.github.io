@@ -3,6 +3,9 @@
 
 a {
     word-break: break-word;
+    &.mdl-button {
+        word-break: normal;
+    }
 }
 img {
     max-width: 100%;
@@ -122,6 +125,13 @@ blockquote > *:first-child {
     }
 }
 
+footer {
+    padding: 30px 0 20px;
+    margin-top: 40px;
+    border-top: 1px solid #eaeaea;
+    text-align: center;
+}
+
 /* Search block */
 .docs-search {
     .mdl-button {
@@ -190,32 +200,6 @@ blockquote > *:first-child {
     }
 }
 
-/* Badges */
-.mdl-badge.mdl-badge--no-border-radius[data-badge]::after {
-    border-radius: 0;
-}
-.mdl-badge.mdl-badge--width-auto[data-badge]::after {
-    width: auto;
-}
-.mdl-badge.mdl-typography--headline[data-badge]::after {
-    top: -7px;
-}
-.mdl-badge.free {
-    white-space: normal;
-}
-.mdl-badge.free[data-badge]::after {
-    background: #157fff;
-    border-radius: 0;
-    padding: 0 2px;
-    right: -28px;
-}
-.mdl-badge.hot[data-badge]::after {
-    background: #ff8915;
-    border-radius: 0;
-    padding: 0 2px;
-    right: -28px;
-}
-
 .breadcrumbs {
     margin: 5px 0 10px;
 }
@@ -224,13 +208,134 @@ blockquote > *:first-child {
 }
 
 /* Home */
+.card {
+    .card-content {
+        .actions {
+            a {
+                margin: 0 10px 0 0;
+            }
+        }
+    }
+}
+
+//
+// Masonry styles
+// ______________________________________________
+$masonry-gutter-size: 5px;
+$masonry-brick-size: 102px;
+$masonry-brick-max-size: 5;
+$masonry-brick-colors: (
+    red,
+    deepskyblue,
+    gold,
+    tomato,
+    rebeccapurple,
+    lawngreen,
+    magenta,
+    cornflowerblue,
+    peru,
+    hotpink,
+    green,
+);
+.masonry {
+    .brick-gutter {
+        width: $masonry-gutter-size;
+    }
+    .brick {
+        cursor: pointer;
+        width: $masonry-brick-size;
+        height: $masonry-brick-size;
+
+        .brick-animation {
+            overflow: hidden;
+            padding: 10px;
+            box-sizing: border-box;
+            width: $masonry-brick-size;
+            height: $masonry-brick-size;
+            background: #333;
+            transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+
+            color: #fff;
+            a {
+                color: #fff;
+                text-decoration: none;
+            }
+            h4 {
+                margin-top: 0;
+                margin-bottom: 10px;
+            }
+            .mdl-button {
+                margin: 0 5px 0 0;
+                background-color: rgba(255,255,255,0.2);
+                &:hover {
+                    background-color: rgba(255,255,255,0.3);
+                }
+            }
+        }
+
+        // Enlarge bricks
+        @for $i from 1 through $masonry-brick-max-size {
+            @for $j from 1 through $masonry-brick-max-size {
+                &.size#{$i}x#{$j},
+                &.size#{$i}x#{$j} .brick-animation {
+                    width: $masonry-brick-size * $i + ($i - 1) * $masonry-gutter-size;
+                    height: $masonry-brick-size * $j + ($j - 1) * $masonry-gutter-size;
+
+                }
+                &.size#{$i}x#{$j}:not(.expanded) {
+                    @if $i == 1 {
+                        h4 {
+                            font-size: 18px;
+                            line-height: 25px;
+                        }
+                    }
+                    @if $j == 1 and $i == 2 {
+                        h4 {
+                            font-size: 21px;
+                            line-height: 25px;
+                        }
+                    }
+                }
+            }
+        }
+
+        // Colorize bricks
+        $k: 1;
+        @for $i from 1 through 3 {
+            @each $color in $masonry-brick-colors {
+                &:nth-child(#{$k}) .brick-animation {
+                    @if $i % 2 == 0 {
+                        background-color: desaturate(darken($color, 20), 10);
+                    } @else {
+                        background-color: desaturate(darken($color, 10), 20);
+                    }
+                }
+                $k: $k + 1;
+            }
+        }
+
+        &.expanded,
+        &.expanded .brick-animation {
+            width: $masonry-brick-size * 5 + 4 * $masonry-gutter-size;
+            height: $masonry-brick-size * 2 + 1 * $masonry-gutter-size;
+        }
+
+        .brick-info {
+            display: none;
+        }
+        &.expanded .brick-info {
+            display: block;
+        }
+    }
+}
+
 .products-group h3 a {
     font-size: 29px;
 }
 .list-products {
     list-style: none;
     font-size: 1.3em;
-    padding: 0;
+    padding: 0 0 0 40px;
     box-sizing: border-box;
     column-count: 3;
     -moz-column-count: 3;
@@ -242,9 +347,22 @@ blockquote > *:first-child {
 }
 @media (max-width: 839px) {
     .list-products {
+        padding: 0;
         column-count: 2;
         -moz-column-count: 2;
         -webkit-column-count: 2;
+    }
+}
+
+.list-articles {
+    padding: 0;
+    li {
+        list-style: none;
+        display: inline-block;
+        a {
+            padding: 3px 5px;
+            font-size: 1.2em;
+        }
     }
 }
 
@@ -256,24 +374,11 @@ blockquote > *:first-child {
     z-index: 900;
     margin: 0 40px 40px 0;
 }
+.no-edit #edit-page {
+    display: none;
+}
 @media (max-width: 480px) {
     #edit-page {
         display: none;
-    }
-}
-
-/* Dev docs */
-.sortorder-wrapper {
-    p {
-        margin: 0;
-    }
-    #module_sortorder {
-        text-align: center;
-        padding: 0;
-        width: 50px;
-        margin-left: -50px;
-    }
-    input {
-        float: left;
     }
 }
