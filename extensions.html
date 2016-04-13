@@ -1,11 +1,11 @@
 ---
 layout: default
-body_class: no-anchors
+body_class: no-anchors no-edit
 ---
 
 <div class="products-group group-extensions-m1">
   <h3>
-      <a title="Magento 1.x Extensions" href="{{ '/m1/extensions' | prepend: site.baseurl }}">Magento 1.x Extensions</a>
+      <a title="Magento 1.x Extensions" href="{{ '/m1/' | prepend: site.baseurl }}">Magento 1.x Extensions</a>
   </h3>
   <ul class="list-products">
     {% for hash in site.data.extensions %}
@@ -24,7 +24,7 @@ body_class: no-anchors
 
 <div class="products-group group-extensions-m2">
   <h3>
-      <a title="Magento 2.x Extensions" href="{{ '/m2/extensions' | prepend: site.baseurl }}">Magento 2.x Extensions</a>
+      <a title="Magento 2.x Extensions" href="{{ '/m2/' | prepend: site.baseurl }}">Magento 2.x Extensions</a>
   </h3>
   <ul class="list-products">
     {% for hash in site.data.extensions %}
