@@ -41,7 +41,7 @@ You can look at the code that was used to show the homepage banner:
 
 ### Categories
 
-Categories block is powered by [EasyCatalogImages](/easycatalogimages/) module.
+Categories block is powered by [EasyCatalogImages](/m1/easycatalogimages/) module.
 
 This block is inserted using magento widget functionality. The following code
 is used to show block on the homepage:

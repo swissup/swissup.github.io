@@ -46,21 +46,21 @@ configure Suggestion popup and Search engine settings at
 
 ### Navigation
 
-Pure 2.0 theme utilize [NavigationPro](/navigationpro/) module for top navigation.
+Pure 2.0 theme utilize [NavigationPro](/m1/navigationpro/) module for top navigation.
 You can configure Menu items at `Templates-Master > Navigation Pro`.
 
 Please read the following docs about NavigationPro features:
 
-- [NavigationPro docs](/navigationpro/)
-- [Argento Navigation Setup](/argento/navigation-setup/)
+- [NavigationPro docs](/m1/navigationpro/)
+- [Argento Navigation Setup](/m1/argento/navigation-setup/)
 
 ### Sticky Navigation
 
 Sticky navigation is enabled by default for wide and long screens. If you would
 like to disable sticky navigation, you can use the following methods:
 
- -  [Argento Pure 2.0 configuration](/argento/pure2/configuration/#sticky-header-and-sidebar)
- -  Disable Sticky Navigation using [custom layout update file](/argento/theme-customization/small-changes/#custom-layout-update-file)
+ -  [Argento Pure 2.0 configuration](/m1/argento/pure2/configuration/#sticky-header-and-sidebar)
+ -  Disable Sticky Navigation using [custom layout update file](/m1/argento/theme-customization/small-changes/#custom-layout-update-file)
 
     ```
     <remove name="sticky_header"/>

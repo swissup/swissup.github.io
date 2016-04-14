@@ -98,11 +98,11 @@ For example:
 - Backup all your changes
 - Put the store to the maintenance mode.
 - Navigate to `System > Tools > Compilation` and disable compilation.
-- [Prepare your logo for mobile devices](/argento/faq/#prepare-logo-image-for-mobile-device)
+- [Prepare your logo for mobile devices](/m1/argento/faq/#prepare-logo-image-for-mobile-device)
 - Unpack the new Argento version over the old one.
 - Navigate to `System > Cache Management` flush cache storage and disable cache.
 - Navigate to `Templates Master > Modules` and update themes
-- If you are using Magento 1.7 or older - proceed to [1.7 guide](/argento/faq/#magento-17-and-older)
+- If you are using Magento 1.7 or older - proceed to [1.7 guide](/m1/argento/faq/#magento-17-and-older)
 
 ### Version 1.5.1 — 1.5.2
 

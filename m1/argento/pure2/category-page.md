@@ -132,7 +132,7 @@ Follow the steps below to change image size on the category view page:
 
 #### Sticky sidebar
 
-Sticky sidebar can be disabled with [Argento Pure 2.0 Configuration](/argento/pure2/configuration/#sticky-header-and-sidebar)
+Sticky sidebar can be disabled with [Argento Pure 2.0 Configuration](/m1/argento/pure2/configuration/#sticky-header-and-sidebar)
 
 Or, you can also use [custom.xml][custom_xml] to disable it:
 
