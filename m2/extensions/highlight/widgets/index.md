@@ -42,4 +42,4 @@ Swissup\Highlight\Block\ProductList\Attribute\Yesno | Products filtered by any `
 
 Great! Now you might want to see next: 
 
-- [Highlight Pages](/m2/highlight/pages/)
+- [Highlight Pages](/m2/extensions/highlight/pages/)

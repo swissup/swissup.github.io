@@ -49,4 +49,4 @@ Bestsellers and Popular products.
 
 Great! Now you might want to see next: 
 
-- [Documentation homepage](/m2/highlight/)
+- [Documentation homepage](/m2/extensions/highlight/)

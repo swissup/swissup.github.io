@@ -99,11 +99,11 @@ random      | Sort randomly. When cache is enabled, you'll see the cached result
 
 You might want to see next: 
 
-- [Widget Usage](/m2/highlight/widgets/usage/)
-    - [WYSIWYG Editor](/m2/highlight/widgets/usage/#wysiwyg-editor)
-    - [Widgets Page](/m2/highlight/widgets/usage/#widgets-page)
-    - [XML Layout Update](/m2/highlight/widgets/usage/#xml-layout-update)
-    - [PHP Inline Code](/m2/highlight/widgets/usage/#php-inline-code)
+- [Widget Usage](/m2/extensions/highlight/widgets/usage/)
+    - [WYSIWYG Editor](/m2/extensions/highlight/widgets/usage/#wysiwyg-editor)
+    - [Widgets Page](/m2/extensions/highlight/widgets/usage/#widgets-page)
+    - [XML Layout Update](/m2/extensions/highlight/widgets/usage/#xml-layout-update)
+    - [PHP Inline Code](/m2/extensions/highlight/widgets/usage/#php-inline-code)
 
 [pages]: /m2/highlight/pages/
 [usage_wysiwyg_editor]: /m2/highlight/widgets/usage/#wysiwyg-editor

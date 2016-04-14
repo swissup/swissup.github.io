@@ -37,4 +37,4 @@ category: Email
 
 Great! Now you might want to see previous:
 
-- [Installation](/m2/email/installation/)
+- [Installation](/m2/extensions/email/installation/)

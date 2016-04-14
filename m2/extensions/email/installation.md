@@ -25,4 +25,4 @@ That's all.
 
 Great! Now you might want to see next:
 
-- [Usage](/m2/email/usage/)
+- [Usage](/m2/extensions/email/usage/)
