@@ -255,6 +255,15 @@ $masonry-brick-colors: (
         width: $masonry-brick-size;
         height: $masonry-brick-size;
 
+        &[data-brick-href] {
+            h4 {
+                text-decoration: underline;
+            }
+            &:hover h4 {
+                text-decoration: none;
+            }
+        }
+
         .brick-animation {
             overflow: hidden;
             padding: 10px;
@@ -269,7 +278,6 @@ $masonry-brick-colors: (
             color: #fff;
             a {
                 color: #fff;
-                text-decoration: none;
             }
             h4 {
                 margin-top: 0;

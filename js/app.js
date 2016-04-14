@@ -15,6 +15,13 @@ document.addEventListener("readystatechange", function () {
     event.stopPropagation();
   });
   $grid.on('click', '.brick', function(event) {
+    if ($(this).data('brickHref')) {
+      window.location = $(this).data('brickHref');
+      return;
+    }
+    if ($(this).is('.no-resize')) {
+      return;
+    }
     $('.brick', $grid).not(this).removeClass('expanded');
     $(this).toggleClass('expanded');
     $grid.packery('layout');

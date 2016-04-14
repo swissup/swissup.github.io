@@ -55,16 +55,9 @@ body_class: no-anchors no-edit
         </div>
       </div>
     {% endfor %}
-    <div class="brick brick-more size1x1">
+    <div class="brick brick-more no-resize size1x1" data-brick-href="{{ '/extensions/' | prepend: site.baseurl }}" title="View All Extensions">
       <div class="brick-animation">
         <h4>More</h4>
-        <div class="brick-info">
-          <p>Browse All Magento extensions documentation</p>
-          <div class="actions">
-            <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="{{ '/m1/extensions/' | prepend: site.baseurl }}">Magento 1.x</a>
-            <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="{{ '/m2/extensions/' | prepend: site.baseurl }}">Magento 2.x</a>
-          </div>
-        </div>
       </div>
     </div>
     <div class="brick-gutter"></div>
