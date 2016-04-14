@@ -57,8 +57,8 @@ you have to turn off jQuery loading for that extension. Here is some our
 extensions that can cause such problem (every of it has option turn off jQuery
 loading):
 
-* [Ajax Layered Navigation](/m1/ajaxlayerednavigation/)
-* [Product Videos](/m1/productvideos/)
+* [Ajax Layered Navigation](/m1/extensions/ajaxlayerednavigation/)
+* [Product Videos](/m1/extensions/productvideos/)
 
 In case of Argento theme package this error can be caused by
 `/app/design/frontend/base/default/layout/tm/configurableswatches.xml`. To solve

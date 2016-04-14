@@ -8,7 +8,7 @@ category: Attributepages
 
 # Option based pages management
 
-Look at [frontend screenshots](/m1/attributepages/option-based-page/frontend/)
+Look at [frontend screenshots](/m1/extensions/attributepages/option-based-page/frontend/)
 on a separate page.
 
 #### Option based pages grid
@@ -47,7 +47,7 @@ Name | Page identifier for store owner
 Title | Used by `attributepages/option_list` block and widget.<br/> It's also used as a `Page Title` if content tab does not redefine it.
 Url key | Frontend url where the page will be available
 Image | Image to show at the Attributepage and widgets
-Thumbnail | Image to show, when tiny logo size is needed. Look at [Use cases](/m1/attributepages/use-cases/) page.
+Thumbnail | Image to show, when tiny logo size is needed. Look at [Use cases](/m1/extensions/attributepages/use-cases/) page.
 Store View | List of store views, where current page should be available
 Enabled | Optionpage status
 
@@ -73,4 +73,4 @@ Layout Update XML | This field can be used to add or remove additional blocks
 Display Mode | Page display mode (Description and children, Description only, Children only)
 
 ##### Related Articles
-- [Option based page frontend screenshots](/m1/attributepages/option-based-page/frontend/)
+- [Option based page frontend screenshots](/m1/extensions/attributepages/option-based-page/frontend/)

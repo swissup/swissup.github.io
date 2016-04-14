@@ -8,7 +8,7 @@ category: Daily Deals
 
 # Deal label
 
-Daily Deals exstension in integrated with [Prolabels extension](/m1/prolabels/)
+Daily Deals exstension in integrated with [Prolabels extension](/m1/extensions/prolabels/)
 version 2.7.2 or higher, thereby you can easily add label for the deal. Labels
 will be displayed on the category page or on product page on the product
 related to the deal.

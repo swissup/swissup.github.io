@@ -61,5 +61,5 @@ Look at [list of available attributepages/product helper methods][product_helper
 ##### Related Articles
 - [Attributepages product helper][product_helper]
 
-[product_helper]: /m1/attributepages/widgets-and-blocks/product-option-helper/ "'attributepages/product' helper"
-[product_helper_methods]: /m1/attributepages/widgets-and-blocks/product-option-helper/#helper-methods "List of available 'attributepages/product' helper methods"
+[product_helper]: /m1/extensions/attributepages/widgets-and-blocks/product-option-helper/ "'attributepages/product' helper"
+[product_helper_methods]: /m1/extensions/attributepages/widgets-and-blocks/product-option-helper/#helper-methods "List of available 'attributepages/product' helper methods"

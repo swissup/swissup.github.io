@@ -105,7 +105,7 @@ following layout update instructions:
 - [Attributepages product helper][product_helper]
 - [Product option block][product_option_block]
 
-[product_helper]: /m1/attributepages/widgets-and-blocks/product-option-helper/ "'attributepages/product' helper"
-[product_helper_methods]: /m1/attributepages/widgets-and-blocks/product-option-helper/#helper-methods "List of available 'attributepages/product' helper methods"
-[product_option_block]: /m1/attributepages/widgets-and-blocks/product-option-block/ "'Product option' block"
-[product_option_block_methods]: /m1/attributepages/widgets-and-blocks/product-option-block/#block-methods "List of available 'Product option' methods"
+[product_helper]: /m1/extensions/attributepages/widgets-and-blocks/product-option-helper/ "'attributepages/product' helper"
+[product_helper_methods]: /m1/extensions/attributepages/widgets-and-blocks/product-option-helper/#helper-methods "List of available 'attributepages/product' helper methods"
+[product_option_block]: /m1/extensions/attributepages/widgets-and-blocks/product-option-block/ "'Product option' block"
+[product_option_block_methods]: /m1/extensions/attributepages/widgets-and-blocks/product-option-block/#block-methods "List of available 'Product option' methods"

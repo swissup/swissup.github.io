@@ -119,5 +119,5 @@ $this->getLayout()
 ?>
 ```
 
-[widget_types]:     /m1/highlight/widgets/#highlight-widgets
-[widget_settings]:  /m1/highlight/widgets/settings/
+[widget_types]:     /m1/extensions/highlight/widgets/#highlight-widgets
+[widget_settings]:  /m1/extensions/highlight/widgets/settings/

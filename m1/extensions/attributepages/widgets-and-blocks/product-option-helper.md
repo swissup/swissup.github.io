@@ -26,7 +26,7 @@ setSize            | Two arguments: width and height | Width and height of the i
 
 Product option helper proxies all calls to the product option block that is used
 internally, so you can use any of
-[product option block methods](/m1/attributepages/widgets-and-blocks/product-option-block/#block-methods)
+[product option block methods](/m1/extensions/attributepages/widgets-and-blocks/product-option-block/#block-methods)
 too:
 
 {% capture block_methods %}{% include_relative includes/block_methods.md %}{% endcapture %}
@@ -82,7 +82,7 @@ Gender attribute will be rendered as a non-link image:
 
 ##### Related articles
 
-- [Product option block](/m1/attributepages/widgets-and-blocks/product-option-block/)
-- [Display brand block on product page](/m1/attributepages/use-cases/brand-block-on-product-page/#inline-php-code)
-- [Display brand block on category page](/m1/attributepages/use-cases/brand-block-on-category-page/)
-- [Display brand block in recently viewed products block](/m1/attributepages/use-cases/brand-block-in-recently-viewed-block/)
+- [Product option block](/m1/extensions/attributepages/widgets-and-blocks/product-option-block/)
+- [Display brand block on product page](/m1/extensions/attributepages/use-cases/brand-block-on-product-page/#inline-php-code)
+- [Display brand block on category page](/m1/extensions/attributepages/use-cases/brand-block-on-category-page/)
+- [Display brand block in recently viewed products block](/m1/extensions/attributepages/use-cases/brand-block-in-recently-viewed-block/)

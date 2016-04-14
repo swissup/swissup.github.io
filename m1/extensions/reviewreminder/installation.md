@@ -28,4 +28,4 @@ That's all. Now you can generate reminders for orders created before extension w
 * [Support](https://swissuplabs.com/contacts/)
 * [Forum](https://swissuplabs.com/magento-forum/)
 
-[manual_order_indexing]: /m1/reviewreminder/#manual-order-indexing-section
+[manual_order_indexing]: /m1/extensions/reviewreminder/#manual-order-indexing-section

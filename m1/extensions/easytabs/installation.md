@@ -28,4 +28,4 @@ That's all. Now you can configure tabs in [Easytabs Grid][easytabs_grid]
 
 * [Easytabs Grid][easytabs_grid]
 
-[easytabs_grid]: /m1/easytabs/#easytabs-grid
+[easytabs_grid]: /m1/extensions/easytabs/#easytabs-grid

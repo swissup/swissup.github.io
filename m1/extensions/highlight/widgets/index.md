@@ -44,4 +44,4 @@ highlight/product_attribute_yesno   | Products filtered by any `yes/no` attribut
 
 Great! Now you might want to see next: 
 
-- [Highlight Pages](/m1/highlight/pages/)
+- [Highlight Pages](/m1/extensions/highlight/pages/)

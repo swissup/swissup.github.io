@@ -52,4 +52,4 @@ Layout XML Update is used to remove breadcrumbs:
 ![Browse by Author](/images/attributepages/attribute-based-page/frontend/book_authors.png)
 
 ##### Related Articles
-- [Attribute based page backend](/m1/attributepages/attribute-based-page/backend/)
+- [Attribute based page backend](/m1/extensions/attributepages/attribute-based-page/backend/)

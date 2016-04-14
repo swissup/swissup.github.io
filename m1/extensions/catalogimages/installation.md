@@ -28,4 +28,4 @@ That's all.
 * [Configuration][settings]
 
 
-[settings]: /m1/catalogimages/#configuration
+[settings]: /m1/extensions/catalogimages/#configuration

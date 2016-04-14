@@ -26,8 +26,8 @@ page.
 
 Great! Now you might want to see next: 
 
-- [Highlight Widgets](/m1/highlight/widgets/)
-- [Highlight Pages](/m1/highlight/pages/)
+- [Highlight Widgets](/m1/extensions/highlight/widgets/)
+- [Highlight Pages](/m1/extensions/highlight/pages/)
 
-[usage_wysiwyg_editor]: /m1/highlight/widgets/usage/#wysiwyg-editor
-[usage_widgets_page]: /m1/highlight/widgets/usage/#widgets-page
+[usage_wysiwyg_editor]: /m1/extensions/highlight/widgets/usage/#wysiwyg-editor
+[usage_widgets_page]: /m1/extensions/highlight/widgets/usage/#widgets-page

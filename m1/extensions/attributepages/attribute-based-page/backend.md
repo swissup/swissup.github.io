@@ -8,7 +8,7 @@ category: Attributepages
 
 # Attribute based pages management
 
-Look at [frontend screenshots](/m1/attributepages/attribute-based-page/frontend/)
+Look at [frontend screenshots](/m1/extensions/attributepages/attribute-based-page/frontend/)
 on a separate page.
 
 ### Attribute based pages grid
@@ -95,7 +95,7 @@ Field | Description
 Exclude from Display | These options(brands) will not be shown at the Attributepage and widgets
 Url Key | Frontend url, where the page will be available (PAGE_URL/OPTION_URL)
 Image | Image to show at the Attributepage and widgets
-Thumbnail | Image to show, when tiny logo size is needed. See [Use cases](/m1/attributepages/use-cases/) page.
+Thumbnail | Image to show, when tiny logo size is needed. See [Use cases](/m1/extensions/attributepages/use-cases/) page.
 
 ##### Related Articles
-- [Attribute based page frontend screenshots](/m1/attributepages/attribute-based-page/frontend/)
+- [Attribute based page frontend screenshots](/m1/extensions/attributepages/attribute-based-page/frontend/)

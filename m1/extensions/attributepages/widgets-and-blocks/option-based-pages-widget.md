@@ -28,4 +28,4 @@ Remove Block Wrapper | Useful while inserting block into navigation dropdown and
 
 ##### Related Articles
 
-- [NavigationPro: Brands dropdown](/m1/navigationpro/siblings/brands-with-dropdown-content/)
+- [NavigationPro: Brands dropdown](/m1/extensions/navigationpro/siblings/brands-with-dropdown-content/)

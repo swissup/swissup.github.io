@@ -31,5 +31,5 @@ to hide brand related products from this page, and changes page layout to `1colu
 ![Brand landing page](/images/attributepages/option-based-page/frontend/brand_history_page.png)
 
 ##### Related Articles
-- [Option based page backend](/m1/attributepages/option-based-page/backend/)
-- [Attribute based page backend](/m1/attributepages/attribute-based-page/backend/)
+- [Option based page backend](/m1/extensions/attributepages/option-based-page/backend/)
+- [Attribute based page backend](/m1/extensions/attributepages/attribute-based-page/backend/)

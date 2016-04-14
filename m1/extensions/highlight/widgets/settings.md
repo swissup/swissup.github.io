@@ -153,14 +153,14 @@ Collection sort order. Can't be used with `attribute_date` based widgets.
 
 You might want to see next: 
 
-- [Widget Usage](/m1/highlight/widgets/usage/)
-    - [WYSIWYG Editor](/m1/highlight/widgets/usage/#wysiwyg-editor)
-    - [Widgets Page](/m1/highlight/widgets/usage/#widgets-page)
-    - [XML Layout Update](/m1/highlight/widgets/usage/#xml-layout-update)
-    - [PHP Inline Code](/m1/highlight/widgets/usage/#php-inline-code)
+- [Widget Usage](/m1/extensions/highlight/widgets/usage/)
+    - [WYSIWYG Editor](/m1/extensions/highlight/widgets/usage/#wysiwyg-editor)
+    - [Widgets Page](/m1/extensions/highlight/widgets/usage/#widgets-page)
+    - [XML Layout Update](/m1/extensions/highlight/widgets/usage/#xml-layout-update)
+    - [PHP Inline Code](/m1/extensions/highlight/widgets/usage/#php-inline-code)
 
-[pages]: /m1/highlight/pages/
-[usage_wysiwyg_editor]: /m1/highlight/widgets/usage/#wysiwyg-editor
-[usage_widgets_page]: /m1/highlight/widgets/usage/#widgets-page
-[usage_xml_update]: /m1/highlight/widgets/usage/#xml-layout-update
-[usage_php]: /m1/highlight/widgets/usage/#php-inline-code
+[pages]: /m1/extensions/highlight/pages/
+[usage_wysiwyg_editor]: /m1/extensions/highlight/widgets/usage/#wysiwyg-editor
+[usage_widgets_page]: /m1/extensions/highlight/widgets/usage/#widgets-page
+[usage_xml_update]: /m1/extensions/highlight/widgets/usage/#xml-layout-update
+[usage_php]: /m1/extensions/highlight/widgets/usage/#php-inline-code

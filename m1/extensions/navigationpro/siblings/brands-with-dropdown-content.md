@@ -27,4 +27,4 @@ category: Navigationpro
 
 ##### Related Articles
 
-- [Attributepage: Option based pages list widget](/m1/attributepages/widgets-and-blocks/option-based-pages-widget/)
+- [Attributepage: Option based pages list widget](/m1/extensions/attributepages/widgets-and-blocks/option-based-pages-widget/)

@@ -28,4 +28,4 @@ Apply the following patch to `app/code/local/Mirasvit/Seo/Model/Observer.php`:
 
 ##### Related Articles
 
-- [Attributepages documentation](/m1/attributepages/)
+- [Attributepages documentation](/m1/extensions/attributepages/)

@@ -47,4 +47,4 @@ period to get recent Bestsellers and Popular products.
 
 Great! Now you might want to see next: 
 
-- [Documentation homepage](/m1/highlight/)
+- [Documentation homepage](/m1/extensions/highlight/)

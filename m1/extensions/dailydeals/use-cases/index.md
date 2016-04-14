@@ -18,10 +18,10 @@ timer on frontend. Countdown Timer requiers jQuery (JS library).
 
 So if on frontend you see text `Flip timer can not find jQuery` or
 `Simple timer can not find jQuery`, then you have to open [CountdownTimer
-extension configuration](/m1/countdowntimer/#extension-configuration) and enable
+extension configuration](/m1/extensions/countdowntimer/#extension-configuration) and enable
 jQuery.
 
 ### jQuery(...) is not a function
 
 This java script error also has relation to Countdown Timer extension. Check
-this link how to fix it - [CountdownTimer : jQuery(...) is not a function](/m1/countdowntimer/#jquery-is-not-a-function).
+this link how to fix it - [CountdownTimer : jQuery(...) is not a function](/m1/extensions/countdowntimer/#jquery-is-not-a-function).

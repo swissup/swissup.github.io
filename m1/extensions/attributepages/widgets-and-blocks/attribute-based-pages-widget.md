@@ -26,4 +26,4 @@ Remove Block Wrapper | Useful when inserting block into navigation dropdown and 
 
 ##### Related Articles
 
-- [NavigationPro: Attribute pages list widget inside dropdown](/m1/navigationpro/siblings/browse-by-with-attributepages-list/)
+- [NavigationPro: Attribute pages list widget inside dropdown](/m1/extensions/navigationpro/siblings/browse-by-with-attributepages-list/)

@@ -14,7 +14,7 @@ Full page cache makes your store faster.
 
 - Full page cache dashboard shows you the impact of cache module
 - Powerfull logs to analyze cache usage stats
-- [Page crawler](/m1/crawler/) is included to provide the best shopping experience
+- [Page crawler](/m1/extensions/crawler/) is included to provide the best shopping experience
 to all visitors
 - "hole-punch" support allows to use fast cache with dynamic blocks without
 additional setup
