@@ -185,6 +185,14 @@ footer {
         margin: 0 0 0 5px;
         vertical-align: middle;
     }
+
+    .group {
+        font-weight: bold;
+    }
+    ul {
+        list-style: none;
+        padding: 0 0 0 20px;
+    }
 }
 .docs-search .search-results {
     display: none;
