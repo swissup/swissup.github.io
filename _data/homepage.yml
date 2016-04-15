@@ -1,3 +1,21 @@
+argento:
+  title: Argento
+  subtitle: >
+    Most Advanced Magento Responsive Theme, powered with Top-Quality
+    Popular Extensions
+  description: >
+    <p>Argento is more than just another template created for Magento.
+    It was created right from the ground based on the best ecommerce stores
+    practices and according to Magento developers guidelines.</p>
+  images:
+    - title: Argento desktop screenshot
+      src: /images/site/homepage/argento/desktop.png
+    - title: Argento tablet and phone screenshot
+      src: /images/site/homepage/argento/tablet_and_phone.png
+  urls:
+    m1: /m1/argento/
+    m2: /m2/argento/
+
 extensions:
   title: Extensions
   url: /extensions/

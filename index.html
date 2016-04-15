@@ -3,26 +3,25 @@ layout: default
 body_class: no-anchors no-edit
 ---
 
+{% assign argento = site.data.homepage.argento %}
 <div class="clearfix products-group group-argento">
-  <h3>Argento</h3>
+  <h3>{{ argento.title }}</h3>
   <div class="card mdl-grid">
     <div class="card-content mdl-cell mdl-cell--5-col mdl-cell--8-col-tablet mdl-cell--4-col-phone mdl-cell--order-2">
-      <h4>
-        Most Advanced Magento Responsive Theme, powered with Top-Quality
-        Popular Extensions
-      </h4>
+      <h4>{{ argento.subtitle }}</h4>
       <div class="description">
-        <p>Argento is more than just another template created for Magento. It was created right from the ground based on the best ecommerce stores practices and according to Magento developers guidelines.</p>
+        {{ argento.description }}
       </div>
       <div class="actions">
-        <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="{{ '/m1/argento/' | prepend: site.baseurl }}">Magento 1.x</a>
-        <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="{{ '/m2/argento/' | prepend: site.baseurl }}">Magento 2.x</a>
+        <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="{{ argento.urls.m1 | prepend: site.baseurl }}">Magento 1.x</a>
+        <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="{{ argento.urls.m2 | prepend: site.baseurl }}">Magento 2.x</a>
       </div>
     </div>
     <div class="carousel js-flickity card-thumbnail mdl-cell mdl-cell--7-col mdl-cell--8-col-tablet mdl-cell--4-col-phone"
       data-flickity-options='{ "wrapAround": true, "pageDots": false, "prevNextButtons": false, "autoPlay": true, "imagesLoaded": true }'>
-      <img src="{{ '/images/site/homepage/argento/desktop.png' | prepend: site.baseurl }}" alt="Argento desktop screenshot"/>
-      <img src="{{ '/images/site/homepage/argento/tablet_and_phone.png' | prepend: site.baseurl }}" alt="Argento tablet and phone screenshot"/>
+      {% for image in argento.images %}
+        <img src="{{ image.src | prepend: site.baseurl }}" alt="{{ image.title }}"/>
+      {% endfor %}
     </div>
   </div>
 </div>
