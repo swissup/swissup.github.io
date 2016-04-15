@@ -4,19 +4,4 @@ body_class: no-anchors no-edit
 title: Extensions
 ---
 
-<div class="clearfix products-group group-extensions">
-  <h3>Magento 2.x Extensions</h3>
-  <ul class="list-products">
-    {% for hash in site.data.extensions %}
-      {% assign extension = hash[1] %}
-
-      {% if extension.urls.m2 == null %}
-        {% continue %}
-      {% endif %}
-
-      <li>
-        <a href="{{ extension.urls.m2 | prepend: site.baseurl }}" title="{{ extension.title }}">{{ extension.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
+{% include extensions/m2.html %}

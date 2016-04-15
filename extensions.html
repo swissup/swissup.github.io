@@ -4,40 +4,6 @@ body_class: no-anchors no-edit
 title: Magento Extensions
 ---
 
-<div class="products-group group-extensions-m1">
-  <h3>
-    Magento 1.x Extensions
-  </h3>
-  <ul class="list-products">
-    {% for hash in site.data.extensions %}
-      {% assign extension = hash[1] %}
+{% include extensions/m1.html %}
 
-      {% if extension.urls.m1 == null %}
-        {% continue %}
-      {% endif %}
-
-      <li>
-        <a href="{{ extension.urls.m1 | prepend: site.baseurl }}" title="{{ extension.title }}">{{ extension.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
-
-<div class="products-group group-extensions-m2">
-  <h3>
-    Magento 2.x Extensions
-  </h3>
-  <ul class="list-products">
-    {% for hash in site.data.extensions %}
-      {% assign extension = hash[1] %}
-
-      {% if extension.urls.m2 == null %}
-        {% continue %}
-      {% endif %}
-
-      <li>
-        <a href="{{ extension.urls.m2 | prepend: site.baseurl }}" title="{{ extension.title }}">{{ extension.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
+{% include extensions/m2.html %}
