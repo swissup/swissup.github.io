@@ -1,9 +1,10 @@
 ---
 layout: default
-title: Sold Together
-description:
-keywords: "magento cross sells, magento related products, customer who bought
-also bought, frequently bought together"
+title: Sold Together Installation
+description: Sold Together Installation on Magento 1.x
+keywords: >
+  magento cross sells, magento related products, customer who bought
+  also bought, frequently bought together
 category: Sold Together
 ---
 

@@ -1,9 +1,10 @@
 ---
 layout: default
-title: Quick Shopping
+title: Quick Shopping Installation
 description: magento quick view module installation
-keywords: " magento quick view extension, magento quick view product, magento
-quick view module, magento quick shop "
+keywords: >
+  magento quick view extension, magento quick view product, magento
+  quick view module, magento quick shop, quickshopping
 category: Quick Shopping
 ---
 

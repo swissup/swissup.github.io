@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Improved Admin Security
+title: Improved Admin Security Installation
 description: magento security module installation
 keywords: " magento security extension, admin security extension, magento
 security module, magento login protection, magento secure admin login, magento

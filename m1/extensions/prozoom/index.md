@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Prozoom Installation
-description: magento prozoom module installation
+title: Prozoom
+description: magento prozoom module
 keywords: " magento zoom, magento product image zoom,magento zoom image,
 magento zoom extension,magento product zoom extension,magento image zoom
 extension,product zoom magento,magento zoom product image,product zoom in

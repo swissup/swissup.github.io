@@ -1,9 +1,10 @@
 ---
 layout: default
-title: Prolabels
+title: Prolabels Installation
 description: magento product labels module installation
-keywords: " magento product labels extension, magento labels, adding labels to
-magento category page, magento module "
+keywords: >
+  magento product labels extension, magento labels, adding labels to
+  magento category page, magento module, prolabels
 category: Prolabels
 ---
 

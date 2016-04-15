@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Lightbox Pro
+title: Lightbox Pro Installation
 description: magento lightbox module installation
 keywords: " magento lightbox popup, magento lightbox extension, magento
 product lightbox extension, lightbox magento extension "

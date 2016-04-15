@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Ask It
-description: magento product questions askit module installation
+title: AskIt
+description: magento product questions askit module
 keywords: " magento product questions module, product questions on magento
 product page, magento askit module installation "
-category: Ask It
+category: AskIt
 ---
 
-# Ask It
+# AskIt
 
 - [Installation](installation/)

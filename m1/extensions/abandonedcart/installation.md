@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Abandoned Cart Manager
+title: Abandoned Cart Installation
 description: magento shopping cart abandonment module installation
 keywords: " magento shopping cart abandonment, magento abandoned cart, magento
 abandoned cart email"
-category: Abandoned Cart Manager
+category: Abandoned Cart
 ---
 
-# Abandoned Cart Manager installation instructions
+# Abandoned Cart installation instructions
 
 Please follow next steps to complete the installation:
 

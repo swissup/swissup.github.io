@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Ajax Search
+title: Ajax Search Installation
 description: magento ajax search module installation
 keywords: " magento ajax search, magento ajax search autocomplete and suggest,
 magento ajax search extension, magento ajax search suggest "

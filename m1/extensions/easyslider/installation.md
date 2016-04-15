@@ -1,9 +1,10 @@
 ---
 layout: default
-title: Easy Slider
+title: Easy Slider Installation
 description: magento slider module installation
-keywords: " magento slider on homepage, magento slider extension, magento image
-slider, magento slider on product page "
+keywords: >
+  magento slider on homepage, magento slider extension, magento image
+  slider, magento slider on product page "
 category: Easy Slider
 ---
 

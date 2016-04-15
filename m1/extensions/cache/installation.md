@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Full Page Cache
-description: Full Page Cache documentation
+title: Full Page Cache Installation
+description: Full Page Cache Installation
 keywords: "cache, fpc, full page cache, magento full page cache extension"
 category: Cache
 ---
