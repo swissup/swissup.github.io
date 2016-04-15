@@ -1,0 +1,42 @@
+{% assign group = site.data.argento[include.version] %}
+<div class="clearfix products-group group-{{ group.title | downcase | replace: ' ', '-' }}">
+  {% if include.useH1 == true %}
+    <h1>{{ group.title }}</h1>
+  {% else %}
+    <h3>
+        <a title="{{ group.title }}" href="{{ group.url | prepend: site.baseurl }}">{{ group.title }}</a>
+    </h3>
+  {% endif %}
+
+  {% assign articles = group.articles %}
+  {% if articles %}
+    <h4>Articles</h4>
+    <ul class="list-articles">
+      {% for article in articles %}
+        <li>
+          <a href="{{ article.url | prepend: site.baseurl }}" title="{{ article.title }}">{{ article.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+
+  <h4>Themes</h4>
+  <ul class="list-products">
+    {% assign products = group.themes | sort: "title" %}
+    {% for product in products %}
+      <li>
+        <a href="{{ product.url | prepend: site.baseurl }}" title="{{ product.title }}">{{ product.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <h4>Extensions</h4>
+  <ul class="list-products">
+    {% assign products = group.extensions | sort: "title" %}
+    {% for product in products %}
+      <li>
+        <a href="{{ product.url | prepend: site.baseurl }}" title="{{ product.title }}">{{ product.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

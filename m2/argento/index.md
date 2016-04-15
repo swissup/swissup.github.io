@@ -5,8 +5,4 @@ description: Argento documentation
 category: Argento
 ---
 
-# Argento
-
-#### [Argento Essence](essence/)
-
-- [Installation](essence/installation/)
+{% include argento/view.html version='m2' useH1=true %}

@@ -1,4 +1,5 @@
-- title: Argento for Magento 1.x
+m1:
+  title: Argento for Magento 1.x
   url: /m1/argento/
 
   articles:
@@ -94,12 +95,17 @@
     - title: Testimonials
       url: /m1/extensions/testimonials/
 
-- title: Argento for Magento 2.x
+m2:
+  title: Argento for Magento 2.x
   url: /m2/argento/
 
+  articles:
+    - title: Installation
+      url: /m2/argento/essence/installation/
+
   themes:
-    - title: Blank
-      url: /m2/argento/blank/
+    # - title: Blank
+    #   url: /m2/argento/blank/
 
     - title: Essence
       url: /m2/argento/essence/
