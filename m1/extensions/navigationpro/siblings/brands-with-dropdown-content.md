@@ -20,7 +20,7 @@ category: Navigationpro
 4.  Fill the form with following values:
 
     ```
-    Content:             <a href="{% raw %}{{store url="brands"}}{% endraw %}" class="nav-a level-top"><span class="nav-span">Brands</span></a>
+    Content:             <a href="{% raw %}{{store url='brands'}}{% endraw %}" class="nav-a level-top"><span class="nav-span">Brands</span></a>
     Dropdown Content:    Insert Attributepages Option List widget using WYSISYG editor
     Dropdown css styles: width: 600px; padding: 10px;
     ```

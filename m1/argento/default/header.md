@@ -16,9 +16,9 @@ In order to edit the custom header links block, please navigate to `CMS > Static
 
 ```html
     <ul class="links header-links">
-    <li class="first"><a href="{% raw %}{{store url=""}}{% endraw %}">support</a></li>
+    <li class="first"><a href="{% raw %}{{store url=''}}{% endraw %}">support</a></li>
     <li><a href="{{store url=""}}">faq</a></li>
-    <li class="last"><a href="{% raw %}{{store url=""}}{% endraw %}">knowledge base</a></li>
+    <li class="last"><a href="{% raw %}{{store url=''}}{% endraw %}">knowledge base</a></li>
     </ul>
 ```
 
@@ -85,7 +85,7 @@ In order to edit this block, please navigate to `CMS > Static Blocks > Header Co
 The default block code is:
 
 ```xml
-<img width="160" height="60" class="header-callout hidden-phone hidden-tablet" src="{% raw %}{{skin url="images/media/callout_customer_support.gif"}}{% endraw %}" alt="Toll-Free Customer Support 24/7" style="margin: 5px 0 0 50px; max-width: 180px; max-height: 80px;"/>
+<img width="160" height="60" class="header-callout hidden-phone hidden-tablet" src="{% raw %}{{skin url='images/media/callout_customer_support.gif'}}{% endraw %}" alt="Toll-Free Customer Support 24/7" style="margin: 5px 0 0 50px; max-width: 180px; max-height: 80px;"/>
 ```
 
 ![Argento default theme header callout](/images/argento/default/header-callout.jpg)

@@ -158,7 +158,7 @@ category: Argento
  4. Switch to `Siblings` tab and add new sibling with following values:
 
     ```
-    Content: <a class="nav-a hidden-tablet" href="{% raw %}{{store url="brands"}}{% endraw %}">Brands</a>
+    Content: <a class="nav-a hidden-tablet" href="{% raw %}{{store url='brands'}}{% endraw %}">Brands</a>
     Sort Order: 50
     Dropdown css styles: 950px
     Dropdown content: Insert Attribute Page: Option List widget using WYSIWYG editor

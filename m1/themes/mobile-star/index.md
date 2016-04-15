@@ -56,9 +56,9 @@ category: m001
 
     ```html
     <ul>
-        <li><a href="{% raw %}{{store direct_url="about-magento-demo-store"}}{% endraw %}">About Us</a></li>
-        <li><a href="{% raw %}{{store direct_url="customer-service"}}{% endraw %}">Customer Service</a></li>
-        <li class="last"><a href="{% raw %}{{store direct_url="contacts"}}{% endraw %}">Contact Us</a></li>
+        <li><a href="{% raw %}{{store direct_url='about-magento-demo-store'}}{% endraw %}">About Us</a></li>
+        <li><a href="{% raw %}{{store direct_url='customer-service'}}{% endraw %}">Customer Service</a></li>
+        <li class="last"><a href="{% raw %}{{store direct_url='contacts'}}{% endraw %}">Contact Us</a></li>
     </ul>
     ```
 
@@ -68,14 +68,14 @@ category: m001
 
     ```html
     <ul>
-        <li class="last"><a href="{% raw %}{{store direct_url="mobileswitcher/index/desktop"}}{% endraw %}" rel="nofollow">Desktop Version</a></li>
+        <li class="last"><a href="{% raw %}{{store direct_url='mobileswitcher/index/desktop'}}{% endraw %}" rel="nofollow">Desktop Version</a></li>
     </ul>
     ```
 
  2. Open the ```footer_link``` static block of your desktop theme and add the following link to it:
 
     ```html
-    <a href="{% raw %}{{store direct_url="mobileswitcher/index/mobile"}}{% endraw %}" rel="nofollow">Mobile Version</a>
+    <a href="{% raw %}{{store direct_url='mobileswitcher/index/mobile'}}{% endraw %}" rel="nofollow">Mobile Version</a>
     ```
 
 #### Selecting Theme in admin configuration

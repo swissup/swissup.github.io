@@ -59,9 +59,9 @@ bin/magento setup:upgrade
 ```html
 <div class="homepage-slider" >
     <div data-mage-init='{"slick": {"slidesToShow": 1, "slidesToScroll": 1, "dots": true, "autoplay": true}}'>
-        <div style="margin-right: 10px"><img src="{% raw %}{{view url="images/slider/slide1.jpg"}}{% endraw %}" alt=""/></div>
-        <div style="margin-right: 10px"><img src="{% raw %}{{view url="images/slider/slide2.jpg"}}{% endraw %}" alt=""/></div>
-        <div style="margin-right: 10px"><img src="{% raw %}{{view url="images/slider/slide3.jpg"}}{% endraw %}" alt=""/></div>
+        <div style="margin-right: 10px"><img src="{% raw %}{{view url='images/slider/slide1.jpg'}}{% endraw %}" alt=""/></div>
+        <div style="margin-right: 10px"><img src="{% raw %}{{view url='images/slider/slide2.jpg'}}{% endraw %}" alt=""/></div>
+        <div style="margin-right: 10px"><img src="{% raw %}{{view url='images/slider/slide3.jpg'}}{% endraw %}" alt=""/></div>
     </div>
 </div>
 {% raw %}{{widget type="Magento\Catalog\Block\Product\Widget\NewWidget" display_type="new_products" products_count="8" template="product/widget/new/content/new_grid.phtml"}}{% endraw %}
@@ -76,7 +76,7 @@ Block **Slogan**
 
 ```html
 <div class="slogan" >
-    <img src="{% raw %}{{view url="images/slogan.gif"}}{% endraw %}" alt="" />
+    <img src="{% raw %}{{view url='images/slogan.gif'}}{% endraw %}" alt="" />
 </div>
 ```
 
@@ -112,33 +112,33 @@ Block **Footer Links**
         <li>
             <h4>About us</h4>
             <ul>
-                <li><a href="{% raw %}{{store direct_url="about"}}{% endraw %}">About Us</a></li>
-                <li><a href="{% raw %}{{store direct_url="our-company"}}{% endraw %}">Our company</a></li>
-                <li><a href="{% raw %}{{store direct_url="catalog/seo_sitemap/category"}}{% endraw %}">Sitemap</a></li>
+                <li><a href="{% raw %}{{store direct_url='about'}}{% endraw %}">About Us</a></li>
+                <li><a href="{% raw %}{{store direct_url='our-company'}}{% endraw %}">Our company</a></li>
+                <li><a href="{% raw %}{{store direct_url='catalog/seo_sitemap/category'}}{% endraw %}">Sitemap</a></li>
             </ul>
         </li>
         <li>
             <h4>Customer information</h4>
             <ul>
-                <li><a href="{% raw %}{{store direct_url="contacts"}}{% endraw %}">Contact Us</a></li>
-                <li><a href="{% raw %}{{store direct_url="price-matching"}}{% endraw %}">Price matching</a></li>
-                <li><a href="{% raw %}{{store direct_url="testimonials"}}{% endraw %}">Testimonials</a></li>
+                <li><a href="{% raw %}{{store direct_url='contacts'}}{% endraw %}">Contact Us</a></li>
+                <li><a href="{% raw %}{{store direct_url='price-matching'}}{% endraw %}">Price matching</a></li>
+                <li><a href="{% raw %}{{store direct_url='testimonials'}}{% endraw %}">Testimonials</a></li>
             </ul>
         </li>
         <li>
             <h4>Security &amp; privacy</h4>
             <ul>
-                <li><a href="{% raw %}{{store direct_url="privacy"}}{% endraw %}">Privacy Policy</a></li>
-                <li><a href="{% raw %}{{store direct_url="safe-shopping"}}{% endraw %}">Safe &amp; secure shopping</a></li>
-                <li><a href="{% raw %}{{store direct_url="terms"}}{% endraw %}">Terms &amp; conditions</a></li>
+                <li><a href="{% raw %}{{store direct_url='privacy'}}{% endraw %}">Privacy Policy</a></li>
+                <li><a href="{% raw %}{{store direct_url='safe-shopping'}}{% endraw %}">Safe &amp; secure shopping</a></li>
+                <li><a href="{% raw %}{{store direct_url='terms'}}{% endraw %}">Terms &amp; conditions</a></li>
             </ul>
         </li>
         <li class="last">
             <h4>Shipping &amp; returns</h4>
             <ul>
-                <li><a href="{% raw %}{{store direct_url="delivery"}}{% endraw %}">Delivery information</a></li>
-                <li><a href="{% raw %}{{store direct_url="guarantees"}}{% endraw %}">Satisfaction guarantee</a></li>
-                <li><a href="{% raw %}{{store direct_url="returns"}}{% endraw %}">Returns policy</a></li>
+                <li><a href="{% raw %}{{store direct_url='delivery'}}{% endraw %}">Delivery information</a></li>
+                <li><a href="{% raw %}{{store direct_url='guarantees'}}{% endraw %}">Satisfaction guarantee</a></li>
+                <li><a href="{% raw %}{{store direct_url='returns'}}{% endraw %}">Returns policy</a></li>
             </ul>
         </li>
     </ul>
@@ -152,10 +152,10 @@ Block **Footer Payments**
 
 ```html
 <ul class="footer-payments" >
-    <li><img src="{% raw %}{{view url="images/payments/amex.svg"}}{% endraw %}" alt=""></li>
-    <li><img src="{% raw %}{{view url="images/payments/visa.svg"}}{% endraw %}" alt=""></li>
-    <li><img src="{% raw %}{{view url="images/payments/maestro.svg"}}{% endraw %}" alt=""></li>
-    <li><img src="{% raw %}{{view url="images/payments/mastercard.svg"}}{% endraw %}" alt=""></li>
+    <li><img src="{% raw %}{{view url='images/payments/amex.svg'}}{% endraw %}" alt=""></li>
+    <li><img src="{% raw %}{{view url='images/payments/visa.svg'}}{% endraw %}" alt=""></li>
+    <li><img src="{% raw %}{{view url='images/payments/maestro.svg'}}{% endraw %}" alt=""></li>
+    <li><img src="{% raw %}{{view url='images/payments/mastercard.svg'}}{% endraw %}" alt=""></li>
 </ul>
 ```
 
@@ -167,10 +167,10 @@ Block **Homepage Callouts**
 ```html
 <div class="home-callouts">
     <div class="callout callout1">
-        <img src="{% raw %}{{view url="images/callout1.png"}}{% endraw %}" alt="" />
+        <img src="{% raw %}{{view url='images/callout1.png'}}{% endraw %}" alt="" />
     </div>
     <div class="callout callout2">
-        <img src="{% raw %}{{view url="images/callout2.png"}}{% endraw %}" alt="" />
+        <img src="{% raw %}{{view url='images/callout2.png'}}{% endraw %}" alt="" />
     </div>
 </div>
 ```

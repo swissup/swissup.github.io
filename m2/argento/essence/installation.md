@@ -48,15 +48,15 @@ category: Argento 2
             {% raw %}{{widget type="Swissup\EasySlide\Block\Slider" identifier="argento_essence"}}{% endraw %}
         </div>
         <div class="item col-md-5 argento-grid cols-xs-3 cols-md-1 no-padding">
-            <a class="item" href="{% raw %}{{store url="delivery"}}{% endraw %}"><img src="{% raw %}{{view url="images/callouts/delivery.gif"}}{% endraw %}"/></a>
-            <a class="item" href="{% raw %}{{store url="galaxy-s3"}}{% endraw %}"><img src="{% raw %}{{view url="images/callouts/galaxy_s3.gif"}}{% endraw %}"/></a>
-            <a class="item" href="{% raw %}{{store url="roku-2-xs"}}{% endraw %}"><img src="{% raw %}{{view url="images/callouts/roku2_xs.gif"}}{% endraw %}"/></a>
+            <a class="item" href="{% raw %}{{store url='delivery'}}{% endraw %}"><img src="{% raw %}{{view url='images/callouts/delivery.gif'}}{% endraw %}"/></a>
+            <a class="item" href="{% raw %}{{store url='galaxy-s3'}}{% endraw %}"><img src="{% raw %}{{view url='images/callouts/galaxy_s3.gif'}}{% endraw %}"/></a>
+            <a class="item" href="{% raw %}{{store url='roku-2-xs'}}{% endraw %}"><img src="{% raw %}{{view url='images/callouts/roku2_xs.gif'}}{% endraw %}"/></a>
         </div>
     </div>
 
     {% raw %}{{widget type="Swissup\Easycatalogimg\Block\Widget\SubcategoriesList" category_count="4" subcategory_count="5" column_count="4" show_image="1" image_width="200" image_height="200" template="Swissup_Easycatalogimg::list.phtml"}}{% endraw %}
 
-    <div><a href="{% raw %}{{store url="hp-envy-17"}}{% endraw %}"><img src="{% raw %}{{view url="images/callouts/hp_envy_17.jpg"}}{% endraw %}"/></a></div>
+    <div><a href="{% raw %}{{store url='hp-envy-17'}}{% endraw %}"><img src="{% raw %}{{view url='images/callouts/hp_envy_17.jpg'}}{% endraw %}"/></a></div>
 
     <div class="argento-grid">
         <div class="blocks-main item col-md-11" data-mage-init='{"argentoTabs": {}}'>
@@ -77,18 +77,18 @@ category: Argento 2
         </div>
         <div class="block-content">
             <div data-mage-init='{"slick": {"slidesToShow": 6, "slidesToScroll": 6, "dots": false, "autoplay": true, "variableWidth": true}}'>
-                <div><a href="#"><img src="{% raw %}{{view url="images/brands/sony.jpg"}}{% endraw %}" alt="" width="128" height="73"/></a></div>
-                <div><a href="#"><img src="{% raw %}{{view url="images/brands/apple.jpg"}}{% endraw %}" alt="" width="70" height="73"/></a></div>
-                <div><a href="#"><img src="{% raw %}{{view url="images/brands/garmin.jpg"}}{% endraw %}" alt="" width="154" height="74"/></a></div>
-                <div><a href="#"><img src="{% raw %}{{view url="images/brands/htc.jpg"}}{% endraw %}" alt="" width="124" height="74"/></a></div>
-                <div><a href="#"><img src="{% raw %}{{view url="images/brands/intel.jpg"}}{% endraw %}" alt="" width="103" height="74"/></a></div>
-                <div><a href="#"><img src="{% raw %}{{view url="images/brands/motorola.jpg"}}{% endraw %}" alt="" width="204" height="76"/></a></div>
-                <div><a href="#"><img src="{% raw %}{{view url="images/brands/sony.jpg"}}{% endraw %}" alt="" width="128" height="73"/></a></div>
-                <div><a href="#"><img src="{% raw %}{{view url="images/brands/apple.jpg"}}{% endraw %}" alt="" width="70" height="73"/></a></div>
-                <div><a href="#"><img src="{% raw %}{{view url="images/brands/garmin.jpg"}}{% endraw %}" alt="" width="154" height="74"/></a></div>
-                <div><a href="#"><img src="{% raw %}{{view url="images/brands/htc.jpg"}}{% endraw %}" alt="" width="124" height="74"/></a></div>
-                <div><a href="#"><img src="{% raw %}{{view url="images/brands/intel.jpg"}}{% endraw %}" alt="" width="103" height="74"/></a></div>
-                <div><a href="#"><img src="{% raw %}{{view url="images/brands/motorola.jpg"}}{% endraw %}" alt="" width="204" height="76"/></a></div>
+                <div><a href="#"><img src="{% raw %}{{view url='images/brands/sony.jpg'}}{% endraw %}" alt="" width="128" height="73"/></a></div>
+                <div><a href="#"><img src="{% raw %}{{view url='images/brands/apple.jpg'}}{% endraw %}" alt="" width="70" height="73"/></a></div>
+                <div><a href="#"><img src="{% raw %}{{view url='images/brands/garmin.jpg'}}{% endraw %}" alt="" width="154" height="74"/></a></div>
+                <div><a href="#"><img src="{% raw %}{{view url='images/brands/htc.jpg'}}{% endraw %}" alt="" width="124" height="74"/></a></div>
+                <div><a href="#"><img src="{% raw %}{{view url='images/brands/intel.jpg'}}{% endraw %}" alt="" width="103" height="74"/></a></div>
+                <div><a href="#"><img src="{% raw %}{{view url='images/brands/motorola.jpg'}}{% endraw %}" alt="" width="204" height="76"/></a></div>
+                <div><a href="#"><img src="{% raw %}{{view url='images/brands/sony.jpg'}}{% endraw %}" alt="" width="128" height="73"/></a></div>
+                <div><a href="#"><img src="{% raw %}{{view url='images/brands/apple.jpg'}}{% endraw %}" alt="" width="70" height="73"/></a></div>
+                <div><a href="#"><img src="{% raw %}{{view url='images/brands/garmin.jpg'}}{% endraw %}" alt="" width="154" height="74"/></a></div>
+                <div><a href="#"><img src="{% raw %}{{view url='images/brands/htc.jpg'}}{% endraw %}" alt="" width="124" height="74"/></a></div>
+                <div><a href="#"><img src="{% raw %}{{view url='images/brands/intel.jpg'}}{% endraw %}" alt="" width="103" height="74"/></a></div>
+                <div><a href="#"><img src="{% raw %}{{view url='images/brands/motorola.jpg'}}{% endraw %}" alt="" width="204" height="76"/></a></div>
             </div>
         </div>
     </div>
@@ -98,9 +98,9 @@ category: Argento 2
 
     ```html
     <ul class="header links header-cms-links">
-        <li class="first"><a href="{% raw %}{{store url="support"}}{% endraw %}">support</a></li>
-        <li><a href="{% raw %}{{store url="faq"}}{% endraw %}">faq</a></li>
-        <li class="last"><a href="{% raw %}{{store url="knowledgebase"}}{% endraw %}">knowledge base</a></li>
+        <li class="first"><a href="{% raw %}{{store url='support'}}{% endraw %}">support</a></li>
+        <li><a href="{% raw %}{{store url='faq'}}{% endraw %}">faq</a></li>
+        <li class="last"><a href="{% raw %}{{store url='knowledgebase'}}{% endraw %}">knowledge base</a></li>
     </ul>
     ```
 
@@ -112,34 +112,34 @@ category: Argento 2
             <li class="item">
                 <div class="h4">About us</div>
                 <ul>
-                    <li><a href="{% raw %}{{store direct_url="about"}}{% endraw %}">About Us</a></li>
-                    <li><a href="{% raw %}{{store direct_url="our-company"}}{% endraw %}">Our company</a></li>
-                    <li><a href="{% raw %}{{store direct_url="carriers"}}{% endraw %}">Carriers</a></li>
-                    <li><a href="{% raw %}{{store direct_url="shipping"}}{% endraw %}">Shipping</a></li>
+                    <li><a href="{% raw %}{{store direct_url='about'}}{% endraw %}">About Us</a></li>
+                    <li><a href="{% raw %}{{store direct_url='our-company'}}{% endraw %}">Our company</a></li>
+                    <li><a href="{% raw %}{{store direct_url='carriers'}}{% endraw %}">Carriers</a></li>
+                    <li><a href="{% raw %}{{store direct_url='shipping'}}{% endraw %}">Shipping</a></li>
                 </ul>
             </li>
             <li class="item">
                 <div class="h4">Customer center</div>
                 <ul>
-                    <li><a href="{% raw %}{{store direct_url="customer/account"}}{% endraw %}">My Account</a></li>
-                    <li><a href="{% raw %}{{store direct_url="sales/order/history"}}{% endraw %}">Order Status</a></li>
-                    <li><a href="{% raw %}{{store direct_url="wishlist"}}{% endraw %}">Wishlist</a></li>
-                    <li><a href="{% raw %}{{store direct_url="exchanges"}}{% endraw %}">Returns and Exchanges</a></li>
+                    <li><a href="{% raw %}{{store direct_url='customer/account'}}{% endraw %}">My Account</a></li>
+                    <li><a href="{% raw %}{{store direct_url='sales/order/history'}}{% endraw %}">Order Status</a></li>
+                    <li><a href="{% raw %}{{store direct_url='wishlist'}}{% endraw %}">Wishlist</a></li>
+                    <li><a href="{% raw %}{{store direct_url='exchanges'}}{% endraw %}">Returns and Exchanges</a></li>
                 </ul>
             </li>
             <li class="item">
                 <div class="h4">Info</div>
                 <ul>
-                    <li><a href="{% raw %}{{store direct_url="privacy"}}{% endraw %}">Privacy policy</a></li>
-                    <li><a href="{% raw %}{{store direct_url="delivery"}}{% endraw %}">Delivery information</a></li>
-                    <li><a href="{% raw %}{{store direct_url="returns"}}{% endraw %}">Returns policy</a></li>
+                    <li><a href="{% raw %}{{store direct_url='privacy'}}{% endraw %}">Privacy policy</a></li>
+                    <li><a href="{% raw %}{{store direct_url='delivery'}}{% endraw %}">Delivery information</a></li>
+                    <li><a href="{% raw %}{{store direct_url='returns'}}{% endraw %}">Returns policy</a></li>
                 </ul>
             </li>
             <li class="item">
                 <div class="h4">Contacts</div>
                 <ul>
-                    <li><a href="{% raw %}{{store direct_url="contacts"}}{% endraw %}">Contact Us</a></li>
-                    <li><a href="{% raw %}{{store direct_url="location"}}{% endraw %}">Store location</a></li>
+                    <li><a href="{% raw %}{{store direct_url='contacts'}}{% endraw %}">Contact Us</a></li>
+                    <li><a href="{% raw %}{{store direct_url='location'}}{% endraw %}">Store location</a></li>
                 </ul>
             </li>
         </ul>
@@ -151,8 +151,8 @@ category: Argento 2
                 West Windsor, NJ 08550<br>
                 <strong>1.800.555.1903</strong><br>
             </address>
-            <a href="{% raw %}{{store direct_url="map"}}{% endraw %}" title="Show map">get directions</a><br>
-            <img width="200" height="60" style="margin-top: 10px;" src="{% raw %}{{view url="images/security_sign.gif"}}{% endraw %}" srcset="{% raw %}{{view url="images/security_sign@2x.gif"}}{% endraw %} 2x" alt="Security Seal"/>
+            <a href="{% raw %}{{store direct_url='map'}}{% endraw %}" title="Show map">get directions</a><br>
+            <img width="200" height="60" style="margin-top: 10px;" src="{% raw %}{{view url='images/security_sign.gif'}}{% endraw %}" srcset="{% raw %}{{view url='images/security_sign@2x.gif'}}{% endraw %} 2x" alt="Security Seal"/>
         </div>
     </div>
     ```
@@ -180,7 +180,7 @@ category: Argento 2
           <i class="fa fa-youtube-play fa-stack-1x fa-inverse"></i>
         </span>
       </a>
-      <a href="{% raw %}{{store url="rss"}}{% endraw %}" class="icon icon-rss">
+      <a href="{% raw %}{{store url='rss'}}{% endraw %}" class="icon icon-rss">
         <span class="fa-stack">
           <i class="fa fa-square fa-stack-2x"></i>
           <i class="fa fa-rss fa-stack-1x fa-inverse"></i>

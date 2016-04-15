@@ -100,8 +100,8 @@ Code, used for brands slider:
                 <a href="#" id="right" class="trigger trigger-right"><i class="fa fa-4x fa-angle-left"></i></a>
                 <div id="slider-brands-container" class="slider-wrapper">
                     <ul class="list-slider" id="slider-brands">
-                        <li class="item"><a href="#"><img src="{% raw %}{{skin url="images/catalog/brands/gucci.jpg"}}{% endraw %}" alt="" width="150" height="80"/></a></li>
-                        <li class="item" ><a href="#"><img src="{% raw %}{{skin url="images/catalog/brands/lv.jpg"}}{% endraw %}" alt="" width="100" height="80"/></a></li>
+                        <li class="item"><a href="#"><img src="{% raw %}{{skin url='images/catalog/brands/gucci.jpg'}}{% endraw %}" alt="" width="150" height="80"/></a></li>
+                        <li class="item" ><a href="#"><img src="{% raw %}{{skin url='images/catalog/brands/lv.jpg'}}{% endraw %}" alt="" width="100" height="80"/></a></li>
                         ...
                     </ul>
                 </div>
