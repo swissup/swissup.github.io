@@ -1,15 +1,17 @@
 absolute:
   title: Absolute Theme
   urls:
-    m1: /m1/themes/f001-absolute/
-    m2: /m2/themes/f001-absolute/
+    m1: /m1/themes/absolute/
+    m2: /m2/themes/absolute/
 
 classic:
   title: Classic Theme
   urls:
-    m1: /m1/themes/f002-classic/
+    m1: /m1/themes/classic/
+    m2:
 
 mobilestar:
   title: Mobile Star Theme
   urls:
-    m1: /m1/themes/m001-mobile-star/
+    m1: /m1/themes/mobile-star/
+    m2:

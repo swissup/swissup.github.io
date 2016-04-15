@@ -27,7 +27,7 @@ body_class: no-anchors no-edit
 </div>
 
 {% assign group = site.data.homepage.extensions %}
-<div class="clearfix products-group group-{{ group.title | downcase | replace: ' ', '-' }}">
+<div class="clearfix products-group group-extensions">
   <h3>
     {{ group.title }}
     {% if group.url %}
@@ -60,5 +60,48 @@ body_class: no-anchors no-edit
       </div>
     </div>
     <div class="brick-gutter"></div>
+  </div>
+</div>
+
+<div class="mdl-grid">
+  <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+    <div class="products-group group-themes-m1">
+      <h3>
+        Magento 1.x Themes
+      </h3>
+      <ul class="list-products onecolumn">
+        {% for hash in site.data.themes %}
+          {% assign theme = hash[1] %}
+
+          {% if theme.urls.m1 == null %}
+            {% continue %}
+          {% endif %}
+
+          <li>
+            <a href="{{ theme.urls.m1 | prepend: site.baseurl }}" title="{{ theme.title }}">{{ theme.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+    <div class="products-group group-themes-m2">
+      <h3>
+        Magento 2.x Themes
+      </h3>
+      <ul class="list-products onecolumn">
+        {% for hash in site.data.themes %}
+          {% assign theme = hash[1] %}
+
+          {% if theme.urls.m2 == null %}
+            {% continue %}
+          {% endif %}
+
+          <li>
+            <a href="{{ theme.urls.m2 | prepend: site.baseurl }}" title="{{ theme.title }}">{{ theme.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
   </div>
 </div>

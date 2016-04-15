@@ -32,5 +32,10 @@ extensions:
     - testimonials
     - store-maintenance
 
-# themes:
-#
+themes:
+  title: Themes
+  url: /themes/
+  items:
+    - absolute
+    - classic
+    - mobilestar

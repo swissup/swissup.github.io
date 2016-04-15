@@ -365,6 +365,11 @@ $masonry-brick-colors: (
     -moz-column-count: 3;
     -webkit-column-count: 3;
 
+    &.onecolumn {
+        column-count: 1;
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+    }
     li {
         padding: 0.3em 0;
     }
@@ -375,6 +380,12 @@ $masonry-brick-colors: (
         column-count: 2;
         -moz-column-count: 2;
         -webkit-column-count: 2;
+
+        &.onecolumn {
+            column-count: 1;
+            -moz-column-count: 1;
+            -webkit-column-count: 1;
+        }
     }
 }
 
