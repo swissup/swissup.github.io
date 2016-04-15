@@ -1,24 +1,16 @@
 ---
 layout: default
-title: Argento 2 Essence
-description: Argento 2 Essence documentation
+title: Argento installation
+description: Argento installation instructions for Magento 2.x
 keywords: >
-    magento 2 responsive template, magento 2 themes, magento 2 template,
-    magento themes
+    argento installation
 category: Argento 2
 ---
 
-# Argento for Magento 2.x installation instructions
+# Argento installation instructions
 
-* [Installation](#installation)
-* [List of included modules](#included-modules)
-* [List of included themes](#included-themes)
+ 1. Unzip argento sources:
 
-### Installation
-
- 1. Get extension source:
-
-    In case you have archive from our site:
     `unzip <argento.zip> -d <magento_root>`
 
  2. Enable modules and run upgrades:

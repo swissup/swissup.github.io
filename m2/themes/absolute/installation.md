@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Absolute Theme
+title: Absolute Theme Installation
 description: Absolute Theme documentation
 keywords: >
     magento 2 responsive template, magento 2 themes, magento 2 template,
