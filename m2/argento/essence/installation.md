@@ -30,7 +30,10 @@ category: Argento 2
         Swissup_SlickCarousel\
         Swissup_SoldTogether\
         Swissup_Testimonials
+
     bin/magento setup:upgrade
+    bin/magento setup:static-content:deploy
+    bin/magento cache:flush
     ```
 
  3. Magento's built-in WYSIWYG Editor is buggy, and we insist upon disabling it
