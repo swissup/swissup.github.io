@@ -32,6 +32,7 @@ Option          | Description
 ----------------|------------
 title           | Block title shown on frontend
 products_count  | Products count
+column_count    | Columns count
 template        | Path to the block template. [See available templates](#available-templates)
 custom_template | Path to the custom template. Used if `template` is empty or not set
 css_class       | Additional css classes

@@ -28,126 +28,61 @@ know how you may specify the options. See the corresponding pages:
 
 ### Block rendering settings
 
-###### Title | `title`
+Option          | Description
+----------------|------------
+title           | Block title shown on frontend
+products_count  | Products count
+column_count    | Columns count
+template        | Path to the block template. [See available templates](#available-templates)
+custom_template | Path to the custom template. Used if `template` is empty or not set
+class_name      | Additional css classes
+**"See all products" link settings** |
+show_page_link  | Flag that indicates to show "See all products" link or not
+page_url        | Custom url to the "See all products" page.
+page_title      | "See all products" link title
+**Pagination settings** |
+show_pager      | Flag that indicates that pagination should be visible or not
+products_per_page | Products count per page
+page_var_name   | Product page variabe name in query. Useful, when you have multiple block of the same type on one page
 
-Block Title
+###### Available templates
 
----
-
-###### Link title to highlight page | `page_title`
-
-Link title, that will point user to the one of [highlight based pages][pages].
-
-This option is available for the following widgets:
-
-```
-- highlight/product_new
-- highlight/product_featured
-- highlight/product_special
-- highlight/product_popular
-- highlight/product_bestseller
-```
-
----
-
-###### Number of Products to Display | `products_count`
-
-Number of products to show in block.
-
----
-
-###### Number of Columns to Display | `column_count`
-
-Number of columns in product listing. Used for grid listing mode. May be used 
-in custom template too.
-
----
-
-###### Template | `template`
-
-Template to use for widget block. Available options:
-
-```
-- Custom        ``
-- Grid          `tm/highlight/product/grid.phtml`
-- List          `tm/highlight/product/list.phtml`
-- Sidebar Grid  `tm/highlight/product/sidebar/grid.phtml`
-- Sidebar List  `tm/highlight/product/sidebar/list.phtml`
-```
-
----
-
-###### Custom Template | `custom_template`
-
-Path to the custom template. To use this option set the template option to empty 
-string.
-
----
-
-###### Block Class Name | `class_name`
-
-Unique css class name. It must be unique per page.
+Path | Description
+-----|------------
+tm/highlight/product/grid.phtml | Grid listing
+tm/highlight/product/list.phtml | List listing
+tm/highlight/product/sidebar/grid.phtml | Sidebar grid listing
+tm/highlight/product/sidebar/list.phtml | Sidebar list listing
 
 ### Product collection options
 
-###### Attribute Code | `attribute_code`
+Option          | Description
+----------------|------------
+attribute_code  | Attribute to use to filter product collection. Available for (Date and Yesno widgets)
+period          | Period (days) that will be used to filter popular and bestseller products
+order           | Sort order. [See available options](#sort-order)
+sku_filter      | Comma separated product sku's
+category_filter | Comma separated category ids. `current` keyword may be used to filter products by currently viewed category
+price_filter    | Comma separated min and max prices
+product_type_filter | Comma separated products types to show. [See available types](#available-product-types)
 
-Use this option to indicate attribute code, that should be used for product 
-collection filters.
+###### Sort Order
 
-This option is available for the following widgets:
+Value       | Descritpion
+------------|------------
+RAND()      | Random sorting
+sku         | Sort by sku
+minimal_price | Sort by price
+position    | Sort product position
 
-```
-- highlight/product_attribute_yesno
-- highlight/product_attribute_date
-```
+###### Available product types
 
----
-
-###### SKU Filter | `sku_filter`
-
-Comma separated product sku's
-
----
-
-###### Category Filter | `category_filter`
-
-Comma separated category ids. 
-
-> `current` keyword may be used to filter products by currently viewed category
-
----
-
-###### Price Filter  | `price_filter`
-
-Comma separated min and max prices
-
----
-
-###### Product Type Filter | `product_type_filter`
-
-Comma separated products types to show. Available options:
-
-```
 - simple
 - configurable
 - grouped
 - bundle
 - downloadable
 - virtual
-```
-
----
-
-###### Calculation period | `period`
-
-Period that will be used to filter popular and bestseller products.
-
----
-
-###### Sort Order | `order`
-
-Collection sort order. Can't be used with `attribute_date` based widgets.
 
 ##### Next up
 
