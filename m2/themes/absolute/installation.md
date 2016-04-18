@@ -10,16 +10,25 @@ category: Absolute Theme
 
 ## Absolute Theme for Magento 2.x installation instructions
 
-### Get extension source:
+### Get extension sources:
 
-In case you have archive from our site:
-`unzip <absolute-theme.zip> -d <magento_root>`
+- If you have access to our repositories:
+
+```
+composer config repositories.swissup composer http://swissup.github.io/packages/
+composer require swissup/absolute-metapackage --prefer-source
+```
+
+- Or, if you have archive from our site:
+
+```
+unzip <absolute-theme.zip> -d <magento_root>
+```
 
 ### Enable modules and run upgrades:
 
 ```
 bin/magento module:enable\
-    Swissup_Core\
     Swissup_SlickCarousel\
     Swissup_FontAwesome\
 
