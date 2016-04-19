@@ -48,7 +48,7 @@ m1:
       url: /m1/extensions/attributepages/
 
     - title: Catalog Configurable Swatches
-      url: /m1/extensions/attributepages/
+      url: /m1/extensions/catalog-configurable-swatches/
 
     - title: Core
       url: /m1/extensions/core/
@@ -57,7 +57,7 @@ m1:
       url: /m1/extensions/easybanner/
 
     - title: Easy Catalog Images
-      url: /m1/extensions/easycatalogimg/
+      url: /m1/extensions/easycatalogimages/
 
     - title: EasySlider
       url: /m1/extensions/easyslider/
@@ -66,7 +66,7 @@ m1:
       url: /m1/extensions/easytabs/
 
     - title: Facebook Like Button
-      url: /m1/extensions/fblike/
+      url: /m1/extensions/facebooklikebutton/
 
     - title: Highlight
       url: /m1/extensions/highlight/
@@ -115,7 +115,7 @@ m2:
       url: /m2/extensions/ajaxsearch/
 
     - title: Easy Catalog Images
-      url: /m2/extensions/easycatalogimg/
+      url: /m2/extensions/easycatalogimages/
 
     - title: EasySlider
       url: /m2/extensions/easyslider/
@@ -124,7 +124,7 @@ m2:
       url: /m2/extensions/easytabs/
 
     - title: Facebook Like Button
-      url: /m2/extensions/fblike/
+      url: /m2/extensions/facebooklikebutton/
 
     - title: Font Awesome
       url: /m2/extensions/font-awesome/

@@ -101,14 +101,14 @@ easycatalogimages:
   short_description: Visualize your sub-categories with beautiful images.
   size: 2x2
   urls:
-    m1: /m1/extensions/catalogimages/
-    m2: /m2/extensions/catalogimages/
+    m1: /m1/extensions/easycatalogimages/
+    m2: /m2/extensions/easycatalogimages/
 
 easycolorswatches:
   title: Easy Color Swatches
   short_description:
   urls:
-    m1: /m1/extensions/colorswatches/
+    m1: /m1/extensions/easycolorswatches/
     m2:
 
 easyflags:
