@@ -2,7 +2,8 @@
 layout: default
 title: Argento Pure 2.0 Configuration
 description: ArgentoPure 2.0 configuration
-keywords: "ArgentoPure, pure, configuration"
+keywords: >
+    ArgentoPure, pure, configuration, fluid layout, boxed layout
 category: Argento
 ---
 
@@ -27,7 +28,7 @@ Sticky sidebar | (min-width: 979px) and (min-height: 751px)
 
 #### Full screen and boxed layout
 
-Pure 2.0 theme supports both boxed and full screen layout types. Boxed layout is
+Pure 2.0 theme supports both boxed and full screen (fluid) layout types. Boxed layout is
 used to make visible body background aside of the site content. Full width layout
 is used to make the extra wide site or to use wide jumbotrons among the site.
 
