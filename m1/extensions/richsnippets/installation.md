@@ -9,32 +9,31 @@ keywords: >
 category: Rich Snippets
 ---
 
-# Rich Snippets installation instructions
+### Fresh Magento Installation
 
-Please follow next steps to complete the installation:
+1. Copy RichSnippets folder content to your store root
 
-1. Navigate to `Admin > Tools > Compilation` and deactivate the compilation
-mode for your store.
-2. Check if your Magento store cache is enabled.
-3. Unpack all files from extension archive into your magento store root directory.
-4. Refresh your magento store cache.
-5. Logout from your store admin and then login back, to refresh your admin user
-access rights.
+2. Go to `System>Configuration>Templates Master>RichSnippets` set `"Enabled"`
 
-Navigate to `System > Configuration > Templates-Master > Rich Snippets` and
-enable extension for any store you need.
+3. Fill needed data
 
-### Upgrade from version 1.x.x
+4.
+   - Choose **"JSON Format"** for invisible block with your store snippets
+   - Choose **"Microdata Format"** for visible block: ![Microdata Format](http://i.imgur.com/IjEbpz3.png)
+      * If you use `TM_EasyTabs` extension it will appear in the bottom of **"Review"** Tab
+      * If you use default product page layout it will appear in the bottom of **"Additional Information"** block
 
-In order to upgrade from Rich Snippets versions 1.x.x, please follow next steps:
+### Installation in Argento 1.6.2 version or lower or upgrading from previous Rich Snippets versions
 
-*   Go to your theme view.phtml file. For instance, app/design/frontend/argento/default/template/catalog/product/view.phtml.
+ 1. Go to your theme `view.phtml` file (i.e. *app/design/frontend/argento/default/template/catalog/product/view.phtml* )
 
-*   Remove the following lines:
+ 2. **REMOVE** following lines:
 
     ```html
     <div itemscope itemtype="http://schema.org/Product">
+    ```
 
+    ```php
     <!-- Rich snippets block -->
         <?php echo $this->getLayout()
              ->createBlock('richsnippets/product')
@@ -44,26 +43,35 @@ In order to upgrade from Rich Snippets versions 1.x.x, please follow next steps:
     </div>
     ```
 
-*   Find the following code snippets and remove:
+3. Find following code snippets and **REMOVE**:
 
-    ```html
-    itemprop="name"
-    itemprop="description"
-    ```
+    - `itemprop="name"`
+    - `itemprop="description"`
 
-*   Or restore your original theme view.phtml if no other changes were made.
+4. Or **RESTORE** your original theme **view.phtml** if no other changes were made
 
-* Copy Rich Snippets 2.0 folder content to your store root.
-* Go to `System > Configuration > Templates Master > RichSnippets` and set
-`Enabled`.
-* Fill needed data 8.
-    * Choose “JSON Format” for invisible block with your store snippets.
-    * Choose “Microdata Format” for visible block. Please notice if you use
-    `TM_EasyTabs` extension, it will appear in the bottom of `Review` Tab.
-    If you use the default product page layout, it will appear at the
-        bottom of `Additional Information` block.
+5. Copy **Rich Snippets 2.0** folder content to your store root
 
-That's all. Navigate to your store and check how it looks.
+6. Go to System>Configuration>Templates Master>RichSnippets set "Enabled"
+
+7. Fill needed data
+
+8.
+   - Choose "JSON Format" for invisible block with your store snippets
+   - Choose "Microdata Format" for visible block: ![Microdata Format](http://i.imgur.com/IjEbpz3.png)
+      * If you use TM_EasyTabs extension it will appear in the bottom of "Review" Tab
+      * If you use default product page layout it will appear in the bottom of "Additional Information" block
+
+### Testing your site with Google Rich Snippets testing tool
+
+1. Open [Google Rich Snippets testing tool](https://developers.google.com/structured-data/testing-tool/)
+
+2. Insert your page source code or URL in proper fields and click **Check**
+
+3. If everything is OK you will get similar results:
+![All good Results](http://i.imgur.com/7EmdVRm.png)
+
+4. Wait when Snippets will appear in Google search results
 
 #### After you install an extension you can go to:
 
