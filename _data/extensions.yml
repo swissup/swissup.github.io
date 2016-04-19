@@ -56,6 +56,13 @@ cache:
     m1: /m1/extensions/cache/
     m2:
 
+configurableswatches:
+  title: Configurable Swatches
+  short_description:
+  urls:
+    m1: /m1/extensions/catalog-configurable-swatches/
+    m2:
+
 countdowntimer:
   title: Countdown Timer
   short_description: >
@@ -204,6 +211,13 @@ newsletterbooster:
   short_description:
   urls:
     m1: /m1/extensions/newsletterbooster/
+    m2:
+
+orderattachments:
+  title: Order Attachments
+  short_description:
+  urls:
+    m1: /m1/extensions/order-attachments/
     m2:
 
 pagespeed:
