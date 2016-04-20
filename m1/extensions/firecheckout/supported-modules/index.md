@@ -28,7 +28,7 @@ additional modifications.
 - Craig_Tco
 - [Customweb_PayUnityCw](customweb-payunitycw/)
 - Ebizmarts_SagepaymentsPro
-- [Ebizmarts_SagepaySuite](ebizmarts-sagepaysuite/)
+- Ebizmarts_SagepaySuite
 - HeidelpayCD_Edition
 - IntellectLabs_Stripe
 - Itabs_Debit
