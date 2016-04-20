@@ -11,9 +11,22 @@ category: Social Suite
 
 # Social Suite configuration
 
-*   [Basic Setup](#basic-setup)
-*   [Google API Creation](#google-api-creation)
-*   [Facebook API creation](#facebook-api-creation)
+1.  [Basic Setup](#basic-setup)
+2.  API Creation
+    -   [Google API Creation](../api/google/)
+    -   [Facebook API creation](../api/facebook/)
+    -   [Twitter API creation](../api/twitter/)
+    -   [Yahoo API creation](../api/yahoo/)
+3.  General configurable options
+    -   [General configuration](../options/general-configuration/)
+    -   [Share Reward Discount code](../options/share-reward-discount-code/)
+    -   [Facebook and Google Login settings](../options/facebook-and-google-login/)
+    -   [Facebook share and Comment settings]()
+    -   [Using social buttons on the product page]()
+    -   [Using social buttons on the category products page]()
+    -   [Using social buttons on the category page]()
+    -   [Using social buttons on the store page]()
+    -   [Using social buttons on CMS page]()
 
 ### Basic Setup
 
@@ -50,65 +63,12 @@ enable extension for any store you need.
         <?php echo Mage::helper('socialsuite')->getCategoryLikeButton($_product) ?>
         ```
 
-### Google API Creation
 
-Before starting using Google integration features configuration, you have to
-create application. Please go [Google API Console](https://console.developers.google.com/project){:target="_blank"}
-and follow next recommendations:
+#### After you configure an extension you can check:
 
-![Create API](/images/socialsuite/magentosocialsuiteconfig6.png)
-
-1.  Please press **Create Project** button. Then fill the appropriate
-    fields and click on **Create**.
-
-    ![New Project](/images/socialsuite/magentosocialsuiteconfig7.png)
-
-2.  At the left top of the page click on **APIs&auth** and select **Credentials** condition.
-    A new form will be opened.
-
-    ![Credentials](/images/socialsuite/magentosocialsuiteconfig8.png)
-
-3.  Put the mark on **Web Application**. After that fill next fields.
-    Please notice, that in the **Authorised Redirect URL** you should enter the
-    following **GOOGLE app REDIRECT URI** parameter `http://YOURDOMAIN/social/socialsuite/auth/gtunnel/`
-
-    ![Web Application](/images/socialsuite/magentosocialsuiteconfig9-1.png)
-
-4.  Now you see your **Client ID** and **Client Secret key**.
-    Please use it in the configuration process.
-
-    ![Client ID and Client Secret Key](/images/socialsuite/magentosocialsuiteconfig10.png)
-
-### Facebook API Creation
-
-Before starting using Facebook integration features configuration, you have to
-create application. Please go to [developers.facebook.com](https://developers.facebook.com){:target="_blank"}.
-At first click on **My Apps** at the top of the page and select the **Add a new App** condition
-from the drop down.
-
-![Create API](/images/socialsuite/facebook1.png)
-
-![Choose website](/images/socialsuite/facebook2.png)
-
-1.  Now you see a new form that must be filled. Press **Create App ID** button.
-
-    ![Create App ID](/images/socialsuite/facebook3.png)
-
-    After filling your info pass to **Next Steps** section:
-
-    ![Next steps](/images/socialsuite/facebook4.png)
-
-2.  At the left navigation tree please choose **Dashboard**. Now you see your
-    **App ID** and **App secret key**, that should be set in the extension configuration.
-
-    ![Dashboard](/images/socialsuite/facebook5.png)
-
-3.  Please choose **Settings** condition and before you continue to fill the
-    appropriate fields, you should **Add Platform**.
-
-    ![Add platform](/images/socialsuite/facebook6.png)
-
-4.  Now go to **Advanced** tab at the top of the page. And check
-    if **Client OAuth Login** condition is set to **Yes**. That's all.
-
-    ![Client OAuth Login](/images/socialsuite/facebook7.png)
+*   [Google API Creation](../api/google/)
+*   [Facebook API creation](../api/facebook/)
+*   [Twitter API creation](../api/twitter/)
+*   [Yahoo API creation](../api/yahoo/)
+*   [Support](https://swissuplabs.com/contacts/)
+*   [Forum](https://swissuplabs.com/magento-forum/)
