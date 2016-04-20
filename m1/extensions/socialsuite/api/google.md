@@ -39,6 +39,8 @@ and follow next recommendations:
     ![Client ID and Client Secret Key](/images/socialsuite/magentosocialsuiteconfig10.png)
 
 
+___
+
 #### After you set Google Api you can check:
 
 *   [Facebook API Creation](../facebook/)

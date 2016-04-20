@@ -12,21 +12,21 @@ category: Social Suite
 # Social Suite configuration
 
 1.  [Basic Setup](#basic-setup)
-2.  API Creation
+2.  [API Creation](../api/)
     -   [Google API Creation](../api/google/)
     -   [Facebook API creation](../api/facebook/)
     -   [Twitter API creation](../api/twitter/)
     -   [Yahoo API creation](../api/yahoo/)
-3.  General configurable options
+3.  [General configurable options](../options/)
     -   [General configuration](../options/general-configuration/)
     -   [Share Reward Discount code](../options/share-reward-discount-code/)
     -   [Facebook and Google Login settings](../options/facebook-and-google-login/)
-    -   [Facebook share and Comment settings]()
-    -   [Using social buttons on the product page]()
-    -   [Using social buttons on the category products page]()
-    -   [Using social buttons on the category page]()
-    -   [Using social buttons on the store page]()
-    -   [Using social buttons on CMS page]()
+    -   [Facebook share and Comment settings](../options/facebook-share-and-comment/)
+    -   [Using social buttons on the product page](../options/using-social-buttons-on-the-product-page/)
+    -   [Using social buttons on the category products page](../options/using-social-buttons-on-the-category-products-page/)
+    -   [Using social buttons on the category page](../options/using-social-buttons-on-the-category-page/)
+    -   [Using social buttons on the store page](../options/using-social-buttons-on-the-store-page)
+    -   [Using social buttons on CMS page](../options/using-social-buttons-on-cms-page)
 
 ### Basic Setup
 
@@ -63,6 +63,7 @@ enable extension for any store you need.
         <?php echo Mage::helper('socialsuite')->getCategoryLikeButton($_product) ?>
         ```
 
+___
 
 #### After you configure an extension you can check:
 
@@ -70,5 +71,6 @@ enable extension for any store you need.
 *   [Facebook API creation](../api/facebook/)
 *   [Twitter API creation](../api/twitter/)
 *   [Yahoo API creation](../api/yahoo/)
+*   [General configurable options](../options/)
 *   [Support](https://swissuplabs.com/contacts/)
 *   [Forum](https://swissuplabs.com/magento-forum/)

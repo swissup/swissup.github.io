@@ -43,6 +43,7 @@ from the drop down.
 
     ![Client OAuth Login](/images/socialsuite/facebook7.png)
 
+___
 
 #### After you set Facebook Api you can check:
 

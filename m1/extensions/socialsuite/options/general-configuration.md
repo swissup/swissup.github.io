@@ -39,3 +39,18 @@ In order to start working with configuration, please go to
 
 -   `Client Id` - specify your **Google client Id**.
 -   `Client Secret Key` - specify your **secret key**.
+
+___
+
+#### You can also check:
+
+*   [Share Reward Discount code](../share-reward-discount-code/)
+*   [Facebook and Google Login settings](../facebook-and-google-login/)
+*   [Facebook share and Comment settings](../facebook-share-and-comment/)
+*   [Using social buttons on the product page](../using-social-buttons-on-the-product-page/)
+*   [Using social buttons on the category products page](../using-social-buttons-on-the-category-products-page/)
+*   [Using social buttons on the category page](../using-social-buttons-on-the-category-page/)
+*   [Using social buttons on the store page](../using-social-buttons-on-the-store-page)
+*   [Using social buttons on CMS page](../using-social-buttons-on-cms-page)
+*   [Support](https://swissuplabs.com/contacts/)
+*   [Forum](https://swissuplabs.com/magento-forum/)

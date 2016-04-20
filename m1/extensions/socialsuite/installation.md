@@ -23,6 +23,8 @@ access rights.
 
 That's all. Navigate to your store and check how it looks.
 
+___
+
 #### After you install an extension you can go to:
 
 * [SocialSuite Configuration](../extension-configuration/)

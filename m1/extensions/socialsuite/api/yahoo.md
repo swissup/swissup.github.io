@@ -20,6 +20,8 @@ Please specify correct values for the following mandatory fields, using our exam
 
 Finally click Create App.
 
+___
+
 #### After you set Yahoo Api you can check:
 
 *   [Facebook API Creation](../facebook/)

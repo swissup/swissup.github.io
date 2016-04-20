@@ -19,6 +19,8 @@ specify correct values for the following mandatory fields, using our example.
 
 ![Twitter Api](/images/socialsuite/twitter1.png)
 
+___
+
 #### After you set Twitter Api you can check:
 
 *   [Facebook API Creation](../facebook/)
