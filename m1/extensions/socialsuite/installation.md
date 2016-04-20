@@ -21,9 +21,6 @@ mode for your store.
 5. Logout from your store admin and then login back, to refresh your admin user
 access rights.
 
-* Navigate to `System > Configuration > Templates-Master > Social Suite` and
-enable extension for any store you need.
-
 That's all. Navigate to your store and check how it looks.
 
 #### After you install an extension you can go to:
