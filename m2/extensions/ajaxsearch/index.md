@@ -13,7 +13,7 @@ category: Ajaxsearch
 Magento2 module for adding advanced search providers.
 Improves search results box.
 
-![Ajaxsearch search results](/images/m2/ajaxsearch/description.png)
+![Ajaxsearch search results](/images/m2/ajaxsearch/usage.gif)
 
 ### Contents
 
