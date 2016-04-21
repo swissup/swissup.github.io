@@ -9,14 +9,16 @@ category: AjaxPro
 
 # Ajax Pro Use Cases
 
+*   [Make Shipping information always visible in AjaxCart popup](#make-shipping-information-always-visible-in-ajaxcart-popup)
+
 ### Make Shipping information always visible in AjaxCart popup
 
-![Ajac Cart expanded](/images/ajaxpro/ajax-cart.png)
+![Ajax Cart expanded](/images/ajaxpro/ajax-cart.png)
 
-1. Open your theme css file
-2. Add following code to the end:
+1.  Open your theme **css** file
+2.  Add following code to the end:
 
-```css
-#ajaxpro-notice-form .cart-collaterals { display: block !important; }
-#invader { display: none !important; }
-```
+    ```css
+    #ajaxpro-notice-form .cart-collaterals { display: block !important; }
+    #invader { display: none !important; }
+    ```
