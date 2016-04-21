@@ -16,7 +16,7 @@ Run the following commands:
 cd <magento_root>
 composer config repositories.swissup composer https://swissup.github.io/packages/
 composer require swissup/ajaxsearch:dev-master --prefer-source
-bin/magento module:enable Swissup_Core Swissup_Ajaxsearch
+bin/magento module:enable Swissup_Core Swissup_SubscriptionChecker Swissup_Ajaxsearch
 bin/magento setup:upgrade
 ```
 
