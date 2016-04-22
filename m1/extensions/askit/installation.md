@@ -25,10 +25,8 @@ enable extension for any store you need.
 * Please add the following code where you want to show Ask It product questions
 block.
 
-```html
-<!-- AskIt start-->
+```php
 <?php echo $this->helper('askit')->getLinkHtml($_product) ?>
-<!-- AskIt end-->
 ```
 
 That's all. Navigate to your store and check how it looks.
