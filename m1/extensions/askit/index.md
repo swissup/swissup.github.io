@@ -9,6 +9,8 @@ category: AskIt
 
 # AskIt
 
+![Talk](/images/m1/extensions/askit/talk.png)
+
 **Ask It** is most powerful **Magento** products questions extension, that allows
 to create the discussion on the product page, CMS pages and even on the categories
 pages. The display of recently discussion block at any place of your store leads

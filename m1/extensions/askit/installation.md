@@ -33,8 +33,12 @@ block.
 
 That's all. Navigate to your store and check how it looks.
 
+___
+
 #### After you install an extension you can go to:
 
-* [Support](https://swissuplabs.com/contacts/)
-* [Forum](https://swissuplabs.com/magento-forum/)
-
+*   [General configurable options](../general-configurable-options/)
+*   [Admin interfaces](../admin-interfaces/)
+*   [Use Cases](../use-cases/)
+*   [Support](https://swissuplabs.com/contacts/)
+*   [Forum](https://swissuplabs.com/magento-forum/)
