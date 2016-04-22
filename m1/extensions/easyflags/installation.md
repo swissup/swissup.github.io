@@ -22,9 +22,11 @@ access rights.
 * Navigate to `System > Configuration > Templates-Master > Easy Flags` and
 enable extension for any store you need.
 
-That's all. Navigate to your store and check how it looks.
+___
 
 #### After you install an extension you can go to:
 
-* [Support](https://swissuplabs.com/contacts/)
-* [Forum](https://swissuplabs.com/magento-forum/)
+*   [Easy Flags Use Cases](../use-cases/)
+*   [Easy Flags Configuration](../configuration/)
+*   [Support](https://swissuplabs.com/contacts/)
+*   [Forum](https://swissuplabs.com/magento-forum/)
