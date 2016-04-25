@@ -21,7 +21,11 @@ editing
 
 1.  [Installation](installation/)
 2.  [External cache model setup](external-cache-model-setup/)
-    * [Using Magento's local.xml file to use the model globally](external-cache-model-setup/#using-magento-localxml-file)
-    * [Using tmcache.xml file to use model for full page cache only](external-cache-model-setup/#using-tmcachexml-file)
-    * [Using the Cm_Cache_Backend_File model](external-cache-model-setup/#using-the-cmcachebackendfile)
+    - [Using Magento's local.xml file to use the model globally](external-cache-model-setup/#using-magento-localxml-file)
+    - [Using tmcache.xml file to use model for full page cache only](external-cache-model-setup/#using-tmcachexml-file)
+    - [Using the Cm_Cache_Backend_File model](external-cache-model-setup/#using-the-cmcachebackendfile)
 3.  [When cache is automatically refreshed?](when-cache-is-automatically-refreshed/)
+
+#### Developer documentation
+
+- [Add additional cache key programatically](add-additional-cache-key-programatically/)
