@@ -50,7 +50,7 @@ attributepages:
 
 cache:
   title: Cache
-  short_description: Blazing fast store is the key to ecommerce success.
+  short_description: Blazing fast store is the key to e-commerce success.
   size: 1x1
   urls:
     m1: /m1/extensions/cache/
@@ -66,7 +66,7 @@ configurableswatches:
 countdowntimer:
   title: Countdown Timer
   short_description: >
-    Time is running out.. Let your customers know about store events with
+    Time is running out. Let your customers know about store events with
     beatifully designed timers.
   size: 2x1
   urls:
@@ -75,7 +75,7 @@ countdowntimer:
 
 crawler:
   title: Crawler
-  short_description: Built-in crawler increases full page cache hit rate.
+  short_description: Built-in crawler increases page cache hit rate.
   size: 1x1
   urls:
     m1: /m1/extensions/crawler/
@@ -83,7 +83,7 @@ crawler:
 
 dailydeals:
   title: DailyDeals
-  short_description: Manage amazing, time limited deals at your store.
+  short_description: Show limited-time deals at your store.
   size: 2x2
   urls:
     m1: /m1/extensions/dailydeals/
@@ -98,7 +98,7 @@ easybanners:
 
 easycatalogimages:
   title: Easy Catalog Images
-  short_description: Visualize your sub-categories with beautiful images.
+  short_description: Visualize your sub-categories with awesome images.
   size: 2x2
   urls:
     m1: /m1/extensions/easycatalogimages/
@@ -177,7 +177,7 @@ helpmate:
 highlight:
   title: Highlight
   short_description: >
-    Highlight widgets helps you to create outstanding product promotions
+    Highlight widgets help you to create outstanding product promotions
     on homepage and other cms pages.
   size: 2x1
   urls:
@@ -200,7 +200,7 @@ lightboxpro:
 
 navigationpro:
   title: Navigation Pro
-  short_description: Born to build powerful menus with unlimited posibilities.
+  short_description: Born to build powerful menus with multiple posibilities.
   size: 2x1
   urls:
     m1: /m1/extensions/navigationpro/
@@ -258,8 +258,7 @@ quickshopping:
 reviewreminder:
   title: Review Reminder
   short_description: >
-    Social commerce is what everyone need. Full automation of review
-    reminder feature.
+    Social commerce is what everyone needs. Get improved CTR with review reminders.
   size: 1x2
   urls:
     m1: /m1/extensions/reviewreminder/
