@@ -15,7 +15,7 @@ category: Highlight
 Highlight extension provides you with a set of widgets which will help you to list
 products grouped according to your needs. You could easily show new,
 featured, onsale, bestsellers, popular products. With Highlight you will also
-display products fileterd by custom filters.
+display products filtered by custom filters.
 
 ### Contents
 
