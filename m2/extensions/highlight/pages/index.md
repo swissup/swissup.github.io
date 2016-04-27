@@ -11,10 +11,10 @@ category: Highlight
 
 # Highlight Pages
 
-Highlight extension provides a set of widgets which purpose is to list any kind
-of products filtered with flexible tools. It allows you to easely show new,
-featured, onsale, bestsellers, popular products. It's even can show products 
-filtered by custom filters.
+Highlight extension provides you with a set of widgets which will help you to list
+products grouped according to your needs. You could easily show new,
+featured, onsale, bestsellers, popular products. With Highlight you will also
+display products fileterd by custom filters.
 
 ### Contents
 
@@ -34,19 +34,19 @@ Popular         | http://example.com/highlight/popular.html
 Bestsellers     | http://example.com/highlight/bestsellers.html
 
 ## Settings
-Configuration is located at `Stores > Configuration > Swissup > Highlight Pages` 
+Configuration is located at `Stores > Configuration > Swissup > Highlight Pages`
 page.
 
-Each page has configuration settings that allows to change page title and URL.
+Each page has configuration settings that allow to change page title and URL.
 
 ![Highlight Pages Configuration](/images/m2/highlight/pages/configuration.png)
 
-Bestsellers and Popular products settings allows to set `Calculation period` option.
-This option allows to filter products collection by time period to get recent 
-Bestsellers and Popular products.
+Bestsellers and Popular products settings allow to set the `Calculation period`
+option. It allows to filter products collection by time period in order to get
+recent Bestsellers and Popular products.
 
 ##### Next up
 
-Great! Now you might want to see next: 
+Great! Now you might want to see next:
 
 - [Documentation homepage](/m2/extensions/highlight/)

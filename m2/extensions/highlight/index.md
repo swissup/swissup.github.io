@@ -12,10 +12,10 @@ category: Highlight
 
 # Highlight
 
-Highlight extension provides a set of widgets which purpose is to list any kind
-of products filtered with flexible tools. Module allows you to easely show New,
-Featured, Onsale, Bestsellers, Popular products. It's even can show products 
-filtered by custom filters.
+Highlight extension provides you with a set of widgets which will help you to list
+products grouped according to your needs. You could easily show new,
+featured, onsale, bestsellers, popular products. With Highlight you will also
+display products fileterd by custom filters.
 
 ### Contents
 
