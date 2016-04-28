@@ -31,9 +31,17 @@ category: Argento 2
         Swissup_SoldTogether\
         Swissup_Testimonials
 
-    bin/magento setup:upgrade
-    bin/magento setup:static-content:deploy
     bin/magento cache:flush
+    bin/magento setup:upgrade
+    rm -rf pub/static/_requirejs/
+    bin/magento setup:static-content:deploy
+    ```
+
+    You can also deploy static content (it is last command above) for specific
+    language. If you have german store, you have to run command:
+
+    ```
+    bin/magento setup:static-content:deploy de_DE
     ```
 
  3. Magento's built-in WYSIWYG Editor is buggy, and we insist upon disabling it
