@@ -9,7 +9,7 @@ category: Attributepages
 # Attributepages (Brandpages)
 
 Attributepage module allows to create brand or any other attribute page,
-based on catalog attribute. It also provides [widgets and helpers](#widgets-and-blocks)
+based on catalog attribute. It also provides [widgets and helpers](widgets-and-blocks)
 for NavigationPro module with
 [brands list](/m1/extensions/navigationpro/siblings/brands-with-dropdown-content/)
 and [attribute based pages list](/m1/extensions/navigationpro/siblings/browse-by-with-attributepages-list/)
@@ -55,7 +55,7 @@ Product listing filtered by option | Brand landing page
 ##### Related Articles
 - ["Browse By" menu item with attributepages list (NavigationPro)](/m1/extensions/navigationpro/siblings/browse-by-with-attributepages-list/)
 - ["Brands" menu item with dropdown content (NavigationPro)](/m1/extensions/navigationpro/siblings/brands-with-dropdown-content/)
-- ["Brands" dropdown (Argento Top Navigation)](/argento/navigation-setup/#brands-dropdown)
+- ["Brands" dropdown (Argento Top Navigation)](/m1/argento/navigation-setup/#brands-dropdown)
 
 [block_on_product_page]: use-cases/brand-block-on-product-page/ "Display brand block on product page"
 [block_on_category_page]: use-cases/brand-block-on-category-page/ "Display brand block on category page"
