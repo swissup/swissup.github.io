@@ -34,30 +34,17 @@ category: Social Suite
 enable extension for any store you need.
 2.  Set Up New [Facebook Application](https://developers.facebook.com/apps){:target="_blank"}
 3.  Set Up New [Google  Application](https://code.google.com/apis/console/#access){:target="_blank"}
-4.  If you are planning on using **XFBML** buttons, you will need to edit some
+4.  You will need to edit some
     template files:
-    *   Change the opening `html` tag to read:
-
-        ```html
-        <html xmlns:fb="http://ogp.me/ns/fb#">
-        ```
-    at next template files:
-
-        ```
-        app/design/frontend/[package]/[theme]/template/page/1column.phtml
-        app/design/frontend/[package]/[theme]/template/page/2columns-left.phtml
-        app/design/frontend/[package]/[theme]/template/page/2columns-right.phtml
-        app/design/frontend/[package]/[theme]/template/page/3columns.phtml
-        ```
     *   Code listed below should be added to **phtml** file in order to display
-        social buttons.
+        social buttons at **PRODUCT PAGE**.
         For example `app/design/frontend/[package]/[theme]/template/catalog/product/view.phtml`
 
         ```php
         <?php echo $this->getLayout()->createBlock('core/template')->setTemplate('tm/socialsuite/facebook_like/like.phtml')->toHtml(); ?>
         ```
     *   Code listed below should be added to phtml file in order to display
-        social buttons. For example `app/design/frontend/[package]/[theme]/template/catalog/product/list.phtml`
+        social buttons at **CATEGORY PAGE**. For example `app/design/frontend/[package]/[theme]/template/catalog/product/list.phtml`
 
         ```php
         <?php echo Mage::helper('socialsuite')->getCategoryLikeButton($_product) ?>
