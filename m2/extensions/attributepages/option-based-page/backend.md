@@ -1,29 +1,29 @@
 ---
 layout: default
 title: Option based pages management
-description: Option based pages backend management
-keywords: "attributepages backend"
+description: Magento 2 Option based pages backend management
+keywords: "magento 2 attributepages backend"
 category: Attributepages
 ---
 
 # Option based pages management
 
-Look at [frontend screenshots](/m1/extensions/attributepages/option-based-page/frontend/)
+Look at [frontend screenshots](/m2/extensions/attributepages/option-based-page/frontend/)
 on a separate page.
 
 #### Option based pages grid
 
-This page is available in `Templates-Master > Attribute Pages > Manage Options`
+This page is available in `Swissup > Attribute Pages > Manage Options`
 menu.
 
 You are allowed to view, edit and create all available Option Based pages
 (Brand filtered pages).
 
-![Option based pages grid](/images/attributepages/option-based-page/backend/grid.png)
+![Option based pages grid](/images/m2/attributepages/option-based-page/backend/grid.png)
 
 #### Create option page
 
-Option pages are created automatically, while saving Attribute based page.
+Option pages are created automatically when saving Attribute based page.
 
 If you whould like to create store specific option page, you can open existing
 option page and press `Duplicate` button, that will redirect you to
@@ -44,10 +44,10 @@ Option information tab comes with following fields:
 Field | Description
 :-----|:-----------
 Name | Page identifier for store owner
-Title | Used by `attributepages/option_list` block and widget.<br/> It's also used as a `Page Title` if content tab does not redefine it.
+Title | Used by `Swissup\Attributepages\Block\Option\OptionList` block and widget.<br/> It's also used as a `Page Title` if content tab does not redefine it.
 Url key | Frontend url where the page will be available
 Image | Image to show at the Attributepage and widgets
-Thumbnail | Image to show, when tiny logo size is needed. Look at [Use cases](/m1/extensions/attributepages/use-cases/) page.
+Thumbnail | Image to show, when tiny logo size is needed. Look at [Use cases](/m2/extensions/attributepages/use-cases/) page.
 Store View | List of store views, where current page should be available
 Enabled | Optionpage status
 
@@ -73,4 +73,4 @@ Layout Update XML | This field can be used to add or remove additional blocks
 Display Mode | Page display mode (Description and children, Description only, Children only)
 
 ##### Related Articles
-- [Option based page frontend screenshots](/m1/extensions/attributepages/option-based-page/frontend/)
+- [Option based page frontend screenshots](/m2/extensions/attributepages/option-based-page/frontend/)

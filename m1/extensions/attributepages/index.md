@@ -36,8 +36,8 @@ Product listing filtered by option | Brand landing page
 
 - [Frontend screenshots](option-based-page/frontend/)
 - [Backend](option-based-page/backend/)
-    - [Option based pages grid](option-based-page/backend/#grid)
-    - [Option page form](option-based-page/backend/#form)
+    - [Option based pages grid](option-based-page/backend/#option-based-pages-grid)
+    - [Option page form](option-based-page/backend/#option-page-form)
 
 ##### [Widgets and Blocks](widgets-and-blocks/)
 - [Product option helper](widgets-and-blocks/product-option-helper/) (Used for Product brand images for a product collection)
