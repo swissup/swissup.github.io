@@ -12,7 +12,7 @@ Module is works out of the box, hovewer if you would like to use GoogleMaps
 at firecheckout page, you should switch to Onecolumn firecheckout mode or
 apply the following changes for Two Columns mode:
 
- 1. Create [custom.css](/extensions/firecheckout/using-customcss-and-customjs/#change-firecheckout-styles) 
+ 1. Create [custom.css](/m1/extensions/firecheckout/using-customcss-and-customjs/#change-firecheckout-styles)
     file:
 
     `skin/frontent/base/default/tm/firecheckout/css/custom.css`
