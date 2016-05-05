@@ -94,7 +94,7 @@ easybanners:
   short_description:
   urls:
     m1: /m1/extensions/easybanners/
-    m2:
+    m2: /m2/extensions/easybanners/
 
 easycatalogimages:
   title: Easy Catalog Images
