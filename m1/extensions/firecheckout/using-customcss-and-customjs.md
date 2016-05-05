@@ -31,6 +31,6 @@ wish to add javascript for specific theme only.
 The file will be automatically included at the firecheckout page.
 
 ##### Related Articles
-- [House number field](/extensions/firecheckout/housenumber/)
-- [Dependent fields](/extensions/firecheckout/dependent-fields/)
+- [House number field](/m1/extensions/firecheckout/housenumber/)
+- [Dependent fields](/m1/extensions/firecheckout/dependent-fields/)
 

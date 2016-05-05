@@ -24,7 +24,7 @@ ajaxpro:
   short_description:
   urls:
     m1: /m1/extensions/ajaxpro/
-    m2:
+    m2: /m2/extensions/ajaxpro/
 
 ajaxsearch:
   title: AjaxSearch
@@ -46,7 +46,7 @@ attributepages:
   size: 2x2
   urls:
     m1: /m1/extensions/attributepages/
-    m2:
+    m2: /m2/extensions/attributepages/
 
 cache:
   title: Cache

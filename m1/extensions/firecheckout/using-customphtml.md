@@ -20,6 +20,6 @@ of content column.
 > **Do not use it for visible content**
 
 ##### Related Articles
-- [House number field - add tranlations](/extensions/firecheckout/housenumber/)
-- [Dependent fields - add tranlations](/extensions/firecheckout/dependent-fields/)
+- [House number field - add tranlations](/m1/extensions/firecheckout/housenumber/)
+- [Dependent fields - add tranlations](/m1/extensions/firecheckout/dependent-fields/)
 
