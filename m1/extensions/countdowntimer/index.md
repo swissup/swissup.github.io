@@ -10,9 +10,9 @@ category: Countdown Timer
 
 * [Extension configuration](#extension-configuration)
 * [Use cases](use-cases)
-	- [Change flip timer color](use-cases/#change-flip-timer-color)
-	- [Timer can not find jQuery](use-cases/#timer-can-not-find-jquery)
-	- [jQuery(...) is not a function](use-cases/#jquery-is-not-a-function)
+    - [Change flip timer color](use-cases/#change-flip-timer-color)
+    - [Timer can not find jQuery](use-cases/#timer-can-not-find-jquery)
+    - [jQuery(...) is not a function](use-cases/#jquery-is-not-a-function)
 
 This module has accurate timer which counts backward. It can help you to inform
 customers about any special event. Such as, start of grand sale or arrive of new
@@ -45,7 +45,7 @@ store already use jQuery, then you can set this option to `No`.
 
 ### Timer designs
 
-| Type                       |  Preview                                                                   |
+| Timer Type                 |  Preview                                                                   |
 |----------------------------|:--------------------------------------------------------------------------:|
 | Flip timer - Light         | ![Flip timer light](/images/countdowntimer/flip-light.gif)                 |
 | Flip timer - Dark          | ![Flip timer dark](/images/countdowntimer/flip-dark.gif)                   |
