@@ -8,7 +8,8 @@ category: Daily Deals
 
 # Installation
 
-* [Update from version 1.0.1](#update-from-version-101)
+* [Update from version 1.0.1 to 1.0.2](#update-from-version-101-to-102)
+* [Update from version 1.0.2 to 1.1.0](#update-from-version-102-to-110)
 
 Please follow next steps to complete the installation:
 
@@ -28,10 +29,10 @@ If you can not find Daily Deals extension in store admin, check cache management
 and refresh cache if it is enabled. Not done yet? Check the store compilation and
 run recompilation if it is enabled.
 
-#### Update from version 1.0.1
+#### Update from version 1.0.1 to 1.0.2
 
-If you upgrade the extension version 1.0.1 you can delete useless files and
-directories (or you may leave them; files do no harm):
+If you upgrade Daily Deals from version 1.0.1 to 1.0.2 or higher you can delete
+useless files and directories (or you may leave them; files do no harm):
 
 ```
 app/code/local/TM/CountdownTimer
@@ -41,7 +42,26 @@ app/code/local/TM/DailyDeals/Model/Resource/Product.php
 app/code/local/TM/DailyDeals/Model/Resource/Product/Collection.php
 ```
 
+#### Update from version 1.0.2 to 1.1.0
+
+If you upgrade Daily Deals to 1.1.0:
+
+* apply instructions [update from version 1.0.1 to 1.0.2](#update-from-version-101-to-102)
+* you can delete useless files and directories (or you may leave them; files do
+no harm):
+
+```
+app/code/local/TM/DailyDeals/Block/Product/Highlight/Abstract.php
+app/code/local/TM/DailyDeals/Block/Product/Show.php
+app/code/local/TM/DailyDeals/Model/Message.php
+app/code/local/TM/DailyDeals/Model/Message/
+app/code/local/TM/DailyDeals/Model/Sources/
+app/design/frontend/base/default/template/tm/dailydeals/product/highlight-column.phtml
+app/design/frontend/base/default/template/tm/dailydeals/product/highlight-row.phtml
+```
+
 #### After you install the extension you can go to:
 
+* [Leran how to create deals](../backend/create-deal/)
 * [Support](https://swissuplabs.com/contacts/)
 * [Forum](https://swissuplabs.com/magento-forum/)
