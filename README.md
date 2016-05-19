@@ -12,12 +12,6 @@ gem install bundler
 bundle install
 ```
 
-### Updating
-
-```bash
-bundle update
-```
-
 ### Runing Locally
 
 ```bash
