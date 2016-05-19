@@ -13,6 +13,10 @@ In order to change general extension settings, go to `System` -> `Configuration`
 
 ![Dailydeals system config options](/images/dailydeals/backend/system-config.png)
 
+`Deal timers on category page` - enables or disables deal timer in product
+listing for products with deal. You can check how listing looks when this option
+enabled in paragraph [Features right from the box](../../frontend/features-right-from-the-box/#product-listing-page-with-deal-timers).
+
 `Add "Deals" link to top links` - add link to the page where there are all
 products of active deals. This link will appear in top links block at your store.
 

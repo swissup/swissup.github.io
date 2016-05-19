@@ -93,8 +93,20 @@ The default deal timer can be modified in section `Deal timer`.
 This tab allows you to set label for all deal products. Label can appear on the
 product image in products listing and product view.
 
+You can set different labels for product listing and for product page. For
+example, you can set big shiny “Hot sale!!!” badge on product page and smaller
+badge for product listing (so it would not overlap with product image on
+listing).
+
+If you want to have identical labels for product view and product listing, then
+you can set option `Use different label` to `No` in section
+`Product listing label`. And fill values only for `Product label`.
+
 ![Label example](/images/dailydeals/backend/create-deal-label-tab.png)
 
 Deal labels are tightly integrated with our [Prolabels extension](/m1/prolabels) (minimum version
 2.7.2). If you do not have Prolabels or its version is lower, the deal label
 will not be set.
+
+About general extension settings you can read at respective paragraph -
+[Extension configuration](../extension-configuration/).
