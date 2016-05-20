@@ -13,14 +13,15 @@ category: Daily Deals
 
 Please follow next steps to complete the installation:
 
-1. Go to your magento store root directory (via FTP or CPanel).
-2. Create file `maintenance.flag` in root directory.
-3. Open your store in browser; you have to see page
+1. Go to store backend and disable compilation mode.
+2. Go to your magento store root directory (via FTP or CPanel).
+3. Create file `maintenance.flag` in root directory.
+4. Open your store in browser; you have to see page
 `Service Temporarily Unavailable` (if you can not see this page - probably you
 try to install extension at wrong magento instance).
-4. Unpack all files from extension archive into your magento store root directory.
-5. Remove file `maintenance.flag` when copy process completed.
-6. Login your store admin and start to configure extension.
+5. Unpack all files from extension archive into your magento store root directory.
+6. Remove file `maintenance.flag` when copy process completed.
+7. Login your store admin and start to configure extension.
 
 * Navigate to `System > Configuration > Templates-Master > DailyDeals` and
 enable extension for any store you need.
