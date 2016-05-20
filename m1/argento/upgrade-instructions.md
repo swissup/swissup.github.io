@@ -124,7 +124,7 @@ For example:
     Tags: Tags&nbsp;({% raw %}{{eval code="getCount()"}}{% endraw %})
     ```
 
- -  ArgentoPure homepage changes
+ -  **ArgentoPure** homepage changes
 
     Find the following code:
 
@@ -149,7 +149,7 @@ For example:
     </script>
     ```
 
- -  ArgentoMall homepage changes
+ -  **ArgentoMall** homepage changes
 
     Find the following code:
 
