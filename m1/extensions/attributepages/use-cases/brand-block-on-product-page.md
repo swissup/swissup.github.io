@@ -33,29 +33,31 @@ To add a block right after the product name, you have to edit
 Look at [list of available attributepages/product helper methods][product_helper_methods]
 
 ```php
-echo Mage::helper('attributepages/product')
-    ->setProduct($_product)
-    ->setAttributeCode(array(
-        'brand',
-        'gender'
-    ))
-    ->setImageType('thumbnail')
-    ->setCssClass('list-block')
-    ->setParentPageLinkTitle(array(
-        'brand'  => 'Browse all brands',
-        'gender' => false
-    ))
-    ->setUseImage(array(
-        'brand'  => true,
-        'gender' => false
-    ))
-    ->setUseLink(array(
-        'brand'  => true,
-        'gender' => false
-    ))
-    ->setSize(38, 17)
-    ->setKeepFrame(false)
-    ->toHtml();
+<?php
+    echo Mage::helper('attributepages/product')
+        ->setProduct($_product)
+        ->setAttributeCode(array(
+            'brand',
+            'gender'
+        ))
+        ->setImageType('thumbnail')
+        ->setCssClass('list-block')
+        ->setParentPageLinkTitle(array(
+            'brand'  => 'Browse all brands',
+            'gender' => false
+        ))
+        ->setUseImage(array(
+            'brand'  => true,
+            'gender' => false
+        ))
+        ->setUseLink(array(
+            'brand'  => true,
+            'gender' => false
+        ))
+        ->setSize(38, 17)
+        ->setKeepFrame(false)
+        ->toHtml();
+?>
 ```
 
 ### Inline block directive
@@ -63,8 +65,8 @@ echo Mage::helper('attributepages/product')
 Inline block could be used inside cms blocks or third-party modules blocks, which
 are rendered on the product page.
 
-That is how the brand block is shown on [ArgentoFlat](/argento/flat/#brand-logo-on-product-page) and
-[ArgentoPure2](/argento/pure2/product-page/#brand-information) themes.
+That is how the brand block is shown on [ArgentoFlat](/m1/argento/flat/#brand-logo-on-product-page) and
+[ArgentoPure2](/m1/argento/pure2/product-page/#brand-information) themes.
 
 Look at [list of available product_option block methods][product_option_block_methods]
 

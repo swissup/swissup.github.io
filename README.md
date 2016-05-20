@@ -1,4 +1,4 @@
-[SwissUpLabs docs site](http://documentation.swissuplabs.com/)
+[SwissUpLabs docs site](http://docs.swissuplabs.com/)
 
 ### Installation
 
@@ -10,12 +10,6 @@ gem install bundler
 
 # Install dependencies
 bundle install
-```
-
-### Updating
-
-```bash
-bundle update
 ```
 
 ### Runing Locally

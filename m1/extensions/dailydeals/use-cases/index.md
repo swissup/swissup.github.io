@@ -10,6 +10,7 @@ category: Daily Deals
 
 - [Timer can not find jQuery](#timer-can-not-find-jquery)
 - [jQuery(...) is not a function](#jquery-is-not-a-function)
+- [Change Flip Timer color](/m1/extensions/countdowntimer/use-cases/#change-flip-timer-color)
 
 ### Timer can not find jQuery
 

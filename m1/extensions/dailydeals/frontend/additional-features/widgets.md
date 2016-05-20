@@ -10,15 +10,10 @@ category: Daily Deals
 
 Our extension provides you with two widgets:
 
-- Daily Deals - Product
-- Daily Deals - Product (custom template)
+- Daily Deals: Single product
+![Single product widget example](/images/dailydeals/frontend/widget-single.png)
+- Daily Deals: Product list
+![Product list widget example](/images/dailydeals/frontend/widget-list.png)
 
-Both widgets insert block which displays product from active deal. You can
-display random product or other specified product. You can also specify the deal.
-
-Widget "Daily Deals - Product" can output content as a column or as a row. You
-are allowed to set CSS class to widget and customize its output: set background,
-set different font color to texts, etc.
-
-With widget "Daily Deals - Product (custom template)" you can create your own
-template and use it to output widget content.
+For these widgets you can set deal filter, product filter or output template
+(column/row, grid/list).

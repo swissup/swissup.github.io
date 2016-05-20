@@ -8,10 +8,15 @@ category: Daily Deals
 
 # Deal timer on category page
 
-In order to add the timer on category page, you have to modify the template.
+In Daily Deals extension after version 1.1.0 this feature does not requier any
+template modifications. It can be enabled or disabled via extension
+configuration at magento backend.
+
+If you upgraded from version 1.0.2 or older and you have modified template, then
+we recommend remove code to prevent duplication of timers.
 In case of RWD theme path to template is
-`/app/design/frontend/rwd/default/template/catalog/product/list.phtml`, add the
-following code.
+`/app/design/frontend/rwd/default/template/catalog/product/list.phtml`. Code to
+remove:
 
 ```php
 <?php if (Mage::helper('core')->isModuleOutputEnabled('TM_DailyDeals')) : ?>
@@ -19,8 +24,7 @@ following code.
 <?php endif ?>
 ```
 
-This code should be added after `<h2 class="product-name">...</h2>`. It is near
-rows 68 and 134 for RWD theme. You can check the result on catalog page. It will
-be applied to category that has products which are included in deal:
+If you still can not see deal timer at category page:
 
-![Deal timer on category page](/images/dailydeals/frontend/deal-timer-on-category-page.png)
+- check [Use cases](/m1/extensions/dailydeals/use-cases/) page
+- contact [support team](https://swissuplabs.com/contacts/)

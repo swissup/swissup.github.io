@@ -16,7 +16,7 @@ Please follow next steps to complete the installation:
 
     ```bash
     cd <magento_root>
-    bin/magento module:enable Swissup_Core Swissup_SubscriptionChecker Swissup_Easytabs
+    bin/magento module:enable Swissup_Core Swissup_Easytabs
     bin/magento setup:upgrade
     ```
 

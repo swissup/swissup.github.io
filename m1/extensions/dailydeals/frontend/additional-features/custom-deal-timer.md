@@ -12,13 +12,14 @@ If you want to change the default deal timer, you can set the custom
 timer with Daily Deals extension. Basically you can set different timer for each
 deal.
 
-Daily Deals extension comes with Countdown Timer extension. Feel free to use
+Daily Deals extension comes with [Countdown Timer extension](/m1/extensions/countdowntimer/)
+. Feel free to use
 two widgets with clear interface:
 
 - Countdown Timer - Flip timer
 - Countdown Timer - Simple timer
 
-Flip Timer is the default deal timer.
+Flip Timer is the default deal timer. 
 
 Let's set up the other timer for deal. It will be called “Hurry! Don’t miss it!”.
 
@@ -31,6 +32,10 @@ common magento textarea for content. Paste the code listed below to textarea:
 <p style="color: #a5205f">Hurry! Don’t miss it!</p>
 {% raw %}{{widget type="tm_countdowntimer/timer_simple" date="%_ENDTIME_%" inlinecss="font-family: 'Raleway','Helvetica Neue',Verdana,Arial,sans-serif; color:#636363; font-size:2em"}}{% endraw %}
 ```
+
+You can set different timers for product veiw and product listing pages. In our
+case we leave `Timer for product listing` textarea empty and fill only
+`Timer for product page`.
 
 Save deal and go to frontend. Have a look at the result:
 

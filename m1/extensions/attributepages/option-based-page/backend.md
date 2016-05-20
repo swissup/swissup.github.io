@@ -33,7 +33,7 @@ option page and press `Duplicate` button, that will redirect you to
 
 Option page form contains three tabs:
 
-- [Option Information](#page-information-tab)
+- [Option Information](#option-information-tab)
 - [Content](#content-tab)
 - [Display Settings](#display-settings-tab)
 

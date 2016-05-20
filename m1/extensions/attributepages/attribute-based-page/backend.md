@@ -29,7 +29,7 @@ attribute:
 ![Create attribute page. Step 1](/images/attributepages/attribute-based-page/backend/select_attribute_dropdown.png)
 
 > In case you don't see any attributes in dropdown, you have to navigate to
-> `Catalog > Attributepages > Manage Attributes` and add new one with
+> `Catalog > Attributes > Manage Attributes` and add new one with
 > `dropdown` input type and **it should have at least one available option**.
 
 After clicking `Continue button` you will be redirected to
