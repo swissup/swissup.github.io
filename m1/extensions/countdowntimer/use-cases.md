@@ -36,7 +36,7 @@ You can replace `custom-class-name` with any other name. The same with color
 
 If on frontend you see text `Flip timer can not find jQuery` or
 `Simple timer can not find jQuery`, then you have to open CountdownTimer
-[extension configuration](#extension-configuration) and enable jQuery.
+[extension configuration](../#extension-configuration) and enable jQuery.
 
 #### jQuery(...) is not a function
 
