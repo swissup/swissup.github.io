@@ -16,4 +16,4 @@ be blocked (except you want to block them).
 
 1. [Installation](installation/)
 2. [Backend](backend/)
-    - [Extension configuration](extension-configuration/)
+    - [Extension configuration](backend/#extension-configuration/)
