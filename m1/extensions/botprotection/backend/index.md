@@ -19,5 +19,15 @@ Bot protection offers you to separate "non-human" visitors into three lists:
 
 - blacklist
 - whitelist
-- suspiciouse list.
+- suspicious list.
 
+### Blacklist
+
+You can get blacklist at your magento backend. Go to menu `Templates Master` >
+`Bot Protection` > `Blacklist`.
+
+Blacklist contains single-IP rules and IP-range rules.
+
+![Blacklist](/images/m1/extensions/botprotection/backend/blacklist.png)
+
+To add new blacklist rule click `Add to Blacklist`.
