@@ -114,6 +114,12 @@ m2:
     - title: AjaxSearch
       url: /m2/extensions/ajaxsearch/
 
+    - title: Attribute based pages
+      url: /m2/extensions/attributepages/
+
+    - title: Easybanner
+      url: /m2/extensions/easybanners/
+
     - title: Easy Catalog Images
       url: /m2/extensions/easycatalogimages/
 
