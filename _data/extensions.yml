@@ -232,7 +232,7 @@ prolabels:
   short_description:
   urls:
     m1: /m1/extensions/prolabels/
-    m2:
+    m2: /m2/extensions/prolabels/
 
 productvideos:
   title: Product Videos
