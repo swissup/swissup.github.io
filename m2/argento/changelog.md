@@ -10,7 +10,8 @@ category: Argento
 ## 0.9.0
 
 Now Argento is packed toghether with Swissup Module Manager, that could help you 
-to keep Swissup modules up to date and install Argento Theme in a few clicks.
+to keep Swissup modules up to date and [install Argento Theme](/m2/argento/essence/installation/) 
+in a few clicks.
 
 **New Extensions**
 
