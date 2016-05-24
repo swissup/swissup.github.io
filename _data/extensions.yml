@@ -144,7 +144,7 @@ easyslider:
   short_description:
   urls:
     m1: /m1/extensions/easyslider/
-    m2:
+    m2: /m2/extensions/easyslider/
 
 easytabs:
   title: EasyTabs
