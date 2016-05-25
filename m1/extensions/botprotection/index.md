@@ -16,4 +16,9 @@ be blocked (except you want to block them).
 
 1. [Installation](installation/)
 2. [Backend](backend/)
-    - [Extension configuration](backend/#extension-configuration/)
+    - [Extension configuration](backend/extension-configuration/)
+    - [Magento Visitors Log](backend/magento-visitor-log/)
+    - [Whitelist](backend/whitelist/)
+    - [Blakclist](backend/blacklist/)
+    - [Suspicious List](backend/suspicious-list/)
+3. [Frontend](frontend/)

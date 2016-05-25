@@ -18,7 +18,7 @@ do - enbale it in [System Configuration](extension-configuration/).
 We recommend also to [enable Magento Visitor Log](magento-visitor-log/) to get
 better results during bot detection.
 
-Bot protection offers you to separate "non-human" visitors into three lists:
+Bot protection offers you to separate all visitors into three lists:
 
 - whitelist
 - blacklist
