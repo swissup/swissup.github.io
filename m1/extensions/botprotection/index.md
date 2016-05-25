@@ -2,7 +2,7 @@
 layout: default
 title: Bot Protection
 description: magento bot protection generalinfo
-keywords: " magento bot protection  "
+keywords: "magento bot protection"
 category: Bot Protection
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Magento Visitor LOg
+title: Magento Visitor Log
 description: magento bot protection visitor log
 keywords: " magento bot protection, bot protection magento extension, backend, magento visitor log"
 category: Bot Protection
