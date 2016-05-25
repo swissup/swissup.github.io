@@ -48,6 +48,13 @@ attributepages:
     m1: /m1/extensions/attributepages/
     m2: /m2/extensions/attributepages/
 
+botprotection:
+  title: Bot Protection
+  short_description: One more line of defence from unwelcome visitors.
+  urls:
+    m1: /m1/extensions/botprotection/
+    m2: 
+
 cache:
   title: Cache
   short_description: Blazing fast store is the key to e-commerce success.
