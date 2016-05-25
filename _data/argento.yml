@@ -100,8 +100,14 @@ m2:
   url: /m2/argento/
 
   articles:
+    - title: Changelog
+      url: /m2/argento/changelog/
+
     - title: Installation
-      url: /m2/argento/essence/installation/
+      url: /m2/argento/installation/
+
+    - title: Upgrade Instructions
+      url: /m2/argento/upgrade-instructions/
 
   themes:
     # - title: Blank
