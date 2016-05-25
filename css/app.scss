@@ -18,6 +18,10 @@ main img {
     padding: 10px;
     border: 1px solid #ddd;
 }
+main img.noborder {
+    border: none;
+    padding: 0;
+}
 table {
     display: block;
     overflow: auto;
