@@ -14,6 +14,10 @@ img {
     max-width: 100%;
     color: #789ba9;
 }
+main img {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
 table {
     display: block;
     overflow: auto;
