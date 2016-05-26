@@ -26,7 +26,7 @@
     <ul class="list-products">
       {% for theme in themes %}
         <li>
-          <a href="{{ product.url | prepend: site.baseurl }}" title="{{ product.title }}">{{ theme.title }}</a>
+          <a href="{{ theme.url | prepend: site.baseurl }}" title="{{ theme.title }}">{{ theme.title }}</a>
         </li>
       {% endfor %}
     </ul>
