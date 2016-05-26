@@ -34,10 +34,15 @@
 
   <h4>Extensions</h4>
   <ul class="list-products">
-    {% assign products = group.extensions | sort: "title" %}
-    {% for product in products %}
+    {% for id in group.extensions %}
+      {% assign extension = site.data.extensions[id] %}
+
+      {% if extension.urls[include.version] == null %}
+        {% continue %}
+      {% endif %}
+
       <li>
-        <a href="{{ product.url | prepend: site.baseurl }}" title="{{ product.title }}">{{ product.title }}</a>
+        <a href="{{ extension.urls[include.version] | prepend: site.baseurl }}" title="{{ extension.title }}">{{ extension.title }}</a>
       </li>
     {% endfor %}
   </ul>
