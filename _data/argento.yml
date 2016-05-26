@@ -109,12 +109,12 @@ m2:
     - title: Upgrade Instructions
       url: /m2/argento/upgrade-instructions/
 
-  themes:
-    # - title: Blank
-    #   url: /m2/argento/blank/
+  # themes:
+  #   # - title: Blank
+  #   #   url: /m2/argento/blank/
 
-    - title: Essence
-      url: /m2/argento/essence/
+  #   - title: Essence
+  #     url: /m2/argento/essence/
 
   extensions:
     - title: AjaxSearch
