@@ -11,7 +11,7 @@ category: Argento
 
  1. [Unpack Argento package into magento root folder](#unpack-argento-package-into-magento-root-folder)
  2. [Enable modules and run upgrade scripts](#enable-modules-and-run-upgrade-scripts)
- 3. [Install Argento theme](#install-argento-theme)
+ 3. [Setup configuration and theme content](#setup-configuration-and-theme-content)
  4. [Deploy sample data images](#deploy-sample-data-images)
 
 #### 1. Unpack Argento package into magento root folder
@@ -76,7 +76,7 @@ rm -rf var/generation var/di
 bin/magento setup:di:compile
 ```
 
-#### 3. Install Argento theme
+#### 3. Setup configuration and theme content
 
 1. Navigate to `Swissup > Module Manager`, find theme you'd like to use at 
     your store and click `Open Installer` option in actions column
