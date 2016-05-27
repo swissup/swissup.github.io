@@ -6,3 +6,5 @@ category: Argento
 ---
 
 # Argento Essence
+
+- [Installation](/m2/argento/installation/)
