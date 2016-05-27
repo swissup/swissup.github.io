@@ -1,0 +1,16 @@
+{
+  "name": "swissup.github.io",
+  "description": "Magento's extensions and themes documentation",
+  "private": true,
+  "repository": "https://github.com/swissup/swissup.github.io",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^2.0.8",
+    "gulp-concat": "^2.6.0",
+    "gulp-filter": "^4.0.0",
+    "gulp-jshint": "^2.0.1",
+    "gulp-sass": "^2.3.1",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.3"
+  }
+}

@@ -9,7 +9,7 @@ git clone git@github.com:swissup/swissup.github.io.git && cd swissup.github.io
 gem install bundler
 
 # Install dependencies
-bundle install
+bundle install && bower install
 ```
 
 ### Runing Locally
