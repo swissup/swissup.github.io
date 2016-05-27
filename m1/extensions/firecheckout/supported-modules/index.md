@@ -117,7 +117,7 @@ additional modifications.
 - [MageStore_Customerreward](magestore-customerreward/)
 - [Mirasvit_Rewards](mirasvit-rewards/)
 - [MW_RewardPoints](mw-rewardpoints/)
-- TBT_RewardsPoint
+- [TBT_RewardsPoint](tbt-rewards/)
 
 ### Tax/Vat extensions
 
