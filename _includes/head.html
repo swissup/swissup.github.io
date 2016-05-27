@@ -7,7 +7,11 @@
   <meta name="description" content="{% if page.description %}{{ page.description | strip_newlines }}{% else %}{{ site.description }}{% endif %}">
   {% if page.keywords %}<meta name="keywords" content="{{ page.keywords | strip_newlines }}">{% endif %}
 
-  <link rel="stylesheet" href="{{ "/assets/all.css" | prepend: site.baseurl }}" />
+  <!-- <link rel="stylesheet" href="{{ "/assets/all.css" | prepend: site.baseurl }}" /> -->
+  <link rel="stylesheet" href="{{ "/assets/material.min.css" | prepend: site.baseurl }}" />
+  <link rel="stylesheet" href="{{ "/assets/flickity.min.css" | prepend: site.baseurl }}" />
+  <link rel="stylesheet" href="{{ "/assets/syntax.css" | prepend: site.baseurl }}" />
+  <link rel="stylesheet" href="{{ "/assets/app.css" | prepend: site.baseurl }}" />
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium" type="text/css">
   <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
