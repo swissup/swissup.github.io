@@ -31,7 +31,7 @@ gulp.task('js', function () {
 
 gulp.task('css', function () {
     var files = [
-        'bower_components/material-design-lite/material.min.css',
+        // 'bower_components/material-design-lite/material.min.css',
         'bower_components/flickity/dist/flickity.min.css',
         'css/*'
     ];
@@ -42,7 +42,7 @@ gulp.task('css', function () {
         .pipe(sass.sync().on('error', sass.logError))
         .pipe(scss.restore)
         .pipe(cleanCSS({keepSpecialComments: 0}))
-        // .pipe(concat('all.css'))
+        .pipe(concat('almost-all.css'))
         .pipe(sourcemaps.write())
         .pipe(gulp.dest('assets'));
 });
