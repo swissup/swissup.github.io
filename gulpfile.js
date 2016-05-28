@@ -48,3 +48,6 @@ gulp.task('css', function () {
 });
 
 gulp.task('default', ['js', 'css']);
+
+gulp.watch('js/*', ['js']);
+gulp.watch('css/*', ['css']);
