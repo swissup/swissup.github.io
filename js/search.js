@@ -22,30 +22,40 @@ var Search = function(options) {
       this.ref('id');
     });
 
-  // open search.json file and load it to the memory
-  var xhr = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
-  xhr.open("GET", options.json, true);
-  xhr.onreadystatechange = function() {
-    if (xhr.status==200 && xhr.readyState==4) {
-      loaded = true;
-      try {
-        docs = JSON.parse(xhr.responseText);
-        for (var i in docs) {
-          docs[i].id = i;
-          idx.add(docs[i]);
-        }
-      } catch(err) {
-        console.log(err);
-      }
-    }
-  };
-  xhr.send();
-
   if (options.searchInput) {
     options.searchInput.addEventListener('keyup', function() {
+      if (!loaded) {
+        return load(function() {
+          render(search(this.value, options.limit));
+        }.bind(this));
+      }
       render(search(this.value, options.limit));
     }, false);
   }
+
+  var load = function(callback) {
+    // open search.json file and load it to the memory
+    var xhr = (window.XMLHttpRequest) ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+    xhr.open("GET", options.json, true);
+    xhr.onreadystatechange = function() {
+      if (xhr.status==200 && xhr.readyState==4) {
+        loaded = true;
+        try {
+          docs = JSON.parse(xhr.responseText);
+          for (var i in docs) {
+            docs[i].id = i;
+            idx.add(docs[i]);
+          }
+        } catch(err) {
+          console.log(err);
+        }
+        if (callback) {
+          callback();
+        }
+      }
+    };
+    xhr.send();
+  };
 
   var search = function(value, limit) {
     if (!value) {
@@ -113,9 +123,9 @@ var Search = function(options) {
     search: function(value, limit) {
       var args = arguments;
       if (!loaded) {
-        return setTimeout(function() {
-          args.callee(value, limit);
-        }, 200);
+        return load(function() {
+          render(search(value, limit));
+        });
       }
       render(search(value, limit));
     },
@@ -123,9 +133,9 @@ var Search = function(options) {
     searchByTwoTokens: function(value1, value2, limit) {
       var args = arguments;
       if (!loaded) {
-        return setTimeout(function() {
-          args.callee(value1, value2, limit);
-        }, 200);
+        return load(function() {
+          render(searchByTwoTokens(value1, value2, limit));
+        });
       }
       render(searchByTwoTokens(value1, value2, limit));
     }
