@@ -1,9 +1,12 @@
-<div class="gallery-wrapper">
-    <div class="gallery clearfix {{ include.class }}">
-    {% for image in include.images %}
-        <a href="{{ image.src | prepend: site.baseurl }}" data-size="{{image.w}}x{{image.h}}" title="{{ image.title }}">
-            <img src="{{ image.msrc | prepend: site.baseurl }}" alt="{{ image.title }}"/>
+<div class="gallery clearfix {{ include.class }}" itemscope itemtype="http://schema.org/ImageGallery">
+{% for image in include.images %}
+    <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
+        <a href="{{ image.src | prepend: site.baseurl }}" itemprop="contentUrl" data-size="{{image.w}}x{{image.h}}">
+            <img src="{{ image.msrc | prepend: site.baseurl }}" itemprop="thumbnail" alt="{{ image.title }}" />
         </a>
-    {% endfor %}
-    </div>
+        <meta itemprop="width" content="{{ image.w }}">
+        <meta itemprop="height" content="{{ image.h }}">
+        <figcaption itemprop="caption description">{{ image.title }}</figcaption>
+    </figure>
+{% endfor %}
 </div>

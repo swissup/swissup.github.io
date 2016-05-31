@@ -421,24 +421,28 @@ $masonry-brick-colors: (
 .gallery {
     @for $i from 1 through 6 {
         &.cols-#{$i} {
-            a {
+            figure {
                 width: 100% / $i;
             }
         }
     }
-    a {
+    figure {
         box-sizing: border-box;
         display: inline-block;
         vertical-align: top;
+        margin: 0;
         margin-left: -4px; /* fighting gap between inline-block elements */
         padding: 5px;
+    }
+    figcaption {
+        display: none;
     }
 
     // single row items with native srollbar
     &.scroll {
         white-space: nowrap;
         overflow: auto;
-        a {
+        figure {
             padding-bottom: 10px;
         }
     }
