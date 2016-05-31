@@ -4,21 +4,21 @@ title: Argento Blank
 description: Argento Blank documentation
 category: Argento
 gallery:
-  - src: '/images/m2/argento/blank/home.png'
-    msrc: '/images/m2/argento/blank/home-small.png'
+  - src: /images/m2/argento/blank/home.png
+    msrc: /images/m2/argento/blank/home-small.png
     w: 800
     h: 738
-    title: 'Homepage'
-  - src: '/images/m2/argento/blank/category.png'
-    msrc: '/images/m2/argento/blank/category-small.png'
+    title: Homepage
+  - src: /images/m2/argento/blank/category.png
+    msrc: /images/m2/argento/blank/category-small.png
     w: 800
     h: 738
-    title: 'Category Page'
-  - src: '/images/m2/argento/blank/product.png'
-    msrc: '/images/m2/argento/blank/product-small.png'
+    title: Category Page
+  - src: /images/m2/argento/blank/product.png
+    msrc: /images/m2/argento/blank/product-small.png
     w: 800
     h: 738
-    title: 'Product Page'
+    title: Product Page
 ---
 
 # Argento Blank
