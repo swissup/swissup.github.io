@@ -37,7 +37,7 @@ gallery:
 
 # Argento Essence
 
-{% include gallery.html images=page.gallery class="scroll cols-3" %}
+{% include gallery.html images=page.gallery class="scroll cols-3 photoswipe" %}
 
 ### Contents
 

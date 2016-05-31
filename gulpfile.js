@@ -16,6 +16,9 @@ gulp.task('js', function () {
         'bower_components/anchor-js/anchor.min.js',
         'bower_components/mustache/mustache.min.js',
         'bower_components/lunr.js/lunr.min.js',
+        'bower_components/photoswipe/dist/photoswipe.min.js',
+        'bower_components/photoswipe/dist/photoswipe-ui-default.min.js',
+        'bower_components/lunr.js/lunr.min.js',
         'js/*'
     ];
     var local = filter('js/*.js', {restore: true});
@@ -33,6 +36,8 @@ gulp.task('css', function () {
     var files = [
         // 'bower_components/material-design-lite/material.min.css',
         'bower_components/flickity/dist/flickity.min.css',
+        'bower_components/photoswipe/dist/photoswipe.css',
+        'bower_components/photoswipe/dist/default-skin/default-skin.css',
         'css/*'
     ];
     var scss = filter('css/*.scss', {restore: true});
@@ -47,7 +52,17 @@ gulp.task('css', function () {
         .pipe(gulp.dest('assets'));
 });
 
-gulp.task('default', ['js', 'css']);
+gulp.task('css-images', function () {
+    var files = [
+        'bower_components/photoswipe/dist/default-skin/*.gif',
+        'bower_components/photoswipe/dist/default-skin/*.png',
+        'bower_components/photoswipe/dist/default-skin/*.svg',
+    ];
+    return gulp.src(files)
+        .pipe(gulp.dest('assets'));
+});
+
+gulp.task('default', ['js', 'css', 'css-images']);
 
 gulp.watch('js/*', ['js']);
 gulp.watch('css/*', ['css']);
