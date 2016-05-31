@@ -17,6 +17,7 @@ category: Argento
 7. [Magento 1.7 and older](#magento-17-and-older)
 8. [Prepare logo image for mobile device](#prepare-logo-image-for-mobile-device)
 9. [How to disable Questions tab on product page?](#how-to-disable-questions-tab-on-product-page)
+10. [How to remove "0" as the default value for grouped products](#how-to-remove-0-as-the-default-value-for-grouped-products)
 
 ### How to disable short header and footer layout?
 
@@ -227,4 +228,18 @@ skin/frontend/argento/argento_custom/images/storeLogo@2x.png
     </catalog_product_view>
     ```
 
+ 3. Flush cache
+
+### How to remove "0" as the default value for grouped products
+
+ 1. [Create](../theme-customization/small-changes/#custom-styles-and-javascript) or edit existing `custom.js` file of your theme.
+ 2. Add the following code to file:
+
+    ```js
+    document.observe("dom:loaded", function(){
+        $$('.catalog-product-view .grouped-items-table .input-text').each(function(el){
+            el.value='';
+        })
+    });
+    ```
  3. Flush cache
