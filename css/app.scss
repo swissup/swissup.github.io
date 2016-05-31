@@ -14,6 +14,7 @@ img {
 main img {
     padding: 10px;
     border: 1px solid #ddd;
+    box-sizing: border-box;
 }
 main img.noborder {
     border: none;
@@ -410,6 +411,35 @@ $masonry-brick-colors: (
         a {
             padding: 3px 5px;
             font-size: 1.2em;
+        }
+    }
+}
+
+//
+// Gallery
+//
+.gallery {
+    @for $i from 1 through 6 {
+        &.cols-#{$i} {
+            a {
+                width: 100% / $i;
+            }
+        }
+    }
+    a {
+        box-sizing: border-box;
+        display: inline-block;
+        vertical-align: top;
+        margin-left: -4px; /* fighting gap between inline-block elements */
+        padding: 5px;
+    }
+
+    // single row items with native srollbar
+    &.scroll {
+        white-space: nowrap;
+        overflow: auto;
+        a {
+            padding-bottom: 10px;
         }
     }
 }

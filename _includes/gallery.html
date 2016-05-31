@@ -1,0 +1,9 @@
+<div class="gallery-wrapper">
+    <div class="gallery clearfix {{ include.class }}">
+    {% for image in include.images %}
+        <a href="{{ image.src | prepend: site.baseurl }}" data-size="{{image.w}}x{{image.h}}">
+            <img src="{{ image.msrc | prepend: site.baseurl }}" alt="{{ image.title }}"/>
+        </a>
+    {% endfor %}
+    </div>
+</div>
