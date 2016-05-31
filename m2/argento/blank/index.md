@@ -8,17 +8,19 @@ gallery:
     msrc: /images/m2/argento/blank/home-small.png
     w: 800
     h: 738
-    title: Homepage
+    title: >
+        Argento Blank Homepage with set of built-in modules:
+        AjaxSearch, EasyCatalogImages, Highlight Widgets.
   - src: /images/m2/argento/blank/category.png
     msrc: /images/m2/argento/blank/category-small.png
     w: 800
     h: 738
-    title: Category Page
+    title: Argento Blank Category Page with ColorSwatches and LayeredNavigation
   - src: /images/m2/argento/blank/product.png
     msrc: /images/m2/argento/blank/product-small.png
     w: 800
     h: 738
-    title: Product Page
+    title: Argento Blank Product Page with Easytabs and ColorSwatches
 ---
 
 # Argento Blank
