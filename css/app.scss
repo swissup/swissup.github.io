@@ -420,9 +420,27 @@ $masonry-brick-colors: (
 //
 .gallery {
     @for $i from 1 through 6 {
-        &.cols-#{$i} {
+        &.phone-up-#{$i} {
             figure {
                 width: 100% / $i;
+            }
+        }
+    }
+    @media (min-width: 481px) {
+        @for $i from 1 through 6 {
+            &.tablet-up-#{$i} {
+                figure {
+                    width: 100% / $i;
+                }
+            }
+        }
+    }
+    @media (min-width: 992px) {
+        @for $i from 1 through 6 {
+            &.desktop-up-#{$i} {
+                figure {
+                    width: 100% / $i;
+                }
             }
         }
     }

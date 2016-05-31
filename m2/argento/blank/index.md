@@ -29,7 +29,7 @@ Argento Blank - is a basic theme for developers. It has minimum styles
 and it's main purpose to provide simple and convinient way to create Argento 
 sub-themes.
 
-{% include gallery.html images=page.gallery class="scroll cols-3 photoswipe" %}
+{% include gallery.html images=page.gallery class="scroll phone-up-1 tablet-up-3 photoswipe" %}
 
 ##### Next up
 
