@@ -32,7 +32,7 @@ upgrade Argento in future. That is why Argento brings possibility to create new
 ## Example
 
 Let's change product links color from black to blue and update color scheme for 
-homepage and products page tabs.
+homepage and products page tabs. [Scroll down](#result) to see results.
 
  1. Navigate to Argento theme css directory, you'd like to modify
 
