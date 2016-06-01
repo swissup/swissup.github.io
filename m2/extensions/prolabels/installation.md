@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Prolables Installation
-description: magento prolables module installation
-keywords: " magento prolables extension "
-category: Prolables
+title: Prolabels Installation
+description: magento prolabels module installation
+keywords: " magento prolabels extension "
+category: Prolabels
 ---
 
-# Prolables installation instructions
+# Prolabels installation instructions
 
 #### Installation
 
