@@ -2,7 +2,12 @@
 {% for image in include.images %}
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
         <a href="{{ image.href | prepend: site.baseurl }}" itemprop="contentUrl" data-size="{{image.w}}x{{image.h}}">
-            <img src="{{ image.src | prepend: site.baseurl }}" itemprop="thumbnail" alt="{{ image.title }}" />
+            {% if image.alt %}
+                {% assign alt = image.alt %}
+            {% else %}
+                {% assign alt = image.title %}
+            {% endif %}
+            <img src="{{ image.src | prepend: site.baseurl }}" itemprop="thumbnail" alt="{{ alt }}" />
         </a>
         <meta itemprop="width" content="{{ image.w }}">
         <meta itemprop="height" content="{{ image.h }}">

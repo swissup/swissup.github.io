@@ -8,6 +8,7 @@ gallery:
     src: /images/m2/argento/essence/home-small.png
     w: 1200
     h: 2327
+    alt: Argento Essence Homepage with set of built-in modules
     title: >
         Argento Essence Homepage with custom cms header and footer content and
         set of built-in modules: AjaxSearch, EasySlider, EasyBanner,
