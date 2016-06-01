@@ -4,6 +4,12 @@ absolute:
     m1: /m1/themes/absolute/
     m2: /m2/themes/absolute/
 
+argento:
+  title: Argento Theme
+  urls:
+    m1: /m1/argento
+    m2: /m2/argento
+
 classic:
   title: Classic Theme
   urls:
