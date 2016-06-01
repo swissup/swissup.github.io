@@ -142,6 +142,7 @@
         options = {
             galleryUID: galleryElement.getAttribute('data-pswp-uid'),
             showHideOpacity: true,
+            closeOnScroll: false,
             bgOpacity: 0.8,
             getThumbBoundsFn: function(index) {
                 var thumbnail = items[index].el.getElementsByTagName('img')[0], // find thumbnail
