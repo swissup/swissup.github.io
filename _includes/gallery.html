@@ -1,8 +1,8 @@
 <div class="gallery clearfix {{ include.class }}" itemscope itemtype="http://schema.org/ImageGallery">
 {% for image in include.images %}
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="{{ image.src | prepend: site.baseurl }}" itemprop="contentUrl" data-size="{{image.w}}x{{image.h}}">
-            <img src="{{ image.msrc | prepend: site.baseurl }}" itemprop="thumbnail" alt="{{ image.title }}" />
+        <a href="{{ image.href | prepend: site.baseurl }}" itemprop="contentUrl" data-size="{{image.w}}x{{image.h}}">
+            <img src="{{ image.src | prepend: site.baseurl }}" itemprop="thumbnail" alt="{{ image.title }}" />
         </a>
         <meta itemprop="width" content="{{ image.w }}">
         <meta itemprop="height" content="{{ image.h }}">

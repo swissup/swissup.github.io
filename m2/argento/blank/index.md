@@ -4,20 +4,20 @@ title: Argento Blank
 description: Argento Blank documentation
 category: Argento
 gallery:
-  - src: /images/m2/argento/blank/home.png
-    msrc: /images/m2/argento/blank/home-small.png
+  - href: /images/m2/argento/blank/home.png
+    src: /images/m2/argento/blank/home-small.png
     w: 800
     h: 738
     title: >
         Argento Blank Homepage with set of built-in modules:
         AjaxSearch, EasyCatalogImages, Highlight Widgets.
-  - src: /images/m2/argento/blank/category.png
-    msrc: /images/m2/argento/blank/category-small.png
+  - href: /images/m2/argento/blank/category.png
+    src: /images/m2/argento/blank/category-small.png
     w: 800
     h: 738
     title: Argento Blank Category Page with ColorSwatches and LayeredNavigation
-  - src: /images/m2/argento/blank/product.png
-    msrc: /images/m2/argento/blank/product-small.png
+  - href: /images/m2/argento/blank/product.png
+    src: /images/m2/argento/blank/product-small.png
     w: 800
     h: 738
     title: Argento Blank Product Page with Easytabs and ColorSwatches
