@@ -71,7 +71,10 @@ m2:
       url: /m2/argento/upgrade-instructions/
 
     - title: Css Customization
-      url: /m2/argento/css-customization
+      url: /m2/argento/css-customization/
+
+    - title: Creating Custom Theme
+      url: /m2/argento/custom-theme/
 
   themes:
     - title: Blank
