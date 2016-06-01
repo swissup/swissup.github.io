@@ -26,7 +26,7 @@ upgrade Argento in future. That is why Argento brings possibility to create new
 `_argento_custom.less` file, that will be automatically included and processed.
 
 > Using new file, you'll guarantee that all Argento files left untouched and
-> you can unpack new Argento version over the old one without lossing your
+> you can unpack new Argento version over the old one without losing your
 > modifications
 
 ## Example
