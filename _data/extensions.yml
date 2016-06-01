@@ -53,7 +53,7 @@ botprotection:
   short_description: One more line of defence from unwelcome visitors.
   urls:
     m1: /m1/extensions/botprotection/
-    m2: 
+    m2:
 
 cache:
   title: Cache
@@ -297,7 +297,7 @@ soldtogether:
   short_description:
   urls:
     m1: /m1/extensions/soldtogether/
-    m2:
+    m2: /m2/extensions/soldtogether/
 
 store-maintenance:
   title: Store Maintenance

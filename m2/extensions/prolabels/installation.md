@@ -10,13 +10,16 @@ category: Prolables
 
 #### Installation
 
-```bash
+Please follow next steps to complete the installation:
+
+ 1. Unpack extension archive into `<magento_root>`.
+ 2. Run the following commands in terminal:
+
+    ```bash
     cd <magento_root>
-    composer config repositories.swissup/pro-labels vcs git@github.com:swissup/prolabels.git
-    composer require swissup/pro-labels --prefer-source
-    bin/magento module:enable Swissup_ProLabels
+    bin/magento module:enable Swissup_Core Swissup_SubscriptionChecker Swissup_ProLabels
     bin/magento setup:upgrade
-```
+    ```
 
 #### Labels in Catalog and Search pages
 
@@ -63,3 +66,7 @@ add code to any place in catalog list.phtml
     bin/magento prolabels:reindex:all
 ```
 
+###### After you install an extension you can go to:
+
+* [Support](https://swissuplabs.com/contacts/)
+* [Forum](https://swissuplabs.com/magento-forum/)
