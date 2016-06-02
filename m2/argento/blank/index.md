@@ -36,5 +36,5 @@ sub-themes.
  -  Themes
     - [Argento Essence](/m2/argento/essence/)
  -  Customization
-    - [Small css customizations](/m2/argento/css-customization/)
+    - [Small css customizations](/m2/argento/custom-css/)
     - [Create Argento based custom theme](/m2/argento/custom-theme/)

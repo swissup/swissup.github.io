@@ -24,7 +24,7 @@ gallery_layout:
 # Argento custom theme
 
 Creating Argento sub-theme gives you unlimited possibilities in theme
-customization. Unlike [css customization](/m2/argento/css-customization/),
+customization. Unlike [css customization](/m2/argento/custom-css/),
 custom theme allows you to change much more things:
 
 - Layout instructions

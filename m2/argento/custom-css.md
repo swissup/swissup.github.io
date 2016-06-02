@@ -1,25 +1,25 @@
 ---
 layout: default
-title: Argento css customization
+title: Argento custom css
 description: How to apply css changes and keep original files without changes
 keywords: >
-    argento styles, argento css, css midifications, custom theme
+    argento styles, argento css, css modifications
 category: Argento
 gallery:
-  - href: /images/m2/argento/css-customization/essence/home.png
-    src: /images/m2/argento/css-customization/essence/home-small.png
+  - href: /images/m2/argento/custom-css/essence/home.png
+    src: /images/m2/argento/custom-css/essence/home-small.png
     w: 977
     h: 767
     alt: Modified tab and product link colors
     title: New color scheme for tabs and product name links
-  - href: /images/m2/argento/css-customization/essence/product.png
-    src: /images/m2/argento/css-customization/essence/product-small.png
+  - href: /images/m2/argento/custom-css/essence/product.png
+    src: /images/m2/argento/custom-css/essence/product-small.png
     w: 977
     h: 767
     title: New color scheme for product page tabs
 ---
 
-# Argento css customization
+# Argento custom css
 
 When talking about theme customization it very important to be able to easily
 upgrade Argento in future. That is why Argento brings possibility to create new

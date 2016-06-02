@@ -107,6 +107,6 @@ chmod -R 777 pub/media/easyslide
 
 ##### Next up
 
-- [Small css customizations](/m2/argento/css-customization/)
+- [Small css customizations](/m2/argento/custom-css/)
 - [Create Argento based custom theme](/m2/argento/custom-theme/)
 - [View list of included modules](/m2/argento/#extensions)
