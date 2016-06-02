@@ -11,8 +11,10 @@ category: Absolute Theme
 
 ![Absolute Homepage](/images/m2/themes/absolute/absolute_homepage.png){: .noborder}
 
+### Contents
+
 - [Installation](installation/)
-- [Demo](https://github.com/swissup/absolute-metapackage/releases)
+- [Demo](http://freedemo.swissuplabs.com/)
 
 
 ### Main Features
@@ -31,7 +33,7 @@ category: Absolute Theme
     ![Slick Carousel Bottom](/images/m2/themes/absolute/carousel2.gif)
 
     This carousel tool is integrated in **Absolute** theme and can be used in other
-    places according this manual:
+    places using following markup:
 
     ```html
     <div data-mage-init='{"slick": {"slidesToShow": 4, "slidesToScroll": 1, "dots": true, "autoplay": true, "variableWidth": true}}'>
