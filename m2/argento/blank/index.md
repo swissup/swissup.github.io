@@ -26,7 +26,7 @@ gallery:
 # Argento Blank
 
 Argento Blank - is a basic theme for developers. It has minimum styles
-and it's main purpose to provide simple and convinient way to create Argento 
+and it's main purpose to provide simple and convinient way to create Argento
 sub-themes.
 
 {% include gallery.html images=page.gallery class="scroll phone-up-1 tablet-up-3 photoswipe" %}
@@ -36,5 +36,5 @@ sub-themes.
  -  Themes
     - [Argento Essence](/m2/argento/essence/)
  -  Customization
-    - [Small css customizations](/m2/argento/custom-css/)
-    - [Create Argento based custom theme](/m2/argento/custom-theme/)
+    - [Small css customizations](/m2/argento/customization/custom-css/)
+    - [Create Argento based custom theme](/m2/argento/customization/custom-theme/)
