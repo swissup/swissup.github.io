@@ -19,11 +19,12 @@ category: Argento
  3. Theming
     - General
         - [Change page layout](change-page-layout/)
-        - [Change template](change-template/)
         - [Add additional javascripts](add-additional-javascripts/)
         - [Add additional css styles](add-additional-css-styles/)
     - Product Listing
         - [Change columns count](change-product-listing-columns-count/)
         - [Change product height in 'squama' listing mode](change-product-height-in-squama-listing-mode/)
+    - Product View Page
+        - [Add additional blocks to the product page](add-additional-blocks-to-the-product-page/)
  4. Content Organizing
     - [Change homepage structure](change-homepage-structure/)
