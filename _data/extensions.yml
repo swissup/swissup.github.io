@@ -38,7 +38,7 @@ askit:
   short_description:
   urls:
     m1: /m1/extensions/askit/
-    m2:
+    m2: /m2/extensions/askit/
 
 attributepages:
   title: Attribute based pages
