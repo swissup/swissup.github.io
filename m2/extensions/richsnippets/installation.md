@@ -1,13 +1,16 @@
 ---
 layout: default
-title: Easy Banners Installation
-description:
-keywords: "magento banner, magento banner slider, adding magento banners,
-magento extension, magento module"
-category: Easy Banners
+title: Rich Snippets Installation
+description: Magento2 snippets module
+keywords: "magento2 rich snippet extension, magento2
+google rich snippets extension, google rich snippets magento2 extension, google
+rich snippets tool"
+category: RichSnippets
 ---
 
-# Easy Banners installation instructions
+# RichSnippets installation instructions
+
+#### Installation
 
 Please follow next steps to complete the installation:
 
@@ -16,14 +19,11 @@ Please follow next steps to complete the installation:
 
     ```bash
     cd <magento_root>
-    bin/magento module:enable Swissup_Core Swissup_SubscriptionChecker Swissup_Easybanner
+    bin/magento module:enable Swissup_Core Swissup_SubscriptionChecker Swissup_RichSnippets
     bin/magento setup:upgrade
     ```
 
 ###### After you install an extension you can go to:
 
-* [Admin interfaces][interfaces]
 * [Support](https://swissuplabs.com/contacts/)
 * [Forum](https://swissuplabs.com/magento-forum/)
-
-[interfaces]: /m2/extensions/easybanners/interfaces/

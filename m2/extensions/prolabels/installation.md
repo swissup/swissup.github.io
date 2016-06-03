@@ -46,7 +46,6 @@ replace list and grid image code
         <?php echo $productImage->toHtml(); ?>
     </a>
 </div>
-
 ```
 
 ##### Content Catalog Labels

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Easy Banners
+title: Easy Banners Admin Interfaces
 description:
 keywords: "magento banner, magento banner slider, adding magento banners,
 magento extension, magento module"
