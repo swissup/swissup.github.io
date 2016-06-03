@@ -13,10 +13,10 @@ category: Argento
 > This tutorial assumes that you already created [custom css](../custom-css/)
 > to add additional css styles
 >
-> If you did not &mdash; [go ahead](../custom-css/), it will take 5 minutes.
+> If you did not — [go ahead](../custom-css/), it will take 5 minutes.
 
  1. [Columns count](#columns-count)
- 2. [Squama listing styles](#squama-listing-styles)
+ 2. [Squama listing styles](#squama-listing-styles) - Argento Essence
  3. [Remove listing styles](#remove-listing-styles)
 
 ### Columns count
