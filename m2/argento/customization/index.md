@@ -13,16 +13,16 @@ category: Argento
  2. Css tools
     - [Grid system](grid-system/)
     - [Css helpers](css-helpers/)
-        - [Product listing mixins](css-helpers/#product-listing-mixins)
         - [Visible and hidden classes](css-helpers/#visible-and-hidden-classes)
         - [Responsive embed](css-helpers/#responsive-embed)
  3. Theming
     - General
         - [Change page layout](change-page-layout/)
         - [Add additional css styles](add-additional-css-styles/)
-    - Product Listing
-        - [Change columns count](change-product-listing-columns-count/)
-        - [Change product height in 'squama' listing mode](change-product-height-in-squama-listing-mode/)
+    - [Product Listing](change-product-listing-styles/)
+        - [Change columns count](change-product-listing-styles/#columns-count)
+        - [Modify 'squama' listing styles](change-product-listing-styles/#squama-listing-styles)
+        - [Remove listing styles](change-product-listing-styles/#remove-listing-styles)
     - Product View Page
         - [Add additional blocks to the product page](add-additional-blocks-to-the-product-page/)
  4. Content Organizing

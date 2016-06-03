@@ -3,7 +3,8 @@ layout: default
 title: Argento custom css
 description: How to apply css changes and keep original files without changes
 keywords: >
-    argento styles, argento css, css modifications
+    argento styles, argento css, css modifications, _argento_custom.css,
+    _argento_custom
 category: Argento
 gallery:
   - href: /images/m2/argento/customization/custom-css/essence/home.png
