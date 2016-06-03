@@ -54,9 +54,7 @@ gulp.task('css', function () {
 
 gulp.task('css-images', function () {
     var files = [
-        'bower_components/photoswipe/dist/default-skin/*.gif',
-        'bower_components/photoswipe/dist/default-skin/*.png',
-        'bower_components/photoswipe/dist/default-skin/*.svg',
+        'bower_components/photoswipe/dist/default-skin/*.{svg,png,gif}'
     ];
     return gulp.src(files)
         .pipe(gulp.dest('assets'));
