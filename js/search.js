@@ -141,3 +141,32 @@ var Search = function(options) {
     }
   };
 };
+
+// initialization
+var input = document.getElementById('search'),
+  searchUrl = input.getAttribute('data-url');
+new Search({
+  searchInput: input,
+  resultsContainer: document.getElementById('search-results'),
+  json: searchUrl,
+  limit: 10
+});
+
+// 404 page functionality
+if (document.getElementById('related-articles')) {
+  var related = new Search({
+    resultsContainer: document.getElementById('related-articles'),
+    json: searchUrl,
+    limit: 20
+  });
+
+  var pathParts = window.location.pathname.slice(0, -1).split('/'),
+    token = pathParts[pathParts.length - 1].replace(/\d+/g, ' '),
+    hash  = window.location.hash.slice(1).replace(/\d+/g, ' ');
+
+  if (hash.length > 1) {
+    related.searchByTwoTokens(hash, token, 16);
+  } else {
+    related.search(token);
+  }
+}

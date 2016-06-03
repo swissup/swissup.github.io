@@ -34,21 +34,5 @@ document.addEventListener("DOMContentLoaded", function(event) {
       history.back();
     }
   });
-
-  var related = new Search({
-    resultsContainer: document.getElementById('related-articles'),
-    json: '{{ "/search.json" | prepend: site.baseurl }}',
-    limit: 20
-  });
-
-  var pathParts = window.location.pathname.slice(0, -1).split('/'),
-    token = pathParts[pathParts.length - 1],
-    hash  = window.location.hash.slice(1);
-
-  if (hash.length > 1) {
-    related.searchByTwoTokens(hash, token, 16);
-  } else {
-    related.search(token);
-  }
 });
 </script>
