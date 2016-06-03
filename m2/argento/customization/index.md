@@ -19,7 +19,6 @@ category: Argento
  3. Theming
     - General
         - [Change page layout](change-page-layout/)
-        - [Add additional javascripts](add-additional-javascripts/)
         - [Add additional css styles](add-additional-css-styles/)
     - Product Listing
         - [Change columns count](change-product-listing-columns-count/)
