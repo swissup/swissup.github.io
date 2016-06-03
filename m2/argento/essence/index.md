@@ -43,4 +43,4 @@ gallery:
 ### Contents
 
 - [Installation](/m2/argento/installation/)
-- [Css customization](/m2/argento/customization/custom-css/)
+- [Theme customization](/m2/argento/customization/)
