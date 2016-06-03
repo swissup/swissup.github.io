@@ -17,8 +17,8 @@ category: Argento
 #### 1. Unpack Argento package into magento root folder
 
 > **Warning!**
-> 
-> Extracted files will overwrite the current files with the same name. 
+>
+> Extracted files will overwrite the current files with the same name.
 > Please make sure you have a backup before overwriting your current files.
 
 You can upload Argento archive and unpack it using shell or CPanel.
@@ -27,7 +27,7 @@ You can upload Argento archive and unpack it using shell or CPanel.
     1. Upload zip archive into Magento root folder
     2. Run `unzip [filename.zip]` command
  2. Using CPanel
-    1. Log into CPnael
+    1. Log into CPanel
     2. Click on `File Manager` icon
     3. Navigate to the Magento2 root directory
     4. Click on `Upload Files`
@@ -35,7 +35,9 @@ You can upload Argento archive and unpack it using shell or CPanel.
     6. Click on the `Okay` or `Save` button to upload the file
     7. Click on the uploaded file
     8. Click on the `Extract File Contents` option in the file manager interface
-    
+
+Navigate to `System > Tools > Сache Management` and flush cache.
+
 #### 2. Enable modules and run upgrade scripts
 
 Run the following commands in shell
@@ -78,7 +80,7 @@ bin/magento setup:di:compile
 
 #### 3. Setup configuration and theme content
 
-1. Navigate to `Swissup > Module Manager`, find theme you'd like to use at 
+1. Navigate to `Swissup > Module Manager`, find theme you'd like to use at
     your store and click `Open Installer` option in actions column
 
     ![Module manager](/images/m2/argento/installation/module_manager.png)
@@ -105,6 +107,6 @@ chmod -R 777 pub/media/easyslide
 
 ##### Next up
 
-- [Small css customizations](/m2/argento/css-customization/)
-- [Create Argento based custom theme](/m2/argento/custom-theme/)
+- [Small css customizations](/m2/argento/customization/custom-css/)
+- [Create Argento based custom theme](/m2/argento/customization/custom-theme/)
 - [View list of included modules](/m2/argento/#extensions)

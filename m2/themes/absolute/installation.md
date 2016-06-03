@@ -10,207 +10,82 @@ category: Absolute Theme
 
 ## Absolute Theme for Magento 2.x installation instructions
 
-### Get extension sources:
+### Contents
 
-- If you have access to our repositories:
+ 1. [Unpack Absolute Theme package into magento root folder](#unpack-absolute-theme-package-into-magento-root-folder)
+ 2. [Enable modules and run upgrade scripts](#enable-modules-and-run-upgrade-scripts)
+ 3. [Setup configuration and theme content](#setup-configuration-and-theme-content)
 
-```
-composer config repositories.swissup composer http://swissup.github.io/packages/
-composer require swissup/absolute-metapackage --prefer-source
-```
+#### 1. Unpack Absolute Theme package into magento root folder
 
-- Or, if you have archive from our site:
+> **Warning!**
+>
+> Extracted files will overwrite the current files with the same name.
+> Please make sure you have a backup before overwriting your current files.
 
-```
-unzip <absolute-theme.zip> -d <magento_root>
-```
+You can upload Absolute Theme archive and unpack it using shell or cPanel.
 
-### Enable modules and run upgrades:
+ 1. Using shell
+    1. Upload zip archive into Magento root folder
+    2. Run `unzip [filename.zip]` command
+ 2. Using cPanel
+    1. Log into cPanel
+    2. Click on `File Manager` icon
+    3. Navigate to the Magento2 root directory
+    4. Click on `Upload Files`
+    5. In the popup window navigate to the Absolute Theme archive
+    6. Click on the `Okay` or `Save` button to upload the file
+    7. Click on the uploaded file
+    8. Click on the `Extract File Contents` option in the file manager interface
 
-```
+#### 2. Enable modules and run upgrade scripts
+
+Go to admin `System > Cache Management` and refresh caches. This step is required even if cache is disabled.
+Then run the following commands in shell
+
+```bash
+# enable Absolute Theme modules
 bin/magento module:enable\
-    Swissup_SlickCarousel\
+    Swissup_Core\
     Swissup_FontAwesome\
+    Swissup_SlickCarousel\
+    Swissup_ThemeEditor
 
+# clear cache
+bin/magento cache:flush
+
+# run magento upgrade scripts
 bin/magento setup:upgrade
+
+# regenerate static content
+rm -rf pub/static/_requirejs
+rm -rf var/view_preprocessed
+bin/magento setup:static-content:deploy
+
+# if you are using di:compilation, you need to run it again:
+rm -rf var/generation var/di
+bin/magento setup:di:compile
 ```
 
-### Setting Up
+#### 3. Setup configuration and theme content
 
-* Disable Magento `WYSIWYG` editor in `Stores > Configuration > General > Content Management`
+1. Navigate to `Swissup > Module Manager`, find `Swissup_ThemeFrontendAbsolute`
+   and click `Open Installer` option in actions column
 
-### Add homepage content
+    ![Module manager](/images/m2/themes/absolute/installation/module_manager.png)
 
-* Go to `Content > Pages` and press `Add New Page`
-* On `Design` tab select `2 columns with right bar` in `Layout` dropdown
-* In `Layout Update XML` add following content:
+2. Select store, where you wish to install Absolute Theme
+    and press `Install` button
 
-```xml
-<referenceContainer name="sidebar.additional">
-    <block class="Magento\Cms\Block\Block" name="homepage_callout" before="-">
-        <arguments>
-            <argument name="block_id" xsi:type="string">homepage_callout</argument>
-        </arguments>
-    </block>
-    <block class="Magento\Newsletter\Block\Subscribe" name="form.subscribe.right" as="subscribe_right" template="subscribe_right.phtml"/>
-</referenceContainer>
-<referenceContainer name="page.bottom">
-    <block class="Magento\Cms\Block\Block" name="featured">
-        <arguments>
-            <argument name="block_id" xsi:type="string">featured</argument>
-        </arguments>
-    </block>
-</referenceContainer>
-```
+    > **Warning!**
+    >
+    > If you have single store view, install theme for `All Store Views` or go to
+    > `Stores > Configuration > General > Single-Store Mode` and set
+    > `Enable Single-Store Mode` to `Yes`.
+    > Installation on store view level will not work because of bug in Magento.
 
-* On `Content` tab place following code in `Content` field:
+    ![Installation Form](/images/m2/themes/absolute/installation/form.png)
 
-```html
-<div class="homepage-slider" >
-    <div data-mage-init='{"slick": {"slidesToShow": 1, "slidesToScroll": 1, "dots": true, "autoplay": true}}'>
-        <div style="margin-right: 10px"><img src="{% raw %}{{view url='images/slider/slide1.jpg'}}{% endraw %}" alt=""/></div>
-        <div style="margin-right: 10px"><img src="{% raw %}{{view url='images/slider/slide2.jpg'}}{% endraw %}" alt=""/></div>
-        <div style="margin-right: 10px"><img src="{% raw %}{{view url='images/slider/slide3.jpg'}}{% endraw %}" alt=""/></div>
-    </div>
-</div>
-{% raw %}{{widget type="Magento\Catalog\Block\Product\Widget\NewWidget" display_type="new_products" products_count="8" template="product/widget/new/content/new_grid.phtml"}}{% endraw %}
-```
+#### 4. That's all. Navigate to you store to check your new theme:
 
-### Add static blocks
-
-Block **Slogan**
-
-* id: `slogan`
-* content:
-
-```html
-<div class="slogan" >
-    <img src="{% raw %}{{view url='images/slogan.gif'}}{% endraw %}" alt="" />
-</div>
-```
-
-Block **Footer Contacts**
-
-* id: `footer_contacts`
-* content:
-
-```
-Company Name | USA, NY, Street Address | Phone: 1-800-000-0000
-```
-
-Block **Footer Additional**
-
-* id: `footer_additional`
-* content:
-
-```html
-<div class="footer-additional">
-    <div class="footer-contacts">{% raw %}{{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="footer_contacts"}}{% endraw %}</div>
-    <div class="footer-payments">{% raw %}{{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="footer_payments"}}{% endraw %}</div>
-</div>
-```
-
-Block **Footer Links**
-
-* id: `footer_links_block`
-* content:
-
-```html
-<div class="box informational">
-    <ul>
-        <li>
-            <h4>About us</h4>
-            <ul>
-                <li><a href="{% raw %}{{store direct_url='about'}}{% endraw %}">About Us</a></li>
-                <li><a href="{% raw %}{{store direct_url='our-company'}}{% endraw %}">Our company</a></li>
-                <li><a href="{% raw %}{{store direct_url='catalog/seo_sitemap/category'}}{% endraw %}">Sitemap</a></li>
-            </ul>
-        </li>
-        <li>
-            <h4>Customer information</h4>
-            <ul>
-                <li><a href="{% raw %}{{store direct_url='contacts'}}{% endraw %}">Contact Us</a></li>
-                <li><a href="{% raw %}{{store direct_url='price-matching'}}{% endraw %}">Price matching</a></li>
-                <li><a href="{% raw %}{{store direct_url='testimonials'}}{% endraw %}">Testimonials</a></li>
-            </ul>
-        </li>
-        <li>
-            <h4>Security &amp; privacy</h4>
-            <ul>
-                <li><a href="{% raw %}{{store direct_url='privacy'}}{% endraw %}">Privacy Policy</a></li>
-                <li><a href="{% raw %}{{store direct_url='safe-shopping'}}{% endraw %}">Safe &amp; secure shopping</a></li>
-                <li><a href="{% raw %}{{store direct_url='terms'}}{% endraw %}">Terms &amp; conditions</a></li>
-            </ul>
-        </li>
-        <li class="last">
-            <h4>Shipping &amp; returns</h4>
-            <ul>
-                <li><a href="{% raw %}{{store direct_url='delivery'}}{% endraw %}">Delivery information</a></li>
-                <li><a href="{% raw %}{{store direct_url='guarantees'}}{% endraw %}">Satisfaction guarantee</a></li>
-                <li><a href="{% raw %}{{store direct_url='returns'}}{% endraw %}">Returns policy</a></li>
-            </ul>
-        </li>
-    </ul>
-</div>
-```
-
-Block **Footer Payments**
-
-* id: `footer_payments`
-* content:
-
-```html
-<ul class="footer-payments" >
-    <li><img src="{% raw %}{{view url='images/payments/amex.svg'}}{% endraw %}" alt=""></li>
-    <li><img src="{% raw %}{{view url='images/payments/visa.svg'}}{% endraw %}" alt=""></li>
-    <li><img src="{% raw %}{{view url='images/payments/maestro.svg'}}{% endraw %}" alt=""></li>
-    <li><img src="{% raw %}{{view url='images/payments/mastercard.svg'}}{% endraw %}" alt=""></li>
-</ul>
-```
-
-Block **Homepage Callouts**
-
-* id: `homepage_callout`
-* content:
-
-```html
-<div class="home-callouts">
-    <div class="callout callout1">
-        <img src="{% raw %}{{view url='images/callout1.png'}}{% endraw %}" alt="" />
-    </div>
-    <div class="callout callout2">
-        <img src="{% raw %}{{view url='images/callout2.png'}}{% endraw %}" alt="" />
-    </div>
-</div>
-```
-
-Block **Featured Products**
-
-##### Create featured product attribute:
-
-- Go to `Stores > Attributes > Product` and press `Add New Attribute`
-- Set `Default label` to `Featured` and `Catalog Input Type for Store Owner` to `Yes/No`
-- Press `Save Attribute` button
-- Go to `Stores > Attributes > Attribute Sets`
-- Select your attribute set
-- Drag `featured` attribute from `Unassigned Attributes` to `Product Details` group
-- Press `Save` button
-- Now you can go to `Products > Catalog` and set `Featured` to `Yes` for products you need
-
-##### Create static block
-
-- Go to `Content > Elements > Blocks` and press `Add New Block`
-- Set:
-    - Block Title : Featured Products
-    - Identifier : featured
-    - Content :
-
-```txt
-{% raw %}{{widget type="Magento\CatalogWidget\Block\Product\ProductsList" title="Featured Products" products_count="10" template="product/featured.phtml" conditions_encoded="a:1:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]]"}}{% endraw %}
-```
-
-- Press `Save Block` button.
-
-##### Apply theme
-
-Navigate to `Stores > Configuration > Design > Design Theme` and apply Absolute theme.
+![Homepage screenshot](/images/m2/themes/absolute/absolute_homepage.png)

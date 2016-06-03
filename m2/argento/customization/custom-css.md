@@ -1,37 +1,37 @@
 ---
 layout: default
-title: Argento css customization
+title: Argento custom css
 description: How to apply css changes and keep original files without changes
 keywords: >
-    argento styles, argento css, css midifications, custom theme
+    argento styles, argento css, css modifications
 category: Argento
 gallery:
-  - href: /images/m2/argento/css-customization/essence/home.png
-    src: /images/m2/argento/css-customization/essence/home-small.png
+  - href: /images/m2/argento/customization/custom-css/essence/home.png
+    src: /images/m2/argento/customization/custom-css/essence/home-small.png
     w: 977
     h: 767
     alt: Modified tab and product link colors
     title: New color scheme for tabs and product name links
-  - href: /images/m2/argento/css-customization/essence/product.png
-    src: /images/m2/argento/css-customization/essence/product-small.png
+  - href: /images/m2/argento/customization/custom-css/essence/product.png
+    src: /images/m2/argento/customization/custom-css/essence/product-small.png
     w: 977
     h: 767
     title: New color scheme for product page tabs
 ---
 
-# Argento css customization
+# Argento custom css
 
 When talking about theme customization it very important to be able to easily
 upgrade Argento in future. That is why Argento brings possibility to create new
 `_argento_custom.less` file, that will be automatically included and processed.
 
 > Using new file, you'll guarantee that all Argento files left untouched and
-> you can unpack new Argento version over the old one without lossing your
+> you can unpack new Argento version over the old one without losing your
 > modifications
 
 ## Example
 
-Let's change product links color from black to blue and update color scheme for 
+Let's change product links color from black to blue and update color scheme for
 homepage and products page tabs. [Scroll down](#result) to see results.
 
  1. Navigate to Argento theme css directory, you'd like to modify
@@ -60,7 +60,7 @@ homepage and products page tabs. [Scroll down](#result) to see results.
     ```
 
  4. Save the file and run following bash commands to regenerate compiled styles
-    
+
     ```bash
     cd magento/root/folder
     rm -rf var/view_preprocessed
@@ -75,4 +75,4 @@ homepage and products page tabs. [Scroll down](#result) to see results.
 
 - [Using Argento grid to organize content](/m2/argento/grid/)
 - [Argento css helpers](/m2/argento/css-helpers/)
-- [Create Argento based custom theme](/m2/argento/custom-theme/)
+- [Create Argento based custom theme](/m2/argento/customization/custom-theme/)
