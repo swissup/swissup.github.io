@@ -2,7 +2,8 @@
 layout: default
 title: Argento Frequently Asked Questions
 description: Argento Frequently Asked Questions
-keywords: "argento faq, short header, floatbar, collapsed category description, layout, argento logo"
+keywords: "argento faq, short header, floatbar, collapsed category description,
+layout, argento logo, fontawesome, font awesome, icons"
 category: Argento
 ---
 
@@ -18,6 +19,7 @@ category: Argento
 8. [Prepare logo image for mobile device](#prepare-logo-image-for-mobile-device)
 9. [How to disable Questions tab on product page?](#how-to-disable-questions-tab-on-product-page)
 10. [How to remove "0" as the default value for grouped products](#how-to-remove-0-as-the-default-value-for-grouped-products)
+11. [How to use FontAwesome icons?](#how-to-use-fontawesome-icons)
 
 ### How to disable short header and footer layout?
 
@@ -243,3 +245,39 @@ skin/frontend/argento/argento_custom/images/storeLogo@2x.png
     });
     ```
  3. Flush cache
+
+### How to use FontAwesome icons?
+
+![Icons example](/images/m1/themes/argento/faq/font-awesome-icons.png)
+
+**Argento** has integrated [**FontAwesome**](http://fontawesome.io/icons/){: target="_blank"}
+scalable vector icons support. So you can insert more then **760** icons just
+using one tag.
+
+_For Example:_ To add new **Instagram** icon to homepage content - follow these
+instructions:
+
+ * Go to [**FontAwesome**](http://fontawesome.io/icons/){: target="_blank"} site
+and find [**Instagram**](http://fontawesome.io/icon/instagram/) icon in search
+ * Copy `<i class="fa fa-instagram"></i>` html code.
+ * And insert it to `Admin > CMS > Pages > 'home' > Content` in a place you need.
+
+   > **NOTE:** _Your **WYSIWYG** Magento editor should be **disabled** while saving
+   FontAwesome tags as it cuts `<i>` tags on save when turned on._
+
+   You should get following look:
+
+   ![Icon using](/images/m1/themes/argento/faq/icon-using.png)
+
+Also you can add same **CSS** properties for FontAwesome tags that could be applied
+to other TEXT tags: `font-size`, `color`, `font-weight` etc.
+
+More exclusive **FontAwesome** options you will find at
+[Examples Page](http://fontawesome.io/examples/){: target="_blank"}:
+
+  * Changing **Icons size without CSS**
+  * Creating **Fixed Width** Icons
+  * Adding **List** Icons
+  * Making **Animated** Icons
+  * **Rotating** & **Flipping** Icons
+  * **Stacking** few icons one over other
