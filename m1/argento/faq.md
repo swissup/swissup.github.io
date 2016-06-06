@@ -20,6 +20,7 @@ category: Argento
 9. [How to disable Questions tab on product page?](#how-to-disable-questions-tab-on-product-page)
 10. [How to remove "0" as the default value for grouped products](#how-to-remove-0-as-the-default-value-for-grouped-products)
 11. [How to use FontAwesome icons?](#how-to-use-fontawesome-icons)
+12. [Missing elements at homepage](#missing-elements-at-homepage)
 
 ### How to disable short header and footer layout?
 
@@ -263,7 +264,7 @@ and find [**Instagram**](http://fontawesome.io/icon/instagram/) icon in search
  * And insert it to `Admin > CMS > Pages > 'home' > Content` in a place you need.
 
    > **NOTE:** _Your **WYSIWYG** Magento editor should be **disabled** while saving
-   FontAwesome tags as it cuts `<i>` tags on save when turned on._
+   FontAwesome tags as it cuts empty `<i>` tags on save when turned ON._
 
    You should get following look:
 
@@ -281,3 +282,26 @@ More exclusive **FontAwesome** options you will find at
   * Making **Animated** Icons
   * **Rotating** & **Flipping** Icons
   * **Stacking** few icons one over other
+
+### Missing elements at homepage
+
+Often users are having issues with missing arrows, icons and other elements at
+**Argento** homepage. That is caused by default Magento **WYSIWYG** editor cutting-out
+_"unknown"_ tags.
+
+> **RECOMMENDATION**: Please disable default Magento **WYSIWYG** editor
+> ( `System > Configuration > Content Management > Enable WYSIWYG Editor = Disabled by Default`)
+>
+> If you don't want to disable it - just don't forget to turn it off before
+> pushing **Save** button while editing content.
+
+If you saved `homepage` or `service_sidebar` content with **WYSIWYG = ON** and have
+missing elements - here's list of original homepages content for all Argento designs
+to **compare** and **restore**:
+
+  * [Argento](argento)
+  * [Pure](pure)
+  * [Mall](mall)
+  * [Flat](flat)
+  * [Pure2](pure2)
+  * [Services Sidebar](services-sidebar)
