@@ -5,6 +5,13 @@ abandonedcart:
     m1: /m1/extensions/abandonedcart/
     m2:
 
+addressautocomplete:
+  title: Address Autocomplete
+  short_description:
+  urls:
+    m1: /m1/extensions/address-autocomplete/
+    m2:
+
 affiliatesuite:
   title: Affiliate Suite
   short_description:
