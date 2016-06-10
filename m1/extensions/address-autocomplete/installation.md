@@ -26,5 +26,6 @@ run recompilation if it is enabled.
 
 #### Next Up
 
+- [Configuration](../configuration/)
 - [Get API Key](../get-api-key/)
 
