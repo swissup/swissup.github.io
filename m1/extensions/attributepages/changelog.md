@@ -11,7 +11,7 @@ category: Attributepages
 
 **New Features**
 
- -  Added new [Product_Option widget](/m1/extensions/attributepages/widgets-and-blocks/product-option-block/)
+ -  Added new [Product_Option widget](/m1/extensions/attributepages/widgets-and-blocks/product-option-block/#widget-interface)
 
 **Improvements & Fixes**
 
