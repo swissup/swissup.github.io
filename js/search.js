@@ -153,9 +153,9 @@ new Search({
 });
 
 // 404 page functionality
-if (document.getElementById('related-articles')) {
+if (document.getElementById('related-articles-404')) {
   var related = new Search({
-    resultsContainer: document.getElementById('related-articles'),
+    resultsContainer: document.getElementById('related-articles-404'),
     json: searchUrl,
     limit: 20
   });
