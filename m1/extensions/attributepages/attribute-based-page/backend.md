@@ -96,5 +96,16 @@ Url Key | Frontend url, where the page will be available (PAGE_URL/OPTION_URL)
 Image | Image to show at the Attributepage and widgets
 Thumbnail | Image to show, when tiny logo size is needed. See [Use cases](/m1/extensions/attributepages/use-cases/) page.
 
-##### Related Articles
-- [Attribute based page frontend screenshots](/m1/extensions/attributepages/attribute-based-page/frontend/)
+##### Next Up
+
+ -  [Back to homepage](/m1/extensions/attributepages/)
+ -  [Attribute based page frontend screenshots](/m1/extensions/attributepages/attribute-based-page/frontend/)
+ -  [Widgets and Blocks](widgets-and-blocks/)
+    - [Product option helper](widgets-and-blocks/product-option-helper/) (Used for Product brand images for a product collection)
+    - [Product option block](widgets-and-blocks/product-option-block/) (Used for Product brand image on a product page)
+    - [Attribute based pages widget](widgets-and-blocks/attribute-based-pages-widget/) (Eg. Browse by list: Brands, Colors, Authors, etc)
+    - [Option based pages widget](widgets-and-blocks/option-based-pages-widget/) (Eg. Brands list: Dior, Burberry, Chanel, etc)
+ -  [Use cases](/m1/extensions/attributepages/use-cases/)
+    - [Display brand block on product page](/m1/extensions/attributepages/use-cases/brand-block-on-product-page/)
+    - [Display brand block on category page](/m1/extensions/attributepages/use-cases/brand-block-on-category-page/)
+    - [Display brand block in recently viewed products block](/m1/extensions/attributepages/use-cases/brand-block-in-recently-viewed-block/)
