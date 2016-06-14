@@ -130,19 +130,19 @@ Here you can send selected reminder emails manually, change their status or dele
 Here you can check order information such as Customer Name, Customer Email, Order Date and bought Products.
 Also you can change reminder status here.
 
-![Reminders grid](/images/m2/reviewreminder/reminder-information-tab.png)
+![Reminder Information Tab](/images/m2/reviewreminder/reminder-information-tab.png)
 
 ##### Order Products Tab
 
 In this tab you can see bought products grid. In `Review Status` column you can see if customer left product review or not.
 
-![Reminders grid](/images/m2/reviewreminder/reminder-order-products-tab.png)
+![Order Products Tab](/images/m2/reviewreminder/reminder-order-products-tab.png)
 
 ##### Email Preview Tab
 
 In this tab you can see preview of reminder email.
 
-![Reminders grid](/images/m2/reviewreminder/email-preview-tab.png)
+![Email Preview Tab](/images/m2/reviewreminder/email-preview-tab.png)
 
 ## Use cases
 
