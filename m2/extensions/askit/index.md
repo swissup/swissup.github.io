@@ -39,78 +39,57 @@ Askit module is integrated with Akismet service,that will stop questions spam. T
 
 ![General Section](/images/m2/askit/general-section.png)
 
-##### Default question status
+ *  Default question status - please select default status for question displayed
+    on frontend from drop down list. Possible values are Pending,Approved,
+    Disapproved and Close.
 
-Please select default status for question displayed on frontend from drop down list. Possible values are Pending,Approved, Disapproved and Close.
+    > Only Approved questions customers will see on frontend.
 
-    Note: only Approved questions customers will see on frontend.
+ *  Default answer status - please select default status for comment displayed
+    on frontend from drop down list. Possible values are Pending, Approved and
+    Disapproved, Close.
 
-##### Default answer status
+ *  Default question status and default customer comment status - You can select
+    default status for new questions:
 
-Please select default status for comment displayed on frontend from drop down list. Possible values are Pending, Approved and Disapproved, Close.
+    Status | Description
+    -------|------------
+    Pending | Questions and answers with this status will be hided on frontend, admin can change their status to Approved
+    Approved | Questions with this status show on frontend.
+    Disapproved | Questions with this status not show on front.
+    Close | Questions with this status disquesing was finished.
 
-##### Default question status and default customer comment status
+ *  Allow guests to ask questions - select Yes to allow guests to ask questions on store pages.
 
-You can select default status for new questions:
+ *  Allow customers comment - select Yes to allow customers post their comments
+    on question posted by other visitors.
 
- - Pending - questions and answers with this status will be hided on frontend, admin can change their status to Approved.
- - Approved - questions with this status was appoved .
- - Disapproved - questions with this status was not approved .
- - Close - questions with this status was closed.
+ *  Allow guests comment - select Yes to allow guests post their comments on
+    question posted by other visitors.
 
+ *  Allow customer vote - select Yes to allow customers vote for questions.
 
-##### Allow guests to ask questions
+ *  Show customer name on frontend - select Yes to allow the display of customer name on frontend.
 
-Select Yes to allow guests to ask questions on store pages.
+ *  Show item name on frontend - select Yes to allow the display of item
+    (product or cms page) name on frontend.
 
-##### Allow customers comment
-
-Select Yes to allow customers post their comments on question posted by other visitors.
-
-##### Allow guests comment
-
-Select Yes to allow guests post their comments on question posted by other visitors.
-
-##### Allow customer vote
-
-Select Yes to allow customers vote for questions.
-
-##### Show customer name on frontend
-
-Select Yes to allow the display of customer name on frontend.
-
-##### Show item name on frontend
-
-Select Yes to allow the display of item (product or cms page) name on frontend.
-
-##### Enable Gravatar integrity
-
-Select Yes to allow the display of avatar by customer email.
-
+ *  Enable Gravatar integrity - select Yes to allow the display of avatar
+    by customer email.
 
 ### Email Settings section
 
 ![Email Settings Section](/images/m2/askit/email-section.png)
 
-##### Enabled
+ *  Enabled - you can disable sending answers and notifacation by email.
 
-You can disable sending answers and notifacation by email.
+ *  Sender - select system magento sender for using in extension.
 
-##### Sender
+ *  Customer Notification Template - select customer notification email template.
 
-Select system magento sender for using in extension.
+ *  Send admin notification to - Admin email.
 
-##### Customer Notification Template
-
-Select customer notification email template.
-
-##### Send admin notification to
-
-Admin email.
-
-##### Admin Notification Template
-
-Select admin notification email template.
+ *  Admin Notification Template - select admin notification email template.
 
 ## Frontend interfaces
 
