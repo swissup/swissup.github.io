@@ -97,7 +97,7 @@ Askit module is integrated with Akismet service,that will stop questions spam. T
 
 ![Interface 1](/images/m2/askit/frontend-interface-1.gif)
 
-### Loggined customer interface
+### Logged In Customer interface
 
 ![Interface 3](/images/m2/askit/frontend-interface-3.gif)
 
