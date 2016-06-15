@@ -3,7 +3,7 @@ layout: default
 title: Argento Pure 2.0 Configuration
 description: ArgentoPure 2.0 configuration
 keywords: >
-    ArgentoPure, pure, configuration, fluid layout, boxed layout
+    ArgentoPure, pure, configuration, fluid layout, boxed layout, rtl
 category: Argento
 ---
 

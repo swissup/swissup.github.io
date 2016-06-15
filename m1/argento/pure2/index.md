@@ -69,3 +69,5 @@ category: Argento
 ##### [Checkout Page](checkout-page/)
 
 - [Short header and footer layout](checkout-page/#short-header-and-footer-layout)
+
+##### [RTL support for Pure2 Enabling](rtl)
