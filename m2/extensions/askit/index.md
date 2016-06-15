@@ -20,7 +20,8 @@ category: AskIt
 3. [Settings](#settings)
  - [General Section](#general-section)
  - [Email Settings Section](#email-settings-section)
-4. [Admin interfaces](#admin-interfaces)
+4. [Frontend interfaces](#frontend-interfaces)
+5. [Admin interfaces](#admin-interfaces)
  - [Askit Questions Grid](#askit-questions-grid)
  - [Question Information Tab](#question-information-tab)
  - [Answers Tab](#answers-tab)
@@ -110,6 +111,19 @@ Admin email.
 ##### Admin Notification Template
 
 Select admin notification email template.
+
+## Frontend interfaces
+
+### Product Questions
+
+![Interface 1](/images/m2/askit/frontend-interface-1.gif)
+
+### Loggined customer interface
+
+![Interface 3](/images/m2/askit/frontend-interface-3.gif)
+
+### All questions
+![Interface 2](/images/m2/askit/frontend-interface-2.gif)
 
 ## Admin interfaces
 
