@@ -70,6 +70,14 @@ cache:
     m1: /m1/extensions/cache/
     m2:
 
+checkoutsuccess:
+  title: Checkout Success
+  short_description: Show more details on checkout success page
+  size: 1x1
+  urls:
+    m1:
+    m2: /m2/extensions/checkoutsuccess/
+
 configurableswatches:
   title: Configurable Swatches
   short_description:
