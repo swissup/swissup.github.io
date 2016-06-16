@@ -26,4 +26,4 @@ That's all. Right after installation you'll see no differences on product page, 
 
 * [Easytabs Grid][easytabs_grid]
 
-[easytabs_grid]: /m2/easytabs/#easytabs-grid
+[easytabs_grid]: /m2/extensions/easytabs/#easytabs-grid

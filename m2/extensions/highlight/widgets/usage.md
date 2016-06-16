@@ -36,7 +36,7 @@ utilize `Insert Widget` button.
     ![Widgets Dropdown](/images/m2/highlight/widgets_dropdown.png)
 
 3. Fill `Widget Options` form with values you'd like to. See the
-    [Widget Settings][widget_settings] page, if you are not sure about some 
+    [Widget Settings][widget_settings] page, if you are not sure about some
     options.
 
     ![Widget Form](/images/m2/highlight/widget_form.png)
@@ -46,7 +46,7 @@ utilize `Insert Widget` button.
 
 ## Widgets Page
 
-Magento's `Content > Widgets` page allows easily add custom content to almost all 
+Magento's `Content > Widgets` page allows easily add custom content to almost all
 frontend pages. This method is highly recommended to insert highlight widgets.
 
 **Example below shows how to add widget to the Product Page**
@@ -70,7 +70,7 @@ frontend pages. This method is highly recommended to insert highlight widgets.
 
     ![Widget Instance Options](/images/m2/highlight/new_widget_instance_widget_options.png)
 
-    See the [Widget Settings][widget_settings] page, if you are not sure about 
+    See the [Widget Settings][widget_settings] page, if you are not sure about
     some options.
 
 4. Save widget and navigate to product page.
@@ -80,7 +80,7 @@ frontend pages. This method is highly recommended to insert highlight widgets.
 - See the [Available Widgets][widget_types] page, for full block type reference.
 - See the [Widget Settings][widget_settings] page, for full options reference.
 
-Here is an xml layout skeleton, that could be used to write code to call any kind 
+Here is an xml layout skeleton, that could be used to write code to call any kind
 of highlight widget:
 
 ```xml
@@ -110,7 +110,7 @@ of highlight widget:
 - See the [Available Widgets][widget_types] page, for full block type reference.
 - See the [Widget Settings][widget_settings] page, for full options reference.
 
-Here is an xml layout skeleton, that could be used to write code to call any kind 
+Here is an xml layout skeleton, that could be used to write code to call any kind
 of highlight widget:
 
 ```php
@@ -136,5 +136,5 @@ echo $this->getLayout()
 ?>
 ```
 
-[widget_types]:     /m2/highlight/widgets/#highlight-widgets
-[widget_settings]:  /m2/highlight/widgets/settings/
+[widget_types]:     /m2/extensions/highlight/widgets/#highlight-widgets
+[widget_settings]:  /m2/extensions/highlight/widgets/settings/

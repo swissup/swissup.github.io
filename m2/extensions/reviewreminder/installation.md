@@ -28,4 +28,4 @@ That's all. Now you can generate reminders for orders created before extension w
 
 * [Manual Order Indexing Section][manual_order_indexing]
 
-[manual_order_indexing]: /m2/reviewreminder/#manual-order-indexing-section
+[manual_order_indexing]: /m2/extensions/reviewreminder/#manual-order-indexing-section

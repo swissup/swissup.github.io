@@ -26,4 +26,4 @@ That's all.
 * [Configuration][settings]
 
 
-[settings]: /m2/easycatalogimages/#configuration
+[settings]: /m2/extensions/easycatalogimages/#configuration

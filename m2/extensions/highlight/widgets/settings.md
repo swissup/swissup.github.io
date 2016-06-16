@@ -10,12 +10,12 @@ category: Highlight
 
 # Widget Settings
 
-Each of Highlight widget offers a lot of configurable parameters. When 
-inserting widget using [WYSIWYG editor][usage_wysiwyg_editor] or 
+Each of Highlight widget offers a lot of configurable parameters. When
+inserting widget using [WYSIWYG editor][usage_wysiwyg_editor] or
 [CMS > Widgets][usage_widgets_page], you'll need to simply fill the value into
 according field.
 
-When you want to use XML Layout Update or PHP inline widget call, you'll need to 
+When you want to use XML Layout Update or PHP inline widget call, you'll need to
 know how you may specify the options. See the corresponding pages:
 
 - [XML Layout Update][usage_xml_update]
@@ -23,7 +23,7 @@ know how you may specify the options. See the corresponding pages:
 
 ## Contents
 
-1. [Block rendering options](#block-rendering-options)
+1. [Block rendering settings](#block-rendering-settings)
 2. [Product collection options](#product-collection-options)
 
 ### Block rendering settings
@@ -66,7 +66,7 @@ conditions_encoded | Magento built-in conditions. Use them to filter product by 
 
 ###### Calculation period
 
-A string in [ISO_8601 format](https://en.wikipedia.org/wiki/ISO_8601#Durations) 
+A string in [ISO_8601 format](https://en.wikipedia.org/wiki/ISO_8601#Durations)
 used as value.
 
 ```
@@ -98,7 +98,7 @@ random      | Sort randomly. When cache is enabled, you'll see the cached result
 
 ##### Next up
 
-You might want to see next: 
+You might want to see next:
 
 - [Widget Usage](/m2/extensions/highlight/widgets/usage/)
     - [WYSIWYG Editor](/m2/extensions/highlight/widgets/usage/#wysiwyg-editor)
@@ -106,8 +106,8 @@ You might want to see next:
     - [XML Layout Update](/m2/extensions/highlight/widgets/usage/#xml-layout-update)
     - [PHP Inline Code](/m2/extensions/highlight/widgets/usage/#php-inline-code)
 
-[pages]: /m2/highlight/pages/
-[usage_wysiwyg_editor]: /m2/highlight/widgets/usage/#wysiwyg-editor
-[usage_widgets_page]: /m2/highlight/widgets/usage/#widgets-page
-[usage_xml_update]: /m2/highlight/widgets/usage/#xml-layout-update
-[usage_php]: /m2/highlight/widgets/usage/#php-inline-code
+[pages]: /m2/extensions/highlight/pages/
+[usage_wysiwyg_editor]: /m2/extensions/highlight/widgets/usage/#wysiwyg-editor
+[usage_widgets_page]: /m2/extensions/highlight/widgets/usage/#widgets-page
+[usage_xml_update]: /m2/extensions/highlight/widgets/usage/#xml-layout-update
+[usage_php]: /m2/extensions/highlight/widgets/usage/#php-inline-code
