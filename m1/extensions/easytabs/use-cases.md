@@ -21,6 +21,7 @@ category: Easy Tabs
 6. [Unset multiple blocks](#unset-multiple-blocks)
 7. [Duplicated tabs on product page](#duplicated-tabs-on-product-page)
 8. [No tabs after installation](#no-tabs-after-installation)
+9. [Adding tab with different custom content for each product](#adding-custom-product-content)
 
 ### Activate scrolling to tab by clicking an external link
 
@@ -217,3 +218,40 @@ If you do not see tabs on product page after installation:
 1. Check if the extension was enabled in `System > Configuration > Templates-Master > EasyTabs > General > Enabled`
 2. Check if module output is not disabled in `System > Configuration > Advanced > Advanced > Disable Modules Output > TM_EasyTabs`
 3. Open your theme `catalog.xml` and check if your theme has `product.info.additional` block in `catalog_product_view` section. If not, please add it or change reference to `content` or other existing block in `app/design/frontend/base/default/layout/tm/easytabs.xml`
+
+### Adding Custom Product Content
+
+Sometimes users need to create tab with content that is related **only** for **current product**
+similar to **"Description"**.
+
+> **EXAMPLE:** We'll create **"Video Review"** tab that is often asked by users.
+
+1. Go to `Admin > Catalog > Attributes > Manage Attributes > Add New Attribute`
+2. Set `Attribute code = 'product_video'` and `Catalog Input Type  = 'Text Area'`
+
+    ![Create Attribute](/images/m1/extensions/easytabs/create-attribute.png)
+
+3. Assign `product_video` attribute to needed **Attributes set** (make store
+indexes reindex if required)
+
+    ![Attributes set](/images/m1/extensions/easytabs/attributes-set.png)
+
+4. Go to `Admin > Templates Master > Easy Tabs` and add new **Custom attribute tab**
+
+    ![Attribute Tab](/images/m1/extensions/easytabs/attribute-tab.png)
+
+    And **save**.
+
+5. Then go to one of your products settings `Admin > Catalog > Manage Products`
+and fill custom content in **Product Video** field ( you can get it in **Youtube
+videos** _SHARE_ section ) i.e.
+
+   ```html
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/tQ1tq6nvHD8" frameborder="0" allowfullscreen></iframe>
+   ```
+
+    ![Attribute Tab](/images/m1/extensions/easytabs/product-video-content.png)
+
+6. Now we shoud get following view at **Product page**
+
+    ![Attribute Tab](/images/m1/extensions/easytabs/product-page.png)
