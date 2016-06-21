@@ -7,6 +7,22 @@ category: Firecheckout
 
 # Firecheckout Changelog
 
+### Version 3.6.1
+
+ -  [Address Autocomplete](/m1/extensions/address-autocomplete/) updated to 1.1.0
+    with js fixes and new [Street Number Placement](/m1/extensions/address-autocomplete/configuration)
+    config option
+
+**Improvements & Fixes**
+
+ -  Fixed email saving, when firstname or lastname is still empty
+ -  Fixed address save on street change
+ -  Updated html markup for downloadable item in review section
+
+**Third-party modules**
+
+ -  Ebizmarts Sagepaysuite integration fix
+
 ### Version 3.6.0
 
 **New Features**
