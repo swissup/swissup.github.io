@@ -17,7 +17,7 @@ category: Geoip
 3. [Settings](#settings)
  - [General Section](#general-section)
 4. [Frontend interfaces](#frontend-interfaces)
- - [General Section](#general-section)
+ - [New address on checkout page](#new-address-on-checkout-page)
  - [Customer create new address](#customer-create-new-address)
 
 ## Features
@@ -38,7 +38,7 @@ Autodetect customer address by ip. Use maxmind database;
 
 ## Frontend interfaces
 
-### On checkout page
+### New address on checkout page
 
 ![Checkout page](/images/m2/geoip/checkout.png)
 
