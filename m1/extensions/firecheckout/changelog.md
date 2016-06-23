@@ -22,6 +22,7 @@ category: Firecheckout
 **Third-party modules**
 
  -  Ebizmarts Sagepaysuite integration fix
+ -  TIG_PostNl: Fixed missing additional fields for logged in customers
 
 ### Version 3.6.0
 
