@@ -10,6 +10,10 @@ category: EasyCatalogImages
 
 ### Version 1.1.0
 
+> This version is **not compatible** with old Magento versions.
+>
+> Magento 2.1 and newer are supported only.
+
 - Magento 2.1.0 compatibility
 - Added ACL resource file
 
