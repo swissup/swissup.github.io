@@ -69,8 +69,7 @@ bin/magento cache:flush
 bin/magento setup:upgrade
 
 # regenerate static content
-rm -rf pub/static/_requirejs
-rm -rf var/view_preprocessed
+rm -rf pub/static/_requirejs var/view_preprocessed
 bin/magento setup:static-content:deploy
 
 # if you are using di:compilation, you need to run it again:
@@ -96,9 +95,11 @@ Sample images are located in `ARGENTO_THEME/resources/media` folder. Copy
 all contents of this folder into `MAGENTO_ROOT/pub/media` directory.
 
 ```bash
-cp -R ARGENTO_THEME/resources/media/* MAGENTO_ROOT/pub/media/
-chmod -R 777 pub/media/easybanner
-chmod -R 777 pub/media/easyslide
+cd MAGENTO_ROOT
+cp -R app/design/frontend/Swissup/argento-[essence]/resources/media/* pub/media/
+# If you are using theme from vendor folder:
+# cp -R vendor/swissup/theme-frontend-argento-[essence]/resources/media/* pub/media/
+chmod -R 777 pub/media/easybanner pub/media/easyslide
 ```
 
 #### 5. That's all. Navigate to you store to check your new theme:
