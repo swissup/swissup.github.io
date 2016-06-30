@@ -2,28 +2,34 @@
 layout: default
 title: Easy Catalog Images Installation
 description: magento 2 easy catalog images module installation
-keywords: " magento 2 easy catalog images extension "
+keywords: "magento 2 easy catalog images extension"
 category: EasyCatalogImages
 ---
 
-# Easy Catalog Images installation instructions
+# Installation instructions
 
-Please follow next steps to complete the installation:
-
- 1. Unpack extension archive into `<magento_root>/app/code`.
+ 1. Unpack extension archive into Magento root folder.
  2. Run the following commands in terminal:
 
     ```bash
     cd <magento_root>
     bin/magento module:enable Swissup_Core Swissup_Easycatalogimg
     bin/magento setup:upgrade
+
+    # regenerate static content
+    rm -rf pub/static/_requirejs var/view_preprocessed
+    bin/magento setup:static-content:deploy
     ```
 
-That's all.
+That's all. Navigate to `Products > Categories` and
+[assign thumbnails](../usage/#add-category-thumbnail) to categories.
 
-#### After you install an extension you can go to:
+#### Next up
 
-* [Configuration][settings]
+ -  [Usage](../usage/)
+    - [Add category thumbnail](../usage/#add-category-thumbnail)
+    - [Add widget to the homepage](../usage/#add-widget-to-the-homepage)
+    - [Enable module for all categories](../usage/#enable-module-for-all-categories)
+ -  [Back to Main Page](../)
 
-
-[settings]: /m2/extensions/easycatalogimages/#configuration
+[automated_image_assignment]: ../configuration/#automated-image-assignment-section
