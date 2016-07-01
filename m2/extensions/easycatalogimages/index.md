@@ -8,21 +8,15 @@ gallery:
   - href: /images/m2/easycatalogimages/homepage-widget.png
     src: /images/m2/easycatalogimages/homepage-widget-small.png
     w: 990
-    h: 918
+    h: 875
     alt: EasyCatalogImages widget at Argento homepage
     title: >
         EasyCatalogImages widget provides an ability to show particular
         categories at any page.
-  - href: /images/m2/easycatalogimages/category-page.png
-    src: /images/m2/easycatalogimages/category-page-small.png
+  - href: /images/m2/easycatalogimages/category-page4.png
+    src: /images/m2/easycatalogimages/category-page4-small.png
     w: 990
-    h: 918
-    alt: EasyCatalogImages at category page
-    title: Create attractive category page landings
-  - href: /images/m2/easycatalogimages/category-page2.png
-    src: /images/m2/easycatalogimages/category-page2-small.png
-    w: 990
-    h: 918
+    h: 890
     alt: EasyCatalogImages at category page
     title: Create attractive category page landings
   - href: /images/m2/easycatalogimages/category-page3.png
