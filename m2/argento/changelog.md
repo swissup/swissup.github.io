@@ -7,6 +7,45 @@ category: Argento
 
 # Argento Changelog
 
+### Version 0.9.1
+
+[Upgrade Instructions](../upgrade-instructions/#version-090---091)
+
+> Magento 2.0.* versions are no longer supported.
+>
+> Please update to Magento to 2.1 or newer to use latest Argento.
+
+**List of Included Themes**
+
+Theme           | Version
+:---------------|:-------
+Argento Essence | 0.9.2
+Argento Blank   | 0.8.5
+
+**Fixes and Improvements**
+
+ -  Removed deprecated css fixes for tablet devices:
+    - Added Accordion style to Layered navigation
+    - Better Layered Navigation positioning for small tablets
+ -  Homepage products count in sidebar blocks decreased to 2
+ -  Fixed missing top border in product listing toolbar elements
+
+**Extensions Updates**
+
+All extensions updated according to Magento 2.1 version.
+
+ -  **All Modules**
+    - ACL fixes
+    - Magento 2.1 compatibility
+ -  Soldtogether
+    - Slick Carousel added to `Customers Also Bought` block
+ -  [Easy Catalog Images](/m2/extensions/easycatalogimages/)
+    - Fixed error with missing Thumbnail class
+ -  [EasyTabs](/m2/extensions/easytabs/)
+    - Fixed missing js component in review tab
+ -  Core
+    - Added AdminNotification to be in touch with latest swissup updates
+
 ### Version 0.9.0
 
 > **Important Notice**
@@ -29,8 +68,8 @@ Theme           | Version
 Argento Essence | 0.9.1
 Argento Blank   | 0.8.4
 
-New Argento is shipped toghether with Swissup Module Manager, that could help you 
-to keep Swissup modules up to date and [install Argento Theme](/m2/argento/essence/installation/) 
+New Argento is shipped toghether with Swissup Module Manager, that could help you
+to keep Swissup modules up to date and [install Argento Theme](/m2/argento/essence/installation/)
 in a few clicks.
 
 **New Extensions**

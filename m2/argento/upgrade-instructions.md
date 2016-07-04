@@ -7,6 +7,25 @@ category: Argento
 
 # Upgrade Instructions
 
+### Version 0.9.0 - 0.9.1
+
+ 1. Backup all changes you've made
+ 2. Put the store to the maintenance mode
+ 3. [Unpack new Argento version][unpack_package] over the old one
+ 4. Run upgrades:
+
+    ```bash
+    bin/magento cache:flush
+    bin/magento setup:upgrade
+
+    # remove deprecated files
+    rm -rf app/design/frontend/Swissup/argento-blank/Magento_LayeredNavigation
+
+    # regenerate static content
+    rm -rf pub/static/_requirejs var/view_preprocessed
+    bin/magento setup:static-content:deploy
+    ```
+
 ### Version 0.8.1 - 0.9.0
 
  1. Backup all changes you've made
@@ -30,8 +49,8 @@ category: Argento
 
  5. Update cms pages and blocks:
 
-    Unfortunately this changes is very hard to apply in manual mode, so we recommend 
-    you to use automated [Argento Installer][run_installer] to backup previous 
+    Unfortunately this changes is very hard to apply in manual mode, so we recommend
+    you to use automated [Argento Installer][run_installer] to backup previous
     and create new theme content.
 
     The main reasons for these massive changes:
