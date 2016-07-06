@@ -37,4 +37,5 @@ modify frontend menus.
     - Use Cases:
       - [Replace standard subcategories dropdown with Easy Catalog Images widget](dropdown-columns/easycatalogimages-widget/)
  5. Customization
-    - [Open accordion on category click](open-accordion-on-category-click)
+    - [Open accordion on category click](open-accordion-on-category-click/)
+    - [Show content for specific devices only](show-content-for-specific-devices-only/)

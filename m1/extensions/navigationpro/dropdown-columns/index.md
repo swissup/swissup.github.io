@@ -53,6 +53,9 @@ Status option allows to disable column.
 Status exceptions allows you to configure menu visibility per device. You can
 disable large dropdowns to provide best experience for your mobile customers.
 
+> You can also use the [negative look-ahead regex statement](../show-content-for-specific-devices-only/)
+> to show content for specific devices only.
+
 The screenshot below shows how you can hide large dropdown, to improve site
 perfomance on phones, but show it for tablet devices.
 

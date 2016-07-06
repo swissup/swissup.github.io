@@ -39,11 +39,16 @@ pages before or after any category.
  - Dropdown css styles
 
 #### Status
+
 Status option allows to disable sibling.
 
 ###### Status exceptions
+
 Status exceptions allows you to configure sibling visibility per device. You can
 disable some siblings to provide best experience for your mobile customers.
+
+> You can also use the [negative look-ahead regex statement](../show-content-for-specific-devices-only/)
+> to show content for specific devices only.
 
 The screenshot below shows how you can hide sibling with large dropdown content,
 to improve site perfomance on phones, but show it for tablet devices.
