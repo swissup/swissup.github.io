@@ -21,6 +21,7 @@ category: Argento
 10. [How to remove "0" as the default value for grouped products](#how-to-remove-0-as-the-default-value-for-grouped-products)
 11. [How to use FontAwesome icons?](#how-to-use-fontawesome-icons)
 12. [Missing elements at homepage](#missing-elements-at-homepage)
+13. [Remove attributes that have no value](#remove-attributes-that-have-no-value)
 
 ### How to disable short header and footer layout?
 
@@ -305,3 +306,22 @@ to **compare** and **restore**:
   * [Flat](flat)
   * [Pure2](pure2)
   * [Services Sidebar](services-sidebar)
+
+### Remove attributes that have no value
+
+> When you need to hide attributes that have **"N/A"** or **"No"** values in
+> additional attributes table you can use following solution
+
+ 1. Go to  `app/argento/[mytheme]_custom/template/catalog/product/view/attributes.phtml` 
+    (or copy this file in your theme from 
+    `app/design/frontend/argento/default/template/catalog/product/view/attributes.phtml`) 
+    line 37
+ 2. Add following lines:
+ 
+    ```php
+    <?php foreach ($_additional as $_data):
+        // Add these 2 lines
+        $_test_data_value = trim($_data['value']);
+        if ((empty($_test_data_value) || in_array($_test_data_value, array(Mage::helper('catalog')->__('N/A'), Mage::helper('catalog')->__('No'))))) continue;?>
+    ```
+ 3. Check your site now.   
