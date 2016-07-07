@@ -74,6 +74,6 @@ homepage and products page tabs. [Scroll down](#result) to see results.
 
 ##### Next up
 
-- [Using Argento grid to organize content](/m2/argento/customization/grid/)
+- [Using Argento grid to organize content](/m2/argento/customization/grid-system/)
 - [Argento css helpers](/m2/argento/customization/css-helpers/)
 - [Create Argento based custom theme](/m2/argento/customization/custom-theme/)
