@@ -2,7 +2,7 @@
 layout: default
 title: Shipperhq_Validation integration
 description: Firecheckout integration with Shipperhq Validation
-keywords: Shipperhq_Validation, validation, address validation
+keywords: Shipperhq_Validation, shipper, shipperhq, validation, address validation
 category: Firecheckout
 ---
 
