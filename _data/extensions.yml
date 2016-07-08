@@ -40,6 +40,13 @@ ajaxsearch:
     m1: /m1/extensions/ajaxsearch/
     m2: /m2/extensions/ajaxsearch/
 
+akismet:
+  title: Akismet
+  short_description:
+  urls:
+    m1:
+    m2: /m2/extensions/akismet/
+
 askit:
   title: AskIt
   short_description:
