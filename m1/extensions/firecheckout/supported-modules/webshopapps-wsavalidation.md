@@ -2,7 +2,7 @@
 layout: default
 title: Webshopapps_Wsavalidation integration
 description: Firecheckout integration with Webshopapps Wsavalidation
-keywords: "Webshopapps_Wsavalidation, validation, desttype"
+keywords: "Webshopapps_Wsavalidation, validation, desttype, address validation"
 category: Firecheckout
 ---
 
