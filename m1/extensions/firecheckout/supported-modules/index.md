@@ -143,7 +143,8 @@ additional modifications.
 - [MrwIberia_Mage2Mrw](mrwiberia-mage2mrw/)
 - [PostcodeAnywhere](postcode-anywhere/)
 - Rack_Getpostcode
-- [Webshopapps_Wsavalidation](webshopapps-wsavalidation)
+- [Shipperhq_Validation](shipperhq-validation/)
+- [Webshopapps_Wsavalidation](webshopapps-wsavalidation/)
 
 ### Newsletters
 
