@@ -67,7 +67,7 @@ category: Rich Snippets
 2.  Insert your page source code or URL in proper fields and click **Check**;
 3.  If everything is OK you will get similar results:
 
-    ![All good Results](http://i.imgur.com/7EmdVRm.png)
+    ![All good Results](http://image.prntscr.com/image/49b886988de548cdb8ce4f164400e0e1.png)
 
 4.  Wait when Snippets will appear in Google search results
 
