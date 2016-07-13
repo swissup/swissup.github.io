@@ -11,3 +11,4 @@ category: Rich Snippets
 # Rich Snippets
 
 - [Installation](installation/)
+- [FAQ](faq/)
