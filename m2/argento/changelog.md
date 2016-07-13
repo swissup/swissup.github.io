@@ -7,6 +7,16 @@ category: Argento
 
 # Argento Changelog
 
+### Version 0.9.1.2
+
+ -  Additional Magento 2.1 compatibility
+ -  Fixed issues with:
+    - Core
+    - EasySlide
+    - SoldTogether
+    - EasyBanners
+    - Prolabels
+
 ### Version 0.9.1
 
 [Upgrade Instructions](../upgrade-instructions/#version-090---091)
