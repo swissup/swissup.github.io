@@ -10,6 +10,12 @@ category: Rich Snippets
 
 # Rich Snippets FAQ
 
+> NOTE: For general snippets questions (like `How long...` or  `Why doesn't show...`) 
+> check [THIS FAQ](https://sites.google.com/site/webmasterhelpforum/en/faq-rich-snippets) 
+> on **Google forums**. 
+> 
+> Following answers are about **TemplatesMaster** extension modification and integration
+
 - [Snippets are breaking breadcrumbs design in custom themes](#snippets-are-breaking-breadcrumbs-design-in-custom-themes)
 
 ### Snippets are breaking breadcrumbs design in custom themes
