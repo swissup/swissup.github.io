@@ -24,6 +24,18 @@ category: Firecheckout
     Add the next code below:
 
     ```xml
+    <controller_action_postdispatch_firecheckout_index_saveBilling>
+        <observers>
+            <save_dhlaccount>
+                <class>dhlaccount/observer</class>
+                <method>saveDhlAccount</method>
+            </save_dhlaccount>
+            <save_package_notification_flag>
+                <class>dhlaccount/observer</class>
+                <method>savePackageNotificationFlag</method>
+            </save_package_notification_flag>
+        </observers>
+    </controller_action_postdispatch_firecheckout_index_saveBilling>
     <controller_action_predispatch_firecheckout_index_saveShipping>
         <observers>
             <reset_parcel_announcement>
