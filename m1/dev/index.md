@@ -62,14 +62,15 @@ D:
 
 #### Mysql
 
-1. [Mysql server](http://dev.mysql.com/downloads/installer/)
-2. [HeidiSql client](http://www.heidisql.com/)
-3. [PhpMyAdmin](http://www.phpmyadmin.net/) - Unpack it to `www/public/phpmyadmin`
+ 1. [Mysql server](http://dev.mysql.com/downloads/installer/)
+ 2. [HeidiSql client](http://www.heidisql.com/)
+ 3. [PhpMyAdmin](http://www.phpmyadmin.net/) - Unpack it to `www/public/phpmyadmin`
     directory
 
 #### Php
 
- 1. Download and unpack [binaries](http://windows.php.net/downloads/releases) to `C:\php` folder.
+ 1. Download and unpack [binaries](http://windows.php.net/downloads/releases) to
+    `C:\php` folder.
  2. Rename `php.ini-development` to `php.ini`
  3. Apply the following changes to `php.ini`:
 
@@ -96,7 +97,7 @@ D:
 
 #### Apache
  1. [Download](http://www.apachelounge.com/download/VC11/binaries/httpd-2.4.12-win32-VC11.zip)
-and unpack binaries to `/c/Apache24`
+    and unpack binaries to `/c/Apache24`
  2. Find the following settings in `conf/httpd.conf` and change them as shown below:
 
     ```apacheconf
@@ -122,6 +123,7 @@ and unpack binaries to `/c/Apache24`
     ```
 
 #### Git
+
  1. [Download and install](http://git-scm.com/)
 
     - Add the git to the system PATH during installation
@@ -129,7 +131,7 @@ and unpack binaries to `/c/Apache24`
 
  2. Setup git
 
-    ```
+    ```bash
     git config --global user.name "FirstName LastName"
     git config --global user.email "your_email@example.com"
     git config --global core.autocrlf false
@@ -137,7 +139,7 @@ and unpack binaries to `/c/Apache24`
     ```
 
  3. Setup [github](https://github.com/) account and
- [generate ssh key](https://help.github.com/articles/generating-ssh-keys)
+    [generate ssh key](https://help.github.com/articles/generating-ssh-keys)
 
 #### Composer
 
@@ -147,10 +149,10 @@ and unpack binaries to `/c/Apache24`
     system PATH variable.
 
  2. [Add composer](https://github.com/settings/tokens/new) to your github
- authorized applications and copy generated token.
+    authorized applications and copy generated token.
  3. Run the following command in terminal:
 
-    ```
+    ```bash
     composer -g config github-oauth.github.com YOUR_KEY_HERE
     ```
 
@@ -158,7 +160,7 @@ and unpack binaries to `/c/Apache24`
 
  1. Download satis
 
-    ```
+    ```bash
     cd www/dev
     composer create-project composer/satis --stability=dev --keep-vcs
     ```
@@ -170,7 +172,7 @@ and unpack binaries to `/c/Apache24`
  1. Install [Node.js](http://nodejs.org/)
  2. Install Gulp.js
 
-    ```
+    ```bash
     npm install -g gulp
     ```
 
@@ -180,7 +182,7 @@ and unpack binaries to `/c/Apache24`
 
  1. Clone [Speedupmate Magento repository](https://github.com/speedupmate/Magento-CE-Mirror):
 
-    ```
+    ```bash
     cd www/public/magento
     git clone git@github.com:speedupmate/Magento-CE-Mirror.git htdocs
     cd htdocs
@@ -198,11 +200,59 @@ and unpack binaries to `/c/Apache24`
 
 #### TM modules
 
- 1. Download [composer.json](https://github.com/tmhub/tmhub.github.io/raw/master/_res/composer.json)
-    file and save it to `www/public/magento` folder.
+ 1. Create `composer.json` file and save it under `www/public/magento` folder:
+
+    ```json
+    {
+        "minimum-stability": "dev",
+        "require": {
+            "magento-hackathon/magento-composer-installer": "3.0.*",
+            "tm/argento": "*",
+            "tm/attributepages": "*",
+            "tm/bot-protection": "*",
+            "tm/cache": "*",
+            "tm/countdowntimer": "*",
+            "tm/dailydeals": "*",
+            "tm/easyflags": "*",
+            "tm/easylightbox": "*",
+            "tm/easynavigation": "*",
+            "tm/firecheckout": "*",
+            "tm/helpdesk": "*",
+            "tm/pagespeed": "*",
+            "tm/prozoom": "*",
+            "tm/quickshopping": "*",
+            "tm/productvideos": "*",
+            "tm/recaptcha": "*",
+            "tm/review-reminder": "*",
+            "tm/smartsuggest": "*",
+            "tm/socialsuite": "*",
+            "tm/testimonials": "*"
+        },
+        "repositories": [
+            {
+                "type": "composer",
+                "url": "http://tmhub.github.io/packages"
+            },
+            {
+                "type": "composer",
+                "url": "http://packages.firegento.com"
+            }
+        ],
+        "extra": {
+            "magento-root-dir": "htdocs/",
+            "magento-deploystrategy": "symlink",
+            "magento-force": true
+        },
+        "config": {
+            "discard-changes": true,
+            "secure-http": false
+        }
+    }
+    ```
+
  2. Run the following commands from terminal with admin privileges:
 
-    ```
+    ```bash
     cd www/public/magento
     composer install
     ```
@@ -246,41 +296,14 @@ Firecheckout         | fir | 635
 
 #### Making release
 
- 1. Create `build` directory inside project root folder
- 2. Add the following content to `.gitingore`:
-
-    ```
-    build/*
-    !build/composer.json
-    !build/gulpfile.js
-    !build/package.json
-    !build/README.md
-    ```
-
- 3. Copy these files from one of the following modules. Modify them according to your
-    project name.
-
-    - [AjaxPro](https://github.com/tmhub/ajaxpro/tree/master/build)
-    - [Cache](https://github.com/tmhub/cache/tree/master/build) demo and full version
-    - [Firecheckout](https://github.com/tmhub/firecheckout/tree/master/build)
-
- 4. Follow the `build/README.md` instructions
- 5. Upload the generated archive to github release
+ 1. Use [release builder script](https://github.com/swissup/gulp-release-builder)
+    to generate archive.
+ 5. Upload the generated archive to github release.
 
 #### Keep the modules up to date
 
  1. Commit all of your changes to github
- 2. Update packages repository
-
-    ```
-    cd www/public/packages
-    git pull
-    satis build satis.json .
-    git add .
-    git commit -m "satis build satis.json ."
-    git push
-    ```
-
+ 2. [Update packages repository](#updating-tm-packages-repository)
  3. Run terminal window **with admin privileges**.
 
     **Do not run this command if you didn't complete first or second step!**
@@ -299,31 +322,24 @@ Firecheckout         | fir | 635
     ```
 
 #### Updating TM packages repository
+
 TM packages repository is used by composer dependency manager to download
 module dependencies during `composer install` and `composer update` commands.
 
-Clone [tmhub/packages](https://github.com/tmhub/packages) repository into
-`www/public/packages` if you didn't do that before:
-
-```
+```bash
 cd www/public
-git clone git@github.com:tmhub/packages.git packages
-```
 
-Update the repository and push changes:
+# clone repository
+git clone git@github.com:tmhub/packages.git && cd packages
 
-```
-cd www/public/packages
-git pull
-satis build satis.json .
-git add .
-git commit -m "satis build satis.json ."
-git push
+# update the repository and push changes:
+./run.sh
 ```
 
 ## Miscellaneous
 
 #### Terminal
+
 [ConEmu](http://www.fosshub.com/ConEmu.html) is nice one.
 
 Using GitBash in ConEmu:
