@@ -291,6 +291,14 @@ quickshopping:
     m1: /m1/extensions/quickshopping/
     m2:
 
+recaptcha:
+  title: ReCAPTCHA
+  short_description: reCAPTCHA protects and defends. That is what we do best.
+  size: 1x2
+  urls:
+    m1: /m1/extensions/recaptcha/
+    m2:
+
 reviewreminder:
   title: Review Reminder
   short_description: >
