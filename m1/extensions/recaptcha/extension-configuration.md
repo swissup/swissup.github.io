@@ -10,7 +10,7 @@ category: reCAPTCHA
 
 In order to change general extension settings, go to you Magento backend. Then select menu `System` -> `Configuration` and on left side panel find `Templates-Master`-> `reCAPTCHA`.
 
-![ReCAPTCHA system config options](/images/m1/extensions/recaptcha/config.png)
+![ReCAPTCHA system config options](/images/m1/extensions/recaptcha/system-config.png)
 
 In section `API keys` you have to insert Site Key and Secret Key. Those keys Google provides for your domain. If you do not specify keys, then instead of captcha you get message:
 
