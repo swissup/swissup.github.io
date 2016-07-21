@@ -13,7 +13,7 @@ category: Firecheckout
 
     ```bash
     cd <magento_root>
-    bin/magento module:enable Swissup_Core Swissup_CheckoutSuccess Swissup_Firecheckout
+    bin/magento module:enable Swissup_Core Swissup_CheckoutSuccess Swissup_Geoip Swissup_Firecheckout
     bin/magento setup:upgrade
 
     # regenerate static content
