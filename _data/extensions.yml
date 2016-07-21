@@ -194,7 +194,7 @@ firecheckout:
   short_description:
   urls:
     m1: /m1/extensions/firecheckout/
-    m2:
+    m2: /m2/extensions/firecheckout/
 
 geoip:
   title: Geoip
