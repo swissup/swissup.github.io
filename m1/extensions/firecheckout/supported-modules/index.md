@@ -29,6 +29,7 @@ additional modifications.
 - [Customweb_PayUnityCw](customweb-payunitycw/)
 - Ebizmarts_SagepaymentsPro
 - Ebizmarts_SagepaySuite
+- [Gene_Braintree](gene-braintree/)
 - HeidelpayCD_Edition
 - IntellectLabs_Stripe
 - Itabs_Debit
