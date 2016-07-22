@@ -44,5 +44,4 @@ faster and easier by providing them a simple checkout form.
  2. [Changelog](changelog/)
  3. [Configuration](configuration/)
  4. Additional modules, shipped together with Firecheckout:
-    - [GeoIP](/m2/extensions/geoip/)
     - [Success Page](/m2/extensions/checkoutsuccess/)
