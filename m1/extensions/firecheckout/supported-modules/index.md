@@ -108,6 +108,7 @@ additional modifications.
 - [AW_Storecredit](aw-storecredit/)
 - MageWorx_CustomerCredit
 - [MW_Storecreditpro](mw-storecreditpro/)
+- Wf_CustomerBalance (Magecredit)
 
 ### RewardPoints
 
