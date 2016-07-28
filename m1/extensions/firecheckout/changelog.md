@@ -7,6 +7,26 @@ category: Firecheckout
 
 # Firecheckout Changelog
 
+### Version 3.6.2
+
+**Improvements & Fixes**
+
+ -  Fixed popup overflow styles in some third-party themes
+ -  Fixed missing PlaceOrder button in IE11 under Win 8.1
+ -  Paypal hss iframe moved out from popup to page content
+ -  Invalid argument for foreach() in deliverydate helper
+ -  Improved compatibility with old Magento (1.6.0)
+ -  Fixed incorrect German translation
+ -  Fixed password fields disappear, when changing email in Onecolumn mode
+
+**Third-party modules**
+
+ -  Radweb_Stripe integration updated
+ -  Added integration with Mage_MOLPaySeamless payment method
+ -  Fixed conflict with Magestore_Storepickup
+ -  Shipperhq_Validation integration added
+ -  DHL_Account integration updated
+
 ### Version 3.6.1
 
  -  [Address Autocomplete](/m1/extensions/address-autocomplete/) updated to 1.1.0
