@@ -13,6 +13,8 @@ category: Prolabels
 
 ### Contents
 
-1. [Installation](installation/)
-2. Use cases
-3. Troubleshooting
+* [Installation](installation/)
+* [Configuration](configuration/)
+* [Admin Interface](interfaces/)
+* [Support](https://swissuplabs.com/contacts/)
+* [Forum](https://swissuplabs.com/magento-forum/)

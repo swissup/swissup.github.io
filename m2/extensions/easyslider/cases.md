@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Easy Slider
+title: Easy Slider Use Cases
 description: Magento2 slider module
 keywords: >
   magento2 slider on homepage, magento2 slider extension, magento2 image

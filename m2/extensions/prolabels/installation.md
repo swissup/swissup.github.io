@@ -67,5 +67,7 @@ add code to any place in catalog list.phtml
 
 ###### After you install an extension you can go to:
 
+* [Configuration](../configuration/)
+* [Admin Interface](../interfaces/)
 * [Support](https://swissuplabs.com/contacts/)
 * [Forum](https://swissuplabs.com/magento-forum/)
