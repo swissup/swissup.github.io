@@ -10,7 +10,7 @@ category: Highlight
 
 Please follow next steps to complete the installation:
 
- 1. Unpack extension archive into `<magento_root>/app/code`.
+ 1. Unpack extension archive into `<magento_root>` folder.
  2. Run the following commands in terminal:
 
     ```bash
