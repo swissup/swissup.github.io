@@ -8,6 +8,7 @@ category: Argento
 # Argento customization
 
  1. General
+    - [Theme editor](theme-editor/)
     - [Custom css file](custom-css/)
     - [Custom theme](custom-theme/)
  2. Css tools
@@ -17,6 +18,7 @@ category: Argento
         - [Responsive embed](css-helpers/#responsive-embed)
  3. Theming
     - General
+        - [Boxed, full-width and standard layout types](boxed-full-width-and-standard-layout-types/)
         - [Change page layout](change-page-layout/)
         - [Add additional css styles](add-additional-css-styles/)
     - [Product Listing](change-product-listing-styles/)
@@ -26,4 +28,4 @@ category: Argento
     - Product View Page
         - [Add additional blocks to the product page](add-additional-blocks-to-the-product-page/)
  4. Content Organizing
-    - [Change homepage structure](change-homepage-structure/)
+    - [Homepage content structure](homepage-content/)

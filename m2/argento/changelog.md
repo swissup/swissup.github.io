@@ -7,6 +7,14 @@ category: Argento
 
 # Argento Changelog
 
+### Version 0.9.2
+
+ -  Theme editor added. [Read more](../customization/theme-editor/)
+ -  Additional LESS variables added to simplify switching between
+    [boxed, full-width and standard layout types](../customization/boxed-full-width-and-standard-layout-types/)
+ -  FontAwesome configuration added. Now you can use CDN or local version for it.
+ -  Minor bugfixes and improvements to ProLabels and SoldTogether modules
+
 ### Version 0.9.1.2
 
  -  Additional Magento 2.1 compatibility

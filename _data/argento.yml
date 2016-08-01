@@ -73,6 +73,9 @@ m2:
     - title: Customization
       url: /m2/argento/customization/
 
+    - title: Scripts
+      url: /m2/argento/scripts/
+
   themes:
     - title: Blank
       url: /m2/argento/blank/
