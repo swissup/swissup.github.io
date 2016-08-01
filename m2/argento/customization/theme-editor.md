@@ -54,6 +54,17 @@ gallery:
     src: /images/m2/argento/essence/theme-editor/config/small/additional-css.png
     w: 760
     h: 192
+examples:
+  - title: Dark boxed layout example
+    href: /images/m2/argento/essence/theme-editor/result-examples/dark-boxed-layout.png
+    src: /images/m2/argento/essence/theme-editor/result-examples/small/dark-boxed-layout.png
+    w: 800
+    h: 852
+  - title: Bright full-width layout example
+    href: /images/m2/argento/essence/theme-editor/result-examples/bright-full-width-layout.png
+    src: /images/m2/argento/essence/theme-editor/result-examples/small/bright-full-width-layout.png
+    w: 800
+    h: 852
 ---
 
 # Theme Editor
@@ -74,6 +85,7 @@ Theme editor is located at `Magento Admin > Stores > Configuration > Swissup The
  5. [Buttons](#buttons)
  6. [Fonts](#fonts)
  7. [Additional css styles](#additional-css-styles)
+ 7. [Result examples](#result-examples)
 
 #### Layout
 
@@ -148,6 +160,10 @@ and product name in category listing.
 #### Additional css styles
 
 Use this section to add any other specific styles.
+
+#### Result examples
+
+{% include gallery.html images=page.examples class="scroll phone-up-1 tablet-up-2 photoswipe" %}
 
 ##### Next up
 
