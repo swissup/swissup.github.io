@@ -17,6 +17,7 @@ category: Argento
  -  FontAwesome configuration added. Now you can choose between CDN and local version.
  -  Fixed product listing glitches in Safari browser
  -  Bugfixes and improvements to:
+    - Attributepages
     - ProLabels
     - SoldTogether
     - Testimonials
