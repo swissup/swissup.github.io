@@ -13,16 +13,17 @@ Testimonials extension allows your customers to leave reviews about your store. 
 ### Contents
 
 1. [Installation](installation/)
-2. [Features](#features)
-3. [Settings](#settings)
+2. [Changelog](changelog/)
+3. [Features](#features)
+4. [Settings](#settings)
  - [General Section](#general-section)
  - [Testimonials List Section](#testimonials-list-section)
  - [Testimonials Submit Form Section](#testimonials-submit-form-section)
  - [Administrator Email Notifications Section](#administrator-email-notifications-section)
-4. [Testimonials Grid](#testimonials-grid)
+5. [Testimonials Grid](#testimonials-grid)
  - [Testimonial Information Tab](#testimonial-information-tab)
-5. [Widgets and Blocks](widgets-and-blocks/)
-6. [Use Cases](#use-cases)
+6. [Widgets and Blocks](widgets-and-blocks/)
+7. [Use Cases](#use-cases)
  - [Testimonial submit form captcha](#testimonial-submit-form-captcha)
 
 ## Features
