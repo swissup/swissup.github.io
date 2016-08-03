@@ -7,6 +7,11 @@ category: Attributepages
 
 # Changelog
 
+### Version 1.3.5
+
+ -  Fixed duplicated options, when single store mode is used
+ -  Integration with MageWorx SeoFriendlyLN added
+
 ### Version 1.3.3
 
 **New Features**
