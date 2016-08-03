@@ -8,6 +8,10 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.0.1
+
+ -  Fixed compatibility with FPC
+
 ### Version 1.0.0
 
  -  Initial Release
