@@ -15,10 +15,13 @@ category: Argento
  4. Run upgrades:
 
     ```bash
-    bin/magento setup:upgrade
+    # activate new modules
+    php bin/magento module:enable Swissup_Askit Swissup_ThemeEditor Swissup_ThemeEditorArgentoEssence
+    # run upgrades
+    php bin/magento setup:upgrade
     # regenerate static content
     rm -rf pub/static/_requirejs var/view_preprocessed
-    bin/magento setup:static-content:deploy
+    php bin/magento setup:static-content:deploy
     ```
 
  5. Run Argento upgrades:
