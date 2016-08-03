@@ -7,6 +7,27 @@ category: Argento
 
 # Upgrade Instructions
 
+### Version 0.9.1 - 0.9.2
+
+ 1. Backup all changes you've made
+ 2. Put the store to the maintenance mode
+ 3. [Unpack new Argento version][unpack_package] over the old one
+ 4. Run upgrades:
+
+    ```bash
+    bin/magento setup:upgrade
+    # regenerate static content
+    rm -rf pub/static/_requirejs var/view_preprocessed
+    bin/magento setup:static-content:deploy
+    ```
+
+ 5. Run Argento upgrades:
+    1. Navigate to `Backend > Swissup > Module Manager`
+    2. Find `ArgentoEssence` and click on actions link
+    3. Click `Run Upgrades` option.
+
+![Run Upgrades Link](/images/m2/argento/upgrade/run-upgrades.png)
+
 ### Version 0.9.0 - 0.9.1
 
  1. Backup all changes you've made

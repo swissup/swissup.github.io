@@ -9,11 +9,18 @@ category: Argento
 
 ### Version 0.9.2
 
+[Upgrade Instructions](../upgrade-instructions/#version-091---092)
+
  -  Theme editor added. [Read more](../customization/theme-editor/)
  -  Additional LESS variables added to simplify switching between
     [boxed, full-width and standard layout types](../customization/boxed-full-width-and-standard-layout-types/)
- -  FontAwesome configuration added. Now you can use CDN or local version for it.
- -  Minor bugfixes and improvements to ProLabels and SoldTogether modules
+ -  FontAwesome configuration added. Now you can choose between CDN and local version.
+ -  Fixed product listing glitches in Safari browser
+ -  Bugfixes and improvements to:
+    - ProLabels
+    - SoldTogether
+    - Testimonials
+ -  [Askit](/m2/extensions/askit/) module added
 
 ### Version 0.9.1.2
 
