@@ -4,7 +4,9 @@ email: support@swissuplabs.com
 description: > # this means to ignore newlines until "baseurl:"
   SwissUpLabs extensions and themes documentation for Magento and Magento2
 baseurl: ""
-url: "http://swissup.github.io"
+url: "http://docs.swissuplabs.com/"
+
+repository: swissup/swissup.github.io
 
 permalink: pretty
 
