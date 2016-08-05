@@ -8,6 +8,26 @@ category: Argento
 
 # Argento Upgrade Instructions
 
+### Version 1.7.3.1 - 1.7.4
+
+ -  Follow usual upgrade steps (backup, disable compilation, maintenance mode,
+    unpack new version)
+ -  Delete follow directory:
+    
+    ```
+    app/design/frontend/argento/default/template/tm/testimonials/
+    ```
+
+ -  If you want to keep your Magento instance clean and tidy, then you can
+    remove follow directories and their content (Argento does not use them
+    anymore):
+
+    ```
+    app/design/frontend/base/default/template/tm/lightboxpro/highslide
+    skin/frontend/base/default/js/tm/lightboxpro
+    ```
+
+
 ### Version 1.7.0 — 1.7.1
 
  -  Backup all your changes
