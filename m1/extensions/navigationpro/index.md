@@ -28,6 +28,7 @@ modify frontend menus.
  2. [Siblings](siblings/)
     - [Backend Interface](siblings/#backend)
     - Use Cases:
+      - [Create menu item "Home"](siblings/item-home/)
       - ["Shop By" sibling with subcategories dropdown content](siblings/shop-by-with-dropdown-content/)
       - ["Brands" sibling with dropdown content](siblings/brands-with-dropdown-content/)
       - ["Browse By" sibling with attributepages list](siblings/browse-by-with-attributepages-list/)
