@@ -22,3 +22,17 @@ be blocked (except you want to block them).
     - [Blakclist](backend/blacklist/)
     - [Suspicious List](backend/suspicious-list/)
 3. [Frontend](frontend/)
+
+##### How does Bot Protection works
+
+Bot Protection is extension for Magento 1.x.
+
+There are two levels at your hosting: web server and Magento. At first,
+request from visitor comes to web server. If web server does not know what to
+do with request, then it sends request further to Magento. Magento logs this
+request and Bot Protection starts its "magic". BP hooks request and checks
+"is this request from blacklisted visitor?". For blacklisted visitor Bot
+Protection extension shows "access denied" page with response code 403
+(Forbidden). and the rest is on crawler's side. "Good" crawler has to
+understand that code 403 means "you are not not welcomed at this site" and
+stop bother you.
