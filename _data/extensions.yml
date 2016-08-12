@@ -77,6 +77,14 @@ cache:
     m1: /m1/extensions/cache/
     m2:
 
+cdn:
+  title: CDN
+  short_description: Cloud Destribution Network intagration
+  size: 1x1
+  urls:
+    m1: /m1/extensions/cdn/
+    m2:
+
 checkoutsuccess:
   title: Checkout Success
   short_description: Show more details on checkout success page
