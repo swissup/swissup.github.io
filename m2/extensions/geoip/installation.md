@@ -15,7 +15,7 @@ Please follow next steps to complete the installation:
 
     ```bash
     cd <magento_root>
-    composer require swissup/geoip
+    composer require geoip2/geoip2
     bin/magento module:enable Swissup_Core Swissup_SubscriptionChecker Swissup_Geoip
     bin/magento setup:upgrade
     ```
