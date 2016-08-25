@@ -13,48 +13,48 @@ category: Argento
 ### Customer information
 
 You can add or remove additional links, change phone number and text in
-`Cms > Static Blocks > footer` block. 
+`Cms > Static Blocks > footer` block.
 
 Block code is:
 
 ```html
-<div class="block block-footer-links">
+{% raw %}<div class="block block-footer-links">
     <div class="block-title"><span>Customer Information</span></div>
         <div class="block-content">
             <ul class="footer-links">
               <li>
                 <ul>
-                  <li><a href="{{store direct_url="block"}}">Blog</a></li>
-                  <li><a href="{{store direct_url="location"}}">Store locator</a></li>
-                  <li><a href="{{store direct_url="media"}}">Media</a></li>
-                  <li><a href="{{store direct_url="help-center"}}">Help Center</a></li>
+                  <li><a href="{{store direct_url='block'}}">Blog</a></li>
+                  <li><a href="{{store direct_url='location'}}">Store locator</a></li>
+                  <li><a href="{{store direct_url='media'}}">Media</a></li>
+                  <li><a href="{{store direct_url='help-center'}}">Help Center</a></li>
                 </ul>
               </li>
               <li>
                 <ul>
-                  <li><a href="{{store direct_url="customer/account"}}">My Account</a></li>
-                  <li><a href="{{store direct_url="sales/order/history"}}">Order Status</a></li>
-                  <li><a href="{{store direct_url="wishlist"}}">Wishlist</a></li>
-                  <li><a href="{{store direct_url="exchanges"}}">Returns and Exchanges</a></li>
+                  <li><a href="{{store direct_url='customer/account'}}">My Account</a></li>
+                  <li><a href="{{store direct_url='sales/order/history'}}">Order Status</a></li>
+                  <li><a href="{{store direct_url='wishlist'}}">Wishlist</a></li>
+                  <li><a href="{{store direct_url='exchanges'}}">Returns and Exchanges</a></li>
                 </ul>
               </li>
               <li class="last">
                 <ul>
-                  <li><a href="{{store direct_url="our-company"}}">Our Company</a></li>
-                  <li><a href="{{store direct_url="about"}}">About us</a></li>
-                  <li><a href="{{store direct_url="careers"}}">Careers</a></li>
-                  <li><a href="{{store direct_url="shipping"}}">Shipping</a></li>
+                  <li><a href="{{store direct_url='our-company'}}">Our Company</a></li>
+                  <li><a href="{{store direct_url='about'}}">About us</a></li>
+                  <li><a href="{{store direct_url='careers'}}">Careers</a></li>
+                  <li><a href="{{store direct_url='shipping'}}">Shipping</a></li>
                 </ul>
               </li>
             </ul>
         </div>
     </div>
-</div>
+</div>{% endraw %}
 ```
 
 ### About us
 
-You can edit the text in `Cms > Static Blocks > footer` block. 
+You can edit the text in `Cms > Static Blocks > footer` block.
 
 The block code is:
 
@@ -91,7 +91,7 @@ Here is a full list of supported icons:
 
 ### Newsletter subscribe
 
-Please use the following code in order to display this block: 
+Please use the following code in order to display this block:
 
 ```html
 {% raw %}{{block type="newsletter/subscribe" name="newsletter.footer" template="newsletter/subscribe.phtml"}}{% endraw %}

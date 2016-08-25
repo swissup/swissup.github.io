@@ -15,11 +15,11 @@ category: Argento
 In order to edit the custom header links block, please navigate to `CMS > Static blocks > header_links`. The default block's code is
 
 ```html
-    <ul class="links header-links">
-    <li class="first"><a href="{% raw %}{{store url=''}}{% endraw %}">support</a></li>
-    <li><a href="{{store url=""}}">faq</a></li>
-    <li class="last"><a href="{% raw %}{{store url=''}}{% endraw %}">knowledge base</a></li>
-    </ul>
+{% raw %}<ul class="links header-links">
+    <li class="first"><a href="{{store url=''}}">support</a></li>
+    <li><a href="{{store url=''}}">faq</a></li>
+    <li class="last"><a href="{{store url=''}}">knowledge base</a></li>
+</ul>{% endraw %}
 ```
 
 ### Language switcher block
@@ -30,7 +30,7 @@ Please look at the Line 33 : `<?php echo $this->getChildHtml('store_language') ?
 
 ### Welcome message
 
-In order to edit Magento default welcome message string, please go `System > Configuration > Design > Header page`. Make changes in the `Welcome Text field`. 
+In order to edit Magento default welcome message string, please go `System > Configuration > Design > Header page`. Make changes in the `Welcome Text field`.
 
 ### Default top links block
 
@@ -38,13 +38,13 @@ This block is based on container created in page.xml file.
 
 ```xml
     <block type="page/html_header" name="header" as="header">
-     <block type="page/template_links" name="top.links" as="topLinks"/>
+    <block type="page/template_links" name="top.links" as="topLinks"/>
 ```
 
 Each link is created at corresponding module xml file. For example, `My account link` is created in customer.xml file with the following code:
 
 ```xml
-    <action method="addLink" translate="label title" module="customer">
+<action method="addLink" translate="label title" module="customer">
     <label>My Account</label>
     <url helper="customer/getAccountUrl"/>
     <title>My Account</title>
@@ -53,7 +53,7 @@ Each link is created at corresponding module xml file. For example, `My account 
     <position>10</position>
     <liParams/>
     <aParams>rel="nofollow"</aParams>
-    </action>
+</action>
 ```
 
 ### Logo

@@ -98,7 +98,7 @@ Brands slider is a simple cms content, powered with javascript to make slider.
 Look at the code, that was used to show the brands slider:
 
 ```html
-<div class="block brands-home hidden-phone">
+{% raw %}<div class="block brands-home hidden-phone">
     <div class="block-title">
         <span>Featured Brands</span>
     </div>
@@ -107,26 +107,27 @@ Look at the code, that was used to show the brands slider:
         <a href="#" id="right">Right</a>
         <div id="slider-brands-container" class="slider-wrapper">
             <ul class="list-brands slider-brands" id="slider-brands">
-                <li><a href="#"><img src="{{skin url="images/catalog/brands/sony.jpg"}}" alt="" width="128" height="73"/></a></li>
-                <li><a href="#"><img src="{{skin url="images/catalog/brands/apple.jpg"}}" alt="" width="70" height="73"/></a></li>
-                <li><a href="#"><img src="{{skin url="images/catalog/brands/garmin.jpg"}}" alt="" width="154" height="74"/></a></li>
-                <li><a href="#"><img src="{{skin url="images/catalog/brands/htc.jpg"}}" alt="" width="124" height="74"/></a></li>
-                <li><a href="#"><img src="{{skin url="images/catalog/brands/intel.jpg"}}" alt="" width="103" height="74"/></a></li>
-                <li><a href="#"><img src="{{skin url="images/catalog/brands/motorola.jpg"}}" alt="" width="204" height="76"/></a></li>
-                <li><a href="#"><img src="{{skin url="images/catalog/brands/sony.jpg"}}" alt="" width="128" height="73"/></a></li>
-                <li><a href="#"><img src="{{skin url="images/catalog/brands/apple.jpg"}}" alt="" width="70" height="73"/></a></li>
-                <li><a href="#"><img src="{{skin url="images/catalog/brands/garmin.jpg"}}" alt="" width="154" height="74"/></a></li>
-                <li><a href="#"><img src="{{skin url="images/catalog/brands/htc.jpg"}}" alt="" width="124" height="74"/></a></li>
-                <li><a href="#"><img src="{{skin url="images/catalog/brands/intel.jpg"}}" alt="" width="103" height="74"/></a></li>
-                <li><a href="#"><img src="{{skin url="images/catalog/brands/motorola.jpg"}}" alt="" width="204" height="76"/></a></li>
+                <li><a href="#"><img src="{{skin url='images/catalog/brands/sony.jpg'}}" alt="" width="128" height="73"/></a></li>
+                <li><a href="#"><img src="{{skin url='images/catalog/brands/apple.jpg'}}" alt="" width="70" height="73"/></a></li>
+                <li><a href="#"><img src="{{skin url='images/catalog/brands/garmin.jpg'}}" alt="" width="154" height="74"/></a></li>
+                <li><a href="#"><img src="{{skin url='images/catalog/brands/htc.jpg'}}" alt="" width="124" height="74"/></a></li>
+                <li><a href="#"><img src="{{skin url='images/catalog/brands/intel.jpg'}}" alt="" width="103" height="74"/></a></li>
+                <li><a href="#"><img src="{{skin url='images/catalog/brands/motorola.jpg'}}" alt="" width="204" height="76"/></a></li>
+                <li><a href="#"><img src="{{skin url='images/catalog/brands/sony.jpg'}}" alt="" width="128" height="73"/></a></li>
+                <li><a href="#"><img src="{{skin url='images/catalog/brands/apple.jpg'}}" alt="" width="70" height="73"/></a></li>
+                <li><a href="#"><img src="{{skin url='images/catalog/brands/garmin.jpg'}}" alt="" width="154" height="74"/></a></li>
+                <li><a href="#"><img src="{{skin url='images/catalog/brands/htc.jpg'}}" alt="" width="124" height="74"/></a></li>
+                <li><a href="#"><img src="{{skin url='images/catalog/brands/intel.jpg'}}" alt="" width="103" height="74"/></a></li>
+                <li><a href="#"><img src="{{skin url='images/catalog/brands/motorola.jpg'}}" alt="" width="204" height="76"/></a></li>
             </ul>
         </div>
         <script type="text/javascript">
             new Slider("slider-brands-container", "left", "right", {shift: 'auto'});
         </script>
     </div>
-</div>
+</div>{% endraw %}
 ```
+
 ![Brands Slider](/images/argento/default/brands-slider.jpg)
 
 

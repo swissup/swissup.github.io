@@ -12,7 +12,7 @@ category: Argento
 
 ### Welcome message
 
-In order to edit Magento default welcome message string, please go `System > Configuration > Design > Header page`. Make changes in the `Welcome Text field`. 
+In order to edit Magento default welcome message string, please go `System > Configuration > Design > Header page`. Make changes in the `Welcome Text field`.
 
 ### Default top links block
 
@@ -20,13 +20,13 @@ This block is based on container created in page.xml file.
 
 ```xml
     <block type="page/html_header" name="header" as="header">
-     <block type="page/template_links" name="top.links" as="topLinks"/>
+    <block type="page/template_links" name="top.links" as="topLinks"/>
 ```
 
 Each link is created at corresponding module xml file. For example, `My account link` is created in customer.xml file with the following code:
 
 ```xml
-    <action method="addLink" translate="label title" module="customer">
+<action method="addLink" translate="label title" module="customer">
     <label>My Account</label>
     <url helper="customer/getAccountUrl"/>
     <title>My Account</title>
@@ -35,7 +35,7 @@ Each link is created at corresponding module xml file. For example, `My account 
     <position>10</position>
     <liParams/>
     <aParams>rel="nofollow"</aParams>
-    </action>
+</action>
 ```
 
 ### Logo
@@ -65,7 +65,7 @@ name was `logo.gif`
 In order to edit this block, please go `System > CMS > Static Blocks > Header_callout `. The default block code is:
 
 ```xml
-<img class="header-callout hidden-phone hidden-tablet" src="{{skin url="images/media/header_callout.gif"}}" alt="Toll-Free Customer Support 24/7" style="margin: 0; position: absolute; left: 300px; top: 2px;"/>
+{% raw %}<img class="header-callout hidden-phone hidden-tablet" src="{{skin url="images/media/header_callout.gif"}}" alt="Toll-Free Customer Support 24/7" style="margin: 0; position: absolute; left: 300px; top: 2px;"/>{% endraw %}
 ```
 
 ### Top Cart block

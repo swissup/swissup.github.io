@@ -13,32 +13,32 @@ category: Argento
 ### Company information
 
 You can add or remove additional links, change phone number and text in
-`Cms > Static Blocks > footer` block. 
+`Cms > Static Blocks > footer` block.
 
 Block code is:
 
 ```html
-<div class="box footer-links-cms">
+{% raw %}<div class="box footer-links-cms">
     <div class="head"><span>Informational</span></div>
     <ul class="col2-set">
         <li class="col-1">
             <ul>
-                <li><a href="{{store direct_url="about"}}">About Us</a></li>
-                <li><a href="{{store direct_url="our-company"}}">Our company</a></li>
-                <li><a href="{{store direct_url="press"}}">Press</a></li>
-                <li><a href="{{store direct_url="contacts"}}">Contact Us</a></li>
-                <li><a href="{{store direct_url="location"}}">Store location</a></li>
+                <li><a href="{{store direct_url='about'}}">About Us</a></li>
+                <li><a href="{{store direct_url='our-company'}}">Our company</a></li>
+                <li><a href="{{store direct_url='press'}}">Press</a></li>
+                <li><a href="{{store direct_url='contacts'}}">Contact Us</a></li>
+                <li><a href="{{store direct_url='location'}}">Store location</a></li>
             </ul>
         </li>
         <li class="last col-2">
             <ul>
-                <li><a href="{{store direct_url="privacy"}}">Privacy policy</a></li>
-                <li><a href="{{store direct_url="delivery"}}">Delivery information</a></li>
-                <li><a href="{{store direct_url="returns"}}">Returns policy</a></li>
+                <li><a href="{{store direct_url='privacy'}}">Privacy policy</a></li>
+                <li><a href="{{store direct_url='delivery'}}">Delivery information</a></li>
+                <li><a href="{{store direct_url='returns'}}">Returns policy</a></li>
             </ul>
         </li>
     </ul>
-</div>
+</div>{% endraw %}
 ```
 
 ### Additional links block
@@ -66,6 +66,7 @@ Please notice, that all links are collected from different xml files. For exampl
     </action>
 </reference>
 ```
+
 ### Copyright block
 
 You can change the copyright block by navigating to `System > Configuration > General > Design`.

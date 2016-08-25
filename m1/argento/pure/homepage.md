@@ -63,7 +63,7 @@ Homepage tabs - is a highlight block, transformed into tabs with javascript.
 The following code is used to show tabs on the homepage:
 
 ```html
-<div class="tab-container">
+{% raw %}<div class="tab-container">
     {{widget type="highlight/product_new" title="New arrivals" products_count="12" column_count="4" template="tm/highlight/product/grid.phtml" class_name="highlight-new" page_title="All new products &raquo;"}}
     {{widget type="highlight/product_bestseller" title="Bestsellers" products_count="12" column_count="4" template="tm/highlight/product/grid.phtml" class_name="highlight-bestsellers" page_title="All bestsellers &raquo;"}}
     {{widget type="highlight/product_attribute_yesno" attribute_code="recommended" title="Recommended products" products_count="12" column_count="4" template="tm/highlight/product/grid.phtml" class_name="highlight-attribute-recommended"}}
@@ -102,7 +102,7 @@ The following code is used to show tabs on the homepage:
         scrollX: true,
         scrollY: false
     });
-</script>
+</script>{% endraw %}
 ```
 
 ### Brands Slider
@@ -114,7 +114,7 @@ Brands slider is a simple cms content, powered with javascript to make slider.
 Look at the code, that was used to show the brands slider:
 
 ```html
-<div class="block brands-home hidden-phone">
+{% raw %}<div class="block brands-home hidden-phone">
     <div class="block-title">
         <span>Featured Brands</span>
     </div>
@@ -123,24 +123,24 @@ Look at the code, that was used to show the brands slider:
         <a href="#" id="right">Right</a>
         <div id="slider-brands-container" class="slider-wrapper">
             <ul class="list-brands slider-brands" id="slider-brands">
-                <li><a href="#"><img src="{{skin url="images/catalog/brands/gucci.jpg"}}" alt="" width="150" height="80"/></a></li>
-                <li><a href="#"><img src="{{skin url="images/catalog/brands/lv.jpg"}}" alt="" width="100" height="80"/></a></li>
-                <li><a href="#"><img src="{{skin url="images/catalog/brands/ck.jpg"}}" alt="" width="130" height="80"/></a></li>
-                <li><a href="#"><img src="{{skin url="images/catalog/brands/chanel.jpg"}}" alt="" width="170" height="80"/></a></li>
-                <li><a href="#"><img src="{{skin url="images/catalog/brands/guess.jpg"}}" alt="" width="130" height="80"/></a></li>
-                <li><a href="#"><img src="{{skin url="images/catalog/brands/versace.jpg"}}" alt="" width="145" height="80"/></a></li>
-                <li><a href="#"><img src="{{skin url="images/catalog/brands/gucci.jpg"}}" alt="" width="150" height="80"/></a></li>
-                <li><a href="#"><img src="{{skin url="images/catalog/brands/lv.jpg"}}" alt="" width="100" height="80"/></a></li>
-                <li><a href="#"><img src="{{skin url="images/catalog/brands/ck.jpg"}}" alt="" width="130" height="80"/></a></li>
-                <li><a href="#"><img src="{{skin url="images/catalog/brands/chanel.jpg"}}" alt="" width="170" height="80"/></a></li>
-                <li><a href="#"><img src="{{skin url="images/catalog/brands/guess.jpg"}}" alt="" width="130" height="80"/></a></li>
-                <li><a href="#"><img src="{{skin url="images/catalog/brands/versace.jpg"}}" alt="" width="145" height="80"/></a></li>
+                <li><a href="#"><img src="{{skin url='images/catalog/brands/gucci.jpg'}}" alt="" width="150" height="80"/></a></li>
+                <li><a href="#"><img src="{{skin url='images/catalog/brands/lv.jpg'}}" alt="" width="100" height="80"/></a></li>
+                <li><a href="#"><img src="{{skin url='images/catalog/brands/ck.jpg'}}" alt="" width="130" height="80"/></a></li>
+                <li><a href="#"><img src="{{skin url='images/catalog/brands/chanel.jpg'}}" alt="" width="170" height="80"/></a></li>
+                <li><a href="#"><img src="{{skin url='images/catalog/brands/guess.jpg'}}" alt="" width="130" height="80"/></a></li>
+                <li><a href="#"><img src="{{skin url='images/catalog/brands/versace.jpg'}}" alt="" width="145" height="80"/></a></li>
+                <li><a href="#"><img src="{{skin url='images/catalog/brands/gucci.jpg'}}" alt="" width="150" height="80"/></a></li>
+                <li><a href="#"><img src="{{skin url='images/catalog/brands/lv.jpg'}}" alt="" width="100" height="80"/></a></li>
+                <li><a href="#"><img src="{{skin url='images/catalog/brands/ck.jpg'}}" alt="" width="130" height="80"/></a></li>
+                <li><a href="#"><img src="{{skin url='images/catalog/brands/chanel.jpg'}}" alt="" width="170" height="80"/></a></li>
+                <li><a href="#"><img src="{{skin url='images/catalog/brands/guess.jpg'}}" alt="" width="130" height="80"/></a></li>
+                <li><a href="#"><img src="{{skin url='images/catalog/brands/versace.jpg'}}" alt="" width="145" height="80"/></a></li>
             </ul>
         </div>
         <script type="text/javascript">
             new Slider("slider-brands-container", "left", "right", {shift: 'auto'});
         </script>
     </div>
-</div>
+</div>{% endraw %}
 ```
 

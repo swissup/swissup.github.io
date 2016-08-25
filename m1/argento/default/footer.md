@@ -35,42 +35,42 @@ Here is a full list of supported icons:
 ### Company information
 
 You can add or remove additional links, change phone number and text in
-`Cms > Static Blocks > footer` block. 
+`Cms > Static Blocks > footer` block.
 
 Block code is:
 
 ```html
-<ul class="footer-links">
+{% raw %}<ul class="footer-links">
   <li><div class="h6">About us</div>
     <ul>
-      <li><a href="{{store direct_url="about"}}">About Us</a></li>
-      <li><a href="{{store direct_url="our-company"}}">Our company</a></li>
-      <li><a href="{{store direct_url="carriers"}}">Carriers</a></li>
-      <li><a href="{{store direct_url="shipping"}}">Shipping</a></li>
+      <li><a href="{{store direct_url='about'}}">About Us</a></li>
+      <li><a href="{{store direct_url='our-company'}}">Our company</a></li>
+      <li><a href="{{store direct_url='carriers'}}">Carriers</a></li>
+      <li><a href="{{store direct_url='shipping'}}">Shipping</a></li>
     </ul>
   </li>
   <li><div class="h6">Customer center</div>
     <ul>
-      <li><a href="{{store direct_url="customer/account"}}">My Account</a></li>
-      <li><a href="{{store direct_url="sales/order/history"}}">Order Status</a></li>
-      <li><a href="{{store direct_url="wishlist"}}">Wishlist</a></li>
-      <li><a href="{{store direct_url="exchanges"}}">Returns and Exchanges</a></li>
+      <li><a href="{{store direct_url='customer/account'}}">My Account</a></li>
+      <li><a href="{{store direct_url='sales/order/history'}}">Order Status</a></li>
+      <li><a href="{{store direct_url='wishlist'}}">Wishlist</a></li>
+      <li><a href="{{store direct_url='exchanges'}}">Returns and Exchanges</a></li>
     </ul>
   </li>
   <li><div class="h6">Info</div>
     <ul>
-      <li><a href="{{store direct_url="privacy"}}">Privacy policy</a></li>
-      <li><a href="{{store direct_url="delivery"}}">Delivery information</a></li>
-      <li><a href="{{store direct_url="returns"}}">Returns policy</a></li>
+      <li><a href="{{store direct_url='privacy'}}">Privacy policy</a></li>
+      <li><a href="{{store direct_url='delivery'}}">Delivery information</a></li>
+      <li><a href="{{store direct_url='returns'}}">Returns policy</a></li>
     </ul>
   </li>
   <li class="last"><div class="h6">Contacts</div>
     <ul>
-      <li><a href="{{store direct_url="contacts"}}">Contact Us</a></li>
-      <li><a href="{{store direct_url="location"}}">Store location</a></li>
+      <li><a href="{{store direct_url='contacts'}}">Contact Us</a></li>
+      <li><a href="{{store direct_url='location'}}">Store location</a></li>
     </ul>
   </li>
-</ul>
+</ul>{% endraw %}
 ```
 
 ### Contacts block
@@ -80,16 +80,16 @@ You can edit the contacts at `Cms > Static Blocks > footer_contacts`.
 Block code is:
 
 ```html
-<div class="footer-contacts">
+{% raw %}<div class="footer-contacts">
   <div class="h6">Visit Argento  Store</div>
   <address>
     221B Baker Street<br/>
     West Windsor, NJ  08550<br/>
     <strong>1.800.555.1903</strong><br/>
   </address>
-  <a href="{{store url="map"}}">get directions</a><br/>
-  <img width="200" height="60" style="margin-top: 10px;" src="{{skin url="images/security_sign.gif"}}" srcset="{{skin url="images/security_sign@2x.gif"}} 2x" alt="Security Seal"/>
-</div>
+  <a href="{{store url='map'}}">get directions</a><br/>
+  <img width="200" height="60" style="margin-top: 10px;" src="{{skin url='images/security_sign.gif'}}" srcset="{{skin url='images/security_sign@2x.gif'}} 2x" alt="Security Seal"/>
+</div>{% endraw %}
 ```
 
 ### Copyright block

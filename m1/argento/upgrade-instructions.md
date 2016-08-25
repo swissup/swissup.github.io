@@ -130,15 +130,15 @@ grid-link.phtml > grid.phtml
 For example:
 
 ```diff
-<div class="promo-home-content col2-set">
+{% raw %}<div class="promo-home-content col2-set">
     <div class="col-1">
         <div class="tab-container">
--           {% raw %}{{widget type="highlight/product_new" title="New arrivals" products_count="6" column_count="3" template="tm/highlight/product/grid-link.phtml" class_name="highlight-new" all_title="See all new products"}}
+-           {{widget type="highlight/product_new" title="New arrivals" products_count="6" column_count="3" template="tm/highlight/product/grid-link.phtml" class_name="highlight-new" all_title="See all new products"}}
 -           {{widget type="highlight/product_special" title="Sale" products_count="6" column_count="3" template="tm/highlight/product/grid-link.phtml" class_name="highlight-special" all_title="See all on sale products"}}
 +           {{widget type="highlight/product_new" title="New arrivals" products_count="6" column_count="3" template="tm/highlight/product/grid.phtml" class_name="highlight-new" page_title="See all new products &raquo;"}}
-+           {{widget type="highlight/product_special" title="Sale" products_count="6" column_count="3" template="tm/highlight/product/grid.phtml" class_name="highlight-special" page_title="See all on sale products &raquo;"}}{% endraw %}
++           {{widget type="highlight/product_special" title="Sale" products_count="6" column_count="3" template="tm/highlight/product/grid.phtml" class_name="highlight-special" page_title="See all on sale products &raquo;"}}
             {{widget type="highlight/product_attribute_yesno" attribute_code="coming_soon" title="Coming soon" products_count="6" column_count="3" template="tm/highlight/product/grid.phtml" class_name="highlight-attrbiute-coming_soon"}}
-        </div>
+        </div>{% endraw %}
 ```
 
 ### Version 1.5.4 — 1.6.0
