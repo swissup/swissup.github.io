@@ -10,12 +10,12 @@ category: Highlight
 
 # Widget Settings
 
-Each of Highlight widget offers a lot of configurable parameters. When 
-inserting widget using [WYSIWYG editor][usage_wysiwyg_editor] or 
+Each of Highlight widget offers a lot of configurable parameters. When
+inserting widget using [WYSIWYG editor][usage_wysiwyg_editor] or
 [CMS > Widgets][usage_widgets_page], you'll need to simply fill the value into
 according field.
 
-When you want to use XML Layout Update or PHP inline widget call, you'll need to 
+When you want to use XML Layout Update or PHP inline widget call, you'll need to
 know how you may specify the options. See the corresponding pages:
 
 - [XML Layout Update][usage_xml_update]
@@ -40,10 +40,6 @@ class_name      | Additional css classes
 show_page_link  | Flag that indicates to show "See all products" link or not
 page_url        | Custom url to the "See all products" page.
 page_title      | "See all products" link title
-**Pagination settings** |
-show_pager      | Flag that indicates that pagination should be visible or not
-products_per_page | Products count per page
-page_var_name   | Product page variabe name in query. Useful, when you have multiple block of the same type on one page
 
 ###### Available templates
 
@@ -65,6 +61,8 @@ sku_filter      | Comma separated product sku's
 category_filter | Comma separated category ids. `current` keyword may be used to filter products by currently viewed category
 price_filter    | Comma separated min and max prices
 product_type_filter | Comma separated products types to show. [See available types](#available-product-types)
+stock_filter    | "in_stock" or "out_of_stock" filter
+qty_filter      | Product quantoty filter. Works with simple products only
 
 ###### Sort Order
 
@@ -86,7 +84,7 @@ position    | Sort product position
 
 ##### Next up
 
-You might want to see next: 
+You might want to see next:
 
 - [Widget Usage](/m1/extensions/highlight/widgets/usage/)
     - [WYSIWYG Editor](/m1/extensions/highlight/widgets/usage/#wysiwyg-editor)

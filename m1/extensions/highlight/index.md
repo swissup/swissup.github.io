@@ -14,13 +14,14 @@ category: Highlight
 
 Highlight extension provides a set of widgets which purpose is to list any kind
 of products filtered with flexible tools. Module allows you to easely show New,
-Featured, Onsale, Bestsellers, Popular products. It's even can show products 
+Featured, Onsale, Bestsellers, Popular products. It's even can show products
 filtered by custom filters.
 
 ### Contents
 
-1. [Installation](installation/)
-2. [Widgets](widgets/)
+ 1. [Installation](installation/)
+ 2. [Chnagelog](changelog/)
+ 3. [Widgets](widgets/)
     - [Widget Types](widgets/#highlight-widgets)
     - [Widget Settings](widgets/settings/)
     - [Widget Usage](widgets/usage/)
@@ -28,8 +29,6 @@ filtered by custom filters.
         - [Widgets Page](widgets/usage/#widgets-page)
         - [XML Layout Update](widgets/usage/#xml-layout-update)
         - [PHP Inline Code](widgets/usage/#php-inline-code)
-3. [Pages](pages/)
+ 4. [Pages](pages/)
     - [Available Pages](pages/#available-pages)
     - [Page Settings](pages/#settings)
-4. Use cases
-5. Troubleshooting
