@@ -20,7 +20,7 @@ filtered by custom filters.
 ### Contents
 
  1. [Installation](installation/)
- 2. [Chnagelog](changelog/)
+ 2. [Changelog](changelog/)
  3. [Widgets](widgets/)
     - [Widget Types](widgets/#highlight-widgets)
     - [Widget Settings](widgets/settings/)
