@@ -6,6 +6,9 @@ m1:
     - title: FAQ
       url: /m1/argento/faq/
 
+    - title: Changelog
+      url: /m1/argento/changelog/
+
     - title: Upgrade Instructions
       url: /m1/argento/upgrade-instructions/
 

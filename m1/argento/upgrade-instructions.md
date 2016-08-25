@@ -8,60 +8,55 @@ category: Argento
 
 # Argento Upgrade Instructions
 
-### Version 1.7.4 - 1.8.0 Preview
+### Version 1.7.4 - 1.8.0
 
- -  Follow usual upgrade steps (backup, disable compilation, maintenance mode,
-    unpack new version)
-
-    > This release introduces new `homepage` and `footer` blocks
-     in `Argento Argento` design built using Bootstrap grid system.
-     To switch to new `homepage` and `footer` please follow the next steps.
-
- -  Go to `Templates Master > Modules`, press `Manage` for `TM_ArgentoArgento`
-    design, select store view where you have theme installed and press `Run`.
-    This will create new `homepage` and new static blocks.
-    Backups will be created for old blocks.
-
- -  If you made `homepage` modifications, now you can copy your changes
-    from `home_backup` to new `homepage`.
-
- -  `header_links`, `header_callout` and `scroll_up` blocks were not changed.
-
- -  To use new `footer` you need to delete file:
+ -  Backup all your changes
+ -  Put the store on maintenance mode.
+ -  Navigate to `System > Tools > Compilation` and disable compilation.
+ -  Unpack new Argento version over the old one.
+ -  Delete following files:
 
     ```
-     app\design\frontend\argento\argento\template\page\html\footer.phtml
+    app/code/local/TM/Easyslide/etc/system.xml
+    app/design/frontend/base/default/template/tm/easyslide/load.phtml
+    app/design/frontend/base/default/template/tm/easyslide/slider.phtml
+    skin/frontend/base/default/tm/easyslide/
     ```
 
-    You can delete the whole `app\design\frontend\argento\argento\template`
-    folder if you do not have other files in it.
-    Footer now displays two cms blocks: `footer_toolbar` and `footer_cms`.
-    You can copy your custom content from old blocks `footer_links`,
-    `footer_contacts` and `footer_social`.
+ -  **Update Homepage and Footer markup (ArgentoArgento theme users only)**
 
- -  Homepage top banners size was changed to 311x110.
-    Backups of previous banners will be created.
+    This release introduces new homepage markup, updated homepage image
+    dimensions and new footer blocks in `ArgentoArgento` design.
 
- -  Slider size was changed to 635x325. You need to upload new images and
-    set new `Width` and `Height` in `Templates Master > Easyslide`.
+    To switch to new `homepage` and `footer` please follow the next steps:
 
- -  After all changes done, you can remove old styles. Open file
+    1. Delete deprecated footer template:
 
-    ```
-    app\design\frontend\argento\default\layout\argento.xml
-    ```
+        ```
+        app/design/frontend/argento/argento/template/page/html/footer.phtml
+        ```
 
-    remove the line with code
+        > Footer now displays two new cms blocks: `footer_toolbar` and `footer_cms`.
+        >
+        > Old blocks `footer_links`, `footer_contacts` and `footer_social` are
+        > not used anymore, so you can copy your custom content from them into new
+        > blocks.
 
-    ```xml
-    <action method="addItem"><type>skin_css</type><name>css/old.css</name></action>
-    ```
+    2. Reinstall ArgentoArgento theme:
 
-    and delete file
+        Go to `Templates Master > Modules`, press `Manage` for `TM_ArgentoArgento`
+        design, select store view where you have theme installed and press `Run`.
+        This will create new `homepage` and new static blocks.
+        Backups will be created for old blocks and banners.
 
-    ```
-    skin\frontend\argento\default\css\old.css
-    ```
+        If you've made homepage modifications, now you can copy your changes
+        from `home_backup` to new `homepage`.
+
+    3. Update image dimensions
+
+        - Homepage top banners size was changed to 311x110.
+        - Slider size was changed to 635x325. You need to upload new images and
+            set new `Width` and `Height` in `Templates Master > Easyslide`.
 
 ### Version 1.7.3.1 - 1.7.4
 
