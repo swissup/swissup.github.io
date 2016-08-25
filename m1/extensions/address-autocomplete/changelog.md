@@ -7,6 +7,10 @@ category: Address Autocomplete
 
 # Address Autocomplete Changelog
 
+### Version 1.1.1
+
+ -  Fixed compatibility with third-party checkout solutions (Event dispatching issue)
+
 ### Version 1.1.0
 
  -  Fixed js errors, when module is disabled
