@@ -28,35 +28,11 @@ category: Argento
     This release introduces new homepage markup, updated homepage image
     dimensions and new footer blocks in `ArgentoArgento` design.
 
-    To switch to new `homepage` and `footer` please follow the next steps:
+    You can switch to new `homepage` and `footer` in two ways:
 
-    1. Delete deprecated footer template:
+    - [Upgrade using installer](/m1/argento/default/upgrade-instructions/1.7.4-1.8.0-installer-upgrade)
 
-        ```
-        app/design/frontend/argento/argento/template/page/html/footer.phtml
-        ```
-
-        > Footer now displays two new cms blocks: `footer_toolbar` and `footer_cms`.
-        >
-        > Old blocks `footer_links`, `footer_contacts` and `footer_social` are
-        > not used anymore, so you can copy your custom content from them into new
-        > blocks.
-
-    2. Reinstall ArgentoArgento theme:
-
-        Go to `Templates Master > Modules`, press `Manage` for `TM_ArgentoArgento`
-        design, select store view where you have theme installed and press `Run`.
-        This will create new `homepage` and new static blocks.
-        Backups will be created for old blocks and banners.
-
-        If you've made homepage modifications, now you can copy your changes
-        from `home_backup` to new `homepage`.
-
-    3. Update image dimensions
-
-        - Homepage top banners size was changed to 311x110.
-        - Slider size was changed to 635x325. You need to upload new images and
-            set new `Width` and `Height` in `Templates Master > Easyslide`.
+    - [Manual upgrade](/m1/argento/default/upgrade-instructions/1.7.4-1.8.0-manual-upgrade)
 
 ### Version 1.7.3.1 - 1.7.4
 
