@@ -11,10 +11,14 @@ category: Highlight
 
 # Highlight Pages
 
-Highlight extension provides a set of widgets which purpose is to list any kind
-of products filtered with flexible tools. It allows you to easely show new,
-featured, onsale, bestsellers, popular products. It's even can show products 
-filtered by custom filters.
+Highlight extension provides a set of built-in pages for the following
+product types:
+
+ -  New
+ -  Featured
+ -  Onsale
+ -  Bestsellers
+ -  Popular Products
 
 ### Contents
 
@@ -34,17 +38,21 @@ Popular         | http://example.com/highlight/popular.html
 Bestsellers     | http://example.com/highlight/bestsellers.html
 
 ## Settings
+
 Configuration is located at `System > Configuration > Highlight` page.
 
 Each page has configuration settings that allows to change page title and URL.
 
+The screenshot below, shows bestsellers config section. Other page types has
+similar config options.
+
 ![Highlight Pages Configuration](/images/highlight/pages/configuration.png)
 
-`Calculation period` - option that allows to filter products collection by time 
+`Calculation period` - option that allows to filter products collection by time
 period to get recent Bestsellers and Popular products.
 
 ##### Next up
 
-Great! Now you might want to see next: 
+Great! Now you might want to see next:
 
 - [Documentation homepage](/m1/extensions/highlight/)

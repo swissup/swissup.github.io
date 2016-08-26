@@ -62,7 +62,7 @@ category_filter | Comma separated category ids. `current` keyword may be used to
 price_filter    | Comma separated min and max prices
 product_type_filter | Comma separated products types to show. [See available types](#available-product-types)
 stock_filter    | "in_stock" or "out_of_stock" filter
-qty_filter      | Product quantoty filter. Works with simple products only
+qty_filter      | Product quantity filter. Works with simple products only
 
 ###### Sort Order
 
