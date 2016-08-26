@@ -13,6 +13,7 @@ gulp.task('js', function () {
         'bower_components/jquery/dist/jquery.min.js',
         'bower_components/packery/dist/packery.pkgd.min.js',
         'bower_components/flickity/dist/flickity.pkgd.min.js',
+        'bower_components/clipboard/dist/clipboard.min.js',
         'bower_components/anchor-js/anchor.min.js',
         'bower_components/mustache/mustache.min.js',
         'bower_components/lunr.js/lunr.min.js',

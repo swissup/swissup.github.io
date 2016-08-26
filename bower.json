@@ -8,7 +8,8 @@
     "packery": "^2.0.0",
     "jquery": "^2.2.3",
     "flickity": "^1.2.1",
-    "photoswipe": "^4.1.1"
+    "photoswipe": "^4.1.1",
+    "clipboard": "^1.5.12"
   },
   "resolutions": {
     "get-size": "~2.0.2",

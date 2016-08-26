@@ -47,17 +47,20 @@ code {
     padding: 0 0.5em;
     word-break: break-word;
 }
+
 pre, pre[class*="language-"] {
+    position: relative;
     font-size: 85%;
     line-height: 1.6em;
     margin: 0 0 16px;
-    padding: 16px;
-    overflow: auto;
+    padding: 0;
 
     code {
+        display: block;
+        overflow: auto;
         background: none;
         border: none;
-        padding: 0;
+        padding: 10px 12px;
     }
 }
 
@@ -238,6 +241,84 @@ footer {
         }
     }
 }
+
+//
+// Copy to clipboard button and tooltips
+// ______________________________________________
+.btn-clip {
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    outline: none;
+    color: rgba(0,0,0,.5);
+    font-size: 13px;
+    background-color: rgba(0,0,0,.1);
+    border: none;
+    border-bottom-left-radius: 5px;
+    padding: 3px 10px;
+    min-width: 60px;
+    overflow: visible;
+    line-height: normal;
+}
+.btn-clip:active {
+    box-shadow: 0 0 8px rgba(0,0,0,.2) inset;
+}
+.tooltipped:after {
+    position: absolute;
+    z-index: 1000000;
+    display: none;
+    padding: 5px 8px;
+    font: normal normal 11px/1.5 Helvetica,arial,nimbussansl,liberationsans,freesans,clean,sans-serif,"Segoe UI Emoji","Segoe UI Symbol";
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: none;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: break-word;
+    white-space: pre;
+    pointer-events: none;
+    content: attr(aria-label);
+    background: rgba(0,0,0,0.8);
+    border-radius: 3px;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+.tooltipped:before {
+    position: absolute;
+    z-index: 1000001;
+    display: none;
+    width: 0;
+    height: 0;
+    color: rgba(0,0,0,0.8);
+    pointer-events: none;
+    content: "";
+    border: 5px solid transparent;
+}
+.tooltipped:hover:before,
+.tooltipped:hover:after,
+.tooltipped:active:before,
+.tooltipped:active:after,
+.tooltipped:focus:before,
+.tooltipped:focus:after {
+    display: inline-block;
+    text-decoration: none;
+}
+.tooltipped-s:after {
+    top: 100%;
+    right: 50%;
+    margin-top: 5px;
+    width: 40px;
+    margin-right: -27px;
+}
+.tooltipped-s:before {
+    top: auto;
+    right: 50%;
+    bottom: -5px;
+    margin-right: -5px;
+    border-bottom-color: rgba(0,0,0,0.8);
+}
+
 
 //
 // Masonry styles
