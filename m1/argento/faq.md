@@ -240,7 +240,7 @@ skin/frontend/argento/argento_custom/images/storeLogo@2x.png
  2. Add the following code to file:
 
     ```js
-    document.observe("dom:loaded", function(){
+    document.observe("dom:loaded", function() {
         $$('.catalog-product-view .grouped-items-table .input-text').each(function(el){
             el.value='';
         })
@@ -297,14 +297,14 @@ _"unknown"_ tags.
 > pushing **Save** button while editing content.
 
 If you saved `homepage` or `service_sidebar` content with **WYSIWYG = ON** and have
-missing elements - here's list of original homepages content for all Argento designs
-to **compare** and **restore**:
+missing elements - here's list of original homepages elements for all Argento designs
+to restore missing elements:
 
-  * [Argento](argento)
-  * [Pure](pure)
-  * [Mall](mall)
-  * [Flat](flat)
-  * [Pure2](pure2)
+  * [Argento](../default/homepage/)
+  * [Pure](../pure/homepage/)
+  * [Mall](../mall/homepage/)
+  * [Flat](../flat/homepage/)
+  * [Pure2](../pure2/homepage/)
   * [Services Sidebar](services-sidebar)
 
 ### Remove attributes that have no value
@@ -312,16 +312,16 @@ to **compare** and **restore**:
 > When you need to hide attributes that have **"N/A"** or **"No"** values in
 > additional attributes table you can use following solution
 
- 1. Go to  `app/argento/[mytheme]_custom/template/catalog/product/view/attributes.phtml` 
-    (or copy this file in your theme from 
-    `app/design/frontend/argento/default/template/catalog/product/view/attributes.phtml`) 
+ 1. Go to  `app/argento/[mytheme]_custom/template/catalog/product/view/attributes.phtml`
+    (or copy this file in your theme from
+    `app/design/frontend/argento/default/template/catalog/product/view/attributes.phtml`)
     line 37
  2. Add following lines:
- 
+
     ```php
     <?php foreach ($_additional as $_data):
         // Add these 2 lines
         $_test_data_value = trim($_data['value']);
         if ((empty($_test_data_value) || in_array($_test_data_value, array(Mage::helper('catalog')->__('N/A'), Mage::helper('catalog')->__('No'))))) continue;?>
     ```
- 3. Check your site now.   
+ 3. Check your site now.
