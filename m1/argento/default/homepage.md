@@ -15,9 +15,9 @@ Argento homepage - is a standard Magento's CMS page. You can edit it at
 
  1. [Slider and Banners row](#slider-and-banners-row)
  2. [Category images row](#category-images-row)
- 3. [Wide banner](#footer)
- 4. [Tabs and Store Achievements blocks](#products-and-homepage-tabs)
- 5. [Brands Slider](#buttons)
+ 3. [Wide banner](#wide-banner)
+ 4. [Tabs and Store Achievements blocks](#tabs-and-store-achievements-blocks)
+ 5. [Brands Slider](#brands-slider)
 
 #### Slider and Banners row
 
