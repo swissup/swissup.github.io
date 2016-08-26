@@ -8,11 +8,12 @@ category: Argento
 
 # Argento Default theme Header
 
-![Argento default theme header](/images/argento/default/header.jpg)
+![Argento default theme header](/images/argento/default/header.png)
 
 ### Custom header links block
 
-In order to edit the custom header links block, please navigate to `CMS > Static blocks > header_links`. The default block's code is
+In order to edit the custom header links block, please navigate to
+`CMS > Static blocks > header_links`. The default block's code is:
 
 ```html
 {% raw %}<ul class="links header-links">
@@ -76,7 +77,7 @@ to your file name.
 In order to provide sharp images for devices with high DPI ratio (retina displays),
 you'll need to upload twice large logo's as follows:
 
-`skin/frontend/argento/argento/images/logo.gif` in case if original logo
+`skin/frontend/argento/argento/images/logo@2x.gif` in case if original logo
 name was `logo.gif`
 
 ### Header Callout
