@@ -10,7 +10,7 @@ addressautocomplete:
   short_description:
   urls:
     m1: /m1/extensions/address-autocomplete/
-    m2:
+    m2: /m2/extensions/address-autocomplete/
 
 affiliatesuite:
   title: Affiliate Suite
