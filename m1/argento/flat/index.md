@@ -8,28 +8,26 @@ category: Argento
 
 # Argento Flat
 
-### Brand logo on product page
+##### [Homepage](homepage/)
 
-![Brand logo](https://cldup.com/Mi6xHZ6A2u-3000x3000.png)
+ -  [Slider](homepage/#slider)
+ -  [Category images row](homepage/#category-images-row)
+ -  [Wide banner](homepage/#wide-banner)
+ -  [New, Special and Bestselling Products](homepage/#new-special-and-bestselling-products)
+ -  [Why choose us](homepage/#why-choose-us)
+ -  [About us](homepage/#about-us)
+ -  [Brands Slider](homepage/#brands-slider)
 
-Argento use Attributepage module to show the brand logo. So, first you need
-to setup the Attributepage extension.
+##### [Product Page](product-page/)
 
-1. Navigate to TemplateMasters > Attribute Pages > Manage Pages and create brands
-page based on `manufacturer` attribute. Feel free to use any other attribute.
-2. Attach image and thumbnail images to each of the attributepage options.
-3. Open `Cms > Static Blocks` and open `product_sidebar` block.
-4. Change `manufacturer` to attribute code, that you are using for saved attributepage.
-
-### Services block on product page
-
-![Brand logo](https://cldup.com/Mi6xHZ6A2u-3000x3000.png)
-
-Navigate to `Cms > Static Blocks` and find `services_sidebar` block. Please note, that
-this block is displayed on the `Contacts Us` page too.
-
-If you would like to chnage the block on the product page only, please edit the
-`product_sidebar` cms block.
+ -  [Layout](product-page/#layout)
+ -  [Brand logo and Services blocks](product-page/#brand-logo-and-services-blocks)
+ -  [Product images](product-page/#product-images)
+ -  [Product labels](product-page/#product-labels)
+ -  [Tabs](product-page/#tabs)
+ -  [Soldtogether blocks](product-page/#soldtogether-blocks)
+    - [Frequently bought together](product-page/#frequently-bought-together)
+    - [Customers who bought this item also bought](product-page/#customers-who-bought-this-item-also-bought)
 
 ### Jumbotrons
 
@@ -71,5 +69,4 @@ styles below to change their background:
 
 /*Image*/
 .jumbotron.jumbotron-image { background: url(../images/concrete_seamless.png) 50% 0; }
-
 ```
