@@ -55,7 +55,9 @@ It allows you to configure the following options:
 
 #### Product Labels
 
-The display of the label on product is powered by Prolabels module. You can add custom label or assign it to any items on the Product page at `Templates-Master > Prolabels` backend page.
+The display of the label on product is powered by Prolabels module. You can add
+custom label or assign it to any items on the Product page at
+`Templates-Master > Prolabels` backend page.
 
 #### Tabs
 
@@ -91,7 +93,8 @@ Configuration provides the following options:
 
 ##### Frequently bought together
 
-You can edit the block by navigating to `System > Configuration > Tempaltes-Master > SoldTogether > Frequently Bought Together`
+You can edit the block at
+`System > Configuration > Tempaltes-Master > SoldTogether > Frequently Bought Together`
 
 ![Frequently bought together](/images/argento/default/product-page-frequently-bought.jpg)
 
