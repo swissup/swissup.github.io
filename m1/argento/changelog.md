@@ -7,6 +7,25 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.8.1
+
+**Perfomance Improvements**
+
+ -  AjaxSearch scripts refactored and inline js completely removed from templates
+ -  Js improvents for currency and language dropdowns in all argento themes
+
+**Bugfixes**
+
+ -  FIxed custom.css sort order:
+    Custom.css should be added after theme.css to allow to customize all theme
+    styles
+ -  Fixed highlight filters by stock status and quantity for the following
+    product types:
+    - Bestsellers
+    - Popular
+    - Products
+    - Recent reviews
+
 ### Version 1.8.0
 
 [Upgrade Instructions](../upgrade-instructions/#version-174---180)

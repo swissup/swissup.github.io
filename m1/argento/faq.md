@@ -300,12 +300,15 @@ If you saved `homepage` or `service_sidebar` content with **WYSIWYG = ON** and h
 missing elements - here's list of original homepages elements for all Argento designs
 to restore missing elements:
 
-  * [Argento](../default/homepage/)
-  * [Pure](../pure/homepage/)
-  * [Mall](../mall/homepage/)
-  * [Flat](../flat/homepage/)
-  * [Pure2](../pure2/homepage/)
-  * [Services Sidebar](services-sidebar)
+ *  [Argento](../default/homepage/#whole-homepage-content)
+ *  [Pure](../pure/homepage/#whole-homepage-content)
+ *  [Mall](../mall/homepage/#whole-homepage-content)
+ *  [Flat](../flat/homepage/#whole-homepage-content)
+    - [Homepage](../flat/homepage/#whole-homepage-content)
+    - [Services Sidebar](../flat/product-page/#services-block)
+ *  [Pure2](../pure2/homepage/#whole-homepage-content)
+    - [Homepage](../pure2/homepage/#whole-homepage-content)
+    - [Services Sidebar](../pure2/product-page/#services-block)
 
 ### Remove attributes that have no value
 

@@ -61,7 +61,7 @@ Replace `attribute_code="manufacturer"` with `attribute_code="attribute_code"`
 
 </div></div>
 
-#### Services sidebar
+#### Services block
 
 {::options parse_block_html="true" /}
 <div class="mdl-grid"><div class="mdl-cell mdl-cell--3-col mdl-cell--2-col-tablet">
@@ -72,17 +72,50 @@ Replace `attribute_code="manufacturer"` with `attribute_code="attribute_code"`
 
 Services sidebar block is a simple cms block powered with FontAwesome icons.
 
-You can edit this block at `Cms > Static Blocks`.
+You can edit this block at `Cms > Static Blocks > services_sidebar`.
 
-See the `services_sidebar` block contents. You can use any icon from [FontAwesome set][fontawesome]
+> Please note, that this block is displayed on the Contacts Us page too.
+>  If you would like to change the block on the product page only, please edit
+>  the `product_sidebar` cms block.
 
-Here is the sample of how the delivery icon is coded:
+Code:
 
 ```html
-<span class="fa-stack fa-2x icons-primary">
-    <i class="fa fa-circle fa-stack-2x"></i>
-    <i class="fa fa-truck fa-stack-1x fa-inverse"></i>
-</span>
+<div class="block block-services-sidebar">
+    <div class="block-title"><span>Our Services</span></div>
+    <div class="block-content">
+        <div class="icon-section section-delivery section-left">
+            <span class="fa-stack fa-2x icons-primary">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-truck fa-stack-1x fa-inverse"></i>
+            </span>
+            <div class="section-info">
+                <h5>Delivery</h5>
+                <p>We guarantee to ship your order next day after order has been submitted</p>
+            </div>
+        </div>
+        <div class="icon-section section-customer-service section-left">
+            <span class="fa-stack fa-2x icons-primary">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-users fa-stack-1x fa-inverse"></i>
+            </span>
+            <div class="section-info">
+                <h5>Customer Service</h5>
+                <p>Please contacts us and our customer service team will answer all your questions</p>
+            </div>
+        </div>
+        <div class="icon-section section-returns section-left">
+            <span class="fa-stack fa-2x icons-primary">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-reply fa-stack-1x fa-inverse"></i>
+            </span>
+            <div class="section-info">
+                <h5>Easy Returns</h5>
+                <p>If you are not satisfied with your order - send it back within  30 days after day of purchase!</p>
+            </div>
+        </div>
+    </div>
+</div>
 ```
 
 </div></div>
