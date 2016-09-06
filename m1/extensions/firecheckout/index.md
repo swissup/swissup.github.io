@@ -38,5 +38,6 @@ and much more. See the [configuration](#configuration) section for more informat
      -  [Show custom popup window](popup-window/)
      -  [Hide totals in review section](hide-totals-in-review-section/)
      -  [Using custom.css and custom.js](using-customcss-and-customjs/)
- 6. [Use cases](use-cases)
+ 6. [Use cases](use-cases/)
      -  [Changing URL of Firecheckout page](use-cases/#changing-url-of-firecheckout-page)
+ 7. [Troubleshooting](troubleshooting/)
