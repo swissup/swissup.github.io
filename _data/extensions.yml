@@ -93,6 +93,14 @@ checkoutsuccess:
     m1:
     m2: /m2/extensions/checkoutsuccess/
 
+taxvat:
+  title: Checkout VAT
+  short_description: Validate VAT field on checkout
+  size: 1x1
+  urls:
+    m1:
+    m2: /m2/extensions/taxvat/
+
 configurableswatches:
   title: Configurable Swatches
   short_description:
