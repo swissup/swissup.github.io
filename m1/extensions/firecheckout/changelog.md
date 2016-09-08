@@ -7,6 +7,28 @@ category: Firecheckout
 
 # Firecheckout Changelog
 
+### Version 3.7.0
+
+**New Features**
+
+ -  1 Column (Expanded) layout added
+ -  2 Columns (Alternative) layout added with wide shipping and payment sections
+ -  Formfill watcher added to allow to mark completed sections
+
+**Fixes and Improvements**
+
+ -  Fixed minAllowedDate issue with DeliveryDate feature
+ -  Disabled browser autocomplete for second address street line
+ -  Added hint for registered customers aside of email address
+ -  Fixed review section update on billing address change
+ -  Fixed page title height on mobile devices
+
+**Third-party modules**
+
+ -  Adyen_Payment integration added
+ -  Ophirah_Qquoteadv (Cart2Quote) integration added
+ -  WebshopApps_ProductMatrix
+
 ### Version 3.6.2
 
 **Improvements & Fixes**
