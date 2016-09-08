@@ -8,6 +8,28 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.1.0
+
+**New Features**
+
+ -  1 column (Expanded) layout added
+
+**New Modules**
+
+> See the [installation instructions](../installation/) on how to enable new
+> modules.
+
+ -  [AddressAutocomplete](/m2/extensions/address-autocomplete/)
+ -  [GeoIP](/m2/extensions/geoip/)
+ -  OrderAttachments
+ -  [TaxVat](/m2/extensions/taxvat/)
+
+**Fixes**
+
+ -  Prevent multiple ajax requests, when using form autofill
+ -  Less variables added to simplify layout restyling
+ -  Minor fixes and improvements
+
 ### Version 1.0.1
 
  -  Fixed compatibility with FPC
