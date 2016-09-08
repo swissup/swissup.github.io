@@ -19,9 +19,11 @@ category: Firecheckout
 
  -  Fixed minAllowedDate issue with DeliveryDate feature
  -  Disabled browser autocomplete for second address street line
- -  Added hint for registered customers aside of email address
  -  Fixed review section update on billing address change
  -  Fixed page title height on mobile devices
+ -  1 Column layout fixes:
+    -  Added hint for registered customers aside of email address
+    -  Improved selectboxes styles on MacOS devices
 
 **Third-party modules**
 
