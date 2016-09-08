@@ -13,6 +13,9 @@ category: Firecheckout
 
     ```bash
     cd <magento_root>
+    # install geoip dependencies
+    composer require geoip2/geoip2
+
     # enable Firecheckout modules
     bin/magento module:enable\
         Swissup_Core\
