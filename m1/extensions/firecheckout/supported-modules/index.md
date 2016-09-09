@@ -71,6 +71,7 @@ additional modifications.
 - Kiala_LocateAndSelect
 - Magestore_Storepickup
 - Man4x_MondialRelay
+- Ophirah_Qquoteadv (Cart2Quote)
 - PostcodeNl_Api
 - [SmartPost](smartpost/)
 - Storepickup
@@ -78,6 +79,7 @@ additional modifications.
 - TIG_Postcode
 - [TIG_PostNL](tig-postnl/)
 - Webshopapps_Desttype
+- WebshopApps_ProductMatrix
 - [Webshopapps_Wsafreightcommon](webshopapps-wsafreightcommon/)
 - Wyomind_Pickupatstore
 

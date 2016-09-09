@@ -13,7 +13,20 @@ category: Firecheckout
 
     ```bash
     cd <magento_root>
-    bin/magento module:enable Swissup_Core Swissup_CheckoutSuccess Swissup_Firecheckout
+    # install geoip dependencies
+    composer require geoip2/geoip2
+
+    # enable Firecheckout modules
+    bin/magento module:enable\
+        Swissup_Core\
+        Swissup_AddressAutocomplete\
+        Swissup_Geoip\
+        Swissup_CheckoutSuccess\
+        Swissup_Firecheckout\
+        Swissup_Orderattachment\
+        Swissup_Taxvat
+
+    # run magento upgrade scripts
     bin/magento setup:upgrade
 
     # regenerate static content
