@@ -84,7 +84,7 @@ checkout page.
 You can add attachment links to the email template using the following code:
 
 ```
-{% raw %}{{block type='orderattachment/view' area='frontend' template='tm/orderattachment/email/view.phtml' order=$order}}{% endraw %}
+{% raw %}{{block class='Swissup\\Orderattachment\\Block\\Email\\Attachments' area='frontend'  order=$order}}{% endraw %}
 ```
 
 ## Backend
