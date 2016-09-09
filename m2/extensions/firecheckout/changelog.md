@@ -10,6 +10,10 @@ category: Firecheckout
 
 ### Version 1.1.0
 
+**Screenshots**
+
+{% include gallery.html images=site.data.gallery.m2.firecheckout.changelog.v110 class="phone-up-2 tablet-up-3 photoswipe" %}
+
 **New Features**
 
  -  1 column (Expanded) layout added
