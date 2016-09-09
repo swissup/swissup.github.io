@@ -25,7 +25,7 @@ category: Firecheckout
 
  -  [AddressAutocomplete](/m2/extensions/address-autocomplete/)
  -  [GeoIP](/m2/extensions/geoip/)
- -  OrderAttachments
+ -  [OrderAttachment](/m2/extensions/order-attachments/)
  -  [TaxVat](/m2/extensions/taxvat/)
 
 **Fixes**

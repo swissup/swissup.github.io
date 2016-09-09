@@ -44,4 +44,8 @@ faster and easier by providing them a simple checkout form.
  2. [Changelog](changelog/)
  3. [Configuration](configuration/)
  4. Additional modules, shipped together with Firecheckout:
+    - [Address Autocomplete](/m2/extensions/address-autocomplete/)
+    - [GeoIp](/m2/extensions/geoip/)
     - [Success Page](/m2/extensions/checkoutsuccess/)
+    - [Order Attachments](/m2/extensions/order-attachments/)
+    - [Taxvat Validation](/m2/extensions/taxvat/)
