@@ -331,6 +331,13 @@ richsnippets:
     m1: /m1/extensions/richsnippets/
     m2: /m2/extensions/richsnippets/
 
+slickcarousel:
+  title: Slick Carousel
+  short_description: The last carousel you'll ever need
+  urls:
+    m1:
+    m2: /m2/extensions/slick-carousel/
+
 smartsuggest:
   title: Smart Suggest
   short_description:
