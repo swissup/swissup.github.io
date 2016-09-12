@@ -10,6 +10,7 @@ category: SlickCarousel
 
 ### Version 1.1.0
 
+ -  First public release
  -  Additional `slickwrapper` plugin type added to create sliders on a
     dynamic content. See [docs](../) for more information.
  -  Luma css fixes
