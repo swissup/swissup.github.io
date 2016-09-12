@@ -10,6 +10,7 @@ category: Attributepages
 ### Version 1.0.4
 
  -  Fixed single store duplicated options
+ -  Removed unnecessary $_FILES check
 
 ### Version 1.0.3
 
