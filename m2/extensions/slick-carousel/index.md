@@ -9,10 +9,10 @@ category: SlickCarousel
 # Slick Carousel
 
 This module - is a wrapper around
-[click carousel js library](http://kenwheeler.github.io/slick/) that allows
+[slick carousel js library](http://kenwheeler.github.io/slick/) that allows
 you easily create sliders in Magento 2 store.
 
-There are two plugins are available:
+There are two plugins available:
 
 Type         | Description
 -------------|------------
