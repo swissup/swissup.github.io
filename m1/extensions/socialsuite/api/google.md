@@ -29,7 +29,7 @@ and follow next recommendations:
 
 3.  Put the mark on **Web Application**. After that fill next fields.
     Please notice, that in the **Authorised Redirect URL** you should enter the
-    following **GOOGLE app REDIRECT URI** parameter `http://YOURDOMAIN/social/socialsuite/auth/gtunnel/`
+    following **GOOGLE app REDIRECT URI** parameter `http://YOURDOMAIN/customer/account/login/`
 
     ![Web Application](/images/socialsuite/magentosocialsuiteconfig9-1.png)
 
