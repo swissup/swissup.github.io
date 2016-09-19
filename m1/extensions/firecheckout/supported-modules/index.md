@@ -128,6 +128,7 @@ additional modifications.
 - Emja_Taxrelief
 - [Geissweb_Euvatgrouper](geissweb-euvatgrouper/)
 - [OnePica_AvaTax](onepica-avatax/)
+- [Taxjar_SalesTax](taxjar-salestax/)
 - [Vonnda_Taxify](vonnda-taxify/)
 - Webgriffe_TaxIdPro
 
