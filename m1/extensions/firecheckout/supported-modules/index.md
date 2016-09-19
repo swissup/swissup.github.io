@@ -2,6 +2,9 @@
 layout: default
 title: Supported modules
 description: Firecheckout and third-party modules
+keywords: >
+    firecheckout, supported modules, third-party modules,
+    firecheckout payment methods, firecheckout shipping methods
 category: Firecheckout
 ---
 
