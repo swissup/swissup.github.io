@@ -43,7 +43,8 @@ faster and easier by providing them a simple checkout form.
  1. [Installation](installation/)
  2. [Changelog](changelog/)
  3. [Configuration](configuration/)
- 4. Additional modules, shipped together with Firecheckout:
+ 4. [Customization](customization/)
+ 5. Additional modules, shipped together with Firecheckout:
     - [Address Autocomplete](/m2/extensions/address-autocomplete/)
     - [GeoIp](/m2/extensions/geoip/)
     - [Success Page](/m2/extensions/checkoutsuccess/)
