@@ -76,8 +76,12 @@ Let's add some air to the firecheckout sections and slightly improve form styles
 
     ```bash
     cd magento/root/folder
-    rm -rf var/view_preprocessed
-    bin/magento setup:static-content:deploy
+
+    # remove previously deployed firecheckout styles
+    find pub/static var/view_preprocessed -type d -regex ".*Firecheckout.*css" -exec rm -rf {} \;
+
+    # run deployment command
+    php bin/magento setup:static-content:deploy
     ```
 
 #### Result
