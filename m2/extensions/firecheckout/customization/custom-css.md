@@ -43,7 +43,7 @@ Let's add some air to the firecheckout sections and slightly improve form styles
 
  3. Add your custom styles:
 
-    ```less
+    ```scss
     @firecheckout-section__padding: 20px 20px;
     @firecheckout-section__background: #fff;
     @firecheckout-section__border: 2px solid rgba(0, 0, 0, 0.1);
@@ -94,7 +94,7 @@ Let's add some air to the firecheckout sections and slightly improve form styles
 > Customization was done under [Swissup/argento-flat](/m2/argento/flat/) theme.
 > Button styles are inherited from it.
 
-![Firecheckout with custom css design](/images/m2/firecheckout/customization/custom-css/frontend.png)
+{% include gallery.html images=site.data.gallery.m2.firecheckout.customization.custom-css class="phone-up-1 tablet-up-1 photoswipe" %}
 
 ##### Next up
 
