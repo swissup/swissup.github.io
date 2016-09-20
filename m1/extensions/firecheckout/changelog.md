@@ -3,40 +3,26 @@ layout: default
 title: Firecheckout changelog
 description: Firecheckout changelog
 category: Firecheckout
-v370:
-  - href: /images/m1/extensions/firecheckout/changelog/370/configuration.png
-    src: /images/m1/extensions/firecheckout/changelog/370/configuration.png
-    w: 667
-    h: 369
-    title: New layout and formfill options
-  - href: /images/m1/extensions/firecheckout/changelog/370/1column-expanded.png
-    src: /images/m1/extensions/firecheckout/changelog/370/1column-expanded-small.png
-    w: 920
-    h: 917
-    title: New 1 Column Expanded Layout
-  - href: /images/m1/extensions/firecheckout/changelog/370/email-hint-and-formfill-marker.gif
-    src: /images/m1/extensions/firecheckout/changelog/370/email-hint-and-formfill-marker-small.png
-    w: 640
-    h: 332
-    title: >
-        Email hint helps existing customer to login on checkout page.
-        Formfill marker informs about fully filled required fields.
 ---
 
 # Firecheckout Changelog
+
+### Version 3.7.1
+
+ -  Fixed hidden registration mode, when using 1column expanded layout
 
 ### Version 3.7.0
 
 **Screenshots**
 
-{% include gallery.html images=page.v370 class="phone-up-2 tablet-up-3 photoswipe" %}
+{% include gallery.html images=site.data.gallery.m1.firecheckout.changelog.v370 class="phone-up-2 tablet-up-3 photoswipe" %}
 
 **New Features**
 
  -  1 Column (Expanded) layout added
  -  2 Columns (Alternative) layout added with wide shipping and payment sections
  -  Formfill watcher added to mark completed sections with `filled` class name
- 
+
 **Fixes and Improvements**
 
  -  Fixed minAllowedDate issue with DeliveryDate feature
@@ -45,11 +31,11 @@ v370:
  -  Fixed page title height on mobile devices
  -  1 Column layout fixes and improvements:
     -  Formfill marker default styles
-    
+
         ![Formfill Marker](/images/m1/extensions/firecheckout/changelog/370/formfill-marker.png)
 
     -   Added hint for registered customers aside of email address
-        
+
         ![Email hint for registered customers](/images/m1/extensions/firecheckout/changelog/370/email-hint.png)
 
     -   Improved selectboxes styles on MacOS desktops
