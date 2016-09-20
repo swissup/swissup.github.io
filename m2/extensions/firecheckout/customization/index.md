@@ -8,7 +8,8 @@ category: Firecheckout
 # Firecheckout customization
 
  1. General
-    - [Custom css file](custom-css/)
+    - [Custom css styles](custom-css/)
+    - [Custom javascript](custom-js/)
  2. Theming
     - General
         - [Less variables](less-variables/)
