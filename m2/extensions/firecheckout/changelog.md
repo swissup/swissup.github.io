@@ -8,6 +8,13 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.2.0
+
+ -  Magento 2.0.9 compatibility
+ -  Fixed possible invalid shipping subtotal on initial page load
+ -  Added ability to apply [custom css styles](../customization/custom-css/)
+ -  Added ability to add [custom javascript](../customization/custom-js/)
+
 ### Version 1.1.0
 
 **Screenshots**
