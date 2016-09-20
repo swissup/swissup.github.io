@@ -13,6 +13,7 @@ There are three options available:
 
 Option | Description
 -------|------------
+Enabled | Module status
 Api Key | Google Maps Api Key. [Get API Key](../get-api-key/)
 Street Number Placement | Ability to place street number at the start/end of **Street Line 1**, or place it direclty to the **Street Line 2**
 
