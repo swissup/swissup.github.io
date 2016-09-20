@@ -48,26 +48,31 @@ Let's add some air to the firecheckout sections and slightly improve form styles
     @firecheckout-section__background: #fff;
     @firecheckout-section__border: 2px solid rgba(0, 0, 0, 0.1);
 
-    .firecheckout {
-        .fieldset > .field {
-            > .label {
-                width: 35%;
-                vertical-align: top;
-                margin: 5px 0 0;
-                padding: 0 5px 0 0;
-                box-sizing: border-box;
-                text-align: right;
-                word-wrap: break-word;
-            }
-            > .control {
-                display: inline-block;
-                width: 62%;
-            }
-        }
-
+    .firecheckout #checkout {
         .step-title,
         .opc-block-summary > .title {
             padding-bottom: 20px;
+        }
+    }
+
+    @media (min-width: 1024px) {
+        .firecheckout #checkout {
+            .fieldset > .field {
+                > .label {
+                    width: 35%;
+                    vertical-align: top;
+                    margin: 5px 0 0;
+                    padding: 0 5px 0 0;
+                    box-sizing: border-box;
+                    text-align: right;
+                    word-wrap: break-word;
+                    white-space: normal;
+                }
+                > .control {
+                    display: inline-block;
+                    width: 62%;
+                }
+            }
         }
     }
     ```
