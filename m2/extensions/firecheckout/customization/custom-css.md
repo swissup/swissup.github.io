@@ -56,7 +56,8 @@ Let's add some air to the firecheckout sections and slightly improve form styles
     }
 
     @media (min-width: 1024px) {
-        .firecheckout #checkout {
+        .firecheckout .checkout-shipping-address,
+        .firecheckout .billing-address-form {
             .fieldset > .field {
                 > .label {
                     width: 35%;
@@ -67,6 +68,7 @@ Let's add some air to the firecheckout sections and slightly improve form styles
                     text-align: right;
                     word-wrap: break-word;
                     white-space: normal;
+                    font-weight: normal;
                 }
                 > .control {
                     display: inline-block;
