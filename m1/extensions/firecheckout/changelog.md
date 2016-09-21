@@ -10,6 +10,7 @@ category: Firecheckout
 ### Version 3.7.1
 
  -  Fixed hidden registration mode, when using 1column expanded layout
+ -  Fixed z-index of email hint element, when using onecolumn layout
 
 ### Version 3.7.0
 
