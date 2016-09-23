@@ -15,6 +15,12 @@ Google considers the site speed as an important search rankings factor. It’s p
 
 If you are running the website with a lot of images, scripts and content, the Page Speed module is must have solution for you. Meet the main features, that will help you to make website loading faster:
 
+
+{% include gallery.html images=site.data.gallery.m1.pagespeed.index class="scroll phone-up-1 tablet-up-3 photoswipe" %}
+
+- [Installation](installation/)
+- [Configurable options](config-options/)
+
 **We recommend**
 
 -   Lazy image filter enabling will help to open page without loading all images.
@@ -28,10 +34,3 @@ If you are running the website with a lot of images, scripts and content, the Pa
 *   [Pingdom online tool](http://tools.pingdom.com)
 *   [Gtmetrix online tool](http://gtmetrix.com)
 *   [Google Page speed insights online tool](https://developers.google.com/speed/pagespeed/insights)
-
-
-
-{% include gallery.html images=site.data.gallery.m1.pagespeed.index class="scroll phone-up-1 tablet-up-3 photoswipe" %}
-
-- [Installation](installation/)
-- [Configurable options](config-options/)
