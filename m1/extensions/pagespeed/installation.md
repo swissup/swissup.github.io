@@ -25,6 +25,7 @@ That's all. Navigate to your store and check how it looks.
 
 #### After you install an extension you can go to:
 
+* [Configurable options](../config-options/)
 * [Support](https://swissuplabs.com/contacts/)
 * [Forum](https://swissuplabs.com/magento-forum/)
 
