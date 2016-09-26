@@ -9,4 +9,6 @@ category: Prolabels
 
 # Prolabels
 
-- [Installation](installation/)
+ -  [Installation](installation/)
+ -  [Integration](integration/)
+     +  [Magic Zoom Plus](integration/#magic-zoom-plus)
