@@ -17,9 +17,13 @@ category: Checkout Success
  -  quick customer registration on success page
  -  `custom.css` and `custom.js` for yout unique styles and scripts
 
+Check video below to see how preview feature works.
+
+<iframe src="https://player.vimeo.com/video/184536074?color=ffffff&title=0&byline=0&portrait=0" width="640" height="327" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 ### Contents
 
- -  Installation
+ -  [Installation](installation/)
  -  [Backend extension configuration](backend/)
      +  [General](backend/#general)
      +  [Mockup](backend/#mockup)
