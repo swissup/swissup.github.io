@@ -31,6 +31,6 @@ is enabled.
 
 #### After you install the extension you can go to:
 
-* [Leran how to create deals](../backend/create-deal/)
+* [Learn how to maintain blacklist](../backend/blacklist/)
 * [Support](https://swissuplabs.com/contacts/)
 * [Forum](https://swissuplabs.com/magento-forum/)
