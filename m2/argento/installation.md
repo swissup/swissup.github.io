@@ -44,8 +44,9 @@ Run the following commands in shell
 
 ```bash
 # enable Argento modules
-bin/magento module:enable\
+php bin/magento module:enable\
     Swissup_Ajaxsearch\
+    Swissup_Askit\
     Swissup_Attributepages\
     Swissup_Core\
     Swissup_EasySlide\
@@ -60,21 +61,20 @@ bin/magento module:enable\
     Swissup_RichSnippets\
     Swissup_SlickCarousel\
     Swissup_SoldTogether\
-    Swissup_Testimonials
-
-# clear cache
-bin/magento cache:flush
+    Swissup_Testimonials\
+    Swissup_ThemeEditor\
+    Swissup_ThemeEditorArgentoEssence
 
 # run magento upgrade scripts
-bin/magento setup:upgrade
+php bin/magento setup:upgrade
 
 # regenerate static content
 rm -rf pub/static/_requirejs var/view_preprocessed
-bin/magento setup:static-content:deploy
+php bin/magento setup:static-content:deploy
 
 # if you are using di:compilation, you need to run it again:
 rm -rf var/generation var/di
-bin/magento setup:di:compile
+php bin/magento setup:di:compile
 ```
 
 #### 3. Setup configuration and theme content
