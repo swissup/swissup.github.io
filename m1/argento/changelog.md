@@ -7,6 +7,17 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.8.2
+
+**New Features**
+
+ -  New homepage and footer markup in ArgentoFlat design using Bootstrap grid system
+
+**Fixes and Improvements**
+
+ -  20 overriden templates removed from Flat theme
+
+
 ### Version 1.8.1
 
 **Perfomance Improvements**
@@ -16,7 +27,7 @@ category: Argento
 
 **Bugfixes**
 
- -  FIxed custom.css sort order:
+ -  Fixed custom.css sort order:
     Custom.css should be added after theme.css to allow to customize all theme
     styles
  -  Fixed highlight filters by stock status and quantity for the following
