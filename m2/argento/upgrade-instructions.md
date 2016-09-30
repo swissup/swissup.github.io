@@ -18,6 +18,10 @@ category: Argento
     # run upgrades
     php bin/magento setup:upgrade
 
+    # remove old css files
+    rm app/code/Swissup/Ajaxsearch/view/frontend/web/css/ajaxsearch.css
+    rm app/code/Swissup/Askit/view/frontend/web/css/askit.css
+
     # regenerate static content
     rm -rf pub/static/_requirejs var/view_preprocessed
     php bin/magento setup:static-content:deploy
