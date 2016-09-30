@@ -8,6 +8,47 @@ category: Argento
 
 # Argento Upgrade Instructions
 
+### Version 1.8.1 - 1.8.2
+
+ -  Backup all your changes
+ -  Put the store on maintenance mode.
+ -  Navigate to `System > Tools > Compilation` and disable compilation.
+ -  Unpack new Argento version over the old one.
+ -  Delete following files:
+
+    ```
+    app/design/frontend/argento/flat/template/page/switch/languages.phtml
+    app/design/frontend/argento/flat/template/directory/switch/currency.phtml
+    app/design/frontend/argento/flat/template/newsletter/subscribe.phtml
+    app/design/frontend/argento/flat/template/catalog/product/list.phtml
+    app/design/frontend/argento/flat/template/catalog/product/list/upsell.phtml
+    app/design/frontend/argento/flat/template/page/html/header_short.phtml
+    app/design/frontend/argento/flat/template/checkout/cart/crosssell.phtml
+    app/design/frontend/argento/flat/template/algoliasearch/topsearch.phtml
+    app/design/frontend/argento/flat/template/checkout/cart/top.phtml
+    app/design/frontend/argento/flat/template/tm/navigationpro/top.phtml
+    app/design/frontend/argento/flat/template/tm/smartsuggest/list.phtml
+    app/design/frontend/argento/flat/template/tm/highlight/product/sidebar/list.phtml
+    app/design/frontend/argento/flat/template/tm/highlight/product/grid.phtml
+    app/design/frontend/argento/flat/template/tm/soldtogether/suggestpage/list.phtml
+    app/design/frontend/argento/flat/template/tm/soldtogether/customer.phtml
+    app/design/frontend/argento/flat/template/tm/soldtogether/order.phtml
+    app/design/frontend/argento/flat/template/tm/ajaxsearch/topsearch.phtml
+    app/design/frontend/argento/default/template/tm/ajaxsearch/category/combobox.phtml
+    app/design/frontend/argento/default/template/tm/ajaxsearch/topsearch.phtml
+    app/design/frontend/argento/mall/template/tm/ajaxsearch/topsearch.phtml
+    ```
+
+ -  **Update Homepage and Footer markup (ArgentoFlat theme users only)**
+
+    This release introduces new homepage markup, and new footer blocks in `ArgentoFlat` design.
+
+    You can switch to new `homepage` and `footer` in two ways:
+
+    - [Upgrade using installer](/m1/argento/flat/upgrade-instructions/1.8.1-1.8.2-installer-upgrade)
+
+    - [Manual upgrade](/m1/argento/flat/upgrade-instructions/1.8.1-1.8.2-manual-upgrade)
+
 ### Version 1.7.4 - 1.8.0
 
  -  Backup all your changes
