@@ -45,10 +45,10 @@ Run the following commands in shell
 ```bash
 # enable Argento modules
 php bin/magento module:enable\
+    Swissup_Core\
     Swissup_Ajaxsearch\
     Swissup_Askit\
     Swissup_Attributepages\
-    Swissup_Core\
     Swissup_EasySlide\
     Swissup_Easybanner\
     Swissup_Easycatalogimg\
