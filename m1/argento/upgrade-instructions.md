@@ -39,6 +39,15 @@ category: Argento
     app/design/frontend/argento/mall/template/tm/ajaxsearch/topsearch.phtml
     ```
 
+ -  To keep your Magento instance "clean and tidy" you can delete following
+    directories:
+
+    ```
+    app/design/frontend/base/default/template/tm/prolabels/category
+    app/design/frontend/base/default/template/tm/prolabels/product
+    app/design/frontend/base/default/template/tm/prolabels/rules
+    ```
+
  -  **Update Homepage and Footer markup (ArgentoFlat theme users only)**
 
     This release introduces new homepage markup, and new footer blocks in `ArgentoFlat` design.
