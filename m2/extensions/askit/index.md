@@ -92,18 +92,9 @@ Askit module is integrated with Akismet service,that will stop questions spam. T
 
  *  Admin Notification Template - select admin notification email template.
 
-## Frontend interfaces
+## Frontend interface
 
-### Product Questions
-
-![Interface 1](/images/m2/askit/frontend-interface-1.gif)
-
-### Logged In Customer interface
-
-![Interface 3](/images/m2/askit/frontend-interface-3.gif)
-
-### All questions
-![Interface 2](/images/m2/askit/frontend-interface-2.gif)
+{% include gallery.html images=site.data.gallery.m2.askit.frontend class="phone-up-1 tablet-up-2 photoswipe scroll" %}
 
 ## Admin interfaces
 
