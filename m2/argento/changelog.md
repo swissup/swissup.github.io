@@ -30,7 +30,7 @@ category: Argento
 **List of Included Themes**
 
  -  **Argento Blank** — 0.9.3
- -  **Argento Essence** — 0.9.3
+ -  **Argento Essence** — 0.9.3.1
  -  **Argento Flat** — 0.9.3
 
 **Extensions Updates**
