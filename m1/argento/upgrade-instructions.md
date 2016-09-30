@@ -24,7 +24,6 @@ category: Argento
     app/design/frontend/argento/flat/template/catalog/product/list/upsell.phtml
     app/design/frontend/argento/flat/template/page/html/header_short.phtml
     app/design/frontend/argento/flat/template/checkout/cart/crosssell.phtml
-    app/design/frontend/argento/flat/template/algoliasearch/topsearch.phtml
     app/design/frontend/argento/flat/template/checkout/cart/top.phtml
     app/design/frontend/argento/flat/template/tm/navigationpro/top.phtml
     app/design/frontend/argento/flat/template/tm/smartsuggest/list.phtml
@@ -43,6 +42,7 @@ category: Argento
     directories:
 
     ```
+    app/design/frontend/argento/flat/template/algoliasearch/topsearch.phtml
     app/design/frontend/base/default/template/tm/prolabels/category
     app/design/frontend/base/default/template/tm/prolabels/product
     app/design/frontend/base/default/template/tm/prolabels/rules
