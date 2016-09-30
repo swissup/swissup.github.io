@@ -10,7 +10,8 @@ category: Sold Together
 
 # Sold Together
 
-- [Installation](installation/)
+ -  [Installation](installation/)
+ -  [Integration with Checkout Success 2.x](integration/)
 
 ### Weight
 
