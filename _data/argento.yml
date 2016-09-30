@@ -86,6 +86,9 @@ m2:
     - title: Essence
       url: /m2/argento/essence/
 
+    - title: Flat
+      url: /m2/argento/flat/
+
   extensions:
     - ajaxsearch
     - attributepages
@@ -100,6 +103,6 @@ m2:
     - prolabels
     - reviewreminder
     - richsnippets
-    # - slick-carousel
+    - slick-carousel
     - soldtogether
     - testimonials
