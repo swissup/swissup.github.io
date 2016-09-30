@@ -541,6 +541,7 @@ $masonry-brick-colors: (
     &.scroll {
         white-space: nowrap;
         overflow: auto;
+        margin-bottom: 15px;
         figure {
             padding-bottom: 10px;
         }
