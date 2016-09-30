@@ -7,6 +7,61 @@ category: Argento
 
 # Argento Changelog
 
+### Version 0.9.3
+
+**Screenshots**
+
+{% include gallery.html images=site.data.gallery.m2.argento.changelog.v093 class="phone-up-1 tablet-up-3 photoswipe scroll" %}
+
+> [Upgrade Instructions](../upgrade-instructions/#version-092---093)
+
+ -  ArgentoFlat theme added. [View Docs](../flat/)
+ -  More Less variables to match developer customization needs
+    - Product listing variables
+    - Additional Product Tabs variables
+    - Additional Navigation variables
+    - Crossell, Upsell, Related products variables
+ -  Product questions count added to tab title
+ -  Improved product listing styles stability in various browsers
+ -  Improved Rewiews Tab styles for large screens
+ -  Added ability to include custom.js file
+ -  Many small css fixes and improvements
+
+**List of Included Themes**
+
+ -  **Argento Blank** — 0.9.3
+ -  **Argento Essence** — 0.9.3
+ -  **Argento Flat** — 0.9.3
+
+**Extensions Updates**
+
+ -  **Ajaxsearch** — 1.2.0
+    -   Added Folded Design feature, that hides input field and shows it in
+        fullscreen mode with nice effect
+    -   Small css fixes
+ -  **Askit** — 1.2.0
+    -   Added ability to show questions count in tab title
+    -   Improved questions styles
+    -   Styles rewritten in less with bunch of new variables that allow to change
+        design easely
+ -  **Easybanner** — 1.0.6.4
+    -   Fixed empty spacing below banner
+    -   Fixed banner url to product and category pages
+ -  **Easycatalogimages** — 1.1.1
+    -   Fixed issue in automatic category thumbnails assignment, thumbnails are now
+        assigned to default store id
+ -  **Easyslide** — 1.1.0
+    -   Fixed empty spacing below slider
+    -   Added slider themes:
+        - Dark
+        - White
+        - Default (Blue)
+ -  **Highlight** — 1.1.0
+    -   Product listing styles rewritten to allow to use gutter between products
+ -  **Soldtogether** — 1.1.6
+    -   Fixed "Add all to cart" button alignment in amazon style mode
+    -   Small css improvements
+
 ### Version 0.9.2
 
 [Upgrade Instructions](../upgrade-instructions/#version-091---092)
