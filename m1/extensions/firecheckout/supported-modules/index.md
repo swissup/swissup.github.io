@@ -22,6 +22,7 @@ additional modifications.
 
 - 2Checkout_Payment
 - Adyen_Payment
+- [Affirm_Affirm](affirm-affirm/)
 - [Billmate](billmate/)
 - [Billpay](billpay/)
 - [Bitpay_Bitcoins](bitpay-bitcoins/)
