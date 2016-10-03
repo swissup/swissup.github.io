@@ -42,5 +42,7 @@ gallery:
 
 ### Contents
 
-- [Installation](/m2/argento/installation/)
-- [Theme customization](/m2/argento/customization/)
+-  [Installation](/m2/argento/installation/)
+-  [Theme customization](/m2/argento/customization/)
+-  [Page structure manuals](page-structure/)
+   -  [Homepage](page-structure/homepage/)

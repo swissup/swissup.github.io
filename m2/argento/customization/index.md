@@ -28,4 +28,6 @@ category: Argento
     - Product View Page
         - [Add additional blocks to the product page](add-additional-blocks-to-the-product-page/)
  4. Content Organizing
-    - [Homepage content structure](homepage-content/)
+    -   [Homepage content structure](homepage-content/)
+        - [Argento Essence homepage](/m2/argento/essence/page-structure/homepage/)
+        - [Argento Flat homepage](/m2/argento/flat/page-structure/homepage/)
