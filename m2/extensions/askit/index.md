@@ -92,6 +92,12 @@ Askit module is integrated with Akismet service,that will stop questions spam. T
 
  *  Admin Notification Template - select admin notification email template.
 
+### Captcha section
+
+> Navigate to Stores -> Configuration -> Customers -> Customer Configuration -> CAPTCHA -> Forms
+
+![CAPTCHA settings](/images/m2/askit/captcha-config.png)
+
 ## Frontend interface
 
 {% include gallery.html images=site.data.gallery.m2.askit.frontend class="phone-up-1 tablet-up-2 photoswipe scroll" %}
