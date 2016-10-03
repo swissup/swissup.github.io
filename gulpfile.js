@@ -5,7 +5,10 @@ var gulp = require('gulp'),
     cleanCSS = require('gulp-clean-css'),
     sourcemaps = require('gulp-sourcemaps'),
     filter = require('gulp-filter'),
-    concat = require('gulp-concat');
+    concat = require('gulp-concat'),
+    gutil = require('gulp-util'),
+    run = require('gulp-run'),
+    browserSync = require('browser-sync').create();
 
 gulp.task('js', function () {
     var files = [
@@ -61,7 +64,36 @@ gulp.task('css-images', function () {
         .pipe(gulp.dest('assets'));
 });
 
-gulp.task('default', ['js', 'css', 'css-images']);
+gulp.task('jekyll', function() {
+    browserSync.notify("Jekyll build is Running", 6000);
+    return run('bundle exec jekyll build')
+        .exec()
+        .on('error', gutil.log);
+});
+gulp.task('jekyll-rebuild', ['jekyll'], function () {
+    browserSync.reload();
+});
 
-gulp.watch('js/*', ['js']);
-gulp.watch('css/*', ['css']);
+gulp.task('serve', ['jekyll'], function() {
+    browserSync.init({
+        server: '_site',
+        open: false
+    });
+
+    gulp.watch('js/*', ['js']);
+    gulp.watch('css/*', ['css']);
+
+    gulp.watch([
+        '_data/**/*',
+        '_includes/**/*',
+        '_layouts/**/*',
+        '_posts/**/*',
+        'assets/**/*',
+        'images/**/*',
+        'm1/**/*',
+        'm2/**/*'
+    ], ['jekyll-rebuild']);
+});
+
+gulp.task('default', ['serve']);
+gulp.task('assets', ['js', 'css', 'css-images']);
