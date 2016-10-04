@@ -10,6 +10,7 @@ category: Argento
  1. General
     - [Theme editor](theme-editor/)
     - [Custom css file](custom-css/)
+    - [Custom js file](custom-js/)
     - [Custom theme](custom-theme/)
  2. Css tools
     - [Grid system](grid-system/)
