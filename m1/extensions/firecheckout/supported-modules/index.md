@@ -85,6 +85,7 @@ additional modifications.
 - [Tig_MyParcel](tig-myparcel/)
 - TIG_Postcode
 - [TIG_PostNL](tig-postnl/)
+- [Unirgy_DropshipSplit](unirgy-dropshipsplit/)
 - Webshopapps_Desttype
 - WebshopApps_ProductMatrix
 - [Webshopapps_Wsafreightcommon](webshopapps-wsafreightcommon/)
