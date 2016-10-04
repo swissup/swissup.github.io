@@ -11,7 +11,7 @@ category: Easy Slider
 ### Version 1.1.0
 
  -  Fixed slider height to match image height
- -  Added theme support
+ -  Added [theme support](../interfaces/#slider-parameters)
     -  Default
     -  White
     -  Black

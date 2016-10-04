@@ -30,8 +30,9 @@ After clicking on any slider from the submitted list, you will be able to edit t
 
 ##### Slider Parameters
 
- ![Content](/images/m2/easyslide/SliderAdminParams.png)
+![Content](/images/m2/easyslide/SliderAdminParams.png)
 
+  * Theme - Could be 'Default', 'White' or 'Black'.
   * Direction - Could be 'horizontal' or 'vertical' (for vertical slider).
   * Effect - slider effects list.
   * Speed - Duration of transition between slides (in ms).
@@ -43,9 +44,7 @@ After clicking on any slider from the submitted list, you will be able to edit t
 
 ##### Slides
 
-   ![Content](/images/m2/easyslide/SliderAdminSlides.png)
-
-    * Interface for upload and configure slides
+![Content](/images/m2/easyslide/SliderAdminSlides.png)
 
 #### See also:
 
