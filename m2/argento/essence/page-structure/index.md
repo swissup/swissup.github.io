@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Page structure manuals
+title: Argento Essence page structure manuals
 description: Argento Essence page structure manuals
 category: Argento
 ---

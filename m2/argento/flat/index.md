@@ -15,3 +15,4 @@ category: Argento
 -  [Theme customization](/m2/argento/customization/)
 -  [Page structure manuals](page-structure/)
    -  [Homepage](page-structure/homepage/)
+   -  [Product page](page-structure/product-page/)
