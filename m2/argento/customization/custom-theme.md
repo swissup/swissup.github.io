@@ -29,12 +29,16 @@ custom theme allows you to change much more things:
 
 ### Create custom theme
 
-Let's create `Local/argento-custom` theme based on `Swissup/argento-essence`.
+Let's create `Local/argento-[essence|flat]-custom` theme based on
+`Swissup/argento-[essence|flat]`.
+
+> This tutorial assumes that you'll replace `[essence|flat]` entries with
+> theme name, you'd like to use
 
  1. Create folder for your new theme:
 
     ```
-    app/design/frontend/Local/argento-custom
+    app/design/frontend/Local/argento-[essence|flat]-custom
     ```
 
  2. Create following files inside new theme directory, to register your
@@ -44,12 +48,12 @@ Let's create `Local/argento-custom` theme based on `Swissup/argento-essence`.
 
         ```json
         {
-            "name": "local/argento-custom",
+            "name": "local/argento-[essence|flat]-custom",
             "type": "magento2-theme",
             "version": "1.0.0",
             "require": {
                 "php": "~5.5.0|~5.6.0|~7.0.0",
-                "swissup/theme-frontend-argento-essence": "*"
+                "swissup/theme-frontend-argento-[essence|flat]": "*"
             },
             "autoload": {
                 "files": [ "registration.php" ]
@@ -63,7 +67,7 @@ Let's create `Local/argento-custom` theme based on `Swissup/argento-essence`.
         <theme xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
             xsi:noNamespaceSchemaLocation="urn:magento:framework:Config/etc/theme.xsd">
             <title>Argento Custom by Local</title>
-            <parent>Swissup/argento-essence</parent>
+            <parent>Swissup/argento-[essence|flat]</parent>
         </theme>
         ```
 
@@ -74,7 +78,7 @@ Let's create `Local/argento-custom` theme based on `Swissup/argento-essence`.
 
         \Magento\Framework\Component\ComponentRegistrar::register(
             \Magento\Framework\Component\ComponentRegistrar::THEME,
-            'frontend/Local/argento-custom',
+            'frontend/Local/argento-[essence|flat]-custom',
             __DIR__
         );
         ```

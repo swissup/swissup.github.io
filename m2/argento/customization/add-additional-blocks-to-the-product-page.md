@@ -16,7 +16,7 @@ category: Argento
 > **Notice**
 >
 > 1. This tutorial assumes that you already created [custom theme](../custom-theme/)
->    based on `Swissup/argento-essence`
+>    based on one of Argento themes
 >
 >    If you did not &mdash; [go ahead](../custom-theme/), it will take 15 minutes.
 >
@@ -30,7 +30,7 @@ Let's add [Attributepages](/m2/extensions/attributepages/) block that will show
  1. Create `catalog_product_view.xml` file in the following directory:
 
     ```
-    app/design/frontend/Local/argento-custom/Magento_Catalog/layout
+    app/design/frontend/Local/argento-[essence|flat]-custom/Magento_Catalog/layout
     ```
 
  3. Add the following content `catalog_product_view.xml` file and save it.

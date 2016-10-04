@@ -25,7 +25,7 @@ gallery:
 > **Notice**
 >
 > This tutorial assumes that you already created [custom theme](../custom-theme/)
-> based on `Swissup/argento-essence`.
+> based on one of Argento themes.
 >
 > If you did not &mdash; [go ahead](../custom-theme/), it will take 15 minutes.
 
@@ -36,7 +36,7 @@ to 2columns with right sidebar.
     in the following directory:
 
     ```
-    app/design/frontend/Local/argento-custom/Magento_Catalog/layout
+    app/design/frontend/Local/argento-[essence|flat]-custom/Magento_Catalog/layout
     ```
 
  2. Add the following content to `catalog_category_view.xml` file and save it.
