@@ -16,5 +16,6 @@ The extension will help to easily create an unlimited number of professional loo
 Also you can place your slider at any place of your store by such ways as magento widget, as XML code and as block code.
 
 - [Installation](installation/)
+- [Changelog](changelog/)
 - [Admin interfaces](interfaces/)
 - [Use cases](cases/)
