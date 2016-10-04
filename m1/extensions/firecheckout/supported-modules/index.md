@@ -62,6 +62,7 @@ additional modifications.
 - [Bpost_ShM](bpost-shm/)
 - Bysoft_Relaypoint
 - [Dhl_Account](dhl_account/)
+- Dhl_Magentolws
 - DPD_Shipping
 - [Emjainteractive_ShippingOption](emjainteractive-shippingoption/)
 - [Fumo_JapanPost](fumo-japanpost/)
@@ -77,6 +78,8 @@ additional modifications.
 - Man4x_MondialRelay
 - Ophirah_Qquoteadv (Cart2Quote)
 - PostcodeNl_Api
+- Shipperhq_Freight
+- Shipperhq_Pickup
 - [SmartPost](smartpost/)
 - Storepickup
 - [Tig_MyParcel](tig-myparcel/)
