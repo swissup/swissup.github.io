@@ -22,7 +22,7 @@ automatically included on all pages.
  1. Create new directory in yout custom Argento sub-theme:
 
     ```
-    app/design/frontend/Local/argento-[essence]-custom/web/js
+    app/design/frontend/Local/argento-[essence|flat]-custom/web/js
     ```
 
  2. Create `argento_custom.js` inside `js` folder
