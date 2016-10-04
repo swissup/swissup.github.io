@@ -10,6 +10,7 @@ category: Argento
  1. General
     - [Theme editor](theme-editor/)
     - [Custom css file](custom-css/)
+    - [Custom js file](custom-js/)
     - [Custom theme](custom-theme/)
  2. Css tools
     - [Grid system](grid-system/)
@@ -25,7 +26,7 @@ category: Argento
         - [Change columns count](change-product-listing-styles/#columns-count)
         - [Modify 'squama' listing styles](change-product-listing-styles/#squama-listing-styles)
         - [Remove listing styles](change-product-listing-styles/#remove-listing-styles)
-    - Product View Page
+    - Product page
         - [Add additional blocks to the product page](add-additional-blocks-to-the-product-page/)
  4. Content Organizing
     -   [Homepage content structure](homepage-content/)
