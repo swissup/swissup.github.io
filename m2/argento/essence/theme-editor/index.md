@@ -1,70 +1,8 @@
 ---
 layout: default
-title: Argento Theme Editor
-description: Argento theme editor usage
+title: Argento Essence Theme Editor
+description: Argento Essence theme editor usage
 category: Argento
-gallery:
-  - title: Layout section
-    href: /images/m2/argento/essence/theme-editor/config/layout.png
-    src: /images/m2/argento/essence/theme-editor/config/small/layout.png
-    w: 761
-    h: 636
-  - title: Header top toolbar
-    href: /images/m2/argento/essence/theme-editor/config/header-top-toolbar.png
-    src: /images/m2/argento/essence/theme-editor/config/small/header-top-toolbar.png
-    w: 726
-    h: 635
-  - title: Navigation
-    href: /images/m2/argento/essence/theme-editor/config/navigation.png
-    src: /images/m2/argento/essence/theme-editor/config/small/navigation.png
-    w: 726
-    h: 1957
-  - title: Footer top toolbar
-    href: /images/m2/argento/essence/theme-editor/config/footer-top-toolbar.png
-    src: /images/m2/argento/essence/theme-editor/config/small/footer-top-toolbar.png
-    w: 726
-    h: 563
-  - title: Footer content
-    href: /images/m2/argento/essence/theme-editor/config/footer-content.png
-    src: /images/m2/argento/essence/theme-editor/config/small/footer-content.png
-    w: 726
-    h: 594
-  - title: Footer bottom toolbar
-    href: /images/m2/argento/essence/theme-editor/config/footer-bottom-toolbar.png
-    src: /images/m2/argento/essence/theme-editor/config/small/footer-bottom-toolbar.png
-    w: 726
-    h: 550
-  - title: Tabs
-    href: /images/m2/argento/essence/theme-editor/config/product-and-homepage-tabs.png
-    src: /images/m2/argento/essence/theme-editor/config/small/product-and-homepage-tabs.png
-    w: 760
-    h: 826
-  - title: Buttons
-    href: /images/m2/argento/essence/theme-editor/config/buttons.png
-    src: /images/m2/argento/essence/theme-editor/config/small/buttons.png
-    w: 760
-    h: 606
-  - title: Fonts
-    href: /images/m2/argento/essence/theme-editor/config/fonts.png
-    src: /images/m2/argento/essence/theme-editor/config/small/fonts.png
-    w: 760
-    h: 928
-  - title: Additional css
-    href: /images/m2/argento/essence/theme-editor/config/additional-css.png
-    src: /images/m2/argento/essence/theme-editor/config/small/additional-css.png
-    w: 760
-    h: 192
-examples:
-  - title: Dark boxed layout example
-    href: /images/m2/argento/essence/theme-editor/result-examples/dark-boxed-layout.png
-    src: /images/m2/argento/essence/theme-editor/result-examples/small/dark-boxed-layout.png
-    w: 800
-    h: 852
-  - title: Bright full-width layout example
-    href: /images/m2/argento/essence/theme-editor/result-examples/bright-full-width-layout.png
-    src: /images/m2/argento/essence/theme-editor/result-examples/small/bright-full-width-layout.png
-    w: 800
-    h: 852
 ---
 
 # Theme Editor
@@ -74,7 +12,7 @@ knowledge.
 
 Theme editor is located at `Magento Admin > Stores > Configuration > Swissup Themes Editor > Argento Essence`.
 
-{% include gallery.html images=page.gallery class="scroll phone-up-1 tablet-up-3 photoswipe" %}
+{% include gallery.html images=site.data.gallery.m2.argento.essence.theme-editor.config class="scroll phone-up-1 tablet-up-3 photoswipe" %}
 
 ### Contents
 
@@ -163,7 +101,7 @@ Use this section to add any other specific styles.
 
 #### Result examples
 
-{% include gallery.html images=page.examples class="scroll phone-up-1 tablet-up-2 photoswipe" %}
+{% include gallery.html images=site.data.gallery.m2.argento.essence.theme-editor.result-examples class="scroll phone-up-1 tablet-up-2 photoswipe" %}
 
 ##### Next up
 
