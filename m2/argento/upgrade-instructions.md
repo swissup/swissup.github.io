@@ -18,6 +18,9 @@ category: Argento
    # run upgrades
    php bin/magento setup:upgrade
 
+   # remove old FontAwesome files
+   rm -rf app/code/Swissup/FontAwesome/etc/frontend app/code/Swissup/FontAwesome/view/frontend
+
    # regenerate static content
    rm -rf pub/static/_requirejs var/view_preprocessed
    php bin/magento setup:static-content:deploy
