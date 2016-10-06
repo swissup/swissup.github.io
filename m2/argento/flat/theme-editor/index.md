@@ -26,6 +26,8 @@ Theme editor is located at
  7. [Additional css styles](#additional-css-styles)
  7. [Result examples](#result-examples)
 
+Looking for jumbotron customization? It's [over here](/m2/argento/flat/jumbotrons/).
+
 #### Layout
 
 Layout section allows you to apply
@@ -108,6 +110,7 @@ Use this section to add any other specific styles.
 
  -  [Custom css file](/m2/argento/customization/custom-css/)
  -  [Create Argento based custom theme](/m2/argento/customization/custom-theme/)
+ -  [Jumbotrons customization](/m2/argento/flat/jumbotrons/)
  -  [Page structure manuals](/m2/argento/flat/page-structure/)
     -  [Homepage](/m2/argento/flat/page-structure/homepage/)
     -  [Product page](/m2/argento/flat/page-structure/product-page/)
