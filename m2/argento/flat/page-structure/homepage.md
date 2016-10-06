@@ -30,6 +30,8 @@ understanding:
  7. [Brands Slider](#brands-slider)
  8. [Whole homepage code](#whole-homepage-code)
 
+Looking for jumbotron customization? It's [over here](/m2/argento/flat/jumbotrons/).
+
 #### Slider
 
 ![EasySlider](/images/m2/argento/flat/homepage-content/easyslider.png)

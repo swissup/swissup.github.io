@@ -18,6 +18,7 @@ category: Argento
        - [Custom js](/m2/argento/customization/custom-js/)
        - [More Articles](/m2/argento/customization/)
     -  [**Theme editor**](theme-editor/)
+    -  [Jumbotrons](jumbotrons/)
  -  [Page structure manuals](page-structure/)
     -  [Homepage](page-structure/homepage/)
     -  [Product page](page-structure/product-page/)

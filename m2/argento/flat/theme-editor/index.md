@@ -106,6 +106,8 @@ Use this section to add any other specific styles.
 
 ##### Next up
 
-- [Argento docs homepage](/m2/argento/)
-- [Small css customizations](/m2/argento/customization/custom-css/)
-- [Create Argento based custom theme](/m2/argento/customization/custom-theme/)
+ -  [Custom css file](/m2/argento/customization/custom-css/)
+ -  [Create Argento based custom theme](/m2/argento/customization/custom-theme/)
+ -  [Page structure manuals](/m2/argento/flat/page-structure/)
+    -  [Homepage](/m2/argento/flat/page-structure/homepage/)
+    -  [Product page](/m2/argento/flat/page-structure/product-page/)
