@@ -7,6 +7,25 @@ category: Argento
 
 # Argento Changelog
 
+### Version 0.9.4
+
+> [Upgrade Instructions](../upgrade-instructions/#version-093---094)
+
+ -  ArgentoFlat [theme editor](/m2/argento/flat/theme-editor/) added
+ -  Small css fixes to improve css customization in:
+    +  Product listing widgets
+    +  Footer links styles
+    +  ArgentoFlat [jumbotrons](/m2/argento/flat/jumbotrons/)
+
+**Prolabels**
+
+ -  Fixed possible duplicate label in widgets listings
+ -  Improved label loading method
+
+**FontAwesome**
+
+ -  Added ability to use font-awesome icons for backend modules
+
 ### Version 0.9.3
 
 **Screenshots**
