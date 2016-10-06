@@ -25,3 +25,6 @@ faster and easier by providing them a simple checkout form.
     - [Success Page](/m2/extensions/checkoutsuccess/)
     - [Order Attachments](/m2/extensions/order-attachments/)
     - [Taxvat Validation](/m2/extensions/taxvat/)
+ 6. Third-party themes compatibility
+    - [Argento theme by Templates-Master](third-party-themes/argento/)
+    - [Hermes theme by Blue Sky](third-party-themes/hermes/)
