@@ -32,4 +32,13 @@ and apply the following patch:
          },
 
          /**
+@@ -91,7 +91,7 @@
+         (window.vzeroPaypal || false),
+         '<div id="paypal-complete"><div id="paypal-container"></div></div>',
+         '#review-buttons-container .btn-checkout',
+-        true,
++        $$('.firecheckout-set.onecolumn').length === 0,
+         {
+             ignoreAjax: ['firecheckout/index/saveOrder']
+         }
 ```
