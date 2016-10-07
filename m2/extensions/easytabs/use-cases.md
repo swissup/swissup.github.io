@@ -14,6 +14,8 @@ category: Easy Tabs
 1. [Activate and scroll to tab on external link click](#activate-and-scroll-to-tab-on-external-link-click)
 2. [Dynamic tab titles](#dynamic-tab-titles)
 3. [Unset multiple blocks](#unset-multiple-blocks)
+4. [Askit example](#askit-example)
+
 
 ### Activate and scroll to tab on external link click
 
@@ -44,3 +46,7 @@ Examples:
 
 1. `block_to_unset1,block_to_unset2`
 2. `catalog.product.related,product.info.upsell`
+
+### Askit example
+
+![Askit example](/images/m2/easytabs/usecase-askit.gif)
