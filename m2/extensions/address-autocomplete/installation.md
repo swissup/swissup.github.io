@@ -19,6 +19,14 @@ bin/magento module:enable Swissup_Core Swissup_SubscriptionChecker Swissup_Addre
 bin/magento setup:upgrade
 ```
 
+Regenerate static content
+
+```bash
+cd <magento_root>
+rm -rf pub/static/_requirejs var/view_preprocessed
+bin/magento setup:static-content:deploy
+```
+
 That's all.
 
 #### Next Up
