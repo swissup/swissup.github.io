@@ -18,6 +18,10 @@ Please follow next steps to complete the installation:
     cd <magento_root>
     bin/magento module:enable Swissup_Core Swissup_Easytabs
     bin/magento setup:upgrade
+
+    # regenerate static content
+    rm -rf pub/static/_requirejs var/view_preprocessed
+    bin/magento setup:static-content:deploy
     ```
 
 That's all. Right after installation you'll see no differences on product page, three default magento 2 tabs will be displayed. You can change it in [Easytabs Grid][easytabs_grid]
