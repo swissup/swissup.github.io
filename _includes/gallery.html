@@ -1,5 +1,5 @@
 <div class="gallery clearfix {{ include.class }}" itemscope itemtype="http://schema.org/ImageGallery">
-{% for image in include.images %}
+    {% for image in include.images %}
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
         <a href="{{ image.href | prepend: site.baseurl }}" itemprop="contentUrl" data-size="{{image.w}}x{{image.h}}">
             {% if image.alt %}
@@ -13,5 +13,4 @@
         <meta itemprop="height" content="{{ image.h }}">
         <figcaption itemprop="caption description">{{ image.title }}</figcaption>
     </figure>
-{% endfor %}
-</div>
+    {% endfor %}</div>
