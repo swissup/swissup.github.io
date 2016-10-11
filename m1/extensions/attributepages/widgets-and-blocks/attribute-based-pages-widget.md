@@ -10,7 +10,7 @@ category: Attributepages
 
 #### Frontend usage example
 
-!['Browse by' dropdown](/images/navigationpro/siblings/browse_by_attributepages_dropdown.png)
+!['Browse by' dropdown](/images/m1/navigationpro/siblings/browse_by_attributepages_dropdown.png)
 
 #### Widget options
 

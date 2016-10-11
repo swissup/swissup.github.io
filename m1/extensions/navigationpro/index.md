@@ -40,3 +40,5 @@ modify frontend menus.
  5. Customization
     - [Open accordion on category click](open-accordion-on-category-click/)
     - [Show content for specific devices only](show-content-for-specific-devices-only/)
+ 6. [Use cases](use-cases/)
+    - [Create Amazon-like menu](use-cases/amazon-like-menu/)

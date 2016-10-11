@@ -12,7 +12,7 @@ category: Navigationpro
 *We assume that you already created brands page at
 `Templates Master > Attributepages > Manage Pages`*
 
-![Brands sibling with dropdown](/images/navigationpro/siblings/brands_with_dropdown_content.png)
+![Brands sibling with dropdown](/images/m1/navigationpro/siblings/brands_with_dropdown_content.png)
 
 1.  Navigate to NavigationPro backend interface and select menu to edit
 2.  Select last visible category

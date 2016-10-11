@@ -18,8 +18,8 @@ category: Attributepages
 
 ### [Attribute based pages widget](attribute-based-pages-widget/)
 
-[!['Browse by' dropdown](/images/navigationpro/siblings/browse_by_attributepages_dropdown.png)](attribute-based-pages-widget/)
+[!['Browse by' dropdown](/images/m1/navigationpro/siblings/browse_by_attributepages_dropdown.png)](attribute-based-pages-widget/)
 
 ### [Option based pages widget](option-based-pages-widget/)
 
-[!['Brands' dropdown inside NavigationPro](/images/navigationpro/siblings/brands_with_dropdown_content.png)](option-based-pages-widget/)
+[!['Brands' dropdown inside NavigationPro](/images/m1/navigationpro/siblings/brands_with_dropdown_content.png)](option-based-pages-widget/)

@@ -10,7 +10,7 @@ category: Attributepages
 
 #### Frontend usage example
 
-!['Brands' dropdown inside NavigationPro](/images/navigationpro/siblings/brands_with_dropdown_content.png)
+!['Brands' dropdown inside NavigationPro](/images/m1/navigationpro/siblings/brands_with_dropdown_content.png)
 
 #### Widget options
 
