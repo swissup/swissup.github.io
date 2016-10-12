@@ -335,7 +335,7 @@ slick-carousel:
   title: Slick Carousel
   short_description: The last carousel you'll ever need
   urls:
-    m1:
+    m1: /m1/extensions/slick-carousel/
     m2: /m2/extensions/slick-carousel/
 
 smartsuggest:
