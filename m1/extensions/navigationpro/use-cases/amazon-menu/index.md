@@ -25,7 +25,5 @@ Amazon menu - is a menu, grouped into single "Shop by Department" dropdown item:
         Simple stacked dropdowns.
     -   [Sale](prepare-dropdown-contents/category-sale/) —
         Multicolumn layout with Promotion banner.
-    -   [Shop by Brands](prepare-dropdown-contents/sibling-shop-by-brands/) —
-        Sibling with AttributePage widget dropdown.
  3. [Add custom css styles for better look and feel](custom-css/)
  4. [Group categories into single dropdown](group-categories-into-single-dropdown/)

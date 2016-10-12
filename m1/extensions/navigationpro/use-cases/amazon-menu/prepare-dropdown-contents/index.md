@@ -16,8 +16,6 @@ category: Navigationpro
     Simple stacked dropdowns.
  -  [Sale](category-sale/) —
     Multicolumn layout with Promotion banner.
- -  [Shop by Brands](sibling-shop-by-brands/) —
-    Sibling with AttributePage widget dropdown.
 
 ##### Next up
 
