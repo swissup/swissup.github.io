@@ -11,6 +11,7 @@ category: Navigationpro
 ### Version 1.5.0
 
  -  Added ability to create [Amazon-style](/m1/extensions/navigationpro/use-cases/amazon-menu/) menu
+ -  Added status exception rules into cache key to fix invalid menu on different devices
  -  Small css fixes
 
 ### Version 1.4.5
