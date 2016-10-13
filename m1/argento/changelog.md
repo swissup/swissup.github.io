@@ -7,6 +7,27 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.8.3
+
+**New Features**
+
+ -  Tested with Magento 1.9.3.0
+ -  New extension added - Slick Carousel. [View Docs](http://docs.swissuplabs.com/m1/extensions/slick-carousel/)
+ -  You can now create Amazon style menu with Navigation Pro. [View Manual](http://docs.swissuplabs.com/m1/extensions/navigationpro/use-cases/amazon-menu/)
+
+**Fixes and Improvements**
+
+ -  Removed global easyslider box-shadow style
+ -  Removed horizontal scrollbar in Chrome between 980px and 990px
+ -  Easy Catalog Images: 'more in...' translation added in csv
+ -  Highlight: integration with Slick Carousel added
+ -  Easy Tabs: JS file now loaded and executed with defer attribute; no inline
+    javascript
+ -  Ajax Pro: updated translations; catalog category view js script improvements;
+    improved theme's itegration
+ -  Navigation Pro: Added status exception rules into cache key to fix invalid
+    menu on different devices; small css fixes
+
 ### Version 1.8.2
 
 **New Features**
