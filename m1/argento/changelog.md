@@ -12,7 +12,7 @@ category: Argento
 **New Features**
 
  -  Tested with Magento 1.9.3.0
- -  New extension added - Slick Carousel. [View Docs](http://docs.swissuplabs.com/m1/extensions/slick-carousel/)
+ -  New extension added - Slick Carousel. [View Docs](http://docs.swissuplabs.com/m1/extensions/slick-carousel/), [View Examples](http://docs.swissuplabs.com/m1/extensions/slick-carousel/usage/#using-in-argento)
  -  You can now create Amazon style menu with Navigation Pro. [View Manual](http://docs.swissuplabs.com/m1/extensions/navigationpro/use-cases/amazon-menu/)
 
 **Fixes and Improvements**
