@@ -37,6 +37,7 @@ dynamically generated content.
     - [Advanced Usage][usage_advanced] (Product listing carousel)
     - [Lazy Loading](usage/#lazy-loading)
     - [Responsive Display](usage/#responsive-display)
+    - [Using in Argento](#using-in-argento)
     - [Slick Carousel parameters](usage/#parameters)
     - [Slick Carousel arrow classes](usage/#arrow-classes)
 

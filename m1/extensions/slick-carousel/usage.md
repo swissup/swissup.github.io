@@ -14,8 +14,9 @@ category: SlickCarousel
  2. [Advanced Usage](#advanced-usage) (Product listing carousel)
  3. [Lazy Loading](#lazy-loading)
  4. [Responsive Display](#responsive-display)
- 5. [Slick Carousel parameters](#parameters)
- 6. [Slick Carousel arrow classes](#arrow-classes)
+ 5. [Using in Argento](#using-in-argento)
+ 6. [Slick Carousel parameters](#parameters)
+ 7. [Slick Carousel arrow classes](#arrow-classes)
 
 ### Basic Usage
 
@@ -140,6 +141,77 @@ slider will be looking like this:
  -  screens below 321px will show 1 slide and disable dots navigation:
 
     ![Product listing carousel](/images/m1/extensions/slick-carousel/usage/responsive/product-listing-responsive-1.png)
+
+### Using in Argento
+
+Argento theme version 1.8.3 comes with custom styles for Slick product carousels.
+
+Examples:
+
+ -  Argento Argento design:
+
+    ```html
+    <div class="row">
+        <div class="col-md-12">
+            <div class="slick-wrapper" data-slick-wrapper='{"el": ".products-grid", "slidesToShow": 5, "slidesToScroll": 5, "dots": true, "responsive": [ {"breakpoint": 770, "settings": {"slidesToShow": 4, "slidesToScroll": 4}}, {"breakpoint": 640, "settings": {"slidesToShow": 3, "slidesToScroll": 3}}, {"breakpoint": 480, "settings": {"slidesToShow": 2, "slidesToScroll": 2, "dots": false}}, {"breakpoint": 321, "settings": {"slidesToShow": 1, "slidesToScroll": 1, "dots": false}}]}'>
+                {% raw %}{{widget type="highlight/product_random" title="Highlight Products" products_count="20" column_count="20" template="tm/highlight/product/grid.phtml" class_name="highlight-any"}}{% endraw %}
+            </div>
+        </div>
+    </div>
+    ```
+
+    ![Argento Argento Slider](/images/m1/extensions/slick-carousel/usage/argento/argento-argento-slider.png){:class="noborder"}
+
+ -  Argento Mall design:
+
+    ```html
+    <div class="slick-wrapper" data-slick-wrapper='{"el": ".products-grid", "slidesToShow": 5, "slidesToScroll": 5, "dots": true, "responsive": [ {"breakpoint": 770, "settings": {"slidesToShow": 4, "slidesToScroll": 4}}, {"breakpoint": 640, "settings": {"slidesToShow": 3, "slidesToScroll": 3}}, {"breakpoint": 480, "settings": {"slidesToShow": 2, "slidesToScroll": 2, "dots": false}}, {"breakpoint": 321, "settings": {"slidesToShow": 1, "slidesToScroll": 1, "dots": false}}]}'>
+        {% raw %}{{widget type="highlight/product_random" title="Highlight Products" products_count="20" column_count="20" template="tm/highlight/product/grid.phtml" class_name="highlight-any"}}{% endraw %}
+    </div>
+    ```
+
+    ![Argento Mall Slider](/images/m1/extensions/slick-carousel/usage/argento/argento-mall-slider.png){:class="noborder"}
+
+ -  Argento Pure design:
+
+    ```html
+    <div class="slick-wrapper" data-slick-wrapper='{"el": ".products-grid", "slidesToShow": 4, "slidesToScroll": 4, "dots": true, "responsive": [ {"breakpoint": 770, "settings": {"slidesToShow": 3, "slidesToScroll": 3}}, {"breakpoint": 640, "settings": {"slidesToShow": 2, "slidesToScroll": 2}}, {"breakpoint": 480, "settings": {"slidesToShow": 1, "slidesToScroll": 1, "dots": false}}]}'>
+        {% raw %}{{widget type="highlight/product_random" title="Highlight Products" products_count="20" column_count="20" template="tm/highlight/product/grid.phtml" class_name="highlight-any"}}{% endraw %}
+    </div>
+    ```
+
+    ![Argento Pure Slider](/images/m1/extensions/slick-carousel/usage/argento/argento-pure-slider.png){:class="noborder"}
+
+ -  Argento Pure2 design:
+
+    ```html
+    <div class="jumbotron">
+        <div class="container">
+            <div class="slick-wrapper" data-slick-wrapper='{"el": ".products-grid", "slidesToShow": 4, "slidesToScroll": 4, "dots": true, "responsive": [ {"breakpoint": 770, "settings": {"slidesToShow": 3, "slidesToScroll": 3}}, {"breakpoint": 640, "settings": {"slidesToShow": 2, "slidesToScroll": 2}}, {"breakpoint": 480, "settings": {"slidesToShow": 1, "slidesToScroll": 1, "dots": false}}]}'>
+                {% raw %}{{widget type="highlight/product_random" title="Highlight Products" products_count="20" column_count="20" template="tm/highlight/product/grid.phtml" class_name="highlight-any"}}{% endraw %}
+            </div>
+        </div>
+    </div>
+    ```
+
+    ![Argento Pure2 Slider](/images/m1/extensions/slick-carousel/usage/argento/argento-pure2-slider.png){:class="noborder"}
+
+ -  Argento Flat design:
+
+    ```html
+    <div class="row jumbotron">
+        <div class="stub"></div>
+        <div class="col-md-12">
+            <div class="container hero">
+                <div class="slick-wrapper dark" data-slick-wrapper='{"el": ".products-grid", "slidesToShow": 4, "slidesToScroll": 4, "dots": true, "responsive": [ {"breakpoint": 770, "settings": {"slidesToShow": 3, "slidesToScroll": 3}}, {"breakpoint": 640, "settings": {"slidesToShow": 2, "slidesToScroll": 2}}, {"breakpoint": 480, "settings": {"slidesToShow": 1, "slidesToScroll": 1, "dots": false}}]}'>
+                    {% raw %}{{widget type="highlight/product_random" title="Highlight Products" products_count="20" column_count="20" template="tm/highlight/product/grid.phtml" class_name="highlight-any"}}{% endraw %}
+                </div>
+            </div>
+        </div>
+    </div>
+    ```
+
+    ![Argento Flat Slider](/images/m1/extensions/slick-carousel/usage/argento/argento-flat-slider.png){:class="noborder"}
 
 ### Parameters
 
