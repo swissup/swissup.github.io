@@ -11,22 +11,41 @@ category: Argento
 
 **New Features**
 
- -  Tested with Magento 1.9.3.0
+ -  Magento 1.9.3 compatible
  -  New extension added - Slick Carousel. [View Docs](http://docs.swissuplabs.com/m1/extensions/slick-carousel/), [View Examples](http://docs.swissuplabs.com/m1/extensions/slick-carousel/usage/#using-in-argento)
  -  You can now create Amazon style menu with Navigation Pro. [View Manual](http://docs.swissuplabs.com/m1/extensions/navigationpro/use-cases/amazon-menu/)
 
 **Fixes and Improvements**
 
- -  Removed global easyslider box-shadow style
+ -  Removed easyslider box-shadow in Flat theme
  -  Removed horizontal scrollbar in Chrome between 980px and 990px
- -  Easy Catalog Images: 'more in...' translation added in csv
- -  Highlight: integration with Slick Carousel added
- -  Easy Tabs: JS file now loaded and executed with defer attribute; no inline
-    javascript
- -  Ajax Pro: updated translations; catalog category view js script improvements;
-    improved theme's itegration
- -  Navigation Pro: Added status exception rules into cache key to fix invalid
-    menu on different devices; small css fixes
+ -  Fixed missing FontAwesome icons after homepage save
+ -  Added products count limit for sidebar related block (ArgentoFlat and Pure2 themes)
+ -  Small css and js fixes
+
+**Modules fixes and improvements**
+
+ -  ConfigurableSwatches
+    - Improved image swapping method
+    - 1.9.3 support added
+ -  Easy Catalog Images:
+    - 'more in...' translation added in csv
+ -  Highlight
+    - integration with Slick Carousel added
+ -  Easy Tabs
+    - Fixed scroll to review form
+    - JS file now loaded and executed with defer attribute
+    - no inline javascript
+ -  Ajax Pro
+    - Catalog category view js script improvements
+    - Improved third-party theme's itegration
+    - Imporoved logic to activate `current_page` in toolbar
+    - Updated translations
+ -  Navigation Pro
+    - Added ability to create [Amazon-style](http://docs.swissuplabs.com/m1/extensions/navigationpro/use-cases/amazon-menu/) menu
+    - Added status exception rules into cache key to fix invalid
+        menu on different devices;
+    - Small css fixes
 
 ### Version 1.8.2
 
