@@ -14,6 +14,8 @@ category: ConfigurableSwatches
  2. [Modify templates and copy required files from RWD theme](#required-modifications).
  3. [Configure swatches](#configuration).
 
+[**Changelog**](changelog/)
+
 [**Known issues**](#known-issues)
 
  1. [Image becomes smaller, when selecting options inside ajax popup](#image-becomes-smaller-when-selecting-options-inside-ajax-popup-ajaxpro-or-quickshopping-for-example)
