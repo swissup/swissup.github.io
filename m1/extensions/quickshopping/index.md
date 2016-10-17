@@ -9,4 +9,5 @@ category: Quick Shopping
 
 # Quick Shopping
 
-- [Installation](installation/)
+ -  [Installation](installation/)
+ -  [Changelog](changelog/)
