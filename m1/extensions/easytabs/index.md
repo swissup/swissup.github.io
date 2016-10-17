@@ -14,13 +14,14 @@ cms blocks, products attributes or html content.
 
 ### Contents
 
-1. [Installation](installation/)
-2. [Features](#features)
-3. [Settings](#settings)
-- [General Section](#general-section)
-4. [Easytabs Grid](#easytabs-grid)
- - [Easytabs Edit Form](#easytabs-edit-form)
-5. [Use Cases](use-cases/)
+ 1. [Installation](installation/)
+ 2. [Changelog](changelog/)
+ 3. [Features](#features)
+ 4. [Settings](#settings)
+    - [General Section](#general-section)
+ 5. [Easytabs Grid](#easytabs-grid)
+    - [Easytabs Edit Form](#easytabs-edit-form)
+ 6. [Use Cases](use-cases/)
 
 ## Features
 
