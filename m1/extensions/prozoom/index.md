@@ -14,4 +14,5 @@ category: Prozoom
 
 # ProZoom
 
-- [Installation](installation/)
+ -  [Installation](installation/)
+ -  [Changelog](changelog/)
