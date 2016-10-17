@@ -10,3 +10,4 @@ category: Lightbox Pro
 # Lightbox Pro
 
 - [Installation](installation/)
+- [Changelog](changelog/)
