@@ -38,7 +38,7 @@ category: Argento
     - no inline javascript
  -  Ajax Pro
     - Catalog category view js script improvements
-    - Improved third-party theme's itegration
+    - Improved third-party theme's integration
     - Imporoved logic to activate `current_page` in toolbar
     - Updated translations
  -  Navigation Pro
@@ -76,7 +76,7 @@ category: Argento
      -  Slider rendering bug when slider name starts with digit fixed
  -  Lightbox Pro
      -  Incorrect initial position of thumbnails in Firefox fixed
-     -  JS error related to `lightbox.js` when JS merge enabled fixed
+     -  JS error related to *lightbox.js* when JS merge enabled fixed
  -  Prolabels
      -  JS file loads and executes with defer attribute
      -  no inline javascript
@@ -101,10 +101,10 @@ category: Argento
     styles
  -  Fixed highlight filters by stock status and quantity for the following
     product types:
-    - Bestsellers
-    - Popular
-    - Products
-    - Recent reviews
+     -  Bestsellers
+     -  Popular
+     -  Products
+     -  Recent reviews
 
 ### Version 1.8.0
 
@@ -132,9 +132,22 @@ category: Argento
 
  -  FontAwesome updated to version 4.6.3
  -  backend CSS loads depends on request - secured or unsecured
- -  AskIt: new frontend responsive design, question can be assigned to multiple products, question create date fix
- -  LightboxPro: significant code refactoring, JS files load with 'defer' attribute and do not block page rendering,  no more inline JS
- -  Navigation Pro: fixed third level drop-downs on tablet devices
- -  ProLabels: fixed label priority determination
- -  Testimonials: stars for 'Rating' field at new testimonial form, JS files load with 'defer' attribute
- -  SuggestPage: avoided potential error with multiple calls of event 'sales_quote_product_add_after'
+ -  Ask It
+     -  new frontend responsive design
+     -  question can be assigned to multiple products
+     -  question create date fixed
+ -  Lightbox Pro
+     -  significant code refactoring
+     -  JS files load with 'defer' attribute and do not block page rendering
+     -  no more inline JS
+ -  Navigation Pro
+     -  fixed third level drop-downs on tablet devices
+ -  ProLabels
+     -  fixed label priority determination
+ -  Testimonials
+     -  stars for 'Rating' field at new testimonial form
+     -  JS files load with 'defer' attribute
+ -  Suggest Page
+     -  avoided potential error with multiple calls of event
+        'sales_quote_product_add_after'
+
