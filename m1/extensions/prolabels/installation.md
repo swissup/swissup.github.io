@@ -20,106 +20,120 @@ mode for your store.
 5. Logout from your store admin and then login back, to refresh your admin user
 access rights.
 
-* Navigate to `System > Configuration > Templates-Master > Prolabels` and
+Navigate to `System > Configuration > Templates-Master > Prolabels` and
 enable extension for any store you need.
 
-* In order to display labels on **category page**, please do as follows: add the
-code mentioned below to list.phtml file. For example, app/design/frontend/
-[package]/[theme]/template/catalog/product/list.phtml.
+In order to display labels on **category page**, please do as follows:
 
-Prolabels code should be placed in 2 places.
+ *  add the code mentioned below to `list.phtml` file. For example,
+    app/design/frontend/[package]/[theme]/template/catalog/product/list.phtml .
 
-**Line 50**
+    Prolabels code should be placed in 2 places.
 
-```html
-<a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" class="product-image"><img src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize(135); ?>" width="135" height="135" alt="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" /></a
-```
-**Change to**
+    **Line 50**
 
-```html
-<div class="prolabel-wrapper">
+    ```php
+    <a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" class="product-image"><img src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize(135); ?>" width="135" height="135" alt="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" /></a
+    ```
+
+    **Change to**
+
+    ```php
+    <div class="prolabel-wrapper">
+        <?php echo Mage::helper('prolabels')->getLabel($_product, 'category'); ?>
+        <a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" class="product-image"><img src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize(135); ?>" width="135" height="135" alt="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" /></a>
+    </div>
+    ```
+
+    **Line 94**
+
+    ```php
+    <a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" class="product-image"><img src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize(135); ?>" width="135" height="135" alt="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" /></a>
+    ```
+
+    **Change to**
+
+    ```php
+    <div class="prolabel-wrapper">
     <?php echo Mage::helper('prolabels')->getLabel($_product, 'category'); ?>
     <a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" class="product-image"><img src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize(135); ?>" width="135" height="135" alt="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" /></a>
-</div>
-```
-**Line 94**
+    </div>
+    ```
 
-```html
-<a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" class="product-image"><img src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize(135); ?>" width="135" height="135" alt="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" /></a>
-```
+In order to display labels on **product page**, please do as follows:
 
-**Change to**
+ *  add the code mentioned below to `media.phtml` file. For example,
+    app/design/frontend/[package]/[theme]/template/catalog/product/view/media.phtml .
 
-```html
-<div class="prolabel-wrapper">
-<?php echo Mage::helper('prolabels')->getLabel($_product, 'category'); ?>
-<a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" class="product-image"><img src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize(135); ?>" width="135" height="135" alt="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" /></a>
-</div>
-```
+    Prolabels code should be placed in 2 places.
 
-* In order to display labels on **product page**, please do as follows: add the
-code mentioned below to list.phtml file. For example, app/design/frontend/
-[package]/[theme]/template/catalog/product/view/media.phtml.
+    **Line 38**
 
-Prolabels code should be placed in 2 places.
+    ```php
+    <p class="product-image product-image-zoom">
+    <?php
+    $_img = '<img id="image" src="'.$this->helper('catalog/image')->init($_product, 'image').'" alt="'.$this->htmlEscape($this->getImageLabel()).'" title="'.$this->htmlEscape($this->getImageLabel()).'" />';
+    ```
 
-**Line 38**
+    **Change to**
 
-```html
-<p class="product-image product-image-zoom">
-<?php
-$_img = '<img id="image" src="'.$this->helper('catalog/image')->init($_product, 'image').'" alt="'.$this->htmlEscape($this->getImageLabel()).'" title="'.$this->htmlEscape($this->getImageLabel()).'" />';
-```
-**Change to**
+    ```php
+    <div class="prolabel-wrapper">
+    <?php echo Mage::helper('prolabels')->getLabel($_product, 'product'); ?>
+    <p class="product-image product-image-zoom">
+    <?php
+    $_img = '<img id="image" src="'.$this->helper('catalog/image')->init($_product, 'image').'" alt="'.$this->htmlEscape($this->getImageLabel()).'" title="'.$this->htmlEscape($this->getImageLabel()).'" />';
+    echo $_helper->productAttribute($_product, $_img, 'image');
+    ?>
+    </p>
+    </div>
+    ```
 
-```html
-<div class="prolabel-wrapper">
-<?php echo Mage::helper('prolabels')->getLabel($_product, 'product'); ?>
-<p class="product-image product-image-zoom">
-<?php
-$_img = '<img id="image" src="'.$this->helper('catalog/image')->init($_product, 'image').'" alt="'.$this->htmlEscape($this->getImageLabel()).'" title="'.$this->htmlEscape($this->getImageLabel()).'" />';
-echo $_helper->productAttribute($_product, $_img, 'image');
-?>
-</p>
-</div>
-```
-**Line 60**
+    **Line 60**
 
-```html
-<p class="product-image">
-<?php
-$_img = '<img src="'.$this->helper('catalog/image')->init($_product, 'image')->resize(265).'" alt="'.$this->htmlEscape($this->getImageLabel()).'" title="'.$this->htmlEscape($this->getImageLabel()).'" />';
-```
+    ```php
+    <p class="product-image">
+    <?php
+    $_img = '<img src="'.$this->helper('catalog/image')->init($_product, 'image')->resize(265).'" alt="'.$this->htmlEscape($this->getImageLabel()).'" title="'.$this->htmlEscape($this->getImageLabel()).'" />';
+    ```
 
-**Change to**
+    **Change to**
 
-```html
-<div class="prolabel-wrapper">
-<?php echo Mage::helper('prolabels')->getLabel($_product, 'product'); ?>
-<p class="product-image">
-<?php
-$_img = '<img src="'.$this->helper('catalog/image')->init($_product, 'image')->resize(265).'" alt="'.$this->htmlEscape($this->getImageLabel()).'" title="'.$this->htmlEscape($this->getImageLabel()).'" />';
-echo $_helper->productAttribute($_product, $_img, 'image');
-?>
-</p>
-</div>
-```
-* In order to display labels on **category page on mobile devices**, please
-do as follows: add the code mentioned below to list.phtml file. For example,
-app/design/frontend/[package]/[theme]/template/catalog/product/list.phtml.
+    ```php
+    <div class="prolabel-wrapper">
+    <?php echo Mage::helper('prolabels')->getLabel($_product, 'product'); ?>
+    <p class="product-image">
+    <?php
+    $_img = '<img src="'.$this->helper('catalog/image')->init($_product, 'image')->resize(265).'" alt="'.$this->htmlEscape($this->getImageLabel()).'" title="'.$this->htmlEscape($this->getImageLabel()).'" />';
+    echo $_helper->productAttribute($_product, $_img, 'image');
+    ?>
+    </p>
+    </div>
+    ```
 
-```html
-<?php echo $this->getLayout()->createBlock('prolabels/category')->setProduct($_product)->toHtml(); ?>
-```
-* In order to display labels on **product page on mobile devices**, please
-do as follows: add the code mentioned below to list.phtml file. For example,
-app/design/frontend/[package]/[theme]/template/catalog/product/view.phtml.
+In order to display labels on **category page on mobile devices**, please do
+as follows:
 
-```html
-<?php echo $this->getLayout()->createBlock('prolabels/label')->toHtml(); ?>
-```
+ *  add the code mentioned below to `list.phtml` file. For example,
+    app/design/frontend/[package]/[theme]/template/catalog/product/list.phtml.
 
-* That's all. Navigate to your store and check how it looks.
+    ```php
+    <?php echo $this->getLayout()->createBlock('prolabels/category')->setProduct($_product)->toHtml(); ?>
+    ```
+
+In order to display labels on **product page on mobile devices**, please do as
+follows:
+
+ *  add the code mentioned below to list.phtml file. For example,
+    app/design/frontend/[package]/[theme]/template/catalog/product/view.phtml .
+
+    ```php
+    <?php echo $this->getLayout()->createBlock('prolabels/label')->toHtml(); ?>
+    ```
+
+That's all. Now you are ready to create label for
+[**On Sale**](../backend/on-sale-label) or
+[**New**](../backend/new-product-label) products.
 
 #### After you install an extension you can go to:
 
