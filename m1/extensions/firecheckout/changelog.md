@@ -17,6 +17,7 @@ category: Firecheckout
     - Discount section moved into payment methods section
     - Additional information section moved into Order Confirmation
     - Cleaner styles for Checkout Review table
+    - [View Screenshots](/m1/extensions/firecheckout/)
  -  [SuccessPage 2.0](/m1/extensions/checkout-success/) with new features and
     brand new user-friendly backend UI
 

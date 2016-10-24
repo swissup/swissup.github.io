@@ -15,7 +15,7 @@ faster and easier by providing them a simple checkout form.
 Firecheckout includes a huge amount of configurable additional possibilities:
 
  -  Shipped with 5 layouts
- -  Distraction free "Empty Layout" feature
+ -  Optional distraction free "Empty Layout" feature
  -  Configurable billing and shipping address fields
  -  Configurable section dependencies (Example: reload payment methods when shipping is changed)
  -  Four checkout modes:
