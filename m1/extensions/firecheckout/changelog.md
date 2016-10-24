@@ -7,6 +7,41 @@ category: Firecheckout
 
 # Firecheckout Changelog
 
+### Version 3.8.0
+
+**Major changes**
+
+ -  Updated 2 and 3 columns layout designs:
+    - New, cleaner sections and button styles
+    - Billing and shipping address sections grouped into single section
+    - Discount section moved into payment methods section
+    - Additional information section moved into Order Confirmation
+    - Cleaner styles for Checkout Review table
+ -  [SuccessPage 2.0](/m1/extensions/checkout-success/) with new features and
+    brand new user-friendly backend UI
+
+**Fixes and Improvements**
+
+ -  Added page subtitle feature
+ -  Fixed secyion reload, when checkbox triggered update
+ -  "Undefined index: description" notice fixed
+ -  custom.css moved after all built-in styles
+ -  Review block: product image wrapped into link
+ -  Field instant validation added
+ -  Css refactoring: single css file splitted into separate files
+ -  Added `:focus` button styles
+ -  Small css and js fixes
+ -  [OrderAttachment](/m1/extensions/order-attachments/) module updated to 1.1.4
+ -  [AddressAutocomplete](/m1/extensions/address-autocomplete/) module updated to 1.1.2
+
+**Third-party modules**
+
+ -  Dhl_Magentolws integration added
+ -  Emja_Taxrelief integration updated
+ -  Gene_Braintree compatibility with step-by-step onecolumn mode
+ -  Shipperhq_Pickup integration added
+ -  Shipperhq_Freight integration added
+
 ### Version 3.7.1
 
  -  Fixed hidden registration mode, when using 1column expanded layout

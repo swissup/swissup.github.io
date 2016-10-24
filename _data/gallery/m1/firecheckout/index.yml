@@ -1,0 +1,30 @@
+- href: /images/m1/firecheckout/layout/3columns-minimalistic.png
+  src: /images/m1/firecheckout/layout/small/3columns-minimalistic.png
+  title: Minimalistic 3-columns layout. Some address fields are hidden, no additional information, gift and discount fields.
+  w: 1175
+  h: 715
+- href: /images/m1/firecheckout/layout/3columns.png
+  src: /images/m1/firecheckout/layout/small/3columns.png
+  title: Full featured 3-columns layout
+  w: 1175
+  h: 1005
+- href: /images/m1/firecheckout/layout/2columns.png
+  src: /images/m1/firecheckout/layout/small/2columns.png
+  title: Full featured 2-columns layout
+  w: 1175
+  h: 1385
+- href: /images/m1/firecheckout/layout/2columns-wide.png
+  src: /images/m1/firecheckout/layout/small/2columns-wide.png
+  title: 2-columns layout with wide shipping and payment sections
+  w: 1175
+  h: 1385
+- href: /images/m1/firecheckout/layout/1column.png
+  src: /images/m1/firecheckout/layout/small/1column.png
+  title: First step of 1-column mode
+  w: 1050
+  h: 505
+- href: /images/m1/firecheckout/layout/1column-expanded.png
+  src: /images/m1/firecheckout/layout/small/1column-expanded.png
+  title: 1-column (expanded) mode
+  w: 1050
+  h: 2110
