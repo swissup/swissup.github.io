@@ -4,7 +4,26 @@ title: Supported modules
 description: Firecheckout and third-party modules
 keywords: >
     firecheckout, supported modules, third-party modules,
-    firecheckout payment methods, firecheckout shipping methods
+    firecheckout payment methods, firecheckout shipping methods,
+    2Checkout_Payment, Adyen_Payment, Braintree_Payments, Craig_Tco,
+    Ebizmarts_SagepaymentsPro, Ebizmarts_SagepaySuite, HeidelpayCD_Edition,
+    IntellectLabs_Stripe, Itabs_Debit,IWD_OPC_Signature, Klarna_KlarnaPaymentModule,
+    Netresearch_Billsafe, Netresearch_OPS, Paymill, Phoenix_Ipayment,
+    Phoenix_Wirecardcheckout, Radweb_Stripe, SVMPayment, TemplateTag_Stripe,
+    Vaimo_Klarna, Advox_Inpost, Aicod_Italy, Amasty_Deliverydate,
+    Bysoft_Relaypoint, Dhl_Magentolws, DPD_Shipping, IrvineSystems_Deliverydate,
+    IrvineSystems_JapanPost, IrvineSystems_Sagawa, IrvineSystems_Seino,
+    IrvineSystems_Yamato, JRD_Paczkomaty, Kiala_LocateAndSelect,
+    Magestore_Storepickup, Man4x_MondialRelay, Ophirah_Qquoteadv (Cart2Quote),
+    PostcodeNl_Api, Shipperhq_Freight, Shipperhq_Pickup, Storepickup,
+    TIG_Postcode, Webshopapps_Desttype, WebshopApps_ProductMatrix,
+    Wyomind_Pickupatstore, Amasty_Methods, Magento EE coupons,
+    Magento EE GiftCards and GiftWrap, Aitoc_Aitgiftwrap, Unirgy_GiftCert,
+    Webtex_Gitcards, MageWorx_CustomerCredit, Wf_CustomerBalance (Magecredit),
+    AW_Rewards, Magebuzz_Rewardpoint, Emja_Taxrelief, Webgriffe_TaxIdPro,
+    GCMC_GiveChange, Symmetrics_Buyerprotect, CraftyClicks, Juicy_Geoip,
+    Rack_Getpostcode, AW_Advancednewsletter, AW_Newsletter,
+    RedPandaPlus_OrderAttachments, Inchoo_SocialConnect, TM_SocialSuite
 category: Firecheckout
 ---
 
