@@ -7,6 +7,10 @@ category: Address Autocomplete
 
 # Address Autocomplete Changelog
 
+### Version 1.1.2
+
+ -  Fixed accident fill of address line with full address string
+
 ### Version 1.1.1
 
  -  Fixed compatibility with third-party checkout solutions (Event dispatching issue)
