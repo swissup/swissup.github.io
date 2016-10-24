@@ -46,4 +46,4 @@ category: Firecheckout
  2. Navigate to `System > Configuration > TM Checkout > Firecheckout > Ajax Save and reload rules`
     and add `Payment Methods` value to `Agreements depends on` option:
 
-    ![Argeements reload option](/images/m1/extensions/firecheckout/integration/xonu-directdebit/configuration.png)
+    ![Argeements reload option](/images/m1/firecheckout/integration/xonu-directdebit/configuration.png)

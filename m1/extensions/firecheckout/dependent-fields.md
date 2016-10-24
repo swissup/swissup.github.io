@@ -152,7 +152,7 @@ that will trigger Company and VAT fields to be shown or hidden.
 
 #### Screenshot
 
-![Company vs Person Radio buttons](/images/m1/extensions/firecheckout/dependent-fields/radio_buttons.gif)
+![Company vs Person Radio buttons](/images/m1/firecheckout/dependent-fields/radio_buttons.gif)
 
 [custom_js]: /m1/extensions/firecheckout/using-customcss-and-customjs/#add-custom-javascript-at-firecheckout-page "How to use custom.js file"
 [custom_phtml]: /m1/extensions/firecheckout/using-customphtml/ "How to use custom.phtml file"

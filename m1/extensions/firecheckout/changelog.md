@@ -33,15 +33,15 @@ category: Firecheckout
  -  1 Column layout fixes and improvements:
     -  Formfill marker default styles
 
-        ![Formfill Marker](/images/m1/extensions/firecheckout/changelog/370/formfill-marker.png)
+        ![Formfill Marker](/images/m1/firecheckout/changelog/370/formfill-marker.png)
 
     -   Added hint for registered customers aside of email address
 
-        ![Email hint for registered customers](/images/m1/extensions/firecheckout/changelog/370/email-hint.png)
+        ![Email hint for registered customers](/images/m1/firecheckout/changelog/370/email-hint.png)
 
     -   Improved selectboxes styles on MacOS desktops
 
-        ![MacOS selectoboxes](/images/m1/extensions/firecheckout/changelog/370/mac-os-selectboxes.png)
+        ![MacOS selectoboxes](/images/m1/firecheckout/changelog/370/mac-os-selectboxes.png)
 
 **Third-party modules**
 

@@ -33,4 +33,4 @@ apply the following changes for Two Columns mode:
 
 Here is how it looks like:
 
-![Bpost GoogleMap](/images/m1/extensions/firecheckout/integration/bpost-shm/bpost_map.png)
+![Bpost GoogleMap](/images/m1/firecheckout/integration/bpost-shm/bpost_map.png)

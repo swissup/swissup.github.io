@@ -15,4 +15,4 @@ The following config options should be changed as follows:
 - Payment methods depends on: Add `Order Total` option.
 - Order total (Review) depends on: Add `Shipping Method` value.
 
-![Ship2Pay integration settings](/images/m1/extensions/firecheckout/integration/mymonky-ship2pay/configuration.png)
+![Ship2Pay integration settings](/images/m1/firecheckout/integration/mymonky-ship2pay/configuration.png)

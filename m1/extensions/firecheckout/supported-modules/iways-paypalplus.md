@@ -14,4 +14,4 @@ The following config options should be changed as follows:
 
 - Payment methods depends on: Add `Order Total` option.
 
-![Ship2Pay integration settings](/images/m1/extensions/firecheckout/integration/iways-paypalplus/configuration.png)
+![Ship2Pay integration settings](/images/m1/firecheckout/integration/iways-paypalplus/configuration.png)

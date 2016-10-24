@@ -25,4 +25,4 @@ URL by completing next steps:
  -  replace 'firecheckout' to new name in values of follow nodes:
      -   `config`/`frontend`/`secure_url`/`firecheckout_index`
      -   `config`/`frontend`/`routers`/`firecheckout`/`args`/`frontName`
-    ![Change firecheckout url](/images/m1/extensions/firecheckout/use-cases/change-name.png)
+    ![Change firecheckout url](/images/m1/firecheckout/use-cases/change-name.png)
