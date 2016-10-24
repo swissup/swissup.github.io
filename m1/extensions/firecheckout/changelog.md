@@ -23,7 +23,7 @@ category: Firecheckout
 **Fixes and Improvements**
 
  -  Added page subtitle feature
- -  Fixed secyion reload, when checkbox triggered update
+ -  Fixed section reload, when checkbox triggered ajax request
  -  "Undefined index: description" notice fixed
  -  custom.css moved after all built-in styles
  -  Review block: product image wrapped into link
