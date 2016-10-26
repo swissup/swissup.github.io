@@ -13,13 +13,15 @@ category: Firecheckout
 To add additional php code at firecheckout page, you can create `custom.phtml`
 file at `app/design/frontend/[PACKAGE/THEME]/template/tm/firecheckout` folder.
 
-The file will be automatically included at the firecheckout page at the bottom 
+The file will be automatically included at the firecheckout page at the bottom
 of content column.
 
 > Please note, that this file could be used for php and javascript code only.
 > **Do not use it for visible content**
 
 ##### Related Articles
+
 - [House number field - add tranlations](/m1/extensions/firecheckout/housenumber/)
 - [Dependent fields - add tranlations](/m1/extensions/firecheckout/dependent-fields/)
+- [Email double verification](/m1/extensions/firecheckout/email-double-verification/)
 

@@ -59,6 +59,7 @@ Firecheckout includes a huge amount of configurable additional possibilities:
  5. Additional possibilities
      -  [House number field](housenumber/)
      -  [Dependent fields](dependent-fields/)
+     -  [Email double verification](email-double-verification/)
      -  [Show custom popup window](popup-window/)
      -  [Hide totals in review section](hide-totals-in-review-section/)
      -  [Using custom.css and custom.js](using-customcss-and-customjs/)
