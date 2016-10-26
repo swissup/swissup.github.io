@@ -26,7 +26,7 @@ Firecheckout includes a huge amount of configurable additional possibilities:
  -  Ability to disable shipping address visibility
  -  GeoIP country, region, city and postcode detection
  -  Google [AddressAutocomplete](/m1/extensions/address-autocomplete/)
- -  USPS Address Verification
+ -  [USPS Address Verification](usps-address-verification/)
  -  Default values for shipping and payment methods
  -  [Delivery date and time](delivery-date/)
  -  Discount coupon field
