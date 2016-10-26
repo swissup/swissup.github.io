@@ -27,7 +27,7 @@ category: Firecheckout
             'Email did not match the email above',
             function(v, input) {
                 var dependentInput = $('billing:email'),
-                    isEqualValues  = input.value == dependentInput.value;
+                    isEqualValues  = (input.value.toLowerCase() == dependentInput.value.toLowerCase());
 
                 if (isEqualValues && dependentInput.hasClassName('validation-failed')) {
                     Validation.test(this.className, dependentInput);
