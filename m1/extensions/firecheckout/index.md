@@ -28,7 +28,7 @@ Firecheckout includes a huge amount of configurable additional possibilities:
  -  Google [AddressAutocomplete](/m1/extensions/address-autocomplete/)
  -  USPS Address Verification
  -  Default values for shipping and payment methods
- -  Configurabe delivery date and time
+ -  [Delivery date and time](delivery-date/)
  -  Discount coupon field
  -  Up to 5 additional checkout fields
  -  Order comment field

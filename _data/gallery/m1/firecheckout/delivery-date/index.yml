@@ -1,0 +1,20 @@
+- href: /images/m1/firecheckout/configuration/frontend-map.png
+  src: /images/m1/firecheckout/configuration/small/frontend-map.png
+  title: Firecheckout configuration explained
+  w: 1746
+  h: 1006
+- href: /images/m1/firecheckout/delivery-date/configuration/page.png
+  src: /images/m1/firecheckout/delivery-date/configuration/small/page.png
+  title: Delivery date configuration
+  w: 977
+  h: 1517
+- href: /images/m1/firecheckout/delivery-date/frontend/email.png
+  src: /images/m1/firecheckout/delivery-date/frontend/small/email.png
+  title: Delivery date in transactional email. See manual about implementation
+  w: 684
+  h: 834
+- href: /images/m1/firecheckout/delivery-date/backend/order-view.png
+  src: /images/m1/firecheckout/delivery-date/backend/small/order-view.png
+  title: Delivery date at backend order view page
+  w: 1177
+  h: 1284
