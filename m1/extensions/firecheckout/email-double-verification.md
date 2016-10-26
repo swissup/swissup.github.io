@@ -44,3 +44,5 @@ category: Firecheckout
 #### Screenshot
 
 ![Email double verification in action](/images/m1/firecheckout/email-double-verification/validation-failed.png)
+
+[custom_js]: /m1/extensions/firecheckout/using-customcss-and-customjs/#add-custom-javascript-at-firecheckout-page "How to use custom.js file"
