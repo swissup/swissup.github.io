@@ -86,9 +86,9 @@ gulp.task('serve', ['jekyll'], function() {
     gulp.watch([
         '_data/**/*',
         '_includes/**/*',
-        '_layouts/**/*',
-        '_posts/**/*',
-        'assets/**/*',
+        '_layouts/*',
+        '_posts/*',
+        'assets/*',
         'images/**/*',
         'm1/**/*',
         'm2/**/*'
