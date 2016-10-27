@@ -99,7 +99,18 @@ blockquote > *:first-child {
 }
 
 /* Layout */
-.mdl-layout {
+.page {
+    /* Copied from .mdl-layout (except overflow) */
+    width: 100%;
+    height: 100%;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-overflow-scrolling: touch;
+
     margin: 30px auto;
     max-width: 1080px;
     padding: 10px 50px 30px;
@@ -120,13 +131,13 @@ blockquote > *:first-child {
     body {
         background-color: #fff;
     }
-    .mdl-layout {
+    .page {
         margin: 0 auto;
         box-shadow: none;
     }
 }
 @media (max-width: 839px) {
-    .mdl-layout {
+    .page {
         padding: 0 20px;
     }
 }
