@@ -115,6 +115,7 @@ additional modifications.
 - Amasty_Methods
 - [Amasty_Payrestriction](amasty-payrestriction/)
 - [Amasty_Shiprestriction](amasty-shiprestriction/)
+- [Intrum_Cdp](intrum_cdp/)
 - [Ship and pay combo](mymonki-ship2pay/)
 
 ### Discount Coupons
