@@ -13,4 +13,7 @@ category: Daily Deals
 Please, check root category of your store. Root category has to be anchored
 (check image below). Then deals page will show all offers as it is [here](../frontend/features-right-from-the-box/#all-products-with-active-deals-in-one-place).
 
+After changing root category you may need to flush magento cache and reindex
+`Category Products`.
+
 ![Root Category Anchored](/images/dailydeals/backend/root-category-anchored.png)
