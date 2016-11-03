@@ -8,6 +8,11 @@ category: AjaxPro
 
 # Changelog
 
+### Version 3.3.6
+
+ - Add a +/- button in the product pages that gives the customers the ability to change the quantity
+
+
 ### Version 3.3.5
 
  -  Improved image swapping, when clicking on colorswatch label
