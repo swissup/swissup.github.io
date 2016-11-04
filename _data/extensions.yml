@@ -300,6 +300,13 @@ prozoom:
     m1: /m1/extensions/prozoom/
     m2:
 
+qty-switcher:
+  title: Quantity Switcher
+  short_description:
+  urls:
+    m1: /m1/extensions/qty-switcher/
+    m2:
+
 quickshopping:
   title: Quick Shopping
   short_description:
