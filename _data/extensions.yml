@@ -212,6 +212,13 @@ firecheckout:
     m1: /m1/extensions/firecheckout/
     m2: /m2/extensions/firecheckout/
 
+ga-plugin-scrolldepth:
+  title: Google Analytics - Scroll Depth
+  short_description: Integration of Scroll Depth plugin for Google Analytics
+  urls:
+    m1: /m1/extensions/ga-plugin-scrolldepth/
+    m2:
+
 geoip:
   title: Geoip
   short_description:
