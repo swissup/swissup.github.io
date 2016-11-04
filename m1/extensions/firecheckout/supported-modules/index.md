@@ -6,7 +6,7 @@ keywords: >
     firecheckout, supported modules, third-party modules,
     firecheckout payment methods, firecheckout shipping methods,
     2Checkout_Payment, Adyen_Payment, Braintree_Payments, Craig_Tco,
-    Ebizmarts_SagepaymentsPro, Ebizmarts_SagepaySuite, HeidelpayCD_Edition,
+    Ebizmarts_SagepaymentsPro, HeidelpayCD_Edition,
     IntellectLabs_Stripe, Itabs_Debit,IWD_OPC_Signature, Klarna_KlarnaPaymentModule,
     Netresearch_Billsafe, Netresearch_OPS, Paymill, Phoenix_Ipayment,
     Phoenix_Wirecardcheckout, Radweb_Stripe, SVMPayment, TemplateTag_Stripe,
@@ -51,7 +51,7 @@ additional modifications.
 - Craig_Tco
 - [Customweb_PayUnityCw](customweb-payunitycw/)
 - Ebizmarts_SagepaymentsPro
-- Ebizmarts_SagepaySuite
+- [Ebizmarts_SagepaySuite](ebizmarts-sagepaysuite/)
 - [Gene_Braintree](gene-braintree/)
 - HeidelpayCD_Edition
 - IntellectLabs_Stripe
