@@ -50,3 +50,10 @@ following lines:
     And change following configution:
 
     - Payment methods depends on: Add `Billing Address` option.
+    - Additionally you have to add the `billing:register_account` value into
+        "Billing Address" save rules, if you are using any of 2 or 3-columns
+        modes.
+
+        > In order to add this value, just type it into the field and press enter.
+
+    ![Configuration screenshot](/images/m1/firecheckout/integration/ebizmarts-sagepaysuite/configuration.png)
