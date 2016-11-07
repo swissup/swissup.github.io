@@ -1,5 +1,5 @@
 body {
-    background-color: #fcfcfc;
+    background-color: #fefefe;
 }
 a {
     word-break: break-word;
@@ -535,6 +535,10 @@ $masonry-brick-colors: (
         margin: 0;
         margin-left: -4px; /* fighting gap between inline-block elements */
         padding: 5px;
+
+        img {
+            background: #fff;
+        }
     }
     figcaption {
         display: none;
