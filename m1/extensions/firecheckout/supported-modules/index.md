@@ -5,7 +5,7 @@ description: Firecheckout and third-party modules
 keywords: >
     firecheckout, supported modules, third-party modules,
     firecheckout payment methods, firecheckout shipping methods,
-    2Checkout_Payment, Adyen_Payment, Braintree_Payments, Craig_Tco,
+    2Checkout_Payment, Braintree_Payments, Craig_Tco,
     Ebizmarts_SagepaymentsPro, HeidelpayCD_Edition,
     IntellectLabs_Stripe, Itabs_Debit,IWD_OPC_Signature, Klarna_KlarnaPaymentModule,
     Netresearch_Billsafe, Netresearch_OPS, Paymill, Phoenix_Ipayment,
@@ -40,7 +40,7 @@ additional modifications.
 ### Payment Methods
 
 - 2Checkout_Payment
-- Adyen_Payment
+- [Adyen_Payment](adyen-payment/)
 - [Affirm_Affirm](affirm-affirm/)
 - [Billmate](billmate/)
 - [Billpay](billpay/)
