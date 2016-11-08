@@ -123,7 +123,7 @@ blockquote > *:first-child {
             list-style: none;
             ul {
                 list-style: none;
-                padding-left: 15px;
+                padding-left: 14px;
             }
 
             a {
@@ -133,7 +133,19 @@ blockquote > *:first-child {
                 }
             }
             .active a {
-                font-weight: bold;
+                position: relative;
+
+                &:before {
+                    content: '✪';
+                    font-size: 12px;
+                    line-height: inherit;
+                    vertical-align: top;
+                    position: absolute;
+                    left: -13px;
+
+                    // content: '•';
+                    // left: -8px;
+                }
             }
         }
     }
