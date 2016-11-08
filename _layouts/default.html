@@ -7,12 +7,7 @@
 
         <div class="mdl-grid mdl-grid--no-spacing" style="margin: 0;">
           <div class="article mdl-cell mdl-cell--12-col">
-            {% if page.sidebar %}
-              <aside class="sidenav mdl-shadow--2dp mdl-color--white" style="overflow: auto;">
-                  {% capture sidebar %}{% include_relative {{page.sidebar}} %}{% endcapture %}
-                  {{ sidebar | markdownify }}
-              </aside>
-            {% endif %}
+            {% include sidebar.html %}
             <main class="mdl-layout__content mdl-color-text--grey-800">
               <div class="content">
                 {% include breadcrumbs.html %}
