@@ -132,7 +132,7 @@ blockquote > *:first-child {
                     text-decoration: underline;
                 }
             }
-            .active a {
+            .active > a {
                 position: relative;
 
                 &:before {

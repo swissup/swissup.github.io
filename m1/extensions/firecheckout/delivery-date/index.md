@@ -3,6 +3,7 @@ layout: default
 title: Delivery Date and Time
 description: Delivery Date and Time documentation
 category: Firecheckout
+sidebar: sidebar.md
 ---
 
 # Delivery Date and Time
@@ -19,13 +20,6 @@ Main features:
  -  [Disallow delivery](#excluded-delivery-dates-rules) for particular dates
  -  Customizable [time range values](#delivery-time-settings)
  -  Easy to use in [transactional emails](#transactional-email)
-
-### Contents
-
- 1. [Configuration](#configuration)
- 3. [Transactional email](#transactional-email)
- 5. [Additional possibilities](#additional-possibilities)
-    -  [Show delivery date at product page](#show-delivery-date-at-product-page)
 
 ### Configuration
 
@@ -140,3 +134,4 @@ Open product page template and add the following code:
     <?php echo $this->__('Delivery Date: %s', $this->formatDate($_date, 'long')) ?>
 </p>
 ```
+

@@ -9,7 +9,8 @@
     "jquery": "^2.2.3",
     "flickity": "^1.2.1",
     "photoswipe": "^4.1.1",
-    "clipboard": "^1.5.12"
+    "clipboard": "^1.5.12",
+    "Espy": "espy#^0.1.0"
   },
   "resolutions": {
     "get-size": "~2.0.2",

@@ -3,6 +3,7 @@ layout: default
 title: Firecheckout
 description: Firecheckout documentation
 category: Firecheckout
+sidebar: sidebar.md
 ---
 
 # Firecheckout
@@ -47,22 +48,3 @@ Firecheckout includes a huge amount of configurable additional possibilities:
     - Customer balance
     - Customer fields
     - Address fields
-
-### Contents
-
- 1. [Installation](installation/)
- 2. [Changelog](changelog/)
- 3. [Usps address verification](usps-address-verification/)
- 4. [Supported modules](supported-modules/)
-     -  [Magento built-in modules](supported-modules#magento-built-in-modules)
-     -  [Third-party modules](supported-modules#third-party-modules)
- 5. Additional possibilities
-     -  [House number field](housenumber/)
-     -  [Dependent fields](dependent-fields/)
-     -  [Email double verification](email-double-verification/)
-     -  [Show custom popup window](popup-window/)
-     -  [Hide totals in review section](hide-totals-in-review-section/)
-     -  [Using custom.css and custom.js](using-customcss-and-customjs/)
- 6. [Use cases](use-cases/)
-     -  [Changing URL of Firecheckout page](use-cases/#changing-url-of-firecheckout-page)
- 7. [Troubleshooting](troubleshooting/)

@@ -4,6 +4,7 @@ title: Using dependent fields component
 description: "How to add dependencies between firecheckout form fields"
 keywords: "dependent fields, dependency, company vs person radios"
 category: Firecheckout
+sidebar: sidebar.md
 ---
 
 # Dependent Fields

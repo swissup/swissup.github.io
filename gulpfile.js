@@ -18,11 +18,11 @@ gulp.task('js', function () {
         'bower_components/flickity/dist/flickity.pkgd.min.js',
         'bower_components/clipboard/dist/clipboard.min.js',
         'bower_components/anchor-js/anchor.min.js',
+        'bower_components/Espy/dist/jquery.espy.min.js',
         'bower_components/mustache/mustache.min.js',
         'bower_components/lunr.js/lunr.min.js',
         'bower_components/photoswipe/dist/photoswipe.min.js',
         'bower_components/photoswipe/dist/photoswipe-ui-default.min.js',
-        'bower_components/lunr.js/lunr.min.js',
         'js/*'
     ];
     var local = filter('js/*.js', {restore: true});

@@ -4,6 +4,7 @@ title: Firecheckout Installation
 description: magento firecheckout module installation
 keywords: firecheckout installation, onestep checkout installation
 category: Firecheckout
+sidebar: sidebar.md
 ---
 
 
