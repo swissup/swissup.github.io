@@ -58,6 +58,7 @@ Firecheckout includes a huge amount of configurable additional possibilities:
      -  [Third-party modules](supported-modules#third-party-modules)
  5. Additional possibilities
      -  [House number field](housenumber/)
+     -  [Street line labels](street-line-labels/)
      -  [Dependent fields](dependent-fields/)
      -  [Email double verification](email-double-verification/)
      -  [Show custom popup window](popup-window/)
