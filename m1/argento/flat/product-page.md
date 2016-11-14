@@ -212,6 +212,6 @@ Configuration provides the following options:
 
 ![Customers who bought this item also bought](/images/argento/flat/product-page/customers-who-bought-also-bought.png)
 
-[custom_xml]: /argento/theme-customization/small-changes/#custom-layout-update-file "custom.xml layout"
+[custom_xml]: /m1/argento/theme-customization/small-changes/#custom-layout-update-file "custom.xml layout"
 [fontawesome]: http://fontawesome.io/icons/ "FontAwesome Icons"
 [colorswatches]: http://sherodesigns.com/tutorial-configurable-swatches-in-magento/ "Catalog Configurable Swatches tutorial"
