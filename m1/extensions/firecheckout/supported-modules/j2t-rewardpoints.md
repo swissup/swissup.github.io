@@ -11,7 +11,7 @@ category: Firecheckout
 If rewardpoints are not updated when you remove the item from the cart, apply
 the following changes:
 
- 1. Open `app/code/community/Rewardpoints/Helper/Data.php` and find the
+ 1. Open `app/code/community/J2T/Rewardpoints/Helper/Data.php` and find the
  method `getPointsOnOrder`.
 
     Replace the following code:

@@ -18,6 +18,8 @@
     -  [Third-party modules](/m1/extensions/firecheckout/supported-modules#third-party-modules)
  -  Additional possibilities
     -  [House number field](/m1/extensions/firecheckout/housenumber/)
+    -  [Address field labels and placeholders](street-line-labels/)
+    -  [Street line labels](street-line-labels/)
     -  [Dependent fields](/m1/extensions/firecheckout/dependent-fields/)
     -  [Email double verification](/m1/extensions/firecheckout/email-double-verification/)
     -  [Show custom popup window](/m1/extensions/firecheckout/popup-window/)

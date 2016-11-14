@@ -22,6 +22,7 @@ category: Argento
 11. [How to use FontAwesome icons?](#how-to-use-fontawesome-icons)
 12. [Missing elements at homepage](#missing-elements-at-homepage)
 13. [Remove attributes that have no value](#remove-attributes-that-have-no-value)
+14. [How to show hidden part of product name at category listing](#how-to-show-hidden-part-of-product-name-at-category-listing)
 
 ### How to disable short header and footer layout?
 
@@ -328,3 +329,20 @@ to restore missing elements:
         if ((empty($_test_data_value) || in_array($_test_data_value, array(Mage::helper('catalog')->__('N/A'), Mage::helper('catalog')->__('No'))))) continue;?>
     ```
  3. Check your site now.
+
+### How to show hidden part of product name at category listing
+
+> In **Argento Flat** theme product listing the names of products are hidden to make 
+> headers same size. But sometimes users want to **disable** that feature.
+ 
+ 1. Go to your [custom.css](../theme-customization/small-changes/#custom-styles-and-javascript)
+    file and add following code using your CMS page selector:
+
+    ```css
+    .products-grid .product-name a {
+        overflow: visible;
+        white-space: normal;
+    }
+    ```
+ 2. Save and enjoy
+    
