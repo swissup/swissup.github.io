@@ -38,3 +38,7 @@ the following changes:
     ```
 
  2. Disable compilation and clear the cache.
+
+#### Screenshot
+
+![Screenshot](/images/m1/firecheckout/integration/j2t-rewardpoints/result.png)
