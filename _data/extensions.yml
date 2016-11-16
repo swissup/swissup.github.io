@@ -212,6 +212,13 @@ firecheckout:
     m1: /m1/extensions/firecheckout/
     m2: /m2/extensions/firecheckout/
 
+ga-plugin-events:
+  title: Google Analytics - Additional Events
+  short_description: Track different events at your store and send them to Gogole Analytics
+  urls:
+    m1: /m1/extensions/ga-plugin-events/
+    m2:
+
 ga-plugin-scrolldepth:
   title: Google Analytics - Scroll Depth
   short_description: Integration of Scroll Depth plugin for Google Analytics
