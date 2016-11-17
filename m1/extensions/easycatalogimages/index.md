@@ -30,6 +30,7 @@ child categories.
     3. [Remove block from certain category](#remove-block-from-certain-category)
     4. [Display images near subcategories](#display-images-near-subcategories)
 6. [Compatibility issues](#compatibility-issues)
+7. [Troubleshooting](troubleshooting/)
 
 ### Configuration
 
