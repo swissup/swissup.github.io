@@ -24,6 +24,7 @@ Check video below to see how preview feature works.
 ### Contents
 
  -  [Installation](installation/)
+ -  [Changelog](changelog/)
  -  [Backend extension configuration](backend/)
      +  [General](backend/#general)
      +  [Mockup](backend/#mockup)
