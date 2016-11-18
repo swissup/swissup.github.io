@@ -14,8 +14,8 @@
    inkscape:export-xdpi="90"
    inkscape:export-filename="/home/vova/projects/swissup.github.io/images/m1/firecheckout/configuration/frontend-map.png"
    sodipodi:docname="frontend-map.svg"
-   viewBox="0 0 1774 985"
-   height="985"
+   viewBox="0 0 1774 1027"
+   height="1027"
    width="1774"
    inkscape:version="0.91 r13725"
    version="1.1"
@@ -28,7 +28,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -46,16 +46,16 @@
      inkscape:snap-object-midpoints="true"
      inkscape:snap-midpoints="true"
      showguides="true"
-     inkscape:current-layer="background"
+     inkscape:current-layer="annotations"
      inkscape:window-maximized="1"
      inkscape:window-y="24"
      inkscape:window-x="65"
-     inkscape:cy="805.5"
-     inkscape:cx="389.72597"
-     inkscape:zoom="1"
+     inkscape:cy="502.05887"
+     inkscape:cx="722.43232"
+     inkscape:zoom="0.70710678"
      inkscape:snap-to-guides="false"
      inkscape:snap-grids="false"
-     inkscape:snap-text-baseline="true"
+     inkscape:snap-text-baseline="false"
      inkscape:snap-nodes="true"
      inkscape:bbox-nodes="false"
      inkscape:bbox-paths="true"
@@ -85,14 +85,14 @@
      id="background"
      inkscape:label="background"
      style="display:inline"
-     transform="translate(15,-26)">
+     transform="translate(15,16)">
     <rect
        style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.5;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4188"
        width="1774"
-       height="985"
+       height="1027"
        x="-15"
-       y="26"
+       y="-16"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
   </g>
@@ -101,7 +101,7 @@
      id="screenshot"
      inkscape:label="image"
      style="display:inline"
-     transform="translate(265.99795,-25)">
+     transform="translate(265.99795,17)">
     <image
        width="1175"
        height="1005"
@@ -124,7 +124,7 @@
      id="annotations"
      inkscape:label="annotations"
      style="display:inline"
-     transform="translate(265.99795,-25)">
+     transform="translate(265.99795,17)">
     <g
        id="page_title"
        transform="translate(0,-28)">
@@ -282,7 +282,7 @@
     </g>
     <g
        id="geoip_detection"
-       transform="translate(0,-28)">
+       transform="translate(0,-34)">
       <path
          inkscape:connector-curvature="0"
          inkscape:connector-type="orthogonal"
@@ -729,7 +729,7 @@
          style="fill:none;fill-rule:evenodd;stroke:#ba9724;stroke-width:0.49999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
       <g
          id="g3461"
-         transform="matrix(0.99951114,0,0,1.0165243,656.43305,832.58272)">
+         transform="matrix(0.99951114,0,0,1.0165243,738.43305,832.58059)">
         <rect
            y="106.90503"
            x="-214.28781"
@@ -889,51 +889,11 @@
          r="4" />
     </g>
     <g
-       id="usps_address_verification"
-       transform="translate(0,-28)">
-      <path
-         inkscape:connector-curvature="0"
-         inkscape:connector-type="orthogonal"
-         id="path3519"
-         d="m -25.99795,487.75542 47.75,0 0,-0.15485"
-         style="fill:none;fill-rule:evenodd;stroke:#ba9724;stroke-width:0.49999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <g
-         transform="matrix(1.0022207,0,0,1.0166851,0.50539,363.56069)"
-         id="g3522">
-        <rect
-           ry="0"
-           style="fill:#f1edd6;fill-opacity:1;stroke:#ba9724;stroke-width:0.49533048;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="rect3524"
-           width="181.09764"
-           height="30"
-           x="-207.79384"
-           y="106.90503" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:125%;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-           x="-36.616066"
-           y="128.49672"
-           id="text3526"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             x="-36.616066"
-             y="128.49672"
-             id="tspan3528"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:125%;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';text-align:end;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1">USPS address verification</tspan></text>
-      </g>
-      <circle
-         r="4"
-         cy="487.67258"
-         cx="21.135199"
-         id="circle3530"
-         style="opacity:1;fill:#dcbd4b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    </g>
-    <g
        id="taxvat_validation"
-       transform="translate(0,-28)">
+       transform="translate(0,-27.000304)">
       <path
          style="fill:none;fill-rule:evenodd;stroke:#ba9724;stroke-width:0.49999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="m -25.99795,637.75542 47.75,0 0,-0.15485"
+         d="m -25.99795,636.75572 47.75,0 0,-0.15485"
          id="path3534"
          inkscape:connector-type="orthogonal"
          inkscape:connector-curvature="0" />
@@ -964,8 +924,8 @@
       <circle
          style="opacity:1;fill:#dcbd4b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          id="circle3544"
-         cx="21.135199"
-         cy="637.67261"
+         cx="21.003536"
+         cy="637.00031"
          r="4" />
     </g>
     <g
@@ -1080,6 +1040,279 @@
          cx="1110.0021"
          id="circle3605-6"
          style="display:inline;opacity:1;fill:#dcbd4b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       transform="translate(-265.99795,2)"
+       style="display:inline"
+       id="page_url">
+      <g
+         transform="translate(-1240.0021,-889)"
+         id="g3397"
+         style="display:inline">
+        <rect
+           y="882.24768"
+           x="1321.2496"
+           height="29.504702"
+           width="158.50476"
+           id="rect3413"
+           style="display:inline;fill:#f1edd6;fill-opacity:1;stroke:#ba9724;stroke-width:0.49524495;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           ry="0" />
+        <text
+           transform="scale(1.0089635,0.99111613)"
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.31844139px;line-height:125%;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="1457.834"
+           y="911.64728"
+           id="text3415"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             x="1457.834"
+             y="911.64728"
+             id="tspan3417"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.31844139px;line-height:125%;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';text-align:end;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1">Configurable page url</tspan></text>
+      </g>
+      <path
+         inkscape:connector-curvature="0"
+         id="path3616"
+         d="m 239.99997,7.75 33.06901,-3.1e-5"
+         style="fill:none;fill-rule:evenodd;stroke:#ba9724;stroke-width:0.49999997;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         style="display:inline;opacity:1;fill:#dcbd4b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path3391-3"
+         cx="273.06897"
+         cy="7.7499847"
+         r="4" />
+    </g>
+    <g
+       style="display:inline"
+       id="example.com"
+       transform="translate(6,-14)">
+      <rect
+         y="9.5"
+         x="7.5020504"
+         height="29"
+         width="1148"
+         id="rect3510"
+         style="opacity:1;fill:#ffffff;fill-opacity:0;fill-rule:evenodd;stroke:#cccccc;stroke-width:0.99999988;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         ry="0"
+         rx="0" />
+      <text
+         transform="scale(0.98952723,1.0105836)"
+         sodipodi:linespacing="125%"
+         id="text3512"
+         y="30.305712"
+         x="17.133337"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.43427658px;line-height:125%;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.43427658px;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, '"
+           y="30.305712"
+           x="17.133337"
+           id="tspan3514"
+           sodipodi:role="line"><tspan
+   id="tspan3576"
+   style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Roboto Condensed';-inkscape-font-specification:'Roboto Condensed, ';fill:#000000;fill-opacity:0.30653268">https://www.example.com/</tspan>firecheckout</tspan></text>
+    </g>
+    <g
+       id="dependent_field"
+       transform="matrix(0.99803971,0,0,0.99984771,-264.42942,-16.871245)">
+      <g
+         id="form_field_formatter-6-0"
+         transform="matrix(1.0000015,0,0,1.0166667,263.91955,240.45718)"
+         style="display:inline">
+        <rect
+           y="108.90503"
+           x="-232.17798"
+           height="30"
+           width="205.48174"
+           id="rect3425-6-2-9"
+           style="fill:#f1edd6;fill-opacity:1;stroke:#ba9724;stroke-width:0.49640888;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           ry="0" />
+        <text
+           sodipodi:linespacing="125%"
+           id="text3427-7-9-3"
+           y="130.49672"
+           x="-36.616066"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:125%;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:125%;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';text-align:end;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1"
+             id="tspan3429-5-1-6"
+             y="130.49672"
+             x="-36.616066"
+             sodipodi:role="line">Dependent fields component</tspan></text>
+      </g>
+      <path
+         inkscape:connector-curvature="0"
+         id="path3386-2-0"
+         d="m 236.99795,366.1773 46,0"
+         style="fill:none;fill-rule:evenodd;stroke:#ba9724;stroke-width:0.50052887;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="4"
+         cy="366.17731"
+         cx="285.99973"
+         id="circle3671-3-7-6"
+         style="display:inline;opacity:1;fill:#dcbd4b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       style="display:inline"
+       id="usps_address_verification"
+       transform="matrix(0.99942757,0,0,1,-0.11892,15.998137)">
+      <path
+         inkscape:connector-curvature="0"
+         inkscape:connector-type="orthogonal"
+         id="path3519"
+         d="m -25.99795,487.75542 47.75,0 0,-0.15485"
+         style="fill:none;fill-rule:evenodd;stroke:#ba9724;stroke-width:0.50014311;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <g
+         transform="matrix(1.0022207,0,0,1.0166851,0.50539,363.56069)"
+         id="g3522">
+        <rect
+           ry="0"
+           style="fill:#f1edd6;fill-opacity:1;stroke:#ba9724;stroke-width:0.49547231;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect3524"
+           width="181.09764"
+           height="30"
+           x="-207.79384"
+           y="106.90503" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:125%;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="-36.616066"
+           y="128.49672"
+           id="text3526"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             x="-36.616066"
+             y="128.49672"
+             id="tspan3528"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:125%;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';text-align:end;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1">USPS address verification</tspan></text>
+      </g>
+      <circle
+         r="4"
+         cy="487.67258"
+         cx="21.135199"
+         id="circle3530"
+         style="opacity:1;fill:#dcbd4b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="housenumber"
+       transform="translate(-265.99795,-17)">
+      <g
+         id="form_field_formatter-6"
+         transform="matrix(1.0000015,0,0,1.0166667,264.9216,350.02988)"
+         style="display:inline">
+        <rect
+           y="108.90503"
+           x="-216.14639"
+           height="30"
+           width="189.44995"
+           id="rect3425-6-2"
+           style="fill:#f1edd6;fill-opacity:1;stroke:#ba9724;stroke-width:0.49588433;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           ry="0" />
+        <text
+           sodipodi:linespacing="125%"
+           id="text3427-7-9"
+           y="130.49672"
+           x="-36.616066"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:125%;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:125%;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';text-align:end;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1"
+             id="tspan3429-5-1"
+             y="130.49672"
+             x="-36.616066"
+             sodipodi:role="line">Housenumber component</tspan></text>
+      </g>
+      <path
+         inkscape:connector-curvature="0"
+         id="path3386-2"
+         d="m 238,475.75 46,0"
+         style="fill:none;fill-rule:evenodd;stroke:#ba9724;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="4"
+         cy="475.75"
+         cx="287.0018"
+         id="circle3671-3-7"
+         style="display:inline;opacity:1;fill:#dcbd4b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="field_formatter"
+       transform="translate(-265.99795,-15.997932)">
+      <g
+         id="form_field_formatter"
+         transform="matrix(1.0000015,0,0,1.0166667,266.4491,536.52574)"
+         style="display:inline">
+        <rect
+           y="108.90503"
+           x="-216.14639"
+           height="30"
+           width="189.44995"
+           id="rect3425-6"
+           style="fill:#f1edd6;fill-opacity:1;stroke:#ba9724;stroke-width:0.49588433;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           ry="0" />
+        <text
+           sodipodi:linespacing="125%"
+           id="text3427-7"
+           y="130.49672"
+           x="-36.616066"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:125%;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.5px;line-height:125%;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';text-align:end;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1"
+             id="tspan3429-5"
+             y="130.49672"
+             x="-36.616066"
+             sodipodi:role="line">Feld formatter component</tspan></text>
+      </g>
+      <path
+         inkscape:connector-curvature="0"
+         id="path3386"
+         d="m 240.00001,662.75003 46,0"
+         style="fill:none;fill-rule:evenodd;stroke:#ba9724;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="4"
+         cy="662.99792"
+         cx="287"
+         id="circle3671-3"
+         style="display:inline;opacity:1;fill:#dcbd4b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    </g>
+    <g
+       id="discount_checkbox_state"
+       transform="translate(-265.99795,-17)">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3403"
+         d="m 644,776.24996 -13.75,0 0,159.74999"
+         style="fill:none;fill-rule:evenodd;stroke:#ba9724;stroke-width:0.49999994;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <circle
+         r="4"
+         cy="776.24994"
+         cx="644"
+         id="circle3741-6"
+         style="display:inline;opacity:1;fill:#dcbd4b;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <g
+         transform="matrix(0.99951114,0,0,1.0165243,774.33374,821.58272)"
+         id="g3461-7"
+         style="display:inline">
+        <rect
+           ry="0"
+           style="fill:#f1edd6;fill-opacity:1;stroke:#ba9724;stroke-width:0.49604067;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect3463-5"
+           width="259.63113"
+           height="30"
+           x="-286.22577"
+           y="106.90294" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.40735054px;line-height:125%;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';text-align:end;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="-37.476089"
+           y="128.42351"
+           id="text3465-3"
+           sodipodi:linespacing="125%"
+           transform="scale(1.0034103,0.9966013)"><tspan
+             sodipodi:role="line"
+             x="-37.476082"
+             y="128.42351"
+             id="tspan3467-5"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.40735054px;line-height:125%;font-family:'Ubuntu Condensed';-inkscape-font-specification:'Ubuntu Condensed, Normal';text-align:end;writing-mode:lr-tb;text-anchor:end;fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1">Configurable discount checkbox state</tspan></text>
+      </g>
     </g>
   </g>
 </svg>
