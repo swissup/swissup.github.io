@@ -46,13 +46,13 @@
      inkscape:snap-object-midpoints="true"
      inkscape:snap-midpoints="true"
      showguides="true"
-     inkscape:current-layer="annotations"
+     inkscape:current-layer="field_formatter"
      inkscape:window-maximized="1"
      inkscape:window-y="24"
      inkscape:window-x="65"
-     inkscape:cy="502.05887"
-     inkscape:cx="722.43232"
-     inkscape:zoom="0.70710678"
+     inkscape:cy="352.13918"
+     inkscape:cx="125.1579"
+     inkscape:zoom="3.4915016"
      inkscape:snap-to-guides="false"
      inkscape:snap-grids="false"
      inkscape:snap-text-baseline="false"
@@ -1238,15 +1238,15 @@
        transform="translate(-265.99795,-15.997932)">
       <g
          id="form_field_formatter"
-         transform="matrix(1.0000015,0,0,1.0166667,266.4491,536.52574)"
+         transform="matrix(0.99876314,0,0,1.0166667,266.41545,536.52574)"
          style="display:inline">
         <rect
            y="108.90503"
-           x="-216.14639"
+           x="-218.43768"
            height="30"
-           width="189.44995"
+           width="191.74127"
            id="rect3425-6"
-           style="fill:#f1edd6;fill-opacity:1;stroke:#ba9724;stroke-width:0.49588433;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           style="fill:#f1edd6;fill-opacity:1;stroke:#ba9724;stroke-width:0.49619165;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
            ry="0" />
         <text
            sodipodi:linespacing="125%"
@@ -1259,7 +1259,7 @@
              id="tspan3429-5"
              y="130.49672"
              x="-36.616066"
-             sodipodi:role="line">Feld formatter component</tspan></text>
+             sodipodi:role="line">Field formatter component</tspan></text>
       </g>
       <path
          inkscape:connector-curvature="0"
