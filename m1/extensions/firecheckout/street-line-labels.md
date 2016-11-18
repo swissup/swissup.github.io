@@ -10,7 +10,7 @@ category: Firecheckout
 
 # Street line labels
 
-> Available since 3.8.1
+> Available since 3.9.0
 
 Firecheckout can add, modify, remove field labels and placeholders with
 [FormFieldManager](../form-field-manager/) component.
@@ -63,6 +63,10 @@ All you need is to call the javascript initialization from firecheckout page.
         ```
 
  4. Save all files and clear magento cache.
+
+#### Screenshot
+
+![Street line 2 label and placeholder](/images/m1/firecheckout/form-field-manager/street-line-label.png)
 
 [custom_js]: /m1/extensions/firecheckout/using-customcss-and-customjs/#add-custom-javascript-at-firecheckout-page "How to use custom.js file"
 [custom_phtml]: /m1/extensions/firecheckout/using-customphtml/ "How to use custom.phtml file"

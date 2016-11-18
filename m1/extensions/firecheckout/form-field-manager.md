@@ -9,7 +9,7 @@ category: Firecheckout
 
 # Form field manager
 
-> Available since 3.8.1
+> Available since 3.9.0
 
 Firecheckout can add, modify, remove field labels and placeholders with
 "FormFieldManager" component. Additionally it can add field formatter to any field
@@ -35,6 +35,16 @@ The shortest way to understand supported options is the next code example:
         placeholder: 'Apt.'
     },
 
+    '#billing\\:firstname': {
+        label: false,
+        placeholder: 'First Name'
+    },
+
+    '#billing\\:lastname': {
+        label: false,
+        placeholder: 'Last Name'
+    },
+
     '#billing\\:telephone': {
         placeholder: '202-555-0198',
         formatter: {
@@ -48,6 +58,17 @@ The shortest way to understand supported options is the next code example:
             // 1. '(800) 123-4567'  : '({{999}}) {{999}}-{{9999}}'
             // 2. '+1-202-555-0198' : '+{{9}}-{{999}}-{{999}}-{{9999}}'
         }
+    },
+
+    '#billing\\:fax': {
+        placeholder: '+1-202-555-0198',
+        formatter: {
+            pattern: '+{{9}}-{{999}}-{{999}}-{{9999}}'
+        }
     }
 });{% endraw %}
 ```
+
+#### Screenshot
+
+![Street line 2 label and placeholder](/images/m1/firecheckout/form-field-manager/form-field-manager.png)
