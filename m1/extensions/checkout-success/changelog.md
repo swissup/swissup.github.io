@@ -24,5 +24,3 @@ category: Checkout Success
  -  success page preview in Magento backend
  -  quick ajax registration for guest customers on success page
  -  custom.css and custom.js for your unique styles and scripts
-
-How to use this extension you can find at http://docs.swissuplabs.com/m1/extensions/checkout-success/
