@@ -367,3 +367,15 @@ Navigate to `Settings > Startup > Tasks > New` and create new tasks:
 3. [Download sublime setting files](https://gist.github.com/vovayatsyuk/e8257a707b841c78a794)
   and place them into `%APPDATA%/Sublime Text 3/Packages/User`
 
+#### Opne VPN in Ubuntu
+
+ 1. Run command in terminal to install required apps:
+
+    ```
+    sudo apt-get install network-manager-openvpn-gnome openvpn
+    ```
+
+ 2. Go to VPN connections settins and configure VPN. In `Connection type`
+    drop-down select 'Open VPN'.
+ 3. In Advanced settings check `Use LZO data compression` option (tab
+    'General').
