@@ -18,6 +18,8 @@ Please follow next steps to complete the installation:
     composer require geoip2/geoip2
     bin/magento module:enable Swissup_Core Swissup_SubscriptionChecker Swissup_Geoip
     bin/magento setup:upgrade
+    rm -rf pub/static/_requirejs var/view_preprocessed
+    bin/magento setup:static-content:deploy
     ```
 
 That's all.
