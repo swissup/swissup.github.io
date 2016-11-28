@@ -12,6 +12,13 @@ addressautocomplete:
     m1: /m1/extensions/address-autocomplete/
     m2: /m2/extensions/address-autocomplete/
 
+address-field-manager:
+  title: Address Field Manager
+  short_description:
+  urls:
+    m1:
+    m2: /m2/extensions/address-field-manager/
+
 affiliatesuite:
   title: Affiliate Suite
   short_description:
