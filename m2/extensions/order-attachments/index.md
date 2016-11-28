@@ -3,7 +3,7 @@ layout: default
 title: Order Attachments
 description: Magento Order Attachments documentation
 keywords: "order attachments, email integration"
-category: Firecheckout
+category: Order Attachments
 ---
 
 # Order Attachments
@@ -14,6 +14,7 @@ links only.
 
 ### Contents
 1. [Installation](#installation)
+1. [Changelog](changelog/)
 2. [Features](#features)
 3. [Frontend](#frontend)
  - [Firecheckout](#firecheckout)
