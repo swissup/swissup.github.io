@@ -8,6 +8,10 @@ category: Checkout VAT
 
 # Changelog
 
+### Version 1.0.1
+
+ -  Updated module dependencies
+
 ### Version 1.0.0
 
  -  Initial Release
