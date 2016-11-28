@@ -1,0 +1,31 @@
+- href: /images/m2/address-field-manager/backend/grid.png
+  src: /images/m2/address-field-manager/backend/small/grid.png
+  w: 1024
+  h: 807
+  title: >
+      Address Field Manager grid interface.
+- href: /images/m2/address-field-manager/frontend/onepage-checkout-form.png
+  src: /images/m2/address-field-manager/frontend/small/onepage-checkout-form.png
+  w: 985
+  h: 896
+  title: >
+      Integration with onepage checkout module.
+- href: /images/m2/address-field-manager/frontend/onepage-checkout-preview.png
+  src: /images/m2/address-field-manager/frontend/small/onepage-checkout-preview.png
+  w: 985
+  h: 744
+  title: >
+      Integration with address preview templates.
+- href: /images/m2/address-field-manager/frontend/customer-address-form.png
+  src: /images/m2/address-field-manager/frontend/small/customer-address-form.png
+  w: 985
+  h: 572
+  title: >
+      Integration with customer account page.
+- href: /images/m2/address-field-manager/frontend/firecheckout.png
+  src: /images/m2/address-field-manager/frontend/small/firecheckout.png
+  w: 1288
+  h: 721
+  title: >
+      Integration with Firecheckout.
+
