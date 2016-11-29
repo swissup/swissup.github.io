@@ -16,7 +16,20 @@ Option      | Description
 ------------|------------
 Enabled     | Allows to enable/disable firecheckout per store view
 Url Path    | Set custom url to the firecheckout page
-Layout      | Select layout to use at firecheckout page
+Layout      | [Select layout](#layout) to use at firecheckout page
+
+#### Layout
+
+There are 4 layouts are available to use:
+
+ -  1 Column (Expanded)
+ -  2 Columns (Wide Payment and Shipping sections)
+ -  2 Columns (Place Payment and Shipping sections side by side)
+ -  3 Columns
+
+Layout screenshots:
+
+{% include gallery.html images=site.data.gallery.m2.firecheckout.configuration.layout class="scroll phone-up-1 tablet-up-3 photoswipe" %}
 
 #### Next up
 
