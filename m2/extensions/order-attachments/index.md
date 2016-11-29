@@ -7,36 +7,25 @@ category: Order Attachments
 ---
 
 # Order Attachments
+
 Magento Order Attachments module adds ability to attach files to order. It also
 provides ability to include attachment links to email template. All attached
 files are protected from public access and accessible via private generated
 links only.
 
 ### Contents
-1. [Installation](#installation)
-1. [Changelog](changelog/)
-2. [Features](#features)
-3. [Frontend](#frontend)
- - [Firecheckout](#firecheckout)
- - [Order view page](#order-view-page)
- - [Email integration](#email-integration)
-4. [Backend](#backend)
- - [Configuration](#configuration)
- - [Order attachments page](#order-attachments-page)
- - [Order edit page](#order-edit-page)
 
-## Installation
-
-Please follow next steps to complete the installation:
-
- 1. Unpack extension archive into `<magento_root>`.
- 2. Run the following commands in terminal:
-
-    ```bash
-    cd <magento_root>
-    bin/magento module:enable Swissup_Core Swissup_SubscriptionChecker Swissup_Orderattachment
-    bin/magento setup:upgrade
-    ```
+ 1. [Installation](installation/)
+ 1. [Changelog](changelog/)
+ 2. [Features](#features)
+ 3. [Frontend](#frontend)
+    - [Firecheckout](#firecheckout)
+    - [Order view page](#order-view-page)
+    - [Email integration](#email-integration)
+ 4. [Backend](#backend)
+    - [Configuration](#configuration)
+    - [Order attachments page](#order-attachments-page)
+    - [Order edit page](#order-edit-page)
 
 ## Features
 
