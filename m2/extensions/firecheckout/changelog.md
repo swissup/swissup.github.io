@@ -8,6 +8,25 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.3.0
+
+**Major Updates**
+
+ -  [AddressFieldManager](/m2/extensions/address-field-manager/) module added.
+    See the [installation instructions](../installation/) on how to enable new module.
+ -  Updated overall firecheckout styles. More light and spacing. [View Screenshots](../)
+ -  Added section numbers aside of each title
+ -  Added ability to change firecheckout url from [configuration](../configuration/)
+
+**Fixes and Improvements**
+
+ -  Fixed payment methods styles for narrow screens
+ -  Fixed 'Unable to set null, null as shipping_method' error
+ -  Fixed address reset after zipcode update
+ -  Improved Agreement checkboxes styles
+ -  Improved third-party themes integration abilities
+ -  Added better layout explanation titles in configuration
+
 ### Version 1.2.0
 
  -  Magento 2.0.9 compatibility

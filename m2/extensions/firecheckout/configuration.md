@@ -12,10 +12,11 @@ category: Firecheckout
 
 ![General section](/images/m2/firecheckout/configuration/general.png)
 
-Option | Description
--------|------------
-Enabled | Allows to enable/disable firecheckout per store view
-Layout | Select layout to use at firecheckout page
+Option      | Description
+------------|------------
+Enabled     | Allows to enable/disable firecheckout per store view
+Url Path    | Set custom url to the firecheckout page
+Layout      | Select layout to use at firecheckout page
 
 #### Next up
 

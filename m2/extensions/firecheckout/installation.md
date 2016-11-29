@@ -19,7 +19,9 @@ category: Firecheckout
     # enable Firecheckout modules
     bin/magento module:enable\
         Swissup_Core\
+        Swissup_Checkout\
         Swissup_AddressAutocomplete\
+        Swissup_AddressFieldManager\
         Swissup_Geoip\
         Swissup_CheckoutSuccess\
         Swissup_Firecheckout\
