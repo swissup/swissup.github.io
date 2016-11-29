@@ -16,6 +16,7 @@ category: Address Field Manager
     bin/magento module:enable\
         Swissup_Core\
         Swissup_Checkout\
+        Swissup_SubscriptionChecker\
         Swissup_AddressFieldManager
 
     # run magento upgrade scripts
