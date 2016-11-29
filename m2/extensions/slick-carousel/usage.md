@@ -78,3 +78,8 @@ is available at slick's carousel [official site][slick_site].
 [slick_site]: http://kenwheeler.github.io/slick/
 [slick_options]: http://kenwheeler.github.io/slick/#settings
 [slick_examples]: http://kenwheeler.github.io/slick/#demos
+
+##### Next up
+
+- [Back to docs homepage](../)
+- [Lazy Load](../troubleshooting/#lazy-load)
