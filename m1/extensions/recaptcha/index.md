@@ -10,8 +10,9 @@ category: reCAPTCHA
 
 ![reCAPTCHA exapmles](/images/m1/extensions/recaptcha/cover.png)
 
-1. [Installation](installation/)
-2. [Extension Configuration](extension-configuration/)
+ 1. [Installation](installation/)
+ 2. [Changelog](changelog/)
+ 3. [Extension Configuration](extension-configuration/)
 
 Protect your website from spam and abuse while letting real people pass through with ease. Your customers can now attest they are human without having to solve a CAPTCHA. Instead with one click they’ll confirm they are not a robot.
 
