@@ -1,9 +1,10 @@
 var navigation = (function() {
 
-    function spy(entered, state) {
-        var links    = $('li a', '.sidenav'),
-            sections = $('h1, h2, h3, h4, h5, h6', '.mdl-layout__content'),
-            visible  = [];
+    var context = $('.mdl-layout__content'), // scrollable element
+        visible = {};
+
+    function spy() {
+        var sections = $('h1, h2, h3, h4, h5, h6', '.mdl-layout__content');
 
         sections.espy(function(entered, state) {
             var section = this;
@@ -11,22 +12,36 @@ var navigation = (function() {
                 return;
             }
 
-            if (!entered) {
+            if (!entered && state == 'down') {
+                console.log(state);
                 delete visible[section.id];
                 return;
             }
             visible[section.id] = section;
-
-            // get closest element to the middle of the screen
-
-            console.log(visible);
-
-            navigation.activate('#' + section.id);
         }, {
-            context: $('.mdl-layout__content').get(0),
-            offset: -parseInt($('.mdl-layout__content').height() / 2),
+            context: context.get(0),
+            offset: 0,
             contain: true
         });
+
+        context.on('scroll', _.throttle(function() {
+            // get closest element to the middle of the screen
+            var middle  = context.offset().top + context.height() / 3,
+                minDiff = 10000;
+
+            $.each(visible, function(id, el) {
+                var diff = Math.abs($(el).offset().top - middle);
+                if (diff < minDiff) {
+                    minDiff = diff;
+                    section = el;
+                }
+            });
+
+            // activate it
+            if (section) {
+                navigation.activate('#' + section.id);
+            }
+        }, 300));
     }
 
     return {
@@ -65,7 +80,7 @@ var navigation = (function() {
                 li.addClass('active');
             }
         }
-    }
+    };
 })();
 
 (function($) {

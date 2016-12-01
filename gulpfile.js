@@ -14,6 +14,7 @@ gulp.task('js', function () {
     var files = [
         'bower_components/material-design-lite/material.min.js',
         'bower_components/jquery/dist/jquery.min.js',
+        'bower_components/lodash/dist/lodash.min.js',
         'bower_components/packery/dist/packery.pkgd.min.js',
         'bower_components/flickity/dist/flickity.pkgd.min.js',
         'bower_components/clipboard/dist/clipboard.min.js',
@@ -31,7 +32,7 @@ gulp.task('js', function () {
         .pipe(jshint())
         .pipe(jshint.reporter('default'))
         .pipe(local.restore)
-        .pipe(uglify())
+        .pipe(uglify().on('error', gutil.log))
         .pipe(concat('all.js'))
         .pipe(gulp.dest('assets'));
 });
