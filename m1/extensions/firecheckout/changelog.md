@@ -7,6 +7,48 @@ category: Firecheckout
 
 # Firecheckout Changelog
 
+### Version 3.9.0
+
+**Major changes**
+
+ -  Added ability to change firecheckout url from backend configuration
+    (System > Configuration > TM Checkout > Firecheckout > General)
+
+    ![Firecheckout Url Path](/images/m1/firecheckout/changelog/390/url-path.png)
+
+ -  Configurable discount checkbox state added
+    (System > Configuration > TM Checkout > Firecheckout > General)
+
+    ![Discount checkbox state](/images/m1/firecheckout/changelog/390/discount-checkbox-state.png)
+
+ -  Added [FormFieldManager](../form-field-manager/) component with following features:
+    + Update address field [label or placeholder](../street-line-labels/)
+    + Update field placeholder on any form at checkout
+    + Add [field formatter](../form-field-manager/) at any checkout field
+
+**Fixes and Improvements**
+
+ -  Fixed error, when multiple ajax loaders where added to the field
+ -  Fixed wrong button:hover color on some themes
+ -  Added additional css classes to the body element
+ -  Added additional layout handles for third-party modules:
+    + firecheckout_index_index_custom
+    + firecheckout_index_updatecheckout_custom
+ -  Fixed missing layout messages after ajax update
+ -  Discount form will be automatically expanded, when coupon is applied
+ -  Store ids added to the cms block titles in backend configuration:
+    (System > Configuration > TM Checkout > Firecheckout > Additional content)
+
+    ![Store ids next to cms block title](/images/m1/firecheckout/changelog/390/cms-block-list.png)
+
+**Third-party modules**
+
+ -  [Gene_Braintree integration updated](../supported-modules/gene-braintree/)
+ -  [Ebixmarts_SagePaySuite integration updated](../supported-modules/ebizmarts-sagepaysuite/)
+ -  TIG_PostNL and PostcodeNl_Api conflict fixed
+ -  [J2T_Rewardpoints integration updated](../supported-modules/j2t-rewardpoints/)
+ -  Firegento_Magesetup integration added
+
 ### Version 3.8.0
 
 **Major changes**

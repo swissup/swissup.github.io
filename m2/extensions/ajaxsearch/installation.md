@@ -10,14 +10,15 @@ category: Ajaxsearch
 
 Please follow next steps to complete the installation:
 
-Run the following commands:
+ 1. Unpack extension archive into `<magento_root>/app/code`.
+ 2. Run the following commands in terminal:
 
 ```bash
 cd <magento_root>
-composer config repositories.swissup composer https://swissup.github.io/packages/
-composer require swissup/ajaxsearch:dev-master --prefer-source
 bin/magento module:enable Swissup_Core Swissup_SubscriptionChecker Swissup_Ajaxsearch
 bin/magento setup:upgrade
+rm -rf pub/static/_requirejs var/view_preprocessed
+bin/magento setup:static-content:deploy
 ```
 
 That's all.

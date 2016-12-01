@@ -36,6 +36,8 @@ dynamically generated content.
     - [Basic Usage][usage_basic] (Static content carousel)
     - [Advanced Usage][usage_advanced] (Product listing carousel)
     - [Slick Carousel parameters](usage/#parameters)
+ 4. [Troubleshooting](troubleshooting/)
+    - [Lazy Load](troubleshooting/#lazy-load)
 
 [usage_basic]: usage/#basic-usage
 [usage_advanced]: usage/#advanced-usage

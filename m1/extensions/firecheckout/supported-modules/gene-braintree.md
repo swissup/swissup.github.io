@@ -2,11 +2,13 @@
 layout: default
 title: Gene Braintree integration
 description: Firecheckout integration with Gene Braintree
-keywords: Gene, Braintree
+keywords: gene, braintree, gene_braintree
 category: Firecheckout
 ---
 
 # Gene Braintree
+
+> Gene_Braintree version — 2.1.6
 
 Open `app/design/frontend/base/default/template/gene/braintree/js/firecheckout.phtml`
 and apply the following patch:
@@ -30,15 +32,6 @@ and apply the following patch:
 +            var firecheckoutArguments = this.firecheckoutArguments || [];
 +            return checkout.save.apply(checkout, firecheckoutArguments);
          },
-
-         /**
-@@ -91,7 +91,7 @@
-         (window.vzeroPaypal || false),
-         '<div id="paypal-complete"><div id="paypal-container"></div></div>',
-         '#review-buttons-container .btn-checkout',
--        true,
-+        $$('.firecheckout-set.onecolumn').length === 0,
-         {
-             ignoreAjax: ['firecheckout/index/saveOrder']
-         }
 ```
+
+Save the file and clear Magento cache.

@@ -8,6 +8,10 @@ category: Checkout Success
 
 # Changelog
 
+### Version 1.0.1
+
+ -  Acl fixes
+
 ### Version 1.0.0
 
  -  Initial Release

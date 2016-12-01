@@ -10,10 +10,10 @@ category: Firecheckout
 
 # Street line labels
 
-> Available since 3.8.1
+> Available since 3.9.0
 
 Firecheckout can add, modify, remove field labels and placeholders with
-"AddressFieldLabel" component.
+[FormFieldManager](../form-field-manager/) component.
 All you need is to call the javascript initialization from firecheckout page.
 
  1. Create [custom.js file][custom_js]
@@ -25,15 +25,15 @@ All you need is to call the javascript initialization from firecheckout page.
         //  - Text value (To add or update field label/placeholder)
         //  - Boolean false (To hide field label/placeholder)
         var rules = {
-            'billing:street1': {
+            '#billing\\:street1': {
                 placeholder: 'Enter your street line 1'
             },
-            'billing:street2': {
+            '#billing\\:street2': {
                 label: 'Street 2',
                 placeholder: 'Enter your street line 2'
             }
         };
-        FC.AddressFieldLabel.processRules(rules);
+        new FC.FormFieldManager(rules);
     });
     ```
 
@@ -59,10 +59,14 @@ All you need is to call the javascript initialization from firecheckout page.
         ```csv
         "Enter your street line 1","Geben Sie Ihre Straße ein 1"
         "Enter your street line 2","Geben Sie Ihre Straße ein 2"
-        "Enter your street line 2","Straße Nummer 2"
+        "Street 2","Straße Nummer 2"
         ```
 
  4. Save all files and clear magento cache.
+
+#### Screenshot
+
+![Street line 2 label and placeholder](/images/m1/firecheckout/form-field-manager/street-line-label.png)
 
 [custom_js]: /m1/extensions/firecheckout/using-customcss-and-customjs/#add-custom-javascript-at-firecheckout-page "How to use custom.js file"
 [custom_phtml]: /m1/extensions/firecheckout/using-customphtml/ "How to use custom.phtml file"

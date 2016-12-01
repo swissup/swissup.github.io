@@ -320,6 +320,14 @@ to restore missing elements:
     (or copy this file in your theme from
     `app/design/frontend/argento/default/template/catalog/product/view/attributes.phtml`)
     line 37
+    
+    > If you have **EasyTabs** extension enabled please overload this file:
+    > `app/design/frontend/base/default/template/tm/easytabs/tab/catalog/product/view/attributes.phtml`
+    > 
+    > and put it to 
+    > 
+    > `app/argento/[mytheme]_custom/template/tm/easytabs/tab/catalog/product/view/attributes.phtml`
+
  2. Add following lines:
 
     ```php

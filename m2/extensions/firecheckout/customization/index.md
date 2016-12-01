@@ -10,7 +10,7 @@ category: Firecheckout
  1. General
     - [Custom css styles](custom-css/)
     - [Custom javascript](custom-js/)
-    - [Custom firecheckout url](custom-url/)
+    - [Custom firecheckout url](../configuration/#general-section)
  2. Theming
     - General
         - [Less variables](less-variables/)

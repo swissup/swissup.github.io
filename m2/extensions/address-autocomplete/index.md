@@ -5,22 +5,6 @@ description: Address Autocompleter based on Google Maps API
 keywords: >
     magento 2 address autocompleter, magento gmaps, magento 2 google maps
 category: Address Autocomplete
-gallery:
-  - href: /images/m2/address-autocomplete/firecheckout.gif
-    src: /images/m2/address-autocomplete/firecheckout.gif
-    w: 410
-    h: 744
-    title: Address Autocomplete at Firecheckout Page
-  - href: /images/m2/address-autocomplete/firecheckout2.gif
-    src: /images/m2/address-autocomplete/firecheckout2.gif
-    w: 960
-    h: 723
-    title: Address Autocomplete at Firecheckout Page
-  - href: /images/m2/address-autocomplete/checkout.gif
-    src: /images/m2/address-autocomplete/checkout.gif
-    w: 536
-    h: 978
-    title: Address Autocomplete at Standard Onepage Checkout
 ---
 
 # Address Autocomplete
@@ -30,7 +14,7 @@ google maps api features.
 
 Module supports Magento onepage checkout and Firecheckout modules.
 
-{% include gallery.html images=page.gallery class="phone-up-1 tablet-up-2 photoswipe" %}
+{% include gallery.html images=site.data.gallery.m2.address-autocomplete.index class="scroll phone-up-1 tablet-up-3 photoswipe" %}
 
 - [Installation](installation/)
 - [Changelog](changelog/)

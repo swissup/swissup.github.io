@@ -5,7 +5,12 @@ description: Address Autocomplete changelog
 category: Address Autocomplete
 ---
 
-# Address Autocomplete Changelog
+# Changelog
+
+### Version 1.0.2
+
+ -  Acl fixes
+ -  Updated module dependencies
 
 ### Version 1.0.1
 

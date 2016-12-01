@@ -63,7 +63,8 @@ php bin/magento module:enable\
     Swissup_SoldTogether\
     Swissup_Testimonials\
     Swissup_ThemeEditor\
-    Swissup_ThemeEditorArgentoEssence
+    Swissup_ThemeEditorArgentoEssence\
+    Swissup_ThemeEditorArgentoFlat
 
 # run magento upgrade scripts
 php bin/magento setup:upgrade
