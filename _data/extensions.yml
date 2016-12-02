@@ -31,7 +31,7 @@ ajaxlayerednavigation:
   short_description:
   urls:
     m1: /m1/extensions/ajaxlayerednavigation/
-    m2:
+    m2: /m2/extensions/ajaxlayerednavigation/
 
 ajaxpro:
   title: AjaxPro
