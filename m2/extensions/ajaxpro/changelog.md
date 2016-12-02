@@ -10,6 +10,14 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.1.2
+
+- Acl sort order fixes
+- Layouts buildings and his destructing was optimised
+- Forced totals recalculation was added
+- Add selectors ".action.tocart" in ajaxcian (related, crosell, etc.)
+
+
 ### Version 1.1.0
 
 > This version is **not compatible** with old Magento versions.
