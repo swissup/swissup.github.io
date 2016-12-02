@@ -8,6 +8,13 @@ category: AjaxPro
 
 # Changelog
 
+### Version 3.3.7
+
+ - Add magento 1.9.3 integration (varien/product_options.js was added)
+ - $j undefined bug was fixed (colorswatches integration)
+ - 'ajaxcart' block was added to defaults (theme logancee integration)
+ - CSV syntax error fix for en_US
+
 ### Version 3.3.6
 
  - Add a +/- button in the product pages that gives the customers the ability to change the quantity
