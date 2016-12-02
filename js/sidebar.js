@@ -13,7 +13,6 @@ var navigation = (function() {
             }
 
             if (!entered && state == 'down') {
-                console.log(state);
                 delete visible[section.id];
                 return;
             }
@@ -24,30 +23,53 @@ var navigation = (function() {
             contain: true
         });
 
-        context.on('scroll', _.throttle(function() {
-            // get closest element to the middle of the screen
-            var middle  = context.offset().top + context.height() / 3,
-                minDiff = 10000;
+        context.on('scroll', _.throttle(update, 300, {
+            trailing: false
+        }));
+    }
 
-            $.each(visible, function(id, el) {
-                var diff = Math.abs($(el).offset().top - middle);
-                if (diff < minDiff) {
-                    minDiff = diff;
-                    section = el;
-                }
-            });
+    /**
+     * @todo: Rewrite the logic completely
+     *
+     * 1. Split sections by their height and get top and bottom coordinates
+     *     of scrollbar position per each section
+     * 2. Activate item by scrollTop value
+     * 3. Remove espy completely
+     *
+     * @return void
+     */
+    function update() {
+        // get closest element to the middle of the screen
+        var middle  = context.offset().top + context.height() / 3,
+            minDiff = 10000;
 
-            // activate it
-            if (section) {
-                navigation.activate('#' + section.id);
+        $.each(visible, function(id, el) {
+            var diff = Math.abs($(el).offset().top - middle);
+            if (diff < minDiff) {
+                minDiff = diff;
+                section = el;
             }
-        }, 300));
+        });
+
+        // activate it
+        if (section) {
+            navigation.activate('#' + section.id);
+        }
     }
 
     return {
         init: function() {
             // Activate href link and all parent li's
-            this.activate(window.location.pathname);
+            if (false === this.activate(window.location.hash)) {
+                this.activate(window.location.pathname);
+            }
+
+            // Activate correct item, when clicking anchor item
+            $(window).on('hashchange', function() {
+                setTimeout(function() {
+                    navigation.activate(window.location.hash);
+                }, 100);
+            });
 
             // Activate anchor link and all parent li's while scrolling.
             // Need to wait for mdl layout event to properly calculate scrollOffsets.
@@ -69,8 +91,8 @@ var navigation = (function() {
             var container = '.sidenav',
                 link = $('[href="' + href + '"]', container).first();
 
-            if (!link) {
-                return;
+            if (!link.length) {
+                return false;
             }
 
             $('li.active', container).removeClass('active');
