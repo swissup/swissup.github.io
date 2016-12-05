@@ -1,75 +1,62 @@
 var navigation = (function() {
 
-    var context = $('.mdl-layout__content'), // scrollable element
-        visible = {};
+    var context     = $('.mdl-layout__content'),
+        sections    = $('h1, h2, h3, h4, h5, h6', '.content'),
+        breakpoints = [],
+        mapping     = {};
 
-    function spy() {
-        var sections = $('h1, h2, h3, h4, h5, h6', '.mdl-layout__content');
+    /**
+     * Breakpoints - are the array of Y-coodrinates, that indicates
+     * begin/end of the section.
+     *
+     * Used in calculateCurrentSection function
+     *
+     * @return void
+     */
+    function updateBreakpoints() {
+        breakpoints = [];
+        mapping     = {};
 
-        sections.espy(function(entered, state) {
-            var section = this;
+        var gap = parseInt(context.innerHeight() / 3),
+            scrollTop = context.scrollTop();
+
+        sections.each(function(i, section) {
             if (!section.id) {
                 return;
             }
 
-            if (!entered && state == 'down') {
-                delete visible[section.id];
-                return;
-            }
-            visible[section.id] = section;
-        }, {
-            context: context.get(0),
-            offset: 0,
-            contain: true
-        });
+            var point = $(section).position().top + scrollTop;
 
-        context.on('scroll', _.throttle(update, 300, {
-            trailing: false
-        }));
+            if (point > gap) {
+                point -= gap; // fix, to select item, when it scrolls into 1/3 of vieweport
+            }
+
+            // force first element selection
+            if (i === 0 && point <= 80) {
+                point = 0;
+            }
+
+            breakpoints.push(point);
+            mapping[point] = section.id;
+        });
     }
 
-    /**
-     * @todo: Rewrite the logic completely
-     *
-     * 1. Split sections by their height and get top and bottom coordinates
-     *     of scrollbar position per each section
-     * 2. Activate item by scrollTop value
-     * 3. Remove espy completely
-     *
-     * @return void
-     */
-    function update() {
-        // get closest element to the middle of the screen
-        var middle  = context.offset().top + context.height() / 3,
-            minDiff = 10000;
-
-        $.each(visible, function(id, el) {
-            var diff = Math.abs($(el).offset().top - middle);
-            if (diff < minDiff) {
-                minDiff = diff;
-                section = el;
-            }
-        });
-
-        // activate it
-        if (section) {
-            navigation.activate('#' + section.id);
-        }
+    function calculateCurrentSection() {
+        var currentScroll = context.scrollTop(),
+            point = Math.max.apply(null, breakpoints.filter(function(point) {
+                return point <= currentScroll;
+            }));
+        return mapping[point];
     }
 
     return {
         init: function() {
-            // Activate href link and all parent li's
-            if (false === this.activate(window.location.hash)) {
-                this.activate(window.location.pathname);
-            }
+            var self = this;
 
-            // Activate correct item, when clicking anchor item
-            $(window).on('hashchange', function() {
-                setTimeout(function() {
-                    navigation.activate(window.location.hash);
-                }, 100);
-            });
+            // Activate href link and all parent li's
+            if (false === self.activate(window.location.hash)) {
+                self.activate(window.location.pathname);
+            }
 
             // Activate anchor link and all parent li's while scrolling.
             // Need to wait for mdl layout event to properly calculate scrollOffsets.
@@ -77,8 +64,23 @@ var navigation = (function() {
                 if (!($(e.target).hasClass('mdl-layout'))) {
                     return;
                 }
-                spy();
+
+                updateBreakpoints();
+
+                context.on('scroll', _.throttle(function() {
+                    self.activate('#' + calculateCurrentSection());
+                }, 100));
             });
+
+            // Activate correct item, when clicking anchor item
+            $(window).on('hashchange', function() {
+                self.activate(window.location.hash);
+            });
+
+            $(window).on('resize orientationchange', _.throttle(function() {
+                updateBreakpoints();
+                self.activate('#' + calculateCurrentSection());
+            }, 500));
         },
 
         /**
@@ -91,11 +93,11 @@ var navigation = (function() {
             var container = '.sidenav',
                 link = $('[href="' + href + '"]', container).first();
 
+            $('li.active', container).removeClass('active');
+
             if (!link.length) {
                 return false;
             }
-
-            $('li.active', container).removeClass('active');
 
             var li = link.parent('li').addClass('active');
             while ((li = li.parents('li')) && li.length) {
