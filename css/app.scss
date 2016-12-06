@@ -126,25 +126,22 @@ blockquote > *:first-child {
                 padding-left: 14px;
             }
 
-            a {
-                text-decoration: none;
-                &:hover {
-                    text-decoration: underline;
+            li {
+                line-height: 1.3em;
+                margin: 10px 0;
+
+                a {
+                    // color: #484848;
+                    display: inline-block;
+                    padding-right: 20px; // force wrap to the new line to be consistent with active state
+                    text-decoration: none;
+                    &:hover {
+                        text-decoration: underline;
+                    }
                 }
-            }
-            .active > a {
-                position: relative;
-
-                &:before {
-                    // content: '✪';
-                    font-size: 12px;
-                    line-height: inherit;
-                    vertical-align: top;
-                    position: absolute;
-                    left: -13px;
-
-                    content: '•';
-                    left: -8px;
+                &.active > a {
+                    padding-right: 0;
+                    font-weight: 600;
                 }
             }
         }
