@@ -17,7 +17,7 @@ var navigation = (function() {
         breakpoints = [];
         mapping     = {};
 
-        var gap = parseInt(context.innerHeight() / 3),
+        var gap = 60, // @todo: maybe replace with: min(60, context.innerHeight() / 5)
             scrollTop = context.scrollTop();
 
         sections.each(function(i, section) {
@@ -28,7 +28,7 @@ var navigation = (function() {
             var point = $(section).position().top + scrollTop;
 
             if (point > gap) {
-                point -= gap; // fix, to select item, when it scrolls into 1/3 of vieweport
+                point -= gap; // Select item, when it scrolls into top part of the of vieweport
             }
 
             // force first element selection
