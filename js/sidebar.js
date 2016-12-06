@@ -99,10 +99,7 @@ var navigation = (function() {
                 return false;
             }
 
-            var li = link.parent('li').addClass('active');
-            while ((li = li.parents('li')) && li.length) {
-                li.addClass('active');
-            }
+            link.parent('li').addClass('active');
         }
     };
 })();
