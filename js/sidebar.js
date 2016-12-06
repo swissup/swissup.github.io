@@ -39,6 +39,8 @@ var navigation = (function() {
             breakpoints.push(point);
             mapping[point] = section.id;
         });
+
+        updateSpacer();
     }
 
     function calculateCurrentSection() {
@@ -49,9 +51,22 @@ var navigation = (function() {
         return mapping[point];
     }
 
+    /**
+     * Add empty div to guarantee that lowest section will be selected,
+     * when scrolling to the bottom
+     */
+    function updateSpacer() {
+        var diff = $('.content').innerHeight() - breakpoints[breakpoints.length - 1],
+            viewportHeight = context.innerHeight();
+
+        $('.scrolling-spacer').height(Math.max(viewportHeight - diff, 0));
+    }
+
     return {
         init: function() {
             var self = this;
+
+            $('.content').append('<div class="scrolling-spacer"></div>');
 
             // Activate href link and all parent li's
             if (false === self.activate(window.location.hash)) {
@@ -105,5 +120,7 @@ var navigation = (function() {
 })();
 
 (function($) {
-    navigation.init();
+    if ($('.sidenav').length) {
+        navigation.init();
+    }
 })(jQuery);
