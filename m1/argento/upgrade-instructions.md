@@ -8,6 +8,56 @@ category: Argento
 
 # Argento Upgrade Instructions
 
+### Version 1.8.3 - 1.8.4
+
+ -  Backup all your changes
+ -  Put the store on maintenance mode.
+ -  Navigate to `System > Tools > Compilation` and disable compilation.
+ -  Unpack new Argento version over the old one.
+ -  Delete following files:
+
+    ```
+    app/design/frontend/argento/pure2/template/catalog/product/list.phtml
+    app/design/frontend/argento/pure2/template/catalog/product/list/toolbar.phtml
+    app/design/frontend/argento/pure2/template/checkout/cart/crosssell.phtml
+    app/design/frontend/argento/pure2/template/directory/switch/currency.phtml
+    app/design/frontend/argento/pure2/template/newsletter/subscribe.phtml
+    app/design/frontend/argento/pure2/template/page/switch/languages.phtml
+    app/design/frontend/argento/pure2/template/page/html/header_short.phtml
+    app/design/frontend/argento/pure2/template/tm/ajaxpro/catalog/product/view/media.phtml
+    app/design/frontend/argento/pure2/template/tm/easycatalogimg/list.phtml
+    app/design/frontend/argento/pure2/template/tm/highlight/product/sidebar/list.phtml
+    app/design/frontend/argento/pure2/template/tm/highlight/product/list.phtml
+    app/design/frontend/argento/pure2/template/tm/soldtogether/order.phtml
+    app/design/frontend/argento/pure2/template/tm/soldtogether/customer.phtml
+    app/design/frontend/argento/pure2/template/tm/soldtogether/suggestpage/list.phtml
+    app/design/frontend/argento/mall/template/catalog/product/list.phtml
+    app/design/frontend/argento/pure/template/catalog/product/list.phtml
+    app/design/frontend/argento/pure/template/catalog/product/list/upsell.phtml
+    app/design/frontend/argento/pure/template/tm/highlight/product/grid.phtml
+    app/design/frontend/argento/pure2/template/tm/highlight/product/grid.phtml
+    app/design/frontend/argento/pure2/template/catalog/product/list/upsell.phtml
+    ```
+ -  **Argento Pure** users need to add following options to highlight widgets:
+
+    ```
+    img_width="200" img_height="200"
+    ```
+ -  **Argento Pure 2** users need to add following options to highlight widgets:
+
+    ```
+    img_width="315" img_keep_frame="0"
+    ```
+ -  **Update Homepage and Footer markup (ArgentoPure2 theme users only)**
+
+    This release introduces new homepage markup and new footer blocks in `ArgentoPure2` design.
+
+    You can switch to new `homepage` and `footer` in two ways:
+
+    - [Upgrade using installer](/m1/argento/pure2/upgrade-instructions/1.8.3-1.8.4-installer-upgrade)
+
+    - [Manual upgrade](/m1/argento/pure2/upgrade-instructions/1.8.3-1.8.4-manual-upgrade)
+
 ### Version 1.8.1 - 1.8.2
 
  -  Backup all your changes
