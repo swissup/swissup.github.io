@@ -7,6 +7,34 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.8.4 (draft)
+
+**Fixes and Improvements**
+
+ *  minor translation fixes
+
+
+**Modules fixes and improvements**
+
+ *  Ajax Pro:
+     -  added +/- buttons for product quantity change on product page
+     -  improved magento 1.9.3 integration
+     -  fixed bug "$j undefined"
+
+ *  Easy Banners:
+     -  added columns "Store view", "Banner content" in banner backend grid to make easier banners management
+     -  fixed grid search in banned conditions for pages (issue occures on latest magento versions)
+     -  fixed redirect issue for SEO url (.html)
+
+
+ *  Navigation Pro:
+     *  fixed incorrectly escaped `&gt;`, `&lt;` entities
+
+ *  Product Label
+     *  minor improvments for labels rendering
+
+
+
 ### Version 1.8.3
 
 **New Features**
