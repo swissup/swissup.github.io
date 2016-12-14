@@ -31,10 +31,8 @@ code mentioned below to list.phtml file. For example, app/design/frontend/[packa
 ```html
 <li class="item<?php if( ++$_iterator == sizeof($_productCollection) ): ?> last<?php endif; ?>">
 <a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->htmlEscape($this->getImageLabel($_product, 'small_image')) ?>" class="product-image"><img src="<?php echo $this->helper('catalog/image')->init($_product, 'small_image')->resize(135); ?>" width="135" height="135" alt="<?php echo $this->htmlEscape($this->getImageLabel($_product, 'small_image')) ?>" /></a>
- --> QuickShopping code should be placed there:
-echo Mage::helper('quickshopping')->getViewButton(
-$this->__('Quick View'), $_product, $this->getMode(), null, $_productCollection
-);
+ <!-- QuickShopping code should be placed there: -->
+<?php echo Mage::helper('quickshopping')->getViewButton($this->__('Quick View'), $_product, $this->getMode(), null, $_productCollection); ?>
 ```
 **Line 93**
 
