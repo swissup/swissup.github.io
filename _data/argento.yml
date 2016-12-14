@@ -12,8 +12,8 @@ m1:
     - title: Upgrade Instructions
       url: /m1/argento/upgrade-instructions/
 
-    - title: EE Integration
-      url: /m1/argento/magento-ee-integration/
+    - title: Integrations (Magento EE and other)
+      url: /m1/argento/integrations/
 
     - title: Top Navigation Setup
       url: /m1/argento/navigation-setup/
