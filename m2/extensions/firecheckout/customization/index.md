@@ -14,3 +14,5 @@ category: Firecheckout
  2. Theming
     - General
         - [Less variables](less-variables/)
+    - Layout
+        - [Add header/navigation block](change-page-layout/)
