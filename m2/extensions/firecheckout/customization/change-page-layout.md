@@ -39,6 +39,8 @@ Follow the steps below to achieve your needs:
         layout="1column"
         xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
         <body>
+            <attribute name="class" value="firecheckout-layout-full"/>
+
             <move element="logo" destination="header-wrapper" before="-"/>
 
             <referenceBlock name="header.panel.wrapper" remove="true"/>
@@ -61,7 +63,7 @@ Follow the steps below to achieve your needs:
 
     ```scss
     @media (min-width: 768px) {
-        .firecheckout {
+        .firecheckout-layout-full {
             .page-header .header.panel,
             .navigation {
                 max-width: @firecheckout-page-wide__width;
