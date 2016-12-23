@@ -74,6 +74,7 @@ category: Firecheckout
                     margin-bottom: 15px;
                 }
                 .table-totals {
+                    border-top: none;
                     margin-bottom: 25px;
                 }
             }
