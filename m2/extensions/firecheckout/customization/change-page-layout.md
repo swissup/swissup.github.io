@@ -110,4 +110,5 @@ Follow the steps below to achieve your needs:
 
 - [List of firecheckout less variables](../less-variables/)
 - [Move order totals below cart items](../move-order-totals-below-cart-items/)
+- [Hide useless checkout section](../hide-useless-checkout-section/)
 - [Back to customization page](../)

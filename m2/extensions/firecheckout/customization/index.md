@@ -17,3 +17,4 @@ category: Firecheckout
     - Layout
         - [Add header/navigation block](change-page-layout/)
         - [Move order totals below cart items](move-order-totals-below-cart-items/)
+        - [Hide useless checkout section](hide-useless-checkout-section/)
