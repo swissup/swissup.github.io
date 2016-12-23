@@ -57,7 +57,41 @@ category: Firecheckout
     </page>
     ```
 
- 2. Clear Magento's cache.
+ 2. Create `_custom.less` styles, that will be [automatically included](../custom-css/)
+    by firecheckout:
+
+    ```
+    /app/design/frontend/Magento/luma/Swissup_Firecheckout/web/css/_custom.less
+    ```
+
+    And add the following content into it:
+
+    ```scss
+    @media (min-width: 768px) {
+        .firecheckout {
+            .opc-block-summary {
+                .items-in-cart {
+                    margin-bottom: 15px;
+                }
+                .table-totals {
+                    margin-bottom: 25px;
+                }
+            }
+        }
+    }
+    ```
+
+ 3. Run "Deploy static content" command:
+
+    ```bash
+    cd <magento_root>
+
+    # remove previously deployed firecheckout styles
+    find pub/static var/view_preprocessed -type d -regex ".*Firecheckout.*css" -exec rm -rf {} \;
+
+    # run deployment command
+    bin/magento setup:static-content:deploy
+    ```
 
 #### Result
 
