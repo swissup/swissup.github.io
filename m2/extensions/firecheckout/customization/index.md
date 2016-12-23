@@ -16,3 +16,4 @@ category: Firecheckout
         - [Less variables](less-variables/)
     - Layout
         - [Add header/navigation block](change-page-layout/)
+        - [Move order totals below cart items](move-order-totals-below-cart-items/)

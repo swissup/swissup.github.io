@@ -109,4 +109,5 @@ Follow the steps below to achieve your needs:
 ##### Next up
 
 - [List of firecheckout less variables](../less-variables/)
+- [Move order totals below cart items](../move-order-totals-below-cart-items/)
 - [Back to customization page](../)
