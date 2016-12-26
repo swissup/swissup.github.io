@@ -71,6 +71,6 @@ Using module settings you can make a product display in search box much attracti
 -   `Description length` - specify a product description length.
 -   `Show thumbnail` - select Yes to display a product thumbnail next to a product name.
 -   `Width`- specify a thumbnail width.
--   `Height` -  specify a thumbnail height.
+-   `Height` - specify a thumbnail height.
 
 ![Product display frontend](/images/m1/extensions/ajax-search/product-display-frontend.png)

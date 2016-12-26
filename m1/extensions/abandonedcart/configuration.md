@@ -16,6 +16,8 @@ category: Abandoned Cart
 
 Basically there are 2 ways of sending reminders: through the cron and after approving the email by administrator. Use Email settings to set up the correct sending of reminders.
 
+![Email settings](/images/m1/extensions/abandonedcart/general-and-email.png)
+
 -   `Transport` - select **Yes** to transmit messages from sender to recipient.
 -   `Queue` - specify a queue value when a delivery should start.
 -   `Email sender` - choose a sender from drop down
@@ -28,6 +30,8 @@ Basically there are 2 ways of sending reminders: through the cron and after appr
 Before sending a reminder you have to specify the information in **Rule** fields. Generally you can send reminders to specific customer groups and to various stores. You’re allowed to update a product price, add a discount, set the time range, etc.
 
 #### Main fieldset
+
+![Carts history grid](/images/m1/extensions/abandonedcart/rule-conditions.png)
 
 -	`Name` - enter a name for the rule.
 -	`Status` - select a status.
@@ -42,16 +46,20 @@ Before sending a reminder you have to specify the information in **Rule** fields
 -	`From date` - choose a date from a calendar.
 -	`To date` - choose a date from a calendar.
 
-
 #### Condition
 
 Choose a condition from drop down to apply to the rule.
 
+![Carts history grid](/images/m1/extensions/abandonedcart/rule-condition.png)
+
 #### Actions
 
-You have to fill out fields in case you need to update a price for a product in the reminder. 
-Apply - choose a value from drop down
-Discount amount - specify a discount number 
+You have to fill out fields in case you need to update a price for a product in the reminder.
+
+![Carts history grid](/images/m1/extensions/abandonedcart/rule-actions.png)
+
+-   `Apply` - choose a value from drop down.
+-   `Discount amount` - specify a discount number. 
 
 NB - if you need to create another one rule, you can easily do it in Magento functional by navigating to **Promotions > Shopping cart price rules**.
 

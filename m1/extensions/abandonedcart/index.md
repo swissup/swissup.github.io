@@ -9,7 +9,7 @@ category: Abandoned Cart
 
 # Abandoned Cart
 
-Abandoned shopping cart doesn’t mean “lost sales”. Using the Abandonment Cart Manager module you will create reminders both for registered customers and guests. The extension comes with 3 pre-written email templates (LINK), extended email settings (LINK), flexible rules (LINk) for sending well-timed email reminders and history (LINK) interface.
+Abandoned shopping cart doesn’t mean “lost sales”. Using the Abandonment Cart Manager module you will create reminders both for registered customers and guests. The extension comes with 3 pre-written email templates, extended email settings, flexible rules for sending well-timed email reminders and history interface.
 
 - [Installation](installation/)
 - [Configuration](configuration/)
