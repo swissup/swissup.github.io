@@ -8,8 +8,6 @@ category: Abandoned Cart
 
 # Prewritten templates
 
-![Product page view](/images/m1/extensions/askit/askit1.png)
-
 Our extension comes with 3 pre-written emails which you can send in a sequence. You are allowed to edit a text for each reminder directly in the backend. Adding other links, pictures, etc. is available. You can also create your own template. 
 Please go **Admin - System - Transactional emails** and click on **Add new template**. Choose an **Abandoned cart notification** in a template field. Then you have to specify a new template name, add a new content and save. After that you can navigate to **Admin - Templates-Master - Abandoned cart - Rules**. Choose a rule to edit and select a newly created template in **Email template** drop down.
 

@@ -11,8 +11,6 @@ category: Abandoned Cart
 
 Get control over each rule. Apply the filters in order to manage rules easily and faster.
 
-![Product page view](/images/m1/extensions/askit/askit1.png)
-
 #### You can also check:
 
 *   [Installation](../installation/)

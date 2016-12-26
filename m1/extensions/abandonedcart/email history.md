@@ -11,8 +11,6 @@ category: Abandoned Cart
 
 Using a grid you can check a if anyone visits your website after sending a reminder. Particularly you can check a status value.
 
-![Product page view](/images/m1/extensions/askit/askit1.png)
-
 #### You can also check:
 
 *   [Installation](../installation/)

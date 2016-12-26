@@ -20,25 +20,12 @@ category: Prozoom
 
 ### General settings
 
-![Product page view](/images/m1/extensions/askit/askit1.png)
-
-
 -   `Enabled` - select **Yes** to enable a module.
 -	`Show full image on click1 - select **Yes** to show full image on click.
 -	`Prozoom type` - choose a prozoom type. It starts working when hovering your mouse over the image to see a magnified version. The following types are available:
 	-	`Standard` - when you are moving your mouse over an image, you'll see a square with a zoomed piece of image to the right of the main product image.
-![Product page view](/images/m1/extensions/askit/askit1.png)
-
 	-	`Reverse` - when you are moving your mouse over an image, you'll see a square with a zoomed piece of image to the right of the main product image. The main image will be darkened.
-![Product page view](/images/m1/extensions/askit/askit1.png)
-
 	-	`Inner zoom` - when you are moving your mouse over an image, you'll see a zoomed version of the image that replaces the main product image.
-![Product page view](/images/m1/extensions/askit/askit1.png)
-
--	`Always on` - 
--	`Preload images` - 
--	`Show preload` - 
--	`Preloaded text` - 
 -	`Image opacity` - specify the image opacity in case you’ve used a Reverse zoom type.
 -	`Image size` - specify the width and height for the display-size of the zoomed image.
 -	`Thumbnail size` - specify the width and height for the thumbnail-size of the main product image.
@@ -46,8 +33,6 @@ category: Prozoom
 ### Lens
 
 Configure the lens settings in order to improve a visual experience.
-
-![Product page view](/images/m1/extensions/askit/askit1.png)
 
 -	`Enabled - select **Yes**
 -	`Cursor type` - choose a cursor type for the lens.
@@ -58,8 +43,6 @@ Configure the lens settings in order to improve a visual experience.
 ### Stage
 
 The following settings will help you to configure the display of a stage with zoomed piece of image. Make a stage display look well suited for the page content. 
-
-![Product page view](/images/m1/extensions/askit/askit1.png)
 
 -	`Position` - select a position of a stage along the main product image. Right, left, top and bottom values are available.
 -	`Width` - set the width of a stage.

@@ -19,33 +19,11 @@ category: Ajax Search
 
 ### General settings
 
-![Product page view](/images/m1/extensions/askit/askit1.png)
-
 ### Category filter combobox
-
-![Product page view](/images/m1/extensions/askit/askit1.png)
-
-...
-
-![Product page view](/images/m1/extensions/askit/askit1.png)
-
-...
 
 ### Input field settings
 
-![Product page view](/images/m1/extensions/askit/askit1.png)
-
-
 ### Suggest popup
-
-![Product page view](/images/m1/extensions/askit/askit1.png)
-...
-![Product page view](/images/m1/extensions/askit/askit1.png)
-...
 
 ### Product display settings
 
-![Product page view](/images/m1/extensions/askit/askit1.png)
-...
-![Product page view](/images/m1/extensions/askit/askit1.png)
-...
