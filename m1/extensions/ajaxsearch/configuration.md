@@ -52,17 +52,24 @@ category: Ajax Search
 -   `Height` - define a height of suggest popup.
 -   `Text on the top of popup` - enter a text to be shown at the top of search popup.  
 -   `Text on the bottom of popup` - enter a text to be shown at the bottom of search popup.
+-   `Text when nothing was found` - enter a text that will be shown when no product was found.
+-   `Number of products to show on ajax results` - specify a number of products to be shown in search box.
+-   `Show keyword suggestions in results` - select **Yes** if you want to show keyword suggestions in search results.
+-   `Show catalog categories in result` - select **Yes** to enable a display of catalog categories in search results.
+-   `Show suggested by tags in result` - select **Yes** to show suggested by tags.
+-   `Show CMS pages in result` - select **Yes** to enable a display of CMS pages in search results.
+
+![CMS pages suggestion](/images/m1/extensions/ajax-search/cms-page-suggest-popup.png) 
 
 ### Product display settings
 
 Using module settings you can make a product display in search box much attractive and suitable your website design.
 
 ![Product display settings](/images/m1/extensions/ajax-search/product-display.png)
-
-`Show short description` - select **Yes** to show a short product description in popup.
-`Description length` - specify a product description length.
-`Show thumbnail` - select Yes to display a product thumbnail next to a product name.
-`Width`- specify a thumbnail width.
-`Height` -  specify a thumbnail height.
+-   `Show short description` - select **Yes** to show a short product description in popup.
+-   `Description length` - specify a product description length.
+-   `Show thumbnail` - select Yes to display a product thumbnail next to a product name.
+-   `Width`- specify a thumbnail width.
+-   `Height` -  specify a thumbnail height.
 
 ![Product display frontend](/images/m1/extensions/ajax-search/product-display-frontend.png)
