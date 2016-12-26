@@ -27,16 +27,16 @@ category: Prozoom
 -	`Prozoom type` - choose a prozoom type. It starts working when hovering your mouse over the image to see a magnified version. The following types are available:
 	-	`Standard` - when you are moving your mouse over an image, you'll see a square with a zoomed piece of image to the right of the main product image.
 
-    ![Standard zoom](/images/m1/extensions/askit/standard-zoom-type.png)
+    ![Standard zoom](/images/m1/extensions/prozoom/standard-zoom-type.png)
 
 	-	`Reverse` - when you are moving your mouse over an image, you'll see a square with a zoomed piece of image to the right of the main product image. The main image will be darkened.
 
-    ![Reverse zoom](/images/m1/extensions/askit/reverse-zoom-type.png)
+    ![Reverse zoom](/images/m1/extensions/prozoom/reverse-zoom-type.png)
 
 	-	`Inner zoom` - when you are moving your mouse over an image, you'll see a zoomed version of the image that replaces the main product image.
 
-    ![Innerzoom](/images/m1/extensions/askit/innerzoom-type.png)
-    
+    ![Innerzoom](/images/m1/extensions/prozoom/innerzoom-type.png)
+
 -	`Image opacity` - specify the image opacity in case you’ve used a Reverse zoom type.
 -	`Image size` - specify the width and height for the display-size of the zoomed image.
 -	`Thumbnail size` - specify the width and height for the thumbnail-size of the main product image.
