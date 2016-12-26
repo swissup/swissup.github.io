@@ -17,7 +17,7 @@ Enabling the following settings you will show the improved Magento suggest page 
 
 *   [Installation](../installation/)
 *   [Configuration](../configuration/)
-*	[Settings to enable the search of suggested products in different product relations in Magento](../magento-product-relations/)
+*	[Settings to enable the search of suggested products in different product relations in Magento](../magento-product-relation/)
 *   [Filters for founded products](../filters-for-founded-products/)
 *   [Events](../events/)
 *   [Widget](../widget/)

@@ -49,7 +49,7 @@ The extension is integrated with Suggest Page module. So, you can easily place t
 
 *   [Installation](../installation/)
 *   [Integration with suggest page](../integration-with-suggest-page/)
-*	[Settings to enable the search of suggested products in different product relations in Magento](../magento-product-relations/)
+*	[Settings to enable the search of suggested products in different product relations in Magento](../magento-product-relation/)
 *   [Filters for founded products](../filters-for-founded-products/)
 *   [Events](../events/)
 *   [Widget](../widget/)

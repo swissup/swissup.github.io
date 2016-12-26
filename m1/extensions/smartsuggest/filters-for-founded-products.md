@@ -21,7 +21,7 @@ Via the following module interface you can filter the suggested items by the pri
 
 *   [Installation](../installation/)
 *   [Configuration](../configuration/)
-*	[Settings to enable the search of suggested products in different product relations in Magento](../magento-product-relations/)
+*	[Settings to enable the search of suggested products in different product relations in Magento](../magento-product-relation/)
 *   [Integration with Suggest page](../integration-with-suggest-page/)
 *   [Events](../events/)
 *   [Widget](../widget/)
