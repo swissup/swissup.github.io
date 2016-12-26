@@ -11,8 +11,6 @@ category: Smart Suggest
 
 Using the following interface you can set up the priority of display items in recommended products block. 
 
-![Product page view](/images/m1/extensions/askit/askit1.png)
-
 #### You can also check:
 
 *   [Installation](../installation/)

@@ -11,8 +11,6 @@ category: Smart Suggest
 
 Our module provides you with a widget. So, you can show the block with personalized recommendations easier and faster. 
 
-![Product page view](/images/m1/extensions/askit/askit1.png)
-
 #### You can also check:
 
 *   [Installation](../installation/)

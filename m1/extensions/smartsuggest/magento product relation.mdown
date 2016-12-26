@@ -11,8 +11,6 @@ category: Smart Suggest
 
 Smart Suggest module allows you to mark the product relations or in other words enable the places where the suggested products will be searched. This algorithm is based on already viewed products.
 
-![Product page view](/images/m1/extensions/askit/askit1.png)
-
 #### You can also check:
 
 *   [Installation](../installation/)

@@ -11,11 +11,9 @@ category: Smart Suggest
 
 Via the following module interface you can filter the suggested items by the price range of the previously browsed products.
 
-![Product page view](/images/m1/extensions/askit/askit1.png)
-
 -	`Filter by price` - select **Yes**. 
--	`Price min range` - ТУТ НЕ ЯСНО
--	`Price max range` -
+-	`Price min range` - specify the minimal value
+-	`Price max range` - specify the max value
 
 #### You can also check:
 
