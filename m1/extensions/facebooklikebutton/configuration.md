@@ -10,8 +10,8 @@ category: Facebook Like Button
 
 # Configuration
 
--   [General settings](#general-settings/)
--   [Button configuration](#button-configuration/) 
+-   [General settings](#general-settings)
+-   [Button configuration](#like-button-configuration) 
 
 ### General settings
 
