@@ -21,18 +21,18 @@ category: Ajax Search
 
 ![General](/images/m1/extensions/ajax-search/general.png)
 
-`Enabled` - select **Yes**.
-`Show in left column` - select **Yes** to show search results in left column.
-`Show in right column` - select **Yes** to show search results in right column.
+-   `Enabled` - select **Yes**.
+-   `Show in left column` - select **Yes** to show search results in left column.
+-   `Show in right column` - select **Yes** to show search results in right column.
 
 ### Category filter combobox
 
 ![Combobox settings](/images/m1/extensions/ajax-search/combobox.png)
 
-`Show category filter combobox` - select **Yes** to enable the display of combobox.
-`Count of category levels to show` - enter a number of categories to be shown in filter combobox.
-`Categories to hide` - specify the categories comma separated that will be hidden in combobox. 
-`Categories to show` - specify the categories comma separated that will be shown in combobox.
+-   `Show category filter combobox` - select **Yes** to enable the display of combobox.
+-   `Count of category levels to show` - enter a number of categories to be shown in filter combobox.
+-   `Categories to hide` - specify the categories comma separated that will be hidden in combobox. 
+-   `Categories to show` - specify the categories comma separated that will be shown in combobox.
 
 ![Category filter](/images/m1/extensions/ajax-search/combobox-frontend.png)
 
@@ -40,18 +40,18 @@ category: Ajax Search
 
 ![Input field settings](/images/m1/extensions/ajax-search/input-field-settings.png)
 
-`Default test in search field` - enter a text to be shown in search field as inviting.
-`Minimal number of chars to show suggest` - specify a minimal number of characters after that the suggestion will be shown.
-`Show ajax loader icon` - select **Yes** if you want to display loading icon.
+-   `Default test in search field` - enter a text to be shown in search field as inviting.
+-   `Minimal number of chars to show suggest` - specify a minimal number of characters after that the suggestion will be shown.
+-   `Show ajax loader icon` - select **Yes** if you want to display loading icon.
 
 ### Suggest popup
 
 ![Suggest popup settings](/images/m1/extensions/ajax-search/suggest-popup.png)
 
-`Width` - define a width of suggest popup. 
-`Height` - define a height of suggest popup.
-`Text on the top of popup` - enter a text to be shown at the top of search popup.  
-`Text on the bottom of popup` - enter a text to be shown at the bottom of search popup.
+-   `Width` - define a width of suggest popup. 
+-   `Height` - define a height of suggest popup.
+-   `Text on the top of popup` - enter a text to be shown at the top of search popup.  
+-   `Text on the bottom of popup` - enter a text to be shown at the bottom of search popup.
 
 ### Product display settings
 
