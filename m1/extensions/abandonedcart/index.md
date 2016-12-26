@@ -13,8 +13,6 @@ Abandoned shopping cart doesn’t mean “lost sales”. Using the Abandonment C
 
 - [Installation](installation/)
 - [Configuration](configuration/)
-	- [Email](email/)
-	- [Rule information](rule-information/)
 - [Rules management grid](rules-grid/)
 - [Pre-written email templates](pre-written-templates/)
 - [Abandoned cart history grid](history-grid/)
