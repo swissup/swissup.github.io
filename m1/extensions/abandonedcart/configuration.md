@@ -16,7 +16,7 @@ category: Abandoned Cart
 
 Basically there are 2 ways of sending reminders: through the cron and after approving the email by administrator. Use Email settings to set up the correct sending of reminders.
 
-![Email settings](/images/m1/extensions/abandonedcart/general-and-email.png)
+![Email settings](/images/m1/extensions/abandoned-cart/general-and-email.png)
 
 -   `Transport` - select **Yes** to transmit messages from sender to recipient.
 -   `Queue` - specify a queue value when a delivery should start.
@@ -31,7 +31,7 @@ Before sending a reminder you have to specify the information in **Rule** fields
 
 #### Main fieldset
 
-![Carts history grid](/images/m1/extensions/abandonedcart/rule-conditions.png)
+![Carts history grid](/images/m1/extensions/abandoned-cart/rule-conditions.png)
 
 -	`Name` - enter a name for the rule.
 -	`Status` - select a status.
@@ -50,13 +50,13 @@ Before sending a reminder you have to specify the information in **Rule** fields
 
 Choose a condition from drop down to apply to the rule.
 
-![Carts history grid](/images/m1/extensions/abandonedcart/rule-condition.png)
+![Carts history grid](/images/m1/extensions/abandoned-cart/rule-condition.png)
 
 #### Actions
 
 You have to fill out fields in case you need to update a price for a product in the reminder.
 
-![Carts history grid](/images/m1/extensions/abandonedcart/rule-actions.png)
+![Carts history grid](/images/m1/extensions/abandoned-cart/rule-actions.png)
 
 -   `Apply` - choose a value from drop down.
 -   `Discount amount` - specify a discount number. 

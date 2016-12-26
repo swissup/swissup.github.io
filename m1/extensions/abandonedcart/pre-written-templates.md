@@ -1,3 +1,4 @@
+---
 layout: default
 title: Abandoned Cart
 description: magento shopping cart abandonment module installation
@@ -6,9 +7,9 @@ abandoned cart email"
 category: Abandoned Cart
 ---
 
-# Prewritten templates
+# Pre-written templates
 
-![Shopping cart abandonment template](/images/m1/extensions/abandonedcart/template.png)
+![Shopping cart abandonment template](/images/m1/extensions/abandoned-cart/template.png)
 
 Our extension comes with 3 pre-written emails which you can send in a sequence. You are allowed to edit a text for each reminder directly in the backend. Adding other links, pictures, etc. is available. You can also create your own template.
 

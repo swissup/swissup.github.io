@@ -11,7 +11,7 @@ category: Abandoned Cart
 
 Using grid filters you can track abandoned shopping carts by the following parametres: email, customer name, number of items, subtotal in a cart, applied coupon, date of creation, IP address.
 
-![Carts history grid](/images/m1/extensions/abandonedcart/abandoned-cart-management-grid.png)
+![Carts history grid](/images/m1/extensions/abandoned-cart/abandoned-cart-management-grid.png)
 
 #### You can also check:
 
