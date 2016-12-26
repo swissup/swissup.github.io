@@ -18,7 +18,5 @@ Our Magento extension replaces standard magento zoom with flexible javascript zo
 
  -  [Installation](installation/)
  -	[Configuration](configuration/)
- 	- [General settings](general-settings/)
- 	- [Lens](lens/)
- 	- [Stage](stage/)
  -  [Changelog](changelog/)
+
