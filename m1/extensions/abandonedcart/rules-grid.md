@@ -11,7 +11,7 @@ category: Abandoned Cart
 
 Get control over each rule. Apply the filters in order to manage rules easily and faster.
 
-![Cart abandonment rules](/images/m1/extensions/abandoned-cart/rules-grid.png)
+![Cart abandonment rules](/images/m1/extensions/abandonedcart/rules-grid.png)
 
 #### You can also check:
 
