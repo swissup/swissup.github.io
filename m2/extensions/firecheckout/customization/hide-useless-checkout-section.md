@@ -35,8 +35,8 @@ a module, that automatially select's it.
 
     ```scss
     // Fix section numbers
-    @firecheckout-section-number__payment-method: ~".checkout-payment-method > .step-title" 2;
-    @firecheckout-section-number__order-summary:  ~".opc-block-summary > .title"            3;
+    @firecheckout-section-number__payment-method-value: 2;
+    @firecheckout-section-number__order-summary-value:  3;
 
     // Hide shipping method section
     .firecheckout {
