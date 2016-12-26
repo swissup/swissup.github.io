@@ -66,6 +66,7 @@ category: Ajax Search
 Using module settings you can make a product display in search box much attractive and suitable your website design.
 
 ![Product display settings](/images/m1/extensions/ajax-search/product-display.png)
+
 -   `Show short description` - select **Yes** to show a short product description in popup.
 -   `Description length` - specify a product description length.
 -   `Show thumbnail` - select Yes to display a product thumbnail next to a product name.
