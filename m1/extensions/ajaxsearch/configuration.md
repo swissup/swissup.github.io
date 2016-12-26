@@ -10,12 +10,12 @@ category: Ajax Search
 
 # Configuration
 
-- [Configuration](#configuration)
-	-[General settings](#general-settings)
-	-[Category filter combobox](#category-filter-combobox)
-	-[Input field settings](#input-field-settings)
-	-[Suggest popup](#suggest-popup)
-	-[Product display settings](#product-display-settings)
+ -  [Configuration](#configuration)
+	- [General settings](#general-settings)
+	- [Category filter combobox](#category-filter-combobox)
+	- [Input field settings](#input-field-settings)
+	- [Suggest popup](#suggest-popup)
+	- [Product display settings](#product-display-settings)
 
 ### General settings
 
