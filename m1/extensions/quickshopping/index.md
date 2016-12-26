@@ -11,6 +11,8 @@ category: Quick Shopping
 
 Magento quick view module comes with extended configuration. You can set the display of different content in quick view popup, change the product listing settings and configure the product page.
 
+![Quick view window](/images/m1/extensions/quick-shopping/quick-view-frontend.png)
+
  -  [Installation](installation/)
  -  [Configuration](configuration/)
     - [General and ajax window settings](general-settings/)
