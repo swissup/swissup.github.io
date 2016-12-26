@@ -59,7 +59,7 @@ category: Ajax Search
 -   `Show suggested by tags in result` - select **Yes** to show suggested by tags.
 -   `Show CMS pages in result` - select **Yes** to enable a display of CMS pages in search results.
 
-![CMS pages suggestion](/images/m1/extensions/ajax-search/cms-page-suggest-popup.png) 
+![CMS pages suggestion](/images/m1/extensions/ajax-search/cms-page-suggest.png) 
 
 ### Product display settings
 
