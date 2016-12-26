@@ -13,8 +13,8 @@ Magento quick view module comes with extended configuration. You can set the dis
 
  -  [Installation](installation/)
  -  [Configuration](configuration/)
- 	- [General and ajax window settings](general-settings/)
- 	- [Product listing settings](product-listing-settings/)
- 	- [Product page settings](product-page-settings/)
+    - [General and ajax window settings](general-settings/)
+    - [Product listing settings](product-listing-settings/)
+    - [Product page settings](product-page-settings/)
  -  [Changelog](changelog/)
 
