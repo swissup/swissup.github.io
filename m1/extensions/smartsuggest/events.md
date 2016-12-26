@@ -9,7 +9,9 @@ category: Smart Suggest
 
 # Events
 
-Using the following interface you can set up the priority of display items in recommended products block. 
+Using the following interface you can set up the priority of display items in recommended products block.
+
+![Events settings](/images/m1/extensions/smart-suggest/events.png) 
 
 #### You can also check:
 

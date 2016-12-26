@@ -11,6 +11,8 @@ category: Smart Suggest
 
 Via the following module interface you can filter the suggested items by the price range of the previously browsed products.
 
+![Filters by price range](/images/m1/extensions/smart-suggest/filters.png)
+
 -	`Filter by price` - select **Yes**. 
 -	`Price min range` - specify the minimal value
 -	`Price max range` - specify the max value

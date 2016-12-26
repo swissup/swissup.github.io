@@ -11,6 +11,8 @@ category: Smart Suggest
 
 Our module provides you with a widget. So, you can show the block with personalized recommendations easier and faster. 
 
+![Smart suggest widget](/images/m1/extensions/smart-suggest/widget.png)
+
 #### You can also check:
 
 *   [Installation](../installation/)

@@ -11,6 +11,8 @@ category: Smart Suggest
 
 Smart Suggest module allows you to mark the product relations or in other words enable the places where the suggested products will be searched. This algorithm is based on already viewed products.
 
+![Places to search suggestions](/images/m1/extensions/smart-suggest/places-to-search.png)
+
 #### You can also check:
 
 *   [Installation](../installation/)

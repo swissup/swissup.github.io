@@ -11,6 +11,8 @@ category: Smart Suggest
 
 Enabling the following settings you will show the improved Magento suggest page after adding products to the shopping cart. If you have a mobile version, you have to enable the feature separately.
 
+![Suggest page integration](/images/m1/extensions/smart-suggest/suggest-page-integration.png)
+
 #### You can also check:
 
 *   [Installation](../installation/)
