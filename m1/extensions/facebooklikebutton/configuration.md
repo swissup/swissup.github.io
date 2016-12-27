@@ -40,3 +40,8 @@ Via configuration you can enable the Facebook Like button display either on a pr
 
 ![Product page view](/images/m1/extensions/facebook-like-button/frontend-product-page.png)
 ![Category page view](/images/m1/extensions/facebook-like-button/frontend-category-page.png)
+
+#### You can also check:
+
+*   [Installation](../installation/)
+*   [Open Graph Facebook](../open-graph-facebook/)

@@ -8,4 +8,8 @@ category: Easy Lightbox
 
 # Easy Lightbox
 
+![Magento lightbox](/images/m1/extensions/easy-lightbox/frontend.png)
+
 - [Installation](installation/)
+- [Configuration](configuration/)
+- [Easy Lightbox widget](widget/)
