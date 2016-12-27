@@ -36,8 +36,10 @@ category: Easy Lightbox
 -   `Lightbox resize duration, ms` - specify the duration for lightbox resize image.
 -   `Overlay fade duration` - specify the duration of the overlay fade.
 -   `Show first image after the last one` - select **Yes**.
--   `Label image` - 
--   `Label of` - 
+-   `Label image` - specify a translation in other words the text to be shown under an image in lightbox popup.
+-   `Label of` - specify a translation in other words the text to be shown under an image in lightbox popup.
+
+![The text under the image in lightbox window](/images/m1/extensions/easy-lightbox/label-image.png)
 
 #### You can also check:
 
