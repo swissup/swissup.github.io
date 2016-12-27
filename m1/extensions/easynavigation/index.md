@@ -8,7 +8,7 @@ category: Easy Navigation
 
 # Easy Navigation
 
-![AskIt grid](/images/m1/extensions/askit/askit5.png)
+![Magento navigation in right column](/images/m1/extensions/easy-navigation/frontend-right-column.png)
 
 - [Installation](installation/)
 - [Configuration](configuration/)
