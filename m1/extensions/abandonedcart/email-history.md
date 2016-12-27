@@ -16,8 +16,8 @@ Using a grid you can check a if anyone visits your website after receiving your 
 #### You can also check:
 
 *   [Installation](../installation/)
-*   [Rules](../rules/)
-*	[Prewritten templates](../prewritten-templates/)
+*   [Rules management grid](../rules-grid/)
+*	[Pre-written templates](../pre-written-templates/)
 *   [Configuration](../configuration/)
 *   [Abandoned shop cart](../abandoned-shop-cart/)
 *   [Support](https://swissuplabs.com/contacts/)

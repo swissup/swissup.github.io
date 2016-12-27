@@ -18,9 +18,9 @@ Please go **Admin - System - Transactional emails** and click on **Add new templ
 #### You can also check:
 
 *   [Installation](../installation/)
-*   [Rules](../rules-grid/)
+*   [Rules management grid](../rules-grid/)
 *	[Configuration](../configuration/)
-*   [Email history](../email-history/)
+*   [Email abandoned history](../email-history/)
 *   [Abandoned shop cart](../abandoned-shop-cart/)
 *   [Support](https://swissuplabs.com/contacts/)
 *   [Forum](https://swissuplabs.com/magento-forum/)

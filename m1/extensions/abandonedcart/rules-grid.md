@@ -17,8 +17,8 @@ Get control over each rule. Apply the filters in order to manage rules easily an
 
 *   [Installation](../installation/)
 *   [Configuration](../configuration/)
-*	[Prewritten templates](../pre-written-templates/)
-*   [Email history](../email-history/)
-*   [History grid](../history-grid/)
+*	[Pre-written templates](../pre-written-templates/)
+*   [Email abandoned history](../email-history/)
+*   [Abandoned shop cart](../abandoned-shop-cart/)
 *   [Support](https://swissuplabs.com/contacts/)
 *   [Forum](https://swissuplabs.com/magento-forum/)

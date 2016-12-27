@@ -22,7 +22,7 @@ In case you want to track a shopping cart content of non-registered user, you ca
 *   [Installation](../installation/)
 *   [Rules](../rules-grid/)
 *	[Prewritten templates](../pre-written-templates/)
-*   [Email history](../email-history/)
+*   [Email abandoned history](../email-history/)
 *   [Configuration](../configuration/)
 *   [Support](https://swissuplabs.com/contacts/)
 *   [Forum](https://swissuplabs.com/magento-forum/)
