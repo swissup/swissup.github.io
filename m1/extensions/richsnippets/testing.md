@@ -1,4 +1,4 @@
---
+---
 layout: default
 title: Rich Snippets
 description: magento snippet module installation

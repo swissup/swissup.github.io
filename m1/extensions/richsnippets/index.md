@@ -19,9 +19,5 @@ Our module also enables the **breadcrumbs** (link) trail display in rich snippet
 
 - [Installation](installation/)
 - [Configuration](configuration/)
-	-[General settings](general-settings/)
-	-[Organization](organization/)
-	-[Website](website/)
-	-[Social links and cards](social-links-and-cards/)
 - [Testing your site with Google Rich Snippets testing tool](testing/)
 - [FAQ](faq/)
