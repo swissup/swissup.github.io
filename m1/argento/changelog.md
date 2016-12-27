@@ -7,6 +7,62 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.8.4
+
+[Upgrade Instructions](../upgrade-instructions/#version-183---184)
+
+**New Features**
+
+ *  new homepage and footer markup in ArgentoPure2 design using Bootstrap grid
+    system
+ *  new products grid design
+ *  new extension added - Quantity Switcher. [View Docs](http://docs.swissuplabs.com/m1/extensions/qty-switcher/)
+
+**Fixes and Improvements**
+
+ *  minor translation fixes
+ *  20 overriden templates removed
+ *  testimonials integration improved
+ *  visual accent added to downloadable product link
+ *  backend css now merged with rest of css files
+
+**Modules fixes and improvements**
+
+ *  Ajax Pro:
+     -  added +/- buttons for product quantity change on product page
+     -  improved magento 1.9.3 integration
+     -  fixed bug "$j undefined"
+
+ *  Easy Banners:
+     -  added columns "Store view", "Banner content" in banner backend grid to make easier banners management
+     -  fixed grid search in banned conditions for pages (issue occures on latest magento versions)
+     -  fixed redirect issue for SEO url (.html)
+
+
+ *  Navigation Pro:
+     *  fixed incorrectly escaped `&gt;`, `&lt;` entities
+
+ *  Product Label
+     *  minor improvments for labels rendering
+
+ *  Rich Snippets
+     *  added possibility to show prices with/without VAT (prices with VAT enabled by default)
+
+ *  Review Reminder
+     *  fixed incorrect product name translation
+     *  added config to disable reminders for guests
+     *  added order number and store view columns in grid
+
+ *  Sold Together
+     *  error 404 in config fixed
+     *  css fixes
+
+ *  Testimonials
+     *  sidebar list widget rewritten
+     *  added feature to save product review as testimonial from review edit page
+     *  missing captcha in testimonials widget fixed
+     *  added config to allow guests to submit testimonials
+
 ### Version 1.8.3
 
 **New Features**

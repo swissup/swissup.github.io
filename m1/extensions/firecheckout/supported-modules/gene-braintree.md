@@ -8,7 +8,7 @@ category: Firecheckout
 
 # Gene Braintree
 
-> Gene_Braintree version — 2.1.6
+> Gene_Braintree version — 2.1.7
 
 Open `app/design/frontend/base/default/template/gene/braintree/js/firecheckout.phtml`
 and apply the following patch:
@@ -32,6 +32,19 @@ and apply the following patch:
 +            var firecheckoutArguments = this.firecheckoutArguments || [];
 +            return checkout.save.apply(checkout, firecheckoutArguments);
          },
+
+@@ -96,11 +96,10 @@
+         (window.vzeroPaypal || false),
+         '<div id="paypal-complete"><div id="paypal-container"></div></div>',
+         '#review-buttons-container .btn-checkout',
+-        $$('.firecheckout-set.onecolumn').length === 0,
++        true,
+         {
+             ignoreAjax: ['firecheckout/index/saveOrder']
+-        },
+-        $$('.firecheckout-set.onecolumn').length === 1
++        }
+     );
 ```
 
 Save the file and clear Magento cache.

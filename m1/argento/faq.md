@@ -326,7 +326,7 @@ to restore missing elements:
     > 
     > and put it to 
     > 
-    > `app/argento/[mytheme]_custom/template/tm/easytabs/tab/catalog/product/view/attributes.phtml`
+    > `app/design/frontend/argento/[mytheme]_custom/template/tm/easytabs/tab/catalog/product/view/attributes.phtml`
 
  2. Add following lines:
 

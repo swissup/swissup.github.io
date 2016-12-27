@@ -14,5 +14,9 @@ category: Prozoom
 
 # ProZoom
 
+Our Magento extension replaces standard magento zoom with flexible javascript zoom widget. ProZoom module allows to choose up to 3 prozoom types for better usability, configure the lens and stage settings.
+
  -  [Installation](installation/)
+ -	[Configuration](configuration/)
  -  [Changelog](changelog/)
+

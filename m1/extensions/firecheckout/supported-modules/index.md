@@ -105,6 +105,7 @@ additional modifications.
 - TIG_Postcode
 - [TIG_PostNL](tig-postnl/)
 - [Unirgy_DropshipSplit](unirgy-dropshipsplit/)
+- [Webgriffe_Tntpro](webgriffe-tntpro/)
 - Webshopapps_Desttype
 - WebshopApps_ProductMatrix
 - [Webshopapps_Wsafreightcommon](webshopapps-wsafreightcommon/)
