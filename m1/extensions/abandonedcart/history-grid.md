@@ -16,8 +16,8 @@ Using grid filters you can track abandoned shopping carts by the following param
 #### You can also check:
 
 *   [Installation](../installation/)
-*   [Rules](../rules/)
-*	[Prewritten templates](../prewritten-templates/)
+*   [Rules](../rules-grid/)
+*	[Prewritten templates](../pre-written-templates/)
 *   [Email history](../email-history/)
 *   [Configuration](../configuration/)
 *   [Support](https://swissuplabs.com/contacts/)

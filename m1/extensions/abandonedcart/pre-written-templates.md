@@ -18,7 +18,7 @@ Please go **Admin - System - Transactional emails** and click on **Add new templ
 #### You can also check:
 
 *   [Installation](../installation/)
-*   [Rules](../rules/)
+*   [Rules](../rules-grid/)
 *	[Configuration](../configuration/)
 *   [Email history](../email-history/)
 *   [History grid](../history-grid/)

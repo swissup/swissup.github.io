@@ -17,7 +17,7 @@ Get control over each rule. Apply the filters in order to manage rules easily an
 
 *   [Installation](../installation/)
 *   [Configuration](../configuration/)
-*	[Prewritten templates](../prewritten-templates/)
+*	[Prewritten templates](../pre-written-templates/)
 *   [Email history](../email-history/)
 *   [History grid](../history-grid/)
 *   [Support](https://swissuplabs.com/contacts/)

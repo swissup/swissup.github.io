@@ -66,8 +66,8 @@ NB - if you need to create another one rule, you can easily do it in Magento fun
 #### You can also check:
 
 *   [Installation](../installation/)
-*   [Rules](../rules/)
-*	[Prewritten templates](../prewritten-templates/)
+*   [Rules](../rules-grid/)
+*	[Prewritten templates](../pre-written-templates/)
 *   [Email history](../email-history/)
 *   [History grid](../history-grid/)
 *   [Support](https://swissuplabs.com/contacts/)
