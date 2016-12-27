@@ -21,14 +21,9 @@ category: Rich Snippets
 ![General settings](/images/m1/extensions/rich-snippet/general.png)
 
 -	`Enabled` - select **Yes** to enable a module.
--	`Snippets type` - choose a snippet type from drop down. Json type and Schema.org are available.
+-	`Snippets type` - choose a snippet type from drop down. **Json** type and **Microdata Format** are available.
 
-NB: Choose “JSON Format” for invisible block with your store snippets;
-Choose “Microdata Format” for visible block:
-Microdata is better for search tools
-Json is simplified, clear to use
-https://blog.heppresearch.com/2014/04/14/semantic-seo-what-is-the-difference-between-schema-org-and-microdata/б
-https://texterra.ru/blog/chto-takoe-format-json-ld-i-pochemu-on-luchshe-schema-org.html
+We recommend to choose “JSON Format” for invisible block with your store snippets. This type is simplified and clear to use. In case you want to show a visible block with snippets both in search results and on product page, you'd better to select Microdata type. 
 
 -	`Breadcrumbs` - select **Yes** to show breadcrumbs in rich snippets.
 
