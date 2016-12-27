@@ -18,6 +18,8 @@ category: Rich Snippets
 
 ### General settings
 
+![General settings](/images/m1/extensions/rich-snippet/general.png)
+
 -	`Enabled` - select **Yes** to enable a module.
 -	`Snippets type` - choose a snippet type from drop down. Json type and Schema.org are available.
 
@@ -34,13 +36,22 @@ https://texterra.ru/blog/chto-takoe-format-json-ld-i-pochemu-on-luchshe-schema-o
 
 Fill out the fields to show the full information about your organization directly in search results.
 
-### Website 
+![Organization snippets](/images/m1/extensions/rich-snippet/organization.png)
+
+### Website
+
+![Website snippets](/images/m1/extensions/rich-snippet/website.png) 
 
 ### Social links and cards
 
 Social links snippets will help you to boost click-through rate for your shared URLs, get more traffic from social networks and increase a social media followers base. We do recommend you to implement rich snippets for social media.
 
--	`Enter the paths to your Facebook, Twitter, Google+, Instagram, or Linkedin pages.` 
+![Social media snippets](/images/m1/extensions/rich-snippet/social-links.png)
+
+-	`Enter the paths to your Facebook, Twitter, Google+, Instagram, or Linkedin pages.`
+
+![Social media snippets](/images/m1/extensions/rich-snippet/social-card.png)
+
 -	`Select **Yes** if you want to enable a **Twitter card snippet**. Twitter Cards improve a media experience to Tweets that link to your site content. After adding a snippet, users who Tweet your products will have a “card” added to their Tweet that will be visible to all of their followers.
 
 #### You can also check:
