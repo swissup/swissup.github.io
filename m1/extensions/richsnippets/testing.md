@@ -15,9 +15,8 @@ category: Rich Snippets
 3.  If everything is OK you will get similar results:
 
     ![All good Results](http://image.prntscr.com/image/49b886988de548cdb8ce4f164400e0e1.png)
-    ![Product page view](/images/m1/extensions/askit/askit1.png)
-
-4.  Wait when Snippets will appear in Google search results
+  
+4.  Wait when snippets will appear in Google search results
 
 #### After you install the extension you can go to:
 
