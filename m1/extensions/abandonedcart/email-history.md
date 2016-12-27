@@ -7,9 +7,11 @@ abandoned cart email"
 category: Abandoned Cart
 ---
 
-# Email history
+# Email abandoned history
 
-Using a grid you can check a if anyone visits your website after sending a reminder. Particularly you can check a status value.
+Using a grid you can check a if anyone visits your website after receiving your reminder. Particularly you can check a status value. Afterwards you can send the abandoned shopping cart reminder again by pressing a button **Manually send**. You can also preview the email template before resending.
+
+![Carts history grid](/images/m1/extensions/abandoned-cart/email-abandoned-history.png)
 
 #### You can also check:
 

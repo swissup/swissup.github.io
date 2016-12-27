@@ -66,7 +66,7 @@ NB - if you need to create another one rule, you can easily do it in Magento fun
 #### You can also check:
 
 *   [Installation](../installation/)
-*   [Rules](../rules-grid/)
+*   [Rules management grid](../rules-grid/)
 *	[Prewritten templates](../pre-written-templates/)
 *   [Email history](../email-history/)
 *   [Abandoned shop cart](../abandoned-shop-cart/)
