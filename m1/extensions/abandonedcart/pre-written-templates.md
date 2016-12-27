@@ -21,6 +21,6 @@ Please go **Admin - System - Transactional emails** and click on **Add new templ
 *   [Rules](../rules-grid/)
 *	[Configuration](../configuration/)
 *   [Email history](../email-history/)
-*   [History grid](../history-grid/)
+*   [Abandoned shop cart](../abandoned-shop-cart/)
 *   [Support](https://swissuplabs.com/contacts/)
 *   [Forum](https://swissuplabs.com/magento-forum/)

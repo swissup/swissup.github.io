@@ -69,6 +69,6 @@ NB - if you need to create another one rule, you can easily do it in Magento fun
 *   [Rules](../rules-grid/)
 *	[Prewritten templates](../pre-written-templates/)
 *   [Email history](../email-history/)
-*   [History grid](../history-grid/)
+*   [Abandoned shop cart](../abandoned-shop-cart/)
 *   [Support](https://swissuplabs.com/contacts/)
 *   [Forum](https://swissuplabs.com/magento-forum/)

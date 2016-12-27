@@ -17,6 +17,6 @@ Using a grid you can check a if anyone visits your website after sending a remin
 *   [Rules](../rules/)
 *	[Prewritten templates](../prewritten-templates/)
 *   [Configuration](../configuration/)
-*   [History grid](../history-grid/)
+*   [Abandoned shop cart](../abandoned-shop-cart/)
 *   [Support](https://swissuplabs.com/contacts/)
 *   [Forum](https://swissuplabs.com/magento-forum/)
