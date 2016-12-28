@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Ajaxsearch
+title: Ajax search
 description: >
     Magento2 module for advanced searching
 keywords: >
@@ -8,9 +8,9 @@ keywords: >
 category: Ajaxsearch
 ---
 
-# Ajaxsearch
+# Ajax Search
 
-Magento2 ajax search and autocomplete module provides extended search results as soon as user starts typing a few characters. With our extension you can show product suggestions based on your store catalog. You can also enable the search by categories and CMS pages.  
+Magento2 ajax search and autocomplete module provides extended search results as soon as user starts typing a few characters. With our extension you can show product suggestions based on your store catalog. You can also enable the search by categories and CMS pages. 
 
 ![Ajaxsearch search results](/images/m2/ajaxsearch/usage.gif)
 
