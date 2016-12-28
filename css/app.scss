@@ -157,6 +157,12 @@ blockquote > *:first-child {
         box-sizing: border-box;
     }
 }
+.mdl-layout__drawer-button {
+    color: inherit;
+    line-height: 66px;
+    width: 58px;
+    height: 58px;
+}
 .mdl-layout__header {
     border-bottom: 1px solid #eaeaea;
 }
