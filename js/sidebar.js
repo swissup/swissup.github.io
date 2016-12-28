@@ -1,7 +1,7 @@
 var navigation = (function() {
 
-    var context     = $('.mdl-layout__content'),
-        sections    = $('h1, h2, h3, h4, h5, h6', '.content'),
+    var toc,
+        sections    = $('h1, h2, h3, h4, h5, h6', '.content').filter(':visible'),
         breakpoints = [],
         mapping     = {};
 
@@ -17,15 +17,15 @@ var navigation = (function() {
         breakpoints = [];
         mapping     = {};
 
-        var gap = 60, // @todo: maybe replace with: min(60, context.innerHeight() / 5)
-            scrollTop = context.scrollTop();
+        var gap = 20, // @todo: maybe replace with: min(60, $(window).innerHeight() / 5)
+            containerOffset = $('.content').offset().top;
 
         sections.each(function(i, section) {
             if (!section.id) {
                 return;
             }
 
-            var point = $(section).position().top + scrollTop;
+            var point = $(section).position().top + containerOffset;
 
             if (point > gap) {
                 point -= gap; // Select item, when it scrolls into top part of the of vieweport
@@ -44,7 +44,7 @@ var navigation = (function() {
     }
 
     function calculateCurrentSection() {
-        var currentScroll = context.scrollTop(),
+        var currentScroll = $(window).scrollTop(),
             point = Math.max.apply(null, breakpoints.filter(function(point) {
                 return point <= currentScroll;
             }));
@@ -57,14 +57,23 @@ var navigation = (function() {
      */
     function updateSpacer() {
         var diff = $('.content').innerHeight() - breakpoints[breakpoints.length - 1],
-            viewportHeight = context.innerHeight();
+            viewportHeight = $(window).innerHeight();
 
         $('.scrolling-spacer').height(Math.max(viewportHeight - diff, 0));
     }
 
     return {
-        init: function() {
+        init: function(el) {
             var self = this;
+            toc = el;
+
+            // add event listener to handle click on a title element
+            // (it's hidden with css, so we need to write a custom js)
+            $('#markdown-toc-contents, #markdown-toc-table-of-contents').on('click', function() {
+                $("html, body").animate({
+                    scrollTop: 0
+                }, 'slow');
+            });
 
             $('.content').append('<div class="scrolling-spacer"></div>');
 
@@ -73,19 +82,11 @@ var navigation = (function() {
                 self.activate(window.location.pathname);
             }
 
-            // Activate anchor link and all parent li's while scrolling.
-            // Need to wait for mdl layout event to properly calculate scrollOffsets.
-            $(document.body).on('mdl-componentupgraded', function(e) {
-                if (!($(e.target).hasClass('mdl-layout'))) {
-                    return;
-                }
+            updateBreakpoints();
 
-                updateBreakpoints();
-
-                context.on('scroll', _.throttle(function() {
-                    self.activate('#' + calculateCurrentSection());
-                }, 100));
-            });
+            $(window).on('scroll', _.throttle(function() {
+                self.activate('#' + calculateCurrentSection());
+            }, 100));
 
             // Activate correct item, when clicking anchor item
             $(window).on('hashchange', function() {
@@ -105,10 +106,9 @@ var navigation = (function() {
          * @return void
          */
         activate: function(href) {
-            var container = '.sidenav',
-                link = $('[href="' + href + '"]', container).first();
+            var link = $('[href="' + href + '"]', toc).first();
 
-            $('li.active', container).removeClass('active');
+            $('li.active', toc).removeClass('active');
 
             if (!link.length) {
                 return false;
@@ -120,7 +120,48 @@ var navigation = (function() {
 })();
 
 (function($) {
-    if ($('.sidenav').length) {
-        navigation.init();
+    var toc = $('#markdown-toc');
+    if (toc.length) {
+        navigation.init(toc);
+        new Constraint(toc, {
+            offset: 10
+        });
+
+        toc
+            .stick_in_parent({
+                spacer: false,
+                offset_top: 10,
+                inner_scrolling: false
+            })
+            .on("sticky_kit:stick", function(e) {
+                toc.css({
+                    left: $('.content').outerWidth() +
+                        $('.content').offset().left -
+                        toc.outerWidth()
+                });
+            })
+            .on("sticky_kit:unstick", function(e) {
+                toc.css({
+                    left: ''
+                });
+            })
+            .on("sticky_kit:bottom", function(e) {
+                toc.css({
+                    left: '',
+                    right: 0
+                });
+            })
+            .on("sticky_kit:unbottom", function(e) {
+                toc.css({
+                    left: $('.content').outerWidth() +
+                        $('.content').offset().left -
+                        toc.outerWidth(),
+                    right: ''
+                });
+            });
+
+        $(window).on('resize orientationchange', _.throttle(function() {
+            $(document.body).trigger('sticky_kit:recalc');
+        }, 500));
     }
 })(jQuery);

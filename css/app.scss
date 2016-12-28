@@ -174,6 +174,91 @@ blockquote > *:first-child {
     }
 }
 
+/* Table of contents */
+#markdown-toc {
+    list-style: none;
+    padding-left: 0;
+
+    /* Hide page title (H1) */
+    > li:first-child {
+        > a {
+            display: none;
+        }
+    }
+    /* Hide Table of Contents (H4) */
+    > li > ul > li:first-child {
+        // display: none;
+        margin-bottom: 15px;
+        > a {
+            font-weight: bold;
+            color: #999;
+        }
+    }
+
+    ul {
+        list-style: none;
+        padding-left: 10px;
+    }
+    li {
+        line-height: 1.3em;
+        margin: 8px 0;
+
+        a {
+            color: #777;
+            display: inline-block;
+            padding-right: 10px; // force wrap to the new line to be consistent with active state
+            text-decoration: none;
+            &:hover {
+                color: #ff4081;
+            }
+        }
+        &.active > a {
+            padding-right: 0;
+            font-weight: 600;
+        }
+    }
+}
+@media (min-width: 1200px) {
+    .article .content {
+        max-width: 1100px;
+        position: relative;
+        padding-right: 195px;
+    }
+    #table-of-contents,
+    #contents {
+        display: none;
+    }
+    #markdown-toc {
+        border-left: 3px solid #f6f6f6;
+        position: absolute;
+        right: 0;
+        top: 60px;
+        margin: 0;
+        width: 180px;
+        font-size: 13px;
+
+        max-height: 100%;
+        overflow: auto;
+        ul {
+            font-size: 13px;
+        }
+
+        &::-webkit-scrollbar {
+            width: 4px;
+            height: 4px;
+
+            &-thumb {
+                background-color: rgba(0,0,0,.26);
+            }
+        }
+    }
+}
+@media (max-width: 1199px) {
+    #markdown-toc.is_stuck {
+        position: static !important;
+    }
+}
+
 /* Search block */
 .docs-search {
     .mdl-button {

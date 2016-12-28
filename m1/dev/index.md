@@ -1,10 +1,15 @@
 ---
 layout: default
 title: Development documentation
-sidebar: sidebar.md
+;sidebar: sidebar.md
 ---
 
 # Dev docs
+
+#### Contents
+
+* TOC
+{:toc}
 
 ## Before start
 

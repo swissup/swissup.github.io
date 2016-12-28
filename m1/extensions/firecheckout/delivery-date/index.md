@@ -3,7 +3,7 @@ layout: default
 title: Delivery Date and Time
 description: Delivery Date and Time documentation
 category: Firecheckout
-sidebar: sidebar.md
+;sidebar: sidebar.md
 ---
 
 # Delivery Date and Time
@@ -20,6 +20,11 @@ Main features:
  -  [Disallow delivery](#excluded-delivery-dates-rules) for particular dates
  -  Customizable [time range values](#delivery-time-settings)
  -  Easy to use in [transactional emails](#transactional-email)
+
+#### Contents
+
+* TOC
+{:toc}
 
 ### Configuration
 
