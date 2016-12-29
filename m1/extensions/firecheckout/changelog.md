@@ -7,6 +7,54 @@ category: Firecheckout
 
 # Firecheckout Changelog
 
+### Version 3.10.0
+
+**Major changes**
+
+ -  Added ability to use separate values for Page Title and Meta Title fields
+
+    ![Meta Title](/images/m1/firecheckout/changelog/3.10.0/meta-title.png)
+
+ -  Added option to allow to place order, if VIES (Tax validation) service is busy
+
+    ![VIES configuration](/images/m1/firecheckout/changelog/3.10.0/vies-configuration.png)
+
+ -  Added ability to save billing address on registration mode change.
+    Usefull, when discount for registered users is used at the store.
+
+    ![Billing address save rules](/images/m1/firecheckout/changelog/3.10.0/save-rules.png)
+
+ -  Added ability to reload discount section on billing address change.
+    Usefull, when discount for registered users is used at the store.
+
+    ![Discount update rules](/images/m1/firecheckout/changelog/3.10.0/discount-update-rules.png)
+
+ -  Fixed form field status saving logic. Global and website levels are allowed
+    only. (Previously it was stored on global level only)
+ -  Additional fields, delivery date and customer comment fields will be
+    rendered as optional in backend order create form despite of
+    configuration value
+
+**Fixes and Improvements**
+
+ -  Small configuration improvements (Updated few titles and comments)
+ -  Minor css and js improvements
+ -  Added additional check to prevent double click on a submit button in
+    Authorize.Net form
+ -  Authorize.Net directpost integration updated. Inline js moved to js file
+ -  Improved logic to restore entered data in fields after ajax update
+
+**Third-party modules**
+
+ -  Updated Emjainteractive_Shippingoption integration
+ -  Firegento_MageSetup integration improved
+ -  SagepaySuite compatibility updated
+ -  Fixed error in Aicod_Italy integration
+ -  Fixed conflict with Webtex_Giftcards
+ -  Mageworx_MultiFees integration updated
+ -  Webgriffe_Tntpro integration added
+ -  Mico_Rushpackage integration added
+
 ### Version 3.9.0
 
 **Major changes**
