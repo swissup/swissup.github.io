@@ -14,14 +14,15 @@ crawlers, spam bots, spiders and other robots that try to steal your content.
 And in the same time you can be sure that no one of Google or Bing robots will
 be blocked (except you want to block them).
 
-1. [Installation](installation/)
-2. [Backend](backend/)
+ 1. [Installation](installation/)
+ 2. [Backend](backend/)
     - [Extension configuration](backend/extension-configuration/)
     - [Magento Visitors Log](backend/magento-visitor-log/)
     - [Whitelist](backend/whitelist/)
     - [Blakclist](backend/blacklist/)
     - [Suspicious List](backend/suspicious-list/)
-3. [Frontend](frontend/)
+ 3. [Frontend](frontend/)
+ 4. [Changelog](changelog/)
 
 ##### How does Bot Protection works
 
