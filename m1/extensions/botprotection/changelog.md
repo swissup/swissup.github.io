@@ -16,7 +16,7 @@ category: Bot Protection
  *  Fixed issue with 3D Secure on checkout when protected forms enabled
  *  Respect disabled bot detection by place honeypots option
 
-### Version 1.0.4
+### Version 1.0.3
 
 **New:**
 
