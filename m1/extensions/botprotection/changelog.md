@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Bot Protection
+title: Chaneglog
 description: Bot Protection changelog
 keywords: Bot Protection changelog
 category: Bot Protection
