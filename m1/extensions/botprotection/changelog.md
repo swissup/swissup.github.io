@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Chaneglog
+title: Changelog
 description: Bot Protection changelog
 keywords: Bot Protection changelog
 category: Bot Protection
@@ -12,7 +12,7 @@ category: Bot Protection
 
 **Changes / fixes:**
 
- *  Fixed Warning: inet_pton (IPv6 compatibility)
+ *  Solved warning about inet_pton (IPv6 compatibility)
  *  Fixed issue with 3D Secure on checkout when protected forms enabled
  *  Respect disabled bot detection by place honeypots option
 
