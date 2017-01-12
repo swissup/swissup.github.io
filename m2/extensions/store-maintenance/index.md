@@ -23,12 +23,13 @@ visitors, whether new or returning, happy.
 
 ### Contents
 
-1. [Installation](installation/)
-2. [Settings](settings/)
-    - [General](settings/#general)
-    - [Access to frontend](settings/#access-to-frontend)
-    - [Maintenance page header](settings/#maintenance-page-header)
-3. [Customize maintenance page](customize-page/)
+ 1. [Installation](installation/)
+ 2. [Settings](settings/)
+     -  [General](settings/#general)
+     -  [Access to frontend](settings/#access-to-frontend)
+     -  [Maintenance page header](settings/#maintenance-page-header)
+ 3. [Customize maintenance page](customize-page/)
+ 4. [Changelog](changelog/)
 
 ### Technical note
 

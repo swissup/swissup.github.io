@@ -1,8 +1,7 @@
 ---
 layout: default
-title: Settings
+title: Customize maintenance page
 description: Store Maintenance customization
-keywords: "store maintenance customize"
 category: Store Maintenance
 ---
 
@@ -12,8 +11,8 @@ Maintenance page that comes with module is just an example. You can change it
 any way you want. Or you can create your own page and select it as maintenance
 page in module settings.
 
-**Notice**: timer on maintenance page created with help of widget. This widget
-comes with Countdown Timer extension. So if you do not have Countdown Timer
+**Notice**: timer on maintenance page created with widget. This widget comes
+with Countdown Timer extension. So if you do not have Countdown Timer
 extension, then you do not see timer.
 
 Source code of maintenance page (CMS page):
