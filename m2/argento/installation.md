@@ -97,9 +97,11 @@ all contents of this folder into `MAGENTO_ROOT/pub/media` directory.
 
 ```bash
 cd MAGENTO_ROOT
-cp -R app/design/frontend/Swissup/argento-[essence|flat]/resources/media/* pub/media/
+cp -R app/design/frontend/Swissup/argento-essence/resources/media/* pub/media/
+cp -R app/design/frontend/Swissup/argento-flat/resources/media/* pub/media/
 # If you are using theme from vendor folder:
-# cp -R vendor/swissup/theme-frontend-argento-[essence|flat]/resources/media/* pub/media/
+# cp -R vendor/swissup/theme-frontend-argento-essence/resources/media/* pub/media/
+# cp -R vendor/swissup/theme-frontend-argento-flat/resources/media/* pub/media/
 chmod -R 777 pub/media/easybanner pub/media/easyslide
 ```
 
