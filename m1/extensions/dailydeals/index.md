@@ -43,3 +43,5 @@ periodic Weekend deal or periodic Friday night deal.
      - [Change Flip Timer color](/m1/extensions/countdowntimer/use-cases/#change-flip-timer-color)
  5. [Troubleshooting](troubleshooting)
      -  [Deals page does not show all items or is empty](troubleshooting/#deals-page-does-not-show-all-items-or-is-empty)
+ 6. [Changelog](changelog)
+

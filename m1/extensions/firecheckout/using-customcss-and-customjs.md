@@ -13,7 +13,7 @@ category: Firecheckout
 #### Change firecheckout styles
 
 To make a changes to firecheckout styles, you can create `custom.css` file at
-`skin/frontent/base/default/tm/firecheckout/css` folder.
+`skin/frontend/base/default/tm/firecheckout/css` folder.
 
 You can also place this file to the `active_package/active_theme` folder, if you
 wish to change styles per theme.

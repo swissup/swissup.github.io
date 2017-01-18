@@ -34,10 +34,6 @@ a module, that automatially select's it.
     And add the following styles into it:
 
     ```scss
-    // Fix section numbers
-    @firecheckout-section-number__payment-method-value: 2;
-    @firecheckout-section-number__order-summary-value:  3;
-
     // Hide shipping method section
     .firecheckout {
         #opc-shipping_method {

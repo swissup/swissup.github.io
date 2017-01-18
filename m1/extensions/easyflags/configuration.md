@@ -8,6 +8,9 @@ category: Easy Flags
 
 # Easy Flags configuration
 
+ 1. [Setting Up](#setting-up)
+ 2. [Switcher Type](#switcher-type)
+
 **Magento** default **StoreSwitcher** look
 
 ![default](/images/m1/extensions/easyflags/flags1.png)
@@ -16,19 +19,33 @@ category: Easy Flags
 
 1.  Go to `System > Configuration > TemplatesMaster > Easyflags`
 2.  Set **EasyFlags** option `Enable` = **Yes**
-3.  Switch to one of your Store Views _(i.e. English)_
+3.  Go to `System > Manage Stores`
 
-    ![admin](/images/m1/extensions/easyflags/flags2.png)
+    ![Manage Stores](/images/m1/extensions/easyflags/manage-stores.png)
 
-4.  Upload the **flag icon** for current **Store View** (**JPG**, **PNG**, **GIF**
-    formats are allowed) and save.
+4.  Select store view and edit it storeview. Upload the **flag icon** in
+    `Easy Flags` section and save.
 
-    ![uploaded](/images/m1/extensions/easyflags/flags3.png)
+    ![Edit Store View](/images/m1/extensions/easyflags/edit-store-view.png)
 
 5.  Repeat same for every **Store View**
 6.  If everything is correct you'll get similar result
 
     ![Result](/images/m1/extensions/easyflags/flags4.png)
+
+
+### Switcher Type
+
+Easy Flags extension (version 3.0+) provides two types of language switcher:
+
+| Inline     | Chosen Dropdown |
+|------------|-----------------|
+| ![Inline](/images/m1/extensions/easyflags/inline.png) | ![Chosen Dropdown](/images/m1/extensions/easyflags/chosen-dropdown.png) |
+
+You can change switcher type in Magento Admin. Go to menu `System` >
+`Configuration`. Select `Easy Flags` on left side panel under section
+`Templates Master`. And in group _Language Switcher_ you can change switcher
+type and show/hide switcher label.
 
 ___
 

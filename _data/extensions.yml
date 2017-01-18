@@ -92,6 +92,14 @@ cdn:
     m1: /m1/extensions/cdn/
     m2:
 
+checkoutcart:
+  title: Checkout Cart
+  short_description: Add cart functionality on checkout page
+  size: 1x1
+  urls:
+    m1:
+    m2: /m2/extensions/checkout-cart/
+
 checkoutsuccess:
   title: Checkout Success
   short_description: Show more details on checkout success page

@@ -8,6 +8,11 @@ category: Checkout Success
 
 # Changelog
 
+### Version 2.0.2
+
+- Improved styles for mockup section in backend
+- Added missing translations
+
 ### Version 2.0.1
 
 - Success page button colors imported from firecheckout page

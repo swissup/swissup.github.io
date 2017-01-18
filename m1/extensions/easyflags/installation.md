@@ -2,7 +2,7 @@
 layout: default
 title: Easy Flags Installation
 description: magento easy flags module installation
-keywords: " magento language switcher flag, magento enable language switcher, magento show language switcher, magento language selector "
+keywords: " magento language switcher flag, magento enable language switcher, magento language switcher, magento language selector "
 category: Easy Flags
 ---
 
@@ -11,13 +11,18 @@ category: Easy Flags
 
 Please follow next steps to complete the installation:
 
-1. Navigate to `Admin > Tools > Compilation` and deactivate the compilation
-mode for your store.
-2. Check if your Magento store cache is enabled.
-3. Unpack all files from extension archive into your magento store root directory.
-4. Refresh your magento store cache.
-5. Logout from your store admin and then login back, to refresh your admin user
-access rights.
+ 1. Go to store backend and disable compilation mode.
+ 2. Go to your magento store root directory (via FTP or CPanel).
+ 3. Create file `maintenance.flag` in root directory.
+ 4. Open your store in browser; you have to see page
+    `Service Temporarily Unavailable` (if you can not see this page - probably
+    you try to install extension at wrong magento instance).
+ 5. Unpack all files from extension archive into your magento store root
+    directory.
+ 6. Remove file `maintenance.flag` when copy process completed.
+ 7. Clear Magento Cache.
+ 8. Logout from your store admin and then login back, to refresh your admin
+    user access rights.
 
 * Navigate to `System > Configuration > Templates-Master > Easy Flags` and
 enable extension for any store you need.

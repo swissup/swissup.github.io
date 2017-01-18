@@ -8,8 +8,7 @@ category: Easy Navigation
 
 # Easy Navigation
 
+![Magento navigation in right column](/images/m1/extensions/easy-navigation/frontend-right-column.png)
+
 - [Installation](installation/)
 - [Configuration](configuration/)
-	-[Top navigation](top-navigation/)
-	-[Navigation in left column](navigation-in-left-column)
-	-[Navigation in right column](navigation-in-right-column)

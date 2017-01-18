@@ -14,12 +14,12 @@ keywords: >
     Bysoft_Relaypoint, Dhl_Magentolws, DPD_Shipping, IrvineSystems_Deliverydate,
     IrvineSystems_JapanPost, IrvineSystems_Sagawa, IrvineSystems_Seino,
     IrvineSystems_Yamato, JRD_Paczkomaty, Kiala_LocateAndSelect,
-    Magestore_Storepickup, Man4x_MondialRelay, Ophirah_Qquoteadv (Cart2Quote),
+    Magestore_Storepickup, Man4x_MondialRelay, Mico_Rushpackage, Ophirah_Qquoteadv (Cart2Quote),
     PostcodeNl_Api, Shipperhq_Freight, Shipperhq_Pickup, Storepickup,
     TIG_Postcode, Webshopapps_Desttype, WebshopApps_ProductMatrix,
     Wyomind_Pickupatstore, Amasty_Methods, Magento EE coupons,
     Magento EE GiftCards and GiftWrap, Aitoc_Aitgiftwrap, Unirgy_GiftCert,
-    Webtex_Gitcards, MageWorx_CustomerCredit, Wf_CustomerBalance (Magecredit),
+    Webtex_Giftcards, MageWorx_CustomerCredit, Wf_CustomerBalance (Magecredit),
     AW_Rewards, Magebuzz_Rewardpoint, Emja_Taxrelief, Webgriffe_TaxIdPro,
     GCMC_GiveChange, Symmetrics_Buyerprotect, CraftyClicks, Juicy_Geoip,
     Rack_Getpostcode, AW_Advancednewsletter, AW_Newsletter,
@@ -95,6 +95,7 @@ additional modifications.
 - Kiala_LocateAndSelect
 - Magestore_Storepickup
 - Man4x_MondialRelay
+- Mico_Rushpackage
 - Ophirah_Qquoteadv (Cart2Quote)
 - PostcodeNl_Api
 - Shipperhq_Freight
@@ -132,7 +133,7 @@ additional modifications.
 - [AW_GiftCard](aw-giftcard/)
 - [Magestore_Giftvoucher](magestore-giftvoucher/)
 - Unirgy_GiftCert
-- Webtex_Gitcards
+- Webtex_Giftcards
 
 ### StoreCredit
 
@@ -196,3 +197,7 @@ additional modifications.
 
 - Inchoo_SocialConnect
 - TM_SocialSuite
+
+### National Market Extensions
+
+ - Firegento_MageSetup

@@ -12,8 +12,8 @@ category: Easy Flags
 
 ### Using EasyFlags as Categories
 
-You can also use **EasyFlags** extension for switching stores that have big products
-amount and want to separate them using storeviews _(i.e. Clothes, Electronics, Cars, Medicines)_.
+You can also use **EasyFlags** extension for switching stores that have big
+products amount and want to separate them using storeviews _(i.e. Clothes, Electronics, Cars, Medicines)_.
 
 ![Categories](/images/m1/extensions/easyflags/flags5.png)
 

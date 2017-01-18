@@ -64,7 +64,7 @@ homepage and products page tabs. [Scroll down](#result) to see results.
 
     ```bash
     cd magento/root/folder
-    rm -rf var/view_preprocessed
+    rm -rf var/view_preprocessed pub/static/frontend
     bin/magento setup:static-content:deploy
     ```
 
