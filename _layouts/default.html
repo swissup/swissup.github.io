@@ -5,18 +5,17 @@
     <div class="mdl-layout mdl-js-layout-off">
         {% include header.html class="mdl-layout__header--scroll mdl-color--white mdl-color-text--grey-700" %}
 
-        <div class="mdl-grid mdl-grid--no-spacing" style="margin: 0;">
-          <div class="article mdl-cell mdl-cell--12-col">
+        <div class="page">
             {% include sidebar.html %}
-            <main class="mdl-layout__content mdl-color-text--grey-800">
+            <main class="main mdl-layout__content-off mdl-color-text--grey-800">
               <div class="content">
                 {% include breadcrumbs.html %}
                 {{ content }}
               </div>
-              {% include footer.html %}
             </main>
-          </div>
         </div>
+
+        {% include footer.html %}
     </div>
 
     <a id="edit-page"

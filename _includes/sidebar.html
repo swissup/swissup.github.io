@@ -1,5 +1,5 @@
 {% if page.sidebar %}
-  <aside class="sidenav mdl-shadow--2dp mdl-color--white" style="overflow: auto;">
+  <aside class="sidebar">
       {% capture sidebar %}{% include_relative {{page.sidebar}} %}{% endcapture %}
       {{ sidebar | markdownify }}
   </aside>

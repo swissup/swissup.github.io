@@ -3,7 +3,7 @@ layout: default
 title: Delivery Date and Time
 description: Delivery Date and Time documentation
 category: Firecheckout
-;sidebar: sidebar.md
+sidebar: sidebar.md
 ---
 
 # Delivery Date and Time
