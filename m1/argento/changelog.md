@@ -7,26 +7,47 @@ category: Argento
 
 # Argento Changelog
 
-### Version 1.8.5 (Draft)
+### Version 1.8.5
 
 [Upgrade Instructions](../upgrade-instructions/#version-184---185)
 
 **New Features**
 
- *  new homepage and footer markup in ArgentoPure and ArgentoMall designs
+ *  New homepage and footer markup in ArgentoPure and ArgentoMall designs
     using Bootstrap grid system
+ *  [Easy Flags extension](/m1/extensions/easyflags/) is included in Argento
+    Theme Package
 
 **Fixes and Improvements**
 
- *  Easyflags 3.0 integration
- *  minor css fixes
- *  load fonts with one link in Argento Flat
- *  video of the day moved to static block in Argento Mall
+ *  Easy Tabs 3.0 and Easy Flags 3.0 integration
+ *  Minor css fixes
+ *  Load external fonts with one request in Argento Flat
+ *  Video of the day moved to static block in Argento Mall
 
 **Modules fixes and improvements**
 
+ *  Ajax Pro
+     -  Crosssell block integration added
+
  *  Ajax Search
-    -  improved frontend styles
+     -  Improved frontend styles (fixed problem with "jumping" search Argento
+        themes)
+
+ *  AskIt
+     -  Fixed product url generation for emails
+     -  Mass answers status change action added in Magneto Admin
+     -  Corrected block type for askit_tabbed block in layout
+     -  Fixed bug about showing answers with pending status on frontend
+     -  Missing translations added
+     -  Question grid item column sorting and filtering fixed
+     -  Vote table customer foreign key bug was fixed
+     -  Export action was fixed
+
+ * Easytabs (major update)
+    -  Product tabs and Widget tabs
+    -  Extension has its own widget (now you can place tabs any where you want)
+    -  Group attributes in "Additional Information" tab (optional)
 
 ### Version 1.8.4
 

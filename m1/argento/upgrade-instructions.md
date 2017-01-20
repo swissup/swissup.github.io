@@ -42,6 +42,16 @@ category: Argento
 
     - [Manual upgrade](/m1/argento/mall/upgrade-instructions/1.8.4-1.8.5-manual-upgrade)
 
+ -  To keep your Magento instance "clean and tidy" you can delete following
+    files:
+
+    ```
+    app/code/community/TM/EasyTabs/Block/Tabs.php
+    app/code/community/TM/EasyTabs/Model/Config.php
+    app/code/community/TM/EasyTabs/Model/Config/Collection.php
+    app/code/community/TM/EasyTabs/controllers/Adminhtml/Easytabs/IndexController.php
+    ```
+
 ### Version 1.8.3 - 1.8.4
 
  -  Backup all your changes
