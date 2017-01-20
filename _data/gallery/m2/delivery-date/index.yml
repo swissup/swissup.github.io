@@ -1,0 +1,35 @@
+- href: /images/m2/delivery-date/frontend/checkout.png
+  src: /images/m2/delivery-date/frontend/checkout.png
+  title: Delivery date on standard checkout page
+  w: 771
+  h: 439
+- href: /images/m2/delivery-date/frontend/firecheckout.png
+  src: /images/m2/delivery-date/frontend/firecheckout.png
+  title: Delivery date on firecheckout page
+  w: 1131
+  h: 761
+- href: /images/m2/delivery-date/configuration/up.png
+  src: /images/m2/delivery-date/configuration/up.png
+  title: Delivery date configuration
+  w: 1405
+  h: 782
+- href: /images/m2/delivery-date/configuration/footer.png
+  src: /images/m2/delivery-date/configuration/footer.png
+  title: Delivery date configuration
+  w: 1113
+  h: 848
+- href: /images/m2/delivery-date/backend/view.png
+  src: /images/m2/delivery-date/backend/view.png
+  title: Delivery date at backend order view page
+  w: 1343
+  h: 382
+- href: /images/m2/delivery-date/backend/edit.png
+  src: /images/m2/delivery-date/backend/edit.png
+  title: Delivery date at backend order edit page
+  w: 606
+  h: 616
+- href: /images/m2/delivery-date/backend/grid.png
+  src: /images/m2/delivery-date/backend/grid.png
+  title: Delivery date at order grid
+  w: 1693
+  h: 109
