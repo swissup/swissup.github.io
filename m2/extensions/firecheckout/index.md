@@ -22,9 +22,11 @@ faster and easier by providing them a simple checkout form.
  5. Additional modules, shipped together with Firecheckout:
     - [Address Autocomplete](/m2/extensions/address-autocomplete/)
     - [Address Field Manager](/m2/extensions/address-field-manager/)
+    - [Checkout Cart](/m2/extensions/checkout-cart/)
+    - [Delivery Date](/m2/extensions/delivery-date/)
     - [GeoIp](/m2/extensions/geoip/)
-    - [Success Page](/m2/extensions/checkoutsuccess/)
     - [Order Attachments](/m2/extensions/order-attachments/)
+    - [Success Page](/m2/extensions/checkoutsuccess/)
     - [Taxvat Validation](/m2/extensions/taxvat/)
  6. Third-party themes compatibility
     - [Argento theme by Templates-Master](third-party-themes/argento/)

@@ -23,7 +23,9 @@ category: Firecheckout
         Swissup_AddressAutocomplete\
         Swissup_AddressFieldManager\
         Swissup_Geoip\
+        Swissup_CheckoutCart\
         Swissup_CheckoutSuccess\
+        Swissup_DeliveryDate\
         Swissup_Firecheckout\
         Swissup_Orderattachment\
         Swissup_Taxvat

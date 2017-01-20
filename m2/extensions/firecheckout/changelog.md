@@ -8,6 +8,22 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.4.0
+
+**Major Updates**
+
+ -  [Checkout Cart](/m2/extensions/checkout-cart/) module added.
+    See the [installation instructions](../installation/) on how to enable new module.
+ -  [Delivery Date](/m2/extensions/delivery-date/) module added.
+    See the [installation instructions](../installation/) on how to enable new module.
+ -  Section numbers rewritten using pure css
+
+**Fixes and Improvements**
+
+ -  Improved third-party themes compatibility
+ -  Added payment methods reload, when shipping rates are reloaded
+ -  Payments will be reloaded, if `Allow specific country` option is enabled
+
 ### Version 1.3.0
 
 **Major Updates**
