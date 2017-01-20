@@ -27,11 +27,13 @@ Homepage content is editable at `Cms > Pages` interface.
 Code:
 
 ```html
-{% raw %}<div class="callout-home-top col2-set">
-    <div class="col-1">
-        {{widget type="easyslide/insert" slider_id="argento_mall"}}
+{% raw %}<div class="row callout-home-top">
+    <div class="col-lg-9 col-md-12">
+        <div>
+            {{widget type="easyslide/insert" slider_id="argento_mall"}}
+        </div>
     </div>
-    <div class="col-2">
+    <div class="col-md-3 visible-lg-block">
         {{block type="newsletter/subscribe" name="homepage.newsletter" template="newsletter/subscribe.phtml"}}
         {{widget type="easybanner/widget_placeholder" placeholder_name="argento-mall-home-top"}}
     </div>
@@ -51,7 +53,7 @@ banners at `Templates-Master > Easybanner`.
 The following code is used in order to display the sidebar navigation:
 
 ```html
-{% raw %}<div class="col-side sidebar">
+{% raw %}<div class="col-md-3 sidebar visible-lg-block">
     {{block type="navigationpro/navigation" template="tm/navigationpro/sidebar.phtml" name_in_layout="navpro-homepage-left" menu_name="argento_mall_left" enabled="1"}}
 </div>{% endraw %}
 ```
@@ -63,14 +65,14 @@ The following code is used in order to display the sidebar navigation:
 Code:
 
 ```html
-{% raw %}<div class="col3-set">
-    <div class="col-1 col-mobile-50">
+{% raw %}<div class="row">
+    <div class="col-md-4 col-sm-4 col-xs-6">
         {{widget type="highlight/product_special" name="homepage.special" title="Deal of the week" class_name="block block-alt" products_count="1" column_count="1" template="tm/highlight/product/grid.phtml"}}
     </div>
-    <div class="col-2 col-mobile-50">
+    <div class="col-md-4 col-sm-4 col-xs-6">
         {{widget type="highlight/product_attribute_yesno" attribute_code="recommended" class_name="editor-choice  block block-alt" name="homepage.editor_choice" title="Editor's choice" products_count="1" column_count="1" template="tm/highlight/product/grid.phtml"}}
     </div>
-    <div class="col-3">
+    <div class="col-md-4 col-sm-4 col-xs-12">
         {{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="video_of_the_day"}}
     </div>
 </div>{% endraw %}
@@ -80,7 +82,7 @@ Code:
 
 ![Video of the Day](/images/argento/mall/homepage-video-block.jpg)
 
-> From **Argento ver. 1.8.5** "Video of the Day" block was moved to CMS Block 
+> From **Argento ver. 1.8.5** "Video of the Day" block was moved to CMS Block
 > **'video_of_the_day'**
 
 Code:
@@ -114,7 +116,7 @@ To change video for your needs, please, modify following parameners:
     to this piece of code:
 
     ![Video at Youtube](/images/argento/mall/youtube-share.png)
- 
+
 ### Featured Products
 
 ![Featured products](/images/argento/mall/homepage-featured-products.jpg)
@@ -140,29 +142,30 @@ Code:
 In case if you've lost original homepage content, you can get it below:
 
 ```html
-{% raw %}<div class="callout-home-top col2-set">
-    <div class="col-1">
-        {{widget type="easyslide/insert" slider_id="argento_mall"}}
+{% raw %}<div class="row callout-home-top">
+    <div class="col-lg-9 col-md-12">
+        <div>
+            {{widget type="easyslide/insert" slider_id="argento_mall"}}
+        </div>
     </div>
-    <div class="col-2">
+    <div class="col-md-3 visible-lg-block">
         {{block type="newsletter/subscribe" name="homepage.newsletter" template="newsletter/subscribe.phtml"}}
         {{widget type="easybanner/widget_placeholder" placeholder_name="argento-mall-home-top"}}
     </div>
 </div>
-
-<div class="col-home-set">
-    <div class="col-side sidebar">
+<div class="row col-home-set">
+    <div class="col-md-3 sidebar visible-lg-block">
         {{block type="navigationpro/navigation" template="tm/navigationpro/sidebar.phtml" name_in_layout="navpro-homepage-left" menu_name="argento_mall_left" enabled="1"}}
     </div>
-    <div class="col-main">
-        <div class="col3-set">
-            <div class="col-1 col-mobile-50">
+    <div class="col-lg-9 col-md-12">
+        <div class="row">
+            <div class="col-md-4 col-sm-4 col-xs-6">
                 {{widget type="highlight/product_special" name="homepage.special" title="Deal of the week" class_name="block block-alt" products_count="1" column_count="1" template="tm/highlight/product/grid.phtml"}}
             </div>
-            <div class="col-2 col-mobile-50">
+            <div class="col-md-4 col-sm-4 col-xs-6">
                 {{widget type="highlight/product_attribute_yesno" attribute_code="recommended" class_name="editor-choice  block block-alt" name="homepage.editor_choice" title="Editor's choice" products_count="1" column_count="1" template="tm/highlight/product/grid.phtml"}}
             </div>
-            <div class="col-3">
+            <div class="col-md-4 col-sm-4 col-xs-12">
                 {{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="video_of_the_day"}}
             </div>
         </div>
