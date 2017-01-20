@@ -8,6 +8,40 @@ category: Argento
 
 # Argento Upgrade Instructions
 
+### Version 1.8.4 - 1.8.5
+
+ -  Backup all your changes
+ -  Put the store on maintenance mode.
+ -  Navigate to `System > Tools > Compilation` and disable compilation.
+ -  Unpack new Argento version over the old one.
+ -  Delete following files:
+
+    ```
+    app/design/frontend/argento/mall/template/catalogsearch/form.mini.phtml
+    app/design/frontend/argento/mall/template/catalogsearch/footer.terms.phtml
+    app/design/frontend/argento/mall/template/newsletter/subscribe.phtml
+    app/design/frontend/argento/mall/template/reports/footer.product_viewed.phtml
+    ```
+-  **Update Homepage and Footer markup (ArgentoPure theme users only)**
+
+    This release introduces new homepage markup and new footer blocks in `ArgentoPure` design.
+
+    You can switch to new `homepage` and `footer` in two ways:
+
+    - [Upgrade using installer](/m1/argento/pure/upgrade-instructions/1.8.4-1.8.5-installer-upgrade)
+
+    - [Manual upgrade](/m1/argento/pure/upgrade-instructions/1.8.4-1.8.5-manual-upgrade)
+
+-  **Update Homepage and Footer markup (ArgentoMall theme users only)**
+
+    This release introduces new homepage markup and new footer blocks in `ArgentoMall` design.
+
+    You can switch to new `homepage` and `footer` in two ways:
+
+    - [Upgrade using installer](/m1/argento/mall/upgrade-instructions/1.8.4-1.8.5-installer-upgrade)
+
+    - [Manual upgrade](/m1/argento/mall/upgrade-instructions/1.8.4-1.8.5-manual-upgrade)
+
 ### Version 1.8.3 - 1.8.4
 
  -  Backup all your changes

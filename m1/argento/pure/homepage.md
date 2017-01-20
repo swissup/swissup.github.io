@@ -30,8 +30,12 @@ Slider is placed by widget. The following code is used to display
 the slider on the homepage:
 
 ```html
-{% raw %}<div class="homeslider">
-    {{widget type="easyslide/insert" slider_id="argento_pure"}}
+{% raw %}<div class="row">
+    <div class="col-md-12">
+        <div class="homeslider">
+            {{widget type="easyslide/insert" slider_id="argento_pure"}}
+        </div>
+    </div>
 </div>{% endraw %}
 ```
 
@@ -45,8 +49,10 @@ This block is inserted using magento widget functionality. The following code
 is used to show block on the homepage:
 
 ```html
-{% raw %}<div class="hidden-phone-off">
-    {{widget type="easycatalogimg/widget_list" category_count="4" column_count="4" show_image="1" resize_image="1" image_width="180" image_height="180" subcategory_count="1" template="tm/easycatalogimg/list.phtml"}}
+{% raw %}<div class="row">
+    <div class="col-md-12">
+        {{widget type="easycatalogimg/widget_list" category_count="4" column_count="4" show_image="1" resize_image="1" image_width="180" image_height="180" subcategory_count="1" template="tm/easycatalogimg/list.phtml"}}
+    </div>
 </div>{% endraw %}
 ```
 
@@ -60,8 +66,10 @@ The banner is powered by EasyBanner module. You can add or configure banners at
 You can look at the code that was used to show the homepage banner:
 
 ```html
-{% raw %}<div class="hidden-tablet hidden-phone">
-    {{widget type="easybanner/widget_placeholder" placeholder_name="argento-home-content"}}
+{% raw %}<div class="row hidden-tablet hidden-phone">
+    <div class="col-md-12">
+        {{widget type="easybanner/widget_placeholder" placeholder_name="argento-home-content"}}
+    </div>
 </div>{% endraw %}
 ```
 
@@ -74,25 +82,25 @@ Homepage tabs - is a highlight block, transformed into tabs with javascript.
 The following code is used to show tabs on the homepage:
 
 ```html
-{% raw %}<div class="tab-container">
-    {{widget type="highlight/product_new" title="New arrivals" products_count="12" column_count="4" template="tm/highlight/product/grid.phtml" class_name="highlight-new" show_page_link="1" page_title="All new products &raquo;"}}
-    {{widget type="highlight/product_bestseller" title="Bestsellers" products_count="12" column_count="4" template="tm/highlight/product/grid.phtml" class_name="highlight-bestsellers" show_page_link="1" page_title="All bestsellers &raquo;"}}
-    {{widget type="highlight/product_attribute_yesno" attribute_code="recommended" title="Recommended products" products_count="12" column_count="4" template="tm/highlight/product/grid.phtml" class_name="highlight-attribute-recommended"}}
-    {{widget type="highlight/product_special" title="On sale" products_count="12" column_count="4" template="tm/highlight/product/grid.phtml" class_name="highlight-special" show_page_link="1" page_title="All on sale products &raquo;"}}
+{% raw %}<div class="row tab-container">
+    {{widget type="highlight/product_new" title="New arrivals" products_count="12" column_count="4" template="tm/highlight/product/grid.phtml" class_name="highlight-new" show_page_link="1" page_title="All new products &raquo;" img_width="200" img_height="200"}}
+    {{widget type="highlight/product_bestseller" title="Bestsellers" products_count="12" column_count="4" template="tm/highlight/product/grid.phtml" class_name="highlight-bestsellers" show_page_link="1" page_title="All bestsellers &raquo;" img_width="200" img_height="200"}}
+    {{widget type="highlight/product_attribute_yesno" attribute_code="recommended" title="Recommended products" products_count="12" column_count="4" template="tm/highlight/product/grid.phtml" class_name="highlight-attribute-recommended" img_width="200" img_height="200"}}
+    {{widget type="highlight/product_special" title="On sale" products_count="12" column_count="4" template="tm/highlight/product/grid.phtml" class_name="highlight-special" show_page_link="1" page_title="All on sale products &raquo;" img_width="200" img_height="200"}}
     <div class="block-about block-highlight">
         <div class="block-title"><span>About Us</span></div>
         <div class="block-content" style="padding: 7px 7px;">
-            <div class="col3-set">
-                <div class="col-1">
+            <div class="row">
+                <div class="col-md-4 col-sm-4">
                     <p style="line-height:1.2em;"><small>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit. Mauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede.</small></p>
                     <p style="color:#888; font:1.2em/1.4em georgia, serif;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit. Mauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede. Cras vel libero id lectus rhoncus porta.</p>
                 </div>
-                <div class="col-2">
+                <div class="col-md-4 col-sm-4">
                     <p><strong style="color:#de036f;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit.</strong></p>
                     <p>Vivamus tortor nisl, lobortis in, faucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorper. Phasellus id massa. Pellentesque nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc augue. Aenean sed justo non leo vehicula laoreet. Praesent ipsum libero, auctor ac, tempus nec, tempor nec, justo. </p>
                     <p>Maecenas ullamcorper, odio vel tempus egestas, dui orci faucibus orci, sit amet aliquet lectus dolor et quam. Pellentesque consequat luctus purus. Nunc et risus. Etiam a nibh. Phasellus dignissim metus eget nisi. Vestibulum sapien dolor, aliquet nec, porta ac, malesuada a, libero. Praesent feugiat purus eget est. Nulla facilisi. Vestibulum tincidunt sapien eu velit. Mauris purus. Maecenas eget mauris eu orci accumsan feugiat. Pellentesque eget velit. Nunc tincidunt.</p>
                 </div>
-                <div class="col-3">
+                <div class="col-md-4 col-sm-4">
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit. Mauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede. Cras vel libero id lectus rhoncus porta. Suspendisse convallis felis ac enim. Vivamus tortor nisl, lobortis in, faucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorper </p>
                     <p><strong style="color:#de036f;">Maecenas ullamcorper, odio vel tempus egestas, dui orci faucibus orci, sit amet aliquet lectus dolor et quam. Pellentesque consequat luctus purus.</strong></p>
                     <p>Nunc et risus. Etiam a nibh. Phasellus dignissim metus eget nisi.</p>
@@ -125,32 +133,36 @@ Brands slider is a simple cms content, powered with javascript to make slider.
 Look at the code, that was used to show the brands slider:
 
 ```html
-{% raw %}<div class="block brands-home hidden-phone">
-    <div class="block-title">
-        <span>Featured Brands</span>
-    </div>
-    <div class="block-content">
-        <a href="#" id="left">Left</a>
-        <a href="#" id="right">Right</a>
-        <div id="slider-brands-container" class="slider-wrapper">
-            <ul class="list-brands slider-brands" id="slider-brands">
-                <li><a href="#"><img src="{{skin url="images/catalog/brands/gucci.jpg"}}" alt="" width="150" height="80"/></a></li>
-                <li><a href="#"><img src="{{skin url="images/catalog/brands/lv.jpg"}}" alt="" width="100" height="80"/></a></li>
-                <li><a href="#"><img src="{{skin url="images/catalog/brands/ck.jpg"}}" alt="" width="130" height="80"/></a></li>
-                <li><a href="#"><img src="{{skin url="images/catalog/brands/chanel.jpg"}}" alt="" width="170" height="80"/></a></li>
-                <li><a href="#"><img src="{{skin url="images/catalog/brands/guess.jpg"}}" alt="" width="130" height="80"/></a></li>
-                <li><a href="#"><img src="{{skin url="images/catalog/brands/versace.jpg"}}" alt="" width="145" height="80"/></a></li>
-                <li><a href="#"><img src="{{skin url="images/catalog/brands/gucci.jpg"}}" alt="" width="150" height="80"/></a></li>
-                <li><a href="#"><img src="{{skin url="images/catalog/brands/lv.jpg"}}" alt="" width="100" height="80"/></a></li>
-                <li><a href="#"><img src="{{skin url="images/catalog/brands/ck.jpg"}}" alt="" width="130" height="80"/></a></li>
-                <li><a href="#"><img src="{{skin url="images/catalog/brands/chanel.jpg"}}" alt="" width="170" height="80"/></a></li>
-                <li><a href="#"><img src="{{skin url="images/catalog/brands/guess.jpg"}}" alt="" width="130" height="80"/></a></li>
-                <li><a href="#"><img src="{{skin url="images/catalog/brands/versace.jpg"}}" alt="" width="145" height="80"/></a></li>
-            </ul>
+{% raw %}<div class="row">
+    <div class="col-md-12">
+        <div class="block brands-home hidden-phone">
+            <div class="block-title">
+                <span>Featured Brands</span>
+            </div>
+            <div class="block-content">
+                <a href="#" id="left">Left</a>
+                <a href="#" id="right">Right</a>
+                <div id="slider-brands-container" class="slider-wrapper">
+                    <ul class="list-brands slider-brands" id="slider-brands">
+                        <li><a href="#"><img src="{{skin url="images/catalog/brands/gucci.jpg"}}" alt="" width="150" height="80"/></a></li>
+                        <li><a href="#"><img src="{{skin url="images/catalog/brands/lv.jpg"}}" alt="" width="100" height="80"/></a></li>
+                        <li><a href="#"><img src="{{skin url="images/catalog/brands/ck.jpg"}}" alt="" width="130" height="80"/></a></li>
+                        <li><a href="#"><img src="{{skin url="images/catalog/brands/chanel.jpg"}}" alt="" width="170" height="80"/></a></li>
+                        <li><a href="#"><img src="{{skin url="images/catalog/brands/guess.jpg"}}" alt="" width="130" height="80"/></a></li>
+                        <li><a href="#"><img src="{{skin url="images/catalog/brands/versace.jpg"}}" alt="" width="145" height="80"/></a></li>
+                        <li><a href="#"><img src="{{skin url="images/catalog/brands/gucci.jpg"}}" alt="" width="150" height="80"/></a></li>
+                        <li><a href="#"><img src="{{skin url="images/catalog/brands/lv.jpg"}}" alt="" width="100" height="80"/></a></li>
+                        <li><a href="#"><img src="{{skin url="images/catalog/brands/ck.jpg"}}" alt="" width="130" height="80"/></a></li>
+                        <li><a href="#"><img src="{{skin url="images/catalog/brands/chanel.jpg"}}" alt="" width="170" height="80"/></a></li>
+                        <li><a href="#"><img src="{{skin url="images/catalog/brands/guess.jpg"}}" alt="" width="130" height="80"/></a></li>
+                        <li><a href="#"><img src="{{skin url="images/catalog/brands/versace.jpg"}}" alt="" width="145" height="80"/></a></li>
+                    </ul>
+                </div>
+                <script type="text/javascript">
+                    new Slider("slider-brands-container", "left", "right", {shift: 'auto'});
+                </script>
+            </div>
         </div>
-        <script type="text/javascript">
-            new Slider("slider-brands-container", "left", "right", {shift: 'auto'});
-        </script>
     </div>
 </div>{% endraw %}
 ```
@@ -160,36 +172,42 @@ Look at the code, that was used to show the brands slider:
 In case if you've lost original homepage content, you can get it below:
 
 ```html
-{% raw %}<div class="homeslider">
-    {{widget type="easyslide/insert" slider_id="argento_pure"}}
+{% raw %}<div class="row">
+    <div class="col-md-12">
+        <div class="homeslider">
+            {{widget type="easyslide/insert" slider_id="argento_pure"}}
+        </div>
+    </div>
 </div>
-<div class="hidden-phone-off">
-    {{widget type="easycatalogimg/widget_list" category_count="4" column_count="4" show_image="1" resize_image="1" image_width="180" image_height="180" subcategory_count="1" template="tm/easycatalogimg/list.phtml"}}
+<div class="row">
+    <div class="col-md-12">
+        {{widget type="easycatalogimg/widget_list" category_count="4" column_count="4" show_image="1" resize_image="1" image_width="180" image_height="180" subcategory_count="1" template="tm/easycatalogimg/list.phtml"}}
+    </div>
 </div>
-
-<div class="hidden-tablet hidden-phone">
-    {{widget type="easybanner/widget_placeholder" placeholder_name="argento-home-content"}}
+<div class="row hidden-tablet hidden-phone">
+    <div class="col-md-12">
+        {{widget type="easybanner/widget_placeholder" placeholder_name="argento-home-content"}}
+    </div>
 </div>
-
-<div class="tab-container">
-    {{widget type="highlight/product_new" title="New arrivals" products_count="12" column_count="4" template="tm/highlight/product/grid.phtml" class_name="highlight-new" show_page_link="1" page_title="All new products &raquo;"}}
-    {{widget type="highlight/product_bestseller" title="Bestsellers" products_count="12" column_count="4" template="tm/highlight/product/grid.phtml" class_name="highlight-bestsellers" show_page_link="1" page_title="All bestsellers &raquo;"}}
-    {{widget type="highlight/product_attribute_yesno" attribute_code="recommended" title="Recommended products" products_count="12" column_count="4" template="tm/highlight/product/grid.phtml" class_name="highlight-attribute-recommended"}}
-    {{widget type="highlight/product_special" title="On sale" products_count="12" column_count="4" template="tm/highlight/product/grid.phtml" class_name="highlight-special" show_page_link="1" page_title="All on sale products &raquo;"}}
+<div class="row tab-container">
+    {{widget type="highlight/product_new" title="New arrivals" products_count="12" column_count="4" template="tm/highlight/product/grid.phtml" class_name="highlight-new" show_page_link="1" page_title="All new products &raquo;" img_width="200" img_height="200"}}
+    {{widget type="highlight/product_bestseller" title="Bestsellers" products_count="12" column_count="4" template="tm/highlight/product/grid.phtml" class_name="highlight-bestsellers" show_page_link="1" page_title="All bestsellers &raquo;" img_width="200" img_height="200"}}
+    {{widget type="highlight/product_attribute_yesno" attribute_code="recommended" title="Recommended products" products_count="12" column_count="4" template="tm/highlight/product/grid.phtml" class_name="highlight-attribute-recommended" img_width="200" img_height="200"}}
+    {{widget type="highlight/product_special" title="On sale" products_count="12" column_count="4" template="tm/highlight/product/grid.phtml" class_name="highlight-special" show_page_link="1" page_title="All on sale products &raquo;" img_width="200" img_height="200"}}
     <div class="block-about block-highlight">
         <div class="block-title"><span>About Us</span></div>
         <div class="block-content" style="padding: 7px 7px;">
-            <div class="col3-set">
-                <div class="col-1">
+            <div class="row">
+                <div class="col-md-4 col-sm-4">
                     <p style="line-height:1.2em;"><small>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit. Mauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede.</small></p>
                     <p style="color:#888; font:1.2em/1.4em georgia, serif;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit. Mauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede. Cras vel libero id lectus rhoncus porta.</p>
                 </div>
-                <div class="col-2">
+                <div class="col-md-4 col-sm-4">
                     <p><strong style="color:#de036f;">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit.</strong></p>
                     <p>Vivamus tortor nisl, lobortis in, faucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorper. Phasellus id massa. Pellentesque nisl. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc augue. Aenean sed justo non leo vehicula laoreet. Praesent ipsum libero, auctor ac, tempus nec, tempor nec, justo. </p>
                     <p>Maecenas ullamcorper, odio vel tempus egestas, dui orci faucibus orci, sit amet aliquet lectus dolor et quam. Pellentesque consequat luctus purus. Nunc et risus. Etiam a nibh. Phasellus dignissim metus eget nisi. Vestibulum sapien dolor, aliquet nec, porta ac, malesuada a, libero. Praesent feugiat purus eget est. Nulla facilisi. Vestibulum tincidunt sapien eu velit. Mauris purus. Maecenas eget mauris eu orci accumsan feugiat. Pellentesque eget velit. Nunc tincidunt.</p>
                 </div>
-                <div class="col-3">
+                <div class="col-md-4 col-sm-4">
                     <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi luctus. Duis lobortis. Nulla nec velit. Mauris pulvinar erat non massa. Suspendisse tortor turpis, porta nec, tempus vitae, iaculis semper, pede. Cras vel libero id lectus rhoncus porta. Suspendisse convallis felis ac enim. Vivamus tortor nisl, lobortis in, faucibus et, tempus at, dui. Nunc risus. Proin scelerisque augue. Nam ullamcorper </p>
                     <p><strong style="color:#de036f;">Maecenas ullamcorper, odio vel tempus egestas, dui orci faucibus orci, sit amet aliquet lectus dolor et quam. Pellentesque consequat luctus purus.</strong></p>
                     <p>Nunc et risus. Etiam a nibh. Phasellus dignissim metus eget nisi.</p>
@@ -211,33 +229,36 @@ In case if you've lost original homepage content, you can get it below:
         scrollY: false
     });
 </script>
-
-<div class="block brands-home hidden-phone">
-    <div class="block-title">
-        <span>Featured Brands</span>
-    </div>
-    <div class="block-content">
-        <a href="#" id="left">Left</a>
-        <a href="#" id="right">Right</a>
-        <div id="slider-brands-container" class="slider-wrapper">
-            <ul class="list-brands slider-brands" id="slider-brands">
-                <li><a href="#"><img src="{{skin url="images/catalog/brands/gucci.jpg"}}" alt="" width="150" height="80"/></a></li>
-                <li><a href="#"><img src="{{skin url="images/catalog/brands/lv.jpg"}}" alt="" width="100" height="80"/></a></li>
-                <li><a href="#"><img src="{{skin url="images/catalog/brands/ck.jpg"}}" alt="" width="130" height="80"/></a></li>
-                <li><a href="#"><img src="{{skin url="images/catalog/brands/chanel.jpg"}}" alt="" width="170" height="80"/></a></li>
-                <li><a href="#"><img src="{{skin url="images/catalog/brands/guess.jpg"}}" alt="" width="130" height="80"/></a></li>
-                <li><a href="#"><img src="{{skin url="images/catalog/brands/versace.jpg"}}" alt="" width="145" height="80"/></a></li>
-                <li><a href="#"><img src="{{skin url="images/catalog/brands/gucci.jpg"}}" alt="" width="150" height="80"/></a></li>
-                <li><a href="#"><img src="{{skin url="images/catalog/brands/lv.jpg"}}" alt="" width="100" height="80"/></a></li>
-                <li><a href="#"><img src="{{skin url="images/catalog/brands/ck.jpg"}}" alt="" width="130" height="80"/></a></li>
-                <li><a href="#"><img src="{{skin url="images/catalog/brands/chanel.jpg"}}" alt="" width="170" height="80"/></a></li>
-                <li><a href="#"><img src="{{skin url="images/catalog/brands/guess.jpg"}}" alt="" width="130" height="80"/></a></li>
-                <li><a href="#"><img src="{{skin url="images/catalog/brands/versace.jpg"}}" alt="" width="145" height="80"/></a></li>
-            </ul>
+<div class="row">
+    <div class="col-md-12">
+        <div class="block brands-home hidden-phone">
+            <div class="block-title">
+                <span>Featured Brands</span>
+            </div>
+            <div class="block-content">
+                <a href="#" id="left">Left</a>
+                <a href="#" id="right">Right</a>
+                <div id="slider-brands-container" class="slider-wrapper">
+                    <ul class="list-brands slider-brands" id="slider-brands">
+                        <li><a href="#"><img src="{{skin url="images/catalog/brands/gucci.jpg"}}" alt="" width="150" height="80"/></a></li>
+                        <li><a href="#"><img src="{{skin url="images/catalog/brands/lv.jpg"}}" alt="" width="100" height="80"/></a></li>
+                        <li><a href="#"><img src="{{skin url="images/catalog/brands/ck.jpg"}}" alt="" width="130" height="80"/></a></li>
+                        <li><a href="#"><img src="{{skin url="images/catalog/brands/chanel.jpg"}}" alt="" width="170" height="80"/></a></li>
+                        <li><a href="#"><img src="{{skin url="images/catalog/brands/guess.jpg"}}" alt="" width="130" height="80"/></a></li>
+                        <li><a href="#"><img src="{{skin url="images/catalog/brands/versace.jpg"}}" alt="" width="145" height="80"/></a></li>
+                        <li><a href="#"><img src="{{skin url="images/catalog/brands/gucci.jpg"}}" alt="" width="150" height="80"/></a></li>
+                        <li><a href="#"><img src="{{skin url="images/catalog/brands/lv.jpg"}}" alt="" width="100" height="80"/></a></li>
+                        <li><a href="#"><img src="{{skin url="images/catalog/brands/ck.jpg"}}" alt="" width="130" height="80"/></a></li>
+                        <li><a href="#"><img src="{{skin url="images/catalog/brands/chanel.jpg"}}" alt="" width="170" height="80"/></a></li>
+                        <li><a href="#"><img src="{{skin url="images/catalog/brands/guess.jpg"}}" alt="" width="130" height="80"/></a></li>
+                        <li><a href="#"><img src="{{skin url="images/catalog/brands/versace.jpg"}}" alt="" width="145" height="80"/></a></li>
+                    </ul>
+                </div>
+                <script type="text/javascript">
+                    new Slider("slider-brands-container", "left", "right", {shift: 'auto'});
+                </script>
+            </div>
         </div>
-        <script type="text/javascript">
-            new Slider("slider-brands-container", "left", "right", {shift: 'auto'});
-        </script>
     </div>
 </div>{% endraw %}
 ```

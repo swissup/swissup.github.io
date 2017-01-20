@@ -7,6 +7,27 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.8.5 (Draft)
+
+[Upgrade Instructions](../upgrade-instructions/#version-184---185)
+
+**New Features**
+
+ *  new homepage and footer markup in ArgentoPure and ArgentoMall designs
+    using Bootstrap grid system
+
+**Fixes and Improvements**
+
+ *  Easyflags 3.0 integration
+ *  minor css fixes
+ *  load fonts with one link in Argento Flat
+ *  video of the day moved to static block in Argento Mall
+
+**Modules fixes and improvements**
+
+ *  Ajax Search
+    -  improved frontend styles
+
 ### Version 1.8.4
 
 [Upgrade Instructions](../upgrade-instructions/#version-183---184)
