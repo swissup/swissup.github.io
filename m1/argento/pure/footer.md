@@ -13,7 +13,7 @@ category: Argento
 ### Customer information
 
 You can add or remove additional links, change phone number and text in
-`Cms > Static Blocks > footer` block.
+`Cms > Static Blocks > footer_cms` block.
 
 Block code is:
 
@@ -54,7 +54,7 @@ Block code is:
 
 ### About us
 
-You can edit the text in `Cms > Static Blocks > footer` block.
+You can edit the text in `Cms > Static Blocks > footer_cms` block.
 
 The block code is:
 
