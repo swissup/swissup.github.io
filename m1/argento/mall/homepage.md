@@ -163,15 +163,7 @@ In case if you've lost original homepage content, you can get it below:
                 {{widget type="highlight/product_attribute_yesno" attribute_code="recommended" class_name="editor-choice  block block-alt" name="homepage.editor_choice" title="Editor's choice" products_count="1" column_count="1" template="tm/highlight/product/grid.phtml"}}
             </div>
             <div class="col-3">
-                <div class="block block-alt video-of-day">
-                  <div class="block-title"><span>Video of the day</span></div>
-                  <div class="block-content">
-                    <div class="video-container">
-                    <object><param name="movie" value="http://www.youtube.com/v/6BQfCoqbubE"><param name="allowFullScreen" value="true"><param name="allowScriptAccess" value="always"><param wmode="transparent"><embed src="http://www.youtube.com/v/6BQfCoqbubE" type="application/x-shockwave-flash" allowfullscreen="true" allowScriptAccess="always" width="250" height="201" wmode="transparent"></object>
-                    </div>
-                    <p><small>Amazing Canon Rebel XSi commercial that I saw on TV the other day.</small></p>
-                  </div>
-                </div>
+                {{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="video_of_the_day"}}
             </div>
         </div>
         {{widget type="highlight/product_featured" name="homepage.featured" class_name="block block-featured-homepage" title="Featured products" products_count="6" column_count="3" template="tm/highlight/product/grid-wide.phtml"}}
