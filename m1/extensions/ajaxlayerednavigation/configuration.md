@@ -48,13 +48,13 @@ category: Ajax Layered Navigation
 
     ![Ajax Layered Navigation configuration](/images/m1/extensions/ajax-layered-navigation/standard-style-fixed-height.png)
 
-**Note:** the **Height for fixed column height nav style** field is used for this style only. The feature allows you to set the number of pixels for block with attributes.
+    **Note:** the **Height for fixed column height nav style** field is used for this style only. The feature allows you to set the number of pixels for block with attributes.
 
     -   `Accordion Navigation Style`
 
     ![Ajax Layered Navigation configuration](/images/m1/extensions/ajax-layered-navigation/accordion-style.png)
 
-    -   `Menu Navigation Style` allows users see the attribute’s options while clicking the attribute. We recommend to use this style for top navigation. 
+    -   `Menu Navigation Style` allows users see the attribute’s options while clicking the attribute. We recommend to use this style for top navigation.
 
     ![Ajax Layered Navigation configuration](/images/m1/extensions/ajax-layered-navigation/menu-navigation-style.png)
 
