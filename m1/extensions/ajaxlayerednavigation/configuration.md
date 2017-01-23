@@ -8,7 +8,7 @@ category: Ajax Layered Navigation
 
 # Configuration
 
-![Ajax Layered Navigation configuration](/images/m1/ajax-layered-navigation/frontend.png)
+![Ajax Layered Navigation configuration](/images/m1/extensions/ajax-layered-navigation/frontend.png)
 
 -   [General](#general)
 -   [Additional filters](#additional-filters)
@@ -22,7 +22,7 @@ category: Ajax Layered Navigation
 
 ### General
 
-![Ajax Layered Navigation configuration](/images/m1/ajax-layered-navigation/general.png)
+![Ajax Layered Navigation configuration](/images/m1/extensions/ajax-layered-navigation/general.png)
 
 -   `Use Ajax` - select **Yes** to enable ajax within layered navigation.
 -   `Show Quantity` - select **Yes** to show the quantity of products in layered navigation block.
@@ -33,36 +33,36 @@ category: Ajax Layered Navigation
 
 ### Additional filters
 
-![Ajax Layered Navigation configuration](/images/m1/ajax-layered-navigation/additional-filters.png)
+![Ajax Layered Navigation configuration](/images/m1/extensions/ajax-layered-navigation/additional-filters.png)
 
 -   `Show filter by name` - select **Yes** to allow user filter product by the name.
 -   `Show stock filter` - select **Yes** to allow user filter products by availability in stock.
 
-![Ajax Layered Navigation configuration](/images/m1/ajax-layered-navigation/filter-by-name.png)
+![Ajax Layered Navigation configuration](/images/m1/extensions/ajax-layered-navigation/filter-by-name.png)
 
 ### Left navigation style
 
-![Ajax Layered Navigation configuration](/images/m1/ajax-layered-navigation/left-navigation-style.png)
+![Ajax Layered Navigation configuration](/images/m1/extensions/ajax-layered-navigation/left-navigation-style.png)
 
 -   `Style` - please select the navigation style from drop down. This way you choose a style for the Shop By block. There are 4 values: Standard, Standard Navigation style (fixed column height), Accordion navigation style and Menu navigation style.
     -   `Standard Navigation style` value makes the Shop By block displayed as default Magento layered navigation block.
     -   `Standard Navigation Style (Fixed Column Height)`
 
-    ![Ajax Layered Navigation configuration](/images/m1/ajax-layered-navigation/standard-style-fixed-height.png)
+    ![Ajax Layered Navigation configuration](/images/m1/extensions/ajax-layered-navigation/standard-style-fixed-height.png)
 
 **Note:** the **Height for fixed column height nav style** field is used for this style only. The feature allows you to set the number of pixels for block with attributes.
 
     -   `Accordion Navigation Style`
 
-    ![Ajax Layered Navigation configuration](/images/m1/ajax-layered-navigation/accordion-style.png)
+    ![Ajax Layered Navigation configuration](/images/m1/extensions/ajax-layered-navigation/accordion-style.png)
 
     -   `Menu Navigation Style` allows users see the attribute’s options while clicking the attribute. We recommend to use this style for top navigation. 
 
-    ![Ajax Layered Navigation configuration](/images/m1/ajax-layered-navigation/menu-navigation-style.png)
+    ![Ajax Layered Navigation configuration](/images/m1/extensions/ajax-layered-navigation/menu-navigation-style.png)
 
 ### SEO configuration
 
-![Ajax Layered Navigation configuration](/images/m1/ajax-layered-navigation/SEO-configuration.png)
+![Ajax Layered Navigation configuration](/images/m1/extensions/ajax-layered-navigation/SEO-configuration.png)
 
 -   `SEO Layered Navigation URL` - select **Yes** to enable SEO URL in navigation block.
 -   `SEO url Suffix` - please specify the suffix if you want to share the url by settings of search engines.
@@ -70,26 +70,26 @@ category: Ajax Layered Navigation
 
 ### Advanced search page
 
-![Ajax Layered Navigation configuration](/images/m1/ajax-layered-navigation/advanced-search.png)
+![Ajax Layered Navigation configuration](/images/m1/extensions/ajax-layered-navigation/advanced-search.png)
 
 -   `Enabled` - select **Yes** to enable Catalog Advanced Search.
 
 ### Attribute sort
 
-![Ajax Layered Navigation configuration](/images/m1/ajax-layered-navigation/attribute-sort.png)
+![Ajax Layered Navigation configuration](/images/m1/extensions/ajax-layered-navigation/attribute-sort.png)
 
 -   `Enabled` - select **Yes** to enable attri
 -   `Category sort order` - specify a sort order for categories.
 
 ### Mobile layered navigation
 
-![Ajax Layered Navigation configuration](/images/m1/ajax-layered-navigation/mobile.png)
+![Ajax Layered Navigation configuration](/images/m1/extensions/ajax-layered-navigation/mobile.png)
 
 -   `Enabled`- select **Yes** to enable ajax layered navigation block on mobile devices.
 
 ### Price
 
-![Ajax Layered Navigation configuration](/images/m1/ajaxlayerednavigation/Price.png)
+![Ajax Layered Navigation configuration](/images/m1/extensions/ajax-layered-navigation/Price.png)
 
 -   `Used Price Slider` - select **Yes** to enable the display of price slider in layered navigation block.
 -   `Default Range` - please specify the price ranges for categories comma separated.
@@ -99,7 +99,7 @@ category: Ajax Layered Navigation
 
 ### Homepage
 
-![Ajax Layered Navigation configuration](/images/m1/ajaxlayerednavigation/homepage.png)
+![Ajax Layered Navigation configuration](/images/m1/extensions/ajax-layered-navigation/homepage.png)
 
 -   `Enabled` - select **Yes** to enable the layered navigation block on Homepage.
 -   `Category On HomePage` - select root category from drop down list for layered navigation block on Homepage.
