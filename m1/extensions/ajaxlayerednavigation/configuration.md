@@ -76,7 +76,7 @@ category: Ajax Layered Navigation
 
 ![Ajax Layered Navigation configuration](/images/m1/extensions/ajax-layered-navigation/attribute-sort.png)
 
--   `Enabled` - select **Yes** to enable attri
+-   `Enabled` - select **Yes** to enable the ability to change the sort order of filters.
 -   `Category sort order` - specify a sort order for categories.
 
 ### Mobile layered navigation
