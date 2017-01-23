@@ -19,7 +19,7 @@ Via module configuration you can set the block display either in right or in lef
 
 ![Category page settings](/images/m1/extensions/smart-suggest/category-page.png)
 
--	`Enabled` - select **Yes** to enable the block display.
+-   `Enabled` - select **Yes** to enable the block display.
 -	`Mode` - choose a mode from drop down. **Slider, grid, list** are available.
 -	`Products count` - set up the products number in personalized list.
 -	`Order` - select an order the products will be listed by. **Popularity, sales, random** are available.	

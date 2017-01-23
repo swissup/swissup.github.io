@@ -9,3 +9,5 @@ category: Ajax Layered Navigation
 # Ajax Layered Navigation
 
 - [Installation](installation/)
+- [Configuration](configuration/)
+- [Use cases](use-cases/)
