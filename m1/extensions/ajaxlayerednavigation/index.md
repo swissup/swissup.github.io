@@ -8,6 +8,8 @@ category: Ajax Layered Navigation
 
 # Ajax Layered Navigation
 
+![Ajax Layered Navigation configuration](/images/m1/extensions/ajax-layered-navigation/frontend.png)
+
 - [Installation](installation/)
 - [Configuration](configuration/)
 - [Use cases](use-cases/)

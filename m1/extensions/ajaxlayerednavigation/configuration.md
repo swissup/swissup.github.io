@@ -8,8 +8,6 @@ category: Ajax Layered Navigation
 
 # Configuration
 
-![Ajax Layered Navigation configuration](/images/m1/extensions/ajax-layered-navigation/frontend.png)
-
 -   [General](#general)
 -   [Additional filters](#additional-filters)
 -   [Left navigation style](#left-navigation-style)
@@ -22,7 +20,7 @@ category: Ajax Layered Navigation
 
 ### General
 
-![Ajax Layered Navigation configuration](/images/m1/extensions/ajax-layered-navigation/general.png)
+![Ajax Layered Navigation configuration](/images/m1/extensions/ajax-layered-navigation/General.png)
 
 -   `Use Ajax` - select **Yes** to enable ajax within layered navigation.
 -   `Show Quantity` - select **Yes** to show the quantity of products in layered navigation block.
