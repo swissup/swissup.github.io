@@ -20,10 +20,8 @@ Please follow next steps to complete the installation:
 6. Remove file `maintenance.flag` when copy process completed.
 7. Login your store admin, refresh your magento store cache and start to configure extension.
 
-Navigate to `System > Configuration > Templates-Master > Easy Slider` and
-enable extension for any store you need.
-
-You can read how to create slider at [Easy Slide Admin Interface](#) page.
+You can read how to create slider at
+[Easy Slide Admin Interface](../backend/#admin-interfaces) page.
 
 Please, feel free to contact us about any additional questions:
 

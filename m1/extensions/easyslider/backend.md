@@ -6,24 +6,7 @@ keywords: magento easyslider extension, slider, backend, easyslider system confi
 category: EasySlider
 ---
 
-# Extension configuration
-
- 1. [General configurable options](#general-configurable-options)
- 2. [Admin interfaces](#admin-interfaces)
-     -  [Configuration tab](#configuration-tab)
-         -  [Prototype slider](#prototype-slider)
-         -  [Nivo Slider](#nivo-slider)
-     -  [Slides tab](#slides-tab)
-
-### General configurable options
-
-Please go `Admin > System > Configuration > Easy Slide` and select `Yes` to
-enable the extension. Then you can select `Yes` to load jQuery library using
-NoConflict mode.
-
-![EasySlide system config options](/images/m1/extensions/easyslide/system-config.png)
-
-### Admin interfaces
+# Admin interfaces
 
 We provide interfaces that allow you to manage settings of sliders and slides
 directly in Magento backend. Depending on slider type that you’ve chosen, you
@@ -36,7 +19,7 @@ for each slider.
 To edit the slider, please select the one you need and click on. At Slider
 information you can configure the slider options, create and modify slides.
 
-#### Configuration tab
+### Configuration tab
 
 ![Edit slider interface](/images/m1/extensions/easyslide/edit-slider.png)
 
@@ -48,7 +31,7 @@ In the `Slider Type` field select slider type. Possible values are 'Prototype Sl
 
 In the `Status` field select Yes to enable current slider.
 
-###### Prototype slider
+##### Prototype slider
 
 When you select 'Prototype slider', you can configure the following options:
 
@@ -64,7 +47,7 @@ When you select 'Prototype slider', you can configure the following options:
 | `Frequency` | set the frequency in seconds for each slide |
 | `Autoglide` | Select Yes to enable autoglide. The slider will be launched right after load. |
 
-###### Nivo Slider
+##### Nivo Slider
 
 For "Nivo Slider" type, you can configure the following options:
 
@@ -84,7 +67,7 @@ For "Nivo Slider" type, you can configure the following options:
 | `Stop animation while hovering` | select Yes if you want slide to be stopped, when user hovers over it |
 | `Autoglide` | select Yes to enable autoglide. Slider will start to change slides as soon as page will be loaded |
 
-#### Slides tab
+### Slides tab
 
 At `Slides tab` you can place the description for each slide that you’ve
 created. You are allowed to select the position of the description on the
