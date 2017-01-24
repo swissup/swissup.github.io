@@ -26,6 +26,7 @@ and enable admin notification about new testimonial submission.
 5. [Widgets and Blocks](widgets-and-blocks/)
 6. [Use Cases](#use-cases)
  - [Testimonial submit form captcha](#testimonial-submit-form-captcha)
+ - [Import Testimonials from product reviews](#import-testimonials-from-product-reviews)
 
 ## Features
 
@@ -35,6 +36,8 @@ and enable admin notification about new testimonial submission.
 - Customize testimonials submit form layout, select fields which can be filled
 by the user and set up Thanks message for testimonial submit
 - Notify administrator by email when new testimonial was posted
+- Disallow guests to submit testimonials
+- Import testimonials from product reviews
 
 ## Settings
 
@@ -58,6 +61,10 @@ Place link to testimonials list in top links block.
 ##### Add link to footer links
 
 Place link to testimonials list in footer links block.
+
+##### Allow guests to submit testimonials
+
+Disable if you want to allow to write testimonials for registered customers only.
 
 ### Testimonials List Section
 
@@ -146,3 +153,18 @@ Customers > Customer Configuration > CAPTCHA`, select `Testimonials Form` in
 `Forms` field and press `Save config` button.
 
 ![Testimonial submit form captcha](/images/testimonials/testimonial-submit-form-captcha.png)
+
+##### Import Testimonials from product reviews
+
+You can save product reviews as testimonials on
+`Catalog > Reviews and Ratings > Customer Reviews > All Reviews` page.
+
+> **Only reviews from registered customers can be saved as testimonials.**
+
+You can save separate review from review edit form using `Copy to Testimonials` button:
+
+![Save product review as testimonial](/images/testimonials/copy-from-review.png)
+
+Also you can export multiple reviews using `Copy to Testimonials` grid action:
+
+![Save multiple reviews as testimonials](/images/testimonials/reviews-grid-export.png)
