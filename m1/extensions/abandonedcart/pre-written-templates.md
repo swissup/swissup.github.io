@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Abandoned Cart
+title: Abandoned Cart pre-written templates
 description: magento shopping cart abandonment module installation
 keywords: " magento shopping cart abandonment, magento abandoned cart, magento
 abandoned cart email"

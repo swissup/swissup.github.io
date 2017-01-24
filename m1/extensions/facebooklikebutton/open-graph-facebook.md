@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Facebook Like Button
+title: Facebook Like Button OpenGraph
 description: Facebook like button for Magento
 keywords: >
   facebook magento extension, facebook magento integration, add facebook like 

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Easy Navigation
+title: Easy Navigation configuration
 description: Magento easy navigation module
 keywords: " magento improved navigation, navigation magento extension, magento navigation menu, left navigation menu magento "
 category: Easy Navigation
