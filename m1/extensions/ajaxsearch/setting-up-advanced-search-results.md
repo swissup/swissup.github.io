@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Ajax Search
+title: Ajax Search search results
 description: magento ajax search module
 keywords: >
     magento ajax search, magento ajax search autocomplete and suggest,

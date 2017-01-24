@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Ajax Layered Navigation
+title: Ajax Layered Navigation managing attributes and ranges
 description:
 keywords: "magento layered navigation, magento ajax layered navigation, magento improved navigation, magento extension, magento module"
 category: Ajax Layered Navigation

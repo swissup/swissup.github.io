@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Rich Snippets
+title: Rich Snippets configuration
 description: magento snippet module installation
 keywords: " magento quick view extension, magento rich snippet extension, magento
 google rich snippets extension, google rich snippets magento extension, google
