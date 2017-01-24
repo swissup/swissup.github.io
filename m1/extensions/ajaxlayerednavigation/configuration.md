@@ -106,5 +106,7 @@ category: Ajax Layered Navigation
 #### You can also check:
 
 *   [Installation](../installation/)
+*   [Managing filterable attributes and ranges](../managing-attributes-ranges/)
+*   [Use cases](../use-cases/)
 *   [Support](https://swissuplabs.com/contacts/)
 *   [Forum](https://swissuplabs.com/magento-forum/)
