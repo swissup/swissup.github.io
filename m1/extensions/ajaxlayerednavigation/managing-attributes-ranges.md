@@ -48,7 +48,7 @@ Managing ranges is perfect solution for the stores with extremely different prod
 
 After clicking the attribute you need, you will be able to set all possible price ranges for this category.
 
-
+![Ajax Layered Navigation configuration](/images/m1/extensions/ajax-layered-navigation/edit-ranges.png)
 
 #### You can also check:
 

@@ -24,7 +24,25 @@ If you want brands to be displayed as images, please go `Admin-Templates-Master-
 
 Go to ftp `app/desing/frontend/base/default/layout/tm/ajaxlayerednavigation.xml`, edit file and uncomment the line of the following code:
 
+```
+<!-- <block type="ajaxlayerednavigation/layer_view" name="tm.catalog.left.navigation" before="-">
+                <action method="setTemplate" ifconfig="ajaxlayerednavigation/general/enabled">
+                    <template>tm/ajaxlayerednavigation/layer/content_view.phtml</template>
+                </action>
+            </block> -->
+```
+
 After please comment the following section:
+
+```
+<reference name="left">
+            <block type="ajaxlayerednavigation/layer_view" name="tm.catalog.left.navigation" after="currency">
+                <action method="setTemplate" ifconfig="ajaxlayerednavigation/general/enabled">
+                    <template>tm/ajaxlayerednavigation/layer/view.phtml</template>
+                </action>
+            </block>
+        </reference>
+```
 
 Save file and refresh magento cache.
 
