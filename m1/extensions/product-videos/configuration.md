@@ -10,10 +10,10 @@ category: Product Videos
 
 # Product Videos
 
-- [General](general/)
-- [Popup window settings](popup-window-settings/)
+- [General](#general)
+- [Popup window settings](#popup-window-settings)
 
-The Product Videos extension enables two layout types, that can be switched optionally in configuration. You can place embedded video either in videos thumbnails in tabs or in videos thumbnails under images. Also you’re allowed to configure the flexible style of the lightbox window, where the video will be displayed. You can select up to 5 styles. 
+The Product Videos extension enables two layout types, that can be switched optionally in configuration. You can place embedded video either in videos thumbnails in tabs or in videos thumbnails under images. Also you’re allowed to configure the flexible style of the lightbox window, where the video will be displayed. You can select up to 5 styles.
 
 ### General
 

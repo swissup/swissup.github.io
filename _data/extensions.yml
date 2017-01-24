@@ -327,7 +327,7 @@ productvideos:
   title: Product Videos
   short_description:
   urls:
-    m1: /m1/extensions/productvideos/
+    m1: /m1/extensions/product-videos/
     m2:
 
 prozoom:
