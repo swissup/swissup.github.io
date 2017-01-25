@@ -16,13 +16,11 @@ cms blocks, products attributes or html content.
 
  1. [Installation](installation/)
  2. [Configuration](backend/)
- 2. [Changelog](changelog/)
- 3. [Features](#features)
- 4. [Settings](#settings)
-    - [General Section](#general-section)
- 5. [Easytabs Grid](#easytabs-grid)
-    - [Easytabs Edit Form](#easytabs-edit-form)
- 6. [Use Cases](use-cases/)
+     -  [General configurable options](backend/#general-configurable-options)
+     -  [Admin interfaces](backend/#admin-interfaces)
+     -  [Widget Easy Tabs](backend/#widget-easy-tabs)
+ 3. [Use Cases](use-cases/)
+ 4. [Changelog](changelog/)
 
 ## Features
 
@@ -36,21 +34,4 @@ cms blocks, products attributes or html content.
  -  show number of reviews, tags, questions, etc by calling eval code in tab
     title
 
-## Settings
-
-### General section
-
-##### Enabled
-
-You can disable the extension on frontend
-
-##### Update url when switch between tabs
-
-Add the tab anchor to page url
-
-##### Show tab anchor when hovering tab
-
-Show tab anchor on tab mouse hover
-
-### Easytabs Grid
 

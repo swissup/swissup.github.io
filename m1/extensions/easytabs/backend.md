@@ -1,12 +1,18 @@
 ---
 layout: default
-title: Extension configuration
+title: Configuration
 description: magento easytabs module system config options and admin interface
 keywords: magento easytabs extension, tabs, backend, easytabs system config
 category: Easy Tabs
 ---
 
 # Configuration
+
+ 1. [General configurable options](#general-configurable-options)
+ 2. [Admin interfaces](#admin-interfaces)
+     -  [Product Tabs](#product-tabs)
+     -  [Widget Tabs](#widget-tabs)
+ 3. [Widget Easy Tabs](#widget-easy-tabs)
 
 ## General configurable options
 
@@ -36,6 +42,7 @@ to `Easy Tabs` ➔ `Product Tabs`.
 ![Product Tabs](/images/m1/extensions/easytabs/admin-product-tabs.png)
 
 Here you can look through all created tabs, change their status or delete them.
+Magento output these tabs on product page only.
 
 Click on row with tab you want to edit and you go to _Edit Tab_ page.
 
@@ -50,16 +57,16 @@ anchor if option was enabled in the configuration.
 **Block type** - here you can select the type of created tab. Available types
 are:
 
- *  Additional Information - displays product attributes that have `Visible on
+ -  Additional Information - displays product attributes that have `Visible on
     Product View Page on Front-end` enabled.
- *  CMS Static Block - displays content of selected static block.
- *  Custom Block - create your custom tab using block and template, using this
+ -  CMS Static Block - displays content of selected static block.
+ -  Custom Block - create your custom tab using block and template, using this
     tab you can display the content of other extension in tab.
- *  Html content - shows any html content created using WYSIWYG editor.
- *  Product Description - displays product description in tab.
- *  Product Tags - displays product tags.
- *  Product attribute - displays selected product attribute value.
- *  Product's Reviews - shows product reviews in tab.
+ -  Html content - shows any html content created using WYSIWYG editor.
+ -  Product Description - displays product description in tab.
+ -  Product Tags - displays product tags.
+ -  Product attribute - displays selected product attribute value.
+ -  Product's Reviews - shows product reviews in tab.
 
 **Block** - read only field. Here outputs technical block type.
 
@@ -78,3 +85,39 @@ Possible fields in widget options section:
  -  _Block_ - enter the block name for custom tab.
  -  _Content_ - create html content. You can use WYSIWYG editor in this field.
  -  _Attribute Code_ - select the attribute from dropdown to show it in tab.
+
+### Widget Tabs
+
+Find menu item `Templates Master` at Magento Admin top menu. There you can go
+to `Easy Tabs` ➔ `Widget Tabs`.
+
+![Widget Tabs](/images/m1/extensions/easytabs/admin-widget-tabs.png)
+
+Here you can manage tabs. And those tabs are used in Easy Tabs widget.
+
+You can change status or delete multiple tabs at widget tabs grid.
+
+Click on row with tab you want to edit and you go to _Edit Tab_ page.
+
+Edit tab page is absolutely the same as for [product tabs](#product-tabs).
+Except block type for widget tabs has less options:
+
+ -  CMS Static Block - displays content of selected static block.
+ -  Custom Block - create your custom tab using block and template, using this
+    tab you can display the content of other extension in tab.
+ -  Html content - shows any html content created using WYSIWYG editor.
+
+## Widget Easy Tabs
+
+Easy Tabs extension provides new widget type to your Magento Store -
+_Easy Tabs_. You can insert this widget with WYSIWYG editor or with 
+`CMS` ➔ `Widgets` interface.
+
+Here is how Easy Tabs widget looks in Magento Admin.
+
+![Admin Widget](/images/m1/extensions/easytabs/admin-widget.png)
+
+On screenshot above you can see Easy Tabs widget. It shows 'New arrivals',
+'Bestsellers', 'Recommended products', 'On Sale' and 'About Us' tabs on frontend. If tab has no content then it does not show.
+
+![Frontend Widget](/images/m1/extensions/easytabs/frontend-widget.png)
