@@ -14,6 +14,7 @@ category: Easy Banners
 -   [Placing banner on Product page](#placing-banner-on-product-page)
 -   [How to create banner with Free Shipping information](#how-to-create-banner-with-free-shipping-information)
 -   [How to track banner clicks on link](#how-to-track-banner-clicks-on-link)
+-   [Placing banner in lightbox window](#placing-banner-in-lightbox-window)
 
 Go `Admin > Templates-Master > Easy Banner > Manage Banners`.
 
@@ -21,12 +22,12 @@ Go `Admin > Templates-Master > Easy Banner > Manage Banners`.
 
 Click on a banner that should be changed. At **Banner information** choose a **Conditions** tab. Then follow steps below:
 
-1 Add new condition by clicking the green plus button.
-2 Select and click the “page” option in the appeared conditions dropdown.
-3 Then click on three dots near the “is one of” line.
-4 Now you see an input field with icons on the right. Please click on the blue **Open Chooser** icon.
-5 Select the page where you want to show the banner. In order to make a banner shown on the checkout page, please select the **checkout_onepage_index** value.
-6 Press **Save Banner**.
+1. Add new condition by clicking the green plus button.
+2. Select and click the “page” option in the appeared conditions dropdown.
+3. Then click on three dots near the “is one of” line.
+4. Now you see an input field with icons on the right. Please click on the blue **Open Chooser** icon.
+5. Select the page where you want to show the banner. In order to make a banner shown on the checkout page, please select the **checkout_onepage_index** value.
+6. Press **Save Banner**.
 
 ### Placing banner on Homepage
 
@@ -104,16 +105,16 @@ $('link-id').observe('click', function(e) {
 
 Our module allows you to show an important information for your customers as a banner in lightbox window. There are filters which allow you to limit a visibility of the banner. The following sample will show you how to display a banner in popup to users who were inactive for a long time. 
 
-![Easy Banners](/images/m1/extensions/easybanners/banner-in-popup.png)
+![Easy Banners](/images/m1/extensions/easy-banners/banner-in-popup.png)
 
 -   Go `Admin > Templates-Master > Easy Banner > Manage Banners` and click on **Add banner**. In case you edit the existing one, you have to change **Conditions** tab.
 -   Please choose a condition **Lightbox/Awesomebar: Customer browsing time (seconds)** from a dropdown.
 
-![Easy Banners](/images/m1/extensions/easybanners/banner-lightbox.png)
+![Easy Banners](/images/m1/extensions/easy-banners/banner-lightbox.png)
 
 -   Enter a time in seconds. You can also define a day when this lightbox banner will be shown.
 
-![Easy Banners](/images/m1/extensions/easybanners/use-case-conditions.png)
+![Easy Banners](/images/m1/extensions/easy-banners/use-case-conditions.png)
 
 #### You can also check:
 
