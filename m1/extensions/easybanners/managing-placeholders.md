@@ -29,9 +29,6 @@ Our module also allows you to put your placeholder manually via Magento xml file
 
 ```Xml
 <reference name="content">
- <block type="easybanner/banner" name="unique_banner_name">
- <action method="setBannerName"><name>test</name></action>
- </block>
  <block type="easybanner/placeholder" name="unique_placeholder_name">
  <action method="setPlaceholderName"><name>right-top</name></action>
  </block>
@@ -41,14 +38,12 @@ Our module also allows you to put your placeholder manually via Magento xml file
 **Widget**:
 
 ```
-{{block type="easybanner/banner" banner_name="name"}}
 {{block type="easybanner/placeholder" placeholder_name="name"}}
 ```
 
 ```php
-<?php echo $this->getLayout()->createBlock('easybanner/banner')->setBannerName('name')->toHtml(); ?>
  <?php echo $this->getLayout()->createBlock('easybanner/placeholder')->setPlaceholderName('name')->toHtml(); ?>
- ```
+```
 
 #### You can also check:
 

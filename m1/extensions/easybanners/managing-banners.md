@@ -13,6 +13,7 @@ category: Easy Banners
 -   [Banner content](#banner-content)
 -   [Banner conditions](#banner-conditions)
 -   [Banner statistics](#banner-statistics)
+-   [Adding banners manually](#adding-banners-manually)
 
 Please go Magento `Admin > Templates-Master > Easy Banner > Manage Banners`.
 
@@ -70,6 +71,28 @@ Using the following settings, you can track the total number of views and impres
 
 **Note:** Easy Banners extension provides `views and clicks statistics` for only **image banner**. **Html** banners are provided with `views statistics` only.
 
+### Adding banners manually 
+
+Our module also allows you to put your banner manually via Magento xml files, widgets or inline php code.
+
+```Xml
+<reference name="content">
+    <block type="easybanner/banner" name="unique_banner_name">
+        <action method="setBannerName"><name>test</name></action>
+    </block>
+ </reference>
+ ```
+
+ **Widget**:
+
+```
+{{block type="easybanner/banner" banner_name="name"}}
+```
+
+```php
+<?php echo $this->getLayout()->createBlock('easybanner/banner')->setBannerName('name')->toHtml(); ?>
+```
+ 
 #### You can also check:
 
 *   [Installation](../installation/)
