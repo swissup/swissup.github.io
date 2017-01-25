@@ -24,23 +24,23 @@ You can see already created banners in this grid. Сlick on the banner you like 
 
 ![Easy Banners](/images/m1/extensions/easy-banners/banner-general.png)
 
--   'Name' - specify the name for the banner.
--   'Hide url' - if you select **Yes**, the Url will be hidden.
--   'Target' - select the target window to open URL destination. Possible values are Popup, Blank or Self.
--   'Sort order' - set the sort order of banner display.
--   'Store view' - select the target store view for current banner.
--   'Placeholder' - select the target placeholder for current banner.
--   'Status' - select **Yes** to enable a banner.
+-   `Name` - specify the name for the banner.
+-   `Hide url` - if you select **Yes**, the Url will be hidden.
+-   `Target` - select the target window to open URL destination. Possible values are Popup, Blank or Self.
+-   `Sort order` - set the sort order of banner display.
+-   `Store view` - select the target store view for current banner.
+-   `Placeholder` - select the target placeholder for current banner.
+-   `Status` - select **Yes** to enable a banner.
 
 ### Banner content
 
 ![Easy Banners](/images/m1/extensions/easy-banners/banner-content.png)
 
--   'Title' - specify the banner title.
--   'Url' - set a banner URL (the page which will be opened by clicking on the banner).
--   'Mode' - select banner content mode. Possible values are Image or HTML.
--   'Image' - upload the image.
--   'Content' - enter html, javascript or flash code, that gets html content mode.
+-   `Title` - specify the banner title.
+-   `Url` - set a banner URL (the page which will be opened by clicking on the banner).
+-   `Mode` - select banner content mode. Possible values are Image or HTML.
+-   `Image` - upload the image.
+-   `Content` - enter html, javascript or flash code, that gets html content mode.
 
 ### Banner conditions
 
@@ -48,14 +48,14 @@ You can see already created banners in this grid. Сlick on the banner you like 
 
 Using the following settings, you can place your banner on specific page or show it in specific custom group.
 
--   'Category' - assign your banner to the specific category.
--   'Clicks Count' - set the display banner based on relevant clicks count condition.
--   'Customer Group' - set the banner display for specific customer group.
--   'Date' - reserves your banner active during specified date range.
--   'Display Count' - set the display banner based on relevant display count condition.
--   'Page' - place your banner on specific page.
--   'Product' - assign your banner to specific product
--   'Time' - reserves your banner active during specified time range.
+-   `Category` - assign your banner to the specific category.
+-   `Clicks Count` - set the display banner based on relevant clicks count condition.
+-   `Customer Group` - set the banner display for specific customer group.
+-   `Date` - reserves your banner active during specified date range.
+-   `Display Count` - set the display banner based on relevant display count condition.
+-   `Page` - place your banner on specific page.
+-   `Product` - assign your banner to specific product
+-   `Time` - reserves your banner active during specified time range.
 
 ### Banner statistics
 
@@ -65,10 +65,10 @@ Through the interface you can track the banners' hits and clicks.
 
 Using the following settings, you can track the total number of views and impressions of a banner.
 
--   'Display Count' - shows the number of banner impressions.
--   'Clicks Count' - shows the number of clicks on this banner.
+-   `Display Count` - shows the number of banner impressions.
+-   `Clicks Count` - shows the number of clicks on this banner.
 
-**Note:** Easy Banners extension provides `views and clicks statistics` for every image banner. Html banners are provided with views statistics only.
+**Note:** Easy Banners extension provides `views and clicks statistics` for only **image banner**. **Html** banners are provided with `views statistics` only.
 
 #### You can also check:
 
