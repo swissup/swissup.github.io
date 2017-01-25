@@ -9,7 +9,7 @@ category: Easy Banners
 
 # Easy Banners
 
-![Easy Banners](/images/m1/extensions/easybanners/banner-frontend.png)
+![Easy Banners](/images/m1/extensions/easy-banners/banner-frontend.png)
 
 Easy Banners is based on Magento core functionality. It supports unlimited number of placeholders and banners. Now you can display an information about scheduled events and holidays related on content, display or show banner url, display your payments and security icons, target specific customers groups, place banners inside of cms pages or directly in templates files, display several banners or content blocks at the same placeholders, monitor the number of displays and hits of a banner. 
 
