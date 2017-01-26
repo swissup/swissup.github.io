@@ -8,8 +8,8 @@ category: Checkout Success
 
 # Extension configuration
 
-In order to change general extension settings, go to `System` > `Configuration`
-> `TM Checkout` section > `Success Page`.
+In order to change general extension settings, go to `System` ➔ `Configuration`
+➔ `TM Checkout` section ➔ `Success Page`.
 
 Checkout Success Page settings have three sections.
 
@@ -21,7 +21,21 @@ You can enable or disable extension in this section.
 
 Field `Additional content at the bottom of success page` allows you to insert
 on checkout success page any HTML or JS code. This field can be very usefull
-if you have to add Google Adwords conversion code.
+if you have to add Google Adwords conversion code. This field allows to use
+variables:
+
+| Variable                                  | Description                     |
+|-------------------------------------------|---------------------------------|
+| `{% raw %}{{orderId}}{% endraw %}`        | Order number                    |
+| `{% raw %}{{orderAmount}}{% endraw %}`    | Order grand total               |
+| `{% raw %}{{currency}}{% endraw %}`       | Order currency                  |
+| `{% raw %}{{currencySymbol}}{% endraw %}` | Order currency symbol           |
+| `{% raw %}{{customerEmail}}{% endraw %}`  | Email of customer who placed an order |
+| `{% raw %}{{customerId}}{% endraw %}`     | Id of customer who placed an order |
+| `{% raw %}{{paymentCode}}{% endraw %}`    | Code of payment method for an order |
+| `{% raw %}{{paymentTitle}}{% endraw %}`   | Name of payment method for an order |
+| `{% raw %}{{shippingCode}}{% endraw %}`   | Code of shipping method for an order |
+| `{% raw %}{{shippingTitle}}{% endraw %}`  | Name of shipping method for an order |
 
 ### Mockup
 
