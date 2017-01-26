@@ -25,6 +25,9 @@ category: Delivery Date
     # regenerate static content
     rm -rf pub/static/_requirejs var/view_preprocessed
     bin/magento setup:static-content:deploy
+
+    # regenerate dependency injection code. add extension attribute
+    bin/magento setup:di:compile
     ```
 
 That's all.
