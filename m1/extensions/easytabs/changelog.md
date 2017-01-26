@@ -8,6 +8,13 @@ category: Easy Tabs
 
 # Changelog
 
+### Version 3.0.1
+
+ -  Two types of tabs - Product tabs and Widget tabs.
+ -  New widget type for Magento CMS. You can place tabs anywhere you want.
+ -  Group attributes in "Additional Information" tab (optional).
+ -  Improved tab title rendering for proper use of Magento inline translation.
+
 ### Version 2.3.8
 
  -  JS optimization
