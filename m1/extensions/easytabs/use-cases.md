@@ -165,19 +165,19 @@ Sometimes users need to create tab with content that is related **only** for
 
 There are two possible ways to implement this feature:
 
- -  Edit the link `href` and `class` attributes in template source:
+ 1. ###### Edit the link `href` and `class` attributes in template source:
 
     ```html
     <a href="#TAB_ALIAS_FROM_BACKEND" class="easytabs-anchor easytabs-scroll easytabs-animate">Description</a>
     ```
     
-For example, the link mentioned below will activate the description tab:
+    For example, the link mentioned below will activate the description tab:
 
     ```html
     <a href="#product_tabs_description_tabbed" class="easytabs-anchor easytabs-scroll easytabs-animate">Description</a>
     ```
 
- -  Use the external javascript to add the onclick observers.
+ 2. ###### Use the external javascript to add the onclick observers.
 
     ```js
     $$('WRITE_SELECTOR_HERE').each(function(el) {
@@ -193,8 +193,8 @@ For example, the link mentioned below will activate the description tab:
     });
     ```
 
-For example, the code below shows how to add the onclick event to the
-`Write Review` and `Read Reviews` links:
+    For example, the code below shows how to add the onclick event to the
+    `Write Review` and `Read Reviews` links:
 
     ```js
     $$('.rating-links a, .no-rating a').each(function(el) {
