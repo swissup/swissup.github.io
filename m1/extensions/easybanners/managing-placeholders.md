@@ -15,7 +15,7 @@ Go `Admin > Templates-Master > Easy Banner > Manage Placeholders.`
 
 The placeholders shown above in screenshot, were configured in order to show banners in the most popular places of Magento store.
 
-Click on a placeholder from the submitted list and keep editting. 
+Click on a placeholder from the submitted list and keep editting.
 
 ![Easy Banners](/images/m1/extensions/easy-banners/edit-placeholder.png)
 
@@ -27,22 +27,22 @@ Click on a placeholder from the submitted list and keep editting.
 
 Our module also allows you to put your placeholder manually via Magento xml files, widgets or inline php code in case you need a placeholder for specific position only.
 
-```Xml
+```xml
 <reference name="content">
- <block type="easybanner/placeholder" name="unique_placeholder_name">
- <action method="setPlaceholderName"><name>right-top</name></action>
- </block>
+    <block type="easybanner/placeholder" name="unique_placeholder_name">
+        <action method="setPlaceholderName"><name>right-top</name></action>
+    </block>
  </reference>
- ```
+```
 
 **Widget**:
 
 ```
-{{block type="easybanner/placeholder" placeholder_name="name"}}
+{% raw %}{{block type="easybanner/placeholder" placeholder_name="name"}}{% endraw %}
 ```
 
 ```php
- <?php echo $this->getLayout()->createBlock('easybanner/placeholder')->setPlaceholderName('name')->toHtml(); ?>
+<?php echo $this->getLayout()->createBlock('easybanner/placeholder')->setPlaceholderName('name')->toHtml(); ?>
 ```
 
 #### You can also check:
