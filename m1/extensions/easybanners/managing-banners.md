@@ -75,13 +75,13 @@ Using the following settings, you can track the total number of views and impres
 
 Our module also allows you to put your banner manually via Magento xml files, widgets or inline php code.
 
-```Xml
+```xml
 <reference name="content">
     <block type="easybanner/banner" name="unique_banner_name">
         <action method="setBannerName"><name>test</name></action>
     </block>
- </reference>
- ```
+</reference>
+```
 
 **Widget**:
 
