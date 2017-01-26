@@ -83,10 +83,10 @@ Our module also allows you to put your banner manually via Magento xml files, wi
  </reference>
  ```
 
- **Widget**:
+**Widget**:
 
 ```
-{{block type="easybanner/banner" banner_name="name"}}
+{% raw %}{{block type="easybanner/banner" banner_name="name"}}{% endraw %}
 ```
 
 ```php
