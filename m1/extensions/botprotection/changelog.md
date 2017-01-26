@@ -8,6 +8,10 @@ category: Bot Protection
 
 # Changelog
 
+### Version 1.0.6
+
+ *  Configuration extended with 'Ignore URLs' option for Protected Forms
+
 ### Version 1.0.5
 
 **Changes / fixes:**
