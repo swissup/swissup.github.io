@@ -47,6 +47,13 @@ ajaxsearch:
     m1: /m1/extensions/ajaxsearch/
     m2: /m2/extensions/ajaxsearch/
 
+amp:
+  title: Accelerated Mobile Pages
+  short_description:
+  urls:
+    m1: /m1/extensions/amp/
+    m2:
+
 akismet:
   title: Akismet
   short_description:
