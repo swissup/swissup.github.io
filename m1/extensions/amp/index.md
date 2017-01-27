@@ -22,9 +22,9 @@ elements on the fly.
  -  [Configuration](configuration/)
  -  [Customization](customization/)
     -  [Homepage](customization/homepage/)
+    -  [Footer](customization/footer/)
 
 <!--
-    -  [Footer Links](customization/footer-links/)
     -  [Design](customization/design/)
  -  Additional features
     -  [Google Analytics](google-analytics/)

@@ -9,3 +9,4 @@ category: Accelerated Mobile Pages
 # Customization
 
  -  [Homepage](homepage/)
+ -  [Footer](footer/)
