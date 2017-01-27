@@ -41,13 +41,12 @@ category: Accelerated Mobile Pages
 
 {% include gallery.html images=site.data.gallery.m1.amp.index class="phone-up-2 tablet-up-3 photoswipe scroll" %}
 
-<!--
-
 ##### Next Up
 
  -  [Configuration](../configuration/)
+
+<!--
  -  [Homepage](../customization/homepage/)
  -  [Footer Links](../customization/footer-links/)
  -  [Google Analytics](../google-analytics/)
-
 -->

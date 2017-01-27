@@ -19,9 +19,9 @@ elements on the fly.
 
  -  [Installation](installation/)
  -  [Changelog](changelog/)
+ -  [Configuration](configuration/)
 
 <!--
- -  [Configuration](configuration/)
  -  [Customization](customization/)
     -  [Homepage](customization/homepage/)
     -  [Footer Links](customization/footer-links/)
