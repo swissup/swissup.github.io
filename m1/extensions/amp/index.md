@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Accelerated Mobile Pages
+title: AMP
 description: Accelerated Mobile Pages for Magento
 keywords: amp for magento, accelerated mobile pages
 category: Accelerated Mobile Pages
@@ -20,10 +20,10 @@ elements on the fly.
  -  [Installation](installation/)
  -  [Changelog](changelog/)
  -  [Configuration](configuration/)
-
-<!--
  -  [Customization](customization/)
     -  [Homepage](customization/homepage/)
+
+<!--
     -  [Footer Links](customization/footer-links/)
     -  [Design](customization/design/)
  -  Additional features
