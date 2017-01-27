@@ -15,12 +15,13 @@ Magento image slider with Nivo slider integration.
 <iframe src="https://player.vimeo.com/video/175829193?autoplay=1&loop=1&color=ff4081" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
  1. [Installation](installation/)
- 2. [Admin interfaces](backend/#admin-interfaces)
+ 2. [Changelog](changelog/)
+ 3. [Admin interfaces](backend/#admin-interfaces)
      -  [Configuration tab](backend/#configuration-tab)
          -  [Prototype slider](backend/#prototype-slider)
          -  [Nivo Slider](backend/#nivo-slider)
      -  [Slides tab](backend/#slides-tab)
- 3. [Use cases](/use-cases)
+ 4. [Use cases](/use-cases)
      -  [Easy Slider as Magento widget](use-cases/#easy-slider-as-magento-widget)
      -  [Easy Slider as XML code](use-cases/#easy-slider-as-xml-code)
      -  [Easy Slider as block code](use-cases/#easy-slider-as-block-code)
