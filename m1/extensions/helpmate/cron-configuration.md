@@ -9,7 +9,7 @@ category: Helpmate
 
 # Cron configuration
 
-In order to get customer answers via email and to close inactive tickets, the Helpmate extension uses core Magento cron process. For more details about configuring Magento cron please check [http://www.magentocommerce.com/wiki/1_-_installation_and_configuration/how_to_setup_a_cron_job](www.magentocommerce.com/wiki/1_-_installation_and_configuration/how_to_setup_a_cron_job)
+In order to get customer answers via email and to close inactive tickets, the Helpmate extension uses core Magento cron process. For more details about configuring Magento cron please check [http://devdocs.magento.com/guides/v2.0/config-guide/cli/config-cli-subcommands-cron.html](http://devdocs.magento.com/guides/v2.0/config-guide/cli/config-cli-subcommands-cron.html)
 
 Helpmate cron settings are set at `app\code\local\TM\Helpmate\etc\config.xml` with following xml code.
 

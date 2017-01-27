@@ -9,11 +9,11 @@ category: Helpmate
 
 # Use cases
 
-- [How to use contact and helpdesk form](how-to-use-contact-and-helpdesk-form/)
-- [How to create Knowledge base article and assign it to product](how-to-create-knowledge-base-article-and-assign-it-to-product/)
-- [How to create Knowledge base category and assign articles to it](how-to-create-knowledge-base-category-and-assign-articles-to-it/)
-- [How to add link to Knowledge base page at your store](How-to-add-link-to-knowledge-base-page-at-your-store/)
-- [How to add article to Quick Answer interface](how-to-add-article-to-quick-answer-interface/)
+- [How to use contact and helpdesk form](#how-to-use-contact-and-helpdesk-form)
+- [How to create Knowledge base article and assign it to product](#how-to-create-knowledge-base-article-and-assign-it-to-product)
+- [How to create Knowledge base category and assign articles to it](#how-to-create-knowledge-base-category-and-assign-articles-to-it)
+- [How to add link to Knowledge base page at your store](#How-to-add-link-to-knowledge-base-page-at-your-store)
+- [How to add article to Quick Answer interface](#how-to-add-article-to-quick-answer-interface)
 
 ### How to use contact and helpdesk form
 

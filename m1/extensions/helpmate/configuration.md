@@ -31,7 +31,7 @@ image
 
 image
 
--   Please select **Yes** in the `Enable Akismet `field and then `enter the API Key in the Akismet API key field`.
+-   Please select **Yes** in the `Enable Akismet` field and then `enter the API Key in the Akismet API key field`.
 
 **Ticket form tab**
 
@@ -42,8 +42,10 @@ image
 
 image
 `
--   In the `Fieldname #1, #2 and # 3 fields (enabled if not empty) you can specify additional information for your issue.
+-   In the `Fieldname #1, #2 and # 3 fields` (enabled if not empty) you can specify additional information for your issue.
+
 image
+
 -   In the `Use wysiwyg on backend ticket form` field select **Yes** to enable WYSIWYG editor for tickets.
 -   If you select Yes in the `Use HTMLpurify on backend` field, you enable filtering of html output for backend. In case you select No, the option will be disabled and html content will be shown in admin tickets interfaces processed with HTMLpurifier in order to make it secure (htmlpurifier doesn’t guarantee 100% protection from all types of HTML injection).
 -   In the `Quick answer categories` select KB category, that was created earlier and assigned as **Quick answer category**.

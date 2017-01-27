@@ -9,9 +9,9 @@ category: Helpmate
 
 # Managing a knowledgebase
 
-- [Creating new articles](creating-new-articles/)
-- [Creating new categories](creating-new-categories/)
-- [Submitting support request from front-end interface](submitting-support-request-from-front-end-interface/)
+- [Creating new articles](#creating-new-articles)
+- [Creating new categories](#creating-new-categories)
+- [Submitting support request from front-end interface](#submitting-support-request-from-front-end-interface)
 
 Knowledge base articles are created by store support team in order to help users to solve their issues themselves. Knowledge base comes with **Article** and **Category** interfaces. The article, as usual, includes a description of a problem and the way of solving that.
 
