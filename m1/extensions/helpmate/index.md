@@ -19,7 +19,8 @@ Helpmate extension was created in order to allow you:
 
 * to accept issues via e-mail, contact form or customer account page 24 hours per day & 7 days per week
 * to help focus your support team on really important issues while ignoring inactive tickets
-* to create knowledge articles based on already solved clients issues, which will allow your customers to help themselves without bothering your support team
+* to set up a [proper time zone](configuration/#time-configuration) in order to make a support process user-friendly
+* to [create knowledge articles](managing-a-knowledgebase/#creating-new-articles) based on already solved clients issues, which will allow your customers to help themselves without bothering your support team
 
 Please review the following basic terms before using the extension.
 
