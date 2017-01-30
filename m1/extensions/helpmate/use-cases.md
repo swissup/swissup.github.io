@@ -12,12 +12,12 @@ category: Helpmate
 - [How to use contact and helpdesk form](#how-to-use-contact-and-helpdesk-form)
 - [How to create Knowledge base article and assign it to product](#how-to-create-knowledge-base-article-and-assign-it-to-product)
 - [How to create Knowledge base category and assign articles to it](#how-to-create-knowledge-base-category-and-assign-articles-to-it)
-- [How to add link to Knowledge base page at your store](#How-to-add-link-to-knowledge-base-page-at-your-store)
+- [How to add link to Knowledge base page at your store](#how-to-add-link-to-knowledge-base-page-at-your-store)
 - [How to add article to Quick Answer interface](#how-to-add-article-to-quick-answer-interface)
 
 ### How to use contact and helpdesk form
 
-Please go `Admin > System > Configuration > Templates Master > Helpmate. The following steps are:
+Please go `Admin > System > Configuration > Templates Master > Helpmate`. The following steps are:
 
 * click on `Ticket form`
 * in `Use Default Contact Us` form please select **Yes**
@@ -43,7 +43,7 @@ Select `Category` from drop-down window in the top menu. Click on `Add New Categ
 
 * in `Active` field select **Yes**
 * in `Name` field please create the category name
-* Then go to Templates Master>Knowledge base>Article and select Article Information. Enter the created category Name at Category.  
+* Then go to `Templates Master > Knowledge base > Article` and select **Article Information**. Enter the created category Name in `Category`.  
 
 ### How to add link to Knowledge base page at your store
 

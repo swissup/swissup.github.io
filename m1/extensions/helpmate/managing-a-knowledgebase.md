@@ -21,7 +21,7 @@ In order to create new article, please go `Admin > Templates Master > Knowledge 
 
 ![Article settings](/images/m1/extensions/helpmate/article-information.png)
 
-**Article infirmation tab**
+**Article information tab**
 
 -   In the `Title` field specify the name of new article.
 -   In the `Url` field enter the part of Url that identifies the article.
