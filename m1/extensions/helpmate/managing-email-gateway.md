@@ -13,9 +13,9 @@ Email Gateways interface allows you to set two way communication channel between
 
 **Note**: you can create some gateways and assign them to appropriate departments or stores.
 
-In order to create a new gateway, go `Admin > Templates Master > Helpmate > Email Gateway` and click on **Add Gateway**.
+In order to create a new gateway, go `Admin > Templates Master > Helpmate > Email Gateways > Storage`. Now you can see a `Storage` grid where you can track already created email gateways. In order to create new one, please click on **Add Gateway**.
 
-image
+![Email gateway interface](/images/m1/extensions/helpmate/email-gateway.png)
 
 -   In the `Name` field specify the Gateway name.
 -   In the `Email` field enter the email address, which will be used to receive emails from customers.

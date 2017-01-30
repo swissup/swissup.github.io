@@ -15,7 +15,7 @@ Also you can create multiple departments and direct support tickets to them. In 
 
 **General tab**
 
-image
+![Department interface](/images/m1/extensions/helpmate/department-general.png)
 
 -   In `Show on frontend` field select **Yes**, if you allow admin users to escalate issues within the appropriate hidden department.
 -   In the `Text` field specify the department Name.
@@ -28,7 +28,7 @@ image
 
 **Email tab**
 
-image
+![Department email settings](/images/m1/extensions/helpmate/department-email.png)
 
 -   In the `Sender` field select the way of sending ticket updates.
 -   In the `New Ticket Template` field select the email template for user notification about receiving the request.
