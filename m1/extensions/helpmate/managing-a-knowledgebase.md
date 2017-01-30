@@ -19,7 +19,7 @@ Knowledge base articles are created by store support team in order to help users
 
 In order to create new article, please go `Admin > Templates Master > Knowledge Base > Article` and click on **Add New Article**.
 
-image
+![Article settings](/images/m1/extensions/helpmate/article-information.png)
 
 **Article infirmation tab**
 
@@ -37,13 +37,13 @@ image
 
 **Content tab**
 
-image
+![Article settings](/images/m1/extensions/helpmate/article-content.png)
 
 Content field allows you to specify a content for each article. You can use either default Magento WYSIWYG editor or pure html code.
 
 **Meta**
 
-image
+![Article settings](/images/m1/extensions/helpmate/article-meta.png)
 
 -   In the `Keywords` field specify article keywords that will be used as article meta keywords header tag.
 -   The `Description` field allows you to add short description that will be used as article meta description header tag.
@@ -52,7 +52,7 @@ image
 
 Articles can be organized by Category to make easier what the customers are looking for. In order to create new category, please go `Admin > Templates Master > Knowledge Base > Category` and click on **Add New Category**.
 
-image
+![Category interface](/images/m1/extensions/helpmate/category-general.png)
 
 -   Select **Yes** in the `Active` field to enable new category.
 -   In the `Name` field specify the category Name.
@@ -69,7 +69,7 @@ Helpmate front-end interfaces allow store visitors to submit support request, ge
 
 Contact Us form allows to send support requests from the client to store support team. After Helpmate installation you can still use the default Contact us form. In order to use it, you have to enable that option in Helpmate configuration.
 
-image
+![Contact us form](/images/m1/extensions/helpmate/contact-us-form.png)
 
 -   In the `Title` please specify the ticket Name.
 -   In the `Email` field leave your email address.
@@ -86,17 +86,15 @@ image
 
 Helpmate provides custom form, that was designed to decrease a number of support requests. As soon as customer starts typing his question, Helpmate will suggest the solution, based on articles from the knowledge base. At the bottom of the window there are recommendations how to ask a question and get prompt and precise answer.
 
-In order to start using this form, enabled it in ``Admin > System > Configuration > Templates Master > Helpmate`. After that customers can access that form at **yourstore.com/helpdesk**.
+In order to start using this form, enabled it in `Admin > System > Configuration > Templates Master > Helpmate`. After that customers can access that form at **yourstore.com/helpdesk**.
 
 `If you don't find the answer you need, you will be offered to Add new Ticket. Please fill the form and click on Save ticket.`
-
-image
 
 **Customer tickets interface**
 
 Registered customers can create tickets right from their account pages. Please use pagination toolbar to make the tickets searching process faster.
 
-image
+![My tickets interface](/images/m1/extensions/helpmate/my-tickets-interface.png)
 
 **Note**: the `Department and Priority fields` can be disabled by store administrator only.
 
@@ -104,7 +102,7 @@ image
 
 In order to find faster the article you need, please use Knowledge Base index page.
 
-image
+![Knowledgebase page](/images/m1/extensions/helpmate/knowledgebase-index-page.png)
 
 **Knowledge Base article page**
 
