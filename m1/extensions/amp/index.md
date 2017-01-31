@@ -23,12 +23,11 @@ elements on the fly.
  -  [Customization](customization/)
     -  [Homepage](customization/homepage/)
     -  [Footer](customization/footer/)
+ -  [Google Analytics](google-analytics/)
  -  [FAQ](faq/)
 
 <!--
     -  [Design](customization/design/)
- -  Additional features
-    -  [Google Analytics](google-analytics/)
 
 ### Devdocs
 
