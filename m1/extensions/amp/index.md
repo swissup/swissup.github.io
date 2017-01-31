@@ -27,12 +27,9 @@ elements on the fly.
  -  [Google Analytics](google-analytics/)
  -  [FAQ](faq/)
 
-<!--
-
-### Devdocs
+### Developers documentation
 
  -  [Writing AMP-friendly module](devdocs/)
--->
 
 [sass]: http://sass-lang.com/
 [ampproject]: https://www.ampproject.org/
