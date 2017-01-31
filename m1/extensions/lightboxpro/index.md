@@ -9,5 +9,9 @@ category: Lightbox Pro
 
 # Lightbox Pro
 
+![Lightbox popup](/images/m1/extensions/lightbox-pro/frontend.png)
+
 - [Installation](installation/)
-- [Changelog](changelog/)
+- [Configuration](configuration/)
+- [Widget](widget/)
+- [Use cases](use-cases/)
