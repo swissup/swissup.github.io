@@ -23,6 +23,7 @@ elements on the fly.
  -  [Customization](customization/)
     -  [Homepage](customization/homepage/)
     -  [Footer](customization/footer/)
+ -  [FAQ](faq/)
 
 <!--
     -  [Design](customization/design/)
