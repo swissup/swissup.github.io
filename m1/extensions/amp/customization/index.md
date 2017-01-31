@@ -10,3 +10,4 @@ category: Accelerated Mobile Pages
 
  -  [Homepage](homepage/)
  -  [Footer](footer/)
+ -  [Design](design/)
