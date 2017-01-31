@@ -25,6 +25,7 @@ update and `news/list` block that you want to render at AMP site.
 - [Include module styles](#include-module-styles)
 - [Include AMP component](#include-amp-component)
 - [Working examples of third-party modules](#working-examples-of-third-party-modules)
+    - [Next Up](#next-up)
 
 <!-- /MarkdownTOC -->
 
@@ -141,5 +142,10 @@ will be rendered.
 ### Working examples of third-party modules
 
  -  [Easy Catalog Images](https://github.com/tmhub/easycatalogimg/)
+
+##### Next Up
+
+ -  [Back to Home](/m1/extensions/amp/)
+ -  [SASS variables](/m1/extensions/amp/customization/design/sass-variables/)
 
 [amp_components]: https://www.ampproject.org/docs/reference/components

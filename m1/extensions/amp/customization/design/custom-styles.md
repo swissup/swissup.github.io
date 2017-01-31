@@ -42,3 +42,8 @@ reset existing style, if it's not customizable with SASS variables. Example:
     }
 }
 ```
+
+##### Next Up
+
+ -  [Back to Home](/m1/extensions/amp/)
+ -  [Custom theme](/m1/extensions/amp/customization/design/custom-theme/)

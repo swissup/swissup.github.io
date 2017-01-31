@@ -45,3 +45,7 @@ Category images are powered by [EasyCatalogImages](/m1/extensions/easycatalogima
 module. You can assign category thumbnails manually at the category edit page,
 or you can also use the "Automatic Image Assignment" feature at
 _System > Configuration > Templates-Master > Easy Catalog Images_ page.
+
+##### Next Up
+
+ -  [Back to Home](/m1/extensions/amp/)

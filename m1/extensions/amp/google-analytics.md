@@ -17,3 +17,7 @@ enable it and fill your "Account Number":
 ![Google Analytics Configuration](/images/m1/amp/google-analytics/configuration.png)
 
 > "Type" and "Enable IP anonymization" options are not used by AMP.
+
+##### Next Up
+
+ -  [Back to Home](/m1/extensions/amp/)

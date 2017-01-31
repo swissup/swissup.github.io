@@ -31,3 +31,11 @@ Option | Description
 -------|------------
 Theme | Select AMP theme to use
 Logo | Allows you to upload unique logo for AMP theme. Otherwise, logo from desktop theme will be used
+
+##### Next Up
+
+ -  [Back to Home](/m1/extensions/amp/)
+ -  [Customization](../customization/)
+    -  [Homepage](../customization/homepage/)
+    -  [Footer](../customization/footer/)
+    -  [Design](../customization/design/)

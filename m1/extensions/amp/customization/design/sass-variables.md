@@ -38,6 +38,7 @@ variables to serve compact css styles for mobile users.
     - [Breadcrumbs](#breadcrumbs)
     - [Footer](#footer)
 - [Product](#product)
+        - [Next Up](#next-up)
 
 <!-- /MarkdownTOC -->
 
@@ -308,3 +309,8 @@ $product-price-color            | $dark-grey
 $product-special-price-color    | $mango-tango
 $product-listing-name-color     | null
 $product-listing-price-color    | $dark-grey
+
+##### Next Up
+
+ -  [Back to Home](/m1/extensions/amp/)
+ -  [Custom styles](/m1/extensions/amp/customization/design/custom-styles/)

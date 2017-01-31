@@ -44,9 +44,7 @@ category: Accelerated Mobile Pages
 ##### Next Up
 
  -  [Configuration](../configuration/)
-
-<!--
  -  [Homepage](../customization/homepage/)
- -  [Footer Links](../customization/footer-links/)
+ -  [Footer](../customization/footer/)
  -  [Google Analytics](../google-analytics/)
--->
+ -  [FAQ](../faq/)

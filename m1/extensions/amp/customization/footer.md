@@ -27,3 +27,7 @@ Code:
 
 Copyright label - is a standard Magento label taken from
 _System > Configuration > Design_ page. See the "Footer" section.
+
+##### Next Up
+
+ -  [Back to Home](/m1/extensions/amp/)
