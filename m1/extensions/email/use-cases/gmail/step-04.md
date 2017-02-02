@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Step 4 - test transport
+title: Step 4 - test transport (Gmail)
 description: Email documentation; setup gmail as transport for emails
 keywords: "email, mail, gmail setup"
 category: Email

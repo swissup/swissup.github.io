@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Step 1 - pre requirements
+title: Step 1 - pre requirements (Gmail)
 description: Email documentation
 keywords: "email, mail, gmail setup"
 category: Email

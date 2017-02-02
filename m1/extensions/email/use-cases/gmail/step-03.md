@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Step 3 - save transport
+title: Step 3 - save transport (Gmail)
 description: Email documentation; setup gmail as transport for emails
 keywords: "email, mail, gmail setup"
 category: Email

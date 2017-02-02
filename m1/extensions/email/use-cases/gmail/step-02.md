@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Step 2 - create transport
+title: Step 2 - create transport (Gmail)
 description: Email documentation
 keywords: "email, mail, gmail setup"
 category: Email
