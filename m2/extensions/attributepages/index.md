@@ -13,6 +13,9 @@ based on catalog attribute. It also provides [widgets and helpers](widgets-and-b
 with brands list and attribute based pages list, [product page][block_on_product_page],
 [category page][block_on_category_page] or any other page customization.
 
+- [Installation](installation/)
+- [Changelog](changelog/)
+
 ##### [Attribute based page](attribute-based-page/) (All brands page)
 
 Top Fashion Brands | Browse by Author

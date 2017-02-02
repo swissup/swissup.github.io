@@ -1,8 +1,9 @@
 ---
 layout: default
-title: Address Autocomplete installation
-description: Address autocomplete installation instructions
-category: Address Autocomplete
+title: Attribute based pages (Brand pages)
+description: Magento 2 Attributepages installation instructions
+keywords: magento 2 attributepages, brandpage, brand page
+category: Attributepages
 ---
 
 # Installation instructions
@@ -14,9 +15,9 @@ category: Address Autocomplete
     cd <magento_root>
     bin/magento module:enable\
         Swissup_Core\
-        Swissup_Checkout\
         Swissup_SubscriptionChecker\
-        Swissup_AddressAutocomplete
+        Swissup_SlickCarousel\
+        Swissup_Attributepages
 
     # run magento upgrade scripts
     bin/magento setup:upgrade
@@ -26,11 +27,9 @@ category: Address Autocomplete
     bin/magento setup:static-content:deploy
     ```
 
-That's all. Navigate to `Stores > Configuration` and enter your
-[api key](../get-api-key/).
+That's all. Now you can navigate to `Swissup > Attribute Pages > Manage Pages`
+and create your first attribute based page.
 
 #### Next Up
 
-- [Configuration](../configuration/)
-- [Get API Key](../get-api-key/)
 - [Back to Main Page](../)
