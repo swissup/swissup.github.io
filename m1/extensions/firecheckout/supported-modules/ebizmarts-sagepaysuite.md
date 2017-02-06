@@ -8,8 +8,25 @@ category: Firecheckout
 
 # SagepaySuite
 
- 1. Open `app/code/local/Ebizmarts/SagePaySuite/etc/config.xml` file and find the
-following lines:
+ 1. Open `skin/frontend/base/default/sagepaysuite/js/sagePaySuite_Checkout.js` file and find the
+    following lines:
+
+    ```js
+    var placeBtn = $('onestepcheckout-place-order');
+
+    placeBtn.hide();
+    ```
+
+    Replace it with:
+
+    ```js
+    var placeBtn = $('onestepcheckout-place-order');
+
+    placeBtn && placeBtn.hide();
+    ```
+
+ 2. Open `app/code/local/Ebizmarts/SagePaySuite/etc/config.xml` file and find the
+    following lines:
 
     ```xml
     <controller_action_predispatch_checkout_onepage_index>
@@ -43,7 +60,7 @@ following lines:
     </controller_action_predispatch_firecheckout_index_index>
     ```
 
- 2. In case you are using "Saved Credit Cards" feature, navigate to
+ 3. In case you are using "Saved Credit Cards" feature, navigate to
 
     `System > Configuration > TM Checkout > Firecheckout > Ajax save and reload rules`
 
