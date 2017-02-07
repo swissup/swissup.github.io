@@ -15,12 +15,12 @@ banner in Lightbox window or Awesomebar panel:
 In order to create **Lighbox** or **Awesomebar** banner just select corresponding
 value in "Type" field in "General Information" tab:
 
-![Lightbox Banner Type](/images/m1/easy-banners/use-cases/banner-type-lightbox.png)
+![Lightbox Banner Type](/images/m1/easy-banners/use-cases/lightbox-and-awesomebar/banner-type-lightbox.png)
 
 Additionally you can use special 'client-side' [conditions][banner_conditions]
 for these banners:
 
-![Lightbox and Awesomebar Conditions](/images/m1/easy-banners/use-cases/banner-type-lightbox-conditions.png)
+![Lightbox and Awesomebar Conditions](/images/m1/easy-banners/use-cases/lightbox-and-awesomebar/banner-type-lightbox-conditions.png)
 
 Condition                           | Description
 ------------------------------------|---------------------------------------------------------------

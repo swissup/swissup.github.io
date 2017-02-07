@@ -1,10 +1,10 @@
-- href: /images/m1/easy-banners/use-cases/frontend-lightbox-banner.png
-  src: /images/m1/easy-banners/use-cases/small/frontend-lightbox-banner.png
+- href: /images/m1/easy-banners/use-cases/lightbox-and-awesomebar/frontend-lightbox-banner.png
+  src: /images/m1/easy-banners/use-cases/lightbox-and-awesomebar/small/frontend-lightbox-banner.png
   title: Lightgbox banner with image
   w: 1007
   h: 734
-- href: /images/m1/easy-banners/use-cases/frontend-awesomebar-banner.png
-  src: /images/m1/easy-banners/use-cases/small/frontend-awesomebar-banner.png
+- href: /images/m1/easy-banners/use-cases/lightbox-and-awesomebar/frontend-awesomebar-banner.png
+  src: /images/m1/easy-banners/use-cases/lightbox-and-awesomebar/small/frontend-awesomebar-banner.png
   title: Awesomebar banner with html content
   w: 1007
   h: 734
