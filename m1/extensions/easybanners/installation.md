@@ -6,24 +6,21 @@ keywords: " magento banner, magento banner slider, adding magento banners,
 magento banner extension "
 category: Easy Banners
 ---
-# Easy Banners installation instructions
 
-Please follow next steps to complete the installation:
+# Installation
 
-1. Navigate to `Admin > Tools > Compilation` and deactivate the compilation
-mode for your store.
-2. Check if your Magento store cache is enabled.
-3. Unpack all files from extension archive into your magento store root directory.
-4. Refresh your magento store cache.
-5. Logout from your store admin and then login back, to refresh your admin user
-access rights.
+ 1. Navigate to _System > Tools > Compilation_ and disable compilation mode.
+ 2. Go to your magento store root directory via FTP or CPanel.
+ 3. Create file `maintenance.flag` in root directory.
+ 4. Open your store in browser; you have to see page
+    `Service Temporarily Unavailable` (if you don't see this page - probably
+    you are trying to install extension at wrong magento instance).
+ 5. Unpack all files from extension archive into your magento store root
+    directory.
+ 6. Remove file `maintenance.flag` when copy process completed.
+ 7. Login your store admin and add the banners.
 
-* Navigate to `System > Configuration > Templates-Master > Easy Banners` and
-enable extension for any store you need.
+##### Next Up
 
-That's all. Navigate to your store and check how it looks.
-
-#### After you install an extension you can go to:
-
-* [Support](https://swissuplabs.com/contacts/)
-* [Forum](https://swissuplabs.com/magento-forum/)
+* [Manage Banners](../backend/manage-banners/)
+* [Manage Placeholders](../backend/manage-placeholders/)
