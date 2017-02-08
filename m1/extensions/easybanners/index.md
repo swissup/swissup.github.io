@@ -40,4 +40,4 @@ on each page reload.
     + [Place banner on specific page](use-cases/place-banner-on-specific-page/)
     + [Create Lightbox and Awesomebar banners](use-cases/lightbox-and-awesomebar-banners/)
     + [Track clicks in HTML banner](use-cases/track-clicks-in-html-banner/)
-    + [Create additional placeholder](use-cases/create-additional-placeholder/)
+    + [Create additional placeholder at product page (Free Shipping Banner)](use-cases/create-additional-placeholder-at-product-page/)

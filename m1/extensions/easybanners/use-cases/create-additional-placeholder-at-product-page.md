@@ -1,11 +1,12 @@
 ---
 layout: default
-title: Create additional placeholder
+title: Create additional placeholder at product page
 description: How to create free shipping banner and add it to the product page
+keywords: free shipping banner, product page banner
 category: Easy Banners
 ---
 
-# Create additional placeholder
+# Create additional placeholder at product page
 
 Let's create placeholder for product page and add "Free Shipping Banner" to it,
 if product has "Free Shipping" attribute.

@@ -27,7 +27,7 @@ button in the upper right corner of the page to create a new placeholder.
 Field       | Descrition
 ------------|-----------
 Placeholder Name | Name of the placeholder
-Parent Block | The name of the block where the placeholder will be rendered. It could be a name of any existing block of your theme. Make sure that this block automatically renders all of it's children.
+Parent Block | The name of the block where the placeholder will be rendered. It could be a name of any existing block of your theme. Make sure that this block automatically renders all of it's children. See [example](../../use-cases/create-additional-placeholder-at-product-page/)
 Position | Position inside parent block. It should be a valid xml attribute with it's value.
 Banners limit per rotate | How many banners will be shown at once.
 Sort mode | Ability to sort banners by sort_order or randomly

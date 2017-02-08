@@ -64,7 +64,7 @@ Use image resizer | Allows to resize banner on server-side, before output. When 
 Retina support | When set to 'Yes', srcset will be generated for retina display with double sized image
 Background color | Color to use to fill empty space, when resizer is used
 **Html Content Options** |
-Content | Allows to use any valid HTML tags and Magento Widgets.  {% raw %}{{tm_banner_url}}{% endraw %} variable is available to generate trackable banner url
+Content | Allows to use any valid HTML tags and Magento Widgets.  {% raw %}{{tm_banner_url}}{% endraw %} variable is available to generate [trackable banner url](../../use-cases/track-clicks-in-html-banner/)
 
 ### Conditions
 
@@ -93,7 +93,7 @@ Day of Week     | Show/hide banner periodically on specific day of the week
 Day of Month    | Show/hide banner periodically on specific day of the month
 Current Date    | Show/hide banner on specific date, or daterange (holiday, promo day, etc)
 Current Time    | Show/hide banner at specified time or timerange
-**Lightbox and Awesomebar Conditions** |
+[**Lightbox and Awesomebar**](../../use-cases/lightbox-and-awesomebar-banners/) **Conditions** |
 Display Count per Customer          | Do not show banner more than X times for particular customer
 Customer browsing time (seconds)    | Show banner after X seconds of browsing time (idle + activity)
 Customer inactivity time (seconds)  | Show banner after X seconds of idle time
@@ -108,7 +108,8 @@ Basic charts for recent activity can be found at statistics tab:
 
 > Easy Banners provides views and clicks statistics for **Image** banners only.
 > In order to receive clicks statistics for **Html** banners you should use
-> {% raw %}{{tm_banner_url}}{% endraw %} variable for all links in banner content.
+> [{% raw %}{{tm_banner_url}}{% endraw %} variable](../../use-cases/track-clicks-in-html-banner/)
+> for all links in banner content.
 
 #### Next Up:
 
