@@ -8,13 +8,10 @@ category: Easy Banners
 # Manage banners
 
 ### Contents
+{:.no_toc}
 
-- [Banners Grid](#grid)
-- [Banner form](#banner-form)
-    - [General information](#general-information)
-    - [Content](#content)
-    - [Conditions](#conditions)
-    - [Statistics](#statistics)
+* TOC
+{:toc}
 
 ### Grid
 
@@ -112,6 +109,7 @@ Basic charts for recent activity can be found at statistics tab:
 > for all links in banner content.
 
 #### Next Up:
+{:.no_toc}
 
  -  [Back to Home](../../)
  -  [Manage Placeholders](../manage-placeholders/)

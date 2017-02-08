@@ -17,6 +17,7 @@ markdown: kramdown
 kramdown:
   input: GFM
   hard_wrap: false
+  toc_levels: 2..5
 
 exclude:
   - bower_components

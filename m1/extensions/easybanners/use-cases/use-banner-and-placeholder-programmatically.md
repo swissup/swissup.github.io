@@ -7,15 +7,10 @@ category: Easy Banners
 # Use banner and placeholder programmatically
 
 ### Contents
+{:.no_toc}
 
-- [Banners](#banners)
-    - [Xml code](#xml-code)
-    - [Widget code](#widget-code)
-    - [Php code](#php-code)
-- [Placeholders](#placeholders)
-    - [Xml code](#xml-code-1)
-    - [Widget code](#widget-code-1)
-    - [Php code](#php-code-1)
+* TOC
+{:toc}
 
 ### Banners
 
