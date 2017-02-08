@@ -8,6 +8,17 @@ category: Accelerated Mobile Pages
 
 # Changelog
 
+### Version 1.0.2
+
+ -  Fixed duplicated AMP themes in configuration dropdown list
+ -  Improved stability, when layered navigation block is missing in layout
+ -  Fixed errors, when third-party library is already included by theme:
+     +  Leafo/ScssPhp
+     +  Mobile_Detect
+     +  Fastimage
+ -  Improved header template markup to make possible to disable search with xml
+    layout update only
+
 ### Version 1.0.1
 
  -  Fixed possible error at checkout page
