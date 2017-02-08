@@ -100,7 +100,7 @@ additional modifications.
 - PostcodeNl_Api
 - Shipperhq_Freight
 - Shipperhq_Pickup
-- [SmartPost](smartpost/)
+- [Lemonline_SmartPost](lemonline-smartpost/)
 - Storepickup
 - [Tig_MyParcel](tig-myparcel/)
 - TIG_Postcode
