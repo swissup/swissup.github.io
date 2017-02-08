@@ -1,0 +1,45 @@
+- href: /images/m1/easy-banners/index/argento-homepage-banners.png
+  src: /images/m1/easy-banners/index/small/argento-homepage-banners.png
+  title: Homepage placeholder widget with banner limit set to three banners
+  w: 971
+  h: 723
+- href: /images/m1/easy-banners/use-cases/lightbox-and-awesomebar/frontend-lightbox-banner.png
+  src: /images/m1/easy-banners/use-cases/lightbox-and-awesomebar/small/frontend-lightbox-banner.png
+  title: Lightgbox banner
+  w: 1007
+  h: 734
+- href: /images/m1/easy-banners/use-cases/lightbox-and-awesomebar/frontend-awesomebar-banner.png
+  src: /images/m1/easy-banners/use-cases/lightbox-and-awesomebar/small/frontend-awesomebar-banner.png
+  title: Awesomebar banner with html content
+  w: 1007
+  h: 734
+- href: /images/m1/easy-banners/backend/banner/form-content-image.png
+  src: /images/m1/easy-banners/backend/banner/small/form-content-image.png
+  title: Banner content settings, when image mode is used
+  w: 855
+  h: 578
+- href: /images/m1/easy-banners/backend/banner/form-content-html.png
+  src: /images/m1/easy-banners/backend/banner/small/form-content-html.png
+  title: Banner content settings, when html mode is used
+  w: 855
+  h: 571
+- href: /images/m1/easy-banners/backend/banner/form-conditions.png
+  src: /images/m1/easy-banners/backend/banner/small/form-conditions.png
+  title: Banner conditions
+  w: 855
+  h: 540
+- href: /images/m1/easy-banners/backend/banner/form-conditions-combobox.png
+  src: /images/m1/easy-banners/backend/banner/small/form-conditions-combobox.png
+  title: List of available conditions to use
+  w: 855
+  h: 488
+- href: /images/m1/easy-banners/backend/banner/form-conditions-product-attribute.png
+  src: /images/m1/easy-banners/backend/banner/small/form-conditions-product-attribute.png
+  title: Product Attribute Conditions
+  w: 855
+  h: 490
+- href: /images/m1/easy-banners/backend/banner/form-statistics.png
+  src: /images/m1/easy-banners/backend/banner/small/form-statistics.png
+  title: Basic charts for recent activity
+  w: 865
+  h: 591

@@ -9,7 +9,7 @@ category: Easy Banners
 
 # Easy Banners
 
-![Easy Banners](/images/m1/easy-banners/banner-frontend.png)
+{% include gallery.html images=site.data.gallery.m1.easy-banners.index class="phone-up-2 tablet-up-3 photoswipe scroll" %}
 
 Easy Banners allows you to display regular banners and custom content like
 an information about scheduled events and holidays related content, display your
