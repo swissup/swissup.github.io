@@ -114,5 +114,5 @@ Basic charts for recent activity can be found at statistics tab:
 
  -  [Back to Home](../../)
  -  [Manage Placeholders](../manage-placeholders/)
- -  [Using Widgets](../using-widgets/)
+ -  [Using Widgets](../widgets/)
  -  [Use cases](../../use-cases/)

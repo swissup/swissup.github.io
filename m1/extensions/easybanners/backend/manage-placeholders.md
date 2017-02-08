@@ -37,5 +37,5 @@ Status | Enable/disable placeholder
 
  -  [Back to Home](../../)
  -  [Manage Banners](../manage-banners/)
- -  [Using Widgets](../using-widgets/)
+ -  [Using Widgets](../widgets/)
  -  [Use cases](../../use-cases/)
