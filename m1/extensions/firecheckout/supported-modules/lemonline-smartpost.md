@@ -12,7 +12,7 @@ category: Firecheckout
     whole `<script>...</script>` section to the botom of the page.
 
  2. Open `app/design/frontend/argento/default/template/smartpost/search/result.phtml`
-    and apple the following patch:
+    and apply the following patch:
 
     ```diff
     --- /a/result.phtml
