@@ -23,9 +23,9 @@ Swatches can appear individually or in groups. It depends on the availability of
 
 In case you allow customers see the color what they selected, in the shopping cart, please put a tick in the upper `Change Checkout Product image`.
 
-### Integration with Lightbox module
+### Integration with third-party Magento modules
 
-Easy Color Swatches extension is integrated with Lightbox module. Your customers will preview images by using zoom feature.
+Let your customers preview images in attractive popup. Easy Color Swatches extension is integrated with Easy Lightbox  and Prozoom modules. It improves user visual experience.
 
 ![Color swatches](/images/m1/extensions/swatches/lightbox-integration.png)
 

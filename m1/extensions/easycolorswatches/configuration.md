@@ -24,14 +24,14 @@ Go to `Admin > System > Configuration > EasyColorSwatches`.
 
 Specify the width and height of color thumbnail on the product page as well as on the catalog page.
 
--   `Loader image` - browse the image.
+-   `Loader image` - select the loader icon.
 -   `Change Shopping Cart Product Image` - select **Yes** to allow customers see the attribute, that they've selected, in shopping cart.
 
 ### Catalog swatches settings
 
 ![Color swatches](/images/m1/extensions/swatches/configuration-catalog-swatches.png)
 
--   `Event for activation catalog swatch item` -    
+-   `Event for activation catalog swatch item` - select the value from dropdown. It will allow users change the product image by click on it or on mouseover.  
 
 Specify the image width both for grid and list modes on catalog page. 
 
