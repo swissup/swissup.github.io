@@ -30,6 +30,6 @@ In case you allow customers see the size what they selected, in the shopping car
 *   [Installation](../installation/)
 *   [Configuration](../configuration/)
 *   [Attribute swatches feature](../attribute-swatches-feature/)
-*   [Creating swatches for size attribute](../creating-swatches-for-size-attribute/)
+*   [Creating swatches for color attribute](../creating-swatches-for-color-attribute/)
 *   [Support](https://swissuplabs.com/contacts/)
 *   [Forum](https://swissuplabs.com/magento-forum/)

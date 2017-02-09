@@ -12,7 +12,7 @@ category: Easy Color Swatches
 ![Color swatches](/images/m1/extensions/swatches/frontend.png)
 
 Our module allows you to display the products in all product attributes such as color, size, etc. You can show product attributes by using swatches on configurable products. You are also allowed to display color swatches on product page by replacing drop-down custom options. The types of atrributes can be shown as thumbnails.
-Need the swatch with specified attribute value be implemented for each product with this attribute? Attribute swatches interface will help you.
+Need the swatch with specified attribute value be implemented for each product with this attribute? [Attribute swatches interface](attribute-swatches-feature/) will help you.
 
 - [Installation](installation/)
 - [Configuration](configuration/)

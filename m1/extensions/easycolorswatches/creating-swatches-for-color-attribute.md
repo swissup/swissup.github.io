@@ -32,7 +32,7 @@ Easy Color Swatches extension is integrated with Lightbox module. Your customers
 #### You can also check:
 
 *   [Installation](../installation/)
-*   [Creating swatches for color attribute](../creating-swatches-for-color-attribute/)
+*   [Creating swatches for size attribute](../creating-swatches-for-size-attribute/)
 *   [Attribute swatches feature](../attribute-swatches-feature/)
 *   [Configuration](../configuration/)
 *   [Support](https://swissuplabs.com/contacts/)
