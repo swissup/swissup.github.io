@@ -60,3 +60,11 @@ You have to apply custom layout update to insert custom content into add to cart
     ```
 
 ![Ajax Cart expanded](/images/m1/extensions/ajax-pro/ajax-cart.png)
+
+#### You can also check:
+
+*   [Installation](../installation/)
+*   [Changelog](../changelog/)
+*   [Configuration](../configuration/)
+*   [Support](https://swissuplabs.com/contacts/)
+*   [Forum](https://swissuplabs.com/magento-forum/)

@@ -30,13 +30,13 @@ In back-end, Affiliate Suite comes with 7 interfaces allowing affiliate manager 
 
 **Statistics** shows the statistics of transactions (clicks, registration and sales), payouts, partners (registration) and traffic.
 
-- [Installation](installation/)
-- [Configuration](configuration/)
-- [Affiliate banners](affiliate-banners/)
-- [Affiliate partners](affiliate-partners/)
-- [Messages](messages/)
-- [Affiliate campaigns](affiliate-campaigns/)
-- [Payments management](payments-management/)
-- [Product frame widget](product-frame-widget/)
-- [Statistics](statistics/)
-- [Transactions](transactions/)
+- `Installation`
+- `Configuration`
+- `Affiliate banners`
+- `Affiliate partners`
+- `Messages`
+- `Affiliate campaigns`
+- `Payment management`
+- `Product frame widget`
+- `Statistics`
+- `Transactions`

@@ -32,3 +32,11 @@ category: AjaxPro
  -  integration with ajax product list in Ultimo
  -  fixed styles for cart popup after buying product
  -  use core Magento translations for login form
+
+ #### You can also check:
+
+*   [Installation](../installation/)
+*   [Configuration](../configuration/)
+*   [Use Cases](../use-cases/)
+*   [Support](https://swissuplabs.com/contacts/)
+*   [Forum](https://swissuplabs.com/magento-forum/)
