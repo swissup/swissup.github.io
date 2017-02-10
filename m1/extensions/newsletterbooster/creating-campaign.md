@@ -20,7 +20,7 @@ Follow the detailed process of campaign creation. In case of proper campaign cus
 
 Go `Admin > Templates Master > Newsletter Booster > Campaigns` and create a new Campaign. You will be allowed to create multiple campaigns.
 
-### Campaign configuration
+### Campaign settings
 
 ![Newsletterbooster](/images/m1/extensions/newsletter-booster/campaign-configuration.png)
 

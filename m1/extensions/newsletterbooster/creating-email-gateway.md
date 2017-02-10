@@ -18,7 +18,7 @@ If you commonly use Mandrill App or other mail services for sending emails, plea
 -   `Title` - specify the name of new gateway.
 -   `Status` - select **Yes** to enable current gateway.
 -   `Host` - enter the name of your mail server.
--   'User' - specify user’s name or email address for authorization.
+-   `User` - specify user’s name or email address for authorization.
 -   `Password` - enter the user’s password. Please notice that this field is not required. An anonymous email gateway can be also created.
 -   `Port` - specify the port, that will be used to access your mail server.
 -   Select types of secure from drop-down list. Possible values are None, SSL\TLS and STARTTLS.

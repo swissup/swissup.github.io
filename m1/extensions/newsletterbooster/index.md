@@ -13,7 +13,7 @@ category: Newsletter Booster
 
 Our module will help you to [create customer segments](managing-customer-segments/) based on history of customer orders, geographical parameters; [add newsletter campaigns](creating-campaign/) and send them to three separate user type groups based on different subscription source; track your newsletter performance with Google Analytics, verify email addresses before sending newsletter campaings.  
 
-The Newsletter Booster extension consists of two tightly integrated modules - Segmentation Suite and Newsletter Booster.
+The Newsletter Booster extension consists of two tightly integrated modules - **Segmentation Suite** and **Newsletter Booster**.
 
 Please review the following basic terms before using a module.
 

@@ -16,7 +16,7 @@ category: Newsletter Booster
 - [Creating customer segment for customers who bought products by brand](#creating-customer-segment-for-customers-who-bought-products-by-brand)
 - [Creating customer segment for customers with total order](#creating-customer-segment-for-customers-with-total-order)
 - [Creating and sending first email campaign](#creating-and-sending-first-email-campaign)
-- [Sending newsletter campaigns to different groups of subscribers](#sending-newsletter-campaigns-to-different-groups-of- subscribers)
+- [Sending newsletter campaigns to different groups of subscribers](#sending-newsletter-campaigns-to-different-groups-of-subscribers)
 
 ### Creating customer segment for all customers
 
@@ -37,7 +37,7 @@ category: Newsletter Booster
 
 ![Newsletterbooster](/images/m1/extensions/newsletter-booster/creating-segment-usecase3.png)
 
-### Creating customer segment for customers who bought products from brand
+### Creating customer segment for customers who bought products by brand
 
 1. Go to `Magento Admin > Templates Master > Segmentation Suite > Customer Segment` and click **Create Segment**.
 2. At `Conditions` tab select **Order Product Attribute**.
