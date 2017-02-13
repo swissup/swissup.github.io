@@ -49,7 +49,7 @@ Go `Admin > System > Configuration > Templates-Master > Admin Watcher`.
 -   `Queue` - select a queue.
 -   `Sender` - select the Sender that will be used in admin activity notification email from drop-down list.
 -   `Email Template` - select the email template of notification from drop-down list.
--   `Update frequency` - choose the time the 
+-   `Update frequency` - choose а notification period for notifying you about hacking attempts. 
 
 #### You can also check:
 

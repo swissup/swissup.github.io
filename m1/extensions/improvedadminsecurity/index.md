@@ -16,8 +16,9 @@ Our module offers you to use two-factor authentication based on the Google Authe
 
 Improved admin security extension consists of 2 tightly integrated modules:
 
-**Two Factor Authentication** protects your Magento admin login area. The module is based on usage of verification key.
-**Admin Watcher** enables checking the parameters of successful and failed attempts to access store backend.
+-   **Two Factor Authentication** protects your Magento admin login area. The module is based on usage of verification key.
+
+-   **Admin Watcher** enables checking the parameters of successful and failed attempts to access store backend.
 
 - [Installation](installation/)
 - [Configuration](configuration/)

@@ -18,7 +18,7 @@ The module includes `Log Attempts` and `Action Log` interfaces. Go `Admin > Temp
 
 If you select the Login Attempts, you will be allowed to see who tried to login the store admin without authorization, his IP address and the date when he did it. Additionally the reason of failed attempt to the access will be displayed.
 
-image
+![Login attempts](/images/m1/extensions/improved-admin-security/log-attempts.png)
 
 ### Action Log
 
