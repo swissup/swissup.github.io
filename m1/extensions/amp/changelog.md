@@ -8,6 +8,21 @@ category: Accelerated Mobile Pages
 
 # Changelog
 
+### Version 1.0.3
+
+ -  Added compatibility with:
+     +  TM_lazyload
+     +  TM_Pagespeed
+     +  TM_DeferJs
+     +  TM_Botprotection
+ -  Magento 1.7 compatibility added
+ -  Fixed AMP homepage rendering via cms/page/view action
+ -  Catalog "subscribe to rss" link made hidden
+ -  Improved font rendering on iMac
+ -  Fixed missing "Shop By" button on catalog pages without layered navigation,
+    but with "catalog/navigation" block
+ -  Added compatibility with lazyload images (data-src and data-lazy attributes)
+
 ### Version 1.0.2
 
  -  Fixed duplicated AMP themes in configuration dropdown list
