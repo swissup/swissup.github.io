@@ -8,6 +8,10 @@ category: Bot Protection
 
 # Changelog
 
+### Version 1.0.7
+
+ *  Added TM_AMP compatibility
+
 ### Version 1.0.6
 
  *  Configuration extended with 'Ignore URLs' option for Protected Forms

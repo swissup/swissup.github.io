@@ -19,6 +19,7 @@ If you are running the website with a lot of images, scripts and content, the Pa
 {% include gallery.html images=site.data.gallery.m1.pagespeed.index class="scroll phone-up-1 tablet-up-3 photoswipe" %}
 
 - [Installation](installation/)
+- [Changelog](changelog/)
 - [Configurable options](config-options/)
 
 **We recommend**
