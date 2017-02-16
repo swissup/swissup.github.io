@@ -22,6 +22,8 @@ category: Accelerated Mobile Pages
  -  Fixed missing "Shop By" button on catalog pages without layered navigation,
     but with "catalog/navigation" block
  -  Added compatibility with lazyload images (data-src and data-lazy attributes)
+ -  Added `tmamp` registry key, that can be used by third-party modules to modify
+    their logic, when AMP theme is used
 
 ### Version 1.0.2
 
