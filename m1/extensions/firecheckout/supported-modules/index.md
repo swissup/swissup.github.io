@@ -16,14 +16,15 @@ keywords: >
     IrvineSystems_Yamato, JRD_Paczkomaty, Kiala_LocateAndSelect,
     Magestore_Storepickup, Man4x_MondialRelay, Mico_Rushpackage, Ophirah_Qquoteadv (Cart2Quote),
     PostcodeNl_Api, Shipperhq_Freight, Shipperhq_Pickup, Storepickup,
-    TIG_Postcode, Webshopapps_Desttype, WebshopApps_ProductMatrix,
+    TIG_Postcode, Webshopapps_Desttype, Webshopapps_Premiumrate, WebshopApps_ProductMatrix,
     Wyomind_Pickupatstore, Amasty_Methods, Magento EE coupons,
     Magento EE GiftCards and GiftWrap, Aitoc_Aitgiftwrap, Unirgy_GiftCert,
     Webtex_Giftcards, MageWorx_CustomerCredit, Wf_CustomerBalance (Magecredit),
     AW_Rewards, Magebuzz_Rewardpoint, Emja_Taxrelief, Webgriffe_TaxIdPro,
     GCMC_GiveChange, Symmetrics_Buyerprotect, CraftyClicks, Juicy_Geoip,
     Rack_Getpostcode, AW_Advancednewsletter, AW_Newsletter,
-    RedPandaPlus_OrderAttachments, Inchoo_SocialConnect, TM_SocialSuite
+    RedPandaPlus_OrderAttachments, Inchoo_SocialConnect, TM_SocialSuite,
+    Firegento_MageSetup, TIG_Myparcel2014
 category: Firecheckout
 ---
 
@@ -103,11 +104,13 @@ additional modifications.
 - [Lemonline_SmartPost](lemonline-smartpost/)
 - Storepickup
 - [Tig_MyParcel](tig-myparcel/)
+- TIG_Myparcel2014
 - TIG_Postcode
 - [TIG_PostNL](tig-postnl/)
 - [Unirgy_DropshipSplit](unirgy-dropshipsplit/)
 - [Webgriffe_Tntpro](webgriffe-tntpro/)
 - Webshopapps_Desttype
+- Webshopapps_Premiumrate
 - WebshopApps_ProductMatrix
 - [Webshopapps_Wsafreightcommon](webshopapps-wsafreightcommon/)
 - Wyomind_Pickupatstore

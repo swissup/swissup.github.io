@@ -5,7 +5,61 @@ description: Firecheckout changelog
 category: Firecheckout
 ---
 
-# Firecheckout Changelog
+# Changelog
+
+### Version 3.11.0
+
+**Major changes**
+
+ -  Added ability to place order using saved address with missing required fields
+    (If address requirements were updated and now some required fields are missing)
+    Nice popup with missing address fields and "Place Order" button will appear
+ -  Fixed bug with missing password in account create/confirmation emails
+ -  Comment and additional fields moved to account information block at order view page:
+
+    ![Additional checkout fields](/images/m1/firecheckout/changelog/3.11.0/checkout-fields-at-backend-order-view.png)
+
+ -  Section numbers rewritten with css counters instead of js solution
+
+    > **Warning!**
+    >
+    > If you've changed original javascript for section numbers, you should
+    > remove your modification to prevent possible issues with css counters
+
+**Fixes and Improvements**
+
+ -  Fixed cart weight calculation for configurable products
+ -  Fixed total recalculation, when discount depends on cart weight
+ -  Fixed checkout fields options visibility on store level
+ -  Fixed delivery date options per store level
+ -  Fixed cvv description popup positioning on mobile devices
+ -  Fixed 'Missing Shipping Method' error
+ -  Fixed persistent loading state, when error is occured during ajax request
+ -  Fixed invalid item qty display after ajax request, when more than X items
+    are not available
+ -  Fixed popup size to always to fit screen size on small devices
+ -  Small css improvements nad fixes
+
+**Javascript improvements for developers needs**
+
+ -  New features in FC.Window component:
+    - Added ability to set error messages
+    - Added ability to call callback after hide
+    - Improved actionbar usage syntax
+    - Improved default triggers value
+ -  Added ability to set after and before setResponse callbacks
+ -  Added ability to update any checkout section with separate method (`checkout.updateSection`)
+
+**Third-party modules**
+
+ -  Updated integration with Netresearch_OPS module
+ -  Improved Webshopapps_Premiumrate integration (Fixed the case when shipping
+    methods depends on items qty in the cart)
+ -  Improved Firegento_MageSetup integration (Added 'Checkout Options' support)
+ -  TIG_Myparcel2014 integration
+ -  Updated integration with Lemonline_Smartpost
+ -  Fixed missing detailed taxvat row when Fooman_Surchage is used
+ -  Fixed free order placing, when Cryozonic_Stripe method is available
 
 ### Version 3.10.0
 
