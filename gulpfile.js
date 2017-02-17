@@ -42,7 +42,8 @@ gulp.task('css', function () {
         'bower_components/flickity/dist/flickity.min.css',
         'bower_components/photoswipe/dist/photoswipe.css',
         'bower_components/photoswipe/dist/default-skin/default-skin.css',
-        'css/*'
+        'css/*.css',
+        'css/main.scss'
     ];
     var scss = filter('css/*.scss', {restore: true});
     return gulp.src(files)
@@ -81,7 +82,7 @@ gulp.task('serve', ['jekyll'], function() {
     });
 
     gulp.watch('js/*', ['js']);
-    gulp.watch('css/*', ['css']);
+    gulp.watch('css/**/*', ['css']);
 
     gulp.watch([
         '_data/**/*',

@@ -1,0 +1,18 @@
+.mdl-layout__header {
+    border-bottom: 1px solid #eaeaea;
+    display: flex;
+}
+.mdl-layout__header-row {
+    padding: 0;
+    height: 80px;
+}
+@media (max-width: 600px) {
+    .mdl-layout__header-row {
+        display: block;
+        height: auto;
+        text-align: center;
+    }
+    .mdl-layout__header-row .mdl-layout-title {
+        margin: 20px 0 10px;
+    }
+}

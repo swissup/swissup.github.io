@@ -1,0 +1,48 @@
+.gallery {
+    @for $i from 1 through 6 {
+        &.phone-up-#{$i} {
+            figure {
+                width: 100% / $i;
+            }
+        }
+    }
+    @media (min-width: 481px) {
+        @for $i from 1 through 6 {
+            &.tablet-up-#{$i} {
+                figure {
+                    width: 100% / $i;
+                }
+            }
+        }
+    }
+    @media (min-width: 992px) {
+        @for $i from 1 through 6 {
+            &.desktop-up-#{$i} {
+                figure {
+                    width: 100% / $i;
+                }
+            }
+        }
+    }
+    figure {
+        box-sizing: border-box;
+        display: inline-block;
+        vertical-align: top;
+        margin: 0;
+        margin-left: -4px; /* fighting gap between inline-block elements */
+        padding: 5px;
+    }
+    figcaption {
+        display: none;
+    }
+
+    // single row items with native srollbar
+    &.scroll {
+        white-space: nowrap;
+        overflow: auto;
+        margin-bottom: 15px;
+        figure {
+            padding-bottom: 10px;
+        }
+    }
+}

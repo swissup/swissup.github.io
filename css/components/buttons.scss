@@ -1,0 +1,35 @@
+.btn-clip {
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+    outline: none;
+    color: rgba(0,0,0,.5);
+    font-size: 13px;
+    background-color: rgba(0,0,0,.1);
+    border: none;
+    border-bottom-left-radius: 5px;
+    padding: 3px 10px;
+    min-width: 60px;
+    overflow: visible;
+    line-height: normal;
+}
+.btn-clip:active {
+    box-shadow: 0 0 8px rgba(0,0,0,.2) inset;
+}
+
+#edit-page {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 900;
+    margin: 0 40px 40px 0;
+}
+.no-edit #edit-page {
+    display: none;
+}
+@media (max-width: 480px) {
+    #edit-page {
+        display: none;
+    }
+}

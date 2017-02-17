@@ -1,0 +1,124 @@
+$masonry-gutter-size: 5px;
+$masonry-brick-size: 102px;
+$masonry-brick-max-size: 5;
+$masonry-expanded-brick-width: 5;
+$masonry-expanded-brick-height: 2;
+$masonry-brick-colors: (
+    red,
+    deepskyblue,
+    gold,
+    tomato,
+    rebeccapurple,
+    lawngreen,
+    magenta,
+    cornflowerblue,
+    peru,
+    hotpink,
+    green,
+);
+.masonry {
+    .brick-gutter {
+        width: $masonry-gutter-size;
+    }
+    .brick {
+        cursor: pointer;
+        width: $masonry-brick-size;
+        height: $masonry-brick-size;
+
+        &[data-brick-href] {
+            h4 {
+                text-decoration: underline;
+            }
+            &:hover h4 {
+                text-decoration: none;
+            }
+        }
+
+        .brick-animation {
+            overflow: hidden;
+            padding: 10px;
+            box-sizing: border-box;
+            width: $masonry-brick-size;
+            height: $masonry-brick-size;
+            background: #333;
+            transition: width 0.3s ease-in-out,
+                        height 0.3s ease-in-out,
+                        background-color 0.2s ease-in-out;
+
+            color: #fff;
+            a {
+                color: #fff;
+            }
+            h4 {
+                margin-top: 0;
+                margin-bottom: 10px;
+            }
+            .mdl-button {
+                margin: 0 5px 0 0;
+                background-color: rgba(255,255,255,0.2);
+                &:hover {
+                    background-color: rgba(255,255,255,0.3);
+                }
+            }
+        }
+
+        // Enlarge bricks
+        @for $i from 1 through $masonry-brick-max-size {
+            @for $j from 1 through $masonry-brick-max-size {
+                &.size#{$i}x#{$j},
+                &.size#{$i}x#{$j} .brick-animation {
+                    width: $masonry-brick-size * $i + ($i - 1) * $masonry-gutter-size;
+                    height: $masonry-brick-size * $j + ($j - 1) * $masonry-gutter-size;
+
+                }
+                &.size#{$i}x#{$j}:not(.expanded) {
+                    @if $i == 1 {
+                        h4 {
+                            font-size: 18px;
+                            line-height: 25px;
+                        }
+                    }
+                    @if $j == 1 and $i == 2 {
+                        h4 {
+                            font-size: 21px;
+                            line-height: 25px;
+                        }
+                    }
+                }
+            }
+        }
+
+        // Colorize bricks
+        $k: 1;
+        $_color: #fff;
+        @for $i from 1 through 3 {
+            @each $color in $masonry-brick-colors {
+                &:nth-child(#{$k}) .brick-animation {
+                    @if $i % 2 == 0 {
+                        $_color: desaturate(darken($color, 20), 10)
+                    } @else {
+                        $_color: desaturate(darken($color, 10), 20);
+                    }
+                    background-color: $_color;
+                    &:hover {
+                        background-color: darken($_color, 5);
+                    }
+                }
+                $k: $k + 1;
+            }
+        }
+
+        &.expanded,
+        &.expanded .brick-animation {
+            width: $masonry-brick-size * $masonry-expanded-brick-width + ($masonry-expanded-brick-width - 1) * $masonry-gutter-size;
+            height: $masonry-brick-size * $masonry-expanded-brick-height + ($masonry-expanded-brick-height - 1) * $masonry-gutter-size;
+        }
+
+        .brick-info {
+            display: none;
+        }
+        &.expanded .brick-info {
+            display: block;
+        }
+    }
+}
