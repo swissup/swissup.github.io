@@ -26,6 +26,8 @@ category: Firecheckout
     > If you've changed original javascript for section numbers, you should
     > remove your modification to prevent possible issues with css counters
 
+ - CheckoutSuccess updated to [2.0.3](/m1/extensions/checkout-success/changelog/#version-203)
+
 **Fixes and Improvements**
 
  -  Fixed cart weight calculation for configurable products
