@@ -8,7 +8,7 @@ category: Firecheckout
 
 # Magestore Giftvoucher
 
- 1. Open `skin/frontend/base/default/js/magestore/giftvoucher.js`
+ 1. Open `js/magestore/giftvoucher/giftvoucher.js`
     and find the following code:
 
     ```javascript
