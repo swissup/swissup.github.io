@@ -111,11 +111,26 @@ block, it can be looking like this:
 ```xml
 <block type="catalog/product_view_tabs" name="product.info.tabs" as="info_tabs" template="catalog/product/view/tabs.phtml" >
     <!-- Product description -->
-    <action method="addTab" translate="title" module="catalog"><alias>description</alias><title>Product Description</title><block>catalog/product_view_description</block><template>catalog/product/view/description.phtml</template></action>
+    <action method="addTab" translate="title" module="catalog">
+        <alias>description</alias>
+        <title>Product Description</title>
+        <block>catalog/product_view_description</block>
+        <template>catalog/product/view/description.phtml</template>
+    </action>
     <!-- Product attributes -->
-    <action method="addTab" translate="title" module="catalog"><alias>additional</alias><title>Additional Information</title><block>catalog/product_view_attributes</block><template>catalog/product/view/attributes.phtml</template></action>
+    <action method="addTab" translate="title" module="catalog">
+        <alias>additional</alias>
+        <title>Additional Information</title>
+        <block>catalog/product_view_attributes</block>
+        <template>catalog/product/view/attributes.phtml</template>
+    </action>
     <!-- Reviews-->
-    <action method="addTab" translate="title" module="review"><alias>tabreviews</alias><title>Reviews</title><block>advancedreviews/product_reviews</block><template>advancedreviews/product/reviews.phtml</template></action>
+    <action method="addTab" translate="title" module="review">
+        <alias>tabreviews</alias>
+        <title>Reviews</title>
+        <block>advancedreviews/product_reviews</block>
+        <template>advancedreviews/product/reviews.phtml</template>
+    </action>
 </block> <!-- end: tabs -->
 ```
 
