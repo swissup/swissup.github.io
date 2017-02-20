@@ -23,10 +23,12 @@
             </h1>
           {% endif %}
 
-          {% include sidebar.html %}
-          <article>
-            {{ content }}
-          </article>
+          <section class="main-section">
+            {% include sidebar.html %}
+            <article>
+              {{ content }}
+            </article>
+          </section>
         </main>
 
         {% include footer.html %}

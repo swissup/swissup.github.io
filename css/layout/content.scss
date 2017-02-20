@@ -30,25 +30,19 @@
     }
 }
 
-main {
+main > h1 {
+    margin-top: 0;
+}
+.main-section {
     padding: 10px 0 0;
     display: flex;
-    flex-flow: row wrap;
-
-    > * {
-        flex: 0 0 100%;
-    }
-    > h1 {
-        margin-top: 0;
-    }
+    flex-direction: row;
 
     article {
         flex: 1;
-        flex-flow: row nowrap;
     }
     .sidebar {
         flex: 0 0 230px;
-        flex-flow: row nowrap;
         margin-right: 20px;
 
         > h5:first-child {
