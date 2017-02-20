@@ -1,7 +1,8 @@
 document.addEventListener("readystatechange", function () {
   if (this.readyState === "complete") {
     if (!$(document.body).hasClass('no-anchors')) {
-      anchors.add();
+      anchors.add('article h2, article h3, article h4, article h5, article h6');
+      anchors.remove('.no-anchor');
     }
   }
 });
