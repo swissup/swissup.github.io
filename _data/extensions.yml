@@ -5,6 +5,13 @@ abandonedcart:
     m1: /m1/extensions/abandonedcart/
     m2:
 
+amp:
+  title: Accelerated Mobile Pages
+  short_description:
+  urls:
+    m1: /m1/extensions/amp/
+    m2:
+
 addressautocomplete:
   title: Address Autocomplete
   short_description:
@@ -46,13 +53,6 @@ ajaxsearch:
   urls:
     m1: /m1/extensions/ajaxsearch/
     m2: /m2/extensions/ajaxsearch/
-
-amp:
-  title: Accelerated Mobile Pages
-  short_description:
-  urls:
-    m1: /m1/extensions/amp/
-    m2:
 
 akismet:
   title: Akismet
