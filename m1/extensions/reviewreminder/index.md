@@ -156,8 +156,8 @@ In this tab you can preview the reminder email.
 
 ##### Change Email Template
 
-You can modify reminder email as any other Magento email template under `Sys
- > Transactional Emails`. Press `Add New Template` button, select `Review Reminder`
+You can modify reminder email as any other Magento email template under `System > Transactional Emails`.
+Press `Add New Template` button, select `Review Reminder`
 in `Template` field and your locale, then `Load Template` button. Template will
 be loaded and you can change template styles and markup in `Template Content` field.
 After modification please save the template and select it in `System > Configuration >
