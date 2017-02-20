@@ -3,9 +3,9 @@ layout: default
 title: Track clicks in html banner
 description: How to track user clicks in HTML banner
 category: Easy Banners
+permalink: /m1/extensions/easybanners/use-cases/track-clicks-in-html-banner/
+sidebar: sidebar.md
 ---
-
-# Track clicks in html banner
 
 In order to track clicks in html banner, use `{% raw %}{{tm_banner_url}}{% endraw %}`
 variable for all links:

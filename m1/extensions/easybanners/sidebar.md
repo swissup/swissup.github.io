@@ -1,0 +1,15 @@
+##### Jump To
+
+ -  [Homepage](/m1/extensions/easybanners/)
+ -  [Installation](/m1/extensions/easybanners/installation/)
+ -  [Changelog](/m1/extensions/easybanners/changelog/)
+ -  [Backend interfaces](/m1/extensions/easybanners/backend/)
+    + [Manage banners](/m1/extensions/easybanners/backend/manage-banners/)
+    + [Manage placeholders](/m1/extensions/easybanners/backend/manage-placeholders/)
+    + [Using widgets](/m1/extensions/easybanners/backend/widgets/)
+ -  [Use cases](/m1/extensions/easybanners/use-cases/)
+    + [Render banner and placeholder programmatically](/m1/extensions/easybanners/use-cases/use-banner-and-placeholder-programmatically/)
+    + [Place banner on specific page](/m1/extensions/easybanners/use-cases/place-banner-on-specific-page/)
+    + [Create Lightbox and Awesomebar banners](/m1/extensions/easybanners/use-cases/lightbox-and-awesomebar-banners/)
+    + [Track clicks in HTML banner](/m1/extensions/easybanners/use-cases/track-clicks-in-html-banner/)
+    + [Create additional placeholder at product page (Free Shipping Banner)](/m1/extensions/easybanners/use-cases/create-additional-placeholder-at-product-page/)

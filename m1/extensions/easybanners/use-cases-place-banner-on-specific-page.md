@@ -3,9 +3,9 @@ layout: default
 title: Place banner on specific page
 description: How to place banner on homepage, checkout, product page, category page
 category: Easy Banners
+permalink: /m1/extensions/easybanners/use-cases/place-banner-on-specific-page/
+sidebar: sidebar.md
 ---
-
-# Place banner on specific page
 
 There are `Page` and `Page URL` conditions available to show banner at specific
 pages:

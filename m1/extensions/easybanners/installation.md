@@ -1,13 +1,12 @@
 ---
 layout: default
-title: Easy Banners Installation
+title: Easy Banners installation
 description: magento banner module installation
-keywords: " magento banner, magento banner slider, adding magento banners,
-magento banner extension "
 category: Easy Banners
+sidebar: sidebar.md
 ---
 
-# Installation
+**Proceed the following steps to install EasyBanners extension at your store:**
 
  1. Navigate to _System > Tools > Compilation_ and disable compilation mode.
  2. Go to your magento store root directory via FTP or CPanel.

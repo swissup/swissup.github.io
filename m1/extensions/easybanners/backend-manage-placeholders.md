@@ -3,9 +3,9 @@ layout: default
 title: Manage Placeholders
 description: Easybanner placeholder management interfaces
 category: Easy Banners
+permalink: /m1/extensions/easybanners/backend/manage-placeholders/
+sidebar: sidebar.md
 ---
-
-# Manage placeholders
 
 ### Grid
 

@@ -1,11 +1,10 @@
 ---
 layout: default
-title: Easy Banners Changelog
+title: Easy Banners changelog
 description: Easy Banners changelog
 category: Easy Banners
+sidebar: sidebar.md
 ---
-
-# Changelog
 
 ### Version 1.6.0
 

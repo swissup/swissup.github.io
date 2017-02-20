@@ -6,18 +6,30 @@
       <div class="page mdl-shadow--2dp mdl-color--white">
         {% include header.html class="mdl-color--white mdl-color-text--grey-700 mdl-layout__header--transparent" %}
 
-        {% if page.sidebar %}
-          <div class="mdl-layout__drawer sidebar">
-            {% capture sidebar %}{% include_relative {{page.sidebar}} %}{% endcapture %}
-            {{ sidebar | markdownify }}
-          </div>
-        {% endif %}
-
-        <main class="mdl-layout__content mdl-color-text--grey-800">
+        <main class="mdl-layout__content-off mdl-color-text--grey-800">
           {% include breadcrumbs.html %}
-          {{ content }}
-          {% include footer.html %}
+
+          {% comment %}
+            if page.sidebar is a temporary solution to prevent duplicated page titles
+          {% endcomment %}
+
+          {% if page.sidebar %}
+            <h1>
+              {% if page.h1 %}
+                {{page.h1}}
+              {% else %}
+                {{page.title}}
+              {% endif %}
+            </h1>
+          {% endif %}
+
+          {% include sidebar.html %}
+          <article>
+            {{ content }}
+          </article>
         </main>
+
+        {% include footer.html %}
       </div>
     <!-- </div> -->
 

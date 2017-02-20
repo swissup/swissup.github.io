@@ -2,9 +2,9 @@
 layout: default
 title: Use banner and placeholder programmatically
 category: Easy Banners
+permalink: /m1/extensions/easybanners/use-cases/use-banner-and-placeholder-programmatically/
+sidebar: sidebar.md
 ---
-
-# Use banner and placeholder programmatically
 
 ### Contents
 {:.no_toc}

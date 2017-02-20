@@ -3,9 +3,9 @@ layout: default
 title: Manage Banners
 description: Easybanner banner management interfaces
 category: Easy Banners
+permalink: /m1/extensions/easybanners/backend/manage-banners/
+sidebar: sidebar.md
 ---
-
-# Manage banners
 
 ### Contents
 {:.no_toc}

@@ -3,9 +3,9 @@ layout: default
 title: Lightbox and Awesomebar Banners
 description: How to create lightbox and awesomebar banners
 category: Easy Banners
+permalink: /m1/extensions/easybanners/use-cases/lightbox-and-awesomebar-banners/
+sidebar: sidebar.md
 ---
-
-# Lightbox and Awesomebar Banners
 
 Our module allows you to show an important information for your customers as a
 banner in Lightbox window or Awesomebar panel:

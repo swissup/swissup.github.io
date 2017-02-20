@@ -5,9 +5,8 @@ description: Easy Banners helps to create and organize promo blocks at your stor
 keywords: >
     magento banner, magento promo, easybanners
 category: Easy Banners
+sidebar: sidebar.md
 ---
-
-# Easy Banners
 
 {% include gallery.html images=site.data.gallery.m1.easy-banners.index class="phone-up-2 tablet-up-3 photoswipe scroll" %}
 
@@ -28,16 +27,3 @@ addittional placeholders.)
 **Placeholder** - is custom container for banners, that can be added dynamically
 to any magento block. The purpose of placeholder - is to show and rotate banners
 on each page reload.
-
- -  [Installation](installation/)
- -  [Changelog](changelog/)
- -  [Backend interfaces](backend/)
-    + [Manage banners](backend/manage-banners/)
-    + [Manage placeholders](backend/manage-placeholders/)
-    + [Using widgets](backend/widgets/)
- -  [Use cases](use-cases/)
-    + [Render banner and placeholder programmatically](use-cases/use-banner-and-placeholder-programmatically/)
-    + [Place banner on specific page](use-cases/place-banner-on-specific-page/)
-    + [Create Lightbox and Awesomebar banners](use-cases/lightbox-and-awesomebar-banners/)
-    + [Track clicks in HTML banner](use-cases/track-clicks-in-html-banner/)
-    + [Create additional placeholder at product page (Free Shipping Banner)](use-cases/create-additional-placeholder-at-product-page/)

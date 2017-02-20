@@ -1,10 +1,11 @@
 ---
 layout: default
+h1: Widgets
 title: Easy Banners Widgets
 category: Easy Banners
+permalink: /m1/extensions/easybanners/backend/widgets/
+sidebar: sidebar.md
 ---
-
-# Widgets
 
 Usually you don't need to use widgets, because Easy Banners automatically adds
 placeholders into referenced blocks. Hovewer widget gives you additional ability
