@@ -7,6 +7,11 @@ category: Firecheckout
 
 # Changelog
 
+### Version 3.11.1
+
+ -  Fixed error during configuration save: TM_Core updated to add missing
+    `tmcore/adminhtml_system_config_backend_serialized_array`
+
 ### Version 3.11.0
 
 **Major changes**
