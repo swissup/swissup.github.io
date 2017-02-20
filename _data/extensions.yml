@@ -1,13 +1,15 @@
 abandonedcart:
   title: Abandoned Cart
-  short_description:
+  short_description: Easily recover abandoned carts
+  size: 2x1
   urls:
     m1: /m1/extensions/abandonedcart/
     m2:
 
 amp:
   title: Accelerated Mobile Pages
-  short_description:
+  short_description: Mobile optimized store based on AMP project
+  size: 2x2
   urls:
     m1: /m1/extensions/amp/
     m2:
@@ -71,7 +73,7 @@ askit:
 attributepages:
   title: Attribute based pages
   short_description: Enhance your store with beautiful brand pages.
-  size: 2x2
+  size: 2x1
   urls:
     m1: /m1/extensions/attributepages/
     m2: /m2/extensions/attributepages/
@@ -86,7 +88,7 @@ botprotection:
 cache:
   title: Cache
   short_description: Blazing fast store is the key to e-commerce success.
-  size: 1x1
+  size: 1x2
   urls:
     m1: /m1/extensions/cache/
     m2:
@@ -166,7 +168,8 @@ dailydeals:
 
 easybanners:
   title: EasyBanners
-  short_description:
+  short_description: Custom content blocks with flexible conditions and usage statistics
+  size: 2x1
   urls:
     m1: /m1/extensions/easybanners/
     m2: /m2/extensions/easybanners/
@@ -237,7 +240,8 @@ facebooklikebutton:
 
 firecheckout:
   title: Firecheckout
-  short_description:
+  short_description: One-step checkout solution
+  size: 2x2
   urls:
     m1: /m1/extensions/firecheckout/
     m2: /m2/extensions/firecheckout/
@@ -385,6 +389,7 @@ richsnippets:
 slick-carousel:
   title: Slick Carousel
   short_description: The last carousel you'll ever need
+  size: 1x1
   urls:
     m1: /m1/extensions/slick-carousel/
     m2: /m2/extensions/slick-carousel/

@@ -20,16 +20,22 @@ extensions:
   title: Extensions
   url: /extensions/
   items:
+    - abandonedcart
     - attributepages
+    - amp
     - cache
     - crawler
+    - checkoutsuccess
     - countdowntimer
     - dailydeals
+    - easybanners
     - easycatalogimages
+    - firecheckout
     - highlight
     - navigationpro
     - reviewreminder
     - testimonials
+    - slick-carousel
     - store-maintenance
 
 themes:
