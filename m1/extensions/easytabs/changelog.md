@@ -4,9 +4,8 @@ title: Easy Tabs Changelog
 description: Easy Tabs Changelog
 keywords: Easy Tabs updates
 category: Easy Tabs
+sidebar: sidebar.md
 ---
-
-# Changelog
 
 ### Version 3.0.1
 

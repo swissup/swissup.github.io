@@ -4,9 +4,8 @@ title: Configuration
 description: magento easytabs module system config options and admin interface
 keywords: magento easytabs extension, tabs, backend, easytabs system config
 category: Easy Tabs
+sidebar: sidebar.md
 ---
-
-# Configuration
 
  1. [General configurable options](#general-configurable-options)
  2. [Admin interfaces](#admin-interfaces)

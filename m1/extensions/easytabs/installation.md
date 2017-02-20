@@ -5,9 +5,8 @@ description: magento product tabs module installation
 keywords: " magento product tabs, magento product tabs extension free, add tabs
 magento product page "
 category: Easy Tabs
+sidebar: sidebar.md
 ---
-
-# Easy Tabs installation instructions
 
 Please follow next steps to complete the installation:
 

@@ -5,22 +5,11 @@ description: magento product tabs module installation
 keywords: " magento product tabs, magento product tabs extension free, add tabs
 magento product page "
 category: Easy Tabs
+sidebar: sidebar.md
 ---
-
-# Easy Tabs
 
 Easy Tabs extension allows you to add multiple dynamic tabs based on content of
 cms blocks, products attributes or html content.
-
-### Contents
-
- 1. [Installation](installation/)
- 2. [Configuration](backend/)
-     -  [General configurable options](backend/#general-configurable-options)
-     -  [Admin interfaces](backend/#admin-interfaces)
-     -  [Widget Easy Tabs](backend/#widget-easy-tabs)
- 3. [Use Cases](use-cases/)
- 4. [Changelog](changelog/)
 
 ## Features
 
