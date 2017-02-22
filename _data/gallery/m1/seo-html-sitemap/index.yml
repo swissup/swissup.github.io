@@ -1,0 +1,20 @@
+- href: /images/m1/seo-html-sitemap/frontend/rwd-sitemap.png
+  src: /images/m1/seo-html-sitemap/frontend/small/rwd-sitemap.png
+  title: Full HTML Sitemap on RWD Theme
+  w: 1250
+  h: 1870
+- href: /images/m1/seo-html-sitemap/frontend/rwd-sitemap-responsive.png
+  src: /images/m1/seo-html-sitemap/frontend/small/rwd-sitemap-responsive.png
+  title: HTML Sitemap on RWD Theme on Mobile Devices
+  w: 320
+  h: 2187
+- href: /images/m1/seo-html-sitemap/frontend/argento-sitemap-grouped.png
+  src: /images/m1/seo-html-sitemap/frontend/small/argento-sitemap-grouped.png
+  title: HTML Sitemap on Argento Theme with Grouped By First Letter enabled
+  w: 980
+  h: 2087
+- href: /images/m1/seo-html-sitemap/frontend/argento-sitemap-max-depth.png
+  src: /images/m1/seo-html-sitemap/frontend/small/argento-sitemap-max-depth.png
+  title: HTML Sitemap on Argento Theme with Categories Max Depth set to 1 and Sort By set to Position
+  w: 980
+  h: 968
