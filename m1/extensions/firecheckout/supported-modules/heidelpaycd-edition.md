@@ -8,7 +8,7 @@ category: Firecheckout
 
 # HeidelpayCD Edition
 
-> Gene_Braintree version — 16.6.22
+> HeidelpayCD_Edition version — 16.6.22
 
  1. Open `app/design/frontend/base/default/layout/hcd.xml` and apply the
     following patch:
