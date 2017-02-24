@@ -42,11 +42,7 @@ category: Firecheckout
     @@ -12,8 +12,19 @@
         initialize: function() {
             this.once = 1;
-
-    -       document.observe('dom:loaded', this.register.bind(this));
-    +       if (typeof checkout !== 'undefined') {
-    +           document.observe('dom:loaded', this.register.bind(this));
-    +       }
+            document.observe('dom:loaded', this.register.bind(this));
             Ajax.Responders.register(this);
     +
     +       var self = this;
