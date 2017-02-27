@@ -14,6 +14,7 @@ category: Absolute Theme
 ### Contents
 
 - [Installation](installation/)
+- [Changelog](changelog/)
 - [Demo](http://freedemo.swissuplabs.com/)
 
 
