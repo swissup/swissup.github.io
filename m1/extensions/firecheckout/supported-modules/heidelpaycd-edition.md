@@ -70,4 +70,10 @@ category: Firecheckout
 
     ```
 
-Save the file and clear Magento cache.
+    Save the file.
+
+ 3. Navigate to _System > Configuration > TM Checkout > Firecheckout > Ajax Save and Reload Rules_
+    1. Add `Firstname` and `Lastname` options to the "Billing Address" field
+    2. Add `Billing Address` option to the "Payment methods depends on" field
+
+ 4. Clear Magento's cache.
