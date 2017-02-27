@@ -1,10 +1,7 @@
 ---
 layout: default
 title: Absolute Theme Installation
-description: Absolute Theme documentation
-keywords: >
-    magento 2 responsive template, magento 2 themes, magento 2 template,
-    magento themes
+description: How to install Absolute Theme on Magento 2 store
 category: Absolute Theme
 ---
 
@@ -49,17 +46,14 @@ bin/magento module:enable\
     Swissup_Core\
     Swissup_FontAwesome\
     Swissup_SlickCarousel\
-    Swissup_ThemeEditor
-
-# clear cache
-bin/magento cache:flush
+    Swissup_ThemeEditor\
+    Swissup_ThemeEditorSwissupAbsolute
 
 # run magento upgrade scripts
 bin/magento setup:upgrade
 
 # regenerate static content
-rm -rf pub/static/_requirejs
-rm -rf var/view_preprocessed
+rm -rf pub/static/_requirejs var/view_preprocessed
 bin/magento setup:static-content:deploy
 
 # if you are using di:compilation, you need to run it again:
