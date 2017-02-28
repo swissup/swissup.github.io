@@ -22,23 +22,24 @@ modify frontend menus.
 
 ### Contents
 
- 1. [Basic settings](basic-settings/)
+ 1. [Installation](installation/)
+ 2. [Basic settings](basic-settings/)
     - [Menu styles](basic-settings/#menu-styles)
     - [Menu structure](basic-settings/#menu-structure)
- 2. [Siblings](siblings/)
+ 3. [Siblings](siblings/)
     - [Backend Interface](siblings/#backend)
     - Use Cases:
       - [Create menu item "Home"](siblings/item-home/)
       - ["Shop By" sibling with subcategories dropdown content](siblings/shop-by-with-dropdown-content/)
       - ["Brands" sibling with dropdown content](siblings/brands-with-dropdown-content/)
       - ["Browse By" sibling with attributepages list](siblings/browse-by-with-attributepages-list/)
- 3. Dropdown top and bottom content
- 4. [Dropdown columns](dropdown-columns/)
+ 4. Dropdown top and bottom content
+ 5. [Dropdown columns](dropdown-columns/)
     - [Backend Interface](dropdown-columns/#backend)
     - Use Cases:
       - [Replace standard subcategories dropdown with Easy Catalog Images widget](dropdown-columns/easycatalogimages-widget/)
- 5. Customization
+ 6. Customization
     - [Open accordion on category click](open-accordion-on-category-click/)
     - [Show content for specific devices only](show-content-for-specific-devices-only/)
- 6. [Use cases](use-cases/)
+ 7. [Use cases](use-cases/)
     - [Create Amazon-style menu](use-cases/amazon-menu/)
