@@ -61,10 +61,10 @@ Next steps to follow:
 1. Go `System > Transactional Emails` and click **Add New Template**. Look at `Load Default template` fieldset. In the `Template` drop down please select a **New Order** value. Specify your Locale. Press **Load Template** button.
 2. You can see the whole code of template content. In order to add block with cross-selling products, please place the following code anywhere you want:
 
-
-{{block type='soldtogether/email_customer' area='frontend' order=$order}}
-{{block type='soldtogether/email_order' area='frontend' order=$order}}
-
+```
+{% raw %}{{block type='soldtogether/email_customer' area='frontend' order=$order}}
+{{block type='soldtogether/email_order' area='frontend' order=$order}}{% endraw %}
+```
 
 3. Specify the name for the template and save.
 
