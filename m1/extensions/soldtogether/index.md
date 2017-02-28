@@ -10,7 +10,7 @@ category: Sold Together
 
 # Sold Together
 
-The module is based on cross-selling strategy. Sold Together extension enables the display of two cross-sell blocks. Frequently Bought Together shows products that were bought in the same order. Who Bought Also Bought block is based on implemented orders history. It allows you to display the products which are already trusted by other users. 
+The module is based on cross-selling strategy. Sold Together extension enables the display of two cross-sell blocks. **Frequently Bought Together** shows products that were bought in the same order. **Who Bought Also Bought** block is based on implemented orders history. It allows you to display the products which are already trusted by other users. 
 
 ![General settings](/images/m1/extensions/soldtogether/frontend.png)
 
