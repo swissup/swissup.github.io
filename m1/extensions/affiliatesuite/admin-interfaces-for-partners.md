@@ -32,7 +32,7 @@ Affiliate partner can modify his referral account information at `My Account / A
 
 ### Change Campaign
 
-In `My Account / Campaigns` interface the affiliate partner can choose the one of active campaign and get reward according to selected campaign settings.
+In `My Account / Campaigns` interface the affiliate partner can choose the one of active campaigns and get reward according to selected campaign settings.
 
 ![Affiliate partners](/images/m1/extensions/affiliate/campaigns.png)
 

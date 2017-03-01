@@ -21,7 +21,7 @@ category: Affiliate Suite
 
 ### How to create and manage Affiliate campaign
 
-Add new campaign by navigating to `Templates Master / Affiliate Suite / Campaigns` and click **Add New Campaign**.
+Add new campaign by navigating to `Templates Master / Affiliate Suite / Campaigns`. Click **Add New Campaign**.
 
 You can see 2 tabs: `Campaign’s properties` and `Detailed commission conditions`.
 
@@ -36,7 +36,7 @@ Please specify a partner commission amount here. Fill in the fields. In **Click 
 
 ### How to create banners?
 
-Your partners can use your affiliate banner on their website, blog or in social media. In order to create new banner or to edit an existing one, you can go `Templates Master / Affiliate Suite / Banners`.
+Your partners can use your affiliate banner on their website, blog or in social media. In order to create new banner or to edit the existing one, you can go `Templates Master / Affiliate Suite / Banners`.
 
 ![Affiliate program management](/images/m1/extensions/affiliate/banner.png)
 

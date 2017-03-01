@@ -21,7 +21,7 @@ category: Affiliate Suite
 
 -   `Enable` - select **Yes** to enable Affiliate Suite extension.
 -   `Affiliate link in header` - if you select Yes, visitors will see the **Affiliate** link in the top menu.
--   `Cookie Period (Days)` - specify the time for storing referee’s information in visitors cookies. Time is measured from referre clicked the link. Default value is 90 days.
+-   `Cookie Period (Days)` - specify the time for storing referee’s information in visitor cookies. Time is measured since the referral clicks the link. Default value is 90 days.
 -   `Affiliate Url Param Name` - customizable URL prefix used in referral link, followed by referral’s unique code.
 
 ### Affiliate account settings
