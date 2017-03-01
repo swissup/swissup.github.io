@@ -10,16 +10,16 @@ category: Sold Together
 
 # Use cases
 
-- [Using code for changing location of Sold Together block with layout XML file.](#using-code-for-changing-location-of-sold-together-block-with-layout-xml-file.)
-- [Using code in phtml file to display Sold Together block.](#using-code-in-phtml-file-to-display-sold-together-block.)
-- [Placing blocks with related products in the shopping cart Ajax Pro 3.0.](#placing-blocks-with-related-products-in-the-shopping-cart-ajax-pro-3.0.)
-- [Adding blocks to the email after the order has been submitted.](#adding-blocks-to-the-email-after-the-order-has-been-submitted.)
+ - [Using code for changing location of Sold Together block with layout XML file.](#using-code-for-changing-location-of-sold-together-block-with-layout-xml-file.)
+ - [Using code in phtml file to display Sold Together block.](#using-code-in-phtml-file-to-display-sold-together-block.)
+ - [Placing blocks with related products in the shopping cart Ajax Pro 3.0.](#placing-blocks-with-related-products-in-the-shopping-cart-ajax-pro-3.0.)
+ - [Adding blocks to the email after the order has been submitted.](#adding-blocks-to-the-email-after-the-order-has-been-submitted.)
 
 ### Using code for changing location of Sold Together block with layout XML file. 
 
 Please connect to FTP server and find Magento files.Then follow the `App>design>frontend>base>default>layout>tm>sold together.xml`. Open file to be edited. Search <catalog_product_view>branch and make changes in reference name.
 
-```
+```xml
 <catalog_product_view>
     <reference name="content">
         <block type="soldtogether/order" name="product.info.soldtogetherorder" before="-">
@@ -36,7 +36,7 @@ Please connect to FTP server and find Magento files.Then follow the `App>design>
 
 Please apply the following code in phtml file on the product page.
 
-```
+```php
 <?php echo $this->getLayout()->createBlock('soldtogether/order')->setTemplate('tm/soldtogether/order.phtml')->toHtml(); ?>
 ```
 
@@ -46,9 +46,9 @@ Go to `Admin > System > Configuration > AjaxPro` and follow next steps:
 
 ![General settings](/images/m1/extensions/soldtogether/use-case.png)
 
--   `Enable` - select **Yes**.
--   `Enable message window` - select **Yes**.
--   `Add to cart dialog window type` select **Suggest page content** from drop down list.
+ -  `Enable` - select **Yes**.
+ -  `Enable message window` - select **Yes**.
+ -  `Add to cart dialog window type` select **Suggest page content** from drop down list.
 
 ### Adding blocks to the email after the order has been submitted.
 
@@ -58,17 +58,17 @@ Before actions mentioned below, please check the **soldtogether/email_customer**
 
 Next steps to follow:
 
-1. Go `System > Transactional Emails` and click **Add New Template**. Look at `Load Default template` fieldset. In the `Template` drop down please select a **New Order** value. Specify your Locale. Press **Load Template** button.
-2. You can see the whole code of template content. In order to add block with cross-selling products, please place the following code anywhere you want:
+ 1. Go `System > Transactional Emails` and click **Add New Template**. Look at `Load Default template` fieldset. In the `Template` drop down please select a **New Order** value. Specify your Locale. Press **Load Template** button.
+ 2. You can see the whole code of template content. In order to add block with cross-selling products, please place the following code anywhere you want:
 
-```
-{% raw %}{{block type='soldtogether/email_customer' area='frontend' order=$order}}
-{{block type='soldtogether/email_order' area='frontend' order=$order}}{% endraw %}
-```
+    ```html
+    {% raw %}{{block type='soldtogether/email_customer' area='frontend' order=$order}}
+    {{block type='soldtogether/email_order' area='frontend' order=$order}}{% endraw %}
+    ```
 
-3. Specify the name for the template and save.
+ 3. Specify the name for the template and save.
 
-4. Go `System > Configuration > Sales Emails` and look at **Order** fieldset. In `New Order confirmation template` drop down please select the template you've created before and save.
+ 4. Go `System > Configuration > Sales Emails` and look at **Order** fieldset. In `New Order confirmation template` drop down please select the template you've created before and save.
 
 **Note**: when you create a confirmation email for quest, you have to select a `New Order For Guest value` in step **#1**. Within the **step #4** please make changes in a `New Order Confirmation Template For Guest` field.
 
