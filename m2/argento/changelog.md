@@ -7,6 +7,47 @@ category: Argento
 
 # Argento Changelog
 
+### Version 0.9.5 [Draft]
+
+**Screenshots**
+
+{% include gallery.html images=site.data.gallery.m2.argento.changelog.v095 class="phone-up-1 tablet-up-3 photoswipe scroll" %}
+
+> [Upgrade Instructions](../upgrade-instructions/#version-094---095)
+
+ -  ArgentoPure2 theme added. [View Docs](../pure2/)
+ -  Sticky header added to the ArgentoFlat theme
+ -  Improved reviews styles on small laptops and tablets
+ -  Improved accordion styles
+ -  Removed "Add to cart" button from products listing on small devices
+ -  Vertical tabs added for laptops and tablets because horizontal tabs does
+    not fit the screen width
+ -  Bootstrap's `col-md-*` breakpoint changed to 768px
+ -  Colorful socials icons added (`.colorize-fa`, `.colorize-fa-hover`)
+ -  Many small css improvements
+
+**Fixes**
+
+ -  Fixed FontAwesome icons vertical alignment
+ -  Fixed incorrect position of submenu dropdown
+ -  Fixed invalid dependency in `jquery.visible` plugin which cause js error in
+    developer console
+
+**Developer improvements**
+
+ -  ArgentoSticky script added. [View Docs](../scripts/argento-sticky/)
+ -  New mixins and classes:
+
+    Name | Description
+    -----|------------
+    `.argento-button-invert-colors()` | Swap button's background and border colors
+    `.a-center-block` | Center block element
+    `.a-center` | Center with text alignment
+    `.pull-left` | Float element to the left
+    `.pull-right` | Float element to the right
+    `.colorize-fa` | Colorize social icons
+    `.colorize-fa-hoven` | Colorize social icons in hover state
+
 ### Version 0.9.4
 
 > [Upgrade Instructions](../upgrade-instructions/#version-093---094)
