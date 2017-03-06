@@ -89,6 +89,9 @@ m2:
     - title: Flat
       url: /m2/argento/flat/
 
+    - title: Pure2
+      url: /m2/argento/pure2/
+
   extensions:
     - ajaxsearch
     - attributepages
