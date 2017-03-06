@@ -2,11 +2,13 @@
 layout: default
 title: Argento sticky script
 description: How to use ArgentoSticky script on custom static content
-keywords: argento tabs
+keywords: sticky header, sticky sidebar
 category: Argento
 ---
 
 # Argento sticky
+
+> Available since Argento 0.9.5
 
 ArgentoSticky - is a script that allows you easily transform any custom content
 into sticky element, that will be sticked to the top of the screen, when scrolling

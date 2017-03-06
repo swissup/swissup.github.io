@@ -1,0 +1,27 @@
+- href: /images/m2/argento/changelog/095/pure2-home.png
+  src: /images/m2/argento/changelog/095/pure2-home.png
+  title: New ArgentoPure2 theme
+  w: 750
+  h: 520
+- href: /images/m2/argento/changelog/095/vertical-tabs.png
+  src: /images/m2/argento/changelog/095/vertical-tabs.png
+  title: >
+    Vertical tabs for small laptops and tablets allows to place as much
+    tabs as you need.
+  w: 733
+  h: 505
+- href: /images/m2/argento/changelog/095/accordion.png
+  src: /images/m2/argento/changelog/095/accordion.png
+  title: Improved accordion styles
+  w: 680
+  h: 470
+- href: /images/m2/argento/changelog/095/social-icons.png
+  src: /images/m2/argento/changelog/095/social-icons.png
+  title: Colorful social icons. (.colorize-fa, .colorize-fa-hover classes)
+  w: 650
+  h: 400
+- href: /images/m2/argento/changelog/095/font-awesome.png
+  src: /images/m2/argento/changelog/095/font-awesome.png
+  title: Fixed invalid vertical alignment for the FontAwesome Icons
+  w: 700
+  h: 267
