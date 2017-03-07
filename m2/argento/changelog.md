@@ -40,7 +40,7 @@ category: Argento
 
     Name | Description
     -----|------------
-    `.argento-button-invert-colors()` | Swap button's background and border colors
+    `.argento-button-invert-state()` | Swap button's hovered and normal state (background and border are affected only)
     `.a-center-block` | Center block element
     `.a-center` | Center with text alignment
     `.pull-left` | Float element to the left
