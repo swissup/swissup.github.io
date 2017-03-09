@@ -12,6 +12,8 @@ category: Argento
 ### Contents
 
  1. [Invert button state](#invert-button-state)
+ 2. [Page container](#page-container)
+ 3. [Product listing](#product-listing)
 
 ### Invert button state
 
@@ -34,3 +36,29 @@ Usage example:
     }
 }
 ```
+
+### Page container
+
+Applies centering, max-width and spacing styles for the block.
+
+Usage example:
+
+```scss
+.jumbotron {
+    .argento-page-container(~"> .container");
+}
+```
+
+### Product listing
+
+Example:
+
+```scss
+.page-products .products-grid .product-item,
+.block.widget .products-grid .product-item {
+    .argento-listing-squama();
+}
+```
+
+See more examples about squama-listing in a
+[separate article](../change-product-listing-styles/).
