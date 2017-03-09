@@ -9,3 +9,4 @@ category: Argento
 
  -  [Argento Essence](/m2/argento/essence/page-structure/homepage/)
  -  [Argento Flat](/m2/argento/flat/page-structure/homepage/)
+ -  [Argento Pure2](/m2/argento/pure2/page-structure/homepage/)

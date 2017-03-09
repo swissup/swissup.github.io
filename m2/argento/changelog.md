@@ -23,7 +23,7 @@ category: Argento
  -  Vertical tabs added for laptops and tablets because horizontal tabs does
     not fit the screen width
  -  Bootstrap's `col-md-*` breakpoint changed to 768px
- -  Colorful socials icons added (`.colorize-fa`, `.colorize-fa-hover`)
+ -  Colorful socials icons [added](/m2/argento/customization/icons/#color-classes)
  -  Many small css improvements
 
 **Fixes**
@@ -37,16 +37,9 @@ category: Argento
 
  -  ArgentoSticky script added. [View Docs](../scripts/argento-sticky/)
  -  New mixins and classes:
-
-    Name | Description
-    -----|------------
-    `.argento-button-invert-state()` | Swap button's hovered and normal state (background and border are affected only)
-    `.a-center-block` | Center block element
-    `.a-center` | Center with text alignment
-    `.pull-left` | Float element to the left
-    `.pull-right` | Float element to the right
-    `.colorize-fa` | Colorize social icons
-    `.colorize-fa-hoven` | Colorize social icons in hover state
+    +  [Less mixins](/m2/argento/customization/less-mixins/)
+    +  [Text block alignment classes](/m2/argento/customization/css-helpers/#text-and-block-alignment-classes)
+    +  [Colorized social icons](/m2/argento/customization/icons/)
 
 ### Version 0.9.4
 

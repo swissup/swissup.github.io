@@ -11,6 +11,7 @@ category: Argento
     - **Theme editor**
       - [Argento Essence](/m2/argento/essence/theme-editor/)
       - [Argento Flat](/m2/argento/flat/theme-editor/)
+      - [Argento Pure2](/m2/argento/pure2/theme-editor/)
     - [Custom css file](custom-css/)
     - [Custom js file](custom-js/)
     - [Custom theme](custom-theme/)
@@ -19,6 +20,8 @@ category: Argento
     - [Css helpers](css-helpers/)
         - [Visible and hidden classes](css-helpers/#visible-and-hidden-classes)
         - [Responsive embed](css-helpers/#responsive-embed)
+        - [Text and block alignment classes](css-helpers/#text-and-block-alignment-classes)
+    - [Less mixins](less-mixins/)
  3. Theming
     - General
         - [Boxed, full-width and standard layout types](boxed-full-width-and-standard-layout-types/)
@@ -31,6 +34,8 @@ category: Argento
     - Product page
         - [Add additional blocks to the product page](add-additional-blocks-to-the-product-page/)
  4. Content Organizing
+    -   [FontAwesome icons](icons/)
     -   [Homepage content structure](homepage-content/)
         - [Argento Essence homepage](/m2/argento/essence/page-structure/homepage/)
         - [Argento Flat homepage](/m2/argento/flat/page-structure/homepage/)
+        - [Argento Pure2 homepage](/m2/argento/pure2/page-structure/homepage/)

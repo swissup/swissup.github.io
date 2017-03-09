@@ -14,6 +14,7 @@ category: Argento
 
  1. [Visible and hidden classes](#visible-and-hidden-classes)
  2. [Responsive embed](#responsive-embed)
+ 3. [Text and block alignment classes](#text-and-block-alignment-classes)
 
 ### Visible and hidden classes
 
@@ -53,3 +54,21 @@ Examples:
 
 Please read [official Bootstrap documentation](http://getbootstrap.com/components/#responsive-embed)
 for more information.
+
+### Text and block alignment classes
+
+Examples:
+
+```html
+<!-- Center text inside a div -->
+<div class="a-center"></div>
+
+<!-- Center div with a defined width -->
+<div class="a-center-block"></div>
+
+<!-- Float block to the left -->
+<div class="pull-left"></div>
+
+<!-- Float block to the right -->
+<div class="pull-right"></div>
+```
