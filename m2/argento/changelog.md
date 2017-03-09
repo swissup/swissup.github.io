@@ -15,7 +15,7 @@ category: Argento
 
 > [Upgrade Instructions](../upgrade-instructions/#version-094---095)
 
- -  ArgentoPure2 theme added. [View Docs](../pure2/)
+ -  **ArgentoPure2** theme added. [View Docs](../pure2/)
  -  Sticky header added to the ArgentoFlat theme
  -  Improved reviews styles on small laptops and tablets
  -  Improved accordion styles
@@ -40,6 +40,32 @@ category: Argento
     +  [Less mixins](/m2/argento/customization/less-mixins/)
     +  [Text block alignment classes](/m2/argento/customization/css-helpers/#text-and-block-alignment-classes)
     +  [Colorized social icons](/m2/argento/customization/icons/)
+
+**List of Included Themes**
+
+ -  **Argento Blank** — 0.9.5
+ -  **Argento Essence** — 0.9.5
+ -  **Argento Flat** — 0.9.5
+ -  **Argento Pure2** — 0.9.5
+
+**Extensions Updates**
+
+ -  **Ajaxsearch** — 1.2.2
+    -   Final_price replaced min_price in price template
+    -   Small css fixes
+ -  **Askit** — 1.2.4
+    -   Fixed toolbar amount position on mobile devices
+    -   Admin email notification was fixed
+    -   Adming functionality fixes
+ -  **Easybanner** — 1.0.7
+    -   Fixed Image insert using WYSIWYG editor
+ -  **Easyslide** — 1.1.1
+    -   Small css fixes
+ -  **FontAwesome** — 1.2.0
+    -   Icons updated to 4.7.0
+ -  **Prolabels** — 1.2.0
+    -   Fixed missing badgets after cron job
+    -   Small fixes
 
 ### Version 0.9.4
 
