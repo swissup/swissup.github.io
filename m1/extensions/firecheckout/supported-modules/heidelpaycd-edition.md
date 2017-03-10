@@ -48,15 +48,26 @@ category: Firecheckout
             Ajax.Responders.register(this);
     +       }
     +
-    +
     +       var self = this;
     +       document.observe('firecheckout:saveBefore', function(e) {
-    +           if (!e.memo.forceSave) {
-    +               e.memo.stopFurtherProcessing = true;
-    +               checkout.currentStep = 'payment';
-    +               self.register();
-    +               checkout.currentStep = 'review';
-    +               self.register();
+    +           if (e.memo.forceSave) {
+    +               return;
+    +           }
+    +
+    +           checkout.currentStep = 'payment';
+    +           self.register();
+    +
+    +           var actPayment = payment.getCurrentMethod();
+    +           if (actPayment == 'hcdcc' || actPayment == 'hcddc') {
+    +               var newreg = $$('input:checked[type=radio][name=\''+actPayment+'_use_again\']')[0].value;
+    +               if (Heidelpay.toggle.getInstance().getOnce() == 0) {
+    +                   var newreg = $$('input:checked[type=radio][name=\''+actPayment+'_use_again\']')[0].value;
+    +                   if (newreg == 1) {
+    +                       e.memo.stopFurtherProcessing = true;
+    +                       checkout.currentStep = 'review';
+    +                       self.register();
+    +                   }
+    +               }
     +           }
     +       });
         },
