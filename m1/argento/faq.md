@@ -23,7 +23,7 @@ category: Argento
 12. [Missing elements at homepage](#missing-elements-at-homepage)
 13. [Remove attributes that have no value](#remove-attributes-that-have-no-value)
 14. [How to show hidden part of product name at category listing](#how-to-show-hidden-part-of-product-name-at-category-listing)
-15. [How to make mobile menu expand on whole item area click](#howtomakemobilemenuexpandonwholeitemareaclick)
+15. [How to make mobile menu expand on whole item area click](#how-to-make-mobile-menu-expand-on-whole-item-area-click)
 
 ### How to disable short header and footer layout?
 
@@ -360,6 +360,7 @@ to restore missing elements:
 ![Mobile menu click](/images/m1/themes/argento/faq/mobile-menu-click.gif)
 
  -  Please, find file `skin/frontend/base/default/js/tm/navigationpro.js`
+ -  Override this file in custom theme using our [manual](../theme-customization/complex-changes/)
  -  Find line 149:
     
     ```js
