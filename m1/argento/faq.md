@@ -23,6 +23,7 @@ category: Argento
 12. [Missing elements at homepage](#missing-elements-at-homepage)
 13. [Remove attributes that have no value](#remove-attributes-that-have-no-value)
 14. [How to show hidden part of product name at category listing](#how-to-show-hidden-part-of-product-name-at-category-listing)
+15. [How to make mobile menu expand on whole item area click](#howtomakemobilemenuexpandonwholeitemareaclick)
 
 ### How to disable short header and footer layout?
 
@@ -353,4 +354,20 @@ to restore missing elements:
     }
     ```
  2. Save and enjoy
+
+### How to make mobile menu expand on whole item area click
+
+![Mobile menu click](/images/m1/themes/argento/faq/mobile-menu-click.gif)
+
+ -  Please, find file `skin/frontend/base/default/js/tm/navigationpro.js`
+ -  Find line 149:
     
+    ```js
+    toggler.observe('click', function(e) {
+    ```
+ -  Change it to:
+    
+    ```js
+    toggler.previous().observe('click', function(e) {
+    ```
+ -  Save. Enjoy.
