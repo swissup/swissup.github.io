@@ -1,0 +1,35 @@
+- title: Layout section
+  href: /images/m2/argento/pure2/theme-editor/config/layout.png
+  src: /images/m2/argento/pure2/theme-editor/config/small/layout.png
+  w: 800
+  h: 680
+- title: Header
+  href: /images/m2/argento/pure2/theme-editor/config/header.png
+  src: /images/m2/argento/pure2/theme-editor/config/small/header.png
+  w: 800
+  h: 940
+- title: Footer
+  href: /images/m2/argento/pure2/theme-editor/config/footer.png
+  src: /images/m2/argento/pure2/theme-editor/config/small/footer.png
+  w: 800
+  h: 844
+- title: Tabs
+  href: /images/m2/argento/pure2/theme-editor/config/tabs.png
+  src: /images/m2/argento/pure2/theme-editor/config/small/tabs.png
+  w: 800
+  h: 830
+- title: Buttons
+  href: /images/m2/argento/pure2/theme-editor/config/buttons.png
+  src: /images/m2/argento/pure2/theme-editor/config/small/buttons.png
+  w: 800
+  h: 740
+- title: Fonts
+  href: /images/m2/argento/pure2/theme-editor/config/fonts.png
+  src: /images/m2/argento/pure2/theme-editor/config/small/fonts.png
+  w: 800
+  h: 1000
+- title: Additional css
+  href: /images/m2/argento/pure2/theme-editor/config/additional-css.png
+  src: /images/m2/argento/pure2/theme-editor/config/small/additional-css.png
+  w: 800
+  h: 344
