@@ -28,6 +28,7 @@ category: Argento
 
 **Fixes**
 
+ -  Fixed horizontal scroll on checkout page
  -  Fixed FontAwesome icons vertical alignment
  -  Fixed incorrect position of submenu dropdown
  -  Fixed invalid dependency in `jquery.visible` plugin which cause js error in
