@@ -64,13 +64,14 @@ php bin/magento module:enable\
     Swissup_Testimonials\
     Swissup_ThemeEditor\
     Swissup_ThemeEditorArgentoEssence\
-    Swissup_ThemeEditorArgentoFlat
+    Swissup_ThemeEditorArgentoFlat\
+    Swissup_ThemeEditorArgentoPure2
 
 # run magento upgrade scripts
 php bin/magento setup:upgrade
 
 # regenerate static content
-rm -rf pub/static/_requirejs var/view_preprocessed
+rm -rf pub/static/_requirejs var/view_preprocessed pub/static/frontend/Swissup
 php bin/magento setup:static-content:deploy
 
 # if you are using di:compilation, you need to run it again:

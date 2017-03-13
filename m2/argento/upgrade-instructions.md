@@ -7,8 +7,8 @@ category: Argento
 
 # Upgrade Instructions
 
-<!--
-### Version 0.9.4 - 0.9.5 [Draft]
+
+### Version 0.9.4 - 0.9.5
 
  1. Backup all changes you've made
  2. Put the store to the maintenance mode
@@ -28,7 +28,7 @@ category: Argento
     ```
 
 5. That's all. You are now using Argento 0.9.5
- -->
+
 
 ### Version 0.9.3 - 0.9.4
 
