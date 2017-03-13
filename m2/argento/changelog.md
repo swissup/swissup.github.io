@@ -7,7 +7,7 @@ category: Argento
 
 # Argento Changelog
 
-### Version 0.9.5 [Draft]
+### Version 0.9.5
 
 **Screenshots**
 
