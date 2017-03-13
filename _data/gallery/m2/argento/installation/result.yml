@@ -1,10 +1,15 @@
-- href: /images/m2/argento/installation/homepage.png
-  src: /images/m2/argento/installation/homepage.png
+- href: /images/m2/argento/installation/homepage-essence.png
+  src: /images/m2/argento/installation/small/homepage-essence.png
   title: ArgentoEssence
   w: 950
-  h: 699
+  h: 746
 - href: /images/m2/argento/installation/homepage-flat.png
-  src: /images/m2/argento/installation/homepage-flat.png
+  src: /images/m2/argento/installation/small/homepage-flat.png
   title: ArgentoFlat
   w: 950
-  h: 699
+  h: 746
+- href: /images/m2/argento/installation/homepage-pure2.png
+  src: /images/m2/argento/installation/small/homepage-pure2.png
+  title: ArgentoPure2
+  w: 950
+  h: 746

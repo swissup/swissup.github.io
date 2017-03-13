@@ -100,15 +100,17 @@ all contents of this folder into `MAGENTO_ROOT/pub/media` directory.
 cd MAGENTO_ROOT
 cp -R app/design/frontend/Swissup/argento-essence/resources/media/* pub/media/
 cp -R app/design/frontend/Swissup/argento-flat/resources/media/* pub/media/
+cp -R app/design/frontend/Swissup/argento-pure2/resources/media/* pub/media/
 # If you are using theme from vendor folder:
 # cp -R vendor/swissup/theme-frontend-argento-essence/resources/media/* pub/media/
 # cp -R vendor/swissup/theme-frontend-argento-flat/resources/media/* pub/media/
+# cp -R vendor/swissup/theme-frontend-argento-pure2/resources/media/* pub/media/
 chmod -R 777 pub/media/easybanner pub/media/easyslide
 ```
 
 #### 5. That's all. Navigate to you store to check your new theme:
 
-{% include gallery.html images=site.data.gallery.m2.argento.installation.result class="phone-up-1 tablet-up-2 photoswipe scroll" %}
+{% include gallery.html images=site.data.gallery.m2.argento.installation.result class="phone-up-1 tablet-up-3 photoswipe scroll" %}
 
 ##### Next up
 
