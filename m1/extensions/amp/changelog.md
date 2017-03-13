@@ -8,6 +8,11 @@ category: Accelerated Mobile Pages
 
 # Changelog
 
+### Version 1.0.4
+
+ -  Performance optimizations. Up to 400% performance boost on specific server
+    configurations.
+
 ### Version 1.0.3
 
  -  Added compatibility with:
