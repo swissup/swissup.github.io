@@ -7,6 +7,19 @@ category: Cache
 
 # Full Page Cache Changelog
 
+### Version 1.4.6
+
+ -  Fixed cache autorenew for anchored categories, when product triggers cache refresh
+ -  Fixed recently viewed products registration
+ -  catalog/product_new block removed from dynamic blocks list because of magento
+    bug with cached form key
+
+ **Third-party modules**
+
+ -  Mana_Seo compatibility added
+ -  Fixed conflict with AOE_Profiler
+ -  Fixed conflicts with third-party modules with RollingCurl library
+
 ### Version 1.4.5
 
  -  Fixed possible issues with third-party themes
