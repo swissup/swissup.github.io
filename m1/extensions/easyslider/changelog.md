@@ -7,6 +7,14 @@ category: Easy Slider
 
 # Changelog
 
+### Version 3.0.0
+
+**Major update**
+
+ -  Deprecated sliders libraries replaced with [Swiper slider](http://idangero.us/swiper)
+ -  Now Easyslide extension works smoothly on mobile devices and fully support
+    touch
+
 ### Version 2.5.0
 
  -  Skin files moved under tm/easyslide subfolder
