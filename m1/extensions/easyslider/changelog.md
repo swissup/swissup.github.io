@@ -9,7 +9,7 @@ category: Easy Slider
 
 ### Version 2.5.0
 
- -  Skin files moved unser tm/easyslide subfolder
+ -  Skin files moved under tm/easyslide subfolder
  -  TM_Amp support added
 
 ### Version 2.4.1

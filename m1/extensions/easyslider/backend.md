@@ -9,10 +9,9 @@ category: EasySlider
 # Admin interfaces
 
 We provide interfaces that allow you to manage settings of sliders and slides
-directly in Magento backend. Depending on slider type that you’ve chosen, you
-can configure a lot of effect types, some different animation and control
-types. Also Easy Slider interface allows you to specify duration and frequency
-for each slider.
+directly in Magento backend. You can configure a lot of effect types, some
+different animation and control types. Also Easy Slider interface allows you
+to specify duration and frequency for each slider.
 
 ![Manage sliders interface](/images/m1/extensions/easyslide/manage-sliders.png)
 
@@ -25,47 +24,22 @@ information you can configure the slider options, create and modify slides.
 
 In the `Title` field specify slider name.
 
-In the `Identifier` field specify the unique slider’s identifier.
-
-In the `Slider Type` field select slider type. Possible values are 'Prototype Slider' and 'Nivo Slider (jQuery)'.
+In the `Identifier` field specify the unique slider’s identifier.lider type. Possible values are 'Prototype Slider' and 'Nivo Slider (jQuery)'.
 
 In the `Status` field select Yes to enable current slider.
 
-##### Prototype slider
-
-When you select 'Prototype slider', you can configure the following options:
-
-![Options for Prototype slider](/images/m1/extensions/easyslide/prototype-slider-options.png)
+In section 'Slider Options' you can configure the following options:
 
 | Option   | Description |
 |----------|-------------|
-| `Controls` | select arrow or numbers type of control |
-| `Width` | specify the slider block width |
-| `Height` | specify the slider block height |
-| `Effect` | Select animation effect that will be used for slider block. Possible values are Scroll, Speedscroll, Blend, Mosaic and Fade. |
-| `Duration` | set the duration in seconds for each slide |
-| `Frequency` | set the frequency in seconds for each slide |
+| `Color theme` | Choose color theme for slider controls |
+| `Controls type` | Arrows, paggination bullets, both or none |
+| `Width, px` | Specify the slider width (optional) |
+| `Height, px` | Specify the slider height (optional)|
+| `Effect type of slides change` | Select animation effect that will be used for slider. Possible values are Slide, Fade, 3D Coverflow, 3D Cube and 3D Flip. |
+| `Effect duration, sec` | Set the duration in seconds for each slide |
+| `Slides change frequency, sec` | Set the slides change frequency in seconds for each slide |
 | `Autoglide` | Select Yes to enable autoglide. The slider will be launched right after load. |
-
-##### Nivo Slider
-
-For "Nivo Slider" type, you can configure the following options:
-
-![Options for Nivo slider](/images/m1/extensions/easyslide/nivo-slider-options.png)
-
-| Option   | Description |
-|----------|-------------|
-| `Theme`  | select the theme of Nivo Slider type |
-| `Effect` | select animation effect that will be used for slider block |
-| `Slices` | specify the number of slices for animation |
-| `Box Cols` | specify the number of cols for box animation |
-| `Box Rows` | specify the number of rows for box animation |
-| `Slide transition speed` | set the speed of slide transition for each slide |
-| `How long each slide will show` | specify the time how long the slide will be shown |
-| `Next & Prev navigation` | elect Yes to display arrows of next and previous navigation |
-| `Use thumbnails for Control Nav` | select Yes to display slide thumbnails under the main slide |
-| `Stop animation while hovering` | select Yes if you want slide to be stopped, when user hovers over it |
-| `Autoglide` | select Yes to enable autoglide. Slider will start to change slides as soon as page will be loaded |
 
 ### Slides tab
 
@@ -86,8 +60,6 @@ In order to modify the slide, please follow next steps:
  4. In the `Is Enabled` field select Yes to enable the loaded image.
  5. In the `Description` field specify the description of the slide if you
     need.
- 
-    > Nivoslider doesn't have description position and background settings. It's design is based on nivo slider themes.
 
  6. Slide description can be placed on various positions:
      -  in the `Desc Position` field select the slide’s position from drop down
