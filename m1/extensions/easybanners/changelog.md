@@ -6,6 +6,11 @@ category: Easy Banners
 sidebar: sidebar.md
 ---
 
+### Version 1.6.1
+
+ -  Transparent images support added
+ -  Small fixes
+
 ### Version 1.6.0
 
 **New Banner Conditions**
