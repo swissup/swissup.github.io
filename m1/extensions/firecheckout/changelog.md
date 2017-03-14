@@ -7,6 +7,17 @@ category: Firecheckout
 
 # Changelog
 
+### Version 3.11.2
+
+ -  Small PHP and javascript fixes
+
+**Third-party modules**
+
+ -  HeidelpayCD integration update. See [integration instructions](http://docs.swissuplabs.com/m1/extensions/firecheckout/supported-modules/heidelpaycd-edition/)
+    for more information
+ -  TigPostNl integration fixes
+ -  Fixed conflict with IWD_OrderManager module
+
 ### Version 3.11.1
 
  -  Fixed error during configuration save: TM_Core updated to add missing
