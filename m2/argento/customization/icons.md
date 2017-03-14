@@ -49,7 +49,7 @@ Stacked icons - is two icons stacked togehter.
 See [example](http://fontawesome.io/examples/#stacked).
 
 ```html
-<!-- Colorized hovered stacked icons -->
+{% raw %}<!-- Colorized hovered stacked icons -->
 <div class="social-icons colorize-fa-stack-hover">
   <a href="https://facebook.com/" class="icon icon-facebook">
     <span class="fa-stack">
@@ -129,5 +129,5 @@ See [example](http://fontawesome.io/examples/#stacked).
       <i class="fa fa-vk fa-stack-1x fa-inverse"></i>
     </span>
   </a>
-</div>
+</div>{% endraw %}
 ```
