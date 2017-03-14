@@ -8,6 +8,11 @@ category: ConfigurableSwatches
 
 # Changelog
 
+### Version 1.1.1
+
+ -  Fixed error on [TM_Attributepages](http://docs.swissuplabs.com/m1/extensions/attributepages/) page,
+    when magento module is disabled
+
 ### Version 1.1.0
 
  -  Magento 1.9.3 compatibility
