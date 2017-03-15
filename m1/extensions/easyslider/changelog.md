@@ -15,6 +15,8 @@ category: Easy Slider
  -  Now Easyslide extension works smoothly on mobile devices and fully support
     touch
 
+Here are some tips for update - [update extension from 2.5.0 to 3.0.0](../installation/#update-extension-from-250-to-300)
+
 ### Version 2.5.0
 
  -  Skin files moved under tm/easyslide subfolder

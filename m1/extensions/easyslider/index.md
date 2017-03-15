@@ -15,6 +15,8 @@ Magento image slider with Swiper slider integration.
 <iframe src="https://player.vimeo.com/video/208296263?autoplay=1&loop=1&color=ff4081" width="720" height="270" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
  1. [Installation](installation/)
+     -  [Update extension from 2.3.2 to 2.4.0](installation/#update-extension-from-232-to-240)
+     -  [Update extension from 2.5.0 to 3.0.0](installation/#update-extension-from-250-to-300)
  2. [Changelog](changelog/)
  3. [Admin interfaces](backend/#admin-interfaces)
      -  [Configuration tab](backend/#configuration-tab)

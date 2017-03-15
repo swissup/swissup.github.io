@@ -23,6 +23,34 @@ Please follow next steps to complete the installation:
 You can read how to create slider at
 [Easy Slide Admin Interface](../backend/#admin-interfaces) page.
 
+### Update extension from 2.3.2 to 2.4.0
+
+After updating extension you can delete deprecated files and directories
+to keep your magento instance clean and tidy:
+
+```
+app/code/local/TM/Easyslide/etc/system.xml
+app/design/frontend/base/default/template/tm/easyslide/load.phtml
+app/design/frontend/base/default/template/tm/easyslide/slider.phtml
+skin/frontend/base/default/tm/easyslide/
+```
+
+### Update extension from 2.5.0 to 3.0.0
+
+After updating extension you can delete deprecated files and directories
+to keep your magento instance clean and tidy:
+
+```
+app/code/local/TM/Easyslide/controllers/IndexController.php
+app/design/frontend/base/default/template/tm/easyslide/easyslider.phtml
+app/design/frontend/base/default/template/tm/easyslide/nivoslider.phtml
+app/design/frontend/tmamp/default/template/tm/easyslide/easyslider.phtml
+app/design/frontend/tmamp/default/template/tm/easyslide/nivoslider.phtml
+js/tm/lib/easyslider
+js/tm/lib/nivo
+```
+
+
 Please, feel free to contact us about any additional questions:
 
 * [Support](https://swissuplabs.com/contacts/)
