@@ -10,41 +10,43 @@ category: Facebook Like Button
 
 Please follow next steps to complete the installation:
 
-1. Navigate to `Admin > Tools > Compilation` and deactivate the compilation
-mode for your store.
-2. Check if your Magento store cache is enabled.
-3. Unpack all files from extension archive into your magento store root directory.
-4. Refresh your magento store cache.
-5. Logout from your store admin and then login back, to refresh your admin user
-access rights.
+ 1. Navigate to _Admin > Tools > Compilation_ and deactivate the compilation
+    mode for your store.
+ 2. Check if your Magento store cache is enabled.
+ 3. Unpack all files from extension archive into your magento store root
+    directory.
+ 4. Refresh your magento store cache.
+ 5. Logout from your store admin and then login back, to refresh your admin
+    user access rights.
 
-* Navigate to `System > Configuration > Templates-Master > Facebook Like Button` and
-enable extension for any store you need.
+Navigate to _System > Configuration > Templates-Master > Facebook Like Button_ and enable extension for any store you need. Configure FaceBook Like Button module according to your needs.
 
-* Configure FaceBook Like Button module according to your needs.
+Set up new Facebook Application at [http://www.facebook.com/developers/createapp.php](http://www.facebook.com/developers/createapp.php).
 
-* Set up new Facebook Application at http://www.facebook.com/developers/createapp.php.
-If you are planning to use XFBML buttons, you need to edit some template files.
-Change the <html xmlns:og="http://ogp.me/ns#" tag to read at
-following template files:
+Code listed bellow should be added to _view.phtml_ file in order to display
+Facebook like button. For example _app/design/frontend/[package]/[theme]/template/catalog/product/view.phtml_.
 
-_not_app/design/frontend/[package]/[theme]/template/page/1column.phtml
-_not_app/design/frontend/[package]/[theme]/template/page/2columns-left.phtml
-_not_app/design/frontend/[package]/[theme]/template/page/2columns-right.phtml
-_not_app/design/frontend/[package]/[theme]/template/page/3columns.phtml
-
-Code listed bellow should be added to view.phtml file in order to display
-Facebook like button. For example `app/design/frontend/[package]/[theme]/template/catalog/product/view.phtml`.
-
-```html
+```php
     <?php echo $this->getLayout()->createBlock('core/template')->setTemplate('facebooklb/like.phtml')->toHtml(); ?>
 ```
 
-Code listed bellow should be added to list.phtml file in order to display social
-buttons. For example `app/design/frontend/[package]/[theme]/template/catalog/product/list.phtml`.
+Code listed bellow should be added to list.phtml file in order to display
+social buttons. For example
+_app/design/frontend/[package]/[theme]/template/catalog/product/list.phtml_.
 
-```html
+```php
     <?php echo Mage::helper('facebooklb')->getCategoryLikeButton($_product) ?>
+```
+
+### Update extension from 2.0.2 to 2.1.0
+
+After updating extension you can delete deprecated files and directories to
+keep your magento instance clean and tidy:
+
+```
+app/code/community/TM/FacebookLB/Adminhtml/Model/System/Config/Source/Font.php
+app/design/frontend/base/default/layout/FacebookLB.xml
+app/design/frontend/base/default/template/facebooklb
 ```
 
 #### After you install an extension you can go to:

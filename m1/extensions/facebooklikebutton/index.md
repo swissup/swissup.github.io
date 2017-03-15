@@ -10,8 +10,10 @@ category: Facebook Like Button
 
 # Facebook Like Button
 
-Increase sales with Facebook. Magento Facebook Like button module allows you to add Like button both on the product page and category pages. You can easily [customize Like button](configuration/#like-button-configuration) directly in admin. The module supports [Open Graph protocol](open-graph-protocol/) that guarantees the accurate, attractive and complete display of the title, image or description of site content.
+Increase sales with Facebook. Magento Facebook Like button module allows you to add Like button both on the product page and category pages. You can easily [customize Like button](configuration/#like-button-configuration) directly in admin. The module supports [Open Graph protocol](open-graph-facebook/) that guarantees the accurate, attractive and complete display of the title, image or description of site content.
 
-- [Installation](installation/)
-- [Configuration](configuration/)
-- [Open Graph Facebook](open-graph-facebook/)
+ -  [Installation](installation/)
+    -  [Update extension from 2.0.2 to 2.1.0](installation/#update-extension-from-202-to-210)
+ -  [Changelog](changelog/)
+ -  [Configuration](configuration/)
+ -  [Open Graph Facebook](open-graph-facebook/)
