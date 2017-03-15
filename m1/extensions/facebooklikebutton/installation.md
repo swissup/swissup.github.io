@@ -27,7 +27,7 @@ Code listed bellow should be added to _view.phtml_ file in order to display
 Facebook like button. For example _app/design/frontend/[package]/[theme]/template/catalog/product/view.phtml_.
 
 ```php
-    <?php echo $this->getLayout()->createBlock('core/template')->setTemplate('facebooklb/like.phtml')->toHtml(); ?>
+    <?php echo $this->getLayout()->createBlock('core/template')->setTemplate('tm/facebooklb/like.phtml')->toHtml(); ?>
 ```
 
 Code listed bellow should be added to list.phtml file in order to display
