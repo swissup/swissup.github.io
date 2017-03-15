@@ -8,6 +8,10 @@ category: Checkout Success
 
 # Changelog
 
+### Version 2.0.4
+
+ -  IWD_OrderManager compatibility
+
 ### Version 2.0.3
 
  -  New variables in bottom HTML (customer email, currency, payment method and
