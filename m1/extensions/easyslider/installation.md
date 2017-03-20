@@ -32,7 +32,9 @@ to keep your magento instance clean and tidy:
 app/code/local/TM/Easyslide/etc/system.xml
 app/design/frontend/base/default/template/tm/easyslide/load.phtml
 app/design/frontend/base/default/template/tm/easyslide/slider.phtml
-skin/frontend/base/default/tm/easyslide/
+skin/frontend/base/default/tm/easyslide/images
+skin/frontend/base/default/tm/easyslide/js/jquery-1.8.2.min.js
+skin/frontend/base/default/tm/easyslide/nivo
 ```
 
 ### Update extension from 2.5.0 to 3.0.0
