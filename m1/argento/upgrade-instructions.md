@@ -61,26 +61,26 @@ category: Argento
  -  Delete following files:
 
     ```
-    app/design/frontend/argento/pure2/template/catalog/product/list.phtml
-    app/design/frontend/argento/pure2/template/catalog/product/list/toolbar.phtml
-    app/design/frontend/argento/pure2/template/checkout/cart/crosssell.phtml
-    app/design/frontend/argento/pure2/template/directory/switch/currency.phtml
-    app/design/frontend/argento/pure2/template/newsletter/subscribe.phtml
-    app/design/frontend/argento/pure2/template/page/switch/languages.phtml
-    app/design/frontend/argento/pure2/template/page/html/header_short.phtml
-    app/design/frontend/argento/pure2/template/tm/ajaxpro/catalog/product/view/media.phtml
-    app/design/frontend/argento/pure2/template/tm/easycatalogimg/list.phtml
-    app/design/frontend/argento/pure2/template/tm/highlight/product/sidebar/list.phtml
-    app/design/frontend/argento/pure2/template/tm/highlight/product/list.phtml
-    app/design/frontend/argento/pure2/template/tm/soldtogether/order.phtml
-    app/design/frontend/argento/pure2/template/tm/soldtogether/customer.phtml
-    app/design/frontend/argento/pure2/template/tm/soldtogether/suggestpage/list.phtml
     app/design/frontend/argento/mall/template/catalog/product/list.phtml
     app/design/frontend/argento/pure/template/catalog/product/list.phtml
     app/design/frontend/argento/pure/template/catalog/product/list/upsell.phtml
     app/design/frontend/argento/pure/template/tm/highlight/product/grid.phtml
-    app/design/frontend/argento/pure2/template/tm/highlight/product/grid.phtml
+    app/design/frontend/argento/pure2/template/catalog/product/list.phtml
+    app/design/frontend/argento/pure2/template/catalog/product/list/toolbar.phtml
     app/design/frontend/argento/pure2/template/catalog/product/list/upsell.phtml
+    app/design/frontend/argento/pure2/template/checkout/cart/crosssell.phtml
+    app/design/frontend/argento/pure2/template/directory/switch/currency.phtml
+    app/design/frontend/argento/pure2/template/newsletter/subscribe.phtml
+    app/design/frontend/argento/pure2/template/page/html/header_short.phtml
+    app/design/frontend/argento/pure2/template/page/switch/languages.phtml
+    app/design/frontend/argento/pure2/template/tm/ajaxpro/catalog/product/view/media.phtml
+    app/design/frontend/argento/pure2/template/tm/easycatalogimg/list.phtml
+    app/design/frontend/argento/pure2/template/tm/highlight/product/grid.phtml
+    app/design/frontend/argento/pure2/template/tm/highlight/product/list.phtml
+    app/design/frontend/argento/pure2/template/tm/highlight/product/sidebar/list.phtml
+    app/design/frontend/argento/pure2/template/tm/soldtogether/customer.phtml
+    app/design/frontend/argento/pure2/template/tm/soldtogether/order.phtml
+    app/design/frontend/argento/pure2/template/tm/soldtogether/suggestpage/list.phtml
     ```
  -  **Argento Pure** users need to add following options to highlight widgets:
 
@@ -111,24 +111,24 @@ category: Argento
  -  Delete following files:
 
     ```
-    app/design/frontend/argento/flat/template/page/switch/languages.phtml
-    app/design/frontend/argento/flat/template/directory/switch/currency.phtml
-    app/design/frontend/argento/flat/template/newsletter/subscribe.phtml
-    app/design/frontend/argento/flat/template/catalog/product/list.phtml
-    app/design/frontend/argento/flat/template/catalog/product/list/upsell.phtml
-    app/design/frontend/argento/flat/template/page/html/header_short.phtml
-    app/design/frontend/argento/flat/template/checkout/cart/crosssell.phtml
-    app/design/frontend/argento/flat/template/checkout/cart/top.phtml
-    app/design/frontend/argento/flat/template/tm/navigationpro/top.phtml
-    app/design/frontend/argento/flat/template/tm/smartsuggest/list.phtml
-    app/design/frontend/argento/flat/template/tm/highlight/product/sidebar/list.phtml
-    app/design/frontend/argento/flat/template/tm/highlight/product/grid.phtml
-    app/design/frontend/argento/flat/template/tm/soldtogether/suggestpage/list.phtml
-    app/design/frontend/argento/flat/template/tm/soldtogether/customer.phtml
-    app/design/frontend/argento/flat/template/tm/soldtogether/order.phtml
-    app/design/frontend/argento/flat/template/tm/ajaxsearch/topsearch.phtml
     app/design/frontend/argento/default/template/tm/ajaxsearch/category/combobox.phtml
     app/design/frontend/argento/default/template/tm/ajaxsearch/topsearch.phtml
+    app/design/frontend/argento/flat/template/catalog/product/list.phtml
+    app/design/frontend/argento/flat/template/catalog/product/list/upsell.phtml
+    app/design/frontend/argento/flat/template/checkout/cart/crosssell.phtml
+    app/design/frontend/argento/flat/template/checkout/cart/top.phtml
+    app/design/frontend/argento/flat/template/directory/switch/currency.phtml
+    app/design/frontend/argento/flat/template/newsletter/subscribe.phtml
+    app/design/frontend/argento/flat/template/page/html/header_short.phtml
+    app/design/frontend/argento/flat/template/page/switch/languages.phtml
+    app/design/frontend/argento/flat/template/tm/ajaxsearch/topsearch.phtml
+    app/design/frontend/argento/flat/template/tm/highlight/product/grid.phtml
+    app/design/frontend/argento/flat/template/tm/highlight/product/sidebar/list.phtml
+    app/design/frontend/argento/flat/template/tm/navigationpro/top.phtml
+    app/design/frontend/argento/flat/template/tm/smartsuggest/list.phtml
+    app/design/frontend/argento/flat/template/tm/soldtogether/customer.phtml
+    app/design/frontend/argento/flat/template/tm/soldtogether/order.phtml
+    app/design/frontend/argento/flat/template/tm/soldtogether/suggestpage/list.phtml
     app/design/frontend/argento/mall/template/tm/ajaxsearch/topsearch.phtml
     ```
 
@@ -164,7 +164,9 @@ category: Argento
     app/code/local/TM/Easyslide/etc/system.xml
     app/design/frontend/base/default/template/tm/easyslide/load.phtml
     app/design/frontend/base/default/template/tm/easyslide/slider.phtml
-    skin/frontend/base/default/tm/easyslide/
+    skin/frontend/base/default/tm/easyslide/images
+    skin/frontend/base/default/tm/easyslide/js/jquery-1.8.2.min.js
+    skin/frontend/base/default/tm/easyslide/nivo
     ```
 
  -  **Update Homepage and Footer markup (ArgentoArgento theme users only)**
