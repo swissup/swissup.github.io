@@ -19,6 +19,7 @@ The module is based on cross-selling strategy. Sold Together extension enables t
  -  [Admin interfaces](admin-interfaces/)
  -  [Use cases](use-cases/)
  -  [Integration with Checkout Success 2.x](integration/)
+ -  [Changelog](changelog/)
 
 ### Weight
 
