@@ -8,6 +8,12 @@ category: Lightbox Pro
 
 # Changelog
 
+### Version 1.2.3
+
+ -  Do not show product swatches images in 'More Views'
+ -  Render 'More Views' as separate block. Now you can move this block to any
+    place on a page you want
+
 ### Version 1.2.2
 
  -  Improved image swapping, when clicking on colorswatch label
