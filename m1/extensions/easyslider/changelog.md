@@ -7,6 +7,11 @@ category: Easy Slider
 
 # Changelog
 
+### Version 3.0.1
+
+ -  fix missing slider controls when Magento merge enabled
+ -  optimized CSS styles
+
 ### Version 3.0.0
 
 **Major update**
