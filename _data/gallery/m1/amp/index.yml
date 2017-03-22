@@ -8,6 +8,31 @@
   title: AMP category page with layered navigation and sorting dropdown
   w: 431
   h: 877
+- href: /images/m1/amp/frontend/product.png
+  src: /images/m1/amp/frontend/small/product.png
+  title: AMP product page
+  w: 431
+  h: 877
+- href: /images/m1/amp/frontend/product-add-to-cart.png
+  src: /images/m1/amp/frontend/small/product-add-to-cart.png
+  title: AMP product page "Add to Cart" section
+  w: 431
+  h: 877
+# - href: /images/m1/amp/frontend/product-custom-options.png
+#   src: /images/m1/amp/frontend/small/product-custom-options.png
+#   title: AMP simple product page with custom options
+#   w: 431
+#   h: 877
+- href: /images/m1/amp/frontend/product-bundle.png
+  src: /images/m1/amp/frontend/small/product-bundle.png
+  title: AMP product page with bundle product type
+  w: 431
+  h: 877
+- href: /images/m1/amp/frontend/product-configurable.png
+  src: /images/m1/amp/frontend/small/product-configurable.png
+  title: AMP configurable product page with "Configure and Buy" button
+  w: 431
+  h: 877
 - href: /images/m1/amp/frontend/sidebar-rwd.png
   src: /images/m1/amp/frontend/small/sidebar-rwd.png
   title: Sidebar with language switcher, welcome links and site navigation
@@ -18,3 +43,13 @@
   title: Products comparison page
   w: 431
   h: 877
+- href: /images/m1/amp/frontend/wordpress-home.png
+  src: /images/m1/amp/frontend/small/wordpress-home.png
+  title: AMP wordpress
+  w: 431
+  h: 877
+# - href: /images/m1/amp/frontend/wordpress-comment.png
+#   src: /images/m1/amp/frontend/small/wordpress-comment.png
+#   title: AMP wordpress post with comments
+#   w: 431
+#   h: 877

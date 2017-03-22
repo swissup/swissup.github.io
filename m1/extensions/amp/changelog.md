@@ -8,6 +8,20 @@ category: Accelerated Mobile Pages
 
 # Changelog
 
+### Version 1.1.0
+
+ -  Product page support added for all of the product types
+ -  Wordpress integration added (Fishpig_Wordpress module)
+ -  Rating stars added to product listing
+
+**Fixes and Improvements**
+
+ -  Improved automatic layout detection for small images
+ -  Added additional check for proper libxml library version
+ -  Fixed html-entities encoding issue (UTF-8)
+ -  Fixed image dimensions detection, when using forced secure url
+ -  Srcset added to the logo image (Better Argento theme support)
+
 ### Version 1.0.4
 
  -  Performance optimizations. Up to 400% performance boost on specific server

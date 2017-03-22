@@ -32,6 +32,16 @@ Option | Description
 Theme | Select AMP theme to use
 Logo | Allows you to upload unique logo for AMP theme. Otherwise, logo from desktop theme will be used
 
+### Product Page
+
+![Product page section](/images/m1/amp/configuration/section-product.png)
+
+Option | Description
+-------|------------
+Image Width | Image width is read-only value
+Image Height | Use this value to switch between vertical and horizontal images
+Use full "Add to Cart" mode for all supported products | Allows to switch between full "Add to Cart" section and "Configure and Buy" button. "Configure and Buy" mode will hide "Add to Cart" button and show "Configure and Buy" link instead, that will open a desktop version of the product page.
+
 ##### Next Up
 
  -  [Back to Home](/m1/extensions/amp/)
