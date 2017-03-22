@@ -1,11 +1,11 @@
 ---
 layout: default
 title: AMP known issues
+h1: Known Issues
 description: Known issues of AMP site
 category: Accelerated Mobile Pages
+sidebar: sidebar.md
 ---
-
-# Known Issues
 
 ### Wordpress pagination is not working
 

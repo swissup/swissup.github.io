@@ -4,9 +4,8 @@ title: AMP installation
 description: How to install Accelerated Mobile Pages on Magento
 keywords: amp installation, accelerated mobile pages installation
 category: Accelerated Mobile Pages
+sidebar: sidebar.md
 ---
-
-# Installation
 
 ### Unpack Archive
 

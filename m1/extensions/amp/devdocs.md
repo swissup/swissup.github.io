@@ -3,9 +3,8 @@ layout: default
 title: AMP developers documentation
 description: How to write AMP-friendly module
 category: Accelerated Mobile Pages
+sidebar: sidebar.md
 ---
-
-# AMP developers documentation
 
 Our AMP module uses several features in order to render AMP-compatible page.
 

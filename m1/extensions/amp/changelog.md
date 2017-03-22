@@ -4,9 +4,8 @@ title: AMP changelog
 description: Recent updates in AMP for Magento
 keywords: amp updates, amp changelog
 category: Accelerated Mobile Pages
+sidebar: sidebar.md
 ---
-
-# Changelog
 
 ### Version 1.1.0
 

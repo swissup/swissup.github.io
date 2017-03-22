@@ -1,11 +1,13 @@
 ---
 layout: default
 title: AMP FAQ
+h1: FAQ
 description: Frequently asked questions about Magento AMP
 category: Accelerated Mobile Pages
+sidebar: sidebar.md
 ---
 
-# FAQ
+### Contents
 
 <!-- MarkdownTOC -->
 

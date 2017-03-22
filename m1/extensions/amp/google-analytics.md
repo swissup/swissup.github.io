@@ -1,11 +1,11 @@
 ---
 layout: default
 title: AMP Analytics
+h1: Google Analytics
 description: How to enable google analytics on AMP site
 category: Accelerated Mobile Pages
+sidebar: sidebar.md
 ---
-
-# Google Analytics
 
 AMP is using Magento's Google Analitycs functionality. So, if you are using
 _System > Configuration > Sales > Google API > Google Analytics_ on your

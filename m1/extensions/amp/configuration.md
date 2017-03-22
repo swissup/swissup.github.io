@@ -1,12 +1,12 @@
 ---
 layout: default
 title: AMP configuration
+h1: Configuration
 description: Configuration options of AMP extension
 keywords: amp configration, amp options
 category: Accelerated Mobile Pages
+sidebar: sidebar.md
 ---
-
-# Configuration
 
 AMP configuration is located at
 _System > Configuration > Templates-Master > Accelerated Mobile Pages_ page.
