@@ -7,6 +7,11 @@ category: Easy Slider
 
 # Changelog
 
+### Version 3.0.2
+
+ -  Fixed template and styles for AMP theme
+ -  Fixed "Can't use method return value in write context" error in AMP theme
+
 ### Version 3.0.1
 
  -  fix missing slider controls when Magento merge enabled
