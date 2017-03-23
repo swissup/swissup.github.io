@@ -79,6 +79,7 @@ additional modifications.
 - Advox_Inpost
 - Aicod_Italy
 - Amasty_Deliverydate
+- [Amasty_Table](amasty-table/)
 - [Bpost_ShippingManager](bpost-shm/)
 - [Bpost_ShM](bpost-shm/)
 - Bysoft_Relaypoint
