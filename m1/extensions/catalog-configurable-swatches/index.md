@@ -24,9 +24,10 @@ category: ConfigurableSwatches
 ## What does the module do?
 1. Add required containers and blocks to the category and product view pages.
 2. Add required javascripts and styles.
-3. Add support for colorswatches inside AjaxPro or QuickShopping popup on category view page.
-4. Add support for AjaxPro or AjaxLayeredNavigation loaded products on the category view page.
-5. Fixes some bugs of ConfigurableSwatches module.
+3. Helps to integrate the color swatches into custom theme.
+4. Add support for colorswatches inside AjaxPro or QuickShopping popup on category view page.
+5. Add support for AjaxPro or AjaxLayeredNavigation loaded products on the category view page.
+6. Fixes some bugs of ConfigurableSwatches module.
 
 ## Installation
 
