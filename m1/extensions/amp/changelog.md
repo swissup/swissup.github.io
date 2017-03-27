@@ -7,6 +7,14 @@ category: Accelerated Mobile Pages
 sidebar: sidebar.md
 ---
 
+### Version 1.1.1
+
+ -  Old libxml library support added (< 2.8.0)
+    -  Added fix to prevent broken html when using old libxml
+    -  If you are using another module with `DOMDocument` parser - it may break
+        markup again. See [known issues section](/m1/extensions/amp/known-issues/#old-libxml-library).
+ -  Fixed not needed links separator at product page when wishlist is disabled
+
 ### Version 1.1.0
 
  -  Product page support added for all of the product types
