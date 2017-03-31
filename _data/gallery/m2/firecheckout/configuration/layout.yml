@@ -1,20 +1,20 @@
 - title: 1 Column (Expanded)
   href: /images/m2/firecheckout/frontend/1column-expanded-guest-customer.png
   src: /images/m2/firecheckout/frontend/small/1column-expanded-guest-customer.png
-  w: 960
-  h: 1690
+  w: 1285
+  h: 1955
 - title: 2 Columns (Wide Payment and Shipping sections)
   href: /images/m2/firecheckout/frontend/2columns-guest-customer.png
   src: /images/m2/firecheckout/frontend/small/2columns-guest-customer.png
-  w: 1280
-  h: 1050
+  w: 1285
+  h: 1698
 - title: 2 Columns (Place Payment and Shipping sections side by side)
   href: /images/m2/firecheckout/frontend/2columns-alternate-guest-customer.png
   src: /images/m2/firecheckout/frontend/small/2columns-alternate-guest-customer.png
-  w: 1280
-  h: 875
+  w: 1285
+  h: 1520
 - title: 3 Columns
   href: /images/m2/firecheckout/frontend/3columns-guest-customer.png
   src: /images/m2/firecheckout/frontend/small/3columns-guest-customer.png
-  w: 1270
-  h: 860
+  w: 1285
+  h: 1187
