@@ -8,6 +8,22 @@ category: Argento
 
 # Argento Upgrade Instructions
 
+### Version 1.8.6
+
+After source files update, please, go in Magento Admin to menu _Templates Master_ and select _Modules_ there. Find theme you are using -
+*TM_ArgentoArgento*, *TM_ArgentoFlat*, *TM_ArgentoMall*, *TM_argentoPure* or
+*TM_ArgentoPure2*. Click on *Select* dropdown in column *Actions* and select
+*Run Upgrades*. This will apply some data upgrades required for latest version
+of the theme.
+
+![Run data upgrade](/images/m1/themes/argento/run-upgrade.png)
+
+Please, do not forget to flush Magento Cache and JavaScript/CSS Cache.
+
+If you want to enable AMP module then you have to run its installer. You can
+read ho to do it at [this link](/m1/extensions/amp/installation/#run-installer)
+.
+
 ### Version 1.8.4 - 1.8.5
 
  -  Backup all your changes

@@ -7,6 +7,65 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.8.6
+
+After successfull source files update you have to run data update. You can
+find more details about data update at
+[Upgrade Instructions for 1.8.6](../upgrade-instructions/#version-186).
+
+**New Features**
+
+ -  Accelerated Mobile Pages (AMP) extension included in package. You can
+    read more about AMP extension at our [docs](/m1/extensions/amp/). Disabled
+    by default.
+ -  Product image hover feature added to package. It shows different 
+    image when visitor hovers mouse on product image in product listing.
+    Disabled by default.
+ -  Easyslide 3.0 with swiper library. Now slider supports touch and work
+    smoothly on mobile devices.
+
+**Modules fixes and improvements**
+
+ -  Ajax Pro:
+     +  fix redirect to cart after adding product to cart when minimal order
+        amount enabled
+     +  fix issue with empty cart when customer logged in and persistent
+        shopping cart enabled (cart does not have items that were added when
+        customer was not logged in)
+     +  improved ajax update of cart related blocks
+
+ -  Ajax Search:
+     +  fix missing layered navigation on search results page when custom 
+        collection enabled
+     +  fix different placeholders in search field when field has input cursor
+        and has not
+
+ -  Easy Banners:
+     +  great performance improvements for stores with long-lived banners
+     +  new banner conditions
+
+ -  Easy Tabs:
+     +  fixed issues with permissions to extension interfaces in Magento Admin
+     +  fixed issue with lost tabs after extension update
+     +  allow inline translation of attribute group name on additional tab
+
+ -  Facebook Like Button:
+     +  use Facebook SDK JavaScript version 2.8
+     +  improved system configuration section (added comments and dependencies)
+     +  improved and unified extension templates
+     +  all inline JavaScripts moved to js-file
+    
+ -  Navigation Pro:
+     +  no inline javascript, js-file deferred
+
+ -  Sold Together:
+     +  fix js error and incorrect total price for bundle product if one of
+        items is out of stock
+
+ -  Testimonials:
+     +  improved integration with edit review form in Magento Admin
+     +  fixed fatal error on review edit form in some environments
+
 ### Version 1.8.5
 
 [Upgrade Instructions](../upgrade-instructions/#version-184---185)
