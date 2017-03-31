@@ -19,8 +19,9 @@ Main features:
 
 ### Contents
 
- 1. [Installation](installation/)
- 2. [Configuration](#configuration)
+ -  [Installation](installation/)
+ -  [Changelog](changelog/)
+ -  [Configuration](#configuration)
 
 ### Configuration
 
