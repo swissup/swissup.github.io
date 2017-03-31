@@ -33,6 +33,34 @@ gallery:
 
 # AskIt Changelog
 
+### Version 2.3.6
+
+ -  Improve backed grid with questions (fix issues with filters)
+ -  Fix javascript with initialization to make it work after HTML/JS
+    minification
+
+### Version 2.3.4
+
+ -  Missing translations added
+ -  Change mass status action parameter renamed
+
+### Version 2.3.3
+
+ -  Status filtering for answers was added (show pending answers bug was fixed)
+ -  Fixed product url generation for emails
+ -  Mass answers status change action add
+
+### Version 2.3.2
+
+ -  export action was fixed
+ -  correct block type for askit_tabbed block in layout
+ -  vote table customer foreign key bug was fixed
+
+### Version 2.3.1
+
+ -  create unique key bug was fixed
+ -  drop all foreign keys to upgrade was added
+
 ### Version 2.3.0
 
 **Features**
