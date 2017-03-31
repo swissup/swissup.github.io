@@ -16,4 +16,5 @@ Our **Ajax search and autocomplete extension** improves the default Magento sear
 
  - [Installation](installation/)
  - [Configuration](configuration/)
+ - [Changelog](changelog/)
  - [Setting up advanced search results](setting-up-advanced-search-results/)
