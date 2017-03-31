@@ -2,27 +2,8 @@
 layout: default
 title: Checkout Cart
 description: magento 2 checkout cart module documentation
-keywords: " magento 2 checkout cart extension "
+keywords: checkout ajax cart, ajax cart magento 2, ajax cart at checkout page
 category: Checkout Cart
-gallery:
-  - href: /images/m2/checkout-cart/firecheckout.png
-    src: /images/m2/checkout-cart/firecheckout-small.png
-    w: 1255
-    h: 865
-    alt: Checkout Cart on Firecheckout screenshot
-    title: Checkout Cart on Firecheckout
-  - href: /images/m2/checkout-cart/checkout-shipping.png
-    src: /images/m2/checkout-cart/checkout-shipping-small.png
-    w: 1255
-    h: 625
-    alt: Checkout Cart shipping step screenshot
-    title: Checkout Cart on checkout shipping step
-  - href: /images/m2/checkout-cart/checkout-payment.png
-    src: /images/m2/checkout-cart/checkout-payment-small.png
-    w: 1256
-    h: 774
-    alt: Checkout Cart payment step screenshot
-    title: Checkout Cart on checkout payment step
 ---
 
 # Checkout Cart
@@ -33,7 +14,7 @@ this module you can move totals under cart items block in checkout cart summary 
 
 Extension is compatible with [Firecheckout](../firecheckout) and default Magento 2 checkout.
 
-{% include gallery.html images=page.gallery class="scroll phone-up-1 tablet-up-3 photoswipe" %}
+{% include gallery.html images=site.data.gallery.m2.checkout-cart.index class="scroll phone-up-1 tablet-up-3 photoswipe" %}
 
 ### Contents
 
