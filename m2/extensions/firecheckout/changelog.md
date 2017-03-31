@@ -8,6 +8,36 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.5.0
+
+**Major Updates**
+
+ -  Fixed tax recalculation when changing zipcode or state
+ -  Added ability to use [three page layout types](/m2/extensions/firecheckout/configuration/#page-layout):
+    -  Default Checkout Layout
+    -  Empty (Minimalistic 1column layout)
+    -  Full (Full 1column layout with header, navigation and footer)
+ -  Added [additional content](/m2/extensions/firecheckout/configuration/#additional-content-section) support:
+    -  Above firecheckout form
+    -  Below firecheckout form
+    -  Below checkout summary
+
+**Fixes and Improvements**
+
+ -  Complete styles refactoring to simplify checkout modification for developers
+ -  Improved modal popup effects for desktop devices
+ -  Fixed non-working checkout on mobile devices
+ -  Fixed css issue with street address label on a new line
+ -  Better compatiblity with third-party themes
+ -  Added 'equal-shiping-billing' class name to the body for additional styles
+ -  Fixed payment methods block positioning, when a lot of shippings are available
+ -  Many CSS fixes and improvements
+
+**Modules updates**
+
+ -  [CheckoutCart 1.1.0](/m2/extensions/checkout-cart/)
+ -  [DeliveryDate 1.0.2](/m2/extensions/delivery-date/)
+
 ### Version 1.4.0
 
 **Major Updates**
