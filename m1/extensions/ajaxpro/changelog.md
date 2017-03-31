@@ -8,6 +8,26 @@ category: AjaxPro
 
 # Changelog
 
+### Version 3.3.11
+
+ -  fix redirect to cart after adding product to cart when minimal order
+    amount enabled
+ -  fix issue with empty cart when customer logged in and persistent shopping
+    cart enabled (cart does not have items that were added when customer was
+    not logged in)
+ -  improved ajax update of cart related blocks
+
+
+### Version 3.3.10
+
+ -  css bug on safari +mobile + ltr direction
+ -  related_product param flush bug was fixed (clearParamsForInfoBuyRequest)
+
+### Version 3.3.8
+
+ -  info_buyRequest option bug was fixed
+ -  product_options.js integration was fixed for less 1.9.3 version
+
 ### Version 3.3.7
 
  - Add magento 1.9.3 integration (varien/product_options.js was added)
