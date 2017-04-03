@@ -24,10 +24,10 @@ worrying about further updates.
 
 ### Example
 
-Let's add some air to the firecheckout sections and slightly improve form styles.
+Let's slightly change form and firecheckout layout styles and section number colors.
 [Scroll down](#result) to see the result.
 
- 1. Create `_custom.less` file inside your active theme:
+ 1. Create two `_custom.less` files inside your active theme:
 
     ```
     app
@@ -38,41 +38,53 @@ Let's add some air to the firecheckout sections and slightly improve form styles
                     └── Swissup_Firecheckout
                         └── web
                             └── css
+                                ├── abstracts
+                                |   └── _custom.less
                                 ├── _custom.less
     ```
 
- 3. Add your custom styles:
+ 2. Redefine firecheckout variables with `abstracts/_custom.less` file:
 
     ```scss
-    @firecheckout-section__padding: 20px 20px;
-    @firecheckout-section__background: #fff;
-    @firecheckout-section__border: 2px solid rgba(0, 0, 0, 0.1);
+    @firecheckout-section__border: 0;
+    @firecheckout-section__padding: 12px 20px 20px;
+    @firecheckout-section__number-color: #fff;
+    @firecheckout-section__number-background-color: #c13b7a;
+    @firecheckout-section__box-shadow: 0 0 8px rgba(0,0,0,0.15);
+    ```
 
-    .firecheckout #checkout {
-        .step-title,
-        .opc-block-summary > .title {
-            padding-bottom: 20px;
+ 3. Add additional styles with `_custom.less`
+
+    ```scss
+    .firecheckout {
+        .swissup-delivery-date {
+            margin-top: 20px;
         }
     }
 
     @media (min-width: 1024px) {
-        .firecheckout .checkout-shipping-address,
-        .firecheckout .billing-address-form {
-            .fieldset > .field {
-                > .label {
-                    width: 35%;
+        .firecheckout {
+            .form-shipping-address,
+            .billing-address-form {
+                .fieldset > .field {
                     vertical-align: top;
-                    margin: 5px 0 0;
-                    padding: 0 5px 0 0;
-                    box-sizing: border-box;
-                    text-align: right;
-                    word-wrap: break-word;
-                    white-space: normal;
-                    font-weight: normal;
-                }
-                > .control {
                     display: inline-block;
-                    width: 62%;
+                    width: 50%;
+
+                    &.street {
+                        width: 100%;
+                    }
+
+                    > .label {
+                        width: auto;
+                        float: none;
+                        margin: 5px 0 2px;
+                        padding: 0 9px 0 0;
+                    }
+                    > .control {
+                        display: block;
+                        width: calc(~"100% - 5px");
+                    }
                 }
             }
         }
@@ -88,12 +100,12 @@ Let's add some air to the firecheckout sections and slightly improve form styles
     find pub/static var/view_preprocessed -type d -regex ".*Firecheckout.*css" -exec rm -rf {} \;
 
     # run deployment command
-    php bin/magento setup:static-content:deploy
+    php bin/magento setup:static-content:deploy en_US
     ```
 
 #### Result
 
-> Customization was done under [Swissup/argento-flat](/m2/argento/flat/) theme.
+> Customization was done under [Swissup/argento-pure2](/m2/argento/pure2/) theme.
 > Button styles are inherited from it.
 
 {% include gallery.html images=site.data.gallery.m2.firecheckout.customization.custom-css class="phone-up-1 tablet-up-1 photoswipe" %}
