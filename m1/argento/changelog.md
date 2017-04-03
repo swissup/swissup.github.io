@@ -10,6 +10,8 @@ category: Argento
 ### Version 1.8.6.1
 
  -  Updated slider styles for each theme to match original styles
+ -  Fixed jumbotron styles, when inner content is floated
+ -  Improved `BlockToggler` script for complex block markup
 
 ### Version 1.8.6
 
