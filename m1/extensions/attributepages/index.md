@@ -39,12 +39,13 @@ or any other page customization.
     - [Display brand block on product page](use-cases/brand-block-on-product-page/)
     - [Display brand block on category page](use-cases/brand-block-on-category-page/)
     - [Display brand block in recently viewed products block](use-cases/brand-block-in-recently-viewed-block/)
+ -  [FAQ](faq/)
 
 ##### [Third-Party modules integration](third-party-modules-integration/)
 
  - [Mirasvit SEO](third-party-modules-integration/#mirasvitseo)
 
-##### Related Articles
+##### Related Articles 
 
  -  **Argento**
     - ["Brands" dropdown](/m1/argento/navigation-setup/#brands-dropdown)
