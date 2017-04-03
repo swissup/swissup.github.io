@@ -8,6 +8,12 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.5.1
+
+ -  Added additional `less` variables to simlify section numbers and blocks
+    [customization](/m2/extensions/firecheckout/customization/custom-css/).
+    See the list of [all variables](/m2/extensions/firecheckout/customization/less-variables/).
+
 ### Version 1.5.0
 
 **Major Updates**
