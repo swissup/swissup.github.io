@@ -7,6 +7,10 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.8.6.1
+
+ -  Updated slider styles for each theme to match original styles
+
 ### Version 1.8.6
 
 After successfull source files update you have to run data update. You can
@@ -18,7 +22,7 @@ find more details about data update at
  -  Accelerated Mobile Pages (AMP) extension included in package. You can
     read more about AMP extension at our [docs](/m1/extensions/amp/). Disabled
     by default.
- -  Product image hover feature added to package. It shows different 
+ -  Product image hover feature added to package. It shows different
     image when visitor hovers mouse on product image in product listing.
     Disabled by default.
  -  Easyslide 3.0 with swiper library. Now slider supports touch and work
@@ -35,7 +39,7 @@ find more details about data update at
      +  improved ajax update of cart related blocks
 
  -  Ajax Search:
-     +  fix missing layered navigation on search results page when custom 
+     +  fix missing layered navigation on search results page when custom
         collection enabled
      +  fix different placeholders in search field when field has input cursor
         and has not
@@ -54,7 +58,7 @@ find more details about data update at
      +  improved system configuration section (added comments and dependencies)
      +  improved and unified extension templates
      +  all inline JavaScripts moved to js-file
-    
+
  -  Navigation Pro:
      +  no inline javascript, js-file deferred
 
