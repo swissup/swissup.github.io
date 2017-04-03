@@ -8,6 +8,10 @@ category: AjaxPro
 
 # Changelog
 
+### Version 3.3.12
+
+ -  Fixed popup window size on mobile devices, when popup shows a lot of info
+
 ### Version 3.3.11
 
  -  fix redirect to cart after adding product to cart when minimal order

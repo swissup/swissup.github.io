@@ -7,6 +7,11 @@ category: Easy Slider
 
 # Changelog
 
+### Version 3.0.3
+
+ -  Fixed issue with slide description, when `fade` animation is used
+ -  Styles updated for better theming posibilities
+
 ### Version 3.0.2
 
  -  Fixed template and styles for AMP theme
