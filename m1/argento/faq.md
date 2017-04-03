@@ -24,6 +24,7 @@ category: Argento
 13. [Remove attributes that have no value](#remove-attributes-that-have-no-value)
 14. [How to show hidden part of product name at category listing](#how-to-show-hidden-part-of-product-name-at-category-listing)
 15. [How to make mobile menu expand on whole item area click](#how-to-make-mobile-menu-expand-on-whole-item-area-click)
+16. [How to show product SKU on product page](#how-to-show-product-sku-on-product-page)
 
 ### How to disable short header and footer layout?
 
@@ -372,3 +373,28 @@ to restore missing elements:
     toggler.previous().observe('click', function(e) {
     ```
  -  Save. Enjoy.
+ 
+### How to show product SKU on product page
+
+> You should have `SKU` attribute created and applied to products
+ 
+ -  Overload your `app/design/frontend/argento/default/catalog/product/view.phtml` 
+file according to Argento [customization manual](../theme-customization/complex-changes/)
+ -  Open that file and jump to `line 55`
+ 
+    ```html
+    <div class="product-name"> ..... </div>
+    ```
+ -  And insert following code after: 
+ 
+    ```php
+    <?php echo $_product->getSku(); ?>
+    ```
+    
+    or
+    
+    ```php
+    <?php echo $_product->getData('sku'); ?>
+    ```
+
+> You can use some other attribute name applied to product with `->get[ATTRIBUTE]`
