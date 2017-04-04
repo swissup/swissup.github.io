@@ -12,6 +12,7 @@ category: Prolabels
 ![Prolabels example](/images/m1/extensions/prolabels/promo.png)
 
  -  [Installation](installation/)
+ -  [Changelog](changelog/)
  -  [Backend](backend/)
      +  [Extension Configuration](backend/configuration)
      +  [Add On Sale Label](backend/on-sale-label)
