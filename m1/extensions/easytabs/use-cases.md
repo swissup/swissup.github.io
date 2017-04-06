@@ -21,6 +21,7 @@ sidebar: sidebar.md
      *  [Use the external javascript to add the onclick observers](#use-the-external-javascript-to-add-the-onclick-observers)
  8. [Using public events to call javascript on tab activate or deactivate](#using-public-events-to-call-javascript-on-tab-activate-or-deativate)
  9. [Adding tab with different custom content for each product](#adding-custom-product-content)
+ 10. [Adding Font Icons to Tab headers](#adding-font-icons-to-tab-headers)
 
 ## No tabs after installation
 
@@ -244,3 +245,28 @@ document.observe('easytabs:afterActivate', function(e) {
     console.log(tab + ':' + easytabs.getActivationCount(tab));
 });
 ```
+
+## Adding Font Icons to Tab headers
+
+You can make make your **Tabs** look better by adding font icons in the heading
+
+![Icons in tabs](/images/m1/extensions/easytabs/icon-tabs.png)
+
+> **Note**: Some Font library (i.e. [FontAwesome](http://fontawesome.io/), 
+> [IonIcons](http://ionicons.com/), [WeLoveIconFonts](http://weloveiconfonts.com/))
+> should be enabled at your site
+ 
+Let's take [FontAwesome](http://fontawesome.io/) as an example.
+
+ * Go to  [icons catalog](http://fontawesome.io/icons/) and choose the one you like
+ * Select the code to insert 
+ 
+   ![Star Icon](/images/m1/extensions/easytabs/star-icon.png)
+
+ * Go to Magento admin `TemplatesMaster > EasyTabs > Product Tabs` and edit tab
+ * Insert your icon code to Tab Title field before/after the caption
+   
+   ![Insert code](/images/m1/extensions/easytabs/insert-code.png)
+
+ * You can add `fa-lg` classname to make icon a bit bigger (in case you're 
+   using **FontAwesome**)
