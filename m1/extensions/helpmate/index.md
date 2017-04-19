@@ -44,4 +44,5 @@ Please review the following basic terms before using the extension.
 - [Managing ticket](managing-ticket/)
 - [Managing department](managing-department/)
 - [Managing a knowledgebase](managing-a-knowledgebase/)
+- [Changelog](changelog/)
 - [Use cases](use-cases/)
