@@ -26,7 +26,7 @@ category: Helpmate
  - Unix encoding
 
 
- #### You can also check:
+#### You can also check:
 
 *   [Installation](../installation/)
 *   [Configuration](../configuration/)
