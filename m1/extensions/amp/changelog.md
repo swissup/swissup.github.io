@@ -7,6 +7,15 @@ category: Accelerated Mobile Pages
 sidebar: sidebar.md
 ---
 
+### Version 1.1.2
+
+ -  Fixed empty 'ShopBy' popup for categories without children and layered
+    navigation
+ -  New html tags and attribute filters:
+    - <link> - Prohibited without `rel` attribute
+    - <amasty_seo> - All custom tags are prohibited
+    - nowrap - This attribute is deprecated and prohibited for AMP pages
+
 ### Version 1.1.1
 
  -  Old libxml library support added (< 2.8.0)
