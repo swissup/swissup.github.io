@@ -7,6 +7,10 @@ category: EasyCatalogImages
 
 # Changelog
 
+### Version 2.4.1
+
+ -  AMP related logic moved to separate config file
+
 ### Version 2.4.0
 
  -  Translation fixes
