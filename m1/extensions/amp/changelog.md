@@ -12,9 +12,9 @@ sidebar: sidebar.md
  -  Fixed empty 'ShopBy' popup for categories without children and layered
     navigation
  -  New html tags and attribute filters:
-    - <link> - Prohibited without `rel` attribute
-    - <amasty_seo> - All custom tags are prohibited
-    - nowrap - This attribute is deprecated and prohibited for AMP pages
+    - `<link>` - Prohibited without `rel` attribute
+    - `<amasty_seo>` - All custom tags are prohibited
+    - `nowrap` - This attribute is deprecated and prohibited for AMP pages
 
 ### Version 1.1.1
 
