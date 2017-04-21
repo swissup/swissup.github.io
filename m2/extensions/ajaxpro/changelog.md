@@ -10,6 +10,19 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.2.0
+
+- Add require swissup/suggestpage
+- Improve compare, wishlist intagration
+- Improve re-initialisation
+- Add modal manager
+- Add abstract customer data class
+- Add ajaxpro.less
+- Fixes timeout bugs
+- Improve xml handles structure
+- Fix Modal UI: clickableOverlay option doesn't work
+- Add timeout auto close for popup (+idle)
+
 ### Version 1.1.2
 
 - Acl sort order fixes
