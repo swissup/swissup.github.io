@@ -3,7 +3,8 @@ layout: default
 title: Troubleshooting
 description: Common troubleshooting issues for firecheckout module
 keywords: >
-    freeshipping, free shipping, tax is missing, invalid tax
+    freeshipping, free shipping, tax is missing, invalid tax, double tax in magento,
+    missing discount in grand total
 category: Firecheckout
 ---
 
@@ -31,3 +32,30 @@ category: Firecheckout
     recalculation. (Usually it's a zip/postal code and region).
  3. Add **Shipping Address** dependency into `Order total (Review) depends on` option.
  4. Save configuration.
+
+### Double tax calculation
+
+> This patch fixes two Magento bugs that was introduced in Magento 1.9.3.2:
+>
+> 1. Missing discount in Grand Total (Onepage and Multishipping checkout pages are affected)
+> 2. Double tax in Grand Total (Multishipping checkout is affected)
+
+This bug is caused by Magento 1.9.3.2 and it can be reproduced at multishipping
+checkout page.
+
+In order to fix it, apply the following patch:
+
+```diff
+diff --git a/app/code/core/Mage/Sales/etc/config.xml b/app/code/core/Mage/Sales/etc/config.xml
+index 4a0f5106a..ccd84054d 100644
+--- a/app/code/core/Mage/Sales/etc/config.xml
++++ b/app/code/core/Mage/Sales/etc/config.xml
+@@ -1227,6 +1227,7 @@
+                     </grand_total>
+                     <msrp>
+                         <class>sales/quote_address_total_msrp</class>
++                        <before>weee,freeshipping</before>
+                     </msrp>
+                 </totals>
+                 <nominal_totals>
+```
