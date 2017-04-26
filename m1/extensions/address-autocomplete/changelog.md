@@ -7,6 +7,10 @@ category: Address Autocomplete
 
 # Address Autocomplete Changelog
 
+### Version 1.1.3
+
+ -  Fixed javascript `change` event bubbling when fill address field
+
 ### Version 1.1.2
 
  -  Fixed accident fill of address line with full address string
