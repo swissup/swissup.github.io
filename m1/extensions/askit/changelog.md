@@ -33,6 +33,11 @@ gallery:
 
 # AskIt Changelog
 
+### Version 2.3.7
+
+ -  Add canonical url
+ -  Fix double pages
+
 ### Version 2.3.6
 
  -  Improve backed grid with questions (fix issues with filters)
