@@ -12,7 +12,7 @@ category: Rich Snippets
 ### Fresh Magento Installation
 
 1.  Copy RichSnippets folder content to your store root;
-2.  Go to `System>Configuration>Templates Master>RichSnippets` set `"Enabled"`;
+2.  Go to `System > Configuration > TM SEO Suite > RichSnippets` set `"Enabled"`;
 3.  Fill needed data;
 4.  Select format type
     -   Choose **"JSON Format"** for invisible block with your store snippets;
@@ -47,7 +47,7 @@ category: Rich Snippets
 
 4.  Or **RESTORE** your original theme **view.phtml** if no other changes were made;
 5.  Copy **Rich Snippets 2.0** folder content to your store root;
-6.  Go to `System>Configuration>TemplatesMaster>RichSnippets` set `"Enabled"`;
+6.  Go to `System > Configuration > TM SEO Suite > RichSnippets` set `"Enabled"`;
 7.  Fill needed data;
 8.  Select format type
 

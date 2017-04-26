@@ -12,6 +12,7 @@ category: Rich Snippets
 
 -   [Email](#email)
 -   [General settings](#general-settings)
+-   [Conditions](#conditions)
 -	[Organization](#organization)
 -	[Website](#website)
 -	[Social links and cards](#social-links-and-cards)
@@ -26,6 +27,40 @@ category: Rich Snippets
 We recommend to choose “JSON Format” for invisible block with your store snippets. This type is simplified and clear to use. In case you want to show a visible block with snippets both in search results and on product page, you'd better to select Microdata type. 
 
 -	`Breadcrumbs` - select **Yes** to show breadcrumbs in rich snippets.
+
+### Conditions
+
+**RichSnippets** have Product conditions support. You can apply conditions from 
+existing attribute or create the new one.
+
+Let's create the **Condition** attribute with options:
+
+ 1. Go to `Catalog > Attributes > Manage Attributes`
+ 2. Create new `Dropdown` attribute i.e. `Conditions`
+ 3. Add 4 options **New**, **Used**, **Damaged**, **Refurbished** (if you don't 
+    have such conditions just create ones you need) they are supported by **Schema.org**
+
+    ![Conditions attribute options](/images/m1/extensions/rich-snippet/conditions-options.png)
+
+ 4. Add your **Condition** attribute to required Attribute set
+ 5. Go to `System > Configuration > TM SEO Suite > Rich Snippets > Conditions` 
+ 6. Choose your **Condition** attribute from dropdown
+    
+    > It's usually in the end. If it's not visible - go to `System > Index Management`
+    > and make all your store indexes **Reindex**
+ 
+ 7. Fill in all option IDs, __!!! they should be the SAME as you created in Condition attribute__
+    (or in already existing attribute)
+
+    ![Conditions configuration](/images/m1/extensions/rich-snippet/conditions-configuration.png)
+
+ 8. If all is set correct - go to any product configuration you applied **Condition**
+    attribute. Choose one of options
+
+    ![Conditions options selection](/images/m1/extensions/rich-snippet/conditions-selection.png)
+
+> Note: Products that have no applied conditions or set incorrect will get **New** 
+> condition in snipets automatically
 
 ### Organization
 
