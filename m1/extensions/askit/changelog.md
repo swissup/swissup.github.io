@@ -37,6 +37,8 @@ gallery:
 
  -  Add canonical url
  -  Fix double pages
+ -  cdata minification fixed
+ -  Add product.js on askit_index_product
 
 ### Version 2.3.6
 
