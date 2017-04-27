@@ -14,8 +14,7 @@ Go Admin > System > Configuration > Templates Master > Fire Checkout.
 -   [Additional content](#additional-content)
 -   [GeoIp](#geoip)
 -   [Address form fields](#address-form-fields)
--   [Address form fields sort order](#additional-form-fields-sort-order)
--   [Address form fields](#address-form-fields)
+-   [Address form fields sort order](#address-form-fields-sort-order)
 -   [Ajax](#ajax)
 -   [Terms and conditions](#terms-and-conditions)
 -   [Firecheckout on mobile devices](#firecheckout-on-mobile-devices)
@@ -25,7 +24,7 @@ Go Admin > System > Configuration > Templates Master > Fire Checkout.
 
 ### General
 
-![General settings](/images/m1/extensions/firecheckout/configuration/general-settings.png)
+![General settings](/images/m1/firecheckout/configuration/general-settings.png)
 
 -   `Enabled` - select **Yes** to enable the extension.
 -   `Page Title` - please specify the checkout page title.
@@ -44,7 +43,7 @@ Go Admin > System > Configuration > Templates Master > Fire Checkout.
 **NOTE**: By default Paypal Express checkout is disabled during creating new Magento account. Our extension offers the additional programming logic that allows new customer to be registered using Paypal Express.
 -   `Show Subscribe to Newsletter Checkbox` - select **Yes** to enable the display of **Subscribe to Newsletter Checkbox** field.
 
-![General settings](/images/m1/extensions/firecheckout/configuration/sign-newsletter-frontend.png)
+![General settings](/images/m1/firecheckout/configuration/sign-newsletter-frontend.png)
 
 -   `Show Comment Field` - select **Yes** to allow customers leave their comments in the `Show Comment` field.
 -   `Show Discount Coupon Field` - select **Yes** to allow customers use the coupon code during checkout process.
@@ -55,13 +54,13 @@ Go Admin > System > Configuration > Templates Master > Fire Checkout.
 
 ### Additional content
 
-![General settings](/images/m1/extensions/firecheckout/configuration/additional-content.png)
+![General settings](/images/m1/firecheckout/configuration/additional-content.png)
 
 Please select **Yes** in the above, below or below the checkout review table fields if you want to place fields there to display an additional information into.
 
 ### GeoIP
 
-![General settings](/images/m1/extensions/firecheckout/configuration/geoip.png)
+![General settings](/images/m1/firecheckout/configuration/geoip.png)
 
 -   `Enable Country Detection` - select **Yes** to enable the display of Country Detection field.
 -   `GeoIp filename` - please set .dat file. Downloadand unzip file under the 'MAGETO_ROOT/lib/MaxMind/GeoIP/data' folder if you don't have it.
@@ -80,7 +79,7 @@ Use links below to go to the sites where the data can be downloaded.
 
 ### Address form fields
 
-![General settings](/images/m1/extensions/firecheckout/configuration/address-form-fields.png)
+![General settings](/images/m1/firecheckout/configuration/address-form-fields.png)
 
 **NOTE**: before changing some of the fields, be sure that your payment/shipping provider does not require them.
 
@@ -88,13 +87,13 @@ Select possible values Required, Optional or Hidden from the drop-down list acco
 
 ### Address form fields sort order
 
-![General settings](/images/m1/extensions/firecheckout/configuration/address-fields-sort-order.png)
+![General settings](/images/m1/firecheckout/configuration/address-fields-sort-order.png)
 
 **NOTE**: in order to place the fields above in the one row, set their order values in continuous chain 1,2 or 12,13 or 20,21. In order to place fields in separate rows, break the order values chain 1,3 or 12,18 or 20,30.
 
 ### Ajax
 
-![General settings](/images/m1/extensions/firecheckout/configuration/ajax.png)
+![General settings](/images/m1/firecheckout/configuration/ajax.png)
 
 -   `Reload payment methods on country change` - select No, if you don't use different payment methods for various countries.
 -   `Reload payment methods on order total change` - select Yes, if you need to reload payment methods while changing the order totals in the cart.
@@ -112,27 +111,27 @@ Select possible values Required, Optional or Hidden from the drop-down list acco
 
 ### Terms and conditions 
 
-![General settings](/images/m1/extensions/firecheckout/configuration/terms-and-conditions.png)
+![General settings](/images/m1/firecheckout/configuration/terms-and-conditions.png)
 
 Select possible values as Minimal or Standard.
 **NOTE**: Fire Checkout allows you to use lightbox window, if you select Minimal.
 
 ### Firecheckout on mobile devices
 
-![General settings](/images/m1/extensions/firecheckout/configuration/on-mobile.png)
+![General settings](/images/m1/firecheckout/configuration/on-mobile.png)
 
 Select **Yes** to enable using Fire Checkout module on mobile devices.
 
 ### TaxVat number
 
-![General settings](/images/m1/extensions/firecheckout/configuration/taxvat-validation.png)
+![General settings](/images/m1/firecheckout/configuration/taxvat-validation.png)
 
 -   `Validate tax vat number` - select **Yes** to enable the validation of tax vat number.
 -   `Use online VIES validation` - select **Yes** to enable the use of VIES validation online.
 
 ### Delivery date and time 
 
-![General settings](/images/m1/extensions/firecheckout/configuration/delivery-date-and-time.png)
+![General settings](/images/m1/firecheckout/configuration/delivery-date-and-time.png)
 
 -   `Enabled` - select **Yes** to enable the settings of delivery date and time.
 -   `Display mode` - select possible values `Show for All Shipping Methods` or `Show for Specific Shipping methods` to set the display mode.
@@ -146,13 +145,14 @@ Select **Yes** to enable using Fire Checkout module on mobile devices.
 
 ### Shopping cart
 
-![General settings](/images/m1/extensions/firecheckout/configuration/shopping-cart.png)
+![General settings](/images/m1/firecheckout/shopping-cart.png)
 
 -   `Allow to edit shopping cart contents` - select **Yes** if you want to make changes to the  shopping cart contents.
 **NOTE**: we recommend to use 2 columns layout while using this option.
 
 -   `Show product image` - select **Yes** to enable the display product image.
-![General settings](/images/m1/extensions/firecheckout/configuration/product-image-on-shopping-cart.png)
+
+![General settings](/images/m1/firecheckout/configuration/product-image-on-shopping-cart.png)
 
 -   `Width field` - specify the the width of image.
 -   `Height field` - specify the the height of image.
