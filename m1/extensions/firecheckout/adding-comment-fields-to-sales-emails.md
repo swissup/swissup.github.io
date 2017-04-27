@@ -18,11 +18,9 @@ Go `Admin > System > Transactional emails` and do the following:
 4. Set the Template name field with "Fire Checkout New Order" for example.
 5. Set the Template Content field with the following code in the desired position. ( Before <p style="font-size:12px; line-height:16px; margin:0;">Your order confirmation is below. Thank you again for your business.</p> for example)
 
-```xml
 {{depend order.getFirecheckoutCustomerComment()}}
 <p style="font-size:12px; line-height:16px; margin:0;" >Order Comment: {{htmlescape var=$order.getFirecheckoutCustomerComment()}}</p>
 {{/depend}}
-```
 
 6. Click Save Template.
 
