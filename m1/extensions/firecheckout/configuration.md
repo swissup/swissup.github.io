@@ -8,7 +8,7 @@ category: Firecheckout
 
 # Configuration
 
-Go Admin > System > Configuration > Templates Master > Fire Checkout.
+Go `Admin > System > Configuration > Templates Master > Fire Checkout`.
 
 -   [General](#general)
 -   [Additional content](#additional-content)
@@ -145,7 +145,7 @@ Select **Yes** to enable using Fire Checkout module on mobile devices.
 
 ### Shopping cart
 
-![General settings](/images/m1/firecheckout/shopping-cart.png)
+![General settings](/images/m1/firecheckout/configuration/shopping-cart.png)
 
 -   `Allow to edit shopping cart contents` - select **Yes** if you want to make changes to the  shopping cart contents.
 **NOTE**: we recommend to use 2 columns layout while using this option.
