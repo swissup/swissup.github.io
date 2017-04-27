@@ -67,6 +67,8 @@ Firecheckout includes a huge amount of configurable additional possibilities:
      -  [Show custom popup window](popup-window/)
      -  [Hide totals in review section](hide-totals-in-review-section/)
      -  [Using custom.css and custom.js](using-customcss-and-customjs/)
+     -  [Adding comment fields to sales emails](adding-comment-fields-to-sales-emails/)
+     -  [Adding checkout fields to transactional emails](adding-checkout-fields-to- transactional-emails/)
  6. [Use cases](use-cases/)
      -  [Changing URL of Firecheckout page](use-cases/#changing-url-of-firecheckout-page)
  7. [Troubleshooting](troubleshooting/)
