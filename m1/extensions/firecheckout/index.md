@@ -2,6 +2,7 @@
 layout: default
 title: Firecheckout
 description: Firecheckout documentation
+keywords: " one step checkout magento extension, magento onepage checkout, magento checkout extension, one step checkout magento, magento edit checkout fields, one step checkout module magento, one step checkout magento mobile, magento one page checkout extension, magento one page checkout responsive, magento one page checkout custom fields, how to create one page checkout magento, how to edit one page checkout magento, checkout module in magento, quick checkout module  "
 category: Firecheckout
 ---
 
@@ -52,6 +53,7 @@ Firecheckout includes a huge amount of configurable additional possibilities:
 
  1. [Installation](installation/)
  2. [Changelog](changelog/)
+ 3. [Configuration](configuration/)
  3. [Usps address verification](usps-address-verification/)
  4. [Supported modules](supported-modules/)
      -  [Magento built-in modules](supported-modules#magento-built-in-modules)
