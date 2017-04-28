@@ -56,15 +56,12 @@ fields if you want to place fields there to display an additional information in
 
 ![Address form fields settings](/images/m1/firecheckout/configuration/firecheckout/address-form-fields.png)
 
-**NOTE**: before changing some of the fields, be sure that your payment/shipping provider does not require them.
-
-Select possible values Required, Optional or Hidden from the drop-down list according to your needs.
+> **Warning!** Before changing some of the fields, be sure that your payment/shipping
+provider does not require them.
 
 ### Address form fields sort order
 
 ![Address form fields sort order settings](/images/m1/firecheckout/configuration/firecheckout/address-fields-sort-order.png)
-
-**NOTE**: in order to place the fields above in the one row, set their order values in continuous chain 1,2 or 12,13 or 20,21. In order to place fields in separate rows, break the order values chain 1,3 or 12,18 or 20,30.
 
 ### Ajax save and reload rules
 
