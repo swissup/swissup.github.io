@@ -47,14 +47,14 @@ _Admin > System > Configuration > TM Checkout > Firecheckout_ page.
 
 ### Additional content
 
-![General settings](/images/m1/firecheckout/configuration/firecheckout/additional-content.png)
+![Additional content settings](/images/m1/firecheckout/configuration/firecheckout/additional-content.png)
 
 Please select **Yes** in the above, below or below the checkout review table
 fields if you want to place fields there to display an additional information into.
 
 ### Address form fields
 
-![General settings](/images/m1/firecheckout/configuration/firecheckout/address-form-fields.png)
+![Address form fields settings](/images/m1/firecheckout/configuration/firecheckout/address-form-fields.png)
 
 **NOTE**: before changing some of the fields, be sure that your payment/shipping provider does not require them.
 
@@ -62,13 +62,13 @@ Select possible values Required, Optional or Hidden from the drop-down list acco
 
 ### Address form fields sort order
 
-![General settings](/images/m1/firecheckout/configuration/address-fields-sort-order.png)
+![Address form fields sort order settings](/images/m1/firecheckout/configuration/firecheckout/address-fields-sort-order.png)
 
 **NOTE**: in order to place the fields above in the one row, set their order values in continuous chain 1,2 or 12,13 or 20,21. In order to place fields in separate rows, break the order values chain 1,3 or 12,18 or 20,30.
 
 ### Ajax save and reload rules
 
-![General settings](/images/m1/firecheckout/configuration/firecheckout/ajax-save-and-reload-rules.png)
+![Ajax save and reload rules settings](/images/m1/firecheckout/configuration/firecheckout/ajax-save-and-reload-rules.png)
 
 -   `Reload payment methods on country change` - select No, if you don't use different payment methods for various countries.
 -   `Reload payment methods on order total change` - select Yes, if you need to reload payment methods while changing the order totals in the cart.
@@ -86,20 +86,20 @@ Select possible values Required, Optional or Hidden from the drop-down list acco
 
 ### Terms and conditions
 
-![General settings](/images/m1/firecheckout/configuration/firecheckout/terms-and-conditions.png)
+![Terms and conditions settings](/images/m1/firecheckout/configuration/firecheckout/terms-and-conditions.png)
 
 Select possible values as Minimal or Standard.
 **NOTE**: Fire Checkout allows you to use lightbox window, if you select Minimal.
 
 ### Firecheckout on mobile devices
 
-![General settings](/images/m1/firecheckout/configuration/on-mobile.png)
+![Mobile settings](/images/m1/firecheckout/configuration/firecheckout/firecheckout-on-mobile-devices.png)
 
 Select **Yes** to enable using Fire Checkout module on mobile devices.
 
 ### Shopping cart
 
-![General settings](/images/m1/firecheckout/configuration/firecheckout/shopping-cart.png)
+![Shopping cart settings](/images/m1/firecheckout/configuration/firecheckout/shopping-cart.png)
 
 -   `Allow to edit shopping cart contents` - select **Yes** if you want to make changes to the  shopping cart contents.
     **NOTE**: we recommend to use 2 columns layout while using this option.

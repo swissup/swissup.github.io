@@ -2,7 +2,7 @@
 layout: default
 title: Firecheckout
 description: Firecheckout documentation
-keywords: " one step checkout magento extension, magento onepage checkout, magento checkout extension, one step checkout magento, magento edit checkout fields, one step checkout module magento, one step checkout magento mobile, magento one page checkout extension, magento one page checkout responsive, magento one page checkout custom fields, how to create one page checkout magento, how to edit one page checkout magento, checkout module in magento, quick checkout module  "
+keywords: firecheckout docs, firecheckout documentation
 category: Firecheckout
 ---
 
@@ -15,34 +15,34 @@ faster and easier by providing them a simple checkout form.
 
 Firecheckout includes a huge amount of configurable additional possibilities:
 
- -  Shipped with 5 layouts
- -  Optional distraction free "Empty Layout" feature
- -  Configurable billing and shipping address fields
- -  Configurable section dependencies (Example: reload payment methods when shipping is changed)
- -  Four checkout modes:
+ -  Shipped with [6 layouts](configuration/firecheckout/#layout-and-design)
+ -  Optional distraction free [Empty Layout](configuration/firecheckout/#layout-and-design) feature
+ -  Configurable [billing and shipping address fields](configuration/firecheckout/#address-form-fields)
+ -  Configurable [section dependencies](configuration/firecheckout/#ajax-save-and-reload-rules)
+ -  Four checkout [registration modes](configuration/firecheckout/#general):
     - Guest checkout is allowed
     - Guest checkout is allowed (checkbox is checked by default)
     - Registration is required
     - User is registered in background
- -  Ability to disable shipping address visibility
- -  GeoIP country, region, city and postcode detection
+ -  Ability to [disable shipping address](configuration/firecheckout/#general) visibility
+ -  [GeoIP](configuration/address-detection-geoip/) country, region, city and postcode detection
  -  Google [AddressAutocomplete](/m1/extensions/address-autocomplete/)
- -  [USPS Address Verification](usps-address-verification/)
- -  Default values for shipping and payment methods
+ -  [USPS Address Verification](configuration/address-verification/)
+ -  [Default values for shipping and payment methods](configuration/firecheckout/#general)
  -  [Delivery date and time](delivery-date/)
- -  Discount coupon field
- -  Up to 5 additional checkout fields
- -  Order comment field
+ -  [Discount coupon field](configuration/firecheckout/#general)
+ -  Up to 5 [additional checkout fields](configuration/additional-fields/)
+ -  [Order comment field](configuration/firecheckout/#general)
  -  [Order attachments](/m1/extensions/order-attachments/)
- -  Address review section for EU countries
- -  Minimalistic "Terms and Conditions" section
- -  Editable shopping cart
- -  Newsletter checkbox
+ -  [Address review section](configuration/firecheckout/#general) for EU countries
+ -  Minimalistic [Terms and Conditions](configuration/firecheckout/#terms-and-conditions) section
+ -  [Editable shopping cart](configuration/firecheckout/#shopping-cart)
+ -  [Newsletter checkbox](configuration/firecheckout/#general) below billing address form
  -  [Fully customizable](/m1/extensions/checkout-success/) "Checkout Success" page
  -  Huge list of [supported third-party](supported-modules/) modules
  -  [Customization friendly](/m1/extensions/firecheckout/using-customcss-and-customjs/)
- -  Dependent fields
- -  Housenumber
+ -  [Dependent fields](dependent-fields/)
+ -  [Housenumber](housenumber/)
  -  Fully compatible with Magento EE features:
     - Giftcards
     - Customer balance

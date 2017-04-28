@@ -20,3 +20,8 @@ page.
 > The same settings for Field #2 — 5 can be found on the same page.
 
 ![Field #1 settings](/images/m1/firecheckout/configuration/additional-fields/field1.png)
+
+##### Related Articles
+
+ -  [Additional fields in transactional emails](/m1/extensions/firecheckout/adding-checkout-fields-to-transactional-emails/)
+ -  [Comment in transactional emails](/m1/extensions/firecheckout/adding-comment-fields-to-sales-emails/)
