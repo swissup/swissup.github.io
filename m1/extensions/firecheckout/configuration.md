@@ -16,7 +16,7 @@ _Admin > System > Configuration > TM Checkout_ tab.
  -  [AddressAutocomplete ⮫](/m1/extensions/address-autocomplete/configuration/)
  -  [AddressVerification (USPS)](address-verification/)
  -  [Delivery Date and Time](delivery-date-and-time/)
- -  [Firecheckout settings](firecheckout/)
+ -  [**Firecheckout settings**](firecheckout/)
  -  [Order Attachments ⮫](/m1/extensions/order-attachments/#configuration)
  -  [Success Page ⮫](/m1/extensions/checkout-success/backend/)
  -  [Tax/Vat Validation](tax-vat-validation/)
