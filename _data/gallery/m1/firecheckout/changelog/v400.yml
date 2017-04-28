@@ -1,0 +1,32 @@
+- href: /images/m1/firecheckout/changelog/4.0.0/form.png
+  src: /images/m1/firecheckout/changelog/4.0.0/form.png
+  w: 350
+  h: 240
+  title: Form with hidden labels and animated placeholders
+- href: /images/m1/firecheckout/changelog/4.0.0/form-horizontal.png
+  src: /images/m1/firecheckout/changelog/4.0.0/form-horizontal.png
+  w: 350
+  h: 240
+  title: Horizontal form fields style
+- href: /images/m1/firecheckout/layout/tablet.png
+  src: /images/m1/firecheckout/layout/small/tablet.png
+  w: 875
+  h: 983
+  title: New layout for tablet devices
+- href: /images/m1/firecheckout/changelog/4.0.0/login.png
+  src: /images/m1/firecheckout/changelog/4.0.0/login.png
+  w: 350
+  h: 240
+  title: Improved login window
+- href: /images/m1/firecheckout/changelog/4.0.0/smart-layout-large.png
+  src: /images/m1/firecheckout/changelog/4.0.0/smart-layout.png
+  w: 1160
+  h: 790
+  title: >
+    Smart layout: 2columns with sticky summary automatically activated for
+    customer with saved addresses
+- href: /images/m1/firecheckout/changelog/4.0.0/calendar.png
+  src: /images/m1/firecheckout/changelog/4.0.0/calendar.png
+  w: 350
+  h: 240
+  title: New calendar popup

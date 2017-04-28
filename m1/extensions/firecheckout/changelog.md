@@ -7,6 +7,53 @@ category: Firecheckout
 
 # Changelog
 
+### Version 4.0.0
+
+This major update includes a bunch of UI and UX improvements such as
+[modern form styles](), [improved layout for tablet devices](),
+[brand new popup window styles](), [rewritten login popup form](),
+[smart layout feature](), [user-friendly calendar](),
+and much more changes to css styles and javascripts for better flexibility that
+allows to create unique checkout that will perfectly fit your store.
+
+{% include gallery.html images=site.data.gallery.m1.firecheckout.changelog.v400 class="scroll phone-up-2 tablet-up-3 photoswipe" %}
+
+**Major changes**
+
+ -  Fresh look for all firecheckout elements:
+    - Forms, checkboxes and radio buttons
+    - Popup windows
+    - Loader animations
+ -  New layout type: "2 columns with sticky Order Review"
+ -  Smart layout feature, that automatically changes layout to provide best UX
+ -  Tree types of new form styles:
+    - Default form styles
+    - Wide fields
+    - Horizontal form
+ -  Ability to use hidden labels and animated placeholders for address forms
+ -  New user-friendly calendar popup for delivery date and date of birth fields
+
+**Fixes and improvements**
+
+ -  Fixed bug with free shipping coupon and 'Hide other shipping methods' config
+ -  Fixed possible error when merge is enabled: 'TypeError: (intermediate value)
+    is not a function'
+ -  Fixed error, when adding virtual item and free shipping is available
+ -  Fixed logic in DependentFields component
+ -  Improved 'Date of Birth' instant validation
+ -  Small js and css fixes
+
+**Javascript improvements for developers needs**
+
+ -  New Components added:
+    - FC.Sticky to create sticky elements
+    - FC.Utils with commonly used functions
+    - FC.Calendar to create date input fields
+    - FC.ForgotPassword to easily provide forgot-password functionality in any
+      place of firecheckout page
+    - FC.Loader to easily show loading animations on buttons, input elements or
+      globally
+
 ### Version 3.11.2
 
  -  Small PHP and javascript fixes
