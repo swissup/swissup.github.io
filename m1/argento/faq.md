@@ -364,12 +364,12 @@ to restore missing elements:
  -  Override this file in custom theme using our [manual](../theme-customization/complex-changes/)
  -  Find line 149:
     
-    ```js
+    ```JS
     toggler.observe('click', function(e) {
     ```
  -  Change it to:
     
-    ```js
+    ```JS
     toggler.previous().observe('click', function(e) {
     ```
  -  Save. Enjoy.
