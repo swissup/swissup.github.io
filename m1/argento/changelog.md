@@ -13,6 +13,7 @@ category: Argento
 
  -  New animated checkboxes and radio buttons (chrome, safary and mobile
     browsers support with fallback to default styles for other browsers).
+    Read [Argento FAQ](../faq/#how-to-change-checkboxradio-button-color) if you want to know how to customize them.
  -  Fancy stars instead of boring select boxes in Product Review forms.
  -  Significantly improved styles of web forms (according modern trends).
  -  Prodcut tabs with conditions (customer group, product attributes).

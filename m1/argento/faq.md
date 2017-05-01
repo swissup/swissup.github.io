@@ -402,7 +402,7 @@ file according to Argento [customization manual](../theme-customization/complex-
 
 ### How to change checkbox/radio button color
 
-Argento themes have colored checkbox and radio buttons (version of package 1.8.7+). If you want to change that color then you can do this with CSS.
+Argento themes have colored checkbox and radio buttons (version of package 1.8.7+). If you want to change their color then you can do this with CSS.
 
 First you have to create/modify custom.css. You can read more about custom CSS and JS at [Theme customization](../theme-customization/small-changes/#custom-styles-and-javascript) article.
 
