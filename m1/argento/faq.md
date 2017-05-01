@@ -25,6 +25,7 @@ category: Argento
 14. [How to show hidden part of product name at category listing](#how-to-show-hidden-part-of-product-name-at-category-listing)
 15. [How to make mobile menu expand on whole item area click](#how-to-make-mobile-menu-expand-on-whole-item-area-click)
 16. [How to show product SKU on product page](#how-to-show-product-sku-on-product-page)
+17. [How to change checkbox/radio button color](#how-to-change-checkboxradio-button-color)
 
 ### How to disable short header and footer layout?
 
@@ -398,3 +399,21 @@ file according to Argento [customization manual](../theme-customization/complex-
     ```
 
 > You can use some other attribute name applied to product with `->get[ATTRIBUTE]`
+
+### How to change checkbox/radio button color
+
+Argento themes have colored checkbox and radio buttons (version of package 1.8.7+). If you want to change that color then you can do this with CSS.
+
+First you have to create/modify custom.css. You can read more about custom CSS and JS at [Theme customization](../theme-customization/small-changes/#custom-styles-and-javascript) article.
+
+Then add code below to you custom.css file:
+
+```CSS
+input[type="checkbox"]:checked,
+input[type="radio"]:checked {
+    box-shadow: 0 0 0 9px [NEW-HEX-COLOR] inset !important;
+}
+```
+
+Where `[NEW-HEX-COLOR]` you need to replace with hex code of color you want to
+have.
