@@ -7,6 +7,45 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.8.7
+
+**New features**
+
+ -  New animated checkboxes and radio buttons (chrome, safary and mobile
+    browsers support with fallback to default styles for other browsers).
+ -  Fancy stars instead of boring select boxes in Product Review forms.
+ -  Significantly improved styles of web forms (according modern trends).
+ -  Prodcut tabs with conditions (customer group, product attributes).
+ -  SEO Suite 0.5.0 included in package. Current version of SEO Suite has
+    Richsnippets, HTML and XML Sitemap.
+
+**Modules fixes & improvements**
+
+ -  AMP:
+     +  Fixed empty ‘ShopBy’ popup for categories without children and layered
+        navigation
+     +  Improvend allowed tags and attributes filter
+
+ -  AskIt:
+     +  Added canonical URLs to extension pages on store frontend
+     +  Fixed javascript errors at some stores when resources merge and
+        minification enabled
+
+ -  Attribute Pages:
+     +  Improved extension stability (at some stores image resize caused error)
+
+ -  Easyslide
+     +  New slider options to stop slider on mouse hover and enable lazy load
+        feature
+     +  Fixed issue with slider controls on pages with multiple sliders
+
+ -  Easytabs
+     +  Added conditions for prodcut and wdget tabs (customer group and product attributes)
+
+ -  Sold Together
+     +  Added option to reindex orders only for last N days and you can
+        specify value for N in your store system config.
+
 ### Version 1.8.6.1
 
  -  Updated slider styles for each theme to match original styles
