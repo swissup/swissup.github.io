@@ -90,6 +90,18 @@ In order to track and manage image optimization results, please go Templates-Mas
 
 -   In the `Enabled` field select **Yes** to enable the defering \<script\> tags of page content.
 
+### Optimise Css Delivery tab
+
+![Optimise Css Delivery](/images/m1/extensions/pagespeed/config10.png)
+
+-   In the `Enabled` field select **Yes** to enable the [Optimize CSS Delivery](https://developers.google.com/speed/docs/insights/OptimizeCSSDelivery?hl=en) of page content.
+
+-   In the `Enabled LoadCss library` field select **Yes** to enable the [LoadCss js library](https://github.com/filamentgroup/loadCSS) of page content.
+
+-   `Critical Css` is only what the user can see when they first load the page. This means that we only need to load the minimum amount of CSS required to render the top portion of the page across all breakpoints. For the remainder of the CSS, we don’t need to worry as we can load it asynchronously. You can generate your site critical css [here](https://jonassebastianohlsson.com/criticalpathcssgenerator/).
+
+-   In the `Ignore (Critical separated css files)` field specify css files that won’t be optimise delivery.
+
 #### You can also check:
 
 *   [Installation](../installation/)
