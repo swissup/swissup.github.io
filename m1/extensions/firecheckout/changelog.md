@@ -7,6 +7,13 @@ category: Firecheckout
 
 # Changelog
 
+### Version 4.0.1
+
+ -  Sticky component fixes
+ -  Improved third-party themes compatibility
+ -  German locale updated
+ -  Small js fixes
+
 ### Version 4.0.0
 
 This major update includes a bunch of UI and UX improvements such as
