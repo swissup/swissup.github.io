@@ -19,7 +19,13 @@ category: Firecheckout
         }
 
         email.up('li').insert({
-            after: '<li class="wide"><input placeholder="Enter your email again please" class="input-text required-entry validate-both-emails" type="text"></li>'
+            after:
+                '<li class="wide">' +
+                    '<label class="required">Enter your email again please</label>' +
+                    '<div class="input-box">' +
+                        '<input id="billing:email_confirm" placeholder="Enter your email again please *" class="input-text required-entry validate-both-emails" type="text">' +
+                    '</div>' +
+                '</li>'
         });
 
         Validation.add(

@@ -49,7 +49,7 @@ All you need is to call the javascript initialization from firecheckout page.
 
 #### Result:
 
-![Housenumber](https://i.cloudup.com/Xyf-odeu37-3000x3000.png)
+![Housenumber](/images/m1/firecheckout/housenumber/frontend.png)
 
 [custom_js]: /m1/extensions/firecheckout/using-customcss-and-customjs/#add-custom-javascript-at-firecheckout-page "How to use custom.js file"
 [custom_phtml]: /m1/extensions/firecheckout/using-customphtml/ "How to use custom.phtml file"
