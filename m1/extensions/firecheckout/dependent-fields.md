@@ -107,11 +107,15 @@ that will trigger Company and VAT fields to be shown or hidden.
         // code, that will add the radios on the top of the billing address
         $('billing:firstname').up('li').insert({
             before: [
-                '<li class="control" style="padding: 5px 0;">',
-                    '<input type="radio" id="radio_company" name="radio_company_person"/>',
-                    '<label for="radio_company" style="margin: 0 4px">' + Translator.translate('Company') + '</label>',
-                    '<input type="radio" id="radio_person" checked="checked" name="radio_company_person"/>',
-                    '<label for="radio_person" style="margin: 0 4px">' + Translator.translate('Person') + '</label>',
+                '<li class="control">',
+                    '<span style="float: left;margin: 0 4px;">',
+                        '<input type="radio" id="radio_company" name="radio_company_person"/>',
+                        '<label for="radio_company">' + Translator.translate('Company') + '</label>',
+                    '</span>',
+                    '<span style="float: left;margin: 0 4px;">',
+                        '<input type="radio" id="radio_person" checked="checked" name="radio_company_person"/>',
+                        '<label for="radio_person">' + Translator.translate('Person') + '</label>',
+                    '</span>',
                 '</li>'
             ].join('')
         });
