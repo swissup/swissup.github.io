@@ -13,6 +13,7 @@ category: Firecheckout
  -  Improved third-party themes compatibility
  -  German locale updated
  -  Small js fixes
+ -  Updated integration with latest TIG_PostNL version
 
 ### Version 4.0.0
 
