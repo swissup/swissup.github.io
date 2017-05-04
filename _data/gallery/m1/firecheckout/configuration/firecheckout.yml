@@ -1,0 +1,45 @@
+- href: /images/m1/firecheckout/configuration/firecheckout/general.png
+  src: /images/m1/firecheckout/configuration/firecheckout/small/general.png
+  title: General configuration section
+  w: 685
+  h: 1035
+- href: /images/m1/firecheckout/configuration/firecheckout/layout-and-design.png
+  src: /images/m1/firecheckout/configuration/firecheckout/small/layout-and-design.png
+  title: Layout and design configuration
+  w: 685
+  h: 500
+- href: /images/m1/firecheckout/configuration/firecheckout/additional-content.png
+  src: /images/m1/firecheckout/configuration/firecheckout/small/additional-content.png
+  title: Additional content section
+  w: 685
+  h: 240
+- href: /images/m1/firecheckout/configuration/firecheckout/address-form-fields.png
+  src: /images/m1/firecheckout/configuration/firecheckout/small/address-form-fields.png
+  title: Address form field status
+  w: 685
+  h: 385
+- href: /images/m1/firecheckout/configuration/firecheckout/address-fields-sort-order.png
+  src: /images/m1/firecheckout/configuration/firecheckout/small/address-fields-sort-order.png
+  title: Address form fields sort order
+  w: 685
+  h: 385
+- href: /images/m1/firecheckout/configuration/firecheckout/ajax-save-and-reload-rules.png
+  src: /images/m1/firecheckout/configuration/firecheckout/small/ajax-save-and-reload-rules.png
+  title: Ajax save and reload rules section
+  w: 685
+  h: 699
+- href: /images/m1/firecheckout/configuration/firecheckout/terms-and-conditions.png
+  src: /images/m1/firecheckout/configuration/firecheckout/small/terms-and-conditions.png
+  title: Terms and conditions configuration
+  w: 685
+  h: 111
+- href: /images/m1/firecheckout/configuration/firecheckout/firecheckout-on-mobile-devices.png
+  src: /images/m1/firecheckout/configuration/firecheckout/small/firecheckout-on-mobile-devices.png
+  title: Mobile devices section
+  w: 685
+  h: 81
+- href: /images/m1/firecheckout/configuration/firecheckout/shopping-cart.png
+  src: /images/m1/firecheckout/configuration/firecheckout/small/shopping-cart.png
+  title: Shopping cart section settings
+  w: 685
+  h: 240

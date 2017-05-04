@@ -9,14 +9,17 @@ category: Firecheckout
 # Main Configuration
 
 Firecheckout configuration is available at
-_Admin > System > Configuration > TM Checkout > Firecheckout_ page.
+_Admin > System > Configuration > TM Checkout > Firecheckout_.
+
+{% include gallery.html images=site.data.gallery.m1.firecheckout.configuration.firecheckout class="phone-up-2 tablet-up-3 photoswipe scroll" %}
+
+### Contents
+{:.no_toc}
 
 * TOC
 {:toc}
 
 ### General
-
-![General settings](/images/m1/firecheckout/configuration/firecheckout/general.png)
 
 Option              | Possible Values | Description
 :-------------------|:----------------|:-----------
@@ -49,8 +52,6 @@ Show Address Review Block | Yes/No | Show billing and shipping addresses in orde
 
 ### Layout and Design
 
-![Layout and Design settings](/images/m1/firecheckout/configuration/firecheckout/layout-and-design.png)
-
 Option              | Possible Values     | Description
 :-------------------|:--------------------|:-------------------
 **Page Title**      | |
@@ -76,8 +77,6 @@ Hide field labels   | Yes/No | Use animated placeholders instead of labels
 
 ### Additional content
 
-![Additional content settings](/images/m1/firecheckout/configuration/firecheckout/additional-content.png)
-
 Option              | Possible Values     | Description
 :-------------------|:--------------------|:-------------------
 Above form          | Cms Block | Any cms block above the form
@@ -89,8 +88,6 @@ Sidebar bottom | Cms Block | Any cms block below order summary sidebar
 
 ### Address form fields
 
-![Address form fields settings](/images/m1/firecheckout/configuration/firecheckout/address-form-fields.png)
-
 > **Warning!** Before changing some of the fields, be sure that your payment/shipping
 provider does not require them.
 
@@ -98,13 +95,9 @@ Available options: Required, Optional, Hidden
 
 ### Address form fields sort order
 
-![Address form fields sort order settings](/images/m1/firecheckout/configuration/firecheckout/address-fields-sort-order.png)
-
 Move the fields between rows. Up to two fields per one row is supported.
 
 ### Ajax save and reload rules
-
-![Ajax save and reload rules settings](/images/m1/firecheckout/configuration/firecheckout/ajax-save-and-reload-rules.png)
 
 **Save rules**
 
@@ -130,8 +123,6 @@ Setup section dependencies accordiong to your bissness logic.
 
 ### Terms and conditions
 
-![Terms and conditions settings](/images/m1/firecheckout/configuration/firecheckout/terms-and-conditions.png)
-
 Option              | Possible Values     | Description
 :-------------------|:--------------------|:-------------------
 Output Type         | Standard            | Inline output
@@ -140,14 +131,10 @@ Agree text in popup window | Any string value | "Agree" text at the bottom of te
 
 ### Firecheckout on mobile devices
 
-![Mobile settings](/images/m1/firecheckout/configuration/firecheckout/firecheckout-on-mobile-devices.png)
-
 In case of some non-standard logic for mobile users, you may disable
 firecheckout for those users.
 
 ### Shopping cart
-
-![Shopping cart settings](/images/m1/firecheckout/configuration/firecheckout/shopping-cart.png)
 
 Option              | Possible Values     | Description
 :-------------------|:--------------------|:-------------------
