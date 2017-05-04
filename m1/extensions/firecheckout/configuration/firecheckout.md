@@ -90,12 +90,23 @@ Sidebar bottom | Cms Block | Any cms block below order summary sidebar
 
 > **Warning!** Before changing some of the fields, be sure that your payment/shipping
 provider does not require them.
+>
+> Make sure that Zip/Postal Code and State/Province fields settings does not
+> conflict with Magento settings at
+> _Admin > Configuration > General > Countries Options and States Options_
 
-Available options: Required, Optional, Hidden
+Available fields: Company, Address lines, Zip/Postal Code, City, Country,
+State/Province, Phone, Fax.
+
+Available options: Required, Optional, Hidden.
+
 
 ### Address form fields sort order
 
 Move the fields between rows. Up to two fields per one row is supported.
+
+Available fields: Name, Email, Company, Address lines, Zip/Postal Code, City, Country,
+State/Province, Phone, Fax, Vat Number, Gender, Tax/Vat Number, Date of Birth.
 
 ### Ajax save and reload rules
 
