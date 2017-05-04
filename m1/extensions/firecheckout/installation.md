@@ -1,31 +1,35 @@
 ---
 layout: default
-title: Firecheckout Installation
+title: Firecheckout installation instructions
 description: magento firecheckout module installation
 keywords: firecheckout installation, onestep checkout installation
 category: Firecheckout
 ---
 
 
-# Firecheckout installation instructions
+# Installation
 
 Please follow next steps to complete the installation:
 
-1. Navigate to `Admin > Tools > Compilation` and deactivate the compilation
-mode for your store.
-2. Check if your Magento store cache is enabled.
-3. Unpack all files from extension archive into your magento store root directory.
-4. Refresh your magento store cache.
-5. Logout from your store admin and then login back, to refresh your admin user
-access rights.
+ 1. Go to store backend and disable compilation mode
+ 2. Go to your magento store root directory (via FTP or CPanel)
+ 3. Create file `maintenance.flag` in root directory
+ 4. Open your store in browser
 
-* Navigate to `System > Configuration > Templates-Master > Firecheckout` and
-enable extension for any store you need.
+    > You should see the "Service Temporarily Unavailable" page.
+    >
+    > If you don't see this page - probably you are trying to install
+    > extension at wrong magento instance
 
-That's all. Navigate to your store and check how it looks.
+ 5. Unpack all files from extension archive into your magento store root directory
+ 6. Remove `maintenance.flag` file when copy process completed
+ 7. Navigate to _System > Configuration > TM Checkout > Firecheckout_ and
+    enable extension
 
-#### After you install an extension you can go to:
+If you can not find Firecheckout extension in store admin, check cache management
+and refresh cache if it is enabled. Not done yet? Check the store compilation and
+run recompilation if it is enabled.
 
-* [Support](https://swissuplabs.com/contacts/)
-* [Forum](https://swissuplabs.com/magento-forum/)
+#### Next Up
 
+ -  [Configuration](../configuration/)
