@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Easy Banners Installation instructions
-description: How to install EasyBanners on Magento 2 store
+title: Easy Banners Installation from Marketplace
+description: How to install EasyBanners on Magento 2 store from Marketplace
 keywords: easybanner installation
 category: Easy Banners
 ---
 
-# Installation instructions
+# Installation from Marketplace
 
-{% include installation/m2/index.html %}
+{% include installation/m2/marketplace.html %}
 
 ##### Next up
 

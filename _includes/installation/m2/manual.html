@@ -1,0 +1,67 @@
+<h4 id="download-package-from-your-account">
+    1. Download package from your account at
+    {% if include.site %}
+        <a href="https://{{ include.site }}/customer/account/">{{ include.site }}</a>
+    {% else %}
+        our site
+    {% endif %}
+</h4>
+
+{% unless include.site %}
+<p>It should be the site where you bought an extension:</p>
+<ul>
+    <li><a href="https://swissuplabs.com/customer/account/">swissuplabs.com</a></li>
+    <li><a href="http://argentotheme.com/customer/account/">argentotheme.com</a></li>
+</ul>
+{% endunless %}
+
+
+<h4 id="unpack-package-into-magento-root-folder">2. Unpack package into magento root folder</h4>
+
+<blockquote>
+    <p><strong>Warning!</strong></p>
+    <p>Extracted files will overwrite the current files with the same name.
+    Please make sure you have a backup before overwriting your current files.</p>
+</blockquote>
+
+<p>You can upload zip archive and unpack it using shell or cPanel:</p>
+
+<strong>Using shell</strong>
+<ol>
+    <li>Upload zip archive into Magento root folder</li>
+    <li>Run <code>unzip [filename.zip]</code> command</li>
+</ol>
+
+<strong>Using cPanel</strong>
+<ol>
+    <li>Log into cPanel</li>
+    <li>Click on "File Manager" icon</li>
+    <li>Navigate to the Magento 2 root directory</li>
+    <li>Click on "Upload Files"</li>
+    <li>In the popup window navigate to the zip archive</li>
+    <li>Click on the "Okay" or "Save" button to upload the file</li>
+    <li>Select uploaded file</li>
+    <li>Click on the "Extract File Contents" option in the file manager interface</li>
+</ol>
+
+<h4 id="enable-modules-and-run-upgrade-scripts">3. Enable modules and run upgrade scripts</h4>
+
+<ol>
+    <li>Navigate to <i>System > Tools > Сache Management</i> and flush cache.
+    </li>
+    <li><p>Run the following commands in shell (terminal):</p>
+        <pre class="highlight"><code>php bin/magento module:enable\
+    {{ include.modules | replace: ' ', "\<br/>    " }}
+
+<span class="c"># run magento upgrade scripts</span>
+php bin/magento setup:upgrade
+
+<span class="c"># regenerate static content</span>
+rm -rf pub/static/_requirejs var/view_preprocessed pub/static/frontend/ pub/static/adminhtml/
+php bin/magento setup:static-content:deploy [en_US en_GB]
+
+<span class="c"># if you are using di:compilation, you need to run it again:</span>
+rm -rf var/generation var/di
+php bin/magento setup:di:compile</code></pre>
+    </li>
+</ol>

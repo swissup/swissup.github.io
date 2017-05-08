@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Easy Banners Installation instructions
-description: How to install EasyBanners on Magento 2 store
+title: Easy Banners Manual Installation
+description: How to manually install EasyBanners on Magento 2
 keywords: easybanner installation
 category: Easy Banners
 ---
 
-# Installation instructions
+# Manual Installation
 
-{% include installation/m2/index.html %}
+{% include installation/m2/manual.html site="swissuplabs.com" modules="Swissup_Core Swissup_SubscriptionChecker Swissup_Easybanner" %}
 
 ##### Next up
 

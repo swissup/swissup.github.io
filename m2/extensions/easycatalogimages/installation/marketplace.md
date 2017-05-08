@@ -1,14 +1,19 @@
 ---
 layout: default
-title: Easy Catalog Images Installation
-description: magento 2 easy catalog images module installation
-keywords: "magento 2 easy catalog images extension"
+title: Easy Catalog Images Installation from Marketplace
+description: How to install Easy Catalog Images on Magento 2 from Marketplace
+keywords: easycatalogimages installation
 category: EasyCatalogImages
 ---
 
-# Installation instructions
+# Installation from Marketplace
 
-{% include installation/m2/index.html %}
+{% include installation/m2/marketplace.html %}
+
+#### 2. Complete the installation
+
+Proceed to the [step 4](../manual/#complete-the-installation) of manual installation
+instructions to complete the installation.
 
 #### Next up
 
