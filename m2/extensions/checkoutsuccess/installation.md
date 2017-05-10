@@ -6,26 +6,11 @@ keywords: " magento 2 checkout success page extension "
 category: Checkout Success
 ---
 
-# Checkout Success installation instructions
+# Installation instructions
 
-Please follow next steps to complete the installation:
+{% include installation/m2/index.html %}
 
- 1. Unpack extension archive into Magento root folder.
- 2. Run the following commands in terminal:
-
-    ```bash
-    cd <magento_root>
-    bin/magento module:enable\
-        Swissup_Core\
-        Swissup_Checkout\
-        Swissup_SubscriptionChecker\
-        Swissup_CheckoutSuccess
-    bin/magento setup:upgrade
-    ```
-
-That's all. Now you can enable and configure extension in `Stores > Configuration > Swissup Checkout > Success Page`
-
-#### After you install an extension you can go to:
+#### After installing the extension you can go to:
 
 * [Settings][settings]
 
