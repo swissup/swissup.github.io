@@ -6,9 +6,11 @@ keywords: "Facebook Like Button installation"
 category: Facebook Like Button
 ---
 
-# Installation instructions
+# Installation from Marketplace
 
-{% include installation/m2/index.html %}
+{% include installation/m2/marketplace.html %}
+
+That's all. Now you need [Create a New Facebook App][facebook_app] and configure extension in admin panel [Configuration][configuration]
 
 #### After installing the extension you can go to:
 

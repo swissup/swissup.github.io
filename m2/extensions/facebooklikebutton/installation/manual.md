@@ -6,9 +6,19 @@ keywords: "Facebook Like Button installation"
 category: Facebook Like Button
 ---
 
-# Installation instructions
+# Manual Installation
 
-{% include installation/m2/index.html %}
+{% include installation/m2/manual.html site="swissuplabs.com" modules="Swissup_Core Swissup_Fblike" %}
+
+#### 4. Add Like Button To Catalog
+
+add code to any place in catalog list.phtml:
+
+```php
+<?php echo $this->helper('Swissup\Fblike\Helper\Like')->getProductLike($_product); ?>
+```
+
+That's all. Now you need [Create a New Facebook App][facebook_app] and configure extension in admin panel [Configuration][configuration]
 
 #### After installing the extension you can go to:
 
