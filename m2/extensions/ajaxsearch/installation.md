@@ -6,6 +6,9 @@ keywords: "Ajaxsearch installation"
 category: Ajaxsearch
 ---
 
+# Installation instructions
+
+{% include installation/m2/index.html %}
 # Ajaxsearch installation instructions
 
 Please follow next steps to complete the installation:

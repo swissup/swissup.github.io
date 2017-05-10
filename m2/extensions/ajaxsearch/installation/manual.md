@@ -1,0 +1,12 @@
+---
+layout: default
+title: Ajaxsearch installation
+description: Ajaxsearch installation instructions
+keywords: "Ajaxsearch installation"
+category: Ajaxsearch
+---
+
+# Manual Installation
+
+{% include installation/m2/manual.html site="swissuplabs.com" modules="Swissup_Core Swissup_Checkout Swissup_SubscriptionChecker Swissup_AddressAutocomplete" %}
+
