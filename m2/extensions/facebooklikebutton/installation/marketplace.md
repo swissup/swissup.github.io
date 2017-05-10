@@ -10,6 +10,14 @@ category: Facebook Like Button
 
 {% include installation/m2/marketplace.html %}
 
+#### 2. Add Like Button To Catalog
+
+Add code to any place in catalog list.phtml:
+
+```php
+<?php echo $this->helper('Swissup\Fblike\Helper\Like')->getProductLike($_product); ?>
+```
+
 That's all. Now you need [Create a New Facebook App][facebook_app] and configure extension in admin panel [Configuration][configuration]
 
 #### After installing the extension you can go to:
