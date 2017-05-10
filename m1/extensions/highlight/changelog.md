@@ -8,6 +8,12 @@ category: Highlight
 
 # Changelog
 
+### Version 2.6.2
+
+ -  Fixed compatibility with [SlickCarousel](/m1/extensions/slick-carousel/) module
+ -  [SEO HTML Sitemap](/m1/extensions/seo-html-sitemap/) integration added
+ -  [TM_Amp](/m1/extensions/amp/) support added
+
 ### Version 2.6.0
 
  -  Improved widget interface
