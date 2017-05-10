@@ -6,9 +6,9 @@ keywords: "Email installation"
 category: Email
 ---
 
-# Installation instructions
+# Manual Installation
 
-{% include installation/m2/index.html %}
+{% include installation/m2/manual.html site="swissuplabs.com" modules="Swissup_Email" %}
 
 ##### Next up
 
