@@ -12,4 +12,5 @@ category: Address Field Manager
 
 #### 2. Complete the installation
 
-Navigate to _Stores > Configuration_ and enter your [api key](/m2/extensions/address-field-manager/get-api-key/).
+Navigate to Swissup > Address Field Manager and
+[change field values](/m2/extensions/address-field-manager/usage/) according to your needs.

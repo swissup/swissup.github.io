@@ -6,9 +6,9 @@ keywords: ajax layered navigation installation
 category: Ajax Layered Navigation
 ---
 
-# Installation instructions
+# Installation from Marketplace
 
-{% include installation/m2/index.html %}
+{% include installation/m2/marketplace.html %}
 
 #### Next up
 
