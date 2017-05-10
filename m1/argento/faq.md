@@ -361,7 +361,7 @@ to restore missing elements:
 
 ![Mobile menu click](/images/m1/themes/argento/faq/mobile-menu-click.gif)
 
- -  Please, find file `skin/frontend/base/default/js/tm/navigationpro.js`
+ -  Please, find file `skin/frontend/base/default/tm/navigationpro/js/navpro.js`
  -  Override this file in custom theme using our [manual](../theme-customization/complex-changes/)
  -  Find line 149:
     
