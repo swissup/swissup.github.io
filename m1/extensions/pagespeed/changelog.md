@@ -7,6 +7,11 @@ category: Page Speed
 
 # Changelog
 
+### Version 1.2.7
+
+ -  Fix defer-js package version
+ -  Add js files ';' delimiter
+
 ### Version 1.2.6
 
  -  Cocoen image compare js lib was added
