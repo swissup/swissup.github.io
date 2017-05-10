@@ -6,7 +6,6 @@ keywords: magento2 delivery-date installation
 category: Delivery Date
 ---
 
-# Installation instructions
+# Installation from Marketplace
 
-{% include installation/m2/index.html %}
-
+{% include installation/m2/marketplace.html %}
