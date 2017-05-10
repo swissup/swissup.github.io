@@ -8,9 +8,9 @@ keywords: >
 category: Easy Slider
 ---
 
-# Installation instructions
+# Installation from Marketplace
 
-{% include installation/m2/index.html %}
+{% include installation/m2/marketplace.html %}
 
 #### After installing the extension you can go to:
 * [Admin interfaces](../interfaces/)
