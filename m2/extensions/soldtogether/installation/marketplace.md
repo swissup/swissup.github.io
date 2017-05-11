@@ -10,7 +10,7 @@ category: SoldTogether
 
 {% include installation/m2/marketplace.html %}
 
-###### After installing the extension you can go to:
+    ###### After installing the extension you can go to:
 
     * [Support](https://swissuplabs.com/contacts/)
     * [Forum](https://swissuplabs.com/magento-forum/)
