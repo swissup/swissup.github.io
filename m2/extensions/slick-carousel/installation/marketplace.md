@@ -6,9 +6,13 @@ keywords: slick carousel installation, slider installation
 category: SlickCarousel
 ---
 
-# Installation instructions
+# Installation from Marketplace
 
-{% include installation/m2/index.html %}
+{% include installation/m2/marketplace.html %}
+
+#### 2. Complete the installation
+
+Go ahead and [create your first slick carousel](../usage/#basic-usage).
 
 ##### Next up
 
