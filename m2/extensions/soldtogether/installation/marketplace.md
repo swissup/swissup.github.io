@@ -12,5 +12,5 @@ category: SoldTogether
 
 ###### After installing the extension you can go to:
 
-    * [Support](https://swissuplabs.com/contacts/)
-    * [Forum](https://swissuplabs.com/magento-forum/)
+* [Support](https://swissuplabs.com/contacts/)
+* [Forum](https://swissuplabs.com/magento-forum/)

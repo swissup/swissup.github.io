@@ -6,9 +6,13 @@ keywords: " magento testimonials extension "
 category: Testimonials
 ---
 
-# Installation instructions
+# Installation from Marketplace
 
-{% include installation/m2/index.html %}
+{% include installation/m2/marketplace.html %}
+
+#### 2. Complete the installation
+
+Now you can add testimonials from admin in [Testimonials Grid][testimonials_grid] and place widgets [Widgets and Blocks][widgets_and_blocks]
 
 #### After installing the extension you can go to:
 
