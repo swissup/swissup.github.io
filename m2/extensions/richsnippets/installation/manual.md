@@ -8,9 +8,9 @@ rich snippets tool"
 category: RichSnippets
 ---
 
-# Installation instructions
+# Manual Installation
 
-{% include installation/m2/index.html %}
+{% include installation/m2/manual.html site="swissuplabs.com" modules="Swissup_Core Swissup_SubscriptionChecker Swissup_RichSnippets" %}
 
 ###### After you install an extension you can go to:
 

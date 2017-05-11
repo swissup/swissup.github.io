@@ -8,9 +8,9 @@ rich snippets tool"
 category: RichSnippets
 ---
 
-# Installation instructions
+# Installation from Marketplace
 
-{% include installation/m2/index.html %}
+{% include installation/m2/marketplace.html %}
 
 ###### After you install an extension you can go to:
 
