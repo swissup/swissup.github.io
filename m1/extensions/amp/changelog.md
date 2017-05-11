@@ -7,6 +7,24 @@ category: Accelerated Mobile Pages
 sidebar: sidebar.md
 ---
 
+### Version 1.2.0
+
+**Fixes and Improvements**
+
+ -  Fixed non-working add to cart, in case if secure url is used
+    but not for the product page
+ -  Added support for products lists at homepage
+ -  Added support for buttons with `onclick="setLocation"` attribute
+ -  Better compatibility with third-party product listings
+
+**Developer improvements**
+
+ -  Added `tmamp_` prefixed layout
+    [handles](/m1/extensions/amp/devdocs/#amp-specific-layout-update)
+    to use in third-party modules
+ -  Added ability to [add additional supported pages](/m1/extensions/amp/devdocs/#add-amp-support-for-the-third-party-page)
+    from third-party module observer
+
 ### Version 1.1.2
 
  -  Fixed empty 'ShopBy' popup for categories without children and layered

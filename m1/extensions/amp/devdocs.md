@@ -21,8 +21,10 @@ update and `news/list` block that you want to render at AMP site.
 
 - [Blocks and layout updates whitelist](#blocks-and-layout-updates-whitelist)
 - [AMP specific template](#amp-specific-template)
+- [AMP specific layout update](#amp-specific-layout-update)
 - [Include module styles](#include-module-styles)
 - [Include AMP component](#include-amp-component)
+- [Add AMP support for the third-party page](#add-amp-support-for-the-third-party-page)
 - [Working examples of third-party modules](#working-examples-of-third-party-modules)
     - [Next Up](#next-up)
 
@@ -72,8 +74,60 @@ attribute that is used to render elements in AMP. Example:
 ```
 
 However if you really want to use specific markup in template for AMP site, you
-can place copy of your original template into `app/design/frontend/tmamp/default/[../..]`
-folder and change that copy.
+can choose one of the following ways to accomplish your needs:
+
+ -  Place copy of your original template into `app/design/frontend/tmamp/default/[../..]`
+    folder and change that copy
+ -  Or you can add [specific xml layout update](#amp-specific-layout-update) for
+    the amp theme with `tmamp_` prefixed handle
+
+### AMP specific layout update
+
+All page handles are duplicated with with `tmamp_` prefix, when AMP theme is used.
+
+For example, when your module using the following layout for desktop theme:
+
+```xml
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <default>
+        <reference name="top.search">
+            <action method="setTemplate">
+                <template>mymodule/search.phtml</template>
+            </action>
+        </reference>
+    </default>
+    <catalog_category_layered>
+        <reference name="product_list">
+            <action method="setTemplate">
+                <template>mymodule/product/list.phtml</template>
+            </action>
+        </reference>
+    </catalog_category_layered>
+</layout>
+```
+
+You can add the following update for tmamp theme only:
+
+```xml
+<?xml version="1.0"?>
+<layout version="0.1.0">
+    <tmamp_default>
+        <reference name="top.search">
+            <action method="setTemplate">
+                <template>mymodule/search_tmamp.phtml</template>
+            </action>
+        </reference>
+    </tmamp_default>
+    <tmamp_catalog_category_layered>
+        <reference name="product_list">
+            <action method="setTemplate">
+                <template>mymodule/product/list_tmamp.phtml</template>
+            </action>
+        </reference>
+    </tmamp_catalog_category_layered>
+</layout>
+```
 
 ### Include module styles
 
@@ -137,6 +191,50 @@ instructions:
 
 That's all. Now AMP will include this resource automatically, when your block
 will be rendered.
+
+### Add AMP support for the third-party page
+
+In order to add your page into supported list you should add the following
+event listener in your config.xml:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <global>
+        <events>
+            <tmamp_prepare_pages_config>
+                <observers>
+                    <my_module>
+                        <class>my_module/observer</class>
+                        <method>preparePagesForTmamp</method>
+                    </highlight>
+                </my_module>
+            </tmamp_prepare_pages_config>
+        </events>
+    </global>
+</config>
+```
+
+And add `preparePagesForTmamp` implementation:
+
+```php
+<?php
+
+class My_Module_Model_Observer
+{
+    public function preparePagesForTmamp($observer)
+    {
+        $pages = $observer->getPages();
+        $optionArray = $pages->getData();
+        $optionArray['mymodule_index_index'] = Mage::helper('mymodule')->__('My module');
+        $pages->setData($optionArray);
+    }
+}
+```
+
+You're done. The page will be rendered in AMP mode in case if you are using AMP
+for all supported pages. Otherwise, you need to enable your page in AMP
+[configuration](/m1/extensions/amp/configuration/#general).
 
 ### Working examples of third-party modules
 
