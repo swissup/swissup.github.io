@@ -32,23 +32,28 @@ update and `news/list` block that you want to render at AMP site.
 
 ### Blocks and layout updates whitelist
 
-Open your module `config.xml` and add whitelist section inside "tmamp" scope:
+In order to prevent broken AMP markup, all third-party blocks and layout updates
+are skipped when AMP theme is used.
+If your module is AMP-friendly, you need to tell AMP about that:
+open `Mymodule/etc` folder and create `tmamp.xml` file with following content:
 
 ```xml
-<tmamp>
-    <whitelist>
-        <layout_updates>
-            <yournamespace>
-                <news>yournamespace_news.xml</news>
-            </yournamespace>
-        </layout_updates>
-        <block_types>
-            <yournamespace>
-                <news>news/list</news>
-            </yournamespace>
-        </block_types>
-    </whitelist>
-</tmamp>
+<config>
+    <tmamp>
+        <whitelist>
+            <layout_updates>
+                <mymodule>
+                    <xml>mymodule_news.xml</xml>
+                </mymodule>
+            </layout_updates>
+            <block_types>
+                <mymodule>
+                    <page>mymodule_news/list</page>
+                </mymodule>
+            </block_types>
+        </whitelist>
+    </tmamp>
+</config>
 ```
 
 That's all. Now your layout update instructions will be readed by AMP module
@@ -131,22 +136,25 @@ You can add the following update for tmamp theme only:
 
 ### Include module styles
 
-In case if you need to apply some extra styles to your block, open your module
-`config.xml` again and add additional includes instructions:
+In case if you need to apply some extra styles to your block, open `Mymodule/etc`
+folder and create `tmamp.xml` file if it's not there. Now add additional includes
+instructions:
 
 ```xml
-<tmamp>
-    <includes>
-        <blocks>
-            <Yournamespace_News_Block_List>
-                <styles>
-                    <!-- Inlude tmamp.scss from skin/frontend/base/default/yournamespace/news/css folder -->
-                    <news>yournamespace/news/css/tmamp</news>
-                </styles>
-            </Yournamespace_News_Block_List>
-        </blocks>
-    </includes>
-</tmamp>
+<config>
+    <tmamp>
+        <includes>
+            <blocks>
+                <Yournamespace_News_Block_List>
+                    <styles>
+                        <!-- Inlude tmamp.scss from skin/frontend/base/default/yournamespace/news/css folder -->
+                        <news>yournamespace/news/css/tmamp</news>
+                    </styles>
+                </Yournamespace_News_Block_List>
+            </blocks>
+        </includes>
+    </tmamp>
+</config>
 ```
 
 We recommend to use `@extend` directives in your scss in order to serve compact
@@ -163,30 +171,57 @@ to listing, don't write much, use extend feature:
     &-title {
         @extend %listing-item-title;
     }
+
+    .actionbar {
+        @extend %actionbar;
+    }
 }
 ```
+
+You can add the styles from layout update xml also:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<layout version="0.1.0">
+    <tmamp_mymodule_index_index>
+        <reference name="tmamp.styles">
+            <!-- Inlude tmamp.scss from skin/frontend/base/default/yournamespace/news/css folder -->
+            <action method="addItem"><name>yournamespace/news/css/tmamp</name></action>
+        </reference>
+    </tmamp_mymodule_index_index>
+</layout>
+```
+
+The difference between tmamp.xml and layout update xml is that in first case
+styles will be included if the block was rendered. In the second case styles will
+be always incuded despite of which blocks where rendered on the page.
+
+> The first approach is recommended as it will skip styles that is not needed on
+> the page.
 
 ### Include AMP component
 
 In case if you need to activate one of [AMP components][amp_components] for your
-block, open your module `config.xml` again and add additional includes
-instructions:
+block, open `Mymodule/etc` folder and create `tmamp.xml` file if it's not there.
+Now add additional includes instructions:
 
 ```xml
-<tmamp>
-    <includes>
-        <blocks>
-            <Yournamespace_News_Block_List>
-                <scripts>
-                    <carousel>
-                        <custom-element>amp-carousel</custom-element>
-                        <src>https://cdn.ampproject.org/v0/amp-carousel-0.1.js</src>
-                    </carousel>
-                </scripts>
-            </Yournamespace_News_Block_List>
-        </blocks>
-    </includes>
-</tmamp>
+<config>
+    <tmamp>
+        <includes>
+            <blocks>
+                <Yournamespace_News_Block_List>
+                    <scripts>
+                        <carousel>
+                            <custom-element>amp-carousel</custom-element>
+                            <src>https://cdn.ampproject.org/v0/amp-carousel-0.1.js</src>
+                        </carousel>
+                    </scripts>
+                </Yournamespace_News_Block_List>
+            </blocks>
+        </includes>
+    </tmamp>
+</config>
 ```
 
 That's all. Now AMP will include this resource automatically, when your block
