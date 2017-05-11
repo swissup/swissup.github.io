@@ -8,6 +8,11 @@ category: Helpmate
 
 # Changelog
 
+### Version 1.6.9
+
+ - Fix not show attachments bug
+ - Improved attachments rendering on backend
+
 ### Version 1.6.8
 
  - Add opened tickets count in admin header
