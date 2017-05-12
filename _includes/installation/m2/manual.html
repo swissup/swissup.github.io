@@ -50,17 +50,21 @@
     <li>Navigate to <i>System > Tools > Сache Management</i> and flush cache.
     </li>
     <li><p>Run the following commands in shell (terminal):</p>
-        <pre class="highlight"><code>php bin/magento module:enable\
+        <pre class="highlight"><code><span class="c"># 1. Enable new modules</span>
+php bin/magento module:enable\
     {{ include.modules | replace: ' ', "\<br/>    " }}
 
-<span class="c"># run magento upgrade scripts</span>
+<span class="c"># 2. Run magento upgrade scripts</span>
 php bin/magento setup:upgrade
 
-<span class="c"># regenerate static content</span>
+<span class="c"># 3. Regenerate static content</span>
 rm -rf pub/static/_requirejs var/view_preprocessed pub/static/frontend/ pub/static/adminhtml/
-php bin/magento setup:static-content:deploy [en_US en_GB]
+<span class="c"># run deploy command for en_US locale:</span>
+php bin/magento setup:static-content:deploy
+<span class="c"># or you can pass specific locales:</span>
+php bin/magento setup:static-content:deploy en_US en_GB
 
-<span class="c"># if you are using di:compilation, you need to run it again:</span>
+<span class="c"># 4. If you are using di:compilation, you need to run it again</span>
 rm -rf var/generation var/di
 php bin/magento setup:di:compile</code></pre>
     </li>
