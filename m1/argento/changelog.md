@@ -16,9 +16,9 @@ category: Argento
     Read [Argento FAQ](../faq/#how-to-change-checkboxradio-button-color) if you want to know how to customize them.
  -  Fancy stars instead of boring select boxes in Product Review forms.
  -  Significantly improved styles of web forms (according modern trends).
- -  Prodcut tabs with conditions (customer group, product attributes).
+ -  Product tabs with conditions (customer group, product attributes).
  -  SEO Suite 0.5.0 included in package. Current version of SEO Suite has
-    Richsnippets, HTML and XML Sitemap.
+    RichSnippets, HTML and XML Sitemap.
 
 **Modules fixes & improvements**
 
