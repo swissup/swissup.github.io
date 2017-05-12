@@ -26,7 +26,7 @@ category: Argento
 15. [How to make mobile menu expand on whole item area click](#how-to-make-mobile-menu-expand-on-whole-item-area-click)
 16. [How to show product SKU on product page](#how-to-show-product-sku-on-product-page)
 17. [How to change checkbox/radio button color](#how-to-change-checkboxradio-button-color)
-18. [Why disabled extensions are still vesible at frontend?](#why-disabled-extensions-are-still-vesible-at-frontend)
+18. [Why disabled extensions are still visible at frontend?](#why-disabled-extensions-are-still-visible-at-frontend)
 
 ### How to disable short header and footer layout?
 
@@ -419,7 +419,7 @@ input[type="radio"]:checked {
 Where `[NEW-HEX-COLOR]` you need to replace with hex code of color you want to
 have.
 
-### Why disabled extensions are still vesible at frontend?
+### Why disabled extensions are still visible at frontend?
 
 That is a common report from our users. When they disable i.e. **Frequintly bought together**
 extension at admin, but it's still visible at product pages.
