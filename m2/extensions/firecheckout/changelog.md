@@ -8,6 +8,13 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.5.2
+
+ -  Improved compatibility with third-party modules
+ -  Fixed order placing for iframe based payments
+ -  Added payment form data restore, after ajax reload
+ -  Fixed possible notice about undifined 'handle' variable
+
 ### Version 1.5.1
 
  -  Added additional `less` variables to simlify section numbers and blocks
