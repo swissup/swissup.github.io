@@ -7,6 +7,17 @@ category: Firecheckout
 
 # Changelog
 
+### Version 4.0.2
+
+ -  Sugnificant improvements into email/password autofill on iMac and iPad
+    devices, when using onecolumn mode (Safari and Chrome browsers)
+ -  Fixed possible "password didn't match error", when using hidden registration mode
+ -  Improved keyboard navigation through the firecheckout form in onecolumn mode
+ -  Added design for disabled form elements
+ -  Small improvements into email validation at the first step of onecolumn mode
+ -  Fixed "Registration is required" mode, when using onecolumn mode
+ -  Small css fixes
+
 ### Version 4.0.1
 
  -  Sticky component fixes
