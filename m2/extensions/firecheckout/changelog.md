@@ -8,6 +8,11 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.5.3
+
+ -  Fixed issue, when error is not displayed to the customer, but a redirect to
+    shopping cart is performed instead
+
 ### Version 1.5.2
 
  -  Improved compatibility with third-party modules
