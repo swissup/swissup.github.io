@@ -7,9 +7,27 @@ category: Firecheckout
 
 # Changelog
 
+### Version 4.1.0
+
+**Major changes**
+
+ -  Major update to the RTL support. Now all layout modes are perfectly supported.
+
+    > Read this [short guide](/m1/extensions/firecheckout/troubleshooting/#rtl-styles-are-not-applied)
+    > on how to force RTL styles, in case if they are not applied automatically.
+
+ -  Improved third-party themes compatibility
+
+**Third-party modules**
+
+ -  Hps_Securesubmit integration added
+ -  Payolution birthday fields validation fixed
+ -  Fooman_DpsPro integration added
+ -  Dhl_Versenden integration added
+
 ### Version 4.0.2
 
- -  Sugnificant improvements into email/password autofill on iMac and iPad
+ -  Significant improvements into email/password autofill on iMac and iPad
     devices, when using onecolumn mode (Safari and Chrome browsers)
  -  Fixed possible "password didn't match error", when using hidden registration mode
  -  Improved keyboard navigation through the firecheckout form in onecolumn mode

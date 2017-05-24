@@ -7,6 +7,11 @@ category: Accelerated Mobile Pages
 sidebar: sidebar.md
 ---
 
+### Version 1.2.1
+
+ -  Border attribute added to blacklist
+ -  Fixed compatibility with Magento < 1.9.2 that was broken in 1.2.0 update
+
 ### Version 1.2.0
 
 **Fixes and Improvements**

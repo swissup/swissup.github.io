@@ -5,10 +5,10 @@ description: Firecheckout and third-party modules
 keywords: >
     firecheckout, supported modules, third-party modules,
     firecheckout payment methods, firecheckout shipping methods,
-    2Checkout_Payment, Braintree_Payments, Craig_Tco,
-    Ebizmarts_SagepaymentsPro,
+    2Checkout_Payment, Braintree_Payments, Craig_Tco, Dhl_Versenden,
+    Ebizmarts_SagepaymentsPro, Fooman_DpsPro, Hps_Securesubmit,
     IntellectLabs_Stripe, Itabs_Debit,IWD_OPC_Signature, Klarna_KlarnaPaymentModule,
-    Netresearch_Billsafe, Netresearch_OPS, Paymill, Phoenix_Ipayment,
+    Netresearch_Billsafe, Netresearch_OPS, Paymill, Payolution, Phoenix_Ipayment,
     Phoenix_Wirecardcheckout, Radweb_Stripe, SVMPayment, TemplateTag_Stripe,
     Vaimo_Klarna, Advox_Inpost, Aicod_Italy, Amasty_Deliverydate,
     Bysoft_Relaypoint, Dhl_Magentolws, DPD_Shipping, IrvineSystems_Deliverydate,
@@ -54,8 +54,10 @@ additional modifications.
 - [Customweb_PayUnityCw](customweb-payunitycw/)
 - Ebizmarts_SagepaymentsPro
 - [Ebizmarts_SagepaySuite](ebizmarts-sagepaysuite/)
+- Fooman_DpsPro
 - [Gene_Braintree](gene-braintree/)
 - [HeidelpayCD_Edition](heidelpaycd-edition/)
+- Hps_Securesubmit
 - IntellectLabs_Stripe
 - Itabs_Debit
 - [Iways_PayPalPlus](iways-paypalplus/)
@@ -65,6 +67,7 @@ additional modifications.
 - Netresearch_Billsafe
 - Netresearch_OPS
 - Paymill
+- Payolution
 - [Payone_Core](payone-core/)
 - Phoenix_Ipayment
 - Phoenix_Wirecardcheckout
@@ -85,6 +88,7 @@ additional modifications.
 - Bysoft_Relaypoint
 - [Dhl_Account](dhl_account/)
 - Dhl_Magentolws
+- Dhl_Versenden
 - DPD_Shipping
 - [Emjainteractive_ShippingOption](emjainteractive-shippingoption/)
 - [Fumo_JapanPost](fumo-japanpost/)

@@ -10,8 +10,14 @@ category: Firecheckout
 
 # Troubleshooting
 
- 1. [Free shipping is missing](#free-shipping-is-missing)
- 2. [Tax is not applied, when changing address](#tax-is-not-applied-when-changing-address)
+<!-- MarkdownTOC -->
+
+- [Free shipping is missing](#free-shipping-is-missing)
+- [Tax is not applied, when changing address](#tax-is-not-applied-when-changing-address)
+- [Double tax calculation](#double-tax-calculation)
+- [RTL styles are not applied](#rtl-styles-are-not-applied)
+
+<!-- /MarkdownTOC -->
 
 ### Free shipping is missing
 
@@ -58,4 +64,21 @@ index 4a0f5106a..ccd84054d 100644
                      </msrp>
                  </totals>
                  <nominal_totals>
+```
+
+### RTL styles are not applied
+
+RTL styles will be automatically applied if one of the following conditions
+are met:
+
+ -  `dir=rtl` attribute is used
+ -  `rtl` class name added to the body or html element
+
+If it does not, but you want to activate RTL styles -
+create [custom.js](/m1/extensions/firecheckout/using-customcss-and-customjs/)
+file and add the following code inside:
+
+```js
+FC.Rtl._isRtl = true;
+FC.Rtl.init();
 ```
