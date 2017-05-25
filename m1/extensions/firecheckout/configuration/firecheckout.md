@@ -68,6 +68,7 @@ Layout type         | 1 column | 1 column step-by-step layout
                     | 3 columns | Address in the first column, shipping and payment in the second and order summary in the third
 Use Smart Layout    | Yes/No | Automatically convert 2-columns layout into "2 columns with sticky order review" for customers with saved addresses
 Use Compact Layout  | Yes/No | Use empty layout withour header and footer blocks
+Top Offset for Sticky Elements  | Any numeric value | Use it when your theme has sticky header and it covers part of sticky element (Sticky Sidebar in 1-column mode or Sticky Order Review in smart layout and 2-columns with Sticky Review modes)
 **Form styles**     | |
 Add "filled" class name to fully filled forms | Yes/No | Add class name for the each of "Address", "Shipping", "Payment" and "Order Review" sections
 Form fields style   | Default | Use settings of "Address form fields sort order" config section
