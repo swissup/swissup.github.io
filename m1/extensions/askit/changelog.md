@@ -33,6 +33,11 @@ gallery:
 
 # AskIt Changelog
 
+### Version 2.3.8
+
+ -  Captcha model check fix
+ -  Fix create spam empty question bug
+
 ### Version 2.3.7
 
  -  Add canonical url
