@@ -78,6 +78,7 @@ Askit module is integrated with Akismet service,that will stop questions spam. T
 
  *  Enable Gravatar integrity - select Yes to allow the display of avatar
     by customer email.
+![Integration Settings](/images/m2/askit/assign-config.png)
 
 ### Email Settings section
 
