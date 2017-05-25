@@ -43,6 +43,7 @@ Firecheckout includes a huge amount of configurable additional possibilities:
  -  [Customization friendly](/m1/extensions/firecheckout/using-customcss-and-customjs/)
  -  [Dependent fields](dependent-fields/)
  -  [Housenumber](housenumber/)
+ -  RTL compatible
  -  Fully compatible with Magento EE features:
     - Giftcards
     - Customer balance

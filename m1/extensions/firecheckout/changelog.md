@@ -9,9 +9,14 @@ category: Firecheckout
 
 ### Version 4.1.0
 
+This version includes major update for RTL styles. Now all layout modes are
+perfectly supported.
+
+{% include gallery.html images=site.data.gallery.m1.firecheckout.changelog.v410 class="phone-up-2 tablet-up-3 photoswipe scroll" %}
+
 **Major changes**
 
- -  Major update to the RTL support. Now all layout modes are perfectly supported.
+ -  RTL support added
 
     > Read this [short guide](/m1/extensions/firecheckout/troubleshooting/#rtl-styles-are-not-applied)
     > on how to force RTL styles, in case if they are not applied automatically.

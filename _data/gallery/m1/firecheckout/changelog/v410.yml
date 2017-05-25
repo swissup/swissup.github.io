@@ -1,0 +1,15 @@
+- href: /images/m1/firecheckout/changelog/4.1.0/rtl-2columns.png
+  src: /images/m1/firecheckout/changelog/4.1.0/small/rtl-2columns.png
+  title: Firecheckout with RTL theme
+  w: 1215
+  h: 1185
+- href: /images/m1/firecheckout/changelog/4.1.0/rtl-2columns-sticky.png
+  src: /images/m1/firecheckout/changelog/4.1.0/small/rtl-2columns-sticky.png
+  title: Two columns with sticky sidebar layout on the RTL theme
+  w: 1215
+  h: 1040
+- href: /images/m1/firecheckout/changelog/4.1.0/rtl-1column.png
+  src: /images/m1/firecheckout/changelog/4.1.0/small/rtl-1column.png
+  title: Onecolumn layout with RTL theme
+  w: 775
+  h: 730
