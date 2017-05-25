@@ -21,6 +21,8 @@ _Admin > System > Configuration > TM Checkout > Firecheckout_.
 
 ### General
 
+[View Screenshot](#&gid=1&pid=1)
+
 Option              | Possible Values | Description
 :-------------------|:----------------|:-----------
 Enabled             | Yes/No          | Enable/Disable firecheckout module
@@ -52,6 +54,8 @@ Show Address Review Block | Yes/No | Show billing and shipping addresses in orde
 
 ### Layout and Design
 
+[View Screenshot](#&gid=1&pid=2)
+
 Option              | Possible Values     | Description
 :-------------------|:--------------------|:-------------------
 **Page Title**      | |
@@ -78,6 +82,8 @@ Hide field labels   | Yes/No | Use animated placeholders instead of labels
 
 ### Additional content
 
+[View Screenshot](#&gid=1&pid=3)
+
 Option              | Possible Values     | Description
 :-------------------|:--------------------|:-------------------
 Above form          | Cms Block | Any cms block above the form
@@ -88,6 +94,8 @@ Sidebar top | Cms Block | Any cms block above order summary sidebar
 Sidebar bottom | Cms Block | Any cms block below order summary sidebar
 
 ### Address form fields
+
+[View Screenshot](#&gid=1&pid=4)
 
 > **Warning!** Before changing some of the fields, be sure that your payment/shipping
 provider does not require them.
@@ -104,12 +112,16 @@ Available options: Required, Optional, Hidden.
 
 ### Address form fields sort order
 
+[View Screenshot](#&gid=1&pid=5)
+
 Move the fields between rows. Up to two fields per one row is supported.
 
 Available fields: Name, Email, Company, Address lines, Zip/Postal Code, City, Country,
 State/Province, Phone, Fax, Vat Number, Gender, Tax/Vat Number, Date of Birth.
 
 ### Ajax save and reload rules
+
+[View Screenshot](#&gid=1&pid=6)
 
 **Save rules**
 
@@ -135,6 +147,8 @@ Setup section dependencies accordiong to your bissness logic.
 
 ### Terms and conditions
 
+[View Screenshot](#&gid=1&pid=7)
+
 Option              | Possible Values     | Description
 :-------------------|:--------------------|:-------------------
 Output Type         | Standard            | Inline output
@@ -143,10 +157,14 @@ Agree text in popup window | Any string value | "Agree" text at the bottom of te
 
 ### Firecheckout on mobile devices
 
+[View Screenshot](#&gid=1&pid=8)
+
 In case of some non-standard logic for mobile users, you may disable
 firecheckout for those users.
 
 ### Shopping cart
+
+[View Screenshot](#&gid=1&pid=9)
 
 Option              | Possible Values     | Description
 :-------------------|:--------------------|:-------------------
