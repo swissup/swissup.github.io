@@ -8,6 +8,11 @@ category: Helpmate
 
 # Changelog
 
+### Version 1.7.0
+
+ - Fix lost guest email bug
+ - Improved attachments rendering
+
 ### Version 1.6.9
 
  - Fix not show attachments bug
