@@ -211,4 +211,10 @@
     if (hashData.pid && hashData.gid) {
         openPhotoSwipe(hashData.pid, galleryElements[hashData.gid - 1], true, true);
     }
+    window.addEventListener('hashchange', function() {
+        var hashData = photoswipeParseHash();
+        if (hashData.pid && hashData.gid) {
+            openPhotoSwipe(hashData.pid, galleryElements[hashData.gid - 1], true, true);
+        }
+    }, false);
 })('.photoswipe');
