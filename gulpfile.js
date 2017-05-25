@@ -22,7 +22,6 @@ gulp.task('js', function () {
         'bower_components/lunr.js/lunr.min.js',
         'bower_components/photoswipe/dist/photoswipe.min.js',
         'bower_components/photoswipe/dist/photoswipe-ui-default.min.js',
-        'bower_components/lunr.js/lunr.min.js',
         'js/*'
     ];
     var local = filter('js/*.js', {restore: true});
