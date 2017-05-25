@@ -16,6 +16,9 @@ category: Firecheckout
     > Read this [short guide](/m1/extensions/firecheckout/troubleshooting/#rtl-styles-are-not-applied)
     > on how to force RTL styles, in case if they are not applied automatically.
 
+ -  Added ability to set [top_offset](/m1/extensions/firecheckout/configuration/firecheckout/#layout-and-design)
+    for sticky elements, in case if your theme uses sticky header and it covers
+    firecheckout sticky element
  -  Improved third-party themes compatibility
 
 **Third-party modules**

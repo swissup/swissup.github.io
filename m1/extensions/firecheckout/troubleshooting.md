@@ -71,7 +71,7 @@ index 4a0f5106a..ccd84054d 100644
 RTL styles will be automatically applied if one of the following conditions
 are met:
 
- -  `dir=rtl` attribute is used
+ -  `dir=rtl` attribute is used on html or body element
  -  `rtl` class name added to the body or html element
 
 If it does not, but you want to activate RTL styles -
