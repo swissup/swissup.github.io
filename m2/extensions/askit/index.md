@@ -27,6 +27,7 @@ category: AskIt
  - [Answers Tab](#answers-tab)
  - [Answer Edit](#answer-edit)
 6. [Use Cases](use-cases/)
+7. [Changelog](changelog/)
 
 ## Features
 
