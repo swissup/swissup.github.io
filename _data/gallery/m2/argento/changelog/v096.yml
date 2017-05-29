@@ -1,0 +1,20 @@
+- href: /images/m2/argento/mall/home.png
+  src: /images/m2/argento/mall/home-small.png
+  title: ArgentoMall homepage
+  w: 1000
+  h: 1790
+- href: /images/m2/argento/mall/product.png
+  src: /images/m2/argento/mall/product-small.png
+  title: ArgentoMall product page
+  w: 1000
+  h: 1440
+- href: /images/m2/argento/mall/category.png
+  src: /images/m2/argento/mall/category-small.png
+  title: ArgentoMall category page
+  w: 1000
+  h: 2350
+- href: /images/m2/argento/mall/checkout.png
+  src: /images/m2/argento/mall/checkout-small.png
+  title: ArgentoMall checkout page
+  w: 1010
+  h: 995

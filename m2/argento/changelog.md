@@ -7,6 +7,44 @@ category: Argento
 
 # Argento Changelog
 
+### Version 0.9.6
+
+**Screenshots**
+
+{% include gallery.html images=site.data.gallery.m2.argento.changelog.v096 class="phone-up-1 tablet-up-3 photoswipe scroll" %}
+
+> [Upgrade Instructions](../upgrade-instructions/#version-095---096)
+
+ -  **ArgentoMall** theme added. [View Docs](../mall/)
+ -  ArgentoMall [theme editor](/m2/argento/mall/theme-editor/) added
+
+**List of Included Themes**
+
+ -  **Argento Blank** — 0.9.6
+ -  **Argento Essence** — 0.9.6
+ -  **Argento Flat** — 0.9.6
+ -  **Argento Pure2** — 0.9.6
+ -  **Argento Mall** — 0.9.6
+
+**Extensions Updates**
+
+ -  **Ajaxsearch** — 1.2.3
+    -   Without limit bug was fixed in product provider
+ -  **Askit** — 1.2.4
+    -   Cms pages integration
+    -   Catalog categories integration
+    -   You can search Askit questions in Magento admin top search
+    -   Grid massactions logic fixed
+    -   Grid full-text search fixed
+ -  **Easybanner** — 1.0.8
+    -   Fixed bug using multiple banners on one page
+ -  **Rich Snippets** — 1.0.5
+    -   Sort order fixed
+    -   Acl added
+    -   Fixed error in breadcrumbs json
+    -   Added config to disable snippets
+
+
 ### Version 0.9.5
 
 **Screenshots**
