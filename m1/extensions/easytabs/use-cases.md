@@ -9,19 +9,10 @@ sidebar: sidebar.md
 ---
 
 ## Contents
+{:.no_toc}
 
- 1. [No tabs after installation](#no-tabs-after-installation)
- 2. [Disable native tabs in Magento 1.9 RWD theme](#disable-native-tabs-in-magento-19-rwd-theme)
- 3. [Reccuring info tab](#reccuring-info-tab)
- 4. [Dynamic tab titles](#dynamic-tab-titles)
- 5. [Unset multiple blocks](#unset-multiple-blocks)
- 6. [Duplicated tabs on product page](#duplicated-tabs-on-product-page)
- 7. [Activate scrolling to tab by clicking an external link](#activate-scrolling-to-tab-by-clicking-an-external-link)
-     *  [Edit the link `href` and `class` attributes in template source](#edit-the-link-href-and-class-attributes-in-template-source)
-     *  [Use the external javascript to add the onclick observers](#use-the-external-javascript-to-add-the-onclick-observers)
- 8. [Using public events to call javascript on tab activate or deactivate](#using-public-events-to-call-javascript-on-tab-activate-or-deativate)
- 9. [Adding tab with different custom content for each product](#adding-custom-product-content)
- 10. [Adding Font Icons to Tab headers](#adding-font-icons-to-tab-headers)
+* TOC
+{:toc}
 
 ## No tabs after installation
 
@@ -101,7 +92,7 @@ Examples:
  1. `parent_block1::block_to_unset1,parent_block2::block_to_unset2`
  2. `right::catalog.product.related,product.info::related_products`
 
-### Duplicated tabs on product page
+## Duplicated tabs on product page
 
 You can find a lot of custom magento themes with tabs added in layout xml files.
 When you install EasyTabs in such themes, you can see tabs block twice on product
@@ -143,7 +134,7 @@ Sometimes users need to create tab with content that is related **only** for
 
 > **EXAMPLE:** We'll create **"Video Review"** tab that is often asked by users.
 
- 1. Go to `Admin` ➔ `Catalog` ➔ `Attributes` ➔ `Manage Attributes` ➔ 
+ 1. Go to `Admin` ➔ `Catalog` ➔ `Attributes` ➔ `Manage Attributes` ➔
     `Add New Attribute`.
  2. Set `Attribute code = 'product_video'` and
     `Catalog Input Type = 'Text Area'`
@@ -180,25 +171,25 @@ Sometimes users need to create tab with content that is related **only** for
 
 There are two possible ways to implement this feature:
 
- 1. ###### Edit the link `href` and `class` attributes in template source:
+ 1. #### Edit the link `href` and `class` attributes in template source:
 
     ```html
     <a href="#TAB_ALIAS_FROM_BACKEND" class="easytabs-anchor easytabs-scroll easytabs-animate">Description</a>
     ```
-    
+
     For example, the link mentioned below will activate the description tab:
 
     ```html
     <a href="#product_tabs_description_tabbed" class="easytabs-anchor easytabs-scroll easytabs-animate">Description</a>
     ```
 
- 2. ###### Use the external javascript to add the onclick observers.
+ 2. #### Use the external javascript to add the onclick observers.
 
     ```js
     $$('WRITE_SELECTOR_HERE').each(function(el) {
         el.observe('click', function(e) {
             e.stop();
-    
+
             var element = e.element(),
                 tab     = 'TAB_ALIAS_FROM_BACKEND',
                 scroll  = true,
@@ -215,7 +206,7 @@ There are two possible ways to implement this feature:
     $$('.rating-links a, .no-rating a').each(function(el) {
         el.observe('click', function(e) {
             e.stop();
-    
+
             var element = e.element(),
                 tab     = 'review',
                 scroll  = true,
@@ -252,21 +243,21 @@ You can make make your **Tabs** look better by adding font icons in the heading
 
 ![Icons in tabs](/images/m1/extensions/easytabs/icon-tabs.png)
 
-> **Note**: Some Font library (i.e. [FontAwesome](http://fontawesome.io/), 
+> **Note**: Some Font library (i.e. [FontAwesome](http://fontawesome.io/),
 > [IonIcons](http://ionicons.com/), [WeLoveIconFonts](http://weloveiconfonts.com/))
 > should be enabled at your site
- 
+
 Let's take [FontAwesome](http://fontawesome.io/) as an example.
 
  * Go to  [icons catalog](http://fontawesome.io/icons/) and choose the one you like
- * Select the code to insert 
- 
+ * Select the code to insert
+
    ![Star Icon](/images/m1/extensions/easytabs/star-icon.png)
 
  * Go to Magento admin `TemplatesMaster > EasyTabs > Product Tabs` and edit tab
  * Insert your icon code to Tab Title field before/after the caption
-   
+
    ![Insert code](/images/m1/extensions/easytabs/insert-code.png)
 
- * You can add `fa-lg` classname to make icon a bit bigger (in case you're 
+ * You can add `fa-lg` classname to make icon a bit bigger (in case you're
    using **FontAwesome**)
