@@ -8,6 +8,27 @@ category: Argento
 # Upgrade Instructions
 
 
+### Version 0.9.5 - 0.9.6
+
+ 1. Backup all changes you've made
+ 2. Put the store to the maintenance mode
+ 3. [Unpack new Argento version][unpack_package] over the old one
+ 4. Run upgrades:
+
+    ```bash
+    # activate new modules
+    php bin/magento module:enable Swissup_ThemeEditorArgentoMall
+
+    # run upgrades
+    php bin/magento setup:upgrade
+
+    # regenerate static content
+    rm -rf pub/static/_requirejs var/view_preprocessed pub/static/frontend/Swissup
+    php bin/magento setup:static-content:deploy
+    ```
+
+5. That's all. You are now using Argento 0.9.6
+
 ### Version 0.9.4 - 0.9.5
 
  1. Backup all changes you've made

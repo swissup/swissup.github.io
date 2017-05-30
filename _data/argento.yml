@@ -97,6 +97,7 @@ m2:
 
   extensions:
     - ajaxsearch
+    - askit
     - attributepages
     # - core
     - easybanners
