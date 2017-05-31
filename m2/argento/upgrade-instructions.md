@@ -17,7 +17,7 @@ category: Argento
 
     ```bash
     # activate new modules
-    php bin/magento module:enable Swissup_ThemeEditorArgentoMall
+    php bin/magento module:enable Swissup_ThemeEditorArgentoMall Swissup_Suggestpage Swissup_Ajaxpro
 
     # run upgrades
     php bin/magento setup:upgrade

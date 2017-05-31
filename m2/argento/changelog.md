@@ -17,6 +17,7 @@ category: Argento
 
  -  **ArgentoMall** theme added. [View Docs](../mall/)
  -  ArgentoMall [theme editor](/m2/argento/mall/theme-editor/) added
+ -  [Ajax Pro](/m2/extensions/ajaxpro/) extension included
 
 **List of Included Themes**
 
