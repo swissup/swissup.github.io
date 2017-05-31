@@ -10,6 +10,12 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.2.1
+
+- Improved styles for 'simple' popup window
+- Improve config options depends
+- Fix Lite speed web server (view_preprocessed) remove '/* comment // *
+
 ### Version 1.2.0
 
 - Add require swissup/suggestpage
