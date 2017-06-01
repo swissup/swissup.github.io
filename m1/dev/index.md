@@ -31,6 +31,7 @@ title: Development documentation
  - [Making release](#making-release)
  - [Keep the modules up to date](#keep-the-modules-up-to-date)
  - [Updating TM packages repository](#updating-tm-packages-repository)
+ - [Magento Extension Quality Program Coding Standard](#magento-extension-quality-program-coding-standard)
 
 [**Miscellaneous**](#miscellaneous)
 
@@ -334,6 +335,43 @@ git clone git@github.com:tmhub/packages.git && cd packages
 
 # update the repository and push changes:
 ./run.sh
+```
+
+#### Magento Extension Quality Program Coding Standard
+
+Magento EQP Coding Standard is a set of rules and sniffs for PHP_CodeSniffer tool.
+It allows automatically check your code against some of the common Magento and PHP coding issues, like:
+
+ 1. raw SQL queries;
+ 2. SQL queries inside a loop;
+ 3. direct class instantiation;
+ 4. unnecessary collection loading;
+ 5. excessive code complexity;
+ 6. use of dangerous functions;
+ 7. use of PHP superglobals;
+ 8. code style issues
+ 9. and many others.
+
+Magento Extension Quality Program Coding Standard consists of two rulesets - MEQP1 for Magento and MEQP2 for Magento 2. Each of them contains the rules depending on the requirements of each version.
+
+```bash
+#installation
+composer create-project --repository=https://repo.magento.com magento/marketplace-eqp magento-coding-standard
+
+cd magento-coding-standard
+
+#set installed path option
+vendor/bin/phpcs --config-set installed_paths ../../..
+
+# Check Magento extension run
+vendor/bin/phpcs /path/to/your/extension --standard=MEQP1
+
+# Check Magento 2 extension run
+vendor/bin/phpcs /path/to/your/extension --standard=MEQP2
+
+# Marketplace Technical Review
+# you could run phpcs command with --severity=10 option.
+vendor/bin/phpcs /path/to/your/extension --standard=MEQP2 --severity=10
 ```
 
 ## Miscellaneous
