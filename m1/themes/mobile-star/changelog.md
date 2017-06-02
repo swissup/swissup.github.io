@@ -8,6 +8,10 @@ category: Mobile Star Theme
 
 # Changelog
 
+### Version 1.4.4
+
+ -  Magento 1.9.3.3 compatibility
+
 ### Version 1.4.3
 
 -   Fixed product attribute translation
