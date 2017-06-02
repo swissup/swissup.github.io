@@ -7,6 +7,25 @@ category: Firecheckout
 
 # Changelog
 
+### Version 4.2.0
+
+**Major changes**
+
+ -  Improved mobile customer experience when entering telephone, fax and
+    credit card details (Numeric keyboard will be automatically choosen)
+ -  Security improvements according to the Magento 1.9.3.3 version
+
+**Fixes and impovements**
+
+ -  Fixed payment-method cvv tooltip size on mobile devices
+ -  Fixed infinitely loading regions, if response wasn't returned
+ -  Fixed jumping sidebar in Onecolumn and 2-columns sticky layouts
+ -  Better compatibility with third-party themes
+
+**Third-party modules**
+
+ -  SR_UpsShip integration added
+
 ### Version 4.1.0
 
 This version includes major update for RTL styles. Now all layout modes are
