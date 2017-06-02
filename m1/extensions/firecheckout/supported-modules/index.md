@@ -15,7 +15,7 @@ keywords: >
     IrvineSystems_JapanPost, IrvineSystems_Sagawa, IrvineSystems_Seino,
     IrvineSystems_Yamato, JRD_Paczkomaty, Kiala_LocateAndSelect,
     Magestore_Storepickup, Man4x_MondialRelay, Mico_Rushpackage, Ophirah_Qquoteadv (Cart2Quote),
-    PostcodeNl_Api, Shipperhq_Freight, Shipperhq_Pickup, Storepickup,
+    PostcodeNl_Api, Shipperhq_Freight, Shipperhq_Pickup, SR_UpsShip, Storepickup,
     TIG_Postcode, Webshopapps_Desttype, Webshopapps_Premiumrate, WebshopApps_ProductMatrix,
     Wyomind_Pickupatstore, Amasty_Methods, Magento EE coupons,
     Magento EE GiftCards and GiftWrap, Aitoc_Aitgiftwrap, Unirgy_GiftCert,
@@ -100,6 +100,7 @@ additional modifications.
 - IrvineSystems_Yamato
 - JRD_Paczkomaty
 - Kiala_LocateAndSelect
+- [Lemonline_SmartPost](lemonline-smartpost/)
 - Magestore_Storepickup
 - Man4x_MondialRelay
 - Mico_Rushpackage
@@ -107,7 +108,7 @@ additional modifications.
 - PostcodeNl_Api
 - Shipperhq_Freight
 - Shipperhq_Pickup
-- [Lemonline_SmartPost](lemonline-smartpost/)
+- SR_UpsShip
 - Storepickup
 - [Tig_MyParcel](tig-myparcel/)
 - TIG_Myparcel2014
