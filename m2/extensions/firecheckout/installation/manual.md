@@ -13,9 +13,9 @@ category: Firecheckout
 #### 4. Complete the installation
 
 Navigate to `Stores > Configuration` and
-[setup firecheckout](../configuration/) according to your needs.
+[setup firecheckout](/m2/extensions/firecheckout/configuration/) according to your needs.
 
 #### Next up
 
- -  [Back to Main Page](../)   
+ -  [Back to Main Page](/m2/extensions/firecheckout/)   
  
