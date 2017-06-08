@@ -8,6 +8,10 @@ category: Lightbox Pro
 
 # Changelog
 
+### Version 1.2.4
+
+ -  Improve varien image uploading
+
 ### Version 1.2.3
 
  -  Do not show product swatches images in 'More Views'
