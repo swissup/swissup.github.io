@@ -15,3 +15,4 @@ category: Lightbox Pro
 - [Configuration](configuration/)
 - [Widget](widget/)
 - [Use cases](use-cases/)
+- [Changelog](changelog/)

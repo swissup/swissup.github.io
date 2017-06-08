@@ -14,3 +14,4 @@ category: Ajax Layered Navigation
 - [Configuration](configuration/)
 - [Managing filterable attributes and ranges](managing-attributes-ranges/)
 - [Use cases](use-cases/)
+- [Changelog](changelog/)
