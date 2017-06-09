@@ -7,6 +7,13 @@ category: Page Speed
 
 # Changelog
 
+### Version 1.2.8
+
+ -  google insight image optimisation was added
+ -  Autoserch/Crawl mode and interfaces was added
+ -  knockout js comments was integrated
+ -  Fix get_headers warnings
+
 ### Version 1.2.7
 
  -  Fix defer-js package version
