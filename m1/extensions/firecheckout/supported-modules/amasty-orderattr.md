@@ -31,12 +31,12 @@ category: Firecheckout
                  {
     ```
 
- 2. Open `app/code/local/Amasty/Orderattr/Model/Observer.php` and apply the 
+ 2. Open `app/code/local/Amasty/Orderattr/Model/Observer.php` and apply the
     following patch:
 
     ```diff
-    @@ -473,6 +473,10 @@
-                 if (!Mage::helper('core')->isModuleEnabled('Amasty_Scheckout')) {
+    @@ -591,6 +591,10 @@
+                 || !Mage::getStoreConfig('amscheckout/general/enabled')) {
                      $html = $this->_prepareFrontendHtml($transport, 'billing');
                  }
     +        } elseif ($block instanceof Mage_Checkout_Block_Onepage_Billing) {
@@ -44,10 +44,10 @@ category: Firecheckout
     +                $html = $this->_prepareFrontendHtml($transport, 'billing', '</ul>', false);
     +            }
              }
-     
+
              $blockClass = Mage::getConfig()->getBlockClassName('checkout/onepage_shipping');
-    @@ -481,12 +485,18 @@
-                 if (!Mage::helper('core')->isModuleEnabled('Amasty_Scheckout')) {
+    @@ -600,6 +604,10 @@
+                 || !Mage::getStoreConfig('amscheckout/general/enabled')) {
                      $html = $this->_prepareFrontendHtml($transport, 'shipping');
                  }
     +        } elseif ($block instanceof Mage_Checkout_Block_Onepage_Billing) {
@@ -55,20 +55,21 @@ category: Firecheckout
     +                $html = $this->_prepareFrontendHtml($transport, 'shipping', '</ul>', false);
     +            }
              }
-     
+
              $blockClass = Mage::getConfig()->getBlockClassName('checkout/onepage_shipping_method');
-             //if ($block instanceof Mage_Checkout_Block_Onepage_Shipping_Method) {
-             if ($blockClass == get_class($block)) {
-                 if (Mage::helper('core')->isModuleEnabled('Amasty_Scheckout')) {
+    @@ -608,6 +616,8 @@
+                 if (Mage::helper('core')->isModuleEnabled('Amasty_Scheckout')
+                 && Mage::getStoreConfig('amscheckout/general/enabled')) {
                      $html = $this->_prepareFrontendHtml($transport, 'shipping_method', '</div>', false);
     +            } elseif ('firecheckout' === $block->getRequest()->getRouteName()) {
     +                $html = $this->_prepareFrontendHtml($transport, 'shipping_method', '</div>', false);
                  } else {
                      $html = $this->_prepareFrontendHtml($transport, 'shipping_method');
-    @@ -497,6 +507,8 @@
-             //if ($block instanceof Mage_Checkout_Block_Onepage_Payment) {
+                 }
+    @@ -618,6 +628,8 @@
              if ($blockClass == get_class($block)) {
-                 if (Mage::helper('core')->isModuleEnabled('Amasty_Scheckout')) {
+                 if (Mage::helper('core')->isModuleEnabled('Amasty_Scheckout')
+                 && Mage::getStoreConfig('amscheckout/general/enabled')) {
                      $html = $this->_prepareFrontendHtml($transport, 'payment', '</div>', false);
     +            } elseif ('firecheckout' === $block->getRequest()->getRouteName()) {
     +                $html = $this->_prepareFrontendHtml($transport, 'payment', '</div>', false);
