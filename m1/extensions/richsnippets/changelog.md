@@ -8,6 +8,10 @@ category: Rich Snippets
 
 # Changelog
 
+### Version 2.0.7
+
+ -  Added seo suite config section
+
 ### Version 2.0.6
 
  -  Added with/without VAT prices ( with VAT enabled by default )

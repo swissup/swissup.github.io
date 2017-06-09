@@ -8,6 +8,11 @@ category: SEO XML Sitemap
 
 # Changelog
 
+### Version 1.0.1
+
+ -  rename (->_iwd, ->_cwd) bug was fixed
+ -  Old fishpig version integration
+
 ### Version 1.0.0
 
  -  Initial release
