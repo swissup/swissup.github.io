@@ -15,6 +15,7 @@ Our module allows you to display the product attributes as  swatches like as col
 Need the swatch with specified attribute value be implemented for each product with this attribute? [Attribute swatches interface](attribute-swatches-feature/) will help you.
 
 - [Installation](installation/)
+- [Changelog](changelog/)
 - [Configuration](configuration/)
 - [Attribute swatches feature](attribute-swatches-feature/)
 - [Creating swatches for color attribute](creating-swatches-for-color-attribute/)
