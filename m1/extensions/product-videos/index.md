@@ -13,6 +13,7 @@ category: Product Videos
 ![Product Videos](/images/m1/extensions/product-videos/frontend.png)
 
 - [Installation](installation/)
+- [Changelog](changelog/)
 - [Configuration](configuration/)
 - [Managing video](managing-video/)
 - [Use cases](use-cases/)
