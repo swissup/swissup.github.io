@@ -2,7 +2,7 @@
 layout: default
 title: Ajax Layered Navigation Changelog
 description: Ajax Layered Navigation Changelog
-keywords: "magento layered navigation updates
+keywords: magento layered navigation updates
 ---
 
 # Changelog
