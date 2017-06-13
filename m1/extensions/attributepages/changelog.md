@@ -7,6 +7,12 @@ category: Attributepages
 
 # Changelog
 
+### Version 1.3.8
+
+ -  Magento 1.9.3.3 image validator added
+ -  Added support for MassDelete action in backend grids
+ -  Small fixes and improvements
+
 ### Version 1.3.5
 
  -  Fixed duplicated options, when single store mode is used

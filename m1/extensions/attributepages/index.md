@@ -19,6 +19,7 @@ or any other page customization.
 ### Contents
 
  -  [Installation](installation/)
+ -  [Changelog](changelog/)
  -  [Attribute based page](attribute-based-page/) (All brands page)
     - [Frontend screenshots](attribute-based-page/frontend/)
     - [Backend](attribute-based-page/backend/)
@@ -45,7 +46,7 @@ or any other page customization.
 
  - [Mirasvit SEO](third-party-modules-integration/#mirasvitseo)
 
-##### Related Articles 
+##### Related Articles
 
  -  **Argento**
     - ["Brands" dropdown](/m1/argento/navigation-setup/#brands-dropdown)
