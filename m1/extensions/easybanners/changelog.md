@@ -6,6 +6,12 @@ category: Easy Banners
 sidebar: sidebar.md
 ---
 
+### Version 1.7.0
+
+ -  Added ability to show lightbox/awesomebar banner once a
+    [day/week/month per customer](/m1/extensions/easybanners/backend/manage-banners/#conditions)
+ -  Magento 1.9.3.3 image validator added to the upload image action
+
 ### Version 1.6.1
 
  -  Transparent images support added

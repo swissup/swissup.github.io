@@ -25,6 +25,9 @@ for these banners:
 Condition                           | Description
 ------------------------------------|---------------------------------------------------------------
 Display Count per Customer          | Do not show banner more than X times for particular customer
+Display Count per Customer (Per Day)    | Do not show banner more than X times per day for particular customer
+Display Count per Customer (Per Week)   | Do not show banner more than X times per week for particular customer
+Display Count per Customer (Per Month)  | Do not show banner more than X times per month for particular customer
 Customer browsing time (seconds)    | Show banner after X seconds of browsing time (idle + activity)
 Customer inactivity time (seconds)  | Show banner after X seconds of idle time
 Customer activity time (seconds)    | Show banner after X seconds of active browsing
