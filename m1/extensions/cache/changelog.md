@@ -7,6 +7,11 @@ category: Cache
 
 # Full Page Cache Changelog
 
+### Version 1.4.7
+
+ -  Fixed dynamic blocks rendering inside easybanner blocks
+ -  Stability improvements
+
 ### Version 1.4.6
 
  -  Fixed cache autorenew for anchored categories, when product triggers cache refresh
