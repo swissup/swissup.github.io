@@ -8,6 +8,10 @@ category: ConfigurableSwatches
 
 # Changelog
 
+### Version 1.1.2
+
+ -  Fixed javascript errors, when RWD theme is used
+
 ### Version 1.1.1
 
  -  Fixed error on [TM_Attributepages](http://docs.swissuplabs.com/m1/extensions/attributepages/) page,
