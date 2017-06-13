@@ -21,6 +21,7 @@ If you are running the website with a lot of images, scripts and content, the Pa
 - [Installation](installation/)
 - [Changelog](changelog/)
 - [Configurable options](config-options/)
+- [Use cases](use-cases/)
 
 **We recommend**
 
