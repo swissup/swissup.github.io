@@ -23,6 +23,7 @@ faster and easier by providing them a simple checkout form.
     - [Address Autocomplete](/m2/extensions/address-autocomplete/)
     - [Address Field Manager](/m2/extensions/address-field-manager/)
     - [Checkout Cart](/m2/extensions/checkout-cart/)
+    - [Checkout Fields](/m2/extensions/checkout-fields/)
     - [Delivery Date](/m2/extensions/delivery-date/)
     - [GeoIp](/m2/extensions/geoip/)
     - [Order Attachments](/m2/extensions/order-attachments/)
