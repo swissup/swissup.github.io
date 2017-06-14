@@ -12,7 +12,8 @@ category: Firecheckout
 
 > Magento requirements: 2.0.12 or 2.1.4 and higher
 
- -  [CheckoutFields](/m1/extensions/checkout-fields/) module added
+ -  [CheckoutFields](/m1/extensions/checkout-fields/) module added.
+    See the [installation instructions](../installation/manual/) on how to enable new module.
  -  Fixed conflict with "Checkout > Display Billing Address On" option
  -  ACL added to the UI components according to Magento 2.1.7 release
  -  Fixed backend download and preview action urls in [OrderAttachments](/m1/extensions/order-attachments/)
