@@ -1,0 +1,30 @@
+- title: Checkout Fields at standard onepage checkout
+  href: /images/m2/checkout-fields/checkout-payment.png
+  src: /images/m2/checkout-fields/small/checkout-payment.png
+  w: 1265
+  h: 1538
+- title: Checkout Fields at Firecheckout
+  href: /images/m2/checkout-fields/firecheckout.png
+  src: /images/m2/checkout-fields/small/firecheckout.png
+  w: 1361
+  h: 2229
+- title: Checkout Fields Grid
+  href: /images/m2/checkout-fields/fields-grid.png
+  src: /images/m2/checkout-fields/small/fields-grid.png
+  w: 1106
+  h: 603
+- title: Checkout Fields Edit Form
+  href: /images/m2/checkout-fields/fields-edit-form.png
+  src: /images/m2/checkout-fields/small/fields-edit-form.png
+  w: 1342
+  h: 1789
+- title: Checkout Fields at Order View Page
+  href: /images/m2/checkout-fields/admin-order-view.png
+  src: /images/m2/checkout-fields/small/admin-order-view.png
+  w: 1074
+  h: 864
+- title: Checkout Fields in Order Email
+  href: /images/m2/checkout-fields/fields-order-email.png
+  src: /images/m2/checkout-fields/small/fields-order-email.png
+  w: 650
+  h: 1100

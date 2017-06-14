@@ -109,6 +109,14 @@ checkoutcart:
     m1:
     m2: /m2/extensions/checkout-cart/
 
+checkoutfields:
+  title: Checkout Fields
+  short_description: Add custom fields on checkout page
+  size: 1x1
+  urls:
+    m1:
+    m2: /m2/extensions/checkout-fields/
+
 checkoutsuccess:
   title: Checkout Success
   short_description: Show more details on checkout success page
