@@ -7,6 +7,53 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.8.8
+
+**New fatures**
+
+ -  Full compatibility with Magento 1.9.3.3.
+ -  New styles for product review form. Ratings stars react to mouse hover.
+ -  Fix missing product images for Pure 2 theme on retina displays.
+ -  Updated styles for add to cart section on product page.
+
+**Modules fixes & improvements**
+
+ -  Ajax Pro:
+     +  Improved handling of Magento messages
+     +  CSS arrows for quantity switcher
+     +  Updated styles for Quantity switcher elements on product page,
+        category page and shopping cart
+
+ -  Ajax Search:
+     +  correct placeholder behavior for search field
+
+ -  AMP:
+     +  Fixed non-working add to cart, in case secure url is used but not for
+        the product page
+     +  Added support for products lists at homepage
+     +  Added support for buttons with onclick="setLocation" attribute
+     +  Better compatibility with third-party product listings
+
+ -  Attribute Pages:
+     +  MassDelete action in backend grids
+
+ -  Easy Banners:
+     +  Condition to show lightbox/awesomebar banner once a day/week/month per
+        customer
+
+ -  Easy Tabs:
+     +  Do not hook click on review link at product page if reviews block is
+        not in tab
+     +  Period (.) allowed for tab alias
+
+ -  Prolabels:
+     +  Fix notice "Undefined variable" when stock labels render
+     +  Improved backend interfaces
+     +  Include Mobile_Detect lib only if it is nessecery
+
+ -  SEO Suite:
+     +  Improved intagration of XML Sitemap with Fishpig extension
+
 ### Version 1.8.7
 
 **New features**
