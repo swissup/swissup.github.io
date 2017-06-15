@@ -8,6 +8,10 @@ category: Ajax Search
 
 # Changelog
 
+### Version 1.6.5
+
+ -  Correct placeholder behavior for search field.
+
 ### Version 1.6.4
 
  -  fix missing layered navigation on search results page when custom
