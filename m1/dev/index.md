@@ -372,6 +372,9 @@ vendor/bin/phpcs /path/to/your/extension --standard=MEQP2
 # Marketplace Technical Review
 # you could run phpcs command with --severity=10 option.
 vendor/bin/phpcs /path/to/your/extension --standard=MEQP2 --severity=10
+
+# Auto code clean
+vendor/bin/phpcbf /path/to/your/extension --standard=MEQP2 --no-patch
 ```
 
 ## Miscellaneous
