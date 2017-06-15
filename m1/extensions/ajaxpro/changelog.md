@@ -8,6 +8,13 @@ category: AjaxPro
 
 # Changelog
 
+### Version 3.3.13
+
+ -  Improved handling of Magento messages
+ -  CSS arrows for quantity switcher
+ -  Better styles for Quantity switcher elements on product page, category
+    page and shopping cart
+
 ### Version 3.3.12
 
  -  Fixed popup window size on mobile devices, when popup shows a lot of info
