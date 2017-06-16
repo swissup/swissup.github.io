@@ -33,6 +33,10 @@ gallery:
 
 # AskIt Changelog
 
+### Version 2.3.9
+
+ -  remove "select all" at backend grid (it does not work correctly)
+
 ### Version 2.3.8
 
  -  Captcha model check fix
