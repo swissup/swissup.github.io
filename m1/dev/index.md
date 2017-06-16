@@ -377,6 +377,22 @@ vendor/bin/phpcs /path/to/your/extension --standard=MEQP2 --severity=10
 vendor/bin/phpcbf /path/to/your/extension --standard=MEQP2 --no-patch
 ```
 
+PHP Mess Detector
+
+```
+wget -c http://static.phpmd.org/php/latest/phpmd.phar\
+chmod +x phpmd.phar
+
+./phpmd.phar  ~/tm/ajax-search text  /var/www/local.magentocommerce2.com/htdocs/dev/tests/static/testsuite/Magento/Test/Php/_files/phpmd/ruleset.xml
+
+./phpmd.phar  ~/swissup/ajaxsearch text  /var/www/local.magentocommerce2.com/htdocs/dev/tests/static/testsuite/Magento/Test/Php/_files/phpmd/ruleset.xml
+
+wget -c https://raw.githubusercontent.com/kubaceg/phpmd-magento/master/ruleset.xml -O ruleset1.xml
+
+
+./phpmd.phar  ~/swissup/ajax-search text ruleset1.xml
+```
+
 ## Miscellaneous
 
 #### Terminal
