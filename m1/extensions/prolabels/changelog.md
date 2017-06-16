@@ -8,6 +8,13 @@ category: Prolabels
 
 # Changelog
 
+### Version 2.7.8
+
+ -  Fix notice "Undefined variable" when stock labels render.
+ -  Improved backend interfaces.
+ -  Include Mobile_detect lib only if it is nessecery.
+ -  Image validator added for Magento 1.9.3.3.
+
 ### Version 2.7.6
 
  -  slightly improved content labels template
