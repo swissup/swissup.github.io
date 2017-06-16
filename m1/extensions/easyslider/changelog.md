@@ -7,6 +7,12 @@ category: Easy Slider
 
 # Changelog
 
+### Version 3.0.5
+
+ -  New slider options to stop slider on mouse hover and enable lazy load
+    feature.
+ -  Fixed issue with slider controls on pages with multiple sliders.
+
 ### Version 3.0.3
 
  -  Fixed issue with slide description, when `fade` animation is used
