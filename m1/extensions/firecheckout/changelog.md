@@ -7,6 +7,11 @@ category: Firecheckout
 
 # Changelog
 
+### Version 4.2.1
+
+ -  Fixed js error `defaultValue of null` for logged-in customers
+ -  Netresearch_OPS integration updated (**v.16.12.14** is required)
+
 ### Version 4.2.0
 
 **Major changes**
