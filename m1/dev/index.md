@@ -32,6 +32,8 @@ title: Development documentation
  - [Keep the modules up to date](#keep-the-modules-up-to-date)
  - [Updating TM packages repository](#updating-tm-packages-repository)
  - [Magento Extension Quality Program Coding Standard](#magento-extension-quality-program-coding-standard)
+ - [PHP Mess Detector](#php-mess-detectorhttpsphpmdorg)
+ - [PHP Coding Standards Fixer](#php-coding-standards-fixerhttpcssensiolabsorg)
 
 [**Miscellaneous**](#miscellaneous)
 
@@ -337,7 +339,7 @@ git clone git@github.com:tmhub/packages.git && cd packages
 ./run.sh
 ```
 
-#### Magento Extension Quality Program Coding Standard
+#### [Magento Extension Quality Program Coding Standard](https://github.com/magento/marketplace-eqp)
 
 Magento EQP Coding Standard is a set of rules and sniffs for PHP_CodeSniffer tool.
 It allows automatically check your code against some of the common Magento and PHP coding issues, like:
@@ -377,20 +379,36 @@ vendor/bin/phpcs /path/to/your/extension --standard=MEQP2 --severity=10
 vendor/bin/phpcbf /path/to/your/extension --standard=MEQP2 --no-patch
 ```
 
-PHP Mess Detector
+#### [PHP Mess Detector](https://phpmd.org/)
+
+What PHPMD does is: It takes a given PHP source code base and look for several potential problems within that source. These problems can be things like:
+
+ 1. Possible bugs
+ 2. Suboptimal code
+ 3. Overcomplicated expressions
+ 4. Unused parameters, methods, properties
 
 ```
-wget -c http://static.phpmd.org/php/latest/phpmd.phar\
-chmod +x phpmd.phar
-
-./phpmd.phar  ~/tm/ajax-search text  /var/www/local.magentocommerce2.com/htdocs/dev/tests/static/testsuite/Magento/Test/Php/_files/phpmd/ruleset.xml
-
-./phpmd.phar  ~/swissup/ajaxsearch text  /var/www/local.magentocommerce2.com/htdocs/dev/tests/static/testsuite/Magento/Test/Php/_files/phpmd/ruleset.xml
-
+wget -c http://static.phpmd.org/php/latest/phpmd.phar
+sudo chmod a+x phpmd.phar
+sudo mv phpmd.phar /usr/local/bin/phpmd
+phpmd  ~/tm/ajax-search text  /var/www/local.magentocommerce2.com/htdocs/dev/tests/static/testsuite/Magento/Test/Php/_files/phpmd/ruleset.xml
+phpmd  ~/swissup/ajaxsearch text  /var/www/local.magentocommerce2.com/htdocs/dev/tests/static/testsuite/Magento/Test/Php/_files/phpmd/ruleset.xml
 wget -c https://raw.githubusercontent.com/kubaceg/phpmd-magento/master/ruleset.xml -O ruleset1.xml
+phpmd  ~/swissup/ajax-search text ruleset1.xml
+```
 
+#### [PHP Coding Standards Fixer](http://cs.sensiolabs.org/)
 
-./phpmd.phar  ~/swissup/ajax-search text ruleset1.xml
+The PHP Coding Standards Fixer tool fixes most issues in your code when you want to follow the PHP coding standards as defined in the PSR-1 and PSR-2 documents and many more.
+
+```
+wget http://cs.sensiolabs.org/download/php-cs-fixer-v2.phar -O php-cs-fixer
+sudo chmod a+x php-cs-fixer
+sudo mv php-cs-fixer /usr/local/bin/php-cs-fixer
+php-cs-fixer fix  ~/tm/ajaxpro --dry-run
+php-cs-fixer fix  ~/tm/ajaxpro --dry-run --rules=@PSR2
+php-cs-fixer fix  ~/tm/ajaxpro
 ```
 
 ## Miscellaneous
