@@ -7,6 +7,10 @@ category: Facebook Like Button
 
 # Changelog
 
+### Version 2.1.1
+
+ -  Remove test code from category template.
+
 ### Version 2.1.0
 
  -  Use Facebook SDK JavaScript version 2.8
