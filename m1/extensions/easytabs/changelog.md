@@ -7,6 +7,14 @@ category: Easy Tabs
 sidebar: sidebar.md
 ---
 
+### Version 3.1.1
+
+ -  Conditions for tabs. Now you can hide/show tabs for specific products
+    and/or customers
+ -  Do not hook click on review link at product page if reviews block is not
+    in tab
+ -  Period (.) allowed for tab alias
+
 ### Version 3.0.2
 
  -  Allow inline translation of attribute group name on additional tab
