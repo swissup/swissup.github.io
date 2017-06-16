@@ -8,43 +8,29 @@ category: Firecheckout
 
 # Gene Braintree
 
-> Gene_Braintree version — 2.1.7
+> Gene_Braintree version — 2.2.1
 
 Open `app/design/frontend/base/default/template/gene/braintree/js/firecheckout.phtml`
 and apply the following patch:
 
 ```diff
-@@ -40,6 +40,9 @@
-                     var paymentThis = this;
-                     var paymentArguments = arguments;
-
-+                    // store last arguments to make a proper request from submitCheckout method
-+                    vzeroIntegration.firecheckoutArguments = arguments;
-+
-                     // If everything was a success on the checkout end, let's submit the vZero integration
-                     vzeroIntegration.submit('creditcard', function () {
-                         return _originalSave.apply(paymentThis, paymentArguments);
-@@ -59,7 +62,8 @@
+@@ -80,14 +80,14 @@
           */
-         submitCheckout: function() {
-             // Run the original checkouts submit action
--            return checkout.save();
-+            var firecheckoutArguments = this.firecheckoutArguments || [];
-+            return checkout.save.apply(checkout, firecheckoutArguments);
+         setLoading: function () {
+             checkout.setLoadWaiting(true);
+-            checkout.loadCounter = 1;
++            FC.Loader.counter = 1;
          },
 
-@@ -96,11 +96,10 @@
-         (window.vzeroPaypal || false),
-         '<div id="paypal-complete"><div id="paypal-container"></div></div>',
-         '#review-buttons-container .btn-checkout',
--        $$('.firecheckout-set.onecolumn').length === 0,
-+        true,
-         {
-             ignoreAjax: ['firecheckout/index/saveOrder']
--        },
--        $$('.firecheckout-set.onecolumn').length === 1
-+        }
-     );
+         /**
+          * Override the loading function to set the counter to 0 so the loader actually gets hidden
+          */
+         resetLoading: function() {
+-            checkout.loadCounter=0;
++            FC.Loader.counter = 0;
+             checkout.setLoadWaiting(false);
+         }
+
 ```
 
 Save the file and clear Magento cache.
