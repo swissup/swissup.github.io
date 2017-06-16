@@ -8,6 +8,11 @@ category: Easy Flags
 
 # Changelog
 
+### Version 3.0.3
+
+ -  Fix issue with upload image (no errors, image just did not upload)
+ -  Image validator added for Magento 1.9.3.3 instances
+
 ### Version 3.0.1
 
  -  Fixed missing flags icons in Safari and some other mobile browsers
