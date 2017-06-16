@@ -8,6 +8,13 @@ category: Sold Together
 
 # Changelog
 
+### Version 1.4.5
+
+ -  Added option to reindex orders only for last N days (user can specify
+    value for N in store system config).
+ -  Fix javascript error and incorrect total price for bundle product if some
+    items are out of stock.
+
 ### Version 1.4.3
 
  -  Overall styles and templates improvements.
