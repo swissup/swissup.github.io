@@ -8,6 +8,11 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.5.3
+
+ -  JS-file loads with defer attribute.
+ -  No inline javascripts.
+
 ### Version 1.5.0
 
  -  Added ability to create [Amazon-style](/m1/extensions/navigationpro/use-cases/amazon-menu/) menu
