@@ -8,6 +8,10 @@ category: Testimonials
 
 # Changelog
 
+### Version 1.0.7
+
+ -  ACL improvements according latest Magento requirements
+
 ### Version 1.0.5
 
  -  Security fixes (Added html escape for all user data)
