@@ -39,8 +39,9 @@ You can read more avout VIES here: [VIES FAQ](http://ec.europa.eu/taxation_custo
 
 ### Contents
 
-1. [Installation](installation/)
-2. [Settings](#settings)
+ -  [Installation](installation/)
+ -  [Changelog](changelog/)
+ -  [Settings](#settings)
 
 ## Settings
 
