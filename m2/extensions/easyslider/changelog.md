@@ -8,6 +8,18 @@ category: Easy Slider
 
 # Changelog
 
+### Version 1.1.2
+
+ -  ACL instructions added to UI components according to latest Magento requirements
+ -  DI compilation fixed
+
+### Version 1.1.1
+
+ -  Improved css styles
+ -  Added ability to use background-color on a slide
+ -  Improved bullets position on small devices
+ -  Added slide iterator to the css class name
+
 ### Version 1.1.0
 
  -  Fixed slider height to match image height
