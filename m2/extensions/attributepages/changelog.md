@@ -7,10 +7,14 @@ category: Attributepages
 
 # Changelog
 
+### Version 1.0.5
+
+ -  ACL instructions added to UI components according to latest Magento requirements
+
 ### Version 1.0.4
 
  -  Fixed single store duplicated options
- -  Removed unnecessary $_FILES check
+ -  Removed unnecessary `$_FILES` check
 
 ### Version 1.0.3
 
