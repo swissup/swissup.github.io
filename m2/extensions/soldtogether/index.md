@@ -14,5 +14,6 @@ category: SoldTogether
 ### Contents
 
 1. [Installation](installation/)
-2. Use cases
-3. Troubleshooting
+2. [Changelog](changelog/)
+3. Use cases
+4. Troubleshooting
