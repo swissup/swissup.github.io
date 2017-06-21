@@ -2,8 +2,9 @@
 layout: default
 title: Easy Tabs
 description: magento 2 product tabs module installation
-keywords: " magento 2 product tabs, magento 2 product tabs extension free, add tabs
-magento 2 product page "
+keywords: >
+    magento 2 product tabs, magento 2 product tabs extension free,
+    magento2 product page tabs
 category: Easy Tabs
 ---
 
@@ -13,11 +14,12 @@ Easy Tabs extension allows you to add any number of dynamic tabs based on conten
 
 ### Contents
 
-1. [Installation](installation/)
-2. [Features](#features)
-3. [Easytabs Grid](#easytabs-grid)
- - [Easytabs Edit Form](#easytabs-edit-form)
-4. [Use Cases](use-cases/)
+ -  [Installation](installation/)
+ -  [Changelog](changelog/)
+ -  [Features](#features)
+ -  [Easytabs Grid](#easytabs-grid)
+    - [Easytabs Edit Form](#easytabs-edit-form)
+ -  [Use Cases](use-cases/)
 
 ## Features
 
