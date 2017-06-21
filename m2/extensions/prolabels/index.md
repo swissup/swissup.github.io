@@ -14,6 +14,7 @@ category: Prolabels
 ### Contents
 
 * [Installation](installation/)
+* [Changelog](changelog/)
 * [Configuration](configuration/)
 * [Admin Interface](interfaces/)
 * [Support](https://swissuplabs.com/contacts/)
