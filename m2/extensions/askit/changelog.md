@@ -11,6 +11,11 @@ category: AskIt
 
 # Changelog
 
+### Version 1.2.7
+
+- ACL instructions added to ui components
+- Code cleanup (phpcbf)
+
 ### Version 1.2.6
 
 - Add integration for cms pages
