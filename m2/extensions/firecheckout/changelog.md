@@ -8,6 +8,10 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.6.1
+
+ -  Magento EQP fixes
+
 ### Version 1.6.0
 
 > Magento requirements: 2.0.12 or 2.1.4 and higher
