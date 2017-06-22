@@ -13,6 +13,9 @@ category: Page Speed
  -  Autoserch/Crawl mode and interfaces was added
  -  knockout js comments was integrated
  -  Fix get_headers warnings
+ -  tm/lazyload 1.0.2
+ -  tm/defer-css 1.1.0
+ -  tm/defer-js 1.0.3
 
 ### Version 1.2.7
 
