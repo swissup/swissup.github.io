@@ -6,6 +6,10 @@ category: Absolute Theme
 
 # Changelog
 
+### Version 1.1.2
+
+ -  All modules updated according to Magento 2.1.7 changes
+
 ### Version 1.1.1
 
  -  Minor css fixes
