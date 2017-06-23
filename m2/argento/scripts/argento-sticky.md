@@ -14,7 +14,13 @@ ArgentoSticky - is a script that allows you easily transform any custom content
 into sticky element, that will be sticked to the top of the screen, when scrolling
 out of the viewport.
 
-Typical markup for blocks that will be transformed into sticky element:
+### Contents
+{:.no_toc}
+
+* TOC
+{:toc}
+
+### Typical markup for sticky element
 
 ```html
 <div data-mage-init='{"argentoSticky": {}}'>
@@ -25,7 +31,7 @@ Typical markup for blocks that will be transformed into sticky element:
 `data-mage-init='{"argentoSticky": {}}'` - is a standard way to run javascript
 widget written according to magento guides.
 
-Following options are supported:
+### Options
 
 Option       | Example          | Description
 -------------|------------------|------------
@@ -35,9 +41,9 @@ Option       | Example          | Description
 
 View other options at [official sticky-kit site](http://leafo.net/sticky-kit/).
 
-**Usage examples**
+### Usage examples
 
-Html:
+#### Html
 
 ```html
 <div class="some-class-name" data-mage-init='{"argentoSticky": {
@@ -49,8 +55,10 @@ Html:
 </div>
 ```
 
-Javascript ([View docs](../../customization/custom-js/) about how to add custom js
-to argento theme):
+#### Javascript
+
+[View docs](../../customization/custom-js/) about how to add custom js
+to argento theme.
 
 ```js
 define([
@@ -65,6 +73,29 @@ define([
 });
 ```
 
+#### Enable/disable sticky element programmatically
+
+> This feature is available since [0.9.7](/m2/argento/changelog/#version-097)
+> version only
+
+The code below shows how to disable sticky header in
+[ArgentoFlat](/m2/argento/flat/) theme:
+
+```js
+define([
+    'jquery',
+    'argentoSticky',
+    'domReady!'
+], function($) {
+    // disable
+    $('.header.wrapper').data('argentoArgentoSticky').disable();
+
+    // or enable
+    // $(".header.wrapper").data('argentoArgentoSticky').disable();
+});
+```
+
 ##### Next up
+{:.no_toc}
 
 - [Argento docs homepage](/m2/argento/)

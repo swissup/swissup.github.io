@@ -7,6 +7,12 @@ category: Argento
 
 # Argento Changelog
 
+### Version 0.9.7
+
+ -  Added ability to [disable sticky header programmatically](/m2/argento/scripts/argento-sticky/)
+ -  All modules updated according to Magento 2.1.7 changes
+ -  DI compilation fixes
+
 ### Version 0.9.6
 
 **Screenshots**
