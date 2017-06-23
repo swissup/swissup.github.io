@@ -7,6 +7,18 @@ category: Argento
 
 # Upgrade Instructions
 
+### Version 0.9.6 - 0.9.7
+
+ 1. Backup all changes you've made
+ 2. Put the store to the maintenance mode
+ 3. [Unpack new Argento version][unpack_package] over the old one
+ 4. Cleanup Magento's cache:
+
+    ```bash
+    bin/magento cache:flush
+    ```
+
+ 5. That's all. You are now using Argento 0.9.6
 
 ### Version 0.9.5 - 0.9.6
 
