@@ -14,8 +14,8 @@ category: reCAPTCHA
  2. [Changelog](changelog/)
  3. [Extension Configuration](extension-configuration/)
 
-Protect your website from spam and abuse while letting real people pass through with ease. Your customers can now attest they are human without having to solve a CAPTCHA. Instead with one click they’ll confirm they are not a robot.
+Protect your website from spam and abuse while letting real people pass through check with ease. Your customers can now attest they are human without having to solve a CAPTCHA. They will be allowed to confirm they are not a robot via single click only.
 
-Our Magento extension provides reCAPTCHA from Google for your store frontend and backend. It replaces default Magento CAPTCHA with more secure Google reCAPTCHA.
+Our Magento extension provides your store frontend and backendre with CAPTCHA from Google. It replaces default Magento CAPTCHA with more secure Google reCAPTCHA.
 
-**Notice:** current version of this extension does not provide security CAPTCHAs to any other form than your Magento instance. It just replaces default Magento CAPTCHA. So if your store has disabled CAPTCHA, then you have to enable it first. Please, read Magento User Guide how to do so - [Security CAPTCHA](http://docs.magento.com/m1/ce/user_guide/store-operations/security-captcha.html).
+**Notice:** current version of this extension does not provide security CAPTCHAs to any other form than your Magento instance. It just replaces default Magento CAPTCHA. So if your store has a disabled CAPTCHA, then you have to enable it first. Please, read Magento User Guide how to do that - [Security CAPTCHA](http://docs.magento.com/m1/ce/user_guide/store-operations/security-captcha.html).
