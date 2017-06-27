@@ -14,12 +14,12 @@ category: Countdown Timer
     - [Timer can not find jQuery](use-cases/#timer-can-not-find-jquery)
     - [jQuery(...) is not a function](use-cases/#jquery-is-not-a-function)
 
-This module has accurate timer which counts backward. It can help you to inform
-customers about any special event. Such as, start of grand sale or arrive of new
-products at your store.
+This module includes accurate timer which counts backward. It can help you to inform
+customers on any special event: such as a start of grand sale or an arrival of new
+products in your store.
 
-Countdown Timer provides two widgets with pretty simple interface. They can
-be placed in any CMS page, CMS block or other content, which allows widgets.
+Countdown Timer comes with two widgets with simple interface. They can
+be placed in any CMS page, CMS block or other content, that allows using of widgets.
 
 List of widgets:
 
@@ -41,7 +41,7 @@ image above). Go to menu `System` -> `Configuration`. Then in side menu select
 `Countdown Timer` in menu group `Templates-Master`.
 
 `Add jQuery library` - with this option you can manage jQuery loading. If your
-store already use jQuery, then you can set this option to `No`.
+store already uses jQuery, then you can set this option to `No`.
 
 ### Timer designs
 
