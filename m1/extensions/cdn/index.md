@@ -46,9 +46,9 @@ gallery:
 - [Configuration](configuration/)
 - [Get Ip Keys](get-api-key/)
 
-Our Magento CDN plugin will help you to integrate most popular CDN providers in your Magento store. Installation and configuration is quite easy and all your need to do is simply select right settings in Magento Admin Panel after uploading files. CDN implementation will lets your visitors benefit from faster page loads that will lead to increased sales conversions.
+Our Magento CDN plugin will help you to integrate most popular CDN providers to your Magento store. Installation and configuration are quite easy and all you need to do is to simply select correct settings in Magento Admin Panel after uploading files. CDN implementation will let your visitors benefit from faster page loads that will lead to increased sales conversions.
 
-So how CDN integration works? Our extension allows you to host and distribute product images, categories images, javascript and CSS files on a separate server. This will improve your page load time by moving multiple files request from your server to content delivery network. In case you store has a large amount of traffic then using a CDN will also help you decrease bandwidth cost. CDN also allows to benefit from accessing content from geographically distributed datacenters that will also allows to make page load faster even for customers from other continents.
+So how CDN integration works? Our extension allows you to host and distribute product images, categories images, javascript and CSS files on a separate server. This will improve your page load time by moving multiple files request from your server to content delivery network. In case you store has a large amount of traffic, then using a CDN will also help you decrease bandwidth cost. CDN also allows to benefit from accessing content from geographically distributed datacenters that will also allows to make page load faster even for customers from other continents.
 
 {% include gallery.html images=page.gallery class="scroll phone-up-1 tablet-up-3 photoswipe" %}
 

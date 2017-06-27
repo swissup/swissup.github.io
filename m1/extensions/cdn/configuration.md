@@ -17,17 +17,17 @@ category: CDN
 
 ## Setup
 
-1. Navigate to System > Configuration > Templates Master > CDN
-2. First you have to decide which type of CDN you are going to use. Right now our extension supports Amazon CloudFront, Amazon S3 storage and DNS based CDN services. We recommend to use CloudFront if you are just starting. Please notice that Amazon CloudFront and S3 are paid services and your final cost will depend on amount of traffic your stores get. In case you decided to use Amazon S3 or CloudFront you will need to get security credentials in order to control content on Amazon servers. That can be easily done at https://console.aws.amazon.com/iam/home?#security_credential . In case you want to make it in more secure way we suggest to use IAM users access. You can create new user and get API keys at https://console.aws.amazon.com/iam/home?#users . In case you decided to go with IAM users you have to assign “CloudFront Full Access” permissions in case you are using CloudFront CDN for example
-3. Our CDN extension supports both default Magento and Fooman CSS/JS merge feature. In order to avoid any problems with merged files we do recommend to disable berge before enabling CDN and clearing temporary created merged CSS/JS files in temp folder.
-4. After you entered Amazon API info please click save config button. After that Magento will be able to connect to Amazon AWS.
+1. Navigate to System > Configuration > Templates Master > CDN.
+2. First you have to decide which type of CDN you are going to use. Right now our extension supports Amazon CloudFront, Amazon S3 storage and DNS based CDN services. We recommend to use CloudFront if you are just starting. Please notice that Amazon CloudFront and S3 are paid services and your final cost will depend on amount of traffic your stores get. In case you decide to use Amazon S3 or CloudFront, you will need to get security credentials in order to control content on Amazon servers. That can be easily done at https://console.aws.amazon.com/iam/home?#security_credential . In case you want to make it in more secure way we suggest to use IAM users access. You can create new user and get API keys at https://console.aws.amazon.com/iam/home?#users. In case you decide to go with IAM users, you have to assign “CloudFront Full Access” permissions if you are using CloudFront CDN for example.
+3. Our CDN extension supports both default Magento and Fooman CSS/JS merge features. In order to avoid any problems with merged files, we do recommend to disable berge before enabling CDN and clearing temporary created merged CSS/JS files in temp folder.
+4. After you entered Amazon API info, please click save config button. After that Magento will be able to connect to Amazon AWS.
 
     -    For Amazon S3 users. Please go to https://console.aws.amazon.com/s3/home and create new bucket that will be used to store and distribute your media files. After that in permission settings of that bucket you should add “View” rights to “Everyone”.
     -    For Cloudfront users: Please select create new distribution in “Distribution Id” field. Due to technical requirements it will take up to 20 minutes to make distribution active. You will be able to see list and status of all your distributions at https://console.aws.amazon.com/cloudfront/home . After status of you distribution will become “Deployed” you can proceed with further steps.
     -    For DNS based CDN users: You should set domain where your files will be redistributed from.
     -    For Rackspace users: Please go to https://cart.rackspace.com/cloud/?cp_id=public_cloud. Create new container that will be used to store files.
 
-After all steps described above will be finished you can enable CDN extension. Our module configuration provide complete control over media files that should be placed on CDN. Also it provides separate interface that allow to exclude files from placing on CDN.
+After all steps described above will be finished, you can enable CDN extension. Our module configuration provides you with complete control over media files that should be placed on CDN. Also it includes separate interface that allows to exclude files from placing on CDN.
 
 ## General section
 
@@ -52,12 +52,12 @@ Easy Slider integration| Disable or enable Easy Slider integration
 
 ![Amazon configuration options](/images/m1/extensions/cdn/configuration2.png)
 
-Amazon provides storage services to store data in form of files and folders. This easy to use mechanism allows you to store and retrieve service from Amazon server. To use any service on web, a User ID and Password is required. The AWS Access Key and Secret Key serve as ID and Password to access Amazon S3.
+Amazon offers storage services to store data in form of files and folders. This easy to use mechanism allows you to store and retrieve service from Amazon server. To use any service on web, a User ID and Password is required. The AWS Access Key and Secret Key serve as ID and Password to access Amazon S3.
 
 Option          | Description
 ----------------|------------
-AWS Access Key  | This is actually a  username . It is alphanumeric text string that uniquely identifies the user who owns the account. No two accounts can have the same AWS Access Key.
-AWS Secret Key  | This key plays the role of a  password . It's called secret because it is assumed to be known by the owner only that's why, when you type it in the given box, its displayed as asterisk or dots. A Password with Access Key forms a secure information set that confirms the user's identity. You are advised to keep your Secret Key in a safe place.
+AWS Access Key  | This is actually a username. It is alphanumeric text string that uniquely identifies the user who owns the account. No two accounts can have the same AWS Access Key.
+AWS Secret Key  | This key plays the role of a password. It's called secret because it is assumed to be known by the owner only that's why, when you type it in the given box, its displayed as asterisk or dots. A Password with Access Key forms a secure information set that confirms the user's identity. You are advised to keep your Secret Key in a safe place.
 
 ## Amazon S3 section
 
@@ -71,7 +71,7 @@ Validator| [Type of validation.](#type-of-validation)
 
 ## Amazon CloudFront section
 
-Amazon CloudFront is a global content delivery network (CDN) service that accelerates delivery of your websites, APIs, video content or other web assets. It integrates with other Amazon Web Services products to give developers and businesses an easy way to accelerate content to end users with no minimum usage commitments.
+Amazon CloudFront is a global content delivery network (CDN) service that accelerates delivery of your websites, APIs, video content or other web assets. It is integrated with other Amazon Web Services products to give developers and businesses an easy way to accelerate content to end users with no minimum usage commitments.
 
 Option          | Description
 ----------------|------------

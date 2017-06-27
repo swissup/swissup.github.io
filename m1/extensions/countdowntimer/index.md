@@ -14,8 +14,8 @@ category: Countdown Timer
     - [Timer can not find jQuery](use-cases/#timer-can-not-find-jquery)
     - [jQuery(...) is not a function](use-cases/#jquery-is-not-a-function)
 
-This module includes accurate timer which counts backward. It can help you to inform
-customers on any special event: such as a start of grand sale or an arrival of new
+This module includes accurate timer that counts backward. It can help you to inform
+customers on any special event such as a start of grand sale or an arrival of new
 products in your store.
 
 Countdown Timer comes with two widgets with simple interface. They can
