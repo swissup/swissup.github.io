@@ -8,7 +8,7 @@ category: Quantity Switcher
 
 # Quantity Switcher
 
-Add a <> button in the product pages and listing pages that gives the customers the ability to change the quantity in cart. This will give the your customers the ability to easily change the quantity of items they want to add in their cart.
+Adds a <> button both to the product and listing pages, that allow customers change the quantity in a shopping cart. It helps your customers easily change the quantity of items they want to add in their cart.
 
 On product page
 
