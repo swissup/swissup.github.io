@@ -34,6 +34,7 @@ title: Development documentation
  - [Magento Extension Quality Program Coding Standard](#magento-extension-quality-program-coding-standard)
  - [PHP Mess Detector](#php-mess-detectorhttpsphpmdorg)
  - [PHP Coding Standards Fixer](#php-coding-standards-fixerhttpcssensiolabsorg)
+ - [PHP Copy/Paste Detector](#php-copypaste-detector-phpcpdhttpsgithubcomsebastianbergmannphpcpd)
 
 [**Miscellaneous**](#miscellaneous)
 
@@ -409,6 +410,19 @@ sudo mv php-cs-fixer /usr/local/bin/php-cs-fixer
 php-cs-fixer fix  ~/tm/ajaxpro --dry-run
 php-cs-fixer fix  ~/tm/ajaxpro --dry-run --rules=@PSR2
 php-cs-fixer fix  ~/tm/ajaxpro
+```
+
+#### [PHP Copy/Paste Detector (PHPCPD)](https://github.com/sebastianbergmann/phpcpd)
+
+phpcpd is a Copy/Paste Detector (CPD) for PHP code.
+
+```
+$ wget https://phar.phpunit.de/phpcpd.phar
+$ chmod +x phpcpd.phar
+$ mv phpcpd.phar /usr/local/bin/phpcpd
+
+# Usage Example
+$ phpcpd ~/tm/ajaxpro
 ```
 
 ## Miscellaneous
