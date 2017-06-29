@@ -401,6 +401,13 @@ seo-html-sitemap:
     m1: /m1/extensions/seo-html-sitemap/
     m2:
 
+seo-templates:
+  title: SEO Metadata Templates
+  short_description:
+  urls:
+    m1: /m1/extensions/seo-templates/
+    m2:
+
 seo-xml-sitemap:
   title: SEO XML Sitemap
   short_description:
