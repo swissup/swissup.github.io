@@ -225,27 +225,22 @@ Code:
             <div class="hero block block-brands argento-slider wow fadeIn" data-wow-delay="0.2s">
                 <div class="block-title"><span>Popular Brands</span><p class="subtitle">check most trusted brands from more then 50 leading manufactures presented at our store.</p></div>
                 <div class="block-content">
-                    <a href="#" id="left" class="trigger trigger-left"><i class="fa fa-4x fa-angle-right"></i></a>
-                    <a href="#" id="right" class="trigger trigger-right"><i class="fa fa-4x fa-angle-left"></i></a>
                     <div id="slider-brands-container" class="slider-wrapper">
-                        <ul class="list-slider" id="slider-brands">
-                            <li class="item"><a href="#"><img src="{{skin url="images/catalog/brands/life_extension.gif"}}" alt="Life Extension"/></a></li>
-                            <li class="item"><a href="#"><img src="{{skin url="images/catalog/brands/gnc.gif"}}" alt="GNC"/></a></li>
-                            <li class="item"><a href="#"><img src="{{skin url="images/catalog/brands/mega_food.gif"}}" alt="Mega Food" /></a></li>
-                            <li class="item"><a href="#"><img src="{{skin url="images/catalog/brands/nordic_naturals.gif"}}" alt="Nordic Naturals"/></a></li>
-                            <li class="item"><a href="#"><img src="{{skin url="images/catalog/brands/life_extension.gif"}}" alt="Life Extension"/></a></li>
-                            <li class="item"><a href="#"><img src="{{skin url="images/catalog/brands/gnc.gif"}}" alt="GNC"/></a></li>
-                            <li class="item"><a href="#"><img src="{{skin url="images/catalog/brands/mega_food.gif"}}" alt="Mega Food"/></a></li>
-                            <li class="item"><a href="#"><img src="{{skin url="images/catalog/brands/nordic_naturals.gif"}}" alt="Nordic Naturals"/></a></li>
-                            <li class="item"><a href="#"><img src="{{skin url="images/catalog/brands/life_extension.gif"}}" alt="Life Extension"/></a></li>
-                            <li class="item"><a href="#"><img src="{{skin url="images/catalog/brands/gnc.gif"}}" alt="GNC"/></a></li>
-                            <li class="item"><a href="#"><img src="{{skin url="images/catalog/brands/mega_food.gif"}}" alt="Mega Food"/></a></li>
-                            <li class="item"><a href="#"><img src="{{skin url="images/catalog/brands/nordic_naturals.gif"}}" alt="Nordic Naturals"/></a></li>
-                        </ul>
+                        <div class="slick" id="slider-brands" data-slick='{"slidesToShow": 5, "slidesToScroll": 5, "infinite": true, "swipeToSlide": true, "autoplay": true, "autoplaySpeed": 2000, "arrows": true, "responsive": [ {"breakpoint": 770, "settings": {"slidesToShow": 4, "slidesToScroll": 4}}, {"breakpoint": 640, "settings": {"slidesToShow": 3, "slidesToScroll": 3}}, {"breakpoint": 480, "settings": {"slidesToShow": 2, "slidesToScroll": 2}}, {"breakpoint": 321, "settings": {"slidesToShow": 1, "slidesToScroll": 1, "dots": false}}]}'>
+                            <a href="#"><img src="{{skin url="images/catalog/brands/life_extension.gif"}}" alt="Life Extension"/></a>
+                            <a href="#"><img src="{{skin url="images/catalog/brands/gnc.gif"}}" alt="GNC"/></a>
+                            <a href="#"><img src="{{skin url="images/catalog/brands/mega_food.gif"}}" alt="Mega Food" /></a>
+                            <a href="#"><img src="{{skin url="images/catalog/brands/nordic_naturals.gif"}}" alt="Nordic Naturals"/></a>
+                            <a href="#"><img src="{{skin url="images/catalog/brands/life_extension.gif"}}" alt="Life Extension"/></a>
+                            <a href="#"><img src="{{skin url="images/catalog/brands/gnc.gif"}}" alt="GNC"/></a>
+                            <a href="#"><img src="{{skin url="images/catalog/brands/mega_food.gif"}}" alt="Mega Food"/></a>
+                            <a href="#"><img src="{{skin url="images/catalog/brands/nordic_naturals.gif"}}" alt="Nordic Naturals"/></a>
+                            <a href="#"><img src="{{skin url="images/catalog/brands/life_extension.gif"}}" alt="Life Extension"/></a>
+                            <a href="#"><img src="{{skin url="images/catalog/brands/gnc.gif"}}" alt="GNC"/></a>
+                            <a href="#"><img src="{{skin url="images/catalog/brands/mega_food.gif"}}" alt="Mega Food"/></a>
+                            <a href="#"><img src="{{skin url="images/catalog/brands/nordic_naturals.gif"}}" alt="Nordic Naturals"/></a>
+                        </div>
                     </div>
-                    <script type="text/javascript">
-                        new Slider("slider-brands-container", "left", "right", {shift: 'auto'});
-                    </script>
                 </div>
             </div>
         </div>
@@ -323,22 +318,22 @@ In case if you've lost original homepage content, you can get it below:
                 <div class="block-content">
                     <div class="row">
                         <div class="col-md-3 col-xs-6 wow slideInUp">
-                            <span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-tags fa-stack-1x fa-inverse"></i></span>
+                            <span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x">&#8203;</i><i class="fa fa-tags fa-stack-1x fa-inverse">&#8203;</i></span>
                             <h3>Low Pricing</h3>
                             <p>Meet all types for your body's needs, that are healthy for you and for your pocket. Click for big savings.</p>
                         </div>
                         <div class="col-md-3 col-xs-6 wow slideInUp">
-                            <span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-cubes fa-stack-1x fa-inverse"></i></span>
+                            <span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x">&#8203;</i><i class="fa fa-cubes fa-stack-1x fa-inverse">&#8203;</i></span>
                             <h3>Huge Selection</h3>
                             <p>Make your healthy choice using the huge variety of vitamins and sports nutrition. Let your transformation go on.</p>
                         </div>
                         <div class="col-md-3 col-xs-6 wow slideInUp">
-                            <span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-birthday-cake fa-stack-1x fa-inverse"></i></span>
+                            <span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x">&#8203;</i><i class="fa fa-birthday-cake fa-stack-1x fa-inverse">&#8203;</i></span>
                             <h3>Reward Points</h3>
                             <p>Get reward points by boosting your healthy activity online. Stay with us and gain more.</p>
                         </div>
                         <div class="col-md-3 col-xs-6 wow slideInUp">
-                            <span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x"></i><i class="fa fa-comments fa-stack-1x fa-inverse"></i></span>
+                            <span class="fa-stack fa-4x"><i class="fa fa-circle fa-stack-2x">&#8203;</i><i class="fa fa-comments fa-stack-1x fa-inverse">&#8203;</i></span>
                             <h3>Ask Experts</h3>
                             <p>Have a question? Ask an expert and get complete online support. We are open for you.</p>
                         </div>
@@ -381,27 +376,22 @@ In case if you've lost original homepage content, you can get it below:
             <div class="hero block block-brands argento-slider wow fadeIn" data-wow-delay="0.2s">
                 <div class="block-title"><span>Popular Brands</span><p class="subtitle">check most trusted brands from more then 50 leading manufactures presented at our store.</p></div>
                 <div class="block-content">
-                    <a href="#" id="left" class="trigger trigger-left"><i class="fa fa-4x fa-angle-right"></i></a>
-                    <a href="#" id="right" class="trigger trigger-right"><i class="fa fa-4x fa-angle-left"></i></a>
                     <div id="slider-brands-container" class="slider-wrapper">
-                        <ul class="list-slider" id="slider-brands">
-                            <li class="item"><a href="#"><img src="{{skin url="images/catalog/brands/life_extension.gif"}}" alt="Life Extension"/></a></li>
-                            <li class="item"><a href="#"><img src="{{skin url="images/catalog/brands/gnc.gif"}}" alt="GNC"/></a></li>
-                            <li class="item"><a href="#"><img src="{{skin url="images/catalog/brands/mega_food.gif"}}" alt="Mega Food" /></a></li>
-                            <li class="item"><a href="#"><img src="{{skin url="images/catalog/brands/nordic_naturals.gif"}}" alt="Nordic Naturals"/></a></li>
-                            <li class="item"><a href="#"><img src="{{skin url="images/catalog/brands/life_extension.gif"}}" alt="Life Extension"/></a></li>
-                            <li class="item"><a href="#"><img src="{{skin url="images/catalog/brands/gnc.gif"}}" alt="GNC"/></a></li>
-                            <li class="item"><a href="#"><img src="{{skin url="images/catalog/brands/mega_food.gif"}}" alt="Mega Food"/></a></li>
-                            <li class="item"><a href="#"><img src="{{skin url="images/catalog/brands/nordic_naturals.gif"}}" alt="Nordic Naturals"/></a></li>
-                            <li class="item"><a href="#"><img src="{{skin url="images/catalog/brands/life_extension.gif"}}" alt="Life Extension"/></a></li>
-                            <li class="item"><a href="#"><img src="{{skin url="images/catalog/brands/gnc.gif"}}" alt="GNC"/></a></li>
-                            <li class="item"><a href="#"><img src="{{skin url="images/catalog/brands/mega_food.gif"}}" alt="Mega Food"/></a></li>
-                            <li class="item"><a href="#"><img src="{{skin url="images/catalog/brands/nordic_naturals.gif"}}" alt="Nordic Naturals"/></a></li>
-                        </ul>
+                        <div class="slick" id="slider-brands" data-slick='{"slidesToShow": 5, "slidesToScroll": 5, "infinite": true, "swipeToSlide": true, "autoplay": true, "autoplaySpeed": 2000, "arrows": true, "responsive": [ {"breakpoint": 770, "settings": {"slidesToShow": 4, "slidesToScroll": 4}}, {"breakpoint": 640, "settings": {"slidesToShow": 3, "slidesToScroll": 3}}, {"breakpoint": 480, "settings": {"slidesToShow": 2, "slidesToScroll": 2}}, {"breakpoint": 321, "settings": {"slidesToShow": 1, "slidesToScroll": 1, "dots": false}}]}'>
+                            <a href="#"><img src="{{skin url="images/catalog/brands/life_extension.gif"}}" alt="Life Extension"/></a>
+                            <a href="#"><img src="{{skin url="images/catalog/brands/gnc.gif"}}" alt="GNC"/></a>
+                            <a href="#"><img src="{{skin url="images/catalog/brands/mega_food.gif"}}" alt="Mega Food" /></a>
+                            <a href="#"><img src="{{skin url="images/catalog/brands/nordic_naturals.gif"}}" alt="Nordic Naturals"/></a>
+                            <a href="#"><img src="{{skin url="images/catalog/brands/life_extension.gif"}}" alt="Life Extension"/></a>
+                            <a href="#"><img src="{{skin url="images/catalog/brands/gnc.gif"}}" alt="GNC"/></a>
+                            <a href="#"><img src="{{skin url="images/catalog/brands/mega_food.gif"}}" alt="Mega Food"/></a>
+                            <a href="#"><img src="{{skin url="images/catalog/brands/nordic_naturals.gif"}}" alt="Nordic Naturals"/></a>
+                            <a href="#"><img src="{{skin url="images/catalog/brands/life_extension.gif"}}" alt="Life Extension"/></a>
+                            <a href="#"><img src="{{skin url="images/catalog/brands/gnc.gif"}}" alt="GNC"/></a>
+                            <a href="#"><img src="{{skin url="images/catalog/brands/mega_food.gif"}}" alt="Mega Food"/></a>
+                            <a href="#"><img src="{{skin url="images/catalog/brands/nordic_naturals.gif"}}" alt="Nordic Naturals"/></a>
+                        </div>
                     </div>
-                    <script type="text/javascript">
-                        new Slider("slider-brands-container", "left", "right", {shift: 'auto'});
-                    </script>
                 </div>
             </div>
         </div>
