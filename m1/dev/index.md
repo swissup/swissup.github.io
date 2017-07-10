@@ -32,9 +32,10 @@ title: Development documentation
  - [Keep the modules up to date](#keep-the-modules-up-to-date)
  - [Updating TM packages repository](#updating-tm-packages-repository)
  - [Magento Extension Quality Program Coding Standard](#magento-extension-quality-program-coding-standard)
- - [PHP Mess Detector](#php-mess-detectorhttpsphpmdorg)
- - [PHP Coding Standards Fixer](#php-coding-standards-fixerhttpcssensiolabsorg)
- - [PHP Copy/Paste Detector](#php-copypaste-detector-phpcpdhttpsgithubcomsebastianbergmannphpcpd)
+ - [PHP Mess Detector](#php-mess-detector)
+ - [PHP Coding Standards Fixer](#php-coding-standards-fixer)
+ - [PHP Copy/Paste Detector](#php-copypaste-detector-phpcpd)
+ - [PHPLint](#phplint)
 
 [**Miscellaneous**](#miscellaneous)
 
@@ -423,6 +424,20 @@ $ mv phpcpd.phar /usr/local/bin/phpcpd
 
 # Usage Example
 $ phpcpd ~/tm/ajaxpro
+```
+
+#### [PHPLint](https://github.com/wayneashleyberry/phplint)
+
+phplint is a node wrapper around the native php linter that allows for parallel linting and integration with build systems like Grunt, Gulp and more.
+
+http://www.icosaedro.it/phplint/
+
+```
+$ npm i -g phplint
+
+# Usage Example
+$ phplint ~/tm/ajaxpro/**/*.php
+$ phplint ~/tm/ajaxpro/**/*.phtml
 ```
 
 ## Miscellaneous
