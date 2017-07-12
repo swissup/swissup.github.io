@@ -24,3 +24,4 @@ original metadata is empty.
  -  [Configuration](configuration/)
  -  [Manage Templates](manage-templates/)
  -  [Generate Metadata](generate-metadata/)
+ -  [View Generated Data](view-generated-data/)
