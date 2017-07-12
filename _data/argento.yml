@@ -15,6 +15,9 @@ m1:
     - title: Integrations (Magento EE and other)
       url: /m1/argento/integrations/
 
+    - title: Page Layout
+      url: /m1/argento/page-layout/
+
     - title: Top Navigation Setup
       url: /m1/argento/navigation-setup/
 
