@@ -8,6 +8,13 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.6.2
+
+ -  Fixed rare bug with missing default customer address after the first login
+ -  Fixed compatibility with [DeliveryDate](/m2/extensions/delivery-date/) module
+ -  Magento 2.2-dev compatibility
+ -  JS code improvements
+
 ### Version 1.6.1
 
  -  Magento EQP fixes
