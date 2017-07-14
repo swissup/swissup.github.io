@@ -8,6 +8,11 @@ category: Ajax Search
 
 # Changelog
 
+### Version 1.6.6
+
+ -  Fixed compatibility with layered navigation on search result page when
+    custom collection enabled.
+
 ### Version 1.6.5
 
  -  Correct placeholder behavior for search field.
