@@ -7,6 +7,50 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.8.9
+
+ -  Advanced layout settings for Argento and Pure themes. Now every theme in
+    package can have full width or boxed layouts. How to change theme pages
+    width you can read in
+    [this article](http://docs.swissuplabs.com/m1/argento/page-layout/) at our
+    documentation site.
+ -  New SEO extension included in package - SEO Templates. Read more about it
+    at [our documentaion site](/m1/extensions/seo-templates/).
+ -  Reduced inline JavaScript.
+ -  Removed enquire.js and replaced with matchMedia. JavaScript polyfill for
+    older browsers included.
+ -  Minor styles and javascript improvements (include deferred loading of wow,
+    photoswipe, matchMedia polyfill and sticky-kit libs).
+
+**Modules fixes & improvements**
+
+ -  Ajax Search:
+     +  Fixed compatibility with layered navigation on search result page when
+        custom collection enabled.
+
+ -  AMP:
+     +  Added ability to use ['data-amp-' attribute](/m1/extensions/amp/use-cases/#change-css-class-name)
+    for any tag
+     +  Fixed 'Add to Cart' functionality on google search pages
+     +  Fixed AMP validation errors with the following attributes `noshade`,
+        `align`, `border` and `size`.
+
+ -  Easy Banner:
+     +  Fix redirect for banners when URL start with slash.
+
+ -  Easy Flags:
+     +  New style for language and store switcher - popup.
+
+ -  Easy Tabs:
+     +  Minor SEO improvement - tab titles as second level headers (h2).
+
+ -  Easyslide:
+     +  New slider option in adnvanced section - 'Space between slides'.
+
+ -  ProLabels:
+     +  Fixed missing labels when enabled option 'Move to content on mobile'.
+
+
 ### Version 1.8.8
 
 **New fatures**
