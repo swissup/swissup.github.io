@@ -8,6 +8,11 @@ category: AjaxPro
 
 # Changelog
 
+### Version 3.3.14
+
+ -  Integration with latest Ultimo Smartheader.
+ -  Minor source code improvements.
+
 ### Version 3.3.13
 
  -  Improved handling of Magento messages
