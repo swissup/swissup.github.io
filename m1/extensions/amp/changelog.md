@@ -9,7 +9,7 @@ sidebar: sidebar.md
 
 ### Version 1.3.0
 
- -  Added ability to use ['data-amp-' attribute](/m1/extensions/amp/use-cases/)
+ -  Added ability to use ['data-amp-' attribute](/m1/extensions/amp/use-cases/#change-css-class-name)
     for any tag
  -  Fixed 'Add to Cart' functionality on google search pages
  -  Fixed AMP validation errors with the following attributes:
