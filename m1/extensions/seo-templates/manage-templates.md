@@ -75,6 +75,12 @@ Bellow you can find list of allowed directives for metadata templates.
 
 **`{% raw %}{{minprice [prefix="..."] [sufix="..."]}}{% endraw %}`** - mininal price among all category products.
 
+##### Comment
+
+With `sufix` and `prefix` options you can add some text before or after
+output. Works only when output is not empty.
+
+Directive options in square brackets (`[...]`) are optional.
 
 ### Edit template
 
