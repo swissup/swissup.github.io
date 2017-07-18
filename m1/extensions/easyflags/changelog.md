@@ -8,6 +8,10 @@ category: Easy Flags
 
 # Changelog
 
+### Version 3.1.0
+
+ -  New style for language and store switcher - popup.
+
 ### Version 3.0.3
 
  -  Fix issue with upload image (no errors, image just did not upload)
