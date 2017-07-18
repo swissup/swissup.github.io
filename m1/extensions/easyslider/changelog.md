@@ -7,6 +7,10 @@ category: Easy Slider
 
 # Changelog
 
+### Version 3.0.6
+
+ -  New slider option in adnvanced section - 'Space between slides'.
+
 ### Version 3.0.5
 
  -  New slider options to stop slider on mouse hover and enable lazy load
