@@ -6,6 +6,10 @@ category: Easy Banners
 sidebar: sidebar.md
 ---
 
+### Version 1.7.1
+
+ -  Fix redirect for banners when URL start with slash.
+
 ### Version 1.7.0
 
  -  Added ability to show lightbox/awesomebar banner once a
