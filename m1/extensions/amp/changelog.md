@@ -9,6 +9,11 @@ sidebar: sidebar.md
 
 ### Version 1.4.0
 
+> Warning!
+>
+> Disable compilation mode before upgrade. You can find it at
+> _System > Tools > Compilation_ menu.
+
  -  `data-amp-` feature replaced with [`data-tmamp-`](/m1/extensions/amp/use-cases/#change-css-class-name)
     as it was conflicting with native `data-amp-replace` functionality
  -  Fixed bugs with following actions at google AMP cache pages:
