@@ -7,6 +7,15 @@ category: Accelerated Mobile Pages
 sidebar: sidebar.md
 ---
 
+### Version 1.4.0
+
+ -  `data-amp-` feature replaced with [`data-tmamp-`](/m1/extensions/amp/use-cases/#change-css-class-name)
+    as it was conflicting with native `data-amp-replace` functionality
+ -  Fixed bugs with following actions at google AMP cache pages:
+    - Add to Cart
+    - Add to Compare
+    - Add to Wishlist
+
 ### Version 1.3.0
 
  -  Added ability to use ['data-amp-' attribute](/m1/extensions/amp/use-cases/#change-css-class-name)

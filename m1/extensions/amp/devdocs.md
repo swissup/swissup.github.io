@@ -65,13 +65,13 @@ In most cases you can use the same template that is used for desktop theme. You
 don't need to care about img, iframe, video, audio tags since our AMP module will
 convert these tags into amp compatible tags automatically.
 
-You can even add `data-amp-` attributes to your elements and they will be
+You can even add `data-tmamp-` attributes to your elements and they will be
 used for AMP tags. This feature can be used, to manually set `layout`
 attribute that is used to render elements in AMP. Example:
 
 ```html
 <!-- This image -->
-<img src=".." alt="." data-amp-layout="fixed"/>
+<img src=".." alt="." data-tmamp-layout="fixed"/>
 
 <!-- Will be transformed into (We will calculate width and height automatically): -->
 
