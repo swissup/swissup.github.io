@@ -1,0 +1,20 @@
+- href: /images/m2/seo-html-sitemap/frontend/luma-sitemap.png
+  src: /images/m2/seo-html-sitemap/frontend/small/luma-sitemap.png
+  title: Full HTML Sitemap on Luma Theme
+  w: 1305
+  h: 2389
+- href: /images/m2/seo-html-sitemap/frontend/luma-sitemap-responsive.png
+  src: /images/m2/seo-html-sitemap/frontend/small/luma-sitemap-responsive.png
+  title: HTML Sitemap on Luma Theme on Mobile Devices
+  w: 320
+  h: 1638
+- href: /images/m2/seo-html-sitemap/frontend/argento-sitemap-grouped.png
+  src: /images/m2/seo-html-sitemap/frontend/small/argento-sitemap-grouped.png
+  title: HTML Sitemap on Argento Theme with Grouped By First Letter enabled
+  w: 1143
+  h: 2966
+- href: /images/m2/seo-html-sitemap/frontend/argento-sitemap-max-depth.png
+  src: /images/m2/seo-html-sitemap/frontend/small/argento-sitemap-max-depth.png
+  title: HTML Sitemap on Argento Theme with Categories Max Depth set to 3 and sorted by Position
+  w: 1196
+  h: 965
