@@ -8,7 +8,7 @@ category: SEO HTML Sitemap
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" modules="Swissup_SeoHtmlSitemap" %}
+{% include installation/m2/manual.html site="swissuplabs.com" modules="Swissup_Core Swissup_SeoCore Swissup_SeoHtmlSitemap" %}
 
 #### 4. Complete the installation
 
@@ -16,4 +16,4 @@ Login your store admin and start to [configure extension](/m2/extensions/seo-htm
 
 ##### Next up
 
-- [Back to docs homepage](/m2/extensions/seo-html-sitemap/index)
+- [Back to docs homepage](/m2/extensions/seo-html-sitemap)

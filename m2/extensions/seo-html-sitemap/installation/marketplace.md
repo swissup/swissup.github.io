@@ -16,4 +16,4 @@ Login your store admin and start to [configure extension](/m2/extensions/seo-htm
 
 ##### Next up
 
-- [Back to docs homepage](/m2/extensions/seo-html-sitemap/index)
+- [Back to docs homepage](/m2/extensions/seo-html-sitemap)
