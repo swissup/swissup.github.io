@@ -26,6 +26,26 @@ category: Argento
 - [Navigation](header/#navigation)
 - [Sticky navigation](header/#sticky-navigation)
 
+<<<<<<< Updated upstream
 ##### [Category](category/)
 
 - [Category header decoration](category/#category-header-decoration)
+=======
+##### [Footer](footer/)
+
+- [Social icons](footer/#social-icons)
+- [Company information, Call Us](footer/#company-information-call-us)
+- [Newsletter](footer/#newsletter)
+- [Short footer layout](footer/#short-footer-layout)
+
+##### [Homepage](homepage/)
+
+- [Header](homepage/#header)
+- [Slider](homepage/#slider)
+- [Categories](homepage/#categories)
+- [New Products](homepage/#new-products)
+- [Discount Banner](homepage/#discount-banner)
+- [Benefits](homepage/#benefits)
+- [Brands Slider](homepage/#brands-slider)
+- [Whole homepage code](homepage/#whole-homepage-content)
+>>>>>>> Stashed changes
