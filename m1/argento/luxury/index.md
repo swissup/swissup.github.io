@@ -46,4 +46,25 @@ category: Argento
 
 ##### [Category](category/)
 
-- [Category header decoration](category/#category-header-decoration)
+ -  [Layout](category/#layout)
+ -  [Category header decoration](category/#category-header-decoration)
+    -  [Adding background to title](category/#adding-background-to-title)
+    -  [Changing category title color](category/#changing-category-title-color)
+ -  [Product Listing](category/#products-listing)
+    - [Columns count](category/#columns-count)
+    - [Image size](category/#image-size)
+
+##### [Product Page](product-page/)
+
+ -  [Layout](product-page/#layout)
+ -  [Content](product-page/#content)
+    - [Images](product-page/#images)
+    - [Colorswatches](product-page/#colorswatches)
+    - [Tabs](product-page/#tabs)
+    - [Soldtogether blocks](product-page/#soldtogether-blocks)
+        - [Frequently bought together](product-page/#frequently-bought-together)
+        - [Customers who bought this item also bought](product-page/#customers-who-bought-this-item-also-bought)
+
+##### [Checkout Page](checkout-page/)
+
+- [Short header and footer layout](checkout-page/#short-header-and-footer-layout)

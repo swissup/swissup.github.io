@@ -49,8 +49,6 @@ category: Argento
     - [Image size](category-page/#image-size)
  -  [Sidebar](category-page/#sidebar)
     - [Sticky sidebar](category-page/#sticky-sidebar)
-    - [Layered navigation](category-page/#layered-navigation)
-    - [Testimonials](category-page/#testimonials)
 
 ##### [Product Page](product-page/)
 
