@@ -26,11 +26,6 @@ category: Argento
 - [Navigation](header/#navigation)
 - [Sticky navigation](header/#sticky-navigation)
 
-<<<<<<< Updated upstream
-##### [Category](category/)
-
-- [Category header decoration](category/#category-header-decoration)
-=======
 ##### [Footer](footer/)
 
 - [Social icons](footer/#social-icons)
@@ -48,4 +43,7 @@ category: Argento
 - [Benefits](homepage/#benefits)
 - [Brands Slider](homepage/#brands-slider)
 - [Whole homepage code](homepage/#whole-homepage-content)
->>>>>>> Stashed changes
+
+##### [Category](category/)
+
+- [Category header decoration](category/#category-header-decoration)
