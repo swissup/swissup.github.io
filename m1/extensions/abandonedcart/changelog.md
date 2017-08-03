@@ -8,6 +8,11 @@ category: Abandoned Cart
 
 # Changelog
 
+### Version 1.2.4
+
+ -  Email {{template }} directive was fixed
+ -  Add emulation for email sending
+
 ### Version 1.2.3
 
  -  Compatibility with old magento version ( 1.9 > ) email templates was added
