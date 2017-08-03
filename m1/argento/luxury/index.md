@@ -25,3 +25,7 @@ category: Argento
 - [Search](header/#top-search)
 - [Navigation](header/#navigation)
 - [Sticky navigation](header/#sticky-navigation)
+
+##### [Category](category/)
+
+- [Category header decoration](category/#category-header-decoration)
