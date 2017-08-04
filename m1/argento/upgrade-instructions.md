@@ -8,6 +8,21 @@ category: Argento
 
 # Argento Upgrade Instructions
 
+### Version 1.8.6 - 1.9.0
+
+Remove deprecated render templates for checkout cart:
+
+```
+app/design/frontend/argento/default/template/buyerprotect/cart/renderer/buyerprotect.phtml
+app/design/frontend/argento/default/template/rewardsonly/checkout/cart/item/default.phtml
+app/design/frontend/argento/default/template/rewardsonly/checkout/cart/item/default_m1501.phtml
+app/design/frontend/argento/default/template/rewardsonly/checkout/cart/item/downloadable.phtml
+app/design/frontend/argento/flat/template/checkout/cart.phtml
+app/design/frontend/argento/pure2/template/checkout/cart.phtml
+```
+
+Please do not forget to clean your magento cache after this.
+
 ### Version 1.8.6
 
 After source files update, please, go in Magento Admin to menu _Templates Master_ and select _Modules_ there. Find theme you are using -
