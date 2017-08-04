@@ -7,6 +7,10 @@ category: Cache
 
 # Full Page Cache Changelog
 
+### Version 1.4.8
+
+ -  Fixed dynamic blocks rendering inside [EasyTabs](/m1/extensions/easytabs/)
+
 ### Version 1.4.7
 
  -  Fixed dynamic blocks rendering inside easybanner blocks
