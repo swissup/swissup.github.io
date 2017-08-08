@@ -7,6 +7,47 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.9.0.1
+
+ -  Fixed missing icons at Luxury theme when CSS merge enabled.
+ -  Removed deprecated render templates for checkout cart. Please follow
+    upgrade instructions for [package version 1.9.0](../upgrade-instructions/#version-186---190).
+
+### Version 1.9.0
+
+ -  New vivid theme included into package - Luxury theme. Checkout
+    [Luxury Theme Demo](http://magento1demo.argentotheme.com/luxury_en/).
+ -  Updated templates for checkout cart page.
+ -  Unified sizes of product images at product listing and widget grids. It
+    reduces size of media cache.
+ -  JavaScript and CSS improvements.
+
+**Modules fixes & improvements**
+
+ -  AjaxPro:
+     +  Qty Switcher added on product reviews page.
+     +  Minor CSS and JavaScript improvements for popups
+
+ -  AMP:
+     +  Fixed bugs with actions at google AMP cache pages (Add to Cart, Add to
+        Compare, Add to Wishlist)
+
+ -  AskIt:
+     +  Remove duplicated `div.left` element at product questions block.
+
+ -  Facebook Like Button:
+     +  New "like button" layout - custom button. It renders on server side,
+        consumes less browser resources and provides possibility of CSS
+        customization.
+
+ -  ProLabels:
+     +  Do not render empty container for content labels if there are no
+        labels.
+
+ -  SEO Suite:
+     +  Metadata templates: fix price directive (respect tax config -
+        include/exclude tax; remove decimal trailing zeros).
+
 ### Version 1.8.9
 
  -  Advanced layout settings for Argento and Pure themes. Now every theme in

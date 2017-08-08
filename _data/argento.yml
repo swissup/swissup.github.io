@@ -40,6 +40,9 @@ m1:
     - title: Pure2
       url: /m1/argento/pure2/
 
+    - title: Luxury
+      url: /m1/argento/luxury/
+
   extensions:
     - ajaxpro
     - ajaxsearch

@@ -1,21 +1,21 @@
 ---
 layout: default
-title: Argento Pure 2.0 Header
-description: ArgentoPure 2.0 header configuration
-keywords: "ArgentoPure, pure, pure2, header, logo, search, navigation, sticky navigation"
+title: Argento Luxury Header
+description: Argento Luxury header configuration
+keywords: "ArgentoLuxury, luxury, header, logo, search, navigation, sticky navigation"
 category: Argento
 ---
 
-# Argento Pure 2.0 Header
+# Argento Luxury Header
 
-![Pure 2.0 header](/images/argento/pure2/header/header.png)
+![Luxury header](/images/argento/luxury/header/header.png)
 
 ### Logo
 
 ###### Step 1
 
 To replace demo logo with your own, please upload your image to
-`skin/frontend/argento/pure2_custom/images/logo.png` via ftp manager.
+`skin/frontend/argento/luxury_custom/images/logo.png` via ftp manager.
 
 If your image has different name or file format, you will need to proceed to step 2.
 
@@ -27,26 +27,31 @@ to your file name.
 
 ###### Step 3
 
+To replace homepage logo,
+go to `System > Configuration > TM Argento Themes > Luxury > Home Page` and upload your image.
+
+###### Step 4
+
 In order to provide sharp images for devices with high DPI ratio (retina displays),
 you'll need to upload twice large logo's as follows:
 
-`skin/frontend/argento/pure2_custom/images/logo@2x.png` in case if original logo
+`skin/frontend/argento/luxury_custom/images/logo@2x.png` in case if original logo
 name was `logo.png`
 
 OR
 
-`skin/frontend/argento/pure2_custom/images/logoname@2x.gif` in case if original logo
+`skin/frontend/argento/luxury_custom/images/logoname@2x.gif` in case if original logo
 name was `logoname.gif`
 
-### Search
+### Top Search
 
-Pure 2.0 theme utilize AjaxSearch module for the search functionality. You can
+Luxury theme utilizes [Ajax Search](/m1/extensions/ajaxsearch/) module for the search functionality. You can
 configure Suggestion popup and Search engine settings at
-`System > Configuration > Templates-Master > Ajax Search`
+`System > Configuration > Templates-Master > Ajax Search`.
 
 ### Navigation
 
-Pure 2.0 theme utilize [NavigationPro](/m1/extensions/navigationpro/) module for top navigation.
+Luxury theme utilizes [Navigation Pro](/m1/extensions/navigationpro/) module for top navigation.
 You can configure Menu items at `Templates-Master > Navigation Pro`.
 
 Please read the following docs about NavigationPro features:
@@ -59,7 +64,7 @@ Please read the following docs about NavigationPro features:
 Sticky navigation is enabled by default for wide and long screens. If you would
 like to disable sticky navigation, you can use the following methods:
 
- -  [Argento Pure 2.0 configuration](/m1/argento/pure2/configuration/#sticky-header-and-sidebar)
+ -  [Argento Luxury configuration](/m1/argento/luxury/configuration/#sticky-header)
  -  Disable Sticky Navigation using [custom layout update file](/m1/argento/theme-customization/small-changes/#custom-layout-update-file)
 
     ```

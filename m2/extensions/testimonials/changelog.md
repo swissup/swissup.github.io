@@ -8,6 +8,12 @@ category: Testimonials
 
 # Changelog
 
+### Version 1.0.8
+
+ -  Fixed errors about missing store information in Google snippets
+for testimonials review widget
+ -  Save testimonial when admin notification email cannot be sent
+
 ### Version 1.0.7
 
  -  ACL improvements according latest Magento requirements

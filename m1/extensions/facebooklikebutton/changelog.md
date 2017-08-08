@@ -7,6 +7,12 @@ category: Facebook Like Button
 
 # Changelog
 
+### Version 2.2.0
+
+ -  New "like button" layout - custom button. It renders on server side,
+    consumes less browser resources and provides possibility of CSS customization.
+ -  Fix missing locales in config drop-down.
+
 ### Version 2.1.1
 
  -  Remove test code from category template.

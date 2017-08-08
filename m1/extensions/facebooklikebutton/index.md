@@ -15,5 +15,6 @@ Increase sales with Facebook. Magento Facebook Like button module allows you to 
  -  [Installation](installation/)
     -  [Update extension from 2.0.2 to 2.1.0](installation/#update-extension-from-202-to-210)
  -  [Changelog](changelog/)
+ -  [Create Facebook App ID](facebook-app-id/)
  -  [Configuration](configuration/)
  -  [Open Graph Facebook](open-graph-facebook/)

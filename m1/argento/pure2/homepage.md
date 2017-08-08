@@ -41,7 +41,7 @@ the slider on the homepage:
 
 ![Categories](/images/argento/pure2/homepage/easycatalogimages.png)
 
-Categories block is powered by [EasyCatalogImages](/m1/easycatalogimages/) module.
+Categories block is powered by [EasyCatalogImages](/m1/extensions/easycatalogimages/) module.
 
 This block is inserted using magento widget functionality. The following code
 is used to show block on the homepage:

@@ -44,7 +44,7 @@ code to [custom.xml][custom_xml]:
 <remove name="collapsed_category_description"/>
 ```
 
-## Product Listing
+## Products Listing
 
 ![Product Listing](/images/argento/pure2/category-page/product_listing.png)
 
@@ -140,4 +140,4 @@ Or, you can also use [custom.xml][custom_xml] to disable it:
 <remove name="sticky_sidebar"/>
 ```
 
-[custom_xml]: /argento/theme-customization/small-changes/#custom-layout-update-file "custom.xml layout"
+[custom_xml]: /m1/argento/theme-customization/small-changes/#custom-layout-update-file "custom.xml layout"
