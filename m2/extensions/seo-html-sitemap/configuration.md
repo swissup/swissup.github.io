@@ -9,7 +9,7 @@ category: SEO HTML Sitemap
 # Configuration
 
 SEO HTML Sitemap configuration is located at
-_Stores > Configuration > Swissup SEO Suite > SEO HTML Sitemap_ page.
+`Stores > Configuration > Swissup SEO Suite > SEO HTML Sitemap` page.
 
 ![HTML Sitemap section](/images/m2/seo-html-sitemap/configuration.png)
 
@@ -17,7 +17,7 @@ Option | Description
 -------|------------
 Enabled | Enable/Disable module.
 Sitemap Page Title, Meta Description and Meta Keywords | Set sitemap page metadata
-Show Stores on Sitemap | Show list of stores
+Show Stores on Sitemap | Show list of stores. **Note**, that sitemap will use proper store URLs only in the case when `Add Store Code to Urls` option is enabled in `System > Configuration > General > Web > Url Options`.
 Show Categories on Sitemap | Show list of store categories
 Max Categories Depth | Set maximum categories depth. Set to 0 to show all categories
 Show Products on Sitemap | Show catalog products list on sitemap

@@ -9,7 +9,7 @@ category: SEO HTML Sitemap
 # Links Grid
 
 SEO HTML Sitemap grid is located at
-_Swissup > SEO Suite > HTML Sitemap Links_ page.
+`Swissup > SEO Suite > HTML Sitemap Links` page.
 Here you can add your custom links to show on sitemap.
 
 ![HTML Sitemap grid](/images/m2/seo-html-sitemap/grid.png)
