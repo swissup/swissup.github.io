@@ -8,6 +8,11 @@ category: Sold Together
 
 # Changelog
 
+### Version 1.4.7
+
+ -  Add ability to show soldtogether like a widget
+ -  Get products from current cart (quote)
+
 ### Version 1.4.5
 
  -  Added option to reindex orders only for last N days (user can specify
@@ -34,4 +39,3 @@ category: Sold Together
 ### Version 1.4.0
 
  -  Added soldtogether customer and order blocks to order email
- 
