@@ -8,7 +8,7 @@ category: Argento
 # Homepage content
 
 Argento homepage - is a standard Magento's CMS page. You can edit it at
-`Magento Admin > Content > Pages > Argento Essence` page.
+`Magento Admin > Content > Pages > Argento Flat` page.
 
 Argento's homepage uses a bunch of widgets, that could be widely customized to
 match various layout types and designs.
