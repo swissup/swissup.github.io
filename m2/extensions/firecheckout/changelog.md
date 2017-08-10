@@ -8,6 +8,13 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.6.3
+
+ -  Fixed error message about non-avilable shipping method caused by shipping
+    address update
+ -  Fixed grand total update when shipping method becomes unavailable
+ -  [DeliveryDate](/m2/extensions/delivery-date/) module updated to 1.0.3
+
 ### Version 1.6.2
 
  -  Fixed rare bug with missing default customer address after the first login
@@ -27,7 +34,7 @@ category: Firecheckout
     See the [installation instructions](../installation/manual/) on how to enable new module.
  -  Fixed conflict with "Checkout > Display Billing Address On" option
  -  ACL added to the UI components according to Magento 2.1.7 release
- -  Fixed backend download and preview action urls in [OrderAttachments](/m1/extensions/order-attachments/)
+ -  Fixed backend download and preview action urls in [OrderAttachments](/m2/extensions/order-attachments/)
     module
 
 ### Version 1.5.3
