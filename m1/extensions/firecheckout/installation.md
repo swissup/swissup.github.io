@@ -32,4 +32,6 @@ run recompilation if it is enabled.
 
 #### Next Up
 
- -  [Configuration](../configuration/)
+ -  [Configuration](/m1/extensions/firecheckout/configuration/)
+ -  [Add comment field to email template](/m1/extensions/firecheckout/adding-comment-fields-to-sales-emails/)
+ -  [Add checkout fields to email template](/m1/extensions/firecheckout/adding-checkout-fields-to-transactional-emails/)
