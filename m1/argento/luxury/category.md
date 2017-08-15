@@ -38,7 +38,11 @@ page_one_column
 
 ![Category title background](/images/argento/luxury/category/category-title-background.png)
 
+<<<<<<< Updated upstream
 #### Adding background to title
+=======
+##### Adding background to title
+>>>>>>> Stashed changes
 
 In **Luxury** theme you have an option to add fullwidth category title backgrounds.
 
@@ -49,7 +53,11 @@ Background will appear if you upload an image to
 
 ![Category background admin upload](/images/argento/luxury/category/category-background-admin-upload.png)
 
+<<<<<<< Updated upstream
 #### Changing category title color
+=======
+##### Changing category title color
+>>>>>>> Stashed changes
 
 By default the category title text has **WHITE** color, but sometimes
 it doesn't look good at light backgrounds.
