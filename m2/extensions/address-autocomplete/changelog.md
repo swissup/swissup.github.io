@@ -10,6 +10,7 @@ category: Address Autocomplete
 ### Version 1.0.3
 
  -  Using `street.long_name` instead of `street.short_name`
+ -  Add js gm_authFailure callback
 
 ### Version 1.0.2
 
