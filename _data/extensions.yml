@@ -292,6 +292,13 @@ highlight:
     m1: /m1/extensions/highlight/
     m2: /m2/extensions/highlight/
 
+hover-gallery:
+  title: Hover Gallery
+  short_description:
+  urls:
+    m1:
+    m2: /m2/extensions/hover-gallery/
+
 improvedadminsecurity:
   title: Improved Admin Security
   short_description:
