@@ -8,6 +8,10 @@ category: Checkout Cart
 
 # Changelog
 
+### Version 1.1.1
+
+ -  Fixed line-break on smaller screen sizes
+
 ### Version 1.1.0
 
  -  LumaIcons replaced with css styled arrows

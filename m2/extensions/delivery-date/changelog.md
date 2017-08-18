@@ -7,6 +7,10 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.0.4
+
+ -  Fixed compatibility with Magento 2.1 (Including 2.1.8)
+
 ### Version 1.0.3
 
  -  Fixed 'Dec 2, 2' null bug

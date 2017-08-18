@@ -8,6 +8,14 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.6.4
+
+ -  Fixed shipping total recalculation, when street is empty
+ -  [AddressAutocomplete](/m2/extensions/address-autocomplete/) module updated to 1.0.3
+ -  [CheckoutCart](/m2/extensions/checkout-cart/) module updated to 1.1.1
+ -  [CheckoutFields](/m2/extensions/checkout-fields/) module updated to 1.0.1
+ -  [DeliveryDate](/m2/extensions/delivery-date/) module updated to 1.0.4
+
 ### Version 1.6.3
 
  -  Fixed error message about non-avilable shipping method caused by shipping
@@ -30,7 +38,7 @@ category: Firecheckout
 
 > Magento requirements: 2.0.12 or 2.1.4 and higher
 
- -  [CheckoutFields](/m1/extensions/checkout-fields/) module added.
+ -  [CheckoutFields](/m2/extensions/checkout-fields/) module added.
     See the [installation instructions](../installation/manual/) on how to enable new module.
  -  Fixed conflict with "Checkout > Display Billing Address On" option
  -  ACL added to the UI components according to Magento 2.1.7 release

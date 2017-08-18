@@ -10,7 +10,8 @@ category: Address Autocomplete
 ### Version 1.0.3
 
  -  Using `street.long_name` instead of `street.short_name`
- -  Add js gm_authFailure callback
+ -  Added js gm_authFailure callback to fix disabled street address line,
+    when API key is invalid
 
 ### Version 1.0.2
 
@@ -23,4 +24,4 @@ category: Address Autocomplete
 
 ### Version 1.0.0
 
-Initial release
+ -  Initial release
