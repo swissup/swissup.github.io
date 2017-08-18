@@ -10,7 +10,7 @@ category: Checkout Cart
 
 ### Version 1.1.1
 
- -  Fixed line-break on smaller screen sizes
+ -  Fixed styles small screen sizes
 
 ### Version 1.1.0
 
