@@ -7,6 +7,11 @@ category: Attributepages
 
 # Changelog
 
+### Version 1.0.6
+
+ -  Magento 2.2 compatibility
+ -  Fixed bug with missing brand image after save
+
 ### Version 1.0.5
 
  -  ACL instructions added to UI components according to latest Magento requirements

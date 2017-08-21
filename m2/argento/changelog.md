@@ -7,6 +7,10 @@ category: Argento
 
 # Argento Changelog
 
+### Version 0.9.8
+
+ -  Magento 2.2 compatibility
+
 ### Version 0.9.7
 
 > [Upgrade Instructions](/m2/argento/upgrade-instructions/#version-096---097)

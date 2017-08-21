@@ -8,6 +8,12 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.6.5
+
+ -  Magento 2.2 compatibility
+ -  [CheckoutFields](/m2/extensions/checkout-fields/) module updated to 1.0.2
+ -  [OrderAttachments](/m2/extensions/order-attachments/) module updated to 1.0.7
+
 ### Version 1.6.4
 
  -  Fixed shipping total recalculation, when street is empty

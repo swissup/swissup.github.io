@@ -8,6 +8,10 @@ category: Checkout Fields
 
 # Changelog
 
+### Version 1.0.2
+
+ -  Magento 2.2 compatibility
+
 ### Version 1.0.1
 
  -  Removed too big space above checkout-fields section

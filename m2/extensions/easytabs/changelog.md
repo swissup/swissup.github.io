@@ -10,6 +10,10 @@ category: Easy Tabs
 
 ### Version 1.0.4
 
+ -  Magento 2.2 compatibility
+
+### Version 1.0.4
+
  -  ACL instructions added to UI components according to latest Magento requirements
 
 ### Version 1.0.3

@@ -8,6 +8,10 @@ category: Testimonials
 
 # Changelog
 
+### Version 1.0.9
+
+ -  Magento 2.2 compatibility
+
 ### Version 1.0.8
 
  -  Fixed errors about missing store information in Google snippets

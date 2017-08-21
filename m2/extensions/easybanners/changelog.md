@@ -8,6 +8,10 @@ category: Easy Banners
 
 # Changelog
 
+### Version 1.0.10
+
+ -  Magento 2.2 compatibility
+
 ### Version 1.0.9
 
  -  ACL instructions added to UI components according to latest Magento requirements

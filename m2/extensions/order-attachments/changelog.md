@@ -7,6 +7,10 @@ category: Order Attachments
 
 # Changelog
 
+### Version 1.0.7
+
+ -  Magento 2.2 compatibility
+
 ### Version 1.0.6
 
  -  Fixed backend download and preview action urls
