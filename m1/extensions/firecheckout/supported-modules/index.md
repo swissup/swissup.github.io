@@ -155,6 +155,7 @@ additional modifications.
 ### RewardPoints
 
 - [AW_Points](aw-points/)
+- [AW_Raf](aw-raf/)
 - AW_Rewards
 - [J2t_Rewardpoints](j2t-rewardpoints/)
 - [Itoris_CustomerRewards](itoris-customerrewards/)
