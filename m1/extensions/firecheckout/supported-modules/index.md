@@ -24,7 +24,7 @@ keywords: >
     GCMC_GiveChange, Symmetrics_Buyerprotect, CraftyClicks, Juicy_Geoip,
     Rack_Getpostcode, AW_Advancednewsletter, AW_Newsletter,
     RedPandaPlus_OrderAttachments, Inchoo_SocialConnect, TM_SocialSuite,
-    Firegento_MageSetup, TIG_Myparcel2014
+    TIG_Myparcel2014
 category: Firecheckout
 ---
 
@@ -211,4 +211,4 @@ additional modifications.
 
 ### National Market Extensions
 
- - Firegento_MageSetup
+ - [Firegento_MageSetup](firegento-magesetup/)
