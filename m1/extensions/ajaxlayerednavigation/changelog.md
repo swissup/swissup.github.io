@@ -7,6 +7,12 @@ keywords: magento layered navigation updates
 
 # Changelog
 
+### Version 2.6.2
+
+ -  Code clean and refactoring
+ -  Review filter was added
+
+
 ### Version 2.6.1
 
  -  Added possibly losted query parameter( AMP compatibility)
