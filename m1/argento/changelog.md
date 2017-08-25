@@ -7,6 +7,17 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.9.1
+
+ -  Improved compatibility with Amasty_ShopBy module
+ -  Improved suggestpage product listing styles
+ -  Improved Askit styles on product page
+ -  Fix onhover icons positioning when prolabels disabled
+ -  Fixed missing frontend translation fopr the 'More' phrase
+ -  Fixed W3C validator error with unset HEIGHT property at homepage
+ -  Fixed php notice when saving theme editor changes
+ -  PHP code cleanup
+
 ### Version 1.9.0.1
 
  -  Fixed missing icons at Luxury theme when CSS merge enabled.
