@@ -16,7 +16,7 @@ category: Argento
 >
 > If you did not &mdash; [go ahead](../custom-theme/), it will take 15 minutes.
 
-Argento brings possibility to create new `argento_custom.js` file, that will be
+Argento brings possibility to create new `argento-custom.js` file, that will be
 automatically included on all pages.
 
  1. Create new directory in yout custom Argento sub-theme:
@@ -25,7 +25,7 @@ automatically included on all pages.
     app/design/frontend/Local/argento-[essence|flat]-custom/web/js
     ```
 
- 2. Create `argento_custom.js` inside `js` folder
+ 2. Create `argento-custom.js` inside `js` folder
  3. Add script skeleton:
 
     ```js
