@@ -8,6 +8,10 @@ category: Mobile Star Theme
 
 # Changelog
 
+### Version 1.4.5
+
+ -  PHP code cleanup to pass MEQP validation
+
 ### Version 1.4.4
 
  -  Magento 1.9.3.3 compatibility

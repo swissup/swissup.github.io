@@ -8,6 +8,10 @@ category: Highlight
 
 # Changelog
 
+### Version 2.6.3
+
+ -  PHP code cleanup to pass MEQP validation
+
 ### Version 2.6.2
 
  -  Fixed compatibility with [SlickCarousel](/m1/extensions/slick-carousel/) module

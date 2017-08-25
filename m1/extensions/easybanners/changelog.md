@@ -6,6 +6,10 @@ category: Easy Banners
 sidebar: sidebar.md
 ---
 
+### Version 1.7.2
+
+ -  PHP code cleanup to pass MEQP validation
+
 ### Version 1.7.1
 
  -  Fix redirect for banners when URL start with slash.

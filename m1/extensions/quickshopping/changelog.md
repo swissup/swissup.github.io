@@ -8,6 +8,12 @@ category: Quick Shopping
 
 # Changelog
 
+### Version 1.3.1
+
+ -  Small design improvements
+ -  escapeHtml added to the title attributes
+ -  PHP code cleanup to pass MEQP validation
+
 ### Version 1.3.0
 
  -  iCart integration added

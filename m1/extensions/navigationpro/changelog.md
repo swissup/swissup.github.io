@@ -8,6 +8,11 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.5.5
+
+ -  Small js improvements
+ -  PHP code cleanup to pass MEQP validation
+
 ### Version 1.5.3
 
  -  JS-file loads with defer attribute.

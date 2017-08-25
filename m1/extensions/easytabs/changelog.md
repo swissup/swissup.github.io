@@ -7,6 +7,13 @@ category: Easy Tabs
 sidebar: sidebar.md
 ---
 
+### Version 3.1.4
+
+ -  Dramatical SEO improvement [H2] in tab headers
+ -  Improved compatibility with third-party themes
+ -  Css improvements
+ -  PHP code cleanup to pass MEQP validation
+
 ### Version 3.1.1
 
  -  Conditions for tabs. Now you can hide/show tabs for specific products

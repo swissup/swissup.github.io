@@ -7,6 +7,10 @@ category: Attributepages
 
 # Changelog
 
+### Version 1.3.9
+
+ -  PHP code cleanup to pass MEQP validation
+
 ### Version 1.3.8
 
  -  Magento 1.9.3.3 image validator added

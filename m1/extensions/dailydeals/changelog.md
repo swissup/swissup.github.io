@@ -8,6 +8,11 @@ category: Daily Deals
 
 # Changelog
 
+### Version 1.1.4
+
+ -  Dramatic performance improvements
+ -  PHP code cleanup to pass MEQP validation
+
 ### Version 1.1.3
 
  *  updated widgets for better compatibility with Argento Package 1.8.4+

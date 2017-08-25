@@ -7,6 +7,13 @@ category: Firecheckout
 
 # Changelog
 
+### Version 4.2.2
+
+ -  Small fixes into onecolumn layout mode
+ -  Fixed js validation on DOB field
+ -  Improved scrollTo method. Now it depends on `sticky_offset_top` config value.
+ -  PHP code cleanup to pass MEQP validation
+
 ### Version 4.2.1
 
  -  Fixed js error `defaultValue of null` for logged-in customers

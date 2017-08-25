@@ -8,6 +8,12 @@ category: Checkout Success
 
 # Changelog
 
+### Version 2.0.5
+
+ -  Added compatibility with mageworld onestepcheckout
+ -  Minor style fixes for quick registration
+ -  PHP code cleanup to pass MEQP validation
+
 ### Version 2.0.4
 
  -  IWD_OrderManager compatibility

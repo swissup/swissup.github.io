@@ -8,6 +8,12 @@ category: Prolabels
 
 # Changelog
 
+### Version 2.7.11
+
+ -  Fixed missing labels when enabled option 'Move to content on mobile'.
+ -  Do not render empty container for content labels if there are no labels.
+ -  PHP code cleanup to pass MEQP validation
+
 ### Version 2.7.8
 
  -  Fix notice "Undefined variable" when stock labels render.

@@ -12,6 +12,7 @@ category: Facebook Like Button
  -  New "like button" layout - custom button. It renders on server side,
     consumes less browser resources and provides possibility of CSS customization.
  -  Fix missing locales in config drop-down.
+ -  PHP code cleanup to pass MEQP validation
 
 ### Version 2.1.1
 
