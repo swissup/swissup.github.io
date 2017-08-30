@@ -7,6 +7,12 @@ category: Accelerated Mobile Pages
 sidebar: sidebar.md
 ---
 
+### Version 1.5.0
+
+{% include gallery.html images=site.data.gallery.m1.amp.changelog.v150 class="phone-up-2 tablet-up-3 photoswipe scroll" %}
+
+This version includes major update for **RTL** styles.
+
 ### Version 1.4.0
 
 > Warning!
