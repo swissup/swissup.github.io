@@ -8,6 +8,11 @@ category: Helpmate
 
 # Changelog
 
+### Version 1.7.1
+
+ - Fix MEQP
+ - Blacklist email logic was improved
+
 ### Version 1.7.0
 
  - Fix lost guest email bug
