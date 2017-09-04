@@ -8,6 +8,11 @@ category: AjaxPro
 
 # Changelog
 
+### Version 3.3.17
+
+ -  Fix MEQP
+ -  Fix getParam logic
+
 ### Version 3.3.14
 
  -  Integration with latest Ultimo Smartheader.
