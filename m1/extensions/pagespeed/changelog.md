@@ -7,6 +7,12 @@ category: Page Speed
 
 # Changelog
 
+### Version 1.2.9
+
+ -  Fix MEQP
+ -  Delete does not exist file from database
+ -  Fix phpmd warnings
+
 ### Version 1.2.8
 
  -  google insight image optimisation was added
