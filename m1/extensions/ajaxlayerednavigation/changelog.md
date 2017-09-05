@@ -7,6 +7,13 @@ keywords: magento layered navigation updates
 
 # Changelog
 
+### Version 2.6.3
+
+ -  Fix MEQP.1
+ -  Fix isRangeSlider => isRangeSliderEnabled
+ -  Fix :move to left column on catalogsearch_advanced_result page
+
+
 ### Version 2.6.2
 
  -  Code clean and refactoring
