@@ -36,7 +36,7 @@ This section contains a list of installed modules and their versions.
 
 Option | Description
 -------|------------
-Enabled | Select AMP theme to use
+Enabled | Allows to turn off notifications
 Update Frequency | Allows to change fetch notification frequency
 News to show in notification bar | Allows to filter visible notification
 Last Update | Information about last time the news was fetched
