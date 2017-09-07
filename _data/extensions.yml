@@ -125,13 +125,6 @@ checkoutsuccess:
     m1: /m1/extensions/checkout-success/
     m2: /m2/extensions/checkoutsuccess/
 
-core:
-  title: Core
-  short_description:
-  urls:
-    m1: /m1/extensions/core/
-    m2:
-
 deliverydate:
   title: Delivery Date
   short_description: Allow customer to choose delivery date during checkout.
@@ -153,6 +146,13 @@ configurableswatches:
   short_description:
   urls:
     m1: /m1/extensions/catalog-configurable-swatches/
+    m2:
+
+core:
+  title: Core
+  short_description:
+  urls:
+    m1: /m1/extensions/core/
     m2:
 
 countdowntimer:
