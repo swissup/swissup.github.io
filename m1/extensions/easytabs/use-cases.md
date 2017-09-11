@@ -187,14 +187,18 @@ There are two possible ways to implement this feature:
 
     ```js
     $$('WRITE_SELECTOR_HERE').each(function(el) {
-        el.observe('click', function(e) {
-            e.stop();
-
-            var element = e.element(),
-                tab     = 'TAB_ALIAS_FROM_BACKEND',
-                scroll  = true,
-                animate = true;
-            easytabs.onclick(element , e, tab, scroll, animate);
+        el.observe('click', function(event) {
+            var element = this;
+            easytabs.each(function (tabs){
+                tab = tabs.getTabByHref('#product_tabs_' + 'TAB_ALIAS_FROM_BACKEND');
+                if (tab) {
+                    var scroll  = true,
+                        animate = true;
+                    tabs.onclick(element, null, '', scroll, animate);
+                    event.stop();
+                    throw $break;
+                }
+            });
         });
     });
     ```
@@ -205,13 +209,17 @@ There are two possible ways to implement this feature:
     ```js
     $$('.rating-links a, .no-rating a').each(function(el) {
         el.observe('click', function(e) {
-            e.stop();
-
-            var element = e.element(),
-                tab     = 'review',
-                scroll  = true,
-                animate = true;
-            easytabs.onclick(element , e, tab, scroll, animate);
+            var element = this;
+            easytabs.each(function (tabs){
+                tab = tabs.getTabByHref('#product_tabs_' + 'review_tabbed');
+                if (tab) {
+                    var scroll  = true,
+                        animate = true;
+                    tabs.onclick(element, null, '', scroll, animate);
+                    event.stop();
+                    throw $break;
+                }
+            });
         });
     });
     ```
