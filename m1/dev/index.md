@@ -36,6 +36,7 @@ title: Development documentation
  - [PHP Coding Standards Fixer](#php-coding-standards-fixer)
  - [PHP Copy/Paste Detector](#php-copypaste-detector-phpcpd)
  - [PHPLint](#phplint)
+ - [ESLint](#eslint)
 
 [**Miscellaneous**](#miscellaneous)
 
@@ -438,6 +439,25 @@ $ npm i -g phplint
 # Usage Example
 $ phplint ~/tm/ajaxpro/**/*.php
 $ phplint ~/tm/ajaxpro/**/*.phtml
+```
+
+#### [ESLint](https://eslint.org/docs/user-guide/getting-started)
+
+ESLint is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code, with the goal of making code more consistent and avoiding bugs.
+
+https://eslint.org/docs/user-guide/getting-started
+https://eslint.org/docs/user-guide/command-line-interface
+http://devdocs.magento.com/guides/v2.0/coding-standards/code-standard-javascript.html
+https://github.com/magento/magento2/blob/develop/dev/tests/static/testsuite/Magento/Test/Js/_files/eslint/.eslintrc-magento
+
+```
+# Install
+$ npm install -g eslint
+
+# Usage Example
+$ eslint --ext .jsx,.js --config /var/www/local.magentocommerce2.com/htdocs/dev/tests/static/testsuite/Magento/Test/Js/_files/eslint/.eslintrc-magento ~/swissup/ajaxpro/**
+# Auto fix
+eslint --fix --ext .jsx,.js --config /var/www/local.magentocommerce2.com/htdocs/dev/tests/static/testsuite/Magento/Test/Js/_files/eslint/.eslintrc-magento ~/swissup/ajaxpro/**
 ```
 
 ## Miscellaneous
