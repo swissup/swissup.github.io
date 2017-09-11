@@ -37,6 +37,7 @@ title: Development documentation
  - [PHP Copy/Paste Detector](#php-copypaste-detector-phpcpd)
  - [PHPLint](#phplint)
  - [ESLint](#eslint)
+ - [JSCS](#jscs)
 
 [**Miscellaneous**](#miscellaneous)
 
