@@ -8,6 +8,9 @@ category: Firecheckout
 
 # OnePica AvaTax
 
+> Newest AvaTax version (3.5.3) does not need this patch
+> Works with Firecheckout 4.2.3
+
 1.  Open `app/code/community/OnePica/AvaTax/etc/config.xml` and find the
     following code:
 
