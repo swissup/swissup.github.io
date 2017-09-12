@@ -86,7 +86,8 @@ additional modifications.
 - [Bpost_ShippingManager](bpost-shm/)
 - [Bpost_ShM](bpost-shm/)
 - Bysoft_Relaypoint
-- [Dhl_Account](dhl_account/)
+- [Dhl_Account](dhl-account/)
+- [Dhl_LocationFinder](dhl-locationfinder/)
 - Dhl_Magentolws
 - Dhl_Versenden
 - DPD_Shipping
