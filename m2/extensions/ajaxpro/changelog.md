@@ -10,6 +10,14 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.2.2
+
+- Fix MEQP errors
+- Fix ESLint and JSCS warnings
+- Add plugin for custom events
+- Fix 2.1 integrity
+- Add js debug mode
+
 ### Version 1.2.1
 
 - Improved styles for 'simple' popup window
