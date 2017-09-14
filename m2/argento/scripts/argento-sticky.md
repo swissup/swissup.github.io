@@ -88,10 +88,14 @@ define([
     'domReady!'
 ], function($) {
     // disable
-    $('.header.wrapper').data('argentoArgentoSticky').disable();
+    if($ ('.header.wrapper').length){
+        $('.header.wrapper').data('argentoArgentoSticky').disable();
+    }
 
     // or enable
-    // $(".header.wrapper").data('argentoArgentoSticky').disable();
+    // if($ ('.header.wrapper').length){
+    //     $(".header.wrapper").data('argentoArgentoSticky').disable();
+    // }
 });
 ```
 
