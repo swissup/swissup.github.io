@@ -313,6 +313,13 @@ improvedadminsecurity:
     m1: /m1/extensions/improvedadminsecurity/
     m2:
 
+instaframe:
+  title: Instaframe
+  short_description:
+  urls:
+    m1:
+    m2: /m2/extensions/instaframe/
+
 lightboxpro:
   title: Lightbox Pro
   short_description:
