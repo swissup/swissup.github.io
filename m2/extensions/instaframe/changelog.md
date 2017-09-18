@@ -8,7 +8,7 @@ category: Instaframe
 
 # Chagelog
 
-### Future options ...
+### Roadmap
 
  *  Configurable _Enable/Disable_ **comments** and **likes** quantity blocks
  *  Adding more then 33 images to widget
