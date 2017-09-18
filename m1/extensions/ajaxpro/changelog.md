@@ -8,6 +8,11 @@ category: AjaxPro
 
 # Changelog
 
+### Version 3.3.18
+
+ -  Fixed missing JS resources on home page for ajax actions (add to cart, add
+    to compare, add to wishlist).
+
 ### Version 3.3.17
 
  -  Fix MEQP
