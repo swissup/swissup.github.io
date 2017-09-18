@@ -7,6 +7,28 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.9.2
+
+ -  Fixed error on last step of default magento checkout with Luxury theme.
+ -  Argento themes always load custom css/js files at the end.
+ -  Fixed missing form action on checkout/cart page for Magento versions
+    before 1.9.2.0.
+ -  Improved styles for Luxury theme.
+
+**Modules fixes & improvements**
+
+ -  Ajax Pro:
+     +  Fix missing JS resources on home page for ajax actions (add to cart,
+        add to compare, add to wishlist).
+
+ -  Easy Tabs:
+     +  Add missing initialization for custom links on tabs.
+
+ -  Highlight;
+     +  Fixed empty setLocation method, when ajaxpro is used. It caused issues
+        with add to cart functionality on homepage.
+
+
 ### Version 1.9.1
 
  -  Improved compatibility with Amasty_ShopBy module
