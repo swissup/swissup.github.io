@@ -8,6 +8,11 @@ category: Sold Together
 
 # Changelog
 
+### Version 1.4.8
+
+ -  Responsive product images for amazon style of Sold Together block on
+    Ultimo themes.
+
 ### Version 1.4.7
 
  -  Add ability to show soldtogether like a widget
