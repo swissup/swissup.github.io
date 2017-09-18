@@ -7,6 +7,10 @@ category: Easy Tabs
 sidebar: sidebar.md
 ---
 
+### Version 3.1.5
+
+ -  Added missing initialization of custom links on tabs.
+
 ### Version 3.1.4
 
  -  Dramatical SEO improvement [H2] in tab headers
