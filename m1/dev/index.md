@@ -446,10 +446,10 @@ $ phplint ~/tm/ajaxpro/**/*.phtml
 
 ESLint is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code, with the goal of making code more consistent and avoiding bugs.
 
-[ESLint Getting Started](https://eslint.org/docs/user-guide/getting-started)
-[ESLint Command options](https://eslint.org/docs/user-guide/command-line-interface)
-[Magento JavaScript coding standard](http://devdocs.magento.com/guides/v2.0/coding-standards/code-standard-javascript.html)
-[Magento ESLint Rules](https://github.com/magento/magento2/blob/develop/dev/tests/static/testsuite/Magento/Test/Js/_files/eslint/.eslintrc-magento)
+ *  [ESLint Getting Started](https://eslint.org/docs/user-guide/getting-started)
+ *  [ESLint Command options](https://eslint.org/docs/user-guide/command-line-interface)
+ *  [Magento JavaScript coding standard](http://devdocs.magento.com/guides/v2.0/coding-standards/code-standard-javascript.html)
+ *  [Magento ESLint Rules](https://github.com/magento/magento2/blob/develop/dev/tests/static/testsuite/Magento/Test/Js/_files/eslint/.eslintrc-magento)
 
 ```
 # Install
@@ -493,9 +493,9 @@ index bb0c8ae..81d8307 100644
 
 JSCS is a code style linter and formatter for your style guide
 
-[JSCS Overview](http://jscs.info/overview#installation)
-[Magento JavaScript coding standard](http://devdocs.magento.com/guides/v2.0/coding-standards/code-standard-javascript.html)
-[Magento JSCS Rules](https://github.com/magento/magento2/blob/develop/dev/tests/static/testsuite/Magento/Test/Js/_files/jscs/.jscsrc)
+*  [JSCS Overview](http://jscs.info/overview#installation)
+*  [Magento JavaScript coding standard](http://devdocs.magento.com/guides/v2.0/coding-standards/code-standard-javascript.html)
+*  [Magento JSCS Rules](https://github.com/magento/magento2/blob/develop/dev/tests/static/testsuite/Magento/Test/Js/_files/jscs/.jscsrc)
 
 ```
 # Install
