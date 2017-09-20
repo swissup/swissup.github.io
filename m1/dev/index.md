@@ -442,6 +442,12 @@ $ phplint ~/tm/ajaxpro/**/*.php
 $ phplint ~/tm/ajaxpro/**/*.phtml
 ```
 
+Native php lint
+
+```
+$find ~/tm/ajaxpro -type f -name "*.php" -exec php -d display_errors=1 -l {} \;
+$find ~/tm/ajaxpro -type f -name "*.phtml" -exec php -d display_errors=1 -l {} \;
+```
 #### [ESLint](https://eslint.org/docs/user-guide/getting-started)
 
 ESLint is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code, with the goal of making code more consistent and avoiding bugs.
