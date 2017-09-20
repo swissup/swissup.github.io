@@ -456,9 +456,37 @@ ESLint is a tool for identifying and reporting on patterns found in ECMAScript/J
 $ npm install -g eslint
 
 # Usage Example
-$ eslint --ext .jsx,.js --config /var/www/local.magentocommerce2.com/htdocs/dev/tests/static/testsuite/Magento/Test/Js/_files/eslint/.eslintrc-magento ~/swissup/ajaxpro/**
+$ eslint --ext .jsx,.js --config /var/www/local.magentocommerce2.com/htdocs/dev/tests/static/testsuite/Magento/Test/Js/_files/eslint/.eslintrc-magento ~/swissup/ajaxpro/view/**
 # Auto fix
-eslint --fix --ext .jsx,.js --config /var/www/local.magentocommerce2.com/htdocs/dev/tests/static/testsuite/Magento/Test/Js/_files/eslint/.eslintrc-magento ~/swissup/ajaxpro/**
+eslint --fix --ext .jsx,.js --config /var/www/local.magentocommerce2.com/htdocs/dev/tests/static/testsuite/Magento/Test/Js/_files/eslint/.eslintrc-magento ~/swissup/ajaxpro/view/**
+```
+
+If you want to disable eslint and jscs validation for some third party js file
+
+```
+diff --git a/view/frontend/web/js/typeaheadbundle.js b/view/frontend/web/js/typeaheadbundle.js
+index bb0c8ae..81d8307 100644
+--- a/view/frontend/web/js/typeaheadbundle.js
++++ b/view/frontend/web/js/typeaheadbundle.js
+@@ -3,6 +3,8 @@
+  * https://github.com/twitter/typeahead.js
+  * Copyright 2013-2015 Twitter, Inc. and other contributors; Licensed MIT
+  */
++/* eslint-disable */
++/* jscs:disable */
+
+ (function(root, factory) {
+     if (typeof define === "function" && define.amd) {
+@@ -2448,4 +2450,6 @@
+             return $el.length ? $el : null;
+         }
+     })();
+-});
+\ No newline at end of file
++});
++/* eslint-enable */
++/* jscs:enable */
+
 ```
 
 #### [JSCS](http://jscs.info/overview)
@@ -474,9 +502,9 @@ JSCS is a code style linter and formatter for your style guide
 $ npm install jscs -g
 
 # Usage Example
-$ jscs ~/swissup/ajaxpro/** --extract .phtml --config /var/www/local.magentocommerce2.com/htdocs/dev/tests/static/testsuite/Magento/Test/Js/_files/jscs/.jscsrc
+$ jscs ~/swissup/ajaxpro/view/** --extract .phtml --config /var/www/local.magentocommerce2.com/htdocs/dev/tests/static/testsuite/Magento/Test/Js/_files/jscs/.jscsrc
 # Auto fix
-jscs ~/swissup/ajaxpro/** --fix --extract .phtml --config /var/www/local.magentocommerce2.com/htdocs/dev/tests/static/testsuite/Magento/Test/Js/_files/jscs/.jscsrc
+jscs ~/swissup/ajaxpro/view/** --fix --extract .phtml --config /var/www/local.magentocommerce2.com/htdocs/dev/tests/static/testsuite/Magento/Test/Js/_files/jscs/.jscsrc
 ```
 
 ## Miscellaneous
