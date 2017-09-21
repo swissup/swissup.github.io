@@ -412,7 +412,7 @@ phpmd  ~/swissup/ajax-search text ruleset1.xml
 
 ```
 
-Typical warnnings
+Typical warnings
 
  * [UnusedFormalParameter](https://phpmd.org/rules/unusedcode.html#unusedformalparameter)
  * [Avoid unused parameters such as](https://github.com/swissup/ajaxpro/blob/d5aaf01a9aca1590c8252562ccd3337b7347f412/Block/Init.php#L35)
