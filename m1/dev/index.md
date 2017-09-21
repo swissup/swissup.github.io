@@ -404,9 +404,13 @@ phpmd  ~/swissup/ajax-search text ruleset1.xml
 
 [How To Suppress warnings](https://phpmd.org/rules/index.html)
 
+```
+
  /**
   * @SuppressWarnings(PHPMD)
   */
+
+```
 
 Typical warnnings
 
@@ -414,16 +418,19 @@ Typical warnnings
  * [Avoid unused parameters such as](https://github.com/swissup/ajaxpro/blob/d5aaf01a9aca1590c8252562ccd3337b7347f412/Block/Init.php#L35)
 
 ```
+
  /**
   *
   * @return string
   * @SuppressWarnings(PHPMD.UnusedFormalParameter)
   */
+
 ```
 
  * [CyclomaticComplexity](https://phpmd.org/rules/codesize.html#cyclomaticcomplexity)
 
 ```
+
  /**
   * @SuppressWarnings(PHPMD.CyclomaticComplexity)
   */
@@ -433,9 +440,11 @@ Typical warnnings
  * [NPathComplexity](https://phpmd.org/rules/codesize.html#npathcomplexity)
 
 ```
+
  /**
   * @SuppressWarnings(PHPMD.NPathComplexity)
   */
+
 ```
 
 #### [PHP Coding Standards Fixer](http://cs.sensiolabs.org/)
