@@ -402,6 +402,41 @@ wget -c https://raw.githubusercontent.com/kubaceg/phpmd-magento/master/ruleset.x
 phpmd  ~/swissup/ajax-search text ruleset1.xml
 ```
 
+[How To Suppress warnings](https://phpmd.org/rules/index.html)
+
+ /**
+  * @SuppressWarnings(PHPMD)
+  */
+
+Typical warnnings
+
+ * [UnusedFormalParameter](https://phpmd.org/rules/unusedcode.html#unusedformalparameter)
+ * [Avoid unused parameters such as](https://github.com/swissup/ajaxpro/blob/d5aaf01a9aca1590c8252562ccd3337b7347f412/Block/Init.php#L35)
+
+```
+ /**
+  *
+  * @return string
+  * @SuppressWarnings(PHPMD.UnusedFormalParameter)
+  */
+```
+
+ * [CyclomaticComplexity](https://phpmd.org/rules/codesize.html#cyclomaticcomplexity)
+```
+ /**
+  * @SuppressWarnings(PHPMD.CyclomaticComplexity)
+  */
+
+```
+
+ * [NPathComplexity](https://phpmd.org/rules/codesize.html#npathcomplexity)
+```
+ /**
+  * @SuppressWarnings(PHPMD.NPathComplexity)
+  */
+
+```
+
 #### [PHP Coding Standards Fixer](http://cs.sensiolabs.org/)
 
 The PHP Coding Standards Fixer tool fixes most issues in your code when you want to follow the PHP coding standards as defined in the PSR-1 and PSR-2 documents and many more.
