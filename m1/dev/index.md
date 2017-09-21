@@ -422,6 +422,7 @@ Typical warnnings
 ```
 
  * [CyclomaticComplexity](https://phpmd.org/rules/codesize.html#cyclomaticcomplexity)
+
 ```
  /**
   * @SuppressWarnings(PHPMD.CyclomaticComplexity)
@@ -430,11 +431,11 @@ Typical warnnings
 ```
 
  * [NPathComplexity](https://phpmd.org/rules/codesize.html#npathcomplexity)
+
 ```
  /**
   * @SuppressWarnings(PHPMD.NPathComplexity)
   */
-
 ```
 
 #### [PHP Coding Standards Fixer](http://cs.sensiolabs.org/)
