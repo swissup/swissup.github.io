@@ -13,6 +13,7 @@ category: Argento
       - [Argento Flat](/m2/argento/flat/theme-editor/)
       - [Argento Pure2](/m2/argento/pure2/theme-editor/)
       - [Argento Mall](/m2/argento/mall/theme-editor/)
+      - [Argento Luxury](/m2/argento/luxury/theme-editor/)
     - [Custom css file](custom-css/)
     - [Custom js file](custom-js/)
     - [Custom theme](custom-theme/)
@@ -41,3 +42,4 @@ category: Argento
         - [Argento Flat homepage](/m2/argento/flat/page-structure/homepage/)
         - [Argento Pure2 homepage](/m2/argento/pure2/page-structure/homepage/)
         - [Argento Mall homepage](/m2/argento/mall/page-structure/homepage/)
+        - [Argento Luxury homepage](/m2/argento/luxury/page-structure/homepage/)

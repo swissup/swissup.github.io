@@ -11,5 +11,5 @@ category: Argento
 
 #### 2. Complete setup and installation
 
-Proceed to the [step 4](../manual/#setup-configuration-and-theme-content) of manual
+Proceed to the [step 4](../manual/#4-setup-configuration-and-theme-content) of manual
 installation instructions.

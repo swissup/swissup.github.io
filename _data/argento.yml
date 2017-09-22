@@ -103,6 +103,9 @@ m2:
     - title: Pure2
       url: /m2/argento/pure2/
 
+    - title: Luxury
+      url: /m2/argento/luxury/
+
   extensions:
     - ajaxsearch
     - askit
@@ -114,6 +117,7 @@ m2:
     - easytabs
     - facebooklikebutton
     # - font-awesome
+    - hover-gallery
     - highlight
     - prolabels
     - reviewreminder
