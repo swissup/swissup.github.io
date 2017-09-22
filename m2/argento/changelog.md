@@ -7,6 +7,24 @@ category: Argento
 
 # Argento Changelog
 
+### Version 0.9.9
+
+> [Upgrade Instructions](../upgrade-instructions/#version-097---099)
+
+ -  **ArgentoLuxury** theme added. [View Docs](../luxury/)
+ -  **Hover Gallery** module added. [View Docs](/m2/extensions/hover-gallery/)
+
+**Extensions Updates**
+
+ -  **EasySlide** — 1.1.4
+    -   better widget compatibility with third-party modules
+ -  **Highlight** — 1.1.2
+    -   fixed widget styles
+ -  **Facebook Like Button** — 1.1.0
+    -   added custom like button layout
+ -  **EasyTabs** — 1.2.0
+    -  added tabs widget
+
 ### Version 0.9.8
 
  -  Magento 2.2 compatibility
