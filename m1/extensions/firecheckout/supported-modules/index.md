@@ -43,6 +43,7 @@ additional modifications.
 - 2Checkout_Payment
 - [Adyen_Payment](adyen-payment/)
 - [Affirm_Affirm](affirm-affirm/)
+- [Bancpost_Aplicacrediteuroline](bancpost-aplicacrediteuroline/)
 - [Billmate](billmate/)
 - [Billpay](billpay/)
 - [Bitpay_Bitcoins](bitpay-bitcoins/)
