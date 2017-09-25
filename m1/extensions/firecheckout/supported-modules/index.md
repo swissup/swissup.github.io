@@ -107,6 +107,7 @@ additional modifications.
 - Man4x_MondialRelay
 - Mico_Rushpackage
 - Ophirah_Qquoteadv (Cart2Quote)
+- [ParcelPro](parcelpro/)
 - PostcodeNl_Api
 - Shipperhq_Freight
 - Shipperhq_Pickup
