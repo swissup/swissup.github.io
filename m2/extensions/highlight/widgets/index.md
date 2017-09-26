@@ -26,8 +26,8 @@ Swissup\Highlight\Block\ProductList\Onsale          | Products with non-empty `s
 Swissup\Highlight\Block\ProductList\Popular         | Most viewed products. Calculation is based on `Magento Reports` data
 Swissup\Highlight\Block\ProductList\Bestsellers     | Most sellable products. Calculation is based on `Magento Sales` data
 Swissup\Highlight\Block\ProductList\All             | All visible products. Usefull to manually filter products
-Swissup\Highlight\Block\ProductList\Attribute\Date  | Products filtered by any `date` attribute. Attribute value is compared with current date
-Swissup\Highlight\Block\ProductList\Attribute\Yesno | Products filtered by any `yes/no` attribute. Products with enabled attribute are returned
+Swissup\Highlight\Block\ProductList\Attribute\Date  | Products filtered by any `date` attribute. Attribute value is compared with current date. Attribute used for this widget requires to have option **"Use in Product Listing" enabled** (tab "Storefront Properties" in edit attribuye interface).
+Swissup\Highlight\Block\ProductList\Attribute\Yesno | Products filtered by any `yes/no` attribute. Products with enabled attribute are returned. Attribute used for this widget requires to have option **"Use in Product Listing" enabled** (tab "Storefront Properties" in edit attribuye interface).
 
 ### Contents
 
