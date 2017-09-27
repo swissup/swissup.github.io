@@ -150,6 +150,7 @@ additional modifications.
 
 ### StoreCredit
 
+- [Amasty_StoreCredit](amasty-storecredit/)
 - [AW_Storecredit](aw-storecredit/)
 - MageWorx_CustomerCredit
 - [MW_Storecreditpro](mw-storecreditpro/)
