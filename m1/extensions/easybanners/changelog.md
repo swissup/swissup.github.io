@@ -6,6 +6,11 @@ category: Easy Banners
 sidebar: sidebar.md
 ---
 
+### Version 1.7.3
+
+ -  Critical security issue fixed
+ -  Default sort order changed in backend grid, so newest banners will be on top
+
 ### Version 1.7.2
 
  -  PHP code cleanup to pass MEQP validation
