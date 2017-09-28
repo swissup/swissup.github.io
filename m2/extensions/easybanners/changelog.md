@@ -8,6 +8,11 @@ category: Easy Banners
 
 # Changelog
 
+### Version 1.0.12
+
+ -  Critical security issue fixed
+ -  Default sort order changed in backend grid, so newest banners will be on top
+
 ### Version 1.0.10
 
  -  Magento 2.2 compatibility
