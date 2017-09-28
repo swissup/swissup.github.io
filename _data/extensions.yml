@@ -333,7 +333,7 @@ navigationpro:
   size: 2x1
   urls:
     m1: /m1/extensions/navigationpro/
-    m2:
+    m2: /m2/extensions/navigationpro/
 
 newsletterbooster:
   title: Newsletter Booster

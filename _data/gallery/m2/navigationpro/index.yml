@@ -1,0 +1,57 @@
+- href: /images/m2/navigationpro/showcase/simple.png
+  src: /images/m2/navigationpro/showcase/small/simple.png
+  alt: Simple menu type
+  title: >
+    Simple dropdown provides traditionally minimalistic design and will not
+    distract user from the store contents.
+  w: 880
+  h: 490
+- href: /images/m2/navigationpro/showcase/megamenu.png
+  src: /images/m2/navigationpro/showcase/small/megamenu.png
+  alt: Megamenu dropdown
+  title: >
+      Megamenu dropdown. Four columns subcategories in vertical alignment mode and
+      custom HTML content. Category tips are used on a top-level category names.
+  w: 1310
+  h: 574
+- href: /images/m2/navigationpro/showcase/iconic.png
+  src: /images/m2/navigationpro/showcase/small/iconic.png
+  alt: Iconic menu type
+  title: >
+      Iconic menu. Subcategories inside
+      dropdown are using 3-columns horizontal alignment layout. Custom HTML
+      content blocks are also used to display additional information.
+  w: 1284
+  h: 710
+- href: /images/m2/navigationpro/showcase/amazon.png
+  src: /images/m2/navigationpro/showcase/small/amazon.png
+  alt: Amazon menu
+  title: >
+      Amazon menu. Top level links
+      using css helpers for smaller font size, 'Help' and 'Contacts' menus
+      aligned to the right edge.
+  w: 1132
+  h: 740
+- href: /images/m2/navigationpro/showcase/complex.png
+  src: /images/m2/navigationpro/showcase/small/complex.png
+  alt: Complex dropdown content
+  title: >
+      Boxed dropdown width with rich content usage. Four HTML content blocks
+      are used and one subcategory block with 3-columns mode.
+  w: 1104
+  h: 783
+- href: /images/m2/navigationpro/showcase/easycatalogimages.png
+  src: /images/m2/navigationpro/showcase/small/easycatalogimages.png
+  alt: EasyCatalogImagess widget
+  title: >
+      In this example standard subcategories block is replaced by
+      EasyCatalogImages widget inside 'fullwidth' dropdown.
+  w: 1340
+  h: 720
+- href: /images/m2/navigationpro/showcase/stacked.png
+  src: /images/m2/navigationpro/showcase/small/stacked.png
+  alt: Stacked menu
+  title: >
+      Stacked submenu's have equal heights and aligned side-by-side
+  w: 1084
+  h: 453
