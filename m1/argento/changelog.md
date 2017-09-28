@@ -7,6 +7,11 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.9.3
+
+ -  Fixed critical vulnerability in EasyBanner module
+ -  Fixed Easyslider styles on AMP theme
+
 ### Version 1.9.2
 
  -  Fixed error on last step of default magento checkout with Luxury theme.

@@ -7,6 +7,24 @@ category: Argento
 
 # Argento Changelog
 
+### Version 0.9.10
+
+ -  Fixed critical vulnerability in EasyBanner module
+
+**Extensions Updates**
+
+ -  **AjaxPro** — 1.2.3
+    - Fixed invalid xml layout update instructions
+    - Improved compatibility with third-party modules
+ -  **EasyBanner** — 1.0.12
+    - Fixed critical SQL vulnerability
+ -  **EasyTabs** — 1.2.1
+    - Fixed ACL rules
+ -  **ReviewReminder** — 1.0.10
+    - Fixed wrong product url in email on multi-website store installation
+ -  **SoldTogether** — 1.2.2
+    - Fixed error when product is not available in registry
+
 ### Version 0.9.9
 
 > [Upgrade Instructions](../upgrade-instructions/#version-097---099)
