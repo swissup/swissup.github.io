@@ -38,7 +38,6 @@ sidebar: sidebar.md
 
  1. Go to your accout and log in:
      *  [**Argento**](https://argentotheme.com/downloadable/customer/products/)
-     *  [**Templates Master**](https://templates-master.com/downloadable/customer/products/)
      *  [**SwissUpLabs**](https://swissuplabs.com/subscription/customer/products/)
     
  2. Find **M2_SEC_BANNERS** and download it
@@ -46,6 +45,11 @@ sidebar: sidebar.md
     > Click **Show all links** if link not visible
     
  3. Now start the upgrade:
+     * Upload that file to your store root via **FTP**
+     * Connect via **SSH** go to store root 
+     * Run `unzip m2_secure_update_easybanner-1.0.12-swissup.zip` command
+     * Run following commands:
+
     ```bash
         # Run magento upgrade scripts
         php bin/magento setup:upgrade
@@ -59,7 +63,7 @@ sidebar: sidebar.md
         # or you can pass specific locales:
         php bin/magento setup:static-content:deploy en_US en_GB
     ```
-    
+
  4. Security patch should be applied now.
 
 #### Magento 2 patch version - EasyBanners patching using **DIFF** file
