@@ -18,6 +18,7 @@ sidebar: sidebar.md
  3. Now start the upgrade:
      *  Turn the **compilation** mode **OFF** _System>Tools>Compilation = Disable_
      *  Clear the store cache: _System > Cache management = Clear cache_
+     *  Cache should nbe **turned on**
      *  Open the **FTP** connection and create empty file **maintenance.flag** in the store root
      *  Check your site it shoud be in **Maintenance Mode (503 error)**
      *  Now upload all files from downloaded archive to **store root**
