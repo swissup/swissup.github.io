@@ -48,10 +48,10 @@
       EasyCatalogImages widget inside 'fullwidth' dropdown.
   w: 1340
   h: 720
-- href: /images/m2/navigationpro/showcase/stacked.png
-  src: /images/m2/navigationpro/showcase/small/stacked.png
-  alt: Stacked menu
-  title: >
-      Stacked submenu's have equal heights and aligned side-by-side
-  w: 1084
-  h: 453
+# - href: /images/m2/navigationpro/showcase/stacked.png
+#   src: /images/m2/navigationpro/showcase/small/stacked.png
+#   alt: Stacked menu
+#   title: >
+#       Stacked submenu's have equal heights and aligned side-by-side
+#   w: 1084
+#   h: 453
