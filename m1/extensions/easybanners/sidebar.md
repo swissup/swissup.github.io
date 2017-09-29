@@ -3,6 +3,7 @@
  -  [Homepage](/m1/extensions/easybanners/)
  -  [Installation](/m1/extensions/easybanners/installation/)
  -  [Changelog](/m1/extensions/easybanners/changelog/)
+ -  [Security patch](/m1/extensions/easybanners/security-patch/)
  -  [Backend interfaces](/m1/extensions/easybanners/backend/)
     + [Manage banners](/m1/extensions/easybanners/backend/manage-banners/)
     + [Manage placeholders](/m1/extensions/easybanners/backend/manage-placeholders/)
