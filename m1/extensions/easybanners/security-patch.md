@@ -71,4 +71,5 @@ sidebar: sidebar.md
  1. Download [**DIFF**](https://swissuplabs.com/media/downloads/m2_easy_banners_8da454bc589bcec6b538e65676af24036b6be51f.diff)
  2. Apply **diff**
  3. Clear cache 
- 4. That's it!
+
+### Have a safe store!
