@@ -13,7 +13,7 @@ category: Navigationpro
 #### 2. Complete the installation
 
 Navigate to _Swissup > NavigationPro_ and
-[create menu](/m2/extensions/navigationpro/create-menu/) according to your needs.
+[create menu](/m2/extensions/navigationpro/backend/menu-grid/) according to your needs.
 
 #### Next up
 
