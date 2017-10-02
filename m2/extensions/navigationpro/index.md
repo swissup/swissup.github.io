@@ -28,6 +28,8 @@ devices, tablets, and phones.
     - [Layout Builder](/m2/extensions/navigationpro/ui/dropdown-layout-builder/)
     - [Menu Items Tree](/m2/extensions/navigationpro/ui/menu-items-tree/)
     - [Menu Item Name as HTML](/m2/extensions/navigationpro/ui/menu-item-name-as-html/)
+ 7. [Customization](/m2/extensions/navigationpro/customization/)
+    - [Custom CSS](/m2/extensions/navigationpro/customization/custom-css/)
 
 **TODO:**
 
@@ -40,7 +42,5 @@ devices, tablets, and phones.
     - [EasyCatalogImages Menu](/m2/extensions/navigationpro/use-cases/easycatalogimages-widget/)
     - [Complex Dropdown Contents](/m2/extensions/navigationpro/use-cases/complex-content/)
     - [Category Tips (Labels)](/m2/extensions/navigationpro/use-cases/category-tips/)
- 7. [Customization](/m2/extensions/navigationpro/customization/)
-    - [Custom CSS](/m2/extensions/navigationpro/customization/custom-css/)
     - [Less variables](/m2/extensions/navigationpro/customization/less-variables/)
     - [CSS Helpers](/m2/extensions/navigationpro/customization/css-helpers)
