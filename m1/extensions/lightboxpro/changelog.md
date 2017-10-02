@@ -8,6 +8,10 @@ category: Lightbox Pro
 
 # Changelog
 
+### Version 1.2.5
+
+ -  Added error message handling when image wasn't uploaded via widget form
+
 ### Version 1.2.4
 
  -  Improve varien image uploading

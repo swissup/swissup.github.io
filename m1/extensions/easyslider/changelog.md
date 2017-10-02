@@ -7,6 +7,11 @@ category: Easy Slider
 
 # Changelog
 
+### Version 3.0.8
+
+ -  Fixed styles on [TM_Amp](/m1/extensions/amp/) theme when RTL is used
+ -  Security improvements
+
 ### Version 3.0.6
 
  -  New slider option in adnvanced section - 'Space between slides'.
