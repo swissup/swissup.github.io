@@ -67,6 +67,7 @@ additional modifications.
 - [MultiSafePay_Msp](multisafepay-msp/)
 - Netresearch_Billsafe
 - Netresearch_OPS
+- [OPG_Square](opg-square/)
 - Paymill
 - Payolution
 - [Payone_Core](payone-core/)
