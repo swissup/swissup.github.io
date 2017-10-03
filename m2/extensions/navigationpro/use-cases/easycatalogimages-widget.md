@@ -7,6 +7,9 @@ category: Navigationpro
 
 # Easy Catalog Images Widget
 
+> Don't have a menu yet? Create [simple menu][simple-menu], activate it the
+> [config][config] and come back!
+
 ![EasyCatalogImages Widget](/images/m2/navigationpro/use-cases/easycatalogimages-widget.png)
 
 Navigate to _Swissup > NavigationPro_ page, select item to edit and use
@@ -38,3 +41,5 @@ Use **Insert Widget** button in html content editor to insert the widget. Result
 [item-renderer]: /m2/extensions/navigationpro/ui/menu-item-name-as-html/ "Item Name Renderer"
 [menu-settings]: /m2/extensions/navigationpro/backend/menu-settings/ "Menu Settings Panel"
 [css-helpers]: /m2/extensions/navigationpro/customization/css-helpers/ "CSS Helpers"
+[simple-menu]: /m2/extensions/navigationpro/use-cases/simple-menu/ "Simple Menu"
+[config]: /m2/extensions/navigationpro/configuration/ "Configuration"

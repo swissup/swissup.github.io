@@ -13,6 +13,9 @@ from this page.
 
 ![Menu's Grid](/images/m2/navigationpro/backend/menu-grid.png)
 
+> Don't forget to enable created menu for specified store at Navigationpro
+> [configuration][configuration]
+
 #### Next up
 
  -  [Menu Settings][menu.settings]
@@ -20,3 +23,4 @@ from this page.
 
 [menu.settings]: /m2/extensions/navigationpro/backend/menu-settings/ "Menu Settings page"
 [menu.edit]: /m2/extensions/navigationpro/backend/menu-edit/ "Edit Menu and Menu Items"
+[configuration]: /m2/extensions/navigationpro/configuration/ "Configuration"

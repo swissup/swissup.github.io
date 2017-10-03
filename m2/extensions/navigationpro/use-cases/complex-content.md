@@ -7,6 +7,9 @@ category: Navigationpro
 
 # Complex Dropdown Content
 
+> Don't have a menu yet? Create [simple menu][simple-menu], activate it the
+> [config][config] and come back!
+
 ![Complex Content](/images/m2/navigationpro/use-cases/complex-content.png)
 
 Navigate to _Swissup > NavigationPro_ page, open menu to edit, select item
@@ -101,3 +104,5 @@ The classes that used to build the panel:
 [item-renderer]: /m2/extensions/navigationpro/ui/menu-item-name-as-html/ "Item Name Renderer"
 [iconic-menu]: /m2/extensions/navigationpro/use-cases/iconic-menu/ "Iconic Menu"
 [css-helpers]: /m2/extensions/navigationpro/customization/css-helpers/ "CSS Helpers"
+[simple-menu]: /m2/extensions/navigationpro/use-cases/simple-menu/ "Simple Menu"
+[config]: /m2/extensions/navigationpro/configuration/ "Configuration"

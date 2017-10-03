@@ -7,6 +7,9 @@ category: Navigationpro
 
 # Category Tips
 
+> Don't have a menu yet? Create [simple menu][simple-menu], activate it the
+> [config][config] and come back!
+
 ![Category Tips](/images/m2/navigationpro/use-cases/category-tips.png)
 
 In order to add tip (label) to the item, you need to open menu in backend,
@@ -50,3 +53,5 @@ Class Name      | Description
  -  [CSS Helpers][css-helpers]
 
 [css-helpers]: /m2/extensions/navigationpro/customization/css-helpers/ "CSS Helpers"
+[simple-menu]: /m2/extensions/navigationpro/use-cases/simple-menu/ "Simple Menu"
+[config]: /m2/extensions/navigationpro/configuration/ "Configuration"

@@ -7,6 +7,9 @@ category: Navigationpro
 
 # Iconic Menu
 
+> Don't have a menu yet? Create [simple menu][simple-menu], activate it the
+> [config][config] and come back!
+
 ![Iconic Menu](/images/m2/navigationpro/use-cases/iconic-menu.png)
 
 Navigate to _Swissup > NavigationPro_ page, open menu to edit, apply the custom
@@ -34,3 +37,5 @@ Explanation:
 [item-renderer]: /m2/extensions/navigationpro/ui/menu-item-name-as-html/ "Item Name Renderer"
 [menu-settings]: /m2/extensions/navigationpro/backend/menu-settings/ "Menu Settings Panel"
 [css-helpers]: /m2/extensions/navigationpro/customization/css-helpers/ "CSS Helpers"
+[simple-menu]: /m2/extensions/navigationpro/use-cases/simple-menu/ "Simple Menu"
+[config]: /m2/extensions/navigationpro/configuration/ "Configuration"
