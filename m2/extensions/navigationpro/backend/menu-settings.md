@@ -22,7 +22,7 @@ Option          | Description
 ----------------|-----------------------
 Identifier      | Unique menu identifier.
 Maximal Depth   | Use this option to limit number of loaded dropdown levels. Use `0` to disable limits.
-CSS Class       | Usefull for menu customization and some kind of menu types.
+CSS Class       | Usefull for [menu customization][menu-modifiers] and some kind of [menu types][use-cases].
 
 ## Dropdown settings
 

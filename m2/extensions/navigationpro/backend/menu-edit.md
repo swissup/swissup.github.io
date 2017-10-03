@@ -54,8 +54,8 @@ Url | Item link
 
 Option | Description
 -------|------------
-Name as Html | Replace regular name renderer with [your own][item-name-renderer]. This is how you can add category labels, icons and images near the category text.
-CSS Class | Usefull to apply custom css class to the item.
+Name as Html | Replace regular name renderer with [your own][item-name-renderer]. This is how you can add [category labels][category-tips], [icons and images][iconic-menu] near the category text.
+CSS Class | Usefull to apply custom css class to the item. See available item [css helpers][item-modifiers].
 
 ## Dropdown Settings
 

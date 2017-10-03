@@ -40,13 +40,15 @@ Let's make a dark dropdowns. [Scroll down](#result) to see the result.
                                 ├── _custom.less
     ```
 
- 2. Redefine navigationpro variable with `abstracts/_custom-variables.less` file:
+ 2. Redefine navigationpro [variables][less-variables] with
+    `abstracts/_custom-variables.less` file:
 
     ```scss
     @navpro-dropdown__background: #4a4a4a;
     @navpro-dropdown__border-color: #444;
-    @navpro-parent-item__caret: @navpro-parent-item__caret-light;
     @navpro-dropdown__box-shadow: 0 20px 50px -20px rgba(0, 0, 0, 0.3);
+    @navpro-parent-item__caret: @navpro-parent-item__caret-light;
+    @navpro-parent-item-level0__caret: @navpro-parent-item__caret-dark;
     ```
 
  3. Add additional styles with `_custom.less`
@@ -80,5 +82,7 @@ Let's make a dark dropdowns. [Scroll down](#result) to see the result.
 
 ##### Next up
 
- -  [List of navigationpro less variables](/m2/extensions/navigationpro/customization/less-variables/)
+ -  [List of navigationpro less variables][less-variables]
  -  [Back to Main Page](/m2/extensions/navigationpro/)
+
+[less-variables]: /m2/extensions/navigationpro/customization/less-variables/ "Less Variables List"
