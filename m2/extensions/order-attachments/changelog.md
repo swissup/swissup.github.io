@@ -7,6 +7,12 @@ category: Order Attachments
 
 # Changelog
 
+### Version 1.1.0
+
+ -  Magento EQP errors fixed
+ -  Duplicated code removed
+ -  Small composer.json fixes
+
 ### Version 1.0.7
 
  -  Magento 2.2 compatibility
