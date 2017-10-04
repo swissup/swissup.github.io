@@ -28,5 +28,4 @@ dropdown positioning and height.
 
 [simple-menu]: /m2/extensions/navigationpro/use-cases/simple-menu/ "Simple Menu"
 [css-helpers]: /m2/extensions/navigationpro/customization/css-helpers/ "CSS Helpers"
-[simple-menu]: /m2/extensions/navigationpro/use-cases/simple-menu/ "Simple Menu"
 [config]: /m2/extensions/navigationpro/configuration/ "Configuration"

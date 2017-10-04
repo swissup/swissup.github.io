@@ -20,6 +20,14 @@ Following width modes are available:
 While the first four are easy to understand, the last three requires additional
 expalation.
 
+> Please note, that "Full Width" and "Full Screen" modes may work as "Boxed" mode
+> at custom themes.
+>
+> To make these two modes work as expected you theme must render menu
+> container outside of header contaner.
+>
+> Otherwise you can't use "Full Width" and "Full Screen" modes.
+
 ## Boxed
 
 Dropdown width will match the size of theme container or header:

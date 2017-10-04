@@ -21,7 +21,7 @@ will create basic menu from a scratch.
     ![Menu Settings](/images/m2/navigationpro/use-cases/simple-menu/new-menu.png)
 
  3. When menu will be saved, press **Import Item** button above the empty tree,
-    select import mode and category to import. Then Press **Save**:
+    select [import mode][import-modes] and category to import. Then Press **Save**:
 
     ![Import Item](/images/m2/navigationpro/use-cases/simple-menu/import-item.png)
 
@@ -54,3 +54,4 @@ will create basic menu from a scratch.
 [simple-menu]: /m2/extensions/navigationpro/use-cases/simple-menu/ "Simple Menu"
 [css-helpers]: /m2/extensions/navigationpro/customization/css-helpers/ "CSS Helpers"
 [config]: /m2/extensions/navigationpro/configuration/ "Configuration"
+[import-modes]: /m2/extensions/navigationpro/ui/menu-items-tree/#import-item "Import Modes"
