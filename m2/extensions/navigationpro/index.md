@@ -30,6 +30,8 @@ devices, tablets, and phones.
     - [Menu Item Name as HTML](/m2/extensions/navigationpro/ui/menu-item-name-as-html/)
  6. [Use Cases](/m2/extensions/navigationpro/use-cases/)
     - [Simple Dropdown Menu](/m2/extensions/navigationpro/use-cases/simple-menu/)
+    - [Megamenu](/m2/extensions/navigationpro/use-cases/megamenu/)
+    - [Amazon Menu](/m2/extensions/navigationpro/use-cases/amazon-menu/)
     - [Stacked Dropdowns](/m2/extensions/navigationpro/use-cases/stacked-dropdowns/)
     - [Iconic Menu](/m2/extensions/navigationpro/use-cases/iconic-menu/)
     - [EasyCatalogImages Menu](/m2/extensions/navigationpro/use-cases/easycatalogimages-widget/)
@@ -39,8 +41,3 @@ devices, tablets, and phones.
     - [Custom CSS](/m2/extensions/navigationpro/customization/custom-css/)
     - [LESS variables](/m2/extensions/navigationpro/customization/less-variables/)
     - [CSS Helpers](/m2/extensions/navigationpro/customization/css-helpers)
-
-**TODO:**
-
-    - [Megamenu](/m2/extensions/navigationpro/use-cases/megamenu/)
-    - [Amazon Menu](/m2/extensions/navigationpro/use-cases/amazon-menu/)
