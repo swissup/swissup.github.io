@@ -9,9 +9,18 @@ category: Navigationpro
 
 Items tree allows you to reorganize, create, import new items into Menu.
 
-![Item Tree](/images/m2/navigationpro/backend/menu-edit/menu-items-tree.png)
+* TOC
+{:toc}
 
-## New Item
+<!-- ![Item Tree](/images/m2/navigationpro/backend/menu-edit/menu-items-tree.png) -->
+
+### Move Item
+
+Simply drag and drop the item:
+
+![Drag and Drop](/images/m2/navigationpro/ui/tree-drag-and-drop.gif)
+
+### New Item
 
 ![New Item Panel](/images/m2/navigationpro/ui/tree-new-item.png)
 
@@ -21,7 +30,7 @@ Name        | Item name
 Url         | Item Url
 Parent item | New Item will be added as a child of selected item
 
-## Import Item
+### Import Item
 
 ![Import Item](/images/m2/navigationpro/ui/tree-import-item.png)
 
@@ -32,5 +41,6 @@ Item to Import  | Category item to import
 Parent item     | Imported item will be added as a child of selected item
 
 #### Next up
+{:.no_toc}
 
  -  [Back to Main Page](/m2/extensions/navigationpro/)
