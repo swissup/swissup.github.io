@@ -27,6 +27,7 @@ category: Argento
 16. [How to show product SKU on product page](#how-to-show-product-sku-on-product-page)
 17. [How to change checkbox/radio button color](#how-to-change-checkboxradio-button-color)
 18. [Why disabled extensions are still visible at frontend?](#why-disabled-extensions-are-still-visible-at-frontend)
+19. [Disable mobile PhotoSwipe library](#disable-mobile-photoswipe-library)
 
 ### How to disable short header and footer layout?
 
@@ -324,12 +325,12 @@ to restore missing elements:
     (or copy this file in your theme from
     `app/design/frontend/argento/default/template/catalog/product/view/attributes.phtml`)
     line 37
-    
+
     > If you have **EasyTabs** extension enabled please overload this file:
     > `app/design/frontend/base/default/template/tm/easytabs/tab/catalog/product/view/attributes.phtml`
-    > 
-    > and put it to 
-    > 
+    >
+    > and put it to
+    >
     > `app/design/frontend/argento/[mytheme]_custom/template/tm/easytabs/tab/catalog/product/view/attributes.phtml`
 
  2. Add following lines:
@@ -344,9 +345,9 @@ to restore missing elements:
 
 ### How to show hidden part of product name at category listing
 
-> In **Argento Flat** theme product listing the names of products are hidden to make 
+> In **Argento Flat** theme product listing the names of products are hidden to make
 > headers same size. But sometimes users want to **disable** that feature.
- 
+
  1. Go to your [custom.css](../theme-customization/small-changes/#custom-styles-and-javascript)
     file and add following code using your CMS page selector:
 
@@ -365,36 +366,36 @@ to restore missing elements:
  -  Please, find file `skin/frontend/base/default/tm/navigationpro/js/navpro.js`
  -  Override this file in custom theme using our [manual](../theme-customization/complex-changes/)
  -  Find line 149:
-    
+
     ```JS
     toggler.observe('click', function(e) {
     ```
  -  Change it to:
-    
+
     ```JS
     toggler.previous().observe('click', function(e) {
     ```
  -  Save. Enjoy.
- 
+
 ### How to show product SKU on product page
 
 > You should have `SKU` attribute created and applied to products
- 
- -  Overload your `app/design/frontend/argento/default/catalog/product/view.phtml` 
+
+ -  Overload your `app/design/frontend/argento/default/catalog/product/view.phtml`
 file according to Argento [customization manual](../theme-customization/complex-changes/)
  -  Open that file and jump to `line 55`
- 
+
     ```html
     <div class="product-name"> ..... </div>
     ```
- -  And insert following code after: 
- 
+ -  And insert following code after:
+
     ```php
     <?php echo $_product->getSku(); ?>
     ```
-    
+
     or
-    
+
     ```php
     <?php echo $_product->getData('sku'); ?>
     ```
@@ -424,8 +425,20 @@ have.
 That is a common report from our users. When they disable i.e. **Frequintly bought together**
 extension at admin, but it's still visible at product pages.
 
-> **Answer:** Please, check if you disabled that extension on store view level. 
-> 
+> **Answer:** Please, check if you disabled that extension on store view level.
+>
 > **Explanation:** When user installs **Argento** and chooses separate storeview (not website)
 > then all settings are applied only to chosen storeview.
 
+### Disable mobile PhotoSwipe library
+
+To disable **PhotoSwipe** library at **Argento** productpage, please, follow next instructions:
+
+ 1. [Create](../theme-customization/small-changes/#custom-layout-update-file) `custom.xml` layout file
+ 2. Add the following code:
+
+    ```xml
+    <catalog_product_view>
+        <remove name="product_photoswipe" />
+    </catalog_product_view>
+    ```
