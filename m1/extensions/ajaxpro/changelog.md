@@ -10,6 +10,10 @@ category: AjaxPro
 
 ### Version 3.3.18
 
+ - Fixed wrong type class error in getAddToCartUrl
+
+### Version 3.3.18
+
  -  Fixed missing JS resources on home page for ajax actions (add to cart, add
     to compare, add to wishlist).
 
