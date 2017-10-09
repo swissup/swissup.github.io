@@ -209,7 +209,7 @@ easyflags:
   short_description:
   urls:
     m1: /m1/extensions/easyflags/
-    m2:
+    m2: /m2/extensions/easyflags/
 
 easylightbox:
   title: Easy Lightbox
