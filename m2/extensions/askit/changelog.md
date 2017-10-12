@@ -11,6 +11,17 @@ category: AskIt
 
 # Changelog
 
+### Version 1.2.8
+
+- Code dublicate cleanup (phpcpd)
+- Fix gravatar proto
+- Add new answer action
+- Fix listing collection logic
+- Show message for guest users that they should login
+- Improve customer account questions page
+- Add js forms validation
+- etc.
+
 ### Version 1.2.7
 
 - ACL instructions added to ui components
