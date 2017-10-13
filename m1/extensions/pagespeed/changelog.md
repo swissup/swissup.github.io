@@ -7,6 +7,16 @@ category: Page Speed
 
 # Changelog
 
+### Version 1.2.10
+
+- Add dns-prefetch feature
+- Add auto specify image dimensions
+- Add tinypng(tinify) service image compress
+- Fix Google Pagespeed Insight
+- Add text/lazyload-javascript for inline js (defer-js)
+- Generate critical css for each page (defer-css)
+- Add self critical css api service (defer-css)
+
 ### Version 1.2.9
 
  -  Fix MEQP
