@@ -51,6 +51,7 @@ additional modifications.
 - Braintree_Payments (Updated Braintree)
 - [CheckoutApi_ChargePayment](checkoutapi-chargepayment/)
 - Craig_Tco
+- [Customweb_BeanstreamCw](customweb-beanstreamcw/)
 - [Customweb_FirstDataConnectCw](customweb-firstdataconnectcw/)
 - [Customweb_PayUnityCw](customweb-payunitycw/)
 - Ebizmarts_SagepaymentsPro
