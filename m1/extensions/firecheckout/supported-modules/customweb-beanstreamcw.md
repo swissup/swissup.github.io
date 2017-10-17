@@ -10,7 +10,7 @@ category: Firecheckout
 
 Open `js/customweb/beanstreamcw/checkout.js` and apply the following patch:
 
-```javascript
+```diff
 --- old
 +++ new
          }
