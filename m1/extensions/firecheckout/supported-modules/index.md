@@ -120,6 +120,7 @@ additional modifications.
 - TIG_Postcode
 - [TIG_PostNL](tig-postnl/)
 - [Unirgy_DropshipSplit](unirgy-dropshipsplit/)
+- [Vconnect_AllInOne](vconnect-allinone/)
 - [Webgriffe_Tntpro](webgriffe-tntpro/)
 - Webshopapps_Desttype
 - Webshopapps_Premiumrate
