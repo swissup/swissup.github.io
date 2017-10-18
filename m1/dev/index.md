@@ -36,6 +36,7 @@ title: Development documentation
  - [PHP Coding Standards Fixer](#php-coding-standards-fixer)
  - [PHP Copy/Paste Detector](#php-copypaste-detector-phpcpd)
  - [PHPLint](#phplint)
+ - [PHPStan](#phpstan)
  - [ESLint](#eslint)
  - [JSCS](#jscs)
 
@@ -493,6 +494,22 @@ Native php lint
 $find ~/tm/ajaxpro -type f -name "*.php" -exec php -d display_errors=1 -l {} \;
 $find ~/tm/ajaxpro -type f -name "*.phtml" -exec php -d display_errors=1 -l {} \;
 ```
+
+#### [PHPStan](https://github.com/phpstan/phpstan)
+
+PHPStan focuses on finding errors in your code without actually running it. It catches whole classes of bugs even before you write tests for the code.
+
+https://github.com/phpstan/phpstan
+
+```
+$ wget -O phpstan.phar https://github.com/phpstan/phpstan/releases/download/0.8.4/phpstan.phar
+$ chmod +x phpstan.phar
+$ mv phpstan.phar /usr/local/bin/phpstan
+
+# Usage Example
+$ phpstan analyze -l 4 ~/tm/ajaxpro
+```
+
 #### [ESLint](https://eslint.org/docs/user-guide/getting-started)
 
 ESLint is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code, with the goal of making code more consistent and avoiding bugs.
