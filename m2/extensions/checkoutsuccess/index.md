@@ -36,4 +36,13 @@ Check video below to see how drag-and-drop interface and preview feature works.
 1. [Installation](installation/)
 2. [Settings](settings)
 
+### Known issues
 
+In old version of our extension we used "order.success.additional.info"
+container to show additional information on success page.
+
+Because of [bug in Magento](https://github.com/magento/magento2/issues/4999),
+this block is rendered twice. This bug fixed in Magento 2.2+.
+
+As temporal solution you can apply the
+[patch that fixes this issue](https://github.com/magento/magento2/commit/a5166bf85326c10bac416ae67614a2e4ffebf855).
