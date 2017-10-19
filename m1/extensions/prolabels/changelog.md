@@ -8,6 +8,28 @@ category: Prolabels
 
 # Changelog
 
+### Version 2.7.12
+
+ -  Escape quotes in lable's title.
+ -  Prevent label wrapper from stretching out of parent container.
+ -  Significant code cleanup and code improvement.
+
+You can safely remove follow directories and files to keep your Magento
+instance "clean and tidy":
+
+```
+app/code/local/TM/ProLabels/Adminhtml
+app/code/local/TM/ProLabels/Block/Adminhtml/System/Edit/Tab
+app/code/local/TM/ProLabels/Block/Adminhtml/System/Grid
+app/code/local/TM/ProLabels/Block/Adminhtml/System/Helper
+app/code/local/TM/ProLabels/Block/Adminhtml/System/Widget
+app/code/local/TM/ProLabels/Model/Entity/Attribute/Backend
+app/code/local/TM/ProLabels/Model/System/Config/Source
+
+app/code/local/TM/ProLabels/Block/Adminhtml/System/Edit/Form.php
+
+```
+
 ### Version 2.7.11
 
  -  Fixed missing labels when enabled option 'Move to content on mobile'.
