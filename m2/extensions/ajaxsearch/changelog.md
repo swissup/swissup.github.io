@@ -8,6 +8,26 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.2.5
+
+ -  Improve initialisation
+ -  Fix problem when keyboard got closed on iphone
+ -  Fix final_price bug
+ -  Add unit test example
+ -  etc.
+
+### Version 1.2.4
+
+ -  Add self search layer model
+ -  Increase search request accuracy
+ -  Fix collection load bug (replace loadWithFilter at load)
+ -  Fixed go to search page on enter on folded design
+ -  Fix js code style
+ -  Remove dublicate code
+ -  Move get config option logic to helper data
+ -  Fallback for minQueryLength in init template
+ -  etc.
+
 ### Version 1.2.3
 
  -  Fix critical limit bug
