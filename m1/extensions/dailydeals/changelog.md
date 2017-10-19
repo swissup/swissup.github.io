@@ -8,6 +8,10 @@ category: Daily Deals
 
 # Changelog
 
+### Version 1.1.5
+
+ -  Do not output empty deal timer wrapper when there are no timer.
+
 ### Version 1.1.4
 
  -  Dramatic performance improvements
