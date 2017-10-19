@@ -8,6 +8,16 @@ category: Bot Protection
 
 # Changelog
 
+### Version 1.0.9
+
+ -  Prevent new lines in nested elements, when modifying DOM structure.
+ -  Escape closing tags in inline js when parse html.
+ -  Do not save parsed html if nothing was changed.
+ -  Fix Warning: Missing argument 1 for _redrect().
+ -  PHP code cleanup to pass MEQP validation.
+ -  Fix sorting by IP in admin grids.
+ -  Improve compatibility with third-party extensions - Firebear_CloudFlare.
+
 ### Version 1.0.7
 
  *  Added TM_AMP compatibility
