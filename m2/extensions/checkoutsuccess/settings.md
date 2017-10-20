@@ -36,7 +36,7 @@ you have to add Google Adwords or any other conversion tracing code. This field 
 | `{% raw %}{{shippingCode}}{% endraw %}`   | Code of shipping method for an order |
 | `{% raw %}{{shippingTitle}}{% endraw %}`  | Name of shipping method for an order |
 
-### Page Lyaout
+### Page Layout
 
 ![Checkout Success system config layout](/images/m2/checkoutsuccess/settings-layout.png)
 

@@ -33,8 +33,9 @@ Check video below to see how drag-and-drop interface and preview feature works.
 
 ### Contents
 
-1. [Installation](installation/)
-2. [Settings](settings)
+ 1. [Installation](installation/)
+ 2. [Changelog](changelog/)
+ 3. [Settings](settings)
 
 ### Known issues
 
