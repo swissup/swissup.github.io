@@ -8,6 +8,40 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.7.0
+
+**Major Updates**
+
+ -  Updated default form styles, new configurable
+    [form styles](/m2/extensions/firecheckout/configuration/#form-styles) added
+ -  Brand new layout builder and page preview in
+    [CheckoutSuccess](/m2/extensions/checkout-success/) module
+ -  [SubscribeAtCheckout](/m2/extensions/subscribe-at-checkout/) module added
+
+**Fixes and Improvements**
+
+ -  Added ability to [redirect to Firecheckout page](/m2/extensions/firecheckout/configuration/#general)
+    after Add to Cart action
+ -  Fixed layout error when using EmptyLayout on Magento 2.2
+ -  Fixed order placement with 'PayPal Express in-context' payment method
+ -  Fixed non-working Authorize.Net payment on magento < 2.2.0
+ -  Fixed invalid billing address when using paypal express or other method
+    without visible address form
+ -  Fixed address form visibility when virtual quote is used
+ -  Improved third-party payment methods compatibility
+ -  Added ability to add js plugins at firecheckout page from layout xml instructions
+ -  Magento 2.2.0 compatibility improvements
+
+**Modules Updates**
+
+ -  AddressAutocomplete — [1.0.4](/m2/extensions/address-autocomplete/changelog/#version-104)
+ -  Address Field Manager — [1.0.2](/m2/extensions/address-field-manager/changelog/#version-102)
+ -  Checkout Fields — [1.0.3](/m2/extensions/checkout-fields/changelog/#version-103)
+ -  Checkout Success — [1.1.0](/m2/extensions/checkout-success/changelog/#version-110)
+ -  Order Attachments — [1.1.0](/m2/extensions/order-attachments/changelog/#version-110)
+ -  Subscribe at Checkout — [1.0.0](/m2/extensions/subscribe-at-checkout/changelog/#version-100)
+ -  Checkout Vat — [1.0.3](/m2/extensions/taxvat/changelog/#version-103)
+
 ### Version 1.6.5
 
  -  Magento 2.2 compatibility
