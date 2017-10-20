@@ -482,6 +482,15 @@ store-maintenance:
     m1:
     m2: /m2/extensions/store-maintenance/
 
+subscribe-at-checkout:
+  title: Subscribe at Checkout
+  short_description: >
+    Subscribe to store newsletter directly from checkout page
+  size: 2x1
+  urls:
+    m1:
+    m2: /m2/extensions/subscribe-at-checkout/
+
 testimonials:
   title: Testimonials
   short_description: Let the customer's speak. Your business deserves good words.
