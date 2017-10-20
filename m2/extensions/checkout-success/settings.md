@@ -15,7 +15,7 @@ Checkout Success Page settings have three sections.
 
 ### General
 
-![Checkout Success system config general](/images/m2/checkoutsuccess/settings-general.png)
+![Checkout Success system config general](/images/m2/checkout-success/settings-general.png)
 
 You can enable or disable extension in this section.
 
@@ -38,7 +38,7 @@ you have to add Google Adwords or any other conversion tracing code. This field 
 
 ### Page Layout
 
-![Checkout Success system config layout](/images/m2/checkoutsuccess/settings-layout.png)
+![Checkout Success system config layout](/images/m2/checkout-success/settings-layout.png)
 
 Section `Layout` provides easy to use drag-and-drop interface to modify
 checkout success page layout. Success page constructed with predefinded blocks that can be arranged in any way you want.
@@ -55,6 +55,6 @@ page. Input order number in `Order # to preview` and press button
 
 ### Cms Blocks
 
-![Checkout Success system config cms blocks](/images/m2/checkoutsuccess/settings-blocks.png)
+![Checkout Success system config cms blocks](/images/m2/checkout-success/settings-blocks.png)
 
 In this section you can assign CMS block to respective block on checkout success page.

@@ -14,4 +14,4 @@ category: Checkout Success
 
 * [Settings][settings]
 
-[settings]: /m2/extensions/checkoutsuccess/#settings
+[settings]: /m2/extensions/checkout-success/#settings

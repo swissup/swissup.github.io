@@ -27,7 +27,7 @@ faster and easier by providing them a simple checkout form.
     - [Delivery Date](/m2/extensions/delivery-date/)
     - [GeoIp](/m2/extensions/geoip/)
     - [Order Attachments](/m2/extensions/order-attachments/)
-    - [Success Page](/m2/extensions/checkoutsuccess/)
+    - [Success Page](/m2/extensions/checkout-success/)
     - [Taxvat Validation](/m2/extensions/taxvat/)
  6. Third-party themes compatibility
     - [Argento theme by Templates-Master](third-party-themes/argento/)

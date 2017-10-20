@@ -123,7 +123,7 @@ checkoutsuccess:
   size: 1x1
   urls:
     m1: /m1/extensions/checkout-success/
-    m2: /m2/extensions/checkoutsuccess/
+    m2: /m2/extensions/checkout-success/
 
 deliverydate:
   title: Delivery Date
