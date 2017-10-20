@@ -1,38 +1,38 @@
 - href: /images/m2/firecheckout/frontend/3columns-guest-customer.png
   src: /images/m2/firecheckout/frontend/small/3columns-guest-customer.png
-  w: 1285
-  h: 1187
   alt: 3 columns layout for guest customer
   title: >
       Three columns layout is perfect for stores with moderate shipping and
       payment methods count.
+  w: 1207
+  h: 1087
 - href: /images/m2/firecheckout/frontend/1column-expanded-guest-customer.png
   src: /images/m2/firecheckout/frontend/small/1column-expanded-guest-customer.png
-  w: 1285
-  h: 1955
   alt: 1 column expanded layout for guest customer
   title: >
       Single column layout is more structured and suitable for all stores.
+  w: 973
+  h: 1751
 - href: /images/m2/firecheckout/frontend/2columns-alternate-guest-customer.png
   src: /images/m2/firecheckout/frontend/small/2columns-alternate-guest-customer.png
-  w: 1285
-  h: 1520
   alt: Alternative 2 columns layout for guest customer
   title: >
       Alternative two columns layout could be used when shipping and payments
       blocks height are equal.
+  w: 1207
+  h: 1312
 - href: /images/m2/firecheckout/frontend/2columns-guest-customer.png
   src: /images/m2/firecheckout/frontend/small/2columns-guest-customer.png
-  w: 1285
-  h: 1698
   alt: 2 columns layout for guest customer
   title: >
       Two columns layout is perfect for stores that need a lot of space for
       shipping or payment methods.
+  w: 1207
+  h: 1531
 - href: /images/m2/firecheckout/frontend/3columns-registered-customer.png
   src: /images/m2/firecheckout/frontend/small/3columns-registered-customer.png
-  w: 1285
-  h: 1138
   alt: 3 columns layout for registered customer
   title: >
       Three columns layout for registered customer
+  w: 1270
+  h: 1044
