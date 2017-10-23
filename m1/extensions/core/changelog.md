@@ -7,6 +7,11 @@ category: Core
 
 # Changelog
 
+### Version 1.6.2
+
+ -  Code refactoring
+ -  FirePhp logger added for debugging purposes
+
 ### Version 1.6.0
 
  -  MEQP fixes

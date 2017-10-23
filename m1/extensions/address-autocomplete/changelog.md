@@ -7,6 +7,12 @@ category: Address Autocomplete
 
 # Address Autocomplete Changelog
 
+### Version 1.1.4
+
+ -  UK address autocomplete improvement. Fixed missing town field
+ -  Added IWD Onepage Checkout integration
+ -  Added AW Onestepcheckout integration
+
 ### Version 1.1.3
 
  -  Fixed javascript `change` event bubbling when fill address field

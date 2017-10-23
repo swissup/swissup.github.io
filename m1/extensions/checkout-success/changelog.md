@@ -8,6 +8,10 @@ category: Checkout Success
 
 # Changelog
 
+### Version 2.0.6
+
+ -  Code refactoring and cleanup
+
 ### Version 2.0.5
 
  -  Added compatibility with mageworld onestepcheckout
