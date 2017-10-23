@@ -1,10 +1,19 @@
-- title: Empty Layout
+- title: >
+    Default Layout. Please note, that your theme may change the look of
+    this layout type.
+  href: /images/m2/firecheckout/frontend/3columns-with-default-layout.png
+  src: /images/m2/firecheckout/frontend/small/3columns-with-default-layout.png
+  w: 1150
+  h: 1051
+- title: >
+    Empty Layout. No information is shown except store logo, copyright, and
+    checkout form.
   href: /images/m2/firecheckout/frontend/3columns-with-empty-layout.png
   src: /images/m2/firecheckout/frontend/small/3columns-with-empty-layout.png
-  w: 1270
-  h: 1110
-- title: Full Layout
+  w: 1150
+  h: 1113
+- title: Full Layout. Full featured layout with header, navigation, and footer.
   href: /images/m2/firecheckout/frontend/3columns-with-full-layout.png
   src: /images/m2/firecheckout/frontend/small/3columns-with-full-layout.png
-  w: 1270
-  h: 1457
+  w: 1150
+  h: 1425
