@@ -8,7 +8,7 @@ category: Firecheckout
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" modules="Swissup_Core Swissup_Checkout Swissup_AddressAutocomplete Swissup_AddressFieldManager Swissup_CheckoutCart Swissup_CheckoutFields Swissup_CheckoutSuccess Swissup_DeliveryDate Swissup_Firecheckout Swissup_Geoip Swissup_Orderattachment Swissup_Taxvat" %}
+{% include installation/m2/manual.html site="swissuplabs.com" modules="Swissup_Core Swissup_Checkout Swissup_AddressAutocomplete Swissup_AddressFieldManager Swissup_CheckoutCart Swissup_CheckoutFields Swissup_CheckoutSuccess Swissup_DeliveryDate Swissup_Firecheckout Swissup_Geoip Swissup_Orderattachment Swissup_SubscribeAtCheckout Swissup_Taxvat" preinstall="composer require geoip2/geoip2" %}
 
 #### 4. Complete the installation
 

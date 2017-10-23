@@ -50,7 +50,7 @@
     <li>Navigate to <i>System > Tools > Сache Management</i> and flush cache.
     </li>
     <li><p>Run the following commands in shell (terminal):</p>
-        <pre class="highlight"><code><span class="c"># 1. Enable new modules</span>
+        <pre class="highlight"><code>{% if include.preinstall %}{{ include.preinstall | replace: '\n', "\<br/>" }}<br/><br/>{% endif %}<span class="c"># 1. Enable new modules</span>
 php bin/magento module:enable\
     {{ include.modules | replace: ' ', "\<br/>    " }}
 
