@@ -51,7 +51,9 @@ Group               | Variable name                 | Default value
 |@firecheckout-form-checkbox__background-image      | `'data:image/png;base64,iV...`
 |@firecheckout-form-radio__background-image         | `'data:image/svg+xml;base64,PD...`
 **Modal popup styles** |                            |
-|@firecheckout-modal__popup-effect                  | `'zoom'` (zoom,slide-down)
+|@firecheckout-modal__popup-effect                  | `'zoom'` [zoom|slide-down|slide-up]
+|@firecheckout-modal__popup-box-shadow              | `0 0 20px rgba(0, 0, 0, 0.3)`
+|@firecheckout-modal__overlay-background            | `rgba(0, 0, 0, 0.2)`
 |@firecheckout-authentication__popup-effect         | `@firecheckout-modal__popup-effect`
 
 ##### Next up
