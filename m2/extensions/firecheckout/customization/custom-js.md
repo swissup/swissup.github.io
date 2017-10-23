@@ -9,12 +9,10 @@ category: Firecheckout
 
 # Firecheckout custom js
 
-> **Attention!** — This feature is available since 1.2.0 version only.
-
 Firecheckout provides easy and quick way to add custom javascript without
 core files modification.
 
-> You can place `custom.js` file inside your active theme
+> You can create `custom.js` file inside your active theme
 > (eg. "app/design/frontend/Magento/luma/Swissup_Firecheckout/web/js/custom.js")
 > and it will be automatically included by firecheckout.
 >
@@ -44,31 +42,23 @@ Let's expand "Discount" and "Attachment" sections by default.
 
     ```js
     define([
-        'jquery',
-        'underscore',
-        'uiRegistry'
-    ], function($, _, registry) {
-        var mapping = {
-            'checkout.steps.billing-step.payment.afterMethods.discount': '.discount-code',
-            'checkout.steps.billing-step.payment.afterMethods.attachment': '.order-attachments'
-        };
+        'Magento_Ui/js/lib/view/utils/async'
+    ], function($) {
+        'use strict';
 
-        _.each(mapping, function(selector, name) {
-            // make sure that component is available on the page
-            registry.async(name)(function() {
-                // expand collapsible element
-                activateCollapsible(selector);
-            });
+        var expandables = [
+            '.discount-code',
+            '.order-attachments',
+        ];
+
+        $.async({
+            selector: expandables.join(','),
+            ctx: $('.checkout-container').get(0)
+        }, function (el) {
+            setTimeout(function() {
+                $(el).collapsible('activate');
+            }, 500);
         });
-
-        function activateCollapsible(selector) {
-            if (!$(selector).length) {
-                setTimeout(function() {
-                    activateCollapsible(selector);
-                }, 500);
-            }
-            $(selector).collapsible('activate');
-        }
     });
     ```
 
@@ -86,9 +76,7 @@ Let's expand "Discount" and "Attachment" sections by default.
 
 #### Result
 
-> Css customization was done according to [css customization guide](../custom-css/).
-
-{% include gallery.html images=site.data.gallery.m2.firecheckout.customization.custom-js class="phone-up-1 tablet-up-1 photoswipe" %}
+![Custom firecheckout js](/images/m2/firecheckout/customization/custom-js/expanded-collapsible-sections.png)
 
 ##### Next up
 
