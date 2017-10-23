@@ -56,7 +56,7 @@ a module, that automatially select's it.
 
 #### Result
 
-![Firecheckout with header navigation](/images/m2/firecheckout/customization/hide-useless-checkout-section/firecheckout.png)
+![Firecheckout with hidden shipping section](/images/m2/firecheckout/customization/hide-useless-checkout-section/firecheckout.png)
 
 ##### Next up
 
