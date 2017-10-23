@@ -30,7 +30,7 @@ Replace list and grid image code
         $prolabelsCatalogHelper = $this->helper('Swissup\ProLabels\Helper\Catalog');
         echo $prolabelsCatalogHelper->getProductLabels($_product);
     ?>
-    <?php // Product Image ?>
+    <?php /* Product Image */ ?>
     <a href="<?php /* @escapeNotVerified */ echo $_product->getProductUrl() ?>" class="product photo product-item-photo" tabindex="-1">
         <?php echo $productImage->toHtml(); ?>
     </a>
