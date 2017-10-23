@@ -10,12 +10,10 @@ category: Firecheckout
 
 # Firecheckout custom css
 
-> **Attention!** — This feature is available since 1.2.0 version only.
-
 Firecheckout provides easy and quick way to customize checkout styles without
 worrying about further updates.
 
-> You can place `_custom.less` file inside your active theme
+> You can create `_custom.less` file inside your active theme
 > (eg. "app/design/frontend/Magento/luma/Swissup_Firecheckout/web/css/_custom.less")
 > and it will be automatically included by firecheckout.
 >
@@ -46,47 +44,26 @@ Let's slightly change form and firecheckout layout styles and section number col
  2. Redefine firecheckout variables with `abstracts/_custom.less` file:
 
     ```scss
+    @firecheckout-section-desktop__gap: 1px;
+    @firecheckout-section__gap: 1px;
     @firecheckout-section__border: 0;
     @firecheckout-section__padding: 12px 20px 20px;
     @firecheckout-section__number-color: #fff;
-    @firecheckout-section__number-background-color: #c13b7a;
-    @firecheckout-section__box-shadow: 0 0 8px rgba(0,0,0,0.15);
+    @firecheckout-section__number-background-color: #1979c3;
+    @firecheckout-section__box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+
+    @firecheckout-form-field__border-width: 0 0 1px;
+    @firecheckout-form-field__background-color: #fff;
     ```
 
  3. Add additional styles with `_custom.less`
 
     ```scss
     .firecheckout {
-        .swissup-delivery-date {
-            margin-top: 20px;
-        }
-    }
-
-    @media (min-width: 1024px) {
-        .firecheckout {
-            .form-shipping-address,
-            .billing-address-form {
-                .fieldset > .field {
-                    vertical-align: top;
-                    display: inline-block;
-                    width: 50%;
-
-                    &.street {
-                        width: 100%;
-                    }
-
-                    > .label {
-                        width: auto;
-                        float: none;
-                        margin: 5px 0 2px;
-                        padding: 0 9px 0 0;
-                    }
-                    > .control {
-                        display: block;
-                        width: calc(~"100% - 5px");
-                    }
-                }
-            }
+        .opc-wrapper .form-login .fieldset .note,
+        .opc-wrapper .form-shipping-address .fieldset .note {
+            font-size: 12px;
+            margin-top: 0px;
         }
     }
     ```
@@ -105,10 +82,7 @@ Let's slightly change form and firecheckout layout styles and section number col
 
 #### Result
 
-> Customization was done under [Swissup/argento-pure2](/m2/argento/pure2/) theme.
-> Button styles are inherited from it.
-
-{% include gallery.html images=site.data.gallery.m2.firecheckout.customization.custom-css class="phone-up-1 tablet-up-1 photoswipe" %}
+![Custom firecheckout styles](/images/m2/firecheckout/customization/custom-css/frontend.png)
 
 ##### Next up
 
