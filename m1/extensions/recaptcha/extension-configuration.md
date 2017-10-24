@@ -18,11 +18,9 @@ In section `API keys` you have to insert Site Key and Secret Key. Google creates
 > 
 >If you still do not have keys, please visit [https://www.google.com/recaptcha/admin](https://www.google.com/recaptcha/admin) to generate them. Set them into respective fields of reCAPTCHA extension config.
 
+> **Take a notice,** if you generate keys for Invisible reCAPTCHA then you can use them to show reCAPTCHA v2 also. But you can not use keys for reCAPTCHA v2 to show Invisible reCAPTCHA.
+
 In section `General` you can disable or enable reCAPTCHA. As you can see, you may enable recaptcha only for store frontend or only for magento backend.
 
-You can see only 2 Google options to customize reCAPTCHA:
-
- *  color (light/dark)
- *  size (normal/compact)
-  
-These settings you can find in section `Design`.
+In section `Design` you can select type of reCAPTCHA and choose its color or
+size. Size is available for reCAPTCHA v2 only.

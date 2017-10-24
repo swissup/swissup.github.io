@@ -1,12 +1,16 @@
 ---
 layout: default
-title: CHangelog
+title: Changelog
 description: magento recaptcha module changelog
 keywords: " magento recaptcha, recaptcha extension, changelog "
 category: reCAPTCHA
 ---
 
 # Changelog
+
+### Version 1.1.0
+
+ -  New Invisible reCAPTCHA support
 
 ### Version 1.0.2
 
