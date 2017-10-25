@@ -186,6 +186,7 @@ additional modifications.
 - [Amasty_Promo](amasty-promo/)
 - [Ayasoftware_SimpleProductPricing](ayasoftware-simpleproductpricing/)
 - GCMC_GiveChange
+- [Brander_PaymentFee](brander-paymentfee/)
 - [MageWorx_MultiFees](mageworx-multifees/)
 - [Netresearch_PaymentFee](netresearch-paymentfee/)
 - Symmetrics_Buyerprotect
