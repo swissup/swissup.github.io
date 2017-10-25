@@ -7,6 +7,24 @@ category: Firecheckout
 
 # Changelog
 
+### Version 4.2.3
+
+ -  Code refactoring and stability improvements
+ -  Fixed js error at onecolumn layout
+ -  Improved compatibility with third-party themes
+ -  Fixed ajax requests loop in IE11 when Fooman_Surcharge module is available
+ -  AddressAutocomplete updated to [1.1.4](/m1/extensions/address-autocomplete/changelog/#version-114)
+ -  CheckoutSuccess updated to [2.0.6](/m1/extensions/checkout-success/changelog/#version-206)
+
+**Third-party modules**
+
+ -  [Dhl_LocationFinder](/m1/extensions/firecheckout/supported-modules/dhl-locationfinder/) integration added
+ -  [Amasty_StoreCredit](/m1/extensions/firecheckout/supported-modules/amasty-storecredit/) integration added
+ -  [OPG_Square](/m1/extensions/firecheckout/supported-modules/opg-square/) integration added
+ -  Conekta_Card integration added
+ -  Updated integration with [OnePica_AvaTax](/m1/extensions/firecheckout/supported-modules/onepica-avatax/) module
+ -  Fixed js error when PaypalPlus is the only method available
+
 ### Version 4.2.2
 
  -  Small fixes into onecolumn layout mode
