@@ -7,6 +7,26 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.0.0
+
+ -  [NavigationPro](/m2/extensions/navigationpro/) added
+ -  Css editor improved in theme editor backend. CSS syntax highlight added.
+
+**Luxury Theme**
+
+ -  Improved NavigationPro compatibility
+ -  Fixed too long language switcher
+ -  Out of stock phrase removed from listing
+ -  Improved product quantity styles in header cart
+
+**Extensions Updates**
+
+ -  **AjaxSearch** — [1.2.5](/m2/extensions/ajaxsearch/changelog/#version-125)
+ -  **Askit** — [1.2.8](/m2/extensions/askit/changelog/#version-128)
+ -  **EasyCatalogImages** — [1.1.4](/m2/extensions/easycatalogimages/changelog/#version-114)
+ -  **Prolabels** — [1.0.19](/m2/extensions/prolabels/changelog/#version-1019)
+ -  **Reviewreminder** — [1.0.10](/m2/extensions/reviewreminder/changelog/#version-1010)
+
 ### Version 0.9.10
 
  -  Fixed critical vulnerability in EasyBanner module
