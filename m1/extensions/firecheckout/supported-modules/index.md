@@ -104,6 +104,7 @@ additional modifications.
 - IrvineSystems_Yamato
 - JRD_Paczkomaty
 - Kiala_LocateAndSelect
+- [LaPoste_Colissimo](laposte-colissimo/)
 - [Lemonline_SmartPost](lemonline-smartpost/)
 - Magestore_Storepickup
 - Man4x_MondialRelay
