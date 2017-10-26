@@ -9,6 +9,8 @@ category: Argento
 
 ### Version 1.0.0
 
+> [Upgrade Instructions](/m2/argento/upgrade-instructions/#version-099---100)
+
  -  [NavigationPro](/m2/extensions/navigationpro/) added
  -  Css editor improved in theme editor backend. CSS syntax highlight added.
 
