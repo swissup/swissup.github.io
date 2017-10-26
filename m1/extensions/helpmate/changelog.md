@@ -8,6 +8,14 @@ category: Helpmate
 
 # Changelog
 
+### Version 1.7.2
+
+ - Remove code dublication
+ - Fix xss
+ - Fix empty letter bug (change status)
+ - Improve MEQP
+ - etc.
+
 ### Version 1.7.1
 
  - Fix MEQP
