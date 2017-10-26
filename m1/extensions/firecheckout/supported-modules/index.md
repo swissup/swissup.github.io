@@ -5,7 +5,7 @@ description: Firecheckout and third-party modules
 keywords: >
     firecheckout, supported modules, third-party modules,
     firecheckout payment methods, firecheckout shipping methods,
-    2Checkout_Payment, Braintree_Payments, Craig_Tco, Dhl_Versenden,
+    2Checkout_Payment, Braintree_Payments, Craig_Tco,
     Ebizmarts_SagepaymentsPro, Fooman_DpsPro, Hps_Securesubmit,
     IntellectLabs_Stripe, Itabs_Debit,IWD_OPC_Signature, Klarna_KlarnaPaymentModule,
     Netresearch_Billsafe, Netresearch_OPS, Paymill, Payolution, Phoenix_Ipayment,
@@ -92,7 +92,7 @@ additional modifications.
 - [Dhl_Account](dhl-account/)
 - [Dhl_LocationFinder](dhl-locationfinder/)
 - Dhl_Magentolws
-- Dhl_Versenden
+- [Dhl_Versenden](dhl-versenden/)
 - DPD_Shipping
 - [Emjainteractive_ShippingOption](emjainteractive-shippingoption/)
 - [Fumo_JapanPost](fumo-japanpost/)
