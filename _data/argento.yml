@@ -87,6 +87,9 @@ m2:
     - title: Scripts
       url: /m2/argento/scripts/
 
+    - title: Troubleshooting
+      url: /m2/argento/troubleshooting/
+
   themes:
     - title: Blank
       url: /m2/argento/blank/
