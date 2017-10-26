@@ -7,6 +7,10 @@ category: Easy Slider
 
 # Changelog
 
+### Version 3.0.9
+
+ -  Fixed possible js errors
+
 ### Version 3.0.8
 
  -  Fixed styles on [TM_Amp](/m1/extensions/amp/) theme when RTL is used
