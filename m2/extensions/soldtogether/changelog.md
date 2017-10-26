@@ -8,6 +8,12 @@ category: SoldTogether
 
 # Changelog
 
+### Version 1.2.2
+
+ -  Code cleanup
+ -  Style improvements
+ -  Fixed possible error when product is not found in registry
+
 ### Version 1.2.0
 
  -  Magento 2.2 compatibility
