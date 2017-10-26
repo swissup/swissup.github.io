@@ -5,7 +5,7 @@ description: Firecheckout and third-party modules
 keywords: >
     firecheckout, supported modules, third-party modules,
     firecheckout payment methods, firecheckout shipping methods,
-    2Checkout_Payment, Braintree_Payments, Craig_Tco,
+    2Checkout_Payment, Braintree_Payments, Conekta_Card, Craig_Tco,
     Ebizmarts_SagepaymentsPro, Fooman_DpsPro, Hps_Securesubmit,
     IntellectLabs_Stripe, Itabs_Debit,IWD_OPC_Signature, Klarna_KlarnaPaymentModule,
     Netresearch_Billsafe, Netresearch_OPS, Paymill, Payolution, Phoenix_Ipayment,
@@ -15,7 +15,7 @@ keywords: >
     IrvineSystems_JapanPost, IrvineSystems_Sagawa, IrvineSystems_Seino,
     IrvineSystems_Yamato, JRD_Paczkomaty, Kiala_LocateAndSelect,
     Magestore_Storepickup, Man4x_MondialRelay, Mico_Rushpackage, Ophirah_Qquoteadv (Cart2Quote),
-    PostcodeNl_Api, Shipperhq_Freight, Shipperhq_Pickup, SR_UpsShip, Storepickup,
+    PostcodeNl_Api, PaypalPlus, Shipperhq_Freight, Shipperhq_Pickup, SR_UpsShip, Storepickup,
     TIG_Postcode, Webshopapps_Desttype, Webshopapps_Premiumrate, WebshopApps_ProductMatrix,
     Wyomind_Pickupatstore, Amasty_Methods, Magento EE coupons,
     Magento EE GiftCards and GiftWrap, Aitoc_Aitgiftwrap, Unirgy_GiftCert,
@@ -50,6 +50,7 @@ additional modifications.
 - [Braintree](braintree/)
 - Braintree_Payments (Updated Braintree)
 - [CheckoutApi_ChargePayment](checkoutapi-chargepayment/)
+- Conekta_Card
 - Craig_Tco
 - [Customweb_BeanstreamCw](customweb-beanstreamcw/)
 - [Customweb_FirstDataConnectCw](customweb-firstdataconnectcw/)
