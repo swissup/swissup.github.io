@@ -7,6 +7,29 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.9.4
+
+ -  Fixed scroll bar in IE when Hover Gallery enabled
+ -  Fixed invisible images in Luxury theme in "More Views" section when
+    lazy-load module is used
+
+**Modules fixes & improvements**
+
+ -  AMP
+    - Fixed product page slider animation on rtl theme
+    - Fixed bug when user can't read error message after adding product to the cart
+    - Attribute "checked/" is not allowed error fixed
+ -  Easyslide
+    - Fixed possible js errors
+ -  Prolabels
+    - Fixed possible broken html markup
+    - Prevent label wrapper from stretching out of parent container
+    - Significant code cleanup and code improvement
+ -  Testimonials
+    - Added check if guest is allowed to write a review
+    - Code cleanup
+ -  Stability improvements in AjaxPro, Askit, Lightboxpro modules
+
 ### Version 1.9.3
 
  -  Fixed critical vulnerability in EasyBanner module
