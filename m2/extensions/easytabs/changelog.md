@@ -8,7 +8,11 @@ category: Easy Tabs
 
 # Changelog
 
-### Version 1.0.4
+### Version 1.2.1
+
+ -  Widget feature added: add tabs at any page now!
+
+### Version 1.0.5
 
  -  Magento 2.2 compatibility
 
