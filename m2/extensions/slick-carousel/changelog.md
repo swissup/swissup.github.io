@@ -8,6 +8,10 @@ category: SlickCarousel
 
 # Changelog
 
+### Version 1.1.1
+
+ -  Fixed issue with Porto theme
+
 ### Version 1.1.0
 
  -  First public release
