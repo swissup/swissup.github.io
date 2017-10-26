@@ -8,6 +8,10 @@ category: EasyCatalogImages
 
 # Changelog
 
+### Version 1.1.4
+
+ -  Magento 2.2.0 compatibility
+
 ### Version 1.1.0
 
 > This version is **not compatible** with old Magento versions.

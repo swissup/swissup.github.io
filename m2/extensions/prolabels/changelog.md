@@ -8,6 +8,10 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.0.19
+
+ -  Code cleanup and stability improvements
+
 ### Version 1.0.18
 
  -  Magento 2.2 compatibility
