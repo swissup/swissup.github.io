@@ -7,6 +7,10 @@ category: Core
 
 # Changelog
 
+### Version 1.6.3
+
+ -  Add mapping for helpdesk and socialsuite
+
 ### Version 1.6.2
 
  -  Code refactoring
