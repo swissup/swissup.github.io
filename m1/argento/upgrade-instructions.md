@@ -8,7 +8,7 @@ category: Argento
 
 # Argento Upgrade Instructions
 
-### Version 1.8.6 - 1.9.0
+### Version 1.8.6 - 1.9.4
 
 Remove deprecated render templates for checkout cart:
 
