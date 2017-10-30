@@ -7,6 +7,16 @@ category: Firecheckout
 
 # Changelog
 
+### Version 4.2.4
+
+ -  Fixed possible error during address validation for registered customers
+
+**Third-party modules**
+
+ -  [LaPoste_Colissimo](/m1/extensions/firecheckout/supported-modules/laposte-colissimo/) integration
+ -  Webtex_Giftcards integration improvements (Card section moved inside existing
+    discount block)
+
 ### Version 4.2.3
 
  -  Code refactoring and stability improvements
