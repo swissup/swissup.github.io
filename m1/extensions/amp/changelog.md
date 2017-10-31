@@ -7,6 +7,15 @@ category: Accelerated Mobile Pages
 sidebar: sidebar.md
 ---
 
+### Version 1.6.0
+
+{% include gallery.html images=site.data.gallery.m1.amp.changelog.v160 class="phone-up-2 tablet-up-3 photoswipe scroll" %}
+
+ -  Improved ability to support [third-party pages](/m1/extensions/amp/devdocs/#add-amp-support-for-the-third-party-page)
+ -  Magento's [Cookie Restriction Mode](http://docs.magento.com/m1/ce/user_guide/store-operations/cookie-restriction-mode.html)
+    support added
+ -  [Attributepages 1.4.0](/m1/extensions/attributepages/changelog/#version-140) support added.
+
 ### Version 1.5.0.1
 
  -  Fixed product page slider animation on rtl theme

@@ -16,19 +16,10 @@ Let's assume, you have a "News" module with `yournamespace_news.xml` layout
 update and `news/list` block that you want to render at AMP site.
 
 ### Contents
+{:.no_toc}
 
-<!-- MarkdownTOC -->
-
-- [Blocks and layout updates whitelist](#blocks-and-layout-updates-whitelist)
-- [AMP specific template](#amp-specific-template)
-- [AMP specific layout update](#amp-specific-layout-update)
-- [Include module styles](#include-module-styles)
-- [Include AMP component](#include-amp-component)
-- [Add AMP support for the third-party page](#add-amp-support-for-the-third-party-page)
-- [Working examples of third-party modules](#working-examples-of-third-party-modules)
-    - [Next Up](#next-up)
-
-<!-- /MarkdownTOC -->
+* TOC
+{:toc}
 
 ### Blocks and layout updates whitelist
 
@@ -229,6 +220,8 @@ will be rendered.
 
 ### Add AMP support for the third-party page
 
+#### Single page module
+
 In order to add your page into supported list you should add the following
 event listener in your config.xml:
 
@@ -240,24 +233,24 @@ event listener in your config.xml:
             <tmamp_prepare_pages_config>
                 <observers>
                     <my_module>
-                        <class>my_module/observer</class>
-                        <method>preparePagesForTmamp</method>
-                    </highlight>
-                </my_module>
+                        <class>my_module/observer_tmamp</class>
+                        <method>prepareConfig</method>
+                    </my_module>
+                </observers>
             </tmamp_prepare_pages_config>
         </events>
     </global>
 </config>
 ```
 
-And add `preparePagesForTmamp` implementation:
+And add `prepareConfig` implementation:
 
 ```php
 <?php
 
-class My_Module_Model_Observer
+class My_Module_Model_Observer_Tmamp
 {
-    public function preparePagesForTmamp($observer)
+    public function prepareConfig($observer)
     {
         $pages = $observer->getPages();
         $optionArray = $pages->getData();
@@ -271,11 +264,73 @@ You're done. The page will be rendered in AMP mode in case if you are using AMP
 for all supported pages. Otherwise, you need to enable your page in AMP
 [configuration](/m1/extensions/amp/configuration/#general).
 
+#### Multiple pages module
+
+In case if your module has multiple handles and you want to support all of them,
+you can follow instructions below:
+
+Add the following event listeners in your config.xml:
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <tmamp_prepare_pages_config>
+        <observers>
+            <my_module>
+                <class>my_module/observer_tmamp</class>
+                <method>prepareConfig</method>
+            </my_module>
+        </observers>
+    </tmamp_prepare_pages_config>
+    <tmamp_is_page_supported>
+        <observers>
+            <my_module>
+                <class>my_module/observer_tmamp</class>
+                <method>isPageSupported</method>
+            </my_module>
+        </observers>
+    </tmamp_is_page_supported>
+</config>
+```
+
+And add `my_module/observer_tmamp` implementation:
+
+```php
+<?php
+
+class My_Module_Model_Observer_Tmamp
+{
+    public function prepareConfig($observer)
+    {
+        $pages = $observer->getPages();
+        $optionArray = $pages->getData();
+        $optionArray['mymodule'] = Mage::helper('mymodule')->__('My module');
+        $pages->setData($optionArray);
+    }
+
+    public function isPageSupported($observer)
+    {
+        $result = $observer->getResult();
+        $page = $result->getCurrentPage();
+        $supportedPages = $result->getSupportedPages();
+
+        if (0 === strpos($page, 'mymodule') && in_array('mymodule', $supportedPages)) {
+            $result->setIsPageSupported(true);
+        }
+    }
+}
+```
+
+You're done. The page will be rendered in AMP mode in case if you are using AMP
+for all supported pages. Otherwise, you need to enable your page in AMP
+[configuration](/m1/extensions/amp/configuration/#general).
+
 ### Working examples of third-party modules
 
  -  [Easy Catalog Images](https://github.com/tmhub/easycatalogimg/)
 
 ##### Next Up
+{:.no_toc}
 
  -  [Back to Home](/m1/extensions/amp/)
  -  [SASS variables](/m1/extensions/amp/customization/design/sass-variables/)
