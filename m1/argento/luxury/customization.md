@@ -2,7 +2,7 @@
 layout: default
 title: Argento Luxury Customization
 description: Argento Luxury Customization
-keywords: "ArgentoLuxury, luxury, Customization, slider, easycatalogimages, highlight, brands, banner"
+keywords: "ArgentoLuxury, luxury, Customization, slider, easycatalogimages, highlight, brands, banner, tabs under image"
 category: Argento
 ---
 
@@ -11,6 +11,7 @@ category: Argento
 ### Contents
 
  1. [Placing header above the slider at homepage](#placing-header-above-the-slider-at-homepage)
+ 2. [Move product tabs under product image](#move-product-tabs-under-product-image)
 
 ### Placing header above the slider at homepage
 
@@ -18,7 +19,7 @@ category: Argento
 
 To make homepage header black with the white symbols apply following code to [custom.css](/m1/argento/theme-customization/small-changes/#custom-styles-and-javascript):
 
-```css
+```CSS
 .cms-index-index .header-container { position: static; }
 .cms-index-index .nav-container,
 .cms-index-index .header-container { background: #000; }
@@ -28,7 +29,7 @@ To make homepage header black with the white symbols apply following code to [cu
 
 To make header the same view as at category you have to add following code to your [custom.css](/m1/argento/theme-customization/small-changes/#custom-styles-and-javascript)
 
-```css
+```CSS
 @media (min-width: 980px) {
     /*put header above content*/
     .cms-index-index .header-container { position: static; }
@@ -67,3 +68,46 @@ To make header the same view as at category you have to add following code to yo
 Don't forget to change the homepage logo in **Argento Luxury** admin settings
 
 ![Luxury home logo](/images/argento/luxury/customization/luxury-home-logo.png)
+
+### Move product tabs under product image
+
+![Tabs under image](/images/argento/luxury/customization/tabs-under-image.png)
+
+Originaly product tabs place on the right side in product information section.
+
+If you want to have product tabs under product image then you have to apply
+some XML layout update intsructions.
+
+[Create or edit custom.xml](../../theme-customization/small-changes/#custom-layout-update-file) of your theme and add code below:
+
+```xml
+    <catalog_product_view>
+        <!-- remove product tabs from existing place -->
+        <reference name="product.info.other">
+            <action method="unsetChild"><name>product.info.tabs</name></action>
+        </reference>
+        <!-- insert product tabs in new place -->
+        <reference name="product.info">
+            <action method="insert">
+                <blockName>product.info.tabs</blockName>
+                <siblingName>-</siblingName>
+                <after>0</after>
+                <alias>product_additional_data</alias>
+            </action>
+        </reference>
+        <!-- expand first tab -->
+        <reference name="product.info.tabs">
+            <action method="setInitiallyCollapsed"><value>0</value></action>
+        </reference>
+    </catalog_product_view>
+```
+
+`*` Wrap code above into `<layout version="0.1.0">`...`</layout>` if you
+created new custom.xml and not edit existing one.
+
+Flush Magento cahce and check frontend. 
+
+You should see product tabs under product image. Now you may want to disable
+additional tabs. So find CSM block with id `product_page_additional_tabs`,
+disable it and flush Magento cahce one morew time.
+

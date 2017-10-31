@@ -96,6 +96,9 @@ Additional tabs are shown in content area:
 - Questions
 - Recently viewed
 
+This tabs inserted as a widget into CMS block `product_page_additional_tabs`.
+You can add there any other content you want. Or you can add few more tabs.
+
 #### Soldtogether blocks
 
 [Sold Together](/m1/extensions/soldtogether/) powered blocks. You can customize these blocks

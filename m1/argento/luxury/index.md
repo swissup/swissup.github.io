@@ -69,4 +69,5 @@ category: Argento
 
 ##### [Customization](customization/)
 
-- [Short header and footer layout](checkout-page/#short-header-and-footer-layout)
+ -  [Short header and footer layout](checkout-page/#short-header-and-footer-layout)
+ 
