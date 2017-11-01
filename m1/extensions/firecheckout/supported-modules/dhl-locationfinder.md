@@ -46,6 +46,11 @@ category: Firecheckout
 
     1. Copy these lines to the new file created in step 2 and save it.
     2. Remove these lines from `app/design/frontend/base/default/template/dhl_locationfinder/checkout/onepage/locationfinder.phtml` and save it.
+    3. Add additional line on the top of the new file and save it:
+
+        ```php
+        <?php $markerIcons = $this->getMarkerIcons(); ?>
+        ```
 
  4. Open `app/design/frontend/base/default/layout/dhl_locationfinder.xml` and
     add find the following line:
