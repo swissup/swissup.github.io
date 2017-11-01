@@ -11,6 +11,7 @@ sidebar: sidebar.md
 
 {% include gallery.html images=site.data.gallery.m1.amp.changelog.v160 class="phone-up-2 tablet-up-3 photoswipe scroll" %}
 
+ -  Fixed ability to switch to desktop theme to buy configurable product
  -  Improved ability to support [third-party pages](/m1/extensions/amp/devdocs/#add-amp-support-for-the-third-party-page)
  -  Magento's [Cookie Restriction Mode](http://docs.magento.com/m1/ce/user_guide/store-operations/cookie-restriction-mode.html)
     support added
