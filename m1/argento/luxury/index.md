@@ -67,7 +67,10 @@ category: Argento
 
 ##### [Checkout Page](checkout-page/)
 
+ -  [Short header and footer layout](checkout-page/#short-header-and-footer-layout)
+
 ##### [Customization](customization/)
 
- -  [Short header and footer layout](checkout-page/#short-header-and-footer-layout)
+ -  [Placing header above the slider at homepage](/m1/argento/luxury/customization/#placing-header-above-the-slider-at-homepage)
+ -  [Move product tabs under product image](/m1/argento/luxury/customization/#move-product-tabs-under-product-image)
  
