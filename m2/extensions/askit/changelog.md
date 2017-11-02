@@ -11,6 +11,11 @@ category: AskIt
 
 # Changelog
 
+### Version 1.2.9
+
+- Fix blockGroup bug
+- Make no questions notification optional
+
 ### Version 1.2.8
 
 - Code dublicate cleanup (phpcpd)
