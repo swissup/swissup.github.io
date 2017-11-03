@@ -7,6 +7,11 @@ category: Page Speed
 
 # Changelog
 
+### Version 1.2.11
+
+- Improve Google Pagespeed Insight Api
+-  Fix bug file extension in upper case
+
 ### Version 1.2.10
 
 - Add dns-prefetch feature
