@@ -8,6 +8,10 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.7.0.1
+
+ -  Fixed javascript error in SubscribeAtCheckout module
+
 ### Version 1.7.0
 
 **Major Updates**

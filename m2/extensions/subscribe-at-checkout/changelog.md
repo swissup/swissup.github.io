@@ -8,6 +8,11 @@ category: SubscribeAtCheckout
 
 # Changelog
 
+### Version 1.0.1
+
+ -  Fixed js error for registered users
+ -  Fixed js error when module is disabled in configuration
+
 ### Version 1.0.0
 
  -  Initial release
