@@ -7,10 +7,17 @@ category: Page Speed
 
 # Changelog
 
+### Version 1.2.12
+
+- Improve observers call logic
+- Remove dublicate code
+- Fix some config options
+- etc.
+
 ### Version 1.2.11
 
 - Improve Google Pagespeed Insight Api
--  Fix bug file extension in upper case
+- Fix bug file extension in upper case
 
 ### Version 1.2.10
 
