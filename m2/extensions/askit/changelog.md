@@ -11,6 +11,11 @@ category: AskIt
 
 # Changelog
 
+### Version 1.2.10
+
+- Fix escapeHtmlAttr for old version (< 2.2)
+- Update ui_components according to the latest requirements
+
 ### Version 1.2.9
 
 - Fix blockGroup bug
