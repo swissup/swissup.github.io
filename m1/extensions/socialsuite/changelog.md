@@ -8,6 +8,11 @@ category: Social Suite
 
 # Changelog
 
+### Version 1.7.0.1
+
+ -  Fixed possible 'undifined index' warning
+ -  Fixed disount popup styles for logged in customers
+
 ### Version 1.7.0
 
 {% include gallery.html images=site.data.gallery.m1.socialsuite.changelog.v170 class="phone-up-2 tablet-up-3 photoswipe scroll" %}
