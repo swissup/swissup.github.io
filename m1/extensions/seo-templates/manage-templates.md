@@ -80,7 +80,8 @@ Bellow you can find list of allowed directives for metadata templates.
 With `sufix` and `prefix` options you can add some text before or after
 output. Works only when output is not empty.
 
-Directive options in square brackets (`[...]`) are optional.
+Directive options in square brackets (`[...]`) are optional. You should not
+use square brackets in directive.
 
 ### Edit template
 
