@@ -27,7 +27,9 @@ Module supports Magento onepage checkout and Firecheckout modules.
 
 {% include gallery.html images=page.gallery class="phone-up-1 tablet-up-2 photoswipe" %}
 
-- [Installation](installation/)
-- [Changelog](changelog/)
-- [Configuration](configuration/)
-- [Get API key](get-api-key/)
+ -  [Installation](installation/)
+ -  [Changelog](changelog/)
+ -  [Configuration](configuration/)
+ -  [Get API key](get-api-key/)
+ -  [Use Cases](use-cases/)
+       - [Restrict Results To Specific Country](use-cases/#restrict-results-to-specific-country)
