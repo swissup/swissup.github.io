@@ -20,5 +20,6 @@ category: Prolabels
      +  [Add In Stock Label](backend/in-stock-label)
      +  [Create Manual Label](backend/manual-label)
  -  [Using Shell Script](shell-script)
+ -  [Use Cases](use-cases/)
  -  [Integration](integration/)
      +  [Magic Zoom Plus](integration/#magic-zoom-plus)
