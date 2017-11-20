@@ -7,6 +7,10 @@ category: Page Speed
 
 # Changelog
 
+### Version 1.2.14
+
+- Fix const typo in cron function
+
 ### Version 1.2.12
 
 - Improve observers call logic
