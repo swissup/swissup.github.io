@@ -2,7 +2,7 @@
 layout: default
 title: Delivery Date changelog
 keywords: Delivery Date changelog
-category: Firecheckout
+category: Delivery Date
 ---
 
 # Changelog

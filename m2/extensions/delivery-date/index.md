@@ -2,7 +2,7 @@
 layout: default
 title: Delivery Date and Time
 description: Delivery Date and Time documentation
-category: Firecheckout
+category: Delivery Date
 ---
 
 # Delivery Date and Time
@@ -21,34 +21,4 @@ Main features:
 
  -  [Installation](installation/)
  -  [Changelog](changelog/)
- -  [Configuration](#configuration)
-
-### Configuration
-
-Configuration is available at `Stores > Configuration > Swissup Checkout > Delivery Date` page.
-
-#### General
-
-![General configuration options](/images/m2/delivery-date/configuration/general.png)
-
-Option                                      | Description
-:-------------------------------------------|:-----------------------------------
-Delivery date field label                   | Label used on frontend
-Show for all shipping methods               | Show delivery date input globally or for certain methods only
-Shipping Methods                            | Depends shipping methods
-Make Delivery Date a required field         | Make Delivery Date a required field
-Use Calendar                                | Disable to use calendar icon
-Use first avilable date as default value    | Populate delivery date field with default value
-
-#### First and last available delivery date rules
-
-![Available delivery date rules](/images/m2/delivery-date/configuration/rules.png)
-
-Option                                      | Description
-:-------------------------------------------|:-----------------------------------
-Delivery processing day ends at             | Orders placed afterwards will be considered as next day orders
-Delivery will be available since first available day (order date) plus this value | Delivery date offset in days
-Period in days, while delivery will be available, since first available day | Last available delivery date offset
-Date Format                                 | Forced date format, locale date format used when empty
-Exclude Weekend Days                        | Exclude delivery date on weekend
-Holidays                                    | List of holiday dates
+ -  [Configuration](configuration/)
