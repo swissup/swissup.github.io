@@ -19,6 +19,8 @@ category: Firecheckout
     - Ability to change field status per website level
  -  Delivery Date — [1.1.0](/m2/extensions/delivery-date/changelog/#version-110)
     - Improved configuration settings readability
+    - Fixed broken calendar popup at backend order edit page
+    - Fixed date formatting for certain locales (de_DE)
  -  Checkout Vat — [1.0.4](/m2/extensions/taxvat/changelog/#version-104)
 
 ### Version 1.7.0.1

@@ -10,6 +10,7 @@ category: Delivery Date
 ### Version 1.1.0
 
  -  Improved configuration readability
+ -  Fixed broken calendar popup at backend order edit page
  -  Fixed date formatting for certain locales (de_DE)
 
 ### Version 1.0.4
