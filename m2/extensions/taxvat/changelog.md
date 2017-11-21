@@ -8,6 +8,10 @@ category: Checkout VAT
 
 # Changelog
 
+### Version 1.0.4
+
+ -  Removed not needed notice from billing address form
+
 ### Version 1.0.3
 
  -  Allow to enter taxvat number with country code

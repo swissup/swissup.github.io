@@ -8,6 +8,13 @@ category: Address Field Manager
 
 # Changelog
 
+### Version 1.1.0
+
+ -  Added ability to set and remove field status per website
+ -  Added synchronization with Magento's config options
+ -  Added drag-n-drop feature to sort the fields
+ -  Fixed country sort order. Previously it was taken from theme config only.
+
 ### Version 1.0.2
 
  -  Improved module stability

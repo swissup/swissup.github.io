@@ -8,6 +8,16 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.7.1
+
+ -  Fixed possible javascript console errors
+
+**Modules Updates**
+
+ -  Address Field Manager — [1.1.0](/m2/extensions/address-field-manager/changelog/#version-110)
+ -  Delivery Date — [1.1.0](/m2/extensions/delivery-date/changelog/#version-110)
+ -  Checkout Vat — [1.0.4](/m2/extensions/taxvat/changelog/#version-104)
+
 ### Version 1.7.0.1
 
  -  Fixed javascript error in SubscribeAtCheckout module

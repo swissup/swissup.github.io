@@ -7,6 +7,11 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.1.0
+
+ -  Improved configuration readability
+ -  Fixed date formatting for certain locales (de_DE)
+
 ### Version 1.0.4
 
  -  Fixed compatibility with Magento 2.1 (Including 2.1.8)
