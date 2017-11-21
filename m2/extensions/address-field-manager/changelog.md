@@ -10,6 +10,8 @@ category: Address Field Manager
 
 ### Version 1.1.0
 
+See updated [usage section](/m2/extensions/address-field-manager/usage/)
+
  -  Added ability to set and remove field status per website
  -  Added synchronization with Magento's config options
  -  Added drag-n-drop feature to sort the fields

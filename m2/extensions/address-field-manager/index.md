@@ -20,4 +20,3 @@ sort order. Works great with standard magento checkout and
  1. [Installation](installation/)
  2. [Changelog](changelog/)
  3. [Usage](usage/)
- 4. [Troubleshooting](troubleshooting/)

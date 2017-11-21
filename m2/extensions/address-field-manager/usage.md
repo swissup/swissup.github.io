@@ -11,13 +11,21 @@ category: Address Field Manager
 Address Field Manager interface is available at _"Swissup > Address Field Manager"_
 menu.
 
-In order to edit field status or sort order, just click the row, and enter
-corresponding values into inline edit form. Additionally, you can select
-multiple rows and choose **"Edit"** in _Actions_ dropdown.
+ 1. If you'd like to change field status for specific website only - select it 
+    in the _Store View_ dropdown:
 
-{% include gallery.html images=site.data.gallery.m2.address-field-manager.usage class="scroll phone-up-1 tablet-up-3 photoswipe" %}
+    ![Store view Dropdown](/images/m2/address-field-manager/backend/store-view.png)
+
+    > Please note, that sort order is a global value and can't be edited per website.
+
+ 2. Select the rows, and click corresponding action in _Actions_ dropdown:
+
+    ![Actions Dropdown](/images/m2/address-field-manager/backend/actions-status.png)
+
+ 3. Grab the row handle and drag it to change field sort order:
+
+    ![Drag and Drop](/images/m2/address-field-manager/backend/drag-n-drop.png)
 
 #### Next up
 
- -  [Back to Main Page](../)
- -  [Troubleshooting](../troubleshooting/)
+ -  [Back to Main Page](/m2/extensions/address-field-manager/)

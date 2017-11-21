@@ -1,9 +1,15 @@
 - href: /images/m2/address-field-manager/backend/grid.png
   src: /images/m2/address-field-manager/backend/small/grid.png
-  w: 1024
-  h: 807
+  w: 1168
+  h: 892
   title: >
       Address Field Manager grid interface.
+- href: /images/m2/address-field-manager/frontend/firecheckout.png
+  src: /images/m2/address-field-manager/frontend/small/firecheckout.png
+  w: 1288
+  h: 721
+  title: >
+      Integration with Firecheckout.
 - href: /images/m2/address-field-manager/frontend/onepage-checkout-form.png
   src: /images/m2/address-field-manager/frontend/small/onepage-checkout-form.png
   w: 985
@@ -22,10 +28,4 @@
   h: 572
   title: >
       Integration with customer account page.
-- href: /images/m2/address-field-manager/frontend/firecheckout.png
-  src: /images/m2/address-field-manager/frontend/small/firecheckout.png
-  w: 1288
-  h: 721
-  title: >
-      Integration with Firecheckout.
 
