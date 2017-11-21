@@ -50,7 +50,7 @@ Period in days, while delivery will be available, since first available day | La
 
 #### Exclude delivery date rules
 
-![Excluded dates configuration](/images/m2/delivery-date/configuration/excluded-dates.png)
+![Excluded dates](/images/m2/delivery-date/configuration/excluded-dates.png)
 
 Option                                      | Description
 :-------------------------------------------|:-----------------------------------

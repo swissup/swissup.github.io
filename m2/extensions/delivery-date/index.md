@@ -13,9 +13,10 @@ Allows customer to choose delivery date and time during checkout.
 
 Main features:
 
- -  Enable [globally or for certain shipping methods only](#general)
- -  Flexible rules for [first and last available dates](#first-and-last-available-delivery-date-rules)
- -  [Disallow delivery](#first-and-last-available-delivery-date-rules) for particular dates
+ -  Enable [globally or for specific shipping methods only](configuration/#general)
+ -  Flexible rules for [first](configuration/#first-available-delivery-date-rules) 
+    and [last](configuration/#last-available-delivery-date-rules) available dates
+ -  [Exclude specific dates](configuration/#exclude-delivery-date-rules)
 
 ### Contents
 
