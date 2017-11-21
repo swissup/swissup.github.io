@@ -15,7 +15,10 @@ category: Firecheckout
 **Modules Updates**
 
  -  Address Field Manager — [1.1.0](/m2/extensions/address-field-manager/changelog/#version-110)
+    - Backend interface improvements
+    - Ability to change field status per website level
  -  Delivery Date — [1.1.0](/m2/extensions/delivery-date/changelog/#version-110)
+    - Improved configuration settings readability
  -  Checkout Vat — [1.0.4](/m2/extensions/taxvat/changelog/#version-104)
 
 ### Version 1.7.0.1
