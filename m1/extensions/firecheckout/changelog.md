@@ -7,6 +7,21 @@ category: Firecheckout
 
 # Changelog
 
+### Version 4.2.5
+
+ -  Added ability to add custom fields before billing form
+ -  Added ability to use firecheckout_custom.xml layout file
+ -  Fixed ability to use checkbox field in DependentFields component
+ -  Fixed js errors in IE11
+ -  Better third-party themes compatibility
+
+**Third-party modules**
+
+ -  Dhl_Locationfinder style fix
+ -  Fixed 'server' integration with Ebizmarts_SagePaySuite. v.4.2.4
+ -  Payex_Payments integration added
+ -  Fixed IE11 integration with LaPoste_Colissimo
+
 ### Version 4.2.4
 
  -  Fixed possible error during address validation for registered customers

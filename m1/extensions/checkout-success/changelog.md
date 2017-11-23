@@ -8,6 +8,10 @@ category: Checkout Success
 
 # Changelog
 
+### Version 2.0.7
+
+ -  Fixed typographical errors
+
 ### Version 2.0.6
 
  -  Code refactoring and cleanup
