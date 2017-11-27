@@ -7,11 +7,8 @@ category: Easy Tabs
 sidebar: sidebar.md
 ---
 
- 1. [General configurable options](#general-configurable-options)
- 2. [Admin interfaces](#admin-interfaces)
-     -  [Product Tabs](#product-tabs)
-     -  [Widget Tabs](#widget-tabs)
- 3. [Widget Easy Tabs](#widget-easy-tabs)
+* TOC
+{:toc}
 
 ## General configurable options
 
@@ -43,7 +40,10 @@ to `Easy Tabs` ➔ `Product Tabs`.
 Here you can look through all created tabs, change their status or delete them.
 Magento output these tabs on product page only.
 
-Click on row with tab you want to edit and you go to _Edit Tab_ page.
+Click on row with tab you want to edit and you go to _Edit Tab_ page. This page
+has to tabs 'Main' and 'Conditions'.
+
+##### Main tab
 
 ![Edit Product Tab](/images/m1/extensions/easytabs/edit-form.png)
 
@@ -84,6 +84,21 @@ Possible fields in widget options section:
  -  _Block_ - enter the block name for custom tab.
  -  _Content_ - create html content. You can use WYSIWYG editor in this field.
  -  _Attribute Code_ - select the attribute from dropdown to show it in tab.
+
+##### Conditions tab
+
+![Edit Product Tab - conditions](/images/m1/extensions/easytabs/edit-form-conditions.png)
+
+Here you can set specific conditions for product tab visibility. You can setup
+to show tab for specific customer group and/or for product with some attribute
+value.
+
+If you want to show tab at all products and customer groups, leave conditions
+blank.
+
+This interface is very similart to conditions in Catalog Price Rules. Read
+more about it at [Catalog Price Rules](http://docs.magento.com/m1/ce/user_guide/marketing/price-rules-catalog.html) under paragraph
+'Define the Conditions'.
 
 ### Widget Tabs
 
