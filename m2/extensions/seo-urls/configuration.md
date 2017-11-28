@@ -12,7 +12,7 @@ category: Seo Urls
 * TOC
 {:toc}
 
-You can configurate SEO URLs extension at
+You can configure SEO URLs extension at
 _Stores → Configuration → Swissup SEO Suite → Urls_ page.
 
 ![Settings](/images/m2/seo-urls/config.png)
@@ -23,11 +23,11 @@ You can enable or disable extension fully at this config section.
 
 ### Layered Navigation
 
-At this setcion you can make few tweacks to url biuld for filters in layered navigation.
+At this section you can make few tweaks to url build for filters in layered navigation.
 
-By default extension build filte url like this - `http://example.com/gear/bags/color-black/material-polyester.html`. Where `gear/bags` is category and `color-black/material-polyester` are applied filters.
+By default extension build filter url like this - `http://example.com/gear/bags/color-black/material-polyester.html`. Where `gear/bags` is category and `color-black/material-polyester` are applied filters.
 
-Some store owners like to separate filters from category in url. You can do so with option 'Use saparator for filters' and 'Separator string'.
+Some store owners like to separate filters from category in url. You can do so with option 'Use separator for filters' and 'Separator string'.
 
 ### Search
 
