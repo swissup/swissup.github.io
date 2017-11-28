@@ -3,7 +3,7 @@ layout: default
 title: SEO URLs
 description: SEO freidnly URLs
 keywords: seo friendly urls, good urls, seo url layered navigation
-category: SeoUrls
+category: Seo Urls
 ---
 
 # SEO URLs
@@ -16,9 +16,15 @@ Nevertheless, room for improvement always exists. Our SEO URLs extension for Mag
 
 Extension builds SEO friendly links for filters in layered navigation at category pages and at catalog search page. It reduces duplicated content at your store. Because extension always generates same URL for same filter set.
 
-**Main features of SEO URLs:**
+### Main features of SEO URLs
 
  -  Build URLs for Layered Navigation that are easy to read and understand.
  -  Reduce duplicated content using strict rule for building URLs - *filter set has one and only one link to it*.
  -  Rename `catalogsearch/result` page to short and understandable `search` (or any other name you want).
  -  Ready out of the box - install and use.
+
+### Content
+
+ -  [Installation](installation/)
+ -  [Configuration](configuration/)
+ -  [FAQ](faq/)
