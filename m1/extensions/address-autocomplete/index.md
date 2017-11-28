@@ -33,3 +33,4 @@ Module supports Magento onepage checkout and Firecheckout modules.
  -  [Get API key](get-api-key/)
  -  [Use Cases](use-cases/)
        - [Restrict Results To Specific Country](use-cases/#restrict-results-to-specific-country)
+       - [Add integration with third-party checkout extensions](use-cases/#add-integration-with-third-party-checkout-extensions)
