@@ -59,6 +59,8 @@ php bin/magento setup:upgrade
 
 <span class="c"># 3. Regenerate static content</span>
 rm -rf pub/static/_requirejs var/view_preprocessed pub/static/frontend/ pub/static/adminhtml/
+<span class="c"># For magento 2.2.x</span>
+rm -rf pub/static/_requirejs var/view_preprocessed pub/static/frontend/ pub/static/adminhtml/ generated/code/
 <span class="c"># run deploy command for en_US locale:</span>
 php bin/magento setup:static-content:deploy
 <span class="c"># or you can pass specific locales:</span>
