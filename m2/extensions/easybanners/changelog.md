@@ -8,6 +8,11 @@ category: Easy Banners
 
 # Changelog
 
+### Version 1.1.0
+
+ -  Fixed SQL error '1205 Lock wait timeout exceeded'.
+ -  Reduced number of database operations.
+
 ### Version 1.0.12
 
  -  Critical security issue fixed
