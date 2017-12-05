@@ -14,20 +14,39 @@ content areas (The one with _Insert Widget_ button above the textarea).
 
 ![Insert Widget Button](/images/m2/navigationpro/widget/insert-widget-button.png)
 
+You can also use widget programmatically via layout xml instructions.
+The options below will help you to find option code to use:
+
 #### Widget Options
 
-Option Name             | Description
-------------------------|------------------------------
-Menu                    | NavigationPro menu indentfier
-Show Active Branch Only | Enable Amazon-like [sidebar menu](/m2/extensions/navigationpro/use-cases/amazon-menu/#sidebar-menu)
-Initially Shown Levels Count | Menu with initially [expanded levels][sidebar-expanded]. Could be used separately from **Show Active Branch Only** option
-Theme                   | Menu [theme][themes]
-Orientation             | Choose between horizontal (Top) and vertical (Sidebar) menus
-Dropdown Positioning    | Choose between Standard, Left (Useful when menu is added to right column), and Top dropdown sides
-Additional CSS Class    | Additional css class for menu
-Wrap into Block Template | Usefull, when placing menu into sidebar
-Block Title             | Block wrapper title
-Block CSS Class         | Block wrapper class
+Option Name             | Code          | Description
+------------------------|---------------|-------------------
+Menu                    | identifier    | NavigationPro menu indentfier
+Show Active Branch Only | show_active_branch | Enable Amazon-like [sidebar menu](/m2/extensions/navigationpro/use-cases/amazon-menu/#sidebar-menu)
+Initially Shown Levels Count | visible_levels | Menu with initially [expanded levels][sidebar-expanded]. Could be used separately from **Show Active Branch Only** option
+Theme                   | theme         | Menu [theme][themes]
+Orientation             | orientation   | Choose between horizontal (Top) and vertical (Sidebar) menus
+Dropdown Positioning    | dropdown_side | Choose between Standard, Left (Useful when menu is added to right column), and Top dropdown sides
+Additional CSS Class    | css_class     | Additional css class for menu
+Wrap into Block Template | wrap         | Usefull, when placing menu into sidebar
+Block Title             | block_title   | Block wrapper title
+Block CSS Class         | block_css     | Block wrapper class
+
+#### Layout XML usage
+
+```xml
+<referenceContainer name="sidebar.main.top">
+    <block class="Swissup\Navigationpro\Block\Widget\Menu" name="sidebar.menu" template="Swissup_Navigationpro::menu.phtml">
+        <arguments>
+            <argument name="identifier" xsi:type="string">sidebar</argument>
+            <argument name="show_active_branch" xsi:type="boolean">true</argument>
+            <argument name="theme" xsi:type="string">compact</argument>
+            <argument name="orientation" xsi:type="string">vertical</argument>
+            <argument name="wrap" xsi:type="boolean">true</argument>
+        </arguments>
+    </block>
+</referenceContainer>
+```
 
 #### Next up
 
