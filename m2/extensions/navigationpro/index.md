@@ -45,3 +45,4 @@ devices, tablets, and phones.
     - [Custom CSS](/m2/extensions/navigationpro/customization/custom-css/)
     - [LESS variables](/m2/extensions/navigationpro/customization/less-variables/)
     - [CSS Helpers](/m2/extensions/navigationpro/customization/css-helpers)
+    - [Themes](/m2/extensions/navigationpro/themes/)
