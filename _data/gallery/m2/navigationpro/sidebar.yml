@@ -1,0 +1,18 @@
+- href: /images/m2/navigationpro/sidebar/simple.png
+  src: /images/m2/navigationpro/sidebar/small/simple.png
+  title: >
+    Simple sidebar menu
+  w: 1013
+  h: 748
+- href: /images/m2/navigationpro/sidebar/expanded-flat.png
+  src: /images/m2/navigationpro/sidebar/small/expanded-flat.png
+  title: >
+    Sidebar with initially expanded levels and flat theme
+  w: 1157
+  h: 792
+- href: /images/m2/navigationpro/sidebar/active-branch-only.png
+  src: /images/m2/navigationpro/sidebar/small/active-branch-only.png
+  title: >
+    Sidebar menu shows active branch only (Compact theme is applied)
+  w: 1009
+  h: 792
