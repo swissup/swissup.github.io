@@ -7,6 +7,9 @@ category: Navigationpro
 
 # Themes
 
+> Theme selector is currenlty supported for widget menus only. Top navigation
+> is not supported.
+
 NavigationPro [widget](/m2/extensions/navigationpro/widget/) allows you to apply
 one of existing themes:
 

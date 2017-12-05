@@ -22,7 +22,7 @@ category: Navigationpro
 
  -  Mobile view will always use single column mode
  -  Fixed too small dropdown width and height on mobile devices
- -  Fixed php error when switching to store view
+ -  Fixed php error when switching store view in backend interface
  -  Improved dropdown positioning calculations
  -  Fixed css issues with category tips
  -  Javascript code optimizations
