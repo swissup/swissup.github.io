@@ -7,6 +7,12 @@ category: Cache
 
 # Full Page Cache Changelog
 
+### Version 1.4.10
+
+ -  Fixed page caching when `utm_` and other tracking parameters are found in
+    urls
+ -  Code cleanup
+
 ### Version 1.4.9
 
  -  PHP code cleanup to pass MEQP validation

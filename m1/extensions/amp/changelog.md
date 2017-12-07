@@ -7,6 +7,14 @@ category: Accelerated Mobile Pages
 sidebar: sidebar.md
 ---
 
+### Version 1.6.1
+
+ -  Added ability to disable layered navigation output via configuration
+ -  Fixed validation error when "Cookie restriction" mode is enabled
+ -  Fixed possible "Content mismatch" error when using third-party layered
+    navigation modules
+ -  Mana_Seo compatibility added
+
 ### Version 1.6.0
 
 {% include gallery.html images=site.data.gallery.m1.amp.changelog.v160 class="phone-up-2 tablet-up-3 photoswipe scroll" %}
