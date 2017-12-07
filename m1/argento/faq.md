@@ -8,26 +8,10 @@ category: Argento
 ---
 
 # Argento FAQ
+{:.no_toc}
 
-1. [How to disable short header and footer layout?](#how-to-disable-short-header-and-footer-layout)
-2. [How to add additional item to the floatbar navigation?](#how-to-add-additional-item-to-the-floatbar-navigation)
-3. [How to disable category description collapse?](#how-to-disable-category-description-collapse)
-4. [How to disable category description collapse for specific category?](#how-to-disable-category-description-collapse-for-specific-category)
-5. [How to add text collapse just like the category description?](#how-to-collapse-any-another-block)
-6. [How to change layout for specific category?](#how-to-change-layout-for-specific-category)
-7. [Magento 1.7 and older](#magento-17-and-older)
-8. [Prepare logo image for mobile device](#prepare-logo-image-for-mobile-device)
-9. [How to disable Questions tab on product page?](#how-to-disable-questions-tab-on-product-page)
-10. [How to remove "0" as the default value for grouped products](#how-to-remove-0-as-the-default-value-for-grouped-products)
-11. [How to use FontAwesome icons?](#how-to-use-fontawesome-icons)
-12. [Missing elements at homepage](#missing-elements-at-homepage)
-13. [Remove attributes that have no value](#remove-attributes-that-have-no-value)
-14. [How to show hidden part of product name at category listing](#how-to-show-hidden-part-of-product-name-at-category-listing)
-15. [How to make mobile menu expand on whole item area click](#how-to-make-mobile-menu-expand-on-whole-item-area-click)
-16. [How to show product SKU on product page](#how-to-show-product-sku-on-product-page)
-17. [How to change checkbox/radio button color](#how-to-change-checkboxradio-button-color)
-18. [Why disabled extensions are still visible at frontend?](#why-disabled-extensions-are-still-visible-at-frontend)
-19. [Disable mobile PhotoSwipe library](#disable-mobile-photoswipe-library)
+* TOC
+{:toc}
 
 ### How to disable short header and footer layout?
 
@@ -442,3 +426,9 @@ To disable **PhotoSwipe** library at **Argento** productpage, please, follow nex
         <remove name="product_photoswipe" />
     </catalog_product_view>
     ```
+
+### What is 'keep frame' and how to use it
+
+'Keep frame' is option for image resizing in Magento. In few words 'keep frame' is used to force resized image fit specified width and height.
+
+You can read more at ["Keep frame" explanation](../keep-frame/) article.
