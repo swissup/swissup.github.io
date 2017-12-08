@@ -1,0 +1,18 @@
+- href: /images/m2/lightboxpro/layout/default.png
+  src: /images/m2/lightboxpro/layout/small/default.png
+  alt: Default popup layout
+  title: Default popup layout
+  w: 1000
+  h: 670
+- href: /images/m2/lightboxpro/layout/simple.png
+  src: /images/m2/lightboxpro/layout/small/simple.png
+  alt: Simple popup layout
+  title: Simple popup layout
+  w: 1270
+  h: 960
+- href: /images/m2/lightboxpro/layout/advanced.png
+  src: /images/m2/lightboxpro/layout/small/advanced.png
+  alt: Advanced popup layout
+  title: Advanced popup layout
+  w: 987
+  h: 677

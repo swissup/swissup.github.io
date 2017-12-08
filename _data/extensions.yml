@@ -325,7 +325,7 @@ lightboxpro:
   short_description:
   urls:
     m1: /m1/extensions/lightboxpro/
-    m2:
+    m2: /m2/extensions/lightboxpro/
 
 navigationpro:
   title: Navigation Pro
