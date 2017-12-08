@@ -18,6 +18,8 @@ category: Navigationpro
     [themes](/m2/extensions/navigationpro/themes/) support
  -  Amazon-like sidebar menu [added](/m2/extensions/navigationpro/use-cases/amazon-menu/#sidebar-menu)
 
+[**View Demo**](http://docs.swissuplabs.com/m2/extensions/navigationpro/demo/)
+
 **Fixes and Improvements**
 
  -  Mobile view will always use single column mode
