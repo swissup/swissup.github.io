@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Argento Mall Category Page
-description: Argento Mall category page
-keywords: "Argento mall, argento, category, listing, label, columns count"
+title: Argento Flat Category Page
+description: Argento Flat category page
+keywords: "Argento flat, argento, category, listing, label, columns count"
 category: Argento
 ---
 
-# Argento Mall Category Page
+# Argento Flat Category Page
 
 ### Layout
 
@@ -32,13 +32,11 @@ page_three_columns
 page_one_column
 ```
 
-### Category Description
+### Description
 
-![Collapsed category description](/images/argento/pure2/category-page/collapsed_description.png)
+![Collapsed category description](/images/argento/flat/category-page/collapsed_description.png)
 
-Category description is shown as collapsed block, when its height is longer than
-250px. If you would like to disable description collapsing, you can add the following
-code to [custom.xml][custom_xml]:
+Category description is shown as collapsed block, when its height is longer than 250px. If you would like to disable description collapsing, you can add the following code to [custom.xml][custom_xml]:
 
 ```xml
 <remove name="collapsed_category_description"/>
@@ -46,7 +44,7 @@ code to [custom.xml][custom_xml]:
 
 ## Product Listing
 
-![Product Listing](/images/argento/mall/category-page-product-listing.jpg)
+![Product Listing](/images/argento/flat/category-page/product-listing.png)
 
 #### Columns count
 
@@ -97,7 +95,7 @@ Add the following code to the custom.xml file:
 
 Every Argento theme since package version 1.9.5 has easy-to-use admin interface to maintain product images resizing at category page.
 
-Open Magento Admin and go to `System` → `Configuration`. Find `TM Argento Themes` section there and choose `Mall`.
+Open Magento Admin and go to `System` → `Configuration`. Find `TM Argento Themes` section there and choose `Flat`.
 
 ![Product Listing image size](/images/argento/default/listing-image-settings.png)
 
@@ -115,10 +113,10 @@ Option `Keep frame size of product image` can be tricky for some users. That is 
 
 Follow the steps below to change the image's size on the category view page:
 
- 1. Copy product list template to the `mall_custom` folder:
+ 1. Copy product list template to the `flat_custom` folder:
 
     ```
-    cp app/design/frontend/argento/mall/template/catalog/product/list.phtml app/design/frontend/argento/mall_custom/template/catalog/product/list.phtml
+    cp app/design/frontend/argento/flat/template/catalog/product/list.phtml app/design/frontend/argento/flat_custom/template/catalog/product/list.phtml
     ```
 
  2. Change the image dimensions in copied file.
@@ -145,5 +143,8 @@ Follow the steps below to change the image's size on the category view page:
 
     Remember to make the same operation for the image in grid and list modes.
 
+#### Product labels
+
+The display of the label on product is powered by [Prolabels module](/m1/extensions/prolabels/). You can add custom label or assign it to any items on the Category page at `Templates-Master > Prolabels` backend page.
 
 [custom_xml]: /m1/argento/theme-customization/small-changes/#custom-layout-update-file "custom.xml layout"

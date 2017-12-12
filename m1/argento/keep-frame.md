@@ -20,7 +20,7 @@ As an example we use two products - shoes. One product has image with portrait o
 |----------------------|-----------------------|
 | ![Portrait orientation](/images/argento/keep-frame/400x600.png){: .noborder} | ![Landscape orientation](/images/argento/keep-frame/600x480.png){: .noborder} |
 
-Argento themes allow to set resize options for product listing. So let's check follow cases.
+Argento themes allow to set [resize options for product listing](/m1/argento/luxury/category/#image-size). So let's check follow cases.
 
 ### Fixed image size and keep frame
 

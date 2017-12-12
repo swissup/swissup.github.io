@@ -96,6 +96,24 @@ Add the following code to the custom.xml file:
 
 #### Image size
 
+Every Argento theme since package version 1.9.5 has easy-to-use admin interface to maintain product images resizing at category page.
+
+Open Magento Admin and go to `System` → `Configuration`. Find `TM Argento Themes` section there and choose `Pure 2.0`.
+
+![Product Listing image size](/images/argento/pure2/category-page/image-settings.png)
+
+Product listing can have two modes - grid and list. And here you can specify image resizing values for both of this modes separately.
+
+One exception is image background. It applies for both grid and list modes.
+
+`Product image width` and `Product image height` are pretty self explanatory names.
+
+Option `Keep frame size of product image` can be tricky for some users. That is why we wrote an article that helps you to understand effect of this option - ["Keep frame" explanation](/m1/argento/keep-frame/).
+
+#### Image size (deprecated)
+
+> Deprecated since Argento package 1.9.0. Do not use it if your Argento package has version 1.9.x or higher.
+
 Follow the steps below to change image size on the category view page:
 
  1. Copy product list template to the `pure2_custom` folder:

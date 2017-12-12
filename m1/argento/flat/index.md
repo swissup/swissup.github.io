@@ -29,6 +29,15 @@ category: Argento
     - [Frequently bought together](product-page/#frequently-bought-together)
     - [Customers who bought this item also bought](product-page/#customers-who-bought-this-item-also-bought)
 
+##### [Category Page](category-page/)
+
+ -  [Layout](category-page/#layout)
+ -  [Category description](category-page/#description)
+ -  [Product Listing](category-page/#product-listing)
+    - [Columns count](category-page/#columns-count)
+    - [Image size](category-page/#image-size)
+    - [Product labels](category-page/#product-labels)
+
 ### Jumbotrons
 
 Jumbotrons - are the wide colorized containers on the ArgentoFlat homepage. Use the

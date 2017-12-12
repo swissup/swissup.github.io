@@ -38,11 +38,7 @@ page_one_column
 
 ![Category title background](/images/argento/luxury/category/category-title-background.png)
 
-<<<<<<< Updated upstream
 #### Adding background to title
-=======
-##### Adding background to title
->>>>>>> Stashed changes
 
 In **Luxury** theme you have an option to add fullwidth category title backgrounds.
 
@@ -53,11 +49,7 @@ Background will appear if you upload an image to
 
 ![Category background admin upload](/images/argento/luxury/category/category-background-admin-upload.png)
 
-<<<<<<< Updated upstream
 #### Changing category title color
-=======
-##### Changing category title color
->>>>>>> Stashed changes
 
 By default the category title text has **WHITE** color, but sometimes
 it doesn't look good at light backgrounds.
@@ -67,7 +59,7 @@ it doesn't look good at light backgrounds.
 ![Category title dark](/images/argento/luxury/category/category-title-dark.png)
 
  *  Go to `Catalog > Manage categories > [choose the category] > Custom design > Custom Layout Update`
-    ![Category title dark admin](/images/argento/luxury/category/dark-title-admin.png)
+    ![Category title dark admin](/images/argento/luxury/category/category-background-admin-upload.png)
  *  Add one of following update handles there
 
     ```xml
@@ -139,6 +131,22 @@ Add the following code to the custom.xml file:
 ```
 
 #### Image size
+
+Open Magento Admin and go to `System` → `Configuration`. Find `TM Argento Themes` section there and choose `Luxury`.
+
+![Product Listing image size](/images/argento/luxury/category-page/image-settings.png)
+
+Product listing can have two modes - grid and list. And here you can specify image resizing values for both of this modes separately.
+
+One exception is image background. It applies for both grid and list modes.
+
+`Product image width` and `Product image height` are pretty self explanatory names.
+
+Option `Keep frame size of product image` can be tricky for some users. That is why we wrote an article that helps you to understand effect of this option - ["Keep frame" explanation](/m1/argento/keep-frame/).
+
+#### Image size (deprecated)
+
+> Deprecated sinse 1.9.5
 
 Follow the steps below to change image size on the category view page:
 
