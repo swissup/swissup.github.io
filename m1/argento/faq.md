@@ -432,3 +432,30 @@ To disable **PhotoSwipe** library at **Argento** productpage, please, follow nex
 'Keep frame' is option for image resizing in Magento. In few words 'keep frame' is used to force resized image fit specified width and height.
 
 You can read more at ["Keep frame" explanation](../keep-frame/) article.
+
+### How to set product image size for specific category
+
+> Requires Argento package 1.9.5+
+
+Open category in backend view. Add the following code to the category layout update xml instructions:
+
+```xml
+<reference name="product_list">
+    <!-- set image background color; you can remove it if you do not need -->
+    <action method="setImgBgColor">
+        <color>#bbdc8d</color>
+    </action>
+    <!-- set image width; you can remove it if you do not need -->
+    <action method="setImgWidth">
+        <width>240</width>
+    </action>
+    <!-- set image height; you can remove it if you do not need -->
+    <action method="setImgHeight">
+        <height>200</height>
+    </action>
+    <!-- set keep frame of image; you can remove it if you do not need -->
+    <action method="setImgKeepFrame">
+        <keep_frame>0</keep_frame>
+    </action>
+</reference>
+```
