@@ -90,7 +90,10 @@ In order to start working with configuration, please go to
 ![Quantity enabled](/images/m2/ajaxlayerednavigation/qty-yes.png)
 ![Quantity disabled](/images/m2/ajaxlayerednavigation/qty-no.png)
 
-`Show search by options` - Enable/Disable search by filter options
+
+Help customers to instantly find necessary items by displaying a handy search box in a product filter.
+
+`Show search by options` - Enable/Disable a search box by options
 
 `Show search form when options count is larger than` - Show search if options more then 5 for example. It depends on the previous config option.
 
@@ -98,9 +101,12 @@ In order to start working with configuration, please go to
 ![Search by list enabled](/images/m2/ajaxlayerednavigation/searchlist-yes.png)
 ![Search by list in action](/images/m2/ajaxlayerednavigation/searchlist-result.png)
 
+
+Regulate the number of displayed filter values for long filter lists to make your navigation menu easy to perceive.
+
 `Show + More button` - Enable/Disable + More behaviour
 
-`Show '+ More' when options count is larger than` - Show + More if options more then 6 for example. It depends on the previous config option.
+`Show '+ More' when options count is larger than` - Set the number of unfolded options. It depends on the previous config option.
 
 ![+ More in action](/images/m2/ajaxlayerednavigation/more.gif)
 
