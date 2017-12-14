@@ -427,7 +427,7 @@ seo-suite:
   short_description:
   urls:
     m1: /m1/extensions/seo-suite/
-    m2:
+    m2: /m2/extensions/seo-suite/
 
 seo-templates:
   title: SEO Metadata Templates
