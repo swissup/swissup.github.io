@@ -8,6 +8,16 @@ category: Argento
 
 # Argento Upgrade Instructions
 
+### Version 1.9.4 - 1.9.5
+
+It is not nessecery but to keep your magento instance clean you can remove follow templates:
+
+```
+app/design/frontend/argento/luxury/template/configurableswatches/catalog/media/js.phtml
+app/design/frontend/argento/pure2/template/configurableswatches/catalog/media/js.phtml
+```
+
+
 ### Version 1.8.6 - 1.9.4
 
 Remove deprecated render templates for checkout cart:

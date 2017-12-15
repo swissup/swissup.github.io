@@ -7,6 +7,36 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.9.5
+
+ -  Added new breathtaking config sections for every Argento theme - 'Category page and other listing pages' and 'Product page'. There you can setup product image resize options for listing pages, widgets and product pages. Check how this config looks at [Luxury image size settings for category](../luxury/category/#image-size).
+ -  Load Google fonts with javascript librery webfontloader to improve pagespeed score in Luxury, Pure2, Flat and Argento themes.
+ -  Source code improvements.
+ -  Reduced number of templates. Check [upgrade instruction](../upgrade-instructions/#version-194---195) to find out what templates you can get rid of.
+
+**Modules fixes & improvements**
+
+ -  AMP:
+     +  Added ability to disable layered navigation output via configuration.
+     +  Attributepages 1.4.0 support added.
+     +  Magento’s Cookie Restriction Mode support added.
+     +  Fixed possible "Content mismatch" error when using third-party layered navigation modules.
+ -  Ask It:
+     +  Fixed 'reached 100 match iterations' when URL end with `/`.
+     +  Fixed customer email template in nl_NL locale.
+ -  Easytabs:
+     +  Scroll to "Review form" itself instead of top of Review section when visitor clicks "Add review" link on product page.
+ -  Facebook Like Button:
+     +  Added options to setup size of og:image that facebook uses in shared URLs.
+ -  Prolabels:
+     +  Added new position for label - 'hidden'. With help of this position you can hide label on product page or category page.
+ -  SEO Suite:
+     +  XML Sitemap - prevent memory leak during sitemap generation.
+ -  Sold Together:
+     +  Added new option to reindex orders with specific statuses only.
+     +  Fixed javascript error at some environments "groupSymbol is undefined".
+     +  Fixed crush of cron reindex on huge number of orders (10K+).
+
 ### Version 1.9.4
 
  -  Fixed scroll bar in IE when Hover Gallery enabled
