@@ -27,8 +27,11 @@ category: Navigationpro
     > widget to list all of your categories.
 
  2. Click **Menu Settings** button.
- 3. Set **Maximal Depth** value to 3. This will limit number of loaded navigation
-    levels. 
+ 3. Set **CSS Class** value to `navpro-amazon`, and **Maximal Depth** value to 3.
+    This will limit number of loaded navigation levels.
+
+    ![General Settings](/images/m2/navigationpro/use-cases/amazon-menu/general-settings.png)
+
  4. Change **Second Level Dropdown Settings**:
 
     ![Second level dropdown settings](/images/m2/navigationpro/use-cases/amazon-menu/second-level-dropdown-settings.png)
