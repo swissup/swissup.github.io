@@ -7,6 +7,8 @@ category: Argento
 
 ### Change the view of homepage slider
 
+> Starting from Argento version 1.1.0 you can configure it in admin under `Stores > Configuration > Swissup Theme Editor > Argento Luxury > Home Page > Enable Fullscreen Slider`.
+
 In Argento Luxury theme slider on home page is displayed fullscreen under header.
 You can disable it by setting less variable in your
 [_argento_custom.less](/m2/argento/customization/custom-css/) file:

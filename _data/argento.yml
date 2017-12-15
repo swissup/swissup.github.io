@@ -121,6 +121,7 @@ m2:
     # - font-awesome
     - hover-gallery
     - highlight
+    - lightboxpro
     - navigationpro
     - prolabels
     - reviewreminder

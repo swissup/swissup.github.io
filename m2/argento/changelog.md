@@ -7,6 +7,60 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.1.0
+
+> [Upgrade Instructions](/m2/argento/upgrade-instructions/#version-100---110)
+
+ -  [Lightbox Pro](/m2/extensions/lightboxpro/) added
+ -  [Seo Suite](/m2/extensions/seo-suite/) added with the following modules:
+     -  [Google rich snippets](/m2/extensions/richsnippets)
+     -  [HTML Sitemap](/m2/extensions/seo-html-sitemap)
+     -  [SEO URLs](/m2/extensions/seo-urls)
+ -  Fixed missing ProLabels on product page when other theme was installed after previously installed Luxury
+
+**Luxury Theme**
+
+ -  Added homepage fullscreen slider configuration from admin
+ -  Added sitemap link in footer links
+ -  Fixed wrong logo position on new Ajax Search version
+ -  Corrected Navigation Pro styles on homepage
+ -  Fixed search icon position when store switcher is not displayed
+ -  Fixed listing styles on mobile devices
+
+**Extensions Updates**
+
+ -  **Ajax Search** — 1.2.6
+     -  Now product page is opened when click or press enter on the element in popup
+     -  Added missing close button and spinner in folded mode
+     -  Removed mistakenly added cacheable='false' param, which disabled FPC
+     -  Fixed error CollectionFactory already in use
+     -  Fixed search form submit only after second tap on mobile keyboard
+ -  **Askit** — 1.2.11
+     -  Fixed not unique form element ids
+     -  Added config for "You have not submitted a question" message
+     -  Update ui_component according to the latest requirements
+     -  Fixed error on Magento versions before 2.2.0
+     -  Fixed vote for question action
+ -  **Easy Banner** — 1.1.1
+     -  Fixed SQL error "1205 Lock wait timeout exceeded"
+     -  Reduced number of database operations
+     -  Fixed search at banner conditions page
+     -  Code cleanup
+ -  **Easy Catalog Images** — 1.1.5
+     -  Fixed compatibility with Magento versions 2.1.x
+ -  **Navigation Pro** — 1.1.0
+     -  Added sidebar menu support
+     -  Added navigation pro widget
+     -  Added Amazon-like sidebar menu
+     -  Fixes for mobile devices
+     -  Fixed php error when switching store view in backend interface
+     -  Improved dropdown positioning calculations
+ -  **Pro Labels** — 1.0.20
+     -  Fixed invalid discount values calculation for non-base currencies
+ -  **Sold Together** — 1.2.3
+     -  Fixed customer reindex (error occured when customer had no orders)
+     -  Code cleanup
+
 ### Version 1.0.0
 
 > [Upgrade Instructions](/m2/argento/upgrade-instructions/#version-099---100)

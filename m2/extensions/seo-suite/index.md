@@ -6,7 +6,7 @@ keywords: seo suite, seo toolkit,
 category: SEO Suite
 ---
 
-# SEO URLs
+# SEO Suite
 
 SEO Suite is a toolkit to optimize your Magento 2 store for search engines.
 
