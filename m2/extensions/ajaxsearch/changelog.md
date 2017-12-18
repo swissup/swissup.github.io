@@ -8,6 +8,14 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.2.6
+
+ -  Now product page is opened when click or press enter on the element in popup
+ -  Added missing close button and spinner in folded mode
+ -  Removed mistakenly added cacheable=’false’ param, which disabled FPC
+ -  Fixed error CollectionFactory already in use
+ -  Fixed search form submit only after second tap on mobile keyboard
+
 ### Version 1.2.5
 
  -  Improve initialisation
