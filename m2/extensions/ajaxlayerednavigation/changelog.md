@@ -9,13 +9,16 @@ category: Ajax Layered Navigation
 
 ### Version 1.1.0
 
- -  Add sticky layered navigation
- -  Add stock filter (In Stock, Out of Stock)
- -  Fix layered navigation in one column layout
- -  Default exploded filters of option
- -  Add slideout filters sidebar
- -  Add round style for color options
- -  Add search options by name
+ -  Added sticky layered navigation
+ -  Added stock filter (In Stock, Out of Stock)
+ -  Added New filter
+ -  Added One Sale filter
+ -  Fixed layered navigation in one column layout
+ -  Added default exploded filters of option
+ -  Added slideout filters sidebar
+ -  Added round style for color options
+ -  Added search options by name
+ -  Improved code style
  -  etc.
 
 ### Version 1.0.0
