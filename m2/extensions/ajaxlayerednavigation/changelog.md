@@ -12,9 +12,9 @@ category: Ajax Layered Navigation
  -  Added sticky layered navigation
  -  Added stock filter (In Stock, Out of Stock)
  -  Added New filter
- -  Added One Sale filter
+ -  Added On Sale filter
  -  Fixed layered navigation in one column layout
- -  Added default exploded filters of option
+ -  Added default expanded filters of option
  -  Added slideout filters sidebar
  -  Added round style for color options
  -  Added search options by name

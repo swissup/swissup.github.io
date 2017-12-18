@@ -10,6 +10,12 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.2.3
+
+- Improve magento 2.2 compatability
+- Small bugfixes
+- etc.
+
 ### Version 1.2.2
 
 - Fix MEQP errors
