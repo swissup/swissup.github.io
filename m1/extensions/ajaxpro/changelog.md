@@ -8,9 +8,15 @@ category: AjaxPro
 
 # Changelog
 
-### Version 3.3.18
+### Version 3.3.20
 
- - Fixed wrong type class error in getAddToCartUrl
+ -  Fix Ultimo integration.
+ -  Include calendar css with media="all" param on homepage.
+
+### Version 3.3.19
+
+ -  Fixed wrong type class error in getAddToCartUrl.
+ -  Remove duplicated code.
 
 ### Version 3.3.18
 

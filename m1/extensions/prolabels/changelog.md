@@ -8,6 +8,10 @@ category: Prolabels
 
 # Changelog
 
+### Version 2.7.13
+
+ -  Added new position for label - ‘hidden’. With this position you can hide label on product page or category page.
+
 ### Version 2.7.12
 
  -  Escape quotes in lable's title.

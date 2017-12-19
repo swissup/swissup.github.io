@@ -7,6 +7,10 @@ category: Facebook Like Button
 
 # Changelog
 
+### Version 2.2.1
+
+ -  Added options to setup size of og:image that Facebook uses in shared URLs.
+
 ### Version 2.2.0
 
  -  New "like button" layout - custom button. It renders on server side,

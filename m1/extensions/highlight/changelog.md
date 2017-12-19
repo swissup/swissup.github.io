@@ -8,6 +8,11 @@ category: Highlight
 
 # Changelog
 
+### Version 2.6.4
+
+ -  Fixed empty setLocation method, when ajaxpro is used. It caused issues with add to cart functionality on homepage.
+ -  Remove hardcoded TM Amp dependency.
+
 ### Version 2.6.3
 
  -  PHP code cleanup to pass MEQP validation

@@ -7,6 +7,10 @@ category: Email
 
 # Changelog
 
+### Version 1.1.9
+
+ -  Source code improvements.
+
 ### Version 1.1.8
 
  -  Fix Aschroder_SMTPPro integration

@@ -7,6 +7,11 @@ category: Easy Tabs
 sidebar: sidebar.md
 ---
 
+### Version 3.1.6
+
+ -  Scroll to “Review form” itself instead of top of Review section when visitor clicks “Add review” link on product page.
+ -  Remove empty space above tabs.
+
 ### Version 3.1.5
 
  -  Added missing initialization of custom links on tabs.

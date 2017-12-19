@@ -29,13 +29,21 @@ gallery:
     alt: New backend interface assigning
     title: New backend interface assignimg
 ---
----
 
 # AskIt Changelog
 
+### Version 2.3.13
+
+ -  Fixed ‘reached 100 match iterations’ when URL end with /.
+ -  Fixed customer email template in nl_NL locale.
+
+### Version 2.3.11
+
+ -  Sort questions by votes count in widget.
+
 ### Version 2.3.9
 
- -  remove "select all" at backend grid (it does not work correctly)
+ -  Remove "select all" at backend grid (it does not work correctly)
 
 ### Version 2.3.8
 
