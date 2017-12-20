@@ -8,6 +8,12 @@ category: Sold Together
 
 # Changelog
 
+### Version 1.5.0
+
+ -  Added new option to reindex orders with specific statuses only.
+ -  Fixed JavaScript error at some environments “groupSymbol is undefined”.
+ -  Fixed crush of cron reindex on huge number of orders (10K+).
+
 ### Version 1.4.8
 
  -  Responsive product images for amazon style of Sold Together block on

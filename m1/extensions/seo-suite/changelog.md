@@ -8,6 +8,14 @@ category: SEO Suite
 
 # Changelog
 
+### Version 0.6.2
+
+ -  XML Sitemap - prevent memory leak during sitemap generation.
+
+### Version 0.6.1
+
+ -  Metadata templates: fix price directive (respect tax config - include/exclude tax; remove decimal trailing zeros).
+
 ### Version 0.6.0
 
 Added new extension - SEO Templates. Read more about it

@@ -8,6 +8,16 @@ category: SEO XML Sitemap
 
 # Changelog
 
+### Version 1.0.3
+
+ -  Prevent memory leak during sitemap generation.
+
+### Version 1.0.2
+
+ -  Fix PHP warnings.
+ -  Alternate language pages added.
+ -  Code cleanup.
+
 ### Version 1.0.1
 
  -  rename (->_iwd, ->_cwd) bug was fixed
