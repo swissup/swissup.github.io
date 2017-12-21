@@ -11,6 +11,7 @@ category: Ajax Layered Navigation
  1. [Stock Filter](#stock-filter)
  2. [On Sale Filter](#on-sale-filter)
  3. [New Filter](#new-filter)
+ 4. [Rating Filter](#rating-filter)
 
 #### Stock Filter
 
@@ -62,7 +63,7 @@ category: Ajax Layered Navigation
 
 ![screenshot from 2017-12-18 11-14-55](https://user-images.githubusercontent.com/412612/34098373-bde2eaa4-e3e4-11e7-933b-1d6ce717a036.png)
 
-3. Open Storefront Properties and find  `Use in Layered Navigation` and check/set `Filterable with results` (by default Yes)
+3. Open Storefront Properties and find `Use in Layered Navigation` and check/set `Filterable with results` (by default Yes)
 
 ![screenshot from 2017-12-18 11-16-18](https://user-images.githubusercontent.com/412612/34098410-e83e3d94-e3e4-11e7-92bb-373b0e3ce283.png)
 
@@ -79,6 +80,29 @@ category: Ajax Layered Navigation
 6. Check on the frontend.
 
 ![screenshot from 2017-12-14 16-42-33](https://user-images.githubusercontent.com/412612/33997669-cf349072-e0ed-11e7-8678-446f9371ed5c.png)
+
+#### Rating Filter
+
+1. Open `Store -> Attributes -> Product`
+
+2. Find attribute `rating_summary`
+
+    ![how to find product attribute](https://user-images.githubusercontent.com/412612/34213510-1a3f9170-e5a8-11e7-90b5-570590d31027.png)
+
+3. Open Storefront Properties and find  `Use in Layered Navigation` and check/set `Filterable with results` (by default Yes)
+
+    ![edit product attribute](https://user-images.githubusercontent.com/412612/34213608-5bf51d6a-e5a8-11e7-9c8d-0fc3acc1ed57.png)
+
+4. In console run
+
+    ~~~
+    bin/magento index:reindex
+    ~~~
+
+5. Check on the frontend.
+
+    ![frontend interface](https://user-images.githubusercontent.com/412612/34249771-8e656f48-e643-11e7-8b77-005ba9b22605.png)
+
 
 #### See also:
 
