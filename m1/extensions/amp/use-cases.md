@@ -14,6 +14,7 @@ sidebar: sidebar.md
 - [Set image layout](#set-image-layout)
 - [Change image src](#change-image-src)
 - [Change css class name](#change-css-class-name)
+- [Remove review stars from products list](#remove-review-stars-from-products-list)
 
 <!-- /MarkdownTOC -->
 
@@ -65,3 +66,44 @@ Here is an example of how to do that and do not affect desktop theme:
 
 Where `list-unstyled` - is a AMP supported
 [css class name](/m1/extensions/amp/customization/css-helpers/).
+
+### Remove review stars from products list
+
+In case you want to have minimalistic products listing at AMP version of your store you may want to remove review stars from product list.
+
+Obviously you can hide them with CSS. Here is article how to [add custome styles to AMP pages](../customization/design/custom-styles/). But the best way is layout XML.
+
+Create `local.xml` file at `app/design/frontend/tmamp/default/layout/`. And add there code below there:
+
+```xml
+<layout version="0.1.0">
+    <!-- remove stars from listing with layered navigation -->
+    <catalog_category_layered>
+        <reference name="product_list">
+            <action method="addReviewSummaryTemplate">
+                <type>default</type>
+                <template>0</template>
+            </action>
+            <action method="addReviewSummaryTemplate">
+                <type>short</type>
+                <template>0</template>
+            </action>
+        </reference>
+    </catalog_category_layered>
+    <!-- remove stars from listing where layered navigation is disabled -->
+    <catalog_category_default>
+        <reference name="product_list">
+            <action method="addReviewSummaryTemplate">
+                <type>default</type>
+                <template>0</template>
+            </action>
+            <action method="addReviewSummaryTemplate">
+                <type>short</type>
+                <template>0</template>
+            </action>
+        </reference>
+    </catalog_category_default>
+</layout>
+```
+
+Please do not forget to clear Magento cache.
