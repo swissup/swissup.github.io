@@ -22,6 +22,8 @@ Magento 2 layered navigation extension is must-have for every website with exten
 *  Mobile-friendly custom product collection with layered navigation.
 *  Multi-store and multi-language support.
 
+![Custom layered navigation filter](/images/m2/ajaxlayerednavigation/custom-filters.png)
+
 ## Contents
 
  1. [Installation](installation/)
