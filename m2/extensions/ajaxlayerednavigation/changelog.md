@@ -28,4 +28,5 @@ category: Ajax Layered Navigation
 #### Next up
  -  [Installation](../installation)
  -  [Configuration](../#configuration)
+ -  [Use cases](../#use-cases)
  -  [Back to Main Page](../)
