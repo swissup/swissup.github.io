@@ -8,7 +8,7 @@ category: Ajax Layered Navigation
 
 # Ajax Layered Navigation
 
-Magento 2 layered navigation extension is must-have for every website with extensive product catalogs with plenty of attributes. With our module, you will benefit by:
+Magento 2 layered navigation extension is must-have for every website with extensive product catalogs with plenty of attributes. With **Ajax Layered Navigation** module, you will benefit by:
 *  Using multiple choices for the same filterable attribute.
 *  The display of Magento 2 ajax layered navigation block both on the homepage and category pages.
 *  Using a custom layered navigation filter.
@@ -26,9 +26,9 @@ Magento 2 layered navigation extension is must-have for every website with exten
 
  1. [Installation](installation/)
  2. [Changelog](changelog/)
- 3. [Frontend settings](#frontend-settings)
+ 3. [Frontend settings](frontend-settings/)
     - [Category Page](#category-page)
     - [Search Result](#search-result)
     - [One column layout](#one-column-layout)
- 4. [Configuration](#configuration)
+ 4. [Configuration](configuration/)
  5. [Use cases](use-cases/)
