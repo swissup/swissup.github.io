@@ -8,6 +8,11 @@ category: Address Field Manager
 
 # Changelog
 
+### Version 1.1.1
+
+ -  Fixed incorrect sort order in backend grid
+ -  Magento 2.1 compatibility
+
 ### Version 1.1.0
 
 See updated [usage section](/m2/extensions/address-field-manager/usage/)

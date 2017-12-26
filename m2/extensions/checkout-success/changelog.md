@@ -8,6 +8,10 @@ category: Checkout Success
 
 # Changelog
 
+### Version 1.1.1
+
+ -  Fixed typo in config section name
+
 ### Version 1.1.0
 
  -  Brand new backend [drag-and-drop layout](/m2/extensions/checkout-success/settings/#page-layout)

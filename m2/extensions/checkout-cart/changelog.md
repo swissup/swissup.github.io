@@ -8,6 +8,11 @@ category: Checkout Cart
 
 # Changelog
 
+### Version 1.1.2
+
+ -  Fixed vertical alignment of button and input fields
+ -  Fixed visible scrollbar on tablet devices
+
 ### Version 1.1.1
 
  -  Fixed styles small screen sizes

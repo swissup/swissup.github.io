@@ -7,6 +7,11 @@ category: Delivery Date
 
 # Changelog
 
+### Version 1.1.1
+
+ -  Fixed too wide input field
+ -  Fixed js error, when no shipping methods are available
+
 ### Version 1.1.0
 
  -  Improved configuration readability

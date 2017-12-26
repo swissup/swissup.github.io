@@ -8,6 +8,29 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.8.0
+
+ -  Added new "1 Column (Multistep Wizard)" layout
+ -  "I Agree" button added to the Agreement popup
+ -  Added ability to configure default Shipping and Payment methods
+ -  Added ability to hide Shipping methods step, if single method is available only
+ -  Added missing _en_US.csv_ translation file
+ -  Small style improvements
+
+**Modules Updates**
+
+ -  Address Field Manager — [1.1.1](/m2/extensions/address-field-manager/changelog/#version-111)
+    - Fixed incorrect sort order in backend grid
+    - Magento 2.1 compatibility
+ -  Checkout Cart — [1.1.2](/m2/extensions/checkout-cart/changelog/#version-112)
+    - Fixed vertical alignment of button and input fields
+    - Fixed visible scrollbar on tablet devices
+ -  Checkout Success — [1.1.1](/m2/extensions/checkout-success/changelog/#version-111)
+    - Fixed typo in config section name
+ -  DeliveryDate — [1.1.1](/m2/extensions/delivery-date/changelog/#version-111)
+    - Fixed too wide input field
+    - Fixed js error, when no shipping methods are available
+
 ### Version 1.7.1
 
  -  Fixed possible javascript console errors
