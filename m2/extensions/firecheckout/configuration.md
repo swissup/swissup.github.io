@@ -39,8 +39,9 @@ Form Styles | [Select form styles](#form-styles) to use at firecheckout page
 
 There are 3 page layouts available to use:
 
- -  Default Checkout Layout
- -  Empty (Minimalistic 1column layout)
+ -  Default Checkout Layout (Depends on your active theme)
+ -  **Empty** (No Header and Footer) - Recommended
+ -  Minimal (Header with Store Logo only)
  -  Full (Full 1column layout with header, navigation and footer)
 
 Page layout screenshots:
@@ -51,6 +52,7 @@ Page layout screenshots:
 
 There are 4 layouts available to use:
 
+ -  1 Column (Multistep Wizard)
  -  1 Column (Expanded)
  -  2 Columns (Wide Payment and Shipping sections)
  -  2 Columns (Place Payment and Shipping sections side by side)
@@ -82,6 +84,24 @@ Option                  | Description
 Above Firecheckout Form | Additional content above firecheckout form
 Below Firecheckout Form | Additional content below firecheckout form
 Below order summary     | Additional content below order summary
+
+### Shiping settings section
+
+![Shipping settings section](/images/m2/firecheckout/configuration/shipping.png)
+
+Option                  | Description
+------------------------|------------
+Default Method          | Default shipping method to use
+Default Method Code     | Same setting as above. Use this field if you can't find the method you are looking for in the previous option
+Hide methods if single method is available only | Useful if you use single method for all customers
+
+### Payment settings section
+
+![Payment settings section](/images/m2/firecheckout/configuration/payment.png)
+
+Option                  | Description
+------------------------|------------
+Default Method          | Default payment method to use
 
 #### Next up
 {:.no_toc}

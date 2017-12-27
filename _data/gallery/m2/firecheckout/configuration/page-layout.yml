@@ -6,10 +6,15 @@
   w: 1150
   h: 1051
 - title: >
-    Empty Layout. No information is shown except store logo, copyright, and
-    checkout form.
+    Empty Layout. Distraction free.
   href: /images/m2/firecheckout/frontend/3columns-with-empty-layout.png
   src: /images/m2/firecheckout/frontend/small/3columns-with-empty-layout.png
+  w: 1135
+  h: 965
+- title: >
+    Minimal Layout. No information is shown except store logo and checkout form.
+  href: /images/m2/firecheckout/frontend/3columns-with-minimal-layout.png
+  src: /images/m2/firecheckout/frontend/small/3columns-with-minimal-layout.png
   w: 1150
   h: 1113
 - title: Full Layout. Full featured layout with header, navigation, and footer.

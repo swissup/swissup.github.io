@@ -10,11 +10,17 @@ category: Firecheckout
 
 ### Version 1.8.0
 
- -  Added new "1 Column (Multistep Wizard)" layout
+{% include gallery.html images=site.data.gallery.m2.firecheckout.changelog.v180 class="phone-up-2 tablet-up-3 photoswipe scroll" %}
+
+ -  Added new "1 Column (Multistep Wizard)" [layout](/m2/extensions/firecheckout/configuration/#layout)
+ -  Added new distraction free "Empty" [page layout](/m2/extensions/firecheckout/configuration/#page-layout)
  -  "I Agree" button added to the Agreement popup
- -  Added ability to configure default Shipping and Payment methods
- -  Added ability to hide Shipping methods step, if single method is available only
+ -  Added ability to configure default [Shipping](/m2/extensions/firecheckout/configuration/#shiping-settings-section) 
+    and [Payment](/m2/extensions/firecheckout/configuration/#payment-settings-section) methods
+ -  Added ability to [hide Shipping methods step](/m2/extensions/firecheckout/configuration/#shiping-settings-section), 
+    if single method is available only
  -  Added missing _en_US.csv_ translation file
+ -  Mobile styles cleanup
  -  Small style improvements
 
 **Modules Updates**

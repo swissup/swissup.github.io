@@ -1,0 +1,23 @@
+- title: >
+    1 Column Wizard layout. Step 1 of 2. New distraction free "Empty" layout is used.
+    (Shipping methods are hidden because firecheckout is configured to hide this section
+    if it has no options to select)
+  href: /images/m2/firecheckout/changelog/180/1column-step1.png
+  src: /images/m2/firecheckout/changelog/180/small/1column-step1.png
+  w: 970
+  h: 775
+- title: 1 Column Wizard layout. Step 2 of 2.
+  href: /images/m2/firecheckout/changelog/180/1column-step2.png
+  src: /images/m2/firecheckout/changelog/180/small/1column-step2.png
+  w: 970
+  h: 914
+- title: 1 Column Wizard layout on mobile devices
+  href: /images/m2/firecheckout/changelog/180/mobile-1column.png
+  src: /images/m2/firecheckout/changelog/180/small/mobile-1column.png
+  w: 451
+  h: 882
+- title: You can now accept Agreement directly in popup window
+  href: /images/m2/firecheckout/changelog/180/terms-agree-button.png
+  src: /images/m2/firecheckout/changelog/180/small/terms-agree-button.png
+  w: 768
+  h: 679
