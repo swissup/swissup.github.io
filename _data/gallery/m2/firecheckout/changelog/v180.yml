@@ -21,3 +21,8 @@
   src: /images/m2/firecheckout/changelog/180/small/terms-agree-button.png
   w: 768
   h: 679
+- title: New Shipping and Payment Settings
+  href: /images/m2/firecheckout/changelog/180/settings.png
+  src: /images/m2/firecheckout/changelog/180/small/settings.png
+  w: 525
+  h: 435
