@@ -8,6 +8,15 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.2.0
+
+ -  Added ability to set
+    [positioning settings](/m2/extensions/navigationpro/ui/dropdown-position/)
+    for the first level dropdown:
+    - Stick to Left
+    - Center
+    - Stick to Right
+
 ### Version 1.1.0
 
 **Major Changes**

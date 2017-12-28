@@ -37,10 +37,11 @@ There are three fieldsets are avialable:
 As you may guess, the first one — is for all dropdown levels; second — for the
 first dropdown levels only; and the third — for the second dropdown levels only.
 
-Option          | Description
-----------------|-----------------------
-Width           | Change [dropdown width][dropdown-width]
-Layout          | Change [dropdown layout][dropdown-layout]
+Option              | Description
+--------------------|-----------------------
+Width               | Change [dropdown width][dropdown-width]
+Dropdown Position   | Change [dropdown position][dropdown-position]. _Available for "First level dropdown settings" only_
+Layout              | Change [dropdown layout][dropdown-layout]
 
 #### Next up
 
@@ -50,4 +51,5 @@ Layout          | Change [dropdown layout][dropdown-layout]
 [use-cases]: /m2/extensions/navigationpro/use-cases/ "NavigationPro Use Cases"
 [menu-modifiers]: /m2/extensions/navigationpro/customization/css-helpers/#menu-modifiers "Menu CSS Modifiers"
 [dropdown-width]: /m2/extensions/navigationpro/ui/dropdown-width-modes/ "Dropdown Width Modes"
+[dropdown-position]: /m2/extensions/navigationpro/ui/dropdown-position/ "Dropdown Position"
 [dropdown-layout]: /m2/extensions/navigationpro/ui/dropdown-layout-builder/ "Dropdown Layout Builder"
