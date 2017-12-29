@@ -1,23 +1,26 @@
 ---
 layout: default
 title: Easy Banners Admin Interfaces
-description:
-keywords: "magento banner, magento banner slider, adding magento banners,
-magento extension, magento module"
 category: Easy Banners
 ---
 
-## Easy Banners admin interfaces
+# Admin Interfaces
 
-Easy Banners extension provides user friendly interfaces to manage banners and placeholders.
+Easy Banners extension provides user friendly interfaces to manage banners and
+placeholders.
+
+* TOC
+{:toc}
 
 ### Banners
 
-In order to edit banner or create new one, go Magento Admin > Swissup > Easy Banner > Manage Banners.
+In order to edit banner or create new one, go to
+_Magento Admin > Swissup > Easy Banner > Manage Banners_.
 
-![Grid](/images/m2/easybanners/banner-grid.png)
+![Grid with Banners](/images/m2/easybanners/banner-grid.png)
 
-After clicking on any banner from the submitted list, you will be able to edit the settings of Banner information.
+After clicking on any banner from the submitted list, you will be able to edit
+the settings of Banner information.
 
 ##### General configuration
 
@@ -26,10 +29,12 @@ After clicking on any banner from the submitted list, you will be able to edit t
  * Identifier - the name of the banner
  * Type - banner appearance. Possible values are Banner, Lightbox, Awesomebar.
  * Hide url - if you select Yes, the Url will be hidden
- * Target - please select target window to open URL destination. Possible values are Popup, Blank or Self.
- * Sort order - please set the sort order
+ * Target - please select target window to open URL destination. Possible values
+    are Popup, Blank or Self.
+ * Sort order - Use it to sort multiple banners inside one placeholder
  * Store view - please select target store view for current banner
- * Placeholder - please select target placeholder for current banner
+ * Placeholder - select placeholder for current banner. You can leave it empty to
+    show the banner [manually](/m2/extensions/easybanners/usage/#show-banner-on-frontend).
  * Status - enables or disables current banner
 
 ##### Banner Content
@@ -40,7 +45,7 @@ After clicking on any banner from the submitted list, you will be able to edit t
  * Css Class - unique banner css class name
  * Mode - please select banner content mode. Possible values are Image or HTML.
  * Image - please upload the image
- * Title - banner Title
+ * Title - banner title
  * Width, Height - banner dimensions resize image
  * Use image resizer - enabled resize image
  * Retina support - add support for retina display
@@ -73,44 +78,36 @@ This interface provides overview of banners hits and clicks.
 
 ![Statistics](/images/m2/easybanners/statistics.png)
 
+Proceed to [Banner's usage](/m2/extensions/easybanners/usage/#show-banner-on-frontend)
+section to see how to show banner on the frontend.
+
 ### Placeholders
 
-To edit placeholder or create new one, go Magento Admin > Swissup > Easy Banner > Manage Placeholders.
+To edit placeholder or create new one, go to
+_Magento Admin > Swissup > Easy Banner > Manage Placeholders_.
 
-![PlaceGrid](/images/m2/easybanners/placeholder-grid.png)
+![Grid with placeholder](/images/m2/easybanners/placeholder-grid.png)
 
-The placeholders specified above in screenshot, were configured to show banners on most popular places of Magento store.
+The placeholders specified above in screenshot, were configured to show banners
+on most popular places of Magento store.
 
-After clicking any placeholder from the submitted list, you will be able to edit the settings of Placeholder General information.
+After clicking any placeholder from the submitted list, you will be able to
+edit the settings of Placeholder General information.
 
-![PlaceGrid](/images/m2/easybanners/placeholder_general.png)
+##### General configuration
+
+![Placeholder general settings](/images/m2/easybanners/placeholder_general.png)
 
  * Placeholder Name - please enter the name of placeholder
- * Banners limit per rotate - please set the number of banners, that will be displayed each time
+ * Banners limit per rotate - please set the number of banners, that will be
+    displayed each time
  * Status - allows you to enable or disable the current placeholder
 
-Additionally you can place your placeholder manually to specified position through Magento xml files, widgets or inline php code.
+Proceed to [Placeholder's usage](/m2/extensions/easybanners/usage/#show-placeholder-on-frontend)
+section to see how to show placeholder on the frontend.
 
-```xml
-<block class="Swissup\Easybanner\Block\Banner" name="unique_banner_name">
-    <arguments>
-        <argument name="banner" xsi:type="string">BannerID</argument>
-    </arguments>
-</block>
-<block class="Swissup\Easybanner\Block\Placeholder" name="unique_placeholder_name">
-    <arguments>
-        <argument name="placeholder" xsi:type="string">PlaceholderID</argument>
-    </arguments>
-</block>
-```
+#### Next up
+{:.no_toc}
 
-```php
-<?php echo $this->getLayout()->createBlock('Swissup\Easybanner\Block\Banner')->setBanner(BannerID)->toHtml(); ?>
-<?php echo $this->getLayout()->createBlock('Swissup\Easybanner\Block\Placeholder')->setPlaceholder(PlaceholderID)->toHtml(); ?>
-```
-
-#### You can also check:
-
-* [Installation](../installation/)
-* [Support](https://swissuplabs.com/contacts/)
-* [Forum](https://swissuplabs.com/magento-forum/)
+* [Back to Home](/m2/extensions/easybanners/)
+* [Banners and Placeholders usage](/m2/extensions/easybanners/usage/)
