@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Easy Banners Usage
+description: How to show banners and placeholders on frontend
 category: Easy Banners
 ---
 
