@@ -16,8 +16,11 @@ Go to `Admin > System > Configuration > Sold Together Pro`.
 
 ![General settings](/images/m1/extensions/soldtogether/general.png)
 
-Please fill all required fields in order to keep using the extension in your store. 
-**Note**: all mentioned above settings are suitable for different stores. In order to choose the best solution for your store, please follow our recommendations. If your store is new, we recommend you to turn off cron and select **Yes** in the `Create Order Reindex` fields. That will create new products links right after your customers placed orders. If you are an owner of long-standing store with large amount of orders, you’d better **run manual reindex** in Sold Together admin interface. Cron reindex feature is recommended for stores with small catalogs.
+In order to choose the best solution for your store, please follow our recommendations. If your store is new, we recommend you to turn off cron and select **Yes** in the `Create Order Reindex` fields. That will create new products relations right after your customers placed orders. If you are an owner of long-standing store with large amount of orders, you’d better **run manual reindex** in Sold Together admin interface.
+
+Under "Reindex and Cron" you can find settings for reindex process. You can set number of days back from current date to analyze orders. You can set statuses of orders to process.
+
+Module starts reindex cron job every week during night on Monday if reindex via cron is enabled.
 
 ### Frequently Bought Together block settings
 
