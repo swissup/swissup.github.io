@@ -20,3 +20,5 @@ Module supports Magento onepage checkout and Firecheckout modules.
 - [Changelog](changelog/)
 - [Configuration](configuration/)
 - [Get API key](get-api-key/)
+- [Use Cases](use-cases/)
+    - [Restrict Results To Specific Country](use-cases/#restrict-results-to-specific-country)
