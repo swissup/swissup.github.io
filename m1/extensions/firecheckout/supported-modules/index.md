@@ -186,6 +186,7 @@ additional modifications.
 
 ### ShoppingCart and OrderTotals modules
 
+- [Amasty_Checkoutfees](amasty-checkoutfees/)
 - [Amasty_Promo](amasty-promo/)
 - [Ayasoftware_SimpleProductPricing](ayasoftware-simpleproductpricing/)
 - GCMC_GiveChange
