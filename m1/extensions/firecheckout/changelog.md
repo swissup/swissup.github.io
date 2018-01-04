@@ -7,6 +7,30 @@ category: Firecheckout
 
 # Changelog
 
+### Version 4.2.6
+
+ -  Fixed ability to place order with saved address when it missing some
+    required field
+ -  Prevent multiple concurrent ajax requests that may cause invalid totals
+ -  Fixed missing free shipping on initial page load when free shipping is
+    applicable in registration mode only
+ -  Fixed address review styles when shipping address is disabled
+ -  Fixed missing phone and fax in address review section
+
+**Third-party modules**
+
+ -  Added ability to programmatically disable address fields
+ -  Added additional container after customer name field -
+    `firecheckout.shipping.name.after`, `firecheckout.billing.name.email.after`
+ -  Added additional container in the bottom of shipping methods section -
+    `firecheckout.shipping.after`
+ -  TIG_MyParcel2014 integration updated
+ -  Plumtree_Storepickup integration added
+ -  Magegiant_GiantPoints integration added
+ -  BongoInternational integration added
+ -  Amasty_Checkoutfees integration added
+ -  Easynolo_Bancaselapro integration added
+
 ### Version 4.2.5
 
  -  Added ability to add custom fields before billing form
