@@ -8,6 +8,11 @@ category: Helpmate
 
 # Changelog
 
+### Version 1.7.3
+
+ - Fixed incorrect ticket identification by In-Reply-To header
+ - etc.
+
 ### Version 1.7.2
 
  - Remove code dublication
