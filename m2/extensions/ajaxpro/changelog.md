@@ -10,6 +10,12 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.2.4
+
+- Add integration with ?option=cart
+- Add translation
+- Remove MEQP.Exit workaround
+
 ### Version 1.2.3
 
 - Improve magento 2.2 compatability
