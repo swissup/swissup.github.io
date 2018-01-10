@@ -112,6 +112,7 @@ additional modifications.
 - Man4x_MondialRelay
 - Mico_Rushpackage
 - Ophirah_Qquoteadv (Cart2Quote)
+- [Orba_Sheepla](orba-sheepla/)
 - [ParcelPro](parcelpro/)
 - PostcodeNl_Api
 - Shipperhq_Freight
