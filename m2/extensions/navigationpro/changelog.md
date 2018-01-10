@@ -8,6 +8,11 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.2.0.1
+
+ -  Fixed browser freezing on mobile devices when using vertical subcategories
+    alignment
+
 ### Version 1.2.0
 
  -  Added ability to set
