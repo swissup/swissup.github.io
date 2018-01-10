@@ -2,7 +2,7 @@
 layout: default
 title: Navigationpro
 description: Navigationpro for Magento 2
-keywords: navigationpro, megamenu, megadropdown, amazon menu
+keywords: navigationpro, megamenu, megadropdown, amazon menu, navpro
 category: Navigationpro
 ---
 
@@ -46,3 +46,4 @@ devices, tablets, and phones.
     - [LESS variables](/m2/extensions/navigationpro/customization/less-variables/)
     - [CSS Helpers](/m2/extensions/navigationpro/customization/css-helpers)
     - [Themes](/m2/extensions/navigationpro/themes/)
+ 9. [Demo](/m2/extensions/navigationpro/demo/)
