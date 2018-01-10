@@ -79,6 +79,7 @@ Form fields style   | Default | Use settings of "Address form fields sort order"
                     | Horizontal (Label aside of the field) | One field per row. Label is aligned aside of the field.
                     | Wide (One field per line) | Label above the field
 Hide field labels   | Yes/No | Use animated placeholders instead of labels
+Use JS calendar for Date of Birth field (Third-party fields may be affected too) | Yes/No | Enable or Disable js calendar popup for DOB field
 
 ### Additional content
 
