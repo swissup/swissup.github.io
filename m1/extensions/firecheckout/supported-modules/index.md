@@ -200,6 +200,7 @@ additional modifications.
 
 - CraftyClicks
 - Juicy_Geoip
+- [Magenio_Fiscaldata](magenio-fiscaldata/)
 - [MrwIberia_Mage2Mrw](mrwiberia-mage2mrw/)
 - [PostcodeAnywhere](postcode-anywhere/)
 - Rack_Getpostcode
