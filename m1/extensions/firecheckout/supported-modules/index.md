@@ -55,6 +55,7 @@ additional modifications.
 - [Customweb_BeanstreamCw](customweb-beanstreamcw/)
 - [Customweb_FirstDataConnectCw](customweb-firstdataconnectcw/)
 - [Customweb_PayUnityCw](customweb-payunitycw/)
+- [Customweb_PostFinanceCw](customweb-postfinancecw/)
 - [EasyNolo_BancaSellaPro](easynolo-bancasellapro/)
 - Ebizmarts_SagepaymentsPro
 - [Ebizmarts_SagepaySuite](ebizmarts-sagepaysuite/)
