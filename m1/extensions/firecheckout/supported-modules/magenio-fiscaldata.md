@@ -16,14 +16,15 @@ category: Firecheckout
     ```diff
     --- app/code/community/Magenio/FiscalData/Block/Form.php
     +++ app/code/community/Magenio/FiscalData/Block/Form.php
-    @@ -17,8 +17,17 @@
+    @@ -17,8 +17,18 @@
            return $startclasses;
          }
 
     +  public function getAddressBlock()
     +  {
     +    $parent = $this->getParentBlock();
-    +    if ($parent instanceof Mage_Core_Block_Text_List) {
+    +    $className = get_class($parent);
+    +    if ($className === 'Mage_Core_Block_Text_List') {
     +      return $parent->getParentBlock();
     +    }
     +    return $parent;
@@ -35,7 +36,7 @@ category: Firecheckout
        }
 
        public function getClassTaxCode() {
-    @@ -57,8 +66,8 @@
+    @@ -57,8 +67,8 @@
 
        public function getParentPrefix() {
          $_prefix = '';
