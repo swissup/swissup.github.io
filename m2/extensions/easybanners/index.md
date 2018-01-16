@@ -19,5 +19,4 @@ groups and track the banner’s efficiency in your magento store.
 * [Changelog](changelog/)
 * [Admin interfaces](interfaces/)
 * [Banners and Placeholder usage](usage/)
-* [Support](https://swissuplabs.com/contacts/)
-* [Forum](https://swissuplabs.com/magento-forum/)
+* [Common Placeholder Positions](common-placeholder-positions/)
