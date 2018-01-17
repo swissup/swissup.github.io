@@ -12,99 +12,129 @@ placeholders.
 * TOC
 {:toc}
 
-### Banners
+## Placeholders
 
-In order to edit banner or create new one, go to
-_Magento Admin > Swissup > Easy Banner > Manage Banners_.
+Placeholders allows you to group banners and show them by their sort order.
+Placeholder will automatically rotate banners on each page refresh when
+assigned banners count is larger then placeholder's `Display Count` property.
+
+#### Grid
+
+Grid with available placeholders is located at
+_Swissup > Easy Banner > Manage Placeholders_ page.
+
+![Grid with placeholder](/images/m2/easybanners/placeholder-grid.png)
+
+#### Form
+
+![Placeholder form](/images/m2/easybanners/placeholder-form.png)
+
+Field                   | Description
+:-----------------------|:-----------------------------
+Enabled                 | Enable or Disable Placeholder
+Name                    | Placeholder name
+Banners Display Count   | How many banners will be shown per page refresh
+Sort Mode               | Ability to sort banners by sort_order or randomly
+Additional Css Class    | Css class for additional customizations
+Parent Container        | See the list of common [placeholder positions](/m2/extensions/easybanners/common-placeholder-positions/)
+Position                | Ability to change placeholder's position inside a parent container
+
+## Banners
+
+#### Grid
+
+Grid with available banners is located at
+_Swissup > Easy Banner > Manage Banners_ page.
 
 ![Grid with Banners](/images/m2/easybanners/banner-grid.png)
 
 After clicking on any banner from the submitted list, you will be able to edit
 the settings of Banner information.
 
-##### General configuration
+#### Form
+
+##### General Tab
 
 ![General](/images/m2/easybanners/general.png)
 
- * Identifier - the name of the banner
- * Type - banner appearance. Possible values are Banner, Lightbox, Awesomebar.
- * Hide url - if you select Yes, the Url will be hidden
- * Target - please select target window to open URL destination. Possible values
-    are Popup, Blank or Self.
- * Sort order - Use it to sort multiple banners inside one placeholder
- * Store view - please select target store view for current banner
- * Placeholder - select placeholder for current banner. You can leave it empty to
-    show the banner [manually](/m2/extensions/easybanners/usage/#show-banner-on-frontend).
- * Status - enables or disables current banner
+Field                   | Description
+:-----------------------|:-----------------------------
+Enabled                 | Enable or Disable Banner
+Identifier              | Banner name
+Type                    | Possible values are: Banner, Lightbox, Awesomebar
+Sort Order              | Allows to sort banners inside a placeholder
+Store View              | Assign Banner to Specific Store Views
+Placeholder             | Select placeholder. Not visible for Lightbox and Awesomebar banners. You can leave it empty to show the banner [manually](/m2/extensions/easybanners/usage/#show-banner-on-frontend)
 
-##### Banner Content
+##### Content Tab
 
-![Content](/images/m2/easybanners/content.png)
+Content tab includes 3 regions:
 
- * Url - sets banner URL (the page which will be opened by clicking on the banner)
- * Css Class - unique banner css class name
- * Mode - please select banner content mode. Possible values are Image or HTML.
- * Image - please upload the image
- * Title - banner title
- * Width, Height - banner dimensions resize image
- * Use image resizer - enabled resize image
- * Retina support - add support for retina display
- * Background Color - background color for resized image
- * Content - please enter html, javascript or flash code, that get html content mode
+ -  [Content](#content-region), where you can set the banner link and it's behavior
+ -  [Image Options](#image-options-region), where you can upload image and set it's dimensions if needed
+ -  [Html content](#html-content-region), where you can write HTML content for current banner
 
-##### Banner Conditions
+###### Content Region
+
+![Content region](/images/m2/easybanners/content-region-content.png)
+
+Field                   | Description
+:-----------------------|:-----------------------------
+Url                     | Link to open on banner click
+Hide Url                | Ability to hide destination url on the frontend
+Open Link in            | Where the link should be opened: Same Window, Popup Window, New Window
+Css Class               | Additional Css classes to add when rendering banner
+Mode                    | Slect between Image and Html banner modes
+
+###### Image Options Region
+
+![Image options region](/images/m2/easybanners/content-region-image.png)
+
+Field                   | Description
+:-----------------------|:-----------------------------
+Image                   | An image to display
+Title                   | Image title
+Width                   | Width (px), optional
+Height                  | Height (px), optional
+Use Image Resizer       | Ability to use backend resizer instead of css styles. Width and Height are required to make it visible
+Retina Support          | When enabled, a sharp, double sized image will be served for retina displays. Make sure ypu upload a large image to resize.
+Background Color        | Will be used when you want to resize image without keeping original aspect ratio
+
+###### Html Content Region
+
+![Html content region](/images/m2/easybanners/content-region-html.png)
+
+Any html content could be placed here. If you would like to place trackable
+banner url from the content region, use the following placeholder:
+`{% raw %}{{swissup_easybanner_url}}{% endraw %}`
+
+##### Conditions Tab
 
 ![Conditions](/images/m2/easybanners/conditions.png)
 
-Using the following settings, you can place your banner on specific page or show it in specific custom group.
+Condition               | Description
+:-----------------------|:-----------------------------
+Category                | Places your banner at specific categories
+Clicks Count            | Allow to hide banner when clicks count will be larger then this value
+Customer Group          | Show banner for specific customer groups only
+Date                    | Show banner on specified date condition
+Display Count           | Hide banner when displays count will be larger then this value
+Display Count per Customer | Hide banner for specific visitor according to his personal displays count of this banner
+Lightbox/Awesomebar     | Customer activity time (seconds)
+Lightbox/Awesomebar     | Customer browsing time (seconds) (Activity time + Inactive time)
+Lightbox/Awesomebar     | Customer inactivity time (seconds) (Idle time)
+Lightbox/Awesomebar     | Show banner when visitor scrolls the page for more pixels than specified
+Page                    | Show banner at specified pages
+Product                 | Show banner for specified products only
+Subtotal (Excl.Tax)     | Show banner when cart subtotal matches this condition
+Subtotal (Incl.Tax)     | Show banner when cart subtotal matches this condition
+Time                    | Show banner on specified time condition
 
- * Category - places your banner to specific category
- * Clicks Count - allows to display banner for specific clicks count condition
- * Customer Group - shows your banner for specific customer group
- * Date - reserves your banner active during specified date range
- * Display Count - allows to display banner for specific displays count condition
- * Page - places your banner on specific page
- * Product - places your banner on specific product
- * Time - reserves your banner active during specified time range
- * Display Count per Customer - allows to display banner for specific displays count per Customer condition
- * Lightbox/Awesomebar: Customer activity time (seconds)
- * Lightbox/Awesomebar: Customer browsing time (seconds)
- * Lightbox/Awesomebar: Customer inactivity time (seconds)
- * Lightbox/Awesomebar: Scroll offset
+##### Statistics Tab
 
-##### Banner Statistics
-
-This interface provides overview of banners hits and clicks.
+This interface provides overview of banner display and clicks count.
 
 ![Statistics](/images/m2/easybanners/statistics.png)
-
-Proceed to [Banner's usage](/m2/extensions/easybanners/usage/#show-banner-on-frontend)
-section to see how to show banner on the frontend.
-
-### Placeholders
-
-To edit placeholder or create new one, go to
-_Magento Admin > Swissup > Easy Banner > Manage Placeholders_.
-
-![Grid with placeholder](/images/m2/easybanners/placeholder-grid.png)
-
-The placeholders specified above in screenshot, were configured to show banners
-on most popular places of Magento store.
-
-After clicking any placeholder from the submitted list, you will be able to
-edit the settings of Placeholder General information.
-
-##### General configuration
-
-![Placeholder general settings](/images/m2/easybanners/placeholder_general.png)
-
- * Placeholder Name - please enter the name of placeholder
- * Banners limit per rotate - please set the number of banners, that will be
-    displayed each time
- * Status - allows you to enable or disable the current placeholder
-
-Proceed to [Placeholder's usage](/m2/extensions/easybanners/usage/#show-placeholder-on-frontend)
-section to see how to show placeholder on the frontend.
 
 #### Next up
 {:.no_toc}

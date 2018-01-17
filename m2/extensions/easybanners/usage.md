@@ -7,23 +7,26 @@ category: Easy Banners
 
 # Banners and Placeholders Usage
 
-First, you need to create a banner. See the 
+First, you need to create a banner. See the
 [Admin Interfaces section](/m2/extensions/easybanners/interfaces/) page.
 
-> Awesomebar and Lightbox banners will be shown **automatically**. No further 
-> actionis required.
+> Awesomebar and Lightbox banners will be shown **automatically**. No further
+> actions required.
+>
+> Banners, that are linked to placeholders with non-empty `Parent Container` field
+> will be shown **automatically** too. No further actions required.
 
 * TOC
 {:toc}
 
 ### Show banner on frontend
 
-> If a banner is linked to the placeholder, scroll down to the 
+> If a banner is linked to the placeholder, scroll down to the
 > "Show placeholder on frontend" section.
 
-After you saved a banner you need to accomplish the following steps to make it
-visible on frontend:
- 
+After you saved a banner you need to accomplish **one** of the following steps
+to make it visible on frontend:
+
 #### Add banner to CMS Page content
 
 Use Magento's WYSIWYG's **Insert Widget** button.
@@ -47,19 +50,19 @@ Use Magento's _Content > Widgets_ interface.
 **PHP**
 
 ```php
-<?php 
+<?php
 echo $this->getLayout()
     ->createBlock('Swissup\Easybanner\Block\Banner')
     ->setBanner('BannerIdentifier')
-    ->toHtml(); 
+    ->toHtml();
 ?>
 ```
 
 ### Show placeholder on frontend
 
-After you saved a placeholder you need to accomplish the following steps to make it 
-visible on frontend:
- 
+> If you saved placeholder with empty `Parent Container` field, you need
+> to accomplish **one** of the following steps to make it visible on frontend:
+
 #### Add placeholder to CMS Page content
 
 Use Magento's WYSIWYG's **Insert Widget** button.
@@ -83,11 +86,11 @@ Use Magento's _Content > Widgets_ interface.
 **PHP**
 
 ```php
-<?php 
+<?php
 echo $this->getLayout()
     ->createBlock('Swissup\Easybanner\Block\Placeholder')
     ->setPlaceholder('PlaceholderName')
-    ->toHtml(); 
+    ->toHtml();
 ```
 
 #### Next up
