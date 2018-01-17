@@ -26,5 +26,4 @@ To test structured data at any page of your store you can use [Google Rich Snipp
 ### Contents
 
 1. [Installation](installation/)
-2. [Installation](configuration/)
-3. [Changelog](changelog/)
+2. [Changelog](changelog/)
