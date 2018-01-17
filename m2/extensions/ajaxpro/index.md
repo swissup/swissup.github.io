@@ -53,6 +53,7 @@ Streamline add-to-cart function and remove interruptions from the shopping proce
 2.  [Configuration](#configuration)
     - [Main](#main)
 3. [Changelog](changelog/)
+4. [Troubleshooting](troubleshooting/)
 
 ### Configuration
 
