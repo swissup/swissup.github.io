@@ -10,6 +10,11 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.2.5
+
+- Add product.view popup on home page
+- Add check is response json
+
 ### Version 1.2.4
 
 - Add integration with ?option=cart

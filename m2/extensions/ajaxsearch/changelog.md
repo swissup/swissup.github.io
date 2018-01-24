@@ -8,6 +8,12 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.2.7
+
+ -  Fix not 'relevance' sort by
+ -  Restore original container 'header-wrapper'
+ -  Fix query product unit test
+
 ### Version 1.2.6
 
  -  Now product page is opened when click or press enter on the element in popup
