@@ -11,6 +11,11 @@ category: AskIt
 
 # Changelog
 
+### Version 1.2.12
+
+- Fixed getEntityTypeLabel return null bug
+- etc.
+
 ### Version 1.2.11
 
 - Fixed not unique form element ids
