@@ -8,6 +8,11 @@ category: AjaxPro
 
 # Changelog
 
+### Version 3.3.21
+
+ -  Fix integration productAddToCartForm.oldSubmit 
+ -  Addition content at bottom of login popup via xml "ajaxpro_customer_login.form.after"
+
 ### Version 3.3.20
 
  -  Fix Ultimo integration.
