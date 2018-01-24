@@ -7,6 +7,17 @@ category: Page Speed
 
 # Changelog
 
+### Version 1.3.0
+
+- Code refactoring
+- Increase (fix) error reporting (logging) logic
+- Improve google service response prepare
+- Disable yahoo image optimize service
+- Disable DNS prefetch on AMP pages
+- Skip too much file compressing (more 85%)
+- Rename method smush => optimize
+- etc.
+
 ### Version 1.2.14
 
 - Fix const typo in cron function
