@@ -8,6 +8,12 @@ category: Helpmate
 
 # Changelog
 
+### Version 1.7.4
+
+ - Set default priority value for usePriorityOnFrontend == false case
+ - Disable unsupported dashboard tickets grid functionality
+ - Fix encoding bug
+
 ### Version 1.7.3
 
  - Fixed incorrect ticket identification by In-Reply-To header
