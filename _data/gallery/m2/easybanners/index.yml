@@ -1,0 +1,21 @@
+- href: /images/m2/easybanners/frontend/standard.png
+  src: /images/m2/easybanners/frontend/small/standard.png
+  alt: 3 columns layout for guest customer
+  title: >
+      Easily add graphical banners to the store
+  w: 888
+  h: 505
+- href: /images/m2/easybanners/frontend/lightbox.png
+  src: /images/m2/easybanners/frontend/small/lightbox.png
+  alt: 3 columns layout for guest customer
+  title: >
+      Create lightboxes with custom html content, images, forms, and widgets.
+  w: 854
+  h: 498
+- href: /images/m2/easybanners/frontend/awesomebar.png
+  src: /images/m2/easybanners/frontend/small/awesomebar.png
+  alt: 3 columns layout for guest customer
+  title: >
+      Inform customers about important news with an awesomebar banners.
+  w: 411
+  h: 615

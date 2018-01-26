@@ -22,7 +22,7 @@ First, you need to create a banner. See the
 ### Show banner on frontend
 
 > If a banner is linked to the placeholder, scroll down to the
-> "Show placeholder on frontend" section.
+> ["Show placeholder on frontend"](#show-placeholder-on-frontend) section.
 
 After you saved a banner you need to accomplish **one** of the following steps
 to make it visible on frontend:

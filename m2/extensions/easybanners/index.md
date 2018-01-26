@@ -2,8 +2,7 @@
 layout: default
 title: Easy Banners
 description:
-keywords: >
-    magento banner, magento banner slider, adding magento banners
+keywords: banner, easybanner, easybanners
 category: Easy Banners
 ---
 
@@ -11,12 +10,21 @@ category: Easy Banners
 
 Easy Banners is remarkable magento module focused on creating banners.
 It follows the effect of banners advertising. Place the relevant call-to-action
-content on the banner and make it encouraging to visit your store. With our
-extension you can create placeholders, target the banner to specific customer
-groups and track the banner’s efficiency in your magento store.
+content on the banner and make it encouraging to visit your store.
 
-* [Installation](installation/)
-* [Changelog](changelog/)
-* [Admin interfaces](interfaces/)
-* [Banners and Placeholder usage](usage/)
-* [Common Placeholder Positions](common-placeholder-positions/)
+There are three banner types available:
+
+ -  Standard. Can be added to any theme container via standard `Widgets`
+    interface or can be attached to `Placeholder`.
+ -  Lightbox. Lightbox popup with image, html, or any of magento widgets.
+ -  Awesomebar. Sliding panel in the top of the screen.
+
+{% include gallery.html images=site.data.gallery.m2.easybanners.index class="scroll phone-up-1 tablet-up-3 photoswipe" %}
+
+ -  [Installation](installation/)
+ -  [Changelog](changelog/)
+ -  [Admin interfaces](interfaces/)
+    - [Placeholders](interfaces/#placeholders)
+    - [Banners](interfaces/#banners)
+ -  [Banners and Placeholder usage](usage/)
+ -  [Common Placeholder Positions](common-placeholder-positions/)

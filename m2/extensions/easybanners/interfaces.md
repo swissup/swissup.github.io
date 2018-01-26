@@ -110,25 +110,38 @@ banner url from the content region, use the following placeholder:
 
 ##### Conditions Tab
 
-![Conditions](/images/m2/easybanners/conditions.png)
+General Conditions | Product Attribute Conditions
+-------------------|------------------------------
+![Conditions](/images/m2/easybanners/conditions.png) | ![Product Attribute Conditions](/images/m2/easybanners/conditions-product-attribute.png)
 
-Condition               | Description
-:-----------------------|:-----------------------------
-Category                | Places your banner at specific categories
-Clicks Count            | Allow to hide banner when clicks count will be larger then this value
-Customer Group          | Show banner for specific customer groups only
-Date                    | Show banner on specified date condition
-Display Count           | Hide banner when displays count will be larger then this value
-Display Count per Customer | Hide banner for specific visitor according to his personal displays count of this banner
-Lightbox/Awesomebar     | Customer activity time (seconds)
-Lightbox/Awesomebar     | Customer browsing time (seconds) (Activity time + Inactive time)
-Lightbox/Awesomebar     | Customer inactivity time (seconds) (Idle time)
-Lightbox/Awesomebar     | Show banner when visitor scrolls the page for more pixels than specified
-Page                    | Show banner at specified pages
-Product                 | Show banner for specified products only
-Subtotal (Excl.Tax)     | Show banner when cart subtotal matches this condition
-Subtotal (Incl.Tax)     | Show banner when cart subtotal matches this condition
-Time                    | Show banner on specified time condition
+Group | Condition               | Description
+:-----|:-----------------------|:-----------------------------
+**General**||
+| Category                | Show banner at specifiied categories
+| Product                 | Show banner at specified products
+| Page                    | Show banner at specified pages
+| Page URL                | Show banner when specified parameter is found in URL
+| Customer Group          | Show banner for specifiied customer groups only
+**Banner Statistics**||
+| Clicks Count            | Allow to hide banner when clicks count is larger then specified value
+| Display Count (Temporarily Disabled) | Hide banner when displays count is larger then specified value
+**Cart Conditions**||
+| Subtotal (Excl.Tax)     | Show banner when cart subtotal matches this condition
+| Subtotal (Incl.Tax)     | Show banner when cart subtotal matches this condition
+**Date Conditions**||
+| Day of Week             | Show banner on specified day of week
+| Day of Month            | Show banner on specified day of month
+| Current Date            | Show banner on specified date condition
+| Current Time            | Show banner on specified time condition
+**Lightbox and Awesomebar Conditions**||
+| Display Count per Customer | Hide banner for specific visitor according to his personal displays count of this banner
+| Display Count per Customer (Per Day) | Hide banner for specific visitor according to his personal displays count of this banner
+| Display Count per Customer (Per Week) | Hide banner for specific visitor according to his personal displays count of this banner
+| Display Count per Customer (Per Month) | Hide banner for specific visitor according to his personal displays count of this banner
+| Customer browsing time (seconds) | Show banner when customer browsing time is larger than specified value (Activity time + Idle time)
+| Customer inactivity time (seconds) | Show banner when customer is idle for more than specified value
+| Customer activity time (seconds) | Show banner when customer actively browsing current page for more than specified value
+| Scroll offset     | Show banner when visitor scrolls the page for more pixels than specified
 
 ##### Statistics Tab
 
