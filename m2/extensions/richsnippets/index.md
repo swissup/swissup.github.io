@@ -12,16 +12,24 @@ category: Rich Snippets
 
 # Rich Snippets
 
-This extension helps customers to see the additional information about your store directly on Google search page. Our module offers Google crawlers following rich data which they can add to search results:
- 
- -  Product data from your store (SKU, price, currency, availability)
- -  [Information about your organization](configuration/#organization)
- -  [Social media links](configuration/#social-links)
- -  [Website](configuration/#website)
+![General settings](/images/m2/rich-snippets/preview.png)
 
-It also enables the **breadcrumbs** trail display in rich snippets. This simplifies a navigation to the product or anything else you promote.
+By default Magento 2 has structured data at product page that helps Google and other search engines to understand the content of your site. Magento uses microdata format.
+
+Today Google recommends using JSON-LD for structured data whenever possible ([source](https://developers.google.com/search/docs/guides/intro-structured-data#structured-data-format)).
+
+Our module does excatly this. It presents structured data with JSON-LD format instead of microdata. But this is not all. We allow you to include some addtional information in structured data. Here is full list of structured data we add to pages:
+
+ -  Product data (SKU, price, currency, availability and reviews' rating).
+ -  [Information about your organization](configuration/#organization) with [social links](configuration/#social-links).
+ -  [Website](configuration/#website) info with sitelinks searchbox.
+ -  Breadcrumbs trail.
 
 To test structured data at any page of your store you can use [Google Rich Snippets testing tool](https://developers.google.com/structured-data/testing-tool/).
+
+Please remember only Google (❗) decides what to show. Testing tool can show everything is perfect but this maybe still not enough for Google. Poorly written or keyword stuffed content, low quality inbound links pointing to your site, not mobile-friendly design, slow loading time - all this can affect your presens in search results.
+
+❗ - you can replace `Google` with any other search engine.
 
 ### Contents
 

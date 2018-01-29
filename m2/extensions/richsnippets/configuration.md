@@ -20,6 +20,10 @@ category: Rich Snippets
 
 `Enabled` - select **Yes** to enable a module.
 
+`Product Page structured data format` - provides you control over format for structured data at product page. By default it is JSON-LD. But you can switch it back to Magento implementation of microdata or turn off structured data at product page at all.
+
+We minify JSON-LD data to reduce page size. You can turn it off with `Minify structured data` option. This can be helpful if you need to debug something.
+
 ### Breadcrumbs
 
 ![Breadcrumbs settings](/images/m2/rich-snippets/config-breadcrumbs.png)
