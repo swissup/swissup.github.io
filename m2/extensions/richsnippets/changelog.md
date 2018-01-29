@@ -8,6 +8,13 @@ category: Rich Snippets
 
 # Changelog
 
+### Version 1.1.0
+
+ -  Fixed duplicated product structured data on product page. Now preview feature of Google testing tool works as it should.
+ -  Minify JSON-LD structured data.
+ -  No empty nodes in JSON-LD structured data.
+ -  Overall source code improvements.
+
 ### Version 1.0.6
 
  - Move extension config to 'Swissup SEO' section.
