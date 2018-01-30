@@ -8,6 +8,28 @@ category: Easy Banners
 
 # Changelog
 
+### Version 1.2.0
+
+IMPORTANT: [**Upgrade Instructions**](/m2/extensions/easybanners/upgrade-instructions/)
+
+**Major Updates**
+
+ -  [New Conditions](/m2/extensions/easybanners/interfaces/#conditions-tab)
+    - Page URL
+    - Periodical date conditions (Day of week and Day of month)
+    - Periodical per-visitor conditions (Display count per day, week, month)
+    - Product attribute conditions (Currently viewing product)
+ -  New predefined [HTML layouts](/m2/extensions/easybanners/layouts-for-html-banners/)
+ -  Added ability to [assign placeholder](/m2/extensions/easybanners/interfaces/#form)
+    to parent container without using 'Widgets' page
+
+**Fixes and Improvements**
+
+ -  Fixed not-working banner when it assigned to multiple stores
+ -  Improved popup styles and positioning
+ -  Backend forms rewritten into UI components
+ -  Code cleanup
+
 ### Version 1.1.0
 
  -  Fixed SQL error '1205 Lock wait timeout exceeded'.
