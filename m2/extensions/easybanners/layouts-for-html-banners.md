@@ -1,7 +1,6 @@
 ---
 layout: default
-title: Easy Banners
-description:
+title: Layouts for HTML banners
 keywords: easybanner html layouts
 category: Easy Banners
 ---

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Easy Banners
+title: CSS Helpers
 category: Easy Banners
 ---
 

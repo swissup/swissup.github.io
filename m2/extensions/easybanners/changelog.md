@@ -19,6 +19,7 @@ IMPORTANT: [**Upgrade Instructions**](/m2/extensions/easybanners/upgrade-instruc
     - Periodical date conditions (Day of week and Day of month)
     - Periodical per-visitor conditions (Display count per day, week, month)
     - Product attribute conditions (Currently viewing product)
+ -  "Don't show anymore" action added to lightbox and awesomebar banners
  -  New predefined [HTML layouts](/m2/extensions/easybanners/layouts-for-html-banners/)
  -  Added ability to [assign placeholder](/m2/extensions/easybanners/interfaces/#form)
     to parent container without using 'Widgets' page
