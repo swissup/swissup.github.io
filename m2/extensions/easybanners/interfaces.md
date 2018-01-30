@@ -83,7 +83,7 @@ Field                   | Description
 Url                     | Link to open on banner click
 Hide Url                | Ability to hide destination url on the frontend
 Open Link in            | Where the link should be opened: Same Window, Popup Window, New Window
-Css Class               | Additional Css classes to add when rendering banner
+Css Class               | [Additional Css classes](/m2/extensions/easybanners/css-class-helpers/) to add when rendering banner
 Mode                    | Slect between Image and Html banner modes
 
 ###### Image Options Region
