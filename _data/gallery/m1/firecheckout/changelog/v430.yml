@@ -1,0 +1,10 @@
+- href: /images/m1/firecheckout/changelog/4.3.0/calendar-native.png
+  src: /images/m1/firecheckout/changelog/4.3.0/small/calendar-native.png
+  title: Native calendar on mobile devices
+  w: 580
+  h: 966
+- href: /images/m1/firecheckout/changelog/4.3.0/calendar-disabled.png
+  src: /images/m1/firecheckout/changelog/4.3.0/small/calendar-disabled.png
+  title: Disable js calendar and use plain fields
+  w: 580
+  h: 966

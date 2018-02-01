@@ -7,6 +7,37 @@ category: Firecheckout
 
 # Changelog
 
+### Version 4.3.0
+
+<details>
+    <summary><strong>Screenshots</strong></summary>
+    {% include gallery.html images=site.data.gallery.m1.firecheckout.changelog.v430 class="phone-up-2 tablet-up-3 photoswipe scroll" %}
+</details>
+
+**Major changes**
+
+ -  JS calendar will now use native component on mobile devices when possible
+ -  Added [ability to disable](/m1/extensions/firecheckout/configuration/firecheckout/#layout-and-design)
+    calendar picker for Date of Birth field
+ -  Allow hyphens in checkout url
+
+**Fixes and Improvements**
+
+ -  Fixed single payment method activation after ajax update
+ -  Added missing "customer_address_validation_after" event from new magento version
+ -  Fixed not working address save in customer account page because of Magento's
+    hardcoded address validation
+ -  Sync "customer_address_id" value when shipping address is same as billing
+ -  Magento API support improved. SOAP_V2 support added
+
+**Third-party modules**
+
+ -  Orba_Sheepla integration added
+ -  Magenio_FiscalData integration updated
+ -  Amasty_Giftwrap integration added
+ -  Amasty_Methods and Amasty_Shiprestriction integrations updated
+ -  Svea_WebPay integration updated. Added support for 'Get Address' button in billing form
+
 ### Version 4.2.6
 
  -  Fixed ability to place order with saved address when it missing some
