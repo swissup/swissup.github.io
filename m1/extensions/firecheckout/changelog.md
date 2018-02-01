@@ -32,10 +32,13 @@ category: Firecheckout
 
 **Third-party modules**
 
- -  Orba_Sheepla integration added
- -  Magenio_FiscalData integration updated
+ -  [Orba_Sheepla](/m1/extensions/firecheckout/supported-modules/orba-sheepla/)
+    integration added
+ -  [Magenio_FiscalData](/m1/extensions/firecheckout/supported-modules/magenio-fiscaldata/)
+    integration updated
  -  Amasty_Giftwrap integration added
- -  Amasty_Methods and Amasty_Shiprestriction integrations updated
+ -  Amasty_Methods and [Amasty_Shiprestriction](/m1/extensions/firecheckout/supported-modules/amasty-shiprestriction/)
+    integrations updated
  -  Svea_WebPay integration updated. Added support for 'Get Address' button in billing form
 
 ### Version 4.2.6
