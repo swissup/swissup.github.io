@@ -88,3 +88,16 @@ blockquote > *:last-child {
 blockquote > *:first-child {
     margin-top: 0;
 }
+
+details {
+    margin: 16px 0;
+    &[open] {
+        summary {
+            margin: 0 0 16px;
+        }
+    }
+    summary {
+        display: inline-block;
+        cursor: pointer;
+    }
+}
