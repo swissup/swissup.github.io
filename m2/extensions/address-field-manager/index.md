@@ -9,8 +9,21 @@ category: Address Field Manager
 
 # Address Field Manager
 
-Address Field Manager allows to change address form fields status and
-sort order. Works great with standard magento checkout and
+Address Field Manager allows to:
+ -  change address form fields status, sort order, default values and labels
+ -  create new address fields
+
+Custom address fields are automatically displayed on:
+
+ -  Frontend:
+    -  checkout billing and shipping address forms
+    -  create and edit address forms in customer account
+ -  Backend:
+    -  edit customer form
+    -  edit billing and shipping address on order view page
+    -  create new order form
+
+Works great with standard magento checkout and
 [Firecheckout](/m2/extensions/firecheckout/) modules.
 
 {% include gallery.html images=site.data.gallery.m2.address-field-manager.index class="scroll phone-up-1 tablet-up-3 photoswipe" %}
@@ -20,3 +33,6 @@ sort order. Works great with standard magento checkout and
  1. [Installation](installation/)
  2. [Changelog](changelog/)
  3. [Usage](usage/)
+     -  [Address Fields Grid](usage/grid)
+     -  [Address Fields Form](usage/form)
+     -  [Adding Custom Fields to Address Templates](usage/address-templates)

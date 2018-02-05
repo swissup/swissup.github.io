@@ -8,6 +8,11 @@ category: Address Field Manager
 
 # Changelog
 
+### Version 1.2.0
+
+ -  Added ability to create custom address fields
+ -  Added ability to set default values for address fields
+
 ### Version 1.1.1
 
  -  Fixed incorrect sort order in backend grid
