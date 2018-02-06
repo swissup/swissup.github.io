@@ -78,6 +78,9 @@ define([
 > This feature is available since [0.9.7](/m2/argento/changelog/#version-097)
 > version only
 
+Create [custom theme](../../customization/custom-js/) and add _argento-custom.js_ file there. 
+Paste next code there:
+
 The code below shows how to disable sticky header in
 [ArgentoFlat](/m2/argento/flat/) theme:
 
