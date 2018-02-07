@@ -47,7 +47,7 @@ Let's slightly change form and firecheckout layout styles and section number col
     @firecheckout-section-desktop__gap: 1px;
     @firecheckout-section__gap: 1px;
     @firecheckout-section__border: 0;
-    @firecheckout-section__padding: 12px 20px 20px;
+    @firecheckout-section__padding: 20px;
     @firecheckout-section__number-color: #fff;
     @firecheckout-section__number-background-color: #1979c3;
     @firecheckout-section__box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
