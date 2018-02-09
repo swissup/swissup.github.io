@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Slick Carousel Installation
+title: Slick Carousel Manual Installation
 description: How to install Slick Carousel for Magento 2
 keywords: slick carousel installation, slider installation
 category: SlickCarousel

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Highlight installation
+title: Highlight installation from Marketplace
 description: Highlight installation instructions
 keywords: "highlight installation"
 category: Highlight

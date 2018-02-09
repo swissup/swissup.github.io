@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Highlight installation
+title: Highlight manual installation
 description: Highlight installation instructions
 keywords: "highlight installation"
 category: Highlight
