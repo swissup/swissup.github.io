@@ -30,30 +30,20 @@ know how you may specify the options. See the corresponding pages:
 
 Option          | Description
 ----------------|------------
-title           | Block title shown on frontend
+title           | Block title
+carousel        | Allows to enable ajax carousel
 products_count  | Products count
 column_count    | Columns count
-template        | Path to the block template. [See available templates](#available-templates)
+template        | Template to use
 custom_template | Path to the custom template. Used if `template` is empty or not set
-css_class       | Additional css classes
+css_class       | Additional css classes. See [ready-to-use classes](/m2/extensions/highlight/widgets/css-helpers/)
 **"See all products" link settings** |
 show_page_link  | Flag that indicates to show "See all products" link or not
 page_url        | Custom url to the "See all products" page.
 page_link_title | "See all products" link title
 **Pagination settings** |
-show_pager      | Flag that indicates that pagination should be visible or not
-products_per_page | Products count per page
+page_count      | Pages count to show
 page_var_name   | Product page variabe name in query. Useful, when you have multiple block of the same type on one page
-
-###### Available templates
-
-Path | Description
------|------------
-Swissup_Highlight::product/widget/content/grid.phtml | Grid listing
-Swissup_Highlight::product/widget/content/list.phtml | List listing
-Swissup_Highlight::product/widget/column/list.phtml | Sidebar listing with images and product names
-Swissup_Highlight::product/widget/column/list_images.phtml | Sidebar listing with images only
-Swissup_Highlight::product/widget/column/list_names.phtml | Sidebar listing with names only
 
 ### Product collection options
 

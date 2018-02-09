@@ -24,6 +24,7 @@ display products filtered by custom filters.
 3. [Widgets](widgets/)
     - [Widget Types](widgets/#highlight-widgets)
     - [Widget Settings](widgets/settings/)
+    - [Widget CSS Helpers](widgets/css-helpers/)
     - [Widget Usage](widgets/usage/)
         - [WYSIWYG Editor](widgets/usage/#wysiwyg-editor)
         - [Widgets Page](widgets/usage/#widgets-page)
