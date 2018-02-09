@@ -8,6 +8,10 @@ category: SlickCarousel
 
 # Changelog
 
+### Version 1.1.2
+
+ -  Fixed possible horizontal scrollbar when using padding on a parent container
+
 ### Version 1.1.1
 
  -  Fixed issue with Porto theme
