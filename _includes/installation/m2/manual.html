@@ -61,9 +61,7 @@ php bin/magento setup:upgrade
 rm -rf pub/static/_requirejs var/view_preprocessed pub/static/frontend/ pub/static/adminhtml/
 <span class="c"># For magento 2.2.x</span>
 rm -rf pub/static/_requirejs var/view_preprocessed pub/static/frontend/ pub/static/adminhtml/ generated/code/
-<span class="c"># run deploy command for en_US locale:</span>
-php bin/magento setup:static-content:deploy
-<span class="c"># or you can pass specific locales:</span>
+<span class="c"># run deploy command for your locale:</span>
 php bin/magento setup:static-content:deploy en_US en_GB
 
 <span class="c"># 4. If you are using di:compilation, you need to run it again</span>

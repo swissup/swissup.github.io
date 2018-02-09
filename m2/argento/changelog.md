@@ -7,6 +7,69 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.2.0
+
+> [Upgrade Instructions](/m2/argento/upgrade-instructions/#version-110---120)
+
+ -  Added RTL support in Luxury theme _(currently in beta)_
+ -  [SEO Pagination](/m2/extensions/seo-pager/) added as part of [Seo Suite](/m2/extensions/seo-suite/)
+
+**Luxury Theme**
+
+ -  Fixed missing items count on search result listing on mobile devices
+ -  Fixed invisible action buttons on the homepage if standard listing is used
+ -  Fixed cutted shadow on the top edge of the icon
+ -  Bring back an opacity on the action icons in product listing
+
+**Extensions Updates**
+
+ -  **Ajax Pro** — 1.2.5
+     -  Fixed redirect to product page when ?option=cart used
+     -  Added missing translations
+     -  Added product.view popup on home page
+     -  Added checking if response is json
+ -  **Ajax Search** — 1.2.8
+     -  Fixed broken sort by relevance
+     -  Added translations
+     -  Fixed empty results when limit was equal to number of suggestions
+ -  **Askit** — 1.2.12
+     -  Fixed missing question label bug
+ -  **Attribute Pages** — 1.0.7
+     -  Added canonical url to integrate with seo-pager
+ -  **Easy Banner** — 1.2.0
+     -  Added new conditions
+     -  "Don't show anymore" action added to lightbox and awesomebar banners
+     -  New predefined HTML layouts
+     -  Added ability to assign placeholder to parent container without using "Widgets" page
+     -  Fixed not-working banner when it assigned to multiple stores
+     -  Improved popup styles and positioning
+     -  Backend forms rewritten using UI components
+ -  **Facebook Like Button** — 1.1.1
+     -  Fixed issues that occurred at some environments with JS minification enabled
+     -  Using same product URLs to like on category and product pages
+ -  **Navigation Pro** — 1.2.0.1
+     -  Added ability to set positioning settings for the first level dropdown: Stick to Left, Center, Stick to Right
+     -  Fixed browser freezing on mobile devices when using vertical subcategories alignment
+ -  **Pro Labels** — 1.0.21
+     -  Fixed warning illegal offset during CLI reindex
+ -  **Review Reminder** — 1.0.11
+     -  Fixed empty customer name for guests orders
+ -  **Seo Suite** — 0.9.0
+     -  includes new module [SEO Pagination](/m2/extensions/seo-pager/)
+     -  *Rich Snippets*:
+         -  Fixed duplicated product structured data on product page.
+         -  Minify JSON-LD structured data.
+         -  No empty nodes in JSON-LD structured data.
+     -  *SEO URLs*:
+         -  Fix URL parsing when URL rewrite ends with ‘/’.
+         -  Disable SEO URLs when direct controller URL used instead of URL rewrite.
+         -  Improved integration with Swissup ALN module (stock filter, rating filter, new filter).
+         -  Improved query string parsing when multiple values applied to filter.
+         -  If filter separator enabled add it to URLs only when there are applied filters.
+ -  **Sold Together** — 1.2.4
+     -  Using correct customer select for reindex, increased customer step
+     -  Fixed exception 'Item with the same ID already exists'
+
 ### Version 1.1.0
 
 > [Upgrade Instructions](/m2/argento/upgrade-instructions/#version-100---110)
