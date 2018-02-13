@@ -8,7 +8,34 @@ category: Firecheckout
 
 # SagepaySuite
 
- 1. Open `skin/frontend/base/default/sagepaysuite/js/sagePaySuite_Checkout.js` file and find the
+ 1. Disable request logging to prevent PHP SEGFAULT error:
+
+    Open `app/code/local/Ebizmarts/SagePaySuite/Helper/Data.php` and find the
+    following lines:
+
+    ```php
+    //Request
+    $rqlabel = new Zend_Text_Table_Row();
+    $rqlabel->appendColumn(new Zend_Text_Table_Column('REQUEST', 'center', 5));
+    $table->appendRow($rqlabel);
+    $inforqp = new Zend_Text_Table_Row();
+    $inforqp->appendColumn(new Zend_Text_Table_Column($this->_filterRequest($request), 'left', 5));
+    $table->appendRow($inforqp);
+    ```
+
+    Replace them with:
+
+    ```php
+    // //Request
+    // $rqlabel = new Zend_Text_Table_Row();
+    // $rqlabel->appendColumn(new Zend_Text_Table_Column('REQUEST', 'center', 5));
+    // $table->appendRow($rqlabel);
+    // $inforqp = new Zend_Text_Table_Row();
+    // $inforqp->appendColumn(new Zend_Text_Table_Column($this->_filterRequest($request), 'left', 5));
+    // $table->appendRow($inforqp);
+    ```
+
+ 2. Open `skin/frontend/base/default/sagepaysuite/js/sagePaySuite_Checkout.js` file and find the
     following lines:
 
     ```js
@@ -25,7 +52,7 @@ category: Firecheckout
     placeBtn && placeBtn.hide();
     ```
 
- 2. Open `app/code/local/Ebizmarts/SagePaySuite/etc/config.xml` file and find the
+ 3. Open `app/code/local/Ebizmarts/SagePaySuite/etc/config.xml` file and find the
     following lines:
 
     ```xml
@@ -60,7 +87,7 @@ category: Firecheckout
     </controller_action_predispatch_firecheckout_index_index>
     ```
 
- 3. In case you are using "Saved Credit Cards" feature, navigate to
+ 4. In case you are using "Saved Credit Cards" feature, navigate to
 
     `System > Configuration > TM Checkout > Firecheckout > Ajax save and reload rules`
 
