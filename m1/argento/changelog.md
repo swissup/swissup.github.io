@@ -7,6 +7,52 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.9.6
+
+ -  Full RTL support for Argento Argento and Argento Luxury themes.
+ -  New '404' page at Luxury theme so your customers don't be upset but interested in staying at your store.
+ -  New expanded layout for product tabs.
+ -  Fix issue with 'More Products' button on product listing (content not loading, incorrect image sizes, black image background).
+ -  Fix not woking "Estimate shipping" and "Apply coupon" forms at checkout cart page on Magneto version less than 1.9.2.0.
+ -  Overall stanility and source code improvements.
+
+**Modules fixes & improvements**
+
+ -  Ajax Pro:
+     +  Fix JavaScript error on shopping cart page when AjaxPro is disabled for this page.
+
+ -  Attribute Pages:
+     +  Improve compatibility with Magento Enterprise Edition.
+
+ -  Easy Catalog Images:
+     +  Improve responsive styles for widget layouts with 3 and 5 columns.
+
+ -  Easytabs:
+     +  New tabs layout - expanded tabs. You can change tabs layout in extension system config or in widget options.
+     +  New option "Sticky tabs header" - tabs header sticks to top of the screen while tabs conteiner is in user viewport. You can enable sticky option in extension system config or in widget options.
+     +  Overall source code improvements.
+
+ -  Highlight:
+     +  New carousel template with ajax content loading.
+
+ -  Hover Gallery:
+     +  Compatibility with new Highlight carousel template.
+
+ -  Lightbox Pro:
+     +  Improve extension stability.
+
+ -  Navigation Pro:
+     +  Improve behavior on stores with Argento themes and RTL contant direction.
+
+ -  SEO Suite:
+     +  SEO Templates - improve 'products' directive for category templates. Works with attributes that are not filterable also.
+
+ -  Sold Together:
+     +  Cron option works only on global level of config. So it is removed on other config levels.
+
+ -  Testimonials:
+     +  Fix missing message after posting new testiminial.
+
 ### Version 1.9.5
 
  -  Added new breathtaking config sections for every Argento theme - 'Category page and other listing pages' and 'Product page'. There you can setup product image resize options for listing pages, widgets and product pages. Check how this config looks at [Luxury image size settings for category](../luxury/category/#image-size).
