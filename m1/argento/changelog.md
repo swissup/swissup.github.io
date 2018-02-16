@@ -14,7 +14,7 @@ category: Argento
  -  New expanded layout for product tabs.
  -  Fix issue with 'More Products' button on product listing (content not loading, incorrect image sizes, black image background).
  -  Fix not woking "Estimate shipping" and "Apply coupon" forms at checkout cart page on Magneto version less than 1.9.2.0.
- -  Overall stanility and source code improvements.
+ -  Overall stability and source code improvements.
 
 **Modules fixes & improvements**
 
