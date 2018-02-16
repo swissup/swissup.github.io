@@ -7,6 +7,10 @@ category: Attributepages
 
 # Changelog
 
+### Version 1.4.1
+
+ -  Improve compatibility with Magento Enterprise Edition.
+
 ### Version 1.4.0
 
  -  [TM_Amp 1.6.0](/m1/extensions/amp/changelog/#version-160) support added

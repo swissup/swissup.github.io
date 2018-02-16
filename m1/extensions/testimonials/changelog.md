@@ -8,6 +8,10 @@ category: Testimonials
 
 # Changelog
 
+### Version 1.2.4
+
+ -  Fix missing message after posting new testiminial.
+
 ### Version 1.2.3
 
  -  Added check if guest is allowed to write a review

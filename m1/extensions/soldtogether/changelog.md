@@ -8,6 +8,10 @@ category: Sold Together
 
 # Changelog
 
+### Version 1.5.1
+
+ -  Cron option works only on global level of config. So it is removed on other config levels.
+
 ### Version 1.5.0
 
  -  Added new option to reindex orders with specific statuses only.

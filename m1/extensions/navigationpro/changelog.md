@@ -8,6 +8,10 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.5.6
+
+ -  Improve behavior on stores with Argento themes and RTL contant direction.
+
 ### Version 1.5.5
 
  -  Small js improvements

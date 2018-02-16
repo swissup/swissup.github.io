@@ -7,6 +7,12 @@ category: Easy Tabs
 sidebar: sidebar.md
 ---
 
+### Version 3.2.0
+
+ -  New tabs layout - expanded tabs. You can change tabs layout in extension system config or in widget options.
+ -  New option "Sticky tabs header" - tabs header sticks to top of the screen while tabs conteiner is in user viewport. You can enable sticky option in extension system config or in widget options.
+ -  Overall source code improvements.
+
 ### Version 3.1.6
 
  -  Scroll to “Review form” itself instead of top of Review section when visitor clicks “Add review” link on product page.

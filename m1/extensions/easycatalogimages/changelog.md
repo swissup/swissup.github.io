@@ -7,6 +7,10 @@ category: EasyCatalogImages
 
 # Changelog
 
+### Version 2.4.3
+
+ -  Improve responsive styles for widget layouts with 3 and 5 columns.
+
 ### Version 2.4.1
 
  -  AMP related logic moved to separate config file

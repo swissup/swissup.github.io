@@ -51,7 +51,7 @@ category: Argento
      +  Cron option works only on global level of config. So it is removed on other config levels.
 
  -  Testimonials:
-     +  Fix missing message after posting new testiminial.
+     +  Fix missing message after posting new testimonial.
 
 ### Version 1.9.5
 

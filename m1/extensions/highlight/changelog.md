@@ -8,6 +8,10 @@ category: Highlight
 
 # Changelog
 
+### Version 2.7.0
+
+ -  New carousel template with ajax content loading.
+
 ### Version 2.6.4
 
  -  Fixed empty setLocation method, when ajaxpro is used. It caused issues with add to cart functionality on homepage.

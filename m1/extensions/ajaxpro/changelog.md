@@ -8,6 +8,10 @@ category: AjaxPro
 
 # Changelog
 
+### Version 3.3.22
+
+ -  Fix JavaScript error on shopping cart page when AjaxPro is disabled for this page.
+
 ### Version 3.3.21
 
  -  Fix integration productAddToCartForm.oldSubmit 
