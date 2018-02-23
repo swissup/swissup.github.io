@@ -8,7 +8,12 @@ category: Firecheckout
 
 # Taxjar SalesTax
 
-Open `app/code/local/Taxjar/SalesTax/etc/config.xml` and find following lines:
+Open one of these files (or both, if you have both):
+
+ - app/code/local/Taxjar/SalesTax/etc/config.xml
+ - app/code/community/Taxjar/SalesTax/etc/config.xml
+
+Find following lines:
 
 ```xml
 <helpers>
