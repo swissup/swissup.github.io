@@ -8,6 +8,18 @@ category: Abandoned Cart
 
 # Changelog
 
+### Version 1.2.5
+
+ -  Fix potential xss
+ -  Add escapeUrl
+ -  Fix date format created and modified column
+ -  Fix setData & addData
+ -  Fix store_emails null bug
+ -  Fix collectTotals recursion bug
+ -  Add coupon code to mail
+ -  Add force history entry create action
+ -  etc.
+
 ### Version 1.2.4
 
  -  Email {{template }} directive was fixed
