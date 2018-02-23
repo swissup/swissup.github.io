@@ -8,6 +8,13 @@ category: Helpmate
 
 # Changelog
 
+### Version 1.7.5
+
+ - Update translates
+ - Move archive email to bbc header
+ - Fix double event call bug (helpmate_notify_customer_ticket_create)
+ - etc.
+
 ### Version 1.7.4
 
  - Set default priority value for usePriorityOnFrontend == false case
