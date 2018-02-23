@@ -11,6 +11,12 @@ category: AskIt
 
 # Changelog
 
+### Version 1.2.13
+
+- Add i18n translation
+- Fix customer session bug
+- etc.
+
 ### Version 1.2.12
 
 - Fixed getEntityTypeLabel return null bug
