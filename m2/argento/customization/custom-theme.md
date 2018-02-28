@@ -52,7 +52,6 @@ Let's create `Local/argento-[essence|flat]-custom` theme based on
             "type": "magento2-theme",
             "version": "1.0.0",
             "require": {
-                "php": "~5.5.0|~5.6.0|~7.0.0",
                 "swissup/theme-frontend-argento-[essence|flat]": "*"
             },
             "autoload": {
