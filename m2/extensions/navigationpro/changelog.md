@@ -8,6 +8,16 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.3.0
+
+ -  New [simplified form](/m2/extensions/navigationpro/backend/menu-new/) to
+    create menu with a few clicks
+ -  Removed open menu delay on touch devices
+ -  RTL support added (RTL theme is required to use)
+ -  Fixed ability to use form inside a dropdown item
+ -  Added small delay before opening first dropdown item
+ -  Small js and css fixes
+
 ### Version 1.2.0.1
 
  -  Fixed browser freezing on mobile devices when using vertical subcategories

@@ -8,6 +8,7 @@ category: Navigationpro
 # Backend interfaces
 
  -  [Menu's Grid](/m2/extensions/navigationpro/backend/menu-grid/)
+ -  [New Menu](/m2/extensions/navigationpro/backend/menu-new/)
  -  [Menu Settings Page](/m2/extensions/navigationpro/backend/menu-settings/)
  -  [Edit Menu and Menu Items](/m2/extensions/navigationpro/backend/menu-edit/)
 

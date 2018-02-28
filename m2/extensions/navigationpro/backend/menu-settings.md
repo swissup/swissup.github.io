@@ -7,8 +7,7 @@ category: Navigationpro
 
 # Menu Settings
 
-This page is accessible from _Swissup > NavigationPro_ page when creating new
-menu. This page is also shown when editing existing menu settings.
+This page is accessible when editing existing menu settings.
 
 The page has two sections: [General settings](#general-settings), where you can
 setup menu preferences, and [Dropdown settings](#dropdown-settings), where dropdown

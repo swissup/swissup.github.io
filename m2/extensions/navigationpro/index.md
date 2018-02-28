@@ -21,6 +21,7 @@ devices, tablets, and phones.
  3. [Configuration](/m2/extensions/navigationpro/configuration/)
  4. [Backend pages](/m2/extensions/navigationpro/backend/)
     - [Menu's Grid](/m2/extensions/navigationpro/backend/menu-grid/)
+    - [New Menu](/m2/extensions/navigationpro/backend/menu-new/)
     - [Menu Settings](/m2/extensions/navigationpro/backend/menu-settings/)
     - [Edit Menu and Menu Items](/m2/extensions/navigationpro/backend/menu-edit/)
  5. [Widget](/m2/extensions/navigationpro/widget/)

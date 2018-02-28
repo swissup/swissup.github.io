@@ -1,32 +1,45 @@
 ---
 layout: default
-title: Navigationpro Sidebar Menu
+title: Navigationpro Sidebar Menu (deprecated)
 description: How to create sidebar menu with Navigationpro module
 category: Navigationpro
 ---
 
 # Sidebar Menu
 
+**Upgrade to 1.3.0 and create sidebar menu with a [few clicks](../../sidebar-menu/)!**
+
+> Available since 1.1.0
+
 {% include gallery.html images=site.data.gallery.m2.navigationpro.sidebar class="scroll phone-up-1 tablet-up-3 photoswipe" %}
 
 * TOC
 {:toc}
 
-### Create Menu and Widget
+> Don't have a menu yet? Create [simple menu][simple-menu] and come back!
 
- 1. Navigate to _Swissup > NavigationPro_ page, and press "Add New Menu".
- 2. Fill the [form](/m2/extensions/navigationpro/backend/menu-new/) according to
-    your needs and press "Save".
- 3. That's all. Clear Magento's cache and check out the sidebar menu on the
-    category pages.
+ 1. Navigate to _Content > Widgets_ and press **Add Widget** button.
+ 2. Select "Navigationpro" widget and the theme you use in teh first screen.
 
-### Edit Widget Settings
+    ![Settings](/images/m2/navigationpro/use-cases/sidebar/widget-type.png)
 
-Proceed the following steps, if you'd like to customize sidebar menu styles:
+ 3. Click **Continue** and fill the next page with the following values:
 
- 1. Navigate to _Content > Widgets_.
- 2. Find the newly created widget in the widgets grid.
- 3. Switch to _Widget Options_ tab and fill the values according to desired result.
+    ```
+    Widget Title:           Navigationpro Sidebar for [Your Theme]
+    Assign to Store Views:  Select the store views you need
+    Sort Order:             0
+    ```
+
+    **Layout Updates:**
+
+    ```
+    Display on: Specified Page
+    Page:       Catalog Category
+    Container:  Sidebar Main Top
+    ```
+
+ 4. Switch to _Widget Options_ tab and fill the values according to desired result.
 
     [**Simple dropdown settings:**](/m2/extensions/navigationpro/use-cases/sidebar-menu/#&gid=1&pid=1)
 
