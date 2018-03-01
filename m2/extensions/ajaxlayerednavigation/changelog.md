@@ -7,10 +7,22 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.2.0
+
+ - Add multiple mode and tooltip (popup)
+ - Add amazon like category list style
+ - Add infinite scroll
+ - Add filter cleance
+ - Add all-products page
+ - Splited and refactored js code
+ - Override swatches template
+ - Add unit tests
+ - etc.
+
 ### Version 1.1.1
 
  - Fix using attribute 'rating_summary'
- - Fix IE & URLSearchParams bug 
+ - Fix IE & URLSearchParams bug
  - Fix price filter show
  - Improve js docs style
  - Fix bad URLs for 'Sort by' and 'Show per page' drop-downs
