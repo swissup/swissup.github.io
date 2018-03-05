@@ -8,6 +8,11 @@ category: Daily Deals
 
 # Changelog
 
+### Version 1.1.6
+
+ -  Compatibility with ProLables extension version 2.7.13.
+ -  Prevent crash on multistore Magento instances.
+
 ### Version 1.1.5
 
  -  Do not output empty deal timer wrapper when there are no timer.
