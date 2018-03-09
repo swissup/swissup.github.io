@@ -68,6 +68,7 @@ additional modifications.
 - [Iways_PayPalPlus](iways-paypalplus/)
 - IWD_OPC_Signature
 - Klarna_KlarnaPaymentModule
+- [Klarna_Payments](klarna-payments/)
 - [MultiSafePay_Msp](multisafepay-msp/)
 - Netresearch_Billsafe
 - Netresearch_OPS
