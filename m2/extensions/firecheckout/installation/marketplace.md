@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Firecheckout Installation
+title: Firecheckout Marketplace Installation
 description: magento 2 firecheckout module installation
 keywords: firecheckout installation
 category: Firecheckout

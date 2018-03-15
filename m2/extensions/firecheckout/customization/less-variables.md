@@ -18,6 +18,10 @@ See the `swissup/firecheckout/view/frontend/web/css/abstracts/_variables.less` f
 
 Group               | Variable name                 | Default value
 --------------------|-------------------------------|--------------
+**Responsive breakpoints** |                        |
+|@firecheckout__size__small                         | `640px`
+|@firecheckout__size__base                          | `768px`
+|@firecheckout__size__large                         | `1024px`
 **Page variables**  |                               |
 |@firecheckout-page-wide__width                     | `1280px`
 |@firecheckout-page-narrow__width                   | `980px`
@@ -55,6 +59,12 @@ Group               | Variable name                 | Default value
 |@firecheckout-modal__popup-box-shadow              | `0 0 20px rgba(0, 0, 0, 0.3)`
 |@firecheckout-modal__overlay-background            | `rgba(0, 0, 0, 0.2)`
 |@firecheckout-authentication__popup-effect         | `@firecheckout-modal__popup-effect`
+**Tooltip styles** |                                |
+|@firecheckout-tooltip-content__box-shadow          | `0 0 45px rgba(0, 0, 0, 0.1)`
+|@firecheckout-tooltip-content__background-color    | `#fff`
+|@firecheckout-tooltip-content__border-width        | `1px`
+|@firecheckout-tooltip-content__border-color        | `#fff`
+|@firecheckout-tooltip-content__width:              | `200px`
 
 ##### Next up
 

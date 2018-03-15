@@ -13,7 +13,7 @@ faster and easier by providing them a simple checkout form.
 
 {% include gallery.html images=site.data.gallery.m2.firecheckout.index class="scroll phone-up-1 tablet-up-3 photoswipe" %}
 
-## Contents
+### Contents
 
  1. [Installation](installation/)
  2. [Changelog](changelog/)

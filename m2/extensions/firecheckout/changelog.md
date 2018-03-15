@@ -8,6 +8,42 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.9.0
+
+ -  Cleaner [checkout styles](/m2/extensions/firecheckout/#&gid=1&pid=1)
+ -  Firecheckout [default URL](/m2/extensions/firecheckout/configuration/#general-section)
+    changed to '/checkout'. It replaces standard checkout now.
+    (It's done to provide better out-of-the-box compatibility
+    with third-party payment methods)
+ -  Improved checkout flow when using Paypal_HostedPro solution
+ -  Mobile styles improvements:
+    - Spacing between section titles
+    - Tooltip alignment improved
+ -  Improved compatibility with third-party payment methods. Tested with:
+    - SagePay_Suite
+    - Dibs_Flexwin
+    - CyberSource_SecureAcceptance
+ -  Improved third-party themes compatibility. Tested with:
+    - Argento_Stripes
+    - TemplateMonster_Theme007
+    - TemplateMonster_Theme003
+    - BoxStore_BoxStore
+
+**Modules Updates**
+
+ -  AddressAutocomplete — [1.0.5](/m2/extensions/address-autocomplete/changelog/#version-105)
+    - Fixed region field autocompletion
+ -  Address Field Manager — [1.2.0](/m2/extensions/address-field-manager/changelog/#version-120)
+    - Added ability to create custom address fields
+    - Added ability to set default values for address fields
+ -  Checkout Cart — [1.1.3](/m2/extensions/checkout-cart/changelog/#version-113)
+    - Order totals moved below cart items by default
+ -  Checkout Fields — [1.0.4](/m2/extensions/checkout-fields/changelog/#version-104)
+    - Fixed vertical alignment of button and input fields
+    - Fixed visible scrollbar on tablet devices
+ -  DeliveryDate — [1.1.2](/m2/extensions/delivery-date/changelog/#version-112)
+    - Added 'Enabled' option
+
 ### Version 1.8.0
 
 {% include gallery.html images=site.data.gallery.m2.firecheckout.changelog.v180 class="phone-up-2 tablet-up-3 photoswipe scroll" %}
@@ -15,9 +51,9 @@ category: Firecheckout
  -  Added new "1 Column (Multistep Wizard)" [layout](/m2/extensions/firecheckout/configuration/#layout)
  -  Added new distraction free "Empty" [page layout](/m2/extensions/firecheckout/configuration/#page-layout)
  -  "I Agree" button added to the Agreement popup
- -  Added ability to configure default [Shipping](/m2/extensions/firecheckout/configuration/#shiping-settings-section) 
+ -  Added ability to configure default [Shipping](/m2/extensions/firecheckout/configuration/#shiping-settings-section)
     and [Payment](/m2/extensions/firecheckout/configuration/#payment-settings-section) methods
- -  Added ability to [hide Shipping methods step](/m2/extensions/firecheckout/configuration/#shiping-settings-section), 
+ -  Added ability to [hide Shipping methods step](/m2/extensions/firecheckout/configuration/#shiping-settings-section),
     if single method is available only
  -  Added missing _en_US.csv_ translation file
  -  Mobile styles cleanup

@@ -39,24 +39,24 @@ Form Styles | [Select form styles](#form-styles) to use at firecheckout page
 
 There are 3 page layouts available to use:
 
- -  Default Checkout Layout (Depends on your active theme)
- -  **Empty** (No Header and Footer) - Recommended
- -  Minimal (Header with Store Logo only)
- -  Full (Full 1column layout with header, navigation and footer)
+ -  [Default Checkout Layout](#&gid=1&pid=1) (Depends on your active theme)
+ -  [Empty](#&gid=1&pid=2) (No Header and Footer)
+ -  [Minimal](#&gid=1&pid=3) (Header with Store Logo only)
+ -  [Full](#&gid=1&pid=4) (Full 1column layout with header, navigation and footer)
 
 Page layout screenshots:
 
-{% include gallery.html images=site.data.gallery.m2.firecheckout.configuration.page-layout class="scroll phone-up-1 tablet-up-3 photoswipe" %}
+{% include gallery.html images=site.data.gallery.m2.firecheckout.configuration.page-layout class="scroll phone-up-1 tablet-up-4 photoswipe" %}
 
 #### Layout
 
 There are 4 layouts available to use:
 
- -  1 Column (Multistep Wizard)
- -  1 Column (Expanded)
- -  2 Columns (Wide Payment and Shipping sections)
- -  2 Columns (Place Payment and Shipping sections side by side)
- -  3 Columns
+ -  [1 Column (Multistep Wizard)](#&gid=2&pid=1)
+ -  [1 Column (Expanded)](#&gid=2&pid=2)
+ -  [2 Columns (Wide Payment and Shipping sections)](#&gid=2&pid=3)
+ -  [2 Columns (Place Payment and Shipping sections side by side)](#&gid=2&pid=4)
+ -  [3 Columns](#&gid=2&pid=5)
 
 Layout screenshots:
 
@@ -66,9 +66,9 @@ Layout screenshots:
 
 There are three form modes available:
 
- -  Horizontal (Label aside of the field)
- -  Basic (Same as horizontal, except label above the field)
- -  Compact (Two fields per row)
+ -  [Horizontal](#&gid=3&pid=1) (Label aside of the field)
+ -  [Basic](#&gid=3&pid=2) (Same as horizontal, except label above the field)
+ -  [Compact](#&gid=3&pid=3) (Two fields per row)
 
 You can also hide labels and use field placeholders instead. This option works
 together with **Basic** and **Compact** modes only.

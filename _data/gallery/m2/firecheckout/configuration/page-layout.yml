@@ -1,24 +1,24 @@
 - title: >
     Default Layout. Please note, that your theme may change the look of
     this layout type.
-  href: /images/m2/firecheckout/frontend/3columns-with-default-layout.png
-  src: /images/m2/firecheckout/frontend/small/3columns-with-default-layout.png
-  w: 1150
-  h: 1051
+  href: /images/m2/firecheckout/frontend/page-layouts/default.png
+  src: /images/m2/firecheckout/frontend/page-layouts/small/default.png
+  w: 1480
+  h: 966
 - title: >
     Empty Layout. Distraction free.
-  href: /images/m2/firecheckout/frontend/3columns-with-empty-layout.png
-  src: /images/m2/firecheckout/frontend/small/3columns-with-empty-layout.png
-  w: 1135
-  h: 965
+  href: /images/m2/firecheckout/frontend/page-layouts/empty.png
+  src: /images/m2/firecheckout/frontend/page-layouts/small/empty.png
+  w: 1480
+  h: 966
 - title: >
     Minimal Layout. No information is shown except store logo and checkout form.
-  href: /images/m2/firecheckout/frontend/3columns-with-minimal-layout.png
-  src: /images/m2/firecheckout/frontend/small/3columns-with-minimal-layout.png
-  w: 1150
-  h: 1113
+  href: /images/m2/firecheckout/frontend/page-layouts/minimal.png
+  src: /images/m2/firecheckout/frontend/page-layouts/small/minimal.png
+  w: 1480
+  h: 966
 - title: Full Layout. Full featured layout with header, navigation, and footer.
-  href: /images/m2/firecheckout/frontend/3columns-with-full-layout.png
-  src: /images/m2/firecheckout/frontend/small/3columns-with-full-layout.png
-  w: 1150
-  h: 1425
+  href: /images/m2/firecheckout/frontend/page-layouts/full.png
+  src: /images/m2/firecheckout/frontend/page-layouts/small/full.png
+  w: 1480
+  h: 1305

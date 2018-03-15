@@ -1,15 +1,15 @@
 - title: Horizontal layout
   href: /images/m2/firecheckout/frontend/form-styles/horizontal.png
   src: /images/m2/firecheckout/frontend/form-styles/small/horizontal.png
-  w: 1181
-  h: 705
+  w: 1055
+  h: 786
 - title: Basic layout with enabled hidden labels option
   href: /images/m2/firecheckout/frontend/form-styles/basic-and-hidden-labels.png
   src: /images/m2/firecheckout/frontend/form-styles/small/basic-and-hidden-labels.png
-  w: 1082
-  h: 729
+  w: 1055
+  h: 814
 - title: Compact layout with enabled hidden labels option
   href: /images/m2/firecheckout/frontend/form-styles/compact-and-hidden-labels.png
   src: /images/m2/firecheckout/frontend/form-styles/small/compact-and-hidden-labels.png
-  w: 1081
-  h: 728
+  w: 1055
+  h: 767

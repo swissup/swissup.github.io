@@ -1,25 +1,25 @@
 - title: 1 Column (Multistep Wizard)
   href: /images/m2/firecheckout/frontend/1column-multistep-guest-customer.png
   src: /images/m2/firecheckout/frontend/small/1column-multistep-guest-customer.png
-  w: 973
-  h: 969
+  w: 1001
+  h: 1629
 - title: 1 Column (Expanded)
   href: /images/m2/firecheckout/frontend/1column-expanded-guest-customer.png
   src: /images/m2/firecheckout/frontend/small/1column-expanded-guest-customer.png
-  w: 973
-  h: 1751
+  w: 1386
+  h: 1550
 - title: 2 Columns (Wide Payment and Shipping sections)
   href: /images/m2/firecheckout/frontend/2columns-guest-customer.png
   src: /images/m2/firecheckout/frontend/small/2columns-guest-customer.png
-  w: 1207
-  h: 1531
+  w: 1386
+  h: 1337
 - title: 2 Columns (Place Payment and Shipping sections side by side)
   href: /images/m2/firecheckout/frontend/2columns-alternate-guest-customer.png
   src: /images/m2/firecheckout/frontend/small/2columns-alternate-guest-customer.png
-  w: 1207
-  h: 1312
+  w: 1386
+  h: 1138
 - title: 3 Columns
   href: /images/m2/firecheckout/frontend/3columns-guest-customer.png
   src: /images/m2/firecheckout/frontend/small/3columns-guest-customer.png
-  w: 1207
-  h: 1087
+  w: 1401
+  h: 966
