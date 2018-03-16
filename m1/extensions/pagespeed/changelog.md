@@ -7,6 +7,16 @@ category: Page Speed
 
 # Changelog
 
+### Version 1.3.1
+
+- Add compatability with AheadWorks > iPhone Theme 3
+- Ignore webpos pages
+- Add ignore xml errors option for loadHtml
+- Improve node saving; fix strip C14N (image lazyload)
+- Fix lazy-javascript for Mozilla (defer-js)
+- Improve attributes checking in defer-css
+- etc.
+
 ### Version 1.3.0
 
 - Code refactoring
