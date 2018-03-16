@@ -8,6 +8,10 @@ category: Checkout Cart
 
 # Changelog
 
+### Version 1.1.3
+
+ -  Order totals moved below cart items by default
+
 ### Version 1.1.2
 
  -  Fixed vertical alignment of button and input fields

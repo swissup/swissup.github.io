@@ -7,6 +7,10 @@ category: Address Autocomplete
 
 # Changelog
 
+### Version 1.0.5
+
+ -  Fixed region field autocompletion
+
 ### Version 1.0.4
 
  -  Improved logic for UK addresses. Fixed missing town field.

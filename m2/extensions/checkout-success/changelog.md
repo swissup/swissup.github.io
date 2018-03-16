@@ -8,6 +8,10 @@ category: Checkout Success
 
 # Changelog
 
+### Version 1.1.2
+
+ -  Fixed missing 'registration' block in some third-party themes
+
 ### Version 1.1.1
 
  -  Fixed typo in config section name

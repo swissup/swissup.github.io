@@ -25,9 +25,10 @@ category: Firecheckout
     - CyberSource_SecureAcceptance
  -  Improved third-party themes compatibility. Tested with:
     - Argento_Stripes
+    - BoxStore_BoxStore
+    - MGS_Claue
     - TemplateMonster_Theme007
     - TemplateMonster_Theme003
-    - BoxStore_BoxStore
 
 **Modules Updates**
 
@@ -41,6 +42,8 @@ category: Firecheckout
  -  Checkout Fields — [1.0.4](/m2/extensions/checkout-fields/changelog/#version-104)
     - Fixed vertical alignment of button and input fields
     - Fixed visible scrollbar on tablet devices
+ -  Checkout Success — [1.1.2](/m2/extensions/checkout-success/changelog/#version-112)
+    - Fixed missing 'registration' block in some third-party themes
  -  DeliveryDate — [1.1.2](/m2/extensions/delivery-date/changelog/#version-112)
     - Added 'Enabled' option
 

@@ -7,6 +7,10 @@ category: Delivery Date
 
 # Changelog
 
+### Version 1.1.2
+
+ -  Added 'Enabled' option (Disabled by default)
+
 ### Version 1.1.1
 
  -  Fixed too wide input field

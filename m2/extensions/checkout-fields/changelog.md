@@ -8,6 +8,11 @@ category: Checkout Fields
 
 # Changelog
 
+### Version 1.0.4
+
+ -  Fixed vertical alignment of button and input fields
+ -  Fixed visible scrollbar on tablet devices
+
 ### Version 1.0.3
 
  -  Dropdown field is now redered as combobox instead of radio buttons
