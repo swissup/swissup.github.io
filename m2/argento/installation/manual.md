@@ -45,7 +45,7 @@ cp -R app/design/frontend/Swissup/argento-luxury/resources/media/* pub/media/
 # cp -R vendor/swissup/theme-frontend-argento-pure2/resources/media/* pub/media/
 # cp -R vendor/swissup/theme-frontend-argento-mall/resources/media/* pub/media/
 # cp -R vendor/swissup/theme-frontend-argento-luxury/resources/media/* pub/media/
-chmod -R 777 pub/media/easybanner pub/media/easyslide
+chmod -R 777 pub/media/easybanner pub/media/easyslide pub/media/highlight pub/media/wysiwyg
 ```
 
 #### 6. That's all. Navigate to you store to check your new theme:
