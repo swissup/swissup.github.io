@@ -246,6 +246,13 @@ easytabs:
     m1: /m1/extensions/easytabs/
     m2: /m2/extensions/easytabs/
 
+featured-attributes:
+  title: Featured Attributes
+  short_description:
+  urls:
+    m1:
+    m2: /m2/extensions/featured-attributes/
+
 facebooklikebutton:
   title: Facebook Like Button
   short_description:
