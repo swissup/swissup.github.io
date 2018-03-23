@@ -12,6 +12,7 @@ category: EasyCatalogImages
 
  -  [General section](#general-section)
  -  [Category page section](#category-page-section)
+ -  [Departments page section](#departments-page-section)
  -  [Automated Image Assignment section](#automated-image-assignment-section)
 
 ### General section
@@ -31,11 +32,24 @@ category: EasyCatalogImages
 - Enabled for anchor categories
 - Hidden, when filter or pagination is used
 - Number of categories to show
+- Number of subcategories to show
 - Columns count
 - Show images
 - Image width
 - Image height
+
+### Departments page section
+
+![Departments page section](/images/m2/easycatalogimages/configuration-departments.png)
+
+- Page title
+- Page URL
+- Number of categories to show
 - Number of subcategories to show
+- Columns count
+- Show images
+- Image width
+- Image height
 
 ### Automated Image Assignment section
 

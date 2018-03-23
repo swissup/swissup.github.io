@@ -5,6 +5,12 @@ description: Categories and subcategories listing with images or thumbnails
 keywords: easycatalogimages, category, subcategory
 category: EasyCatalogImages
 gallery:
+  - href: /images/m2/easycatalogimages/departments.png
+    src: /images/m2/easycatalogimages/departments.png
+    w: 1439
+    h: 1037
+    alt: Departments page
+    title: Configurable departments page with masonry layout style
   - href: /images/m2/easycatalogimages/homepage-widget.png
     src: /images/m2/easycatalogimages/homepage-widget-small.png
     w: 990
@@ -31,6 +37,9 @@ gallery:
 
 Easy catalog images module adds category thumbnail attribute and uses it to
 simplify store browsing experience.
+
+Additionally, it creates ["Departments" page](configuration/#departments-page-section)
+with masonry categories list style.
 
 {% include gallery.html images=page.gallery class="scroll phone-up-1 tablet-up-3 photoswipe" %}
 

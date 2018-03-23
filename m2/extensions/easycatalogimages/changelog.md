@@ -8,6 +8,10 @@ category: EasyCatalogImages
 
 # Changelog
 
+### Version 1.2.0
+
+ -  Added configurable 'Departments' page with masonry layout style
+
 ### Version 1.1.4
 
  -  Magento 2.2.0 compatibility
