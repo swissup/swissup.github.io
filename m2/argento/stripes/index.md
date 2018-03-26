@@ -25,3 +25,4 @@ category: Argento
     -  [Product page](page-structure/product-page/)
     -  [Category page](page-structure/category-page/)
     -  [Contact Us page](page-structure/contact-us/)
+    -  [Newsletter Popup](page-structure/newsletter/)

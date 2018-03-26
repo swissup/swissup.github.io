@@ -108,6 +108,9 @@ m2:
     - title: Luxury
       url: /m2/argento/luxury/
 
+    - title: Stripes
+      url: /m2/argento/stripes/
+
   extensions:
     - ajaxsearch
     - askit
@@ -118,6 +121,7 @@ m2:
     - easyslider
     - easytabs
     - facebooklikebutton
+    - featured-attributes
     # - font-awesome
     - hover-gallery
     - highlight
