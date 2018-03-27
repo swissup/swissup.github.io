@@ -7,6 +7,11 @@ category: Address Autocomplete
 
 # Changelog
 
+### Version 1.0.6
+
+ -  Add country config option (Restrict the search to a specific countries)
+ -  Js code style was improved (jscs, eslint)
+
 ### Version 1.0.5
 
  -  Fixed region field autocompletion
