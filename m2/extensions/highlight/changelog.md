@@ -8,6 +8,12 @@ category: Highlight
 
 # Changelog
 
+### Version 1.2.1
+
+ -  Fixed possible error during `indexer:reindex` command
+ -  Fixed possible non-seo product links
+ -  Small css fixes
+
 ### Version 1.2.0
 
 <details>
