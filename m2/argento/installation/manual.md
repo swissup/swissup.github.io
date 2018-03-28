@@ -13,7 +13,7 @@ category: Argento
  4. [Setup configuration and theme content](#setup-configuration-and-theme-content)
  5. [Deploy sample data images](#deploy-sample-data-images)
 
-{% include installation/m2/manual.html site="argentotheme.com" modules="Swissup_Core Swissup_Ajaxpro Swissup_Ajaxsearch Swissup_Askit Swissup_Attributepages Swissup_EasySlide Swissup_Easybanner Swissup_Easycatalogimg Swissup_Easytabs Swissup_Fblike Swissup_FontAwesome Swissup_Highlight Swissup_HoverGallery Swissup_Lightboxpro Swissup_Navigationpro Swissup_ProLabels Swissup_Reviewreminder Swissup_RichSnippets Swissup_SeoCore Swissup_SeoHtmlSitemap Swissup_SeoPager Swissup_SeoUrls Swissup_SlickCarousel Swissup_SoldTogether Swissup_Suggestpage Swissup_Testimonials Swissup_ThemeEditor Swissup_ThemeEditorArgentoEssence Swissup_ThemeEditorArgentoFlat Swissup_ThemeEditorArgentoLuxury Swissup_ThemeEditorArgentoPure2 Swissup_ThemeEditorArgentoMall" %}
+{% include installation/m2/manual.html site="argentotheme.com" modules="Swissup_Core Swissup_Ajaxpro Swissup_Ajaxsearch Swissup_Askit Swissup_Attributepages Swissup_EasySlide Swissup_Easybanner Swissup_Easycatalogimg Swissup_Easytabs Swissup_Fblike Swissup_FeaturedAttributes Swissup_FontAwesome Swissup_Highlight Swissup_HoverGallery Swissup_Lightboxpro Swissup_Navigationpro Swissup_ProLabels Swissup_Reviewreminder Swissup_RichSnippets Swissup_SeoCore Swissup_SeoHtmlSitemap Swissup_SeoPager Swissup_SeoUrls Swissup_SlickCarousel Swissup_SoldTogether Swissup_Suggestpage Swissup_Testimonials Swissup_ThemeEditor Swissup_ThemeEditorArgentoEssence Swissup_ThemeEditorArgentoFlat Swissup_ThemeEditorArgentoLuxury Swissup_ThemeEditorArgentoPure2 Swissup_ThemeEditorArgentoMall Swissup_ThemeEditorArgentoStripes" %}
 
 #### 4. Setup configuration and theme content
 
@@ -39,12 +39,14 @@ cp -R app/design/frontend/Swissup/argento-flat/resources/media/* pub/media/
 cp -R app/design/frontend/Swissup/argento-pure2/resources/media/* pub/media/
 cp -R app/design/frontend/Swissup/argento-mall/resources/media/* pub/media/
 cp -R app/design/frontend/Swissup/argento-luxury/resources/media/* pub/media/
+cp -R app/design/frontend/Swissup/argento-stripes/resources/media/* pub/media/
 # If you are using theme from vendor folder:
 # cp -R vendor/swissup/theme-frontend-argento-essence/resources/media/* pub/media/
 # cp -R vendor/swissup/theme-frontend-argento-flat/resources/media/* pub/media/
 # cp -R vendor/swissup/theme-frontend-argento-pure2/resources/media/* pub/media/
 # cp -R vendor/swissup/theme-frontend-argento-mall/resources/media/* pub/media/
 # cp -R vendor/swissup/theme-frontend-argento-luxury/resources/media/* pub/media/
+# cp -R vendor/swissup/theme-frontend-argento-stripes/resources/media/* pub/media/
 chmod -R 777 pub/media/easybanner pub/media/easyslide pub/media/highlight pub/media/wysiwyg
 ```
 
