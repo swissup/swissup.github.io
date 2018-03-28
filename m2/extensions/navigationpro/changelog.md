@@ -8,6 +8,15 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.4.0
+
+ -  [Overlay feature added](/m2/extensions/navigationpro/use-cases/overlay/)
+ -  Native browser's `column-count` feature will be used to build columns in
+    vertical direction.
+ -  Allow to close dropdown when click outside of menu on iPad
+ -  Better RTL support. No visible transformations after page is loaded.
+ -  Small fixes
+
 ### Version 1.3.0
 
  -  New [simplified form](/m2/extensions/navigationpro/backend/menu-new/) to
