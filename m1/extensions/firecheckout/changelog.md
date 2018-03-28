@@ -7,6 +7,17 @@ category: Firecheckout
 
 # Changelog
 
+### Version 4.3.1
+
+ -  Fixed too early email address validation when using onecolumn layout
+ -  Fixed not working Authorize.net when using onecolumn layout
+
+**Third-party modules**
+
+ -  Removed deprecated integration with CraftyClicks
+ -  Added Klarna_Payments integration. See the [docs](/m1/extensions/firecheckout/supported-modules/klarna-payments/)
+    for more information.
+
 ### Version 4.3.0
 
 <details>
