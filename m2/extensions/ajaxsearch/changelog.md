@@ -8,6 +8,18 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.2.9
+
+ -  Grid suggestion layout was added
+ -  Add category filter (select2)
+ -  etc.
+
+### Version 1.2.8
+
+ -  Add translation
+ -  Fix typeahead limit calc bug (limit == count suggestions)
+ -  etc.
+
 ### Version 1.2.7
 
  -  Fix not 'relevance' sort by
