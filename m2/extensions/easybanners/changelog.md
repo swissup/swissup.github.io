@@ -8,6 +8,12 @@ category: Easy Banners
 
 # Changelog
 
+### Version 1.2.1
+
+ -  Magento 2.1 compatibility
+ -  Removed url validation as it does not allow to use `.html` suffix
+ -  Fixed 'Undefined variable: options' error for banners without placeholders
+
 ### Version 1.2.0
 
 IMPORTANT: [**Upgrade Instructions**](/m2/extensions/easybanners/upgrade-instructions/)
