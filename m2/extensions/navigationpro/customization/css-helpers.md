@@ -62,6 +62,8 @@ Class Name      | Description
 `navpro-iconic` | Allows to use [icons/images in item name][iconic-menu]
 `iconic-vertical` | Place item [icon/image in separate row][iconic-menu]
 `navpro-stacked`| Use [stacked][stacked-menu] dropdown positioning
+**Effects**     |
+`navpro-overlay`| Use [overlay][overlay] when dropdown is active
 **Top Level Caret Icons** |
 `caret-bottom`  | Place parent item caret icon [below the item name][iconic-menu]
 `caret-hidden`  | Hide parent item caret icon
@@ -78,6 +80,8 @@ These classes may be used in `Custom CSS` field at [Item Settings][item-settings
 
 Class Name          | Description
 --------------------|--------------------------
+**Effects**         |
+`navpro-overlay`    | Use [overlay][overlay] when dropdown is active
 **Dropdown Visibility** |
 `xs-hide-dropdown`  | Hide dropdown on mobile devices
 `sm-hide-dropdown`  | Hide dropdown on tablet devices
@@ -105,3 +109,4 @@ Class Name          | Description
 [amazon-menu]: /m2/extensions/navigationpro/use-cases/amazon-menu/ "Amazon Menu"
 [iconic-menu]: /m2/extensions/navigationpro/use-cases/iconic-menu/ "Iconic Menu"
 [stacked-menu]: /m2/extensions/navigationpro/use-cases/stacked-dropdowns/ "Stacked Menu"
+[overlay]: /m2/extensions/navigationpro/use-cases/overlay/ "Overlay"

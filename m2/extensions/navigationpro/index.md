@@ -42,6 +42,7 @@ devices, tablets, and phones.
     - [Complex Dropdown Contents](/m2/extensions/navigationpro/use-cases/complex-content/)
     - [Category Tips (Labels)](/m2/extensions/navigationpro/use-cases/category-tips/)
     - [Sidebar Menu](/m2/extensions/navigationpro/use-cases/sidebar-menu/)
+    - [Overlay](/m2/extensions/navigationpro/use-cases/overlay/)
  8. [Customization](/m2/extensions/navigationpro/customization/)
     - [Custom CSS](/m2/extensions/navigationpro/customization/custom-css/)
     - [LESS variables](/m2/extensions/navigationpro/customization/less-variables/)
