@@ -8,7 +8,7 @@ category: Navigationpro
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" modules="Swissup_Core Swissup_SubscriptionChecker Swissup_Navigationpro" %}
+{% include installation/m2/manual.html site="swissuplabs.com" modules="Swissup_Core Swissup_Rtl Swissup_SubscriptionChecker Swissup_Navigationpro" %}
 
 #### 4. Complete the installation
 
