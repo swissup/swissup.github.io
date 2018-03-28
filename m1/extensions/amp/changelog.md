@@ -7,6 +7,11 @@ category: Accelerated Mobile Pages
 sidebar: sidebar.md
 ---
 
+### Version 1.6.2
+
+ -  Fixed not-working 'Add to Cart' button on category pages at google CDN pages
+ -  Fixed 'Add to compare' links at Google CDN cache pages
+
 ### Version 1.6.1
 
  -  Added ability to disable layered navigation output via configuration
