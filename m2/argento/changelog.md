@@ -7,6 +7,55 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.3.0
+
+> [Upgrade Instructions](/m2/argento/upgrade-instructions/#version-120---130)
+
+ -  We introduce new colorful theme - Argento Stripes. Check it out at [Stripes Theme Demo](http://magento2demo.argentotheme.com/stripes_en/).
+ -  No more "jumping search" during page loading.
+ -  A lot of small fixes and improvements to provide your store the best user experience.
+
+**Extensions Updates**
+
+ - **Ajax Search**
+     +  Category filter for search requests
+     +  Grid layout for suggestions popup.
+
+ - **Ajax Pro**
+     +  Remove product review summary and tabs from add product popup.
+
+ -  **Easybanners**
+     +  Magento 2.1 compatibility.
+     +  Removed url validation as it does not allow to use .html suffix.
+     +  Fixed ‘Undefined variable: options’ error for banners without placeholders.
+
+ -  **Easy Catalog Images**
+     +  Added configurable ‘Departments’ page with masonry layout style.
+
+ -  **Easytabs**
+     +  Expanded tabs layout added.
+
+ -  **Highlight**
+     +  Added ability to show products widget as ajax carousel.
+     +  Fixed bug when you can’t call for multiple widgets with different conditions on the same page.
+
+ -  **Navigation Pro**
+     +  New simplified form to create menu with a few clicks.
+     +  RTL support added.
+     +  [Overlay feature added](http://docs.swissuplabs.com/m2/extensions/navigationpro/use-cases/overlay/).
+
+ -  **ProLabels**
+     +  Optimize labels rendering on storefront.
+
+ -  **SEO Suite**
+     +  *Richsnippets*:
+         +  Do not add rating to snippet when product reviews do not have ratings.
+     +  *SEO URLs*:
+         +  Improve compatibility with not English speaking stores.
+
+ -  **Sold Together**
+     +  New Stripe layout for 'Frequently Bought Together' block. Now can can choose between 'Amazon Inspired' (default) and 'Stripe' layout style.
+
 ### Version 1.2.0
 
 > [Upgrade Instructions](/m2/argento/upgrade-instructions/#version-110---120)
