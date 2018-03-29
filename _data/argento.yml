@@ -112,6 +112,7 @@ m2:
       url: /m2/argento/stripes/
 
   extensions:
+    - ajaxpro
     - ajaxsearch
     - askit
     - attributepages
