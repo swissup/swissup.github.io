@@ -43,3 +43,4 @@ category: Argento
         - [Argento Pure2 homepage](/m2/argento/pure2/page-structure/homepage/)
         - [Argento Mall homepage](/m2/argento/mall/page-structure/homepage/)
         - [Argento Luxury homepage](/m2/argento/luxury/page-structure/homepage/)
+    -   [Adding 'Scroll Up' button](add-scroll-up/)
