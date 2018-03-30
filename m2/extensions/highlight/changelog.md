@@ -10,6 +10,7 @@ category: Highlight
 
 ### Version 1.2.1
 
+ -  Fixed php error when using pagination in ajax carousel
  -  Fixed possible error during `indexer:reindex` command
  -  Fixed possible non-seo product links
  -  Small css fixes

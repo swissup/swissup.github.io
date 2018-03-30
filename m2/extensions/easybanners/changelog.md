@@ -13,6 +13,7 @@ category: Easy Banners
  -  Magento 2.1 compatibility
  -  Removed url validation as it does not allow to use `.html` suffix
  -  Fixed 'Undefined variable: options' error for banners without placeholders
+ -  Fixed 'display_count_per_customer' conditions when FPC is enabled
 
 ### Version 1.2.0
 
