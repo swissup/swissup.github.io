@@ -28,6 +28,7 @@ category: Argento
      +  Magento 2.1 compatibility.
      +  Removed url validation as it does not allow to use .html suffix.
      +  Fixed ‘Undefined variable: options’ error for banners without placeholders.
+     +  Fixed 'display_count_per_customer' conditions when FPC is enabled.
 
  -  **Easy Catalog Images**
      +  Added configurable ‘Departments’ page with masonry layout style.
@@ -38,6 +39,7 @@ category: Argento
  -  **Highlight**
      +  Added ability to show products widget as ajax carousel.
      +  Fixed bug when you can’t call for multiple widgets with different conditions on the same page.
+     +  Fixed php error when using pagination in ajax carousel
 
  -  **Navigation Pro**
      +  New simplified form to create menu with a few clicks.
