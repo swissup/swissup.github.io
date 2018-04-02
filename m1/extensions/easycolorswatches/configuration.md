@@ -31,9 +31,12 @@ Specify the width and height of color thumbnail on the product page as well as o
 
 ![Color swatches](/images/m1/extensions/swatches/configuration-catalog-swatches.png)
 
--   `Event for activation catalog swatch item` - select the value from dropdown. It will allow users change the product image by click on it or on mouseover.  
+-   `Event for activation catalog swatch item` - change the product image by click on it or on mouseover
 
-Specify the image width both for grid and list modes on catalog page. 
+Specify the image width both for grid and list modes on catalog page.
+
+>Starting from version 2.1.5, you can specify width and height using comma as delimiter,
+for example: 400,500
 
 ### Attribute swatches settings
 
