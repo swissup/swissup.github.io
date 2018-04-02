@@ -26,6 +26,7 @@ understanding:
  3. [Wide banner](#footer)
  4. [Tabs and Store Achievements blocks](#products-and-homepage-tabs)
  5. [Brands Slider](#buttons)
+ 6. [Whole homepage code](#whole-homepage-code)
 
 #### Slider and Banners row
 
@@ -137,6 +138,59 @@ Code:
 
 Brands Slider - is a static slider powered by
 [SlickCarousel module](/m2/extensions/slick-carousel/).
+
+#### Whole homepage code
+
+In case if you’ve lost original homepage content, you can get it below:
+
+```html
+{% raw %}<div class="argento-grid row">
+    <div class="col-md-8">
+        {{widget type="Swissup\EasySlide\Block\Slider" identifier="argento_essence"}}
+    </div>
+    <div class="col-md-4">
+        {{widget type="Swissup\Easybanner\Block\Placeholder" placeholder="argento_essence_home_top" banner_css_class="col-xs-4 col-md-12" additional_css_class="argento-grid"}}
+    </div>
+</div>
+<div class="row">{{widget type="Swissup\Easycatalogimg\Block\Widget\SubcategoriesList" category_count="4" subcategory_count="5" column_count="4" show_image="1" image_width="200" image_height="200" template="Swissup_Easycatalogimg::list.phtml"}}</div>
+<div class="row">{{widget type="Swissup\Easybanner\Block\Placeholder" placeholder="argento_essence_home_wide"}}</div>
+<div class="argento-grid row block-products-promo">
+    <div class="blocks-main item col-md-8" data-mage-init='{"argentoTabs": {}}'>
+        {{widget type="Swissup\Highlight\Block\ProductList\NewList" title="New Products" products_count="6" column_count="3" order="default" dir="desc" template="product/widget/content/grid.phtml" show_page_link="1" page_link_title="View All New Products"}}
+        {{widget type="Swissup\Highlight\Block\ProductList\Onsale" title="Special Offers" products_count="6" column_count="3" order="default" dir="desc" template="product/widget/content/grid.phtml"}}
+        {{widget type="Swissup\Highlight\Block\ProductList\Attribute\Yesno" title="Coming soon" attribute_code="coming_soon" products_count="6" column_count="3" order="default" dir="asc" template="product/widget/content/grid.phtml"}}
+    </div>
+    <div class="sidebar blocks-secondary col-md-4">
+        <div class="argento-grid">
+            <div class="col-md-12 col-sm-12">{{widget type="Swissup\Testimonials\Block\Widgets\SideReview"}}</div>
+            <div class="col-md-12 col-sm-6">{{widget type="Swissup\Highlight\Block\ProductList\Bestsellers" title="Bestsellers" products_count="2" template="product/widget/column/list.phtml" period="P6M" show_page_link="1" page_link_title="View All Bestsellers" min_popularity="1"}}</div>
+            <div class="col-md-12 col-sm-6">{{widget type="Swissup\Highlight\Block\ProductList\Popular" title="Popular Products" products_count="2" template="product/widget/column/list.phtml" period="P6M" show_page_link="1" page_link_title="View All Popular Products" min_popularity="1"}}</div>
+        </div>
+    </div>
+</div>
+<div class="block row widget block-promo block-carousel">
+    <div class="block-title">
+        <strong>Featured Brands</strong>
+    </div>
+    <div class="block-content">
+        <div data-mage-init='{"slick": {"slidesToShow": 6, "slidesToScroll": 1, "dots": false, "autoplay": true, "variableWidth": true, "swipeToSlide": true}}'>
+            <div><a href="#"><img src="{{view url='images/brands/sony.jpg'}}" alt="" width="128" height="73"/></a></div>
+            <div><a href="#"><img src="{{view url='images/brands/apple.jpg'}}" alt="" width="70" height="73"/></a></div>
+            <div><a href="#"><img src="{{view url='images/brands/garmin.jpg'}}" alt="" width="154" height="74"/></a></div>
+            <div><a href="#"><img src="{{view url='images/brands/htc.jpg'}}" alt="" width="124" height="74"/></a></div>
+            <div><a href="#"><img src="{{view url='images/brands/intel.jpg'}}" alt="" width="103" height="74"/></a></div>
+            <div><a href="#"><img src="{{view url='images/brands/motorola.jpg'}}" alt="" width="204" height="76"/></a></div>
+            <div><a href="#"><img src="{{view url='images/brands/sony.jpg'}}" alt="" width="128" height="73"/></a></div>
+            <div><a href="#"><img src="{{view url='images/brands/apple.jpg'}}" alt="" width="70" height="73"/></a></div>
+            <div><a href="#"><img src="{{view url='images/brands/garmin.jpg'}}" alt="" width="154" height="74"/></a></div>
+            <div><a href="#"><img src="{{view url='images/brands/htc.jpg'}}" alt="" width="124" height="74"/></a></div>
+            <div><a href="#"><img src="{{view url='images/brands/intel.jpg'}}" alt="" width="103" height="74"/></a></div>
+            <div><a href="#"><img src="{{view url='images/brands/motorola.jpg'}}" alt="" width="204" height="76"/></a></div>
+        </div>
+    </div>
+</div>{% endraw %}
+```
+
 
 ##### Next up
 
