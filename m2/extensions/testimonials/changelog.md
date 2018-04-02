@@ -8,6 +8,10 @@ category: Testimonials
 
 # Changelog
 
+### Version 1.0.10
+
+ -  Minor "Submit testimonial" form improvement to avoid conflict with Magento CSS on storefront.
+
 ### Version 1.0.9
 
  -  Magento 2.2 compatibility

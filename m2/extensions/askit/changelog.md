@@ -11,6 +11,10 @@ category: AskIt
 
 # Changelog
 
+### Version 1.2.14
+
+ -  Few technical changes to submit question form on storefront. Major one - removed css class `.primary` from Submit button.
+
 ### Version 1.2.13
 
 - Add i18n translation

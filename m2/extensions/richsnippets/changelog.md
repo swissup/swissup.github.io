@@ -8,6 +8,10 @@ category: Rich Snippets
 
 # Changelog
 
+### Version 1.1.1
+
+ -  Do not add rating to snippet when product reviews do not have ratings.
+
 ### Version 1.1.0
 
  -  Fixed duplicated product structured data on product page. Now preview feature of Google testing tool works as it should.

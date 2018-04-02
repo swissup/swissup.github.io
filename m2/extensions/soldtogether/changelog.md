@@ -8,6 +8,12 @@ category: SoldTogether
 
 # Changelog
 
+### Version 1.2.5
+
+ -  New Stripe layout for ‘Frequently Bought Together’ block. Now can can choose between ‘Amazon Inspired’ (default) and ‘Stripe’ layout style.
+ -  Improved and fixed customer relations reindex process.
+ -  Fixed exception ‘Item with the same ID already exists’ on storefront.
+ 
 ### Version 1.2.2
 
  -  Code cleanup

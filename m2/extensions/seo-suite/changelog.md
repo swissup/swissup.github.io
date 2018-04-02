@@ -8,6 +8,16 @@ category: SEO Suite
 
 # Changelog
 
+### Version 0.9.1
+
+*Richsnippets*:
+
+ -  Do not add rating to snippet when product reviews do not have ratings.
+
+*SEO URLs*:
+
+ -  Improve compatibility with not English speaking stores.
+
 ### Version 0.9.0
 
 Includes new module [*SEO Pagination*](../../seo-pager/):

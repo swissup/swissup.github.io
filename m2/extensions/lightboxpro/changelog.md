@@ -8,6 +8,11 @@ category: Lightbox Pro
 
 # Changelog
 
+### Version 1.0.1
+
+ -  New config option to set space between thumbnails.
+ -  Fix top thumbnails top margin when thumbnails type is vertical.
+
 ### Version 1.0.0
 
  -  Initial release

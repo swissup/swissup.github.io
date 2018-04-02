@@ -8,6 +8,11 @@ category: Easy Tabs
 
 # Changelog
 
+### Version 1.3.0
+
+ -  Expanded tabs layout added.
+ -  Fix tab's assigned stores output in grid in Magento Admin.
+
 ### Version 1.2.1
 
  -  Widget feature added: add tabs at any page now!

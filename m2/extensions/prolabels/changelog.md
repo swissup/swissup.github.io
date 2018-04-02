@@ -8,6 +8,12 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.0.22
+
+ -  Optimize labels rendering on storefront.
+ -  Fixed invalid discount values calculation for non-base currencies.
+ -  Fixed warning illegal offset during CLI reindex.
+
 ### Version 1.0.19
 
  -  Code cleanup and stability improvements
@@ -18,5 +24,5 @@ category: Prolabels
 
 ### Version 1.0.17
 
- -  Fix missing labels after cron run at some MAgento instances.
+ -  Fix missing labels after cron run at some Magento instances.
  -  ACL improvements according latest Magento requirements.
