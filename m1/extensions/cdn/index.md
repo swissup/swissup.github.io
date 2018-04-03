@@ -44,7 +44,8 @@ gallery:
 
 - [Installation](installation/)
 - [Configuration](configuration/)
-- [Get Ip Keys](get-api-key/)
+- [Get Amazon Ip Keys](get-api-key/)
+- [Use Cases](use-cases/)
 
 Our Magento CDN plugin will help you to integrate most popular CDN providers to your Magento store. Installation and configuration are quite easy and all you need to do is to simply select correct settings in Magento Admin Panel after uploading files. CDN implementation will let your visitors benefit from faster page loads that will lead to increased sales conversions.
 
