@@ -7,6 +7,15 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.2.1
+
+ - Improve tooltip CSS styles
+ - New price slider modern skin
+ - Improve price slider logic (from-to, min-max)
+ - Add MGS theme integration
+ - Change rating attribute input type (hidden=>multiselect)
+ - etc.
+
 ### Version 1.2.0
 
  - Add multiple mode and tooltip (popup)
