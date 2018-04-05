@@ -36,6 +36,7 @@ Check video below to see how drag-and-drop interface and preview feature works.
  1. [Installation](installation/)
  2. [Changelog](changelog/)
  3. [Settings](settings)
+ 4. [Miscellaneous scripts snippets](miscellaneous-scripts-snippets/)
 
 ### Known issues
 

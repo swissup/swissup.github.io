@@ -22,19 +22,24 @@ You can enable or disable extension in this section.
 Field `Miscellaneous scripts and HTML` allows you to insert on checkout success page any Javascript code or HTML. This field can be very useful when
 you have to add Google Adwords or any other conversion tracing code. This field allows to use variables:
 
-| Variable                                  | Description                     |
+| Variable                                  | Description                     | Extension version |
 |-------------------------------------------|---------------------------------|
-| `{% raw %}{{orderId}}{% endraw %}`        | Order number                    |
-| `{% raw %}{{orderAmount}}{% endraw %}`    | Order grand total               |
-| `{% raw %}{{orderBaseAmount}}{% endraw %}`| Order grand total in base currency (useful for multi currency stores) |
-| `{% raw %}{{currency}}{% endraw %}`       | Order currency                  |
-| `{% raw %}{{currencySymbol}}{% endraw %}` | Order currency symbol           |
-| `{% raw %}{{customerEmail}}{% endraw %}`  | Email of customer who placed an order |
-| `{% raw %}{{customerId}}{% endraw %}`     | Id of customer who placed an order |
-| `{% raw %}{{paymentCode}}{% endraw %}`    | Code of payment method for an order |
-| `{% raw %}{{paymentTitle}}{% endraw %}`   | Name of payment method for an order |
-| `{% raw %}{{shippingCode}}{% endraw %}`   | Code of shipping method for an order |
-| `{% raw %}{{shippingTitle}}{% endraw %}`  | Name of shipping method for an order |
+| `{% raw %}{{orderId}}{% endraw %}`        | Order number                    | 1.1.0 |
+| `{% raw %}{{orderAmount}}{% endraw %}`    | Order grand total               | 1.1.0 |
+| `{% raw %}{{orderBaseAmount}}{% endraw %}`| Order grand total in base currency (useful for multi currency stores) | 1.1.0 |
+| `{% raw %}{{orderItems}}{% endraw %}`     | Array of items from order where every item is JSON object | 1.1.3 |
+| `{% raw %}{{currency}}{% endraw %}`       | Order currency                  | 1.1.0 |
+| `{% raw %}{{currencySymbol}}{% endraw %}` | Order currency symbol           | 1.1.0 |
+| `{% raw %}{{customerEmail}}{% endraw %}`  | Email of customer who placed an order | 1.1.0 |
+| `{% raw %}{{customerId}}{% endraw %}`     | Id of customer who placed an order | 1.1.0 |
+| `{% raw %}{{paymentCode}}{% endraw %}`    | Code of payment method for an order | 1.1.0 |
+| `{% raw %}{{paymentTitle}}{% endraw %}`   | Name of payment method for an order | 1.1.0 |
+| `{% raw %}{{shippingCode}}{% endraw %}`   | Code of shipping method for an order | 1.1.0 |
+| `{% raw %}{{shippingTitle}}{% endraw %}`  | Name of shipping method for an order | 1.1.0 |
+
+Most of variables came with extension version 1.1.0. But there some that requiers higher version. Check column "Extension version".
+
+Check ["Miscellaneous scripts snippets"](../miscellaneous-scripts-snippets/) page for some examples.
 
 ### Page Layout
 
