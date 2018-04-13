@@ -7,6 +7,10 @@ category: Order Attachments
 
 # Changelog
 
+### Version 1.1.1
+
+ -  Fixed not working upload functionality on slow internet connections
+
 ### Version 1.1.0
 
  -  Magento EQP errors fixed
