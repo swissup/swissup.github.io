@@ -31,7 +31,7 @@ Examples:
 <img class="hidden-xs" src="..." alt="..."/>
 ```
 
-Please read [official Bootstrap documentation](http://getbootstrap.com/css/#responsive-utilities)
+Please read [official Bootstrap documentation](https://getbootstrap.com/docs/3.3/css/#responsive-utilities)
 for more information.
 
 ### Responsive embed
