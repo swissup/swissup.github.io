@@ -8,7 +8,7 @@ category: Navigationpro
 
 # Open accordion on category click
 
-Open `skin/frontend/base/default/js/tm/navigationpro.js`
+Open `skin/frontend/base/default/tm/navigationpro/js/navpro.js`
 
 and find the following lines (~332-335):
 
