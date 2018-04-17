@@ -8,6 +8,13 @@ category: Abandoned Cart
 
 # Changelog
 
+### Version 1.2.6
+
+ -  Add custom quote address attribute
+ -  Add export history and rules to csv and xml
+ -  Add leave page functionality
+ -  etc.
+
 ### Version 1.2.5
 
  -  Fix potential xss
