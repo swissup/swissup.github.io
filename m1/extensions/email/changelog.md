@@ -7,6 +7,12 @@ category: Email
 
 # Changelog
 
+### Version 1.1.10
+
+- Add sent emails grid
+- Add possibility to set transport for every store email
+- etc.
+
 ### Version 1.1.9
 
  -  Source code improvements.
