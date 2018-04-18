@@ -44,3 +44,4 @@ category: Argento
         - [Argento Mall homepage](/m2/argento/mall/page-structure/homepage/)
         - [Argento Luxury homepage](/m2/argento/luxury/page-structure/homepage/)
     -   [Adding 'Scroll Up' button](add-scroll-up/)
+    -   [Removing default footer links](removing-default-footer-links/)
