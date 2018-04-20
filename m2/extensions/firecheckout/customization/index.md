@@ -18,5 +18,6 @@ category: Firecheckout
         - [Add header/navigation block](change-page-layout/)
         - [Move order totals below cart items](move-order-totals-below-cart-items/)
         - [Hide useless checkout section](hide-useless-checkout-section/)
-    - Address Form
+    - Form Fields
         - [Email verification field](email-verification-field/)
+        - [Field mask/formatter](field-mask/)
