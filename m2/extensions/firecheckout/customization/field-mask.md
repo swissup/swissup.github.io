@@ -16,7 +16,7 @@ category: Firecheckout
 
     ```js
     define([
-        'Swissup_Firecheckout/js/lib/field-mask'
+        'Swissup_Firecheckout/js/model/field-mask'
     ], function(mask) {
         'use strict';
 
