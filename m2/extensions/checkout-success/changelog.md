@@ -8,6 +8,12 @@ category: Checkout Success
 
 # Changelog
 
+### Version 1.1.3
+
+ -  New variable added into Miscellaneous scripts: `{% raw %}{{orderItems}}{% endraw %}`.
+    [Read docs](/m2/extensions/checkout-success/miscellaneous-scripts-snippets/)
+    for more information.
+
 ### Version 1.1.2
 
  -  Fixed missing 'registration' block in some third-party themes
