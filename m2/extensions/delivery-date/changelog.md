@@ -7,6 +7,10 @@ category: Delivery Date
 
 # Changelog
 
+### Version 1.1.3
+
+ -  Properly hide delivery date section if it's invisible
+
 ### Version 1.1.2
 
  -  Added 'Enabled' option (Disabled by default)
