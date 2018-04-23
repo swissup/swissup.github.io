@@ -8,6 +8,10 @@ category: Checkout Cart
 
 # Changelog
 
+### Version 1.1.4
+
+ -  Fixed styles compatibility with firecheckout 1.10.0
+
 ### Version 1.1.3
 
  -  Order totals moved below cart items by default
