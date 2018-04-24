@@ -10,6 +10,7 @@ category: Delivery Date
 ### Version 1.1.3
 
  -  Properly hide delivery date section if it's invisible
+ -  Improved compatibility with third-party modules
 
 ### Version 1.1.2
 
