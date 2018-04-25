@@ -73,4 +73,4 @@ category: Argento
 
  -  [Placing header above the slider at homepage](/m1/argento/luxury/customization/#placing-header-above-the-slider-at-homepage)
  -  [Move product tabs under product image](/m1/argento/luxury/customization/#move-product-tabs-under-product-image)
- 
+ -  [Change homepage slider to video cover](/m1/argento/luxury/customization/#change-homepage-slider-to-video-cover)
