@@ -1,0 +1,29 @@
+- href: /images/m2/customer-field-manager/grid.png
+  src: /images/m2/customer-field-manager/small/grid.png
+  w: 994
+  h: 922
+  title: Customer Field Manager grid interface.
+
+- href: /images/m2/customer-field-manager/form.png
+  src: /images/m2/customer-field-manager/small/form.png
+  w: 871
+  h: 842
+  title: Create new customer field form.
+
+- href: /images/m2/customer-field-manager/admin-customer-edit.png
+  src: /images/m2/customer-field-manager/small/admin-customer-edit.png
+  w: 910
+  h: 700
+  title: Custom fields on admin customer edit form.
+
+- href: /images/m2/customer-field-manager/customer-register.png
+  src: /images/m2/customer-field-manager/small/customer-register.png
+  w: 656
+  h: 1135
+  title: Custom fields on customer registration page.
+
+- href: /images/m2/customer-field-manager/customer-edit.png
+  src: /images/m2/customer-field-manager/small/customer-edit.png
+  w: 773
+  h: 860
+  title: Custom fields on customer edit page.

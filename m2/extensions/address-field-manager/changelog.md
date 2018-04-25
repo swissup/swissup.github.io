@@ -8,6 +8,12 @@ category: Address Field Manager
 
 # Changelog
 
+### Version 1.3.0
+
+ -  Fixed not working state/region sort order
+ -  Fixed infinite address review redraw in Magento 2.1
+ -  Fixed custom fields styles on address edit page on frontend
+
 ### Version 1.2.0
 
  -  Added ability to create custom address fields
