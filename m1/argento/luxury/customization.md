@@ -12,6 +12,7 @@ category: Argento
 
  1. [Placing header above the slider at homepage](#placing-header-above-the-slider-at-homepage)
  2. [Move product tabs under product image](#move-product-tabs-under-product-image)
+ 3. [Change homepage slider to video cover](#change-homepage-slider-to-video-cover)
 
 ### Placing header above the slider at homepage
 
@@ -105,9 +106,136 @@ some XML layout update intsructions.
 `*` Wrap code above into `<layout version="0.1.0">`...`</layout>` if you
 created new custom.xml and not edit existing one.
 
-Flush Magento cahce and check frontend. 
+Flush Magento cahce and check frontend.
 
 You should see product tabs under product image. Now you may want to disable
 additional tabs. So find CSM block with id `product_page_additional_tabs`,
 disable it and flush Magento cahce one morew time.
 
+### Change homepage slider to video cover
+
+<div style="padding:57.32% 0 0 0;position:relative;">
+    <iframe src="https://player.vimeo.com/video/266479794?autoplay=1&loop=1&color=ff4081" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+
+ 1. Go to `CMS > Static Blocks` and create New block: i.e. `video_background` with
+    content:
+
+    ```html
+    {% raw %}
+       <div class="title-container">
+            <h4>New Style</h4>
+            <h1>Urban Summer</h1>
+            <button class="button btn-alt">
+                <span><span>Shop Now</span></span>
+            </button>
+        </div>
+
+        <video autoplay loop class="fillWidth homepage-video" >
+            <source src="{{skin url="video/Under.mp4"}}" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+            <source src="{{skin url="video/Under.webm"}}" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+        </video>
+    {% endraw %}
+    ```
+
+    > where `video/Under.webm` and `video/Under.mp4` are the pathes to
+    > folder where your video files are stored: _skin/frontend/argento/luxury/_
+    > Also you can change the `title-container` section to your content
+ 2. Create _skin/frontend/argento/luxury/video_ and put the background video
+    files there
+ 3. Create the background cover styles file `skin/frontend/argento/luxury/css/video-cover.css`:
+
+    ```css
+    .jumbotron-slider {
+      box-sizing: border-box;
+      position: relative;
+
+      overflow: hidden;
+      z-index: 0;
+    }
+
+    .title-container {
+        position: absolute;
+        top: 40%;
+        text-align: center;
+        margin: 0 auto;
+        z-index: 1;
+        width: 100%;
+    }
+    .title-container h1,
+    .title-container h4{
+        color: #fafafa;
+        text-transform: uppercase;
+    }
+    .title-container h1 {
+        font-size: 55px;
+        letter-spacing: 50px;
+    }
+    .title-container h4:after {
+        content: "";
+        display: block;
+        width: 40px;
+        height: 5px;
+        background-color: #ea8e6a;
+        margin: 16px auto;
+        margin-bottom: 0;
+    }
+    .title-container button.button span{
+        background-color: transparent;
+        color: #fff;
+        border: 1px solid #fff;
+        min-width: 200px;
+    }
+    .title-container button.button span span {
+        text-transform: uppercase;
+        font-size: 14px;
+        background-color: transparent !important;
+        height: auto;
+        line-height: 36px;
+    }
+
+    video.homepage-video {
+        width: 100%;
+        height: 100%;
+    }
+    @media (min-aspect-ratio: 16/9) {
+      video.homepage-video {
+        height: 100%;
+        top: -10%;
+      }
+    }
+
+    @media (max-width: 768px) {
+      video.homepage-video {
+        width: 300%;
+        left: -100%;
+      }
+    }
+    ```
+ 4. [Create](../../theme-customization/small-changes/#custom-layout-update-file)
+    the `custom.xml` and call `video-cover.css` from it:
+
+    ```xml
+    <layout version="0.1.0">
+    <default>
+        <reference name="head">
+            <action method="addItem"><type>skin_css</type><name>css/video-cover.css</name></action>
+        </reference>
+    </default>
+    ```
+ 5. Go to `CMS > Pages` and open `home` page from luxury theme
+ 6. Find `homepage slider` line:
+
+    ```html
+    {% raw %}
+    {{widget type="easyslide/insert" slider_id="argento_luxury"}}
+    {% endraw %}
+    ```
+
+    and change it to your `video_background` widget call:
+
+    ```html
+    {% raw %}
+    {{widget type="cms/widget_block" template="cms/widget/static_block/default.phtml" block_id="video_background"}}
+    {% endraw %}
+    ```
