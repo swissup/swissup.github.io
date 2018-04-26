@@ -33,3 +33,5 @@ display products filtered by custom filters.
 4. [Pages](pages/)
     - [Available Pages](pages/#available-pages)
     - [Page Settings](pages/#settings)
+5. [FAQ](faq/)
+    - [Highlight is showing all products](faq/#highlight-is-showing-all-products)

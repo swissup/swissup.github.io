@@ -49,5 +49,8 @@ Product listing filtered by option | Brand landing page
 - [Display activity and material blocks on product page](use-cases/blocks-on-product-page/)
 - [Display activity block on category page](use-cases/activity-block-on-category-page/)
 
+##### [FAQ](faq/)
+- [Option page is showing all products](faq/#option-page-is-showing-all-products)
+
 [block_on_product_page]: use-cases/blocks-on-product-page/ "Display activity and material blocks on product page"
 [block_on_category_page]: use-cases/activity-block-on-category-page/ "Display activity block on category page"
