@@ -18,6 +18,9 @@ See the `swissup/firecheckout/view/frontend/web/css/abstracts/_variables.less` f
 
 Group               | Variable name                 | Default value
 --------------------|-------------------------------|--------------
+**CSS Selectors**   |                               |
+|@opc-container-selector                            | `~"#checkout"`
+|@opc-wrapper-selector                              | `~"#checkout .opc-wrapper"`
 **Responsive breakpoints** |                        |
 |@firecheckout__size__small                         | `640px`
 |@firecheckout__size__base                          | `768px`
@@ -26,12 +29,16 @@ Group               | Variable name                 | Default value
 |@firecheckout-page-wide__width                     | `1280px`
 |@firecheckout-page-narrow__width                   | `980px`
 **Section variables** |                             |
-|@firecheckout-section__gap                         | `15px`
-|@firecheckout-section__padding                     | `10px 12px`
-|@firecheckout-section__background                  | `#fcfcfc`
-|@firecheckout-section__border                      | `1px solid rgba(0, 0, 0, 0.1)`
-|@firecheckout-section-desktop__gap                 | `30px`
+|@firecheckout-section__gap                         | `10px`
+|@firecheckout-section__padding                     | `15px`
+|@firecheckout-section__background                  | `#fff`
+|@firecheckout-section__border-color                | `darken(@firecheckout-section__background, 10%)`
+|@firecheckout-section__border                      | `1px solid @firecheckout-section__border-color`
+|@firecheckout-section__border-radius               | `0`
+|@firecheckout-section__box-shadow                  | `none`
+|@firecheckout-section-desktop__gap                 | `15px`
 **Section numbers variables** |                     |
+|@firecheckout-section__number-width                | `23px`
 |@firecheckout-section__number-height               | `23px`
 |@firecheckout-section__number-color                | `#fff`
 |@firecheckout-section__number-background-color     | `#000`
@@ -46,6 +53,8 @@ Group               | Variable name                 | Default value
 |@opc-wrapper-selector                              | `~".opc-wrapper"`
 **Form variables** |                                |
 |@firecheckout-form-compact__field-width            | `50%`
+|@firecheckout-form-compact__l__field-width         | `100% / 3`
+|@firecheckout-form-compact__xs__field-width        | `100%`
 |@firecheckout-form-field__border-width             | `1px`
 |@firecheckout-form-field__border-color             | `#ccc`
 |@firecheckout-form-field__background-color         | `#fff`
@@ -55,6 +64,7 @@ Group               | Variable name                 | Default value
 |@firecheckout-form-checkbox__background-image      | `'data:image/png;base64,iV...`
 |@firecheckout-form-radio__background-image         | `'data:image/svg+xml;base64,PD...`
 **Modal popup styles** |                            |
+|@firecheckout-modal__popup-background              | `@firecheckout-section__background`
 |@firecheckout-modal__popup-effect                  | `'slide-up'` `[zoom|slide-down|slide-up]`
 |@firecheckout-modal__popup-box-shadow              | `0 0 20px rgba(0, 0, 0, 0.3)`
 |@firecheckout-modal__overlay-background            | `rgba(0, 0, 0, 0.2)`
@@ -65,6 +75,11 @@ Group               | Variable name                 | Default value
 |@firecheckout-tooltip-content__border-width        | `1px`
 |@firecheckout-tooltip-content__border-color        | `#fff`
 |@firecheckout-tooltip-content__width:              | `200px`
+**Tiny scrollbar styles**                           |
+|@firecheckout-scrollbar__size                      | `6px;`
+|@firecheckout-scrollbar__border-radius             | `10px;`
+|@firecheckout-scrollbar__background-color          | `darken(@firecheckout-section__background, 10%);`
+|@firecheckout-scrollbar-thumb__background-color    | `darken(@firecheckout-scrollbar__background-color, 20%)`
 
 ##### Next up
 
