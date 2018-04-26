@@ -24,6 +24,7 @@ faster and easier by providing them a simple checkout form.
     - [Address Field Manager](/m2/extensions/address-field-manager/)
     - [Checkout Cart](/m2/extensions/checkout-cart/)
     - [Checkout Fields](/m2/extensions/checkout-fields/)
+    - [Customer Field Manager](/m2/extensions/customer-field-manager/)
     - [Delivery Date](/m2/extensions/delivery-date/)
     - [GeoIp](/m2/extensions/geoip/)
     - [Order Attachments](/m2/extensions/order-attachments/)
