@@ -36,7 +36,8 @@ and Field Mask feature!
 
  -  Removed hardcoded dependencies from other checkout modules, so you can
     omit them during installation.
- -  [DeliveryDate](/m2/extensions/delivery-date/),
+ -  [AddressAutocomplete](/m2/extensions/address-autocomplete/)
+    [DeliveryDate](/m2/extensions/delivery-date/),
     [CheckoutCart](/m2/extensions/checkout-cart/),
     [CheckoutSuccess](/m2/extensions/checkout-success),
     [OrderAttachment](/m2/extensions/order-attachment/)
