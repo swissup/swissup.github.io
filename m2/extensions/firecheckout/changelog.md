@@ -8,6 +8,45 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.10.0
+
+Firecheckout **1.10.0** brings new [CustomerFieldManager](/m2/extensions/customer-field-manager/),
+more awesomeness on mobile phones, bulletproof third-party themes compatibility,
+and Field Mask feature!
+
+{% include gallery.html images=site.data.gallery.m2.firecheckout.changelog.v1100 class="phone-up-2 tablet-up-3 photoswipe scroll" %}
+
+**Major Updates**
+
+ -  New [CustomerFieldManager](/m2/extensions/customer-field-manager/) module included
+ -  Mobile styles improved a lot:
+    - Added more consistency into checkout styles
+    - Order review section is now visible on the phones too
+    - Step numbers added to mobile styles
+    - Modal popup styles improved (Sign in form, Agreements popup)
+ -  Three fields in a row in the address form when parent container is wide enough.
+ -  More third-party themes compatibility. Had to increase the weight of CSS
+    selectors with ID attribute to beat a bunch on Templates-Monster themes.
+ -  [Field mask](/m2/extensions/firecheckout/customization/field-mask/)
+    component added.
+ -  [dev] Xrayquire debugger added to quickly find out buggy modules that cause not
+    working checkout page.
+
+**Modules Updates**
+
+ -  Removed hardcoded dependencies from other checkout modules, so you can
+    omit them during installation.
+ -  [DeliveryDate](/m2/extensions/delivery-date/),
+    [CheckoutCart](/m2/extensions/checkout-cart/),
+    [CheckoutSuccess](/m2/extensions/checkout-success),
+    [OrderAttachment](/m2/extensions/order-attachment/)
+    updated to the latest versions.
+
+**Third-party modules**
+
+ -  ClassyLlama_AvaTax address verification seamlessly integrated into expanded
+    layout modes
+
 ### Version 1.9.0
 
  -  Cleaner [checkout styles](/m2/extensions/firecheckout/#&gid=1&pid=1)

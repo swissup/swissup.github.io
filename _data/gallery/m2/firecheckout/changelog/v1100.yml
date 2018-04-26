@@ -1,0 +1,33 @@
+- title: Improved mobile styles. Field masks on the phone and fax fields.
+  href: /images/m2/firecheckout/changelog/1100/phone-shipping-address.png
+  src: /images/m2/firecheckout/changelog/1100/small/phone-shipping-address.png
+  w: 433
+  h: 878
+- title: Order summary section on the phone
+  href: /images/m2/firecheckout/changelog/1100/phone-order-summary.png
+  src: /images/m2/firecheckout/changelog/1100/small/phone-order-summary.png
+  w: 433
+  h: 878
+- title: Nice popup styles on mobile devices
+  href: /images/m2/firecheckout/changelog/1100/phone-agreements-popup.png
+  src: /images/m2/firecheckout/changelog/1100/small/phone-agreements-popup.png
+  w: 433
+  h: 878
+- title: Place three fields in a row when parent container is wide enough
+  href: /images/m2/firecheckout/changelog/1100/address-three-fields-in-a-row.png
+  src: /images/m2/firecheckout/changelog/1100/small/address-three-fields-in-a-row.png
+  w: 646
+  h: 592
+- title: Minimalistic scrollbar style when cart has many items (Chrome only)
+  href: /images/m2/firecheckout/changelog/1100/minicart-scrollbar.png
+  src: /images/m2/firecheckout/changelog/1100/small/minicart-scrollbar.png
+  w: 367
+  h: 643
+- title: >
+    ClassyLlama_AvaTax Address Verification integration with expanded layout.
+    Popup appears when user clicks "Place Order". If address is correct -
+    an order will be placed without interruption.
+  href: /images/m2/firecheckout/changelog/1100/classyllama-avatax-address-verification.png
+  src: /images/m2/firecheckout/changelog/1100/small/classyllama-avatax-address-verification.png
+  w: 1350
+  h: 734
