@@ -7,6 +7,11 @@ category: Address Autocomplete
 
 # Changelog
 
+### Version 1.0.7
+
+ -  Fixed API authFailure processing on slow networks
+ -  Code refactoring
+
 ### Version 1.0.6
 
  -  Add country config option (Restrict the search to a specific countries)
