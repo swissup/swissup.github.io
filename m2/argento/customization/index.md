@@ -45,3 +45,4 @@ category: Argento
         - [Argento Luxury homepage](/m2/argento/luxury/page-structure/homepage/)
     -   [Adding 'Scroll Up' button](add-scroll-up/)
     -   [Removing default footer links](removing-default-footer-links/)
+    -   [Moving category header to main content](moving-category-header-to-main-content/)
