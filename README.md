@@ -12,12 +12,14 @@ gem install bundler
 bundle install && bower install && npm install
 ```
 
-### Runing Locally
+### Updating
+
+```bash
+git pull && bundle install && bower install && npm install
+```
+
+### Running
 
 ```bash
 gulp
-
-# OR
-
-bundle exec jekyll serve
 ```
