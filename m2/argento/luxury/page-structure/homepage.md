@@ -65,6 +65,8 @@ In order to change columns count, image width and other options you can use
 Magento's built-in widget editor, or you can manually change appropriate attribute
 in code above.
 
+> Note: Please, upload images in `Catalog > Categories > [your category]` for thumbnails field. They should have dimensions: `width="382px"` and `height="565px"`
+
 #### New Products
 
 ![Highlight](/images/m2/argento/luxury/homepage-content/highlight.png)
