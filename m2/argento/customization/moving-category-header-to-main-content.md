@@ -1,18 +1,18 @@
 ---
 layout: default
 title: Moving category header to main content
-description:Moving category header to main content
+description: Moving category header to main content
 keywords: >
     categoty, header
 category: Argento
 ---
 
 # Moving category header to main content
----
 
   * [Create](http://docs.swissuplabs.com/m2/argento/customization/custom-theme/#create-custom-theme) a custom Argento theme
   * Create/add `Magento_Catalog/layout/catalog_category_view.xml` in your _custom theme_
   * Add following content to it:
+
     ```xml
     <?xml version="1.0"?>
     <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
@@ -22,4 +22,5 @@ category: Argento
         </body>
     </page>
     ```
+
   * Flush the store cache
