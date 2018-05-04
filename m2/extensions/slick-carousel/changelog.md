@@ -8,6 +8,11 @@ category: SlickCarousel
 
 # Changelog
 
+### Version 1.1.3
+
+ -  Prevent 'jumping' styles when carousel is initialized
+ -  Prevent horizontal scrollbar on small screen devices
+
 ### Version 1.1.2
 
  -  Fixed possible horizontal scrollbar when using padding on a parent container

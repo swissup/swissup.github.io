@@ -8,6 +8,17 @@ category: Highlight
 
 # Changelog
 
+### Version 1.2.2
+
+ -  Magento 2.2.4 compatibility (No limit is applied to product listing)
+ -  Fixed mysql error, when using flat categories
+ -  Fixed possible 'Undefined index' warning when config is copied from Magento 1
+ -  Fixed filters by conditions when cache is enabled
+ -  Added RTL support when using ajax carousel
+ -  Prevent random sort order when attribute value of different products is the same
+    New products with the same 'new_from' attribute, for example.
+ -  Fixed isLastPage detection in carousel mode
+
 ### Version 1.2.1
 
  -  Fixed php error when using pagination in ajax carousel
