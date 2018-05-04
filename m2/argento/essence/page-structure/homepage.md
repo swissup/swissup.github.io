@@ -90,15 +90,15 @@ Code:
 ```html
 <div class="argento-grid row block-products-promo">
     <div class="blocks-main item col-md-8" data-mage-init='{"argentoTabs": {}}'>
-        {% raw %}{{widget type="Swissup\Highlight\Block\ProductList\NewList" title="New Products" products_count="6" column_count="3" order="default" dir="desc" template="product/widget/content/grid.phtml" show_page_link="1" page_link_title="View All New Products" conditions_encoded="a:1:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]]"}}{% endraw %}
-        {% raw %}{{widget type="Swissup\Highlight\Block\ProductList\Onsale" title="Special Offers" products_count="6" column_count="3" order="default" dir="desc" template="product/widget/content/grid.phtml" conditions_encoded="a:1:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]]"}}{% endraw %}
-        {% raw %}{{widget type="Swissup\Highlight\Block\ProductList\Attribute\Yesno" title="Coming soon" attribute_code="coming_soon" products_count="6" column_count="3" order="default" dir="asc" template="product/widget/content/grid.phtml" conditions_encoded="a:1:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]]"}}{% endraw %}
+        {% raw %}{{widget type="Swissup\Highlight\Block\ProductList\NewList" title="New Products" products_count="6" column_count="3" order="default" dir="desc" template="Swissup_Highlight::product/list.phtml" mode="grid" show_page_link="1" page_link_title="View All New Products"}}{% endraw %}
+        {% raw %}{{widget type="Swissup\Highlight\Block\ProductList\Onsale" title="Special Offers" products_count="6" column_count="3" order="default" dir="desc" template="Swissup_Highlight::product/list.phtml" mode="grid"}}{% endraw %}
+        {% raw %}{{widget type="Swissup\Highlight\Block\ProductList\Attribute\Yesno" title="Coming soon" attribute_code="coming_soon" products_count="6" column_count="3" order="default" dir="asc" template="Swissup_Highlight::product/list.phtml" mode="grid"}}{% endraw %}
     </div>
     <div class="sidebar blocks-secondary col-md-4">
         <div class="argento-grid">
             <div class="col-md-12 col-sm-12">{% raw %}{{widget type="Swissup\Testimonials\Block\Widgets\SideReview"}}{% endraw %}</div>
-            <div class="col-md-12 col-sm-6">{% raw %}{{widget type="Swissup\Highlight\Block\ProductList\Bestsellers" title="Bestsellers" products_count="2" template="product/widget/column/list.phtml" period="P6M" show_page_link="1" page_link_title="View All Bestsellers" min_popularity="1" conditions_encoded="a:1:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]]"}}{% endraw %}</div>
-            <div class="col-md-12 col-sm-6">{% raw %}{{widget type="Swissup\Highlight\Block\ProductList\Popular" title="Popular Products" products_count="2" template="product/widget/column/list.phtml" period="P6M" show_page_link="1" page_link_title="View All Popular Products" min_popularity="1" conditions_encoded="a:1:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]]"}}{% endraw %}</div>
+            <div class="col-md-12 col-sm-6">{% raw %}{{widget type="Swissup\Highlight\Block\ProductList\Bestsellers" title="Bestsellers" products_count="2" template="product/widget/column/list.phtml" period="P6M" show_page_link="1" page_link_title="View All Bestsellers" min_popularity="1"}}{% endraw %}</div>
+            <div class="col-md-12 col-sm-6">{% raw %}{{widget type="Swissup\Highlight\Block\ProductList\Popular" title="Popular Products" products_count="2" template="product/widget/column/list.phtml" period="P6M" show_page_link="1" page_link_title="View All Popular Products" min_popularity="1"}}{% endraw %}</div>
         </div>
     </div>
 </div>
@@ -127,7 +127,7 @@ Code:
         <strong>Featured Brands</strong>
     </div>
     <div class="block-content">
-        <div data-mage-init='{"slick": {"slidesToShow": 6, "slidesToScroll": 1, "dots": false, "autoplay": true, "variableWidth": true, "swipeToSlide": true}}'>
+        <div class="slick-slider" data-mage-init='{"slick": {"slidesToShow": 6, "slidesToScroll": 1, "dots": false, "autoplay": true, "variableWidth": true, "swipeToSlide": true}}'>
             <div><a href="#"><img src="{% raw %}{{view url='images/brands/sony.jpg'}}{% endraw %}" alt="" width="128" height="73"/></a></div>
             <div><a href="#"><img src="{% raw %}{{view url='images/brands/apple.jpg'}}{% endraw %}" alt="" width="70" height="73"/></a></div>
             ...
@@ -152,13 +152,16 @@ In case if you’ve lost original homepage content, you can get it below:
         {{widget type="Swissup\Easybanner\Block\Placeholder" placeholder="argento_essence_home_top" banner_css_class="col-xs-4 col-md-12" additional_css_class="argento-grid"}}
     </div>
 </div>
+
 <div class="row">{{widget type="Swissup\Easycatalogimg\Block\Widget\SubcategoriesList" category_count="4" subcategory_count="5" column_count="4" show_image="1" image_width="200" image_height="200" template="Swissup_Easycatalogimg::list.phtml"}}</div>
+
 <div class="row">{{widget type="Swissup\Easybanner\Block\Placeholder" placeholder="argento_essence_home_wide"}}</div>
+
 <div class="argento-grid row block-products-promo">
-    <div class="blocks-main item col-md-8" data-mage-init='{"argentoTabs": {}}'>
-        {{widget type="Swissup\Highlight\Block\ProductList\NewList" title="New Products" products_count="6" column_count="3" order="default" dir="desc" template="product/widget/content/grid.phtml" show_page_link="1" page_link_title="View All New Products"}}
-        {{widget type="Swissup\Highlight\Block\ProductList\Onsale" title="Special Offers" products_count="6" column_count="3" order="default" dir="desc" template="product/widget/content/grid.phtml"}}
-        {{widget type="Swissup\Highlight\Block\ProductList\Attribute\Yesno" title="Coming soon" attribute_code="coming_soon" products_count="6" column_count="3" order="default" dir="asc" template="product/widget/content/grid.phtml"}}
+    <div class="blocks-main item col-md-8 argento-tabs" data-mage-init='{"argentoTabs": {}}'>
+        {{widget type="Swissup\Highlight\Block\ProductList\NewList" title="New Products" products_count="6" column_count="3" order="default" dir="desc" template="Swissup_Highlight::product/list.phtml" mode="grid" show_page_link="1" page_link_title="View All New Products"}}
+        {{widget type="Swissup\Highlight\Block\ProductList\Onsale" title="Special Offers" products_count="6" column_count="3" order="default" dir="desc" template="Swissup_Highlight::product/list.phtml" mode="grid"}}
+        {{widget type="Swissup\Highlight\Block\ProductList\Attribute\Yesno" title="Coming soon" attribute_code="coming_soon" products_count="6" column_count="3" order="default" dir="asc" template="Swissup_Highlight::product/list.phtml" mode="grid"}}
     </div>
     <div class="sidebar blocks-secondary col-md-4">
         <div class="argento-grid">
@@ -168,12 +171,13 @@ In case if you’ve lost original homepage content, you can get it below:
         </div>
     </div>
 </div>
+
 <div class="block row widget block-promo block-carousel">
     <div class="block-title">
         <strong>Featured Brands</strong>
     </div>
     <div class="block-content">
-        <div data-mage-init='{"slick": {"slidesToShow": 6, "slidesToScroll": 1, "dots": false, "autoplay": true, "variableWidth": true, "swipeToSlide": true}}'>
+        <div class="slick-slider" data-mage-init='{"slick": {"slidesToShow": 6, "slidesToScroll": 1, "dots": false, "autoplay": true, "variableWidth": true, "swipeToSlide": true}}'>
             <div><a href="#"><img src="{{view url='images/brands/sony.jpg'}}" alt="" width="128" height="73"/></a></div>
             <div><a href="#"><img src="{{view url='images/brands/apple.jpg'}}" alt="" width="70" height="73"/></a></div>
             <div><a href="#"><img src="{{view url='images/brands/garmin.jpg'}}" alt="" width="154" height="74"/></a></div>

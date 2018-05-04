@@ -102,7 +102,7 @@ New Products | Special Offers | Bestsellers
 ```html
 <div class="jumbotron hero">
     <div class="container">
-        {% raw %}{{widget type="Swissup\Highlight\Block\ProductList\NewList" title="New Products" products_count="4" column_count="4" order="default" dir="desc" template="product/widget/content/grid.phtml" show_page_link="1" page_link_position="top" page_link_title="Browse all new products at our store &raquo;"}}{% endraw %}
+        {% raw %}{{widget type="Swissup\Highlight\Block\ProductList\NewList" title="New Products" products_count="4" column_count="4" order="default" dir="desc" template="Swissup_Highlight::product/list.phtml" mode="grid" show_page_link="1" page_link_position="top" page_link_title="Browse all new products at our store &raquo;"}}{% endraw %}
     </div>
 </div>
 
@@ -110,13 +110,13 @@ New Products | Special Offers | Bestsellers
     <div class="cover"><div class="left triangle"></div><div class="right triangle"></div></div>
     <div class="stub"></div>
     <div class="container">
-        {% raw %}{{widget type="Swissup\Highlight\Block\ProductList\Onsale" title="Special Offer" products_count="4" column_count="4" order="default" dir="desc" template="product/widget/content/grid.phtml" show_page_link="1" page_link_position="top" page_link_title="Browse all on sale products at out store &raquo;"}}{% endraw %}
+        {% raw %}{{widget type="Swissup\Highlight\Block\ProductList\Onsale" title="Special Offer" products_count="4" column_count="4" order="default" dir="desc" template="Swissup_Highlight::product/list.phtml" mode="grid" show_page_link="1" page_link_position="top" page_link_title="Browse all on sale products at out store &raquo;"}}{% endraw %}
     </div>
 </div>
 
 <div class="jumbotron hero no-padding-top">
     <div class="container">
-        {% raw %}{{widget type="Swissup\Highlight\Block\ProductList\Bestsellers" title="Bestsellers" products_count="4" column_count="4" template="product/widget/content/grid.phtml" period="P6M" show_page_link="1" page_link_position="top" page_link_title="Browse all bestseller products at our store &raquo;" min_popularity="1"}}{% endraw %}
+        {% raw %}{{widget type="Swissup\Highlight\Block\ProductList\Bestsellers" title="Bestsellers" products_count="4" column_count="4" template="Swissup_Highlight::product/list.phtml" mode="grid" period="P6M" show_page_link="1" page_link_position="top" page_link_title="Browse all bestseller products at our store &raquo;" min_popularity="1"}}{% endraw %}
     </div>
 </div>
 ```
@@ -207,7 +207,7 @@ Code:
                 <p class="subtitle">check most trusted brands from more then 50 leading manufactures presented at our store.</p>
             </div>
             <div class="block-content">
-                <div data-mage-init='{"slick": {"slidesToShow": 6, "slidesToScroll": 1, "dots": false, "autoplay": true, "variableWidth": true, "swipeToSlide": true}}'>
+                <div class="slick-slider" data-mage-init='{"slick": {"slidesToShow": 6, "slidesToScroll": 1, "dots": false, "autoplay": true, "variableWidth": true, "swipeToSlide": true}}'>
                     <a href="#"><img src="{% raw %}{{view url='images/catalog/brands/life_extension.gif'}}{% endraw %}" alt="Life Extension"/></a>
                     <a href="#"><img src="{% raw %}{{view url='images/catalog/brands/gnc.gif'}}{% endraw %}" alt="GNC"/></a>
                     ...
@@ -226,10 +226,10 @@ Brands Slider - is a static slider powered by
 In case if you’ve lost original homepage content, you can get it below:
 
 ```html
-<div class="jumbotron jumbotron-image no-padding">
+{% raw %}<div class="jumbotron jumbotron-image no-padding">
     <div class="cover cover-pastel"><div class="left triangle"></div><div class="right triangle"></div></div>
     <div class="container">
-        {% raw %}{{widget type="Swissup\EasySlide\Block\Slider" identifier="argento_flat"}}{% endraw %}
+        {{widget type="Swissup\EasySlide\Block\Slider" identifier="argento_flat"}}
     </div>
 </div>
 
@@ -240,20 +240,20 @@ In case if you’ve lost original homepage content, you can get it below:
                 <strong>Shop Our Store for</strong>
                 <p class="subtitle no-margin">more than 25,000 health products including vitamins, herbs, sport supplements, diet and much more!</p>
             </div>
-            {% raw %}{{widget type="Swissup\Easycatalogimg\Block\Widget\SubcategoriesList" category_count="4" subcategory_count="1" column_count="4" show_image="1" image_width="200" image_height="200" template="Swissup_Easycatalogimg::list.phtml"}}{% endraw %}
+            {{widget type="Swissup\Easycatalogimg\Block\Widget\SubcategoriesList" category_count="4" subcategory_count="1" column_count="4" show_image="1" image_width="200" image_height="200" template="Swissup_Easycatalogimg::list.phtml"}}
         </div>
     </div>
 </div>
 
 <div class="jumbotron jumbotron-pastel-alt no-padding">
     <div class="container">
-        {% raw %}{{widget type="Swissup\Easybanner\Block\Placeholder" placeholder="argento_flat_home_wide"}}{% endraw %}
+        {{widget type="Swissup\Easybanner\Block\Placeholder" placeholder="argento_flat_home_wide"}}
     </div>
 </div>
 
 <div class="jumbotron hero">
     <div class="container">
-        {% raw %}{{widget type="Swissup\Highlight\Block\ProductList\NewList" title="New Products" products_count="4" column_count="4" order="default" dir="desc" template="product/widget/content/grid.phtml" show_page_link="1" page_link_position="top" page_link_title="Browse all new products at our store &raquo;"}}{% endraw %}
+        {{widget type="Swissup\Highlight\Block\ProductList\NewList" title="New Products" products_count="4" column_count="4" order="default" dir="desc" template="Swissup_Highlight::product/list.phtml" mode="grid" show_page_link="1" page_link_position="top" page_link_title="Browse all new products at our store &raquo;"}}
     </div>
 </div>
 
@@ -261,13 +261,13 @@ In case if you’ve lost original homepage content, you can get it below:
     <div class="cover"><div class="left triangle"></div><div class="right triangle"></div></div>
     <div class="stub"></div>
     <div class="container">
-        {% raw %}{{widget type="Swissup\Highlight\Block\ProductList\Onsale" title="Special Offer" products_count="4" column_count="4" order="default" dir="desc" template="product/widget/content/grid.phtml" show_page_link="1" page_link_position="top" page_link_title="Browse all on sale products at out store &raquo;"}}{% endraw %}
+        {{widget type="Swissup\Highlight\Block\ProductList\Onsale" title="Special Offer" products_count="4" column_count="4" order="default" dir="desc" template="Swissup_Highlight::product/list.phtml" mode="grid" show_page_link="1" page_link_position="top" page_link_title="Browse all on sale products at out store &raquo;"}}
     </div>
 </div>
 
 <div class="jumbotron hero no-padding-top">
     <div class="container">
-        {% raw %}{{widget type="Swissup\Highlight\Block\ProductList\Bestsellers" title="Bestsellers" products_count="4" column_count="4" template="product/widget/content/grid.phtml" period="P6M" show_page_link="1" page_link_position="top" page_link_title="Browse all bestseller products at our store &raquo;" min_popularity="1"}}{% endraw %}
+        {{widget type="Swissup\Highlight\Block\ProductList\Bestsellers" title="Bestsellers" products_count="4" column_count="4" template="Swissup_Highlight::product/list.phtml" mode="grid" period="P6M" show_page_link="1" page_link_position="top" page_link_title="Browse all bestseller products at our store &raquo;" min_popularity="1"}}
     </div>
 </div>
 
@@ -333,24 +333,24 @@ In case if you’ve lost original homepage content, you can get it below:
                 <p class="subtitle">check most trusted brands from more then 50 leading manufactures presented at our store.</p>
             </div>
             <div class="block-content">
-                <div data-mage-init='{"slick": {"slidesToShow": 6, "slidesToScroll": 1, "dots": false, "autoplay": true, "variableWidth": true, "swipeToSlide": true}}'>
-                    <a href="#"><img src="{% raw %}{{view url='images/catalog/brands/life_extension.gif'}}{% endraw %}" alt="Life Extension"/></a>
-                    <a href="#"><img src="{% raw %}{{view url='images/catalog/brands/gnc.gif'}}{% endraw %}" alt="GNC"/></a>
-                    <a href="#"><img src="{% raw %}{{view url='images/catalog/brands/mega_food.gif'}}{% endraw %}" alt="Mega Food" /></a>
-                    <a href="#"><img src="{% raw %}{{view url='images/catalog/brands/nordic_naturals.gif'}}{% endraw %}" alt="Nordic Naturals"/></a>
-                    <a href="#"><img src="{% raw %}{{view url='images/catalog/brands/life_extension.gif'}}{% endraw %}" alt="Life Extension"/></a>
-                    <a href="#"><img src="{% raw %}{{view url='images/catalog/brands/gnc.gif'}}{% endraw %}" alt="GNC"/></a>
-                    <a href="#"><img src="{% raw %}{{view url='images/catalog/brands/mega_food.gif'}}{% endraw %}" alt="Mega Food"/></a>
-                    <a href="#"><img src="{% raw %}{{view url='images/catalog/brands/nordic_naturals.gif'}}{% endraw %}" alt="Nordic Naturals"/></a>
-                    <a href="#"><img src="{% raw %}{{view url='images/catalog/brands/life_extension.gif'}}{% endraw %}" alt="Life Extension"/></a>
-                    <a href="#"><img src="{% raw %}{{view url='images/catalog/brands/gnc.gif'}}{% endraw %}" alt="GNC"/></a>
-                    <a href="#"><img src="{% raw %}{{view url='images/catalog/brands/mega_food.gif'}}{% endraw %}" alt="Mega Food"/></a>
-                    <a href="#"><img src="{% raw %}{{view url='images/catalog/brands/nordic_naturals.gif'}}{% endraw %}" alt="Nordic Naturals"/></a>
+                <div class="slick-slider" data-mage-init='{"slick": {"slidesToShow": 6, "slidesToScroll": 1, "dots": false, "autoplay": true, "variableWidth": true, "swipeToSlide": true}}'>
+                    <a href="#"><img src="{{view url='images/catalog/brands/life_extension.gif'}}" alt="Life Extension"/></a>
+                    <a href="#"><img src="{{view url='images/catalog/brands/gnc.gif'}}" alt="GNC"/></a>
+                    <a href="#"><img src="{{view url='images/catalog/brands/mega_food.gif'}}" alt="Mega Food" /></a>
+                    <a href="#"><img src="{{view url='images/catalog/brands/nordic_naturals.gif'}}" alt="Nordic Naturals"/></a>
+                    <a href="#"><img src="{{view url='images/catalog/brands/life_extension.gif'}}" alt="Life Extension"/></a>
+                    <a href="#"><img src="{{view url='images/catalog/brands/gnc.gif'}}" alt="GNC"/></a>
+                    <a href="#"><img src="{{view url='images/catalog/brands/mega_food.gif'}}" alt="Mega Food"/></a>
+                    <a href="#"><img src="{{view url='images/catalog/brands/nordic_naturals.gif'}}" alt="Nordic Naturals"/></a>
+                    <a href="#"><img src="{{view url='images/catalog/brands/life_extension.gif'}}" alt="Life Extension"/></a>
+                    <a href="#"><img src="{{view url='images/catalog/brands/gnc.gif'}}" alt="GNC"/></a>
+                    <a href="#"><img src="{{view url='images/catalog/brands/mega_food.gif'}}" alt="Mega Food"/></a>
+                    <a href="#"><img src="{{view url='images/catalog/brands/nordic_naturals.gif'}}" alt="Nordic Naturals"/></a>
                 </div>
             </div>
         </div>
     </div>
-</div>
+</div>{% endraw %}
 ```
 
 ##### Next up

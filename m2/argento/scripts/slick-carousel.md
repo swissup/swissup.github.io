@@ -15,7 +15,7 @@ create sliders from custom content.
 Typical slick carousel markup is:
 
 ```html
-<div data-mage-init='{"slick": {"slidesToShow": 4, "slidesToScroll": 1, "dots": false, "autoplay": true, "swipeToSlide": true}}'>
+<div class="slick-slider" data-mage-init='{"slick": {"slidesToShow": 4, "slidesToScroll": 1, "dots": false, "autoplay": true, "swipeToSlide": true}}'>
     <div class="item"><img src="http://placehold.it/350x150" alt=""/></div>
     <div class="item"><img src="http://placehold.it/350x150" alt=""/></div>
     <div class="item"><img src="http://placehold.it/350x150" alt=""/></div>

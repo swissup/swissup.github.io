@@ -73,12 +73,12 @@ in code above.
 
 ```html
 {% raw %}<div class="jumbotron">
-    <div class="container" data-mage-init='{"argentoTabs": {}}'>
-        {{widget type="Swissup\Highlight\Block\ProductList\NewList" title="New Products" products_count="6" column_count="3" order="default" dir="desc" template="product/widget/content/grid.phtml" show_page_link="1" page_link_title="Shop New"}}
-        {{widget type="Swissup\Highlight\Block\ProductList\Onsale" title="Special Offer" products_count="6" column_count="3" order="default" dir="desc" template="product/widget/content/grid.phtml" show_page_link="1" page_link_title="Shop Sale"}}
-        {{widget type="Swissup\Highlight\Block\ProductList\Bestsellers" title="Bestsellers" products_count="6" column_count="3" template="product/widget/content/grid.phtml" period="P6M" show_page_link="1" page_link_title="Shop Bestsellers" min_popularity="1"}}
-        {{widget type="Swissup\Highlight\Block\ProductList\Popular" title="Popular" products_count="6" column_count="3" template="product/widget/content/grid.phtml" period="P6M" show_page_link="1" page_link_title="Shop Popular" min_popularity="1"}}
-        {{widget type="Swissup\Highlight\Block\ProductList\Attribute\Yesno" title="Editor's Choice" attribute_code="recommended" products_count="6" column_count="3" order="default" dir="asc" template="product/widget/content/grid.phtml"}}
+    <div class="container argento-tabs" data-mage-init='{"argentoTabs": {}}'>
+        {{widget type="Swissup\Highlight\Block\ProductList\NewList" title="New Products" products_count="6" column_count="3" order="default" dir="desc" template="Swissup_Highlight::product/list.phtml" mode="grid" show_page_link="1" page_link_title="Shop New"}}
+        {{widget type="Swissup\Highlight\Block\ProductList\Onsale" title="Special Offer" products_count="6" column_count="3" order="default" dir="desc" template="Swissup_Highlight::product/list.phtml" mode="grid" show_page_link="1" page_link_title="Shop Sale"}}
+        {{widget type="Swissup\Highlight\Block\ProductList\Bestsellers" title="Bestsellers" products_count="6" column_count="3" template="Swissup_Highlight::product/list.phtml" mode="grid" period="P6M" show_page_link="1" page_link_title="Shop Bestsellers" min_popularity="1"}}
+        {{widget type="Swissup\Highlight\Block\ProductList\Popular" title="Popular" products_count="6" column_count="3" template="Swissup_Highlight::product/list.phtml" mode="grid" period="P6M" show_page_link="1" page_link_title="Shop Popular" min_popularity="1"}}
+        {{widget type="Swissup\Highlight\Block\ProductList\Attribute\Yesno" title="Editor's Choice" attribute_code="recommended" products_count="6" column_count="3" order="default" dir="asc" template="Swissup_Highlight::product/list.phtml" mode="grid"}}
     </div>
 </div>{% endraw %}
 ```
@@ -100,7 +100,7 @@ Code:
         <strong>Our Brands</strong>
     </div>
     <div class="block-content">
-        <div data-mage-init='{"slick": {"slidesToShow": 6, "slidesToScroll": 1, "dots": false, "autoplay": true, "variableWidth": true, "swipeToSlide": true}}'>
+        <div class="slick-slider" data-mage-init='{"slick": {"slidesToShow": 6, "slidesToScroll": 1, "dots": false, "autoplay": true, "variableWidth": true, "swipeToSlide": true}}'>
             <a href="#"><img src="{{view url='images/catalog/brands/gucci.jpg'}}" alt="" width="150" height="80"/></a>
             <a href="#"><img src="{{view url='images/catalog/brands/lv.jpg'}}" alt="" width="100" height="80"/></a>
             <a href="#"><img src="{{view url='images/catalog/brands/ck.jpg'}}" alt="" width="130" height="80"/></a>
@@ -129,7 +129,7 @@ Code:
 
 ```html
 {% raw %}<div class="a-center">
-   {{widget type="Swissup\Easybanner\Block\Placeholder" placeholder="argento_pure2_home_wide"}}
+    {{widget type="Swissup\Easybanner\Block\Placeholder" placeholder="argento_pure2_home_wide"}}
 </div>{% endraw %}
 ```
 
@@ -158,12 +158,12 @@ In case if you’ve lost original homepage content, you can get it below:
 </div>
 
 <div class="jumbotron">
-    <div class="container" data-mage-init='{"argentoTabs": {}}'>
-        {{widget type="Swissup\Highlight\Block\ProductList\NewList" title="New Products" products_count="6" column_count="3" order="default" dir="desc" template="product/widget/content/grid.phtml" show_page_link="1" page_link_title="Shop New"}}
-        {{widget type="Swissup\Highlight\Block\ProductList\Onsale" title="Special Offer" products_count="6" column_count="3" order="default" dir="desc" template="product/widget/content/grid.phtml" show_page_link="1" page_link_title="Shop Sale"}}
-        {{widget type="Swissup\Highlight\Block\ProductList\Bestsellers" title="Bestsellers" products_count="6" column_count="3" template="product/widget/content/grid.phtml" period="P6M" show_page_link="1" page_link_title="Shop Bestsellers" min_popularity="1"}}
-        {{widget type="Swissup\Highlight\Block\ProductList\Popular" title="Popular" products_count="6" column_count="3" template="product/widget/content/grid.phtml" period="P6M" show_page_link="1" page_link_title="Shop Popular" min_popularity="1"}}
-        {{widget type="Swissup\Highlight\Block\ProductList\Attribute\Yesno" title="Editor's Choice" attribute_code="recommended" products_count="6" column_count="3" order="default" dir="asc" template="product/widget/content/grid.phtml"}}
+    <div class="container argento-tabs" data-mage-init='{"argentoTabs": {}}'>
+        {{widget type="Swissup\Highlight\Block\ProductList\NewList" title="New Products" products_count="6" column_count="3" order="default" dir="desc" template="Swissup_Highlight::product/list.phtml" mode="grid" show_page_link="1" page_link_title="Shop New"}}
+        {{widget type="Swissup\Highlight\Block\ProductList\Onsale" title="Special Offer" products_count="6" column_count="3" order="default" dir="desc" template="Swissup_Highlight::product/list.phtml" mode="grid" show_page_link="1" page_link_title="Shop Sale"}}
+        {{widget type="Swissup\Highlight\Block\ProductList\Bestsellers" title="Bestsellers" products_count="6" column_count="3" template="Swissup_Highlight::product/list.phtml" mode="grid" period="P6M" show_page_link="1" page_link_title="Shop Bestsellers" min_popularity="1"}}
+        {{widget type="Swissup\Highlight\Block\ProductList\Popular" title="Popular" products_count="6" column_count="3" template="Swissup_Highlight::product/list.phtml" mode="grid" period="P6M" show_page_link="1" page_link_title="Shop Popular" min_popularity="1"}}
+        {{widget type="Swissup\Highlight\Block\ProductList\Attribute\Yesno" title="Editor's Choice" attribute_code="recommended" products_count="6" column_count="3" order="default" dir="asc" template="Swissup_Highlight::product/list.phtml" mode="grid"}}
     </div>
 </div>
 
@@ -174,7 +174,7 @@ In case if you’ve lost original homepage content, you can get it below:
                 <strong>Our Brands</strong>
             </div>
             <div class="block-content">
-                <div data-mage-init='{"slick": {"slidesToShow": 6, "slidesToScroll": 1, "dots": false, "autoplay": true, "variableWidth": true, "swipeToSlide": true}}'>
+                <div class="slick-slider" data-mage-init='{"slick": {"slidesToShow": 6, "slidesToScroll": 1, "dots": false, "autoplay": true, "variableWidth": true, "swipeToSlide": true}}'>
                     <a href="#"><img src="{{view url='images/catalog/brands/gucci.jpg'}}" alt="" width="150" height="80"/></a>
                     <a href="#"><img src="{{view url='images/catalog/brands/lv.jpg'}}" alt="" width="100" height="80"/></a>
                     <a href="#"><img src="{{view url='images/catalog/brands/ck.jpg'}}" alt="" width="130" height="80"/></a>

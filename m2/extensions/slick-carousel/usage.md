@@ -31,7 +31,7 @@ plugin to call a carousel on a static content.
  3. Wrap images into `div` with specified slick [parameters](#parameters):
 
     ```html
-    <div data-mage-init='{"slick": {"slidesToShow": 2, "swipeToSlide": true, "centerMode": true}}'>
+    <div class="slick-slider" data-mage-init='{"slick": {"slidesToShow": 2, "swipeToSlide": true, "centerMode": true}}'>
         ...
     </div>
     ```

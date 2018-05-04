@@ -77,7 +77,7 @@ Code:
 {% raw %}<div class="jumbotron">
     <div class="container">
         <div class="row">
-            {{widget type="Swissup\Highlight\Block\ProductList\NewList" title="New Arrivals" products_count="4" column_count="4" order="default" dir="desc" template="product/widget/content/grid.phtml" show_page_link="1" page_link_position="bottom" page_link_title="Shop Now" conditions_encoded="a:1:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]]"}}
+            {{widget type="Swissup\Highlight\Block\ProductList\NewList" title="New Arrivals" products_count="4" column_count="4" order="default" dir="desc" template="Swissup_Highlight::product/list.phtml" mode="grid" show_page_link="1" page_link_position="bottom" page_link_title="Shop Now"}}
         </div>
     </div>
 </div>{% endraw %}
@@ -148,7 +148,7 @@ Code:
     <div class="container">
         <div class="block widget block-carousel">
             <div class="block-content">
-                <div data-mage-init='{"slick": {"slidesToShow": 6, "slidesToScroll": 1, "dots": false, "autoplay": true, "variableWidth": true, "swipeToSlide": true}}'>
+                <div class="slick-slider" data-mage-init='{"slick": {"slidesToShow": 6, "slidesToScroll": 1, "dots": false, "autoplay": true, "variableWidth": true, "swipeToSlide": true}}'>
                     <a href="#"><img src="{{view url='images/catalog/brands/gucci.jpg'}}" alt="" width="150" height="80"/></a>
                     <a href="#"><img src="{{view url='images/catalog/brands/lv.jpg'}}" alt="" width="100" height="80"/></a>
                     <a href="#"><img src="{{view url='images/catalog/brands/ck.jpg'}}" alt="" width="130" height="80"/></a>
@@ -189,7 +189,7 @@ In case if you’ve lost original homepage content, you can get it below:
 <div class="jumbotron">
     <div class="container">
         <div class="row">
-            {{widget type="Swissup\Highlight\Block\ProductList\NewList" title="New Arrivals" products_count="4" column_count="4" order="default" dir="desc" template="product/widget/content/grid.phtml" show_page_link="1" page_link_position="bottom" page_link_title="Shop Now" conditions_encoded="a:1:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]]"}}
+            {{widget type="Swissup\Highlight\Block\ProductList\NewList" title="New Arrivals" products_count="4" column_count="4" order="default" dir="desc" template="Swissup_Highlight::product/list.phtml" mode="grid" show_page_link="1" page_link_position="bottom" page_link_title="Shop Now"}}
         </div>
     </div>
 </div>
@@ -225,7 +225,7 @@ In case if you’ve lost original homepage content, you can get it below:
     <div class="container">
         <div class="block widget block-carousel">
             <div class="block-content">
-                <div data-mage-init='{"slick": {"slidesToShow": 6, "slidesToScroll": 1, "dots": false, "autoplay": true, "variableWidth": true, "swipeToSlide": true}}'>
+                <div class="slick-slider" data-mage-init='{"slick": {"slidesToShow": 6, "slidesToScroll": 1, "dots": false, "autoplay": true, "variableWidth": true, "swipeToSlide": true}}'>
                     <a href="#"><img src="{{view url='images/catalog/brands/gucci.jpg'}}" alt="" width="150" height="80"/></a>
                     <a href="#"><img src="{{view url='images/catalog/brands/lv.jpg'}}" alt="" width="100" height="80"/></a>
                     <a href="#"><img src="{{view url='images/catalog/brands/ck.jpg'}}" alt="" width="130" height="80"/></a>

@@ -65,8 +65,8 @@ Code:
 ```html
 {% raw %}<div class="col-lg-9 col-md-12">
     <div class="argento-grid">
-        <div class="col-md-4 col-sm-4 col-xs-6">{{widget type="Swissup\Highlight\Block\ProductList\Onsale" title="Deal of the week" products_count="1" column_count="1" order="default" dir="desc" template="product/widget/content/grid.phtml" conditions_encoded="a:1:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]]"}}</div>
-        <div class="col-md-4 col-sm-4 col-xs-6">{{widget type="Swissup\Highlight\Block\ProductList\Attribute\Yesno" title="Editor's choice" attribute_code="recommended" products_count="1" column_count="1" order="default" dir="asc" template="product/widget/content/grid.phtml" conditions_encoded="a:1:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]]"}}</div>
+        <div class="col-md-4 col-sm-4 col-xs-6">{{widget type="Swissup\Highlight\Block\ProductList\Onsale" title="Deal of the week" products_count="1" column_count="1" order="default" dir="desc" template="Swissup_Highlight::product/list.phtml" mode="grid"}}</div>
+        <div class="col-md-4 col-sm-4 col-xs-6">{{widget type="Swissup\Highlight\Block\ProductList\Attribute\Yesno" title="Editor's choice" attribute_code="recommended" products_count="1" column_count="1" order="default" dir="asc" template="Swissup_Highlight::product/list.phtml" mode="grid"}}</div>
         <div class="col-md-4 col-sm-4 col-xs-12">{{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="video_of_the_day"}}</div>
     </div>
 </div>{% endraw %}
@@ -98,7 +98,7 @@ Code:
 Code:
 
 ```html
-{% raw %}{{widget type="Swissup\Highlight\Block\ProductList\Featured" title="Featured Products" products_count="6" column_count="3" order="default" dir="asc" template="product/widget/content/grid.phtml" conditions_encoded="a:1:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]]"}}{% endraw %}
+{% raw %}{{widget type="Swissup\Highlight\Block\ProductList\Featured" title="Featured Products" products_count="6" column_count="3" order="default" dir="asc" template="Swissup_Highlight::product/list.phtml" mode="grid"}}{% endraw %}
 ```
 
 Featured Products block is [Highlight module](/m2/extensions/highlight/) widget.
@@ -110,8 +110,8 @@ Featured Products block is [Highlight module](/m2/extensions/highlight/) widget.
 Code:
 
 ```html
-{% raw %}<div class="new-products-slider" data-mage-init='{"slickwrapper": {"el": ".product-items", "slidesToShow": 5, "slidesToScroll": 5, "dots": false, "responsive": [ {"breakpoint": 770, "settings": {"slidesToShow": 3, "slidesToScroll": 3}}, {"breakpoint": 480, "settings": {"slidesToShow": 2, "slidesToScroll": 2}}, {"breakpoint": 321, "settings": {"slidesToShow": 1, "slidesToScroll": 1}}]}}'>
-   {{widget type="Swissup\Highlight\Block\ProductList\NewList" title="New Products" products_count="30" column_count="1" order="default" dir="desc" template="product/widget/content/grid.phtml" conditions_encoded="a:1:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]]"}}
+{% raw %}<div class="new-products-slider">
+    {{widget type="Swissup\Highlight\Block\ProductList\NewList" title="New Products" carousel="1" products_count="4" column_count="4" page_count="5" order="default" dir="desc" template="Swissup_Highlight::product/list.phtml" mode="grid" show_page_link="0" hide_when_filter_is_used="0"}}
 </div>{% endraw %}
 ```
 
@@ -131,15 +131,15 @@ In case if you’ve lost original homepage content, you can get it below:
     <div class="col-lg-3 visible-lg-block visible-md-block sidebar">{{block class="Magento\Theme\Block\Html\Topmenu" name="nav-homepage-left" before="-" template="Magento_Theme::html/home-menu-left.phtml"}}</div>
     <div class="col-lg-9 col-md-12">
         <div class="argento-grid">
-            <div class="col-md-4 col-sm-4 col-xs-6">{{widget type="Swissup\Highlight\Block\ProductList\Onsale" title="Deal of the week" products_count="1" column_count="1" order="default" dir="desc" template="product/widget/content/grid.phtml" conditions_encoded="a:1:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]]"}}</div>
-            <div class="col-md-4 col-sm-4 col-xs-6">{{widget type="Swissup\Highlight\Block\ProductList\Attribute\Yesno" title="Editor's choice" attribute_code="recommended" products_count="1" column_count="1" order="default" dir="asc" template="product/widget/content/grid.phtml" conditions_encoded="a:1:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]]"}}</div>
+            <div class="col-md-4 col-sm-4 col-xs-6">{{widget type="Swissup\Highlight\Block\ProductList\Onsale" title="Deal of the week" products_count="1" column_count="1" order="default" dir="desc" template="Swissup_Highlight::product/list.phtml" mode="grid"}}</div>
+            <div class="col-md-4 col-sm-4 col-xs-6">{{widget type="Swissup\Highlight\Block\ProductList\Attribute\Yesno" title="Editor's choice" attribute_code="recommended" products_count="1" column_count="1" order="default" dir="asc" template="Swissup_Highlight::product/list.phtml" mode="grid"}}</div>
             <div class="col-md-4 col-sm-4 col-xs-12">{{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="video_of_the_day"}}</div>
         </div>
     </div>
     <div class="col-lg-9 col-md-12">
-        {{widget type="Swissup\Highlight\Block\ProductList\Featured" title="Featured Products" products_count="6" column_count="3" order="default" dir="asc" template="product/widget/content/grid.phtml" conditions_encoded="a:1:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]]"}}
-        <div class="new-products-slider" data-mage-init='{"slickwrapper": {"el": ".product-items", "slidesToShow": 5, "slidesToScroll": 5, "dots": false, "responsive": [ {"breakpoint": 770, "settings": {"slidesToShow": 3, "slidesToScroll": 3}}, {"breakpoint": 480, "settings": {"slidesToShow": 2, "slidesToScroll": 2}}, {"breakpoint": 321, "settings": {"slidesToShow": 1, "slidesToScroll": 1}}]}}'>
-           {{widget type="Swissup\Highlight\Block\ProductList\NewList" title="New Products" products_count="30" column_count="1" order="default" dir="desc" template="product/widget/content/grid.phtml" conditions_encoded="a:1:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;s:9:`new_child`;s:0:``;]]"}}
+        {{widget type="Swissup\Highlight\Block\ProductList\Featured" title="Featured Products" products_count="6" column_count="3" order="default" dir="asc" template="Swissup_Highlight::product/list.phtml" mode="grid"}}
+        <div class="new-products-slider">
+            {{widget type="Swissup\Highlight\Block\ProductList\NewList" title="New Products" carousel="1" products_count="4" column_count="4" page_count="5" order="default" dir="desc" template="Swissup_Highlight::product/list.phtml" mode="grid" show_page_link="0" hide_when_filter_is_used="0"}}
         </div>
     </div>
 </div>{% endraw %}
