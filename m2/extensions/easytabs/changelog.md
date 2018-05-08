@@ -8,6 +8,10 @@ category: Easy Tabs
 
 # Changelog
 
+### Version 1.3.1
+
+ -  Fixed possible "Requested product doesn't exist" error, when editing cart item
+
 ### Version 1.3.0
 
  -  Expanded tabs layout added.

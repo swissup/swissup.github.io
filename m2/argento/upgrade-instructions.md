@@ -7,6 +7,36 @@ category: Argento
 
 # Upgrade Instructions
 
+### Version 1.3.0 - 1.3.1
+
+This update chages markup of the homepage content to prevent "jumping" syles during
+script initialization.
+
+The main changes are:
+
+ 1. `slick-slider` class addded:
+
+    ```diff
+    - <div data-mage-init='{"slick": {...}}'>
+    + <div class="slick-slider" data-mage-init='{"slick": {...}}'>
+    ```
+
+ 2. `argento-tabs` class added:
+
+    ```diff
+    - <div class="blocks-main item col-md-8" data-mage-init='{"argentoTabs": {}}'>
+    + <div class="blocks-main item col-md-8 argento-tabs" data-mage-init='{"argentoTabs": {}}'>
+    ```
+
+You can find updated homepage markup in our docs:
+
+ - [Essence Homepage](/m2/argento/essence/page-structure/homepage/#whole-homepage-code)
+ - [Flat Homepage](/m2/argento/flat/page-structure/homepage/#whole-homepage-code)
+ - [Mall Homepage](/m2/argento/mall/page-structure/homepage/#whole-homepage-code)
+ - [Pure2 Homepage](/m2/argento/pure2/page-structure/homepage/#whole-homepage-code)
+ - [Luxury Homepage](/m2/argento/luxury/page-structure/homepage/#whole-homepage-code)
+ - [Stripes Homepage](/m2/argento/stripes/page-structure/homepage/#whole-homepage-code)
+
 ### Version 1.2.0 - 1.3.0
 
  1. Backup all changes you've made

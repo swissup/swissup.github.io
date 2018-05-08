@@ -8,6 +8,12 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.4.1
+
+ -  Magento 2.2.4 product page breadcrumbs compatiblity
+ -  Fixed rare bug with unreacheable dropdowns inside vertical multicolumn layout
+ -  Added separate handler when clicking caret icon (open/close dropdown)
+
 ### Version 1.4.0
 
  -  [Overlay feature added](/m2/extensions/navigationpro/use-cases/overlay/)

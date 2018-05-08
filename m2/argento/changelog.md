@@ -7,6 +7,19 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.3.1
+
+> [Upgrade Instructions](/m2/argento/upgrade-instructions/#version-130---131)
+
+ -  **Magento 2.2.4** compatibility in following modules:
+    - Highlight (Can't apply limit/sort order)
+    - NavigationPro (Missing breadcrumbs on the product page)
+ -  Fixed "jumping" carousel and tabs styles on the homepage during script initialization
+ -  Fixed possible “Requested product doesn’t exist” error, when editing cart item
+ -  Fixed 404 error in Attributepage's backend options grid, when using pagination
+ -  Fixed white links in Stripes menu, when NavigationPro is disabled
+ -  Products carousel at the Mall's homepage replaced with Highlight ajax carousel widget
+
 ### Version 1.3.0
 
 > [Upgrade Instructions](/m2/argento/upgrade-instructions/#version-120---130)

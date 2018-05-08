@@ -7,6 +7,12 @@ category: Attributepages
 
 # Changelog
 
+### Version 1.0.8
+
+ -  Added compatibility with Swissup_SeoPager module
+ -  Fixed 404 error in backend options grid tab, when using pagination
+ -  Removed code duplications
+
 ### Version 1.0.6
 
  -  Magento 2.2 compatibility
