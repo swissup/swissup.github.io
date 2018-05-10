@@ -7,6 +7,12 @@ category: Email
 
 # Changelog
 
+### Version 1.1.11
+
+- Fix critical config_path error
+- Add set default transport
+- etc.
+
 ### Version 1.1.10
 
 - Add sent emails grid

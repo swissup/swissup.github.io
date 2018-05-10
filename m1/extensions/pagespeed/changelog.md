@@ -7,6 +7,11 @@ category: Page Speed
 
 # Changelog
 
+### Version 1.3.2
+
+- Separate tm/imagemin
+- Fix LIBXML_HTML_NOIMPLIED notice
+
 ### Version 1.3.1
 
 - Add compatability with AheadWorks > iPhone Theme 3
