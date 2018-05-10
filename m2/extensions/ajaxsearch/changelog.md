@@ -8,6 +8,13 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.3.0
+
+ -  Add popular search terms suggestions when input is empty
+ -  Improved initialization speed
+ -  Add store filter to the cms page results
+ -  Small fixes
+
 ### Version 1.2.9
 
  -  Grid suggestion layout was added
