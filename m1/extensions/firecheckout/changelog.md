@@ -7,6 +7,18 @@ category: Firecheckout
 
 # Changelog
 
+### Version 4.3.2
+
+ -  Fixed missing `name.after` container when user is logged in
+ -  Small javascript fixes
+
+**Third-party modules**
+
+ -  Rugento_Pickpoint integration added
+ -  Grinet_Payu integration added
+ -  Apptha_Sociallogin integration added
+ -  Fixed [Iways_PaypalPlus integration](/m1/extensions/firecheckout/supported-modules/iways-paypalplus/)
+
 ### Version 4.3.1
 
  -  Fixed too early email address validation when using onecolumn layout

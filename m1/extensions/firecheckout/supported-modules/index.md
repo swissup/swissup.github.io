@@ -5,11 +5,11 @@ description: Firecheckout and third-party modules
 keywords: >
     firecheckout, supported modules, third-party modules,
     firecheckout payment methods, firecheckout shipping methods,
-    2Checkout_Payment, Braintree_Payments, Conekta_Card, Craig_Tco,
-    Ebizmarts_SagepaymentsPro, Fooman_DpsPro, Hps_Securesubmit,
-    IntellectLabs_Stripe, Itabs_Debit,IWD_OPC_Signature, Klarna_KlarnaPaymentModule,
+    Apptha_Sociallogin, 2Checkout_Payment, Braintree_Payments, Conekta_Card, Craig_Tco,
+    Ebizmarts_SagepaymentsPro, Fooman_DpsPro, Grinet_Payu, Hps_Securesubmit,
+    IntellectLabs_Stripe, Itabs_Debit, IWD_OPC_Signature, Klarna_KlarnaPaymentModule,
     Netresearch_Billsafe, Netresearch_OPS, Paymill, Payolution, Phoenix_Ipayment,
-    Phoenix_Wirecardcheckout, Radweb_Stripe, SVMPayment, TemplateTag_Stripe,
+    Phoenix_Wirecardcheckout, Radweb_Stripe, Rugento_Pickpoint, SVMPayment, TemplateTag_Stripe,
     Vaimo_Klarna, Advox_Inpost, Aicod_Italy, Amasty_Deliverydate,
     Bysoft_Relaypoint, Dhl_Magentolws, DPD_Shipping, IrvineSystems_Deliverydate,
     IrvineSystems_JapanPost, IrvineSystems_Sagawa, IrvineSystems_Seino,
@@ -100,6 +100,7 @@ additional modifications.
 - DPD_Shipping
 - [Emjainteractive_ShippingOption](emjainteractive-shippingoption/)
 - [Fumo_JapanPost](fumo-japanpost/)
+- Grinet_Payu
 - [Infostrates_Tnt](infostrates-tnt/)
 - IrvineSystems_Deliverydate
 - IrvineSystems_JapanPost
@@ -117,6 +118,7 @@ additional modifications.
 - [Orba_Sheepla](orba-sheepla/)
 - [ParcelPro](parcelpro/)
 - PostcodeNl_Api
+- Rugento_Pickpoint
 - Shipperhq_Freight
 - Shipperhq_Pickup
 - SR_UpsShip
@@ -222,6 +224,7 @@ additional modifications.
 
 ### Social
 
+- Apptha_Sociallogin
 - Inchoo_SocialConnect
 - TM_SocialSuite
 
