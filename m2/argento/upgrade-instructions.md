@@ -9,7 +9,7 @@ category: Argento
 
 ### Version 1.3.0 - 1.3.1
 
-This update chages markup of the homepage content to prevent "jumping" syles during
+This update changes markup of the homepage content to prevent "jumping" syles during
 script initialization.
 
 The main changes are:
@@ -24,8 +24,8 @@ The main changes are:
  2. `argento-tabs` class added:
 
     ```diff
-    - <div class="blocks-main item col-md-8" data-mage-init='{"argentoTabs": {}}'>
-    + <div class="blocks-main item col-md-8 argento-tabs" data-mage-init='{"argentoTabs": {}}'>
+    - <div data-mage-init='{"argentoTabs": {}}'>
+    + <div class="argento-tabs" data-mage-init='{"argentoTabs": {}}'>
     ```
 
 You can find updated homepage markup in our docs:
