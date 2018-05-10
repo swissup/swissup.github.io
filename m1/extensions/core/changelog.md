@@ -7,6 +7,11 @@ category: Core
 
 # Changelog
 
+### Version 1.6.4
+
+ -  Fixed typo in Greek locale. Thanks to [Makis Palasis](https://github.com/mpalasis)
+ -  Small js fixes
+
 ### Version 1.6.3
 
  -  Add mapping for helpdesk and socialsuite

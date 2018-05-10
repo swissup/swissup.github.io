@@ -8,6 +8,10 @@ category: Highlight
 
 # Changelog
 
+### Version 2.7.1
+
+ -  Fixed js error, when too old jQuery is used
+
 ### Version 2.7.0
 
  -  New carousel template with ajax content loading.
