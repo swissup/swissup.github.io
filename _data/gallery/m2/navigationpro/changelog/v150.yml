@@ -1,0 +1,12 @@
+- title: Move top menu items into separate dropdown if they don't fit on a sinlge line.
+  href: /images/m2/navigationpro/changelog/150/nowrap.png
+  src: /images/m2/navigationpro/changelog/150/small/nowrap.png
+  w: 768
+  h: 306
+- title: >
+    Fixed dropdowns positioning issues in Amazon-like menu. Now you can use
+    simple dropdowns together with large "Departments" dropdown.
+  href: /images/m2/navigationpro/changelog/150/amazon-with-simple-dropdown.png
+  src: /images/m2/navigationpro/changelog/150/small/amazon-with-simple-dropdown.png
+  w: 1021
+  h: 562

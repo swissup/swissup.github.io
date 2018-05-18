@@ -19,6 +19,7 @@ category: Navigationpro
  - [Category Tips (Labels)](/m2/extensions/navigationpro/use-cases/category-tips/)
  - [Sidebar Menu](/m2/extensions/navigationpro/use-cases/sidebar-menu/)
  - [Overlay](/m2/extensions/navigationpro/use-cases/overlay/)
+ - [Nowrap (Single row menu)](/m2/extensions/navigationpro/use-cases/nowrap/)
 
 #### Next up
 

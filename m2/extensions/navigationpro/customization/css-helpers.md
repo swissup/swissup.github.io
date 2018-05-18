@@ -62,6 +62,8 @@ Class Name      | Description
 `navpro-iconic` | Allows to use [icons/images in item name][iconic-menu]
 `iconic-vertical` | Place item [icon/image in separate row][iconic-menu]
 `navpro-stacked`| Use [stacked][stacked-menu] dropdown positioning
+**Layout Modifiers** |
+`navpro-nowrap` | Do not wrap top level items on the new line. Use [separate dropdown][nowrap] for them.
 **Effects**     |
 `navpro-overlay`| Use [overlay][overlay] when dropdown is active
 **Top Level Caret Icons** |
@@ -110,3 +112,4 @@ Class Name          | Description
 [iconic-menu]: /m2/extensions/navigationpro/use-cases/iconic-menu/ "Iconic Menu"
 [stacked-menu]: /m2/extensions/navigationpro/use-cases/stacked-dropdowns/ "Stacked Menu"
 [overlay]: /m2/extensions/navigationpro/use-cases/overlay/ "Overlay"
+[nowrap]: /m2/extensions/navigationpro/use-cases/nowrap/ "Nowrap"

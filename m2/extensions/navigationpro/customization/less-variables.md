@@ -10,6 +10,10 @@ category: Navigationpro
 Use these variables to quickly customize menu styles with [custom-css][custom-css]
 feature.
 
+> If you are a third-party theme developer, you can incorporate custom variables
+> into the theme. Use [custom theme variables](../custom-theme-variables/)
+> feature for this.
+
 Variable                        | Default Value | Description
 --------------------------------|---------------|--------------------
 **Layout**                      |               |
@@ -33,8 +37,17 @@ Variable                        | Default Value | Description
 @navpro-dropdown__padding       | `12px`        | Dropdown inner padding
 @navpro-dropdown__z-index       | `500`         | z-index
 **Top Level Link Styles**       |               |
-@navpro-link-level0__padding    | `11px 12px`   | Top level items padding
-@navpro-link-level0-caret__padding | `20px`     | Top level items padding for caret icon
+@navpro-link-level0__padding-top | `11px`  | Padding top
+@navpro-link-level0__padding-right | `12px`  | Padding right
+@navpro-link-level0__padding-bottom | `@navpro-link-level0__padding-top` | Padding bottom
+@navpro-link-level0__padding-left | `@navpro-link-level0__padding-right` | Padding left
+@navpro-link-level0-caret__padding | `20px`     | Padding for parent item caret icon
+**Inner Level Link Styles**     |               |
+@navpro-link__padding-top       | `11px`        | Padding top
+@navpro-link__padding-right     | `12px`        | Padding right
+@navpro-link__padding-bottom    | `@navpro-link__padding-top`   | Padding bottom
+@navpro-link__padding-left      | `@navpro-link__padding-right` | Padding left
+@navpro-link-caret__padding     | `20px`        | Padding for parent item caret icon
 **Category Tips (Labels)**      |               |
 @navpro-tip__font-family        | `'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif` | Font for category tips
 @navpro-tip__font-size          | `.7em`        | Font size for category tips
@@ -45,6 +58,8 @@ Variable                        | Default Value | Description
 @navpro-tip__accent__background-color | `#ff7103` | Accent tip background
 @navpro-tip__muted__background-color  | `#555`  | Muted tip background
 @navpro-tip__black__background-color  | `#000`  | Black tip background
+**Overlay**                     |               |
+@navpro-overlay__background     | `rgba(0, 0, 0, 0.4)` | Overlay color
 
 ##### Next up
 

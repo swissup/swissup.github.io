@@ -43,8 +43,11 @@ devices, tablets, and phones.
     - [Category Tips (Labels)](/m2/extensions/navigationpro/use-cases/category-tips/)
     - [Sidebar Menu](/m2/extensions/navigationpro/use-cases/sidebar-menu/)
     - [Overlay](/m2/extensions/navigationpro/use-cases/overlay/)
+    - [Nowrap (Single row menu)](/m2/extensions/navigationpro/use-cases/nowrap/)
  8. [Customization](/m2/extensions/navigationpro/customization/)
     - [Custom CSS](/m2/extensions/navigationpro/customization/custom-css/)
+    - [LESS variables with third-party themes](/m2/extensions/navigationpro/customization/custom-theme-variables/) -
+        For third-party themes developers only
     - [LESS variables](/m2/extensions/navigationpro/customization/less-variables/)
     - [CSS Helpers](/m2/extensions/navigationpro/customization/css-helpers)
     - [Themes](/m2/extensions/navigationpro/themes/)
