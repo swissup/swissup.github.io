@@ -20,6 +20,15 @@ fit on a single row.
 To activate nowrap feature, you need to add `navpro-nowrap` class to the
 [CSS Class field](/m2/extensions/navigationpro/backend/menu-settings/#general-settings).
 
+> **Warning!**
+>
+> Nowrap works well with the following conditions only:
+>  - Menu is on the separate row
+>  - Menu takes all amout of available width of parent container
+>
+> Otherwise it may be tricky to
+> make it work properly (Custom work and advanced CSS knowledge may be required).
+
 #### Next up
 
  -  [Back to Main Page](/m2/extensions/navigationpro/)
