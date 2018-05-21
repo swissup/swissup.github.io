@@ -11,9 +11,14 @@ category: AskIt
 
 # Changelog
 
+### Version 1.2.15
+
+ - Fix captcha with full page cache (varnish)
+ - Fixed missing answer and customer email send
+
 ### Version 1.2.14
 
- -  Few technical changes to submit question form on storefront. Major one - removed css class `.primary` from Submit button.
+ - Few technical changes to submit question form on storefront. Major one - removed css class `.primary` from Submit button.
 
 ### Version 1.2.13
 
