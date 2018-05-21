@@ -8,6 +8,28 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.5.0
+
+NavigationPro 1.5.0 brings a new [nowrap feature](/m2/extensions/navigationpro/use-cases/nowrap/)
+that allows to render menu in a single row despite of top level items count,
+various dropdown positioning fixes and improvements, and ability to redefine
+LESS variables inside [third-party themes](/m2/extensions/navigationpro/customization/custom-theme-variables/)
+(for developers).
+
+{% include gallery.html images=site.data.gallery.m2.navigationpro.changelog.v150 class="phone-up-2 tablet-up-3 photoswipe scroll" %}
+
+ -  Added ability to [move top-level items](/m2/extensions/navigationpro/use-cases/nowrap/)
+    into separate dropdown, if they doesn't fit on a single row
+ -  Improved dropdown positioning when it does not have enough space on the screen
+ -  Use amazon-like dropdown positioning for the 'departments' dropdown only. All
+    other dropdowns (if your menu have them) will use default logic.
+ -  Added ability to redefine variables in
+    [third-party themes](/m2/extensions/navigationpro/customization/custom-theme-variables/)
+ -  Added ability to set padding via
+    [less variables](/m2/extensions/navigationpro/customization/less-variables/)
+    for items inside dropdowns
+ -  Dropdown size fixes on RTL locales
+
 ### Version 1.4.1
 
  -  Magento 2.2.4 product page breadcrumbs compatiblity

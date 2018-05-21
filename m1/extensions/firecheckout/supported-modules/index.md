@@ -5,17 +5,20 @@ description: Firecheckout and third-party modules
 keywords: >
     firecheckout, supported modules, third-party modules,
     firecheckout payment methods, firecheckout shipping methods,
-    2Checkout_Payment, Braintree_Payments, Conekta_Card, Craig_Tco,
-    Ebizmarts_SagepaymentsPro, Fooman_DpsPro, Hps_Securesubmit,
-    IntellectLabs_Stripe, Itabs_Debit,IWD_OPC_Signature, Klarna_KlarnaPaymentModule,
+    Apptha_Sociallogin, Amasty_Giftwrap, 2Checkout_Payment, BongoInternational,
+    Braintree_Payments, Conekta_Card, Craig_Tco,
+    Ebizmarts_SagepaymentsPro, Fooman_DpsPro, Grinet_Payu, Hps_Securesubmit,
+    IntellectLabs_Stripe, Itabs_Debit, IWD_OPC_Signature, Klarna_KlarnaPaymentModule,
     Netresearch_Billsafe, Netresearch_OPS, Paymill, Payolution, Phoenix_Ipayment,
-    Phoenix_Wirecardcheckout, Radweb_Stripe, SVMPayment, TemplateTag_Stripe,
+    Phoenix_Wirecardcheckout, Radweb_Stripe, Rugento_Pickpoint, SVMPayment, TemplateTag_Stripe,
     Vaimo_Klarna, Advox_Inpost, Aicod_Italy, Amasty_Deliverydate,
     Bysoft_Relaypoint, Dhl_Magentolws, DPD_Shipping, IrvineSystems_Deliverydate,
     IrvineSystems_JapanPost, IrvineSystems_Sagawa, IrvineSystems_Seino,
     IrvineSystems_Yamato, JRD_Paczkomaty, Kiala_LocateAndSelect,
     Magestore_Storepickup, Man4x_MondialRelay, Mico_Rushpackage, Ophirah_Qquoteadv (Cart2Quote),
-    PostcodeNl_Api, PaypalPlus, Shipperhq_Freight, Shipperhq_Pickup, SR_UpsShip, Storepickup,
+    PostcodeNl_Api, PaypalPlus, Plumtree_Storepickup,
+    Shipperhq_Freight, Shipperhq_Pickup, SR_UpsShip, Storepickup,
+    Svea_WebPay, Magegiant_GiantPoints, Payex_Payments,
     TIG_Postcode, Webshopapps_Desttype, Webshopapps_Premiumrate, WebshopApps_ProductMatrix,
     Wyomind_Pickupatstore, Amasty_Methods, Magento EE coupons,
     Magento EE GiftCards and GiftWrap, Aitoc_Aitgiftwrap, Unirgy_GiftCert,
@@ -73,6 +76,7 @@ additional modifications.
 - Netresearch_Billsafe
 - Netresearch_OPS
 - [OPG_Square](opg-square/)
+- Payex_Payments
 - Paymill
 - Payolution
 - [Payone_Core](payone-core/)
@@ -80,6 +84,7 @@ additional modifications.
 - Phoenix_Wirecardcheckout
 - Radweb_Stripe
 - SVMPayment
+- Svea_WebPay
 - TemplateTag_Stripe
 - Vaimo_Klarna
 - [Xonu_Directdebit](xonu-directdebit/)
@@ -90,6 +95,7 @@ additional modifications.
 - Aicod_Italy
 - Amasty_Deliverydate
 - [Amasty_Table](amasty-table/)
+- BongoInternational
 - [Bpost_ShippingManager](bpost-shm/)
 - [Bpost_ShM](bpost-shm/)
 - Bysoft_Relaypoint
@@ -100,6 +106,7 @@ additional modifications.
 - DPD_Shipping
 - [Emjainteractive_ShippingOption](emjainteractive-shippingoption/)
 - [Fumo_JapanPost](fumo-japanpost/)
+- Grinet_Payu
 - [Infostrates_Tnt](infostrates-tnt/)
 - IrvineSystems_Deliverydate
 - IrvineSystems_JapanPost
@@ -116,7 +123,9 @@ additional modifications.
 - Ophirah_Qquoteadv (Cart2Quote)
 - [Orba_Sheepla](orba-sheepla/)
 - [ParcelPro](parcelpro/)
+- Plumtree_Storepickup
 - PostcodeNl_Api
+- Rugento_Pickpoint
 - Shipperhq_Freight
 - Shipperhq_Pickup
 - SR_UpsShip
@@ -152,6 +161,7 @@ additional modifications.
 
 - Magento EE GiftCards and GiftWrap
 - Aitoc_Aitgiftwrap
+- Amasty_Giftwrap
 - [AW_GiftCard](aw-giftcard/)
 - [Magestore_Giftvoucher](magestore-giftvoucher/)
 - Unirgy_GiftCert
@@ -173,6 +183,7 @@ additional modifications.
 - [J2t_Rewardpoints](j2t-rewardpoints/)
 - [Itoris_CustomerRewards](itoris-customerrewards/)
 - Magebuzz_Rewardpoint
+- Magegiant_GiantPoints
 - [MageStore_Customerreward](magestore-customerreward/)
 - [Mirasvit_Rewards](mirasvit-rewards/)
 - [MW_RewardPoints](mw-rewardpoints/)
@@ -222,6 +233,7 @@ additional modifications.
 
 ### Social
 
+- Apptha_Sociallogin
 - Inchoo_SocialConnect
 - TM_SocialSuite
 

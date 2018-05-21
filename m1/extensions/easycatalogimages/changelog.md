@@ -7,6 +7,12 @@ category: EasyCatalogImages
 
 # Changelog
 
+### Version 2.5.0
+
+ -  Fixed TM_CDN integration
+ -  Allow to place category name below image via widget configuration
+    Thanks to [Makis Palasis](https://github.com/mpalasis)
+
 ### Version 2.4.4
 
  -  Improved TM_Amp compatibility

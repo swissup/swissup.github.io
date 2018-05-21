@@ -1,14 +1,16 @@
 ---
 layout: default
 title: Ajaxpro Changelog
-description: >
-    Magento2 module for ajaxcian
-keywords: >
-    magento ajax, magento ajax module, magento ajax call to block, magento ajax shopping cart, magento ajax cart pro
 category: AjaxPro
 ---
 
 # Changelog
+
+### Version 1.2.7
+
+ -  Removed tabs and review summary from product popup
+ -  Remove authentication window in product view popup
+ -  Small fixes
 
 ### Version 1.2.5
 

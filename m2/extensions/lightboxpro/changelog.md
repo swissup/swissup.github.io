@@ -8,6 +8,10 @@ category: Lightbox Pro
 
 # Changelog
 
+### Version 1.0.2
+
+ -  Fixed broken product image block in third-party themes
+
 ### Version 1.0.1
 
  -  New config option to set space between thumbnails.

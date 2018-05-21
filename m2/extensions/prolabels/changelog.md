@@ -8,6 +8,10 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.0.23
+
+ -  Fixed compatibility with Argento product listing styles
+
 ### Version 1.0.22
 
  -  Optimize labels rendering on storefront.

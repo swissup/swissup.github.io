@@ -48,6 +48,13 @@
       EasyCatalogImages widget inside 'fullwidth' dropdown.
   w: 1340
   h: 720
+- href: /images/m2/navigationpro/showcase/nowrap.png
+  src: /images/m2/navigationpro/showcase/small/nowrap.png
+  alt: Nowrap feature
+  title: >
+      Move top menu items into separate dropdown to fit menu in a sinlge line.
+  w: 768
+  h: 306
 # - href: /images/m2/navigationpro/showcase/stacked.png
 #   src: /images/m2/navigationpro/showcase/small/stacked.png
 #   alt: Stacked menu

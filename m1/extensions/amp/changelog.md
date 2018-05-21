@@ -7,6 +7,14 @@ category: Accelerated Mobile Pages
 sidebar: sidebar.md
 ---
 
+### Version 1.6.3
+
+ -  Fixed possible 'amp-form' validation error
+ -  Disable sticky header by default:
+     -  Google recommends to disable it on AMP
+     -  Pagespeed tools doesn't show content in preview screenshot when sticky
+        header is used
+
 ### Version 1.6.2
 
  -  Fixed not-working 'Add to Cart' button on category pages at google CDN pages
