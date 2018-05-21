@@ -8,6 +8,10 @@ category: Helpmate
 
 # Changelog
 
+### Version 1.7.6
+ - Fix getTimeAgo
+ - Fix getFileUrl without default store id
+
 ### Version 1.7.5
 
  - Update translates

@@ -7,6 +7,11 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.2.2
+ - Fix setup script
+ - Fix double listjs in category.phtml
+ - Fix 'mobile + is not ajax + multiple' logic
+
 ### Version 1.2.1
 
  - Improve tooltip CSS styles
