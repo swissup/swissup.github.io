@@ -8,6 +8,16 @@ category: Highlight
 
 # Changelog
 
+### Version 1.3.0
+
+ -  Added ability to filter products by
+    [current category](/m2/extensions/highlight/faq/#filter-products-by-current-category)
+ -  Fixed ajax "Add To Cart" on loaded carousel slides
+ -  Fixed "Add To Compare" on loaded carousel slides
+ -  Developers: Added ability to integrate carousel slider with third-party
+    "Ajax" modules. (Latest Swissup_Ajaxpro is already compatible with
+    highlight carousel.)
+
 ### Version 1.2.2
 
  -  Magento 2.2.4 compatibility (No limit is applied to product listing)

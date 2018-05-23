@@ -13,8 +13,10 @@ category: Highlight
 
 Highlight extension provides a set of widgets which purpose is to list any kind
 of products filtered with flexible tools. It allows you to easely show new,
-featured, onsale, bestsellers, popular products. It's even can show products 
+featured, onsale, bestsellers, popular products. It's even can show products
 filtered by custom filters.
+
+![Highlight Widgets](/images/m2/highlight/widgets_dropdown.png)
 
 There are following widget types are available:
 
@@ -31,15 +33,15 @@ Swissup\Highlight\Block\ProductList\Attribute\Yesno | Products filtered by any `
 
 ### Contents
 
-1. [Widget Settings](settings/)
-2. [Widget Usage](usage/)
+1. [Widget Usage](usage/)
     - [WYSIWYG Editor](usage/#wysiwyg-editor)
     - [Widgets Page](usage/#widgets-page)
     - [XML Layout Update](usage/#xml-layout-update)
     - [PHP Inline Code](usage/#php-inline-code)
+2. [Widget Settings](settings/)
 
 ##### Next up
 
-Great! Now you might want to see next: 
+Great! Now you might want to see next:
 
 - [Highlight Pages](/m2/extensions/highlight/pages/)

@@ -32,7 +32,7 @@ Option          | Description
 ----------------|------------
 title           | Block title
 carousel        | Allows to enable ajax carousel
-products_count  | Products count
+products_count  | Products count per Page
 column_count    | Columns count
 template        | Template to use
 custom_template | Path to the custom template. Used if `template` is empty or not set

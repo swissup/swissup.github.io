@@ -1,33 +1,36 @@
 ---
 layout: default
 title: Highlight FAQ
-description: Magento 2 Highlight FAQ page
-keywords: magento 2 highlight, faq
+description: Frequently asked questions about Highlight module for Magento2
+keywords: >
+    highlight shows all products, filter by current category
 category: Highlight
 ---
 
-# Frequently Asked Questions
+# FAQ
 
 ### Highlight is showing ALL products
 
-Such problem can happen if the highlight page is created for attribute i.e. `featured`
-has `Used in Product Listing` option set to `No`
+ -  Navigate to _Stores > Attribute > Product_, find an attribute, used by
+    Highlight block.
+ -  Switch to _Storefront properties_ tab and change **Used in Product Listing**
+    to **Yes**.
+ -  Reindex Magento Store using terminal:
 
-##### Fix
-
- *  Go to `Stores > Attribute > Product > 'select your attribute' > Storefront properties`
- *  Find **Used in Product Listing** and set to **Yes**
- *  Make store indexes reindex using _CLI_ command:
-
-    ```sh
+    ```bash
     php bin/magento indexer:reindex
-    ```
- *  Clear store cache. If you're still in terminal you can use:
-
-    ```sh
     php bin/magento cache:flush
     ```
- *  Done
+
+### Filter products by current category
+
+Use Conditions option for this.
+Select _Category_ in Conditions dropdown and fill its value:
+
+![Current category condition](/images/m2/highlight/faq/condition-current-category.png)
+
+ -  `current` - Filter products by current category only.
+ -  `current+` - Filter products by current category and it's children.
 
 #### Next Up
 
