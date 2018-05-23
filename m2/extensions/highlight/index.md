@@ -13,9 +13,11 @@ category: Highlight
 # Highlight
 
 Highlight extension provides you with a set of widgets which will help you to list
-products grouped according to your needs. You could easily show new,
-featured, onsale, bestsellers, popular products. With Highlight you will also
-display products filtered by custom filters.
+products filtered according to your needs. You could easily show new,
+featured, onsale, bestsellers, ann popular products. Or you can filter products
+by your own conditions.
+
+{% include gallery.html images=site.data.gallery.m2.highlight.index class="scroll phone-up-1 tablet-up-3 photoswipe" %}
 
 ### Contents
 

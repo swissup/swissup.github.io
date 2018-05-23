@@ -11,14 +11,9 @@ category: Highlight
 
 # Highlight Widgets
 
-Highlight extension provides a set of widgets which purpose is to list any kind
-of products filtered with flexible tools. It allows you to easely show new,
-featured, onsale, bestsellers, popular products. It's even can show products
-filtered by custom filters.
+Following widget types are available:
 
 ![Highlight Widgets](/images/m2/highlight/widgets_dropdown.png)
-
-There are following widget types are available:
 
 Type                                                | Description
 ----------------------------------------------------|------------
