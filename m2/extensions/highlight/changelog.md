@@ -14,9 +14,27 @@ category: Highlight
     [current category](/m2/extensions/highlight/faq/#filter-products-by-current-category)
  -  Fixed ajax "Add To Cart" on loaded carousel slides
  -  Fixed "Add To Compare" on loaded carousel slides
- -  Developers: Added ability to integrate carousel slider with third-party
-    "Ajax" modules. (Latest Swissup_Ajaxpro is already compatible with
-    highlight carousel.)
+
+**Changes for third-party module developers**
+
+ -  Added ability to integrate carousel slider with third-party
+    "Ajax" modules.
+
+    Example on how this is handled by our
+    [Swissup_Ajaxpro](/m2/extensions/ajaxpro/) module:
+
+    Create `highlight_carousel_slide.xml` layout update and move your initialization
+    scripts into `highlight.carousel.slide` container:
+
+    ```xml
+    <?xml version="1.0"?>
+    <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+
+        <update handle="ajaxpro_default"/>
+        <move element="ajaxpro.init" destination="highlight.carousel.slide"/>
+    </page>
+    ```
 
 ### Version 1.2.2
 
