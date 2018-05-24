@@ -10,7 +10,7 @@ category: Argento
 Stripes footer includes three cms blocks:
 
  -  footer_contacts
- -  footer_cms
+ -  footer_cms_content
  -  footer_payments
 
 ### Footer Contacts
