@@ -6,6 +6,12 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.2.8
+
+ -  Added compatibility with [Swissup_Attributepates](/m2/extensions/attributepages/)
+    and [Swissup_Highlight](/m2/extensions/highlight/) modules
+ -  Fixed multiple add-to-cart initializations in case of ajax loaded content
+
 ### Version 1.2.7
 
  -  Removed tabs and review summary from product popup
