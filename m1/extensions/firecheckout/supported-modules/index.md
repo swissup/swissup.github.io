@@ -77,6 +77,7 @@ additional modifications.
 - Netresearch_OPS
 - [OPG_Square](opg-square/)
 - Payex_Payments
+- [Payfort_Pay](payfort-pay/)
 - Paymill
 - Payolution
 - [Payone_Core](payone-core/)
