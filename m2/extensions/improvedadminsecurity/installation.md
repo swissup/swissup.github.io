@@ -39,6 +39,8 @@ Authenticator application.
 * Open your admin user account settins at `System > Permisions > All Users >
 Your User > Tab "Two Factor Authentication"`
 
+![2018-05-25 17-15-34](https://user-images.githubusercontent.com/412612/40549149-65439a1a-603f-11e8-950c-106fbf7590b1.png)
+
 * Scan QR code with Google Authenticator application using your smartphone.
 
 * Insert the key you've got on your mobile device into the verification key field.
