@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Confiruration
+title: Configuration
 description: magento metadata templates backend settings
 keywords: "metadata templates backend settings, metadata templates backend configuration"
 category: SEO Metadata Templates

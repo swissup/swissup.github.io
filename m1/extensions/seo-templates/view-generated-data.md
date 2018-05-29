@@ -27,4 +27,4 @@ store view.
 Find necessary category in `Manage Categories`, open it and go to tab
 `SEO Suite`.
 
-![Category tab seo suite](/images/m1/extensions/seo-templates/backend/product-tab-seo-suite.png)
+![Category tab seo suite](/images/m1/extensions/seo-templates/backend/category-tab-seo-suite.png)
