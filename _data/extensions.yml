@@ -325,7 +325,7 @@ improvedadminsecurity:
   short_description:
   urls:
     m1: /m1/extensions/improvedadminsecurity/
-    m2:
+    m2: /m2/extensions/improvedadminsecurity/
 
 instaframe:
   title: Instaframe
