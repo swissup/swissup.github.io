@@ -455,7 +455,7 @@ seo-templates:
   short_description:
   urls:
     m1: /m1/extensions/seo-templates/
-    m2:
+    m2: /m2/extensions/seo-templates/
 
 seo-urls:
   title: SEO URLs
