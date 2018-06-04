@@ -8,9 +8,13 @@ category: SEO Suite
 
 # Changelog
 
+### Version 0.10.1
+
+Compatibility with Magento 2.1.x for [Metadata Templates](../../seo-templates/).
+
 ### Version 0.10.0
 
-Include new module [Metadata Templates](../../seo-templates/). Generate metadata for products and categories based on their attributes.
+Include new module [*Metadata Templates*](../../seo-templates/). Generate metadata for products and categories based on their attributes.
 
 *SEO URLs*:
 
