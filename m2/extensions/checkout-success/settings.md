@@ -28,6 +28,8 @@ you have to add Google Adwords or any other conversion tracing code. This field 
 | `{% raw %}{{orderAmount}}{% endraw %}`    | Order grand total               | 1.1.0 |
 | `{% raw %}{{orderBaseAmount}}{% endraw %}`| Order grand total in base currency (useful for multi currency stores) | 1.1.0 |
 | `{% raw %}{{orderItems}}{% endraw %}`     | Array of items from order where every item is JSON object | 1.1.3 |
+| `{% raw %}{{orderBillingAddress}}{% endraw %}` | JSON object with billing [address data](#address-data)  | 1.1.4 |
+| `{% raw %}{{orderShippingAddress}}{% endraw %}` | JSON object with shipping [address data](#address-data) | 1.1.4 |
 | `{% raw %}{{currency}}{% endraw %}`       | Order currency                  | 1.1.0 |
 | `{% raw %}{{currencySymbol}}{% endraw %}` | Order currency symbol           | 1.1.0 |
 | `{% raw %}{{customerEmail}}{% endraw %}`  | Email of customer who placed an order | 1.1.0 |
@@ -40,6 +42,9 @@ you have to add Google Adwords or any other conversion tracing code. This field 
 Most of variables came with extension version 1.1.0. But there some that requiers higher version. Check column "Extension version".
 
 Check ["Miscellaneous scripts snippets"](../miscellaneous-scripts-snippets/) page for some examples.
+
+> ###### Address data
+> Address data object may have properties like ‘city’, ‘company’, ‘country’, 'country_id’, ‘fax’, ‘firstname’, ‘lastname’, ‘middlename’, ‘postcode’, ‘prefix’, ‘region’, ‘region_id’, ‘street’, ‘suffix’, ‘telephone’.
 
 ### Page Layout
 

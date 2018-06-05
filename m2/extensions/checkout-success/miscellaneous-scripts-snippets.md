@@ -54,3 +54,27 @@ It is just an example. `send_to` property has to have your own value.
     // now orderedQty containes quantity of ordered products
 </script>
 ```
+
+#### Estimated delivery date
+
+It's just an example how you can calculate estimated delivary date.
+
+In this case we know that shipping method with code `FAST_DELIVERY` deliver products within 1 day, `THREE_DAYS_DELIVERY` - deliver within 3 days and all other methods deliver within 4 days.
+
+```html
+<script type="text/javascript">
+    var today = new Date(),
+        estimatedDate = new Date(),
+        shippingMethod = '{{shippingCode}}';
+    if (shippingMethod == 'FAST_DELIVERY') {
+        estimatedDate.setDate(today.getDate() + 1);
+    } else if (shippingMethod == 'THREE_DAYS_DELIVERY') {
+        estimatedDate.setDate(today.getDate() + 3);
+    } else {
+        // all other methods delivers within 4 days
+        estimatedDate.setDate(today.getDate() + 4);
+    }
+    // now estimatedDate containes delivery date depending
+    // on shipping method customer used in order
+</script>
+```
