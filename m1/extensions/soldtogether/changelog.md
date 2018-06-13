@@ -8,6 +8,12 @@ category: Sold Together
 
 # Changelog
 
+### Version 1.5.2
+
+ -  Fix 'product ID already exists' error on checkout success page.
+ -  Improved caching for blocks of module.
+ -  Respect "Reindex... via Cron" config options. Cron process ignored config settings in previous versions.
+
 ### Version 1.5.1
 
  -  Cron option works only on global level of config. So it is removed on other config levels.

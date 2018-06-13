@@ -8,9 +8,13 @@ category: SEO Suite
 
 # Changelog
 
+### Version 0.6.4
+
+ -  Metadata Templates: improved `attribute` directive output for numeric attributes (truncate trailing zeros in decimal part).
+
 ### Version 0.6.3
 
- -  SEO Templates - improve 'products' directive for category templates. Works with attributes that are not filterable also.
+ -  Metadata Templates: improve 'products' directive for category templates. Works with attributes that are not filterable also.
 
 ### Version 0.6.2
 

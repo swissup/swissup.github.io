@@ -8,6 +8,10 @@ category: Easy Flags
 
 # Changelog
 
+### Version 3.1.1
+
+ -  Use unified image uploader from TM Core.
+
 ### Version 3.1.0
 
  -  New style for language and store switcher - popup.

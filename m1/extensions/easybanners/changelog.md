@@ -6,6 +6,10 @@ category: Easy Banners
 sidebar: sidebar.md
 ---
 
+### Version 1.7.4
+
+  -  Use unified image uploader from TM Core in admin interfaces.
+
 ### Version 1.7.3
 
  -  Critical security issue fixed

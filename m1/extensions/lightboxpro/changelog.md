@@ -8,6 +8,10 @@ category: Lightbox Pro
 
 # Changelog
 
+### Version 1.2.7
+
+ -  Use unified image uploader from TM Core in module's widgets.
+
 ### Version 1.2.6
 
  -  Improve extension stability.

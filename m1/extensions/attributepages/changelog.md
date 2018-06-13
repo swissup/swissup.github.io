@@ -7,6 +7,11 @@ category: Attributepages
 
 # Changelog
 
+### Version 1.4.2
+
+ -  Fixed error when page identifier is entered in invalid registry.
+ -  Use unified image uploader from TM Core in admin interfaces.
+
 ### Version 1.4.1
 
  -  Improve compatibility with Magento Enterprise Edition.

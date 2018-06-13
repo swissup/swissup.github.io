@@ -8,6 +8,10 @@ category: Product Videos
 
 # Changelog
 
+### Version 1.1.3
+
+  -  Use unified image uploader from TM Core in admin interface.
+
 ### Version 1.1.2
 
  -  Improved compatibility with some servers

@@ -8,6 +8,10 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.5.7
+
+ -  Fire JS event when dropdown opened - `NavPro:dropdown:show:after`. Useful for developers when there is need to reinitialize some visible content in dropdown..
+
 ### Version 1.5.6
 
  -  Improve behavior on stores with Argento themes and RTL contant direction.
