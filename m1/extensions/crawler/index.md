@@ -26,15 +26,15 @@ Crawler will provide each visitor with perfect shopping experience.
 4. [Log](#log)
 
 ## Features
-- Ability to create unlimited crawlers count with [different settings](#crawler-settings)
+- Ability to create unlimited crawlers count with [different settings](#settings)
 - Crawler works in concurrent requests, which makes it superfast
 - Site perfomance protection:
  - Crawler will be paused automatically while site load time is higher then maximum
     allowed average load time.
  - Cron will run up to 2 crawlers at the same time
-- [Reports](#crawler-reports) about slow page loading and error response codes are stored for site administrator
+- [Reports](#reports) about slow page loading and error response codes are stored for site administrator
 - Ability to run crawler from backend interface manually
-- Real time crawler's [log](#crawlers-log)
+- Real time crawler's [log](#log)
 
 ## Settings
 
