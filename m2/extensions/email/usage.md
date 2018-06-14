@@ -42,3 +42,4 @@ category: Email
 Great! Now you might want to see previous:
 
 - [Installation](/m2/extensions/email/installation/)
+- [Changelog](/m2/extensions/email/changelog/)

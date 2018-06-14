@@ -25,3 +25,4 @@ bin/magento setup:di:compile
 Great! Now you might want to see next:
 
 - [Usage](/m2/extensions/email/usage/)
+- [Changelog](/m2/extensions/email/changelog/)
