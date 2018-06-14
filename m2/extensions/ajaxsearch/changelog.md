@@ -8,6 +8,13 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.3.1
+
+ -  Add mobile.js
+ -  Fix for 'blur' and IOS
+ -  Fix cat param doublication bug
+ -  Fix Rtl select2 workaround min-width
+
 ### Version 1.3.0
 
  -  Add popular search terms suggestions when input is empty

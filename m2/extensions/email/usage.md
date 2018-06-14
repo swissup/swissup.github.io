@@ -14,7 +14,7 @@ category: Email
     `Swissup -> Email Services.`
 
     > **Note:** Paths are identical
-
+![example1](https://user-images.githubusercontent.com/412612/40238984-6f0b1262-5abd-11e8-89af-8de7a6a93fa7.png)
  2. Press "Add new" button
 
  3. Create service
@@ -23,6 +23,7 @@ category: Email
     - Fill all required fields
     - Before enabling you have to click `Save and Continue` and `Check service` buttons
     - Enable/Disable
+![example](https://user-images.githubusercontent.com/412612/40238625-6bdf426c-5abc-11e8-98ca-9b459efa3fa4.png)
 
  4. Navigate to
 
@@ -31,7 +32,10 @@ category: Email
 
     > **Note:** Paths are identical
 
-    And select transport email service in the "Default Transport Email Service" drop-down
+ 5. Select new service in the "Default Transport Email Service" drop-down
+ ![config](https://user-images.githubusercontent.com/412612/40239232-2b0aaf5e-5abe-11e8-94c5-b96862d7ccc9.png)
+
+ 6. Save
 
 ##### See also
 
