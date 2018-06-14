@@ -26,3 +26,4 @@ Following email services are supported:
 
 1. [Installation](installation/)
 2. [Usage](usage/)
+3. [Changelog](changelog/)
