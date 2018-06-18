@@ -43,3 +43,4 @@ modify frontend menus.
     - [Show content for specific devices only](show-content-for-specific-devices-only/)
  7. [Use cases](use-cases/)
     - [Create Amazon-style menu](use-cases/amazon-menu/)
+    - [Nowrap (Keep top-level items in one line)](use-cases/nowrap/)
