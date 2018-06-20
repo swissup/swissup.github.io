@@ -78,11 +78,11 @@ your form.
     action          | Full action name, where the form is submitted.
     client_identity_field | Usually it's an email from the form data. Indicate another field, if your form doesn't use email.
     **js_config**   | Client-side config, used to insert consents into the form.
-    async           | Element selector. Usefull for forms rendered via knockout library. Enter selector and consent will be inserted when `asyc` element is rendered.
+    async           | Element selector. Usefull for forms rendered via knockout library. Enter selector and consent will be inserted when `async` element is rendered.
     form            | Form selector.
     destination     | Element selector. It must be inside form.
     method          | Method to use, when inserting consent. Available options: append, prepend, after, before.
-    consents        | Array of consents to render. This array will be merged with consents from configuration. You can use it hardcode some censent into your form without a config.
+    consents        | Array of consents to render. This array will be merged with consents from configuration. You can use it hardcode some consent into your form without a config.
 
     Hardcoded consent example:
 
