@@ -42,7 +42,7 @@ your form.
             $observer->getCollection()->addItem(
                 new \Swissup\Gdpr\Model\PersonalDataForm([
                     'id'     => 'vendor:product-question',
-                    'name'   => 'vendor: Product Questions',
+                    'name'   => 'Vendor: Product Questions',
                     'action' => 'module_controller_action',
                 ])
             );
@@ -56,7 +56,7 @@ your form.
     ```php
     [
         'id'        => 'vendor:product-question',
-        'name'      => 'vendor: Product Questions',
+        'name'      => 'Vendor: Product Questions',
         'action'    => 'module_controller_action',
         'client_identity_field' => 'email',
         'js_config' => [
@@ -89,7 +89,7 @@ your form.
     ```php
     new \Swissup\Gdpr\Model\PersonalDataForm([
         'id'     => 'vendor:product-question',
-        'name'   => 'vendor: Product Questions',
+        'name'   => 'Vendor: Product Questions',
         'action' => 'module_controller_action',
         'js_config' => [
             // Hardcoded consents. Do not add any, if you wish to control them from the configuration
@@ -98,7 +98,7 @@ your form.
                     'enabled' => 1,
                     'sort_order' => 20,
                     'html_id' => 'vendor_module_consent',
-                    'title' => 'I agree to my personal data being stored and used to display my questions on the site',
+                    'title' => __('I agree to my personal data being stored and used to display my questions on the site'),
                 ]
             ]
         ]
@@ -143,7 +143,7 @@ your form.
             $forms->getItemById('magento:contact-us')->addConsent([
                 'html_id' => 'vendor_module_id',
                 'sort_order' => 0,
-                'title' => 'Custom consent added via event observer',
+                'title' => __('Custom consent added via event observer'),
                 'enabled' => 1,
             ]);
         }
@@ -178,12 +178,12 @@ into existing configuration sections.
     class RegisterPersonalDataHandler implements \Magento\Framework\Event\ObserverInterface
     {
         /**
-         * @var \Magento\Framework\ObjectManagerInterface
+         * @var \Vendor\Module\Model\PersonalDataHandler\Question
          */
         private $handler;
 
         /**
-         * @param \Magento\Framework\ObjectManagerInterface $objectManager
+         * @param \Vendor\Module\Model\PersonalDataHandler\Question $handler
          */
         public function __construct(
             \Vendor\Module\Model\PersonalDataHandler\Question $handler
@@ -226,8 +226,8 @@ into existing configuration sections.
          * @param \Vendor\Module\Model\ResourceModel\Question\CollectionFactory $questionCollectionFactory
          */
         public function __construct(
-            \Vendor\Module\Model\PersonalDataHandler\Context $context,
-            \Vendor\Module\Model\ResourceModel\ClientConsent\CollectionFactory $questionCollectionFactory
+            \Swissup\Gdpr\Model\PersonalDataHandler\Context $context,
+            \Vendor\Module\Model\ResourceModel\Question\CollectionFactory $questionCollectionFactory
         ) {
             parent::__construct($context);
             $this->questionCollectionFactory = $questionCollectionFactory;
