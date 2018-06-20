@@ -2,7 +2,7 @@
   src: /images/m2/gdpr/frontend/small/registration.png
   alt: Consents on customer registration page
   title: >
-    Configurable consents on the customer registratin page.
+    Configurable consents at the Customer Registration page.
   w: 623
   h: 837
 - href: /images/m2/gdpr/frontend/contacts.png
@@ -20,5 +20,22 @@
 - href: /images/m2/gdpr/frontend/delete-data-warning.png
   src: /images/m2/gdpr/frontend/small/delete-data-warning.png
   alt: Delete Data Warning
+  title: >
+    Customer can view accepted consents and request account deletion
   w: 599
   h: 457
+- href: /images/m2/gdpr/configuration/all.png
+  src: /images/m2/gdpr/configuration/small/all.png
+  alt: Delete Data Warning
+  w: 792
+  h: 524
+- href: /images/m2/gdpr/backend/accepted-consents.png
+  src: /images/m2/gdpr/backend/small/accepted-consents.png
+  alt: Accepted Consents
+  w: 1031
+  h: 586
+- href: /images/m2/gdpr/backend/clients-requests.png
+  src: /images/m2/gdpr/backend/small/clients-requests.png
+  alt: Client's Requests
+  w: 1100
+  h: 434
