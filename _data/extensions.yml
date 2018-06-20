@@ -275,6 +275,14 @@ firecheckout:
     m1: /m1/extensions/firecheckout/
     m2: /m2/extensions/firecheckout/
 
+gdpr:
+  title: GDPR
+  short_description: GDPR compliance module
+  size: 1x1
+  urls:
+    m1:
+    m2: /m2/extensions/gdpr/
+
 ga-plugin-events:
   title: Google Analytics - Additional Events
   short_description: Track different events at your store and send them to Gogole Analytics
