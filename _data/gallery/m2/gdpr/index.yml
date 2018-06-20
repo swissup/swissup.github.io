@@ -1,0 +1,24 @@
+- href: /images/m2/gdpr/frontend/registration.png
+  src: /images/m2/gdpr/frontend/small/registration.png
+  alt: Consents on customer registration page
+  title: >
+    Configurable consents on the customer registratin page.
+  w: 623
+  h: 837
+- href: /images/m2/gdpr/frontend/contacts.png
+  src: /images/m2/gdpr/frontend/small/contacts.png
+  alt: Consent at the contacts page
+  title: >
+    Configurable consent at the Contact Us page.
+  w: 615
+  h: 648
+- href: /images/m2/gdpr/frontend/privacy-tools.png
+  src: /images/m2/gdpr/frontend/small/privacy-tools.png
+  alt: Privacy Tools Page
+  w: 1057
+  h: 722
+- href: /images/m2/gdpr/frontend/delete-data-warning.png
+  src: /images/m2/gdpr/frontend/small/delete-data-warning.png
+  alt: Delete Data Warning
+  w: 599
+  h: 457
