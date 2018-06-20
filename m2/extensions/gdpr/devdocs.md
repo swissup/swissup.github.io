@@ -335,6 +335,10 @@ into existing configuration sections.
  4. That's all. Now you module will process it's data when GDPR will process
     client's request.
 
+### Module examples
+
+ -  [swissup/gdpr-testimonials](https://github.com/swissup/gdpr-testimonials)
+
 #### Next up
 {:.no_toc}
 
