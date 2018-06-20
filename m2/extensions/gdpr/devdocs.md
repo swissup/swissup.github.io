@@ -337,6 +337,7 @@ into existing configuration sections.
 
 ### Module examples
 
+ -  [swissup/gdpr-askit](https://github.com/swissup/gdpr-askit)
  -  [swissup/gdpr-testimonials](https://github.com/swissup/gdpr-testimonials)
 
 #### Next up
