@@ -219,18 +219,18 @@ into existing configuration sections.
         /**
          * @var \Vendor\Module\Model\ResourceModel\Question\CollectionFactory
          */
-        private $questionCollectionFactory;
+        private $collectionFactory;
 
         /**
          * @param \Swissup\Gdpr\Model\PersonalDataHandler\Context $context
-         * @param \Vendor\Module\Model\ResourceModel\Question\CollectionFactory $questionCollectionFactory
+         * @param \Vendor\Module\Model\ResourceModel\Question\CollectionFactory $collectionFactory
          */
         public function __construct(
             \Swissup\Gdpr\Model\PersonalDataHandler\Context $context,
-            \Vendor\Module\Model\ResourceModel\Question\CollectionFactory $questionCollectionFactory
+            \Vendor\Module\Model\ResourceModel\Question\CollectionFactory $collectionFactory
         ) {
             parent::__construct($context);
-            $this->questionCollectionFactory = $questionCollectionFactory;
+            $this->collectionFactory = $collectionFactory;
         }
 
         /**
@@ -246,7 +246,7 @@ into existing configuration sections.
          */
         public function beforeDelete(ClientRequest $request)
         {
-            $collection = $this->getQuestionCollection($request)
+            $collection = $this->getCollection($request)
                 ->addFieldToFilter('status', ['neq' => 'completed']);
 
             if ($collection->getSize()) {
@@ -272,12 +272,12 @@ into existing configuration sections.
          */
         public function anonymize(ClientRequest $request)
         {
-            $questions = $this->getQuestionCollection($request);
-            $size = $questions->getSize();
+            $collection = $this->getCollection($request);
+            $size = $collection->getSize();
 
             $this->anonymizeCollections(
                 [
-                    $questions
+                    $collection
                 ],
                 [
                     'email' => $this->faker->getEmail($request),
@@ -303,7 +303,7 @@ into existing configuration sections.
          * @param  ClientRequest $request
          * @return \Magento\Sales\Model\ResourceModel\Order\Collection
          */
-        private function getQuestionCollection(ClientRequest $request)
+        private function getCollection(ClientRequest $request)
         {
             $columns = ['email'];
             $values = [$request->getClientIdentity()];
@@ -312,7 +312,7 @@ into existing configuration sections.
                 $values[] = $request->getCustomerId();
             }
 
-            $collection = $this->questionCollectionFactory->create()
+            $collection = $this->collectionFactory->create()
                 ->addFieldToFilter($columns, $values);
 
             if ($this->useWebsiteFilter()) {
