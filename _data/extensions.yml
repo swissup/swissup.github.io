@@ -280,7 +280,7 @@ gdpr:
   short_description: GDPR compliance module
   size: 1x1
   urls:
-    m1:
+    m1: /m1/extensions/gdpr/
     m2: /m2/extensions/gdpr/
 
 ga-plugin-events:

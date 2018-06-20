@@ -1,0 +1,31 @@
+- href: /images/m1/gdpr/frontend/registration.png
+  src: /images/m1/gdpr/frontend/small/registration.png
+  alt: Consents on customer registration page
+  title: >
+    Configurable consents on the customer registration page.
+  w: 440
+  h: 600
+- href: /images/m1/gdpr/frontend/contacts.png
+  src: /images/m1/gdpr/frontend/small/contacts.png
+  alt: Consent at the contacts page
+  title: >
+    Configurable consent at the Contact Us page.
+  w: 455
+  h: 560
+- href: /images/m1/gdpr/frontend/privacy-tools.png
+  src: /images/m1/gdpr/frontend/small/privacy-tools.png
+  alt: Privacy Tools Page
+  w: 970
+  h: 580
+- href: /images/m1/gdpr/backend/anonymized-order.png
+  src: /images/m1/gdpr/backend/small/anonymized-order.png
+  alt: Anonymized Order
+  title: Anonymized Order
+  w: 820
+  h: 470
+- href: /images/m1/gdpr/backend/anonymized-customer.png
+  src: /images/m1/gdpr/backend/small/anonymized-customer.png
+  alt: Anonymized Customer
+  title: Anonymized Customer
+  w: 900
+  h: 560
