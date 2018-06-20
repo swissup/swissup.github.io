@@ -20,7 +20,7 @@ category: AskIt
 3. [Settings](#settings)
  - [General Section](#general-section)
  - [Email Settings Section](#email-settings-section)
-4. [Frontend interfaces](#frontend-interfaces)
+4. [Frontend interface](#frontend-interface)
 5. [Admin interfaces](#admin-interfaces)
  - [Askit Questions Grid](#askit-questions-grid)
  - [Question Information Tab](#question-information-tab)
