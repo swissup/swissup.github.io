@@ -44,7 +44,8 @@ title: Development documentation
 
  - [Terminal](#terminal)
  - [Sublime text editor](#sublime-text-editor)
-
+ - [Open VPN in Ubuntu](#open-vpn-in-ubuntu)
+ 
 ## Before start
 
 #### Directory structure
@@ -606,7 +607,7 @@ Navigate to `Settings > Startup > Tasks > New` and create new tasks:
 3. [Download sublime setting files](https://gist.github.com/vovayatsyuk/e8257a707b841c78a794)
   and place them into `%APPDATA%/Sublime Text 3/Packages/User`
 
-#### Opne VPN in Ubuntu
+#### Open VPN in Ubuntu
 
  1. Run command in terminal to install required apps:
 
