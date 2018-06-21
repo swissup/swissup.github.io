@@ -8,6 +8,10 @@ category: SoldTogether
 
 # Changelog
 
+### Version 1.2.7
+
+ -  Added new config option that allows to disable 'Create relations on order save'
+
 ### Version 1.2.6
 
  -  Fixed issue with "Grouped" products price calculation in "Amazon" view

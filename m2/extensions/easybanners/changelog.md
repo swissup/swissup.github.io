@@ -8,6 +8,11 @@ category: Easy Banners
 
 # Changelog
 
+### Version 1.2.2
+
+ -  Fixed image styles in [Book layout](/m2/extensions/easybanners/layouts-for-html-banners/#book)
+ -  Small CSS fixes
+
 ### Version 1.2.1
 
  -  Magento 2.1 compatibility

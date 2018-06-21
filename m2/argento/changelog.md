@@ -7,6 +7,38 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.4.0
+
+> [Upgrade Instructions](/m2/argento/upgrade-instructions/#version-131---140)
+
+ -  New [**GDPR module**](/m2/extensions/gdpr/) added
+ -  New [**SEO Metadata Templates** module](/m2/extensions/seo-templates/) added
+ -  Fixed not working "Add to Cart" button on Stripes theme when ColorSwatches
+    are used on the product page
+ -  Fixed toolbar position on non-anchor 1-column page in Stripes theme
+ -  CSS fixes for RTL languages
+ -  Small CSS fixes
+
+**Extensions Updates**
+
+ -  **Askit**
+    -  Magento 2.2.4 compatibility in email templates
+    -  Added client-side form validators
+ -  **Attributepages**
+    -  Fixed error when page identifier is entered in invalid registry
+ -  **Easybanners**
+    -  Fixed image styles in [Book layout](/m2/extensions/easybanners/layouts-for-html-banners/#book)
+ -  **Email**
+    -  Added predefined smtp providers settings
+    -  Fixed Magento 2.2.4 compatibility
+ -  **Soldtogether**
+    -  Added new config option that allows to disable 'Create relations on order save'
+ -  **Navigationpro**
+    -  Allow to use absolute links in [menu items](/m2/extensions/navigationpro/backend/menu-edit/#general-settings)
+    -  [Nowrap feature](/m2/extensions/navigationpro/use-cases/nowrap/) added
+    -  Improved dropdown positioning
+    -  Small fixes and improvements
+
 ### Version 1.3.1
 
 > [Upgrade Instructions](/m2/argento/upgrade-instructions/#version-130---131)

@@ -7,6 +7,10 @@ category: Attributepages
 
 # Changelog
 
+### Version 1.0.9
+
+ -  Fixed error when page identifier is entered in invalid registry
+
 ### Version 1.0.8
 
  -  Added compatibility with Swissup_SeoPager module

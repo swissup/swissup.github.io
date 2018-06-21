@@ -8,6 +8,10 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.5.1
+
+ -  Allow to use absolute links in [menu items](/m2/extensions/navigationpro/backend/menu-edit/#general-settings)
+
 ### Version 1.5.0
 
 NavigationPro 1.5.0 brings a new [nowrap feature](/m2/extensions/navigationpro/use-cases/nowrap/)

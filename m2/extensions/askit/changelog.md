@@ -11,6 +11,11 @@ category: AskIt
 
 # Changelog
 
+### Version 1.2.16
+
+ -  Removed email header and footer templates, to be compatible with Magento 2.2.4
+ -  Added client-side form validators
+
 ### Version 1.2.15
 
  - Fix captcha with full page cache (varnish)
