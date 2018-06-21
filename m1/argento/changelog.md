@@ -7,6 +7,35 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.10.0
+
+ -  New highly in demand **GDPR module** is included in Argento package. Read more about this module at [our documentaion site](/m1/extensions/gdpr/).
+ -  Fix duplicated H1 element in header of Luxury theme.
+ -  Luxury theme supports FontAwesom icons.
+ -  RTL support for Flat theme.
+ -  Improved compatibility with Magento 1.7.x.
+ -  Minor CSS improvements.
+ -  Improved source code of included modules (use of unified image uploader from TM Core in admin interfaces).
+
+**Major modules changes**
+
+ -  Attribute Pages:
+     +  Fixed error when page identifier is entered in invalid registry.
+
+ -  Hover Gallery:
+     +  Integration with ManaDev Layered Navigation.
+
+ -  Navigation Pro:
+     +  New awesome [*Nowrap* feature](/m1/extensions/navigationpro/use-cases/nowrap/). It always keep top level menu items in single row. And it is responsive.
+
+ -  SEO Suite:
+     +  Metadata Templates: improved attribute directive output for numeric attributes (truncate trailing zeros in decimal part).
+
+ -  Sold Together:
+     +  Fix ‘product ID already exists’ error on checkout success page.
+     +  Respect “Reindex… via Cron” config options. Cron process ignored config settings in previous versions.
+
+
 ### Version 1.9.6
 
  -  Full RTL support for Argento Argento and Argento Luxury themes.
