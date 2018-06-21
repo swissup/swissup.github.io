@@ -44,3 +44,4 @@ modify frontend menus.
  7. [Use cases](use-cases/)
     - [Create Amazon-style menu](use-cases/amazon-menu/)
     - [Nowrap (Keep top-level items in one line)](use-cases/nowrap/)
+ 8. [Changelog](changelog/)

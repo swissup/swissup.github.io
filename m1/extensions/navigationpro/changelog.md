@@ -8,6 +8,11 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.6.0
+
+ -  New awesome [*Nowrap* feature](../use-cases/nowrap/). It always keep top level menu items in single row. And it is responsive.
+ -  Source code improvements (no copy/pastes).
+
 ### Version 1.5.7
 
  -  Fire JS event when dropdown opened - `NavPro:dropdown:show:after`. Useful for developers when there is need to reinitialize some visible content in dropdown..
