@@ -8,6 +8,10 @@ category: Checkout Cart
 
 # Changelog
 
+### Version 1.2.0
+
+ -  Added ability to show product name as a link
+
 ### Version 1.1.4
 
  -  Fixed styles compatibility with firecheckout 1.10.0

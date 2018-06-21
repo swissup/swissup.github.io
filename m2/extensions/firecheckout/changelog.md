@@ -8,6 +8,19 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.11.0
+
+ -  New terrific feature added to the [CheckoutCart](/m2/extensions/checkout-cart/)
+    module: "Show product name as a link"
+ -  Additional CSS resets for custom MGS_Claue theme
+ -  Fixed compatibility with Braintree "PayWithPayPal"
+ -  Fixed sticky order review section in firefox browser
+ -  Improved shipping information save logic
+ -  Numerous fixes for registered customers without addresses:
+    - Fixed js error when placing order
+    - Fixed shipping address saving
+    - Fixed shipping methods reload
+
 ### Version 1.10.0
 
 Firecheckout **1.10.0** brings new [CustomerFieldManager](/m2/extensions/customer-field-manager/),

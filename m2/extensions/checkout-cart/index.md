@@ -25,15 +25,16 @@ Extension is compatible with [Firecheckout](../firecheckout) and default Magento
 
 ## Settings
 
+Module settings are located at
+_Stores > Configuration > Swissup Checkout > Checkout Cart_ page.
+
 ![Settings](/images/m2/checkout-cart/settings.png)
 
-##### Enabled
-
-Enable cart function on checkout page
-
-##### Move Totals Under Product Details in Order Summary
-
-Move totals block under product details in checkout order summary
+Option  | Description
+--------|------------
+Enabled | Ability to enable/disable quantity switcher at the checkout
+Display Product Name as Link | Ability to show product name as a link to the product page
+Move Totals Under Product Details in Order Summary | Ability to move Order Totals section below products list
 
 ## Known Issues
 
