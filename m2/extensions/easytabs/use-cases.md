@@ -22,12 +22,12 @@ category: Easy Tabs
 If you need direct link to tab, use tab `alias` in link `href` attribute and insert link where you need:
 
 ```html
-<a href="#TAB_ALIAS_FROM_BACKEND" class="action view">Description</a>
+<a href="#TAB_ALIAS_FROM_BACKEND" data-action="activate-tab">Description</a>
 ```
 For example, the link below will activate the description tab:
 
 ```html
-<a href="#product.info.description" class="action view">Description</a>
+<a href="#product.info.description" data-action="activate-tab">Description</a>
 ```
 
 ### Dynamic tab titles
