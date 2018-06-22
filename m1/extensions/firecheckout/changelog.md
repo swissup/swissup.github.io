@@ -7,6 +7,17 @@ category: Firecheckout
 
 # Changelog
 
+### Version 4.3.3
+
+ -  Fixed newsletter subscription when registering new account and using
+    paypal express or any other payment method that redirects to another site
+ -  Fixed popup positioning when body has relative position and margin
+
+**Thisrd-party modules**
+
+ -  Fixing missing GiftCard block after coupon update
+ -  [Payfort_Pay integration](/m1/extensions/firecheckout/supported-modules/payfort-pay/) added
+
 ### Version 4.3.2
 
  -  Fixed missing `name.after` container when user is logged in
