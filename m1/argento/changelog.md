@@ -11,7 +11,7 @@ category: Argento
 
  -  New highly in demand **GDPR module** is included in Argento package. Read more about this module at [our documentaion site](/m1/extensions/gdpr/).
  -  Fix duplicated H1 element in header of Luxury theme.
- -  Luxury theme supports FontAwesom icons.
+ -  Luxury theme supports FontAwesom icons. Please apply [upgrade instruction](../upgrade-instructions/#version-195---1100).
  -  RTL support for Flat theme.
  -  Improved compatibility with Magento 1.7.x.
  -  Minor CSS improvements.

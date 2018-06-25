@@ -8,6 +8,26 @@ category: Argento
 
 # Argento Upgrade Instructions
 
+### Version 1.9.5 - 1.10.0
+
+This upgrade instruction for Luxury theme only. Since we added support of FontAwesome and removed luxury icons you may have missing social icons in footer of your store.
+
+To get social icons back please find CMS block `footer_cms` and apply follow diff.
+
+```diff
+         <div class="block block-social">
+             <ul class="icons">
+-                <li><a href="http://instagram.com"><i class="luxury-icon luxury-instagram"></i></a></li>
+-                <li><a href="http://twitter.com"><i class="luxury-icon luxury-twitter"></i></a></li>
+-                <li><a href="http://facebook.com"><i class="luxury-icon luxury-facebook"></i></a></li>
++                <li><a href="http://instagram.com"><i class="fa fa-instagram"></i></a></li>
++                <li><a href="http://twitter.com"><i class="fa fa-twitter"></i></a></li>
++                <li><a href="http://facebook.com"><i class="fa fa-facebook"></i></a></li>
+             </ul>
+         </div>
+     </div>
+```
+
 ### Version 1.9.4 - 1.9.5
 
 It is not nessecery but to keep your magento instance clean you can remove follow templates:
