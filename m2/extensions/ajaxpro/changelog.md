@@ -6,6 +6,18 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.3.0
+
+ -  Added slide mode for modal dialog
+ -  Added floating cart widget
+ -  Added new dialog type like a minicart
+ -  Fix priceBox bug
+ -  Add refresh shiping methods patch
+ -  Fix override modal widget bug
+ -  Add ajaxpro product view +swatches at homepage integration
+ -  Cart-sidebar widget was added
+ -  Fix ESlint and jscs code style warnings
+
 ### Version 1.2.8
 
  -  Added compatibility with [Swissup_Attributepates](/m2/extensions/attributepages/)
