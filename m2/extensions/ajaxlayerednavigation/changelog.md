@@ -7,6 +7,12 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.2.3
+ - Improve ajax request configuration
+ - Add getAttributeCode method for filter
+ - Fix replaceWith+IE(<17) compatability
+ - Fix file permissions
+
 ### Version 1.2.2
  - Fix setup script
  - Fix double listjs in category.phtml
