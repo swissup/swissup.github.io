@@ -34,6 +34,12 @@ gallery:
     h: 490
     alt: Ajaxpro list with auto validation
     title: Listing behavior with auto validation and without
+  - href: /images/m2/ajaxpro/floatingcart.gif
+    src: /images/m2/ajaxpro/floatingcart.gif
+    w: 520
+    h: 314
+    alt: Ajaxpro floating cart widget
+    title: Ajaxpro floating cart widget
 ---
 
 # Ajaxpro
