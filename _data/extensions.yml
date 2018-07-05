@@ -421,6 +421,13 @@ recaptcha:
     m1: /m1/extensions/recaptcha/
     m2:
 
+hreflang:
+  title: Regional URLs
+  short_description: Tell Google you have multilingual/multi-regional store.
+  urls:
+    m1:
+    m2: /m2/extensions/hreflang/
+
 reviewreminder:
   title: Review Reminder
   short_description: >

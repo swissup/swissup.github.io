@@ -14,6 +14,7 @@ This toolkit includes extensions:
 
  -  [HTML Sitemap](../seo-html-sitemap)
  -  [Metadata Templates](../seo-templates)
+ -  [Regional URLs (hreflang)](../hreflang)
  -  [Rich Snippets](../richsnippets)
  -  [SEO Pagination](../seo-pager)
  -  [SEO-friendly URLs](../seo-urls)
