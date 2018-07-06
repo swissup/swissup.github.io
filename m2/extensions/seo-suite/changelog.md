@@ -10,7 +10,7 @@ category: SEO Suite
 
 ### Version 0.11.0
 
-New module [*"Region and Language URLs (hreflang)"*](../../hreflang/) included into kit. Tell Google that you have multilingual and/or multi-regional store.
+New module [*"Region and Language URLs (hreflang)"*](../../hreflang/) included into kit. Tell Google that you have multilingual and/or multi-regional store. Please, do not forget to run `php bin/magento module:enable Swissup_Hreflang` to enable new module.
 
 *Rich Snippets*:
 
