@@ -8,6 +8,20 @@ category: SEO Suite
 
 # Changelog
 
+### Version 0.11.0
+
+New module [*"Region and Language URLs (hreflang)"*](../../hreflang/) included into kit. Tell Google that you have multilingual and/or multi-regional store.
+
+*Rich Snippets*:
+
+ -  Fix missing breadcrumbs data at product pages in Magento 2.2.4+ instances.
+ -  Fix possible notice at product page with grouped product (undefined variable: groupedProductsPricesArray).
+
+*SEO URLs*:
+
+ -  Rename config section 'Urls' => 'SEO URLs'.
+ -  Integration with new module "Regional Urls (hreflang)".
+
 ### Version 0.10.1
 
 Compatibility with Magento 2.1.x for [Metadata Templates](../../seo-templates/).
