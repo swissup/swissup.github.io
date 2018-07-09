@@ -9,7 +9,7 @@ category: Firecheckout
 # DHL_Versenden
 
 This module works out of the box, except when you also have a
-[Dhl_LocationFinder](/m1/extensions/firecheckout/supported-moudles/dhl-locationfinder/)
+[Dhl_LocationFinder](/m1/extensions/firecheckout/supported-modules/dhl-locationfinder/)
 module, you nee to apply the following changes:
 
 Open `app/design/frontend/base/default/template/dhl_versenden/checkout/shipping_services.phtml`

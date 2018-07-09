@@ -70,5 +70,5 @@ category: Firecheckout
 
  5. Save the file and clear cache.
 
-p.s. Take a look at the [DHL_Versenden](/m1/extensions/firecheckout/supported-moudles/dhl-versenden/)
+p.s. Take a look at the [DHL_Versenden](/m1/extensions/firecheckout/supported-modules/dhl-versenden/)
 instructions too, as these modules are often used together.
