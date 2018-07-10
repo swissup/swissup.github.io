@@ -20,6 +20,13 @@ worrying about further updates.
 > This allows you to keep original files clean and upgrade to the latest
 > firecheckout version without worrying to lost your changes.
 
+> **Update**
+>
+> Since version 1.11.0 you can add CSS directly into
+> [backend config settings](/m2/extensions/firecheckout/configuration/#custom-css-and-js-settings-section).
+>
+> Please note, that LESS syntax in config section is not supported.
+
 ### Example
 
 Let's slightly change form and firecheckout layout styles and section number colors.

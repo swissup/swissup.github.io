@@ -103,6 +103,39 @@ Option                  | Description
 ------------------------|------------
 Default Method          | Default payment method to use
 
+### Custom CSS and JS settings section
+
+![Custom CSS and JS settings section](/images/m2/firecheckout/configuration/custom_css_js.png)
+
+Option  | Description
+--------|------------
+CSS     | CSS styles. LESS is not supported.
+JS      | JS code
+
+JS code example:
+
+```js
+require([
+    'Magento_Ui/js/lib/view/utils/async'
+], function($) {
+    'use strict';
+
+    var expandables = [
+        '.discount-code',
+        '.order-attachments',
+    ];
+
+    $.async({
+        selector: expandables.join(','),
+        ctx: $('.checkout-container').get(0)
+    }, function (el) {
+        setTimeout(function() {
+            $(el).collapsible('activate');
+        }, 500);
+    });
+});
+```
+
 #### Next up
 {:.no_toc}
 

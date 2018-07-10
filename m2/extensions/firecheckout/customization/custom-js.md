@@ -19,6 +19,14 @@ core files modification.
 > This allows you to keep original files clean and upgrade to the latest
 > firecheckout version without worrying to lost your changes.
 
+> **Update**
+>
+> Since version 1.11.0 you can add JS directly into
+> [backend config settings](/m2/extensions/firecheckout/configuration/#custom-css-and-js-settings-section).
+>
+> Please note, that JS syntax in config section is slightly differs from syntax
+> in custom.js file.
+
 ### Example
 
 Let's expand "Discount" and "Attachment" sections by default.
