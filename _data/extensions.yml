@@ -419,7 +419,7 @@ recaptcha:
   size: 1x2
   urls:
     m1: /m1/extensions/recaptcha/
-    m2:
+    m2: /m2/extensions/recaptcha/
 
 hreflang:
   title: Regional URLs
