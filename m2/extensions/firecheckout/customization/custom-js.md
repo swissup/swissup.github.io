@@ -25,7 +25,7 @@ core files modification.
 > [backend config settings](/m2/extensions/firecheckout/configuration/#custom-css-and-js-settings-section).
 >
 > Please note, that JS syntax in config section is slightly differs from syntax
-> in custom.js file.
+> in custom.js file (`require` should be used instead of `define`).
 
 ### Example
 
@@ -76,10 +76,10 @@ Let's expand "Discount" and "Attachment" sections by default.
     cd magento/root/folder
 
     # remove previously deployed firecheckout scripts
-    find pub/static var/view_preprocessed -type d -regex ".*Firecheckout.*js" -exec rm -rf {} \;
+    find pub/static -type d -regex ".*Firecheckout.*js" -exec rm -rf {} \;
 
     # run deployment command
-    php bin/magento setup:static-content:deploy
+    php bin/magento setup:static-content:deploy [LOCALE]
     ```
 
 #### Result

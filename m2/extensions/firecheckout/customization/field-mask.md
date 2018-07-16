@@ -9,59 +9,42 @@ category: Firecheckout
 
 # Field mask (Formatter)
 
-> This feature supported since v.1.10.0
+> This feature supported since v.1.11.0
 
- 1. Create [custom.js file](../custom-js/) in your active theme with
-    following content:
+Field mask component allows to format user input according to your needs. We
+provide build-in masks for the phones and credit cards. Additionally, you may
+create [complex masks](/m2/extensions/firecheckout/customization/use-cases/postcode-mask/)
+using javascript functions.
 
-    ```js
-    define([
-        'Swissup_Firecheckout/js/model/field-mask'
-    ], function(mask) {
-        'use strict';
+Syntax example:
 
-        // predefined phone mask
-        mask('[name="telephone"]', 'phone');
-        mask('[name="fax"]', 'phone');
+```js
+define([
+    'Swissup_Firecheckout/js/utils/form-field/mask'
+], function(mask) {
+    'use strict';
 
-        // predefined credit card mask
-        mask('[name="payment[cc_number]"]', 'cc');
+    // built-in masks
+    mask('[name="telephone"]', 'phone');
+    mask('[name="payment[cc_number]"]', 'cc');
 
-        // custom postal code mask
-        mask('[name="postcode"]', {
-            guide: true,
-            mask: function (raw) {
-                var mask = [/\d/, /\d/, /\d/, /\d/, /\d/];
-                if (/^[a-zA-Z]/.test(raw)) {
-                    // Use Canadian postal code if first symbol is alphabetical
-                    mask = [/[A-Z]/i, /\d/, /[A-Z]/i, ' ', /\d/, /[A-Z]/i, /\d/];
-                }
-                return mask;
-            },
-            pipe: function (conformedValue) {
-                return conformedValue.toUpperCase();
-            }
-        });
+    // Custom mask for US postcode
+    mask('[name="postcode"]', {
+        guide: true,
+        mask: function (raw) {
+            return [/\d/, /\d/, /\d/, /\d/, /\d/];
+        }
     });
-    ```
+});
+```
 
-    Firecheckout uses [Text Mask](https://text-mask.github.io/text-mask/) library
-    to create field masks.
+> All custom js should be placed in [custom.js file](../custom-js/)
 
-    Please read [TextMask Docs](https://github.com/text-mask/text-mask/blob/master/componentDocumentation.md#readme)
-    for more information.
-
- 2. Run "Deploy static content" command:
-
-    ```bash
-    cd <magento_root>
-
-    # remove previously deployed firecheckout files
-    find pub/static -type d -regex ".*Firecheckout.*js" -exec rm -rf {} \;
-
-    # run deployment command
-    bin/magento setup:static-content:deploy
-    ```
+> Firecheckout uses [Text Mask](https://text-mask.github.io/text-mask/) library
+> to create field masks.
+>
+> Please read [TextMask Docs](https://github.com/text-mask/text-mask/blob/master/componentDocumentation.md#readme)
+> for more information.
 
 #### Result
 
@@ -69,4 +52,5 @@ category: Firecheckout
 
 ##### Next up
 
-- [Back to home](/m2/extensions/firecheckout)
+ -  [Back to home](/m2/extensions/firecheckout)
+ -  [Dynamic postcode mask](/m2/extensions/firecheckout/customization/use-cases/postcode-mask/)
