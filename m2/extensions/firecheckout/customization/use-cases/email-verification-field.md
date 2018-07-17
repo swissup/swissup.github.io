@@ -19,13 +19,16 @@ category: Firecheckout
         'Magento_Ui/js/lib/view/utils/async',
         'uiRegistry',
         'mage/utils/wrapper',
-        'Swissup_Firecheckout/js/model/validator',
+        'Swissup_Checkout/js/scroll-to-error',
         'Swissup_Firecheckout/js/model/layout',
         'mage/translate',
         'mage/validation'
-    ], function ($, registry, wrapper, validator, layout, $t) {
-        function validate () {
+    ], function ($, registry, wrapper, scrollToError, layout, $t) {
+        'use strict';
+
+        function validate() {
             $('form[data-role=email-with-possible-login]').validation();
+
             return $('#customer-email-confirm').valid();
         }
 
@@ -44,8 +47,6 @@ category: Firecheckout
             $('#customer-email-confirm').attr(
                 'data-validate',
                 JSON.stringify({
-                    // 'required': true,
-                    // 'validate-email': true,
                     'equalTo': '#customer-email'
                 })
             );
@@ -63,8 +64,9 @@ category: Firecheckout
                         shipping.validateShippingInformation,
                         function (o) {
                             if (!validate()) {
-                                return validator.scrollToError();
+                                return scrollToError();
                             }
+
                             return o();
                         }
                     );

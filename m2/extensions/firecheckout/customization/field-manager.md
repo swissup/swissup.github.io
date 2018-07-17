@@ -26,13 +26,20 @@ define([
 ], function(manager) {
     'use strict';
 
-    manager('[name="fax"]', {
+    manager('[field-selector]', {
         label: 'Custom Label',
         placeholder: 'Custom Placeholder',
         classname: 'fc-col-newline fc-size-l:fc-col-6', // see http://docs.swissuplabs.com/m2/extensions/firecheckout/customization/css-helpers/
-        mask: 'phone', // see http://docs.swissuplabs.com/m2/extensions/firecheckout/customization/field-mask/
+        mask: 'phone' // see http://docs.swissuplabs.com/m2/extensions/firecheckout/customization/field-mask/
+    });
+
+    manager('[field2-selector]', {
         attr: {
-            'data-hello': 'world'
+            'rows': 5 // works with textarea only
+        },
+        validator: { // see http://docs.swissuplabs.com/m2/extensions/firecheckout/customization/field-validator/
+            'lazy': true, // run first validation on `blur` event instead of default instant validation
+            'min-words': 10
         }
     });
 });
@@ -48,7 +55,8 @@ Util                                                    | Example               
 `Swissup_Firecheckout/js/utils/form-field/placeholder`  | `placeholder(selector, placeholder)`| [Housenumber][housenumber]
 `Swissup_Firecheckout/js/utils/form-field/classname`    | `classname(selector, classname)`    | [CSS helpers][css-helpers], [Housenumber][housenumber], [Change field size][field-size]
 `Swissup_Firecheckout/js/utils/form-field/mask`         | `mask(selector, mask)`              | [Field mask][field-mask], [Postcode mask][postcode-mask]
-`Swissup_Firecheckout/js/utils/form-field/attr`         | `attr(selector, attributes)`        | Validator
+`Swissup_Firecheckout/js/utils/form-field/attr`         | `attr(selector, attributes)`        | -
+`Swissup_Firecheckout/js/utils/form-field/validator`    | `validator(selector, rules)`        | [Validator][field-validator], [Housenumber][housenumber]
 
 ##### Next up
 
@@ -58,4 +66,5 @@ Util                                                    | Example               
 [housenumber]: /m2/extensions/firecheckout/customization/use-cases/housenumber/ "Housenumber"
 [field-size]: /m2/extensions/firecheckout/customization/use-cases/field-size/ "Change field size"
 [field-mask]: /m2/extensions/firecheckout/customization/field-mask/ "Field mask"
+[field-validator]: /m2/extensions/firecheckout/customization/field-validator/ "Field validator"
 [postcode-mask]: /m2/extensions/firecheckout/customization/use-cases/postcode-mask/ "Postcode mask"

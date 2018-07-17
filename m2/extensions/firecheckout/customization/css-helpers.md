@@ -40,4 +40,3 @@ CSS class   | Description
 {:.no_toc}
 
  -  [Back to home](/m2/extensions/firecheckout)
- -  [Dynamic postcode mask](/m2/extensions/firecheckout/customization/use-cases/postcode-mask/)

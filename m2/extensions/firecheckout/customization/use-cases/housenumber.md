@@ -2,7 +2,7 @@
 layout: default
 title: Housenumber
 description: How to replace address line 2 with housenumber field?
-keywords: housenumber
+keywords: housenumber, validator, label, placeholder, classname
 category: Firecheckout
 ---
 
@@ -15,17 +15,29 @@ category: Firecheckout
 
     ```js
     define([
-        'Swissup_Firecheckout/js/utils/form-field/label',
-        'Swissup_Firecheckout/js/utils/form-field/placeholder',
-        'Swissup_Firecheckout/js/utils/form-field/class'
-    ], function (label, placeholder, classname) {
+        'Swissup_Firecheckout/js/utils/form-field/manager',
+        'Swissup_Firecheckout/js/utils/form-field/class',
+        'mage/translate'
+    ], function (manager, classname, $t) {
         'use strict';
 
-        label('[name="street[1]"]', 'Housenumber');
-        placeholder('[name="street[1]"]', 'Housenumber');
         classname('.street', 'fc-col-12');
         classname('[name="street[0]"]', 'fc-size-l:fc-col-8 fc-size-m:fc-col-8');
-        classname('[name="street[1]"]', 'fc-size-l:fc-col-4 fc-size-m:fc-col-4');
+        manager('[name="street[1]"]', {
+            label: 'Housenumber',
+            placeholder: 'Housenumber *',
+            classname: 'fc-size-l:fc-col-4 fc-size-m:fc-col-4',
+            validator: {
+                'lazy': true,
+                'required': true,
+                'fc-custom-rule-housenumber': {
+                    handler: function (value) {
+                        return new RegExp(/^\d+[a-zA-Z]?$/).test(value);
+                    },
+                    message: $t('Invalid housenumber. Valid examples: 42, 3A, 18C')
+                }
+            }
+        });
     });
     ```
 
@@ -49,6 +61,7 @@ category: Firecheckout
 
  -  [Back to home](/m2/extensions/firecheckout/)
  -  [Change field size][field-size]
+ -  [CSS Helpers][css-helpers]
 
 [field-size]: /m2/extensions/firecheckout/customization/use-cases/field-size/ "Change field size"
 [css-helpers]: /m2/extensions/firecheckout/customization/css-helpers/ "CSS Helpers"

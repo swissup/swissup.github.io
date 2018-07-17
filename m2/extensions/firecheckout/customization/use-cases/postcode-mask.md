@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Postcode Mask
+title: Postcode Mask &amp; Validator
 description: How to create dynamic postcode mask
 keywords: >
-    postcode mask, postcode formatter
+    postcode mask, postcode formatter, postcode validator
 category: Firecheckout
 ---
 
-# Postcode mask
+# Postcode mask &amp; validator
 
 > This feature supported since v.1.10.0
 
@@ -19,8 +19,10 @@ that will change the mask on the fly, depending on client's input.
 
     ```js
     define([
-        'Swissup_Firecheckout/js/utils/form-field/mask'
-    ], function (mask) {
+        'Swissup_Firecheckout/js/utils/form-field/mask',
+        'Swissup_Firecheckout/js/utils/form-field/validator',
+        'mage/translate'
+    ], function (mask, validator, $t) {
         'use strict';
 
         mask('[name="postcode"]', {
@@ -38,6 +40,15 @@ that will change the mask on the fly, depending on client's input.
             },
             pipe: function (conformedValue) {
                 return conformedValue.toUpperCase();
+            }
+        });
+        validator('[name="postcode"]', {
+            'lazy': true,
+            'fc-custom-rule-postcode': {
+                handler: function (value) {
+                    return new RegExp(/^(\d{5}|[A-Z]\d[A-Z] ?\d[A-Z]\d)$/).test(value);
+                },
+                message: $t('Invalid postcode')
             }
         });
     });
