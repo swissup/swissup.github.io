@@ -29,8 +29,9 @@ define([
     manager('[field-selector]', {
         label: 'Custom Label',
         placeholder: 'Custom Placeholder',
-        classname: 'fc-col-newline fc-size-l:fc-col-6', // see http://docs.swissuplabs.com/m2/extensions/firecheckout/customization/css-helpers/
-        mask: 'phone' // see http://docs.swissuplabs.com/m2/extensions/firecheckout/customization/field-mask/
+        classname: 'fc-size-l:fc-col-6', // see http://docs.swissuplabs.com/m2/extensions/firecheckout/customization/css-helpers/
+        mask: 'phone', // see http://docs.swissuplabs.com/m2/extensions/firecheckout/customization/field-mask/
+        newline: true // move the field to the newline
     });
 
     manager('[field2-selector]', {
@@ -40,7 +41,8 @@ define([
         validator: { // see http://docs.swissuplabs.com/m2/extensions/firecheckout/customization/field-validator/
             'lazy': true, // run first validation on `blur` event instead of default instant validation
             'min-words': 10
-        }
+        },
+        newline: 'fc-size-l fc-size-m' // move the field to the newline if parent container is large or medium
     });
 });
 ```
@@ -57,6 +59,7 @@ Util                                                    | Example               
 `Swissup_Firecheckout/js/utils/form-field/mask`         | `mask(selector, mask)`              | [Field mask][field-mask], [Postcode mask][postcode-mask]
 `Swissup_Firecheckout/js/utils/form-field/attr`         | `attr(selector, attributes)`        | -
 `Swissup_Firecheckout/js/utils/form-field/validator`    | `validator(selector, rules)`        | [Validator][field-validator], [Housenumber][housenumber]
+`Swissup_Firecheckout/js/utils/form-field/newline`      | `newline(selector, sizes)`          | -
 
 ##### Next up
 

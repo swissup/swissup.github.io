@@ -17,10 +17,8 @@ category: Firecheckout
 CSS class                   | Description
 ----------------------------|--------------------------
 `fc-col-1` .. `fc-col-12`   | Helps to resize the field. Use just like any other 12-columns grid system
-`fc-col-newline`            | Move the the field to the new line
 **Using together with container size selectors** |
 `fc-size-l:fc-col-4`        | `fc-col-4` will work, when parent container has `fc-size-l` class
-`fc-size-s:fc-col-newline`  | `fc-col-newline` will work, when parent container has `fc-size-s` class
 
 ### Container size selectors
 
