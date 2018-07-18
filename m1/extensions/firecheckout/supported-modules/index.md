@@ -126,6 +126,7 @@ additional modifications.
 - [ParcelPro](parcelpro/)
 - Plumtree_Storepickup
 - PostcodeNl_Api
+- [Pook_CollectInStore](pook-collectinstore/)
 - Rugento_Pickpoint
 - Shipperhq_Freight
 - Shipperhq_Pickup
