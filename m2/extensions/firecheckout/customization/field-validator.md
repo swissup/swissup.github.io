@@ -21,7 +21,7 @@ Syntax example:
 define([
     'Swissup_Firecheckout/js/utils/form-field/validator',
     'mage/translate'
-], function(mask, $t) {
+], function(validator, $t) {
     'use strict';
 
     // enable `required` validator
