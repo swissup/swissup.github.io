@@ -28,6 +28,7 @@ category: Firecheckout
             - [Attribute](field-manager/#attribute)
             - [Validator](field-manager/#validator)
             - [Newline](field-manager/#newline)
+        - [Field watcher](field-watcher/)
  3. [Use cases](use-cases/)
     - [Housenumber](use-cases/housenumber/)
     - [Postcode mask &amp; validator](use-cases/postcode-mask/)
