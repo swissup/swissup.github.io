@@ -36,3 +36,5 @@ faster and easier by providing them a simple checkout form.
     - [Hermes theme by Blue Sky](third-party-themes/hermes/)
  7. Troubleshooting
     - [Loading icon keeps spinning infinitely on initial page load](troubleshooting/loading-icon-keeps-spinning/)
+ 8. FAQ
+    - [Creating Terms and Conditions](faq/creating-terms-and-conditions/)
