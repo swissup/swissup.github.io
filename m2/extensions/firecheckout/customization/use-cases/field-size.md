@@ -18,7 +18,7 @@ to resize some of the fields you can use [grid system][css-helpers] classes:
 
 ```js
 define([
-    'Swissup_Firecheckout/js/utils/form-field/class'
+    'Swissup_Firecheckout/js/utils/form-field/classname'
 ], function (classname) {
     'use strict';
 

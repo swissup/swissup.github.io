@@ -16,7 +16,7 @@ category: Firecheckout
     ```js
     define([
         'Swissup_Firecheckout/js/utils/form-field/manager',
-        'Swissup_Firecheckout/js/utils/form-field/class',
+        'Swissup_Firecheckout/js/utils/form-field/classname',
         'mage/translate'
     ], function (manager, classname, $t) {
         'use strict';
