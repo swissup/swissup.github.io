@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Development documentation
+title: Magento 1 development documentation
 ;sidebar: sidebar.md
 ---
 
@@ -45,7 +45,7 @@ title: Development documentation
  - [Terminal](#terminal)
  - [Sublime text editor](#sublime-text-editor)
  - [Open VPN in Ubuntu](#open-vpn-in-ubuntu)
- 
+
 ## Before start
 
 #### Directory structure
