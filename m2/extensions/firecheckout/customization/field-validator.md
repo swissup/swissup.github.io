@@ -27,7 +27,7 @@ define([
     // enable `required` validator
     validator('[name="fax"]');
 
-    // disable all validators
+    // disable `required` validator
     validator('[name="fax"]', false);
 
     // built-in validators from Magento/Ui/view/base/web/js/lib/validation/rules.js
