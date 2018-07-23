@@ -25,7 +25,7 @@ category: Firecheckout
         classname('[name="street[0]"]', 'fc-size-l:fc-col-8 fc-size-m:fc-col-8');
         manager('[name="street[1]"]', {
             label: 'Housenumber',
-            placeholder: 'Housenumber *',
+            placeholder: 'Housenumber',
             classname: 'fc-size-l:fc-col-4 fc-size-m:fc-col-4',
             validator: {
                 'lazy': true,
