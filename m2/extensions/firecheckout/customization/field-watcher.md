@@ -11,7 +11,7 @@ category: Firecheckout
 
 # Field watcher
 
-> This feature supported since v.1.11.0
+> This feature supported since v.1.12.0
 
 FieldWatcher component allows to call any custom function when field values
 condition is matched.
@@ -84,7 +84,7 @@ define([
         watch: {
             '.payment-method._active [name="city"]': '*',
             '.payment-method._active [name="country_id"]': ['US', 'GB'],
-            '[name="payment[method]"]': 'purchaseorder'
+            '.checkout-payment-method [name="payment[method]"]': 'purchaseorder'
         },
 
         /**

@@ -9,7 +9,7 @@ category: Firecheckout
 
 # Field mask (Formatter)
 
-> This feature supported since v.1.11.0
+> This feature supported since v.1.12.0
 
 Field mask component allows to format user input according to your needs. We
 provide build-in masks for the phones and credit cards. Additionally, you may

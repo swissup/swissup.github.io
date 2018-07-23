@@ -8,7 +8,7 @@ category: Firecheckout
 
 # Field validator
 
-> This feature supported since v.1.11.0
+> This feature supported since v.1.12.0
 
 Field validator component allows to validate user input according to your needs.
 You can use any of Magento's

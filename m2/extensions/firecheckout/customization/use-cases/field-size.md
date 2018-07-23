@@ -9,7 +9,7 @@ category: Firecheckout
 
 # Change field size
 
-> This feature supported since v.1.11.0
+> This feature supported since v.1.12.0
 >
 > Works with [compact form style][compact-form] only.
 

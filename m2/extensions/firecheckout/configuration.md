@@ -112,6 +112,11 @@ Option  | Description
 CSS     | CSS styles. LESS is not supported.
 JS      | JS code
 
+> **Attention!**
+>
+> Unlike js code inserted into custom.js file (begins with "define" function),
+> code inserted in JS section begins with "require" function.
+
 JS code example:
 
 ```js
@@ -122,7 +127,7 @@ require([
 
     var expandables = [
         '.discount-code',
-        '.order-attachments',
+        '.order-attachments'
     ];
 
     $.async({

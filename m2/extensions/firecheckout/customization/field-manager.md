@@ -11,7 +11,7 @@ category: Firecheckout
 
 # Field manager
 
-> This feature supported since v.1.11.0
+> This feature supported since v.1.12.0
 
 FieldManager component allows to change form field properties like placeholder,
 label, classname, apply [mask/formatter][field-mask].
@@ -60,6 +60,7 @@ Util                                                    | Example               
 `Swissup_Firecheckout/js/utils/form-field/attr`         | `attr(selector, attributes)`        | -
 `Swissup_Firecheckout/js/utils/form-field/validator`    | `validator(selector, rules)`        | [Validator][field-validator], [Housenumber][housenumber]
 `Swissup_Firecheckout/js/utils/form-field/newline`      | `newline(selector, sizes)`          | -
+`Swissup_Firecheckout/js/utils/form-field/status`       | `status(selector, status)`          | [DependentFields][dependent-fields]
 
 ##### Next up
 
@@ -71,3 +72,4 @@ Util                                                    | Example               
 [field-mask]: /m2/extensions/firecheckout/customization/field-mask/ "Field mask"
 [field-validator]: /m2/extensions/firecheckout/customization/field-validator/ "Field validator"
 [postcode-mask]: /m2/extensions/firecheckout/customization/use-cases/postcode-mask/ "Postcode mask"
+[dependent-fields]: /m2/extensions/firecheckout/customization/dependent-fields/ "Dependent fields"
