@@ -8,6 +8,11 @@ category: GDPR
 
 # Changelog
 
+### Version 1.0.1
+
+ -  Improved compatibility with old php versions
+ -  Added missing translations
+
 ### Version 1.0.0
 
  -  First release
