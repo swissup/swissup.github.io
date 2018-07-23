@@ -8,6 +8,25 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.12.0
+
+ -  Added ability to add custom CSS and JS directly from
+    [configuration page](/m2/extensions/firecheckout/configuration/#custom-css-and-js-settings-section)
+ -  A lot of customization utilities added:
+    - [FieldManager](/m2/extensions/firecheckout/customization/field-manager/)
+        that allows to change field Label, Placeholder, CSS class, apply
+        formatter, validator, and much more.
+    - [DependentFields](/m2/extensions/firecheckout/customization/dependent-fields/)
+        utility that allows to setup dependencies between fields. You can show
+        or hide some field, when other field/fields values matches some condition.
+    - [FieldWatcher](/m2/extensions/firecheckout/customization/field-watcher/)
+        utility will help you to implement any specific logic with custom js functions.
+ - New use cases added to the docs:
+    - [Housenumber](/m2/extensions/firecheckout/customization/use-cases/housenumber/)
+    - [Postcode Mask &amp; validator](/m2/extensions/firecheckout/customization/use-cases/postcode-mask/)
+    - [Change field size](/m2/extensions/firecheckout/customization/use-cases/field-size/)
+    - [Business account checkbox](/m2/extensions/firecheckout/customization/use-cases/business-account-checkbox/)
+
 ### Version 1.11.0
 
  -  New terrific feature added to the [CheckoutCart](/m2/extensions/checkout-cart/)

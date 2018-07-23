@@ -49,7 +49,7 @@ define([
 
         // Object with fields to watch
         watch: {
-            '.form-shipping-address [name="company"]': '*'
+            '.form-shipping-address [name="company"]': '*' // any non-empty value
         },
 
         // Object with fields to react when watched fields are updated

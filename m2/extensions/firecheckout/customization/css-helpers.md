@@ -17,6 +17,7 @@ category: Firecheckout
 CSS class                   | Description
 ----------------------------|--------------------------
 `fc-col-1` .. `fc-col-12`   | Helps to resize the field. Use just like any other 12-columns grid system
+`fc-hidden`                 | Hides content on all screen sizes
 **Using together with container size selectors** |
 `fc-size-l:fc-col-4`        | `fc-col-4` will work, when parent container has `fc-size-l` class
 
