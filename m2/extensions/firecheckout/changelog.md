@@ -10,6 +10,11 @@ category: Firecheckout
 
 ### Version 1.12.0
 
+Firecheckout **1.12.0** brings more power to advanced users and developers who
+wants to customize their checkout pages.
+
+{% include gallery.html images=site.data.gallery.m2.firecheckout.changelog.v1120 class="phone-up-2 tablet-up-3 photoswipe scroll" %}
+
  -  Added ability to add custom CSS and JS directly from
     [configuration page](/m2/extensions/firecheckout/configuration/#custom-css-and-js-settings-section)
  -  A lot of customization utilities added:

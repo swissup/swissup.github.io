@@ -1,0 +1,12 @@
+- title: >
+    Customized field labels, placeholders, and sizes. Dependent fields are used
+    for 'Use Bussiness Address' checkbox.
+  href: /images/m2/firecheckout/changelog/1120/customization.png
+  src: /images/m2/firecheckout/changelog/1120/small/customization.png
+  w: 620
+  h: 601
+- title: Custom field validator
+  href: /images/m2/firecheckout/changelog/1120/validator.png
+  src: /images/m2/firecheckout/changelog/1120/small/validator.png
+  w: 584
+  h: 285
