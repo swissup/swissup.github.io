@@ -7,6 +7,13 @@ category: Firecheckout
 
 # Changelog
 
+### Version 4.3.4
+
+ -  Magento 1.9.3.9 compatibility. Fixed redirect to homepage, when customer is
+    registered during checkout.
+ -  Pook_CollectInStore [integration added](/m1/extensions/firecheckout/supported-modules/pook-collectinstore/)
+ -  CheckoutSuccess module updated to the [latest version](/m1/extensions/checkout-success/changelog/#version-208)
+
 ### Version 4.3.3
 
  -  Fixed newsletter subscription when registering new account and using

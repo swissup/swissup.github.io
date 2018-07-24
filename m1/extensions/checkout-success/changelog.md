@@ -8,6 +8,10 @@ category: Checkout Success
 
 # Changelog
 
+### Version 2.0.8
+
+ -  Fixed invalid timezone when showing delivery date information
+
 ### Version 2.0.7
 
  -  Fixed typographical errors
