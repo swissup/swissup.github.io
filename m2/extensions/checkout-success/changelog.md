@@ -8,6 +8,13 @@ category: Checkout Success
 
 # Changelog
 
+### Version 1.2.0
+
+ -  Stability improvements in PHP code
+ -  New variables added into Miscellaneous scripts:
+     -  `{% raw %}{{orderBillingAddress}}{% endraw %}`
+     -  `{% raw %}{{orderShippingAddress}}{% endraw %}`
+
 ### Version 1.1.3
 
  -  New variable added into Miscellaneous scripts: `{% raw %}{{orderItems}}{% endraw %}`.

@@ -8,6 +8,11 @@ category: Checkout VAT
 
 # Changelog
 
+### Version 1.0.5
+
+ -  Fixed missing tooltip in Billing Address form when it's
+    rendered below payment methods
+
 ### Version 1.0.4
 
  -  Removed not needed notice from billing address form

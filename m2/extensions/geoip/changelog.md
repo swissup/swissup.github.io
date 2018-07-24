@@ -8,6 +8,10 @@ category: Geoip
 
 # Changelog
 
+### Version 1.0.4
+
+ -  Translation file added
+
 ### Version 1.0.3
 
  -  Acl fixes

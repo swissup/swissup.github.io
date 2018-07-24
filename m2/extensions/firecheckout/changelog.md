@@ -23,9 +23,32 @@ category: Firecheckout
         utility will help you to implement any specific logic with custom js functions.
  - New use cases added to the docs:
     - [Housenumber](/m2/extensions/firecheckout/customization/use-cases/housenumber/)
-    - [Postcode Mask &amp; validator](/m2/extensions/firecheckout/customization/use-cases/postcode-mask/)
+    - [Postcode Mask &amp; Validator](/m2/extensions/firecheckout/customization/use-cases/postcode-mask/)
     - [Change field size](/m2/extensions/firecheckout/customization/use-cases/field-size/)
     - [Business account checkbox](/m2/extensions/firecheckout/customization/use-cases/business-account-checkbox/)
+
+**Bugfixes**
+
+ -  Fixed constantly checked 'My billing and shipping address are the same'
+    checkbox, when Billing address is rendered below payment methods
+ -  See 'Modules Updated' section for more bugfixes
+
+**Modules Updates**
+
+ -  Address Field Manager — [1.3.1](/m2/extensions/address-field-manager/changelog/#version-131)
+     -  Fixed missing custom address fields in Billing Address form when it's
+        rendered below payment methods
+     -  Fixed Invalid fields sort order in Billing Address form when it's
+        rendered below payment methods
+  -  Checkout Success — [1.2.0](/m2/extensions/checkout-success/changelog/#version-120)
+     -  Stability improvements in PHP code
+     -  New variables added into Miscellaneous scripts:
+         -  `{% raw %}{{orderBillingAddress}}{% endraw %}`
+         -  `{% raw %}{{orderShippingAddress}}{% endraw %}`
+ -  Checkout Vat — [1.0.5](/m2/extensions/taxvat/changelog/#version-105)
+     -  Fixed missing tooltip in Billing Address form when it's
+        rendered below payment methods
+ -  Translation files added to all modules
 
 ### Version 1.11.0
 

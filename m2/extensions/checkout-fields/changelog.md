@@ -8,6 +8,11 @@ category: Checkout Fields
 
 # Changelog
 
+### Version 1.0.5
+
+ -  Translation file added
+ -  JS code refactoring
+
 ### Version 1.0.4
 
  -  Fixed vertical alignment of button and input fields

@@ -7,6 +7,10 @@ category: Address Autocomplete
 
 # Changelog
 
+### Version 1.0.8
+
+ -  Translation file added
+
 ### Version 1.0.7
 
  -  Fixed API authFailure processing on slow networks

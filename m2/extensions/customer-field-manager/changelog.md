@@ -8,6 +8,10 @@ category: Customer Field Manager
 
 # Changelog
 
+### Version 1.0.1
+
+ -  Translation file added
+
 ### Version 1.0.0
 
  -  Initial Release

@@ -8,6 +8,14 @@ category: Address Field Manager
 
 # Changelog
 
+### Version 1.3.1
+
+ -  Translation file updated
+ -  Fixed missing custom address fields in Billing Address form when it's
+    rendered below payment methods
+ -  Fixed Invalid fields sort order in Billing Address form when it's
+    rendered below payment methods
+
 ### Version 1.3.0
 
  -  Fixed not working state/region sort order

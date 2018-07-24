@@ -8,6 +8,10 @@ category: Checkout Cart
 
 # Changelog
 
+### Version 1.2.1
+
+ -  Translation file added
+
 ### Version 1.2.0
 
  -  Added ability to show product name as a link
