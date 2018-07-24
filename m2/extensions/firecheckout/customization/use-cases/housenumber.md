@@ -22,11 +22,11 @@ category: Firecheckout
         'use strict';
 
         classname('.street', 'fc-col-12');
-        classname('[name="street[0]"]', 'fc-size-l:fc-col-8 fc-size-m:fc-col-8');
+        classname('[name="street[0]"]', 'fc-col-8 fc-size-s:fc-col-6 fc-size-xs:fc-col-12');
         manager('[name="street[1]"]', {
             label: 'Housenumber',
             placeholder: 'Housenumber',
-            classname: 'fc-size-l:fc-col-4 fc-size-m:fc-col-4',
+            classname: 'fc-col-4 fc-size-s:fc-col-6 fc-size-xs:fc-col-12',
             validator: {
                 'lazy': true,
                 'required': true,
