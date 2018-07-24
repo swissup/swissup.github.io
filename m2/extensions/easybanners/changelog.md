@@ -8,6 +8,10 @@ category: Easy Banners
 
 # Changelog
 
+### Version 1.2.3
+
+ -  Fixed possible error on bundle product pages
+
 ### Version 1.2.2
 
  -  Fixed image styles in [Book layout](/m2/extensions/easybanners/layouts-for-html-banners/#book)
