@@ -1,4 +1,4 @@
-[SwissUpLabs docs site](http://docs.swissuplabs.com/)
+[SwissUpLabs docs site](https://docs.swissuplabs.com/)
 
 ### Installation
 
