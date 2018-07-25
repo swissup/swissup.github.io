@@ -39,7 +39,7 @@ var clipboardButtons = (function(){
         });
       }
 
-      clipboards = new Clipboard('.btn-clip', {
+      clipboards = new ClipboardJS('.btn-clip', {
         target: function(trigger) {
           return trigger.nextElementSibling;
         }
