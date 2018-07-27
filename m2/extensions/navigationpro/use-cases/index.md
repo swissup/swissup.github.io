@@ -20,6 +20,7 @@ category: Navigationpro
  - [Sidebar Menu](/m2/extensions/navigationpro/use-cases/sidebar-menu/)
  - [Overlay](/m2/extensions/navigationpro/use-cases/overlay/)
  - [Nowrap (Single row menu)](/m2/extensions/navigationpro/use-cases/nowrap/)
+ - [Link Bar on Mobile devices](/m2/extensions/navigationpro/use-cases/link-bar/)
 
 #### Next up
 
