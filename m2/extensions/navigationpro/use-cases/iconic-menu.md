@@ -17,6 +17,13 @@ Navigate to _Swissup > NavigationPro_ page, open menu to edit, apply the custom
 
 ![Iconic Menu Backend](/images/m2/navigationpro/use-cases/iconic-menu-backend.png)
 
+```html
+{% raw %}<a href="{{navpro data='url'}}" class="{{navpro data='class'}} text-center">
+    <img src="{{media url='wysiwyg/image.png'}}" alt="" />
+    {{navpro data="name"}}
+</a>{% endraw %}
+```
+
 Click on **Menu Settings** button and fill the following CSS classes
 in [Menu Settings][menu-settings] panel:
 `justify-around caret-bottom navpro-iconic iconic-vertical`.
