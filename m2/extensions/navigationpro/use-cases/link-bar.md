@@ -2,7 +2,7 @@
 layout: default
 title: Navigationpro Link Bar
 description: >
-    How to create "Link Bar" navigation for mobile devices
+    How to create `Link Bar` navigation for mobile devices
 keywords: mobile navigation, linkbar, link bar
 category: Navigationpro
 ---
