@@ -14,6 +14,7 @@ category: Navigationpro
    - [Sidebar Menu](/m2/extensions/navigationpro/use-cases/amazon-menu/#sidebar-menu)
  - [Stacked Dropdowns](/m2/extensions/navigationpro/use-cases/stacked-dropdowns/)
  - [Iconic Menu](/m2/extensions/navigationpro/use-cases/iconic-menu/)
+ - [Ribbon Menu](/m2/extensions/navigationpro/use-cases/ribbon-menu/)
  - [EasyCatalogImages Menu](/m2/extensions/navigationpro/use-cases/easycatalogimages-widget/)
  - [Complex Dropdown Contents](/m2/extensions/navigationpro/use-cases/complex-content/)
  - [Category Tips (Labels)](/m2/extensions/navigationpro/use-cases/category-tips/)

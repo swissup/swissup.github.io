@@ -62,6 +62,7 @@ Class Name      | Description
 `navpro-iconic` | Allows to use [icons/images in item name][iconic-menu]
 `iconic-vertical` | Place item [icon/image in separate row][iconic-menu]
 `navpro-stacked`| Use [stacked][stacked-menu] dropdown positioning
+`navpro-ribbon` | Use [ribbon][ribbon-menu] menu styles
 **Layout Modifiers** |
 `navpro-nowrap` | Do not wrap top level items on the new line. Use [separate dropdown][nowrap] for them.
 **Effects**     |
@@ -110,6 +111,7 @@ Class Name          | Description
 [complex-dropdown]: /m2/extensions/navigationpro/use-cases/complex-content/ "Complex Dropdown Content"
 [amazon-menu]: /m2/extensions/navigationpro/use-cases/amazon-menu/ "Amazon Menu"
 [iconic-menu]: /m2/extensions/navigationpro/use-cases/iconic-menu/ "Iconic Menu"
+[ribbon-menu]: /m2/extensions/navigationpro/use-cases/ribbon-menu/ "Ribbon Menu"
 [stacked-menu]: /m2/extensions/navigationpro/use-cases/stacked-dropdowns/ "Stacked Menu"
 [overlay]: /m2/extensions/navigationpro/use-cases/overlay/ "Overlay"
 [nowrap]: /m2/extensions/navigationpro/use-cases/nowrap/ "Nowrap"
