@@ -8,6 +8,11 @@ category: SEO HTML Sitemap
 
 # Changelog
 
+### Version 1.0.1
+
+ -  Rename admin menu item 'HTML Sitemap Links' => 'Sitemap Links'.
+ -  Fix PHP fatal error in custom links grid when Magento Admin session expired.
+
 ### Version 1.0.0
 
  -  Initial release

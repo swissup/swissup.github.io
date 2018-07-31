@@ -19,3 +19,5 @@ categories, products, CMS pages and custom links.
  -  [Changelog](changelog/)
  -  [Configuration](configuration/)
  -  [Custom Links Grid](grid/)
+
+> HTML Sitemap module is a part of [SEO Suite](../seo-suite/) toolkit. And we do not provide it as independent Magento 2 extension.
