@@ -8,6 +8,17 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.6.0
+
+{% include gallery.html images=site.data.gallery.m2.navigationpro.changelog.v160 class="phone-up-2 tablet-up-3 photoswipe scroll" %}
+
+ -  New menu styles:
+    - [Ribbon Menu](/m2/extensions/navigationpro/use-cases/ribbon-menu/)
+    - [Link Bar Mobile Menu](/m2/extensions/navigationpro/use-cases/link-bar/)
+    - [Apple Menu](/m2/extensions/navigationpro/use-cases/apple-menu/)
+ -  New Use Case added: [Iconic Dropdown Menu](/m2/extensions/navigationpro/use-cases/iconic-menu/#dropdown-menu)
+ -  Small CSS fixes
+
 ### Version 1.5.1
 
  -  Allow to use absolute links in [menu items](/m2/extensions/navigationpro/backend/menu-edit/#general-settings)
