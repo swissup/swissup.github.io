@@ -67,11 +67,11 @@ Let's make a dark dropdowns. [Scroll down](#result) to see the result.
     ```bash
     cd magento/root/folder
 
-    # remove previously deployed firecheckout styles
+    # remove previously deployed navigationpro styles
     find pub/static var/view_preprocessed -type d -regex ".*Navigationpro.*css" -exec rm -rf {} \;
 
     # run deployment command
-    php bin/magento setup:static-content:deploy en_US
+    php bin/magento setup:static-content:deploy en_US en_GB
     ```
 
 #### Result

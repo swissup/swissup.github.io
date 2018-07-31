@@ -59,6 +59,7 @@ Proceed the following steps, if you'd like to customize sidebar menu styles:
     ```
     Menu:                           Select newly created simple menu
     Show Active Branch Only:        Yes
+    Show Parent Category:           Yes
     Theme:                          Compact
     Orientation:                    Vertical
     Dropdown Positioning:           Standard

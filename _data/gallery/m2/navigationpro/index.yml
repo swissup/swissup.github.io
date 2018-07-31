@@ -67,6 +67,13 @@
       Ribbon Menu
   w: 561
   h: 318
+- href: /images/m2/navigationpro/showcase/apple-menu.png
+  src: /images/m2/navigationpro/showcase/small/apple-menu.png
+  title: >
+      Apple Menu. It consists from two menu's: top menu shows top-level categories
+      only, secondary menu shown children of active category.
+  w: 940
+  h: 563
 # - href: /images/m2/navigationpro/showcase/stacked.png
 #   src: /images/m2/navigationpro/showcase/small/stacked.png
 #   alt: Stacked menu
