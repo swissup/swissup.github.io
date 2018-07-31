@@ -20,12 +20,14 @@ According to [wikipedia](https://en.wikipedia.org/wiki/Sitemaps) Sitemaps are es
 
 It seems like XML Sitemap is "must have" feature for Magento 2 store.
 
-Magento 2 has its own nice sitemap implementation. And our module adds few awesome features to it that make XML Sitemap even better:
+Magento 2 has its own nice sitemap implementation. Our module adds few awesome features to it that make XML Sitemap even better:
 
  -  sort links in XML according their priority (make sure crawler will check the most important links first),
  -  include any other (custom) links into XML,
  -  add images to category links,
- -  add regional and language URLs (hreflang).
+ -  add regional and language URLs - hreflang (check [Regional URLs](../hreflang) docs),
+ -  along side with core functions like, generate via Cron,
+ -  set the sitemap file limits.
 
 In case you want to know more about core Magento Sitemap please read article ["Using a Site Map"](https://docs.magento.com/m2/ce/user_guide/marketing/sitemap-xml.html) at Magento docs.
 
@@ -33,5 +35,6 @@ Check links below to get closer with Swissup SEO XML Sitemap module.
 
  *  [Configuration](configuration/)
  *  [Admin interface to add custom links into XML](../seo-html-sitemap/grid/)
+ *  [Generate the Sitemap](generate/)
 
 > XML Sitemap module is a part of [SEO Suite](../seo-suite/) toolkit. And we do not provide it as independent Magento 2 extension.
