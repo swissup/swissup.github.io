@@ -14,8 +14,8 @@ category: Navigationpro
 
  -  New menu styles:
     - [Ribbon Menu](/m2/extensions/navigationpro/use-cases/ribbon-menu/)
-    - [Link Bar Mobile Menu](/m2/extensions/navigationpro/use-cases/link-bar/)
     - [Apple Menu](/m2/extensions/navigationpro/use-cases/apple-menu/)
+    - [Link Bar Mobile Menu](/m2/extensions/navigationpro/use-cases/link-bar/)
  -  New Use Case added: [Iconic Dropdown Menu](/m2/extensions/navigationpro/use-cases/iconic-menu/#dropdown-menu)
  -  Small CSS fixes
 
