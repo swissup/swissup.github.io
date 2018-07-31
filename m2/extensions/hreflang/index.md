@@ -8,7 +8,7 @@ category: Regional URLs
 
 # Regional and Language URLs
 
-![rel="alternate" hreflang](/images/m2/hreflang/example.png)
+![rel="alternate" hreflang](/images/m2/hreflang/example.png){:class="noborder"}
 
 First thing you have to know, this module does not add any visible enhancements at your storefront. Its goal is to improve targeting of site content to a specific country. And second, you get any benefits from this module only when your store is multilingual and/or multi-regional.
 
