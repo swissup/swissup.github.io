@@ -484,7 +484,7 @@ seo-xml-sitemap:
   short_description:
   urls:
     m1: /m1/extensions/seo-xml-sitemap/
-    m2:
+    m2: /m2/extensions/seo-xml-sitemap/
 
 slick-carousel:
   title: Slick Carousel
