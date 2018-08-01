@@ -8,9 +8,43 @@ category: SEO Suite
 
 # Changelog
 
+### Version 1.0.0
+
+Include module [***SEO XML Sitemap***](/m2/extensions/seo-xml-sitemap/) into kit. New XML Sitemap module provides improved experience and advanced options for Magento Sitemap generation. It sorts sitemap links according their priority, adds images to category links and supports regional and language URLs (hreflang).
+
+ -  Change SEO Suite section sort order in Magento Admin menu.
+
+*HTML Sitemap*
+
+ -  Rename backend menu item ‘HTML Sitemap Links’ => ‘Sitemap Links’.
+ -  Fix PHP fatal error in custom links grid when Magento Admin session expired.
+
+*Metadata templates*:
+
+ -  Fix error during `setup:di:compile`.
+
+*Regional URLs (hreflang)*:
+
+ -  New option to add hreflang links into XML Sitemap.
+ -  New option to exclude store view from hreflinks.
+ -  Improved store URL resolving (sometimes incorrect theme was applied).
+ -  Fixed compatibility with Magento 2.1.x.
+
+*Rich Snippets*:
+
+ -  Fallback to full description of product in snippet when short description is empty.
+
+*SEO Pagination*:
+
+ -  Remove canonical URL correctly (previous version removes all links equal to canonical in document head).
+
+*SEO URLs*:
+
+ -  Improved integration with "Regional URLs".
+
 ### Version 0.11.0
 
-New module [*"Region and Language URLs (hreflang)"*](../../hreflang/) included into kit. Tell Google that you have multilingual and/or multi-regional store. Please, do not forget to run `php bin/magento module:enable Swissup_Hreflang` to enable new module.
+New module [***Region and Language URLs (hreflang)***](../../hreflang/) included into kit. Tell Google that you have multilingual and/or multi-regional store. Please, do not forget to run `php bin/magento module:enable Swissup_Hreflang` to enable new module.
 
 *Rich Snippets*:
 

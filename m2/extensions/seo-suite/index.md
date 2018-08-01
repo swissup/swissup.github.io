@@ -18,6 +18,7 @@ This toolkit includes extensions:
  -  [Rich Snippets](../richsnippets)
  -  [SEO Pagination](../seo-pager)
  -  [SEO-friendly URLs](../seo-urls)
+ -  [XML Sitemap](../seo-xml-sitemap)
 
 Follow links above to read more about extensions.
 
