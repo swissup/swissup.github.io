@@ -6,6 +6,16 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.3.1
+
+ -  Add eval native <script>
+ -  Fix modal z-index for 2.2.6
+ -  Add patch for .price-box bug configurable.js mixin
+ -  Fix lost js lib bug _
+ -  Fix eslint and jscs warnings
+ -  Fix radio disabled bug was patched
+ -  Remove floating.cart at checkout pages
+
 ### Version 1.3.0
 
  -  Added slide mode for modal dialog
