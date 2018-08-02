@@ -23,7 +23,8 @@ category: Firecheckout
 **Thisrd-party modules**
 
  -  Fixing missing GiftCard block after coupon update
- -  [Payfort_Pay integration](/m1/extensions/firecheckout/supported-modules/payfort-pay/) added
+ -  [Payfort_Pay integration](/m1/extensions/firecheckout/supported-modules/payfort-pay/) added.
+    Thanks to our customer from **"MageMEGA - Managed Magento Hosting"**
 
 ### Version 4.3.2
 

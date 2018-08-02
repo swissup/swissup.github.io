@@ -16,8 +16,10 @@ category: Firecheckout
 
  2. Since Pook_CollectInStore module replaces standard magento checkout actions
     with its own, instead of using magento observers, and their developers not
-    willing to improve their module for free, one of our customers kindly share
-    its own solution.
+    willing to improve their module for free, you need to apply the chnages
+    below.
+
+    This solution was created by our customer from **"MageMEGA - Managed Magento Hosting"**.
 
     Open `app/code/community/Pook/CollectInStore/etc/config.xml` and add the
     following code to the `frontend` section:
