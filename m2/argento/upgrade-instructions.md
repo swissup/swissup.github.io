@@ -7,6 +7,30 @@ category: Argento
 
 # Upgrade Instructions
 
+### Version 1.4.0 - 1.5.0
+
+ 1. Backup all changes you've made
+ 2. Put the store to the maintenance mode
+ 3. [Unpack new Argento version][unpack_package] over the old one
+ 4. Run upgrades:
+
+    ```bash
+    # activate new modules
+    php bin/magento module:enable Swissup_Compare Swissup_Hreflang Swissup_SeoXmlSitemap
+
+    # run upgrades
+    php bin/magento setup:upgrade
+
+    # regenerate static content
+    rm -rf pub/static/_requirejs var/view_preprocessed pub/static/frontend/ pub/static/adminhtml/
+    # for magento 2.2.x
+    rm -rf pub/static/_requirejs var/view_preprocessed pub/static/frontend/ pub/static/adminhtml/ generated/code/
+
+    php bin/magento setup:static-content:deploy en_US [your_locale]
+    ```
+
+5. That's all. You are now using Argento 1.5.0
+
 ### Version 1.3.1 - 1.4.0
 
  1. Backup all changes you've made

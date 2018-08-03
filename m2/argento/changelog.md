@@ -7,6 +7,59 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.5.0
+
+> [Upgrade Instructions](/m2/argento/upgrade-instructions/#version-140---150)
+
+ -  New [**Compare module**](/m2/extensions/compare/) added
+ -  New [**Regional and Language URLs** module](/m2/extensions/hreflang/) added
+ -  New [**SEO XML Sitemap** module](/m2/extensions/seo-xml-sitemap/) added
+ -  Css fixes for reviews toolbar
+ -  Css fixes for Askit questions toolbar
+ -  Added compatibility with Magento 2.2.5 when installing theme on 'All Store Views'
+
+**Extensions Updates**
+
+ -  **AjaxPro** — 1.3.1
+    -  Added slide mode for modal dialog
+    -  Added floating cart
+    -  Fixed priceBox bug
+    -  Fixed bug with disabled radio buttons in shipipng estimation
+    -  Fixed configurable products add to cart issue on homepage
+ -  **Askit** — 1.2.17
+    -  Added email subject translation
+ -  **Easybanners** — 1.2.3
+    -  Fixed possible error on bundle product pages
+ -  **EasyTabs** — 1.3.2
+    -  Fixed activate and scroll to tab on external link click
+ -  **Fblike** — 1.1.3
+    -  Overall JavaScript improvements (load Facebook SDK only it is necessary, better utilization of Magento RequireJS functionality)
+ -  **Hover Gallery** — 1.0.1
+    -  Fixed both images visible issue when using transparent png product images
+ -  **Navigationpro** — 1.6.0
+    -  New menu styles: [Ribbon Menu](/m2/extensions/navigationpro/use-cases/ribbon-menu/), [Apple Menu](/m2/extensions/navigationpro/use-cases/apple-menu/), [Link Bar Mobile Menu](/m2/extensions/navigationpro/use-cases/link-bar/)
+    -  New Use Case added: [Iconic Dropdown Menu](/m2/extensions/navigationpro/use-cases/iconic-menu/#dropdown-menu)
+    -  Small CSS fixes
+ -  **ProLabels** — 1.0.24
+    -  Fixed php notice on Single Store mode in Edit Label interface
+ -  **SEO Suite** — 1.0.0
+     -  includes new module [Regional and Language URLs](/m2/extensions/hreflang/)
+     -  includes new module [SEO XML Sitemap](/m2/extensions/seo-xml-sitemap/)
+     -  *Richsnippets*  — 1.1.3
+         -  Fixed missing breadcrumbs data at product pages in Magento 2.2.4+
+         -  Fixed possible notice at product page with grouped product
+         -  Using full description in snippet when short description is empty
+     -  *SEO HTML Sitemap*  — 1.0.1
+         -  Renamed admin menu item "HTML Sitemap Links" to "Sitemap Links"
+         -  Fixed PHP fatal error in custom links grid when Magento Admin session expired
+     -  *SEO URLs*  — 1.2.1
+         -  Config section renamed from "Urls" to "SEO URLs"
+         -  Integration with "Regional Urls (hreflang)" module
+     -  *SEO Pager*  — 1.0.1
+         -  Canonical URL now removed correctly
+     -  *SEO Templates*  — 1.0.2
+         -  Fixed error during compilation
+
 ### Version 1.4.0
 
 > [Upgrade Instructions](/m2/argento/upgrade-instructions/#version-131---140)
