@@ -12,8 +12,8 @@ category: Argento
 > [Upgrade Instructions](/m2/argento/upgrade-instructions/#version-140---150)
 
  -  New [**Compare module**](/m2/extensions/compare/) added
- -  New [**Regional and Language URLs** module](/m2/extensions/hreflang/) added
- -  New [**SEO XML Sitemap** module](/m2/extensions/seo-xml-sitemap/) added
+ -  New [**Regional and Language URLs** module](/m2/extensions/hreflang/) added as part of [Seo Suite](/m2/extensions/seo-suite/)
+ -  New [**SEO XML Sitemap** module](/m2/extensions/seo-xml-sitemap/) added as part of [Seo Suite](/m2/extensions/seo-suite/)
  -  Css fixes for reviews toolbar
  -  Css fixes for Askit questions toolbar
  -  Added compatibility with Magento 2.2.5 when installing theme on 'All Store Views'
