@@ -8,6 +8,15 @@ category: Rich Snippets
 
 # Changelog
 
+### Version 1.1.3
+
+ -  Fallback to full description of product in snippet when short description is empty.
+
+### Version 1.1.2
+
+ -  Fix missing breadcrumbs data at product pages in Magento 2.2.4+ instances.
+ -  Fix possible notice at product page with grouped product (undefined variable: groupedProductsPricesArray).
+
 ### Version 1.1.1
 
  -  Do not add rating to snippet when product reviews do not have ratings.
