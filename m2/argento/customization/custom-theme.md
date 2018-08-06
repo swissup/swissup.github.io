@@ -29,6 +29,9 @@ custom theme allows you to change much more things:
 
 ### Create custom theme
 
+Please, use our istructions at **[Custom Argento Themes Boilerplate](https://github.com/argento/theme-custom-boilerplates)**
+free repository or you can create custom theme manualy:
+
 Let's create `Local/argento-[essence|flat]-custom` theme based on
 `Swissup/argento-[essence|flat]`.
 
