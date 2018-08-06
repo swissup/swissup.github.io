@@ -9,7 +9,45 @@ category: Pagespeed
 # Pagespeed setup
 
 
-### Apache configuration gzip option
+### Lets start
+
+Check your site pagespeed rank and take results screenshot
+We recomend use [Google Page speed insights online tool](https://developers.google.com/speed/pagespeed/insights)
+Usally we also check results at [Gtmetrix online tool](http://gtmetrix.com).
+
+Open configuration
+
+`Store > Configuration` > `Swissup > Pagespeed`
+
+In Main section
+
+Set Enable Yes
+
+~~~
+php bin/magento config:show pagespeed/main/enable
+php bin/magento config:set pagespeed/main/enable 1
+~~~
+
+
+If your store in developer mode. You need to enable developer mode compatability.
+
+Enable in developer mode - Yes
+
+~~~
+php bin/magento deploy:mode:show
+~~~
+
+Test GZIP compression
+
+Gzip is very important for us. If you see green message. All right.
+But if you see red error message than you need to enable and test gzip compression support on your web server.
+
+> The HTML5 Boilerplate project contains [sample configuration files](https://github.com/h5bp/server-configs) for all the most popular servers with detailed comments
+> for each configuration flag and setting: find your favorite server in the list, look for the gzip section, and confirm that
+> your server is configured with recommended settings.
+
+
+### Apache configuration gzip option example
 
 Check and Enable AllowOverride option in you Apache configuration
 
@@ -107,4 +145,5 @@ Header set Connection keep-alive
 Great! Now you might want to see previous:
 
 - [Installation](/m2/extensions/pagespeed/installation/)
+- [Configuration](/m2/extensions/pagespeed/configuration/)
 - [Changelog](/m2/extensions/email/changelog/)

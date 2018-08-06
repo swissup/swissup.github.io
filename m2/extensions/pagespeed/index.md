@@ -21,7 +21,8 @@ If you are running the website with a lot of images, scripts and content, the Pa
 
 1. [Installation](installation/)
 2. [Usage](usage/)
-3. [Changelog](changelog/)
+3. [Configuration](configuration/)
+4. [Changelog](changelog/)
 
 **How to measure site grade?**
 

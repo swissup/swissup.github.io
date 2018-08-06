@@ -11,3 +11,10 @@ category: Pagespeed
 ### Version 0.1.0
 
  - Initial release
+
+
+##### See also
+
+Great! Now you might want to see previous:
+
+ - [Installation](/m2/extensions/pagespeed/installation/)
