@@ -10,6 +10,17 @@ category: Argento
 
 ![Argento Pure Product Page](/images/argento/pure/product-page.jpg)
 
+### Configuration settings
+
+There is specific section for product page configuration in Magento Admin. Go to `System` → `Configuration`. Find `TM Argento Themes` section there and choose `Pure`.
+
+![Product page settings](/images/argento/default/product-page-settings.png)
+
+Here you can:
+
+ -  change product image layout and set product image size (check [Product Images](#images) paragraph),
+ -  stick product image and/or product details section.
+
 ### Layout
 
 Argento Pure is using `page_two_columns_right` layout for the product page. To
@@ -35,12 +46,13 @@ page_one_column
 
 #### Images
 
-{::options parse_block_html="true" /}
-<div class="mdl-grid"><div class="mdl-cell mdl-cell--3-col mdl-cell--2-col-tablet">
+Product images can be presented in two ways.
 
-![Product Image](/images/argento/pure/product-images.jpg)
-
-</div><div class="mdl-cell mdl-cell--9-col mdl-cell--6-col-tablet">
+ Default                    | Slider 
+----------------------------|--------------------------------
+ Main image with thumbnails | Horisontal scroll of all images
+----------------------------|--------------------------------
+![Product Image - default](/images/argento/pure/product-images.jpg){:class="noborder"} | ![Product Image - slider](/images/argento/pure/product-images-slider.png){:class="noborder"}
 
 Product image and gallery is powered by LightboxPro module, that has a lot of
 configuration optins at `System > Configuration > Template-Master > LightboxPro`
@@ -52,8 +64,6 @@ It allows you to configure the following options:
 - Gallery controls
 - Overlay settings
 - Popup settings
-
-</div></div>
 
 #### Product labels
 
