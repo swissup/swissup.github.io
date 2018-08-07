@@ -7,6 +7,26 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.11.0
+
+ -  We added fantastic option to stick product image and/or product details at product page for every theme . Read more at [Product Page configuration](../luxury/product-page/). 
+    ![Sticky product image example](/images/argento/luxury/product-page/sticky-image-example.gif)
+
+ -  New feature to change produt image layout at product page. You can have default (old-school) layout or fancy mobile-friendly slider.
+
+**Major modules changes**
+
+ -  AMP:
+     +  Update deprecated mustache library to the version 0.2.
+
+ -  GDPR:
+     +  Improved compatibility with old php versions.
+     +  Added missing translations.
+
+ -  Lightbox Pro:
+     +  New option for product page image. You can select between default layout with thumbnails and slider with all images.
+     +  Overall code improvements.
+     
 ### Version 1.10.0
 
  -  New highly in demand **GDPR module** is included in Argento package. Read more about this module at [our documentaion site](/m1/extensions/gdpr/).
