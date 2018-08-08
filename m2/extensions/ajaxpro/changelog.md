@@ -8,6 +8,7 @@ category: AjaxPro
 
 ### Version 1.3.2
 
+**Bugfixes**
  - Fix js error 'Cannot read property 'backUrl' of null'
  - Fix redundant reload ajaxpro sections after page refresh .reload([])
 
