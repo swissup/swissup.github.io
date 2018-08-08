@@ -17,6 +17,8 @@ Google considers the site speed as an important search rankings factor. It’s p
 
 If you are running the website with a lot of images, scripts and content, the Page Speed module is must have solution for you. Meet the main features, that will help you to make website loading faster:
 
+![Google insights](/images/m2/pagespeed/insight.png)
+
 ### Contents
 
 1. [Installation](installation/)
