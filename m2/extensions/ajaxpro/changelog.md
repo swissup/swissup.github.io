@@ -6,6 +6,11 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.3.2
+
+ - Fix js error 'Cannot read property 'backUrl' of null'
+ - Fix redundant reload ajaxpro sections after page refresh .reload([])
+
 ### Version 1.3.1
 
  -  Add eval native <script>

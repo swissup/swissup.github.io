@@ -39,7 +39,7 @@ php bin/magento deploy:mode:show
 
 Test GZIP compression
 
-Gzip is very important for us. If you see green message. All right.
+When optimizing a website’s performance, the very first thing you should check is whether or not your site is taking advantage of GZIP Compression. If you see green message. All right.
 But if you see red error message than you need to enable and test gzip compression support on your web server.
 
 > The HTML5 Boilerplate project contains [sample configuration files](https://github.com/h5bp/server-configs) for all the most popular servers with detailed comments
