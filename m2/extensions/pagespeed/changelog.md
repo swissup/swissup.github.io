@@ -11,20 +11,18 @@ category: Pagespeed
 ### Version 1.0.0
 
 **Features**
-- Minify html content (js and css)
-- Optimise catalog images (optimisation tools https://github.com/spatie/image-optimizer#optimization-tools)
-- Optimise css delivery (+loadCss)
-- Add critical css
-- Add image lazy loading
+- [Minify HTML content](https://github.com/mrclay/minify)
+- Optimise catalog images ([optimisation tools](https://github.com/spatie/image-optimizer#optimization-tools))
+- Optimise css delivery ([loadCss](https://github.com/filamentgroup/loadCSS#why-loadcss))
+- Add critical CSS
+- Add [image lazy loading](https://github.com/aFarkas/lazysizes)
 - defer js (Remove render-blocking JavaScript)
 - Add dns-prefetch
 - Add Expire header
 - Auto add specify image dimension
-- Add developer mode compatability
-- Test GZIP compression
+- Add developer mode compatibility
+- [Test GZIP compression](https://checkgzipcompression.com/)
 - etc.
-
-![Main section](/images/m2/pagespeed/configuration/main.png)
 
 ### Version 0.1.0
 
