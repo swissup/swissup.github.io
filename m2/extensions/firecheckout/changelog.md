@@ -8,6 +8,12 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.13.0
+
+{% include gallery.html images=site.data.gallery.m2.firecheckout.changelog.v1130 class="phone-up-2 tablet-up-3 photoswipe scroll" %}
+
+ -  Form field errors and notices moved to stylish tooltips. [Configurable](/m2/extensions/firecheckout/configuration/#design-section)
+
 ### Version 1.12.0
 
 Firecheckout **1.12.0** brings more power to advanced users and developers who

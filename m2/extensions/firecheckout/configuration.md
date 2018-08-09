@@ -64,16 +64,24 @@ Layout screenshots:
 
 #### Form Styles
 
-There are three form modes available:
+There are three form **modes** available:
 
  -  [Horizontal](#&gid=3&pid=1) (Label aside of the field)
  -  [Basic](#&gid=3&pid=2) (Same as horizontal, except label above the field)
- -  [Compact](#&gid=3&pid=3) (Two fields per row)
-
-You can also hide labels and use field placeholders instead. This option works
-together with **Basic** and **Compact** modes only.
+ -  [Compact](#&gid=3&pid=3) (Multiple fields per row. [How to change field size?](/m2/extensions/firecheckout/customization/use-cases/field-size/))
 
 {% include gallery.html images=site.data.gallery.m2.firecheckout.configuration.form-styles class="scroll phone-up-1 tablet-up-3 photoswipe" %}
+
+**Use field placeholders instead of labels** - You can hide labels and use field
+placeholders instead. This option works together with **Basic** and **Compact**
+modes only:
+
+{% include gallery.html images=site.data.gallery.m2.firecheckout.configuration.hidden-labels class="scroll phone-up-1 tablet-up-3 photoswipe" %}
+
+**Show field errors and notices in the Tooltips** - Allows you to switch between
+awesome Tooltips mode and Magento's old-school notices and errors below the fields:
+
+{% include gallery.html images=site.data.gallery.m2.firecheckout.configuration.tooltips class="scroll phone-up-1 tablet-up-3 photoswipe" %}
 
 ### Additional content section
 

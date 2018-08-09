@@ -1,0 +1,10 @@
+- title: Standard notice message
+  href: /images/m2/firecheckout/frontend/tooltips/tooltips-disabled.png
+  src: /images/m2/firecheckout/frontend/tooltips/small/tooltips-disabled.png
+  w: 412
+  h: 586
+- title: Notice message in the tooltip
+  href: /images/m2/firecheckout/frontend/tooltips/tooltips-enabled.png
+  src: /images/m2/firecheckout/frontend/tooltips/small/tooltips-enabled.png
+  w: 412
+  h: 586
