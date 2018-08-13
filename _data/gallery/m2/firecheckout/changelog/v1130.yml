@@ -3,3 +3,8 @@
   src: /images/m2/firecheckout/frontend/tooltips/small/tooltips-enabled.png
   w: 412
   h: 586
+- title: Slightly improved credit card form styles
+  href: /images/m2/firecheckout/changelog/1130/payment-form-cc.png
+  src: /images/m2/firecheckout/changelog/1130/small/payment-form-cc.png
+  w: 800
+  h: 665

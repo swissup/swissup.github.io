@@ -12,7 +12,11 @@ category: Firecheckout
 
 {% include gallery.html images=site.data.gallery.m2.firecheckout.changelog.v1130 class="phone-up-2 tablet-up-3 photoswipe scroll" %}
 
- -  Form field errors and notices moved to stylish tooltips. [Configurable](/m2/extensions/firecheckout/configuration/#design-section)
+ -  Form field errors and notices moved to stylish tooltips. You can disable
+    this [option](/m2/extensions/firecheckout/configuration/#design-section) in
+    case of conflict with your theme.
+ -  Improved credit card form styles for known payment methods: Authorize.Net,
+    Braintree and other methods that use standard CC form markup.
 
 ### Version 1.12.0
 
