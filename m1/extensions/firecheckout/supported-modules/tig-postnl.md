@@ -107,4 +107,44 @@ category: Firecheckout
     // window.deliveryOptions.saveOscOptions();
     ```
 
- 5. Save the files and clear the cache.
+ 5. Open `app/code/community/TIG/PostNL/etc/config.xml`
+ and find the following lines:
+
+    ```xml
+    <controller_action_postdispatch_checkout_onepage_saveShippingMethod>
+        <observers>
+            <!-- Saves selected PostNL options for Onepage checkout. -->
+            <checkout_shipping_method_save_options>
+                <type>singleton</type>
+                <class>postnl_deliveryoptions/observer_updatePostnlOrder</class>
+                <method>saveOptions</method>
+            </checkout_shipping_method_save_options>
+        </observers>
+    </controller_action_postdispatch_checkout_onepage_saveShippingMethod>
+    ```
+
+    Replace it with:
+
+    ```xml
+    <controller_action_postdispatch_checkout_onepage_saveShippingMethod>
+        <observers>
+            <!-- Saves selected PostNL options for Onepage checkout. -->
+            <checkout_shipping_method_save_options>
+                <type>singleton</type>
+                <class>postnl_deliveryoptions/observer_updatePostnlOrder</class>
+                <method>saveOptions</method>
+            </checkout_shipping_method_save_options>
+        </observers>
+    </controller_action_postdispatch_checkout_onepage_saveShippingMethod>
+    <controller_action_predispatch_firecheckout_index_saveOrder>
+        <observers>
+            <checkout_shipping_method_save_options>
+                <type>singleton</type>
+                <class>postnl_deliveryoptions/observer_updatePostnlOrder</class>
+                <method>saveOptions</method>
+            </checkout_shipping_method_save_options>
+        </observers>
+    </controller_action_predispatch_firecheckout_index_saveOrder>
+    ```
+
+ 6. Save the files and clear the cache.
