@@ -219,6 +219,7 @@ You can check your site [here](https://checkgzipcompression.com/).
 ### 2. Minify JavaScript
 
 If you see something like:
+
 ![Minify Js](/images/m2/pagespeed/suggestion/minifyjs.png)
 
 > Minify JavaScript
@@ -244,6 +245,7 @@ If you see something like:
 ### 3. Minify HTML
 
 If you see something like:
+
 ![Minify HTML](/images/m2/pagespeed/suggestion/minifyhtml.png)
 
 > Minify HTML
