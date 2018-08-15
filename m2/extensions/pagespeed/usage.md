@@ -21,7 +21,11 @@ Open configuration
 
 In Main section
 
-Set Enable Yes
+Set
+
+  Enable - Yes
+
+![Main section](/images/m2/pagespeed/configuration/main.png)
 
 ~~~
 php bin/magento config:show pagespeed/main/enable
@@ -37,7 +41,7 @@ Enable in developer mode - Yes
 php bin/magento deploy:mode:show
 ~~~
 
-### 1. Enable compression
+### Enable compression
 
 If on google pagespeed suggestion you can see something like:
 
@@ -237,7 +241,7 @@ gzip_vary on;
 </details>
 
 
-### 2. Minify JavaScript
+### Minify JavaScript
 
 If you see something like:
 
@@ -260,10 +264,36 @@ If you see something like:
     Merge JavaScript File - Yes
     Minify JavaScript Files - Yes
 
+![JavaScript Settings](/images/m2/pagespeed/configuration/javascript-settings.png)
+
 > Please go to Cache Management and refresh cache types.
 
+### Remove render-blocking JavaScript
 
-### 3. Minify HTML
+If you see something like:
+
+> Eliminate render-blocking JavaScript and CSS in above-the-fold content
+>
+> Your page has 1 blocking script resources. This causes a delay in rendering your page.
+>
+> None of the above-the-fold content on your page could be rendered without waiting for the following resources to load. Try to defer or asynchronously load blocking resources, or inline the critical portions of those resources directly in the HTML.
+>
+> [Remove render-blocking JavaScript](https://developers.google.com/speed/docs/insights/BlockingJS):
+
+##### How to fix
+
+  Open configuration
+
+  `Store > Configuration` > `Swissup > Pagespeed > JavaScript Settings > Deferred javascripts`
+
+  Set option
+
+    Enable - Yes
+    Add Unpack - Yes
+
+> Please go to Cache Management and refresh cache types.
+
+### Minify HTML
 
 If you see something like:
 
@@ -288,9 +318,11 @@ If you see something like:
     CSS Content Minification Enable - Yes
     Minify Templates - Yes
 
+![Minify HTML Content](/images/m2/pagespeed/configuration/minify-html-content.png)
+
 > Please go to Cache Management and refresh cache types.
 
-### 4. Minify CSS
+### Minify CSS
 
 If you see something like:
 
@@ -311,9 +343,36 @@ If you see something like:
     Merge CSS Files - Yes
     Minify CSS Files - Yes
 
+![CSS Settings](/images/m2/pagespeed/configuration/css-settings.png)
+
 > Please go to Cache Management and refresh cache types.
 
-### 5. Optimize images
+### Optimize CSS Delivery
+
+If you see something like:
+
+> Eliminate render-blocking JavaScript and CSS in above-the-fold content
+>
+> Your page has 1 blocking CSS resources. This causes a delay in rendering your page.
+>
+> None of the above-the-fold content on your page could be rendered without waiting for the following resources to load. Try to defer or asynchronously load blocking resources, or inline the critical portions of those resources directly in the HTML.
+>
+> [Optimize CSS Delivery](https://developers.google.com/speed/docs/insights/OptimizeCSSDelivery) of the following.
+
+##### How to fix
+
+  Open configuration
+
+  `Store > Configuration` > `Swissup > Pagespeed > CSS Settings > Optimize CSS Delivery`
+
+  Set
+
+    Enable - Yes
+    Enable LoadCss - Yes
+
+> Please go to Cache Management and refresh cache types.
+
+### Optimize images
 
 If you see something like:
 
@@ -343,6 +402,8 @@ If you see something like:
 
     Enable - Yes
 
+![Image Processing Settings](/images/m2/pagespeed/configuration/image-processing-settings.png)
+
 > Please go to Cache Management and refresh cache types.
 
   Also you can run cli command for manual creating resized product images
@@ -350,56 +411,6 @@ If you see something like:
   ~~~sh
   php bin/magento catalog:images:resize
   ~~~
-
-### 6. Optimize CSS Delivery
-
-If you see something like:
-
-> Eliminate render-blocking JavaScript and CSS in above-the-fold content
->
-> Your page has 1 blocking CSS resources. This causes a delay in rendering your page.
->
-> None of the above-the-fold content on your page could be rendered without waiting for the following resources to load. Try to defer or asynchronously load blocking resources, or inline the critical portions of those resources directly in the HTML.
->
-> [Optimize CSS Delivery](https://developers.google.com/speed/docs/insights/OptimizeCSSDelivery) of the following.
-
-##### How to fix
-
-  Open configuration
-
-  `Store > Configuration` > `Swissup > Pagespeed > CSS Settings > Optimize CSS Delivery`
-
-  Set
-
-    Enable - Yes
-    Enable LoadCss - Yes
-
-> Please go to Cache Management and refresh cache types.
-
-### 7. Remove render-blocking JavaScript
-
-If you see something like:
-
-> Eliminate render-blocking JavaScript and CSS in above-the-fold content
->
-> Your page has 1 blocking script resources. This causes a delay in rendering your page.
->
-> None of the above-the-fold content on your page could be rendered without waiting for the following resources to load. Try to defer or asynchronously load blocking resources, or inline the critical portions of those resources directly in the HTML.
->
-> [Remove render-blocking JavaScript](https://developers.google.com/speed/docs/insights/BlockingJS):
-
-##### How to fix
-
-  Open configuration
-
-  `Store > Configuration` > `Swissup > Pagespeed > JavaScript Settings > Deferred javascripts`
-
-  Set option
-
-    Enable - Yes
-    Add Unpack - Yes
-
-> Please go to Cache Management and refresh cache types.
 
 ##### See also
 

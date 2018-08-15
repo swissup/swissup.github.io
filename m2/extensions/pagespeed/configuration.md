@@ -64,7 +64,7 @@ Option         | Description
 Enable         | Allows to enable/disable [Optimize CSS Delivery](https://developers.google.com/speed/docs/insights/OptimizeCSSDelivery) (Yes)
 Enable LoadCss | Allows to enable/disable [loadCss](https://github.com/filamentgroup/loadCSS#why-loadcss) js library (Yes)
 
-#### Optimise CSS Delivery
+#### Critical CSS (Prioritize Visible Content)
 
 Option               | Description
 ---------------------|-------------------------------------------
