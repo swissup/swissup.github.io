@@ -66,7 +66,7 @@ You can check your site [here](https://checkgzipcompression.com/).
 
 #### For Apache
 
-  Find and uncomment deflate section in your [pub/.htaccess](https://github.com/magento/magento2/blob/2.2-develop/pub/.htaccess#L92-L118) and [.htaccess](https://github.com/magento/magento2/blob/2.2-develop/.htaccess#L89-L115) files
+Find and uncomment deflate section in your [pub/.htaccess](https://github.com/magento/magento2/blob/2.2-develop/pub/.htaccess#L92-L118) and [.htaccess](https://github.com/magento/magento2/blob/2.2-develop/.htaccess#L89-L115) files
 
 <details>
 <summary>Uncomment Default configuration</summary>
@@ -169,7 +169,7 @@ Header set Connection keep-alive
 Check and Enable AllowOverride option in you Apache configuration
 
 ```
-  AllowOverride All
+AllowOverride All
 ```
 
 Apache configuration file is located in one of these locations:
@@ -240,7 +240,6 @@ gzip_vary on;
 
 </details>
 
-
 ### Minify JavaScript
 
 If you see something like:
@@ -255,14 +254,14 @@ If you see something like:
 
 ##### How to fix
 
-  Open configuration
+Open configuration
 
   `Store > Configuration` > `Swissup > Pagespeed > JavaScript Settings`
 
-  Enable
+Enable
 
-    Merge JavaScript File - Yes
-    Minify JavaScript Files - Yes
+  Merge JavaScript File - Yes
+  Minify JavaScript Files - Yes
 
 ![JavaScript Settings](/images/m2/pagespeed/configuration/javascript-settings.png)
 
@@ -282,11 +281,11 @@ If you see something like:
 
 ##### How to fix
 
-  Open configuration
+Open configuration
 
   `Store > Configuration` > `Swissup > Pagespeed > JavaScript Settings > Deferred javascripts`
 
-  Set option
+Set option
 
     Enable - Yes
     Add Unpack - Yes
@@ -307,11 +306,11 @@ If you see something like:
 
 ##### How to fix
 
-  Open configuration
+Open configuration
 
   `Store > Configuration` > `Swissup > Pagespeed > Minify HTML Content`
 
-  Set
+Set
 
     Enable - Yes
     Js Content Minification Enable - Yes
@@ -334,11 +333,11 @@ If you see something like:
 
 ##### How to fix
 
-  Open configuration
+Open configuration
 
   `Store > Configuration` > `Swissup > Pagespeed > CSS Settings`
 
-  Set
+Set
 
     Merge CSS Files - Yes
     Minify CSS Files - Yes
@@ -361,11 +360,11 @@ If you see something like:
 
 ##### How to fix
 
-  Open configuration
+Open configuration
 
   `Store > Configuration` > `Swissup > Pagespeed > CSS Settings > Optimize CSS Delivery`
 
-  Set
+Set
 
     Enable - Yes
     Enable LoadCss - Yes
@@ -394,11 +393,11 @@ If you see something like:
   sudo apt-get install gifsicle
   ~~~
 
-  Open configuration
+Open configuration
 
   `Store > Configuration` > `Swissup > Pagespeed > Image Processing Settings > Optimize Catalog images`
 
-  Set
+Set
 
     Enable - Yes
 
