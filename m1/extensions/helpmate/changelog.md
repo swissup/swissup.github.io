@@ -8,6 +8,16 @@ category: Helpmate
 
 # Changelog
 
+### Version 1.7.7
+
+**Fixes**
+
+ -  Fix line breaks bug on the frontend
+
+**Added**
+
+ -  Added Materialize design to tickets view
+
 ### Version 1.7.6
  - Fix getTimeAgo
  - Fix getFileUrl without default store id
