@@ -14,4 +14,4 @@ category: Pagespeed
 
 Great! Now you might want to see next:
 
-- [Usage](/m2/extensions/pagespeed/usage/)
+- [Quick Start](/m2/extensions/pagespeed/quickstart/)

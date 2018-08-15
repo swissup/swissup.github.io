@@ -22,7 +22,7 @@ If you are running the website with a lot of images, scripts and content, the Pa
 ### Contents
 
 1. [Installation](installation/)
-2. [Usage](usage/)
+2. [QuickStart](quickstart/)
 3. [Configuration](configuration/)
 4. [Changelog](changelog/)
 

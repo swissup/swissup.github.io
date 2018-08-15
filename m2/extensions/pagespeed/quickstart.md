@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Pagespeed Usage
-description: How to setup email package
-keywords: "pagespeed setup usage guide"
+description: How to setup pagespeed package
+keywords: "pagespeed setup usage guide quickstart"
 category: Pagespeed
 ---
 
-# Pagespeed setup
+# Pagespeed QuickStart
 
 
 ### Lets start

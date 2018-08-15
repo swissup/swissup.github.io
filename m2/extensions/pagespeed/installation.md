@@ -24,6 +24,6 @@ php bin/magento setup:di:compile
 
 Great! Now you might want to see next:
 
-- [Usage](/m2/extensions/pagespeed/usage/)
+- [Quick Start](/m2/extensions/pagespeed/quickstart/)
 - [Configuration](/m2/extensions/pagespeed/configuration/)
 - [Changelog](/m2/extensions/pagespeed/changelog/)
