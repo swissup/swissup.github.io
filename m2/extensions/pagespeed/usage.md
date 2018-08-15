@@ -37,15 +37,19 @@ Enable in developer mode - Yes
 php bin/magento deploy:mode:show
 ~~~
 
-### Enable compression
+### 1. Enable compression
 
-If on google pagespeed suggestion you can see something like
+If on google pagespeed suggestion you can see something like:
 
 ![Enable compression](/images/m2/pagespeed/suggestion/compression.png)
 
-Test GZIP compression
+> Enable compression
+>
+> Compressing resources with gzip or deflate can reduce the number of bytes sent over the network.
+>
+> [Enable compression](https://developers.google.com/speed/docs/insights/EnableCompression) for the following resources to reduce their transfer size by 1.9MiB (76% reduction).
 
-You can check your site [here](https://checkgzipcompression.com/)
+##### How to fix
 
 When optimizing a website’s performance, the very first thing you should check is whether or not your site is taking advantage of GZIP Compression. If you see green message. All right.
 But if you see red error message than you need to enable and test gzip compression support on your web server.
@@ -54,11 +58,11 @@ But if you see red error message than you need to enable and test gzip compressi
 > for each configuration flag and setting: find your favorite server in the list, look for the gzip section, and confirm that
 > your server is configured with recommended settings.
 
+You can check your site [here](https://checkgzipcompression.com/).
 
 #### For Apache
 
   Find and uncomment deflate section in your [pub/.htaccess](https://github.com/magento/magento2/blob/2.2-develop/pub/.htaccess#L92-L118) and [.htaccess](https://github.com/magento/magento2/blob/2.2-develop/.htaccess#L89-L115) files
-
   <details>
     <summary>Default configuration</summary>
     <IfModule mod_deflate.c>
@@ -174,10 +178,10 @@ But if you see red error message than you need to enable and test gzip compressi
       #Deny From All #Check for AllowOverride All
   </details>
 
-#### For nginx
+#### For Nginx
 
 <details>
-    <summary>/etc/nginx/nginx.conf</summary>
+  <summary>/etc/nginx/nginx.conf</summary>
 
   ~~~conf
   gzip on;
@@ -208,8 +212,171 @@ But if you see red error message than you need to enable and test gzip compressi
     application/xml+rss;
 
   gzip_vary on;
+  ~~~
 </details>
-~~~
+
+
+### 2. Minify JavaScript
+
+If you see something like:
+![Minify Js](/images/m2/pagespeed/suggestion/minifyjs.png)
+
+> Minify JavaScript
+>
+> Compacting JavaScript code can save many bytes of data and speed up downloading, parsing, and execution time.
+>
+> [Minify JavaScript](https://developers.google.com/speed/docs/insights/MinifyResources) for the following resources to reduce their size by 235.8KiB (44% reduction).
+
+##### How to fix
+
+  Open configuration
+
+  `Store > Configuration` > `Swissup > Pagespeed > JavaScript Settings`
+
+  Enable
+
+    Merge JavaScript File - Yes
+    Minify JavaScript Files - Yes
+
+> Please go to Cache Management and refresh cache types.
+
+
+### 3. Minify HTML
+
+If you see something like:
+![Minify HTML](/images/m2/pagespeed/suggestion/minifyhtml.png)
+
+> Minify HTML
+>
+> Compacting HTML code, including any inline JavaScript and CSS contained in it, can save many bytes of data and speed up download and parse times.
+>
+> [Minify HTML](https://developers.google.com/speed/docs/insights/MinifyResources) for the following resources to reduce their size by 1.4KiB (27% reduction).
+
+##### How to fix
+
+  Open configuration
+
+  `Store > Configuration` > `Swissup > Pagespeed > Minify HTML Content`
+
+  Set
+
+    Enable - Yes
+    Js Content Minification Enable - Yes
+    CSS Content Minification Enable - Yes
+    Minify Templates - Yes
+
+> Please go to Cache Management and refresh cache types.
+
+### 4. Minify CSS
+
+If you see something like:
+
+> Minify CSS
+>
+> Compacting CSS code can save many bytes of data and speed up download and parse times.
+>
+> [Minify CSS](https://developers.google.com/speed/docs/insights/MinifyResources) for the following resources to reduce their size by 327B (16% reduction).
+
+##### How to fix
+
+  Open configuration
+
+  `Store > Configuration` > `Swissup > Pagespeed > CSS Settings`
+
+  Set
+
+    Merge CSS Files - Yes
+    Minify CSS Files - Yes
+
+> Please go to Cache Management and refresh cache types.
+
+### 5. Optimize images
+
+If you see something like:
+
+> Optimize images
+>
+> Properly formatting and compressing images can save many bytes of data.
+>
+> [Optimize the following images](https://developers.google.com/speed/docs/insights/OptimizeImages) to reduce their size by 17.1KiB (14% reduction).
+
+##### How to fix
+
+  Before images can be optimized, you will need to install the Optimizers as described in [article](https://github.com/spatie/image-optimizer#optimization-tools)
+
+  ~~~sh
+  sudo apt-get install jpegoptim
+  sudo apt-get install optipng
+  sudo apt-get install pngquant
+  sudo npm install -g svgo
+  sudo apt-get install gifsicle
+  ~~~
+
+  Open configuration
+
+  `Store > Configuration` > `Swissup > Pagespeed > Image Processing Settings > Optimize Catalog images`
+
+  Set
+
+    Enable - Yes
+
+> Please go to Cache Management and refresh cache types.
+
+  Also you can run cli command for manual creating resized product images
+
+  ~~~sh
+  php bin/magento catalog:images:resize
+  ~~~
+
+### 6. Optimize CSS Delivery
+
+If you see something like:
+
+> Eliminate render-blocking JavaScript and CSS in above-the-fold content
+>
+> Your page has 1 blocking CSS resources. This causes a delay in rendering your page.
+>
+> None of the above-the-fold content on your page could be rendered without waiting for the following resources to load. Try to defer or asynchronously load blocking resources, or inline the critical portions of those resources directly in the HTML.
+>
+> [Optimize CSS Delivery](https://developers.google.com/speed/docs/insights/OptimizeCSSDelivery) of the following.
+
+##### How to fix
+
+  Open configuration
+
+  `Store > Configuration` > `Swissup > Pagespeed > CSS Settings > Optimize CSS Delivery`
+
+  Set
+
+    Enable - Yes
+    Enable LoadCss - Yes
+
+> Please go to Cache Management and refresh cache types.
+
+### 7. Remove render-blocking JavaScript
+
+If you see something like:
+
+> Eliminate render-blocking JavaScript and CSS in above-the-fold content
+>
+> Your page has 1 blocking script resources. This causes a delay in rendering your page.
+>
+> None of the above-the-fold content on your page could be rendered without waiting for the following resources to load. Try to defer or asynchronously load blocking resources, or inline the critical portions of those resources directly in the HTML.
+>
+> [Remove render-blocking JavaScript](https://developers.google.com/speed/docs/insights/BlockingJS):
+
+##### How to fix
+
+  Open configuration
+
+  `Store > Configuration` > `Swissup > Pagespeed > JavaScript Settings > Deferred javascripts`
+
+  Set option
+
+    Enable - Yes
+    Add Unpack - Yes
+
+> Please go to Cache Management and refresh cache types.
 
 ##### See also
 
