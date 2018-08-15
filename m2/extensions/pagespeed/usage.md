@@ -310,14 +310,14 @@ Open configuration
 
   `Store > Configuration` > `Swissup > Pagespeed > Minify HTML Content`
 
+![Minify HTML Content](/images/m2/pagespeed/configuration/minify-html-content.png)
+
 Set
 
     Enable - Yes
     Js Content Minification Enable - Yes
     CSS Content Minification Enable - Yes
     Minify Templates - Yes
-
-![Minify HTML Content](/images/m2/pagespeed/configuration/minify-html-content.png)
 
 > Please go to Cache Management and refresh cache types.
 
@@ -337,12 +337,12 @@ Open configuration
 
   `Store > Configuration` > `Swissup > Pagespeed > CSS Settings`
 
+![CSS Settings](/images/m2/pagespeed/configuration/css-settings.png)
+
 Set
 
     Merge CSS Files - Yes
     Minify CSS Files - Yes
-
-![CSS Settings](/images/m2/pagespeed/configuration/css-settings.png)
 
 > Please go to Cache Management and refresh cache types.
 
@@ -371,6 +371,39 @@ Set
 
 > Please go to Cache Management and refresh cache types.
 
+Be careful this option can cause [FOUC](https://en.wikipedia.org/wiki/Flash_of_unstyled_content).
+
+For fix it you need do Prioritize Visible Content.
+
+### Prioritize Visible Content
+
+If you see something like:
+
+> Prioritize visible content
+>
+> Your page requires additional network round trips to render the above-the-fold content. For best performance, reduce the amount of HTML needed to render above-the-fold content.
+>
+> The entire HTML response was not sufficient to render the above-the-fold content. This usually indicates that additional resources, loaded after HTML parsing, were required to render above-the-fold content. [Prioritize visible content](https://developers.google.com/speed/docs/insights/PrioritizeVisibleContent) that is needed for rendering above-the-fold by including it directly in the HTML response.
+>
+> Only about 7% of the final above-the-fold content could be rendered with the full HTML response.
+
+##### How to fix
+
+Open configuration
+
+  `Store > Configuration` > `Swissup > Pagespeed > CSS Settings > Critical CSS (Prioritize Visible Content)`
+
+Generate your store critical css [here](http://ci.swissuplabs.com/pagespeed/critical-css/).
+
+Set
+
+    Enable - Yes
+    Default Critical CSS - [Set generated criticall css]
+
+> Please go to Cache Management and refresh cache types.
+
+Check 404 errors on page
+
 ### Optimize images
 
 If you see something like:
@@ -397,11 +430,11 @@ Open configuration
 
   `Store > Configuration` > `Swissup > Pagespeed > Image Processing Settings > Optimize Catalog images`
 
+![Image Processing Settings](/images/m2/pagespeed/configuration/image-processing-settings.png)
+
 Set
 
     Enable - Yes
-
-![Image Processing Settings](/images/m2/pagespeed/configuration/image-processing-settings.png)
 
 > Please go to Cache Management and refresh cache types.
 
