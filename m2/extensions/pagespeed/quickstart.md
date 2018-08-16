@@ -96,63 +96,60 @@ Find and uncomment deflate section in your [pub/.htaccess](https://github.com/ma
 &lt;/IfModule&gt;</code></pre>
 </details>
 
-
 <details>
 <summary>Or Add following code in end of .htaccess files</summary>
 
-```
-<IfModule mod_php5.c>
-    ## enable resulting html compression
-   php_flag zlib.output_compression on
-</IfModule>
+<pre><code>    &lt;IfModule mod_php5.c&gt;
+        ## enable resulting html compression
+       php_flag zlib.output_compression on
+    &lt;/IfModule&gt;
 
-<IfModule mod_deflate.c>
+    &lt;IfModule mod_deflate.c&gt;
 
-    SetOutputFilter DEFLATE
-    AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml application/x-javascript application/x-httpd-php
-    BrowserMatch ^Mozilla/4 gzip-only-text/html
-    BrowserMatch ^Mozilla/4\.0[678] no-gzip
-    BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
-    BrowserMatch \bMSI[E] !no-gzip !gzip-only-text/html
-    SetEnvIfNoCase Request_URI \.(?:gif|jpe?g|png)$ no-gzip
+        SetOutputFilter DEFLATE
+        AddOutputFilterByType DEFLATE text/html text/css text/plain text/xml application/x-javascript application/x-httpd-php
+        BrowserMatch ^Mozilla/4 gzip-only-text/html
+        BrowserMatch ^Mozilla/4\.0[678] no-gzip
+        BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+        BrowserMatch \bMSI[E] !no-gzip !gzip-only-text/html
+        SetEnvIfNoCase Request_URI \.(?:gif|jpe?g|png)$ no-gzip
 
-</IfModule>
+    &lt;/IfModule&gt;
 
-Header set Connection keep-alive
+    Header set Connection keep-alive
 
-# Expires Headers - 2678400s = 31 days
-<IfModule mod_expires.c>
-  ExpiresActive On
-  ExpiresDefault "access plus 1 seconds"
-  ExpiresByType text/html "access plus 7200 seconds"
-  ExpiresByType image/gif "access plus 2678400 seconds"
-  ExpiresByType image/jpeg "access plus 2678400 seconds"
-  ExpiresByType image/png "access plus 2678400 seconds"
-  ExpiresByType text/css "access plus 518400 seconds"
-  ExpiresByType text/javascript "access plus 2678400 seconds"
-  ExpiresByType application/x-javascript "access plus 2678400 seconds"
-</IfModule>
+    # Expires Headers - 2678400s = 31 days
+    &lt;IfModule mod_expires.c&gt;
+      ExpiresActive On
+      ExpiresDefault &quot;access plus 1 seconds&quot;
+      ExpiresByType text/html &quot;access plus 7200 seconds&quot;
+      ExpiresByType image/gif &quot;access plus 2678400 seconds&quot;
+      ExpiresByType image/jpeg &quot;access plus 2678400 seconds&quot;
+      ExpiresByType image/png &quot;access plus 2678400 seconds&quot;
+      ExpiresByType text/css &quot;access plus 518400 seconds&quot;
+      ExpiresByType text/javascript &quot;access plus 2678400 seconds&quot;
+      ExpiresByType application/x-javascript &quot;access plus 2678400 seconds&quot;
+    &lt;/IfModule&gt;
 
-# Cache Headers
-<IfModule mod_headers.c>
-  # Cache specified files for 31 days
-  <FilesMatch "\.(ico|flv|jpg|jpeg|png|gif|css|swf)$">
-  Header set Cache-Control "max-age=2678400, public"
-  </FilesMatch>
-  # Cache HTML files for a couple hours
-  <FilesMatch "\.(html|htm)$">
-  Header set Cache-Control "max-age=7200, private, must-revalidate"
-  </FilesMatch>
-  # Cache PDFs for a day
-  <FilesMatch "\.(pdf)$">
-  Header set Cache-Control "max-age=86400, public"
-  </FilesMatch>
-  # Cache Javascripts for 31 days
-  <FilesMatch "\.(js)$">
-  Header set Cache-Control "max-age=2678400, private"
-  </FilesMatch>
-</IfModule>
-```
+    # Cache Headers
+    &lt;IfModule mod_headers.c&gt;
+      # Cache specified files for 31 days
+      &lt;FilesMatch &quot;\.(ico|flv|jpg|jpeg|png|gif|css|swf)$&quot;&gt;
+      Header set Cache-Control &quot;max-age=2678400, public&quot;
+      &lt;/FilesMatch&gt;
+      # Cache HTML files for a couple hours
+      &lt;FilesMatch &quot;\.(html|htm)$&quot;&gt;
+      Header set Cache-Control &quot;max-age=7200, private, must-revalidate&quot;
+      &lt;/FilesMatch&gt;
+      # Cache PDFs for a day
+      &lt;FilesMatch &quot;\.(pdf)$&quot;&gt;
+      Header set Cache-Control &quot;max-age=86400, public&quot;
+      &lt;/FilesMatch&gt;
+      # Cache Javascripts for 31 days
+      &lt;FilesMatch &quot;\.(js)$&quot;&gt;
+      Header set Cache-Control &quot;max-age=2678400, private&quot;
+      &lt;/FilesMatch&gt;
+    &lt;/IfModule&gt;</code></pre>
 
 </details>
 
@@ -200,7 +197,7 @@ Comment 'Deny From All'
 <details>
 <summary>/etc/nginx/nginx.conf</summary>
 
-```
+<pre><code>
 gzip on;
 gzip_disable "msie6";
 
@@ -208,7 +205,6 @@ gzip_comp_level 6;
 gzip_min_length 1100;
 gzip_buffers 16 8k;
 gzip_proxied any;
-# gzip_static on;
 
 gzip_types
 text/plain
@@ -229,7 +225,7 @@ application/rss+xml
 application/xml+rss;
 
 gzip_vary on;
-```
+</code></pre>
 
 </details>
 
