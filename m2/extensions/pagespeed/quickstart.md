@@ -15,27 +15,24 @@ Check your site pagespeed rank and take results screenshot
 We recomend use [Google Page speed insights online tool](https://developers.google.com/speed/pagespeed/insights)
 Usally we also check results at [Gtmetrix online tool](http://gtmetrix.com).
 
-Open configuration
+Open configuration `Store > Configuration` > `Swissup > Pagespeed`
 
-`Store > Configuration` > `Swissup > Pagespeed`
-
-In Main section
-
-Set
-
-  Enable - Yes
+In Main section set `Enable - Yes`
 
 ![Main section](/images/m2/pagespeed/configuration/main.png)
+
+Or enable using cli:
 
 ~~~
 php bin/magento config:show pagespeed/main/enable
 php bin/magento config:set pagespeed/main/enable 1
 ~~~
 
+If your store is in developer mode, you need to enable developer mode compatability:
 
-If your store in developer mode. You need to enable developer mode compatability.
+`Enable in developer mode - Yes`
 
-Enable in developer mode - Yes
+To check current mode, use cli command:
 
 ~~~
 php bin/magento deploy:mode:show
@@ -69,38 +66,34 @@ You can check your site [here](https://checkgzipcompression.com/).
 Find and uncomment deflate section in your [pub/.htaccess](https://github.com/magento/magento2/blob/2.2-develop/pub/.htaccess#L92-L118) and [.htaccess](https://github.com/magento/magento2/blob/2.2-develop/.htaccess#L89-L115) files
 
 <details>
-<summary>Uncomment Default configuration</summary>
+    <summary>Uncomment Default configuration</summary>
+    <pre><code>&lt;IfModule mod_deflate.c&gt;
 
-```
-<IfModule mod_deflate.c>
+    ############################################
+    ## Enable apache served files compression
+    ## http://developer.yahoo.com/performance/rules.html#gzip
 
-  ############################################
-  ## Enable apache served files compression
-  ## http://developer.yahoo.com/performance/rules.html#gzip
+    # Insert filter on all content
+    SetOutputFilter DEFLATE
+    # Insert filter on selected content types only
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript
 
-      # Insert filter on all content
-      SetOutputFilter DEFLATE
-      # Insert filter on selected content types only
-      AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css text/javascript
+    # Netscape 4.x has some problems...
+    BrowserMatch ^Mozilla/4 gzip-only-text/html
 
-      # Netscape 4.x has some problems...
-      BrowserMatch ^Mozilla/4 gzip-only-text/html
+    # Netscape 4.06-4.08 have some more problems
+    BrowserMatch ^Mozilla/4\.0[678] no-gzip
 
-      # Netscape 4.06-4.08 have some more problems
-      BrowserMatch ^Mozilla/4\.0[678] no-gzip
+    # MSIE masquerades as Netscape, but it is fine
+    BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
 
-      # MSIE masquerades as Netscape, but it is fine
-      BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+    # Don't compress images
+    SetEnvIfNoCase Request_URI \.(?:gif|jpe?g|png)$ no-gzip dont-vary
 
-      # Don't compress images
-      SetEnvIfNoCase Request_URI \.(?:gif|jpe?g|png)$ no-gzip dont-vary
+    # Make sure proxies don't deliver the wrong content
+    Header append Vary User-Agent env=!dont-vary
 
-      # Make sure proxies don't deliver the wrong content
-      Header append Vary User-Agent env=!dont-vary
-
-</IfModule>
-```
-
+&lt;/IfModule&gt;</code></pre>
 </details>
 
 
