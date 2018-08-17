@@ -8,3 +8,8 @@
   src: /images/m2/firecheckout/changelog/1130/small/payment-form-cc.png
   w: 800
   h: 665
+- title: Order review section with shipping information
+  href: /images/m2/firecheckout/frontend/order-review/order-review.png
+  src: /images/m2/firecheckout/frontend/order-review/small/order-review.png
+  w: 410
+  h: 593

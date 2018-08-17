@@ -10,15 +10,28 @@ category: Firecheckout
 
 ### Version 1.13.0
 
+> Draft
+
 {% include gallery.html images=site.data.gallery.m2.firecheckout.changelog.v1130 class="phone-up-2 tablet-up-3 photoswipe scroll" %}
 
- -  Form field errors and notices moved to stylish tooltips. You can disable
-    this [option](/m2/extensions/firecheckout/configuration/#design-section) in
-    case of conflict with your theme.
+ -  Configurable [order review](/m2/extensions/firecheckout/configuration/#order-summary-settings-section)
+    section added. Useful for EU countries.
+ -  Form field errors and notices moved to [stylish tooltips](/m2/extensions/firecheckout/configuration/#design-section)
  -  Improved credit card form styles for known payment methods: Authorize.Net,
     Braintree and other methods that use standard CC form markup.
+ -  Improved "Sticky sidebar" performance. Used for 1-column layout.
+ -  [Additional content](/m2/extensions/firecheckout/configuration/#additional-content-section) changes:
+    - "Below order summary" section will now appear above "Place Order" button
+    - New content section added: "Below place order button"
+ -  Small CSS fixes and improvements
+ -  Small js improvements
+ -  Fixed js error in IE browser
+ -  Improved compatibility with third-party payment methods
+    (Tested with SagePaySuite and Braintree)
 
 ### Version 1.12.0
+
+> Jul 24, 2018
 
 Firecheckout **1.12.0** brings more power to advanced users and developers who
 wants to customize their checkout pages.
@@ -67,6 +80,8 @@ wants to customize their checkout pages.
 
 ### Version 1.11.0
 
+> Jun 21, 2018
+
  -  New terrific feature added to the [CheckoutCart](/m2/extensions/checkout-cart/)
     module: "Show product name as a link"
  -  Additional CSS resets for custom MGS_Claue theme
@@ -79,6 +94,8 @@ wants to customize their checkout pages.
     - Fixed shipping methods reload
 
 ### Version 1.10.0
+
+> Apr 26, 2018
 
 Firecheckout **1.10.0** brings new [CustomerFieldManager](/m2/extensions/customer-field-manager/),
 more awesomeness on mobile phones, bulletproof third-party themes compatibility,
@@ -119,6 +136,8 @@ and Field Mask feature!
     layout modes
 
 ### Version 1.9.0
+
+> Mar 15, 2018
 
  -  Cleaner [checkout styles](/m2/extensions/firecheckout/#&gid=1&pid=1)
  -  Firecheckout [default URL](/m2/extensions/firecheckout/configuration/#general-section)
