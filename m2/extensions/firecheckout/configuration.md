@@ -91,7 +91,8 @@ Option                  | Description
 ------------------------|------------
 Above Firecheckout Form | Additional content above firecheckout form
 Below Firecheckout Form | Additional content below firecheckout form
-Below order summary     | Additional content below order summary
+Above place order button| Additional content above place order button
+Below place order button| Additional content below place order button
 
 ### Shiping settings section
 
@@ -110,6 +111,14 @@ Hide methods if single method is available only | Useful if you use single metho
 Option                  | Description
 ------------------------|------------
 Default Method          | Default payment method to use
+
+### Order summary settings section
+
+![Order summary settings section](/images/m2/firecheckout/configuration/order-summary.png)
+
+Option                  | Description
+------------------------|------------
+Show Order Review       | Show order review information (Shipping Address and Shiping Method) above the cart items.
 
 ### Custom CSS and JS settings section
 

@@ -12,11 +12,16 @@ category: Firecheckout
 
 {% include gallery.html images=site.data.gallery.m2.firecheckout.changelog.v1130 class="phone-up-2 tablet-up-3 photoswipe scroll" %}
 
- -  Form field errors and notices moved to stylish tooltips. You can disable
-    this [option](/m2/extensions/firecheckout/configuration/#design-section) in
-    case of conflict with your theme.
+ -  Configurable [order review](/m2/extensions/firecheckout/configuration/#order-summary-settings-section)
+    section added. Useful for EU countries.
+ -  Form field errors and notices moved to [stylish tooltips](/m2/extensions/firecheckout/configuration/#design-section)
  -  Improved credit card form styles for known payment methods: Authorize.Net,
     Braintree and other methods that use standard CC form markup.
+ -  Improved "Sticky sidebar" performance. Used for 1-column layout.
+ -  [Additional content](/m2/extensions/firecheckout/configuration/#additional-content-section) changes:
+    - "Below order summary" section will now appear above "Place Order" button
+    - New content section added: "Below place order button"
+ -  Small CSS fixes and improvements
 
 ### Version 1.12.0
 
