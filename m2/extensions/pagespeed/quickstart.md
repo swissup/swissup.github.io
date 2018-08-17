@@ -243,14 +243,12 @@ If you see something like:
 
 ##### How to fix
 
-Open configuration
-
-  `Store > Configuration` > `Swissup > Pagespeed > JavaScript Settings`
+Open configuration  `Store > Configuration` > `Swissup > Pagespeed > JavaScript Settings`
 
 Enable
 
-  Merge JavaScript File - Yes
-  Minify JavaScript Files - Yes
+    Merge JavaScript File - Yes
+    Minify JavaScript Files - Yes
 
 ![JavaScript Settings](/images/m2/pagespeed/configuration/javascript-settings.png)
 
@@ -270,9 +268,7 @@ If you see something like:
 
 ##### How to fix
 
-Open configuration
-
-  `Store > Configuration` > `Swissup > Pagespeed > JavaScript Settings > Deferred javascripts`
+Open configuration `Store > Configuration` > `Swissup > Pagespeed > JavaScript Settings > Deferred javascripts`
 
 Set option
 
@@ -295,9 +291,7 @@ If you see something like:
 
 ##### How to fix
 
-Open configuration
-
-  `Store > Configuration` > `Swissup > Pagespeed > Minify HTML Content`
+Open configuration `Store > Configuration` > `Swissup > Pagespeed > Minify HTML Content`
 
 ![Minify HTML Content](/images/m2/pagespeed/configuration/minify-html-content.png)
 
@@ -322,9 +316,7 @@ If you see something like:
 
 ##### How to fix
 
-Open configuration
-
-  `Store > Configuration` > `Swissup > Pagespeed > CSS Settings`
+Open configuration `Store > Configuration` > `Swissup > Pagespeed > CSS Settings`
 
 ![CSS Settings](/images/m2/pagespeed/configuration/css-settings.png)
 
@@ -349,9 +341,7 @@ If you see something like:
 
 ##### How to fix
 
-Open configuration
-
-  `Store > Configuration` > `Swissup > Pagespeed > CSS Settings > Optimize CSS Delivery`
+Open configuration `Store > Configuration` > `Swissup > Pagespeed > CSS Settings > Optimize CSS Delivery`
 
 Set
 
@@ -378,9 +368,7 @@ If you see something like:
 
 ##### How to fix
 
-Open configuration
-
-  `Store > Configuration` > `Swissup > Pagespeed > CSS Settings > Critical CSS (Prioritize Visible Content)`
+Open configuration `Store > Configuration` > `Swissup > Pagespeed > CSS Settings > Critical CSS (Prioritize Visible Content)`
 
 Generate your store critical css [here](http://ci.swissuplabs.com/pagespeed/critical-css/).
 
@@ -391,7 +379,7 @@ Set
 
 > Please go to Cache Management and refresh cache types.
 
-Check 404 errors on page
+Check 404 errors on page.
 
 ### Optimize images
 
@@ -415,9 +403,7 @@ If you see something like:
   sudo apt-get install gifsicle
   ~~~
 
-Open configuration
-
-  `Store > Configuration` > `Swissup > Pagespeed > Image Processing Settings > Optimize Catalog images`
+Open configuration `Store > Configuration` > `Swissup > Pagespeed > Image Processing Settings > Optimize Catalog images`
 
 ![Image Processing Settings](/images/m2/pagespeed/configuration/image-processing-settings.png)
 
