@@ -38,7 +38,7 @@ variables to serve compact css styles for mobile users.
     - [Breadcrumbs](#breadcrumbs)
     - [Footer](#footer)
 - [Product](#product)
-        - [Next Up](#next-up)
+- [Next Up](#next-up)
 
 <!-- /MarkdownTOC -->
 

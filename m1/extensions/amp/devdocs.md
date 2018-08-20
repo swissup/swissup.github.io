@@ -79,7 +79,7 @@ can choose one of the following ways to accomplish your needs:
 
 ### AMP specific layout update
 
-All page handles are duplicated with with `tmamp_` prefix, when AMP theme is used.
+All page handles are duplicated with `tmamp_` prefix, when AMP theme is used.
 
 For example, when your module using the following layout for desktop theme:
 
@@ -138,7 +138,7 @@ instructions:
             <blocks>
                 <Yournamespace_News_Block_List>
                     <styles>
-                        <!-- Inlude tmamp.scss from skin/frontend/base/default/yournamespace/news/css folder -->
+                        <!-- Include tmamp.scss from skin/frontend/base/default/yournamespace/news/css folder -->
                         <news>yournamespace/news/css/tmamp</news>
                     </styles>
                 </Yournamespace_News_Block_List>
@@ -185,7 +185,7 @@ You can add the styles from layout update xml also:
 
 The difference between tmamp.xml and layout update xml is that in first case
 styles will be included if the block was rendered. In the second case styles will
-be always incuded despite of which blocks where rendered on the page.
+be always included despite of which blocks were rendered on the page.
 
 > The first approach is recommended as it will skip styles that is not needed on
 > the page.

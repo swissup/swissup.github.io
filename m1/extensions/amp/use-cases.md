@@ -71,9 +71,9 @@ Where `list-unstyled` - is a AMP supported
 
 In case you want to have minimalistic products listing at AMP version of your store you may want to remove review stars from product list.
 
-Obviously you can hide them with CSS. Here is article how to [add custome styles to AMP pages](../customization/design/custom-styles/). But the best way is layout XML.
+Obviously you can hide them with CSS. Here is article how to [add custom styles to AMP pages](../customization/design/custom-styles/). But the best way is layout XML.
 
-Create `local.xml` file at `app/design/frontend/tmamp/default/layout/`. And add there code below there:
+Create `local.xml` file at `app/design/frontend/tmamp/default/layout/`. And add there code below:
 
 ```xml
 <layout version="0.1.0">

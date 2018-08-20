@@ -26,7 +26,7 @@ Following pages are supported:
  -  Search results
  -  Product page
     -  All product types are supported with and without custom options
-    -  Configrable "Configure and Buy" and full "Add to Cart" modes
+    -  Configurable "Configure and Buy" and full "Add to Cart" modes
         are [available](configuration/#product-page)
     -  Configurable products works in "Configure and Buy" mode only
  -  Wordpress pages by [Fishpig](https://fishpig.co.uk/magento/wordpress-integration/)

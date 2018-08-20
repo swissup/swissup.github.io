@@ -3,7 +3,7 @@ layout: default
 title: AMP configuration
 h1: Configuration
 description: Configuration options of AMP extension
-keywords: amp configration, amp options
+keywords: amp configuration, amp options
 category: Accelerated Mobile Pages
 sidebar: sidebar.md
 ---

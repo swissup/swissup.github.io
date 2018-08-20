@@ -7,7 +7,7 @@ category: Accelerated Mobile Pages
 sidebar: sidebar.md
 ---
 
-AMP is using Magento's Google Analitycs functionality. So, if you are using
+AMP is using Magento's Google Analytics functionality. So, if you are using
 _System > Configuration > Sales > Google API > Google Analytics_ on your
 desktop site, our AMP module will add the script automatically.
 
