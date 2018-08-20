@@ -1,0 +1,40 @@
+- href: /images/m2/amp/frontend/home.png
+  src: /images/m2/amp/frontend/small/home.png
+  title: AMP homepage with Easyslider and EasyCatalogImages modules
+  w: 431
+  h: 877
+- href: /images/m2/amp/frontend/category.png
+  src: /images/m2/amp/frontend/small/category.png
+  title: AMP category page with layered navigation and sorting dropdown
+  w: 431
+  h: 877
+- href: /images/m2/amp/frontend/product.png
+  src: /images/m2/amp/frontend/small/product.png
+  title: AMP product page
+  w: 431
+  h: 877
+- href: /images/m2/amp/frontend/product-add-to-cart.png
+  src: /images/m2/amp/frontend/small/product-add-to-cart.png
+  title: AMP product page "Add to Cart" section
+  w: 431
+  h: 877
+- href: /images/m2/amp/frontend/product-bundle.png
+  src: /images/m2/amp/frontend/small/product-bundle.png
+  title: AMP product page with bundle product type
+  w: 431
+  h: 877
+- href: /images/m2/amp/frontend/product-configurable.png
+  src: /images/m2/amp/frontend/small/product-configurable.png
+  title: AMP configurable product page with "Configure and Buy" button
+  w: 431
+  h: 877
+- href: /images/m2/amp/frontend/sidebar.png
+  src: /images/m2/amp/frontend/small/sidebar.png
+  title: Sidebar with language switcher, welcome links and site navigation
+  w: 431
+  h: 877
+- href: /images/m2/amp/frontend/compare.png
+  src: /images/m2/amp/frontend/small/compare.png
+  title: Products comparison page
+  w: 431
+  h: 877
