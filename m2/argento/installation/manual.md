@@ -10,8 +10,8 @@ category: Argento
  1. [Download package from your account dashboard at our site](#download-package-from-your-account)
  2. [Unpack package into magento root folder](#unpack-package-into-magento-root-folder)
  3. [Enable modules and run upgrade scripts](#enable-modules-and-run-upgrade-scripts)
- 4. [Setup configuration and theme content](#setup-configuration-and-theme-content)
- 5. [Deploy sample data images](#deploy-sample-data-images)
+ 4. [Setup configuration and theme content](#4-setup-configuration-and-theme-content)
+ 5. [Deploy sample data images](#5-deploy-sample-data-images)
 
 {% include installation/m2/manual.html site="argentotheme.com" modules="Swissup_Core Swissup_Ajaxpro Swissup_Ajaxsearch Swissup_Askit Swissup_Attributepages Swissup_Compare Swissup_EasySlide Swissup_Easybanner Swissup_Easycatalogimg Swissup_Easytabs Swissup_Fblike Swissup_FeaturedAttributes Swissup_FontAwesome Swissup_Gdpr Swissup_GdprAskit Swissup_GdprTestimonials Swissup_Highlight Swissup_HoverGallery Swissup_Hreflang Swissup_Lightboxpro Swissup_Navigationpro Swissup_ProLabels Swissup_Reviewreminder Swissup_RichSnippets Swissup_Rtl Swissup_SeoCore Swissup_SeoHtmlSitemap Swissup_SeoPager Swissup_SeoUrls Swissup_SeoTemplates Swissup_SeoXmlSitemap Swissup_SlickCarousel Swissup_SoldTogether Swissup_Suggestpage Swissup_Testimonials Swissup_ThemeEditor Swissup_ThemeEditorArgentoEssence Swissup_ThemeEditorArgentoFlat Swissup_ThemeEditorArgentoLuxury Swissup_ThemeEditorArgentoPure2 Swissup_ThemeEditorArgentoMall Swissup_ThemeEditorArgentoStripes" %}
 
