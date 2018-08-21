@@ -8,23 +8,37 @@ category: Firecheckout
 
 # Changelog
 
-### Version 1.13.0
-
-> Draft
+### Draft
 
 {% include gallery.html images=site.data.gallery.m2.firecheckout.changelog.v1130 class="phone-up-2 tablet-up-3 photoswipe scroll" %}
 
+**New Feratures**
+
+ -  **3 New Themes** added. You can select the one you liked via
+    [design configuration](/m2/extensions/firecheckout/configuration/#theme)
+ -  Form field errors and notices moved to [stylish tooltips](/m2/extensions/firecheckout/configuration/#design-section)
  -  Configurable [order review](/m2/extensions/firecheckout/configuration/#order-summary-settings-section)
     section added. Useful for EU countries.
- -  Form field errors and notices moved to [stylish tooltips](/m2/extensions/firecheckout/configuration/#design-section)
- -  Improved credit card form styles for known payment methods: Authorize.Net,
-    Braintree and other methods that use standard CC form markup.
- -  Improved "Sticky sidebar" performance. Used for 1-column layout.
  -  [Additional content](/m2/extensions/firecheckout/configuration/#additional-content-section) changes:
     - "Below order summary" section will now appear above "Place Order" button
     - New content section added: "Below place order button"
- -  Small CSS fixes and improvements
- -  Small js improvements
+
+**Visual Improvements**
+
+ -  Improved credit card form styles for known payment methods: Authorize.Net,
+    Braintree and other methods that use standard CC form markup.
+ -  Improved "Sticky sidebar" performance, used for 1-column layout.
+ -  Added ability to change background for "chrome-" autofilled fields with
+    `@firecheckout-form-field__autofill__background-color` less variable
+ -  Firecheckout 1-column container will inherit its width from theme when
+    page layout is set to 'Default' or 'Full'. (Previously, 1-column layout always
+    used narrow container.)
+ -  Tons of tiny perfection improvements like vertical alignment between blocks,
+    equal spacing around the elements and button-set alignments.
+
+**Stability Improvements**
+
+ -  Small CSS and JS fixes
  -  Fixed js error in IE browser
  -  Improved compatibility with third-party payment methods
     (Tested with SagePaySuite and Braintree)

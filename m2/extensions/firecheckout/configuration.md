@@ -33,6 +33,7 @@ Option      | Description
 ------------|------------
 Page Layout | [Select page layout](#page-layout) to use at firecheckout page
 Layout      | [Select layout](#layout) to use at firecheckout page
+Theme       | [Select theme](#theme) to use at firecheckout page
 Form Styles | [Select form styles](#form-styles) to use at firecheckout page
 
 #### Page Layout
@@ -50,7 +51,7 @@ Page layout screenshots:
 
 #### Layout
 
-There are 4 layouts available to use:
+There are 5 layouts available to use:
 
  -  [1 Column (Multistep Wizard)](#&gid=2&pid=1)
  -  [1 Column (Expanded)](#&gid=2&pid=2)
@@ -62,13 +63,26 @@ Layout screenshots:
 
 {% include gallery.html images=site.data.gallery.m2.firecheckout.configuration.layout class="scroll phone-up-1 tablet-up-3 photoswipe" %}
 
+#### Theme
+
+There are 2 themes available to use:
+
+ -  [Default](#&gid=3&pid=1)
+ <!-- -  [Dark](#&gid=3&pid=2) -->
+ -  [Light](#&gid=3&pid=2)
+ <!-- -  [Round](#&gid=3&pid=4) -->
+
+Themes screenshots:
+
+{% include gallery.html images=site.data.gallery.m2.firecheckout.configuration.theme class="scroll phone-up-1 tablet-up-3 photoswipe" %}
+
 #### Form Styles
 
 There are three form **modes** available:
 
- -  [Horizontal](#&gid=3&pid=1) (Label aside of the field)
- -  [Basic](#&gid=3&pid=2) (Same as horizontal, except label above the field)
- -  [Compact](#&gid=3&pid=3) (Multiple fields per row. [How to change field size?](/m2/extensions/firecheckout/customization/use-cases/field-size/))
+ -  [Horizontal](#&gid=4&pid=1) (Label aside of the field)
+ -  [Basic](#&gid=4&pid=2) (Same as horizontal, except label above the field)
+ -  [Compact](#&gid=4&pid=3) (Multiple fields per row. [How to change field size?](/m2/extensions/firecheckout/customization/use-cases/field-size/))
 
 {% include gallery.html images=site.data.gallery.m2.firecheckout.configuration.form-styles class="scroll phone-up-1 tablet-up-3 photoswipe" %}
 
