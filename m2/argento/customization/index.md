@@ -46,3 +46,4 @@ category: Argento
     -   [Adding 'Scroll Up' button](add-scroll-up/)
     -   [Removing default footer links](removing-default-footer-links/)
     -   [Moving category header to main content](moving-category-header-to-main-content/)
+    -   [Adding prices to magento swatches](adding-prices-to-magento-swatches/)
