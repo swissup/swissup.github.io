@@ -70,7 +70,7 @@ There are 2 themes available to use:
  -  [Default](#&gid=3&pid=1)
  <!-- -  [Dark](#&gid=3&pid=2) -->
  -  [Light](#&gid=3&pid=2)
- <!-- -  [Round](#&gid=3&pid=4) -->
+ -  [Round](#&gid=3&pid=3)
 
 Themes screenshots:
 
