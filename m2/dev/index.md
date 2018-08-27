@@ -71,6 +71,7 @@ composer require\
     swissup/seo-xml-sitemap:dev-master\
     swissup/slick-carousel:dev-master\
     swissup/sold-together:dev-master\
+    swissup/stickyfill:dev-master\
     swissup/subscribe-at-checkout:dev-master\
     swissup/subscription-checker:dev-master\
     swissup/suggestpage:dev-master\
@@ -93,6 +94,7 @@ composer require\
     swissup/theme-frontend-argento-mall:dev-master\
     swissup/theme-frontend-argento-luxury:dev-master\
     swissup/theme-frontend-argento-stripes:dev-master\
+    swissup/tippyjs\
     --prefer-source &&\
 bin/magento module:enable\
     Swissup_AddressAutocomplete\
@@ -153,6 +155,7 @@ bin/magento module:enable\
     Swissup_SeoXmlSitemap\
     Swissup_SlickCarousel\
     Swissup_SoldTogether\
+    Swissup_Stickyfill\
     Swissup_SubscribeAtCheckout\
     Swissup_SubscriptionChecker\
     Swissup_Suggestpage\
@@ -166,6 +169,7 @@ bin/magento module:enable\
     Swissup_ThemeEditorArgentoPure2\
     Swissup_ThemeEditorArgentoMall\
     Swissup_ThemeEditorArgentoLuxury\
-    Swissup_ThemeEditorArgentoStripes &&\
+    Swissup_ThemeEditorArgentoStripes\ 
+    Swissup_Tippyjs &&\
 bin/magento setup:upgrade
 ```
