@@ -31,7 +31,6 @@ composer require\
     swissup/core:dev-master\
     swissup/countdowntimer:dev-master\
     swissup/customer-field-manager:dev-master\
-    swissup/data-migration:dev-master\
     swissup/delivery-date:dev-master\
     swissup/easybanner:dev-master\
     swissup/easycatalogimg:dev-master\
@@ -114,7 +113,6 @@ bin/magento module:enable\
     Swissup_Core\
     Swissup_Countdowntimer\
     Swissup_CustomerFieldManager\
-    Swissup_DataMigration\
     Swissup_DeliveryDate\
     Swissup_Easybanner\
     Swissup_Easycatalogimg\
