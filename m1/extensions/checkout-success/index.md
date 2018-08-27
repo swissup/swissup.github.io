@@ -32,6 +32,8 @@ Check video below to see how preview feature works.
  -  [Frontend](frontend/)
      +  [Change success page styles](frontend/#change-success-page-styles)
      +  [Add custom javascript at success page](frontend/#add-custom-javascript-at-success-page)
+ -  Third-party modules compatibility
+     +  [Facebook Ads Extension For Magento](facebook-ads/)
 
 If you have any questions you can contact us:
 
