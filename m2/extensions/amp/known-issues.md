@@ -84,6 +84,37 @@ Open `lib/internal/Magento/Framework/View/Layout/etc/elements.xsd` and allow `te
      </xs:complexType>
 ```
 
+### Amasty SeoToolKit wrong pagination urls
+
+Open `Amasty\SeoToolKit\Plugin\Pager` and find `removeFirstPageParam` method:
+
+```php
+private function removeFirstPageParam(&$url)
+{
+    /* check if url not ?p=10*/
+    if (strpos($url, 'p=1&') !== false
+        || strlen($url) - stripos($url, 'p=1')  === strlen('p=1')//in the end of line
+    ) {
+        $url = $this->urlHelper->removeRequestParam($url, 'p');
+    }
+}
+```
+
+replace with:
+
+```php
+private function removeFirstPageParam(&$url)
+{
+    /* check if url not ?p=10*/
+    if (strpos($url, 'amp=1') === false &&
+        (strpos($url, 'p=1&') !== false
+        || strlen($url) - stripos($url, 'p=1')  === strlen('p=1'))//in the end of line
+    ) {
+        $url = $this->urlHelper->removeRequestParam($url, 'p');
+    }
+}
+```
+
 ##### Next Up
 
  -  [Back to Home](/m2/extensions/amp/)
