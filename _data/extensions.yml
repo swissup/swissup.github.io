@@ -383,7 +383,7 @@ pagespeed:
   short_description:
   urls:
     m1: /m1/extensions/pagespeed/
-    m2:
+    m2: /m2/extensions/pagespeed/
 
 prolabels:
   title: Prolabels
