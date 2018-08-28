@@ -12,7 +12,7 @@ amp:
   size: 2x2
   urls:
     m1: /m1/extensions/amp/
-    m2:
+    m2: /m2/extensions/amp/
 
 addressautocomplete:
   title: Address Autocomplete
