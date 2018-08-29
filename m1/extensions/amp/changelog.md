@@ -7,6 +7,10 @@ category: Accelerated Mobile Pages
 sidebar: sidebar.md
 ---
 
+### Version 1.6.4
+
+ -  Updated deprecated mustache library to the version 0.2
+
 ### Version 1.6.3
 
  -  Fixed possible 'amp-form' validation error
