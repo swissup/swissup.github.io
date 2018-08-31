@@ -13,12 +13,10 @@ category: Mobile Star Theme
  -  Fixed possible js errors at home and product pages:
     - In case if navigation is not added at the homepage
     - In case if product does not have any images in the gallery
-
-Following submodules updated to the latest versions:
-
- -  Core
- -  Easyslide
- -  Highlight
+ -  Following submodules updated to the latest versions:
+    - Core
+    - Easyslide
+    - Highlight
 
 ### Version 1.4.5
 
