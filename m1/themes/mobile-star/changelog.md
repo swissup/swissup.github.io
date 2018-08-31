@@ -1,12 +1,24 @@
 ---
 layout: default
-title: Changelog
+title: Mobile Star Theme Changelog
 description: Mobile Star Theme changelog
 keywords: Mobile Star Theme changelog
 category: Mobile Star Theme
 ---
 
 # Changelog
+
+### Version 1.4.6
+
+ -  Fixed possible js errors at home and product pages:
+    - In case if navigation is not added at the homepage
+    - In case if product does not have any images in the gallery
+
+Following submodules updated to the latest versions:
+
+ -  Core
+ -  Easyslide
+ -  Highlight
 
 ### Version 1.4.5
 
