@@ -38,7 +38,7 @@ Form Styles | [Select form styles](#form-styles) to use at firecheckout page
 
 #### Page Layout
 
-There are 3 page layouts available to use:
+There are 4 page layouts available to use:
 
  -  [Default Checkout Layout](#&gid=1&pid=1) (Depends on your active theme)
  -  [Empty](#&gid=1&pid=2) (No Header and Footer)
@@ -65,12 +65,12 @@ Layout screenshots:
 
 #### Theme
 
-There are 2 themes available to use:
+There are 4 themes available to use:
 
  -  [Default](#&gid=3&pid=1)
- <!-- -  [Dark](#&gid=3&pid=2) -->
  -  [Light](#&gid=3&pid=2)
- -  [Round](#&gid=3&pid=3)
+ -  [Midnight](#&gid=3&pid=3)
+ -  [Round](#&gid=3&pid=4)
 
 Themes screenshots:
 
@@ -78,7 +78,7 @@ Themes screenshots:
 
 #### Form Styles
 
-There are three form **modes** available:
+There are 3 form **modes** available:
 
  -  [Horizontal](#&gid=4&pid=1) (Label aside of the field)
  -  [Basic](#&gid=4&pid=2) (Same as horizontal, except label above the field)
