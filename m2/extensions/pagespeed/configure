@@ -1,0 +1,13 @@
+#!/bin/bash
+
+pwd
+echo pwd
+
+ls -l
+
+PHP_BIN=`which php`
+if [ "$PHP_BIN" = "" ] ; then
+    PHP_BIN='/usr/bin/php';
+fi
+
+MAGENTO_BIN="$PHP_BIN bin/magento --version"
