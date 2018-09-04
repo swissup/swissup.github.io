@@ -8,6 +8,11 @@
   src: /images/m2/firecheckout/frontend/themes/small/light-3columns.png
   w: 1307
   h: 753
+- title: Midnight theme
+  href: /images/m2/firecheckout/frontend/themes/midnight-3columns.png
+  src: /images/m2/firecheckout/frontend/themes/small/midnight-3columns.png
+  w: 1272
+  h: 731
 - title: Round theme
   href: /images/m2/firecheckout/frontend/themes/round-3columns.png
   src: /images/m2/firecheckout/frontend/themes/small/round-3columns.png
