@@ -28,7 +28,7 @@ category: Argento
     ![Installation Form](/images/m2/argento/installation/form.png)
 
 ##### Alternative CLI way
-![Installation CLI](/home/om3r/Work/swissup.github.io/images/m2/argento/installation/cli.svg)
+![Installation CLI](/images/m2/argento/installation/cli.svg)
 
 1. Get your [Identity Key](https://argentotheme.com/license/customer/activation/)
 
