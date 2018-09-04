@@ -48,6 +48,9 @@
 
 <ol>
     <li>Navigate to <i>System > Tools > Сache Management</i> and flush cache.
+        <p>Or run the following command in shell (terminal):</p>
+        <pre class="highlight"><code><span class="c"># Flush all cache</span>
+php bin/magento cache:flush</code></pre>
     </li>
     <li><p>Run the following commands in shell (terminal):</p>
         <pre class="highlight"><code>{% if include.preinstall %}{{ include.preinstall | replace: '\n', "\<br/>" }}<br/><br/>{% endif %}<span class="c"># 1. Enable new modules</span>
