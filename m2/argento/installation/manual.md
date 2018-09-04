@@ -27,6 +27,23 @@ category: Argento
 
     ![Installation Form](/images/m2/argento/installation/form.png)
 
+##### Alternative CLI way
+![Installation CLI](/home/om3r/Work/swissup.github.io/images/m2/argento/installation/cli.svg)
+
+1. Get your [Identity Key](https://argentotheme.com/license/customer/activation/)
+
+```bash
+# 2. Get your store id from store list
+php bin/magento store:list
+# 3. List your themes (modules)
+php bin/magento swissup:module:list --type=theme
+# 4. Show info about theme
+php bin/magento swissup:module swissup/theme-frontend-argento-luxury
+# 5. Install theme on store
+php bin/magento swissup:module:install -h
+php bin/magento swissup:module:install --store=3 Swissup_ThemeFrontendArgentoLuxury XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX==:r/YYYYYYYYYYYYYYYYYYYYYYYYYYYYYY:
+```
+
 #### 5. Deploy sample data images
 
 Sample images are located in `ARGENTO_THEME/resources/media` folder. Copy
