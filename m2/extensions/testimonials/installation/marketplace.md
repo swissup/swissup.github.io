@@ -2,7 +2,7 @@
 layout: default
 title: Testimonials Installation
 description: magento testimonials module installation
-keywords: " magento testimonials extension "
+keywords: magento 2 testimonials extension
 category: Testimonials
 ---
 
@@ -12,14 +12,14 @@ category: Testimonials
 
 #### 2. Complete the installation
 
-Now you can add testimonials from admin in [Testimonials Grid][testimonials_grid] and place widgets [Widgets and Blocks][widgets_and_blocks]
+Now you can add testimonials from admin in [Testimonials Grid][testimonials_grid] and place [Widgets][widgets]
 
 #### After installing the extension you can go to:
 
 * [Testimonials Grid][testimonials_grid]
-* [Widgets and Blocks][widgets_and_blocks]
-* [Settings][settings]
+* [Widgets][widgets]
+* [Configuration][configuration]
 
-[testimonials_grid]: /m2/extensions/testimonials/#testimonials-grid
-[widgets_and_blocks]: /m2/extensions/testimonials/widgets-and-blocks
-[settings]: /m2/extensions/testimonials/#settings
+[testimonials_grid]: /m2/extensions/testimonials/admin-interfaces/#testimonials-grid
+[widgets]: /m2/extensions/testimonials/widgets
+[configuration]: /m2/extensions/testimonials/configuration

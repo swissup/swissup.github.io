@@ -1,0 +1,21 @@
+- href: /images/m2/testimonials/frontend/list.png
+  src: /images/m2/testimonials/frontend/small/list.png
+  alt: testimonials list page
+  title: >
+      Testimonials list page
+  w: 1260
+  h: 780
+- href: /images/m2/testimonials/frontend/form.png
+  src: /images/m2/testimonials/frontend/small/form.png
+  alt: testimonial submit form
+  title: >
+      Testimonial submit form
+  w: 1000
+  h: 700
+- href: /images/m2/testimonials/frontend/slider.png
+  src: /images/m2/testimonials/frontend/small/slider.png
+  alt: testimonials slider widget
+  title: >
+      Testimonials slider widget
+  w: 1260
+  h: 460

@@ -8,6 +8,18 @@ category: Testimonials
 
 # Changelog
 
+### Version 1.1.0
+
+[Upgrade Instructions](/m2/extensions/testimonials/upgrade-instructions)
+
+ -  Added config to make rating field required on testimonial submit form
+ -  Added config to disable testimonial submit for guests
+ -  Added export review to testimonial mass action in product reviews grid
+ -  New testimonials are shown first in grid now
+ -  Added new testimonials slider widget
+ -  Total re-design of testimonials listing page
+ -  Overall code improvements
+
 ### Version 1.0.10
 
  -  Minor "Submit testimonial" form improvement to avoid conflict with Magento CSS on storefront.

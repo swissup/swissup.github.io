@@ -1,8 +1,8 @@
 ---
 layout: default
 title: Testimonials Widgets and Blocks
-description: magento testimonials widgets and blocks
-keywords: " magento testimonials widgets and blocks "
+description: magento 2 testimonials widgets and blocks
+keywords: magento 2 testimonials widgets and blocks
 category: Testimonials
 ---
 
@@ -12,6 +12,7 @@ There are following widget types are available:
 
 Type                                            | Description
 ------------------------------------------------|------------
+Swissup\Testimonials\Block\Widgets\Slider       | Testimonals Slider for content area powered by [Slick Carousel](/m2/extensions/slick-carousel/)
 Swissup\Testimonials\Block\Widgets\SideList     | Animated testimonials list block for side panel.
 Swissup\Testimonials\Block\Widgets\SideReview   | Review block for side panel.
 Swissup\Testimonials\Block\TestimonialsList     | Full testimonials list to use on custom CMS page.
@@ -19,14 +20,45 @@ Swissup\Testimonials\Block\Widgets\Form         | Testimonial form to use on cus
 
 ### Contents
 
-1. [Animated list widget](#animated-list-widget)
-2. [Review block widget](#review-block-widget)
-3. [Full testimonials list widget](#full-testimonials-list-widget)
-4. [Testimonial form widget](#testimonial-form-widget)
+1. [Testimonials slider widget](#testimonials-slider-widget)
+2. [Animated list widget](#animated-list-widget)
+3. [Review block widget](#review-block-widget)
+4. [Full testimonials list widget](#full-testimonials-list-widget)
+5. [Testimonial form widget](#testimonial-form-widget)
+
+### Testimonials slider widget
+
+Shows testimonials slider powered by [Slick Carousel](/m2/extensions/slick-carousel/)
+
+![Slider Widget](/images/m2/testimonials/frontend/widgets/slider.gif)
+
+ *  Using widget:
+
+```txt
+{% raw %}{{widget type="Swissup\Testimonials\Block\Widgets\Slider" items_number="6"}}{% endraw %}
+```
+
+ *  Using layout XML:
+
+```xml
+<referenceContainer name="content">
+    <block class="Swissup\Testimonials\Block\Widgets\Slider" name="testimonials-slider">
+        <arguments>
+            <argument name="items_number" xsi:type="string">6</argument>
+        </arguments>
+    </block>
+</referenceContainer>
+```
+
+Options:
+
+- `items_number` - number of testimonials to show.
 
 ### Animated list widget
 
 Shows rotating testimonials list in side panel.
+
+![Animated list widget](/images/m2/testimonials/frontend/widgets/animated.png)
 
 *  Using widget:
 
@@ -59,6 +91,9 @@ Options:
 ### Review block widget
 
 Shows number of testimonials and average testimonial rating in side panel.
+Contains [AggregateRating](https://schema.org/AggregateRating) snippet to display store rating in search results.
+
+![Review block widget](/images/m2/testimonials/frontend/widgets/review.png)
 
  *  Using widget:
 
