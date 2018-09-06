@@ -7,6 +7,13 @@ category: Attributepages
 
 # Changelog
 
+### Version 1.0.10
+
+ -  Fixed delete mass action error in Magento 2.1.x
+ -  Fixed filter by store in grids
+ -  Fixed error in options list when identifier is missing
+ -  Fixed 404 error for options with html entities in name
+
 ### Version 1.0.9
 
  -  Fixed error when page identifier is entered in invalid registry
