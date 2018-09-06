@@ -8,7 +8,23 @@ category: SEO Suite
 
 # Changelog
 
+### Version 1.0.1
+
+> Sep 6th, 2018
+
+Minor improvements and Magento 2.1.x compatibility fixes.
+
+*Metadata templates*:
+
+ -  Compatibility M2.1.x - fix "Element 'htmlContent': This element is not expected."
+
+*SEO URLs*:
+
+ -  Improve compatibility with other languages than English. There were problems with characters like "ñ","Ñ","á","é","í", etc. Now everything works fine.
+
 ### Version 1.0.0
+
+> Aug 1st, 2018
 
 Include module [***SEO XML Sitemap***](/m2/extensions/seo-xml-sitemap/) into kit. New XML Sitemap module provides improved experience and advanced options for Magento Sitemap generation. It sorts sitemap links according their priority, adds images to category links and supports regional and language URLs (hreflang).
 
