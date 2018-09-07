@@ -8,6 +8,10 @@ category: Checkout Cart
 
 # Changelog
 
+### Version 1.3.0
+
+ -  Allow to use html entities (Like these: ® ©) in product names
+
 ### Version 1.2.1
 
  -  Translation file added

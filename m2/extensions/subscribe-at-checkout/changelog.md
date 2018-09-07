@@ -8,6 +8,10 @@ category: SubscribeAtCheckout
 
 # Changelog
 
+### Version 1.1.0
+
+ -  Use standard html markup for checkbox element
+
 ### Version 1.0.1
 
  -  Fixed js error for registered users
