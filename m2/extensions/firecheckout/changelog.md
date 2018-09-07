@@ -8,7 +8,9 @@ category: Firecheckout
 
 # Changelog
 
-### Draft
+### 1.13.0
+
+> Sep 7, 2018
 
 {% include gallery.html images=site.data.gallery.m2.firecheckout.changelog.v1130 class="phone-up-2 tablet-up-3 photoswipe scroll" %}
 
