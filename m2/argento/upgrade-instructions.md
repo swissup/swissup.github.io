@@ -7,6 +7,31 @@ category: Argento
 
 # Upgrade Instructions
 
+### Version 1.5.0 - 1.6.0
+
+ 1. Backup all changes you've made
+ 2. Put the store to the maintenance mode
+ 3. [Unpack new Argento version][unpack_package] over the old one
+ 4. If you want to use AMP, install it using instruction: [AMP Installation Manual][amp_installation]
+ 5. Run upgrades:
+
+    ```bash
+    # remove old css files
+    rm app/code/Swissup/Testimonials/view/frontend/web/css/testimonials.css
+    rm app/code/Swissup/HoverGallery/view/frontend/web/css/hovergallery.css
+
+    # run upgrades
+    php bin/magento setup:upgrade
+
+    # regenerate static content
+    rm -rf pub/static/_requirejs var/view_preprocessed pub/static/frontend/ pub/static/adminhtml/
+    # for magento 2.2.x
+    rm -rf pub/static/_requirejs var/view_preprocessed pub/static/frontend/ pub/static/adminhtml/ generated/code/
+
+    php bin/magento setup:static-content:deploy en_US [your_locale]
+    ```
+ 6. That's all. You are now using Argento 1.6.0
+
 ### Version 1.4.0 - 1.5.0
 
  1. Backup all changes you've made
@@ -381,3 +406,4 @@ You can find updated homepage markup in our docs:
 
 [unpack_package]: /m2/argento/installation/#unpack-argento-package-into-magento-root-folder
 [run_installer]: /m2/argento/installation/#setup-configuration-and-theme-content
+[amp_installation]: /m2/extensions/amp/installation/manual/#enable-modules-and-run-upgrade-scripts

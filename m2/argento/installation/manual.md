@@ -12,6 +12,7 @@ category: Argento
  3. [Enable modules and run upgrade scripts](#enable-modules-and-run-upgrade-scripts)
  4. [Setup configuration and theme content](#4-setup-configuration-and-theme-content)
  5. [Deploy sample data images](#5-deploy-sample-data-images)
+ 6. [Install AMP](#6-install-amp)
 
 {% include installation/m2/manual.html site="argentotheme.com" modules="Swissup_Core Swissup_Ajaxpro Swissup_Ajaxsearch Swissup_Askit Swissup_Attributepages Swissup_Compare Swissup_EasySlide Swissup_Easybanner Swissup_Easycatalogimg Swissup_Easytabs Swissup_Fblike Swissup_FeaturedAttributes Swissup_FontAwesome Swissup_Gdpr Swissup_GdprAskit Swissup_GdprTestimonials Swissup_Highlight Swissup_HoverGallery Swissup_Hreflang Swissup_Lightboxpro Swissup_Navigationpro Swissup_ProLabels Swissup_Reviewreminder Swissup_RichSnippets Swissup_Rtl Swissup_SeoCore Swissup_SeoHtmlSitemap Swissup_SeoPager Swissup_SeoUrls Swissup_SeoTemplates Swissup_SeoXmlSitemap Swissup_SlickCarousel Swissup_SoldTogether Swissup_Suggestpage Swissup_Testimonials Swissup_ThemeEditor Swissup_ThemeEditorArgentoEssence Swissup_ThemeEditorArgentoFlat Swissup_ThemeEditorArgentoLuxury Swissup_ThemeEditorArgentoPure2 Swissup_ThemeEditorArgentoMall Swissup_ThemeEditorArgentoStripes" %}
 
@@ -67,7 +68,14 @@ cp -R app/design/frontend/Swissup/argento-stripes/resources/media/* pub/media/
 chmod -R 777 pub/media/easybanner pub/media/easyslide pub/media/highlight pub/media/wysiwyg
 ```
 
-#### 6. That's all. Navigate to you store to check your new theme:
+#### 6. Install AMP
+
+> Available since Argento version 1.6.0
+
+If you want to use AMP, install it using instruction:
+[AMP Installation Manual](/m2/extensions/amp/installation/manual/#enable-modules-and-run-upgrade-scripts)
+
+#### 7. That's all. Navigate to you store to check your new theme:
 
 {% include gallery.html images=site.data.gallery.m2.argento.installation.result class="phone-up-1 tablet-up-3 photoswipe scroll" %}
 

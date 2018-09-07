@@ -7,6 +7,43 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.6.0
+
+> [Upgrade Instructions](/m2/argento/upgrade-instructions/#version-150---160)
+
+ -  New [**Accelerated Mobile Pages**](/m2/extensions/amp/) module added
+ -  Fixed styles for [**Firecheckout themes**](/m2/extensions/firecheckout/configuration/#theme)
+
+**Extensions Updates**
+
+ -  **AjaxPro** — 1.3.2
+    -  Fixed js error
+    -  Fixed redundant reload of AjaxPro sections
+ -  **Attributepages** — 1.0.10
+    -  Fixed delete mass action and store filter in admin grid
+    -  Fixed error in options list when identifier is missing
+    -  Fixed 404 error for options with html entities in name
+ -  **Compare** — 1.0.1
+    -  Css fixes
+ -  **EasySlide** — 1.1.5
+    -  Added AMP integration
+ -  **Easy Catalog Images** — 1.2.1
+    -  Added AMP integration
+ -  **EasyTabs** — 1.3.3
+    -  Fixed delete mass action and store filter in admin grids
+ -  **GDPR** — 1.0.1
+    -  Fixed possible issue with invalid config value
+ -  **Hover Gallery** — 1.0.2
+    -  Changed logic to determine image position in media gallery
+    -  Added opacity transition for original image
+ -  **SEO Suite** — 1.0.1
+    -  Minor improvements and Magento 2.1.x compatibility fixes
+ -  **Testimonials** — 1.1.0
+    -  New testimonials listing page design
+    -  New testimonials slider widget
+    -  Added feature to export product review to testimonial
+    -  Added config options to require rating and to disable testimonial submit for guests
+
 ### Version 1.5.0
 
 > [Upgrade Instructions](/m2/argento/upgrade-instructions/#version-140---150)
