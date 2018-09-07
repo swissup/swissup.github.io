@@ -16,6 +16,9 @@ category: Testimonials
  4. Run upgrades:
 
     ```bash
+    # remove old css file
+    rm app/code/Swissup/Testimonials/view/frontend/web/css/testimonials.css
+
     # activate new modules
     php bin/magento module:enable Swissup_SlickCarousel
 
