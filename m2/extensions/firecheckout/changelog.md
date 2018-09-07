@@ -60,11 +60,11 @@ category: Firecheckout
 
 **Modules Updates**
 
- - **CheckoutCart**
+ - [CheckoutCart](/m2/extensions/checkout-cart/changelog/#version-130)
     - Fixed possible js error at non-checkout pages
-    - Allow to use html entities in product name
+    - Allow to use html entities in product name (Like these: ® ©)
     - Improved customization abilities
- -  **SubscribeAtCheckout**
+ -  [SubscribeAtCheckout](/m2/extensions/subscribe-at-checkout/changelog/#version-110)
     - Standard markup for checkbox element
 
 ### Version 1.12.0
