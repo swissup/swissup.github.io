@@ -3,8 +3,8 @@ layout: default
 title: Firecheckout custom css
 description: How to apply css changes and keep original files without changes
 keywords: >
-    firecheckout styles, firecheckout css, css modifications, _custom.css,
-    _firecheckout_custom
+    firecheckout styles, firecheckout css, css modifications, customization,
+    custom css
 category: Firecheckout
 ---
 
@@ -13,57 +13,48 @@ category: Firecheckout
 Firecheckout provides easy and quick way to customize checkout styles without
 worrying about further updates.
 
-> You can create `_custom.less` file inside your active theme
-> (eg. "app/design/frontend/Magento/luma/Swissup_Firecheckout/web/css/_custom.less")
-> and it will be automatically included by firecheckout.
->
-> This allows you to keep original files clean and upgrade to the latest
-> firecheckout version without worrying to lost your changes.
-
-> **Update**
->
-> Since version 1.12.0 you can add CSS directly into
-> [backend config settings](/m2/extensions/firecheckout/configuration/#custom-css-and-js-settings-section).
->
-> Please note, that LESS syntax in config section is not supported.
-
 ### Example
 
 Let's slightly change form and firecheckout layout styles and section number colors.
 [Scroll down](#result) to see the result.
 
- 1. Create two `_custom.less` files inside your active theme:
+ 1. Create files inside your active theme according to your needs:
 
     ```
     app
     ├── design
         └── frontend
-            └── [Magento]
-                └── [luma]
+            └── [Magento]   // Replace with your theme
+                └── [luma]  // Replace with your theme
                     └── Swissup_Firecheckout
                         └── web
                             └── css
-                                ├── abstracts
-                                |   └── _custom.less
-                                ├── _custom.less
+                                ├── custom
+                                |   └── abstracts
+                                |       ├── _variables.less                 // used by all themes
+                                |       ├── _variables-theme-default.less   // used by Default theme only
+                                |       ├── _variables-theme-light.less     // used by Light theme only
+                                |       ├── _variables-theme-midnight.less  // used by Midnight theme only
+                                |       └── _variables-theme-round.less     // used by Round theme only
+                                └── _main.less                              // used by all themes
     ```
 
- 2. Redefine firecheckout variables with `abstracts/_custom.less` file:
+ 2. Redefine firecheckout variables with `custom/abstracts/*` files:
 
     ```scss
-    @firecheckout-section-desktop__gap: 1px;
-    @firecheckout-section__gap: 1px;
-    @firecheckout-section__border: 0;
-    @firecheckout-section__padding: 20px;
-    @firecheckout-section__number-color: #fff;
-    @firecheckout-section__number-background-color: #1979c3;
-    @firecheckout-section__box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+    @fc-section-desktop__gap: 1px;
+    @fc-section__gap: 1px;
+    @fc-section__border: 0;
+    @fc-section__padding: 20px;
+    @fc-section__box-shadow: 0 0 1px rgba(0, 0, 0, 0.15);
+    @fc-section-number__color: #fff;
+    @fc-section-number__background: #1979c3;
 
-    @firecheckout-form-field__border-width: 0 0 1px;
-    @firecheckout-form-field__background-color: #fff;
+    @fc-form-field__border-width: 0 0 1px;
+    @fc-form-field__background-color: #fff;
     ```
 
- 3. Add additional styles with `_custom.less`
+ 3. Add additional styles with `_main.less`
 
     ```scss
     .firecheckout {

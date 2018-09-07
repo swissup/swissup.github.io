@@ -12,16 +12,28 @@ category: Firecheckout
 
 {% include gallery.html images=site.data.gallery.m2.firecheckout.changelog.v1130 class="phone-up-2 tablet-up-3 photoswipe scroll" %}
 
+**Backward Incompatible Changes**
+
+[Upgrade Instructions](/m2/extensions/firecheckout/upgrade-instructions/#version-1120---1130)
+
+ -  Custom less files renamed and moved to '/custom/' [folder](/m2/extensions/firecheckout/customization/custom-css/)
+ -  `Less` variables and mixins [renamed](/m2/extensions/firecheckout/customization/less-variables/)
+
 **New Feratures**
 
  -  **3 New Themes** added. You can select the one you liked via
     [design configuration](/m2/extensions/firecheckout/configuration/#theme)
  -  Form field errors and notices moved to [stylish tooltips](/m2/extensions/firecheckout/configuration/#design-section)
+ -  Default ajax loader image replaced with nice CSS spinner
  -  Configurable [order review](/m2/extensions/firecheckout/configuration/#order-summary-settings-section)
     section added. Useful for EU countries.
  -  [Additional content](/m2/extensions/firecheckout/configuration/#additional-content-section) changes:
     - "Below order summary" section will now appear above "Place Order" button
     - New content section added: "Below place order button"
+
+**Fixes**
+
+ -  Fixed missing/invalid tax after changing region or postcode
 
 **Visual Improvements**
 
@@ -29,7 +41,7 @@ category: Firecheckout
     Braintree and other methods that use standard CC form markup.
  -  Improved "Sticky sidebar" performance, used for 1-column layout.
  -  Added ability to change background for "chrome-" autofilled fields with
-    `@firecheckout-form-field__autofill__background-color` less variable
+    `@fc-form-field__autofill__background-color` less variable
  -  Firecheckout 1-column container will inherit its width from theme when
     page layout is set to 'Default' or 'Full'. (Previously, 1-column layout always
     used narrow container.)
