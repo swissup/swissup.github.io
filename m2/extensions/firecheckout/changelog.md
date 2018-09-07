@@ -34,6 +34,7 @@ category: Firecheckout
 **Fixes**
 
  -  Fixed missing/invalid tax after changing region or postcode
+ -  Fixed multiple "saveShippingInformation" requests at the same time
 
 **Visual Improvements**
 
@@ -54,6 +55,15 @@ category: Firecheckout
  -  Fixed js error in IE browser
  -  Improved compatibility with third-party payment methods
     (Tested with SagePaySuite and Braintree)
+
+**Modules Updates**
+
+ - **CheckoutCart**
+    - Fixed possible js error at non-checkout pages
+    - Allow to use html entities in product name
+    - Improved customization abilities
+ -  **SubscribeAtCheckout**
+    - Standard markup for checkbox element
 
 ### Version 1.12.0
 
