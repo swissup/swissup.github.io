@@ -8,11 +8,16 @@ category: Firecheckout
 
 ### Version 1.12.0 - 1.13.0
 
-**If you use default firecheckout styles, no action is required. You may skip
-this instruction.**
+Enable new modules:
+
+```bash
+php bin/magento module:enable\
+    Swissup_Stickyfill\
+    Swissup_Tippyjs
+```
 
 If you use `_custom.less` files to modify firecheckout styles you need to move/rename
-your custom.less files as shown below:
+your custom.less files in your active theme as shown below:
 
 Old file (v1.12.0)          | New File (v1.13.0)
 ----------------------------|-------------------
