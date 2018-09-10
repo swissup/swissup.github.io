@@ -8,6 +8,15 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.0.1
+
+**Fixes**
+- Improve defer css. add onerror
+- Fix null response
+- Override _removeScriptCB (add exceptions for application/ld+json, etc.)
+- Add critical CSS
+- Fix: View and view dir after unzip
+
 ### Version 1.0.0
 
 **Features**
