@@ -113,6 +113,7 @@ m2:
       url: /m2/argento/stripes/
 
   extensions:
+    - amp
     - ajaxpro
     - ajaxsearch
     - askit

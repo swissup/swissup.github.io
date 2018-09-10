@@ -16,6 +16,9 @@ category: Argento
  5. Run upgrades:
 
     ```bash
+    # install new required packages
+    composer require marc1706/fast-image-size:1.* leafo/scssphp:0.7.6 mobiledetect/mobiledetectlib:2.8
+
     # remove old css files
     rm app/code/Swissup/Testimonials/view/frontend/web/css/testimonials.css
     rm app/code/Swissup/HoverGallery/view/frontend/web/css/hovergallery.css
