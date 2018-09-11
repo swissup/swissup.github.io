@@ -15,7 +15,7 @@ on product page and insert gallery widget on any store page.
 {% include gallery.html images=site.data.gallery.m2.lightboxpro.index class="scroll phone-up-1 tablet-up-3 photoswipe" %}
 
 - [Installation](installation/)
+- [Changelog](changelog/)
 - [Configuration](configuration/)
 - [Widget](widget/)
 - [Known Issues](known-issues/)
-- [Changelog](changelog/)

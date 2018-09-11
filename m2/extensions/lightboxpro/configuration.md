@@ -24,6 +24,8 @@ category: Lightbox Pro
      -  `Horizontal` - show thumbnails horizontally under main image
      -  `Vertical` - show thumbnails vertically left to the main image
      -  `Hidden` - hide thumbnails
+ -  `Show Image Caption` - display image alt text as image caption. If alt text
+ is not set, product name will be used.
 
 ### Image Sizes section
 

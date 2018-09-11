@@ -8,6 +8,13 @@ category: Lightbox Pro
 
 # Changelog
 
+### Version 1.1.0
+
+ -  Added config to show image caption
+ -  Gallery template improvement
+ -  Show first image instead of loader to improve PageSpeed score
+ -  Added fix for Magnifier gallery mouse leave (Magento Issue [#15035](https://github.com/magento/magento2/issues/15035))
+
 ### Version 1.0.2
 
  -  Fixed broken product image block in third-party themes

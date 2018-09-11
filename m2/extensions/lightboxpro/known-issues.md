@@ -11,7 +11,7 @@ category: Lightbox Pro
 ### Magento_ProductVideo/js/fotorama-add-video-events rewrite
 
 Lightbox Pro rewrites `Magento_ProductVideo/js/fotorama-add-video-events` to fix gallery
-issues on configurable product pages. This issue should be fixed in Magento version 2.2.2.
+issues on configurable product pages. This issue was fixed in Magento versions 2.2.4 and 2.1.13.
 
 ### Magento Magnifier Widget
 
