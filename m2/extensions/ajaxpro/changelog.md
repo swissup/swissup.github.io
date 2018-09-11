@@ -6,6 +6,11 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.3.3
+
+**Bugfixes**
+ - Fix missing getSerializedConfig method (window.checkout = ;)
+
 ### Version 1.3.2
 
 **Bugfixes**
