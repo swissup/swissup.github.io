@@ -24,3 +24,4 @@ Improved admin security extension consists of 2 tightly integrated modules:
 - [Configuration](configuration/)
 - [Admin interfaces](admin-interfaces/)
 - [Use cases](use-cases/)
+- [Changelog](changelog/)
