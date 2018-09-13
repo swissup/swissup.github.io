@@ -12,7 +12,7 @@ category: Ajax Layered Navigation
  - Added AMP compatibility
  - Add collapse/explode default status for active filter (close [#34](https://github.com/swissup/ajaxlayerednavigation/issues/34))
  - Add price filter type ranges compatability (close [#33](https://github.com/swissup/ajaxlayerednavigation/issues/33))
- - Improve price from-to range initialization ([#35](https://github.com/swissup/ajaxlayerednavigation/issues/35)
+ - Improve price from-to range initialization ([#35](https://github.com/swissup/ajaxlayerednavigation/issues/35))
 
 **Bugfixes**
  - Fix js error 'Cannot read property 'backUrl' of null'
