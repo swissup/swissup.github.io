@@ -7,6 +7,18 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.2.4
+**Features**
+ - Added AMP compatibility
+ - Add collapse/explode default status for active filter (close [#34](https://github.com/swissup/ajaxlayerednavigation/issues/34))
+ - Add price filter type ranges compatability (close [#33](https://github.com/swissup/ajaxlayerednavigation/issues/33))
+ - Improve price from-to range initialization ([#35](https://github.com/swissup/ajaxlayerednavigation/issues/35)
+
+**Bugfixes**
+ - Fix js error 'Cannot read property 'backUrl' of null'
+ - Fix bug (a.host != a.hostname) IE compatability
+ - Fix empty replacing, add error message replacing (close [#35](https://github.com/swissup/ajaxlayerednavigation/issues/35))
+
 ### Version 1.2.3
  - Improve ajax request configuration
  - Add getAttributeCode method for filter
