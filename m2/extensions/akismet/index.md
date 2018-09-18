@@ -32,3 +32,19 @@ Magento2 module for Akismet integration
 - Verify Api key. Use button for used to verify that an Akismet API key is valid. In most cases, you will not need to check, but if you need a sanity check, or to determine if a newly acquired key is active, you may do so with this method.
 - Enable spam checking for Contact Form. Default Yes.
 - Enable spam checking for Product Review Form. Default Yes.
+
+##### Easy Way To Get Free Akismet API Key
+Akismet is one of those few WordPress plugins which comes with the stock installation of WordPress. In order to activate it and start using it, you need to add an API key.
+
+When you click on “Get your key”, you will be directed to Akismet’s website where you will get lost looking for the non-existent “free” option.
+
+Here is the way out:
+
+- Open [link](https://akismet.com/account/add-subscription/choose-plan).
+- Click on “Get your key.”
+- Under the “Personal Contribution” plan, select ” Basic : Use Akismet for Free on a personal site”.
+- On the next page, move the slider all the way to the left under the column which says “What is Akismet worth to you?”
+- Drag this tp $0
+- Finish the sign-up and click on “Continue”.
+
+If you ever lose your Akismet API key, you can use this [link](https://akismet.com/resend/) to recover your lost API key.
