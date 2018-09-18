@@ -10,6 +10,10 @@ category: Abandoned Cart
 
 ### Version 1.2.6
 
+ -  Fix save guest firstname and lastname
+
+### Version 1.2.6
+
  -  Add custom quote address attribute
  -  Add export history and rules to csv and xml
  -  Add leave page functionality
