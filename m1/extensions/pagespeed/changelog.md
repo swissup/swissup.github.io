@@ -7,6 +7,17 @@ category: Page Speed
 
 # Changelog
 
+### Version 1.3.4
+
+- Improve mass restore action
+- Remove die for meqp test
+- Add mass restore bad files action
+
+### Version 1.3.3
+
+- Update tm/defer-css module
+- Small code bufixes
+
 ### Version 1.3.2
 
 - Separate tm/imagemin
