@@ -10,42 +10,37 @@ category: Prolabels
 
 {% include installation/m2/manual.html site="swissuplabs.com" modules="Swissup_Core Swissup_SubscriptionChecker Swissup_ProLabels" %}
 
+#### Upgrade from version 1.0.x to 1.1.0+
+
+You can get errors when you try to run `setup:di:compile` after upgrade. To solve them you have to remove deprecated files:
+
+```
+Block/Adminhtml/Label/Edit/Form.php
+Block/Adminhtml/Label/Edit/Tab/Category.php
+Block/Adminhtml/Label/Edit/Tab/Index/Grid.php
+Block/Adminhtml/Label/Edit/Tab/Main.php
+Block/Adminhtml/Label/Edit/Tab/Product.php
+Block/Adminhtml/Label/Edit/Tabs.php
+Block/Adminhtml/Label/Helper/CategoryImage.php
+Block/Adminhtml/Label/Helper/ProductImage.php
+Controller/Adminhtml/Label/NewConditionHtml.php
+Model/Label/CategoryImage.php
+Model/Label/CategoryUpload.php
+Model/Label/ProductImage.php
+Model/Label/ProductUpload.php
+Ui/Component/Listing/Columns/CategoryImage.php
+Ui/Component/Listing/Columns/ProductImage.php
+view/adminhtml/requirejs-config.js
+view/frontend/requirejs-config.js
+view/frontend/web/css/prolabels.css
+view/frontend/web/js/prolabel-product-view.js
+```
+
 #### Labels in Catalog and Search pages
 
-##### Product Image Labels
+ProLabels module does not require any changes in any templates or other source code files.
 
-Replace list and grid image code
-
-```php
-    <a href="<?php /* @escapeNotVerified */ echo $_product->getProductUrl() ?>" class="product photo product-item-photo" tabindex="-1">
-        <?php echo $productImage->toHtml(); ?>
-    </a>
-```
-
-* by
-
-```php
-<div class="prolabels-wrapper">
-    <?php
-        $prolabelsCatalogHelper = $this->helper('Swissup\ProLabels\Helper\Catalog');
-        echo $prolabelsCatalogHelper->getProductLabels($_product);
-    ?>
-    <?php /* Product Image */ ?>
-    <a href="<?php /* @escapeNotVerified */ echo $_product->getProductUrl() ?>" class="product photo product-item-photo" tabindex="-1">
-        <?php echo $productImage->toHtml(); ?>
-    </a>
-</div>
-```
-
-##### Content Catalog Labels
-
-Add the code to any place in catalog list.phtml
-
-```php
-    <div class="prolabels-content-wrapper">
-        <?php echo $prolabelsCatalogHelper->getContentLabels($_product); ?>
-    </div>
-```
+> Installation instraction for ProLabels version 1.0.x reqired modification of theme templates to get labels on listing page. You can leave this modifications or rollback them. There are no conflicts with old version.
 
 #### Reindex Labels From Command Line
 

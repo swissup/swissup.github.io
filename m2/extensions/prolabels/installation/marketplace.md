@@ -12,40 +12,9 @@ category: Prolabels
 
 #### Labels in Catalog and Search pages
 
-##### Product Image Labels
+ProLabels module does not require any changes in any templates or other source code files.
 
-Replace list and grid image code
-
-```php
-    <a href="<?php /* @escapeNotVerified */ echo $_product->getProductUrl() ?>" class="product photo product-item-photo" tabindex="-1">
-        <?php echo $productImage->toHtml(); ?>
-    </a>
-```
-
-* by
-
-```php
-<div class="prolabels-wrapper">
-    <?php
-        $prolabelsCatalogHelper = $this->helper('Swissup\ProLabels\Helper\Catalog');
-        echo $prolabelsCatalogHelper->getProductLabels($_product);
-    ?>
-    <?php // Product Image ?>
-    <a href="<?php /* @escapeNotVerified */ echo $_product->getProductUrl() ?>" class="product photo product-item-photo" tabindex="-1">
-        <?php echo $productImage->toHtml(); ?>
-    </a>
-</div>
-```
-
-##### Content Catalog Labels
-
-Add the code to any place in catalog list.phtml
-
-```php
-    <div class="prolabels-content-wrapper">
-        <?php echo $prolabelsCatalogHelper->getContentLabels($_product); ?>
-    </div>
-```
+> Installation instraction for ProLabels version 1.0.x reqired modification of theme templates to get labels on listing page. You can leave this modifications or rollback them. There are no conflicts with old version.
 
 #### Reindex Labels From Command Line
 
