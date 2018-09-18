@@ -8,6 +8,13 @@ category: EasyCatalogImages
 
 # Changelog
 
+### Version 1.3.0
+
+ -  Added ability to use widget with categories of one StoreGroup at another
+    StoreGroup. (Previously there was an issue with invalid urls for a such kind
+    of crosslinks)
+ -  Fixed broken image url, if width wasn't set to a proper number.
+
 ### Version 1.2.0
 
  -  Added configurable 'Departments' page with masonry layout style
