@@ -10,6 +10,15 @@ category: Akismet
 
 # Changelog
 
+### Version 1.0.2
+
+- Improve code
+- Add config helper
+
+### Version 1.0.1
+
+- Remove php requirements
+
 ### Version 1.0.0
 
 - check contact us posts is a spam
