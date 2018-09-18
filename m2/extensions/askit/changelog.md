@@ -11,6 +11,10 @@ category: AskIt
 
 # Changelog
 
+### Version 1.2.17
+
+ - Added email template subject translation
+
 ### Version 1.2.16
 
  -  Removed email header and footer templates, to be compatible with Magento 2.2.4
