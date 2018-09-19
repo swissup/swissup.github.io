@@ -51,7 +51,7 @@ ProLabels module does not require any changes in any templates or other source c
 
 ###### After installing the extension you can go to:
 
-* [Configuration](../configuration/)
-* [Admin Interface](../interfaces/)
+* [Configuration](../../configuration/)
+* [Admin Interface](../../interfaces/)
 * [Support](https://swissuplabs.com/contacts/)
 * [Forum](https://swissuplabs.com/magento-forum/)

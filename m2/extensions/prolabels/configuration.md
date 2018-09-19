@@ -9,81 +9,77 @@ keywords: >
 category: Prolabels
 ---
 
-## ProLabels configuration
+# ProLabels configuration
+{:.no_toc}
 
-The **ProLabels** extension offers flexible and easy to use configuration.
-In order to start working with configuration, please go to
-`Magento Admin > Stores > Configuration > Swissup > ProLabels`.
+* TOC
+{:toc}
 
-### General settings
+Go to ***Stores → Configuration → Swissup → ProLabels*** page to configurate product labels.
 
--   `Cron Daily Labels Reindex` - Reindexing labels via cron job is running on a daily basis
--   `jQuery Selector For Base Image Wrapper` - jQuery selector allow to wrap of base image on product page
--   `jQuery Selector For Content Labels Container` - jQuery selector to insert the content labels to any place of the product page
+## General
 
-![General](/images/m2/prolabels/general.png)
+![General section](/images/m2/prolabels/config/general.png)
 
-### On Sale settings
+As you can see, in section "General" you can toggle Cron Reindex for manual labels.
+
+## "On Sale" Label
 
 SALE labels are the cost-effective way to mark store sales and attract visitors attention. They are shown on discounted and on-sale products. Using On Sale labels you catch customers attention to the promotional items.
 
-##### Product and Category Page Configuration
+### Product Page 
 
--   `Enable` - select **Yes** to enable **On Sale Label**
--   `Position` - select the position of the label
--   `Label Text` - in this field you are allowed to write the text for the label. Also you can use a few predefined extension variables to choose from <br />
-For example : Save#discount_percent#% (Save is the word you selected by yourself , #discount_percent# - predefined variable)
--   `Image` - upload the image of the label
--   `Custom Label` - custom css style for label
--   `Label Custom Url` - custom url for label (open in new tab)
--   `Round Method` - select the method of computing rounded unit of final result. Possible values are Math, Ceil and Floor.
--   `Round Value` - specify the rounded value
+{% include gallery.html images=site.data.gallery.m2.prolabels.config.product class="photoswipe scroll" %}
 
-![OnSale](/images/m2/prolabels/on_sale.png)
+In this subsection of "On Sale Label" section you can configurate label on product page. Most of the times labels on product page are bigger and containe more information than labels on category page.
 
-### Is New settings
+Here you can enable or disable label with option `Enable`.
+
+Use label presets to select one of existing predefined labels. Click 'Load and Select' button in `Select Label Preset` option.
+
+With option `Position` you may change label position on product image. Also there is position *"Content"*. Labels from *"Content"* position outputs under product details (near social buttons and email friend button).
+
+Or you can be creative and create your own unique label. To do so you may need a bit of CSS knowladge click `Show advanced options`. There you can set `Label Text`, `Custom Label` styles, and `Label Custom Url`. Values from `Round Method` and `Round Value` options use to calculate numeric predefined variables.
+
+Other way to create fantastic label is upload some nice picture with `Image` option.
+
+### Category Page
+
+{% include gallery.html images=site.data.gallery.m2.prolabels.config.category class="photoswipe scroll" %}
+
+Use this subsection to configurate label on category pages and all other listings - search result pages, [Highlight](/m2/extensions/highlight/) pages and widgets, [Attribute Pages](/m2/extensions/attributepages/) widgets, etc.
+
+Options in this section are very similar to options in "Product Page" subsection. You can enable/disable label, select one from existing preset and create own label with advanced options.
+
+## "Is New" Label
 
 New Labels are used for the presentation of new items at your store.
 
-##### Product and Category Page Configuration
+Please don't think that we are lazy. Section "In New Label" almost identical to "On Sale Label". The same two subsections with the same options to enable/disable label, change it position, select label from preset and so on for Product Page and for Category Page. To get some screenshots and check ["On Sale" Label](#on-sale-label).
 
--   `Enable` - select **Yes** to enable **Is New Label**
--   `Position` - select the position of the label
--   `Label Text` - in this field you are allowed to write the text for the label. Also you can use a few predefined extension variables to choose from
--   `Image` - upload the image of the label
--   `Custom Label` - custom css style for label
--   `Label Custom Url` - custom url for label (open in new tab)
+## "In Stock" Label
 
-![IsNew](/images/m2/prolabels/is_new.png)
+In Stock labels are used to show low stock items. With in-stock labels you focus the customers attention on the limited availability of products.
 
-### In Stock settings
+And again two subsections "Product Page" and "Category Page" where you can specify prepare label product page and for listing. Check ["On Sale" Label](#on-sale-label) for screenshots.
 
-In Stock labels are used to show low stock items. Using in stock and out of stock labels, you focus the customers attention on the limited availability of products.
+One major difference is additional setting in advanced options - `Display if Stock is lower than`. Default value is '10'. It means label appears only when product stock qty is less than 10.
 
-##### Product and Category Page Configuration
+![Stock lower](/images/m2/prolabels/config/stock-lower.png)
 
--   `Enable` - select **Yes** to enable **In Stock Label**
--   `Position` - select the position of the label
--   `Label Text` - in this field you are allowed to write the text for the label. Also you can use a few predefined extension variables to choose from
--   `Image` - upload the image of the label
--   `Custom Label` - custom css style for label
--   `Display if Stock is lower then` - set the value, that is automatically monitoring the number of products in stock during output of the label.
--   `Label Custom Url` - custom url for label (open in new tab)
+## "Out Of Stock" Label
 
-![InStock](/images/m2/prolabels/in_stock.png)
+Mark out of stock items with badge "Temporarily Out" or "Back Soon".
 
-### Out Of Stock settings
+The same two subsections "Product Page" and "Category Page" with the same options as ["On Sale" Label](#on-sale-label). Check it to get familiar with interfaces.
 
-##### Product and Category Page Configuration
+## Storefront output
 
--   `Enable` - select **Yes** to enable **Out Of Stock Label**
--   `Position` - select the position of the label
--   `Label Text` - in this field you are allowed to write the text for the label. Also you can use a few predefined extension variables to choose from
--   `Image` - upload the image of the label
--   `Custom Label` - custom css style for label
--   `Label Custom Url` - custom url for label (open in new tab)
+![Storefront output](/images/m2/prolabels/config/storefront-output.png)
 
-![OutOfStock](/images/m2/prolabels/out_stock.png)
+This section is hidden gem of all ProLabels module. With its help you can change where to show labels. For example, you can output content labels in other place.
+
+In most cases ProLabels works out of the box with third-party magento themes. But if there are issues with your theme this config is first place that can help you. A bit of CSS knowladge, a bit of debugging and issue can be solved.
 
 * [Installation](installation/)
 * [Admin interfaces](interfaces/)
