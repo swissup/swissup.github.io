@@ -8,6 +8,10 @@ category: Customer Field Manager
 
 # Changelog
 
+### Version 1.0.2
+
+ -  Fixed validation when saving existing attribute in backend panel
+
 ### Version 1.0.1
 
  -  Translation file added

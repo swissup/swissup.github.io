@@ -8,6 +8,11 @@ category: Address Field Manager
 
 # Changelog
 
+### Version 1.3.2
+
+ -  Fixed display of custom dropdown attribute value in saved address
+ -  Fixed validation when saving existing attribute in backend panel
+
 ### Version 1.3.1
 
  -  Translation file updated

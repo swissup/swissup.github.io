@@ -8,6 +8,29 @@ category: Firecheckout
 
 # Changelog
 
+### 1.13.1
+
+> Sep 20, 2018
+
+ -  Default config values updated:
+    - Theme: Light (Previously was set to "Default")
+    - Layout: Empty ("Standard" layout was used before)
+ -  Magento 2.2.6 CSS fixes:
+    - Popup window behind overlay
+    - Button CSS issue in Round theme
+ -  Fixed missing Place Order button, when "Dibs" payment method is selected
+ -  CSS fixes ad improvements:
+    - Calendar icon color and position fixes for Midnight and Round themes
+    - Additional resets for 'select' elements
+
+**Modules Updates**
+
+ -  [AddressFieldManager](/m2/extensions/address-field-manager/changelog/#version-132)
+    -  Fixed display of custom dropdown attribute value in saved address
+    -  Fixed validation when saving existing attribute in backend panel
+ -  [CustomerFieldManager](/m2/extensions/customer-field-manager/changelog/#version-102)
+    -  Fixed validation when saving existing attribute in backend panel
+
 ### 1.13.0
 
 > Sep 7, 2018
