@@ -8,7 +8,7 @@ category: Firecheckout
 
 # Changelog
 
-### 1.13.1
+### Version 1.13.1
 
 > Sep 20, 2018
 
@@ -31,7 +31,7 @@ category: Firecheckout
  -  [CustomerFieldManager](/m2/extensions/customer-field-manager/changelog/#version-102)
     -  Fixed validation when saving existing attribute in backend panel
 
-### 1.13.0
+### Version 1.13.0
 
 > Sep 7, 2018
 
