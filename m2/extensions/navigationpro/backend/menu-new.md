@@ -21,6 +21,7 @@ Option          | Description
 Name            | Unique menu identifier
 Type            | Select menu type to create
 Import Categories From | Select root category to use when importing categories into the new menu
+Replace Top Menu at | Select Store Views where menu should replace standard top navigation
 
 Please note, that some menu types will reveal additional settings.
 

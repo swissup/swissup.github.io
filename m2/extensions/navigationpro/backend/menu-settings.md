@@ -22,6 +22,7 @@ Option          | Description
 Identifier      | Unique menu identifier.
 Maximal Depth   | Use this option to limit number of loaded dropdown levels. Use `0` to disable limits.
 CSS Class       | Usefull for [menu customization][menu-modifiers] and some kind of [menu types][use-cases].
+Replace Top Menu at | Select Store Views where menu should replace standard top navigation
 
 ## Dropdown settings
 

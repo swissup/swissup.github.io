@@ -12,9 +12,7 @@ category: Navigationpro
  1. Navigate to _Swissup > NavigationPro_ page, and press "Add New Menu".
  2. Fill the [form](/m2/extensions/navigationpro/backend/menu-new/) according to
     your needs and press "Save".
- 3. Navigate to _Stores > Configuration > Swissup > Navigationpro_
-    and enable new menu.
- 4. That's all. Clear Magento's cache and see the result on the frontend.
+ 3. That's all. Clear Magento's cache and see the result on the frontend.
 
 P.S. If you'd like to apply additional changes to the specific dropdown only,
 you can select the item in the tree and edit **Dropdown Settings** fields:
@@ -30,5 +28,4 @@ you can select the item in the tree and edit **Dropdown Settings** fields:
 
 [simple-menu]: /m2/extensions/navigationpro/use-cases/simple-menu/ "Simple Menu"
 [css-helpers]: /m2/extensions/navigationpro/customization/css-helpers/ "CSS Helpers"
-[config]: /m2/extensions/navigationpro/configuration/ "Configuration"
 

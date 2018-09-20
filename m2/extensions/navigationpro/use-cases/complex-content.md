@@ -7,8 +7,7 @@ category: Navigationpro
 
 # Complex Dropdown Content
 
-> Don't have a menu yet? Create [simple menu][simple-menu], activate it the
-> [config][config] and come back!
+> Don't have a menu yet? Create [simple menu][simple-menu] and come back!
 
 ![Complex Content](/images/m2/navigationpro/use-cases/complex-content.png)
 

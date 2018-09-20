@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Navigationpro Dropdown Position
+title: Navigationpro Dropdown Position for First Level Dropdown
 description: Navigationpro dropdown positions
 category: Navigationpro
 ---
 
 # Dropdown Position
 
-> This setting is available for the **First Level Dropdowns** only in 
+> This setting is available for the **First Level Dropdowns** only in
 > [Menu Settings](/m2/extensions/navigationpro/backend/menu-settings/#dropdown-settings)
 > form
 

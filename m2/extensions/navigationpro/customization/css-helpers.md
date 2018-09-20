@@ -90,6 +90,10 @@ Class Name          | Description
 `sm-hide-dropdown`  | Hide dropdown on tablet devices
 `md-hide-dropdown`  | Hide dropdown on laptop devices
 `lg-hide-dropdown`  | Hide dropdown on desktop devices
+**Dropdown Positioning** |
+`navpro-stick-left`   | Stick dropdown to the left
+`navpro-stick-right`  | Stick dropdown to the right
+`navpro-stick-center` | Stick dropdown to the center
 **Text Styles**     |
 `text-small`        | Use smaller font size
 `text-big`          | Use bigger font size

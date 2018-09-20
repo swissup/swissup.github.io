@@ -7,8 +7,7 @@ category: Navigationpro
 
 # Iconic Menu
 
-> Don't have a menu yet? Create [simple menu][simple-menu], activate it the
-> [config][config] and come back!
+> Don't have a menu yet? Create [simple menu][simple-menu] and come back!
 
 ## Contents
 {:.no_toc}
@@ -94,5 +93,4 @@ and uses one menu instance only.
 [menu-settings]: /m2/extensions/navigationpro/backend/menu-settings/ "Menu Settings Panel"
 [css-helpers]: /m2/extensions/navigationpro/customization/css-helpers/ "CSS Helpers"
 [simple-menu]: /m2/extensions/navigationpro/use-cases/simple-menu/ "Simple Menu"
-[config]: /m2/extensions/navigationpro/configuration/ "Configuration"
 [apple-menu]: /m2/extensions/navigationpro/use-cases/apple-menu/ "Apple Menu"

@@ -25,9 +25,7 @@ will create basic menu from a scratch.
 
     ![Edit Item](/images/m2/navigationpro/use-cases/simple-menu/edit-item.png)
 
- 4. Activate new menu in [configuration][config]
-
- 5. Feel free to move items in the tree to get desired menu structure. The
+ 4. Feel free to move items in the tree to get desired menu structure. The
     changes **will not** affect real categories tree.
 
     See the following use cases that will help you to upgrade simple menu:
@@ -46,5 +44,4 @@ will create basic menu from a scratch.
 
 [simple-menu]: /m2/extensions/navigationpro/use-cases/simple-menu/ "Simple Menu"
 [css-helpers]: /m2/extensions/navigationpro/customization/css-helpers/ "CSS Helpers"
-[config]: /m2/extensions/navigationpro/configuration/ "Configuration"
 [import-modes]: /m2/extensions/navigationpro/ui/menu-items-tree/#import-item "Import Modes"

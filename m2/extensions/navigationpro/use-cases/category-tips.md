@@ -7,8 +7,7 @@ category: Navigationpro
 
 # Category Tips
 
-> Don't have a menu yet? Create [simple menu][simple-menu], activate it the
-> [config][config] and come back!
+> Don't have a menu yet? Create [simple menu][simple-menu] and come back!
 
 ![Category Tips](/images/m2/navigationpro/use-cases/category-tips.png)
 

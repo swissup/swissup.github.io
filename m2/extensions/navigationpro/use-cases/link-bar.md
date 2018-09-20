@@ -28,7 +28,8 @@ show it under the header:
 Proceed with the following steps:
 
  1. Navigate to _Swissup > NavigationPro_ page and press **Add New Menu** button
- 2. Create "LinkBar" menu using ["Empty Menu" type](/m2/extensions/navigationpro/backend/menu-new/#general-settings)
+ 2. Create "LinkBar" menu using ["Empty Menu" type](/m2/extensions/navigationpro/backend/menu-new/#general-settings).
+    Do not fill the "Replace Top Menu at" field.
  3. [Import your store category tree](/m2/extensions/navigationpro/ui/menu-items-tree/#import-item)
     using **Import Item** button
  4. Press **Menu Settings** and change the following values:

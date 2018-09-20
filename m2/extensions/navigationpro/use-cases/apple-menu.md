@@ -37,15 +37,13 @@ icons.
     CSS Class: justify-evenly caret-hidden
     ```
 
- 4. Navigate to _Stores > Configuration > Swissup > Navigationpro_
-    and enable new menu.
- 5. That's all. Clear Magento's cache and see the result on the frontend.
+ 4. That's all. Clear Magento's cache and see the result on the frontend.
 
 ### Secondary Menu
 
  1. Navigate to _Swissup > NavigationPro_ page, and press **Add New Menu**.
  2. Create [new "AppleMenuSecondary" menu](/m2/extensions/navigationpro/backend/menu-new/)
-    using "Simple Menu" preset.
+    using "Simple Menu" preset. Leave "Replace Top Menu at" option empty.
  3. Expand top-level category in the tree on the left side, and fill its
     children ["Advanced Settings"](/m2/extensions/navigationpro/backend/menu-edit/#advanced-settings)
     with following values:

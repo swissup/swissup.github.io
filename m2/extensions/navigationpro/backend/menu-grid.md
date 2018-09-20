@@ -13,9 +13,6 @@ from this page.
 
 ![Menu's Grid](/images/m2/navigationpro/backend/menu-grid.png)
 
-> Don't forget to enable created menu for specified store at Navigationpro
-> [configuration][configuration]
-
 #### Next up
 
  -  [New Menu][menu.new]

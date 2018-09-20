@@ -16,7 +16,7 @@ category: Navigationpro
 
  1. Navigate to _Swissup > NavigationPro_ page, and press "Add New Menu".
  2. Fill the [form](/m2/extensions/navigationpro/backend/menu-new/) according to
-    your needs and press "Save".
+    your needs and press "Save". Do not fill "Replace Top Menu at" option.
  3. That's all. Clear Magento's cache and check out the sidebar menu on the
     category pages.
 

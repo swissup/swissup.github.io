@@ -9,8 +9,7 @@ category: Navigationpro
 
 > This feature is available since 1.6.0
 
-> Don't have a menu yet? Create [simple menu][simple-menu], activate it the
-> [config][config] and come back!
+> Don't have a menu yet? Create [simple menu][simple-menu] and come back!
 
 ![Ribbon Menu](/images/m2/navigationpro/use-cases/ribbon-menu.png)
 

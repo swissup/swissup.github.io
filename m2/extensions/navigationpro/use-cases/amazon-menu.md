@@ -17,17 +17,15 @@ category: Navigationpro
  1. Navigate to _Swissup > NavigationPro_ page, and press "Add New Menu".
  2. Fill the [form](/m2/extensions/navigationpro/backend/menu-new/) according to
     your needs and press "Save".
- 3. Navigate to _Stores > Configuration > Swissup > Navigationpro_
-    and enable new menu.
- 4. That's all. Clear Magento's cache and see the result on the frontend.
+ 3. That's all. Clear Magento's cache and see the result on the frontend.
 
 ### Sidebar menu
 
 ![Amazon Sidebar screenshot](/images/m2/navigationpro/use-cases/amazon-menu/amazon-sidebar-frontend.png)
 
  1. Navigate to _Swissup > NavigationPro_ page, and press "Add New Menu".
- 2. Fill the form according to your needs. It's **very important** to fill the
-    widget form too.
+ 2. Fill the form according to your needs. Leave "Replace Top Menu at" option empty.
+    It's **very important** to fill the widget form too.
  4. Press "Save".
  3. That's all. Clear Magento's cache and check the sidebar on category pages.
 

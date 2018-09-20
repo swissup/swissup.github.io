@@ -8,6 +8,30 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.7.0
+
+> Sep 20, 2018
+
+{% include gallery.html images=site.data.gallery.m2.navigationpro.changelog.v170 class="phone-up-2 tablet-up-3 photoswipe scroll" %}
+
+ -  Magento 2.2.6 compatibility:
+    - Fixed double caret icons near items with dropdowns
+    - Fixed dropdown positioning for Amazon menu type
+ -  Added ability to change [dropdown positioning](/m2/extensions/navigationpro/ui/dropdown-position/)
+    for [particular dropdown item](/m2/extensions/navigationpro/use-cases/dropdown-position/).
+
+**Backend Improvements**
+
+ -  Added ability to assign menu to particular store during
+    [menu creation](/m2/extensions/navigationpro/backend/menu-new/#general-settings).
+    (Previously you had to create menu and than use system configuration to do that)
+ -  New column is added to the [menu grid](/m2/extensions/navigationpro/backend/menu-grid/).
+    It shows the list of stores where menu is used as top menu replacement.
+ -  Added ability to assign menu to particular store directly from
+    [menu settings form](/m2/extensions/navigationpro/backend/menu-settings/#general-settings).
+    (Previously you had to navigate to configuration to do that)
+ -  Renaming/Removing a menu no longer results in missing menu at the storefront
+
 ### Version 1.6.0
 
 {% include gallery.html images=site.data.gallery.m2.navigationpro.changelog.v160 class="phone-up-2 tablet-up-3 photoswipe scroll" %}

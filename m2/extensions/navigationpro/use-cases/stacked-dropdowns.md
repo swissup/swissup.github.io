@@ -7,8 +7,7 @@ category: Navigationpro
 
 # Stacked Dropdowns
 
-> Don't have a menu yet? Create [simple menu][simple-menu], activate it the
-> [config][config] and come back!
+> Don't have a menu yet? Create [simple menu][simple-menu] and come back!
 
 ![Stacked Dropdowns](/images/m2/navigationpro/use-cases/stacked-dropdowns.png)
 

@@ -25,6 +25,7 @@ category: Navigationpro
  - [Overlay](/m2/extensions/navigationpro/use-cases/overlay/)
  - [Nowrap (Single row menu)](/m2/extensions/navigationpro/use-cases/nowrap/)
  - [Link Bar on Mobile devices](/m2/extensions/navigationpro/use-cases/link-bar/)
+ - [Dropdown Position](/m2/extensions/navigationpro/use-cases/dropdown-position/)
 
 #### Next up
 
