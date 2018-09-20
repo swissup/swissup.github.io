@@ -81,7 +81,7 @@ This section is hidden gem of all ProLabels module. With its help you can change
 
 In most cases ProLabels works out of the box with third-party magento themes. But if there are issues with your theme this config is first place that can help you. A bit of CSS knowladge, a bit of debugging and issue can be solved.
 
-* [Installation](installation/)
-* [Admin interfaces](interfaces/)
+* [Installation](../installation/)
+* [Admin interfaces](../interfaces/)
 * [Support](https://swissuplabs.com/contacts/)
 * [Forum](https://swissuplabs.com/magento-forum/)
