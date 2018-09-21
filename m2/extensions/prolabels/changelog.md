@@ -8,6 +8,19 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.1.0
+
+> Sep 21st, 2018
+
+> You may get errors during DI compilation when upgrdaing from previous version. So check [upgrade instruction](../installation/manual/#upgrade-from-version-10x-to-110).
+
+It's not a regular update. It's a fresh start for Prolabels module on Magento 2!
+
+ -  Instant preview in Magento Admin.
+ -  15 label presets. Now you can create product label in 3-5 mouse clicks.
+ -  No need to modify templates to get labels on category page in any Magento theme. Even more. You get labels in third-party widgets (as long as they developed with Magento recommendations).
+ -  Significant code improvement to meet Magento standards and follow best practices.
+
 ### Version 1.0.23
 
  -  Fixed compatibility with Argento product listing styles

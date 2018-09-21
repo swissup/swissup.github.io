@@ -10,7 +10,7 @@ category: Prolabels
 
 {% include installation/m2/manual.html site="swissuplabs.com" modules="Swissup_Core Swissup_SubscriptionChecker Swissup_ProLabels" %}
 
-#### Upgrade from version 1.0.x to 1.1.0+
+#### Upgrade from version 1.0.x to 1.1.0
 
 You can get errors when you try to run `setup:di:compile` after upgrade. To solve them you have to remove deprecated files:
 
