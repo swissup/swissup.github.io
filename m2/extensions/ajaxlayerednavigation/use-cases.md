@@ -105,12 +105,12 @@ With rating filter functionality it is no need to scroll through thousands of pr
 
 #### Integration with magento 2.1
 
-For compatibility with 2.1 need apply changes from 2 commits
+For compatibility with 2.1 need apply changes from 2 commits:
 
-[magento/magento2@f8c75a8](https://github.com/magento/magento2/commit/f8c75a8)
-[magento/magento2@87ec99d](https://github.com/magento/magento2/commit/87ec99d)
+- [magento/magento2@f8c75a8](https://github.com/magento/magento2/commit/f8c75a8)
+- [magento/magento2@87ec99d](https://github.com/magento/magento2/commit/87ec99d)
 
-    ~~~
+~~~
     curl -L https://github.com/magento/magento2/commit/f8c75a8.patch > /tmp/f8c75a8.patch
     git apply --check /tmp/f8c75a8.patch
     git apply /tmp/f8c75a8.patch
@@ -118,4 +118,4 @@ For compatibility with 2.1 need apply changes from 2 commits
     curl -L https://github.com/magento/magento2/commit/87ec99d.patch > /tmp/87ec99d.patch
     git apply --check /tmp/87ec99d.patch
     git apply /tmp/87ec99d.patch
-    ~~~
+~~~
