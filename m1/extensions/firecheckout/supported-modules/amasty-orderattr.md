@@ -31,7 +31,34 @@ category: Firecheckout
                  {
     ```
 
- 2. Open `app/code/local/Amasty/Orderattr/Model/Observer.php` and apply the
+ 2. Open `js/amasty/amorderattr/conditions.js` and apply the following patch:
+
+    ```diff
+    @@ -29,17 +29,17 @@
+             var _caller = this;
+             var allowed_shipping_methods = this.conditions['shipping_methods'];
+
+    -        $$('#co-shipping-method-form input').each(function(el){
+    +        $$('#checkout-shipping-method-load input').each(function(el){
+                 if (el.id.indexOf('s_method_') != -1) {
+                     el.observe('change', _caller.onShippingMethodChange.bind(_caller, el, allowed_shipping_methods));
+                 }
+             })
+
+    -        var checked = $$('#co-shipping-method-form input:checked')[0];
+    +        var checked = $$('#checkout-shipping-method-load input:checked')[0];
+             if (checked) {
+    -            this.onShippingMethodChange(checked, allowed_shipping_methods);
+    +            this.onShippingMethodChange.defer(checked, allowed_shipping_methods);
+             } else {
+    -            this.hideOnStart(allowed_shipping_methods);
+    +            this.hideOnStart.defer(allowed_shipping_methods);
+             }
+
+         },
+    ```
+
+ 3. Open `app/code/local/Amasty/Orderattr/Model/Observer.php` and apply the
     following patch:
 
     ```diff
