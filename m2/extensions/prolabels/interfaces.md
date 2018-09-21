@@ -62,9 +62,11 @@ The following grid allows you to check the list of products, that label were ass
 
 ![Indexed Products](/images/m2/prolabels/indexed.png)
 
-#### You can also check:
+#### You can also check
+{:.no_toc}
 
 * [Installation](../installation/)
 * [Configuration](../configuration/)
+* [Predefinde Valiables](../predefined/)
 * [Support](https://swissuplabs.com/contacts/)
 * [Forum](https://swissuplabs.com/magento-forum/)

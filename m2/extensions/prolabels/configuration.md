@@ -39,7 +39,7 @@ Use label presets to select one of existing predefined labels. Click 'Load and S
 
 With option `Position` you may change label position on product image. Also there is position *"Content"*. Labels from *"Content"* position outputs under product details (near social buttons and email friend button).
 
-Or you can be creative and create your own unique label. To do so you may need a bit of CSS knowladge click `Show advanced options`. There you can set `Label Text`, `Custom Label` styles, and `Label Custom Url`. Values from `Round Method` and `Round Value` options use to calculate numeric predefined variables.
+Or you can be creative and create your own unique label. To do so you may need a bit of CSS knowladge click `Show advanced options`. There you can set `Label Text`, `Custom Label` styles, and `Label Custom Url`. Values from `Round Method` and `Round Value` options use to calculate numeric predefined variables. To get more about predefined variables and round options check [this article](../predefined/).
 
 Other way to create fantastic label is upload some nice picture with `Image` option.
 
@@ -80,6 +80,9 @@ The same two subsections "Product Page" and "Category Page" with the same option
 This section is hidden gem of all ProLabels module. With its help you can change where to show labels. For example, you can output content labels in other place.
 
 In most cases ProLabels works out of the box with third-party magento themes. But if there are issues with your theme this config is first place that can help you. A bit of CSS knowladge, a bit of debugging and issue can be solved.
+
+#### You can also check
+{:.no_toc}
 
 * [Installation](../installation/)
 * [Admin interfaces](../interfaces/)
