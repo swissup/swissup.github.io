@@ -8,6 +8,12 @@ category: SEO Suite
 
 # Changelog
 
+### Version 1.0.2
+
+> Sep 21st, 2018
+
+Compatibility with M2.2.6 and one typo correction in Magento Stores Configuration.
+
 ### Version 1.0.1
 
 > Sep 6th, 2018
