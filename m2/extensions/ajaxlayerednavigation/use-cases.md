@@ -14,6 +14,7 @@ Our module supports adding New, In stock, Out of Stock and On Sale filters to Ma
  2. [On Sale Filter](#on-sale-filter)
  3. [New Filter](#new-filter)
  4. [Rating Filter](#rating-filter)
+ 5. [Integration with magento 2.1](#integration-with-magento-21)
 
 #### Stock Filter
 
