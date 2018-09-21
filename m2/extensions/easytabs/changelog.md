@@ -8,6 +8,24 @@ category: Easy Tabs
 
 # Changelog
 
+### Version 1.3.4
+
+> Sep 21st, 2018
+
+ -  Fix error caused by review tab when there is other non-tab review block on product page.
+
+### Version 1.3.3
+
+> Sep 6th, 2018
+
+ -  Fixed delete mass action and store filter in admin grids.
+
+### Version 1.3.2
+
+> Aug 3rd, 2018
+
+ -  Fixed activate and scroll to tab on external link click.
+
 ### Version 1.3.1
 
  -  Fixed possible "Requested product doesn't exist" error, when editing cart item
