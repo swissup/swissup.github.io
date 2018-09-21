@@ -13,6 +13,8 @@ category: Attributepages
  -  Fixed filter by store in grids
  -  Fixed error in options list when identifier is missing
  -  Fixed 404 error for options with html entities in name
+ -  Option list widget now displays attribute options when inserted using Content > Widgets interface
+ -  Added widgets and variables support in attribute and option pages description
 
 ### Version 1.0.9
 
