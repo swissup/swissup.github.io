@@ -10,7 +10,7 @@ category: Firecheckout
 
 ### Version 1.13.1
 
-> Sep 20, 2018
+> Sep 21, 2018
 
  -  Default config values updated:
     - Theme: Light (Previously was set to "Default")
@@ -18,10 +18,14 @@ category: Firecheckout
  -  Magento 2.2.6 CSS fixes:
     - Popup window behind overlay
     - Button CSS issue in Round theme
- -  Fixed missing Place Order button, when "Dibs" payment method is selected
  -  CSS fixes ad improvements:
     - Calendar icon color and position fixes for Midnight and Round themes
     - Additional resets for 'select' elements
+    - Improved compatibility with third-party themes
+    - Fixed styles for Braintree payment form
+ -  Third-party modules compatibility
+    - Fixed missing Place Order button, when "Dibs" payment method is selected
+    - Improved compatibility with Magestore_Storepickup module
 
 **Modules Updates**
 
