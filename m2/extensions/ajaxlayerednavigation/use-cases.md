@@ -8,7 +8,7 @@ category: Ajax Layered Navigation
 
 # Use cases
 
-Our module supports adding New, In stock, Out of Stock and On Sale filters to Magento 2 layered navigation multi select. By allowing users to sort items that way, you make the searching process more convinient and effective. 
+Our module supports adding New, In stock, Out of Stock and On Sale filters to Magento 2 layered navigation multi select. By allowing users to sort items that way, you make the searching process more convinient and effective.
 
  1. [Stock Filter](#stock-filter)
  2. [On Sale Filter](#on-sale-filter)
@@ -17,7 +17,7 @@ Our module supports adding New, In stock, Out of Stock and On Sale filters to Ma
 
 #### Stock Filter
 
-Please follow the next steps: 
+Please follow the next steps:
 
 1. Go `Stores -> Configuration -> Catalog -> Inventory  -> Stock Options -> Display Out of Stock Products` and enable the display Out of Stock Products.
 
@@ -85,7 +85,7 @@ Please follow the next steps:
 
 #### Rating Filter
 
-With rating filter functionality it is no need to scroll through thousands of products. The opportunity to sort items by rating is good for clients who trust other customers reviews. 
+With rating filter functionality it is no need to scroll through thousands of products. The opportunity to sort items by rating is good for clients who trust other customers reviews.
 
 1. Open `Store -> Attributes -> Product`.
 
@@ -101,4 +101,21 @@ With rating filter functionality it is no need to scroll through thousands of pr
 
     ~~~
     bin/magento index:reindex
+    ~~~
+
+#### Integration with magento 2.1
+
+For compatibility with 2.1 need apply changes from 2 commits
+
+[magento/magento2@f8c75a8](https://github.com/magento/magento2/commit/f8c75a8)
+[magento/magento2@87ec99d](https://github.com/magento/magento2/commit/87ec99d)
+
+    ~~~
+    curl -L https://github.com/magento/magento2/commit/f8c75a8.patch > /tmp/f8c75a8.patch
+    git apply --check /tmp/f8c75a8.patch
+    git apply /tmp/f8c75a8.patch
+
+    curl -L https://github.com/magento/magento2/commit/87ec99d.patch > /tmp/87ec99d.patch
+    git apply --check /tmp/87ec99d.patch
+    git apply /tmp/87ec99d.patch
     ~~~
