@@ -84,6 +84,7 @@ additional modifications.
 - Phoenix_Ipayment
 - Phoenix_Wirecardcheckout
 - Radweb_Stripe
+- [Solupay_Networkmerchant](solupay-networkmerchant/)
 - SVMPayment
 - Svea_WebPay
 - TemplateTag_Stripe
