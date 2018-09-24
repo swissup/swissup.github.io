@@ -58,6 +58,21 @@ category: Firecheckout
          },
     ```
 
+ 4. Open `app/design/frontend/base/default/template/amasty/amorderattr/fields.phtml`
+    and apply the following patch:
+
+    ```diff
+    @@ -130,7 +130,7 @@
+
+     <ul class="form-list">
+         <?php foreach ($this->getFormElements() as $element): ?>
+    -    <li class="fields">
+    +    <li class="fields-off">
+             <div class="input-box">
+             <?php
+                 echo $element->toHtml();
+    ```
+
  3. Open `app/code/local/Amasty/Orderattr/Model/Observer.php` and apply the
     following patch:
 
@@ -68,7 +83,7 @@ category: Firecheckout
                  }
     +        } elseif ($block instanceof Mage_Checkout_Block_Onepage_Billing) {
     +            if ('firecheckout' === $block->getRequest()->getRouteName()) {
-    +                $html = $this->_prepareFrontendHtml($transport, 'billing', '</ul>', false);
+    +                $html = $this->_prepareFrontendHtml($transport, 'billing', '<script type="text/javascript"', true);
     +            }
              }
 
@@ -77,9 +92,9 @@ category: Firecheckout
                  || !Mage::getStoreConfig('amscheckout/general/enabled')) {
                      $html = $this->_prepareFrontendHtml($transport, 'shipping');
                  }
-    +        } elseif ($block instanceof Mage_Checkout_Block_Onepage_Billing) {
+    +        } elseif ($block instanceof Mage_Checkout_Block_Onepage_Shipping) {
     +            if ('firecheckout' === $block->getRequest()->getRouteName()) {
-    +                $html = $this->_prepareFrontendHtml($transport, 'shipping', '</ul>', false);
+    +                $html = $this->_prepareFrontendHtml($transport, 'shipping', '<script type="text/javascript"', true);
     +            }
              }
 
@@ -89,7 +104,7 @@ category: Firecheckout
                  && Mage::getStoreConfig('amscheckout/general/enabled')) {
                      $html = $this->_prepareFrontendHtml($transport, 'shipping_method', '</div>', false);
     +            } elseif ('firecheckout' === $block->getRequest()->getRouteName()) {
-    +                $html = $this->_prepareFrontendHtml($transport, 'shipping_method', '</div>', false);
+    +                $html = $this->_prepareFrontendHtml($transport, 'shipping_method', '<div id="fc-empty-shipping-method-trap">', true);
                  } else {
                      $html = $this->_prepareFrontendHtml($transport, 'shipping_method');
                  }
