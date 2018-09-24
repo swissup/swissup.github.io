@@ -7,6 +7,11 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.2.5
+**Features**
+ - Added magento 2.2.6 compatibility (close [#37](https://github.com/swissup/ajaxlayerednavigation/issues/37))
+ - Improve di injection
+
 ### Version 1.2.4
 **Features**
  - Added AMP compatibility
