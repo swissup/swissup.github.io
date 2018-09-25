@@ -13,8 +13,8 @@ title: Magento 2 development documentation
 ```bash
 composer config repositories.swissup composer https://docs.swissuplabs.com/packages/ &&\
 composer require\
-    swissup/address-autocomplete:dev-master\
-    swissup/address-field-manager:dev-master\
+    swissup/module-address-autocomplete:dev-master\
+    swissup/module-address-field-manager:dev-master\
     swissup/ajaxlayerednavigation:dev-master\
     swissup/ajaxpro:dev-master\
     swissup/ajaxsearch:dev-master\
@@ -22,60 +22,61 @@ composer require\
     swissup/amp:dev-master\
     swissup/askit:dev-master\
     swissup/attributepages:dev-master\
-    swissup/checkout:dev-master\
-    swissup/checkout-cart:dev-master\
-    swissup/checkout-fields:dev-master\
-    swissup/checkout-success:dev-master\
+    swissup/module-checkout:dev-master\
+    swissup/module-checkout-cart:dev-master\
+    swissup/module-checkout-fields:dev-master\
+    swissup/module-checkout-success:dev-master\
     swissup/command:dev-master\
     swissup/compare:dev-master\
-    swissup/core:dev-master\
+    swissup/module-core:dev-master\
     swissup/countdowntimer:dev-master\
-    swissup/customer-field-manager:dev-master\
-    swissup/delivery-date:dev-master\
+    swissup/module-customer-field-manager:dev-master\
+    swissup/module-delivery-date:dev-master\
     swissup/easybanner:dev-master\
-    swissup/easycatalogimg:dev-master\
+    swissup/module-easycatalogimg:dev-master\
     swissup/easyflags:dev-master\
     swissup/easy-slide:dev-master\
     swissup/easytabs:dev-master\
     swissup/email:dev-master\
     swissup/fblike:dev-master\
     swissup/featured-attributes:dev-master\
-    swissup/field-manager:dev-master\
-    swissup/firecheckout:dev-master\
-    swissup/firecheckout-integrations:dev-master\
-    swissup/font-awesome:dev-master\
+    swissup/module-field-manager:dev-master\
+    swissup/module-firecheckout:dev-master\
+    swissup/module-firecheckout-integrations:dev-master\
+    swissup/module-font-awesome:dev-master\
+    swissup/module-font-awesome-5:dev-master\
     swissup/gdpr:dev-master\
     swissup/gdpr-askit:dev-master\
     swissup/gdpr-testimonials:dev-master\
-    swissup/geoip:dev-master\
+    swissup/module-geoip:dev-master\
     swissup/highlight:dev-master\
     swissup/hover-gallery:dev-master\
-    swissup/hreflang:dev-master\
+    swissup/module-hreflang:dev-master\
     swissup/instaframe:dev-master\
     swissup/lightboxpro:dev-master\
     swissup/maintenance:dev-master\
     swissup/navigationpro:dev-master\
-    swissup/orderattachment:dev-master\
+    swissup/module-orderattachment:dev-master\
     swissup/pagespeed:dev-master\
     swissup/pro-labels:dev-master\
     swissup/quantity-switcher:dev-master\
     swissup/recaptcha:dev-master\
     swissup/reviewreminder:dev-master\
-    swissup/rich-snippets:dev-master\
-    swissup/rtl:dev-master\
-    swissup/seo-core:dev-master\
-    swissup/seo-html-sitemap:dev-master\
-    swissup/seo-pager:dev-master\
-    swissup/seo-templates:dev-master\
-    swissup/seo-urls:dev-master\
-    swissup/seo-xml-sitemap:dev-master\
-    swissup/slick-carousel:dev-master\
+    swissup/module-rich-snippets:dev-master\
+    swissup/module-rtl:dev-master\
+    swissup/module-seo-core:dev-master\
+    swissup/module-seo-html-sitemap:dev-master\
+    swissup/module-seo-pager:dev-master\
+    swissup/module-seo-templates:dev-master\
+    swissup/module-seo-urls:dev-master\
+    swissup/module-seo-xml-sitemap:dev-master\
+    swissup/module-slick-carousel:dev-master\
     swissup/sold-together:dev-master\
-    swissup/stickyfill:dev-master\
-    swissup/subscribe-at-checkout:dev-master\
-    swissup/subscription-checker:dev-master\
+    swissup/module-stickyfill:dev-master\
+    swissup/module-subscribe-at-checkout:dev-master\
+    swissup/module-subscription-checker:dev-master\
     swissup/suggestpage:dev-master\
-    swissup/taxvat:dev-master\
+    swissup/module-taxvat:dev-master\
     swissup/testimonials:dev-master\
     swissup/tfa:dev-master\
     swissup/theme-editor:dev-master\
@@ -94,7 +95,7 @@ composer require\
     swissup/theme-frontend-argento-mall:dev-master\
     swissup/theme-frontend-argento-luxury:dev-master\
     swissup/theme-frontend-argento-stripes:dev-master\
-    swissup/tippyjs\
+    swissup/module-tippyjs\
     --prefer-source &&\
 bin/magento module:enable\
     Swissup_AddressAutocomplete\
@@ -169,7 +170,7 @@ bin/magento module:enable\
     Swissup_ThemeEditorArgentoPure2\
     Swissup_ThemeEditorArgentoMall\
     Swissup_ThemeEditorArgentoLuxury\
-    Swissup_ThemeEditorArgentoStripes\ 
+    Swissup_ThemeEditorArgentoStripes\
     Swissup_Tippyjs &&\
 bin/magento setup:upgrade
 ```
