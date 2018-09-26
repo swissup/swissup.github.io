@@ -8,6 +8,16 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.4.0
+
+**Features**
+ - Rename composer package swissup/ajaxsearch => swissup/module-ajaxsearch
+
+**Bugfixes**
+ - Add patch for category root level
+ - Fix unit test storeManager null
+
+
 ### Version 1.3.1
 
  -  Add mobile.js
