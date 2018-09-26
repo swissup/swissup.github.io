@@ -8,6 +8,14 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.1.0
+
+- Rename composer package
+
+**Fixes**
+- Fix set expires for all page
+- Add debugging traps
+
 ### Version 1.0.1
 
 **Fixes**
