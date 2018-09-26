@@ -6,6 +6,19 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.4.0
+
+**Features**
+ - Rename composer package swissup/ajaxpro => swissup/module-ajaxpro
+
+**Bugfixes**
+ - Fix override minicart
+ - Fix (uncomment): "Proceed to checkout" button does nothing + slide mode
+ - Fix 'ugly scrollbar' when viewed on slide mode and small screen
+ - Increase more timeoffset for override_minicart variant
+ - Fix min-width for slide minicart
+
+
 ### Version 1.3.3
 
 **Bugfixes**
