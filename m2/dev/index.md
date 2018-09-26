@@ -13,88 +13,87 @@ title: Magento 2 development documentation
 ```bash
 composer config repositories.swissup composer https://docs.swissuplabs.com/packages/ &&\
 composer require\
-    swissup/module-address-autocomplete:dev-master\
-    swissup/module-address-field-manager:dev-master\
-    swissup/ajaxlayerednavigation:dev-master\
-    swissup/ajaxpro:dev-master\
-    swissup/ajaxsearch:dev-master\
-    swissup/akismet:dev-master\
-    swissup/amp:dev-master\
-    swissup/askit:dev-master\
-    swissup/attributepages:dev-master\
-    swissup/module-checkout:dev-master\
-    swissup/module-checkout-cart:dev-master\
-    swissup/module-checkout-fields:dev-master\
-    swissup/module-checkout-success:dev-master\
-    swissup/command:dev-master\
-    swissup/compare:dev-master\
-    swissup/module-core:dev-master\
-    swissup/countdowntimer:dev-master\
-    swissup/module-customer-field-manager:dev-master\
-    swissup/module-delivery-date:dev-master\
-    swissup/easybanner:dev-master\
-    swissup/module-easycatalogimg:dev-master\
-    swissup/easyflags:dev-master\
-    swissup/easy-slide:dev-master\
-    swissup/easytabs:dev-master\
-    swissup/email:dev-master\
-    swissup/fblike:dev-master\
-    swissup/featured-attributes:dev-master\
-    swissup/module-field-manager:dev-master\
-    swissup/module-firecheckout:dev-master\
-    swissup/module-firecheckout-integrations:dev-master\
-    swissup/module-font-awesome:dev-master\
-    swissup/module-font-awesome-5:dev-master\
-    swissup/gdpr:dev-master\
-    swissup/gdpr-askit:dev-master\
-    swissup/gdpr-testimonials:dev-master\
-    swissup/module-geoip:dev-master\
-    swissup/highlight:dev-master\
-    swissup/hover-gallery:dev-master\
-    swissup/module-hreflang:dev-master\
-    swissup/instaframe:dev-master\
-    swissup/lightboxpro:dev-master\
-    swissup/maintenance:dev-master\
-    swissup/navigationpro:dev-master\
-    swissup/module-orderattachment:dev-master\
-    swissup/pagespeed:dev-master\
-    swissup/pro-labels:dev-master\
-    swissup/quantity-switcher:dev-master\
-    swissup/recaptcha:dev-master\
-    swissup/reviewreminder:dev-master\
-    swissup/module-rich-snippets:dev-master\
-    swissup/module-rtl:dev-master\
-    swissup/module-seo-core:dev-master\
-    swissup/module-seo-html-sitemap:dev-master\
-    swissup/module-seo-pager:dev-master\
-    swissup/module-seo-templates:dev-master\
-    swissup/module-seo-urls:dev-master\
-    swissup/module-seo-xml-sitemap:dev-master\
-    swissup/module-slick-carousel:dev-master\
-    swissup/sold-together:dev-master\
-    swissup/module-stickyfill:dev-master\
-    swissup/module-subscribe-at-checkout:dev-master\
-    swissup/module-subscription-checker:dev-master\
-    swissup/suggestpage:dev-master\
-    swissup/module-taxvat:dev-master\
-    swissup/testimonials:dev-master\
-    swissup/tfa:dev-master\
-    swissup/theme-editor:dev-master\
-    swissup/theme-editor-swissup-absolute:dev-master\
-    swissup/theme-editor-argento-essence:dev-master\
-    swissup/theme-editor-argento-flat:dev-master\
-    swissup/theme-editor-argento-pure2:dev-master\
-    swissup/theme-editor-argento-mall:dev-master\
-    swissup/theme-editor-argento-luxury:dev-master\
-    swissup/theme-editor-argento-stripes:dev-master\
-    swissup/theme-frontend-absolute:dev-master\
-    swissup/theme-frontend-argento-blank:dev-master\
-    swissup/theme-frontend-argento-essence:dev-master\
-    swissup/theme-frontend-argento-flat:dev-master\
-    swissup/theme-frontend-argento-pure2:dev-master\
-    swissup/theme-frontend-argento-mall:dev-master\
-    swissup/theme-frontend-argento-luxury:dev-master\
-    swissup/theme-frontend-argento-stripes:dev-master\
+    swissup/module-address-autocomplete\
+    swissup/module-address-field-manager\
+    swissup/module-ajaxlayerednavigation\
+    swissup/module-ajaxpro\
+    swissup/module-ajaxsearch\
+    swissup/module-akismet\
+    swissup/amp\
+    swissup/module-askit\
+    swissup/attributepages\
+    swissup/module-checkout\
+    swissup/module-checkout-cart\
+    swissup/module-checkout-fields\
+    swissup/module-checkout-success\
+    swissup/compare\
+    swissup/module-core\
+    swissup/countdowntimer\
+    swissup/module-customer-field-manager\
+    swissup/module-delivery-date\
+    swissup/easybanner\
+    swissup/module-easycatalogimg\
+    swissup/easyflags\
+    swissup/easy-slide\
+    swissup/module-easytabs\
+    swissup/module-email\
+    swissup/fblike\
+    swissup/featured-attributes\
+    swissup/module-field-manager\
+    swissup/module-firecheckout\
+    swissup/module-firecheckout-integrations\
+    swissup/module-font-awesome\
+    swissup/module-font-awesome-5\
+    swissup/gdpr\
+    swissup/gdpr-askit\
+    swissup/gdpr-testimonials\
+    swissup/module-geoip\
+    swissup/highlight\
+    swissup/hover-gallery\
+    swissup/module-hreflang\
+    swissup/instaframe\
+    swissup/lightboxpro\
+    swissup/maintenance\
+    swissup/navigationpro\
+    swissup/module-orderattachment\
+    swissup/module-pagespeed\
+    swissup/pro-labels\
+    swissup/quantity-switcher\
+    swissup/recaptcha\
+    swissup/reviewreminder\
+    swissup/module-rich-snippets\
+    swissup/module-rtl\
+    swissup/module-seo-core\
+    swissup/module-seo-html-sitemap\
+    swissup/module-seo-pager\
+    swissup/module-seo-templates\
+    swissup/module-seo-urls\
+    swissup/module-seo-xml-sitemap\
+    swissup/module-slick-carousel\
+    swissup/sold-together\
+    swissup/module-stickyfill\
+    swissup/module-subscribe-at-checkout\
+    swissup/module-subscription-checker\
+    swissup/module-suggestpage\
+    swissup/module-taxvat\
+    swissup/testimonials\
+    swissup/module-tfa\
+    swissup/theme-editor\
+    swissup/theme-editor-swissup-absolute\
+    swissup/theme-editor-argento-essence\
+    swissup/theme-editor-argento-flat\
+    swissup/theme-editor-argento-pure2\
+    swissup/theme-editor-argento-mall\
+    swissup/theme-editor-argento-luxury\
+    swissup/theme-editor-argento-stripes\
+    swissup/theme-frontend-absolute\
+    swissup/theme-frontend-argento-blank\
+    swissup/theme-frontend-argento-essence\
+    swissup/theme-frontend-argento-flat\
+    swissup/theme-frontend-argento-pure2\
+    swissup/theme-frontend-argento-mall\
+    swissup/theme-frontend-argento-luxury\
+    swissup/theme-frontend-argento-stripes\
     swissup/module-tippyjs\
     --prefer-source &&\
 bin/magento module:enable\
@@ -173,4 +172,16 @@ bin/magento module:enable\
     Swissup_ThemeEditorArgentoStripes\
     Swissup_Tippyjs &&\
 bin/magento setup:upgrade
+```
+
+### Remove all modules
+
+```bash
+# 1. cd <magento_root>
+
+# 2. remove .git folders to allow to remove/update module when remote has conflicts
+for module in vendor/swissup/*; do rm -rf $module/.git; done;
+
+# 3. remove packages
+packages=$(composer info | grep swissup | cut -d ' ' -f 1 | tr "\n" " "); echo $packages | xargs composer remove;
 ```
