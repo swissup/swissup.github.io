@@ -10,6 +10,8 @@ title: Magento 2 development documentation
 
 ### Install Swissup modules
 
+This command will download all modules, enable them and run `setup:upgrade` command.
+
 ```bash
 composer config repositories.swissup composer https://docs.swissuplabs.com/packages/ &&\
 composer require\
@@ -173,36 +175,31 @@ bin/magento module:enable\
     Swissup_Tippyjs &&\
 bin/magento setup:upgrade
 ```
+{:.scroll}
 
 ### Track uncommitted changes in all modules
 
-Initialize repository in `vendor/swissup` folder and add each module as git
+Initialize repository in `vendor/swissup` folder and add each subfolder as git
 submodule:
 
 ```bash
-cd vendor/swissup && git init
-for module in *; do git submodule add "./$module"; done;
-git commit -m "Initial commit"
+git init && for module in *; do git submodule add "./$module"; done; && git commit -m "Initial commit"
 ```
 
-Now, after you've made a changes into multiple repos, you may see what repos
-were affected:
-
-```bash
-cd vendor/swissup
-git status
-```
+Now, after you've made a changes into multiple repos, you may use `git status` to
+see what repos were affected.
 
 ### Update all modules
 
+This command will run `checkout master && git pull` in each subfolder:
+
 ```bash
-cd vendor/swissup
 for module in *; do cd $module && git checkout master && git pull && cd ../; done;
 ```
 
 ### Remove all modules
 
-These trick is usefull when modules were installed using `--prefer-source` option
+This trick is usefull when modules were installed using `--prefer-source` option
 and all remotes are not valid anymore. (Repositories were renamed at the Github).
 
 ```bash
