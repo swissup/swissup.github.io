@@ -19,48 +19,48 @@ composer require\
     swissup/module-ajaxpro\
     swissup/module-ajaxsearch\
     swissup/module-akismet\
-    swissup/amp\
+    swissup/module-amp\
     swissup/module-askit\
-    swissup/attributepages\
+    swissup/module-attributepages\
     swissup/module-checkout\
     swissup/module-checkout-cart\
     swissup/module-checkout-fields\
     swissup/module-checkout-success\
-    swissup/compare\
+    swissup/module-compare\
     swissup/module-core\
-    swissup/countdowntimer\
+    swissup/module-countdowntimer\
     swissup/module-customer-field-manager\
     swissup/module-delivery-date\
-    swissup/easybanner\
+    swissup/module-easybanner\
     swissup/module-easycatalogimg\
-    swissup/easyflags\
-    swissup/easy-slide\
+    swissup/module-easyflags\
+    swissup/module-easy-slide\
     swissup/module-easytabs\
     swissup/module-email\
-    swissup/fblike\
-    swissup/featured-attributes\
+    swissup/module-fblike\
+    swissup/module-featured-attributes\
     swissup/module-field-manager\
     swissup/module-firecheckout\
     swissup/module-firecheckout-integrations\
     swissup/module-font-awesome\
     swissup/module-font-awesome-5\
-    swissup/gdpr\
-    swissup/gdpr-askit\
-    swissup/gdpr-testimonials\
+    swissup/module-gdpr\
+    swissup/module-gdpr-askit\
+    swissup/module-gdpr-testimonials\
     swissup/module-geoip\
-    swissup/highlight\
-    swissup/hover-gallery\
+    swissup/module-highlight\
+    swissup/module-hover-gallery\
     swissup/module-hreflang\
-    swissup/instaframe\
-    swissup/lightboxpro\
-    swissup/maintenance\
-    swissup/navigationpro\
+    swissup/module-instaframe\
+    swissup/module-lightboxpro\
+    swissup/module-maintenance\
+    swissup/module-navigationpro\
     swissup/module-orderattachment\
     swissup/module-pagespeed\
-    swissup/pro-labels\
-    swissup/quantity-switcher\
-    swissup/recaptcha\
-    swissup/reviewreminder\
+    swissup/module-pro-labels\
+    swissup/module-quantity-switcher\
+    swissup/module-recaptcha\
+    swissup/module-reviewreminder\
     swissup/module-rich-snippets\
     swissup/module-rtl\
     swissup/module-seo-core\
@@ -70,13 +70,13 @@ composer require\
     swissup/module-seo-urls\
     swissup/module-seo-xml-sitemap\
     swissup/module-slick-carousel\
-    swissup/sold-together\
+    swissup/module-sold-together\
     swissup/module-stickyfill\
     swissup/module-subscribe-at-checkout\
     swissup/module-subscription-checker\
     swissup/module-suggestpage\
     swissup/module-taxvat\
-    swissup/testimonials\
+    swissup/module-testimonials\
     swissup/module-tfa\
     swissup/theme-editor\
     swissup/theme-editor-swissup-absolute\
@@ -174,7 +174,36 @@ bin/magento module:enable\
 bin/magento setup:upgrade
 ```
 
+### Track uncommitted changes in all modules
+
+Initialize repository in `vendor/swissup` folder and add each module as git
+submodule:
+
+```bash
+cd vendor/swissup && git init
+for module in *; do git submodule add "./$module"; done;
+git commit -m "Initial commit"
+```
+
+Now, after you've made a changes into multiple repos, you may see what repos
+were affected:
+
+```bash
+cd vendor/swissup
+git status
+```
+
+### Update all modules
+
+```bash
+cd vendor/swissup
+for module in *; do cd $module && git checkout master && git pull && cd ../; done;
+```
+
 ### Remove all modules
+
+These trick is usefull when modules were installed using `--prefer-source` option
+and all remotes are not valid anymore. (Repositories were renamed at the Github).
 
 ```bash
 # 1. cd <magento_root>
