@@ -112,7 +112,6 @@ bin/magento module:enable\
     Swissup_CheckoutCart\
     Swissup_CheckoutFields\
     Swissup_CheckoutSuccess\
-    Swissup_Command\
     Swissup_Compare\
     Swissup_Core\
     Swissup_Countdowntimer\
