@@ -113,7 +113,6 @@ bin/magento module:enable\
     Swissup_CheckoutSuccess\
     Swissup_Compare\
     Swissup_Core\
-    Swissup_Countdowntimer\
     Swissup_CustomerFieldManager\
     Swissup_DeliveryDate\
     Swissup_Easybanner\
@@ -128,6 +127,7 @@ bin/magento module:enable\
     Swissup_Firecheckout\
     Swissup_FirecheckoutIntegrations\
     Swissup_FontAwesome\
+    Swissup_FontAwesome5\
     Swissup_Gdpr\
     Swissup_GdprAskit\
     Swissup_GdprTestimonials\
