@@ -63,6 +63,9 @@ pre, pre[class*="language-"] {
         background: none;
         border: none;
         padding: 10px 12px;
+        .scroll & {
+            max-height: 300px;
+        }
     }
 }
 
