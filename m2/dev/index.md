@@ -80,14 +80,14 @@ composer require\
     swissup/module-taxvat\
     swissup/module-testimonials\
     swissup/module-tfa\
-    swissup/theme-editor\
-    swissup/theme-editor-swissup-absolute\
-    swissup/theme-editor-argento-essence\
-    swissup/theme-editor-argento-flat\
-    swissup/theme-editor-argento-pure2\
-    swissup/theme-editor-argento-mall\
-    swissup/theme-editor-argento-luxury\
-    swissup/theme-editor-argento-stripes\
+    swissup/module-theme-editor\
+    swissup/module-theme-editor-swissup-absolute\
+    swissup/module-theme-editor-argento-essence\
+    swissup/module-theme-editor-argento-flat\
+    swissup/module-theme-editor-argento-pure2\
+    swissup/module-theme-editor-argento-mall\
+    swissup/module-theme-editor-argento-luxury\
+    swissup/module-theme-editor-argento-stripes\
     swissup/theme-frontend-absolute\
     swissup/theme-frontend-argento-blank\
     swissup/theme-frontend-argento-essence\
