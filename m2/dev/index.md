@@ -30,7 +30,6 @@ composer require\
     swissup/module-checkout-success\
     swissup/module-compare\
     swissup/module-core\
-    swissup/module-countdowntimer\
     swissup/module-customer-field-manager\
     swissup/module-delivery-date\
     swissup/module-easybanner\
