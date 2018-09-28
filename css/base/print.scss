@@ -1,0 +1,51 @@
+*, *:before, *:after, *:first-letter {
+    color: #333 !important;
+}
+
+a {
+    &[href]:after {
+        display: none;
+    }
+    &[href*="#&gid="] {
+        text-decoration: none;
+        cursor: default;
+    }
+}
+
+code {
+    background-color: #f7f7f7 !important;
+    pre & {
+        background-color: transparent !important;
+    }
+}
+
+blockquote {
+    p {
+        margin-bottom: 5px;
+    }
+}
+
+.page {
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.gallery {
+    &.scroll {
+        white-space: normal;
+        overflow: visible;
+    }
+    figure {
+        width: auto !important;
+    }
+}
+
+header,
+footer,
+.breadcrumbs,
+.btn-clip,
+#edit-page,
+#next-up,
+#next-up + ul {
+    display: none !important;
+}

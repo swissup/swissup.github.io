@@ -40,3 +40,7 @@
 // // 7. Themes
 // @import
 //   'themes/default';
+
+@media print {
+  @import 'base/print';
+}
