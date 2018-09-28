@@ -10,6 +10,8 @@ category: Firecheckout
 
 ### Version 1.14.0
 
+> Sep 28, 2018
+
  -  Fixed redirect to shopping cart, when using Magento 2.2.6 and 1column
     Multistep Layout.
 

@@ -9,6 +9,8 @@ category: Argento
 
 ### Version 1.7.0
 
+> Sep 28, 2018
+
 > [Upgrade Instructions](/m2/argento/upgrade-instructions/#version-160---170)
 
 **Major updates**
