@@ -20,6 +20,15 @@ category: Helpmate
 ### Version 1.7.7
 
 **Fixes**
+ - Fix 'User get empty email when private message is posted' close #65
+
+**Improvments**
+ - Rename helpmate_send_ticket_answer => helpmate_notify_customer_ticket_change
+ - Split big class Observer.php
+
+### Version 1.7.7
+
+**Fixes**
 
  -  Fix line breaks bug on the frontend
 
