@@ -8,6 +8,16 @@ category: Geoip
 
 # Changelog
 
+### Version 1.1.1
+
+**Fixes**
+ -  Fix maxmind file location
+ -  Fix bug with window.checkoutConfig.defaultCountryId
+
+### Version 1.1.0
+
+ -  Rename composer package to swissup/module-geoip
+
 ### Version 1.0.4
 
  -  Translation file added
