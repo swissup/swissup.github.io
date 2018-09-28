@@ -8,6 +8,16 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.14.0
+
+ -  Fixed redirect to shopping cart, when using Magento 2.2.6 and 1column
+    Multistep Layout.
+
+**Modules Updates**
+
+ -  [Geoip](/m2/extensions/geoip/)
+    - Fixed bug when wrong shipping methods were shown on initial page load
+
 ### Version 1.13.1
 
 > Sep 21, 2018
