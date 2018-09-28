@@ -7,6 +7,15 @@ category: Argento
 
 # Upgrade Instructions
 
+### Version 1.6.0 - 1.7.0
+
+ 1. Backup all changes you've made
+ 2. Put the store to the maintenance mode
+ 3. [Unpack new Argento version][unpack_package] over the old one
+ 4. Apply upgrade instructions for the
+    [ProLabels module](https://docs.swissuplabs.com/m2/extensions/prolabels/installation/manual/#upgrade-from-version-10x-to-110)
+ 5. That's all. You are now using Argento 1.7.0
+
 ### Version 1.5.0 - 1.6.0
 
  1. Backup all changes you've made

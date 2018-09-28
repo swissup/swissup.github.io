@@ -7,6 +7,28 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.7.0
+
+> [Upgrade Instructions](/m2/argento/upgrade-instructions/#version-160---170)
+
+**Major updates**
+
+ -  Magento 2.2.6 compatibility
+ -  Greatly improved [ProLabels](https://docs.swissuplabs.com/m2/extensions/prolabels/)
+    module with [new backend interface](https://docs.swissuplabs.com/images/m2/prolabels/preview-demo.gif)
+    and a bunch of [ready-to-use presets](https://docs.swissuplabs.com/images/m2/prolabels/presets-110.png).
+
+**Extensions Updates**
+
+ -  **Fblike** — 1.1.4
+    - Fixed error "Action Requires At Least One Reference" when custom button is used
+ -  **Navigationpro** — [1.7.0](https://docs.swissuplabs.com/m2/extensions/navigationpro/changelog/#version-170)
+    - Magento 2.2.6 compatibility
+    - Backend interface improvements
+ -  **ProLabels** — [1.1.0](https://docs.swissuplabs.com/m2/extensions/prolabels/changelog/#version-110)
+    - Backend interface improvements
+    - Ready-to-use presets added
+
 ### Version 1.6.0
 
 > [Upgrade Instructions](/m2/argento/upgrade-instructions/#version-150---160)
