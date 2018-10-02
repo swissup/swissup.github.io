@@ -2,7 +2,7 @@
 layout: default
 title: Loading icon keeps spinning
 description: Loading icon keeps spinning infinitely on initial page load
-keywords: firecheckout issue infinit loading, Sisow_Payment
+keywords: firecheckout issue infinit loading, Sisow_Payment, Magecomp_Paymentfee
 category: Firecheckout
 ---
 
@@ -12,9 +12,9 @@ category: Firecheckout
 
 ### How to cure
 
-One of the reasons can be *third-party payment method* **Sisow_Payment**. I your Magento instance has such module then you have to apply integration instruction listed below:
+One of the reasons can be *third-party payment method* **Sisow_Payment** or **Magecomp_Paymentfee**. If your Magento instance has one of modules then you have to apply integration instruction listed below:
 
-Find file `app/code/Sisow/Payment/view/frontend/web/js/action/checkout/cart/totals.js` and modify it:
+Find file `app/code/[Vendor]/[ModuleName]/view/frontend/web/js/action/checkout/cart/totals.js` and modify it ([Vendor] - Sisow or Magecomp and [ModuleName] - Payment or Paymentfee):
 
 ```diff
 --- old
@@ -40,7 +40,7 @@ Find file `app/code/Sisow/Payment/view/frontend/web/js/action/checkout/cart/tota
 
 ```
 
-Find other file `app/code/Sisow/Payment/view/frontend/web/js/action/payment/select-payment-method.js` and modify it also:
+Find other file `app/code/[Vendor]/[ModuleName]/view/frontend/web/js/action/payment/select-payment-method.js` and modify it also ([Vendor] - Sisow or Magecomp and [ModuleName] - Payment or Paymentfee):
 
 ```diff
 --- old
