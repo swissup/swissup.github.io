@@ -73,6 +73,24 @@ Create new tab with following configuration:
  *  Template: `payment/catalog/product/view/profile/schedule.phtml`
  *  Unset (reference::block_alias): `product.info::recurring_info`
 
+## Askit products questions block in tab
+
+You can move questions block from [AskIt extension](../../askit/) to tab with following configuration:
+
+**General Details**
+
+ *  Title: `Questions&nbsp;({% raw %}{{eval code="getCount()"}}{% endraw %})` or any other title you want.
+ *  Alias: `askit_tabbed` or any other alias you want
+ *  Block Type: `Custom Block`
+ *  Sort Order: `90` or any other sort order to place tab at position you need.
+ *  Status: `Enabled`.
+
+**Widget Options**
+
+ *  Block: `askit/discussion`
+ *  Template: `tm/askit/question/list.phtml`
+ *  Unset (reference::block_alias): `product.info.additional::askit`
+
 ## Dynamic tab titles
 
 Use `eval` directive to call block methods in tab title.
