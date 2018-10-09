@@ -8,6 +8,29 @@ category: SEO Suite
 
 # Changelog
 
+### Version 1.1.1
+
+> Oct 9th, 2018
+
+Few fixes and one little stability improvement.
+
+*Metadata templates*:
+
+ -  Improve metadata generation process and prevent it from freezing when something when wrong. Now you can go to Magento 'system.log' file and check for critical records.
+ -  Fix 404 response for actions in admin grid.
+ -  Few typos corrected.
+
+*SEO URLs*:
+
+ -  Select swatches on listing when swatches filter applied.
+ -  Fix not working redirect to homepage when customer reaches respective CMS page via its URL.
+
+### Version 1.1.0
+
+> Sep 27th, 2018
+
+Internal module naming convention was updated. We applied this changes to reach full compatibility with Magento Marketplace policy.
+
 ### Version 1.0.2
 
 > Sep 21st, 2018
