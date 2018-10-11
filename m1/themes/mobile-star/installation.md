@@ -30,7 +30,7 @@ Please follow next steps to complete the installation:
     1.  Create block `homepage` with following code:
 
         ```html
-        {% raw %}{{block type="easyslide/slider" name="homepage.m001" slider_id="default_m001"}}
+        {% raw %}{{widget type="easyslide/insert" slider_id="default_m001"}}
         {{block type="catalog/navigation" name="home.nav" template="catalog/navigation/top.phtml"}}
         <script type="text/javascript">
          new MobileNavigation();
