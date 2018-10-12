@@ -8,6 +8,15 @@ category: Helpmate
 
 # Changelog
 
+### Version 1.7.9
+
+**Fixes**
+ - Improve JavaScript code stability for admin interface
+ - Workaround to show SELECT elements hidden with materialized
+ - Fix frontend rating functionality
+ - Revert 'show/hide editor button'
+ - Fix cron task methods locations
+
 ### Version 1.7.8
 
 **Fixes**
