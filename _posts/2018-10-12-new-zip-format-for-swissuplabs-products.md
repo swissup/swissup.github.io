@@ -232,5 +232,5 @@ You can rollback the module to the any version found in
 
     ```bash
     cd <magento_root>
-    composer require swissup/firecheckout:1.14.0
+    composer require swissup/module-core:1.7.0
     ```
