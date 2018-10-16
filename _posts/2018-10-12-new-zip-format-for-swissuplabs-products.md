@@ -2,7 +2,7 @@
 layout: default
 title: New zip format for SwissupLabs products
 permalink: /posts/new-zip-format-for-swissuplabs-products/
-description: Painless update from old packages format to the new one
+description: New composer-compatible archive format for SwissupLabs products
 categories: posts
 ---
 
