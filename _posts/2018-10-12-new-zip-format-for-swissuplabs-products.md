@@ -58,8 +58,9 @@ The new format brings a few benefits for you and your store:
 
 ### Okay, I'm in!
 
-Unfortunately, moving from the old format to the new one is not that easy. It
-requires basic knowledge of terminal and composer commands.
+Migrating from the old format to the new one is not that easy. It
+requires advanced knowledge of terminal and composer commands. Or, you can use
+our automated one-line script shown below that will do the job.
 
 The things should be done when updating one of our modules are:
 
@@ -80,142 +81,38 @@ Open your account page at the one of our sites:
  -  [firecheckout.net](https://firecheckout.net/subscription/customer/products/)
  -  [swissuplabs.com](https://swissuplabs.com/subscription/customer/products/)
 
-Download the modules, you'd like to update.
+Download the modules, you'd like to update and put them to the
+`<magento_root>/swissup` folder:
 
-#### Remove old version
+```bash
+# Example
+/var/www/magento/swissup/swissup.firecheckout-1.14.0.zip
+/var/www/magento/swissup/swissup.product-geoip-1.1.1.zip
+```
 
-Take a look at the content of the downloaded archive. It contains the list of
-composer packages. You need to remove the old files for each one from your filesystem.
+#### Automated one line migration
 
-> We strongly recommend to backup the files before removing them.
+**This is the recommended way to migrate our modules.**
 
-**How to convert package name into the folder path to remove**
+Run the command below from the `<magento_root>` folder:
 
- 1. Take `<magento_root>/app` prefix: `/var/www/magento/app`
+```bash
+curl -s https://raw.githubusercontent.com/swissup/scripts/master/code2vendor | bash
+```
 
- 2. There are two possible package name formats:
+That's all. Selected modules are migrated to the composer-based installer.
 
-    ```
-    module-xxx-version.zip
-    theme-[AREA]-xxx-version.zip
-    ```
+#### Manual migration
 
-    When package name starts from the `module-`, add `code/Swissup` to the folder
-    path: `/var/www/magento/app/code/Swissup`
-
-    When package name starts from the `theme-`, add `design/[AREA]` to the folder path:
-    `/var/www/magento/app/design/frontend`
-
-    Otherwise, proceed to the next package in the archive.
-
- 3. Add camel-cased `xxx` to the folder name. Please note, that theme folders
-    doesn't use camel-case notation:
-
-    ```
-    /var/www/magento/app/code/Swissup/Core
-    /var/www/magento/app/design/frontend/Swissup/absolute
-    ```
-
- 4. Copy this folder into the safe place. Remove the folder;
- 5. Repeat the steps 1 - 4 for each of the package inside the archive;
-
-**GeoIP module example (swissup.product-geoip-1.1.1.zip)**
-
-Zip Contents                    | Folder to remove
---------------------------------|-----------------
-geoip-1.1.1.zip                 | -
-module-**checkout**-1.2.0.zip   | magento_root/app/code/Swissup/**Checkout**
-module-**core**-1.7.0.zip       | magento_root/app/code/Swissup/**Core**
-module-**geoip**-1.1.1.zip      | magento_root/app/code/Swissup/**Geoip**
-
-**Free Absolute theme example (swissup.absolute-metapackage-1.2.0.zip)**
-
-Zip Contents                        | Folder to remove
-------------------------------------|-----------------
-absolute-metapackage-1.1.1.zip      | -
-module-**core**-1.7.0.zip           | magento_root/app/code/Swissup/**Core**
-module-**font-awesome**-1.3.0.zip   | magento_root/app/code/Swissup/**FontAwesome**
-module-**slick-carousel**-1.2.0.zip | magento_root/app/code/Swissup/**SlickCarousel**
-module-**theme-editor**-1.5.0.zip   | magento_root/app/code/Swissup/**ThemeEditor**
-module-**theme-editor-swissup-absolute**-1.1.0.zip  | magento_root/app/code/Swissup/**ThemeEditorSwissupAbsolute**
-theme-**frontend**-**absolute**-1.2.0.zip           | magento_root/app/design/**frontend**/Swissup/**absolute**
-
-#### Install new version
-
- 1. Unpack downloaded archive into `<magento_root>/vendor/swissup/packages` folder.
-    Create the folder if it doesn't exist yet.
-
-    <details>
-        <summary><strong>Example of unpacked `swissup.firecheckout-1.14.0.zip` file:</strong></summary>
-        <pre><code>&lt;magento_root&gt;
-    └── vendor
-        └── swissup
-            └── packages
-                ├── firecheckout-1.14.0.zip
-                ├── module-address-autocomplete-1.1.0.zip
-                ├── module-address-field-manager-1.4.0.zip
-                ├── module-checkout-1.2.0.zip
-                ├── module-checkout-cart-1.4.0.zip
-                ├── module-checkout-fields-1.1.0.zip
-                ├── module-checkout-success-1.3.0.zip
-                ├── module-core-1.7.0.zip
-                ├── module-customer-field-manager-1.1.0.zip
-                ├── module-delivery-date-1.2.0.zip
-                ├── module-field-manager-1.1.0.zip
-                ├── module-firecheckout-1.14.0.zip
-                ├── module-firecheckout-integrations-1.1.0.zip
-                ├── module-geoip-1.1.1.zip
-                ├── module-orderattachment-1.2.0.zip
-                ├── module-stickyfill-1.1.0.zip
-                ├── module-subscribe-at-checkout-1.2.0.zip
-                ├── module-taxvat-1.1.0.zip
-                └── module-tippyjs-1.1.0.zip</code></pre>
-    </details>
-
- 2. Get the module name to use in composer command.
-
-    Take a look at the name of the downloaded archive. Examples:
-
-
-    ```
-    swissup.firecheckout-1.14.0.zip
-    swissup.product-geoip-1.1.1.zip
-    swissup.absolute-metapackage-1.2.0.zip
-    ```
-
-    We need to work with the part without a version number. Additionally, replace
-    the dot (`.`) with a slash (`/`) to get module name to use in `composer require` command.
-    Examples:
-
-    ```
-    swissup.firecheckout            => swissup/firecheckout
-    swissup.product-geoip           => swissup/product-geoip
-    swissup.absolute-metapackage    => swissup/absolute-metapackage
-    ```
-
- 3. Install new version using terminal
-
-    ```bash
-    cd <magento_root>
-    # Register folder with packages in composer configuration
-    composer config repositories.swissupartifacts artifact $(pwd)/vendor/swissup/packages
-
-    # Install package
-    composer require swissup/firecheckout
-    # OR
-    composer require swissup/absolute-metapackage
-    # OR
-    composer require swissup/product-geoip
-    ```
-
-That's all. You are now using our modules installed via composer dependency manager.
+Manual migration is not recommended. However, if you can't run automated script,
+you find instructions in the [separate article](/posts/new-zip-format-manual-migration/)
 
 ### Bonus chapter: Update or rollback the module version
 
 **Update module**
 
  1. Download new version archive;
- 2. Unpack it to the `<magento_root>/vendor/swissup/packages` folder;
+ 2. Unpack it to the `<magento_root>/vendor/swissup/artifacts` folder;
  3. Run terminal:
 
     ```bash
@@ -226,7 +123,7 @@ That's all. You are now using our modules installed via composer dependency mana
 **Rollback the module to the specific version**
 
 You can rollback the module to the any version found in
-`<magento_root>/vendor/swissup/packages` folder.
+`<magento_root>/vendor/swissup/artifacts` folder.
 
  1. Run terminal:
 
