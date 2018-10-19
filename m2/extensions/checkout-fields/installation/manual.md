@@ -8,4 +8,4 @@ category: Checkout Fields
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" modules="Swissup_Core Swissup_Checkout Swissup_SubscriptionChecker Swissup_CheckoutFields" %}
+{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/checkout-fields" modules="Swissup_Core Swissup_Checkout Swissup_SubscriptionChecker Swissup_CheckoutFields" %}

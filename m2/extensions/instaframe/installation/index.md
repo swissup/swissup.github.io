@@ -8,7 +8,7 @@ category: Instaframe
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" modules="Swissup_Core Swissup_Instaframe" %}
+{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/instaframe" modules="Swissup_Core Swissup_Instaframe" %}
 
 ##### Next up
 

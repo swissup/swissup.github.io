@@ -8,7 +8,7 @@ category: Email
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" modules="Swissup_Email" %}
+{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/email" modules="Swissup_Email" %}
 
 ##### Next up
 

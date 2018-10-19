@@ -38,10 +38,10 @@ homepage and products page tabs. [Scroll down](#result) to see results.
  1. Navigate to Argento theme css directory, you'd like to modify
 
     ```
-    app/design/frontend/Swissup/argento-essence/web/css/source
+    vendor/swissup/theme-frontend-argento-stripes/web/css/source
     ```
 
- 2. Create `_argento_custom.less` inside `source` folder
+ 2. Create `_argento_custom.less` inside the `source` folder
  3. Add your custom styles
 
     ```less

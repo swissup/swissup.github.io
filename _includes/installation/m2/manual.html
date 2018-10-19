@@ -1,74 +1,71 @@
-<h4 id="download-package-from-your-account">
-    1. Download package from your account at
-    {% if include.site %}
-        <a href="https://{{ include.site }}/customer/account/">{{ include.site }}</a>
-    {% else %}
-        our site
+#### 1. Download archive
+
+{% if include.site %}
+
+Open your account page at the [{{ include.site }}](https://{{ include.site }}/customer/account/)
+and download the archive from the "Downloads" page into `<magento_root>/swissup`
+folder.
+
+{% else %}
+
+Open your account page at the site where you purchased the module or theme:
+
+ -  [argentotheme.com](https://argentotheme.com/downloadable/customer/products/)
+ -  [firecheckout.net](https://firecheckout.net/subscription/customer/products/)
+ -  [swissuplabs.com](https://swissuplabs.com/subscription/customer/products/)
+
+Download the modules or themes, you'd like to use into `<magento_root>/swissup`
+folder.
+
+{% endif %}
+
+**Do not unpack the archive!** Just put it into `<magento_root>/swissup` folder.
+
+#### 2. Install the package
+
+##### Automatic mode
+
+```bash
+curl -s https://raw.githubusercontent.com/swissup/scripts/master/install | bash -s - -l 'en_US en_GB'
+```
+
+Skip the 'Manual mode' chapter and proceed to the next one.
+
+##### Manual mode
+
+ 1. Unpack downloaded archive into `<magento_root>/vendor/swissup/artifacts` folder:
+
+    ```bash
+    mkdir -p vendor/swissup/artifacts
+    unzip {% if include.package %}{{ include.package | replace: '/', '.' }}{% else %}swissup.archive{% endif %}-[version].zip -d vendor/swissup/artifacts
+    ```
+
+ 2. Run composer and magento commands:
+
+    ```bash
+    composer config repositories.swissupartifacts artifact $(pwd)/vendor/swissup/artifacts
+    ```
+
+    {% if include.preinstall %}
+    ```
+    {{ include.preinstall }}
+    ```
     {% endif %}
-</h4>
 
-{% unless include.site %}
-<p>It should be the site where you bought an extension:</p>
-<ul>
-    <li><a href="https://swissuplabs.com/customer/account/">swissuplabs.com</a></li>
-    <li><a href="https://argentotheme.com/customer/account/">argentotheme.com</a></li>
-</ul>
-{% endunless %}
+    ```bash
+    # 0. Get the sources
+    composer require {{ include.package }}
 
+    # 1. Enable new modules
+    php bin/magento module:enable {{ include.modules }}
 
-<h4 id="unpack-package-into-magento-root-folder">2. Unpack package into magento root folder</h4>
+    # 2. Run magento upgrade scripts
+    php bin/magento setup:upgrade
 
-<blockquote>
-    <p><strong>Warning!</strong></p>
-    <p>Extracted files will overwrite the current files with the same name.
-    Please make sure you have a backup before overwriting your current files.</p>
-</blockquote>
+    # 3. Remove outdated files
+    rm -rf pub/static/_requirejs var/view_preprocessed pub/static/frontend/ pub/static/adminhtml/ generated/code/
 
-<p>You can upload zip archive and unpack it using shell or cPanel:</p>
-
-<strong>Using shell</strong>
-<ol>
-    <li>Upload zip archive into Magento root folder</li>
-    <li>Run <code>unzip [filename.zip]</code> command</li>
-</ol>
-
-<strong>Using cPanel</strong>
-<ol>
-    <li>Log into cPanel</li>
-    <li>Click on "File Manager" icon</li>
-    <li>Navigate to the Magento 2 root directory</li>
-    <li>Click on "Upload Files"</li>
-    <li>In the popup window navigate to the zip archive</li>
-    <li>Click on the "Okay" or "Save" button to upload the file</li>
-    <li>Select uploaded file</li>
-    <li>Click on the "Extract File Contents" option in the file manager interface</li>
-</ol>
-
-<h4 id="enable-modules-and-run-upgrade-scripts">3. Enable modules and run upgrade scripts</h4>
-
-<ol>
-    <li>Navigate to <i>System > Tools > Сache Management</i> and flush cache.
-        <p>Or run the following command in shell (terminal):</p>
-        <pre class="highlight"><code><span class="c"># Flush all cache</span>
-php bin/magento cache:flush</code></pre>
-    </li>
-    <li><p>Run the following commands in shell (terminal):</p>
-        <pre class="highlight"><code>{% if include.preinstall %}{{ include.preinstall | replace: '\n', "\<br/>" }}<br/><br/>{% endif %}<span class="c"># 1. Enable new modules</span>
-php bin/magento module:enable\
-    {{ include.modules | replace: ' ', "\<br/>    " }}
-
-<span class="c"># 2. Run magento upgrade scripts</span>
-php bin/magento setup:upgrade
-
-<span class="c"># 3. Regenerate static content</span>
-rm -rf pub/static/_requirejs var/view_preprocessed pub/static/frontend/ pub/static/adminhtml/
-<span class="c"># For magento 2.2.x</span>
-rm -rf pub/static/_requirejs var/view_preprocessed pub/static/frontend/ pub/static/adminhtml/ generated/code/
-<span class="c"># run deploy command for your locale:</span>
-php bin/magento setup:static-content:deploy en_US en_GB
-
-<span class="c"># 4. If you are using di:compilation, you need to run it again</span>
-rm -rf var/generation var/di
-php bin/magento setup:di:compile</code></pre>
-    </li>
-</ol>
+    # 4. If you use Production Mode you need to deploy static content and run di:compile command
+    php bin/magento setup:static-content:deploy en_US en_GB
+    php bin/magento setup:di:compile
+    ```

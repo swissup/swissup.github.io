@@ -8,7 +8,7 @@ category: Store Maintenance
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" modules="Swissup_Core Swissup_Maintenance" %}
+{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/maintenance" modules="Swissup_Core Swissup_Maintenance" %}
 
 ##### Next up
 

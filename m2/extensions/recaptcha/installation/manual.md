@@ -8,5 +8,5 @@ category: reCAPTCHA
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" modules="Swissup_Core Swissup_SubscriptionChecker Swissup_Recaptcha" preinstall="composer require google/recaptcha" %}
+{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/recaptcha" modules="Swissup_Core Swissup_SubscriptionChecker Swissup_Recaptcha" %}
 

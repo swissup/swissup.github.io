@@ -7,79 +7,74 @@ category: Argento
 
 # Manual Installation
 
- 1. [Download package from your account dashboard at our site](#download-package-from-your-account)
- 2. [Unpack package into magento root folder](#unpack-package-into-magento-root-folder)
- 3. [Enable modules and run upgrade scripts](#enable-modules-and-run-upgrade-scripts)
- 4. [Setup configuration and theme content](#4-setup-configuration-and-theme-content)
- 5. [Deploy sample data images](#5-deploy-sample-data-images)
- 6. [Install AMP](#6-install-amp)
+* TOC
+{:toc}
 
-{% include installation/m2/manual.html site="argentotheme.com" modules="Swissup_Core Swissup_Ajaxpro Swissup_Ajaxsearch Swissup_Askit Swissup_Attributepages Swissup_Compare Swissup_EasySlide Swissup_Easybanner Swissup_Easycatalogimg Swissup_Easytabs Swissup_Fblike Swissup_FeaturedAttributes Swissup_FontAwesome Swissup_Gdpr Swissup_GdprAskit Swissup_GdprTestimonials Swissup_Highlight Swissup_HoverGallery Swissup_Hreflang Swissup_Lightboxpro Swissup_Navigationpro Swissup_ProLabels Swissup_Reviewreminder Swissup_RichSnippets Swissup_Rtl Swissup_SeoCore Swissup_SeoHtmlSitemap Swissup_SeoPager Swissup_SeoUrls Swissup_SeoTemplates Swissup_SeoXmlSitemap Swissup_SlickCarousel Swissup_SoldTogether Swissup_Suggestpage Swissup_Testimonials Swissup_ThemeEditor Swissup_ThemeEditorArgentoEssence Swissup_ThemeEditorArgentoFlat Swissup_ThemeEditorArgentoLuxury Swissup_ThemeEditorArgentoPure2 Swissup_ThemeEditorArgentoMall Swissup_ThemeEditorArgentoStripes" preinstall="composer require marc1706/fast-image-size:1.* leafo/scssphp:0.7.6 mobiledetect/mobiledetectlib:2.8" %}
+{% include installation/m2/manual.html site="argentotheme.com" package="swissup/argento-m2" modules="Swissup_Core Swissup_Ajaxpro Swissup_Ajaxsearch Swissup_Amp Swissup_Askit Swissup_Attributepages Swissup_Compare Swissup_EasySlide Swissup_Easybanner Swissup_Easycatalogimg Swissup_Easytabs Swissup_Fblike Swissup_FeaturedAttributes Swissup_FontAwesome Swissup_Gdpr Swissup_GdprAskit Swissup_GdprTestimonials Swissup_Highlight Swissup_HoverGallery Swissup_Hreflang Swissup_Lightboxpro Swissup_Navigationpro Swissup_ProLabels Swissup_Reviewreminder Swissup_RichSnippets Swissup_Rtl Swissup_SeoCore Swissup_SeoHtmlSitemap Swissup_SeoPager Swissup_SeoUrls Swissup_SeoTemplates Swissup_SeoXmlSitemap Swissup_SlickCarousel Swissup_SoldTogether Swissup_Suggestpage Swissup_Testimonials Swissup_ThemeEditor Swissup_ThemeEditorArgentoEssence Swissup_ThemeEditorArgentoFlat Swissup_ThemeEditorArgentoLuxury Swissup_ThemeEditorArgentoPure2 Swissup_ThemeEditorArgentoMall Swissup_ThemeEditorArgentoStripes" %}
 
-#### 4. Setup configuration and theme content
+#### 3. Setup configuration and theme content
 
-1. Navigate to `Swissup > Module Manager`, find theme you'd like to use at
-    your store and click `Open Installer` option in actions column
+ 1. Get your [Identity Key](https://argentotheme.com/license/customer/activation/)
+ 2. Run theme installer in terminal. (You can also do that via backend interface
+    at _Swissup > Module Manager_ page.)
 
-    ![Module manager](/images/m2/argento/installation/module_manager.png)
+    ```bash
+    # 1. Get the STORE_ID you need, from the store list (Use 0 to install theme for All Stores)
+    php bin/magento store:list
+    # 2. Get the THEME_CODE you need, from the themes list
+    php bin/magento swissup:module:list --type=theme
+    # 3. Run installer with STORE_ID and THEME_CODE parameters
+    php bin/magento swissup:module:install --store=STORE_ID THEME_CODE IDENTITY_KEY
+    ```
 
-2. Fill the `Identity Key` and select store, where you wish to install Argento
-    and press `Install` button
+    Theme                    | Code
+    -------------------------|------------------------------------
+    [Essence](#&gid=1&pid=1) | Swissup_ThemeFrontendArgentoEssence
+    [Flat](#&gid=1&pid=2)    | Swissup_ThemeFrontendArgentoFlat
+    [Pure2](#&gid=1&pid=3)   | Swissup_ThemeFrontendArgentoPure2
+    [Mall](#&gid=1&pid=4)    | Swissup_ThemeFrontendArgentoMall
+    [Luxury](#&gid=1&pid=5)  | Swissup_ThemeFrontendArgentoLuxury
+    [Stripes](#&gid=1&pid=6) | Swissup_ThemeFrontendArgentoStripes
 
-    ![Installation Form](/images/m2/argento/installation/form.png)
-
-##### Alternative CLI way
-![Installation CLI](/images/m2/argento/installation/cli.svg)
-
-1. Get your [Identity Key](https://argentotheme.com/license/customer/activation/)
-
-```bash
-# 2. Get your store id from store list
-php bin/magento store:list
-# 3. List your themes (modules)
-php bin/magento swissup:module:list --type=theme
-# 4. Show info about theme
-php bin/magento swissup:module swissup/theme-frontend-argento-luxury
-# 5. Install theme on store
-php bin/magento swissup:module:install -h
-php bin/magento swissup:module:install --store=3 Swissup_ThemeFrontendArgentoLuxury XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX==:r/YYYYYYYYYYYYYYYYYYYYYYYYYYYYYY:
-```
-
-#### 5. Deploy sample data images
+#### 3. Deploy sample data images
 
 Sample images are located in `ARGENTO_THEME/resources/media` folder. Copy
 all contents of this folder into `MAGENTO_ROOT/pub/media` directory.
 
 ```bash
 cd MAGENTO_ROOT
-cp -R app/design/frontend/Swissup/argento-essence/resources/media/* pub/media/
-cp -R app/design/frontend/Swissup/argento-flat/resources/media/* pub/media/
-cp -R app/design/frontend/Swissup/argento-pure2/resources/media/* pub/media/
-cp -R app/design/frontend/Swissup/argento-mall/resources/media/* pub/media/
-cp -R app/design/frontend/Swissup/argento-luxury/resources/media/* pub/media/
-cp -R app/design/frontend/Swissup/argento-stripes/resources/media/* pub/media/
-# If you are using theme from vendor folder:
-# cp -R vendor/swissup/theme-frontend-argento-essence/resources/media/* pub/media/
-# cp -R vendor/swissup/theme-frontend-argento-flat/resources/media/* pub/media/
-# cp -R vendor/swissup/theme-frontend-argento-pure2/resources/media/* pub/media/
-# cp -R vendor/swissup/theme-frontend-argento-mall/resources/media/* pub/media/
-# cp -R vendor/swissup/theme-frontend-argento-luxury/resources/media/* pub/media/
-# cp -R vendor/swissup/theme-frontend-argento-stripes/resources/media/* pub/media/
-chmod -R 777 pub/media/easybanner pub/media/easyslide pub/media/highlight pub/media/wysiwyg
+cp -R vendor/swissup/theme-frontend-argento-essence/resources/media/* pub/media/
+cp -R vendor/swissup/theme-frontend-argento-flat/resources/media/* pub/media/
+cp -R vendor/swissup/theme-frontend-argento-pure2/resources/media/* pub/media/
+cp -R vendor/swissup/theme-frontend-argento-mall/resources/media/* pub/media/
+cp -R vendor/swissup/theme-frontend-argento-luxury/resources/media/* pub/media/
+cp -R vendor/swissup/theme-frontend-argento-stripes/resources/media/* pub/media/
+cp -R vendor/swissup/module-amp/resources/media/* pub/media/
+chmod -R 775 pub/media/easybanner pub/media/easyslide pub/media/highlight pub/media/wysiwyg
 ```
 
-#### 6. Install AMP
+#### 5. Install AMP
 
-> Available since Argento version 1.6.0
+> Skip this step, if you don't need AMP version of your store.
+>
+> If you are the Magento 2.1.* user, you need to apply
+> [additional patches](/m2/extensions/amp/installation/manual/#magento-21x-users-should-apply-additional-changes)
+> to make AMP work with your magento version.
 
-If you want to use AMP, install it using instruction:
-[AMP Installation Manual](/m2/extensions/amp/installation/manual/#enable-modules-and-run-upgrade-scripts)
+```bash
+# 1. Get the STORE_ID you need, from the store list (Use 0 to install theme for All Stores)
+php bin/magento store:list
+# 3. Run installer with STORE_ID parameter
+php bin/magento swissup:module:install --store=STORE_ID Swissup_Amp
+```
 
-#### 7. That's all. Navigate to you store to check your new theme:
+#### That's all. Navigate to you store to check your new theme:
+{:.no_toc}
 
 {% include gallery.html images=site.data.gallery.m2.argento.installation.result class="phone-up-1 tablet-up-3 photoswipe scroll" %}
 
 ##### Next up
+{:.no_toc}
 
 - [Small css customizations](/m2/argento/customization/custom-css/)
 - [Create Argento based custom theme](/m2/argento/customization/custom-theme/)

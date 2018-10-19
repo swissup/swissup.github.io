@@ -10,7 +10,7 @@ category: RichSnippets
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" modules="Swissup_Core Swissup_SubscriptionChecker Swissup_RichSnippets Swissup_SeoCore" %}
+{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/rich-snippets" modules="Swissup_Core Swissup_SubscriptionChecker Swissup_RichSnippets Swissup_SeoCore" %}
 
 ###### After you install an extension you can go to:
 

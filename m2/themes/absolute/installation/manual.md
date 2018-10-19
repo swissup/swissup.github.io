@@ -12,9 +12,9 @@ category: Absolute Theme
  3. [Enable modules and run upgrade scripts](#enable-modules-and-run-upgrade-scripts)
  4. [Setup configuration and theme content](#setup-configuration-and-theme-content)
 
-{% include installation/m2/manual.html site="swissuplabs.com" modules="Swissup_Core Swissup_FontAwesome Swissup_SlickCarousel Swissup_ThemeEditor Swissup_ThemeEditorSwissupAbsolute" %}
+{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/absolute-metapackage" modules="Swissup_Core Swissup_FontAwesome Swissup_SlickCarousel Swissup_ThemeEditor Swissup_ThemeEditorSwissupAbsolute" %}
 
-#### 4. Setup configuration and theme content
+#### 3. Setup configuration and theme content
 
 1. Navigate to _Swissup > Module Manager_, find `Swissup_ThemeFrontendAbsolute`
    and click `Open Installer` option in actions column
@@ -33,6 +33,6 @@ category: Absolute Theme
 
     ![Installation Form](/images/m2/themes/absolute/installation/form.png)
 
-#### 5. That's all. Navigate to you store to check your new theme:
+#### 4. That's all. Navigate to you store to check your new theme:
 
 ![Homepage screenshot](/images/m2/themes/absolute/absolute_homepage.png)

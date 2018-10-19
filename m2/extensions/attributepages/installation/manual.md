@@ -8,9 +8,9 @@ category: Attributepages
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" modules="Swissup_Core Swissup_SubscriptionChecker Swissup_SlickCarousel Swissup_Attributepages" %}
+{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/attributepages" modules="Swissup_Core Swissup_SubscriptionChecker Swissup_SlickCarousel Swissup_Attributepages" %}
 
-#### 4. Complete the installation
+#### 3. Complete the installation
 
 Navigate to `Swissup > Attribute Pages > Manage Pages`
 and create your first attribute based page.

@@ -8,9 +8,9 @@ category: Address Field Manager
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" modules="Swissup_Core Swissup_FieldManager Swissup_SubscriptionChecker Swissup_AddressFieldManager" %}
+{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/address-field-manager" modules="Swissup_Core Swissup_FieldManager Swissup_SubscriptionChecker Swissup_AddressFieldManager" %}
 
-#### 4. Complete the installation
+#### 3. Complete the installation
 
 Navigate to Swissup > Address Field Manager and
 [change field values](/m2/extensions/address-field-manager/usage/) according to your needs.

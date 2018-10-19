@@ -8,9 +8,9 @@ category: Address Autocomplete
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" modules="Swissup_Core Swissup_Checkout Swissup_SubscriptionChecker Swissup_AddressAutocomplete" %}
+{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/address-autocomplete" modules="Swissup_Core Swissup_Checkout Swissup_SubscriptionChecker Swissup_AddressAutocomplete" %}
 
-#### 4. Complete the installation
+#### 3. Complete the installation
 
 Navigate to _Stores > Configuration_ and enter your [api key](/m2/extensions/address-autocomplete/get-api-key/).
 

@@ -8,7 +8,7 @@ category: Pagespeed
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" modules="Swissup_Pagespeed" preinstall="composer require mrclay/minify:~3.0.0 && composer require marc1706/fast-image-size:1.* && composer require spatie/image-optimizer:^1.1" %}
+{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/pagespeed" modules="Swissup_Pagespeed" %}
 
 ##### Next up
 

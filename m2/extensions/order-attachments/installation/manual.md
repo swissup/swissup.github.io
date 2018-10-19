@@ -8,7 +8,7 @@ category: Order Attachments
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" modules="Swissup_Core Swissup_Checkout Swissup_SubscriptionChecker Swissup_Orderattachment" %}
+{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/orderattachment" modules="Swissup_Core Swissup_Checkout Swissup_SubscriptionChecker Swissup_Orderattachment" %}
 
 #### Next up
 

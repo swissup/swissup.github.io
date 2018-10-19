@@ -8,7 +8,7 @@ category: Compare
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" modules="Swissup_Core Swissup_Compare" %}
+{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/compare" modules="Swissup_Core Swissup_Compare" %}
 
 ##### Next up
 

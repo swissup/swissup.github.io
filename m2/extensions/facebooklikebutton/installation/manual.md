@@ -8,9 +8,9 @@ category: Facebook Like Button
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" modules="Swissup_Core Swissup_Fblike" %}
+{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/fblike" modules="Swissup_Core Swissup_Fblike" %}
 
-#### 4. Add Like Button To Catalog
+#### 3. Add Like Button To Catalog
 
 add code to any place in catalog list.phtml:
 

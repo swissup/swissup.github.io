@@ -10,7 +10,7 @@ category: Easy Slider
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" modules="Swissup_Core Swissup_SubscriptionChecker Swissup_EasySlide" %}
+{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/easyslide" modules="Swissup_Core Swissup_SubscriptionChecker Swissup_EasySlide" %}
 
 #### After installing the extension you can go to:
 * [Admin interfaces](../interfaces/)

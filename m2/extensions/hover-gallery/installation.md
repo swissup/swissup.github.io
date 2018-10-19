@@ -8,7 +8,7 @@ category: Hover Gallery
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" modules="Swissup_Core Swissup_HoverGallery" %}
+{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/hover-gallery" modules="Swissup_Core Swissup_HoverGallery" %}
 
 #### 4. Complete the installation
 

@@ -7,45 +7,44 @@ category: Accelerated Mobile Pages
 
 # Manual Installation
 
- 1. [Download package from your account dashboard at our site](#download-package-from-your-account)
- 2. [Unpack package into magento root folder](#unpack-package-into-magento-root-folder)
- 3. [Enable modules and run upgrade scripts](#enable-modules-and-run-upgrade-scripts)
- 4. [Setup configuration and content](#4-setup-configuration-and-content)
- 5. [Deploy sample data images](#5-deploy-sample-data-images)
- 6. [Magento 2.1.x fixes](#6-magento-21x-users-should-apply-additional-changes)
 
-{% include installation/m2/manual.html site="swissuplabs.com" modules="Swissup_Core Swissup_Rtl Swissup_EasySlide Swissup_Easycatalogimg Swissup_Amp" preinstall="composer require marc1706/fast-image-size:1.* leafo/scssphp:0.7.6 mobiledetect/mobiledetectlib:2.8" %}
+ 1. [Download archive](#download-archive)
+ 2. [Unpack packages and install them](#install-the-module)
+ 3. [Setup configuration and theme content](#setup-configuration-and-theme-content)
+ 4. [Deploy sample data images](#deploy-sample-data-images)
+ 5. [Magento 2.1.x fixes](#magento-21x-users-should-apply-additional-changes)
 
-#### 4. Setup configuration and content
+{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/amp" modules="Swissup_Core Swissup_Rtl Swissup_EasySlide Swissup_Easycatalogimg Swissup_Amp" %}
 
-1. Navigate to `Swissup > Module Manager`, find `Swissup_Amp`
-    and click `Open Installer` option in actions column
+#### Setup configuration and content
 
-    ![Module manager](/images/m2/amp/installation/module_manager.png)
+Run installer in terminal. (You can also do that via backend interface
+at _Swissup > Module Manager_ page.)
 
-2. Select store, where you wish to install AMP and press `Install` button
+```bash
+# 1. Get the STORE_ID you need, from the store list
+php bin/magento store:list
+# 2. Run installer with STORE_ID parameter
+php bin/magento swissup:module:install --store=STORE_ID Swissup_Amp
+```
 
-    ![Installation Form](/images/m2/amp/installation/form.png)
-
-#### 5. Deploy sample data images
+#### Deploy sample data images
 
 Sample images are located in `resources/media` folder. Copy
 all contents of this folder into `MAGENTO_ROOT/pub/media` directory.
 
 ```bash
 cd MAGENTO_ROOT
-cp -R app/code/Swissup/Amp/resources/media/* pub/media/
-# If you are using extension from vendor folder:
-# cp -R vendor/swissup/amp/resources/media/* pub/media/
-chmod -R 777 pub/media/easyslide
+cp -R vendor/swissup/module-amp/resources/media/* pub/media/
+chmod -R 775 pub/media/easyslide
 ```
 
-#### 6. Magento 2.1.x users should apply additional changes
+#### Magento 2.1.x users should apply additional changes
 
  -  [Add 'view_block_abstract_to_html_after' event][m21_add_event]
  -  [Allow attribute 'template' for 'blockReferenceType'][m21_allow_template]
 
-#### 7. Result
+#### Result
 
 Navigate to you store with `?amp=1` parameter in url to check how it looks.
 

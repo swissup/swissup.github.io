@@ -8,9 +8,9 @@ category: Testimonials
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" modules="Swissup_Core Swissup_SlickCarousel Swissup_Testimonials" %}
+{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/testimonials" modules="Swissup_Core Swissup_SlickCarousel Swissup_Testimonials" %}
 
-#### 4. Complete the installation
+#### 3. Complete the installation
 
 Now you can add testimonials from admin in [Testimonials Grid][testimonials_grid] and place [Widgets][widgets]
 

@@ -8,7 +8,7 @@ category: Easy Banners
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" modules="Swissup_Core Swissup_SubscriptionChecker Swissup_Easybanner" %}
+{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/easybanner" modules="Swissup_Core Swissup_SubscriptionChecker Swissup_Easybanner" %}
 
 ##### Next up
 

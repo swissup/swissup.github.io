@@ -10,7 +10,7 @@ category: Featured Attributes
 
 _**Note**: module is included in Argento since 1.3.0_
 
-{% include installation/m2/manual.html site="swissuplabs.com" modules="Swissup_Core Swissup_FeaturedAttributes" %}
+{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/featured-attributes" modules="Swissup_Core Swissup_FeaturedAttributes" %}
 
 #### 4. Add Featured Attributes To Template
 
