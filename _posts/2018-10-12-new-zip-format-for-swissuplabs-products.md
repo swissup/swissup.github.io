@@ -97,10 +97,10 @@ Download the modules, you'd like to update and put them to the
 Run the command below from the `<magento_root>` folder:
 
 ```bash
-curl -s https://raw.githubusercontent.com/swissup/scripts/master/code2vendor | bash
+curl -s https://raw.githubusercontent.com/swissup/scripts/master/install | bash
 ```
 
-That's all. Selected modules are migrated to the composer-based installer.
+That's all. Downloaded modules are reinstalled with composer tool.
 
 #### Manual migration
 
