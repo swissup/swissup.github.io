@@ -1,12 +1,8 @@
 ---
-layout: Pagespeed
+layout: default
 title: Pagespeed Trobleshooting
-description: >
-    magento page speed module
-keywords: >
-    magento speed extension, increase magento speed, improve magento speed,
-  optimize magento speed, magento speed optimization, magento page speed module,
-  pagespeed
+description: Magento 2 page speed module
+keywords: magento page speed extension, pagespeed
 category: Pagespeed
 ---
 
