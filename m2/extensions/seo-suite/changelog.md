@@ -8,6 +8,20 @@ category: SEO Suite
 
 # Changelog
 
+### Version 1.1.2
+
+> Oct 23rd, 2018
+
+One new feature in RichSnippets and one compatibility fix with Magento 2.1.x in SeoUrls.
+
+*Rich Snippets*:
+
+ -  Now you can add brand info to product structured data.
+
+*SEO URLs*:
+
+ -  Fix 'Invalid return type' on Magento 2.1.x when redirect to homepage enabled.
+
 ### Version 1.1.1
 
 > Oct 9th, 2018
