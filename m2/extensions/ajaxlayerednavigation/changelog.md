@@ -7,6 +7,12 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.3.0
+
+**Features**
+ - Rename composer package to swissup/module-ajaxlayerednavigation
+ - Improve unit tests
+
 ### Version 1.2.5
 **Features**
  - Added magento 2.2.6 compatibility (close [#37](https://github.com/swissup/ajaxlayerednavigation/issues/37))
