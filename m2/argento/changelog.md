@@ -7,6 +7,44 @@ category: Argento
 
 # Argento Changelog
 
+### Draft [Version 1.7.1]
+
+> Nov 1, 2018
+
+> [Upgrade Instructions](/m2/argento/upgrade-instructions/#version-170---171)
+
+ -  Small CSS fixes in Argento theme
+
+**Extensions Updates**
+
+ -  **AjaxPro** — 1.4.1
+    -  Multiple fixes for cart slide mode
+ -  **EasyCatalogImages** — 1.4.0
+    -  Added ability to use widget with categories of one StoreGroup at another StoreGroup
+    -  Fixed broken image url, if width wasn’t set to a proper number
+ -  **GDPR** — 1.1.0
+    -  Fixed mysql error on client consents page when table prefixes are used
+ -  **Lightboxpro** — 1.2.0
+    -  Improved compatibility with ProLabels
+    -  Added correct alt text for preloading image
+ -  **ProLabels** — 1.2.1
+    -  Update label indexes when product updated
+    -  Improve predefined variables search in label text
+    -  Get product final and regular price properly
+ -  **Richsnippets** — 1.2.1
+    -  Remove tags in product description
+    -  Added product brand to structured data
+ -  **Regional and Language URLs** — 1.3.2
+    -  Select swatches on listing when filter applied
+    -  Fixed broken redirect to homepage when customer reaches respective CMS page via its URL
+    -  Fixed 'Invalid return type' error on Magento 2.1.x
+ -  **SEO Templates** — 1.1.1
+    -  Improved metadata generation stability
+    -  Fixed 404 for actions in admin grid
+ -  **Soldtogether** — 1.3.1
+    -  Improved code stability, prevent 'ID already exists' error
+    -  Moved slick init params from template to block
+
 ### Version 1.7.0
 
 > Sep 28, 2018

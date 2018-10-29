@@ -7,6 +7,13 @@ category: Argento
 
 # Upgrade Instructions
 
+### Version 1.7.0 - 1.7.1
+
+ 1. Backup all changes you've made
+ 2. Put the store to the maintenance mode
+ 3. [Unpack new Argento version][unpack_package] over the old one
+ 4. That's all. You are now using Argento 1.7.1
+
 ### Version 1.6.0 - 1.7.0
 
  1. Backup all changes you've made
