@@ -17,3 +17,5 @@ Magento Standard and [Firecheckout](/m2/extensions/firecheckout/) modules.
  -  [Installation](installation/)
  -  [Changelog](changelog/)
  -  [Configuration](configuration/)
+ -  [Use Cases](use-cases/)
+    - [Add info to the Order Email](use-cases/#add-info-to-the-order-email)
