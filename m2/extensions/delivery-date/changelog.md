@@ -7,6 +7,15 @@ category: Delivery Date
 
 # Changelog
 
+### Version 1.3.1
+
+ -  [Delivery time](/m2/extensions/delivery-date/configuration/#time-field-settings)
+    feature added
+ -  Improved config interfaces
+ -  Removed `serialize/unserialize` methods usage during configuration save
+ -  Fixed rare bug, when date wasn't saved to the DB
+ -  Minor bugfixes
+
 ### Version 1.1.3
 
  -  Properly hide delivery date section if it's invisible
