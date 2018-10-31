@@ -7,7 +7,7 @@ category: Argento
 
 # Argento Changelog
 
-### Draft [Version 1.7.1]
+### Version 1.7.1
 
 > Nov 1, 2018
 
