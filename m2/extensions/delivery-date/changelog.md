@@ -9,6 +9,8 @@ category: Delivery Date
 
 ### Version 1.3.1
 
+> Nov 01, 2018
+
  -  [Delivery time](/m2/extensions/delivery-date/configuration/#time-field-settings)
     feature added
  -  Improved config interfaces

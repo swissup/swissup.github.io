@@ -8,6 +8,14 @@ category: Checkout Success
 
 # Changelog
 
+### Version 1.3.1
+
+> Nov 01, 2018
+
+ -  Fixed non working page preview functionality in backend, when backend and
+    frontend has different timezone settings.
+ -  Small JS improvements
+
 ### Version 1.2.0
 
  -  Stability improvements in PHP code
