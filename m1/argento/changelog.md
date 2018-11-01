@@ -7,10 +7,11 @@ category: Argento
 
 # Argento Changelog
 
-### Draft [Version 1.11.1]
+### Version 1.12.0
 
 > 30th Oct, 2018
 
+ -  [PageSpeed](/m1/extensions/pagespeed/) extension included into Argento package.
  -  Overall themes and extension stability improvements (AjaxPro, EasyTabs, Highlight).
  
  -  AskIt:
@@ -23,8 +24,8 @@ category: Argento
      +  Fix broken gallery widget.
 
  -  SEO Suite:
-     +  Richnippets - fix validation error "id is null" at product page.
-     +  TML Sitemap - show only enabled CMS pages in sitemap.
+     +  Rich Snippets - fix validation error "id is null" at product page.
+     +  HTML Sitemap - show only enabled CMS pages in sitemap.
 
  -  Testimonials:
      +  Fixed rating stars validation.
