@@ -12,6 +12,8 @@ category: Delivery Date
  -  [Delivery time](/m2/extensions/delivery-date/configuration/#time-field-settings)
     feature added
  -  Improved config interfaces
+ -  Added ability to add DeliveryDate information to the
+    [order email](/m2/extensions/delivery-date/use-cases/#add-info-to-the-order-email)
  -  Removed `serialize/unserialize` methods usage during configuration save
  -  Fixed rare bug, when date wasn't saved to the DB
  -  Minor bugfixes
