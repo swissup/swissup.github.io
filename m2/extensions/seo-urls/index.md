@@ -20,6 +20,7 @@ Extension builds SEO friendly links for filters in layered navigation at categor
 
  -  Build URLs for Layered Navigation that are easy to read and understand.
  -  Reduce duplicated content using strict rule for building URLs - *filter set has one and only one link to it*.
+ -  Change/rename labels for attributes and its options used in URLs for Layered Navigation.
  -  Rename `catalogsearch/result` page to short and understandable `search` (or any other name you want).
  -  Ready out of the box - install and use.
 
@@ -27,4 +28,5 @@ Extension builds SEO friendly links for filters in layered navigation at categor
 
  -  [Installation](installation/)
  -  [Configuration](configuration/)
+ -  [Change labels in URL](change-labels/)
  -  [FAQ](faq/)
