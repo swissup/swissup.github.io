@@ -31,6 +31,7 @@ There are three banner types available:
  -  [Layouts for HTML banners](layouts-for-html-banners/)
  -  [CSS Class Helpers](css-class-helpers/)
  -  [Use Cases](use-cases/)
+    - [Product page banner](use-cases/product-page-banner/)
     - [Newsletter Popup](use-cases/newsletter-popup/)
     - [Hide 'Don\'t show anymore' link](use-cases/hide-dont-show-anymore-link/)
     - [Create borderless lightbox](use-cases/borderless-lightbox/)
