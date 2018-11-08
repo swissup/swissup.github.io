@@ -7,6 +7,12 @@ category: Delivery Date
 
 # Changelog
 
+### Version 1.3.2
+
+> Nov 08, 2018
+
+ -  Magento 2.1 compatibility
+
 ### Version 1.3.1
 
 > Nov 01, 2018

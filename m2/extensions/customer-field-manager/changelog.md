@@ -8,6 +8,12 @@ category: Customer Field Manager
 
 # Changelog
 
+### Version 1.1.1
+
+> Nov 08, 2018
+
+ -  Fixed ability to save attribute with custom attribute_code
+
 ### Version 1.0.2
 
  -  Fixed validation when saving existing attribute in backend panel

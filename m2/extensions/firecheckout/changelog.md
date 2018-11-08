@@ -8,6 +8,18 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.15.1
+
+> Nov 08, 2018
+
+ -  Magento 2.1 compatibility in [DeliveryDate](/m2/extensions/delivery-date/) module
+ -  Fixed ability to save address/customer attribute with custom attribute_code
+    ([AddressFieldManager](/m2/extensions/address-field-manager/) and
+    [CustomerFieldManager](/m2/extensions/customer-field-manager/))
+ -  Fixed blocked payment popup when using Braintree module with enabled
+    "Paypal through braintree" option
+ -  Small code optimizations
+
 ### Version 1.15.0
 
 > Nov 01, 2018
