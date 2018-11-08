@@ -451,6 +451,13 @@ richsnippets:
     m1: /m1/extensions/richsnippets/
     m2: /m2/extensions/richsnippets/
 
+seo-cross-links:
+  title: SEO CrossLinks
+  short_description:
+  urls:
+    m1:
+    m2: /m2/extensions/seo-cross-links/
+
 seo-html-sitemap:
   title: SEO HTML Sitemap
   short_description:
