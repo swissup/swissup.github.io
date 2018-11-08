@@ -36,6 +36,8 @@ variables:
 | `{% raw %}{{paymentTitle}}{% endraw %}`   | Name of payment method for an order |
 | `{% raw %}{{shippingCode}}{% endraw %}`   | Code of shipping method for an order |
 | `{% raw %}{{shippingTitle}}{% endraw %}`  | Name of shipping method for an order |
+| `{% raw %}{{orderShippingAddress}}{% endraw %}` | JSON encoded shipping address for an order. _Since 2.0.9_  |
+| `{% raw %}{{orderBillingAddress}}{% endraw %}`  | JSON encoded billing address for an order. _Since 2.0.9_ |
 
 ### Mockup
 

@@ -8,6 +8,14 @@ category: Checkout Success
 
 # Changelog
 
+### Version 2.0.9
+
+> Nov 08, 2018
+
+ -  New [directives](/m1/extensions/checkout-success/backend/#general) added:
+    - orderBillingAddress
+    - orderShippingAddress
+
 ### Version 2.0.8
 
  -  Fixed invalid timezone when showing delivery date information

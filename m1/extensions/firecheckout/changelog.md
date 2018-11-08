@@ -7,6 +7,29 @@ category: Firecheckout
 
 # Changelog
 
+### Version 4.3.5
+
+> Nov 08, 2018
+
+ -  CheckoutSuccess module updated to [2.0.9](/m1/extensions/checkout-success/changelog/#version-209)
+ -  Fixed missing login popup, when customer clicks "Login" link
+ -  Fixed alert message in Firefox when client is leaving checkout page
+ -  Show/hide asterisk for zip/region fields when their status is dynamically updated
+ -  Tax/Vat offline validation now supports validation for Brazil CPF/CNPJ numbers
+ -  Fixed empty rows in "Default Payment Method" config option
+
+**Third-party modules**
+
+ -  Solupay_Networkmerchant integration added. See docs for more [instructions](/m1/extensions/firecheckout/supported-modules/solupay-networkmerchant/)
+ -  Magestore_Affiliateplus integration added
+ -  Zipmoney_ZipmoneyPayment integration added
+ -  Improved integration with Iways_PaypalPlus
+ -  TIG_PostNl integration updated
+ -  Updated integration with Payfort_Pay method
+ -  Improved code stability in Webtex_Giftcards integration
+ -  Updated integration with ShipperHQ_Pickup module
+ -  Amasty_OrderAttr integration updated. See docs for more [instructions](/m1/extensions/firecheckout/supported-modules/amasty-orderattr/)
+
 ### Version 4.3.4
 
  -  Magento 1.9.3.9 compatibility. Fixed redirect to homepage, when customer is
@@ -20,7 +43,7 @@ category: Firecheckout
     paypal express or any other payment method that redirects to another site
  -  Fixed popup positioning when body has relative position and margin
 
-**Thisrd-party modules**
+**Third-party modules**
 
  -  Fixing missing GiftCard block after coupon update
  -  [Payfort_Pay integration](/m1/extensions/firecheckout/supported-modules/payfort-pay/) added.
