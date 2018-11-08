@@ -8,6 +8,15 @@ category: reCAPTCHA
 
 # Changelog
 
+### Version 1.1.1
+
+ -  Use curl to request recaptcha validation. It makes request slightly quicker.
+ -  Improve module stability.
+
+### Version 1.1.0
+
+Internal module naming convention was updated. We applied this changes to reach full compatibility with Magento Marketplace policy.
+
 ### Version 1.0.1
 
  -  Add reCAPTCHA in authentication popup.
