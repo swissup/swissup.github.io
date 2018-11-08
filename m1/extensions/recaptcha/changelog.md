@@ -8,6 +8,13 @@ category: reCAPTCHA
 
 # Changelog
 
+### Version 1.1.1
+
+> Nov 8th, 2018
+
+ -  Fix invisible recaptcha does not submit forms.
+ -  Use curl to request recaptcha validation. It makes request slightly quicker.
+
 ### Version 1.1.0
 
  -  New Invisible reCAPTCHA support
