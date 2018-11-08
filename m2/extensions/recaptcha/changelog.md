@@ -10,6 +10,8 @@ category: reCAPTCHA
 
 ### Version 1.1.1
 
+> Nov 8th, 2018
+
  -  Use curl to request recaptcha validation. It makes request slightly quicker.
  -  Improve module stability.
 
