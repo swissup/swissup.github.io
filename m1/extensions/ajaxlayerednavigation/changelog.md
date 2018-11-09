@@ -7,6 +7,19 @@ keywords: magento layered navigation updates
 
 # Changelog
 
+### Version 2.6.4
+
+-   Fix column not exitst bug
+-   Fix typo sSelect
+-   Fix empty $where price filter (ranges mode)
+-   Fix pager p=1 on mobile
+-   Fix undefined params string
+-   Fixed pager logic in return on page 1
+-   Fixed error on catalog search page
+-   Add toogle swatches option (close #9)
+-   Fix 404 error when saving option (close #8)
+-   Fix seo redirect
+
 ### Version 2.6.3
 
  -  Fix MEQP.1
@@ -31,5 +44,3 @@ keywords: magento layered navigation updates
  -  Fixed invalid redirect from searchresults page, when using AMP module
  -  Fix , js error
  -  Improve varien image uploading
-
-
