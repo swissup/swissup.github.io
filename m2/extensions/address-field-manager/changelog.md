@@ -8,6 +8,12 @@ category: Address Field Manager
 
 # Changelog
 
+### Version 1.4.1
+
+> Nov 08, 2018
+
+ -  Fixed ability to save attribute with custom attribute_code
+
 ### Version 1.3.2
 
  -  Fixed display of custom dropdown attribute value in saved address

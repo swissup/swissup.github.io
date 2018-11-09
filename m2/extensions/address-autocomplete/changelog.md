@@ -7,6 +7,13 @@ category: Address Autocomplete
 
 # Changelog
 
+### Version 1.1.1
+
+> Nov 01, 2018
+
+ -  Fixed non working autocomplete when form doesn't have ID attribute
+    (Some rare third-party modules)
+
 ### Version 1.0.8
 
  -  Translation file added

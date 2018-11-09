@@ -1,20 +1,20 @@
-- href: /images/m2/delivery-date/frontend/checkout.png
-  src: /images/m2/delivery-date/frontend/small/checkout.png
-  title: Delivery date on standard checkout page
-  w: 1022
-  h: 498
 - href: /images/m2/delivery-date/frontend/firecheckout.png
   src: /images/m2/delivery-date/frontend/small/firecheckout.png
-  title: Delivery date at firecheckout page
-  w: 1127
-  h: 709
-- href: /images/m2/delivery-date/backend/view.png
-  src: /images/m2/delivery-date/backend/small/view.png
-  title: Delivery date at backend order view page
-  w: 768
-  h: 543
+  title: Delivery Date and Time fields
+  w: 983
+  h: 833
 - href: /images/m2/delivery-date/backend/edit.png
   src: /images/m2/delivery-date/backend/small/edit.png
   title: Delivery date at backend order edit page
-  w: 735
-  h: 593
+  w: 730
+  h: 341
+- href: /images/m2/delivery-date/configuration/all.png
+  src: /images/m2/delivery-date/configuration/small/all.png
+  title: Delivery date configuration
+  w: 834
+  h: 910
+- href: /images/m2/delivery-date/backend/view.png
+  src: /images/m2/delivery-date/backend/small/view.png
+  title: Delivery date at backend order view page
+  w: 755
+  h: 547

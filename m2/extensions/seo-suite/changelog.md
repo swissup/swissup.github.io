@@ -8,6 +8,18 @@ category: SEO Suite
 
 # Changelog
 
+### Version 1.2.0
+
+> Nov 8th, 2018
+
+Layered Navigation URLs have a new awesome feature now. And slight fix/improvement for HTML Sitemap.
+
+*SEO URLs*:
+ +  New feature to change in-URL labels and values in filters.
+
+*HTML Sitemap*:
+ +  Add option in config that allows to have all CMS pages in sitemap.
+
 ### Version 1.1.2
 
 > Oct 23rd, 2018

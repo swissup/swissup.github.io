@@ -1,8 +1,6 @@
 ---
 layout: default
 title: Delivery Date installation instructions
-description: How to install delivery date for Magento 2
-keywords: magento2 delivery-date installation
 category: Delivery Date
 ---
 

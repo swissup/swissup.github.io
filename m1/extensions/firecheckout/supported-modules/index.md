@@ -187,6 +187,7 @@ additional modifications.
 - [Itoris_CustomerRewards](itoris-customerrewards/)
 - Magebuzz_Rewardpoint
 - Magegiant_GiantPoints
+- [Magestore_Affiliateplus](magestore-affiliateplus/)
 - [MageStore_Customerreward](magestore-customerreward/)
 - [Mirasvit_Rewards](mirasvit-rewards/)
 - [MW_RewardPoints](mw-rewardpoints/)

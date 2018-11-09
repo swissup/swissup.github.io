@@ -7,6 +7,25 @@ category: Delivery Date
 
 # Changelog
 
+### Version 1.3.2
+
+> Nov 08, 2018
+
+ -  Magento 2.1 compatibility
+
+### Version 1.3.1
+
+> Nov 01, 2018
+
+ -  [Delivery time](/m2/extensions/delivery-date/configuration/#time-field-settings)
+    feature added
+ -  Improved config interfaces
+ -  Added ability to add DeliveryDate information to the
+    [order email](/m2/extensions/delivery-date/use-cases/#add-info-to-the-order-email)
+ -  Removed `serialize/unserialize` methods usage during configuration save
+ -  Fixed rare bug, when date wasn't saved to the DB
+ -  Minor bugfixes
+
 ### Version 1.1.3
 
  -  Properly hide delivery date section if it's invisible

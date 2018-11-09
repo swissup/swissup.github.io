@@ -7,6 +7,29 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.12.0
+
+> 30th Oct, 2018
+
+ -  [PageSpeed](/m1/extensions/pagespeed/) extension included into Argento package.
+ -  Overall themes and extension stability improvements (AjaxPro, EasyTabs, Highlight).
+ 
+ -  AskIt:
+     +  Fix empty customer new in email.
+
+ -  EasyTabs:
+     +  Fix missing conditions on 2nd level in product tabs.
+
+ -  LightboxPro:
+     +  Fix broken gallery widget.
+
+ -  SEO Suite:
+     +  Rich Snippets - fix validation error "id is null" at product page.
+     +  HTML Sitemap - show only enabled CMS pages in sitemap.
+
+ -  Testimonials:
+     +  Fixed rating stars validation.
+
 ### Version 1.11.0
 
  -  We added fantastic option to stick product image and/or product details at product page for every theme . Read more at [Product Page configuration](../luxury/product-page/). 

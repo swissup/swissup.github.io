@@ -14,29 +14,33 @@ category: Argento
 
 #### 3. Setup configuration and theme content
 
- 1. Get your [Identity Key](https://argentotheme.com/license/customer/activation/)
- 2. Run theme installer in terminal. (You can also do that via backend interface
-    at _Swissup > Module Manager_ page.)
+Run theme installer in terminal. (You can also do that via backend interface
+at _Swissup > Module Manager_ page.)
 
-    ```bash
-    # 1. Get the STORE_ID you need, from the store list (Use 0 to install theme for All Stores)
-    php bin/magento store:list
-    # 2. Get the THEME_CODE you need, from the themes list
-    php bin/magento swissup:module:list --type=theme
-    # 3. Run installer with STORE_ID and THEME_CODE parameters
-    php bin/magento swissup:module:install --store=STORE_ID THEME_CODE IDENTITY_KEY
-    ```
+```bash
+php bin/magento swissup:module:install --store=STORE_ID THEME_CODE IDENTITY_KEY
+```
 
-    Theme                    | Code
-    -------------------------|------------------------------------
-    [Essence](#&gid=1&pid=1) | Swissup_ThemeFrontendArgentoEssence
-    [Flat](#&gid=1&pid=2)    | Swissup_ThemeFrontendArgentoFlat
-    [Pure2](#&gid=1&pid=3)   | Swissup_ThemeFrontendArgentoPure2
-    [Mall](#&gid=1&pid=4)    | Swissup_ThemeFrontendArgentoMall
-    [Luxury](#&gid=1&pid=5)  | Swissup_ThemeFrontendArgentoLuxury
-    [Stripes](#&gid=1&pid=6) | Swissup_ThemeFrontendArgentoStripes
+**Command line options**
 
-#### 3. Deploy sample data images
+Option      | Description
+------------|------------
+STORE_ID    | ID of the store to install theme to. Use `0` to install theme for All Stores. Or find it using `php bin/magento store:list` command.
+THEME_CODE  | Code of the theme to install. Get it from the list below, or find it using `php bin/magento swissup:module:list --type=theme` command.
+IDENTITY_KEY| Your license key. Get it at [our site](https://argentotheme.com/license/customer/activation/).
+
+**Theme codes**
+
+Theme                    | Code
+-------------------------|------------------------------------
+[Essence](#&gid=1&pid=1) | Swissup_ThemeFrontendArgentoEssence
+[Flat](#&gid=1&pid=2)    | Swissup_ThemeFrontendArgentoFlat
+[Pure2](#&gid=1&pid=3)   | Swissup_ThemeFrontendArgentoPure2
+[Mall](#&gid=1&pid=4)    | Swissup_ThemeFrontendArgentoMall
+[Luxury](#&gid=1&pid=5)  | Swissup_ThemeFrontendArgentoLuxury
+[Stripes](#&gid=1&pid=6) | Swissup_ThemeFrontendArgentoStripes
+
+#### 4. Deploy sample data images
 
 Sample images are located in `ARGENTO_THEME/resources/media` folder. Copy
 all contents of this folder into `MAGENTO_ROOT/pub/media` directory.
@@ -62,11 +66,14 @@ chmod -R 775 pub/media/easybanner pub/media/easyslide pub/media/highlight pub/me
 > to make AMP work with your magento version.
 
 ```bash
-# 1. Get the STORE_ID you need, from the store list (Use 0 to install theme for All Stores)
-php bin/magento store:list
-# 3. Run installer with STORE_ID parameter
 php bin/magento swissup:module:install --store=STORE_ID Swissup_Amp
 ```
+
+**Command line options**
+
+Option      | Description
+------------|------------
+STORE_ID    | ID of the store to install AMP to. Use `0` to install AMP for All Stores. Or find it using `php bin/magento store:list` command.
 
 #### That's all. Navigate to you store to check your new theme:
 {:.no_toc}

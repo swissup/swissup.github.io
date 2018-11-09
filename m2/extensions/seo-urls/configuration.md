@@ -27,7 +27,9 @@ At this section you can make few tweaks to url build for filters in layered navi
 
 By default extension build filter url like this - `http://example.com/gear/bags/color-black/material-polyester.html`. Where `gear/bags` is category and `color-black/material-polyester` are applied filters.
 
-Some store owners like to separate filters from category in url. You can do so with option 'Use separator for filters' and 'Separator string'.
+Some store owners like to separate filters from category in url. You can do so with option `Use separator for filters` and `Separator string`.
+
+Other option `Category filter in-URL label` allows you to change label for catgory filter. Module uses this label to build URLs in layeren navigation.
 
 ### Search
 

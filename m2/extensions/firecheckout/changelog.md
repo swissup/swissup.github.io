@@ -8,6 +8,47 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.15.1
+
+> Nov 08, 2018
+
+ -  Magento 2.1 compatibility in [DeliveryDate](/m2/extensions/delivery-date/) module
+ -  Fixed ability to save address/customer attribute with custom attribute_code
+    ([AddressFieldManager](/m2/extensions/address-field-manager/) and
+    [CustomerFieldManager](/m2/extensions/customer-field-manager/))
+ -  Fixed blocked payment popup when using Braintree module with enabled
+    "Paypal through braintree" option
+ -  Small code optimizations
+
+### Version 1.15.0
+
+> Nov 01, 2018
+
+ -  DeliveryTime feature added to the [DeliveryDate](/m2/extensions/delivery-date/)
+    module
+ -  Minor CSS fixes
+ -  Third-party modules compatibility
+    - Firecheckout now triggers standard shipping validation when placing order.
+      This makes it even fore friendly to third-party modules.
+    - Fixed compatibility with PostNL module
+    - Fixed compatibility with Sagepay payment method
+
+**Modules Updates**
+
+ -  [AddressAutocomplete 1.1.1](/m2/extensions/address-autocomplete/changelog/#version-111)
+    - Fixed non working autocomplete when form doesn't have ID attribute
+      (Some rare third-party modules)
+ -  [CheckoutSuccess 1.3.1](/m2/extensions/checkout-success/changelog/#version-131)
+    - Fixed non working page preview functionality in backend, when backend and
+      frontend has different timezone settings.
+ -  [DeliveryDate 1.3.1](/m2/extensions/delivery-date/changelog/#version-131)
+    - Delivery Time feature added
+    - Added ability to add DeliveryDate information to the order emails
+    - Improved config interfaces
+ -  [TaxVat 1.1.1](/m2/extensions/taxvat/changelog/#version-111)
+    - Removed ability to enter vat number without country code because of
+      conflict with Magento's automatic customer group assignment feature
+
 ### Version 1.14.0
 
 > Sep 28, 2018

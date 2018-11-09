@@ -7,6 +7,17 @@ category: Cache
 
 # Full Page Cache Changelog
 
+### Version 1.5.0
+
+ -  PHP 7.2 compatibility
+ -  Added compatibility with MGS_Panel module (Claue themes)
+ -  Improved cache records delete logic. Less memory consumption.
+ -  Decreased memory consumption in backend grids
+ -  Fixed possible placeholder output instead of actual html content (
+    This happens when some block has it's own cache renders another 'dynamic'
+    block inside)
+ -  Fixed possible 'key is already registered' error
+
 ### Version 1.4.10
 
  -  Fixed page caching when `utm_` and other tracking parameters are found in

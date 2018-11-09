@@ -8,6 +8,10 @@ category: Easy Color Swatches
 
 # Changelog
 
+### Version 2.1.6
+
+ -  Fixed empty swatch images on product page
+
 ### Version 2.1.5
 
  -  improved [Lightbox Pro](/m1/extensions/lightboxpro/) compatiblity

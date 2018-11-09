@@ -1,36 +1,49 @@
 ---
 layout: default
-title: Delivery Date and Time
+title: Delivery Date and Time Configuration
 description: Delivery Date and Time configuration
 category: Delivery Date
 ---
 
 # Configuration
 
-Configuration is available at 
+Configuration is available at
 _Stores > Configuration > Swissup Checkout > Delivery Date_ page.
-
-### Contents
-{:.no_toc}
 
 * TOC
 {:toc}
 
-#### General
+### General
 
-![Main configuration](/images/m2/delivery-date/configuration/main.png)
+![General configuration](/images/m2/delivery-date/configuration/general.png)
 
-Option                                      | Description
-:-------------------------------------------|:-----------------------------------
-Delivery date field label                   | Label used on frontend
-Show for all shipping methods               | Show delivery date input globally or for certain methods only
-Shipping Methods                            | Visible, when _Show for all shipping methods_ is set to "No"
-Make Delivery Date a required field         | Make Delivery Date a required field
-Use Calendar                                | Disable to use calendar icon
-Use first avilable date as default value    | Populate delivery date field with default value
-Date format                                 | Ability to set manual format for the date. Locale format is used by default.
+Option                          | Description
+:-------------------------------|:-------------------------
+Enabled                         | Enable/Disable the module
+Show for all shipping methods   | Show delivery date input for all or for selected methods only
+Shipping Methods                | Visible, when _Show for all shipping methods_ is set to "No"
 
-#### First available delivery date rules
+#### Date Field Settings
+
+![Date Field Settings](/images/m2/delivery-date/configuration/date-field.png)
+
+Option      | Description
+:-----------|:-----------
+Field Label | Label to show near the Date field
+Show Field  | Select one of the field statuses: "Disabled", "Optional", "Required"
+Date format | Allows to set date format manually (`m/d/Y` for example)
+
+#### Time Field Settings
+
+![Time Field Settings](/images/m2/delivery-date/configuration/time-field.png)
+
+Option      | Description
+:-----------|:-----------
+Field Label | Label to show near the Time field
+Show Field  | Select one of the field statuses: "Disabled", "Optional", "Required"
+Time Options| Set available timeranges
+
+### First available delivery date rules
 
 ![First available delivery date configuration](/images/m2/delivery-date/configuration/first-date.png)
 
@@ -39,7 +52,7 @@ Option                                      | Description
 Delivery processing day ends at             | Orders placed afterwards will be considered as next day orders
 Delivery will be available since first available day (order date) plus this value | Delivery date offset in days
 
-#### Last available delivery date rules
+### Last available delivery date rules
 
 ![Last available delivery date configuration](/images/m2/delivery-date/configuration/last-date.png)
 
@@ -48,15 +61,16 @@ Option                                      | Description
 Period in days, while delivery will be available, since first available day | Last available delivery date offset
 
 
-#### Exclude delivery date rules
+### Exclude delivery date rules
 
 ![Excluded dates](/images/m2/delivery-date/configuration/excluded-dates.png)
 
 Option                                      | Description
 :-------------------------------------------|:-----------------------------------
 Exclude days of week from delivery          | Exclude cetrain days of week
-Holidays                                    | List of holiday dates
+Holidays                                    | List of holiday dates. Offset - is how many days this holiday takes (1 by default).
 
-#### Next up
+### Next up
+{:.no_toc}
 
  -  [Back to Main Page](/m2/extensions/delivery-date/)

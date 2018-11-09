@@ -19,6 +19,7 @@ This toolkit includes extensions:
  -  [SEO Pagination](../seo-pager)
  -  [SEO-friendly URLs](../seo-urls)
  -  [XML Sitemap](../seo-xml-sitemap)
+ -  [SEO CrossLinks](../seo-cross-links)
 
 Follow links above to read more about extensions.
 

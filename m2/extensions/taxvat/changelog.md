@@ -8,6 +8,13 @@ category: Checkout VAT
 
 # Changelog
 
+### Version 1.1.1
+
+> Nov 01, 2018
+
+ -  Removed ability to enter vat number without country code because of
+    conflict with Magento's automatic customer group assignment feature
+
 ### Version 1.0.5
 
  -  Fixed missing tooltip in Billing Address form when it's
