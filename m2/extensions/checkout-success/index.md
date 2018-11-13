@@ -37,6 +37,8 @@ Check video below to see how drag-and-drop interface and preview feature works.
  2. [Changelog](changelog/)
  3. [Settings](settings)
  4. [Miscellaneous scripts snippets](miscellaneous-scripts-snippets/)
+ 4. [Use cases](use-cases/)
+     *  [Show CMS block when payment method used](use-cases/#show-cms-block-when-payment-method-used)
  5. [Third-party modules compatibility](third-party-compatibility/)
 
 ### Known issues
