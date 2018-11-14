@@ -31,6 +31,9 @@ Next you have to fill rest of the fields:
 When you are done filling all the fields you can save new transport. Click
 button `✔ Save`. And you will be redirected to grid with transports.
 
+Use an App Password: Generate new [App Password](https://security.google.com/settings/security/apppasswords).
+https://security.google.com/settings/security/apppasswords
+
 > This step describes most common settings for gmail. Google provides other
 > options. You can use TLS secure protocol instead of SSL, for example. You
 > can read article for more information - [G Suite SMTP settings to send mail from an app](https://support.google.com/a/answer/176600).
