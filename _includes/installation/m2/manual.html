@@ -44,12 +44,6 @@ curl -s https://raw.githubusercontent.com/swissup/scripts/master/install | bash 
     composer config repositories.swissupartifacts artifact $(pwd)/vendor/swissup/artifacts
     ```
 
-    {% if include.preinstall %}
-    ```
-    {{ include.preinstall }}
-    ```
-    {% endif %}
-
     ```bash
     # 0. Get the sources
     composer require {{ include.package }}
@@ -75,7 +69,13 @@ If you want to use old module version that wasn't released in a new
 archive format, follow the steps below:
 
  1. Unpack downloaded archive into `<magento_root>` folder.
- 2. Run magento commands:
+ 2. Run the following commands in terminal:
+
+    {% if include.preinstall %}
+    ```
+    {{ include.preinstall }}
+    ```
+    {% endif %}
 
     ```bash
     # 1. Enable new modules
