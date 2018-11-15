@@ -1,0 +1,24 @@
+- href: /images/m2/sociallogin/frontend/login.png
+  src: /images/m2/sociallogin/frontend/small/login.png
+  alt: Social Buttons on Login Page
+  title: Social Buttons on Login Page
+  w: 1250
+  h: 670
+- href: /images/m2/sociallogin/frontend/register.png
+  src: /images/m2/sociallogin/frontend/small/register.png
+  alt: Social Buttons on Register Page
+  title: Social Buttons on Register Page
+  w: 640
+  h: 560
+- href: /images/m2/sociallogin/frontend/checkout.png
+  src: /images/m2/sociallogin/frontend/small/checkout.png
+  alt: Social Buttons on Checkout Page
+  title: Social Buttons on Checkout Page
+  w: 1260
+  h: 700
+- href: /images/m2/sociallogin/frontend/twitter.png
+  src: /images/m2/sociallogin/frontend/small/twitter.png
+  alt: Twitter Login Popup
+  title: Twitter Login Popup
+  w: 600
+  h: 749

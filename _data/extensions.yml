@@ -515,6 +515,13 @@ smartsuggest:
     m1: /m1/extensions/smartsuggest/
     m2:
 
+social-login:
+  title: Social Login
+  short_description:
+  urls:
+    m1:
+    m2: /m2/extensions/social-login/
+
 socialsuite:
   title: Social Suite
   short_description:
