@@ -8,7 +8,7 @@ category: Checkout Success
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/checkout-success" modules="Swissup_Core Swissup_Checkout Swissup_SubscriptionChecker Swissup_CheckoutSuccess" %}
+{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/checkout-success" modules="Swissup_Core Swissup_Checkout Swissup_CheckoutSuccess" %}
 
 #### 3. Complete the installation
 

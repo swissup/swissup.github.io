@@ -8,7 +8,7 @@ category: Review Reminder
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/reviewreminder" modules="Swissup_Core Swissup_SubscriptionChecker Swissup_Reviewreminder" %}
+{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/reviewreminder" modules="Swissup_Core Swissup_Reviewreminder" %}
 
 #### 3. Navigate to `Stores > Configuration > Swissup > Review Reminder` and
 enable extension for any store you need.

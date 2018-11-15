@@ -8,7 +8,7 @@ category: Checkout VAT
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/taxvat" modules="Swissup_Core Swissup_Checkout Swissup_SubscriptionChecker Swissup_Taxvat" %}
+{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/taxvat" modules="Swissup_Core Swissup_Checkout Swissup_Taxvat" %}
 
 #### 3. Complete the installation
 

@@ -8,7 +8,7 @@ category: Geoip
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/geoip" modules="Swissup_Core Swissup_Checkout Swissup_SubscriptionChecker Swissup_Geoip" %}
+{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/geoip" modules="Swissup_Core Swissup_Checkout Swissup_Geoip" %}
 
 #### Download latest free maxmind geolite2 database
 

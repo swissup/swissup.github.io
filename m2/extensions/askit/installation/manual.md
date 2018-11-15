@@ -8,7 +8,7 @@ category: AskIt
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/askit" modules="Swissup_Core Swissup_SubscriptionChecker Swissup_Askit" %}
+{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/askit" modules="Swissup_Core Swissup_Askit" %}
 
 
 

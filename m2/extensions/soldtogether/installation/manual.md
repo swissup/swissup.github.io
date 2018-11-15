@@ -8,7 +8,7 @@ category: SoldTogether
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/sold-together" modules="Swissup_Core Swissup_SubscriptionChecker Swissup_SlickCarousel Swissup_SoldTogether" %}
+{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/sold-together" modules="Swissup_Core Swissup_SlickCarousel Swissup_SoldTogether" %}
 
 ###### After installing the extension you can go to:
 

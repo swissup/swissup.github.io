@@ -8,7 +8,7 @@ category: Attributepages
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/attributepages" modules="Swissup_Core Swissup_SubscriptionChecker Swissup_SlickCarousel Swissup_Attributepages" %}
+{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/attributepages" modules="Swissup_Core Swissup_SlickCarousel Swissup_Attributepages" %}
 
 #### 3. Complete the installation
 

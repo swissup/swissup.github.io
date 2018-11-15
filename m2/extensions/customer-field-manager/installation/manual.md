@@ -8,7 +8,7 @@ category: Customer Field Manager
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/customer-field-manager" modules="Swissup_Core Swissup_FieldManager Swissup_SubscriptionChecker Swissup_CustomerFieldManager" %}
+{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/customer-field-manager" modules="Swissup_Core Swissup_FieldManager Swissup_CustomerFieldManager" %}
 
 #### 3. Complete the installation
 

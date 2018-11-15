@@ -8,7 +8,7 @@ category: SEO Suite
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/seo-suite" modules="Swissup_Core Swissup_SubscriptionChecker Swissup_RichSnippets Swissup_SeoCore Swissup_SeoHtmlSitemap Swissup_SeoPager Swissup_SeoUrls Swissup_SeoTemplates Swissup_Hreflang Swissup_SeoXmlSitemap" %}
+{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/seo-suite" modules="Swissup_Core Swissup_RichSnippets Swissup_SeoCore Swissup_SeoHtmlSitemap Swissup_SeoPager Swissup_SeoUrls Swissup_SeoTemplates Swissup_Hreflang Swissup_SeoXmlSitemap" %}
 
 #### 3. Complete the installation
 

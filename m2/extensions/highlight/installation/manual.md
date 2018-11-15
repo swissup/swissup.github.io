@@ -8,7 +8,7 @@ category: Highlight
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/highlight" modules="Swissup_Core Swissup_SubscriptionChecker Swissup_Highlight" %}
+{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/highlight" modules="Swissup_Core Swissup_Highlight" %}
 
 #### 3. Complete the installation
 

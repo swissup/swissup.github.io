@@ -8,7 +8,7 @@ category: Address Autocomplete
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/address-autocomplete" modules="Swissup_Core Swissup_Checkout Swissup_SubscriptionChecker Swissup_AddressAutocomplete" %}
+{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/address-autocomplete" modules="Swissup_Core Swissup_Checkout Swissup_AddressAutocomplete" %}
 
 #### 3. Complete the installation
 

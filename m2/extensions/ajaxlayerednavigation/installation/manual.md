@@ -8,7 +8,7 @@ category: Ajax Layered Navigation
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/ajaxlayerednavigation" modules="Swissup_Core Swissup_SubscriptionChecker Swissup_Ajaxlayerednavigation" %}
+{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/ajaxlayerednavigation" modules="Swissup_Core Swissup_Ajaxlayerednavigation" %}
 
 #### Next up
 
