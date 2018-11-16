@@ -8,7 +8,7 @@ category: SocialLogin
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/social-login" modules="Swissup_Core Swissup_SocialCore Swissup_SocialLogin" %}
+{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/social-login" modules="Swissup_Core Swissup_SocialCore Swissup_SocialLogin" preinstall="composer require hybridauth/hybridauth:^3.0@dev" %}
 
 #### 3. Complete the installation
 
