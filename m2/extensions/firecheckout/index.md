@@ -35,6 +35,7 @@ faster and easier by providing them a simple checkout form.
     - [Argento theme by Templates-Master](third-party-themes/argento/)
     - [Hermes theme by Blue Sky](third-party-themes/hermes/)
  7. Troubleshooting
+    - [Pre-troubleshooting check](troubleshooting/pre-troubleshooting-check/)
     - [Loading icon keeps spinning infinitely on initial page load](troubleshooting/loading-icon-keeps-spinning/)
  8. FAQ
     - [Creating Terms and Conditions](faq/creating-terms-and-conditions/)
