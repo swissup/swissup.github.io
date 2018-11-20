@@ -10,14 +10,27 @@ category: Firecheckout
 
 # Troubleshooting
 
-<!-- MarkdownTOC -->
+ - [Pre-troubleshooting check](#pre-troubleshooting-check)
+ - [Free shipping is missing](#free-shipping-is-missing)
+ - [Tax is not applied, when changing address](#tax-is-not-applied-when-changing-address)
+ - [Double tax calculation](#double-tax-calculation)
+ - [RTL styles are not applied](#rtl-styles-are-not-applied)
 
-- [Free shipping is missing](#free-shipping-is-missing)
-- [Tax is not applied, when changing address](#tax-is-not-applied-when-changing-address)
-- [Double tax calculation](#double-tax-calculation)
-- [RTL styles are not applied](#rtl-styles-are-not-applied)
 
-<!-- /MarkdownTOC -->
+### Pre-troubleshooting check
+
+> **FireCheckout** is using default _Magento_ functionality as basic.
+
+After installation If you have some checkout features not working, please, check
+following:
+
+ * Go to your **FTP** `[store root] > app \ etc \ modules`
+ * Find `TM_Firecheckout.xml` and `TM_CheckoutFields.xml` and disable them by commenting
+ * Clear store cache
+ * Pass to checkout and check if you don't see that problem at **DEFAULT** checkout
+
+###### If an **error** is still there - please, contact your developer to fix it at default checkout then in most cases it will be fixed at **Firecheckout**
+
 
 ### Free shipping is missing
 
