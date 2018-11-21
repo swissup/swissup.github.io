@@ -6,7 +6,12 @@ category: Delivery Date
 
 # Use Cases
 
-### Add info to the Order Email
+{:.no_toc}
+
+* TOC
+{:toc}
+
+### Add to the Order Email
 
 In order to display delivery date and time in order emails, follow next steps:
 
@@ -25,18 +30,10 @@ In order to display delivery date and time in order emails, follow next steps:
     config
  8. Repeat the same steps for `New Order for Registered Customer` template.
 
-### Add info to the Success Page
+### Add to the Success Page
 
- 1. Go to _Content > Elements > Blocks_
- 2. Press **Add New Block** button
- 3. Add the following code to the `Content` field:
+Use module [Checkout Success Page](/m2/extensions/checkout-success/) module to show delivery date at success page.
 
-    ```txt
-    {% raw %}{{block class="Swissup\DeliveryDate\Block\View" template="Swissup_DeliveryDate::order/shipping/view.phtml"}}{% endraw %}
-    ```
-
- 4. Press **Save Block** button
- 5. Go to _Stores > Configuration > Swussup Checkout > Success Page > Cms blocks for additional content_,
-    select this block for `Below order information` option and save config.
- 6. Please note, that Delivery Information will be automatically moved to the
-    Shipping Information block (Right below shipping method).
+ 1. Make sure Checkout Success page is enabled. Go to `Stores` > `Configuration` > `Swissup Checkout` > `Success Page` and check option _'Enabled'_ in 'General' section.
+ 2. Go to section 'Page Layout'. Drag `Delivery Date` block from _'Blocks available on Success Page'_ and drop at _'Layout of Success Page'_ in place where you want to see delivery date.
+ 3. Save config or use `Save and Start Preview` button to check how success page looks after update.
