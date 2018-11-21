@@ -55,5 +55,5 @@ In order to display checkout fields in order emails, follow next steps:
 Use module [Checkout Success Page](/m2/extensions/checkout-success/) module to get custom chekcout fields at success page.
 
  1. Make sure Checkout Success page is enabled. Go to `Stores` > `Configuration` > `Swissup Checkout` > `Success Page` and check option _'Enabled'_ in 'General' section.
- 2. Go to section 'Page Layout'. Drag `Checkout Fields` block from _'Blocks available on Success Page'_and drop at _'Layout of Success Page'_in place where you want to see checkout fields.
+ 2. Go to section 'Page Layout'. Drag `Checkout Fields` block from _'Blocks available on Success Page'_ and drop at _'Layout of Success Page'_ in place where you want to see checkout fields.
  3. Save config or use _'Save and Start Preview'_ button to check how success page looks.
