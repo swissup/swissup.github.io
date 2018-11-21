@@ -26,6 +26,8 @@ links only.
     - [Configuration](#configuration)
     - [Order attachments page](#order-attachments-page)
     - [Order edit page](#order-edit-page)
+ 5. [Use cases](use-cases/)
+     -  [Add to the Success Page](use-cases/#add-to-the-success-page) 
 
 ## Features
 
