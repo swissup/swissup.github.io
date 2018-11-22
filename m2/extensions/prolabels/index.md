@@ -31,6 +31,6 @@ Almost 20 presets provides you an inspiration to create your own eye-catching la
 * [Changelog](changelog/)
 * [Configuration](configuration/)
 * [Admin Interface](interfaces/)
-* [Predefinde Valiables](predefined/)
+* [Predefined Variables](predefined/)
 * [Support](https://swissuplabs.com/contacts/)
 * [Forum](https://swissuplabs.com/magento-forum/)
