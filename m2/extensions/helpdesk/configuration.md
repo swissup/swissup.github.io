@@ -43,6 +43,10 @@ Go `Stores > Configuration > Swissup > Helpdesk`. You can see the following sett
 -   After all settings click on **Save Config**.
 
 
+##### Submit form captcha
+
+To enable captcha on ticket submit form go to `Admin > Stores > Configuration > Customers > Customer Configuration > CAPTCHA`, select `Helpdesk New Ticket Form` and/or `Helpdesk New Comment Form`  in `Forms` field and press `Save config` button.
+
 #### You can also check
 
 *   [Installation](../installation/)
