@@ -9,113 +9,113 @@ category: Helpdesk
 gallery:
   - href: /images/m2/helpdesk/form.png
     src: /images/m2/helpdesk/form.png
-    w: 908
-    h: 688
+    w: 1057
+    h: 952
     alt: New Ticket Form
     title: >
         Add new ticket from frontend
   - href: /images/m2/helpdesk/contact_us-integration.png
     src: /images/m2/helpdesk/contact_us-integration.png
-    w: 908
-    h: 688
+    w: 650
+    h: 679
     alt: New Ticket Form at Contact Us page
     title: >
         Add new ticket from Contact Us page
   - href: /images/m2/helpdesk/customer-my_tickets.png
     src: /images/m2/helpdesk/customer-my_tickets.png
-    w: 908
-    h: 688
+    w: 847
+    h: 919
     alt: Ticket Grid at My Account page
     title: >
         Ticket Grid at My Account page
   - href: /images/m2/helpdesk/customer-ticket_view.png
     src: /images/m2/helpdesk/customer-ticket_view.png
-    w: 908
-    h: 688
+    w: 661
+    h: 917
     alt: Ticket View at My Account page
     title: >
         Ticket View at My Account page
   - href: /images/m2/helpdesk/config-general.png
     src: /images/m2/helpdesk/config-general.png
-    w: 908
-    h: 688
+    w: 985
+    h: 296
     alt: General Config Section
     title: >
         General Config Section
   - href: /images/m2/helpdesk/config-form.png
     src: /images/m2/helpdesk/config-form.png
-    w: 908
-    h: 688
+    w: 948
+    h: 454
     alt: Form Settings Config Section
     title: >
-        From Settings Config Section
+        Form Settings Config Section
   - href: /images/m2/helpdesk/config-mail.png
     src: /images/m2/helpdesk/config-mail.png
-    w: 908
-    h: 688
+    w: 944
+    h: 339
     alt: Mail Settings Config Section
     title: >
         Mail Settings Config Section
   - href: /images/m2/helpdesk/tickets-grid.png
     src: /images/m2/helpdesk/tickets-grid.png
-    w: 908
-    h: 688
+    w: 1730
+    h: 894
     alt: Backend ticket grid
     title: >
         Backend Ticket grid
   - href: /images/m2/helpdesk/ticket-edit.png
     src: /images/m2/helpdesk/ticket-edit.png
-    w: 908
-    h: 688
+    w: 1731
+    h: 974
     alt: Backend ticket Form
     title: >
         Backend Ticket Form
   - href: /images/m2/helpdesk/ticket-view_details.png
     src: /images/m2/helpdesk/ticket-view_details.png
-    w: 908
-    h: 688
+    w: 1717
+    h: 983
     alt: Backend ticket form with details
     title: >
         Backend Ticket Form with details
   - href: /images/m2/helpdesk/status-grid.png
     src: /images/m2/helpdesk/status-grid.png
-    w: 908
-    h: 688
+    w: 1715
+    h: 493
     alt: Backend Status Grid
     title: >
         Backend Status Grid
   - href: /images/m2/helpdesk/status-edit.png
     src: /images/m2/helpdesk/status-edit.png
-    w: 908
-    h: 688
+    w: 1708
+    h: 429
     alt: Backend Status Form
     title: >
         Backend Status Form
   - href: /images/m2/helpdesk/email_storage-grid.png
     src: /images/m2/helpdesk/email_storage-grid.png
-    w: 908
-    h: 688
+    w: 1731
+    h: 439
     alt: Backend Email Storage Grid
     title: >
         Backend Email Storage Grid
   - href: /images/m2/helpdesk/email_storage-edit.png
     src: /images/m2/helpdesk/email_storage-edit.png
-    w: 908
-    h: 688
+    w: 1639
+    h: 771
     alt: Backend Email Storage Form
     title: >
         Backend Email Storage Form
   - href: /images/m2/helpdesk/department-grid.png
     src: /images/m2/helpdesk/department-grid.png
-    w: 908
-    h: 688
+    w: 1729
+    h: 373
     alt: Backend Department Grid
     title: >
         Backend Department Grid
   - href: /images/m2/helpdesk/department-edit.png
     src: /images/m2/helpdesk/department-edit.png
-    w: 908
-    h: 688
+    w: 1743
+    h: 878
     alt: Backend Department Form
     title: >
         Backend Department Form
