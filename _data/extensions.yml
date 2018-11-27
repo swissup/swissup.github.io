@@ -311,12 +311,12 @@ geoip:
     m1:
     m2: /m2/extensions/geoip/
 
-helpmate:
-  title: Helpmate
+helpdesk:
+  title: Helpdesk
   short_description:
   urls:
     m1: /m1/extensions/helpmate/
-    m2:
+    m2: /m2/extensions/helpdesk/
 
 highlight:
   title: Highlight
