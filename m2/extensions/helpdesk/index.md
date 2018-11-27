@@ -155,3 +155,4 @@ Please review the following basic terms before using the extension.
 4.  [Managing email storage](managing-email-storage/)
 5.  [Managing department](managing-department/)
 6.  [Managing ticket](managing-ticket/)
+7.  [Changelog](changelog/)
