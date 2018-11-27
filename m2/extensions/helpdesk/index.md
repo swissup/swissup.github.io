@@ -152,3 +152,6 @@ Please review the following basic terms before using the extension.
 1.  [Installation](installation/)
 2.  [Configuration](configuration/)
 3.  [Cron configuration](cron-configuration/)
+4.  [Managing email storage](managing-email-storage/)
+5.  [Managing department](managing-department/)
+6.  [Managing ticket](managing-ticket/)

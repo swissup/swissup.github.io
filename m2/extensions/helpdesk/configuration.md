@@ -50,5 +50,6 @@ To enable captcha on ticket submit form go to `Admin > Stores > Configuration > 
 #### You can also check
 
 *   [Installation](../installation/)
+*   [Cron configuration](../cron-configuration/)
 *   [Support](https://swissuplabs.com/contacts/)
 *   [Forum](https://swissuplabs.com/magento-forum/)
