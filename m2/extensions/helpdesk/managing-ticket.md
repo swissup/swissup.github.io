@@ -50,6 +50,9 @@ Registered customers can create tickets right from their account pages. Please u
 
 **Note**: the `Department and Priority fields` can be disabled by store administrator only.
 
+
+![My ticket view interface](/images/m2/helpdesk/customer-ticket_view.png)
+
 #### You can also check
 
 *   [Installation](../installation/)
