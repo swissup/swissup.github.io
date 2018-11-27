@@ -20,7 +20,7 @@ In section `API keys` you have to insert Site Key and Secret Key. Google creates
 
 > **Take a notice,** if you generate keys for Invisible reCAPTCHA then you can use them to show reCAPTCHA v2 also. But you can not use keys for reCAPTCHA v2 to show Invisible reCAPTCHA.
 
-In section `General` you can disable or enable reCAPTCHA. As you can see, you may enable recaptcha only for store frontend or only for magento backend.
+In section `General` you can disable or enable reCAPTCHA. As you can see, you may enable recaptcha only for store frontend or only for magento backend. You can enable protection for "Contact Us" form in this section too.
 
 In section `Design` you can select type of reCAPTCHA and choose its color or
 size. Size is available for reCAPTCHA v2 only.

@@ -8,6 +8,12 @@ category: reCAPTCHA
 
 # Changelog
 
+### Version 1.2.0
+
+> Nov 27th, 2018
+
+Finally! Now you can protect your “Contact Us” form with reCAPTCHA.
+
 ### Version 1.1.1
 
 > Nov 8th, 2018
