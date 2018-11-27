@@ -14,6 +14,9 @@ Tickets can be created from orders page, customers information page or directly 
 In order to create ticket from the backend, go `Admin > Swissup > Helpdesk > Tickets` and click on **Add New**.
 
 ![New ticket interface](/images/m2/helpdesk/ticket-edit.png)
+
+Click on **Details**
+
 ![New ticket interface with Details](/images/m2/helpdesk/ticket-view_details.png)
 
 So, first you can try find an answer using a list of quick answers based on predefined templates. You can also write a comment and hide it from other users. Attach a file to the ticket if you need. If you still need a help, please fill out the rest of fileds and **Save**.
@@ -50,6 +53,7 @@ Registered customers can create tickets right from their account pages. Please u
 
 **Note**: the `Department and Priority fields` can be disabled by store administrator only.
 
+If you click on **View** you can see ticket messages and another details
 
 ![My ticket view interface](/images/m2/helpdesk/customer-ticket_view.png)
 
