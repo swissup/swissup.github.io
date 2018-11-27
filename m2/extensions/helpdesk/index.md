@@ -70,8 +70,8 @@ gallery:
     alt: Backend ticket Form
     title: >
         Backend Ticket Form
-  - href: /images/m2/helpdesk/ticket-edit_details.png
-    src: /images/m2/helpdesk/ticket-edit_details.png
+  - href: /images/m2/helpdesk/ticket-view_details.png
+    src: /images/m2/helpdesk/ticket-view_details.png
     w: 908
     h: 688
     alt: Backend ticket form with details
@@ -147,4 +147,8 @@ Please review the following basic terms before using the extension.
 `Notification email` - is an email which provides the notification about ticket updating both for admin and user.
 
 
-- [Installation](installation/)
+### Contents
+
+1.  [Installation](installation/)
+2.  [Configuration](configuration/)
+3.  [Cron configuration](cron-configuration/)
