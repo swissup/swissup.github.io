@@ -37,6 +37,13 @@ category: Email
 
  6. Save
 
+
+### Logging
+
+ 1. Navigate "Stores → Configurations → Advanced → System → Mail Sending Settings"
+ 2. "Logging Enable" set Yes
+ 3. Navigate to "Marketing → Communications → Email Logs"
+
 ##### See also
 
 Great! Now you might want to see previous:
