@@ -8,6 +8,14 @@ category: Email
 
 # Changelog
 
+### Version 0.2.1
+
+**Features**
+ - Add email logging
+
+**Fixes**
+ - Remove objectManager calls_
+
 ### Version 0.1.6
 
 **Features**
