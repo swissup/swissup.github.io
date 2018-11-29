@@ -65,6 +65,7 @@ composer require\
     swissup/module-rich-snippets\
     swissup/module-rtl\
     swissup/module-seo-core\
+    swissup/module-seo-cross-links\
     swissup/module-seo-html-sitemap\
     swissup/module-seo-pager\
     swissup/module-seo-templates\
@@ -148,6 +149,7 @@ bin/magento module:enable\
     Swissup_RichSnippets\
     Swissup_Rtl\
     Swissup_SeoCore\
+    Swissup_SeoCrossLinks\
     Swissup_SeoHtmlSitemap\
     Swissup_SeoPager\
     Swissup_SeoTemplates\
