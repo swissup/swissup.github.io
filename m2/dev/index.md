@@ -37,7 +37,6 @@ composer require\
     swissup/module-easyflags\
     swissup/module-easy-slide\
     swissup/module-easytabs\
-    swissup/module-email\
     swissup/module-fblike\
     swissup/module-featured-attributes\
     swissup/module-field-manager\
@@ -121,7 +120,6 @@ bin/magento module:enable\
     Swissup_Easyflags\
     Swissup_EasySlide\
     Swissup_Easytabs\
-    Swissup_Email\
     Swissup_Fblike\
     Swissup_FeaturedAttributes\
     Swissup_FieldManager\
