@@ -33,7 +33,9 @@ All you need is to call the javascript initialization from firecheckout page.
                 placeholder: 'Enter your street line 2'
             }
         };
-        new FC.FormFieldManager(rules);
+        (function () {
+            new FC.FormFieldManager(rules);
+        }).defer();
     });
     ```
 
