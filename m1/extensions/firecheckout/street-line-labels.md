@@ -26,11 +26,11 @@ All you need is to call the javascript initialization from firecheckout page.
         //  - Boolean false (To hide field label/placeholder)
         var rules = {
             '#billing\\:street1': {
-                placeholder: 'Enter your street line 1'
+                placeholder: Translator.translate('Enter your street line 1')
             },
             '#billing\\:street2': {
                 label: 'Street 2',
-                placeholder: 'Enter your street line 2'
+                placeholder: Translator.translate('Enter your street line 2')
             }
         };
         (function () {
