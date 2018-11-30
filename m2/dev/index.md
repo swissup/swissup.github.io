@@ -51,6 +51,7 @@ composer require\
     swissup/module-highlight\
     swissup/module-hover-gallery\
     swissup/module-hreflang\
+    swissup/module-helpdesk\
     swissup/module-instaframe\
     swissup/module-lightboxpro\
     swissup/module-maintenance\
@@ -134,6 +135,7 @@ bin/magento module:enable\
     Swissup_Highlight\
     Swissup_HoverGallery\
     Swissup_Hreflang\
+    Swissup_Helpdesk\
     Swissup_Instaframe\
     Swissup_Lightboxpro\
     Swissup_Maintenance\
