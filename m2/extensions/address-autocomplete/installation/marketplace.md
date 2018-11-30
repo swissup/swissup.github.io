@@ -4,6 +4,7 @@ title: Address Autocomplete installation from Marketplace
 description: How to install Address Autocomplete on Magento 2 store from Marketplace
 keywords: address autocomplete marketplace installation
 category: Address Autocomplete
+exclude_from_search: true
 ---
 
 # Installation from Marketplace

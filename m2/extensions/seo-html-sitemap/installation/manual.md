@@ -4,6 +4,7 @@ title: SEO HTML Sitemap Installation
 description: How to install SEO HTML Sitemap for Magento 2
 keywords: seo html sitemap installation
 category: SEO HTML Sitemap
+exclude_from_search: true
 ---
 
 # Manual Installation

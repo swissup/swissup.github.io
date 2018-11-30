@@ -4,6 +4,7 @@ title: GDPR Manual Installation
 description: magento 2 gdpr module installation
 keywords: gdpr installation
 category: GDPR
+exclude_from_search: true
 ---
 
 # Manual Installation

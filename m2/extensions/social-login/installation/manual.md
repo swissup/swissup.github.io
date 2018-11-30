@@ -4,6 +4,7 @@ title: Social Login Manual Installation
 description: How to install Social Login for Magento 2
 keywords: social login installation
 category: SocialLogin
+exclude_from_search: true
 ---
 
 # Manual Installation

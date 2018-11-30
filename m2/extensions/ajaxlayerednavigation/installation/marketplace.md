@@ -4,6 +4,7 @@ title: Ajax Layered Navigation Installation
 description: Ajax Layered Navigation module installation
 keywords: ajax layered navigation installation
 category: Ajax Layered Navigation
+exclude_from_search: true
 ---
 
 # Installation from Marketplace

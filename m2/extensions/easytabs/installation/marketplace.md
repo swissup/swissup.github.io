@@ -5,6 +5,7 @@ description: magento 2 product tabs module installation
 keywords: " magento 2 product tabs, magento 2 product tabs extension free, add tabs
 magento 2 product page "
 category: Easy Tabs
+exclude_from_search: true
 ---
 
 # Installation from Marketplace

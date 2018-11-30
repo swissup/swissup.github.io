@@ -4,6 +4,7 @@ title: Checkout Cart Installation
 description: magento 2 checkout cart module installation
 keywords: " magento 2 checkout cart extension "
 category: Checkout Cart
+exclude_from_search: true
 ---
 
 # Installation from Marketplace
@@ -12,7 +13,7 @@ category: Checkout Cart
 
 #### 2. Complete the installation
 
-Navigate to `Stores > Configuration > Swissup Checkout > Checkout Cart`. Enable and configure the extension. 
+Navigate to `Stores > Configuration > Swissup Checkout > Checkout Cart`. Enable and configure the extension.
 
 #### After installing the extension, you can go to:
 

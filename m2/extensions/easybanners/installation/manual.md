@@ -4,6 +4,7 @@ title: Easy Banners Manual Installation
 description: How to manually install EasyBanners on Magento 2
 keywords: easybanner installation
 category: Easy Banners
+exclude_from_search: true
 ---
 
 # Manual Installation

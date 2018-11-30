@@ -4,6 +4,7 @@ title: Testimonials Installation
 description: magento 2 testimonials module installation
 keywords: magento 2 testimonials extension
 category: Testimonials
+exclude_from_search: true
 ---
 
 # Manual Installation

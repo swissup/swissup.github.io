@@ -4,6 +4,7 @@ title: Lightbox Pro Manual Installation
 description: magento 2 lightboxpro module installation
 keywords: lightboxpro installation
 category: Lightbox Pro
+exclude_from_search: true
 ---
 
 # Manual Installation

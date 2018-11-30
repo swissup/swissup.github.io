@@ -4,6 +4,7 @@ title: Easy Catalog Images manual installation
 description: How to manually install easy catalog images on Magento 2
 keywords: easycatalogimages installation
 category: EasyCatalogImages
+exclude_from_search: true
 ---
 
 # Manual Installation

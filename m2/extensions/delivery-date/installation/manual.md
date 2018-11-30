@@ -4,11 +4,12 @@ title: Delivery Date installation instructions (Manual)
 description: How to install delivery date for Magento 2
 keywords: magento2 delivery-date installation
 category: Delivery Date
+exclude_from_search: true
 ---
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/delivery-date" modules="Swissup_Core Swissup_Checkout Swissup_DeliveryDate" %}
+{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/product-delivery-date" modules="Swissup_Core Swissup_Checkout Swissup_DeliveryDate" %}
 
 #### 3. Complete the installation
 

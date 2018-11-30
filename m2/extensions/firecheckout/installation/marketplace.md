@@ -4,6 +4,7 @@ title: Firecheckout Marketplace Installation
 description: magento 2 firecheckout module installation
 keywords: firecheckout installation
 category: Firecheckout
+exclude_from_search: true
 ---
 
 # Installation from Marketplace

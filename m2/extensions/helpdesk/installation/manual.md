@@ -4,6 +4,7 @@ title: Helpdesk installation
 description: Helpdesk installation instructions
 keywords: "Helpdesk installation"
 category: Helpdesk
+exclude_from_search: true
 ---
 
 # Manual Installation

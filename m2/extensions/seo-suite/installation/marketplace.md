@@ -4,6 +4,7 @@ title: SEO URLs Marketplace Installation
 description: How to install SEO URLs for Magento 2
 keywords: seo urls installation
 category: Seo Urls
+exclude_from_search: true
 ---
 
 # Installation from Marketplace

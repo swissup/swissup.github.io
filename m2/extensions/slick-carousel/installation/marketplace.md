@@ -4,6 +4,7 @@ title: Slick Carousel Installation from Marketplace
 description: How to install Slick Carousel for Magento 2
 keywords: slick carousel installation, slider installation
 category: SlickCarousel
+exclude_from_search: true
 ---
 
 # Installation from Marketplace

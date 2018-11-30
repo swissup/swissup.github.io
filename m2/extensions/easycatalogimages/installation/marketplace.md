@@ -4,6 +4,7 @@ title: Easy Catalog Images Installation from Marketplace
 description: How to install Easy Catalog Images on Magento 2 from Marketplace
 keywords: easycatalogimages installation
 category: EasyCatalogImages
+exclude_from_search: true
 ---
 
 # Installation from Marketplace

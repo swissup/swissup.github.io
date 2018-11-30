@@ -4,6 +4,7 @@ title: Address Autocomplete manual installation
 description: How to manually install Address Autocomplete on Magento 2
 keywords: address autocomplete installation
 category: Address Autocomplete
+exclude_from_search: true
 ---
 
 # Manual Installation

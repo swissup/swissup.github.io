@@ -4,6 +4,7 @@ title: Navigationpro Installation
 description: magento 2 navigationpro module installation
 keywords: navigationpro installation
 category: Navigationpro
+exclude_from_search: true
 ---
 
 # Manual Installation

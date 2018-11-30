@@ -4,6 +4,7 @@ title: Pagespeed installation
 description: Pagespeed installation instructions
 keywords: "Pagespeed installation"
 category: Pagespeed
+exclude_from_search: true
 ---
 
 # Manual Installation

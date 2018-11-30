@@ -4,6 +4,7 @@ title: Prolabels Installation
 description: magento prolabels module installation
 keywords: " magento prolabels extension "
 category: Prolabels
+exclude_from_search: true
 ---
 
 # Installation from Marketplace

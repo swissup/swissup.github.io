@@ -4,6 +4,7 @@ title: Easy Banners Installation from Marketplace
 description: How to install EasyBanners on Magento 2 store from Marketplace
 keywords: easybanner installation
 category: Easy Banners
+exclude_from_search: true
 ---
 
 # Installation from Marketplace

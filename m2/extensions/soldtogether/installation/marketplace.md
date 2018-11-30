@@ -4,6 +4,7 @@ title: SoldTogether Installation
 description: magento2 soldtogether module installation
 keywords: " magento soldtogether extension "
 category: SoldTogether
+exclude_from_search: true
 ---
 
 # Installation from Marketplace

@@ -3,11 +3,12 @@ layout: default
 title: SubscribeAtCheckout Installation
 description: How to install SubscribeAtCheckout module for Magento 2
 category: SubscribeAtCheckout
+exclude_from_search: true
 ---
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/subscribe-at-checkout" modules="Swissup_SubscribeAtCheckout" %}
+{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/product-subscribe-at-checkout" modules="Swissup_SubscribeAtCheckout" %}
 
 #### 3. Complete the installation
 

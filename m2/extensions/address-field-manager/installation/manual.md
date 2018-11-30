@@ -2,13 +2,13 @@
 layout: default
 title: Address Field Manager Installation
 description: Address Field Manager module installation
-keywords: address field manager installation
 category: Address Field Manager
+exclude_from_search: true
 ---
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/address-field-manager" modules="Swissup_Core Swissup_FieldManager Swissup_AddressFieldManager" %}
+{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/product-address-field-manager" modules="Swissup_Core Swissup_FieldManager Swissup_AddressFieldManager" %}
 
 #### 3. Complete the installation
 

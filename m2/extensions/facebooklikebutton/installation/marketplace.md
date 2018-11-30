@@ -4,6 +4,7 @@ title: Facebook Like Button installation
 description: Facebook Like Button installation instructions
 keywords: "Facebook Like Button installation"
 category: Facebook Like Button
+exclude_from_search: true
 ---
 
 # Installation from Marketplace

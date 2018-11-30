@@ -4,11 +4,12 @@ title: Customer Field Manager Installation
 description: Customer Field Manager module installation
 keywords: customer field manager installation
 category: Customer Field Manager
+exclude_from_search: true
 ---
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/customer-field-manager" modules="Swissup_Core Swissup_FieldManager Swissup_CustomerFieldManager" %}
+{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/product-customer-field-manager" modules="Swissup_Core Swissup_FieldManager Swissup_CustomerFieldManager" %}
 
 #### 3. Complete the installation
 

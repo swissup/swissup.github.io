@@ -4,6 +4,7 @@ title: SEO CrossLinks Installation
 description: magento 2 SEO CrossLinksr module installation
 keywords: " magento 2 seo crosslinks extension "
 category: SEO CrossLinks
+exclude_from_search: true
 ---
 
 # Manual Installation

@@ -2,8 +2,8 @@
 layout: default
 title: Ajaxsearch installation
 description: Ajaxsearch installation instructions
-keywords: "Ajaxsearch installation"
 category: Ajaxsearch
+exclude_from_search: true
 ---
 
 # Manual Installation

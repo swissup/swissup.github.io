@@ -4,6 +4,7 @@ title: Email installation
 description: Email installation instructions
 keywords: "Email installation"
 category: Email
+exclude_from_search: true
 ---
 
 # Installation from Marketplace

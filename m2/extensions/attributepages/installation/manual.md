@@ -4,6 +4,7 @@ title: Attribute based pages (Brand pages)
 description: Magento 2 Attributepages installation instructions
 keywords: magento 2 attributepages, brandpage, brand page
 category: Attributepages
+exclude_from_search: true
 ---
 
 # Manual Installation
@@ -18,5 +19,3 @@ and create your first attribute based page.
 #### Next Up
 
 - [Back to Main Page](../)
-
-

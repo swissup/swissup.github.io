@@ -4,6 +4,7 @@ title: Geoip installation instructions
 description: How to install geoip for Magento 2
 keywords: magento2 geoip installation
 category: Geoip
+exclude_from_search: true
 ---
 
 # Installation from Marketplace

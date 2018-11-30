@@ -4,6 +4,7 @@ title: Delivery Date installation instructions (Marketplace)
 description: How to install delivery date for Magento 2
 keywords: magento2 delivery-date installation
 category: Delivery Date
+exclude_from_search: true
 ---
 
 # Installation from Marketplace

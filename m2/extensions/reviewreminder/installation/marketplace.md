@@ -4,6 +4,7 @@ title: Review Reminder Installation
 description: magento review reminder module installation
 keywords: " magento review reminder extension, magento review reminder email "
 category: Review Reminder
+exclude_from_search: true
 ---
 
 # Installation from Marketplace

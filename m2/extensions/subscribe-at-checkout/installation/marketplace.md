@@ -3,6 +3,7 @@ layout: default
 title: SubscribeAtCheckout Installation
 description: How to install SubscribeAtCheckout module for Magento 2 from marketplace
 category: SubscribeAtCheckout
+exclude_from_search: true
 ---
 
 # Installation from Marketplace

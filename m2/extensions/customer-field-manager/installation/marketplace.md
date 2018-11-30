@@ -4,6 +4,7 @@ title: Customer Field Manager Installation
 description: Customer Field Manager module installation
 keywords: customer field manager installation
 category: Customer Field Manager
+exclude_from_search: true
 ---
 
 # Installation from Marketplace

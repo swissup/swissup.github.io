@@ -4,6 +4,7 @@ title: Highlight installation from Marketplace
 description: Highlight installation instructions
 keywords: "highlight installation"
 category: Highlight
+exclude_from_search: true
 ---
 
 # Installation from Marketplace

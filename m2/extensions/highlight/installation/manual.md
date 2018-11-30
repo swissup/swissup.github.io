@@ -4,6 +4,7 @@ title: Highlight manual installation
 description: Highlight installation instructions
 keywords: "highlight installation"
 category: Highlight
+exclude_from_search: true
 ---
 
 # Manual Installation
@@ -25,4 +26,3 @@ Great! Now you might want to see next:
 
 [usage_wysiwyg_editor]: /m2/extensions/highlight/widgets/usage/#wysiwyg-editor
 [usage_widgets_page]: /m2/extensions/highlight/widgets/usage/#widgets-page
-

@@ -4,6 +4,7 @@ title: Easy Flags Installation
 description: magento 2 easy flags module installation
 keywords: magento 2 easy flags, magento 2 easy flags extension free
 category: Easy Flags
+exclude_from_search: true
 ---
 
 # Manual Installation
