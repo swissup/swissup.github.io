@@ -6,6 +6,16 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.4.2
+
+**Features**
+ - magento 2.3 compatibility
+
+**Bugfixes**
+ - Fix swatches.css does't exist in 2.3 bug
+ - Added fix to don't show old windows (modal-manager.js)
+ - Code style was improved
+
 ### Version 1.4.1
  - Marketplace rebuild
 
