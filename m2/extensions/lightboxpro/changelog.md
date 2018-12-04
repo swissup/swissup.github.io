@@ -8,6 +8,12 @@ category: Lightbox Pro
 
 # Changelog
 
+### Version 1.2.1
+
+ -  Fixed applying popup layout type on Magento 2.3
+ -  Fixed wrong image size on Magento 2.3
+ -  Added correct alt text for preloading image
+
 ### Version 1.1.0
 
  -  Added config to show image caption
