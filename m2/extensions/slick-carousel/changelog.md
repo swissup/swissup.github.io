@@ -8,6 +8,11 @@ category: SlickCarousel
 
 # Changelog
 
+### Version 1.3.0
+
+ -  SlickCarousel library updated to version 1.8.1. Deprecation notices removed
+    from the browser console.
+
 ### Version 1.1.3
 
  -  Prevent 'jumping' styles when carousel is initialized
