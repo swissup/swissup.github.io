@@ -7,6 +7,14 @@ category: Delivery Date
 
 # Changelog
 
+### Version 1.4.0
+
+> Dec 04, 2018
+
+ -  Added ability to show delivery date information at the
+    [CheckoutSuccess](/m2/extensions/checkout-success/) page
+ -  Fixed 'undefined' word inside calendar icon
+
 ### Version 1.3.2
 
 > Nov 08, 2018

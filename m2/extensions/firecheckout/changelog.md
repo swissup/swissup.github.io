@@ -8,6 +8,53 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.15.2
+
+> Dec 04, 2018
+
+ -  Swissup_SocialLogin integration: Fixed login popup positioning
+ -  Fixed conflict with Braspag_Pagador module (misplaced credit card types selector)
+ -  Fixed invalid street line labels
+ -  Minor CSS fixes
+
+**Modules Updates**
+
+**swissup/module-address-field-manager — [1.4.2](/m2/extensions/address-field-manager/)** (was 1.4.0)
+
+ -  Fixed field validation on the latest Magento versions
+
+**swissup/module-checkout-fields — [1.2.0](/m2/extensions/checkout-fields/)** (was 1.1.0)
+
+ -  Fixed dropdown field options save issue in Magento 2.2.6
+ -  Added ability to show checkout fields at the
+    [CheckoutSuccess](/m2/extensions/checkout-success/) page
+ -  Added ability to show fields in backend order grid
+ -  Checkout fields added to backend's new order form
+
+**swissup/module-checkout-success — [1.3.2](/m2/extensions/checkout-success/)** (was 1.3.1)
+
+ -  Prevent Warning/Error when tring to render child block that doesn't exists
+ -  Added third-party modules blocks support via `di.xml` instructions:
+    -  CheckoutField
+    -  DeliveryDate
+    -  OrderAttachment
+ -  Added margin for delivery date block
+
+**swissup/module-delivery-date — [1.4.0](/m2/extensions/delivery-date/)** (was 1.3.2)
+
+ -  Added ability to show delivery date information at the
+    [CheckoutSuccess](/m2/extensions/checkout-success/) page
+ -  Fixed 'undefined' word inside calendar icon
+
+**swissup/module-geoip — [1.1.2](/m2/extensions/geoip/)** (was 1.1.1)
+
+ -  Corrected path to the MaxMind database in config field
+
+**swissup/module-orderattachment — [1.3.0](/m2/extensions/order-attachments/)** (was 1.2.0)
+
+ -  Added ability to show attachments at the
+    [CheckoutSuccess](/m2/extensions/checkout-success/) page
+
 ### Version 1.15.1
 
 > Nov 08, 2018

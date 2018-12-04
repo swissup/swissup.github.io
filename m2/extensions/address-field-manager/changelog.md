@@ -8,6 +8,12 @@ category: Address Field Manager
 
 # Changelog
 
+### Version 1.4.2
+
+> Dec 04, 2018
+
+ -  Fixed field validation on the latest Magento versions
+
 ### Version 1.4.1
 
 > Nov 08, 2018

@@ -7,6 +7,11 @@ category: Order Attachments
 
 # Changelog
 
+### Version 1.3.0
+
+ -  Added ability to show attachments at the
+    [CheckoutSuccess](/m2/extensions/checkout-success/) page
+
 ### Version 1.1.1
 
  -  Fixed not working upload functionality on slow internet connections

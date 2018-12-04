@@ -8,6 +8,17 @@ category: Checkout Success
 
 # Changelog
 
+### Version 1.3.2
+
+> Dec 04, 2018
+
+ -  Prevent Warning/Error when tring to render child block that doesn't exists
+ -  Added third-party modules blocks support via `di.xml` instructions:
+    -  CheckoutField
+    -  DeliveryDate
+    -  OrderAttachment
+ -  Added margin for delivery date block
+
 ### Version 1.3.1
 
 > Nov 01, 2018

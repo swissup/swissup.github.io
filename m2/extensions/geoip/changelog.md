@@ -8,6 +8,12 @@ category: Geoip
 
 # Changelog
 
+### Version 1.1.2
+
+> Dec 04, 2018
+
+ -  Corrected path to the MaxMind database in config field
+
 ### Version 1.1.1
 
 **Fixes**

@@ -8,6 +8,16 @@ category: Checkout Fields
 
 # Changelog
 
+### Version 1.2.0
+
+> Dec 04, 2018
+
+ -  Fixed dropdown field options save issue in Magento 2.2.6
+ -  Added ability to show checkout fields at the
+    [CheckoutSuccess](/m2/extensions/checkout-success/) page
+ -  Added ability to show fields in backend order grid
+ -  Checkout fields added to backend's new order form
+
 ### Version 1.0.5
 
  -  Translation file added
