@@ -7,6 +7,12 @@ category: Attributepages
 
 # Changelog
 
+### Version 1.1.1
+
+> Dec 4, 2018
+
+ -  Widget template updated according to the latest SlickCarousel module
+
 ### Version 1.0.10
 
  -  Fixed delete mass action error in Magento 2.1.x

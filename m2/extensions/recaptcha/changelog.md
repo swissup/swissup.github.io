@@ -8,6 +8,13 @@ category: reCAPTCHA
 
 # Changelog
 
+### Version 1.1.2
+
+> Dec 4th, 2018
+
+ -  Updated google/recaptcha requirement to get latest stable version.
+    (Magento 2.3.0 compatibility)
+
 ### Version 1.1.1
 
 > Nov 8th, 2018

@@ -8,6 +8,12 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.8.1
+
+> Dec 4, 2018
+
+ -  Improved column-count calculation in Chrome browser
+
 ### Version 1.7.0
 
 > Sep 20, 2018

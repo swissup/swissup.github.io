@@ -8,6 +8,13 @@ category: Highlight
 
 # Changelog
 
+### Version 1.4.1
+
+> Dec 4, 2018
+
+ -  Widget template updated according to the latest SlickCarousel module
+ -  Prevent possible non-seo links
+
 ### Version 1.3.0
 
  -  Added ability to filter products by
