@@ -8,6 +8,15 @@ category: AjaxSearch
 
 # Changelog
 
+
+### Version 1.4.1
+
+**Features**
+ - Add 2.2.7(2.3) compatability /js/ widget mixin
+
+**Bugfixes**
+ - Fix for bug 'Search button on ios keyboard does not submit the form'
+
 ### Version 1.4.0
 
 **Features**
