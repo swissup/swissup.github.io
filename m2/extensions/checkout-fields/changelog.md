@@ -8,6 +8,13 @@ category: Checkout Fields
 
 # Changelog
 
+### Version 1.2.1
+
+> Dec 05, 2018
+
+ -  Fixed error in orders grid on Magento 2.1.x
+ -  Checkout field values now copied when editing order in admin
+
 ### Version 1.2.0
 
 > Dec 04, 2018

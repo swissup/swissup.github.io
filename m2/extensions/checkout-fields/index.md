@@ -26,5 +26,6 @@ Extension is compatible with [Firecheckout](../firecheckout) and default Magento
     - [Order Comment Field](usage#order-comment-field)
     - [Display Fields in Order Email](usage#display-fields-in-order-email)
     - [Display Fields at Checkout Success Page](usage/#display-fields-at-checkout-success-page)
+    - [Display Fields in Orders Grid](usage/#display-fields-in-orders-grid)
  *  [Support](https://swissuplabs.com/contacts/)
  *  [Forum](https://swissuplabs.com/magento-forum/)

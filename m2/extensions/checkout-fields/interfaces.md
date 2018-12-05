@@ -16,8 +16,9 @@ under `Swissup > Checkout > Checkout Fields` menu.
 ### Checkout Field Edit Form
 
 Field edit form consists of two tabs: `Properties` and `Manage Labels`.
-`Properties` tab contains all main field settings.
-`Manage Labels` tab allows to assign field label for every store view (e.g. every language).
+
+ -  `Properties` tab contains all main field settings.
+ -  `Manage Labels` tab allows to assign field label for every store view (e.g. every language).
 
 ![Form](/images/m2/checkout-fields/fields-edit-form-new.png)
 
@@ -29,6 +30,7 @@ Catalog Input Type for Store Owner | Available types are: Text Field, Text Area,
 Values Required                    | Select if field is required or optional
 Manage Options / Values            | Allows to specify values for fields with types dropdown and multiple select
 Enabled                            | Allows to disable field
+Add To Column Options              | Show field in orders grid `Sales > Orders`
 Attribute Code                     | Unique field code. Generated automatically from default label if leaved empty
 Sort Order                         | Allows to set field order on frontend
 Default Value                      | Field default value

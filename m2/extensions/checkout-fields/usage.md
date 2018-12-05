@@ -57,3 +57,10 @@ Use module [Checkout Success Page](/m2/extensions/checkout-success/) module to g
  1. Make sure Checkout Success page is enabled. Go to `Stores` > `Configuration` > `Swissup Checkout` > `Success Page` and check option _'Enabled'_ in 'General' section.
  2. Go to section 'Page Layout'. Drag `Checkout Fields` block from _'Blocks available on Success Page'_ and drop at _'Layout of Success Page'_ in place where you want to see checkout fields.
  3. Save config or use _'Save and Start Preview'_ button to check how success page looks.
+
+### Display Fields in Orders Grid
+
+To display checkout fields in orders grid, follow next steps:
+
+ 1. Go to `Swissup > Checkout Fields`, edit the field and set `Add to Column Options` to `Yes`.
+ 2. Go to `Sales > Orders` and select fields you want to display in `Columns` dropdown.
