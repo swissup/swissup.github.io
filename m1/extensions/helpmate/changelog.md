@@ -8,6 +8,11 @@ category: Helpmate
 
 # Changelog
 
+### Version 1.7.10
+
+**Fixes**
+ - Fix \$\$('#global_search').present() is undefined
+
 ### Version 1.7.9
 
 **Fixes**
