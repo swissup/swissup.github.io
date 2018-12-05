@@ -15,7 +15,7 @@ faster and easier by providing them a simple checkout form.
 
 ### Contents
 
- 1. [Installation](installation/)
+ 1. [Installation and Updating](installation/)
  2. [Changelog](changelog/)
  3. [Configuration](configuration/)
  4. [Customization](customization/)

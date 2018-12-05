@@ -1,0 +1,46 @@
+#### Automatic
+
+Run the following commands in terminal to update the module:
+
+```bash
+# 1. Update module and dependencies
+composer update {{ include.package }} --with-dependencies
+
+# 2. Run magento upgrade scripts
+php bin/magento setup:upgrade
+
+# 3. Remove outdated files
+rm -rf pub/static/_requirejs var/view_preprocessed pub/static/frontend/ pub/static/adminhtml/ generated/code/
+
+# 4. If you use Production Mode you need to deploy static content and run di:compile command
+php bin/magento setup:static-content:deploy en_US en_GB
+php bin/magento setup:di:compile
+```
+
+#### Manual
+
+{% if include.site %}
+
+Open your account page at the [{{ include.site }}](https://{{ include.site }}/customer/account/)
+and download the archive from the "Downloads" page.
+
+{% else %}
+
+Open your account page at the site where you purchased the module or theme:
+
+ -  [argentotheme.com](https://argentotheme.com/downloadable/customer/products/)
+ -  [firecheckout.net](https://firecheckout.net/subscription/customer/products/)
+ -  [swissuplabs.com](https://swissuplabs.com/subscription/customer/products/)
+
+Download the modules or themes, you'd like to update.
+
+{% endif %}
+
+Unpack downloaded archive into `<magento_root>/vendor/swissup/artifacts` folder:
+
+```bash
+mkdir -p vendor/swissup/artifacts
+unzip {% if include.package %}{{ include.package | replace: '/', '.' }}{% else %}swissup.archive{% endif %}-[version].zip -d vendor/swissup/artifacts
+```
+
+Then proceed to [automatic](#automatic) update instructions section.

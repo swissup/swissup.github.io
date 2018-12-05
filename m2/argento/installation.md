@@ -1,13 +1,18 @@
 ---
 layout: default
-title: Argento for Magento 2 installation
+title: Argento for Magento 2 Installation and Upgrade Instructions
 description: How to install Argento on Magento 2
+keywords: argento installation, argento update, argento upgrade
 category: Argento
 ---
 
-# Argento Installation
+## Installation instructions
 
 {% include installation/m2/index.html %}
+
+## Upgrade instructions
+
+{% include installation/m2/update.html site="argentotheme.com" package="swissup/argento-m2" %}
 
 ##### Next up
 
