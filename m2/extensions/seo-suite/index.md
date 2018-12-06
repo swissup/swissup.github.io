@@ -17,7 +17,7 @@ This toolkit includes extensions:
  -  [Regional URLs (hreflang)](../hreflang)
  -  [Rich Snippets](../richsnippets)
  -  [SEO Pagination](../seo-pager)
- -  [SEO-friendly URLs](../seo-urls)
+ -  [SEO URLs](../seo-urls)
  -  [XML Sitemap](../seo-xml-sitemap)
  -  [SEO CrossLinks](../seo-cross-links)
 

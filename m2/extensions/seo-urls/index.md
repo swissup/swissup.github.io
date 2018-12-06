@@ -29,4 +29,5 @@ Extension builds SEO friendly links for filters in layered navigation at categor
  -  [Installation](installation/)
  -  [Configuration](configuration/)
  -  [Change labels in URL](change-labels/)
+ -  [rel="nofollow" for URL in Layered Navigation](rel-nofollow/)
  -  [FAQ](faq/)
