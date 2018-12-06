@@ -12,6 +12,8 @@ category: Helpmate
 
 **Fixes**
  - Fix \$\$('#global_search').present() is undefined
+ - Fix require_once HTMLPurifier
+ - Fix potential xss
 
 ### Version 1.7.9
 
