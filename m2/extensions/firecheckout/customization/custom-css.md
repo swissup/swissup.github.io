@@ -29,14 +29,14 @@ Let's slightly change form and firecheckout layout styles and section number col
                     └── Swissup_Firecheckout
                         └── web
                             └── css
-                                ├── custom
-                                |   └── abstracts
-                                |       ├── _variables.less                 // used by all themes
-                                |       ├── _variables-theme-default.less   // used by Default theme only
-                                |       ├── _variables-theme-light.less     // used by Light theme only
-                                |       ├── _variables-theme-midnight.less  // used by Midnight theme only
-                                |       └── _variables-theme-round.less     // used by Round theme only
-                                └── _main.less                              // used by all themes
+                                └── custom
+                                    ├── abstracts
+                                    |   ├── _variables.less                 // used by all themes
+                                    |   ├── _variables-theme-default.less   // used by Default theme only
+                                    |   ├── _variables-theme-light.less     // used by Light theme only
+                                    |   ├── _variables-theme-midnight.less  // used by Midnight theme only
+                                    |   └── _variables-theme-round.less     // used by Round theme only
+                                    └── _main.less                          // used by all themes
     ```
 
  2. Redefine firecheckout variables with `custom/abstracts/*` files:
