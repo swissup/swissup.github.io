@@ -9,7 +9,7 @@ exclude_from_search: true
 
 # Installation
 
-{% include installation/m2/composer.html site="swissuplabs.com" package="swissup/highlight" modules="Swissup_Core Swissup_Highlight" %}
+{% include installation/m2/composer.html site="swissuplabs.com" package="swissup/highlight" modules="Swissup_Core Swissup_Rtl Swissup_SlickCarousel Swissup_Highlight" %}
 
 #### 3. Complete the installation
 
