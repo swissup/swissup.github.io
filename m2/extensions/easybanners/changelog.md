@@ -8,6 +8,10 @@ category: Easy Banners
 
 # Changelog
 
+### Version 1.3.1
+
+ -  Fixed possible JS error in backend Charts when using slow network connection
+
 ### Version 1.2.3
 
  -  Fixed possible error on bundle product pages
