@@ -65,7 +65,7 @@ In this case we know that shipping method with code `FAST_DELIVERY` deliver prod
 <script type="text/javascript">
     var today = new Date(),
         estimatedDate = new Date(),
-        shippingMethod = '{{shippingCode}}';
+        shippingMethod = '{% raw %}{{shippingCode}}{% endraw %}';
     if (shippingMethod == 'FAST_DELIVERY') {
         estimatedDate.setDate(today.getDate() + 1);
     } else if (shippingMethod == 'THREE_DAYS_DELIVERY') {
