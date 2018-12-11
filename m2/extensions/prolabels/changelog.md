@@ -8,6 +8,21 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.2.3
+
+> Dec 11th, 2018
+
+ -  Fix error during labels appling at some Magento Commerce (Enterprise) stores.
+ -  Better logic to determine whether "On sale" label can be shown.
+ -  Few JavaScript and CSS fixes to make module more stable.
+ -  Improve manual labels appling (me simple products were missed from indexes if they were children of configurable product).
+
+### Version 1.2.0
+
+> Oct 10th, 2018
+
+Internal module naming convention was updated. We applied this changes to reach full compatibility with Magento Marketplace policy.
+
 ### Version 1.1.0
 
 > Sep 21st, 2018
