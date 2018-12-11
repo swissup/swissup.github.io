@@ -18,7 +18,7 @@ By default Magento 2 has structured data at product page that helps Google and o
 
 Today Google recommends using JSON-LD for structured data whenever possible ([source](https://developers.google.com/search/docs/guides/intro-structured-data#structured-data-format)).
 
-Our module does excatly this. It presents structured data with JSON-LD format instead of microdata. But this is not all. We allow you to include some addtional information in structured data. Here is full list of structured data we add to pages:
+Our module does exactly this. It presents structured data with JSON-LD format instead of microdata. But this is not all. We allow you to include some addtional information in structured data. Here is full list of structured data we add to pages:
 
  -  Product data (SKU, price, currency, availability and reviews' rating).
  -  [Information about your organization](configuration/#organization) with [social links](configuration/#social-links).
