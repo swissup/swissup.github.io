@@ -23,6 +23,44 @@ It is just an example. `send_to` property has to have your own value.
 </script>
 ```
 
+#### Google Customer Reviews
+
+Google Customer Reviews is a free program that allows Google to collect seller reviews on your behalf from your customers. Read more at [Introducing Google Customer Reviews](https://support.google.com/merchants/answer/7188525) page.
+
+Code below was taken from [Add the opt-in code](https://support.google.com/merchants/answer/7106244#optin) and slightly modified to work at checkout success page. Check source link to get more info about code below.
+
+```html
+<!-- BEGIN GCR Opt-in Module Code -->
+<script src="https://apis.google.com/js/platform.js?onload=renderOptIn"
+  async defer>
+</script>
+
+<script>
+  window.renderOptIn = function() { 
+    window.gapi.load('surveyoptin', function() {
+      var shippingData = {% raw %}{{orderShippingAddress}}{% endraw %},
+          today = new Date(),
+          estimatedDate = new Date();
+    
+      estimatedDate.setDate(today.getDate() + 3); // estimated delivery date is 3 days from now
+      window.gapi.surveyoptin.render(
+        {
+          // REQUIRED
+          "merchant_id":"MERCHANT_ID",
+          "order_id": "{% raw %}{{orderId}}{% endraw %}", // ORDER_ID
+          "email": "{% raw %}{{customerEmail}}{% endraw %}", // CUSTOMER_EMAIL
+          "delivery_country": shippingData.country_id,
+          "estimated_delivery_date": estimatedDate.toISOString().slice(0, 10),
+
+          // OPTIONAL
+          "opt_in_style": "OPT_IN_STYLE"
+        }); 
+     });
+  }
+</script>
+<!-- END GCR Opt-in Module Code -->
+```
+
 #### Customer type (guest or registered customer)
 
 ```html
