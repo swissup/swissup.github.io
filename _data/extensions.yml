@@ -146,7 +146,13 @@ deliverydate:
   urls:
     m1:
     m2: /m2/extensions/delivery-date/
-
+deleteorders:
+  title: Delete Orders
+  short_description: Allow admin to remove unnecessary orders from store.
+  size: 1x1
+  urls:
+    m1:
+    m2: /m2/extensions/delete-orders/
 taxvat:
   title: Checkout VAT
   short_description: Validate VAT field on checkout
