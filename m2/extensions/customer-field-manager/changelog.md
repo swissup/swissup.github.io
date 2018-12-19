@@ -8,6 +8,12 @@ category: Customer Field Manager
 
 # Changelog
 
+### Version 1.1.2
+
+> Dec 19, 2018
+
+ -  Fixed dropdown field options save issue in Magento 2.2.7
+
 ### Version 1.1.1
 
 > Nov 08, 2018

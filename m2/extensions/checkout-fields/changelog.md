@@ -8,6 +8,12 @@ category: Checkout Fields
 
 # Changelog
 
+### Version 1.2.2
+
+> Dec 19, 2018
+
+ -  Checkout fields groped into single block for easier styling
+
 ### Version 1.2.1
 
 > Dec 05, 2018

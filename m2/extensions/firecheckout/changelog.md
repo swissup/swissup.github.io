@@ -10,7 +10,7 @@ category: Firecheckout
 
 ### Version 1.16.0
 
-> Draft
+> Dec 19, 2018
 
 Firecheckout page looks more structured now with the
 [title above "Billing Address" form](/m2/extensions/firecheckout/configuration/#payment-settings-section),
@@ -32,6 +32,7 @@ and compact mode to display saved shipping addresses.
 
  -  Reduce too long "Shipping Address" block when customer has many saved addresses
  -  Removed not needed ajax request when trying to save invalid billing address
+ -  Fixed Auth popup divider color in "Midnight" theme when using SocialLogin
  -  Small css fixes and improvements
 
 ### Version 1.15.2

@@ -8,6 +8,12 @@ category: Address Field Manager
 
 # Changelog
 
+### Version 1.4.3
+
+> Dec 19, 2018
+
+ -  Fixed dropdown field options save issue in Magento 2.2.7
+
 ### Version 1.4.2
 
 > Dec 04, 2018
