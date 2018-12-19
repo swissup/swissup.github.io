@@ -8,6 +8,27 @@ category: SoldTogether
 
 # Changelog
 
+### Version 1.4.1
+
+> Dec 19th, 2018
+
+ -  Fix integrity constrain violation during reindex when store has orders where ordered product deleted.
+ -  Interate with Magento MSI modules and Magento 2.3.0. Fix error 'at_inventory_in_stock'.'stock_id' column not found.
+
+### Version 1.4.0
+
+> Dec 4th, 2018
+
+ -  Integrate with Swissup ProLabels module. Now you can get product labels in Sold Together blocks.
+ -  Updated Slick Carousel.
+ -  Significant source code improvements to provide better modules stability. No more errors in Magento Admin product page.
+
+### Version 1.3.0
+
+> Sep 27th, 2018
+
+ -  Internal module naming convention was updated. We applied this changes to reach full compatibility with Magento Marketplace policy. 
+
 ### Version 1.2.7
 
  -  Added new config option that allows to disable 'Create relations on order save'
