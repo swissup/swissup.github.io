@@ -12,12 +12,10 @@ category: Firecheckout
 
 > Draft
 
-Firecheckout **1.16.0** looks more structured with the
+Firecheckout page looks more structured now with the
 [title above "Billing Address" form](/m2/extensions/firecheckout/configuration/#payment-settings-section),
 [checkout fields in "Order Summary" section](/m2/extensions/firecheckout/customization/use-cases/move-checkout-fields-to-order-summary/),
-and compact mode to display saved shipping addresses. Additionally we've added
-an ability to [move checkout blocks](/m2/extensions/firecheckout/customization/move-js/) with ease.
-But don't overplay with it, because your theme or third-party module may not be ready for such moves!
+and compact mode to display saved shipping addresses.
 
 {% include gallery.html images=site.data.gallery.m2.firecheckout.changelog.v1160 class="phone-up-2 tablet-up-3 photoswipe scroll" %}
 
