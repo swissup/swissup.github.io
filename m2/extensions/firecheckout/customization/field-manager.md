@@ -55,7 +55,7 @@ Util                                                    | Example               
 --------------------------------------------------------|-------------------------------------|---------------
 `Swissup_Firecheckout/js/utils/form-field/label`        | `label(selector, label)`            | [Housenumber][housenumber]
 `Swissup_Firecheckout/js/utils/form-field/placeholder`  | `placeholder(selector, placeholder)`| [Housenumber][housenumber]
-`Swissup_Firecheckout/js/utils/form-field/classname`    | `classname(selector, classname)`    | [CSS helpers][css-helpers], [Housenumber][housenumber], [Change field size][field-size]
+`Swissup_Firecheckout/js/utils/form-field/classname`    | `classname(selector, classname)`    | [Housenumber][housenumber], [Change field size][field-size]
 `Swissup_Firecheckout/js/utils/form-field/mask`         | `mask(selector, mask)`              | [Field mask][field-mask], [Postcode mask][postcode-mask]
 `Swissup_Firecheckout/js/utils/form-field/attr`         | `attr(selector, attributes)`        | -
 `Swissup_Firecheckout/js/utils/form-field/validator`    | `validator(selector, rules)`        | [Validator][field-validator], [Housenumber][housenumber]
@@ -64,6 +64,7 @@ Util                                                    | Example               
 
 ##### Next up
 
+ -  [Back to customization page](/m2/extensions/firecheckout/customization/)
  -  [Back to home](/m2/extensions/firecheckout)
 
 [css-helpers]: /m2/extensions/firecheckout/customization/css-helpers/ "CSS Helpers"

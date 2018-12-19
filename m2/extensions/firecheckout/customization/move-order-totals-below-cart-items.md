@@ -19,4 +19,4 @@ category: Firecheckout
 - [List of firecheckout less variables](../less-variables/)
 - [Add header/navigation block](../change-page-layout/)
 - [Hide useless checkout section](../hide-useless-checkout-section/)
-- [Back to customization page](../)
+- [Back to customization page](/m2/extensions/firecheckout/customization/)

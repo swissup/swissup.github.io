@@ -127,6 +127,7 @@ category: Firecheckout
 
 ##### Next up
 
+ -  [Back to customization page](/m2/extensions/firecheckout/customization/)
  -  [Back to home](/m2/extensions/firecheckout/)
 
 [address-field-manager-new-field]: /m2/extensions/address-field-manager/usage/form/ "Create new Address Field"

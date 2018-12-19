@@ -68,4 +68,5 @@ that will change the mask on the fly, depending on client's input.
 
 ##### Next up
 
+ -  [Back to customization page](/m2/extensions/firecheckout/customization/)
  -  [Back to home](/m2/extensions/firecheckout/)

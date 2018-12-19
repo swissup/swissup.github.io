@@ -75,6 +75,7 @@ define([
 
 ##### Next up
 
+ -  [Back to customization page](/m2/extensions/firecheckout/customization/)
  -  [Back to home](/m2/extensions/firecheckout/)
 
 [compact-form]: /m2/extensions/firecheckout/configuration/#form-styles "Compact Form Style"
