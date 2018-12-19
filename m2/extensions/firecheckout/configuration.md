@@ -125,6 +125,8 @@ Hide methods if single method is available only | Useful if you use single metho
 Option                  | Description
 ------------------------|------------
 Default Method          | Default payment method to use
+Show Billing Address Title | Show/Hide title above billing address form
+Display Billing Address On | Select billing address form placement (Above Payment Methods, Below Shipping Address)
 
 ### Order summary settings section
 
@@ -133,6 +135,7 @@ Default Method          | Default payment method to use
 Option                  | Description
 ------------------------|------------
 Show Order Review       | Show order review information (Shipping Address and Shiping Method) above the cart items.
+Title                   | Set the title for order summary section
 
 ### Custom CSS and JS settings section
 

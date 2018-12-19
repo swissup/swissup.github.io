@@ -19,15 +19,10 @@ category: Firecheckout
         - [Add header/navigation block](change-page-layout/)
         - [Move order totals below cart items](move-order-totals-below-cart-items/)
         - [Hide useless checkout section](hide-useless-checkout-section/)
+        - [Move.js utility](move-js/)
     - Form Fields
-        - [Field manager](field-manager/)
-            - [Mask/Formatter](field-manager/#mask)
-            - [Label](field-manager/#label)
-            - [Placeholder](field-manager/#placeholder)
-            - [CSS class](field-manager/#css-class)
-            - [Attribute](field-manager/#attribute)
-            - [Validator](field-manager/#validator)
-            - [Newline](field-manager/#newline)
+        - [Field manager](field-manager/) (Manage field Mask/Formatter, Label,
+            Placeholder, CSS class, Attribute, Validator, and Newline.)
         - [Field watcher](field-watcher/)
         - [Dependent fields](dependent-fields/)
  3. [Use cases](use-cases/)
@@ -36,3 +31,4 @@ category: Firecheckout
     - [Change field size](use-cases/field-size/)
     - [Email double verification](use-cases/email-verification-field/)
     - [Business account checkbox](use-cases/business-account-checkbox/)
+    - [Move Checkout Fields to the Order Summary](use-cases/move-checkout-fields-to-order-summary/)
