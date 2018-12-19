@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Firecheckout customization
+title: Firecheckout Customization
 description: Firecheckout basic customizations
 category: Firecheckout
 ---
@@ -32,3 +32,4 @@ category: Firecheckout
     - [Email double verification](use-cases/email-verification-field/)
     - [Business account checkbox](use-cases/business-account-checkbox/)
     - [Move Checkout Fields to the Order Summary](use-cases/move-checkout-fields-to-order-summary/)
+    - [Combine several use cases](use-cases/combine-several-use-cases/)
