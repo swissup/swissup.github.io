@@ -8,7 +8,7 @@ category: SEO Suite
 
 # Changelog
 
-### Version 1.2.0
+### Version 1.3.0
 
 > Dec 21st, 2018
 
@@ -16,7 +16,7 @@ Two new highly demanded modules included into kit - [***Cross Links***](/m2/exte
 
 *Rich Snippets*:
 
- -  Integrated with [Swissup Amp](/m2/extensions/amp/) module.
+ -  Integrated with [Swissup AMP](/m2/extensions/amp/) module.
 
 *Metadata templates*:
 
