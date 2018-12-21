@@ -12,14 +12,15 @@ SEO Suite is a toolkit to optimize your Magento 2 store for search engines.
 
 This toolkit includes extensions:
 
+ -  [Canonical URLs](../seo-canonical)
  -  [HTML Sitemap](../seo-html-sitemap)
  -  [Metadata Templates](../seo-templates)
  -  [Regional URLs (hreflang)](../hreflang)
  -  [Rich Snippets](../richsnippets)
+ -  [SEO CrossLinks](../seo-cross-links)
  -  [SEO Pagination](../seo-pager)
  -  [SEO URLs](../seo-urls)
  -  [XML Sitemap](../seo-xml-sitemap)
- -  [SEO CrossLinks](../seo-cross-links)
 
 Follow links above to read more about extensions.
 
