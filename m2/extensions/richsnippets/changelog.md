@@ -8,6 +8,16 @@ category: Rich Snippets
 
 # Changelog
 
+### Version 1.3.0
+
+> Dec 21st, 2018
+
+ -  Integrated with [Swissup AMP](/m2/extensions/amp/) module.
+
+### Version 1.2.0
+
+ -  Now you can add brand info to product structured data.
+
 ### Version 1.1.3
 
  -  Fallback to full description of product in snippet when short description is empty.
