@@ -140,6 +140,7 @@ additional modifications.
 - [Unirgy_DropshipSplit](unirgy-dropshipsplit/)
 - [Vconnect_AllInOne](vconnect-allinone/)
 - [Webgriffe_Tntpro](webgriffe-tntpro/)
+- [Webkul_Warehousemanagement](webkul-warehousemanagement/)
 - Webshopapps_Desttype
 - Webshopapps_Premiumrate
 - WebshopApps_ProductMatrix
