@@ -30,8 +30,8 @@ between stuck element and screen edge.
 > 2. Sticky menu 'stuck' **inside parent element bounds** only.
 >
 >    Examples:
->    - When menu is rendered at the bottom of the `.header` sticky will not work for it.
->    - When menu is rendered at the top of the `.header` sticky will work fine.
+>    - When menu is rendered at the bottom of the `.header` sticky will not work because of header bounds.
+>    - When menu is rendered at the top of the `.header` sticky will work fine (inside header bounds only).
 >    - When menu is rendered at the top of the `.page-wrapper` sticky will work fine.
 >
 > 3. IE is not supported.
