@@ -65,6 +65,7 @@ Class Name      | Description
 `navpro-ribbon` | Use [ribbon][ribbon-menu] menu styles
 **Layout Modifiers** |
 `navpro-nowrap` | Do not wrap top level items on the new line. Use [separate dropdown][nowrap] for them.
+`navpro-sticky` | [Stick][sticky-menu] menu to the top of the screen.
 **Effects**     |
 `navpro-overlay`| Use [overlay][overlay] when dropdown is active
 **Top Level Caret Icons** |
@@ -119,3 +120,4 @@ Class Name          | Description
 [stacked-menu]: /m2/extensions/navigationpro/use-cases/stacked-dropdowns/ "Stacked Menu"
 [overlay]: /m2/extensions/navigationpro/use-cases/overlay/ "Overlay"
 [nowrap]: /m2/extensions/navigationpro/use-cases/nowrap/ "Nowrap"
+[sticky-menu]: /m2/extensions/navigationpro/use-cases/sticky/ "Sticky menu"
