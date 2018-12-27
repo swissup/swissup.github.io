@@ -8,6 +8,18 @@ category: Email
 
 # Changelog
 
+### Version 0.2.3
+
+**Features**
+ - Added Magento 2.3 compatibility
+ - Replace Zend_Mail (ZF1) with Zend\Mail\Message (ZF2)
+ - Move transports classes to Mail dir
+ - One point for test connection and real mail sending
+ - Add verification code to check service action
+
+**Fixes**
+ - Fixed backward compatibility with Magento 2.2
+
 ### Version 0.2.1
 
 **Features**
