@@ -12,12 +12,7 @@ This `Free extension for Magento 2`, helps you safely remove unnecessary orders 
 been arisen during testing your store, that is to put in order your sales.
 >*`Sales->Orders->Actions->Swissup_Delete`*
 
-**Swissup_Delete**
-![Mass Action (Sales->Orders->)](/images/m2/delete-orders/admin/swissup-delete.png)
-
-**Mass delete orders**
-![Mass delete orders](/images/m2/delete-orders/admin/mass-table.png)
-
+{% include gallery.html images=site.data.gallery.m2.delete-orders.index class="scroll phone-up-1 tablet-up-3 photoswipe" %}
 
 ### Features
 
