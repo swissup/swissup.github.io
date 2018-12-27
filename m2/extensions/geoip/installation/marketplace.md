@@ -10,3 +10,8 @@ exclude_from_search: true
 # Installation from Marketplace
 
 {% include installation/m2/marketplace.html %}
+
+#### 2. Complete setup and installation
+
+Proceed to [step 3](../composer/#3-download-latest-free-maxmind-geolite2-database)
+of Composer Installation Instructions.

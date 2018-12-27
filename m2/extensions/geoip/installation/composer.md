@@ -11,12 +11,12 @@ exclude_from_search: true
 
 {% include installation/m2/composer.html site="swissuplabs.com" package="swissup/geoip" modules="Swissup_Core Swissup_Checkout Swissup_Geoip" preinstall="composer require geoip2/geoip2" %}
 
-#### 3 Download latest free maxmind geolite2 database
+#### 3. Download latest free maxmind geolite2 database
 
 ```sh
 cd [magento root]/vendor/swissup/module-geoip
 wget http://geolite.maxmind.com/download/geoip/database/GeoLite2-City.tar.gz
-tar -xvzf GeoLite2-City.tar.gz GeoLite2-City_20180925/GeoLite2-City.mmdb
-mv GeoLite2-City_20180925/GeoLite2-City.mmdb GeoLite2-City.mmdb
-rm -rf GeoLite2-City_* GeoLite2-City.tar.gz
+mkdir mmdb && tar -xvzf GeoLite2-City.tar.gz -C mmdb --strip 1
+mv mmdb/GeoLite2-City.mmdb GeoLite2-City.mmdb
+rm -rf mmdb GeoLite2-City.tar.gz
 ```
