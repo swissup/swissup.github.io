@@ -13,10 +13,13 @@ exclude_from_search: true
 
 #### 3. Download latest free maxmind geolite2 database
 
-```sh
+```bash
 cd [magento root]/vendor/swissup/module-geoip
 wget http://geolite.maxmind.com/download/geoip/database/GeoLite2-City.tar.gz
 mkdir mmdb && tar -xvzf GeoLite2-City.tar.gz -C mmdb --strip 1
 mv mmdb/GeoLite2-City.mmdb GeoLite2-City.mmdb
 rm -rf mmdb GeoLite2-City.tar.gz
 ```
+
+Want to use more accurate database version? Read the
+[article](/m2/extensions/geoip/maxmind-databases/) about database types.
