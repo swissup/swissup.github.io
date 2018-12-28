@@ -32,7 +32,7 @@ between stuck element and screen edge.
 >    Examples:
 >    - When menu is rendered at the bottom of the `.header` sticky will not work because of header bounds.
 >    - When menu is rendered at the top of the `.header` sticky will work fine (inside header bounds only).
->    - When menu is rendered at the top of the `.page-wrapper` sticky will work fine.
+>    - When menu is rendered inside a `.page-wrapper` sticky will work fine since it's a long container.
 >
 > 3. IE is not supported.
 
