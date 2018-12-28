@@ -8,6 +8,13 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.9.0
+
+> Dec 28, 2018
+
+ -  Added ability to [stick](/m2/extensions/navigationpro/use-cases/sticky/)
+    menu when you scroll the page
+
 ### Version 1.8.1
 
 > Dec 4, 2018
