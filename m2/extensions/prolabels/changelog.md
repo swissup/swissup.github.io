@@ -8,6 +8,13 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.2.4
+
+> Jan 2nd, 2019
+
+ -  Current version allows to use predefined variables in style attribute of tags in label text.
+ -  Requires Swissup Core module version 1.8+ to reuse FileInfo model in admin interfaces.
+
 ### Version 1.2.3
 
 > Dec 11th, 2018
