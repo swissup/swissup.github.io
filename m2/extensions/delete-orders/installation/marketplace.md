@@ -1,9 +1,10 @@
 ---
 layout: default
-title: Delete Orders
-description: Magento 2 Delete Orders allows remove orders from your store
-keywords: orders
+title: Delete Orders Installation
+description: Magento 2 Delete Orders how to install
+keywords: orders installation
 category: Delete Orders
+exclude_from_search: true
 ---
 
 # Installation from Marketplace
