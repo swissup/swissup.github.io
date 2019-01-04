@@ -8,6 +8,11 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.4.2
+
+> Jan 04, 2019
+
+ -  Cleanup html markup in the header block
 
 ### Version 1.4.1
 

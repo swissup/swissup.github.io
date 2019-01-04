@@ -11,6 +11,10 @@ category: AskIt
 
 # Changelog
 
+### Version 1.3.1
+
+ -  Fixed form visibility at the homepage
+
 ### Version 1.2.17
 
  - Added email template subject translation

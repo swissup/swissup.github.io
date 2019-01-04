@@ -8,6 +8,14 @@ category: Highlight
 
 # Changelog
 
+### Version 1.5.0
+
+> Jan 04, 2019
+
+ -  [AMP](/m2/extensions/amp/) integration added
+ -  Improved [magazine layout](/m2/extensions/highlight/widgets/css-helpers/#magazine-layout)
+    styles on mobile devices
+
 ### Version 1.4.1
 
 > Dec 4, 2018

@@ -7,6 +7,12 @@ category: Attributepages
 
 # Changelog
 
+### Version 1.2.0
+
+> Jan 04, 2019
+
+ -  [AMP](/m2/extensions/amp/) integration added
+
 ### Version 1.1.1
 
 > Dec 4, 2018

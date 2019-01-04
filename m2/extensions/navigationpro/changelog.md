@@ -8,6 +8,12 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.9.1
+
+> Jan 04, 2019
+
+ -  Fixed issues when search and storeviews dropdowns covered by sticky navigation
+
 ### Version 1.9.0
 
 > Dec 28, 2018
