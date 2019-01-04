@@ -8,6 +8,20 @@ category: Accelerated Mobile Pages
 
 # Changelog
 
+### Version 1.2.0
+
+> Jan 4, 2019
+
+{% include gallery.html images=site.data.gallery.m2.amp.changelog.v120 class="phone-up-2 tablet-up-3 photoswipe scroll" %}
+
+ -  Cookie restriction mode added
+ -  Fixed language switcher in Magento 2.2.6+
+ -  Add to cart support for configurable products
+ -  Added AMP integration for the following extensions:
+    +  [Rich Snippets](/m2/extensions/richsnippets/)
+    +  [Highlight](/m2/extensions/highlight/)
+    +  [Attribute Pages](/m2/extensions/attributepages/)
+
 ### Version 1.0.0
 
  -  Initial release

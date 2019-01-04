@@ -23,6 +23,14 @@ Use AMP for all supported pages | Set "No" to select supported pages manually
 Use AMP at | Select the pages that will use AMP
 Force AMP activation on | Allows to force AMP activation for mobile and tablet devices
 
+### Web
+
+![Web section](/images/m2/amp/configuration/section-web.png)
+
+Option | Description
+-------|------------
+Cookie Restriction Mode | Enable/Disable cookie restriction mode. This config depends on `Stores > Configuration > General > Web > Default Cookie Settings > Cookie Restriction Mode`.
+
 ### Product Page
 
 ![Product page section](/images/m2/amp/configuration/section-product.png)

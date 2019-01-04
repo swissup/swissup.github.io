@@ -29,7 +29,6 @@ Following pages are supported:
     -  All product types are supported with and without custom options
     -  Configurable "Configure and Buy" and full "Add to Cart" modes
         are [available](configuration/#product-page)
-    -  Configurable products work in "Configure and Buy" mode only
 
 ### Contents
 
