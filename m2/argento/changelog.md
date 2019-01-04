@@ -7,6 +7,32 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.8.0
+
+> Jan 4, 2019
+
+{% include gallery.html images=site.data.gallery.m2.argento.changelog.v180 class="phone-up-1 tablet-up-3 photoswipe scroll" %}
+
+ -  Mobile-view styles improvements for the homepage in Argento Stripes theme.
+ -  A lot of tiny mobile-view improvements in the header for all themes:
+    - Icons alignment
+    - Border and background color fixes
+    - Logo alignment
+ -  More SEO features!
+    - [CrossLinks](/m2/extensions/seo-cross-links/)
+    - [Canonical URL](/m2/extensions/seo-canonical/)
+    - And a lot of must-have [fixes and improvements](/m2/extensions/seo-suite/changelog/#version-130)
+ -  AMP improvements:
+    - "Add to cart" support for configurable products added
+    - Magento 2.1 compatibility
+    - Rich snippets support added
+    - Attributepages support added
+ -  Fixed 'Phantom Scrolling' bug in Chrome, when sticky menu us used
+
+**Extensions Updates**
+
+ -  Changelog is not ready yet
+
 ### Version 1.7.2
 
 > Dec 4, 2018

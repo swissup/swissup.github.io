@@ -1,0 +1,20 @@
+- href: /images/m2/argento/changelog/180/headers.png
+  src: /images/m2/argento/changelog/180/small/headers.png
+  title: >
+    Fixed icons and logo alignment in all themes
+  w: 797
+  h: 721
+- href: /images/m2/argento/changelog/180/stripes-homepage.png
+  src: /images/m2/argento/changelog/180/small/stripes-homepage.png
+  title: >
+    Fixed icons and logo alignment in header. Banners grouped into single row
+    to give more space for popular products listings.
+  w: 977
+  h: 884
+- href: /images/m2/argento/changelog/180/stripes-homepage-listing.png
+  src: /images/m2/argento/changelog/180/small/stripes-homepage-listing.png
+  title: >
+    Too big and clumsy carousels replaced with compact and fast blocks with
+    native scrollbars.
+  w: 977
+  h: 884
