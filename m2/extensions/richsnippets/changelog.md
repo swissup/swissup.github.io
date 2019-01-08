@@ -8,6 +8,12 @@ category: Rich Snippets
 
 # Changelog
 
+### Version 1.3.1
+
+> Jan 8th, 2019
+
+ -  Fix PHP error that occured at some Magento instances at module Configuration page.
+
 ### Version 1.3.0
 
 > Dec 21st, 2018
