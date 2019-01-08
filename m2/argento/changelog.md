@@ -18,20 +18,43 @@ category: Argento
     - Icons alignment
     - Border and background color fixes
     - Logo alignment
- -  More SEO features!
+ -  **More SEO features!**
     - [CrossLinks](/m2/extensions/seo-cross-links/)
     - [Canonical URL](/m2/extensions/seo-canonical/)
     - And a lot of must-have [fixes and improvements](/m2/extensions/seo-suite/changelog/#version-130)
- -  AMP improvements:
+ -  **AMP improvements**
     - "Add to cart" support for configurable products added
-    - Magento 2.1 compatibility
     - Rich snippets support added
     - Attributepages support added
+    - Highlight pages support added
+    - Cookie restriction mode added
+    - Magento 2.1 and 2.2 compatibility fixes
+
+**Fixes and improvements**
+
  -  Fixed 'Phantom Scrolling' bug in Chrome, when sticky menu us used
+ -  Fixed empty sidebar menu in Safari browser in ArgentoFlat and ArgentoPure2 themes
+ -  Fixed missing product image at the shopping cart page
+ -  Fixed scroll to footer on page resize
+ -  Fixed scroll to product list in ArgentoStripes and ArgentoLuxury themes at the
+    category pages, when layered navigation is enabled
 
 **Extensions Updates**
 
- -  Changelog is not ready yet
+Almost all modules were updated with small improvements and fixes. Here is a few
+highlighted changes:
+
+ -  Many small fixes into variety of modules:
+    - Better Magento 2.1 and 2.2 compatibility
+    - CSS fixes and code cleanup
+ -  Bugfixes:
+    - Askit (Askit form on the homepage)
+    - Easybanner (Broken backend charts on slow networks)
+    - Highlight (Mobile style fixes)
+    - Prolabels (Improved labels calculation for the children of configurable product,
+        Fixed label reindex in Magento Commerce version)
+    - SoldTogether (Fixed DB error during reindex, Magento 2.3 fixes, carousel
+        styles fixes)
 
 ### Version 1.7.2
 
