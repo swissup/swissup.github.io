@@ -1,0 +1,15 @@
+- href: /images/m2/easyflags/flags-one-line.png
+  src: /images/m2/easyflags/small/flags-one-line.png
+  title: Language switcher - one line mode
+  w: 784
+  h: 576
+- href: /images/m2/easyflags/flags-dropdown.png
+  src: /images/m2/easyflags/small/flags-dropdown.png
+  title: Language switcher - dropdown mode
+  w: 784
+  h: 424
+- href: /images/m2/easyflags/flags-popup.png
+  src: /images/m2/easyflags/small/flags-popup.png
+  title: Language switcher - modal popup mode
+  w: 800
+  h: 540
