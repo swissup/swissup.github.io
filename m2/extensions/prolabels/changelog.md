@@ -8,6 +8,22 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.2.6
+
+> Jan 15th, 2019
+
+ -  8 new prolable presets with Font Awesome icons. Search for "hexagon" in presets. You may need [Font Awesome module](https://github.com/swissup/module-font-awesome) to get full advantage of new presets.
+
+    ![New labels](/images/m2/prolabels/changelog/version-1_2_6.png)
+
+ -  Small source code improvements and optimizations.
+
+### Version 1.2.5
+
+> Jan 4th, 2019
+
+ -  Fix issues with caching of In Stock label.
+
 ### Version 1.2.4
 
 > Jan 2nd, 2019

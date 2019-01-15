@@ -23,7 +23,7 @@ Since version 1.1.0 module is significantly improved. Our main goal is simple an
 
 Almost 20 presets provides you an inspiration to create your own eye-catching label.
 
-![ProLabels presets](/images/m2/prolabels/presets-110.png)
+![ProLabels presets](/images/m2/prolabels/presets-120.png)
 
 ### Contents
 
