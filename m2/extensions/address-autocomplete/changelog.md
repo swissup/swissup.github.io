@@ -7,6 +7,14 @@ category: Address Autocomplete
 
 # Changelog
 
+### Version 1.2.0
+
+> Jan 15, 2019
+
+ -  Added ability to fill housenumber into [custom address field](/m2/extensions/address-autocomplete/configuration/).
+    Both Magento Commerce Edition and our [AddressFieldManager](/m2/extensions/address-field-manager/)
+    are suported.
+
 ### Version 1.1.1
 
 > Nov 01, 2018
