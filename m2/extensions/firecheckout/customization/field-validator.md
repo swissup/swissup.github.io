@@ -34,6 +34,11 @@ define([
     validator('[name="firstname"]', {
         'alphanumeric': true
     });
+    
+    // built-in 'range' validator from Magento/Ui/view/base/web/js/lib/validation/rules.js
+    validator('[name="custom_attributes[field]"]', {
+        'validate-number-range': '10-20'
+    });
 
     // custom UK postcode validator
     // (Any custom validator should start from `fc-custom-rule` prefix)
