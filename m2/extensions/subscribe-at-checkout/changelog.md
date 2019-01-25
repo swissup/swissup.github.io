@@ -8,6 +8,12 @@ category: SubscribeAtCheckout
 
 # Changelog
 
+### Version 1.2.1
+
+ -  Move subscribe checkbox out of shipping section.
+    This improves compatibility with third-party store-pickup modules
+    that hide shipping section.
+
 ### Version 1.1.0
 
  -  Use standard html markup for checkbox element

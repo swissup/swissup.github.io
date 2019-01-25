@@ -20,6 +20,7 @@ category: Firecheckout
         - [Move order totals below cart items](move-order-totals-below-cart-items/)
         - [Hide useless checkout section](hide-useless-checkout-section/)
         - [Move.js utility](move-js/)
+        - [Collapsible.js utility](collapsible-js/)
     - Form Fields
         - [Field manager](field-manager/) (Manage field Mask/Formatter, Label,
             Placeholder, CSS class, Attribute, Validator, and Newline.)
@@ -32,4 +33,5 @@ category: Firecheckout
     - [Email double verification](use-cases/email-verification-field/)
     - [Business account checkbox](use-cases/business-account-checkbox/)
     - [Move Checkout Fields to the Order Summary](use-cases/move-checkout-fields-to-order-summary/)
+    - [Collapsible Checkout Fields section](use-cases/collapsible-checkout-fields/)
     - [Combine several use cases](use-cases/combine-several-use-cases/)

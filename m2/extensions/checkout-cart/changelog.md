@@ -8,6 +8,12 @@ category: Checkout Cart
 
 # Changelog
 
+### Version 1.4.1
+
+ -  Fixed missing shipping rates when GiftRegistry address is used
+ -  Fixed error when grouped product added to cart (When simple products are
+    not visible in catalog)
+
 ### Version 1.3.0
 
  -  Allow to use html entities (Like these: ® ©) in product names

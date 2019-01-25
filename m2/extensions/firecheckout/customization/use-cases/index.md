@@ -12,4 +12,5 @@ category: Firecheckout
  -  [Email double verification](/m2/extensions/firecheckout/customization/use-cases/email-verification-field/)
  -  [Business account checkbox](/m2/extensions/firecheckout/customization/use-cases/business-account-checkbox/)
  -  [Move Checkout Fields to the Order Summary](/m2/extensions/firecheckout/customization/use-cases/move-checkout-fields-to-order-summary/)
+ -  [Collapsible Checkout Fields section](/m2/extensions/firecheckout/customization/use-cases/collapsible-checkout-fields/)
  -  [Combine several use cases](/m2/extensions/firecheckout/customization/use-cases/combine-several-use-cases/)

@@ -8,6 +8,56 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.17.0
+
+> Jan 25, 2019
+
+It's all about the gifts!
+
+GiftMessages support added to the firecheckout page for both Magento Community
+and Magento Commerce editions.
+
+GiftWrapping, GiftRegistry, GiftReceipt, and PrintedCards support added for
+Magento Commerce Edition.
+
+{% include gallery.html images=site.data.gallery.m2.firecheckout.changelog.v1170 class="phone-up-2 tablet-up-3 photoswipe scroll" %}
+
+**New Features**
+
+ -  GiftMessages support added. You can now edit them directly from the
+    firecheckout page.
+ -  MagentoCommerce features integrated:
+    - GiftWrapping
+    - Fixed missing billing address when GiftRegistry address is used
+    - Improved styles of StoreCredit and RewardPoints blocks
+ -  [Collapsible.js](/m2/extensions/firecheckout/customization/collapsible-js/) utility added
+
+**Fixed and Improvements**
+
+ -  Fixed possible issue with invalid billing address selected
+ -  Fixed wrong step numbers alignment on some third-party themes
+ -  Fixed invisible "Subscribe to Newsletter" checkbox when shipping address
+    is hidden by a third-party module
+ -  Small CSS and JS fixes
+
+**Modules Updates**
+
+**swissup/module-address-autocomplete — 1.2.0** (was 1.1.1)
+
+ -  Added ability to place housenumber into custom address field
+
+**swissup/module-checkout-cart — 1.4.1** (was 1.4.0)
+
+ -  Fixed missing shipping rates when GiftRegistry address is used
+ -  Fixed js error when grouped product added to cart (When simple products are
+    not visible in catalog)
+
+**swissup/module-subscribe-at-checkout — 1.2.1** (was 1.2.0)
+
+ -  Move the checkbox out of shipping section.
+    (This improves compatibility with third-party store-pickup modules
+    that hide shipping section)
+
 ### Version 1.16.0
 
 > Dec 19, 2018

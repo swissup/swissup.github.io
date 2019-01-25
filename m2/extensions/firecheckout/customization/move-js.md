@@ -1,9 +1,9 @@
 ---
 layout: default
 title: Move.js utility
-description: How to apply mask/formatter to some checkout field on Magento 2
+description: How to move some elements from one place to another
 keywords: >
-    field mask, field formatter
+    move.js
 category: Firecheckout
 ---
 
