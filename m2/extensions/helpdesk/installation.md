@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Ajaxpro installation
+title: Helpdesk installation
 description: Helpdesk installation instructions
 keywords: "Helpdesk installation"
 category: Helpdesk
