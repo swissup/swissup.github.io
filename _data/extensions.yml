@@ -417,7 +417,7 @@ qty-switcher:
   short_description:
   urls:
     m1: /m1/extensions/qty-switcher/
-    m2:
+    m2: /m2/extensions/qty-switcher/
 
 quickshopping:
   title: Quick Shopping
