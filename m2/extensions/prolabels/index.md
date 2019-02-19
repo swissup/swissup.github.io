@@ -32,5 +32,7 @@ Almost 20 presets provides you an inspiration to create your own eye-catching la
 * [Configuration](configuration/)
 * [Admin Interface](interfaces/)
 * [Predefined Variables](predefined/)
+* [Use Cases](use-cases/)
+    * [ProLabels do not appear at category page](use-cases/#prolabels-do-not-appear-at-category-page)
 * [Support](https://swissuplabs.com/contacts/)
 * [Forum](https://swissuplabs.com/magento-forum/)
