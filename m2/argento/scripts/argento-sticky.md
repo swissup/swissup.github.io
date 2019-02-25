@@ -97,7 +97,7 @@ define([
 
     // or enable
     // if($ ('.header.wrapper').length){
-    //     $(".header.wrapper").data('argentoArgentoSticky').disable();
+    //     $(".header.wrapper").data('argentoArgentoSticky').enable();
     // }
 });
 ```
