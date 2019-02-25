@@ -101,6 +101,8 @@ Default Responsive Images Sizes  | [Default sizes atribute values](https://devel
 
 #### Lazy loader for images
 
+![Image Lazy load settings](/images/m2/pagespeed/configuration/image-lazy-settings.png)
+
 Option  | Description
 --------|-------------------------------------------
 Enable  | Allows to enable/disable image [lazy loading](https://github.com/aFarkas/lazysizes) (Yes)
