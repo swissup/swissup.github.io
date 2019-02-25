@@ -14,11 +14,12 @@ category: Pagespeed
 
 ![Main section](/images/m2/pagespeed/configuration/main.png)
 
-Option                   | Description
--------------------------|--------------------------------------------------
-Enable                   | Allows to enable/disable pagespeed per store view
-Enable in developer mode | Allows to enable/disable pagespeed per in [developer mode](https://devdocs.magento.com/guides/v2.2/config-guide/bootstrap/magento-modes.html)
-Test GZIP compression    | Test gzip compression support on your web server
+Option                     | Description
+---------------------------|--------------------------------------------------
+Enable                     | Allows to enable/disable pagespeed per store view
+Enable in developer mode   | Allows to enable/disable pagespeed per in [developer mode](https://devdocs.magento.com/guides/v2.2/config-guide/bootstrap/magento-modes.html)
+Test GZIP compression      | Test gzip compression support on your web server
+Server HTTP/2 push enabled | Enable/disable native [HTTP/2](https://en.wikipedia.org/wiki/HTTP/2) support
 
 ### Minify HTML Content section
 
@@ -90,9 +91,12 @@ sudo apt install gifsicle
 php bin/magento catalog:images:resize
 ~~~
 
-Option | Description
--------|-----------------------------------------------
-Enable | Allows to enable/disable image auto opmisation (Yes)
+Option                           | Description
+---------------------------------|-----------------------------------------------------
+Enable                           | Allows to enable/disable image auto opmisation (Yes)
+Enable WebP Support              | Enable/disable webp image detecting and generating
+Enable Responsive Images Support | Enable/disable [responsive images](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images) detecting and generating (0.5x, 0.75x, 2x, 3x)
+Default Responsive Images Sizes  | [Default sizes atribute values](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images#Resolution_switching_Different_sizes)
 
 
 #### Lazy loader for images

@@ -8,6 +8,25 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.2.0
+
+**Features**
+- Add Responsive Images feature
+- Add HTTP/2 support
+- Add webp image support
+- Add console command swissup:pagespeed:images:resize
+- Add font-display:swap by default for @font-face in merged css
+- Add profiling
+
+**Fixes**
+- Fix ignore lazyload bug
+- Fix Zend_Dom_Query class not exist
+- Fix </script> inside scrip
+- Fix undefined CURL_HTTP_VERSION_2_0
+- Fix gzip checking
+- Improve deferjs optimizer
+- Add AMP checking ?amp=1
+
 ### Version 1.1.0
 
 - Rename composer package
