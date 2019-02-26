@@ -12,6 +12,7 @@ category: Argento
 > Feb 26, 2019
 
  -  **Quantity Switcher** [module added](/m2/extensions/qty-switcher/)
+ -  **8 New badges** added to [ProLabels module](/m2/extensions/prolabels/#version-126)
 
 **Fixes and improvements**
 
@@ -21,6 +22,7 @@ category: Argento
  -  Fixed header styles in ArgentoFlat for medium screens
  -  Fixed broken editor in custom CSS field when js minification is enabled
  -  Fixed incorrect markup in product image in AMP site version
+ -  Fixed incorrect canonical URL for homepage
 
 **Extensions Updates**
 
@@ -30,8 +32,10 @@ category: Argento
     [AjaxPro](/m2/extensions/ajaxpro/changelog/#version-143),
     [AMP](/m2/extensions/amp/changelog/#version-121),
     [Askit](/m2/extensions/askit/changelog/#version-140),
+    [EasyCatalogImages](/m2/extensions/easycatalogimages/changelog/#version-141),
     [NavigationPro](/m2/extensions/navigationpro/changelog/#version-192),
     [Highlight](/m2/extensions/highlight/changelog/#version-151),
+    [RichSnippets](/m2/extensions/richsnippets/changelog/#version-131),
     [Testimonials](/m2/extensions/testimonials/changelog/#version-123),
     Suggestpage,
     and [SeoCrossLinks](/m2/extensions/seo-cross-links/changelog/#version-101)

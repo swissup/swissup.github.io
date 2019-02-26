@@ -8,6 +8,10 @@ category: EasyCatalogImages
 
 # Changelog
 
+### Version 1.4.1
+
+ -  Fixed possible PHP warning on PHP 7.2
+
 ### Version 1.3.0
 
  -  Added ability to use widget with categories of one StoreGroup at another
