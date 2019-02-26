@@ -11,9 +11,9 @@ category: Argento
 
 > Feb 26, 2019
 
- -  New option for Luxury design - enable/disaple transparent header for homepage.
+ -  New option for Luxury design - enable/disable transparent header for homepage.
  -  Improved RTL styles for Luxury and Essence design.
- -  Optimize menu sticking for Flat design. Reduce JavaScript resource consuming.
+ -  Optimize menu sticking for Flat design. Reduce JavaScript resource consumption.
  -  Improved compatibility with PHP 7.2.
 
 **Modules fixes & improvements**
