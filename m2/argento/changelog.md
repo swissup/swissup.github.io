@@ -7,6 +7,34 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.9.0
+
+> Feb 26, 2019
+
+ -  **Quantity Switcher** [module added](/m2/extensions/qty-switcher/)
+
+**Fixes and improvements**
+
+ -  Fixed empty mobile navigation sidebar in ArgentoLuxury in Safari browser
+ -  Fixed product gallery styles for RTL locales
+ -  Fixed footer overlapping issue in IE11
+ -  Fixed header styles in ArgentoFlat for medium screens
+ -  Fixed broken editor in custom CSS field when js minification is enabled
+
+**Extensions Updates**
+
+ -  **AjaxSearch**: Added ability to disable directly from module configuration
+ -  **Askit**: Added ability to write response in with html tags (for Admin users only)
+ -  Small fixes in
+    [AjaxPro](/m2/extensions/ajaxpro/changelog/#version-143),
+    [Askit](/m2/extensions/askit/changelog/#version-140),
+    [NavigationPro](/m2/extensions/navigationpro/changelog/#version-192),
+    [Highlight](/m2/extensions/highlight/changelog/#version-151),
+    [Testimonials](/m2/extensions/testimonials/changelog/#version-123),
+    Suggestpage,
+    and [SeoCrossLinks](/m2/extensions/seo-cross-links/changelog/#version-101)
+    modules.
+
 ### Version 1.8.0
 
 > Jan 4, 2019

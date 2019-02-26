@@ -6,6 +6,13 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.4.3
+
+> Feb 26, 2019
+
+ -  Javascript fixes for modal window
+ -  Fixed css style issue, when using "floating cart" design
+
 ### Version 1.4.2
 
 **Features**

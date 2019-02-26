@@ -8,6 +8,12 @@ category: Highlight
 
 # Changelog
 
+### Version 1.5.1
+
+> Feb 26, 2019
+
+ -  MagazineLayout: Replaced background image with img tag in title background.
+
 ### Version 1.5.0
 
 > Jan 04, 2019

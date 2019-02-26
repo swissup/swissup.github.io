@@ -8,6 +8,14 @@ category: Testimonials
 
 # Changelog
 
+### Version 1.2.3
+
+> Feb 26, 2019
+
+ -  Fixed wrong php doc statement
+ -  Fixed compatibility with latest SlickCarousel version
+ -  Code cleanup
+
 ### Version 1.1.0
 
 [Upgrade Instructions](/m2/extensions/testimonials/upgrade-instructions)

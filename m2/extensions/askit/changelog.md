@@ -11,6 +11,14 @@ category: AskIt
 
 # Changelog
 
+### Version 1.4.0
+
+> Feb 26, 2019
+
+ -  Added ability to write response with HTML code (for admin users only)
+ -  Removed duplicate ids in HTML output
+ -  Disaply proper questions and answers on the "Edit Cart Item" page
+
 ### Version 1.3.1
 
  -  Fixed form visibility at the homepage

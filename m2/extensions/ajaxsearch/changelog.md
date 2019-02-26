@@ -8,6 +8,12 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.5.0
+
+> Feb 26, 2019
+
+ -  Added ability to disable module via backend configuration
+
 ### Version 1.4.2
 
 > Jan 04, 2019

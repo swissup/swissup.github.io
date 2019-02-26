@@ -8,6 +8,12 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.9.2
+
+> Feb 26, 2019
+
+ -  Improved internal logic is Menu-Builder script
+
 ### Version 1.9.1
 
 > Jan 04, 2019
