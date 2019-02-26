@@ -7,6 +7,12 @@ category: Email
 
 # Changelog
 
+### Version 1.1.12
+
+> Feb 26, 2019
+
+ -  Fix minor typo to get proper translation text.
+
 ### Version 1.1.11
 
 - Fix critical config_path error

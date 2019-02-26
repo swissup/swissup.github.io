@@ -8,6 +8,12 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.6.1
+
+> Feb 26, 2019
+
+ -  Fix page jumping on scroll at mobile devices when nowrap feature for menu is enabled.
+
 ### Version 1.6.0
 
  -  New awesome [*Nowrap* feature](../use-cases/nowrap/). It always keep top level menu items in single row. And it is responsive.
