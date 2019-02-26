@@ -32,6 +32,14 @@ gallery:
 
 # AskIt Changelog
 
+### Version 2.3.15
+
+> Feb 26, 2019
+
+ -  Fix empty customer name in emails.
+ -  Add plain text section to email templates to improve emails quality.
+ -  Few minor improvements to frontend templates (simplify layout and render elements only when it is necessary).
+
 ### Version 2.3.13
 
  -  Fixed ‘reached 100 match iterations’ when URL end with /.

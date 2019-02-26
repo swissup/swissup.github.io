@@ -6,6 +6,12 @@ category: Easy Banners
 sidebar: sidebar.md
 ---
 
+### Version 1.7.5
+
+> Feb 26, 2019
+
+ -  Fixed slow scrolling performance in Chrome when fixed banners are shown.
+
 ### Version 1.7.4
 
   -  Use unified image uploader from TM Core in admin interfaces.
