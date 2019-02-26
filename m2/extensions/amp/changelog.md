@@ -8,6 +8,14 @@ category: Accelerated Mobile Pages
 
 # Changelog
 
+### Version 1.2.1
+
+> Feb 26, 2019
+
+ -  Fixed broken image 'alt' tag when double-quotes are used in image title
+ -  Fixed invalid product image markup on Luma-based themes (Invalid 'max-width'
+    and 'max-height' attributes)
+
 ### Version 1.2.0
 
 > Jan 4, 2019

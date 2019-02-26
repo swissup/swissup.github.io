@@ -20,6 +20,7 @@ category: Argento
  -  Fixed footer overlapping issue in IE11
  -  Fixed header styles in ArgentoFlat for medium screens
  -  Fixed broken editor in custom CSS field when js minification is enabled
+ -  Fixed incorrect markup in product image in AMP site version
 
 **Extensions Updates**
 
@@ -27,6 +28,7 @@ category: Argento
  -  **Askit**: Added ability to write response in with html tags (for Admin users only)
  -  Small fixes in
     [AjaxPro](/m2/extensions/ajaxpro/changelog/#version-143),
+    [AMP](/m2/extensions/amp/changelog/#version-121),
     [Askit](/m2/extensions/askit/changelog/#version-140),
     [NavigationPro](/m2/extensions/navigationpro/changelog/#version-192),
     [Highlight](/m2/extensions/highlight/changelog/#version-151),
