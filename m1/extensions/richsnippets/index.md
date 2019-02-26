@@ -19,3 +19,4 @@ Our module also enables the **breadcrumbs** trail display in rich snippets. This
 - [Configuration](configuration/)
 - [Testing your site with Google Rich Snippets testing tool](testing/)
 - [FAQ](faq/)
+- [Changelog](changelog/)

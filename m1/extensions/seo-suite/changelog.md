@@ -8,6 +8,27 @@ category: SEO Suite
 
 # Changelog
 
+### Version 0.6.6
+
+> Feb 26, 2019
+
+ -  Metadata templates:
+     +  Improve module stability during metadata generation (prevent php error 'call getFrontend on non-object').
+
+ -  Rich Snippets:
+     +  Don't add social links to organization snippet when there is no values in social links.
+
+ -  HTML Sitemap:
+     +  Add canonical URL to sitemap page.
+
+### Version 0.6.5
+
+ *  Rich Snippets:
+     -   Fix validation error “id is null” at product page.
+
+ *  HTML Sitemap:
+     -  Show only enabled CMS pages in sitemap.
+
 ### Version 0.6.4
 
  -  Metadata Templates: improved `attribute` directive output for numeric attributes (truncate trailing zeros in decimal part).
