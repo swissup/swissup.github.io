@@ -8,6 +8,12 @@ category: Prolabels
 
 # Changelog
 
+### Version 2.7.15
+
+> Feb 26, 2019
+
+ -  Fix Integrity constraint violation error for manual labels when Customer Groups filter is enabled.
+
 ### Version 2.7.14
 
   -  Use unified image uploader from TM Core in admin interfaces.

@@ -8,6 +8,12 @@ category: Testimonials
 
 # Changelog
 
+### Version 1.3.1
+
+> Oct 31, 2018
+
+ -  Fixed rating stars validation.
+
 ### Version 1.3.0
 
  -  Compatibily with GDPR module that comes with [Argento Package](/m1/argento/).

@@ -7,6 +7,12 @@ category: Page Speed
 
 # Changelog
 
+### Version 1.3.5
+
+> Feb 26, 2019
+
+ -  Improved compatibility with TM AMP and others third-party extensions.
+
 ### Version 1.3.4
 
 - Improve mass restore action
