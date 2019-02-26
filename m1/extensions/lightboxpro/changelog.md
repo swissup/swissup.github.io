@@ -8,6 +8,14 @@ category: Lightbox Pro
 
 # Changelog
 
+### Version 1.3.2
+
+> Feb 26, 2019
+
+ -  New option for product page image. You can select between default layout with thumbnails and slider with all images. Find new option at extension config page under section 'General'. Option name is 'Product Image layout'.
+ -  Overall code improvements.
+ -  RTL support in new slider for product images.
+
 ### Version 1.2.7
 
  -  Use unified image uploader from TM Core in module's widgets.

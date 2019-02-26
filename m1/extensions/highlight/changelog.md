@@ -8,6 +8,12 @@ category: Highlight
 
 # Changelog
 
+### Version 2.7.2
+
+> Feb 26, 2019
+
+ -  Improve PHP 7.2 compatibility.
+
 ### Version 2.7.1
 
  -  Fixed js error, when too old jQuery is used

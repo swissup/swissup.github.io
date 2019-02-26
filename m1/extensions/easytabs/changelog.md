@@ -7,6 +7,13 @@ category: Easy Tabs
 sidebar: sidebar.md
 ---
 
+### Version 3.2.1
+
+> Feb 26, 2019
+
+ -  Fix missing conditions on 2nd level in product tabs.
+
+
 ### Version 3.2.0
 
  -  New tabs layout - expanded tabs. You can change tabs layout in extension system config or in widget options.

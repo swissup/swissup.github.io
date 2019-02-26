@@ -8,6 +8,13 @@ category: AjaxPro
 
 # Changelog
 
+### Version 3.3.24
+
+> Feb 26, 2019
+
+ -  Improve handling of Magento messages after adding product to cart when Stock Inventory is enabled.
+ -  Improve Ultimo theme integration.
+
 ### Version 3.3.22
 
  -  Fix JavaScript error on shopping cart page when AjaxPro is disabled for this page.
