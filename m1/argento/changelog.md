@@ -7,9 +7,45 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.13.0
+
+> Feb 26, 2019
+
+ -  New option for Luxury design - enable/disaple transparent header for homepage.
+ -  Improved RTL styles for Luxury and Essence design.
+ -  Optimize menu sticking for Flat design. Reduce JavaScript resource consuming.
+ -  Improved compatibility with PHP 7.2.
+
+**Modules fixes & improvements**
+
+ -  Ajax Pro:
+     + Improve handling of Magento messages after adding product to cart when Stock Inventory is enabled.
+ 
+ -  Ask It:
+     +  Add plain text section to email templates to improve emails quality.
+     +  Few minor improvements to frontend templates (simplify layout and render elements only when it is necessary).
+
+ -  Easybanner:
+     +  Fixed slow scrolling performance in Chrome when fixed banners are shown.
+ 
+ -  Navigation Pro:
+     +  Fix page jumping on scroll at mobile devices when nowrap feature for menu is enabled.
+ 
+ -  Pagespeed:
+     +  Improved compatibility with AMP and others third-party extensions.
+ 
+ -  Pro Labels:
+     +  Fix Integrity constraint violation error for manual labels when Customer Groups filter is enabled.
+ 
+ -  SEO Suite:
+     +  Metadata templates - improve module stability during metadata generation.
+     +  Rich Snippets - don’t add social links to organization snippet when there is no values in social links.
+     +  HTML Sitemap - add canonical URL to sitemap page.
+
+
 ### Version 1.12.0
 
-> 30th Oct, 2018
+> Oct 30, 2018
 
  -  [PageSpeed](/m1/extensions/pagespeed/) extension included into Argento package.
  -  Overall themes and extension stability improvements (AjaxPro, EasyTabs, Highlight).
