@@ -10,16 +10,8 @@ category: Firecheckout
 
 > Tested on version 4.3.0
 
-Open `app/design/frontend/base/default/template/klarnapayments/api.phtml` and apply the
-following patch:
+Navigate to _System > Configuration > TM Checkout > Firecheckout > Ajax Save and Reload Rules_
 
-```diff
---- api.phtml
-+++ api.phtml
--    var klarnaPaymentArray = [];
-+    if (typeof klarnaPaymentArray === 'undefined') {
-+        var klarnaPaymentArray = [];
-+    }
-```
+Add `Zip/Postal Code` to the "Billing Address" save rules and save config.
 
 That's all!
