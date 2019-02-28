@@ -82,7 +82,9 @@ category: Firecheckout
                      $html = $this->_prepareFrontendHtml($transport, 'billing');
                  }
     +        } elseif ($block instanceof Mage_Checkout_Block_Onepage_Billing) {
-    +            if ('firecheckout' === $block->getRequest()->getRouteName()) {
+    +            if ('firecheckout' === $block->getRequest()->getRouteName() &&
+    +                $block->getNameInLayout() == "checkout.onepage.billing")
+    +            {
     +                $html = $this->_prepareFrontendHtml($transport, 'billing', '<script type="text/javascript"', true);
     +            }
              }
