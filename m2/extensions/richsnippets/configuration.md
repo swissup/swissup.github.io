@@ -30,6 +30,16 @@ We minify JSON-LD data to reduce page size. You can turn it off with `Minify str
 
 `Enabled` - select **Yes** to enable a breadcrumbs in structured data.
 
+### Product Structured Data
+
+> Settings works only with structured data format JSON-LD.
+
+![Product structured data settings](/images/m2/rich-snippets/config-product.png)
+
+Structured data for product can contain different values. `Brand` is one of them. Different stores can name product brand differently (producer, manufacturer, brand, etc.). With option `Product Brand Attribute` you select wich product attribute structered data should use as "brand".
+
+Other possible info for structed data of product is its condition. By default, product condition is "New". To specify attribute that should be consider as condition use option `Product Condition Attribute`. Options below help you to setup its proper values.
+
 ### Organization
 
 ![Organization settings](/images/m2/rich-snippets/config-organization.png)
