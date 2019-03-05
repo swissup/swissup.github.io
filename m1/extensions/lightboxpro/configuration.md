@@ -20,7 +20,16 @@ category: Lightbox Pro
 
 ![Lightbox popup](/images/m1/extensions/lightbox-pro/general.png)
 
-Select **Yes** to enable Lightbox Pro extension. You have also to select the pre-configured type for image.
+Select **Yes** to enable Lightbox Pro extension.
+
+You can also select style of popup window for image:
+ -  drop shadow;
+ -  glossy-dark;
+ -  outer-glow;
+ -  rounded-black;
+ -  rounded-white.
+
+With option `Product Image layout` you can choose between default layout with thumbnails and slider with all images. 
 
 ### Image sizes
 
