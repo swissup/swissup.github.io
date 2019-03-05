@@ -14,7 +14,7 @@ You can find theme settings at `System > Configuration > TM Argento Themes > Lux
 #### Home Page
 
 In Luxury theme you can use alternative logo on homepage.
-Here you can upload logo for normal and retina displays.
+Here you can upload logo for normal and retina displays. And toggle transparent header on homepage.
 
 ![Home Page](/images/argento/luxury/configuration/home_page.png)
 
