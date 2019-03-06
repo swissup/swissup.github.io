@@ -7,6 +7,12 @@ category: Address Autocomplete
 
 # Address Autocomplete Changelog
 
+### Version 1.1.5
+
+> Mar 06, 2019
+
+ -  Improve city recognition for City in Brazil
+
 ### Version 1.1.4
 
  -  UK address autocomplete improvement. Fixed missing town field
