@@ -7,6 +7,23 @@ category: Firecheckout
 
 # Changelog
 
+### Version 4.3.6
+
+> Mar 06, 2019
+
+ -  Improve city recognition for City in Brazil when using AddressAutocomplete feature
+ -  Fixed broken Paypal (hss/link/payflow) at standard checkout when firecheckout module is enabled
+ -  Fixed disabled ajax settings when configuring firecheckout on store level
+
+**Third-party modules**
+
+ -  Improved integration with third-party agreement modules
+ -  Updated integration with TIG_MyParcel2014 (v.1.17.1)
+ -  Integration with GLS shipping methods added
+ -  Updated integration with Klarna_Payments (4.3.0)
+ -  Fix Amasty order attribute duplication in review section
+ -  Updated Cryozonic_Stripe integration (3.3.0)
+
 ### Version 4.3.5
 
 > Nov 08, 2018
