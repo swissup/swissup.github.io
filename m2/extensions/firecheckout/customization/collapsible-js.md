@@ -18,7 +18,7 @@ Syntax examples:
 ```js
 define([
     'Swissup_Firecheckout/js/utils/collapsible'
-], function(move) {
+], function(collapsible) {
     'use strict';
 
     // Basic example
