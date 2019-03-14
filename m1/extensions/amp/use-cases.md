@@ -9,14 +9,8 @@ sidebar: sidebar.md
 
 ### Contents
 
-<!-- MarkdownTOC -->
-
-- [Set image layout](#set-image-layout)
-- [Change image src](#change-image-src)
-- [Change css class name](#change-css-class-name)
-- [Remove review stars from products list](#remove-review-stars-from-products-list)
-
-<!-- /MarkdownTOC -->
+* TOC
+{:toc}
 
 ### Set image layout
 
@@ -66,6 +60,34 @@ Here is an example of how to do that and do not affect desktop theme:
 
 Where `list-unstyled` - is a AMP supported
 [css class name](/m1/extensions/amp/customization/css-helpers/).
+
+### Remove tag attributes
+
+> Available since 1.7.0
+
+Sometimes you may want to remove some attributes from existing element.
+
+Here is an example of how to do that and do not affect desktop theme:
+
+```html
+<div attribute="value" another_one="value" data-tmamp-remove="attribute,another_one">
+    ...
+</div>
+```
+
+### Remove tag
+
+> Available since 1.7.0
+
+Sometimes you may want to completely remove some element.
+
+Here is an example of how to do that and do not affect desktop theme:
+
+```html
+<div data-tmamp-remove="!">
+    ...
+</div>
+```
 
 ### Remove review stars from products list
 

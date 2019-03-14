@@ -7,6 +7,14 @@ category: Accelerated Mobile Pages
 sidebar: sidebar.md
 ---
 
+### Version 1.7.0
+
+> Mar 19, 2019
+
+ -  Added ability to [remove tag](/m1/extensions/amp/use-cases/#remove-tag) from AMP pages
+ -  Added ability to [remove selected tag attributes](/m1/extensions/amp/use-cases/#remove-tag-attributes)
+    from AMP pages
+
 ### Version 1.6.4
 
  -  Updated deprecated mustache library to the version 0.2

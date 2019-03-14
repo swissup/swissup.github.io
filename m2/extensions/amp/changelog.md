@@ -12,8 +12,9 @@ category: Accelerated Mobile Pages
 
 > Mar 14, 2019
 
- -  Added ability to remove tag from AMP pages
- -  Added ability to remove selected tag attributes from AMP pages
+ -  Added ability to [remove tag](/m2/extensions/amp/use-cases/#remove-tag) from AMP pages
+ -  Added ability to [remove selected tag attributes](/m2/extensions/amp/use-cases/#remove-tag-attributes)
+    from AMP pages
 
 ### Version 1.2.1
 
