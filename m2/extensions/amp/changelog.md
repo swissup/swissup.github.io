@@ -8,6 +8,13 @@ category: Accelerated Mobile Pages
 
 # Changelog
 
+### Version 1.3.0
+
+> Mar 14, 2019
+
+ -  Added ability to remove tag from AMP pages
+ -  Added ability to remove selected tag attributes from AMP pages
+
 ### Version 1.2.1
 
 > Feb 26, 2019

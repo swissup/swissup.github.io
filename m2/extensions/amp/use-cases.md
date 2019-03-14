@@ -7,15 +7,8 @@ category: Accelerated Mobile Pages
 
 # Use Cases
 
-### Contents
-
-<!-- MarkdownTOC -->
-
-- [Set image layout](#set-image-layout)
-- [Change image src](#change-image-src)
-- [Change css class name](#change-css-class-name)
-
-<!-- /MarkdownTOC -->
+* TOC
+{:toc}
 
 ### Set image layout
 
@@ -65,3 +58,31 @@ Where `list-unstyled` - is a AMP supported
 [css class name](/m2/extensions/amp/customization/css-helpers/).
 
 Please do not forget to clear Magento cache.
+
+### Remove tag attributes
+
+> Available since 1.3.0
+
+Sometimes you may want to remove some attributes from existing element.
+
+Here is an example of how to do that and do not affect desktop theme:
+
+```html
+<div attribute="value" another_one="value" data-swissupamp-remove="attribute,another_one">
+    ...
+</div>
+```
+
+### Remove tag
+
+> Available since 1.3.0
+
+Sometimes you may want to completely remove some element.
+
+Here is an example of how to do that and do not affect desktop theme:
+
+```html
+<div data-swissupamp-remove="!">
+    ...
+</div>
+```
