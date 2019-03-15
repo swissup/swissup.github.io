@@ -8,6 +8,17 @@ category: Email
 
 # Changelog
 
+### Version 0.2.4
+
+> Mar 11, 2019
+
+**Features**
+ - Added option for no authentication
+ - Added new option "None" for SMTP authentication type.
+ - 'preference' replaced with TransportPlugin
+ - Improve service(s) grid - click open service
+
+
 ### Version 0.2.3
 
 **Features**
