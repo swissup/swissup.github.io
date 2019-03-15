@@ -8,6 +8,14 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.5.1
+
+> Mar 11, 2019
+
+**Bugfixes**
+ -  Fixed bottleneck (getFormatPrice load all currencies)
+ -  Fixed unit tests
+
 ### Version 1.5.0
 
 > Feb 26, 2019
