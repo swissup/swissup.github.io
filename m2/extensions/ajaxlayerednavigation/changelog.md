@@ -7,6 +7,21 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.3.2
+
+> Mar 11, 2019
+
+**Features**
+ - Add block caching
+ - Query caching was added
+ - Compatibility with latest seo-urls feature - rel="nofollow"
+ - RTL styles
+ -
+
+**Bugfixes**
+ - Fixed product ids bottleneck
+ - Fix 2.2 EE compatability (magento/module-stagging); close #43
+
 ### Version 1.3.0
 
 **Features**
