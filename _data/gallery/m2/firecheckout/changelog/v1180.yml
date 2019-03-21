@@ -1,0 +1,10 @@
+- title: RTL support
+  href: /images/m2/firecheckout/changelog/1180/rtl.png
+  src: /images/m2/firecheckout/changelog/1180/small/rtl.png
+  w: 1334
+  h: 836
+- title: Ability to change styles from backend panel using LESS variables
+  href: /images/m2/firecheckout/changelog/1180/less-variables.png
+  src: /images/m2/firecheckout/changelog/1180/small/less-variables.png
+  w: 1004
+  h: 890

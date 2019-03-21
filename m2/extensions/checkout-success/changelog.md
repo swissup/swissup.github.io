@@ -8,6 +8,12 @@ category: Checkout Success
 
 # Changelog
 
+### Version 1.3.3
+
+> Mar 21, 2019
+
+ -  RTL languages support added
+
 ### Version 1.3.2
 
 > Dec 04, 2018

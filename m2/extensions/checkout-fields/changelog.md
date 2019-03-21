@@ -8,6 +8,12 @@ category: Checkout Fields
 
 # Changelog
 
+### Version 1.2.3
+
+> Mar 21, 2019
+
+ -  Added ability to transform block into 'collapsible' at firecheckout page
+
 ### Version 1.2.2
 
 > Dec 19, 2018

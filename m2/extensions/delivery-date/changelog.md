@@ -7,6 +7,12 @@ category: Delivery Date
 
 # Changelog
 
+### Version 1.4.1
+
+> Mar 21, 2019
+
+ -  RTL languages support added
+
 ### Version 1.4.0
 
 > Dec 04, 2018

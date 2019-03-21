@@ -9,6 +9,12 @@ category: Order Attachments
 
 ### Version 1.3.0
 
+> Mar 21, 2019
+
+ -  RTL languages support added
+
+### Version 1.3.0
+
  -  Added ability to show attachments at the
     [CheckoutSuccess](/m2/extensions/checkout-success/) page
 

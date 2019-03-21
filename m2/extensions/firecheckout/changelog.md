@@ -8,6 +8,19 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.18.0
+
+> Mar 21, 2019
+
+{% include gallery.html images=site.data.gallery.m2.firecheckout.changelog.v1180 class="phone-up-2 tablet-up-3 photoswipe scroll" %}
+
+ -  RTL languages support added
+ -  Added ability to customize [LESS variables](/m2/extensions/firecheckout/customization/less-variables/)
+    and write styles using LESS syntax
+    [directly from admin panel](/m2/extensions/firecheckout/configuration/#custom-css-and-js-settings-section)
+ -  Improved compatiblity with third-party modules
+ -  All built-in modules updated to add RTL languages support
+
 ### Version 1.17.0
 
 > Jan 25, 2019

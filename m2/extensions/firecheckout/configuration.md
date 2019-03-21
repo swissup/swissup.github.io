@@ -144,6 +144,7 @@ Title                   | Set the title for order summary section
 Option  | Description
 --------|------------
 CSS     | CSS styles. LESS is not supported.
+LESS    | CSS styles with LESS syntax support.
 JS      | JS code
 
 > **Attention!**
