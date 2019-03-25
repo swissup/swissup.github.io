@@ -5,6 +5,6 @@ description: How to install Absolute Theme on Magento 2 store
 category: Absolute Theme
 ---
 
-# Installation from Marketplace
+# Installation instructions
 
 {% include installation/m2/index.html %}
