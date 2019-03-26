@@ -34,9 +34,15 @@ We minify JSON-LD data to reduce page size. You can turn it off with `Minify str
 
 > Settings works only with structured data format JSON-LD.
 
-![Product structured data settings](/images/m2/rich-snippets/config-product.png)
+![Product structured data settings](/images/m2/rich-snippets/config-product-v2.png)
 
-Structured data for product can contain different values. `Brand` is one of them. Different stores can name product brand differently (producer, manufacturer, brand, etc.). With option `Product Brand Attribute` you select wich product attribute structered data should use as "brand".
+Structured data for product contains a lot of information.
+
+With option `Structured Data` you can configurate basic data snippets. Such as  name, sku, mpn (gtin8, gtin13, gtin14, isbn). Just set data property name as select relatedt product attribute for it.
+
+`Price Valid Until` sets default value for *priceValidUntil* property in *Offers* data snippet.
+
+Use option `Product Brand Attribute` to setup brand data snippet. Different stores can name product brand differently (producer, manufacturer, brand, etc.). So with this option you select wich product attribute structered data should use as "brand".
 
 Other possible info for structed data of product is its condition. By default, product condition is "New". To specify attribute that should be consider as condition use option `Product Condition Attribute`. Options below help you to setup its proper values.
 

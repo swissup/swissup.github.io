@@ -31,8 +31,15 @@ Please remember only Google (❗) decides what to show. Testing tool can show ev
 
 ❗ - you can replace `Google` with any other search engine.
 
+### March 2019 update
+
+Google came with update to its structured data testing tool. This update made testing tool more strict. It shows a lot of warnings. Even though they are recommendations and not strict requirements we improved our module so you could fix all those warnings.
+
+Please check troubleshooting page to get answer for the most common questions.
+
 ### Contents
 
 1. [Installation](installation/)
 2. [Configuration](configuration/)
-3. [Changelog](changelog/)
+3. [Troubleshooting](troubleshooting/)
+4. [Changelog](changelog/)

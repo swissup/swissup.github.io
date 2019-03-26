@@ -8,6 +8,12 @@ category: Rich Snippets
 
 # Changelog
 
+### Version 1.4.0
+
+ -  Solve latest Google warnings (missing priceValidUntil, global identifier, review etc).
+ -  New config option to map product structured data with product attributes.
+ -  Localization file added.
+
 ### Version 1.3.1
 
 > Jan 8th, 2019
