@@ -11,6 +11,12 @@ category: AskIt
 
 # Changelog
 
+### Version 1.4.1
+
+> Mar 27, 2019
+
+ -  Removed potential information leak
+
 ### Version 1.4.0
 
 > Feb 26, 2019
