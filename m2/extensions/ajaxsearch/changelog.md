@@ -8,6 +8,14 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.5.2
+
+> Mar 27, 2019
+
+**Bugfixes**
+ -  Fixed get category url logic
+ -  Fix composer changelog url
+
 ### Version 1.5.1
 
 > Mar 11, 2019
