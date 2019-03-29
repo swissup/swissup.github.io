@@ -9,13 +9,10 @@ category: Rich Snippets
 ---
 
 # Configuration
+{:.no_toc}
 
--   [Email](#email)
--   [General settings](#general-settings)
--   [Conditions](#conditions)
--	[Organization](#organization)
--	[Website](#website)
--	[Social links and cards](#social-links-and-cards)
+* TOC
+{:toc}
 
 ### General settings
 
@@ -27,6 +24,18 @@ category: Rich Snippets
 We recommend to choose “JSON Format” for invisible block with your store snippets. This type is simplified and clear to use. In case you want to show a visible block with snippets both in search results and on product page, you'd better to select Microdata type. 
 
 -	`Breadcrumbs` - select **Yes** to show breadcrumbs in rich snippets.
+
+### Product Data
+
+![Product structured data settings](/images/m1/extensions/rich-snippet/product-data.png)
+
+Structured data for product contains a lot of information.
+
+With option `Structured Data` you can configurate basic data snippets. Such as  name, sku, mpn (gtin8, gtin13, gtin14, isbn). Just set data property name as select relatedt product attribute for it.
+
+`Price Valid Until` sets default value for *priceValidUntil* property in *Offers* data snippet.
+
+Use option `Product Brand Attribute` to setup brand data snippet. Different stores can name product brand differently (producer, manufacturer, brand, etc.). So with this option you select wich product attribute structered data should use as "brand".
 
 ### Conditions
 
@@ -85,6 +94,7 @@ Social links snippets will help you to boost click-through rate for your shared 
 -	`Select **Yes** if you want to enable a **Twitter card snippet**. Twitter Cards improve a media experience to Tweets that link to your site content. After adding a snippet, users who Tweet your products will have a “card” added to their Tweet that will be visible to all of their followers.
 
 #### You can also check:
+{:.no_toc}
 
 *   [Installation](../installation/)
 *   [Testing your site with Google Rich Snippets testing tool](../testing/)

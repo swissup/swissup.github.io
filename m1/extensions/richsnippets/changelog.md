@@ -8,6 +8,15 @@ category: Rich Snippets
 
 # Changelog
 
+### Version 2.1.0
+
+> Mar 29, 2019
+
+ -  Solve latest Google warnings (missing priceValidUntil, global identifier, review etc).
+ -  New config option to map product structured data with product attributes.
+ -  New config option to setup brand value for JSON type.
+ -  Internal source code improvements. 
+
 ### Version 2.0.9
 
 > Feb 26, 2019
