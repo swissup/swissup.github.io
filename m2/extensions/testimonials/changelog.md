@@ -8,6 +8,12 @@ category: Testimonials
 
 # Changelog
 
+### Version 1.2.4
+
+> Mar 29, 2019
+
+ -  Magento 2.3 compatibility (Fixed broken file uploader)
+
 ### Version 1.2.3
 
 > Feb 26, 2019

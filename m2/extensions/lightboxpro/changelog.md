@@ -8,6 +8,12 @@ category: Lightbox Pro
 
 # Changelog
 
+### Version 1.2.2
+
+> Mar 29, 2019
+
+ -  Added missing localization file
+
 ### Version 1.2.1
 
  -  Fixed applying popup layout type on Magento 2.3

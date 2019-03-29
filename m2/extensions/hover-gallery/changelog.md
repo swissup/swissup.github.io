@@ -8,6 +8,14 @@ category: Hover Gallery
 
 # Changelog
 
+### Version 1.1.1
+
+> Mar 29, 2019
+
+ -  Fixed broken html markup when product name has special symbols in the name
+ -  Removed invalid 'srcset' attribute
+ -  Code cleanup
+
 ### Version 1.0.0
 
  -  Initial release

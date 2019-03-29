@@ -41,6 +41,8 @@ After clicking on any slider from the submitted list, you will be able to edit t
   * Navigation Buttons - select Yes to display arrows of next and previous navigation.
   * Scrollbar - enabled slider scrollbar
   * Scrollbar Hide - Hide scrollbar automatically after user interaction
+  * Start with random slide - Ability to start slider from random slide. (First
+    slide is used by default)
 
 ##### Slides
 

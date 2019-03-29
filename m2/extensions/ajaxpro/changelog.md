@@ -6,6 +6,13 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.4.4
+
+> Mar 29, 2019
+
+ -  Fixed static content deployment on Magento 2.3 (There was an error about
+    missing swatches.less file)
+
 ### Version 1.4.3
 
 > Feb 26, 2019

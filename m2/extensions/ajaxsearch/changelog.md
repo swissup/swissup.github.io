@@ -8,6 +8,14 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.5.3
+
+> Mar 29, 2019
+
+ -  Fixed possible XSS vulnerability
+ -  Styles improvements
+ -  Fixes for RTL styles
+
 ### Version 1.5.2
 
 > Mar 27, 2019

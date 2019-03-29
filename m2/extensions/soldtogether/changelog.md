@@ -8,6 +8,12 @@ category: SoldTogether
 
 # Changelog
 
+### Version 1.4.2
+
+> Mar 29, 2019
+
+ -  RTL styles added
+
 ### Version 1.4.1
 
 > Dec 19th, 2018
@@ -27,7 +33,7 @@ category: SoldTogether
 
 > Sep 27th, 2018
 
- -  Internal module naming convention was updated. We applied this changes to reach full compatibility with Magento Marketplace policy. 
+ -  Internal module naming convention was updated. We applied this changes to reach full compatibility with Magento Marketplace policy.
 
 ### Version 1.2.7
 

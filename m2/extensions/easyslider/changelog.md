@@ -8,6 +8,14 @@ category: Easy Slider
 
 # Changelog
 
+### Version 1.3.0
+
+> Mar 29, 2019
+
+ -  Magento 2.3.1 compatibility
+ -  Added ability to start slider from [random slide](/m2/extensions/easyslider/interfaces/#slider-parameters)
+ -  Code cleanup and small improvements
+
 ### Version 1.1.3
 
  -  Magento 2.2 compatibility

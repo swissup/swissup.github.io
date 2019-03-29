@@ -8,6 +8,12 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.2.7
+
+> Mar 29, 2019
+
+ -  Magento 2.3 compatibility
+
 ### Version 1.2.6
 
 > Jan 15th, 2019

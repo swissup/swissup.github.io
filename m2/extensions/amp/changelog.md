@@ -8,6 +8,12 @@ category: Accelerated Mobile Pages
 
 # Changelog
 
+### Version 1.3.1
+
+> Mar 29, 2019
+
+ -  Magento 2.3.1 compatibility (Fixed missing tabs at product page)
+
 ### Version 1.3.0
 
 > Mar 14, 2019

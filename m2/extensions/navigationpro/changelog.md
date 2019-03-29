@@ -8,6 +8,14 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.9.3
+
+> Mar 29, 2019
+
+ -  Magento 2.3.1 compatibility
+ -  Fixed invalid breadcrumbs when multiple menu's found on the same page
+ -  Added missing localization file
+
 ### Version 1.9.2
 
 > Feb 26, 2019

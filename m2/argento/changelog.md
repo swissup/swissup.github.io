@@ -7,6 +7,43 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.9.1
+
+> Mar 29, 2019
+
+ -  Magento 2.3 compatibility
+ -  Small CSS improvements for RTL languages
+
+**Extensions Updates**
+
+ -  [Ajaxpro](/m2/extensions/ajaxpro/)
+    - Fixed static content deployment on Magento 2.3 (There was an error about
+      missing swatches.less file)
+ -  [Ajaxsearch](/m2/extensions/ajaxsearch/)
+    - Fixed possible XSS vulnerability
+    - Fixes for RTL styles
+    - Style improvements in search dropdowns
+ -  [AMP](/m2/extensions/amp/)
+    - Magento 2.3.1 compatibility (Fixed missing tabs at product page)
+    - New customization [abilities added](/m2/extensions/amp/use-cases/#remove-tag)
+ -  [EasySlide](/m2/extensions/easyslider/)
+    - Magento 2.3.1 compatibility
+    - Added ability to start slider from [random slide](/m2/extensions/easyslider/interfaces/#slider-parameters)
+ -  [GDPR](/m2/extensions/gdpr/)
+    - Fixed mysql error on client consents page when table prefixes are used
+ -  [HoverGallery](/m2/extensions/hover-gallery/)
+    - Fixed broken html markup when product name has special symbols in the name
+    - Removed invalid 'srcset' attribute
+ -  [NavigationPro](/m2/extensions/navigationpro/)
+    - Magento 2.3.1 compatibility (Fixed horizontal scrollbar)
+    - Fixed invalid breadcrumbs when multiple menu's found on the same page
+ -  [ProLabels](/m2/extensions/prolabels/)
+    - Magento 2.3 compatibility (Fixed broken file uploader)
+ -  [SoldTogether](/m2/extensions/sold-together/)
+    - RTL styles added
+ -  [Testimonials](/m2/extensions/testimonials/)
+    - Magento 2.3 compatibility (Fixed broken file uploader)
+
 ### Version 1.9.0
 
 > Feb 26, 2019
