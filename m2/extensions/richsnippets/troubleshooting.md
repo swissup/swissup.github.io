@@ -18,7 +18,7 @@ It is recommendation. And not an error.
 
 Every product has its manufacturer (or brand). With this warning Google recommends you to specify it. And you can easily achieve it with our module.
 
-If you already have brand (manufacturer) product attribute then select it in module [configuration](../configuration/#product-structured-data). Otherwise you have to create such attribute, assign it to attribute set(s), fill it for products and thne select it in module configuration.
+If you already have brand (manufacturer) product attribute then select it in module [configuration](../configuration/#product-structured-data). Otherwise you have to create such attribute, assign it to attribute set(s), fill it for products and then select it in module configuration.
 
 Remember to clear Magento Cache.
 

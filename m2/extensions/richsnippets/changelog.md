@@ -10,19 +10,21 @@ category: Rich Snippets
 
 ### Version 1.4.0
 
+> Mar 26, 2019
+
  -  Solve latest Google warnings (missing priceValidUntil, global identifier, review etc).
  -  New config option to map product structured data with product attributes.
  -  Localization file added.
 
 ### Version 1.3.1
 
-> Jan 8th, 2019
+> Jan 8, 2019
 
  -  Fix PHP error that occured at some Magento instances at module Configuration page.
 
 ### Version 1.3.0
 
-> Dec 21st, 2018
+> Dec 21, 2018
 
  -  Integrated with [Swissup AMP](/m2/extensions/amp/) module.
 
