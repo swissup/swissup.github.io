@@ -8,6 +8,15 @@ category: SEO Suite
 
 # Changelog
 
+### Version 0.7.0
+
+> Mar 29, 2019
+
+ -  Rich Snippets:
+     +  Solve latest Google warnings (missing priceValidUntil, global identifier, review etc).
+     +  New config option to map product structured data with product attributes.
+     +  New config option to setup brand value for JSON type.
+
 ### Version 0.6.6
 
 > Feb 26, 2019
