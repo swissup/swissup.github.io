@@ -27,7 +27,7 @@ category: Argento
     - Magento 2.3.1 compatibility (Fixed missing tabs at product page)
     - New customization [abilities added](/m2/extensions/amp/use-cases/#remove-tag)
  -  [EasySlide](/m2/extensions/easyslider/)
-    - Magento 2.3.1 compatibility
+    - Magento 2.3.1 compatibility (Fixed broken backend form)
     - Added ability to start slider from [random slide](/m2/extensions/easyslider/interfaces/#slider-parameters)
  -  [GDPR](/m2/extensions/gdpr/)
     - Fixed mysql error on client consents page when table prefixes are used
@@ -39,7 +39,7 @@ category: Argento
     - Fixed invalid breadcrumbs when multiple menu's found on the same page
  -  [ProLabels](/m2/extensions/prolabels/)
     - Magento 2.3 compatibility (Fixed broken file uploader)
- -  [SoldTogether](/m2/extensions/sold-together/)
+ -  [SoldTogether](/m2/extensions/soldtogether/)
     - RTL styles added
  -  [Testimonials](/m2/extensions/testimonials/)
     - Magento 2.3 compatibility (Fixed broken file uploader)

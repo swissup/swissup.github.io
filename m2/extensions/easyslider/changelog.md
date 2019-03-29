@@ -12,7 +12,7 @@ category: Easy Slider
 
 > Mar 29, 2019
 
- -  Magento 2.3.1 compatibility
+ -  Magento 2.3.1 compatibility (Fixed broken backend form)
  -  Added ability to start slider from [random slide](/m2/extensions/easyslider/interfaces/#slider-parameters)
  -  Code cleanup and small improvements
 

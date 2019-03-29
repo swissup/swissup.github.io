@@ -12,7 +12,7 @@ category: Prolabels
 
 > Mar 29, 2019
 
- -  Magento 2.3 compatibility
+ -  Magento 2.3 compatibility (Fixed broken file uploader)
 
 ### Version 1.2.6
 

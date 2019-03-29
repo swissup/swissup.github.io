@@ -12,7 +12,7 @@ category: reCAPTCHA
 
 > Mar 29, 2019
 
- -  Magento 2.3.1 compatibility.
+ -  Magento 2.3.1 compatibility (Fixed frontend js error)
 
 ### Version 1.1.2
 
