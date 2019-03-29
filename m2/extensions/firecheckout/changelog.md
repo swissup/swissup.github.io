@@ -8,6 +8,13 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.18.1
+
+> Mar 29, 2019
+
+ -  Fixed compatibility with Magento 2.3.1 (PHP7+ is required)
+ -  Improved spacing below "Subscribe to newsletter" checkbox
+
 ### Version 1.18.0
 
 > Mar 21, 2019

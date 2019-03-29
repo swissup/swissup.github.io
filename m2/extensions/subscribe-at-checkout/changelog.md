@@ -8,6 +8,10 @@ category: SubscribeAtCheckout
 
 # Changelog
 
+### Version 1.2.2
+
+ -  Fixed too large margin below checkbox
+
 ### Version 1.2.1
 
  -  Move subscribe checkbox out of shipping section.
