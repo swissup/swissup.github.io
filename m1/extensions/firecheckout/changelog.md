@@ -7,6 +7,25 @@ category: Firecheckout
 
 # Changelog
 
+### Version 4.3.7
+
+> Apr 01, 2019
+
+ -  Improved scroll to section behavior when using onecolumn layout
+ -  Fixed jumping RTL styles when page is loading
+ -  Fixed possible missing shipping method cost when using onecolumn layout
+ -  Fixed ability to place order as guest using registered email when onecolumn
+    layout is enabled
+ -  Fixed possible js error in console
+ -  Fixed possible PHP notice when payment method is not received
+ -  Fixed possible PHP timeout when using VAT VIES validation
+
+**Third-party modules**
+
+ -  Updated Cryozonic_Stripe integration
+ -  Amasty_Stripe integration added
+ -  Bluesnap payment integration added
+
 ### Version 4.3.6
 
 > Mar 06, 2019
