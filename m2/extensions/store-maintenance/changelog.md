@@ -8,6 +8,15 @@ category: Store Maintenance
 
 # Changelog
 
+### Version 2.0.0
+
+> Apr 4, 2019
+
+ -  Improve and customize your Magento store maintenance page.
+ -  Simple UI to enable store maintenance.
+ -  Instane preview for maintenance page.
+ -  Importent SEO feature - 'Return After'.
+
 ### Version 1.0.1
 
  -  compatibility with PHP 7.0.0+

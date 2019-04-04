@@ -10,7 +10,7 @@ category: Store Maintenance
 
 # Store Maintenance
 
-![Store maintenance frontend page](/images/store-maintenance/503-page.png)
+![Store maintenance frontend page](/images/m2/store-maintenance/503-page.png)
 
 Every E-commerce website has to perform maintenance at some point. Either its
 interface changes, or technical fixes, you better to warn your customers and
@@ -25,9 +25,6 @@ visitors, whether new or returning, happy.
 
  1. [Installation](installation/)
  2. [Settings](settings/)
-     -  [General](settings/#general)
-     -  [Access to frontend](settings/#access-to-frontend)
-     -  [Maintenance page header](settings/#maintenance-page-header)
  3. [Customize maintenance page](customize-page/)
  4. [Changelog](changelog/)
 
@@ -49,4 +46,4 @@ is given, the client SHOULD handle the response as it would for a 500 response.
 Store Maintenance extension handles search engines requests perfectly and sends
 them proper response.
 
-![503 response](/images/store-maintenance/503-response.png)
+![503 response](/images/m2/store-maintenance/503-response.png)

@@ -7,77 +7,33 @@ category: Store Maintenance
 
 # Customize maintenance page
 
-Maintenance page that comes with module is just an example. You can change it
-any way you want. Or you can create your own page and select it as maintenance
-page in module settings.
-
-**Notice**: timer on maintenance page created with widget. This widget comes
-with Countdown Timer extension. So if you do not have Countdown Timer
-extension, then you do not see timer.
-
-Source code of maintenance page (CMS page):
-
-```html
-<div class="susm-frame">
-  <div class="susm-box susm-main">
-    <div class="susm-box susm-circle susm-one">&nbsp;</div>
-    <div class="susm-box susm-circle susm-two">&nbsp;</div>
-    <div class="susm-box susm-circle susm-three">&nbsp;</div>
-    <div class="susm-box susm-circle susm-four">&nbsp;</div>
-      <!-- here you can place your logo or any other image -->
-      {% raw %}{{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="maintenance-gear"}}{% endraw %}
-    <div class="susm-message">
-      <!-- here you can place your maintenance text or any other content -->
-      {% raw %}{{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="maintenance-message"}}{% endraw %}
-    </div>
-  </div>
-</div>
-```
-
-We strongly recommend modify this page with **disabled WYSIWYG editor**.
-
-Magento also creates two CMS blocks during module installation:
-
- *  block with id `maintenance-gear`
- *  block with id `maintenance-message`
+Maintenance page content configuration that comes with module is just an example. You can change it any way you want. Or you can create your own page.
 
 ### Example
 
-Example is the best way to show how to customize page. So, we will add store
-logo to maintenance page.
+Example is the best way to show how to customize page. So, we will build our own custom maintenance page. It will be realy simple page with picture and text under it.
 
-Find CMS page with identifier `503-service-unavailable` and edit it.
+Download image from [this link](/images/m2/store-maintenance/construction.svg) and save it with name `construction.svg` into `<MAGENTO_ROOT>/pub/media`. 
 
-Add code below before `div` element with class `susm-message` (turn off WYSIWYG
-editor):
+> Origins of image is [https://undraw.co/illustrations](https://undraw.co/illustrations). Feel free to browse undraw for any other image you may need.
 
-```html
-<img src="[link-to-your-store-logo]" style="padding: 40px 0 0;" />
-```
-
-Delete code that insert widget with CMS block `maintenance-gear`. Source code of
-maintenance page should be like this:
+Go to Store Maintenance settings in Magento Configuration. In section 'Maintenance Page Content' clear 'Style' and 'Body' options. Copy code below. Insert into 'Body' option.
 
 ```html
-<div class="susm-frame">
-  <div class="susm-box susm-main">
-    <div class="susm-box susm-circle susm-one">&nbsp;</div>
-    <div class="susm-box susm-circle susm-two">&nbsp;</div>
-    <div class="susm-box susm-circle susm-three">&nbsp;</div>
-    <div class="susm-box susm-circle susm-four">&nbsp;</div>
-      <img src="[link-to-your-store-logo]" style="padding: 40px 0 0;" />
-    <div class="susm-message">
-      <!-- here you can place your maintenance text or any other content -->
-      {% raw %}{{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="maintenance-message"}}{% endraw %}
-    </div>
-  </div>
-</div>
+<center style="margin: 40px"><img src="/pub/media/construction.svg" /></center>
+<center>Our store is currently under reconstruction. We'll be back online soon.</center>
 ```
 
-Save page, go to frontend and check result. Please, do not forget to flush cache
-in case cache is enabled. Page has to be something like this:
+With instant preview feature you will see result right away.
 
-![Maintenanse page with logo](/images/store-maintenance/page-with-logo.png)
+And final touch. Change background color for page. Paste code below into option 'Style'.
 
-You can add any content to this page using basic magento tools for CMS pages
-editing.
+```css
+body {
+  background-color: lavender;
+}
+```
+
+Your new maintenance page should look like this:
+
+![Custom page](/images/m2/store-maintenance/preview-1.png)
