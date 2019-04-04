@@ -14,8 +14,8 @@ category: Store Maintenance
 
  -  Improve and customize your Magento store maintenance page.
  -  Simple UI to enable store maintenance.
- -  Instane preview for maintenance page.
- -  Importent SEO feature - 'Return After'.
+ -  Instant preview for maintenance page.
+ -  Important SEO feature - 'Return After'.
 
 ### Version 1.0.1
 
