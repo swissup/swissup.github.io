@@ -32,6 +32,13 @@ gallery:
 
 # AskIt Changelog
 
+
+### Version 2.3.16
+
+> Mar 27, 2019
+
+ -  Small security improvement
+
 ### Version 2.3.15
 
 > Feb 26, 2019
