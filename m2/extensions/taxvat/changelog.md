@@ -8,7 +8,7 @@ category: Checkout VAT
 
 # Changelog
 
-### Version 1.2.0
+### Version 1.2.0 &amp; 1.2.1
 
 > Apr 05, 2019
 
@@ -17,6 +17,7 @@ category: Checkout VAT
  -  Hide notice about country code for magento 2.3.0 and newer
  -  Configuration improvements
  -  Code optimizations
+ -  1.2.1 hotfix: tax-free orders on Magento 2.2
 
 ### Version 1.1.1
 
