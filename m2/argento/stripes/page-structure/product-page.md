@@ -9,16 +9,22 @@ category: Argento
 # Argento Stripes Product Page
 
 ### Contents
+{:.no_toc}
 
- -  [Layout](#layout)
- -  [Questions](#questions)
- -  [Soldtogether blocks](#soldtogether-blocks)
+* TOC
+{:toc}
 
 ### Layout
 
 ArgentoStripes uses `1column` layout for the product page.
 Follow our [customization guide](/m2/argento/customization/change-page-layout/)
 to change it to another one.
+
+### Add to Cart Form
+
+![Add to cart form](/images/m2/argento/stripes/product-page/add-form.png)
+
+Quantity field is hidden at product page by design. If you want to show this field then please check [this article](/m2/argento/stripes/customization/#show-qty-field-at-product-page).
 
 ### Questions
 
