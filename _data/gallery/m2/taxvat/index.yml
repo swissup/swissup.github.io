@@ -1,0 +1,19 @@
+- href: /images/m2/taxvat/firecheckout-invalid-taxvat-in-saved-address.png
+  src: /images/m2/taxvat/small/firecheckout-invalid-taxvat-in-saved-address.png
+  title: Invalid VAT number in saved address. The message is shown and tax is added to the totals
+  w: 1296
+  h: 840
+- href: /images/m2/taxvat/firecheckout-valid-taxvat-zero-tax.png
+  src: /images/m2/taxvat/small/firecheckout-valid-taxvat-zero-tax.png
+  title: Valid VAT number removes tax from the totals
+  w: 1296
+  h: 781
+- href: /images/m2/taxvat/firecheckout-number-format-notice.png
+  src: /images/m2/taxvat/small/firecheckout-number-format-notice.png
+  title: VAT Number notice is shown for old Magneto versions
+  w: 1296
+  h: 867
+- href: /images/m2/taxvat/settings.png
+  src: /images/m2/taxvat/small/settings.png
+  w: 645
+  h: 584

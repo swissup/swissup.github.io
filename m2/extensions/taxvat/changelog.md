@@ -8,6 +8,16 @@ category: Checkout VAT
 
 # Changelog
 
+### Version 1.2.0
+
+> Apr 05, 2019
+
+ -  Added abilty to place tax-free order when VAT Number is valid (EU countries only)
+ -  Added ability to place order using invalid VAT Number
+ -  Hide notice about country code for magento 2.3.0 and newer
+ -  Configuration improvements
+ -  Code optimizations
+
 ### Version 1.1.1
 
 > Nov 01, 2018

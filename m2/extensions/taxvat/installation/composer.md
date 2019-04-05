@@ -13,10 +13,4 @@ exclude_from_search: true
 
 #### 3. Complete the installation
 
-Enable VAT field in `Stores > Configuration > Customers > Customer Configuration > Create New Account Options > Show VAT Number on Storefront`. Now you can enable and configure extension in `Stores > Configuration > Swissup Checkout > Tax VAT`.
-
-#### After installing the extension you can go to:
-
-* [Settings][settings]
-
-[settings]: /m2/extensions/taxvat/#settings
+Enable and configure extension in `Stores > Configuration > Swissup Checkout > Tax VAT`.
