@@ -8,6 +8,12 @@ category: Highlight
 
 # Changelog
 
+### Version 1.5.2
+
+> Apr 05, 2019
+
+ -  Fixed invalid currencies in product blocks when cache is enabled
+
 ### Version 1.5.1
 
 > Feb 26, 2019
