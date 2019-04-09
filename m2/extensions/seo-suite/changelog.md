@@ -8,6 +8,39 @@ category: SEO Suite
 
 # Changelog
 
+### Version 1.4.0
+
+> Mar 26, 2019
+
+Localization files addes to all of the modules.
+
+*Rich Snippets (1.4.0)*:
+
+ -  Solve latest Google warnings (missing priceValidUntil, global identifier, review etc).
+ -  New config option to map product structured data with product attributes.
+ -  Fix error: "Call to undefined function Swissup\RichSnippets\Model\Config\Source\_()..." at some Magento inst.
+
+*Canonical URLs (1.0.2)*:
+
+ -  Fix incorrect canonical URL for homepage.
+ -  Improve stability.
+
+*SEO CrossLinks (1.0.1)*:
+
+ -  Fixed delete button on the editlinks page.
+
+
+*Metadata templates (1.3.0)*:
+
+ -  New directives &#039;parents&#039; for category and &#039;categories&#039; for product. Check [documentation article](http://docs.swissuplabs.com/m2/extensions/seo-templates/use-cases/amazon-like-metadata/) to get Amazon-like metadata.
+ -  Fixed not working Cron generation when Magento Cache is enabled.
+ -  Fixed missing genereted meta keywords at product page.
+
+*XML Sitemap (1.1.3)*
+
+ -  Compatibility with Magento 2.3.
+
+
 ### Version 1.3.0
 
 > Dec 21st, 2018
