@@ -8,12 +8,27 @@ category: Easy Flags
 
 # Changelog
 
+## Version 1.3.0
+
+ -  Improve CSS. Merge module CSS with theme CSS.
+ -  Fixed delete image for store view. Previously it was not possible to remove image assigned to store view.
+ -  Improve compatibility with Magento 2.2.0. Fixed notice - undefined index in .../magento/framework/File/Uploader.php on line 545.
+
+> Apr 11, 2019
+
+## Version 1.2.1
+
+> Feb 12, 2019
+
+ -  Imporve compatibility with Magento 2.3.x. Fixed JS error when upload image at Edit Store.
+ -  Respect non-English charactes in store name for flag placeholders. It also fix error at some Magento instances about 'InvalidArgumentException' when full page cache enabled.
+
 ## Version 1.2.0
 
 > Jan 4, 2019
 
  -  New user-friendly way to upload images from edit store view interface in Magento admin.
- -   Three new designes (modes) for language switcher: dropdown, one line, popup.
+ -  Three new designes (modes) for language switcher: dropdown, one line, popup.
 
 ## Version 1.1.0
 
