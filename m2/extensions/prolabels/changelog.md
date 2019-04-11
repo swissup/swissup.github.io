@@ -8,6 +8,12 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.3.0
+
+> Apr 11, 2019
+
+ -  Improve module styles. Merge module CSS with theme CSS.
+
 ### Version 1.2.7
 
 > Mar 29, 2019
