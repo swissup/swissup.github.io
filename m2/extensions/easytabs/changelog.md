@@ -8,6 +8,13 @@ category: Easy Tabs
 
 # Changelog
 
+### Version 1.5.0
+
+> Apr 16, 2019
+
+ -  New feature - conditions for tabs. Now it is possible to show tab when customer is signed in or when product has some attribute value.
+ -  Improved stability when there is tab for some third-party module but module is disabled or removed.
+
 ### Version 1.3.4
 
 > Sep 21st, 2018
