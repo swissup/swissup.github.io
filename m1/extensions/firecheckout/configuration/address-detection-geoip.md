@@ -14,4 +14,4 @@ page.
 
 > New \*.mmdb databases support added since Firecheckout 4.4.0
 
-![General settings](/images/m1/firecheckout/configuration/address-detection-geoip/maxmind.png)
+![General settings](/images/m1/firecheckout/configuration/address-detection-geoip/config.png)
