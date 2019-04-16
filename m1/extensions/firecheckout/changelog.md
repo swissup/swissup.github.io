@@ -7,6 +7,20 @@ category: Firecheckout
 
 # Changelog
 
+### Version 4.4.0
+
+> Apr 16, 2019
+
+ -  Geoip submodule rewritten to add `mmdb` databases format support. (Old format
+    was not supported by MaxMind.)
+
+    > If you used this functionality, you need to
+    > [reconfigure](/m1/extensions/firecheckout/configuration/address-detection-geoip/)
+    > it again.
+
+ -  Fixed possible session invalidation during account registration and paypal checkout.
+ -  Fixed possible js error with third-party modules
+
 ### Version 4.3.7
 
 > Apr 01, 2019
