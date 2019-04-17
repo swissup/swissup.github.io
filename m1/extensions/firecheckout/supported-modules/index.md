@@ -17,7 +17,7 @@ keywords: >
     IrvineSystems_Yamato, JRD_Paczkomaty, Kiala_LocateAndSelect,
     Magestore_Storepickup, Man4x_MondialRelay, Mico_Rushpackage, Ophirah_Qquoteadv (Cart2Quote),
     PostcodeNl_Api, PaypalPlus, Plumtree_Storepickup,
-    Shipperhq_Freight, Shipperhq_Pickup, SR_UpsShip, Storepickup,
+    Shipperhq_Calendar, Shipperhq_Freight, Shipperhq_Pickup, SR_UpsShip, Storepickup,
     Svea_WebPay, Magegiant_GiantPoints, Payex_Payments,
     TIG_Postcode, Webshopapps_Desttype, Webshopapps_Premiumrate, WebshopApps_ProductMatrix,
     Wyomind_Pickupatstore, Amasty_Methods, Magento EE coupons,
@@ -154,6 +154,7 @@ additional modifications.
 - [Amasty_Shiprestriction](amasty-shiprestriction/)
 - [Intrum_Cdp](intrum_cdp/)
 - [Ship and pay combo](mymonki-ship2pay/)
+- Shipperhq_Calendar
 
 ### Discount Coupons
 
