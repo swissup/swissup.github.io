@@ -8,6 +8,14 @@ category: SEO Suite
 
 # Changelog
 
+### Version 0.7.1
+
+> Apr 18, 2019
+
+ -  Rich Snippets:
+     +  Fixed structured data error for grouped and bundle products - offerCount can't be empty.
+     +  Fixed structured data error - reviewCount has to be positive.
+
 ### Version 0.7.0
 
 > Mar 29, 2019
