@@ -8,6 +8,13 @@ category: Rich Snippets
 
 # Changelog
 
+### Version 2.1.1
+
+> Apr 18, 2019
+
+ -  Fixed structured data error for grouped and bundle products - offerCount can't be empty.
+ -  Fixed structured data error - reviewCount has to be positive.
+
 ### Version 2.1.0
 
 > Mar 29, 2019
