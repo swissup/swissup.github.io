@@ -8,6 +8,12 @@ category: Rich Snippets
 
 # Changelog
 
+### Version 1.4.1
+
+> Apr 18, 2019
+
+ -  Fixed structured data error for grouped and bundle products - offerCount can't be empty.
+
 ### Version 1.4.0
 
 > Mar 26, 2019
