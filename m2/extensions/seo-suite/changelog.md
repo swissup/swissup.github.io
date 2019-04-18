@@ -8,6 +8,18 @@ category: SEO Suite
 
 # Changelog
 
+### Version 1.4.1
+
+> Apr 18, 2019
+
+*Rich Snippets (1.4.1)*:
+
+ -  Fixed structured data error for grouped and bundle products - offerCount can't be empty.
+
+*HTML Sitemap (1.1.2)*:
+
+ -  Compatibility with PHP 7.2.
+
 ### Version 1.4.0
 
 > Mar 26, 2019
