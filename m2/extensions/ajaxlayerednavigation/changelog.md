@@ -7,6 +7,20 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.3.3
+
+> Apr 19, 2019
+
+**Features**
+ - Added 'Show results' button for mobile
+ - Add 'More Products' button
+
+
+**Bugfixes**
+ - Fix elasticsearch compatibility
+ - RTL small fix
+ - Fix scrollbar max-height (related #5 and #40)
+
 ### Version 1.3.2
 
 > Mar 11, 2019
@@ -16,7 +30,7 @@ category: Ajax Layered Navigation
  - Query caching was added
  - Compatibility with latest seo-urls feature - rel="nofollow"
  - RTL styles
- -
+
 
 **Bugfixes**
  - Fixed product ids bottleneck
