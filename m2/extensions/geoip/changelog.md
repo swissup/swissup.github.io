@@ -8,6 +8,15 @@ category: Geoip
 
 # Changelog
 
+### Version 1.2.0
+
+> Apr 19, 2019
+
+ -  Fixed invalid shipping methods on initial page load
+ -  A new place for MaxMind database to keep vendor directory clean: `var/swissup/geoip/`.
+    Old location (`vendor/swissup/module-geoip/`) will still work fine though.
+ -  Code cleanup
+
 ### Version 1.1.3
 
 > Mar 27, 2019

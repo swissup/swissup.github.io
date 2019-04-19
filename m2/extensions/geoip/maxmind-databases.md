@@ -3,6 +3,7 @@ layout: default
 title: MaxMind GeoIP Databases
 description: What types of GeoIP databases are provided by MaxMind company
 keywords: maxmind
+category: Geoip
 ---
 
 # MaxMind Databases
@@ -27,16 +28,18 @@ than the free one.
 
 ### Where should I put the database?
 
-Put the database into `<magento_root>/vendor/swissup/module-geoip` folder.
+Put the database into `<magento_root>/var/swissup/geoip/` folder.
 
 Example of how to download and unpack free database from the terminal:
 
 ```bash
-cd <magento_root>/vendor/swissup/module-geoip
-wget http://geolite.maxmind.com/download/geoip/database/GeoLite2-City.tar.gz
-mkdir mmdb && tar -xvzf GeoLite2-City.tar.gz -C mmdb --strip 1
-mv mmdb/GeoLite2-City.mmdb GeoLite2-City.mmdb
-rm -rf mmdb GeoLite2-City.tar.gz
+mkdir -p var/swissup/geoip &&\
+cd var/swissup/geoip &&\
+wget http://geolite.maxmind.com/download/geoip/database/GeoLite2-City.tar.gz &&\
+mkdir mmdb && tar -xvzf GeoLite2-City.tar.gz -C mmdb --strip 1 &&\
+mv mmdb/GeoLite2-City.mmdb GeoLite2-City.mmdb &&\
+rm -rf mmdb GeoLite2-City.tar.gz &&\
+cd -
 ```
 
 Make sure that the filename of downloaded database is the same as saved in

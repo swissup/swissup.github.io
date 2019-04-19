@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Geoip
-description: Automatically detect clients address bu its IP address
+description: Automatically detect client address by its IP address
 keywords: magento2 address autodetection, geoip
+category: Geoip
 ---
 
 # Geoip
