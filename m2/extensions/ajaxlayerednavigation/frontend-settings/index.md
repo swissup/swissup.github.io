@@ -11,3 +11,4 @@ category: Ajax Layered Navigation
  1. [Category Page](category-page/)
  2. [Search Result](search-result/)
  3. [One column layout](one-column-layout/)
+ 3. [Hide certain filters on specific categories](hide-filters/)
