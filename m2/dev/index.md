@@ -177,6 +177,24 @@ bin/magento setup:upgrade
 ```
 {:.scroll}
 
+#### Short variant
+
+```bash
+composer config repositories.swissup composer https://docs.swissuplabs.com/packages/
+packages=$(composer show --available | grep "swissup/module-\|swissup/theme-"| cut -d ' ' -f 1 | tr '\n\012\015' ' '); echo $packages | xargs composer require --prefer-source ;
+bin/magento module:status | grep Swissup_ | xargs bin/magento module:enable ;
+bin/magento setup:upgrade
+```
+
+#### For Dockerizer users
+
+```bash
+composer config repositories.swissup composer https://docs.swissuplabs.com/packages/
+packages=$(composer show --available | grep "swissup/module-\|swissup/theme-" | cut -d ' ' -f 1 | tr '\n\012\015' ' '); echo $packages | xargs composer require --prefer-source ;
+vendor/bin/dockerizer bin/magento module:enable `vendor/bin/dockerizer bin/magento module:status | grep Swissup_ | cut -d ' ' -f 1 | tr '\n\012\015' ' '`
+vendor/bin/dockerizer bin/magento setup:upgrade
+```
+
 ### Track uncommitted changes in all modules
 
 Initialize repository in `vendor/swissup` folder and add each subfolder as git
@@ -209,5 +227,5 @@ and all remotes are not valid anymore. (Repositories were renamed at the Github)
 for module in vendor/swissup/*; do rm -rf $module/.git; done;
 
 # 3. remove packages
-packages=$(composer info | grep swissup | cut -d ' ' -f 1 | tr "\n" " "); echo $packages | xargs composer remove;
+packages=$(composer info | grep swissup | cut -d ' ' -f 1 | tr '\n\012\015' ' '); echo $packages | xargs composer remove;
 ```
