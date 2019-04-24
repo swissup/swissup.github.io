@@ -11,7 +11,7 @@ exclude_from_search: true
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/easyslide" modules="Swissup_Core Swissup_EasySlide" %}
+{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/easy-slide" modules="Swissup_Core Swissup_EasySlide" %}
 
 #### After installing the extension you can go to:
 * [Admin interfaces](../interfaces/)
