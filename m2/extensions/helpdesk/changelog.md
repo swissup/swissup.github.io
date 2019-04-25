@@ -6,6 +6,21 @@ keywords: Helpdesk changelog
 category: Helpdesk
 ---
 
+### Version 1.0.5
+
+> Apr 25, 2019
+
+**Fixes**
+ - Fix Call to undefined method CurrentCustomer::getEmail() in ResourceModel/Ticket.php:206
+ - Fix comma typos in email templates
+
+### Version 1.0.4
+
+> Apr 16, 2019
+
+**Fixes**
+ - Add Mail/Message::setFromAddress for 2.3.1 compataqbility
+
 ### Version 1.0.3
 
 > Mar 18, 2019
