@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Check is magento root dir
+[ -x 'bin/magento' ] || { echo >&2 "The script requires installed \"Magento 2\" "; pwd; exit 1; }
+
 # Check availability of composer
 hash composer 2>/dev/null || { echo >&2 "The script requires \"composer\" (https://getcomposer.org/download/)"; exit 1; }
 
@@ -26,13 +29,17 @@ $MAGENTO_BIN module:enable $MODULES
 
 # Initialize repository in `vendor/swissup` folder and add each subfolder as git submodule
 cd vendor/swissup
-git init
-for module in *; do
-    # echo $module
-    git submodule add "./$module"
-done;
-git add .
-git commit -m "Initial commit"
+
+if [ ! -d '.git' ]
+then
+    git init
+    for module in *; do
+        # echo $module
+        git submodule add "./$module"
+    done;
+    git add .
+    git commit -m "Initial commit"
+fi
 
 # Update all modules
 for module in *; do
