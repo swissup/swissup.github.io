@@ -1,0 +1,53 @@
+#!/bin/bash
+
+# Check availability of composer
+hash composer 2>/dev/null || { echo >&2 "The script requires \"composer\" (https://getcomposer.org/download/)"; exit 1; }
+
+composer config repositories.swissup composer https://docs.swissuplabs.com/packages/
+composer config repositories.packagist false
+packages=$(composer show --available | grep "swissup/module-\|swissup/theme-" | cut -d ' ' -f 1 | tr '\n\012\015' ' ');
+composer config --unset repositories.packagist
+
+for PACKAGE in $packages; do
+    echo "Installing $PACKAGE"
+    composer require --prefer-source --ignore-platform-reqs $PACKAGE
+done
+
+MAGENTO_BIN='php bin/magento';
+if [ -x 'vendor/bin/dockerizer' ]
+then
+    vendor/bin/dockerizer restart
+    MAGENTO_BIN='vendor/bin/dockerizer bin/magento';
+fi
+
+# Enable new modules
+MODULES=$($MAGENTO_BIN module:status | grep Swissup_)
+$MAGENTO_BIN module:enable $MODULES
+
+# Initialize repository in `vendor/swissup` folder and add each subfolder as git submodule
+cd vendor/swissup
+git init
+for module in *; do
+    # echo $module
+    git submodule add "./$module"
+done;
+git add .
+git commit -m "Initial commit"
+
+# Update all modules
+for module in *; do
+    cd $module
+    git checkout master
+    git pull
+    cd ../
+done;
+
+cd ../..
+
+# Run magento upgrade scripts
+$MAGENTO_BIN setup:upgrade
+
+rm -rf pub/static/_requirejs var/view_preprocessed pub/static/frontend/ pub/static/adminhtml/ generated/code/
+
+$MAGENTO_BIN setup:static-content:deploy -f
+$MAGENTO_BIN setup:di:compile

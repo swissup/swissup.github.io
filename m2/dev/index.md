@@ -180,19 +180,7 @@ bin/magento setup:upgrade
 #### Short variant
 
 ```bash
-composer config repositories.swissup composer https://docs.swissuplabs.com/packages/
-packages=$(composer show --available | grep "swissup/module-\|swissup/theme-"| cut -d ' ' -f 1 | tr '\n\012\015' ' '); echo $packages | xargs composer require --prefer-source ;
-bin/magento module:status | grep Swissup_ | xargs bin/magento module:enable ;
-bin/magento setup:upgrade
-```
-
-#### For Dockerizer users
-
-```bash
-composer config repositories.swissup composer https://docs.swissuplabs.com/packages/
-packages=$(composer show --available | grep "swissup/module-\|swissup/theme-" | cut -d ' ' -f 1 | tr '\n\012\015' ' '); echo $packages | xargs composer require --prefer-source ;
-vendor/bin/dockerizer bin/magento module:enable `vendor/bin/dockerizer bin/magento module:status | grep Swissup_ | cut -d ' ' -f 1 | tr '\n\012\015' ' '`
-vendor/bin/dockerizer bin/magento setup:upgrade
+curl -s https://raw.githubusercontent.com/swissup/swissup.github.io/master/m2/dev/install | bash -s
 ```
 
 ### Track uncommitted changes in all modules
