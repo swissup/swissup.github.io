@@ -217,3 +217,43 @@ for module in vendor/swissup/*; do rm -rf $module/.git; done;
 # 3. remove packages
 packages=$(composer info | grep swissup | cut -d ' ' -f 1 | tr '\n\012\015' ' '); echo $packages | xargs composer remove;
 ```
+
+
+### Tools
+
+1. [Whoops](https://github.com/yireo/Yireo_Whoops) module for Magento 2
+
+This module adds Whoops error handling to Magento 2.
+
+```bash
+composer require --dev yireo/magento2-whoops
+bin/magento module:enable Yireo_Whoops
+bin/magento setup:upgrade
+```
+
+2. [Mgt Developer Toolbar](https://github.com/mgtcommerce/Mgt_Developertoolbar) for Magento 2
+
+The toolbar shows you all important information for performance optimisation and magento development.
+
+```bash
+composer require --dev mgtcommerce/module-mgtdevelopertoolbar
+bin/magento module:enable Mgt_DeveloperToolbar
+
+bin/magento setup:upgrade
+bin/magento config:set mgt_developer_toolbar/module/is_enabled 1
+bin/magento cache:flush
+
+rm -rf pub/static/*
+rm -rf var/*
+
+bin/magento setup:static-content:deploy
+```
+
+3. [Magento 2 Cache Clean](https://github.com/mage2tv/magento-cache-clean)
+
+The file watcher automatically cleans affected cache types in the Magento 2 cache during development.
+
+```bash
+composer require --dev mage2tv/magento-cache-clean
+vendor/bin/cache-clean.js --watch
+```
