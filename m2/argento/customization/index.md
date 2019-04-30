@@ -35,6 +35,9 @@ category: Argento
         - [Remove listing styles](change-product-listing-styles/#remove-listing-styles)
     - Product page
         - [Add additional blocks to the product page](add-additional-blocks-to-the-product-page/)
+        - [Add price to colorswatch items](adding-prices-to-magento-swatches/)
+    - Category page
+        - [Moving category header to main content](moving-category-header-to-main-content/)
     - Checkout page
         - [Update checkout styles](checkout-styles/)
  4. Content Organizing
@@ -47,5 +50,3 @@ category: Argento
         - [Argento Luxury homepage](/m2/argento/luxury/page-structure/homepage/)
     -   [Adding 'Scroll Up' button](add-scroll-up/)
     -   [Removing default footer links](removing-default-footer-links/)
-    -   [Moving category header to main content](moving-category-header-to-main-content/)
-    -   [Adding prices to magento swatches](adding-prices-to-magento-swatches/)
