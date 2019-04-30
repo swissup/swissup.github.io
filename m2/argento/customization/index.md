@@ -35,6 +35,8 @@ category: Argento
         - [Remove listing styles](change-product-listing-styles/#remove-listing-styles)
     - Product page
         - [Add additional blocks to the product page](add-additional-blocks-to-the-product-page/)
+    - Checkout page
+        - [Update checkout styles](checkout-styles/)
  4. Content Organizing
     -   [FontAwesome icons](icons/)
     -   [Homepage content structure](homepage-content/)
