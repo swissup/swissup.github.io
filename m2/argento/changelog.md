@@ -7,6 +7,73 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.10.0
+
+> Draft
+
+{% include gallery.html images=site.data.gallery.m2.argento.changelog.v1100 class="phone-up-1 tablet-up-3 photoswipe scroll" %}
+
+ -  **Clean [configurable](/m2/argento/customization/checkout-styles/) checkout styles**
+    —   This improvement will increase conversion rate and overall customer
+        experience when browsing your store.
+ -  **Refined compare toolbar** — Now it doesn't take any space in the header and
+    remains visible on mobile devices.
+ -  **Conditional tabs** in EasyTabs module.
+ -  Refined ['Scroll to Top' button styles](/m2/argento/customization/add-scroll-up/).
+ -  Small CSS fixes and improvements.
+ -  RTL style fixes.
+ -  ArgentoEssence:
+    -   Fixed ability to change columns count in EasyCatalogImages widget on the homepage.
+ -  ArgentoLuxury:
+    -   Alternative logo option moved to the default Magento's logo option page:
+        _Content > Design > Configuration_.
+ -  ArgentoStripes:
+    -   Added ability to [show quantity field](/m2/argento/stripes/customization/#show-qty-field-at-product-page)
+        at the product page.
+    -   Improved styles of contacts page.
+    -   Fixed missing "Recently Viewed" block.
+ -  Custom Themes:
+    -   Fixed CSS and alternative logo issues in custom themes that are inherited
+        from Luxury theme.
+
+**Extensions Updates**
+
+ -  [Ajaxpro](/m2/extensions/ajaxpro/)
+    - Fixed css issue with argento 'compare products' toolbar
+    - RTL fixes for floating cart mode
+    - Fixed 'Delete item' confirmation popup behind overlay
+ -  [Ajaxsearch](/m2/extensions/ajaxsearch/)
+    - CSS fixes
+ -  [AMP](/m2/extensions/amp/)
+    - FPC compatibility added
+    - Fixed cache issue with navigation block
+ -  [EasyCatalogImg](/m2/extensions/easyslider/)
+    - CSS improvements
+ -  [EasyFlags](/m2/extensions/easyflags/)
+    -   Fix delete image for store view. Previously it was not possible to
+        remove image assigned to store view.
+    -   Improve compatibility with Magento 2.2.0.
+ -  [EasySlide](/m2/extensions/easyslider/)
+    - Fixed warning in logs about missing .map source file
+ -  [EasyTabs](/m2/extensions/easytabs/)
+    -   New feature - conditions for tabs. Now it is possible to show tab when
+        customer is signed in or when product has some attribute value.
+    -   Improved stability when there is tab for some third-party module but
+        module is disabled or removed.
+ -  [Fblike](/m2/extensions/facebooklikebutton/)
+    - Improve CSS for custom button.
+    - Fix not initialized like buttons. Update Facebook SDK.
+ -  [Highlight](/m2/extensions/highlight/)
+    - Fixed missing title image in magazine layout
+    - Fixed invalid currency code when cache is enabled
+ -  [Lightboxpro](/m2/extensions/lightboxpro/)
+    - Fixed Vimeo video on product page
+ -  [SeoSuite](/m2/extensions/seo-suite/)
+    - Fixed structured data error for grouped and bundle products - `offerCount` can’t be empty.
+    - Compatibility with PHP 7.2.
+ -  [Testimonials](/m2/extensions/testimonials/)
+    - Fixed image resize when height is empty
+
 ### Version 1.9.1
 
 > Mar 29, 2019
