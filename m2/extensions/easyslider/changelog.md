@@ -8,6 +8,12 @@ category: Easy Slider
 
 # Changelog
 
+### Version 1.3.1
+
+> Apr 30, 2019
+
+ -  Fixed warning in logs about missing .map source file
+
 ### Version 1.3.0
 
 > Mar 29, 2019

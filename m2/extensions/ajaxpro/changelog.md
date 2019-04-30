@@ -6,6 +6,14 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.4.5
+
+> Apr 30, 2019
+
+ -  RTL fixes for floating cart mode
+ -  Fixed 'Delete item' confirmation popup behind overlay
+ -  Fixed css issue with argento 'compare products' toolbar
+
 ### Version 1.4.4
 
 > Mar 29, 2019
