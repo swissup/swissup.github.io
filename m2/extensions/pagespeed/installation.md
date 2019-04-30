@@ -20,8 +20,11 @@ php bin/magento setup:upgrade
 php bin/magento setup:di:compile
 
 #Fast enable and configure
+curl -s https://raw.githubusercontent.com/swissup/swissup.github.io/master/m2/extensions/pagespeed/configure | bash -s
+#OR
 bash -c "$(curl -s https://raw.githubusercontent.com/swissup/swissup.github.io/master/m2/extensions/pagespeed/configure)"
 #OR
+php bin/magento cache:flush
 php bin/magento config:set pagespeed/main/enable 1
 php bin/magento config:set pagespeed/main/devmode 1
 php bin/magento config:set pagespeed/content/enable 1

@@ -422,10 +422,11 @@ Set
 #### Pro cli tips
 
 ~~~bash
-bash -c "$(curl -s https://raw.githubusercontent.com/swissup/swissup.github.io/master/m2/extensions/pagespeed/configure)"
+curl -s https://raw.githubusercontent.com/swissup/swissup.github.io/master/m2/extensions/pagespeed/configure | bash -s
 ~~~
 
 ~~~sh
+php bin/magento cache:flush
 php bin/magento config:set pagespeed/main/enable 1
 php bin/magento config:set pagespeed/main/devmode 1
 php bin/magento config:set pagespeed/content/enable 1

@@ -7,8 +7,11 @@ fi
 
 MAGENTO_BIN="$PHP_BIN bin/magento"
 
+[ -f 'bin/magento' ] || { echo >&2 "The script requires installed \"Magento 2\" "; pwd; exit 1; }
+
 $MAGENTO_BIN --version
 
+$MAGENTO_BIN cache:flush
 $MAGENTO_BIN config:set pagespeed/main/enable 1
 $MAGENTO_BIN config:set pagespeed/main/devmode 1
 $MAGENTO_BIN config:set pagespeed/content/enable 1
