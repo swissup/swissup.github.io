@@ -28,9 +28,14 @@ Theme editor is located at
 
 #### Home Page
 
-In Luxury theme you can use alternative logo on homepage. Here you can upload logo file.
+> Looking for alternative logo option? It was moved (1.10.0) to the default
+> Magento's logo option page: _Content > Design > Configuration_.
 
-![Argento Pure2 Home Page](/images/m2/argento/luxury/theme-editor/home-page.png)
+In Luxury theme you can use fullscreen slider (Enabled be default). When it's
+enabled an alternative logo is used. You can configure it at _Content > Design > Configuration_
+just like regular logo of your site.
+
+![Argento Luxury Home Page](/images/m2/argento/luxury/theme-editor/home-page.png)
 
 #### Layout
 
