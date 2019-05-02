@@ -8,6 +8,14 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.6.0
+
+> May 02, 2019
+
+ -  Added ability to show 'Popular Search Terms' when focusing empty search field.
+    (See _Stores > Configuration > Swissup > Ajaxsearch > Popular Search Terms Suggestions_ options.)
+ -  Small JS and CSS fixes
+
 ### Version 1.5.3
 
 > Mar 29, 2019
