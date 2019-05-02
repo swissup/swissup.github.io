@@ -8,6 +8,13 @@ category: Accelerated Mobile Pages
 
 # Changelog
 
+### Version 1.3.2
+
+> May 2, 2019
+
+ -  `Force AMP` feature now works correctly with Magento Full Page Cache
+ -  Fixed broken top navigation with block cache enabled
+
 ### Version 1.3.1
 
 > Mar 29, 2019
