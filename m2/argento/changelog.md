@@ -9,14 +9,14 @@ category: Argento
 
 ### Version 1.10.0
 
-> Draft
+> May 02, 2019
 
 {% include gallery.html images=site.data.gallery.m2.argento.changelog.v1100 class="phone-up-1 tablet-up-3 photoswipe scroll" %}
 
  -  **Clean [configurable](/m2/argento/customization/checkout-styles/) checkout styles**
     —   This improvement will increase conversion rate and overall customer
         experience when browsing your store.
- -  **Refined compare toolbar** — Now it doesn't take any space in the header and
+ -  **Refined compare toolbar** — Now it doesn't take a space in the header and
     remains visible on mobile devices.
  -  **Conditional tabs** in EasyTabs module.
  -  Refined ['Scroll to Top' button styles](/m2/argento/customization/add-scroll-up/).
@@ -43,9 +43,11 @@ category: Argento
     - RTL fixes for floating cart mode
     - Fixed 'Delete item' confirmation popup behind overlay
  -  [Ajaxsearch](/m2/extensions/ajaxsearch/)
-    - CSS fixes
+    - Added ability to show 'Popular Search Terms' when focusing empty search field
+        (See _Stores > Configuration > Swissup > Ajaxsearch > Popular Search Terms Suggestions_ options.)
+    - Small JS and CSS fixes
  -  [AMP](/m2/extensions/amp/)
-    - FPC compatibility added
+    - FPC compatibility fixes
     - Fixed cache issue with navigation block
  -  [EasyCatalogImg](/m2/extensions/easyslider/)
     - CSS improvements
