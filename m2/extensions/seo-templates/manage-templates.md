@@ -58,30 +58,32 @@ Below you can find list of allowed directives for metadata templates.
 
 ##### Directives for product template
 
-**`{% raw %}{{attribute code="..." [prefix="..."] [sufix="..."] [exclude="..."] [limit="..."] [separator="..."]}}{% endraw %}`** - value of attribute by its code. You can set multiple codes separated with comma. It will return first not empty value. For example, some of your products have attribute manufacturer and other have - brand. In such case you can use `{% raw %}{{attribute code="brand,manufacturer"}}{% endraw %}`. With configurable product this directive can return values of attribute from child products. You can set max number of values (`limit="5"`) and separator (`separator=", "`). `exclude` option allows you to exclude some values from output. It can containe multiple values separated with comma.
+**`{% raw %}{{attribute code="…" [prefix="…"] [sufix="…"] [exclude="…"] [limit="…"] [separator="…"]  [max_length="…" [break_words="…" etc="…"]]}}{% endraw %}`** - value of attribute by its code. You can set multiple codes separated with comma. It will return first not empty value. For example, some of your products have attribute manufacturer and other have - brand. In such case you can use `{% raw %}{{attribute code="brand,manufacturer"}}{% endraw %}`. With configurable product this directive can return values of attribute from child products. You can set max number of values (`limit="5"`) and separator (`separator=", "`). `exclude` option allows you to exclude some values from output. It can containe multiple values separated with comma.
+`max_length` sets max length in characters for output. By default it respects words and doesn't cut them. `break_words="1"` will force to cut words. `etc` sets trailing string that will be added after output truncate.
 
-**`{% raw %}{{ifexist code="..." [then="..."] [else="..."]}}{% endraw %}`** - condition directive returns `then` if attribute with code `code` has value. Otherwise it returns `else`.
+**`{% raw %}{{ifexist code="…" [then="…"] [else="…"]}}{% endraw %}`** - condition directive returns `then` if attribute with code `code` has value. Otherwise it returns `else`.
 
-**`{% raw %}{{price [prefix="..."] [sufix="..."]}}{% endraw %}`** - product price.
+**`{% raw %}{{price [prefix="…"] [sufix="…"]}}{% endraw %}`** - product price.
 
 ##### Directives for category template
 
-**`{% raw %}{{attribute code="..." [prefix="..."] [sufix="..."] [exclude="..."] [limit="..."] [separator="..."]}}{% endraw %}`** - value of attribute by its code. You can set multiple codes separated with comma. It will return first not empty value. For example, some of your products have attribute manufacturer and other have - brand. In such case you can use `{% raw %}{{attribute code="brand,manufacturer"}}{% endraw %}`. With configurable product this directive can return values of attribute from child products. You can set max number of values (`limit="5"`) and separator (`separator=", "`). `exclude` option allows you to exclude some values from output. It can containe multiple values separated with comma.
+**`{% raw %}{{attribute code="…" [prefix="…"] [sufix="…"] [exclude="…"] [limit="…"] [separator="…"] [max_length="…" [break_words="…" etc="…"]]}}{% endraw %}`** - value of attribute by its code. You can set multiple codes separated with comma. It will return first not empty value. For example, some of your products have attribute manufacturer and other have - brand. In such case you can use `{% raw %}{{attribute code="brand,manufacturer"}}{% endraw %}`. With configurable product this directive can return values of attribute from child products. You can set max number of values (`limit="5"`) and separator (`separator=", "`). `exclude` option allows you to exclude some values from output. It can containe multiple values separated with comma.
+`max_length` sets max length in characters for output. By default it respects words and doesn't cut them. `break_words="1"` will force to cut words. `etc` sets trailing string that will be added after output truncate.
 
-**`{% raw %}{{ifexist code="..." [then="..."] [else="..."]}}{% endraw %}`** - condition directive returns `then` if attribute with code `code` has value. Otherwise it returns `else`.
+**`{% raw %}{{ifexist code="…" [then="…"] [else="…"]}}{% endraw %}`** - condition directive returns `then` if attribute with code `code` has value. Otherwise it returns `else`.
 
-**`{% raw %}{{products attribute="..." [prefix="..."] [sufix="..."] [exclude="..."] [limit="..."] [separator="..."]}}{% endraw %}`** - get values of attribute with code attribute from category products. You can set max number of values (`limit`) and separator (`separator`). With exclude option you can exclude some values from output.
+**`{% raw %}{{products attribute="…" [prefix="…"] [sufix="…"] [exclude="…"] [limit="…"] [separator="…"]}}{% endraw %}`** - get values of attribute with code attribute from category products. You can set max number of values (`limit`) and separator (`separator`). With exclude option you can exclude some values from output.
 
-**`{% raw %}{{subcats [prefix="..."] [sufix="..."] [exclude="..."] [limit="..."] [separator="..."]}}{% endraw %}`** - get get subcategories for category. You can set max number of subcategories to output (`limit`) and separator (`separator`). With  exclude option you can exclude some subcategories from output by their names.
+**`{% raw %}{{subcats [prefix="…"] [sufix="…"] [exclude="…"] [limit="…"] [separator="…"]}}{% endraw %}`** - get get subcategories for category. You can set max number of subcategories to output (`limit`) and separator (`separator`). With  exclude option you can exclude some subcategories from output by their names.
 
-**`{% raw %}{{minprice [prefix="..."] [sufix="..."]}}{% endraw %}`** - mininal price among all category products.
+**`{% raw %}{{minprice [prefix="…"] [sufix="…"]}}{% endraw %}`** - mininal price among all category products.
 
 ##### Comment
 
 With `sufix` and `prefix` options you can add some text before or after
 output. Works only when output is not empty.
 
-Directive options in square brackets (`[...]`) are optional. You should not
+Directive options in square brackets (`[…]`) are optional. You should not
 use square brackets in directive.
 
 ### Edit template
