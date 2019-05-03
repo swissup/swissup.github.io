@@ -8,6 +8,20 @@ category: SEO Suite
 
 # Changelog
 
+### Version 1.5.0
+
+> May 3, 2019
+
+*Metadata templates (1.4.0)*:
+
+ -  New option for 'attribute' directive - `max_length` (set max allowed length for output). It can be usefull for attributes with long content.
+ -  HTML tags removed from output of 'attribute' directive when respective attribute has marked as "html allowed".
+ -  New config section "Optimize metadata" where you can set optimal length for metadata.
+
+*Rich Snippets (1.4.2)*:
+
+ -  Slightly improved product description for structured data.
+
 ### Version 1.4.1
 
 > Apr 18, 2019
