@@ -8,6 +8,12 @@ category: Rich Snippets
 
 # Changelog
 
+### Version 1.4.2
+
+> May 3, 2019
+
+ -  Slightly improved product description for structured data.
+
 ### Version 1.4.1
 
 > Apr 18, 2019
