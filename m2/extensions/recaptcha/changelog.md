@@ -8,6 +8,12 @@ category: reCAPTCHA
 
 # Changelog
 
+### Version 1.2.0
+
+> May 13, 2019
+
+ -  New feature - protect "Subscribe to newsletter" with recaptcha.
+
 ### Version 1.1.3
 
 > Mar 29, 2019

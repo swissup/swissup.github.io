@@ -28,4 +28,6 @@ Our Magento extension replaces default Magento CAPTCHA with more secure Google r
     
     ![Invisible reCAPTCHA](https://developers.google.com/recaptcha/images/invisible_badge.png)
 
-**Notice:** current version of this extension does not provide security CAPTCHAs to any other form than your Magento instance. It just replaces default Magento CAPTCHA. So if your store has a disabled CAPTCHA, then you have to enable it first. Please, read Magento User Guide how to do that - [Security CAPTCHA](https://docs.magento.com/m2/ce/user_guide/stores/security-captcha.html).
+**Notice:** current version of this extension does not provide security CAPTCHAs to any other form than your Magento instance does. It just replaces default Magento CAPTCHA. So if your store has a disabled CAPTCHA, then you have to enable it first. Please, read Magento User Guide how to do that - [Security CAPTCHA](https://docs.magento.com/m2/ce/user_guide/stores/security-captcha.html).
+
+**Notice:** One exception is "Subscribe to Newsletter" form. With our module you can add reCAPTCHA to this form to secure it from bots. This feature is available since version 1.2.0. Check module configuration to enabale this feature.
