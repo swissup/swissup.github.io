@@ -7,6 +7,17 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.3.4
+
+> May 13, 2019
+
+**Features**
+ - Add feature 'Hide certain filters on specific categories'
+ - Scroll to toolbar after AJAX reload
+
+**Bugfixes**
+ - Fix elasticsearch and Magento 2.2 compatibility
+
 ### Version 1.3.3
 
 > Apr 19, 2019
