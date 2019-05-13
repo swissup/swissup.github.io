@@ -11,6 +11,13 @@ category: AskIt
 
 # Changelog
 
+### Version 1.4.2
+
+> May 13, 2019
+
+ -  Add 'review_product_list' use case
+ -  Fix magento 2.2 compatability (GraphQl interface not exist)
+
 ### Version 1.4.1
 
 > Mar 27, 2019
