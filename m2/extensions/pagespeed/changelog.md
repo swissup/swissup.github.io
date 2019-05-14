@@ -8,6 +8,29 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.2.2
+
+> May 14, 2019
+
+**Features**
+- Remove using php DomDocumenr save HTML
+
+**Fixes**
+- Added <picture> tag patch at webm optimizer for safari compatibility
+- Fixed paypal x-magento-template's bug
+
+
+### Version 1.2.1
+
+> Mar 18, 2019
+
+**Features**
+- Add translates
+
+**Fixes**
+- Fix magento 2.2.5 integration
+- Fixed GZIP test url in config
+
 ### Version 1.2.0
 
 **Features**
