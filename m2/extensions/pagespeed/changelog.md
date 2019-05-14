@@ -18,7 +18,7 @@ category: Pagespeed
 **Fixes**
 - Added <picture> tag patch at webm optimizer for safari compatibility
 - Fixed paypal x-magento-template's bug
-
+- Fixed :Uncaught Error Class 'Swissup/../Gallery' not found
 
 ### Version 1.2.1
 
