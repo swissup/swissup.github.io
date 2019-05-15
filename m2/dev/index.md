@@ -219,7 +219,7 @@ packages=$(composer info | grep swissup | cut -d ' ' -f 1 | tr '\n\012\015' ' ')
 ```
 
 
-### Tools
+### Tools & Tricks
 
 1. [Whoops](https://github.com/yireo/Yireo_Whoops) module for Magento 2
 
@@ -256,4 +256,20 @@ The file watcher automatically cleans affected cache types in the Magento 2 cach
 ```bash
 composer require --dev mage2tv/magento-cache-clean
 vendor/bin/cache-clean.js --watch
+```
+
+4. To manually show recently modified files
+
+```bash
+find ./ -type f -mtime -1
+find ./ -printf '%TY-%Tm-%Td %TT %p\n' | sort -r
+
+curl -s https://raw.githubusercontent.com/swissup/swissup.github.io/master/m2/dev/today_modified | bash -s
+curl -s https://raw.githubusercontent.com/swissup/swissup.github.io/master/m2/dev/recently_modified | bash -s
+```
+
+Compare a remote file with a local file
+
+```bash
+curl -s https://raw.githubusercontent.com/swissup/swissup.github.io/master/m2/dev/index.md | diff m2/dev/index.md -
 ```
