@@ -48,6 +48,21 @@ Block CSS Class         | block_css     | Block wrapper class
 </referenceContainer>
 ```
 
+#### PHP Code
+
+```php
+echo $block->getLayout()
+    ->createBlock('Swissup\Navigationpro\Block\Widget\Menu')
+    ->addData([
+        'identifier' => 'sidebar',
+        'show_active_branch' => true,
+        'theme' => 'compact',
+        'orientation' => 'vertical',
+        'wrap' => true,
+    ])
+    ->toHtml();
+```
+
 #### Next up
 
  -  [How to create Sidebar Menu](/m2/extensions/navigationpro/use-cases/sidebar-menu/)
