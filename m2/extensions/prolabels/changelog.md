@@ -8,6 +8,13 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.3.1
+
+> May 15, 2019
+
+ -  Fixed incorrect prices in labels when tax included in price. Respect tax settings.
+ -  Improve OnSale label determination for configurable products.
+
 ### Version 1.3.0
 
 > Apr 11, 2019
