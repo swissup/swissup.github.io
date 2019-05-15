@@ -10,14 +10,21 @@ category: Navigationpro
 ![Megamenu](/images/m2/navigationpro/use-cases/megamenu.png)
 
  1. Navigate to _Swissup > NavigationPro_ page, and press "Add New Menu".
- 2. Fill the [form](/m2/extensions/navigationpro/backend/menu-new/) according to
-    your needs and press "Save".
- 3. That's all. Clear Magento's cache and see the result on the frontend.
+ 2. Fill the [form](/m2/extensions/navigationpro/backend/menu-new/) and press "Save".
+    (Select 'Megamenu' type in the form).
+ 3. That's all, menu skeleton is ready. Check the frontend!
+ 4. If you whould like to limit the number of categories to display on the second
+    dropdown level, open **Menu Settings** panel and edit "Second level dropdown settings"
+    fields:
 
-P.S. If you'd like to apply additional changes to the specific dropdown only,
-you can select the item in the tree and edit **Dropdown Settings** fields:
+    ![Second level dropdown settings](/images/m2/navigationpro/use-cases/megamenu/second-level-dropdown-settings.png)
 
-![Item dropdown settings](/images/m2/navigationpro/use-cases/megamenu/item-dropdown-settings.png)
+ 5. Now let's add a banner into 'Women' dropdown. Select the item in the tree
+    and edit **Dropdown Settings** fields:
+
+    ![Item dropdown settings](/images/m2/navigationpro/use-cases/megamenu/item-dropdown-settings.png)
+
+ 6. Use the same approach to change some settings for any other dropdowns.
 
 #### Next up
 {:.no_toc}

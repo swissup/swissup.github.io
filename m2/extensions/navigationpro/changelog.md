@@ -8,6 +8,25 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.10.0
+
+> May 15, 2019
+
+{% include gallery.html images=site.data.gallery.m2.navigationpro.changelog.v1100 class="phone-up-2 tablet-up-3 photoswipe scroll" %}
+
+ -  Improved backend [dropdown layout builder](/m2/extensions/navigationpro/ui/dropdown-layout-builder/).
+    Now it shows a preview of what customer will see on the frontend when
+    changing children settings or html content.
+ -  Added ability to limit number of categories to display in dropdown.
+    When using this option, a 'Shop All' link will be displayed if children count
+    exceed the limit. [View Megamenu Example](/m2/extensions/navigationpro/use-cases/megamenu/).
+ -  Improved cache cleanup when edit menu settings or create new menu. No more
+    manual cache update after each operation!
+ -  New categories are now automatically synced into appropriate menu's. You don't
+    need to manually import new categories into the tree!
+ -  Improved default values for built-in menu types.
+ -  Fixed "collapsed" menu on mobile devices after "window.resize" event.
+
 ### Version 1.9.3
 
 > Mar 29, 2019
