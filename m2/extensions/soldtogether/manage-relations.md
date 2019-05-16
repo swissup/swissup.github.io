@@ -1,0 +1,60 @@
+---
+layout: default
+title: Manage Relations
+description: Swissup Sold Together relations management
+keywords: soldtogether relations
+category: SoldTogether
+---
+
+# Manage relations
+{:.no_toc}
+
+* TOC
+{:toc}
+
+Sold Together module build relations between products. There are two types of relations:
+
+ -  'Bought together' - relation means product A bought together with product B in the same order.
+ -  'Also bought' - relation means customer who bought product A also bought product B with his other order.
+
+Relation between products has its weight. In simple words, weight is a number of times this relation happened.
+
+Sold Together block shows products with biggest relation weight.
+
+### Index/reindex soldtogether relations
+
+This can be useful when you just installed module and have no Sold Together relations. But have some number of placed orders. The more orders you have the better index results you get.
+
+#### Via Magento Admin
+
+![Index via Magento Admin](/images/m2/soldtogether/index-via-admin.png)
+
+In Magento Admin click on menu item _Swissup_ 🡪 _SoldTogether_ section 🡪 _Frequently Bought Together_ (or _Customers Who Bought..._).
+
+There you can find button "Index Orders". This button will rebuild relations.
+
+PS: all manully created relations ("Is Admin" = Yes) will be left untucked.
+
+#### CLI command
+
+It is possible to index relations via `bin/magento` command.
+
+Index/reindex 'Bought together' relations:
+
+```
+bin/magento swissup:soldtogether:customer:reindex
+```
+
+Index/reindex 'Also bought' relations:
+
+```
+bin/magento swissup:soldtogether:order:reindex
+```
+
+#### Change relations for a product
+
+![Edit product relation](/images/m2/soldtogether/product-edit.png)
+
+Open product you need in Magento Admin. Under section "SoldTogether" there is a grid where you can rearragne/remove/add relations.
+
+

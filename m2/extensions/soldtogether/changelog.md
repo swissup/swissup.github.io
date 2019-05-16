@@ -8,6 +8,14 @@ category: SoldTogether
 
 # Changelog
 
+### Version 1.5.0
+
+> May 16, 2019
+
+ -  Added mass action "Delete" at module grids. Now you can delete multiple relations at once.
+ -  CLI commands to index/reindex Sold Together relations with bin/magento commands.
+ -  Minor JavaScript code improvements.
+
 ### Version 1.4.2
 
 > Mar 29, 2019

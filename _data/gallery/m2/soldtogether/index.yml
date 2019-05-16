@@ -1,0 +1,15 @@
+- href: /images/m2/soldtogether/example/bought-together-stripes.png
+  src: /images/m2/soldtogether/example/small-bought-together-stripes.png
+  title: Frequently bought together - Stripes layout (styles of Argento Stripes theme)
+  w: 1136
+  h: 330
+- href: /images/m2/soldtogether/example/bought-together-amazon.png
+  src: /images/m2/soldtogether/example/small-bought-together-amazon.png
+  title: Frequently bought together - Amazon layout (Magento Luma styles)
+  w: 970
+  h: 430
+- href: /images/m2/soldtogether/example/also-bought.png
+  src: /images/m2/soldtogether/example/small-also-bought.png
+  title: Customers who bought this also bought (Magento Luma styles)
+  w: 1116
+  h: 410
