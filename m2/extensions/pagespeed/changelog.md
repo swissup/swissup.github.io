@@ -8,6 +8,12 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.2.3
+
+> May 21, 2019
+
+ -  Compatibility with Swissup_ProLabels module. Previously there was an issue when HTML minification enabled - some labels do not render.
+
 ### Version 1.2.2
 
 > May 14, 2019
