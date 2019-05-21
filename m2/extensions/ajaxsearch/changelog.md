@@ -8,6 +8,13 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.6.1
+
+> May 21, 2019
+
+ -  Fixed missing default search when AJAX search is disabled in config.
+ -  Template initialization refactored
+
 ### Version 1.6.0
 
 > May 02, 2019
