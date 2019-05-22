@@ -7,6 +7,12 @@ category: Accelerated Mobile Pages
 sidebar: sidebar.md
 ---
 
+### Version 1.7.1
+
+> May 22, 2019
+
+ -  Prevent duplicates in ‘amphtml’ url on configurable product pages.
+
 ### Version 1.7.0
 
 > Mar 19, 2019
