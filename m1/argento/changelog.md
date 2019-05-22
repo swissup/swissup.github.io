@@ -7,6 +7,33 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.14.0
+
+> May 22, 2019
+
+ -  Fixed ghost scrolling to the top when sticky header is used.
+ -  Prevent horizontal scrollbar when resizing window with sticky header.
+ -  RTL styles improved.
+ -  Minor improvements for AskIt and Testimonials.
+
+**Modules fixes & improvements**
+
+ -  AMP:
+
+     +  New feature to remove tag or attribute for AMP variant of the page. Use 'data-tmamp-remove' attribute.
+     +  Prevent duplicates in 'amphtml' url on configurable product pages.
+
+ -  Email:
+     +  Added config option to enable/disable history saving.
+
+ -  Pagespeed:
+     +  Remove chunk name (full action name) from merged file. It reduces disk space usage and reuses already generated files.
+     +  Improve HTML parse to prevent messing up page.
+
+ -  SEO Suite:
+     +  Rich Snippets: solve latest Google warnings; new config option to map product structured data with product attributes.
+     +  XML Sitemap: prevent duplicate alternate locales.
+
 ### Version 1.13.0
 
 > Feb 26, 2019
