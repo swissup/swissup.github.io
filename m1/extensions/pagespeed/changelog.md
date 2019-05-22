@@ -7,6 +7,13 @@ category: Page Speed
 
 # Changelog
 
+### Version 1.3.6
+
+> May 22, 2019
+
+ -  Remove chunk name (full action name) from merged file. It reduces disk space usage and reuses already generated files.
+ -  Improve HTML parse to prevent messing up page.
+
 ### Version 1.3.5
 
 > Feb 26, 2019
