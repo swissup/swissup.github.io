@@ -8,6 +8,13 @@ category: SEO Suite
 
 # Changelog
 
+### Version 0.7.2
+
+> May 22, 2019
+
+ -  XML Sitemap:
+     +  Prevent duplicate alternate locales.
+
 ### Version 0.7.1
 
 > Apr 18, 2019
