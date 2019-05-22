@@ -19,7 +19,6 @@ category: Argento
 **Modules fixes & improvements**
 
  -  AMP:
-
      +  New feature to remove tag or attribute for AMP variant of the page. Use 'data-tmamp-remove' attribute.
      +  Prevent duplicates in 'amphtml' url on configurable product pages.
 
