@@ -8,6 +8,13 @@ category: Delete Orders
 
 # Changelog
 
+### Version 1.0.1
+
+-  Added mass delete Invoices;
+-  Added mass delete Shipments;
+-  Added mass delete Credit Memos;
+-  Added translation.
+
 ### Version 1.0.0
 
- -  Initial release
+ -  Initial release.
