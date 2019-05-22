@@ -107,6 +107,9 @@ Above Firecheckout Form | Additional content above firecheckout form
 Below Firecheckout Form | Additional content below firecheckout form
 Above place order button| Additional content above place order button
 Below place order button| Additional content below place order button
+**Intro Popup**         | See [ready-to-use examples](/m2/extensions/firecheckout/customization/use-cases/intro-popup/)
+Content for Guest Customers | Content to show for guest customers only
+Content for Registered Customers | Content to show for logged in customers
 
 ### Shiping settings section
 

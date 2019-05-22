@@ -8,6 +8,18 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.19.0
+
+> Draft
+
+ -  New additional content type:
+    [Intro Popup](/m2/extensions/firecheckout/configuration/#additional-content-section)
+    See [Intro Popup use-cases](/m2/extensions/firecheckout/customization/use-cases/intro-popup/)
+    for more information.
+ -  Fix billing address section collapsing in Magento 2.3.0
+ -  Improved error messages visibility
+ -  Improved Czech Republic addresses autocompletion
+
 ### Version 1.18.1
 
 > Mar 29, 2019
