@@ -273,3 +273,20 @@ Compare a remote file with a local file
 ```bash
 curl -s https://raw.githubusercontent.com/swissup/swissup.github.io/master/m2/dev/index.md | diff m2/dev/index.md -
 ```
+
+### Setup Wizard - Authentication errors
+
+1. `ci.swissuplabs.com` packages required authentication
+
+```bash
+composer config -a --file="var/composer_home/auth.json" http-basic.ci.swissuplabs.com "DOMAIN" "IDENTITY_KEY"
+```
+
+2. `repo.magento.com` packages required authentication
+
+```
+Admin -> System -> Web Setup Wizard -> System Config - put Your Magento keys "Public Access Key" & "Private Access Key"
+```
+You can get keys from Your [Magento account page](https://marketplace.magento.com/customer/accessKeys/)
+
+
