@@ -32,6 +32,11 @@ gallery:
 
 # AskIt Changelog
 
+### Version 2.3.17
+
+> May 22, 2019
+
+ -  Minor improvement for better quick search at "all questions" page.
 
 ### Version 2.3.16
 
