@@ -8,6 +8,14 @@ category: SoldTogether
 
 # Changelog
 
+### Version 1.6.0
+
+> May 23, 2019
+
+ -  Added ability to show suggestions based on shopping cart items. See
+    [firecheckout intro popup example](/m2/extensions/firecheckout/customization/use-cases/intro-popup/#frequently-bought-together)
+ -  Code cleanup
+
 ### Version 1.5.0
 
 > May 16, 2019
