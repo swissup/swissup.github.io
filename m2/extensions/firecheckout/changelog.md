@@ -10,7 +10,7 @@ category: Firecheckout
 
 ### Version 1.19.0
 
-> Draft
+> May 23, 2019
 
  -  New additional content type:
     [Intro Popup](/m2/extensions/firecheckout/configuration/#additional-content-section)
@@ -19,7 +19,28 @@ category: Firecheckout
  -  Fixed billing address section collapsing in Magento 2.3.0
  -  Fixed styles for `type="image"` inputs
  -  Improved error messages visibility
+
+**Modules Updates**
+
+**swissup/module-address-autocomplete**
+
  -  Improved Czech Republic addresses autocompletion
+
+**swissup/module-geoip**
+
+ -  Fixed invalid shipping methods on initial page load
+ -  A new place for MaxMind database to keep vendor directory clean: `var/swissup/geoip/`.
+    Old location (`vendor/swissup/module-geoip/`) will still work fine though.
+ -  Code cleanup
+
+**swissup/module-taxvat**
+
+ -  Added abilty to place tax-free order when VAT Number is valid (EU countries only)
+ -  Added ability to place order using invalid VAT Number
+ -  Hide notice about country code for magento 2.3.0 and newer
+ -  Configuration improvements
+ -  Code optimizations
+ -  1.2.1 hotfix: tax-free orders on Magento 2.2
 
 ### Version 1.18.1
 

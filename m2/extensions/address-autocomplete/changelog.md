@@ -7,6 +7,12 @@ category: Address Autocomplete
 
 # Changelog
 
+### Version 1.2.1
+
+> May 23, 2019
+
+ -  Improved Czech Republic addresses autocompletion
+
 ### Version 1.2.0
 
 > Jan 15, 2019

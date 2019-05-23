@@ -8,6 +8,12 @@ category: Checkout VAT
 
 # Changelog
 
+### Version 1.2.2
+
+> May 23, 2019
+
+ -  Code cleanup
+
 ### Version 1.2.0 &amp; 1.2.1
 
 > Apr 05, 2019
