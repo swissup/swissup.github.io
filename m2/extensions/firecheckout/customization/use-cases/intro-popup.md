@@ -117,7 +117,6 @@ Code for CMS block:
     .pay-with-card:hover,
     .pay-with-card:active,
     .pay-with-card:focus {
-        box-shadow: 0px 1px 0px 0px #fff6af;
         background:linear-gradient(to bottom, #ffec64 5%, #ffb133 100%);
         background-color:#ffec64;
         border-radius:4px;
