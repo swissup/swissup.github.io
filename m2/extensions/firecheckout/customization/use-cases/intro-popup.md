@@ -92,6 +92,46 @@ Code for CMS block:
 </section>{% endraw %}
 ```
 
+### Payment Methods Chooser
+
+![Payment Methods Chooser](/images/m2/firecheckout/customization/use-cases/intro-popup-payments.png)
+
+```html
+{% raw %}<section>
+    <h2 class="section-title">Choose Payment Method</h2>
+    <div class="fc-flex fc-flex-center">
+        <div class="fc-col">
+            <div class="block">
+                {{block class="Magento\Paypal\Block\Express\Shortcut" template="Magento_Paypal::express/shortcut.phtml"}}
+            </div>
+        </div>
+        <div class="fc-col">
+            <div class="block">
+                <button class="pay-with-card" data-role="closeBtn">Pay With Credit Card</button>
+            </div>
+        </div>
+    </div>
+
+    <style>
+    .pay-with-card,
+    .pay-with-card:hover,
+    .pay-with-card:active,
+    .pay-with-card:focus {
+        box-shadow: 0px 1px 0px 0px #fff6af;
+        background:linear-gradient(to bottom, #ffec64 5%, #ffb133 100%);
+        background-color:#ffec64;
+        border-radius:4px;
+        border:1px solid #db9225;
+        color:#333333;
+        font-size:15px;
+        font-weight:bold;
+        padding:6px 24px;
+        text-shadow:0px 1px 0px #ffee66;
+    }
+    </style>
+</section>{% endraw %}
+```
+
 ##### Next up
 {:.no_toc}
 
