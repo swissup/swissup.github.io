@@ -50,7 +50,7 @@ Let's slightly change form and firecheckout layout styles and section number col
     @fc-section-number__color: #fff;
     @fc-section-number__background: #1979c3;
 
-    @fc-form-field__border-width: 0 0 1px;
+    @fc-form-field__border-width: 1px;
     @fc-form-field__background-color: #fff;
     ```
 
