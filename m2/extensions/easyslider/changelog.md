@@ -8,6 +8,12 @@ category: Easy Slider
 
 # Changelog
 
+### Version 1.3.2
+
+> May 23, 2019
+
+ -  Fixed not working enable/disable actions in backend grid.
+
 ### Version 1.3.1
 
 > Apr 30, 2019
