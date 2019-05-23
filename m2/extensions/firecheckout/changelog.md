@@ -16,7 +16,8 @@ category: Firecheckout
     [Intro Popup](/m2/extensions/firecheckout/configuration/#additional-content-section)
     See [Intro Popup use-cases](/m2/extensions/firecheckout/customization/use-cases/intro-popup/)
     for more information.
- -  Fix billing address section collapsing in Magento 2.3.0
+ -  Fixed billing address section collapsing in Magento 2.3.0
+ -  Fixed styles for `type="image"` inputs
  -  Improved error messages visibility
  -  Improved Czech Republic addresses autocompletion
 
