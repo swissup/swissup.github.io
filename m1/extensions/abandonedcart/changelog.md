@@ -8,7 +8,12 @@ category: Abandoned Cart
 
 # Changelog
 
-### Version 1.2.6
+### Version 1.2.8
+
+ -  Add phone and create order link to history grid
+ -  Fixed error when customer doesn't have address
+
+### Version 1.2.7
 
  -  Fix save guest firstname and lastname
 
