@@ -8,6 +8,12 @@ category: SoldTogether
 
 # Changelog
 
+### Version 1.6.1
+
+> May 24, 2019
+
+ -  Prevent unwanted products in the cart after check/uncheck some checkboxes.
+
 ### Version 1.6.0
 
 > May 23, 2019
