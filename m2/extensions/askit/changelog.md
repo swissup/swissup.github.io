@@ -11,6 +11,15 @@ category: AskIt
 
 # Changelog
 
+### Version 1.4.3
+
+> May 24, 2019
+
+ -  Add abstract save message action
+ -  Add explain error message(s) in save question action(close #37)
+ -  Fixed invalid data in the grid after filters reset
+ -  Fix Phpstan warnings
+
 ### Version 1.4.2
 
 > May 13, 2019
