@@ -8,6 +8,23 @@ category: Helpmate
 
 # Changelog
 
+### Version 1.7.12
+
+> May 24, 2019
+
+**Fixes**
+ - Fixed missing page title at contacts page (overriden) when layout cache is enabled
+ - Add patch for issue #68 (Problem with Referrer-Policy strict-origin header)
+ - Get configured email template by store id
+
+### Version 1.7.11
+
+**Fixes**
+ - Improve markup for ticket/new/attached template.
+ - Add proper referer Url to Ticket_Theard_New block.
+ - Improve close ticket checkbox for Ticket_Theard_New block.
+ - Set active link in for navigation at view ticket page on storefront.
+
 ### Version 1.7.10
 
 **Fixes**
