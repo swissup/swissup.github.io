@@ -8,6 +8,12 @@ category: Easy Tabs
 
 # Changelog
 
+### Version 1.5.1
+
+> May 24, 2019
+
+ -  Fixed error during data install - area code not set.
+
 ### Version 1.5.0
 
 > Apr 16, 2019
