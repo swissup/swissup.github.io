@@ -8,6 +8,12 @@ category: Easy Slider
 
 # Changelog
 
+### Version 1.3.3
+
+> May 24, 2019
+
+ -  Fixed invalid data in the grid after filters reset.
+
 ### Version 1.3.2
 
 > May 23, 2019

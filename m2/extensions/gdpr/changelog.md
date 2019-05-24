@@ -8,6 +8,12 @@ category: GDPR
 
 # Changelog
 
+### Version 1.1.2
+
+ > May 24, 2019
+
+ -  Deprecated code removed
+
 ### Version 1.1.1
 
 > Mar 29, 2019
