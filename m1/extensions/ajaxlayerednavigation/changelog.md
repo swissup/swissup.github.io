@@ -7,6 +7,14 @@ keywords: magento layered navigation updates
 
 # Changelog
 
+### Version 2.6.5
+
+> May 24, 2019
+
+ **Fixes**
+  - Fix amp integration bug
+  - Fix require if mage app/code dir not add to get_include_path
+
 ### Version 2.6.4
 
 -   Fix column not exitst bug
