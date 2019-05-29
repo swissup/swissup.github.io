@@ -2,8 +2,8 @@
 layout: default
 title: Absolute Theme
 description: Absolute Theme documentation
-keywords: " , magento 2 responsive template, magento 2 themes, magento 2
-template, magento themes "
+keywords: >
+    magento 2 free responsive theme
 category: Absolute Theme
 ---
 
@@ -20,13 +20,6 @@ category: Absolute Theme
 
 ### Main Features
 
- *  ##### **Responsive** design
-
-    ![Devices](/images/m2/themes/absolute/devices.png){: .noborder}
-
-    As we're using all advantages of **Magento2 LUMA** theme **Absolute template**
-    has fully responsive markup and can be used at all screen sizes.
-
  *  ##### **Slick Carousel** sliders _(optimized for touchscreen)_
 
     ![Slick Carousel](/images/m2/themes/absolute/carousel.gif)
@@ -37,7 +30,7 @@ category: Absolute Theme
     places using following markup:
 
     ```html
-    <div data-mage-init='{"slick": {"slidesToShow": 4, "slidesToScroll": 1, "dots": true, "autoplay": true, "variableWidth": true}}'>
+    <div class="slick-slider" data-mage-init='{"slick": {"slidesToShow": 4, "slidesToScroll": 1, "dots": true, "autoplay": true, "variableWidth": true}}'>
         <div style="margin-right: 10px"><img src="http://placehold.it/350x150" alt=""/></div>
         <div style="margin-right: 10px"><img src="http://placehold.it/150x150" alt=""/></div>
         <div style="margin-right: 10px"><img src="http://placehold.it/300x150" alt=""/></div>

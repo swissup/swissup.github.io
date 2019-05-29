@@ -6,6 +6,30 @@ category: Absolute Theme
 
 # Changelog
 
+### Version 1.3.0
+
+> May 29, 2019
+
+{% include gallery.html images=site.data.gallery.m2.themes.absolute.changelog.v130 class="phone-up-1 tablet-up-3 photoswipe scroll" %}
+
+ -  Magento 2.3 compatibility
+ -  Huge amount of CSS improvements:
+    - Checkout page
+    - Account page
+    - Main menu
+    - Dropdown styles
+    - Search autocomplete
+    - Compare toolbar
+    - And many-many small fixes
+
+### Version 1.2.2
+
+ -  Fixed invalid 'contact' link in the footer
+
+### Version 1.2.1
+
+ -  Slick carousel updated to the latest version
+
 ### Version 1.1.2
 
  -  All modules updated according to Magento 2.1.7 changes
