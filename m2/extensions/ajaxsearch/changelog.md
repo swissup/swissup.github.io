@@ -8,6 +8,13 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.6.2
+
+> May 29, 2019
+
+ -  Fix 'Search' button disabled at folded design (close #31)
+ -  Fix two dropdown popups are rendered (one above another)
+
 ### Version 1.6.1
 
 > May 21, 2019
