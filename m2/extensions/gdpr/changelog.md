@@ -8,6 +8,13 @@ category: GDPR
 
 # Changelog
 
+### Version 1.1.4
+
+> May 29, 2019
+
+ -  Fixed missing consents at account privacy page when cache is enabled
+ -  Fixed not working customer link in requests grid at the backend
+
 ### Version 1.1.2
 
  > May 24, 2019
