@@ -24,9 +24,15 @@ After installing it, additional action appears at:
 
 {% include gallery.html images=site.data.gallery.m2.delete-orders.index class="scroll phone-up-1 tablet-up-3 photoswipe" %}
 
+> Also You may remove all records which have been built with specific order at the same time with removing order(s), that is delete all the Invoices, Shipments and Creditmemos
+which belong to some order(s).
+- `Sales->Orders->Actions->Delete with (Invoices, Shipments, Creditmemos)` - remove all records with selected order(s).
+{% include gallery.html images=site.data.gallery.m2.delete-orders.backend class="scroll phone-up-1 tablet-up-3 photoswipe" %}
+
 ### Features
 
--  Safe solution for removing Orders, Invoices, Shipments, Credit Memos;
+-  Safe solution for removing Orders, Invoices, Shipments, Credit Memos:
+    - `Delete Order(s) with their built records: Invoice(s), Shipment(s) and Creditmemo(s)`;
 -  Mass delete Orders;
 -  Mass delete Invoices;
 -  Mass delete Shipments;

@@ -8,6 +8,10 @@ category: Delete Orders
 
 # Changelog
 
+### Version 1.0.2
+
+-  Added mass delete Order(s) with their Invoice(s), Shipment(s) and Credit Memo(s).
+
 ### Version 1.0.1
 
 -  Added mass delete Invoices;
