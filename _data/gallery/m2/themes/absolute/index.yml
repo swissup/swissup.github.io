@@ -1,0 +1,20 @@
+- href: /images/m2/themes/absolute/pages/home.png
+  src: /images/m2/themes/absolute/pages/small/home.png
+  title: Absolute Theme Homepage
+  w: 1335
+  h: 2255
+- href: /images/m2/themes/absolute/pages/category.png
+  src: /images/m2/themes/absolute/pages/small/category.png
+  title: Absolute Theme Category Page
+  w: 1335
+  h: 1381
+- href: /images/m2/themes/absolute/pages/product.png
+  src: /images/m2/themes/absolute/pages/small/product.png
+  title: Absolute Theme Product Page
+  w: 1335
+  h: 938
+- href: /images/m2/themes/absolute/pages/checkout.png
+  src: /images/m2/themes/absolute/pages/small/checkout.png
+  title: Absolute Theme Checkout Page
+  w: 1073
+  h: 1255
