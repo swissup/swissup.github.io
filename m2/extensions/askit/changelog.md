@@ -11,6 +11,17 @@ category: AskIt
 
 # Changelog
 
+### Version 1.4.4
+
+> May 29, 2019
+
+ -  Fix answer wysiwyg editor initialization after ajax response
+ -  No questions message was changed
+ -  Improve collection status filter function
+ -  Hide wysiwyg editor by default
+ -  Changed question status by answer status
+ -  Set 'approved' question status if added new answer
+
 ### Version 1.4.3
 
 > May 24, 2019
