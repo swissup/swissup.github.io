@@ -8,6 +8,21 @@ category: SEO Suite
 
 # Changelog
 
+### Version 1.6.0
+
+> May 30, 2019
+
+*Regional URLs (hreflang) (1.2.3):*
+
+ -  Improved integration with pages for third-party modules - Swissup AskIt, Swissup Highlight and Swissup EasyCatalogImg (departments page).
+ 
+*SEO Pagination (1.2.0):*
+ -  New feature - add page number to title of page where paginated content presented.
+ -  Improved integration with Catalog Search pages.
+ 
+*SEO URLs (1.5.2)*:
+ -  Fixed compatibility with latest Swissup Ajaxsearch module. "Nothing found" message appeared for any instant search request.
+
 ### Version 1.5.0
 
 > May 3, 2019
