@@ -8,6 +8,12 @@ category: Store Maintenance
 
 # Changelog
 
+### Version 2.0.2
+
+> Jun 4, 2019
+
+ -  Fixed not working media queries in CSS for maintenance page. Now you can create responsive maintrenance page. 
+
 ### Version 2.0.0
 
 > Apr 4, 2019
