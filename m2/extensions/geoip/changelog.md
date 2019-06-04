@@ -8,6 +8,14 @@ category: Geoip
 
 # Changelog
 
+### Version 1.3.0
+
+> Jun 4, 2019
+
+ -  Two new [data providers](/m2/extensions/geoip/configuration/) added:
+    - [MaxMind Service](https://www.maxmind.com/en/geoip2-precision-city-service)
+    - [IpStack Service](https://ipstack.com/)
+
 ### Version 1.2.1
 
 > May 31, 2019

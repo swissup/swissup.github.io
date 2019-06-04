@@ -49,3 +49,6 @@ Make sure that the filename of downloaded database is the same as saved in
 >
 > Database will eventually become out of date.
 > It is recommended to update your database once a month.
+>
+> You can add the script above in your cron schedule to perform this task
+> automatically.
