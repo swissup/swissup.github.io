@@ -8,6 +8,13 @@ category: Review Reminder
 
 # Changelog
 
+### Version 1.1.1
+
+ -  Fixed empty name for guests, taking name from billing address
+ -  Use default cron group for sending reminders
+ -  Fixed missing delete button on the edit form
+ -  Fixed save and continue from products tab
+
 ### Version 1.0.10
 
  -  Showing order id and store view in grid and form
