@@ -17,6 +17,14 @@ category: GDPR
     (Available at "Newsletter Subscriptions Management" page inside
     customer account.)
 
+> **Upgrade Instruction**
+>
+> Navigate to module configuration and check "Show in Forms" option for
+> Newsletter consents config. Two forms should be selected:
+>
+> - Magento: Newsletter Subscription
+> - Magento: Newsletter Subscription Management
+
 ### Version 1.1.4
 
 > May 29, 2019
