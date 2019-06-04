@@ -7,6 +7,13 @@ category: Delivery Date
 
 # Changelog
 
+### Version 1.4.2
+
+> Jun 4, 2019
+
+ -  Fixed ability to enable delivery for all weekdays. Previously at least one
+    day was marked as day-off.
+
 ### Version 1.4.1
 
 > Mar 21, 2019

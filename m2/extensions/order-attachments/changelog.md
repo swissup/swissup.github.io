@@ -7,6 +7,12 @@ category: Order Attachments
 
 # Changelog
 
+### Version 1.3.3
+
+> Jun 4, 2019
+
+ -  Fixed broken order view page when Amasty_RewardPoints is installed
+
 ### Version 1.3.2
 
 > May 24, 2019
