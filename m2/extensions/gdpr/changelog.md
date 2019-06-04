@@ -16,6 +16,7 @@ category: GDPR
  -  Added ability to withdraw newletter consent for registered customers.
     (Available at "Newsletter Subscriptions Management" page inside
     customer account.)
+ -  Fixed not working form autocomplete when gdpr is initialized on the form.
 
 > **Upgrade Instruction**
 >
