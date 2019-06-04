@@ -8,6 +8,15 @@ category: GDPR
 
 # Changelog
 
+### Version 1.2.0
+
+> Jun 4, 2019
+
+ -  Added consent text to the "Newsletter Subscriptions Management" page.
+ -  Added ability to withdraw newletter consent for registered customers.
+    (Available at "Newsletter Subscriptions Management" page inside
+    customer account.)
+
 ### Version 1.1.4
 
 > May 29, 2019
