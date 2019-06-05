@@ -51,6 +51,7 @@ devices, tablets, and phones.
     - [Link Bar on Mobile devices](/m2/extensions/navigationpro/use-cases/link-bar/)
     - [Dropdown position](/m2/extensions/navigationpro/use-cases/dropdown-position/)
     - [Sticky Menu](/m2/extensions/navigationpro/use-cases/sticky/)
+    - [Click-based dropdowns](/m2/extensions/navigationpro/use-cases/click/)
  8. [Customization](/m2/extensions/navigationpro/customization/)
     - [Custom CSS](/m2/extensions/navigationpro/customization/custom-css/)
     - [LESS variables with third-party themes](/m2/extensions/navigationpro/customization/custom-theme-variables/) -

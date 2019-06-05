@@ -27,6 +27,7 @@ category: Navigationpro
  - [Link Bar on Mobile devices](/m2/extensions/navigationpro/use-cases/link-bar/)
  - [Dropdown Position](/m2/extensions/navigationpro/use-cases/dropdown-position/)
  - [Sticky Menu](/m2/extensions/navigationpro/use-cases/sticky/)
+ - [Click-based dropdowns](/m2/extensions/navigationpro/use-cases/click/)
 
 #### Next up
 

@@ -66,6 +66,7 @@ Class Name      | Description
 **Layout Modifiers** |
 `navpro-nowrap` | Do not wrap top level items on the new line. Use [separate dropdown][nowrap] for them.
 `navpro-sticky` | [Stick][sticky-menu] menu to the top of the screen.
+`navpro-click`  | [Click-based dropdowns][click-menu].
 **Effects**     |
 `navpro-overlay`| Use [overlay][overlay] when dropdown is active
 **Top Level Caret Icons** |
@@ -121,3 +122,4 @@ Class Name          | Description
 [overlay]: /m2/extensions/navigationpro/use-cases/overlay/ "Overlay"
 [nowrap]: /m2/extensions/navigationpro/use-cases/nowrap/ "Nowrap"
 [sticky-menu]: /m2/extensions/navigationpro/use-cases/sticky/ "Sticky menu"
+[click-menu]: /m2/extensions/navigationpro/use-cases/click/ "Click-based dropdowns"

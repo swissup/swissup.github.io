@@ -8,6 +8,19 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.11.0
+
+> Jun 5, 2019
+
+ -  Added ability to [activate dropdowns with click](/m2/extensions/navigationpro/use-cases/click/)
+    instead of mouseover.
+ -  Beta version of [accordion menu](/m2/extensions/navigationpro/use-cases/accordion/)
+    added.
+ -  Nowrap feature [improved](/m2/extensions/navigationpro/use-cases/nowrap/#offset-feature).
+    It's much easier to get it work with various header types.
+ -  Fixed invalid order of menu items when nowrap is used.
+ -  Fixed possible horizontal scrollbar when 'nowrap' is used.
+
 ### Version 1.10.0
 
 > May 15, 2019
