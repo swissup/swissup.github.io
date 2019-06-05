@@ -8,6 +8,8 @@ category: Navigationpro
 
 # Click-based dropdowns
 
+> Supported since 1.11.0
+
 If you want to active dropdowns with "click" instead of standard "mouseover" event
 you need to:
 
