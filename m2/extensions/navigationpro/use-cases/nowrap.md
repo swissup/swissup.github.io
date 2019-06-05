@@ -28,6 +28,28 @@ To activate nowrap feature, you need to add `navpro-nowrap` class to the
 >
 > Otherwise it may be tricky to
 > make it work properly (Custom work and advanced CSS knowledge may be required).
+>
+> **Since version 1.11.0 you can use "Offset Feature" to make it work flawlessly!**
+
+### Offset feature
+
+> This feature available since 1.11.0
+
+Offset feature should be used when menu doesn't takes all amount of width in
+parent container. The best way to explain this feature - is to show an example.
+
+Let's imagine the following header:
+
+![Nowrap](/images/m2/navigationpro/use-cases/nowrap-offset.png)
+
+In the example above, menu is placed near logo (300px width),
+cart and search icons (100px width). To activate nowrap feature for this
+header type, you need to:
+
+ -  Add `navpro-nowrap` class to the
+    [CSS Class field](/m2/extensions/navigationpro/backend/menu-settings/#general-settings)
+ -  Add `navpro-nowrap-offset-400` class to the
+    [CSS Class field](/m2/extensions/navigationpro/backend/menu-settings/#general-settings)
 
 #### Next up
 
