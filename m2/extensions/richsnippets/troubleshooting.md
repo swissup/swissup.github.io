@@ -26,7 +26,7 @@ Remember to clear Magento Cache.
 
 It is recommendation. And not an error.
 
-This warning occures at products that has no reviews. Unfortunatly we are helpless in this case. Please ask your customers to leave a review for product.
+This warning occurs at products that has no reviews. Unfortunately we are helpless in this case. Please ask your customers to leave a review for product.
 
 #### The priceValidUntil field is recommended. Please provide a value if available.
 
