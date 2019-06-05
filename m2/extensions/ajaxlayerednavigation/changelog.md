@@ -7,6 +7,18 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.3.5
+
+> Jun 5, 2019
+
+**Features**
+ - Improve '+ More' config option description
+
+**Bugfixes**
+ - Fix getFacetedData logic in attribute filter model
+ - Fix 'Filters disappear on iPad'
+ - Fix MageWorx_OptionFeatures compatability
+
 ### Version 1.3.4
 
 > May 13, 2019
