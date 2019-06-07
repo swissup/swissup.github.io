@@ -14,8 +14,7 @@ category: Navigationpro
 
  -  Added ability to [activate dropdowns with click](/m2/extensions/navigationpro/use-cases/click/)
     instead of mouseover.
- -  Beta version of [accordion menu](/m2/extensions/navigationpro/use-cases/accordion/)
-    added.
+ -  [Accordion menu](/m2/extensions/navigationpro/use-cases/sidebar-menu/#&gid=1&pid=3) added.
  -  Nowrap feature [improved](/m2/extensions/navigationpro/use-cases/nowrap/#offset-feature).
     It's much easier to get it work with various header types.
  -  Fixed invalid order of menu items when nowrap is used.

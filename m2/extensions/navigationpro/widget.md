@@ -25,7 +25,7 @@ Menu                    | identifier    | NavigationPro menu indentfier
 Show Active Branch Only | show_active_branch | Enable Amazon-like [sidebar menu](/m2/extensions/navigationpro/use-cases/amazon-menu/#sidebar-menu)
 Initially Shown Levels Count | visible_levels | Menu with initially [expanded levels][sidebar-expanded]. Could be used separately from **Show Active Branch Only** option
 Theme                   | theme         | Menu [theme][themes]
-Orientation             | orientation   | Choose between horizontal (Top) and vertical (Sidebar) menus
+Orientation             | orientation   | Choose between horizontal (Top), vertical (Sidebar), and accordion (Sidebar) menus.
 Dropdown Positioning    | dropdown_side | Choose between Standard, Left (Useful when menu is added to right column), and Top dropdown sides
 Additional CSS Class    | css_class     | Additional css class for menu
 Wrap into Block Template | wrap         | Usefull, when placing menu into sidebar
