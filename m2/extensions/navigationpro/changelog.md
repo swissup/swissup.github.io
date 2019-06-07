@@ -10,7 +10,7 @@ category: Navigationpro
 
 ### Version 1.11.0
 
-> Jun 5, 2019
+> Jun 7, 2019
 
  -  Added ability to [activate dropdowns with click](/m2/extensions/navigationpro/use-cases/click/)
     instead of mouseover.
@@ -19,6 +19,7 @@ category: Navigationpro
     It's much easier to get it work with various header types.
  -  Fixed invalid order of menu items when nowrap is used.
  -  Fixed possible horizontal scrollbar when 'nowrap' is used.
+ -  Fixed invalid custom url in menu item, when '/' count is more than 3.
 
 ### Version 1.10.0
 
