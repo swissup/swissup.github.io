@@ -8,6 +8,20 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.2.4
+
+> Jun 7, 2019
+
+**Features**
+ -  Add webp logic for images inside x-magento-init (fotorama at product page)
+ -  Move js polyfills initialization to requirejs-config
+ -  Upgrade lazysizes to 5.1.0 version
+ -  Upgarde loadCss js library code
+
+**Fixes**
+ - Fix empty html warning in dnsprefetch
+ - Fix 'Warning: strpos(): Empty needle'
+
 ### Version 1.2.3
 
 > May 21, 2019
