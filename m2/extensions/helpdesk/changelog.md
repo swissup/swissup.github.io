@@ -6,6 +6,17 @@ keywords: Helpdesk changelog
 category: Helpdesk
 ---
 
+### Version 1.1.0
+
+> Jun 7, 2019
+
+**Features**
+ - Add author_name column
+
+**Fixes**
+ - Fix 'No contacts form when module disabled'
+
+
 ### Version 1.0.5
 
 > Apr 25, 2019
