@@ -8,6 +8,15 @@ category: Email
 
 # Changelog
 
+### Version 0.2.5
+
+> Jun 7, 2019
+
+**Fixes**
+ - Add default 'auth' for predefined smtp providers
+ - Fixed invalid data in the grid after filters reset
+ - Fixed invalid filters type in the grid
+
 ### Version 0.2.4
 
 > Mar 11, 2019
