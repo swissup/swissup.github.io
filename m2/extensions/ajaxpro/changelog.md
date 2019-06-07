@@ -6,6 +6,13 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.4.6
+
+> Jun 7, 2019
+
+ -  Update catalog-add-to-cart widget
+ -  Remove 'Ajaxpro' requirejs shortname
+
 ### Version 1.4.5
 
 > Apr 30, 2019
