@@ -8,8 +8,14 @@
   src: /images/m2/navigationpro/sidebar/small/expanded-flat.png
   title: >
     Sidebar with initially expanded levels and flat theme
-  w: 1157
-  h: 792
+  w: 973
+  h: 467
+- href: /images/m2/navigationpro/sidebar/accordion.png
+  src: /images/m2/navigationpro/sidebar/small/accordion.png
+  title: >
+    Sidebar with accordion navigation
+  w: 968
+  h: 462
 - href: /images/m2/navigationpro/sidebar/active-branch-only.png
   src: /images/m2/navigationpro/sidebar/small/active-branch-only.png
   title: >

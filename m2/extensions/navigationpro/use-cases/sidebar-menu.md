@@ -9,14 +9,15 @@ category: Navigationpro
 
 {% include gallery.html images=site.data.gallery.m2.navigationpro.sidebar class="scroll phone-up-1 tablet-up-3 photoswipe" %}
 
-* TOC
-{:toc}
-
 ### Create Menu and Widget
 
  1. Navigate to _Swissup > NavigationPro_ page, and press "Add New Menu".
- 2. Fill the [form](/m2/extensions/navigationpro/backend/menu-new/) according to
-    your needs and press "Save". Do not fill "Replace Top Menu at" option.
+ 2. Fill the new menu form according to your needs and press "Save".
+
+    **Do not fill "Replace Top Menu at" option**:
+
+    ![New menu form](/images/m2/navigationpro/use-cases/sidebar/new-menu.png)
+
  3. That's all. Clear Magento's cache and check out the sidebar menu on the
     category pages.
 
@@ -35,7 +36,7 @@ Proceed the following steps, if you'd like to customize sidebar menu styles:
     Show Active Branch Only:        No
     Initially Shown Levels Count:   1
     Theme:                          Blank
-    Orientation:                    Vertical
+    Layout:                         Vertical
     Dropdown Positioning:           Standard
     Wrap into Block Template:       Yes
     Block Title:                    Categories
@@ -48,20 +49,32 @@ Proceed the following steps, if you'd like to customize sidebar menu styles:
     Show Active Branch Only:        No
     Initially Shown Levels Count:   2
     Theme:                          Flat
-    Orientation:                    Vertical
+    Layout:                         Vertical
     Dropdown Positioning:           Standard
     Wrap into Block Template:       Yes
     Block Title:                    Categories
     ```
 
-    [**Sidebar with active branch only:**](/m2/extensions/navigationpro/use-cases/sidebar-menu/#&gid=1&pid=3)
+    [**Sidebar with accordion layout:**](/m2/extensions/navigationpro/use-cases/sidebar-menu/#&gid=1&pid=3)
+
+    ```
+    Menu:                           Select newly created simple menu
+    Show Active Branch Only:        No
+    Initially Shown Levels Count:   1
+    Theme:                          Flat
+    Layout:                         Accordion
+    Dropdown Positioning:           Standard
+    Wrap into Block Template:       No
+    ```
+
+    [**Sidebar with active branch only:**](/m2/extensions/navigationpro/use-cases/sidebar-menu/#&gid=1&pid=4)
 
     ```
     Menu:                           Select newly created simple menu
     Show Active Branch Only:        Yes
     Show Parent Category:           Yes
     Theme:                          Compact
-    Orientation:                    Vertical
+    Layout:                         Vertical
     Dropdown Positioning:           Standard
     Wrap into Block Template:       Yes
     Block Title:                    [Leave Empty]
