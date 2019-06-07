@@ -21,6 +21,8 @@ category: Argento
     -  [Luxury theme customization](customization/)
        - [Change the view of homepage slider](customization/#change-the-view-of-homepage-slider)
        - [Use Luxury Icons](customization/#use-luxury-icons)
+       - [Product main tabs - "Details" initially opened](customization/#product-main-tabs---details-initially-opened)
+       - [Main tabs under product image](customization/#main-tabs-under-product-image)
  -  [Page structure manuals](page-structure/)
     -  [Homepage](page-structure/homepage/)
     -  [Product page](page-structure/product-page/)

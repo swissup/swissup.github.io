@@ -35,6 +35,8 @@ are shown in content area:
 
 ![Additional Tabs](/images/m2/argento/luxury/product-page/additional-tabs.png)
 
+There are few tips how you can move product tabs at [Luxury Customization](../../customization/#product-main-tabs---details-initially-opened) if you are interested.
+
 ### Questions
 
 ![Questions](/images/m2/argento/luxury/product-page/questions.png)
