@@ -8,6 +8,13 @@ category: reCAPTCHA
 
 # Changelog
 
+### Version 1.2.1
+
+> Jun 12, 2019
+
+ -  Fixed missing recaptcha at some pages for newsletter form. Forgot password page is one of them.
+ -  Added comment to general section of Recaptcha settings at Magento Configuration.
+
 ### Version 1.2.0
 
 > May 13, 2019
