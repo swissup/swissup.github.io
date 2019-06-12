@@ -6,6 +6,12 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.4.7
+
+> Jun 12, 2019
+
+ -  Fixed possible warning during 'di:compile' command
+
 ### Version 1.4.6
 
 > Jun 7, 2019
