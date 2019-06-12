@@ -8,6 +8,13 @@ category: SoldTogether
 
 # Changelog
 
+### Version 1.6.2
+
+> Jun 12, 2019
+
+ -  Fix warning during DI compilation at Magento 2.1.x.
+ -  Minor JS improvements. Remove requirejs-config. Move inline JS to static JS file.
+
 ### Version 1.6.1
 
 > May 24, 2019
