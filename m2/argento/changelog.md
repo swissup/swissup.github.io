@@ -7,6 +7,101 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.11.0
+
+> Jun 12, 2019
+
+This release includes some style fixes in Argento Themes and a lot of updates
+for modules shipped together with Argento:
+
+ -  [Ajaxpro](/m2/extensions/ajaxpro/) — 1.4.7 (was 1.4.5)
+    -   Fix warning during DI compilation at Magento 2.1.x.
+    -   Code cleanup
+ -  [Ajaxsearch](/m2/extensions/ajaxsearch/) — 1.7.0 (was 1.6.0)
+    -   New alternative search method for MySQL Search Engine - "LIKE". It
+        allows to search for strings with dash (-), one-two-character substrings
+        and has other algorithm for relevance. Can be enabled in module
+        configuration under
+        ["MySQL Search Engine" section](/m2/extensions/ajaxsearch/configuration/#mysql-search-engine).
+    -   Fixed disabled 'Search' button when folded design is used (ArgentoLuxury
+        and ArgentoFlat themes)
+    -   Code cleanup
+ -  [AMP](/m2/extensions/amp/) — 1.3.3 (was 1.3.2)
+    -   Fixed possible duplicate amphtml pages for configurable products
+ -  [Askit](/m2/extensions/askit/) — 1.5.0 (was 1.4.1)
+    -   Style improvements
+    -   Hide question form by default (A button 'Ask Question' is shown instead)
+    -   Backend form improvements
+    -   Code cleanup
+ -  [EasySlide](/m2/extensions/easyslider/) — 1.3.3 (was 1.3.1)
+    -   Fixed invalid data in the grid after filters reset.
+ -  [Easycatalogimg](/m2/extensions/easycatalogimg/) — 1.4.3 (was 1.4.2)
+    -   Fixed ability to apply different thumbnail per store view.
+ -  [Easytabs](/m2/extensions/easytabs/) — 1.5.2 (was 1.5.0)
+    -   Fixed error during data install (area code not set).
+ -  [Fblike](/m2/extensions/fblike/) — 1.3.2 (was 1.3.1)
+    -   Stability improvements in js code
+ -  [GDPR](/m2/extensions/gdpr/) — 1.2.0 (was 1.1.1)
+    -   Account newsletter management page support added.
+    -   Fixed missing accepted consents at 'privacy tools' page.
+    -   Fixed not working link to the customer account page from the requests grid.
+    -   Fixed not-working autocomplete in forms when gdpr is enabled for this form.
+    -   Code cleanup.
+ -  [HoverGallery](/m2/extensions/hover-gallery/) — 1.2.0 (was 1.1.1)
+    -   Code improvements.
+ -  [Hreflang](/m2/extensions/hreflang/) — 1.2.3 (was 1.2.2)
+    -   Improved integration with pages for third-party modules - Swissup AskIt,
+        Swissup Highlight and Swissup EasyCatalogImg
+ -  [Navigationpro](/m2/extensions/navigationpro/) — 1.11.1 (was 1.9.3)
+     -  Added ability to [activate dropdowns with click](/m2/extensions/navigationpro/use-cases/click/)
+        instead of mouseover.
+     -  [Accordion menu](/m2/extensions/navigationpro/use-cases/sidebar-menu/#&gid=1&pid=3) added.
+     -  Nowrap feature [improved](/m2/extensions/navigationpro/use-cases/nowrap/#offset-feature).
+     -  Improved backend [dropdown layout builder](/m2/extensions/navigationpro/ui/dropdown-layout-builder/).
+        Now it shows a preview of what customer will see on the frontend when
+        changing children settings or html content.
+     -  Added ability to limit number of categories to display in dropdown.
+        When using this option, a 'Shop All' link will be displayed if children count
+        exceed the limit. [View Megamenu Example](/m2/extensions/navigationpro/use-cases/megamenu/).
+     -  Improved cache cleanup when edit menu settings or create new menu. No more
+        manual cache update after each operation!
+     -  New categories are now automatically synced into appropriate menu's. You don't
+        need to manually import new categories into the tree!
+ -  [ProLabels](/m2/extensions/prolabels/) — 1.3.2 (was 1.3.0)
+     -  Use JSON to store labels conditions instead of "serialize".
+     -  Show labels in recently viewed products widget.
+     -  Fixed lables index update when save configurable product.
+     -  Fixed incorrect prices in labels when tax included in price. Respect tax settings.
+     -  Improve OnSale label determination for configurable products.
+ -  [Reviewreminder](/m2/extensions/reviewreminder/) — 1.1.1 (was 1.1.0)
+    -   Fixed missing delete button on the edit form
+    -   Fixed save and continue from products tab
+ -  [RichSnippets](/m2/extensions/richsnippets/) — 1.4.2 (was 1.4.1)
+    -   Slightly improved product description for structured data.
+ -  [SeoCanonical](/m2/extensions/seo-canonical/) — 1.0.3 (was 1.0.2)
+    -   Improve module stability.
+ -  [SeoPager](/m2/extensions/seo-pager/) — 1.2.0 (was 1.1.1)
+    -   New feature - add page number to title of page where paginated content presented.
+    -   Improved integration with Catalog Search pages.
+ -  [SeoTemplates](/m2/extensions/seo-templates/) — 1.4.0 (was 1.3.0)
+    -   New option for 'attribute' directive - `max_length` (set max allowed
+        length for output). It can be usefull for attributes with long content.
+    -   HTML tags removed from output of 'attribute' directive when respective
+        attribute has marked as "html allowed".
+    -   New config section "Optimize metadata" where you can set optimal length
+        for metadata.
+ -  [SeoUrls](/m2/extensions/seo-urls/) — 1.5.3 (was 1.5.1)
+    -   Fixed compatibility with latest Swissup Ajaxsearch module.
+        (“Nothing found” message appeared for any instant search request.)
+ -  [SoldTogether](/m2/extensions/soldtogether/) — 1.6.2 (was 1.4.2)
+    -   Fix warning during DI compilation at Magento 2.1.x.
+    -   Prevent unwanted products in the cart after check/uncheck some checkboxes.
+    -   Added ability to show suggestions based on shopping cart items. See
+        [firecheckout intro popup example](/m2/extensions/firecheckout/customization/use-cases/intro-popup/#frequently-bought-together)
+    -   Added mass action "Delete" at module grids. Now you can delete multiple relations at once.
+    -   CLI commands to index/reindex Sold Together relations with bin/magento commands.
+    -   Code cleanup
+
 ### Version 1.10.0
 
 > May 02, 2019
