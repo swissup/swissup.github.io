@@ -8,6 +8,12 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.11.1
+
+> Jun 12, 2019
+
+ -  Fixed missing 'Accordion' menu layout in widget configuration
+
 ### Version 1.11.0
 
 > Jun 7, 2019
