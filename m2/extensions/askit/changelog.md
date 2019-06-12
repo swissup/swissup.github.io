@@ -11,6 +11,15 @@ category: AskIt
 
 # Changelog
 
+
+### Version 1.5.0
+
+> Jun 12, 2019
+
+ -  Improved storefront styles.
+ -  Button "Ask Your Question" to show ask question form. Form initially hidden.
+ -  Fixed error 'The element with "left" id was not found' in admin at some Magento instances.
+
 ### Version 1.4.4
 
 > May 29, 2019
