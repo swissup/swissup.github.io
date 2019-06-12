@@ -8,6 +8,12 @@ category: Hover Gallery
 
 # Changelog
 
+### Version 1.1.2
+
+> Jun 12, 2019
+
+ -  Js file removed from head block. Now it's included via requirejs.
+
 ### Version 1.1.1
 
 > Mar 29, 2019

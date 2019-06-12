@@ -8,6 +8,12 @@ category: Accelerated Mobile Pages
 
 # Changelog
 
+### Version 1.3.3
+
+> Jun 12, 2019
+
+ -  Fixed possible duplicate amphtml pages for configurable products
+
 ### Version 1.3.2
 
 > May 2, 2019
