@@ -8,6 +8,15 @@ category: Prolabels
 
 # Changelog
 
+
+### Version 1.3.2
+
+> Jun 12, 2019
+
+ -  Use JSON to store labels conditions instead of serialize.
+ -  Show labels in recently viewed products widget.
+ -  Fixed lables index update when save configurable product.
+
 ### Version 1.3.1
 
 > May 15, 2019
