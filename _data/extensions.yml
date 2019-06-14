@@ -391,6 +391,13 @@ pagespeed:
     m1: /m1/extensions/pagespeed/
     m2: /m2/extensions/pagespeed/
 
+pdfinvoices:
+  title: PDF Invoices
+  short_description:
+  urls:
+    m1:
+    m2: /m2/extensions/pdf-invoices/
+
 prolabels:
   title: Prolabels
   short_description:

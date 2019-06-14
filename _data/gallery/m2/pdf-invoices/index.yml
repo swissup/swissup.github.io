@@ -1,0 +1,20 @@
+- href: /images/m2/pdf-invoices/frontend/order.png
+  src: /images/m2/pdf-invoices/frontend/small/order.png
+  title: Order PDF Template
+  w: 1000
+  h: 1415
+- href: /images/m2/pdf-invoices/frontend/invoice.png
+  src: /images/m2/pdf-invoices/frontend/small/invoice.png
+  title: Invoice PDF Template
+  w: 1000
+  h: 1415
+- href: /images/m2/pdf-invoices/frontend/shipment.png
+  src: /images/m2/pdf-invoices/frontend/small/shipment.png
+  title: Shipment PDF Template
+  w: 1000
+  h: 1415
+- href: /images/m2/pdf-invoices/frontend/credit_memo.png
+  src: /images/m2/pdf-invoices/frontend/small/credit_memo.png
+  title: Credit Memo PDF Template
+  w: 1000
+  h: 1415
