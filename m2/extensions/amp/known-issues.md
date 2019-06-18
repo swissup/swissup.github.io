@@ -7,6 +7,9 @@ category: Accelerated Mobile Pages
 
 # Known Issues
 
+* TOC
+{:toc}
+
 ### Old libxml library
 
 A lot of shared hostings are using archaic version of libxml library that does
@@ -115,10 +118,100 @@ private function removeFirstPageParam(&$url)
 }
 ```
 
+### Varnish and force AMP
+
+By default, Varnish returns same cached content for all user agents (desktop and mobile).
+
+Because of it, `Force AMP on mobile devices` feature does not work when using Varnish.
+
+It can be fixed using [devicedetect][devicedetect]
+and configuring Varnish to use it.
+
+ 1. Download [devicedetect][devicedetect] and place it near Varnish configuration
+ file, usually */etc/default/varnish* or */etc/varnish/*
+
+ 2. Modify Varnish configuration to use *devicedetect*. Here is example based on
+ Magento Varnish configuration file located in *app/code/Magento/PageCache/etc/varnish4.vcl* :
+
+    ```diff
+    --- a/app/code/Magento/PageCache/etc/varnish4.vcl
+    +++ b/app/code/Magento/PageCache/etc/varnish4.vcl
+    @@ -1,4 +1,7 @@
+     vcl 4.0;
+    +# devicedetect changes start
+    +include "devicedetect.vcl";
+    +# devicedetect changes end
+
+     import std;
+     # The minimal Varnish version is 4.0
+    @@ -22,6 +25,10 @@ acl purge {
+     }
+
+     sub vcl_recv {
+    +    # devicedetect changes start
+    +    call devicedetect;
+    +    # devicedetect changes end
+    +
+         if (req.method == "PURGE") {
+             if (client.ip !~ purge) {
+                 return (synth(405, "Method not allowed"));
+    @@ -107,6 +114,15 @@ sub vcl_recv {
+             #unset req.http.Cookie;
+         }
+
+    +    # devicedetect changes start
+    +    if (req.url ~ "^/\?amp=1"){
+    +        return (pass);
+    +    }
+    +    if (req.http.X-UA-Device ~ "^mobile" || req.http.X-UA-device ~ "^tablet") {
+    +        return (pass);
+    +    }
+    +    # devicedetect changes end
+    +
+         return (hash);
+     }
+
+    @@ -133,6 +149,18 @@ sub vcl_backend_response {
+
+         set beresp.grace = 3d;
+
+    +    # devicedetect changes start
+    +    if (bereq.http.X-UA-Device) {
+    +        if (!beresp.http.Vary) { # no Vary at all
+    +            set beresp.http.Vary = "X-UA-Device";
+    +        } elsif (beresp.http.Vary !~ "X-UA-Device") { # add to existing Vary
+    +            set beresp.http.Vary = beresp.http.Vary + ", X-UA-Device";
+    +        }
+    +    }
+    +    # comment this out if you don't want the client to know your classification
+    +    set beresp.http.X-UA-Device = bereq.http.X-UA-Device;
+    +    # devicedetect changes end
+    +
+         if (beresp.http.content-type ~ "text") {
+             set beresp.do_esi = true;
+         }
+    @@ -176,6 +204,12 @@ sub vcl_backend_response {
+     }
+
+     sub vcl_deliver {
+    +    # devicedetect changes start
+    +    if ((req.http.X-UA-Device) && (resp.http.Vary)) {
+    +        set resp.http.Vary = regsub(resp.http.Vary, "X-UA-Device", "User-Agent");
+    +    }
+    +    # devicedetect changes end
+    +
+         if (resp.http.X-Magento-Debug) {
+             if (resp.http.x-varnish ~ " ") {
+                 set resp.http.X-Magento-Cache-Debug = "HIT";
+
+    ```
+
 ##### Next Up
+{:.no_toc}
 
  -  [Back to Home](/m2/extensions/amp/)
 
 
 [pr-3779]: https://github.com/magento/magento2/pull/3779
 [pr-9772]: https://github.com/magento/magento2/pull/9772
+[devicedetect]: https://github.com/varnishcache/varnish-devicedetect
