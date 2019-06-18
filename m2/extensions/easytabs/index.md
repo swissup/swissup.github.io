@@ -23,14 +23,15 @@ Easy Tabs extension allows you to add any number of dynamic tabs based on conten
 
 ## Features
 
-- Show unlimited number of tabs on product page.
-- Insert tabs via widget at any page with any content you want.
-- 9 tab types available.
-- Responsive design, works fine on mobile devices.
-- Unset blocks shown in tab to avoid content duplicating.
-- Use custom templates for tab content.
-- Show other extensions content in tab using Custom Block tab.
-- Show number of reviews, questions, etc by calling eval code in tab title.
+ -  NEW! Supports [Swissup AMP module](../amp/). Now you can have accordion tabs at AMP.
+ -  Show unlimited number of tabs on product page.
+ -  Insert tabs via widget at any page with any content you want.
+ -  9 tab types available.
+ -  Responsive design, works fine on mobile devices.
+ -  Unset blocks shown in tab to avoid content duplicating.
+ -  Use custom templates for tab content.
+ -  Show other extensions content in tab using Custom Block tab.
+ -  Show number of reviews, questions, etc by calling eval code in tab title.
 
 ### Easytabs Grid
 
@@ -92,6 +93,8 @@ This block available fields depend from selected Block Type. Possible fields:
 - Attribute Code - select attribute from dropdown to show in tab.
 
 ##### Conditions
+
+**New condition.** There is condition (since version 1.6.0) to show tab when Swissup AMP is active.
 
 Setup conditions when tab is visible. You can make tab visible only for customers who are signed in. Or when product has some attribute value.
 

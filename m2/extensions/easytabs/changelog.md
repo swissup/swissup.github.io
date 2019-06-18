@@ -8,6 +8,20 @@ category: Easy Tabs
 
 # Changelog
 
+### Version 1.6.0
+
+> Jun 18, 2019
+
+ -  Support of [Swissup AMP module](../../amp/). Now you can have tabs (accordion) at AMP version of your site.
+ -  New condition to have tab for AMP version only. Works with Swissup AMP.
+
+### Version 1.5.2
+
+> Jun 7, 2019
+
+ -  Merge styles with theme and use its less variables.
+ -  Minor JavaScript improvements.
+
 ### Version 1.5.1
 
 > May 24, 2019
