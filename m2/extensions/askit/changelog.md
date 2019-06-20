@@ -12,6 +12,12 @@ category: AskIt
 # Changelog
 
 
+### Version 1.6.0
+
+> Jun 20, 2019
+
+ -  Integrated with [Swissup AMP module](../../amp/). Works for tabbed Askit blocks as well as questions pages.
+
 ### Version 1.5.0
 
 > Jun 12, 2019

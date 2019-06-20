@@ -35,6 +35,8 @@ Ask It is most powerful Magento products questions extension, that allows to cre
 
 Askit module is integrated with Akismet service,that will stop questions spam. The extension allows you to set the email notification about discussion for customer particularly as well as for admin. Moreover it supports the configuration of private questions personally to registered customer.
 
+Our module supports [Swissup AMP](../amp/) since AskIt version 1.6.0.
+
 ## Settings
 
 ### General section
