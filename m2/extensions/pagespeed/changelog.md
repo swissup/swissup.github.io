@@ -8,6 +8,14 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.2.5
+
+> Jun 21, 2019
+
+**Fixes**
+ -  Fix srcset logic in responsive optimiser
+ -  Improve dimensions checking at image resize command
+
 ### Version 1.2.4
 
 > Jun 7, 2019
