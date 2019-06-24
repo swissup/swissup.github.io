@@ -7,6 +7,14 @@ category: Page Speed
 
 # Changelog
 
+### Version 1.3.7
+
+> Jun 24, 2019
+
+**Fixes**
+ -  Config option 'ignore' doesn't work Fix #49
+ -  Improve offset logic for mobile devices (in img lazyload)
+
 ### Version 1.3.6
 
 > May 22, 2019
