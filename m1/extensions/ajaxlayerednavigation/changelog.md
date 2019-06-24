@@ -7,6 +7,13 @@ keywords: magento layered navigation updates
 
 # Changelog
 
+### Version 2.6.6
+
+> Jun 24, 2019
+
+ **Fixes**
+  - Add nofollow in price filter <a> tag(s)
+
 ### Version 2.6.5
 
 > May 24, 2019
