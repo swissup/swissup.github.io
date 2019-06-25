@@ -12,7 +12,7 @@ category: AjaxSearch
 
 > Jun 6, 2019
 
- -  New alternative search method for MySQL Search Engine - "LIKE". It allows to search for strings with dash (-), one-two-character substrings and has other algorithm for relevance. Can be enabled in module configuration under ["MySQL Search Engine" section](http://localhost:3000/m2/extensions/ajaxsearch/configuration/#mysql-search-engine).
+ -  New alternative search method for MySQL Search Engine - "LIKE". It allows to search for strings with dash (-), one-two-character substrings and has other algorithm for relevance. Can be enabled in module configuration under ["MySQL Search Engine" section](/m2/extensions/ajaxsearch/configuration/#mysql-search-engine).
 
 ### Version 1.6.2
 
