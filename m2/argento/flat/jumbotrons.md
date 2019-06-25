@@ -66,18 +66,18 @@ See the [next paragraph](#customization-example) on how to use these variables.
 Variable | Default value
 ---------|--------------
 **Spacing** |
-@jubmotron__padding | 25px 0 20px
+@jumbotron__padding | 25px 0 20px
 **Background** |
-@jubmotron__background | #fff
-@jubmotron-bright__background | #f15922
-@jubmotron-pastel__background | #229392
-@jubmotron-pastel-alt__background | #a5205f
-@jubmotron-pattern__background | url(../images/pattern.jpg) 50% 0
+@jumbotron__background | #fff
+@jumbotron-bright__background | #f15922
+@jumbotron-pastel__background | #229392
+@jumbotron-pastel-alt__background | #a5205f
+@jumbotron-pattern__background | url(../images/pattern.jpg) 50% 0
 @jumbotron-image__background | url(../images/bkg_sky.jpg) 50% 0
-@jubmotron-dark__background | #222337
+@jumbotron-dark__background | #222337
 **Text** |
-@jubmotron-dark__text-color | lighten(@jubmotron-dark__background, 60%)
-@jubmotron-inverse__text-color | #fff
+@jumbotron-dark__text-color | lighten(@jumbotron-dark__background, 60%)
+@jumbotron-inverse__text-color | #fff
 **Misc** |
 @jumbotron-cover-triangle__z-index | 2
 
@@ -90,12 +90,12 @@ Let's change default colors. [Scroll down](#result) to see results.
  3. Add your custom styles:
 
     ```scss
-    @jubmotron__background: #fff;
-    @jubmotron-bright__background: #22a0f1;
-    @jubmotron-pastel__background: #842293;
-    @jubmotron-pastel-alt__background: #6820a5;
-    @jubmotron-dark__background: #222;
-    @jubmotron-pattern__background: url(../images/custom/seigaiha.png) 50% 0;
+    @jumbotron__background: #fff;
+    @jumbotron-bright__background: #22a0f1;
+    @jumbotron-pastel__background: #842293;
+    @jumbotron-pastel-alt__background: #6820a5;
+    @jumbotron-dark__background: #222;
+    @jumbotron-pattern__background: url(../images/custom/seigaiha.png) 50% 0;
     @jumbotron-image__background: url(../images/custom/noisy.png) 50% 0;
     ```
 
