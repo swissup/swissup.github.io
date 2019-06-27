@@ -8,6 +8,13 @@ category: Accelerated Mobile Pages
 
 # Changelog
 
+### Version 1.3.4
+
+> Jun 27, 2019
+
+ -  Fixed disabled add to cart button in Magento 2.3.2
+ -  Fixed wrong image sizes on category page
+
 ### Version 1.3.3
 
 > Jun 12, 2019
