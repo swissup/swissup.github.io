@@ -31,6 +31,7 @@ composer require\
     swissup/module-compare\
     swissup/module-core\
     swissup/module-customer-field-manager\
+    swissup/module-delete-orders\
     swissup/module-delivery-date\
     swissup/module-easybanner\
     swissup/module-easycatalogimg\
@@ -58,12 +59,14 @@ composer require\
     swissup/module-navigationpro\
     swissup/module-orderattachment\
     swissup/module-pagespeed\
+    swissup/module-pdf-invoice\
     swissup/module-pro-labels\
     swissup/module-quantity-switcher\
     swissup/module-recaptcha\
     swissup/module-reviewreminder\
     swissup/module-rich-snippets\
     swissup/module-rtl\
+    swissup/module-seo-canonical\
     swissup/module-seo-core\
     swissup/module-seo-cross-links\
     swissup/module-seo-html-sitemap\
@@ -72,6 +75,8 @@ composer require\
     swissup/module-seo-urls\
     swissup/module-seo-xml-sitemap\
     swissup/module-slick-carousel\
+    swissup/module-social-core\
+    swissup/module-social-login\
     swissup/module-sold-together\
     swissup/module-stickyfill\
     swissup/module-subscribe-at-checkout\
@@ -115,6 +120,7 @@ bin/magento module:enable\
     Swissup_Compare\
     Swissup_Core\
     Swissup_CustomerFieldManager\
+    Swissup_DeleteOrders\
     Swissup_DeliveryDate\
     Swissup_Easybanner\
     Swissup_Easycatalogimg\
@@ -142,12 +148,14 @@ bin/magento module:enable\
     Swissup_Navigationpro\
     Swissup_Orderattachment\
     Swissup_Pagespeed\
+    Swissup_PdfInvoice\
     Swissup_ProLabels\
     Swissup_QuantitySwitcher\
     Swissup_Recaptcha\
     Swissup_Reviewreminder\
     Swissup_RichSnippets\
     Swissup_Rtl\
+    Swissup_SeoCanonical\
     Swissup_SeoCore\
     Swissup_SeoCrossLinks\
     Swissup_SeoHtmlSitemap\
@@ -156,6 +164,8 @@ bin/magento module:enable\
     Swissup_SeoUrls\
     Swissup_SeoXmlSitemap\
     Swissup_SlickCarousel\
+    Swissup_SocialCore\
+    Swissup_SocialLogin\
     Swissup_SoldTogether\
     Swissup_Stickyfill\
     Swissup_SubscribeAtCheckout\
