@@ -7,6 +7,36 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.12.0
+
+> Jul 1, 2019
+
+This release includes Magento 2.3.2/2.2.9 compatibility of Argento Themes and
+updates for modules shipped together with Argento.
+
+ -  Magento 2.3.2/2.2.9 compatibility
+ -  Expand layered navigation mixin moved to Blank and can be used in any theme
+ -  Fixed missing newsletter subscribe button in Magento 2.3.2/2.2.9
+ -  Fixed newsletter block styles when GDPR enabled in Luxury theme
+
+**Extensions Updates**
+
+ -  [Ajaxpro](/m2/extensions/ajaxpro/) — 1.4.8 (was 1.4.7)
+    -   Fixed not working cart button when slide mode enabled
+ -  [Ajaxsearch](/m2/extensions/ajaxsearch/) — 1.7.1 (was 1.7.0)
+    -   Improved search block loading speed
+ -  [AMP](/m2/extensions/amp/) — 1.3.4 (was 1.3.3)
+    -   Fixed disabled add to cart button in Magento 2.3.2/2.2.9
+    -   Fixed wrong image sizes on category page
+ -  [Askit](/m2/extensions/askit/) — 1.6.0 (was 1.5.0)
+    -   Added [Swissup AMP](/m2/extensions/amp/) module integration
+    -   Added size for Gravatar image
+ -  [Easytabs](/m2/extensions/easytabs/) — 1.6.0 (was 1.5.2)
+    -   Added [Swissup AMP](/m2/extensions/amp/) module integration
+    -   New condition to display tab only when AMP enabled
+ -  [Quantity Switcher](/m2/extensions/qty-switcher/) — 1.1.0 (was 1.0.0)
+    -   Added new switcher type: dropdown
+
 ### Version 1.11.0
 
 > Jun 12, 2019
