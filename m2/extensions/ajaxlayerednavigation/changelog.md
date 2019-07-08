@@ -7,6 +7,18 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.3.6
+
+> Jul 8, 2019
+
+**Features**
+ - Add configuration option for disabling ajax for toolbar actions
+ - Improve config options description
+
+**Bugfixes**
+ - Fix swatches-graphql incompatible (RenderLayered extends default block)
+ - Abstract filter class extends default catalog abstract filter class
+
 ### Version 1.3.5
 
 > Jun 5, 2019
