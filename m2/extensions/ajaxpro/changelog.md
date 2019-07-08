@@ -6,6 +6,20 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.4.9
+
+> Jul 8, 2019
+
+ -  Fix override minicart not showing bug
+ -  Refactor modal-manager
+
+### Version 1.4.8
+
+> Jul 1, 2019
+
+**Bugfixes**
+ -  Fixed bug: block 'checkout.cart' not exist for 2.3 in popup minicart case
+
 ### Version 1.4.7
 
 > Jun 12, 2019
