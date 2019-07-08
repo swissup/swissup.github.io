@@ -6,6 +6,14 @@ keywords: Helpdesk changelog
 category: Helpdesk
 ---
 
+### Version 1.1.1
+
+> Jul 8, 2019
+
+**Fixes**
+ - Fix 'No captcha at default contacts form' #11
+ - Fix get relitive path logic for attachments #10
+
 ### Version 1.1.0
 
 > Jun 7, 2019
