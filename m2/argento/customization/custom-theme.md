@@ -32,16 +32,16 @@ custom theme allows you to change much more things:
 Please, use our istructions at **[Custom Argento Themes Boilerplate](https://github.com/argento/theme-custom-boilerplates)**
 free repository or you can create custom theme manualy:
 
-Let's create `Local/argento-[essence|flat]-custom` theme based on
-`Swissup/argento-[essence|flat]`.
+Let's create `Local/argento-[essence|flat|pure2|mall|stripes|luxury|force]-custom` theme based on
+`Swissup/argento-[essence|flat|pure2|mall|stripes|luxury|force]`.
 
-> This tutorial assumes that you'll replace `[essence|flat]` entries with
+> This tutorial assumes that you'll replace `[essence|flat|pure2|mall|stripes|luxury|force]` entries with
 > theme name, you'd like to use
 
  1. Create folder for your new theme:
 
     ```
-    app/design/frontend/Local/argento-[essence|flat]-custom
+    app/design/frontend/Local/argento-[essence|flat|pure2|mall|stripes|luxury|force]-custom
     ```
 
  2. Create following files inside new theme directory, to register your
@@ -51,11 +51,11 @@ Let's create `Local/argento-[essence|flat]-custom` theme based on
 
         ```json
         {
-            "name": "local/argento-[essence|flat]-custom",
+            "name": "local/argento-[essence|flat|pure2|mall|stripes|luxury|force]-custom",
             "type": "magento2-theme",
             "version": "1.0.0",
             "require": {
-                "swissup/theme-frontend-argento-[essence|flat]": "*"
+                "swissup/theme-frontend-argento-[essence|flat|pure2|mall|stripes|luxury|force]": "*"
             },
             "autoload": {
                 "files": [ "registration.php" ]
@@ -69,7 +69,7 @@ Let's create `Local/argento-[essence|flat]-custom` theme based on
         <theme xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
             xsi:noNamespaceSchemaLocation="urn:magento:framework:Config/etc/theme.xsd">
             <title>Argento Custom by Local</title>
-            <parent>Swissup/argento-[essence|flat]</parent>
+            <parent>Swissup/argento-[essence|flat|pure2|mall|stripes|luxury|force]</parent>
         </theme>
         ```
 
@@ -80,7 +80,7 @@ Let's create `Local/argento-[essence|flat]-custom` theme based on
 
         \Magento\Framework\Component\ComponentRegistrar::register(
             \Magento\Framework\Component\ComponentRegistrar::THEME,
-            'frontend/Local/argento-[essence|flat]-custom',
+            'frontend/Local/argento-[essence|flat|pure2|mall|stripes|luxury|force]-custom',
             __DIR__
         );
         ```
