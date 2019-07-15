@@ -8,6 +8,11 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.3.3
+
+> Jul 15, 2019
+
+ -  Fixed missing special price at product listing when ProLabels module enabled.
 
 ### Version 1.3.2
 
