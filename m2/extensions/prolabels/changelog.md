@@ -8,6 +8,13 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.3.4
+
+> Jul 16, 2019
+
+ -  Fixed missing category labels on Magento 2.3.x (after fixed missing special price at listings in Magento 2.2.x in previous release).
+
+
 ### Version 1.3.3
 
 > Jul 15, 2019
