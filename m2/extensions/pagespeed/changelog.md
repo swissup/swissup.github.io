@@ -8,6 +8,20 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.3.0
+
+> Jul 17, 2019
+
+**Features**
+ - Add advanced js bundling
+ - Add lazyload custom config options
+ - Dublicate move_inline_to_bottom config option
+
+**Fixes**
+ -  Remove native curl function calls; Improve HTTP/2 checking
+ -  Remove get_headers() from gzip checking
+ -  Fix http/2 push for remote links
+
 ### Version 1.2.5
 
 > Jun 21, 2019
