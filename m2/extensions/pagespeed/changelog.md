@@ -8,6 +8,13 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.3.1
+
+> Jul 17, 2019
+
+**Fixes**
+ -  Fix: apache_get_modules() function does not exist in php-fpm
+
 ### Version 1.3.0
 
 > Jul 17, 2019
