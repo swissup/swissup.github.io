@@ -10,6 +10,12 @@ category: Pagespeed
 
 {% include installation/m2/index.html %}
 
+## Upgrade instructions
+
+{% include installation/m2/update.html site="swissuplabs.com" package="swissup/pagespeed" %}
+
+## Starting configuration
+
 Run the following commands:
 
 ```bash
