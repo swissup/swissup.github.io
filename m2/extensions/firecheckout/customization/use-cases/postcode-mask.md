@@ -21,22 +21,28 @@ that will change the mask on the fly, depending on client's input.
     define([
         'Swissup_Firecheckout/js/utils/form-field/mask',
         'Swissup_Firecheckout/js/utils/form-field/validator',
+        'Magento_Checkout/js/model/quote',
         'mage/translate'
-    ], function (mask, validator, $t) {
+    ], function (mask, validator, quote, $t) {
         'use strict';
 
-        mask('[name="postcode"]', {
+        mask('.form-shipping-address [name="postcode"]', {
             guide: true,
             mask: function (raw) {
                 // 5 digits by default ('90064' for example)
-                var mask = [/\d/, /\d/, /\d/, /\d/, /\d/];
+                var pattern = [/\d/, /\d/, /\d/, /\d/, /\d/];
 
                 // Use Canadian postal code if first symbol is alphabetical
                 if (/^[a-zA-Z]/.test(raw)) {
-                    mask = [/[A-Z]/i, /\d/, /[A-Z]/i, ' ', /\d/, /[A-Z]/i, /\d/];
+                    pattern = [/[A-Z]/i, /\d/, /[A-Z]/i, ' ', /\d/, /[A-Z]/i, /\d/];
                 }
 
-                return mask;
+                // Use Dutch format when it's selected in address
+                if (quote.shippingAddress && quote.shippingAddress().countryId === 'NL') {
+                    pattern = [/\d/, /\d/, /\d/, /\d/, /[A-Z]/i, /[A-Z]/i];
+                }
+
+                return pattern;
             },
             pipe: function (conformedValue) {
                 return conformedValue.toUpperCase();
