@@ -7,6 +7,14 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.3.7
+
+> Jul 23, 2019
+
+**Bugfixes**
+ - Specified dom selector for product list replacing
+ - Fix get prices ranges incompatible with Magento\Catalog\Model\Layer\Filter\Dynamic\Improved
+
 ### Version 1.3.6
 
 > Jul 8, 2019
