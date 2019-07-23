@@ -8,6 +8,14 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.3.2
+
+> Jul 23, 2019
+
+**Fixes**
+ - Fix: escaped tag(s) <\/tag> in text/x-custom-template
+ - Fix: bug remove comments in x\-custom\-template(s) if start with comment '<' (or ends -->)
+
 ### Version 1.3.1
 
 > Jul 17, 2019
