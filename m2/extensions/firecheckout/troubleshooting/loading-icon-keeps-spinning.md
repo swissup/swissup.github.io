@@ -12,7 +12,7 @@ category: Firecheckout
 
 ### How to cure
 
-One of the reasons can be *third-party payment method* **Sisow_Payment** or **Magecomp_Paymentfee**. If your Magento instance has one of modules then you have to apply integration instruction listed below:
+One of the reasons can be *third-party payment method* **Sisow_Payment**, **Magecomp_Paymentfee**, **Boolfly_PaymentFee**. If your Magento instance has one of modules then you have to apply integration instruction listed below:
 
 Find file `app/code/[Vendor]/[ModuleName]/view/frontend/web/js/action/checkout/cart/totals.js` and modify it ([Vendor] - Sisow or Magecomp and [ModuleName] - Payment or Paymentfee):
 
