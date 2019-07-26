@@ -1,0 +1,129 @@
+#!/bin/bash
+
+PACKAGE=${1}
+# DOMAIN=${2}
+DOMAIN=''
+# IDENTITY_KEY=${3}
+IDENTITY_KEY=''
+# LOCALE=${4}
+LOCALE=''
+while getopts ":p:d:k:l:" opt; do
+    case $opt in
+        p ) PACKAGE="$OPTARG";;
+        d ) DOMAIN="$OPTARG";;
+        k ) IDENTITY_KEY="$OPTARG";;
+        l ) LOCALE="$OPTARG";;
+        \?) echo "Supported options:"
+            echo " -p package name      -- package name [swissup/argento-m2]"
+            echo " -d store.com         -- domain name"
+            echo " -k 'identity_key(s)' -- identity key(s)"
+            echo " -l 'en_US en_GB'     -- locale(s) to use for deploy command"
+            exit 1
+        ;;
+    esac
+done
+
+# Check is magento root dir
+[ -f 'bin/magento' ] || { echo >&2 "The script requires installed \"Magento 2\". Are you in MAGENTO_ROOT folder? "; pwd; exit 1; }
+
+[ -d "$(pwd)/vendor" ] || { echo >&2 "Vendor directory is not found. Are you in MAGENTO_ROOT folder?"; exit 1;}
+
+PHP_BIN=$(which php)
+if [ "$PHP_BIN" = "" ] ; then
+    PHP_BIN='/usr/bin/php';
+fi
+
+# Check availability of composer
+COMPOSER_BIN=$(which composer)
+
+COMPOSER_BIN=''
+if which composer >/dev/null; then
+    COMPOSER_BIN='composer'
+else
+    if [ -f "$(pwd)/composer.phar" ]; then
+        if [[ $PHP_BIN ]]; then
+            COMPOSER_PHAR_BIN="${PHP_BIN} composer.phar"
+            if $COMPOSER_PHAR_BIN >/dev/null; then
+                COMPOSER_BIN=$COMPOSER_PHAR_BIN
+            fi
+        fi
+    fi
+fi
+
+hash $COMPOSER_BIN 2>/dev/null || { echo >&2 "The script requires \"composer\" (https://getcomposer.org/download/)"; exit 1; }
+
+# Check availability of bin/magento
+MAGENTO_BIN=''
+if [[ -x "bin/magento" ]]; then
+    MAGENTO_BIN="bin/magento"
+else
+    if [[ $PHP_BIN ]]; then
+        MAGENTO_BIN_PHP="${PHP_BIN} bin/magento"
+        if $MAGENTO_BIN_PHP >/dev/null; then
+            MAGENTO_BIN=$MAGENTO_BIN_PHP
+        fi
+    fi
+fi
+
+if [[ -x 'vendor/bin/dockerizer' ]]; then
+    # vendor/bin/dockerizer restart
+    MAGENTO_BIN='vendor/bin/dockerizer bin/magento';
+fi
+
+if [[ ! $MAGENTO_BIN ]]; then
+    echo "bin/magento command not found. Make sure you can use 'bin/magento' in terminal."
+    exit 1
+fi
+#################################
+
+if [[ ! $PACKAGE ]]; then
+    echo "Package can't be empty."
+    exit 1
+fi
+
+COMPOSER_REPO='https://ci.swissuplabs.com/api/packages.json'
+
+echo "Register packages repository"
+$COMPOSER_BIN config repositories.swissuplabs composer $COMPOSER_REPO
+IS_AUTHORIZED=$($COMPOSER_BIN config -a -g http-basic | grep ci.swissuplabs.com)
+if [[ -z "$IS_AUTHORIZED" && (-z "$DOMAIN" || -z "$IDENTITY_KEY") ]]; then
+      echo "Domain and identity key required first"
+      exit 1;
+fi
+
+if [[ ! -z $DOMAIN && ! -z $IDENTITY_KEY ]]; then
+    $COMPOSER_BIN config -a -g http-basic.ci.swissuplabs.com "$DOMAIN" "$IDENTITY_KEY"
+fi
+
+echo "Installing packages via composer command"
+echo $COMPOSER_BIN require $PACKAGE
+
+echo "Enable maintainance mode"
+$MAGENTO_BIN maintenance:enable
+
+# Enable all swissup modules
+echo "Enable modules"
+DISABLED_MODULES=$($MAGENTO_BIN  module:status --disabled | grep Swissup_)
+MODULES=$($MAGENTO_BIN module:status | grep Swissup_)
+$MAGENTO_BIN module:enable $MODULES
+$MAGENTO_BIN module:disable $DISABLED_MODULES
+
+# 2. Run magento upgrade scripts
+echo "Run magento setup upgrade"
+$MAGENTO_BIN setup:upgrade
+
+echo "Removing outdated static content files"
+rm -rf pub/static/_requirejs var/view_preprocessed pub/static/frontend/ pub/static/adminhtml/ generated/code/
+
+echo "Deploying static content"
+if [[ -z "$LOCALE" ]]; then
+    LOCALE='en_US'
+fi
+$MAGENTO_BIN setup:static-content:deploy $LOCALE -f
+$MAGENTO_BIN setup:di:compile
+$MAGENTO_BIN cache:flush
+
+echo "Disable maintainance mode"
+$MAGENTO_BIN maintenance:disable
+
+echo "Done"
