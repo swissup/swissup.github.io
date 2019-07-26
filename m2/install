@@ -28,17 +28,23 @@ done
 
 [ -d "$(pwd)/vendor" ] || { echo >&2 "Vendor directory is not found. Are you in MAGENTO_ROOT folder?"; exit 1;}
 
-PHP_BIN=$(which php)
-if [ "$PHP_BIN" = "" ] ; then
-    PHP_BIN='/usr/bin/php';
-fi
+BINS=$(locate bin/php)
+BINS+=$(which php)
+for BIN in "${BINS[@]}"; do
+    if [ -x "$(command -v ${BIN})" ]; then
+        VERSION=$($BIN -v | head -n 1 | cut -d " " -f 2 | cut -c 1)
+        if [ "$VERSION" = "7" ]; then
+            PHP_BIN=$BIN
+            break;
+        fi
+    fi
+done
 
 # Check availability of composer
-COMPOSER_BIN=$(which composer)
 
-COMPOSER_BIN=''
 if which composer >/dev/null; then
-    COMPOSER_BIN='composer'
+    COMPOSER_BIN=$(which composer)
+    COMPOSER_BIN="${PHP_BIN} ${COMPOSER_BIN}"
 else
     if [ -f "$(pwd)/composer.phar" ]; then
         if [[ $PHP_BIN ]]; then
