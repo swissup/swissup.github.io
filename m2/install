@@ -28,20 +28,31 @@ done
 
 [ -d "$(pwd)/vendor" ] || { echo >&2 "Vendor directory is not found. Are you in MAGENTO_ROOT folder?"; exit 1;}
 
-BINS=$(locate bin/php)
-BINS+=$(which php)
+echo "Detecting php 7 location"
+BINS=($(which php))
+if [ -x "$(command -v locate)" ]; then
+    BINS+=($(locate php | grep bin/ | grep -v "\.sh" | grep -v "\.php" | grep -v "\.js" | grep -v "\.txt" | grep -v "\.bat" | grep -v "\.cmd"))
+  else
+    BINS+=($(find /usr -name "php" | grep bin/ | grep -v "\.sh" | grep -v "\.php" | grep -v "\.js" | grep -v "\.txt" | grep -v "\.bat" | grep -v "\.cmd"))
+fi
+
 for BIN in "${BINS[@]}"; do
     if [ -x "$(command -v ${BIN})" ]; then
-        VERSION=$($BIN -v | head -n 1 | cut -d " " -f 2 | cut -c 1)
-        if [ "$VERSION" = "7" ]; then
-            PHP_BIN=$BIN
-            break;
+        if [ -e $BIN ]; then
+            VERSION=$($BIN --version 2> /dev/null | head -n 1 | cut -d " " -f 2 | cut -c 1)
+            if [ "$VERSION" = "7" >/dev/null ]; then
+                PHP_BIN=$BIN
+                break;
+            fi
         fi
     fi
 done
 
-# Check availability of composer
+[[ $PHP_BIN ]] || { echo >&2 "php 7 version is not found."; exit 1;}
+echo "php : $PHP_BIN"
+$PHP_BIN -v
 
+echo "Check availability of composer"
 if which composer >/dev/null; then
     COMPOSER_BIN=$(which composer)
     COMPOSER_BIN="${PHP_BIN} ${COMPOSER_BIN}"
@@ -57,8 +68,10 @@ else
 fi
 
 hash $COMPOSER_BIN 2>/dev/null || { echo >&2 "The script requires \"composer\" (https://getcomposer.org/download/)"; exit 1; }
+echo "composer : $COMPOSER_BIN "
+$COMPOSER_BIN --version
 
-# Check availability of bin/magento
+echo "Check availability of bin/magento"
 MAGENTO_BIN=''
 if [[ -x "bin/magento" ]]; then
     MAGENTO_BIN="bin/magento"

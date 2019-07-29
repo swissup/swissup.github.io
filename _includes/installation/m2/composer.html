@@ -41,3 +41,10 @@ rm -rf pub/static/_requirejs var/view_preprocessed pub/static/frontend/ pub/stat
 php bin/magento setup:static-content:deploy en_US en_GB
 php bin/magento setup:di:compile
 ```
+
+##### One line command
+{:.collapsible}
+
+```bash
+curl -s https://raw.githubusercontent.com/swissup/swissup.github.io/master/m2/install | bash -s - -p {{ include.package }} -l 'en_US' -d <domain.com> -k <identity_key>
+```
