@@ -8,6 +8,13 @@ category: reCAPTCHA
 
 # Changelog
 
+### Version 1.2.2
+
+> Jul 29, 2019
+
+ -  Fixed error - No property exists by the name 'formId' in Magento 2.1.x.
+ -  Slightly improve recaptcha styles for newsletter. Prevent recaptcha from streching newsletter form on small screens.
+
 ### Version 1.2.1
 
 > Jun 12, 2019
