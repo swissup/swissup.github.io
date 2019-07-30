@@ -24,8 +24,10 @@ then
 fi
 
 # Enable new modules
+DISABLED_MODULES=$($MAGENTO_BIN  module:status --disabled | grep Swissup_)
 MODULES=$($MAGENTO_BIN module:status | grep Swissup_)
 $MAGENTO_BIN module:enable $MODULES
+$MAGENTO_BIN module:disable $DISABLED_MODULES
 
 # Initialize repository in `vendor/swissup` folder and add each subfolder as git submodule
 cd vendor/swissup
