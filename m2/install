@@ -104,7 +104,7 @@ COMPOSER_REPO='https://ci.swissuplabs.com/api/packages.json'
 
 echo "Register packages repository"
 $COMPOSER_BIN config repositories.swissuplabs composer $COMPOSER_REPO
-IS_AUTHORIZED=$($COMPOSER_BIN config -a -g http-basic | grep ci.swissuplabs.com)
+IS_AUTHORIZED=$($COMPOSER_BIN config -a -g http-basic 2>/dev/null | grep ci.swissuplabs.com)
 if [[ -z "$IS_AUTHORIZED" && (-z "$DOMAIN" || -z "$IDENTITY_KEY") ]]; then
       echo "Domain and identity key required first"
       exit 1;
