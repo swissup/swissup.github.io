@@ -33,7 +33,7 @@ BINS=($(which php))
 if [ -x "$(command -v locate)" ]; then
     BINS+=($(locate php | grep bin/ | grep -v "\.sh" | grep -v "\.php" | grep -v "\.js" | grep -v "\.txt" | grep -v "\.bat" | grep -v "\.cmd"))
   else
-    BINS+=($(find /usr -name "php" | grep bin/ | grep -v "\.sh" | grep -v "\.php" | grep -v "\.js" | grep -v "\.txt" | grep -v "\.bat" | grep -v "\.cmd"))
+    BINS+=($(find / -name "php" 2> /dev/null | grep bin/ | grep -v "\.sh" | grep -v "\.php" | grep -v "\.js" | grep -v "\.txt" | grep -v "\.bat" | grep -v "\.cmd"))
 fi
 
 for BIN in "${BINS[@]}"; do
