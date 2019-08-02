@@ -100,14 +100,24 @@ if [[ ! $PACKAGE ]]; then
     exit 1
 fi
 
+IS_MAGE_REPO=$($COMPOSER_BIN config repositories.0 2>/dev/null | grep repo.magento.com)
+IS_MAUTHORIZED=$($COMPOSER_BIN config -a -g http-basic 2>/dev/null | grep repo.magento.com)
+if [[ ! -z "$IS_MAGE_REPO" && -z "$IS_MAUTHORIZED" ]]; then
+    $COMPOSER_BIN config --unset repositories.0     
+    # echo "Invalid credentials for repo.magento.com"
+    # echo "Get your authentication keys. https://devdocs.magento.com/guides/v2.3/install-gde/prereq/connect-auth.html"
+    # echo "Run : $COMPOSER_BIN config -a -g http-basic.repo.magento.com <public_key> <private_key>"
+    # exit 1;
+fi
+
 COMPOSER_REPO='https://ci.swissuplabs.com/api/packages.json'
 
 echo "Register packages repository"
 $COMPOSER_BIN config repositories.swissuplabs composer $COMPOSER_REPO
 IS_AUTHORIZED=$($COMPOSER_BIN config -a -g http-basic 2>/dev/null | grep ci.swissuplabs.com)
 if [[ -z "$IS_AUTHORIZED" && (-z "$DOMAIN" || -z "$IDENTITY_KEY") ]]; then
-      echo "Domain and identity key required first"
-      exit 1;
+    echo "Domain and identity key required first"
+    exit 1;
 fi
 
 if [[ ! -z $DOMAIN && ! -z $IDENTITY_KEY ]]; then
@@ -116,6 +126,10 @@ fi
 
 echo "Installing packages via composer command"
 echo $COMPOSER_BIN require $PACKAGE
+
+if [[ ! -z "$IS_MAGE_REPO" && -z "$IS_MAUTHORIZED" ]]; then
+    $COMPOSER_BIN config repositories.0 composer https://repo.magento.com/
+fi
 
 echo "Enable maintainance mode"
 $MAGENTO_BIN maintenance:enable
@@ -139,6 +153,10 @@ if [[ -z "$LOCALE" ]]; then
     LOCALE='en_US'
 fi
 $MAGENTO_BIN setup:static-content:deploy $LOCALE -f
+if [[ -z "$IS_AUTHORIZED" && (-z "$DOMAIN" || -z "$IDENTITY_KEY") ]]; then
+      echo "Domain and identity key required first"
+      exit 1;
+fi
 $MAGENTO_BIN setup:di:compile
 $MAGENTO_BIN cache:flush
 
