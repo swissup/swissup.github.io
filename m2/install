@@ -52,6 +52,8 @@ done
 echo "php : $PHP_BIN"
 $PHP_BIN -v
 
+$PHP_BIN = "$PHP_BIN -d memory_limit=-1 -d allow_url_fopen=1 "
+
 echo "Check availability of composer"
 if which composer >/dev/null; then
     COMPOSER_BIN=$(which composer)
@@ -103,7 +105,7 @@ fi
 IS_MAGE_REPO=$($COMPOSER_BIN config repositories.0 2>/dev/null | grep repo.magento.com)
 IS_MAUTHORIZED=$($COMPOSER_BIN config -a -g http-basic 2>/dev/null | grep repo.magento.com)
 if [[ ! -z "$IS_MAGE_REPO" && -z "$IS_MAUTHORIZED" ]]; then
-    $COMPOSER_BIN config --unset repositories.0     
+    $COMPOSER_BIN config --unset repositories.0
     # echo "Invalid credentials for repo.magento.com"
     # echo "Get your authentication keys. https://devdocs.magento.com/guides/v2.3/install-gde/prereq/connect-auth.html"
     # echo "Run : $COMPOSER_BIN config -a -g http-basic.repo.magento.com <public_key> <private_key>"
@@ -126,6 +128,7 @@ fi
 
 echo "Installing packages via composer command"
 echo $COMPOSER_BIN require $PACKAGE
+$COMPOSER_BIN require $PACKAGE
 
 if [[ ! -z "$IS_MAGE_REPO" && -z "$IS_MAUTHORIZED" ]]; then
     $COMPOSER_BIN config repositories.0 composer https://repo.magento.com/
@@ -139,7 +142,9 @@ echo "Enable modules"
 DISABLED_MODULES=$($MAGENTO_BIN  module:status --disabled | grep Swissup_)
 MODULES=$($MAGENTO_BIN module:status | grep Swissup_)
 $MAGENTO_BIN module:enable $MODULES
-$MAGENTO_BIN module:disable $DISABLED_MODULES
+if [[ ! -z $DISABLED_MODULES ]]; then
+    $MAGENTO_BIN module:disable $DISABLED_MODULES
+fi
 
 # 2. Run magento upgrade scripts
 echo "Run magento setup upgrade"
