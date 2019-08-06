@@ -126,6 +126,8 @@ if [[ ! -z $DOMAIN && ! -z $IDENTITY_KEY ]]; then
     $COMPOSER_BIN config -a -g http-basic.ci.swissuplabs.com "$DOMAIN" "$IDENTITY_KEY"
 fi
 
+DISABLED_MODULES=$($MAGENTO_BIN  module:status --disabled | grep Swissup_)
+
 echo "Installing packages via composer command"
 echo $COMPOSER_BIN require $PACKAGE
 $COMPOSER_BIN require $PACKAGE
@@ -139,7 +141,6 @@ $MAGENTO_BIN maintenance:enable
 
 # Enable all swissup modules
 echo "Enable modules"
-DISABLED_MODULES=$($MAGENTO_BIN  module:status --disabled | grep Swissup_)
 MODULES=$($MAGENTO_BIN module:status | grep Swissup_)
 $MAGENTO_BIN module:enable $MODULES
 if [[ ! -z $DISABLED_MODULES ]]; then
