@@ -8,6 +8,14 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.3.3
+
+> Aug 6, 2019
+
+**Fixes**
+ - Fix: md5 not secure hash
+ - Fix: Add <picture> tag wrapper for safari webp compatability
+
 ### Version 1.3.2
 
 > Jul 23, 2019
