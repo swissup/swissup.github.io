@@ -207,7 +207,14 @@ see what repos were affected.
 
 ### Update all modules
 
-This command will run `checkout master && git pull` in each subfolder:
+This command will run parallel `git pull origin master` commands in each subfolder:
+
+```bash
+ls | xargs -P10 -I{} git -C {} pull origin master
+```
+
+If the command above doesn't work for you, try another one.
+It will run `checkout master && git pull` in each subfolder:
 
 ```bash
 for module in *; do cd $module && git checkout master && git pull && cd ../; done;
