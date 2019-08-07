@@ -1,0 +1,39 @@
+- href: /images/m2/ajaxsearch/frontend/form-layout-default-products-only.png
+  src: /images/m2/ajaxsearch/frontend/small/form-layout-default-products-only.png
+  title: >
+    Default form layout with products only in search results.
+  w: 634
+  h: 698
+- href: /images/m2/ajaxsearch/frontend/form-layout-default.png
+  src: /images/m2/ajaxsearch/frontend/small/form-layout-default.png
+  title: >
+    Default form layout with all available search result item types.
+  w: 803
+  h: 753
+- href: /images/m2/ajaxsearch/frontend/form-layout-minimalistic.png
+  src: /images/m2/ajaxsearch/frontend/small/form-layout-minimalistic.png
+  title: >
+    Minimalistic form layout. Initially, search icon is visible only. When
+    customer clicks the icon - search input is shown.
+  w: 803
+  h: 753
+- href: /images/m2/ajaxsearch/frontend/form-layout-fullscreen.png
+  src: /images/m2/ajaxsearch/frontend/small/form-layout-fullscreen.png
+  title: >
+    Fullscreen form layout. Initially, search icon is visible only. When
+    customer clicks the icon - fullscreen form is shown above whole page.
+  w: 1158
+  h: 930
+- href: /images/m2/ajaxsearch/frontend/category-filter.png
+  src: /images/m2/ajaxsearch/frontend/small/category-filter.png
+  title: >
+    Category filter allows to filter out search results by particular category.
+  w: 350
+  h: 325
+- href: /images/m2/ajaxsearch/frontend/results-layout-list.png
+  src: /images/m2/ajaxsearch/frontend/small/results-layout-list.png
+  title: >
+    Results dropdown with simple "list" layout. CMS Pages, categories results
+    are placed below products list.
+  w: 350
+  h: 335

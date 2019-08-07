@@ -1,12 +1,30 @@
 ---
 layout: default
-title: AjaxSearch Changelog
-description: AjaxSearch changelog
-keywords: ajaxsearch changelog
+title: Ajaxsearch Changelog
 category: AjaxSearch
 ---
 
 # Changelog
+
+### Version 1.8.0
+
+> Draft
+
+ -  New "minimalistic form" layout added. Now AjaxSearch provides
+    [three form layouts](/m2/extensions/ajaxsearch/configuration/#design):
+    - Default - Initially visible form
+    - Icon only - Minimalistic form
+    - Icon only - Fullscreen form
+ -  Improved product list styles in results dropdown.
+ -  Improved results dropdown sizing when browser gets resized.
+ -  Better scrolling inside dropdown results on mobile devices.
+ -  Fixed possible js error on initial page load.
+ -  Prevent horizontal scrollbar on small tablets.
+ -  Prevent search form 'jumping' while script is initialized.
+ -  Fixed disabled CMS pages in search result (They shoudn't appear in results).
+ -  Do not close results dropdown when click inside that dropdown.
+ -  All styles moved to `_module.less` which allows to redefine ajaxsearch
+    variables from your theme less files.
 
 ### Version 1.7.0
 
