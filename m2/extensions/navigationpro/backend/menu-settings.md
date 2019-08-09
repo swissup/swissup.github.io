@@ -9,10 +9,6 @@ category: Navigationpro
 
 This page is accessible when editing existing menu settings.
 
-The page has two sections: [General settings](#general-settings), where you can
-setup menu preferences, and [Dropdown settings](#dropdown-settings), where dropdown
-preferences could be changed.
-
 ## General settings
 
 ![Menu General Settings](/images/m2/navigationpro/backend/menu-settings/general-settings.png)
@@ -22,16 +18,18 @@ Option          | Description
 Identifier      | Unique menu identifier.
 Maximal Depth   | Use this option to limit number of loaded dropdown levels. Use `0` to disable limits.
 CSS Class       | Usefull for [menu customization][menu-modifiers] and some kind of [menu types][use-cases].
-Replace Top Menu at | Select Store Views where menu should replace standard top navigation
+Replace Top Menu at         | Select Store Views where menu should replace standard top navigation
+Default Dropdown Settings   | Show popup with global dropdown layout settings.
+Default Item Settings       | Show popup with global item settings.
 
-## Dropdown settings
+## Global Dropdown settings
 
-![Menu Dropdown Settings](/images/m2/navigationpro/backend/menu-settings/dropdown-settings.png)
+![Global Dropdown Settings](/images/m2/navigationpro/backend/menu-settings/dropdown-settings.png)
 
 There are three fieldsets are avialable:
 
- -  Default dropdown settings
- -  First level dropdown settings
+ -  Global dropdown settings.
+ -  First level dropdown settings.
  -  Second level dropdown settings.
 
 As you may guess, the first one — is for all dropdown levels; second — for the
@@ -43,6 +41,21 @@ Width               | Change [dropdown width][dropdown-width]
 Dropdown Position   | Change [dropdown position][dropdown-position]. _Available for "First level dropdown settings" only_
 Layout              | Change [dropdown layout][dropdown-layout]
 
+## Global Item settings
+
+![Global Item Settings](/images/m2/navigationpro/backend/menu-settings/item-settings.png)
+
+There are four fieldsets are avialable:
+
+ -  Global item settings — for all item levels.
+ -  First level item settings — for the first item levels only.
+ -  Second level item settings — for the second item levels only.
+ -  Third level item settings — for the third item levels only.
+
+Option       | Description
+-------------|-----------------------
+Name as Html | Replace regular template with [your own][item-name-renderer]. See ready to use [examples page](/m2/extensions/navigationpro/use-cases/category-name-templates/).
+
 #### Next up
 
  -  [Back to Main Page](/m2/extensions/navigationpro/)
@@ -53,3 +66,4 @@ Layout              | Change [dropdown layout][dropdown-layout]
 [dropdown-width]: /m2/extensions/navigationpro/ui/dropdown-width-modes/ "Dropdown Width Modes"
 [dropdown-position]: /m2/extensions/navigationpro/ui/dropdown-position/ "Dropdown Position"
 [dropdown-layout]: /m2/extensions/navigationpro/ui/dropdown-layout-builder/ "Dropdown Layout Builder"
+[item-name-renderer]: /m2/extensions/navigationpro/ui/menu-item-name-as-html/ "Item Name Renderer"

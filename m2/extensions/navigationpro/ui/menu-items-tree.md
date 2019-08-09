@@ -40,6 +40,11 @@ Mode            | Import mode. Use 'Selected Item and It's Children' when you ne
 Item to Import  | Category item to import
 Parent item     | Imported item will be added as a child of selected item
 
+### Mass Edit
+
+When click this button - [Mass Edit Popup](/m2/extensions/navigationpro/ui/menu-items-mass-edit/)
+will be shown.
+
 #### Next up
 {:.no_toc}
 

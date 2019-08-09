@@ -10,6 +10,9 @@ category: Navigationpro
 Dropdown layout builder provides easy-to-use drag and drop interface to
 create complex dropdown contents.
 
+> To place multiple blocks in a row, you need to reduce their size so
+> they can feet one line.
+
 ![Layout builder](/images/m2/navigationpro/ui/layout-builder.png)
 
 Each block is resizable and draggable. Additional settings will be shown in a

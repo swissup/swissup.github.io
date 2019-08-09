@@ -30,7 +30,7 @@ in modal panel.
 
 ![Menu Items Tree](/images/m2/navigationpro/backend/menu-edit/menu-items-tree.png)
 
-You can **Create**, **Import**, and **Move** items in the tree.
+You can **Create**, **Import**, **Move**, and **Mass Edit** items in the tree.
 [Read more](/m2/extensions/navigationpro/ui/menu-items-tree/) about
 tree element.
 
@@ -54,7 +54,8 @@ Url | Item link
 
 Option | Description
 -------|------------
-Name as Html | Replace regular name renderer with [your own][item-name-renderer]. This is how you can add [category labels][category-tips], [icons and images][iconic-menu] near the category text.
+Load and Apply Menu Settings | When click this button, `Name as Html` will fetch its settings from [global menu settings](/m2/extensions/navigationpro/backend/menu-settings/#general-settings).
+Name as Html | Replace regular template with [your own][item-name-renderer]. See ready to use [examples page](/m2/extensions/navigationpro/use-cases/category-name-templates/).
 CSS Class | Usefull to apply custom css class to the item. See available item [css helpers][item-modifiers].
 
 ## Dropdown Settings
@@ -67,6 +68,7 @@ option.
 
 Option  | Description
 --------|----------------------------------------
+Load and Apply Menu Settings | When click this button, `Width` and `Layout` fields will fetch their settings from [global menu settings](/m2/extensions/navigationpro/backend/menu-settings/#general-settings).
 Width   | Change [dropdown width][dropdown-width]
 Layout  | Change [dropdown layout][dropdown-layout]
 CSS Class | Additional CSS classes could be useful when customizing dropdown styles
