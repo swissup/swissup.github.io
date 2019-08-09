@@ -42,13 +42,13 @@ Let's imagine the following header:
 
 ![Nowrap](/images/m2/navigationpro/use-cases/nowrap-offset.png)
 
-In the example above, menu is placed near logo (300px width),
-cart and search icons (100px width). To activate nowrap feature for this
+In the example above, menu is placed between logo and
+cart/search icons (100px width). To activate nowrap feature for this
 header type, you need to:
 
  -  Add `navpro-nowrap` class to the
     [CSS Class field](/m2/extensions/navigationpro/backend/menu-settings/#general-settings)
- -  Add `navpro-nowrap-offset-400` class to the
+ -  Add `navpro-nowrap-offset-100` class to the
     [CSS Class field](/m2/extensions/navigationpro/backend/menu-settings/#general-settings)
 
 #### Next up
