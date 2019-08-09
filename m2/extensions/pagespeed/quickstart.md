@@ -419,7 +419,7 @@ Set
   php bin/magento catalog:images:resize
   ~~~
 
-#### Pro cli tips
+#### One line command
 
 ~~~bash
 curl -s https://raw.githubusercontent.com/swissup/swissup.github.io/master/m2/extensions/pagespeed/configure | bash -s

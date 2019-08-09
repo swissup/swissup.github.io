@@ -49,3 +49,23 @@ Installation request for swissup/pagespeed 1.0.0 -> satisfiable by swissup/pages
 
 Update your PHP version or don't use the tools for image compressions
 
+
+### ISSUE 3:
+
+Correct enable 'Advanced JavaScript Bundling'
+
+```bash
+Problem 1
+
+Generate broken small bundle files
+
+#### FIX:
+
+1. Disable 'Merge JavaScript Files', 'Enable JavaScript Bundling' and 'Minify JavaScript Files' before.
+2. Flush Cache
+3. Reload a homepage
+4. Enable Minify JavaScript Files
+5. Flush Cache
+6. Reload a homepage
+7. Enable Merge JavaScript Files
+2. Flush Cache

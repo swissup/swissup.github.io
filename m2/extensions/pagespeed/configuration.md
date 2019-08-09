@@ -36,11 +36,24 @@ Minify Templates                | Allows to enable/disable minify phtml template
 
 ![JavaScript Settings](/images/m2/pagespeed/configuration/javascript-settings.png)
 
-Option                     | Description
----------------------------|-------------------------------------------
-Merge JavaScript Files     | Allows to merge your javasripts files (Yes)
-Enable JavaScript Bundling | Allows to eneble/disable [JavaScript Bundling](https://devdocs.magento.com/guides/v2.2/frontend-dev-guide/themes/js-bundling.html) (No)
-Minify JavaScript Files    | Allows to enable/disable minify javascripts files (Yes)
+Option                                          | Description
+------------------------------------------------|-------------------------------------------
+Merge JavaScript Files                          | Allows to merge your javasripts files (Yes)
+Enable JavaScript Bundling                      | Allows to eneble/disable [JavaScript Bundling](https://devdocs.magento.com/guides/v2.2/frontend-dev-guide/themes/js-bundling.html) (No)
+Enable Advanced JavaScript Bundling (RequireJs)*| Allows to eneble/disable [Advanced JavaScript Bundling](https://devdocs.magento.com/guides/v2.3/performance-best-practices/advanced-js-bundling.html) (No)
+RequireJS Bundle Generator Build Config         | r.js optimize tool config. [RequireJS bundle config generating](https://github.com/magento/m2-devtools/blob/master/docs/panels/RequireJS.md#bundle-generator)
+Minify JavaScript Files                         | Allows to enable/disable minify javascripts files (Yes)
+
+If you want to enable 'Advanced JavaScript Bundling', you have to do some steps first:
+
+1. Disable 'Merge JavaScript Files', 'Enable JavaScript Bundling' and 'Minify JavaScript Files' before.
+2. Flush Cache
+3. Reload a homepage
+4. Enable Minify JavaScript Files
+5. Flush Cache
+6. Reload a homepage
+7. Enable Merge JavaScript Files
+2. Flush Cache
 
 #### Deferred javascripts
 
