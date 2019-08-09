@@ -29,6 +29,7 @@ devices, tablets, and phones.
     - [Dropdown Width Modes](/m2/extensions/navigationpro/ui/dropdown-width-modes/)
     - [Layout Builder](/m2/extensions/navigationpro/ui/dropdown-layout-builder/)
     - [Menu Items Tree](/m2/extensions/navigationpro/ui/menu-items-tree/)
+    - [Menu Items Mass Edit](/m2/extensions/navigationpro/ui/menu-items-mass-edit/)
     - [Menu Item Name as HTML](/m2/extensions/navigationpro/ui/menu-item-name-as-html/)
  7. [Use Cases](/m2/extensions/navigationpro/use-cases/)
     - [Simple Dropdown Menu](/m2/extensions/navigationpro/use-cases/simple-menu/)

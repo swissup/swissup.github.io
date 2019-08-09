@@ -10,8 +10,8 @@ There are multiple ways to apply custom template for menu item:
 
  -  Change it for particular item only - Select some item in the tree, and use
     [Item Name Renderer](/m2/extensions/navigationpro/ui/menu-item-name-as-html/).
- -  Change it for multiple items at once - Use [Mass Edit](/m2/extensions/navigationpro/ui/mass-edit/)
-    popup.
+ -  Change it for multiple items at once - Use
+    [Mass Edit](/m2/extensions/navigationpro/ui/menu-items-mass-edit/) popup.
  -  Change template for all items at particular level - Open
     [Menu Settings](/m2/extensions/navigationpro/backend/menu-settings/#item-settings),
     Click _Item Settings_ and work with level you'd like to affect.
