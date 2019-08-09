@@ -8,6 +8,30 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.12.0
+
+> Draft
+
+ -  [Mass edit feature](/m2/extensions/navigationpro/ui/menu-items-mass-edit/) added.
+ -  Added ability to set
+    [global item settings](/m2/extensions/navigationpro/backend/menu-settings/#global-item-settings)
+    based on item level.
+ -  Added ability to sync [item](/m2/extensions/navigationpro/backend/menu-edit/#advanced-settings)
+    and [dropdown](/m2/extensions/navigationpro/backend/menu-edit/#dropdown-settings)
+    settings with global settings from menu.
+ -  Improved default value for dropdown layout settings in each item. Now it
+    shows properly inherited dropdown layout.
+ -  Added ability to hide html content/widget
+    [when item has no children](/m2/extensions/navigationpro/ui/dropdown-layout-builder/#widget-or-plain-html).
+ -  Added ability to use
+    [depend and var directives](/m2/extensions/navigationpro/ui/menu-item-name-as-html/#available-variables)
+    for item name renderer.
+ -  All styles moved to `_module.less`. This allows easely redefine navigationpro
+    variables within your theme.
+ -  Improved [nowrap feature](/m2/extensions/navigationpro/use-cases/nowrap/) logic.
+ -  Do not allow to import root category as it's cannot be rendered at frontend.
+ -  Fixed possible js errors when rendering dropdown content at the backend.
+
 ### Version 1.11.1
 
 > Jun 12, 2019
