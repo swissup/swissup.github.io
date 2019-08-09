@@ -44,7 +44,7 @@ Enable Advanced JavaScript Bundling (RequireJs)*| Allows to eneble/disable [Adva
 RequireJS Bundle Generator Build Config         | r.js optimize tool config. [RequireJS bundle config generating](https://github.com/magento/m2-devtools/blob/master/docs/panels/RequireJS.md#bundle-generator)
 Minify JavaScript Files                         | Allows to enable/disable minify javascripts files (Yes)
 
-If you want to enable 'Advanced JavaScript Bundling', you have to do some steps first:
+#### If you want to enable 'Advanced JavaScript Bundling', you have to do some steps first:
 
 1. Disable 'Merge JavaScript Files', 'Enable JavaScript Bundling' and 'Minify JavaScript Files' before.
 2. Flush Cache
