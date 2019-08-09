@@ -20,6 +20,7 @@ category: Navigationpro
  - [Apple Menu](/m2/extensions/navigationpro/use-cases/apple-menu/)
  - [EasyCatalogImages Menu](/m2/extensions/navigationpro/use-cases/easycatalogimages-widget/)
  - [Complex Dropdown Contents](/m2/extensions/navigationpro/use-cases/complex-content/)
+ - [Category Name Templates](/m2/extensions/navigationpro/use-cases/category-name-templates/)
  - [Category Tips (Labels)](/m2/extensions/navigationpro/use-cases/category-tips/)
  - [Sidebar Menu](/m2/extensions/navigationpro/use-cases/sidebar-menu/)
  - [Overlay](/m2/extensions/navigationpro/use-cases/overlay/)
