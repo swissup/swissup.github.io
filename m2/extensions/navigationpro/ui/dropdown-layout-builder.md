@@ -28,6 +28,7 @@ are supported:
 Option | Description
 -------|------------
 Enabled| Ability to enable or disable content
+Display Mode | Ability to hide content when item has no children. Useful when saving global dropdown setting based on item level.
 Content| Html content to show on frontend
 
 ## Children (Subcategories and Child Items)
