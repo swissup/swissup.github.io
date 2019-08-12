@@ -17,4 +17,5 @@ Login or register in Magento 2 store using social account from Facebook, Google 
  1. [Installation](installation/)
  2. [Changelog](changelog/)
  3. [Configuration](configuration/)
- 4. [Social Applications Configuration](api/)
+ 4. [Customization](customization/)
+ 5. [Social Applications Configuration](api/)

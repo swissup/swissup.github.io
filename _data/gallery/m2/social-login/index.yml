@@ -3,19 +3,25 @@
   alt: Social Buttons on Login Page
   title: Social Buttons on Login Page
   w: 1250
-  h: 670
+  h: 530
 - href: /images/m2/sociallogin/frontend/register.png
   src: /images/m2/sociallogin/frontend/small/register.png
   alt: Social Buttons on Register Page
   title: Social Buttons on Register Page
   w: 640
-  h: 560
+  h: 440
 - href: /images/m2/sociallogin/frontend/checkout.png
   src: /images/m2/sociallogin/frontend/small/checkout.png
   alt: Social Buttons on Checkout Page
   title: Social Buttons on Checkout Page
   w: 1260
-  h: 700
+  h: 720
+- href: /images/m2/sociallogin/frontend/registration-popup.png
+  src: /images/m2/sociallogin/frontend/small/registration-popup.png
+  alt: Social Buttons in Registration Popup
+  title: Social Buttons in Registration Popup
+  w: 1070
+  h: 630
 - href: /images/m2/sociallogin/frontend/twitter.png
   src: /images/m2/sociallogin/frontend/small/twitter.png
   alt: Twitter Login Popup

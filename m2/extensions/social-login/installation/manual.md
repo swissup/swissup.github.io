@@ -9,18 +9,9 @@ exclude_from_search: true
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/social-login" modules="Swissup_Core Swissup_SocialCore Swissup_SocialLogin" preinstall="composer require hybridauth/hybridauth:^3.0@dev" %}
+{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/social-login" modules="Swissup_Core Swissup_SocialCore Swissup_SocialLogin" preinstall="composer require hybridauth/hybridauth:^3.0" %}
 
-#### 3. Installation Errors
-
-If you get error message about conflict with your requirements or minimum-stability,
-run the following command and try again:
-
-```
-composer require "hybridauth/hybridauth:^3.0@dev"
-```
-
-#### 4. Complete the installation
+#### 3. Complete the installation
 
 Login your store admin and enable extension in magento configuration.
 
