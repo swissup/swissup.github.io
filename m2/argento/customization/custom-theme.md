@@ -85,6 +85,36 @@ Let's create `Local/argento-[essence|flat|pure2|mall|stripes|luxury|force]-custo
         );
         ```
 
+    #### In one line
+
+    You can also create a custom theme more fastest with our command
+
+    ```bash
+    php bin/magento swissup:theme:create <name> <parent-theme-name> --css
+    ```
+
+    **Command line arguments**
+
+    Argument  | Description
+    ----------|------------
+    name      | Put the theme name you want to create (Local/argento-stripes)
+    parent    | Put the parent short theme name (stripes)
+
+    **Command line options**
+
+    Option    | Description
+    ----------|------------
+    --css     | Should I create custom css? [default: false]
+
+
+    For example
+
+    ```bash
+    php bin/magento swissup:theme:create argento-stripes stripes --css
+    ```
+
+    will generate Local/argento-stripes theme based at stripes (swissup/theme-frontend-argento-stripes)
+
  3. Log in to Magento backend and navigate to `Content > Themes`. You should
     see new theme in the list.
 

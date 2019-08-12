@@ -76,28 +76,6 @@ Option      | Description
 ------------|------------
 STORE_ID    | ID of the store to install AMP to. Use `0` to install AMP for All Stores. Or find it using `php bin/magento store:list` command.
 
-##### 6. Create Local Swissup theme
-
-Create local theme in app/design/frontend/Local dir
-
-```bash
-php bin/magento swissup:theme:create <name> <parent-theme-name> --css
-```
-
-**Command line arguments**
-
-Argument  | Description
-----------|------------
-name      | Put the theme name you want to create (Local/argento-stripes)
-parent    | Put the parent short theme name (stripes)
-
-**Command line options**
-
-Option    | Description
-----------|------------
---css     | Should I create custom css? [default: false]
-
-
 #### That's all. Navigate to you store to check your new theme:
 {:.no_toc}
 
