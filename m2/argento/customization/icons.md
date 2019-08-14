@@ -17,7 +17,7 @@ category: Argento
 ### FontAwesome Icons
 
 Argento uses FontAwesome icons and you can use any of icons provided by this
-wonderful project. See the [official site](http://fontawesome.io/icons/) for
+wonderful project. See the [official site](https://fontawesome.com/v4.7.0/icons/) for
 usage examples and icons list.
 
 ### Social icons
