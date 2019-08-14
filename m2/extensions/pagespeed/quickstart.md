@@ -63,7 +63,7 @@ You can check your site [here](https://checkgzipcompression.com/).
 
 #### For Apache
 
-Find and uncomment deflate section in your [pub/.htaccess](https://github.com/magento/magento2/blob/2.2-develop/pub/.htaccess#L92-L118) and [.htaccess](https://github.com/magento/magento2/blob/2.2-develop/.htaccess#L89-L115) files
+Find and uncomment deflate section in your [pub/.htaccess](https://github.com/magento/magento2/blob/2.2/pub/.htaccess#L92-L118) and [.htaccess](https://github.com/magento/magento2/blob/2.2/.htaccess#L89-L115) files
 
 <details>
     <summary>Uncomment Default configuration</summary>
