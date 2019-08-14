@@ -34,8 +34,10 @@ category: Argento
         - [Modify 'squama' listing styles](change-product-listing-styles/#squama-listing-styles)
         - [Remove listing styles](change-product-listing-styles/#remove-listing-styles)
     - Product page
-        - [Add additional blocks to the product page](add-additional-blocks-to-the-product-page/)
-        - [Add price to colorswatch items](adding-prices-to-magento-swatches/)
+        + [Add additional blocks to the product page](add-additional-blocks-to-the-product-page/)
+        + [Add stricky tocart at product page](add-sticky-tocart/)
+        + [Add photo into description at product page](add-photo-in-description/)
+        + [Add price to colorswatch items](adding-prices-to-magento-swatches/)
     - Category page
         - [Moving category header to main content](moving-category-header-to-main-content/)
     - Checkout page
