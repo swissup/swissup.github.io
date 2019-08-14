@@ -8,6 +8,13 @@ category: SoldTogether
 
 # Changelog
 
+### Version 1.6.3
+
+> Aug 14, 2019
+
+ -  Remove module blocks from Swissup Ajaxpro popup.
+ -  Customers Also Bought block - don't add tocart checkbox for configurable, bundle or grouped products. Because it doesn't work.
+
 ### Version 1.6.2
 
 > Jun 12, 2019
