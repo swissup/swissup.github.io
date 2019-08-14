@@ -1,0 +1,40 @@
+- href: /images/m2/argento/force/index/desktop-home.png
+  src: /images/m2/argento/force/index/small/desktop-home.png
+  title: Argento Force homepage.
+  w: 1869
+  h: 5109
+- href: /images/m2/argento/force/index/desktop-category.png
+  src: /images/m2/argento/force/index/small/desktop-category.png
+  title: Argento Force category page.
+  w: 1869
+  h: 2384
+- href: /images/m2/argento/force/index/desktop-product.png
+  src: /images/m2/argento/force/index/small/desktop-product.png
+  title: Argento Force product page.
+  w: 1869
+  h: 2454
+- href: /images/m2/argento/force/index/desktop-product-minicart-review.png
+  src: /images/m2/argento/force/index/small/desktop-product-minicart-review.png
+  title: Argento Force product page (minicart and add review).
+  w: 1869
+  h: 2686
+- href: /images/m2/argento/force/index/mobile-product.png
+  src: /images/m2/argento/force/index/small/mobile-product.png
+  title: Argento Force product page on mobile devices.
+  w: 1410
+  h: 2862
+- href: /images/m2/argento/force/index/mobile-category.png
+  src: /images/m2/argento/force/index/small/mobile-category.png
+  title: Argento Force category page on mobile devices.
+  w: 1410
+  h: 2862
+- href: /images/m2/argento/force/index/mobile-layered.png
+  src: /images/m2/argento/force/index/small/mobile-layered.png
+  title: Argento Force layered navigation on mobile.
+  w: 1410
+  h: 2862
+- href: /images/m2/argento/force/index/mobile-menu.png
+  src: /images/m2/argento/force/index/small/mobile-menu.png
+  title: Argento Force mobile menu.
+  w: 1410
+  h: 2862
