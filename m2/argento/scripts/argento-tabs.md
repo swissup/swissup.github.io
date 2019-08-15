@@ -14,7 +14,7 @@ transform any custom content into tabs.
 Typical markup for blocks that will be tranformed into tabs:
 
 ```html
-<div class="argento-tabs" data-mage-init='{"argentoTabs": {}}'>
+<div class="argento-tabs product data items" data-mage-init='{"argentoTabs": {}}'>
     <div class="block">
         <div class="block-title">Block 1</div>
         <div class="block-content">Block 1 content</div>
