@@ -57,3 +57,10 @@ Menu identifier is `argento_force_topmenu`.
 On the right side of the header you can see search and minicart icon. Search is hidden by default and show up when user clicks on its icon. Same thing for minicart. Click on bag and it shows up.
 
 Search functionality is powered by [Ajax Search](/m2/extensions/ajaxsearch/) module. Check module docs to see what features it has.
+
+##### Next up
+{:.no_toc}
+
+- [Small css customizations](/m2/argento/customization/custom-css/)
+- [Create Argento based custom theme](/m2/argento/customization/custom-theme/)
+- [Argento Force docs homepage](/m2/argento/force/)

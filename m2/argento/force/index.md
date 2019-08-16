@@ -17,3 +17,8 @@ category: Argento
          +  [More Articles](/m2/argento/customization/)
  -  [Page structure manuals](page-structure/)
      +  [Header](page-structure/header/)
+     +  [Footer](page-structure/footer/)
+     +  [Homepage](page-structure/homepage/)
+     +  [Product page](page-structure/product-page/)
+     +  [Category page](page-structure/category-page/)
+     +  [Contact Us page](page-structure/contact-us/)
