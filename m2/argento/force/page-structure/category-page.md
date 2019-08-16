@@ -36,6 +36,14 @@ Product list is powered by [Hover Gallery](/m2/extensions/hover-gallery/configur
 
 One more feature at product listing is product labels - "NEW!", "-5%" etc. It is provided by [ProLabels](/m2/extensions/prolabels/) module.
 
+### Add to cart popup
+
+![Ajaxpro popup](/images/m2/argento/force/category/ajaxpro-popup.png)
+
+Magento shows add to cart popup when user tries to add product to cart from product list. And when this product has some options to select.
+
+This popup is implemented by [Ajax Pro](/m2/extensions/ajaxpro/) module.
+
 ### Recently viewed
 
 One distinct feature of Argento themes is Recently Viewed block at the bottom of category page. This block shows recently viewed products by current visitor on current device/PC.
