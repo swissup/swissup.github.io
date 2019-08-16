@@ -19,6 +19,7 @@ category: Argento
  -  [Footer CMS Content](footer/#footer-cms-content)
 
 #### [Homepage](homepage/)
+
  -  [Slider](homepage/#slider)
  -  [Hot Stuff](homepage/#hot-stuff)
  -  [‘Ready to Go’ categories](homepage/#ready-to-go-categories)
@@ -28,7 +29,13 @@ category: Argento
  -  [Brands](homepage/#brands)
 
 #### [Product page](product-page/)
- -  [Layout](/product-page/#layout)
- -  [Add to Cart Form](/product-page/#add-to-cart-form)
- -  [Tabs](/product-page/#tabs)
- -  [Customers … Also Bought](/product-page/#customers--also-bought)
+
+ -  [Layout](product-page/#layout)
+ -  [Add to Cart Form](product-page/#add-to-cart-form)
+ -  [Tabs](product-page/#tabs)
+ -  [Customers … Also Bought](product-page/#customers--also-bought)
+
+#### [Category page](category-page/)
+
+ -  [Product List](category-page/#product-list)
+ -  [Recently viewed](category-page/#recently-viewed)

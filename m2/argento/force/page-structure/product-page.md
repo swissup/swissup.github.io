@@ -207,6 +207,14 @@ require([
 </script>
 ```
 
+#### Quantity field
+
+![Qty Field](/images/m2/argento/force/product/qty-field.png)
+
+Qty field is powered by [Quantity Switcher](/m2/extensions/qty-switcher/) module. By default qty field has dropdown with predefined quantity numbers. You can change dropdown with arrows. Check module docs to figure out how to do this.
+
+*Notice:* For configurable products qty dropdown is empty until user select all of the product options.
+
 #### Related products
 
 There is a list of related products under form. You can maintain that list by yourself in Magento Admin. Check how to do it at [Magento Docs](https://docs.magento.com/m2/ce/user_guide/catalog/settings-advanced-related-products.html#to-set-up-related-products).
