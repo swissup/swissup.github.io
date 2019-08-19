@@ -11,6 +11,11 @@ category: AskIt
 
 # Changelog
 
+### Version 1.6.1
+
+> Aug 19, 2019
+
+ - Fixed grid mass action title(s).
 
 ### Version 1.6.0
 

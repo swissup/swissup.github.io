@@ -8,6 +8,12 @@ category: Accelerated Mobile Pages
 
 # Changelog
 
+### Version 1.3.5
+
+> Aug 19, 2019
+
+ -  Fixed DOMDocument empty string warning caused by third-party menu modules.
+
 ### Version 1.3.4
 
 > Jun 27, 2019

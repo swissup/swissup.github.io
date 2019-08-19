@@ -10,7 +10,7 @@ category: Navigationpro
 
 ### Version 1.12.0
 
-> Draft
+> Aug 19, 2019
 
  -  [Mass edit feature](/m2/extensions/navigationpro/ui/menu-items-mass-edit/) added.
  -  Added ability to set
@@ -31,6 +31,7 @@ category: Navigationpro
  -  Improved [nowrap feature](/m2/extensions/navigationpro/use-cases/nowrap/) logic.
  -  Do not allow to import root category as it's cannot be rendered at frontend.
  -  Fixed possible js errors when rendering dropdown content at the backend.
+ -  Fixed always enabled wysiwyg editors. Now they are disabled by default.
 
 ### Version 1.11.1
 

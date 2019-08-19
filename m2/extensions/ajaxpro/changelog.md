@@ -6,6 +6,12 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.4.10
+
+> Aug 19, 2019
+
+ -  Fixed possible redirect to broken page after 'Add to Cart' action.
+
 ### Version 1.4.9
 
 > Jul 8, 2019

@@ -8,6 +8,12 @@ category: Easy Tabs
 
 # Changelog
 
+### Version 1.7.0
+
+> Aug 19, 2019
+
+ -  **New tab condition** - Show tab for selected Product Type only
+
 ### Version 1.6.0
 
 > Jun 18, 2019

@@ -8,6 +8,12 @@ category: EasyCatalogImages
 
 # Changelog
 
+### Version 1.4.4
+
+> Aug 19, 2019
+
+ -  Added ability to show parent category link as button. Used at ArgentoForce theme.
+
 ### Version 1.4.1
 
  -  Fixed possible PHP warning on PHP 7.2

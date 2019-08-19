@@ -8,6 +8,13 @@ category: Easy Slider
 
 # Changelog
 
+### Version 1.4.0
+
+> Aug 19, 2019
+
+ -  Added ability to use Magento directives in slider description field.
+ -  Improved slider rendering when slide url is not set.
+
 ### Version 1.3.3
 
 > May 24, 2019

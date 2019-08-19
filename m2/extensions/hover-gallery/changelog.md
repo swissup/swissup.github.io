@@ -8,6 +8,13 @@ category: Hover Gallery
 
 # Changelog
 
+### Version 1.2.1
+
+> Aug 19, 2019
+
+ -  Don't add hover image if it is the same as main image.
+ -  LESS variables to customize transition effect.
+
 ### Version 1.1.2
 
 > Jun 12, 2019

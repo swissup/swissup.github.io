@@ -8,7 +8,7 @@ category: AjaxSearch
 
 ### Version 1.8.0
 
-> Draft
+> Aug 19, 2019
 
  -  New "minimalistic form" layout added. Now AjaxSearch provides
     [three form layouts](/m2/extensions/ajaxsearch/configuration/#design):

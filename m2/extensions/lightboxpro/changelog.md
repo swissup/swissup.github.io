@@ -8,6 +8,12 @@ category: Lightbox Pro
 
 # Changelog
 
+### Version 1.2.4
+
+> Aug 19, 2019
+
+ -  Added new variables for easier customization by third-party theme developers.
+
 ### Version 1.2.2
 
 > Mar 29, 2019
