@@ -2,20 +2,16 @@
 layout: default
 title: Easy Tabs Use Cases
 description: magento 2 product tabs use cases
-keywords: " magento 2 product tabs, magento 2 product tabs extension free, add tabs
+keywords: " magento 2 product tabs, magento 2 product tabs extension free, add tabs, review out of tabs, review block 
 magento 2 product page "
 category: Easy Tabs
 ---
 
 # Easy Tabs Use Cases
+{:.no_toc}
 
-### Contents
-
-1. [Activate and scroll to tab on external link click](#activate-and-scroll-to-tab-on-external-link-click)
-2. [Dynamic tab titles](#dynamic-tab-titles)
-3. [Unset multiple blocks](#unset-multiple-blocks)
-4. [Askit example](#askit-example)
-
+* TOC
+{:toc}
 
 ### Activate and scroll to tab on external link click
 
@@ -50,3 +46,74 @@ Examples:
 ### Askit example
 
 ![Askit example](/images/m2/easytabs/usecase-askit.gif)
+
+### Product reviews move from tabs
+
+From time to time our customers ask us if it is possible to move product reviews out of tabs at product page.
+
+There is no simple one click solution for this unfortunately. First, **disable review tab** in Easytabs interface in Magento Admin.
+
+Next you have to create [custom Magento theme](/m2/argento/customization/custom-theme/).
+
+Then create file `Magento_Catalog/layout/catalog_product_view.xml` in your custom theme. If you alreade have such file then go to next paragraph. Add basic declaration to you new file.
+
+```xml
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <!-- Add you custom layout instructions here -->
+    </body>
+</page>
+```
+
+Before closing BODY node (`</body>`) add instructions from snippet below.
+
+```xml
+<referenceContainer name="content">
+    <container name="reviews-wrapper" htmlTag="div" htmlId="tab-label-reviews" htmlClass="reviews-wrapper active">
+         <block class="Magento\Review\Block\Product\Review" name="product.reviews.block" as="reviews" template="Magento_Review::review.phtml" ifconfig="catalog/review/active" before="-">
+            <block class="Magento\Review\Block\Form" name="product.review.form" as="review_form" ifconfig="catalog/review/active">
+                <arguments>
+                    <argument name="jsLayout" xsi:type="array">
+                        <item name="components" xsi:type="array">
+                            <item name="review-form" xsi:type="array">
+                                <item name="component" xsi:type="string">Magento_Review/js/view/review</item>
+                            </item>
+                        </item>
+                    </argument>
+                </arguments>
+                <container name="product.review.form.fields.before" as="form_fields_before" label="Review Form Fields Before"/>
+            </block>
+        </block>
+        <block class="Magento\Framework\View\Element\Text" name="product.reviews.addJs">
+            <arguments>
+                <argument name="text" xsi:type="string">
+<![CDATA[
+<script type="text/javascript">
+require([
+    'jquery'
+], function ($) {
+    'use strict';
+
+    $('#tab-label-reviews').attr('role', 'tab').trigger('beforeOpen');
+    $(function () {
+        $('.product-info-main .reviews-actions a').click(function (event) {
+            var anchor;
+
+            anchor = $(this).attr('href').replace(/^.*?(#|$)/, '');
+            anchor = anchor === 'reviews' ? 'customer-reviews' : anchor;
+            $('html, body').animate({
+                scrollTop: $('#' + anchor).offset().top - 50
+            }, 300);
+        });
+    });
+});
+</script>
+]]>
+                </argument>
+            </arguments>
+        </block>
+    </container>
+</referenceContainer>
+```

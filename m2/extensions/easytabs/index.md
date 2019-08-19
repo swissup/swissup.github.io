@@ -20,6 +20,7 @@ Easy Tabs extension allows you to add any number of dynamic tabs based on conten
  -  [Easytabs Grid](#easytabs-grid)
     - [Easytabs Edit Form](#easytabs-edit-form)
  -  [Use Cases](use-cases/)
+     +  [Product reviews move from tabs](use-cases/#product-reviews-move-from-tabs)
 
 ## Features
 
