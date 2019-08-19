@@ -8,6 +8,19 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.3.4
+
+> Aug 19, 2019
+
+**Features**
+ - Add bundling from minified sources
+ - Improve image resize command
+ - Add bunling option docs link
+
+**Fixes**
+ - Fix: background notice in magento 2.2
+ - Fix: logic to add <picture> tag
+
 ### Version 1.3.3
 
 > Aug 6, 2019
