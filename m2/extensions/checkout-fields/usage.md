@@ -43,6 +43,13 @@ In order to display checkout fields in order emails, follow next steps:
     {% raw %}{{block class="Swissup\CheckoutFields\Block\Adminhtml\Order\View\Fields" area="frontend" template="Swissup_CheckoutFields::email/order/fields.phtml" order=$order}}{% endraw %}
     ```
 
+    if you want to display only specific fields, list comma-separated attribute codes
+    in `fields_to_show` paramether:
+
+    ```txt
+    {% raw %}{{block class="Swissup\CheckoutFields\Block\Adminhtml\Order\View\Fields" area="frontend" template="Swissup_CheckoutFields::email/order/fields.phtml" order=$order fields_to_show="order_comment,favourite_products,delivery_date"}}{% endraw %}
+    ```
+
  6. Press `Save Template` button
  7. Go to `Stores -> Configuration -> Sales > Sales Emails -> Order`, select new template in
     `New Order Confirmation Template for Guest` and press `Save Config`
@@ -64,3 +71,10 @@ To display checkout fields in orders grid, follow next steps:
 
  1. Go to `Swissup > Checkout Fields`, edit the field and set `Add to Column Options` to `Yes`.
  2. Go to `Sales > Orders` and select fields you want to display in `Columns` dropdown.
+
+### Get Fields Values in Orders API
+
+Since 1.3.0 version checkout fields values can be accessed in API
+using `orders` and `orders/{id}` endpoints.
+
+![Orders API](/images/m2/checkout-fields/orders-api.png)

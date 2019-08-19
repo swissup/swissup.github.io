@@ -1,0 +1,15 @@
+- title: Edit Checkout Fields on order view page
+  href: /images/m2/checkout-fields/order-view-edit.png
+  src: /images/m2/checkout-fields/changelog/130/small/order-view-edit.png
+  w: 620
+  h: 850
+- title: Checkout Fields data in orders API
+  href: /images/m2/checkout-fields/orders-api.png
+  src: /images/m2/checkout-fields/changelog/130/small/orders-api.png
+  w: 642
+  h: 915
+- title: Date field improvements
+  href: /images/m2/checkout-fields/changelog/130/date-field.png
+  src: /images/m2/checkout-fields/changelog/130/small/date-field.png
+  w: 400
+  h: 460

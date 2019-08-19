@@ -8,6 +8,21 @@ category: Checkout Fields
 
 # Changelog
 
+### Version 1.3.0
+
+> Aug 20, 2019
+
+{% include gallery.html images=site.data.gallery.m2.checkout-fields.changelog.v130 class="phone-up-2 tablet-up-3 photoswipe scroll" %}
+
+ -  edit checkout fields directly from order view page
+ -  added checkout fields data to orders API, check details in [manual](/m2/extensions/checkout-fields/usage/#get-fields-values-in-orders-api)
+ -  added calendar icon to fields with date type
+ -  select month and year from dropdown when using date fields
+ -  select fields to display in email, check [manual](/m2/extensions/checkout-fields/usage/#display-fields-in-order-email) for details
+ -  fixed js error on admin field edit form in Magento 2.3.2
+ -  fixed required fields validation error on checkout page load
+ -  fixed missing fields values when using Paypal payment method
+
 ### Version 1.2.3
 
 > Mar 21, 2019

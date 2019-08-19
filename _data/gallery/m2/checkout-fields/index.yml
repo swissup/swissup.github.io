@@ -28,3 +28,8 @@
   src: /images/m2/checkout-fields/small/fields-order-email.png
   w: 650
   h: 1100
+- title: Edit Checkout Fields on order view page
+  href: /images/m2/checkout-fields/order-view-edit.png
+  src: /images/m2/checkout-fields/small/order-view-edit.png
+  w: 620
+  h: 850
