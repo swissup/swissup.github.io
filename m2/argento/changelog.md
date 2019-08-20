@@ -12,7 +12,7 @@ category: Argento
 > Aug 19, 2019
 
 Argento 1.13.0 brings a new [**ArgentoForce**](/m2/argento/force/) theme,
-a couple of new features, and **A LOT** of CSS improvements for all existing
+two new features, and **A LOT** of CSS improvements for all existing
 themes.
 
 {% include gallery.html images=site.data.gallery.m2.argento.changelog.v1130 class="phone-up-1 tablet-up-3 photoswipe" %}
