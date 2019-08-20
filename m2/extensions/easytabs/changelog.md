@@ -12,7 +12,8 @@ category: Easy Tabs
 
 > Aug 19, 2019
 
- -  **New tab condition** - Show tab for selected Product Type only
+ -  **New tab condition** - Show tab for selected Product Type only.
+ -  Widget tabs have new tab type - product reviews. This can be helpful at Argento Luxury design when you want to move reviews from product tabs to additional tabs block.
 
 ### Version 1.6.0
 
