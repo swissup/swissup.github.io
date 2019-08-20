@@ -30,7 +30,7 @@
         vertical-align: top;
         margin: 0;
         margin-left: -4px; /* fighting gap between inline-block elements */
-        padding: 0 5px;
+        padding: 5px;
     }
     figcaption {
         display: none;
@@ -41,8 +41,5 @@
         white-space: nowrap;
         overflow: auto;
         margin-bottom: 15px;
-        figure {
-            padding-bottom: 10px;
-        }
     }
 }
