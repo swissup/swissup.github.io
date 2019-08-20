@@ -1,0 +1,27 @@
+- href: /images/m2/argento/changelog/1130/homepage.png
+  src: /images/m2/argento/changelog/1130/small/homepage.png
+  w: 1000
+  h: 3193
+- href: /images/m2/argento/changelog/1130/category.png
+  src: /images/m2/argento/changelog/1130/small/category.png
+  w: 1000
+  h: 1324
+- href: /images/m2/argento/changelog/1130/product.png
+  src: /images/m2/argento/changelog/1130/small/product.png
+  w: 1000
+  h: 1461
+- href: /images/m2/argento/changelog/1130/sticky-tocart.png
+  src: /images/m2/argento/changelog/1130/small/sticky-tocart.png
+  title: Sticky "Add to Cart" panel when you scroll past top "Add to Cart" section.
+  w: 1257
+  h: 786
+- href: /images/m2/argento/changelog/1130/search.png
+  src: /images/m2/argento/changelog/1130/small/search.png
+  title: Improved search results styles.
+  w: 1265
+  h: 842
+- href: /images/m2/argento/changelog/1130/minicart.png
+  src: /images/m2/argento/changelog/1130/small/minicart.png
+  title: Refined minicart dropdown styles.
+  w: 1287
+  h: 842

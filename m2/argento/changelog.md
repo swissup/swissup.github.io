@@ -7,6 +7,99 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.13.0
+
+> Aug 19, 2019
+
+Argento 1.13.0 brings a new [**ArgentoForce**](/m2/argento/force/) theme,
+a couple of new features, and **A LOT** of CSS improvements for all existing
+themes.
+
+{% include gallery.html images=site.data.gallery.m2.argento.changelog.v1130 class="phone-up-1 tablet-up-3 photoswipe" %}
+
+ -  New [ArgentoForce](/m2/argento/force/) theme added.
+ -  Ability to create [sticky 'Add to Cart' panel](/m2/argento/customization/add-sticky-tocart/)
+    at product page.
+ -  Ability to [add large product photo to the product description](/m2/argento/customization/add-photo-in-description/)
+ -  Recently viewed products carousel added to the bottom of category pages.
+ -  Improved search results dropdown styles.
+ -  Refined minicart styles for all themes.
+ -  Shopping Cart page improvements for all themes.
+ -  Many small CSS fixes and improvements.
+
+**Extensions Updates**
+
+ -  [swissup/module-ajaxpro](/m2/extensions/ajaxpro/) — 1.4.10 (was 1.4.8)
+    - Fixed possible redirect to broken page after ‘Add to Cart’ action.
+ -  [swissup/module-ajaxsearch](/m2/extensions/ajaxsearch/) — 1.8.0 (was 1.7.1)
+    -  New "minimalistic form" layout added. Now AjaxSearch provides
+       [three form layouts](/m2/extensions/ajaxsearch/configuration/#design):
+       - Default - Initially visible form
+       - Icon only - Minimalistic form
+       - Icon only - Fullscreen form
+    -  Improved product list styles in results dropdown.
+    -  Improved results dropdown sizing when browser gets resized.
+    -  Better scrolling inside dropdown results on mobile devices.
+    -  Fixed possible js error on initial page load.
+    -  Prevent horizontal scrollbar on small tablets.
+    -  Prevent search form 'jumping' while script is initialized.
+    -  Fixed disabled CMS pages in search result (They shoudn't appear in results).
+    -  Do not close results dropdown when click inside that dropdown.
+    -  All styles moved to `_module.less` which allows to redefine ajaxsearch
+       variables from your theme less files.
+ -  [swissup/module-amp](/m2/extensions/amp/) — 1.3.5 (was 1.3.4)
+    -  Fixed DOMDocument empty string warning caused by third-party menu modules.
+ -  [swissup/module-askit](/m2/extensions/askit/) — 1.6.1 (was 1.6.0)
+    -  Fixed grid mass action title(s).
+ -  [swissup/module-easy-slide](/m2/extensions/easyslider/) — 1.4.0 (was 1.3.3)
+    -  Added ability to use Magento directives in slider description field.
+    -  Improved slider rendering when slide url is not set.
+ -  [swissup/module-easycatalogimg](/m2/extensions/easycatalogimages/) — 1.4.4 (was 1.4.3)
+    -  Added ability to show parent category link as button. Used at ArgentoForce theme.
+ -  [swissup/module-easytabs](/m2/extensions/easytabs/) — 1.7.0 (was 1.6.0)
+    -  New tab condition - Show tab for selected Product Type only
+ -  [swissup/module-hover-gallery](/m2/extensions/hover-gallery/) — 1.2.1 (was 1.2.0)
+    -  Don’t add hover image if it is the same as main image.
+    -  LESS variables to customize transition effect.
+ -  [swissup/module-hreflang](/m2/extensions/seo-suite/) — 1.3.0 (was 1.2.3)
+    -  Integrate with Swissup AMP: Add hreflangs to the head of AMP variant of page.
+ -  [swissup/module-lightboxpro](/m2/extensions/) — 1.2.4 (was 1.2.3)
+    -  Added new variables for easier customization by third-party theme developers.
+ -  [swissup/module-navigationpro](/m2/extensions/) — 1.12.0 (was 1.11.1)
+    -  [Mass edit feature](/m2/extensions/navigationpro/ui/menu-items-mass-edit/) added.
+    -  Added ability to set
+       [global item settings](/m2/extensions/navigationpro/backend/menu-settings/#global-item-settings)
+       based on item level.
+    -  Added ability to sync [item](/m2/extensions/navigationpro/backend/menu-edit/#advanced-settings)
+       and [dropdown](/m2/extensions/navigationpro/backend/menu-edit/#dropdown-settings)
+       settings with global settings from menu.
+    -  Improved default value for dropdown layout settings in each item. Now it
+       shows properly inherited dropdown layout.
+    -  Added ability to hide html content/widget
+       [when item has no children](/m2/extensions/navigationpro/ui/dropdown-layout-builder/#widget-or-plain-html).
+    -  Added ability to use
+       [depend and var directives](/m2/extensions/navigationpro/ui/menu-item-name-as-html/#available-variables)
+       for item name renderer.
+    -  All styles moved to `_module.less`. This allows easely redefine navigationpro
+       variables within your theme.
+    -  Improved [nowrap feature](/m2/extensions/navigationpro/use-cases/nowrap/) logic.
+    -  Do not allow to import root category as it's cannot be rendered at frontend.
+    -  Fixed possible js errors when rendering dropdown content at the backend.
+    -  Fixed always enabled wysiwyg editors. Now they are disabled by default.
+ -  [swissup/module-pro-labels](/m2/extensions/) — 1.3.5 (was 1.3.2)
+    -  Fixed missing category labels on Magento 2.3.x (after fixed missing special price at listings in Magento 2.2.x in previous release).
+    -  Fixed missig special price at listing when ProLabels enabled.
+ -  [swissup/module-quantity-switcher](/m2/extensions/qty-switcher/) — 1.1.1 (was 1.1.0)
+    -  Added dropdown switcher type.
+ -  [swissup/module-seo-html-sitemap](/m2/extensions/seo-suite/) — 1.1.3 (was 1.1.2)
+    -  Don't show disabled CMS pages on sitemap.
+ -  [swissup/module-seo-urls](/m2/extensions/seo-suite/) — 1.5.4 (was 1.5.3)
+    -  Don't reset router params in search url. (Third-party modules integration).
+ -  [swissup/module-sold-together](/m2/extensions/sold-together/) — 1.6.3 (was 1.6.2)
+    -  Customers Also Bought - don't add tocart checkbox for composit items.
+       Composit items are configurable, bundle or grouped products.
+    -  Remove module blocks from AjaxPro popup.
+
 ### Version 1.12.0
 
 > Jul 1, 2019
