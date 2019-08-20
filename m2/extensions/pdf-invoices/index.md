@@ -31,3 +31,4 @@ Also you can add *Download PDF* link to the sales emails.
    - [HTML and CSS support](known-issues/#html-and-css-support)
 6. [Use cases](use-cases/)
    - [Add download link to email](use-cases/#add-download-link-to-email)
+   - [Using barcodes and QR codes](use-cases/#using-barcodes-and-qr-codes)
