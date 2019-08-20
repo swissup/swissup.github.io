@@ -62,7 +62,7 @@ Here you can select type of created tab, available types are:
 4. Html content - show any html content created using WYSIWYG editor.
 5. Product Description - displays product description in tab.
 6. Product attribute - display selected product attribute value.
-7. Product's Reviews - show product reviews in tab.
+7. Product's Reviews - show product reviews in tab. **Important**: becuase of Magento 2 hardcoded logic this tab can have *only* alias `reviews`.
 8. Related Products - display related products grid.
 9. We Also Recommend - display upsell products grid.
 
