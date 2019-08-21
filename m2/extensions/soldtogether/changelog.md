@@ -8,6 +8,12 @@ category: SoldTogether
 
 # Changelog
 
+### Version 1.6.4
+
+> Aug 21, 2019
+
+ -  Fixed spacing around 'Add To Cart' button
+
 ### Version 1.6.3
 
 > Aug 14, 2019

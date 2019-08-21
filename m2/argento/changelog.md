@@ -7,6 +7,19 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.13.1
+
+> Aug 21, 2019
+
+ -  Improved layered navigation styles when using 1column layout for (All themes).
+ -  Fixed 'select all/unselect all' labels in dropdown elements at product page
+    when product has related products (All themes).
+ -  ArgentoForce fixes:
+    -  Fixed qty dropdown overlap with Paypal buttons.
+    -  Added missing 'Additional CSS' field in backend editor.
+    -  Improved spacing between 'addto' and 'paypal' buttons.
+    -  Small fixes for category pages when using 3columns/2columns-right layouts.
+
 ### Version 1.13.0
 
 > Aug 19, 2019

@@ -8,6 +8,12 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.3.6
+
+> Aug 21, 2019
+
+ -  New label added: "Argento Force rectangle label with offset"
+
 ### Version 1.3.4
 
 > Jul 16, 2019
