@@ -15,6 +15,7 @@ category: Argento
          +  [Custom css](/m2/argento/customization/custom-css/)
          +  [Custom js](/m2/argento/customization/custom-js/)
          +  [More Articles](/m2/argento/customization/)
+         +  [**Theme editor**](theme-editor/)
  -  [Page structure manuals](page-structure/)
      +  [Header](page-structure/header/)
      +  [Footer](page-structure/footer/)
