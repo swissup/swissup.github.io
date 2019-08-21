@@ -8,6 +8,12 @@ category: SEO HTML Sitemap
 
 # Changelog
 
+### Version 1.1.3
+
+> Aug 19, 2019
+
+ -  Don't show disabled CMS pages on sitemap
+
 ### Version 1.1.2
 
 > Mar 29, 2019
