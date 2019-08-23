@@ -40,6 +40,7 @@ Theme                    | Code
 [Mall](#&gid=1&pid=4)    | Swissup_ThemeFrontendArgentoMall
 [Luxury](#&gid=1&pid=5)  | Swissup_ThemeFrontendArgentoLuxury
 [Stripes](#&gid=1&pid=6) | Swissup_ThemeFrontendArgentoStripes
+[Stripes](#&gid=1&pid=7) | Swissup_ThemeFrontendArgentoForce
 
 #### 4. Deploy sample data images
 
@@ -54,6 +55,7 @@ cp -R vendor/swissup/theme-frontend-argento-pure2/resources/media/* pub/media/
 cp -R vendor/swissup/theme-frontend-argento-mall/resources/media/* pub/media/
 cp -R vendor/swissup/theme-frontend-argento-luxury/resources/media/* pub/media/
 cp -R vendor/swissup/theme-frontend-argento-stripes/resources/media/* pub/media/
+cp -R vendor/swissup/theme-frontend-argento-force/resources/media/* pub/media/
 cp -R vendor/swissup/module-amp/resources/media/* pub/media/
 chmod -R 775 pub/media/easybanner pub/media/easyslide pub/media/highlight pub/media/wysiwyg
 ```
