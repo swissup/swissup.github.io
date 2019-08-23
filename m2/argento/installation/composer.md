@@ -40,7 +40,7 @@ Theme                    | Code
 [Mall](#&gid=1&pid=4)    | Swissup_ThemeFrontendArgentoMall
 [Luxury](#&gid=1&pid=5)  | Swissup_ThemeFrontendArgentoLuxury
 [Stripes](#&gid=1&pid=6) | Swissup_ThemeFrontendArgentoStripes
-[Stripes](#&gid=1&pid=7) | Swissup_ThemeFrontendArgentoForce
+[Force](#&gid=1&pid=7) | Swissup_ThemeFrontendArgentoForce
 
 #### 4. Deploy sample data images
 
