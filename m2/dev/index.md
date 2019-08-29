@@ -28,6 +28,14 @@ Install the version you'd like to use:
 git checkout 2.3.2 && composer install
 ```
 
+Now, open magento in browser and proceed installation. When magento is isntalled and
+everything work as expected, you cna install sample data and swissup modules:
+
+```bash
+composer config repositories.magento composer https://repo.magento.com/ &&\
+bin/magento sampledata:deploy
+```
+
 ### Install Swissup modules
 
 This command will download all modules, enable them and run `setup:upgrade` command.
