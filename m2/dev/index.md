@@ -8,6 +8,26 @@ title: Magento 2 development documentation
 * TOC
 {:toc}
 
+### Install Magento
+
+Install dependencies:
+
+```bash
+sudo apt install php-bcmath php-curl php-dom php-gd php-intl php-mbstring php-mysql php-simplexml php-soap php-xsl php-zip
+```
+
+Clone magento:
+
+```bash
+git clone git@github.com:magento/magento2.git && cd magento2
+```
+
+Install the version you'd like to use:
+
+```bash
+git checkout 2.3.2 && composer install
+```
+
 ### Install Swissup modules
 
 This command will download all modules, enable them and run `setup:upgrade` command.
