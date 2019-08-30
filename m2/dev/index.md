@@ -227,7 +227,7 @@ Initialize repository in `vendor/swissup` folder and add each subfolder as git
 submodule:
 
 ```bash
-git init && for module in *; do git submodule add "./$module"; done; && git commit -m "Initial commit"
+git init && (for module in *; do git submodule add "./$module"; done;) && git commit -m "Initial commit"
 ```
 
 Now, after you've made a changes into multiple repos, you may use `git status` to
