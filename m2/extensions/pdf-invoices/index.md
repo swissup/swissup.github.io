@@ -32,3 +32,5 @@ Also you can add *Download PDF* link to the sales emails.
 6. [Use cases](use-cases/)
    - [Add download link to email](use-cases/#add-download-link-to-email)
    - [Using barcodes and QR codes](use-cases/#using-barcodes-and-qr-codes)
+   -  [Display product image in items table](use-cases/#display-product-image-in-items-table)
+   -  [Display product SKU barcode or QR code in items table](use-cases/#display-product-sku-barcode-or-qr-code-in-items-table)

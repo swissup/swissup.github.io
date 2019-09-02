@@ -17,4 +17,6 @@ Option                | Description
 ----------------------|------------
 Enabled               | Enable/Disable module
 Enable on Store Front | Print PDF documents from account order view and orders and returns pages
+Page Size             | Select page size (default: A4)
+Page Orientation      | Select page orientation (default: portrait)
 Template              | Select template to use for PDF printing/downloading

@@ -8,6 +8,11 @@
   title: Invoice PDF Template
   w: 1000
   h: 1415
+- href: /images/m2/pdf-invoices/frontend/invoice-image-qr-code.png
+  src: /images/m2/pdf-invoices/frontend/small/invoice-image-qr-code.png
+  title: Product image and QR code in items table
+  w: 700
+  h: 750
 - href: /images/m2/pdf-invoices/frontend/shipment.png
   src: /images/m2/pdf-invoices/frontend/small/shipment.png
   title: Shipment PDF Template

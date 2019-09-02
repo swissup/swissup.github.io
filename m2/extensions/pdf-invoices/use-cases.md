@@ -87,3 +87,21 @@ that will be converted to `LF` or `CRLF` characters.
 >It can be installed with the following SSH command:
 >
 > `composer require mpdf/qrcode`
+
+### Display product image in items table
+
+To display product image in items table in PDF, add `image="1"` param to items code:
+
+```
+{% raw %}{{layout area="frontend" handle="sales_email_order_invoice_items" invoice=$invoice order=$order image="1"}}{% endraw %}
+```
+
+### Display product SKU barcode or QR code in items table
+
+To display product sku QR code in items table in PDF, add `barcode="QR"` param to items code:
+
+```
+{% raw %}{{layout area="frontend" handle="sales_email_order_invoice_items" invoice=$invoice order=$order barcode="QR"}}{% endraw %}
+```
+
+You can use all supported barcode types, e.g. barcode="QR" or barcode="C39".
