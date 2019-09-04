@@ -7,6 +7,21 @@ category: Attributepages
 
 # Changelog
 
+### Version 1.4.3
+
+ -  Page Title field is now used for H1 tag only. (Previously it was used for
+    meta title too). Current setup:
+    - Title is used for Meta and H1.
+    - Page Title is used for H1.
+    - To change meta title, use `xml_layout_update` field.
+ -  Added ability to set meta title using `xml_layout_update` field:
+
+    ```xml
+    <reference name="head">
+        <action method="setTitle"><title>Title</title></action>
+    </reference>
+    ```
+
 ### Version 1.4.2
 
  -  Fixed error when page identifier is entered in invalid registry.
