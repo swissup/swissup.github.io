@@ -8,6 +8,12 @@ category: Easy Tabs
 
 # Changelog
 
+### Version 1.7.1
+
+> Sep 5, 2019
+
+ -  Fix no tabs when Easytabs widget is added via Magento Admin interface
+
 ### Version 1.7.0
 
 > Aug 19, 2019
