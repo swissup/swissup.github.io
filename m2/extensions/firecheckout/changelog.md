@@ -12,6 +12,7 @@ category: Firecheckout
 
 > Sep 9, 2019
 
+ -  Stylish product qty buttons in "Order Summary" block.
  -  New [jsBuild option](/m2/extensions/firecheckout/configuration/#performance-settings-section)
     added:
 
