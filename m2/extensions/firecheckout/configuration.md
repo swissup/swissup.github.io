@@ -179,6 +179,15 @@ require([
 });
 ```
 
+### Performance settings section
+
+![Performance section](/images/m2/firecheckout/configuration/performance.png)
+
+Option  | Description
+--------|------------
+Use jsBuild | Combine checkout-related js files into single jsbuild to reduce number of requests and improve page load time.
+jsBuild include paths| List of modules to process
+
 #### Next up
 {:.no_toc}
 

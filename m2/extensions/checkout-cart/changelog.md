@@ -8,6 +8,12 @@ category: Checkout Cart
 
 # Changelog
 
+### Version 1.4.2
+
+> Sep 9, 2019
+
+ -  New, better looking product qty buttons.
+
 ### Version 1.4.1
 
  -  Fixed missing shipping rates when GiftRegistry address is used

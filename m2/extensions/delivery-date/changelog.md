@@ -7,6 +7,13 @@ category: Delivery Date
 
 # Changelog
 
+### Version 1.4.3
+
+> Sep 9, 2019
+
+ -  Make delivery date editable at backend order view page.
+ -  Improved server-side validation logic.
+
 ### Version 1.4.2
 
 > Jun 4, 2019

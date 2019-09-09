@@ -8,6 +8,12 @@ category: Checkout Success
 
 # Changelog
 
+### Version 1.3.4
+
+> Sep 9, 2019
+
+ -  Fixed success page preview feature on Magento 2.3.x.
+
 ### Version 1.3.3
 
 > Mar 21, 2019

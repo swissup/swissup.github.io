@@ -8,6 +8,73 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.20.0
+
+> Sep 9, 2019
+
+ -  New [jsBuild option](/m2/extensions/firecheckout/configuration/#performance-settings-section)
+    added:
+
+    Metrics             | Version 1.19  | Version 1.20  | Improvement
+    --------------------|---------------|---------------|------------
+    Network Requests    | 438           | 250           | 43%
+    TTFB                | 230ms         | 185ms         | 20%
+    Time to interactive | 4.2s          | 3.3s          | 21%
+    Page load time      | 4.47s         | 3.7s          | 17%
+
+    > Both versions tested with Magento 2.3.2 in production mode with disabled
+    > Magento's Javascript Bundling option.
+    >
+    > Version 1.20 tested with enabled our
+    > [jsBuild option](/m2/extensions/firecheckout/configuration/#performance-settings-section)
+
+**Fixes and Improvements**
+
+ -  Optimize network requests when multistep layout is used.
+ -  Prevent not needed shipping address save on initial page load.
+ -  Improved client-side validation for payment form.
+ -  Improved checkbox alignment in third-party themes.
+ -  Fixed 'error icon' positioning near payment 'terms checkbox' in Magento 2.3.2.
+ -  Fixed delivery date validation for registered customers.
+ -  Fixed css issue with ArgentoForce theme.
+ -  Fixed css issue with social login when midnight theme is used.
+ -  Fixed js error when registered customer doesn't have default shipping address.
+    (Error happens when client has addresses but they don't used as default addresses).
+ -  Fixed missing background for the 'select' element.
+ -  Fixed tooltip text in phone field placeholder in Magento 2.3.2.
+ -  Fixed not working sticky sidebar in Firefox browser.
+ -  Fixed mistakenly equal billing and shipping addresses in Magento 2.2.8.
+
+**Modules Updates**
+
+**swissup/module-checkout-cart — 1.4.2** (was 1.4.1)
+
+ -  New, better looking product qty buttons.
+
+**swissup/module-checkout-fields — 1.3.0** (was 1.2.4)
+
+ -  Added ability to edit checkout fields on order view page.
+ -  Added ability to select fields to display in email template.
+ -  Fixed missing fields when using Paypal payment method.
+ -  Fixed required fields validation on page load.
+ -  Date field type improvements: added icon, select month and year.
+ -  Fixed js error on admin field edit form.
+
+**swissup/module-checkout-success — 1.3.4** (was 1.3.3)
+
+ -  Fixed success page preview feature on Magento 2.3.x.
+
+**swissup/module-delivery-date — 1.4.3** (was 1.4.1)
+
+ -  Make delivery date editable at backend order view page.
+ -  Improved server-side validation logic.
+ -  Fixed ability to enable delivery for all weekdays.
+
+**swissup/module-geoip — 1.3.0** (was 1.2.0)
+
+ -  MaxMind_Service provider added.
+ -  IpStack provider added.
+
 ### Version 1.19.0
 
 > May 23, 2019
