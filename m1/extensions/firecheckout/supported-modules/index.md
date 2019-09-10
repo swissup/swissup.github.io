@@ -211,6 +211,7 @@ additional modifications.
 - [Ayasoftware_SimpleProductPricing](ayasoftware-simpleproductpricing/)
 - GCMC_GiveChange
 - [Brander_PaymentFee](brander-paymentfee/)
+- [MageWorx_Donations](mageworx-donations/)
 - [MageWorx_MultiFees](mageworx-multifees/)
 - [Netresearch_PaymentFee](netresearch-paymentfee/)
 - Symmetrics_Buyerprotect
