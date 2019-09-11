@@ -268,31 +268,56 @@ packages=$(composer info | grep swissup | cut -d ' ' -f 1 | tr '\n\012\015' ' ')
 
 1. [Whoops](https://github.com/yireo/Yireo_Whoops) module for Magento 2
 
-This module adds Whoops error handling to Magento 2.
+    This module adds Whoops error handling to Magento 2.
 
-```bash
-composer require --dev yireo/magento2-whoops
-bin/magento module:enable Yireo_Whoops
-bin/magento setup:upgrade
-```
+    ```bash
+    composer require --dev yireo/magento2-whoops
+    bin/magento module:enable Yireo_Whoops
+    bin/magento setup:upgrade
+    ```
 
-2. [Mgt Developer Toolbar](https://github.com/mgtcommerce/Mgt_Developertoolbar) for Magento 2
+2. [Magento Chrome Toolbar for MSP DevTools](https://github.com/magespecialist/mage-chrome-toolbar)
 
-The toolbar shows you all important information for performance optimisation and magento development.
+    - Just install from [Chrome WebStore](https://chrome.google.com/webstore/detail/magespecialist-devtools-f/odbnbnenehdodpnebgldhhmicbnlmapj?authuser=3).
+    Now you have the Chrome extension, next step is to install and configure the Magento extension.
 
-```bash
-composer require --dev mgtcommerce/module-mgtdevelopertoolbar
-bin/magento module:enable Mgt_DeveloperToolbar
+    - Run commands
 
-bin/magento setup:upgrade
-bin/magento config:set mgt_developer_toolbar/module/is_enabled 1
-bin/magento cache:flush
+    ```bash
+    composer require --dev msp/devtools
+    php bin/magento cache:flush
+    php bin/magento cache:disable full_page
+    php bin/magento setup:upgrade
+    ```
 
-rm -rf pub/static/*
-rm -rf var/*
+    - Open Magento backend and go to Stores > Settings > Configuration > MageSpecialist > DevTools.
+    Enable devtools and set IP restrictions.
 
-bin/magento setup:static-content:deploy
-```
+    - Add the following line at the very beginning on index.php and pub/index.php file:
+
+    ```php
+    $_SERVER['MAGE_PROFILER'] = json_encode([ 'drivers' => [['output' => 'MSP\DevTools\Profiler\Driver\Standard\Output\DevTools']] ], true);
+    ```
+
+    Or another profiler
+
+    [Mgt Developer Toolbar](https://github.com/mgtcommerce/Mgt_Developertoolbar) for Magento 2
+
+    The toolbar shows you all important information for performance optimisation and magento development.
+
+    ```bash
+    composer require --dev mgtcommerce/module-mgtdevelopertoolbar
+    bin/magento module:enable Mgt_DeveloperToolbar
+
+    bin/magento setup:upgrade
+    bin/magento config:set mgt_developer_toolbar/module/is_enabled 1
+    bin/magento cache:flush
+
+    rm -rf pub/static/*
+    rm -rf var/*
+
+    bin/magento setup:static-content:deploy
+    ```
 
 3. [Magento 2 Cache Clean](https://github.com/mage2tv/magento-cache-clean)
 
