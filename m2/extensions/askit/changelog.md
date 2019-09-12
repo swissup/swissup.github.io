@@ -11,6 +11,13 @@ category: AskIt
 
 # Changelog
 
+### Version 1.6.2
+
+> Sep 12, 2019
+
+**Bugfixes**
+ - Fix:redirect+coockie message.
+
 ### Version 1.6.1
 
 > Aug 19, 2019
