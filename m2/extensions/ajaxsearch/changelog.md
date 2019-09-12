@@ -6,6 +6,11 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.8.1
+
+**Bugfixes**
+ - Fix: remove cms page dublication
+
 ### Version 1.8.0
 
 > Aug 19, 2019
