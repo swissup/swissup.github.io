@@ -8,6 +8,18 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.3.5
+
+> Sep 12, 2019
+
+**Fixes**
+ - Fix: Add root media files to resize images collection
+ - Fix: webp images in media root located
+ - Fix: Warning: implode(): Invalid arguments passed for mage 2.3.0
+ - Fix: Pesponsive order media matching condition 857cd6
+ - Fix: (Safari+webp) Don't change original <img> url if <picture> tag was add
+ - Fix: Intagrate lazyload and <picture>
+
 ### Version 1.3.4
 
 > Aug 19, 2019
