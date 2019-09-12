@@ -6,6 +6,15 @@ keywords: Helpdesk changelog
 category: Helpdesk
 ---
 
+
+### Version 1.1.2
+
+> Sep 12, 2019
+
+**Fixes**
+ - Add param deparment for select by default in form
+ - Add store filter(s)
+
 ### Version 1.1.1
 
 > Jul 8, 2019
