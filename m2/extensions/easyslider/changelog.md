@@ -8,6 +8,14 @@ category: Easy Slider
 
 # Changelog
 
+### Version 1.5.0
+
+> Sep 12, 2019
+
+ -  New highly demanded features - lazy load and responsive images for slides. Properly configured they can increase pagespeed score on pages where slides are added.
+ -  Updated slider JS library (swiper) for better performance.
+ -  Reworked admin interfaces. Build according latest Magento 2 trends (UI components).
+
 ### Version 1.4.0
 
 > Aug 19, 2019
