@@ -7,6 +7,16 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.3.8
+
+> Sep 12, 2019
+
+**Bugfixes**
+ - Fix : twice or more category filter apply (amp=1)
+ - Fix : 'multiselect' + in-stock count calculation
+ - Fix : categories items count calculation
+ - Fix add more products button config
+
 ### Version 1.3.7
 
 > Jul 23, 2019
