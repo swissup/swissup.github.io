@@ -8,6 +8,14 @@ category: Easy Slider
 
 # Changelog
 
+### Version 1.5.1
+
+> Sep 16, 2019
+
+ -  Fixed Swissup Amp integration after latest major update.
+ -  Improve stability. Don't crash page when image file does not exists.
+ -  Fixed exception in Magento Admin "Duplicate key-sequence ['component']... ".
+
 ### Version 1.5.0
 
 > Sep 12, 2019
