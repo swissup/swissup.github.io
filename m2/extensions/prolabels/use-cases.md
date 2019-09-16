@@ -23,6 +23,7 @@ Some third-party themes use the old way to render images on category listing, so
 
     ```php
     <div class="product-item-info" data-container="product-grid">
+      <?php $this->helper('\Swissup\ProLabels\Helper\Catalog')->getLabels($_product); ?>
       <?php echo $this->helper('\Swissup\ProLabels\Helper\Catalog')->toHtmlProductLabels($_product->getId());
       ?>
     ```
