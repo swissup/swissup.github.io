@@ -7,6 +7,39 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.13.2
+
+> Sep 13, 2019
+
+ -  Fixed error during static content deployment when ajaxsearch is disabled.
+ -  Improved styles for product listing in sidebar.
+ -  Minor CSS improvements for Easy Catalog Images, Slick Carousel and Highlight modules.
+ -  Fixes for Argento Force theme:
+     -  qty field toggler position in latest Chrome browser;
+     -  qty field padding on cart page in Firefox;
+     -  layered navigation - align on desktop and nowrap for subtitle;
+     -  mobile navigation - Account - remove pointer bakcrground when active.
+
+**Extensions Updates**
+
+ -  [Ajaxsearch](/m2/extensions/ajaxsearch/) — 1.8.1 (was 1.8.0):
+     +  Fix: remove cms page dublication in search result.
+
+ -  [Askit](/m2/extensions/askit/) — 1.6.2 (was 1.6.1):
+     +  Fix: redirect+coockie message.
+
+ -  [EasySlide](/m2/extensions/easyslider/) — 1.5.0.1 (was 1.4.0):
+     +  New highly demanded features - lazy load and responsive images for slides.
+     +  Updated slider JS library (swiper) for better performance.
+     +  Reworked admin interfaces. Build according latest Magento 2 trends (UI components).
+
+ -  [Easytabs](/m2/extensions/easytabs/) — 1.7.1 (was 1.7.0):
+     +  Fixed no tabs when widget is added via Magento Admin interface.
+
+ -  [RichSnippets](/m2/extensions/richsnippets/) — 1.4.3 (was 1.4.2):
+     +  Show correct price in snippet when including tax enabled;
+     +  Fixed Magento Coding Standard error - no explicit Proxy in contructor.
+
 ### Version 1.13.1
 
 > Aug 21, 2019
