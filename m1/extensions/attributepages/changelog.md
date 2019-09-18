@@ -11,7 +11,7 @@ category: Attributepages
 
  -  Page Title field is now used for H1 tag only. (Previously it was used for
     meta title too). Current setup:
-    - Title is used for Meta and H1.
+    - Title is used for Meta, H1, and attribute-based page/widget lists.
     - Page Title is used for H1.
     - To change meta title, use `xml_layout_update` field.
  -  Added ability to set meta title using `xml_layout_update` field:
