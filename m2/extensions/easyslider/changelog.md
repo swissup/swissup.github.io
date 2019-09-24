@@ -8,6 +8,13 @@ category: Easy Slider
 
 # Changelog
 
+### Version 1.5.2
+
+> Sep 24, 2019
+
+ -  Meet latest Magento coding standarts requirements.
+ -  Improved styles. Fixed gap under slides.
+
 ### Version 1.5.1
 
 > Sep 16, 2019
