@@ -8,6 +8,13 @@ category: Accelerated Mobile Pages
 
 # Changelog
 
+### Version 1.3.6
+
+> Sep 25, 2019
+
+ -  Major update of [Swissup EasySlide module](/m2/extensions/easyslider/changelog/#version-152). It improves stability, perfomence and admin interfaces.
+ -  Meet latest Magento coding standarts requirements. Remove serialize from installer.
+
 ### Version 1.3.5
 
 > Aug 19, 2019
