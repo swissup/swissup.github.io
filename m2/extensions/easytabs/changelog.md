@@ -8,6 +8,12 @@ category: Easy Tabs
 
 # Changelog
 
+### Version 1.7.2
+
+> Sep 25, 2019
+
+ -  Use theme less variable for tab control border width.
+
 ### Version 1.7.1
 
 > Sep 5, 2019
