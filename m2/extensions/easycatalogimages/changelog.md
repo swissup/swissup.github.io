@@ -8,6 +8,12 @@ category: EasyCatalogImages
 
 # Changelog
 
+### Version 1.4.5
+
+> Sep 25, 2019
+
+ -  Merge module styles with theme and use its less variables.
+
 ### Version 1.4.4
 
 > Aug 19, 2019
