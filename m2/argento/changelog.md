@@ -7,6 +7,15 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.13.3
+
+> Sep 25, 2019
+
+ -  Meet latest Magento coding standarts requirements. Remove serialize from theme installers.
+ -  Theme installers - lazy load for brand sliders.
+ -  Fixed scroll to top when click review star at review form at Argento Force.
+ -  Minor fixes in Swissup EasySlide and Swissup AMP modules.
+
 ### Version 1.13.2
 
 > Sep 13, 2019
