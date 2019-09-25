@@ -117,6 +117,7 @@ composer require\
     swissup/module-theme-editor-swissup-absolute\
     swissup/module-theme-editor-argento-essence\
     swissup/module-theme-editor-argento-flat\
+    swissup/module-theme-editor-argento-force\
     swissup/module-theme-editor-argento-pure2\
     swissup/module-theme-editor-argento-mall\
     swissup/module-theme-editor-argento-luxury\
@@ -125,6 +126,7 @@ composer require\
     swissup/theme-frontend-argento-blank\
     swissup/theme-frontend-argento-essence\
     swissup/theme-frontend-argento-flat\
+    swissup/theme-frontend-argento-force\
     swissup/theme-frontend-argento-pure2\
     swissup/theme-frontend-argento-mall\
     swissup/theme-frontend-argento-luxury\
@@ -206,6 +208,7 @@ bin/magento module:enable\
     Swissup_ThemeEditorSwissupAbsolute\
     Swissup_ThemeEditorArgentoEssence\
     Swissup_ThemeEditorArgentoFlat\
+    Swissup_ThemeEditorArgentoForce\
     Swissup_ThemeEditorArgentoPure2\
     Swissup_ThemeEditorArgentoMall\
     Swissup_ThemeEditorArgentoLuxury\
