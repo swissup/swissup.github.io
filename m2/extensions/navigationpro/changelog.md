@@ -8,6 +8,28 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.13.0
+
+> Draft
+
+{% include gallery.html images=site.data.gallery.m2.navigationpro.changelog.v1130 class="phone-up-2 tablet-up-3 photoswipe scroll" %}
+
+ -  [Slideout](/m2/extensions/navigationpro/use-cases/slideout-menu/) menu type added.
+ -  New "Air" theme added with borderless shadowed dropdowns.
+ -  Simplified CSS modifiers usage. You can now select them
+    from the [list](/m2/extensions/navigationpro/backend/menu-settings/#modifiers).
+    Previously you had to write them manually into CSS Class field.
+ -  Added ability to write [custom CSS](/m2/extensions/navigationpro/backend/menu-settings/#general-settings)
+    from Edit Menu page.
+ -  Simplified menu creation. You can create [many menu](/m2/extensions/navigationpro/menu-types)
+    types with just one click.
+ -  Improved [Amazon Menu](/m2/extensions/navigationpro/use-cases/amazon-menu/)
+    type builder. Now, it automatically shows parent category thumbnail
+    in second level dropdowns.
+ -  New effects added to reveal menu dropdowns: Fade, SlideIn, SlideOut, None.
+ -  Improved dropdown positioning in some edge cases.
+ -  Many CSS fixes for Dark, Compact, and Flat themes.
+
 ### Version 1.12.0
 
 > Aug 19, 2019

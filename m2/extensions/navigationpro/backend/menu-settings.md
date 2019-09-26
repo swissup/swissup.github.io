@@ -24,6 +24,12 @@ Default Dropdown Settings   | Show popup with global dropdown layout settings.
 Default Item Settings       | Show popup with global item settings.
 Custom CSS Styles | Add plain CSS styles when need some extra perfection.
 
+##### Modifiers
+
+Modifiers - are the set of css classes that could be easily applied to the menu:
+
+![Modifiers](/images/m2/navigationpro/backend/menu-settings/modifiers.png)
+
 ## Global Dropdown settings
 
 ![Global Dropdown Settings](/images/m2/navigationpro/backend/menu-settings/dropdown-settings.png)

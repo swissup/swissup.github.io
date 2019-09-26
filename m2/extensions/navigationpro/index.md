@@ -31,7 +31,8 @@ devices, tablets, and phones.
     - [Menu Items Tree](/m2/extensions/navigationpro/ui/menu-items-tree/)
     - [Menu Items Mass Edit](/m2/extensions/navigationpro/ui/menu-items-mass-edit/)
     - [Menu Item Name as HTML](/m2/extensions/navigationpro/ui/menu-item-name-as-html/)
- 7. [Use Cases](/m2/extensions/navigationpro/use-cases/)
+ 7. [Menu Types](/m2/extensions/navigationpro/menu-types/)
+ 8. [Use Cases](/m2/extensions/navigationpro/use-cases/)
     - [Simple Dropdown Menu](/m2/extensions/navigationpro/use-cases/simple-menu/)
     - [Megamenu](/m2/extensions/navigationpro/use-cases/megamenu/)
     - [Amazon Menu](/m2/extensions/navigationpro/use-cases/amazon-menu/)
@@ -55,11 +56,11 @@ devices, tablets, and phones.
     - [Sticky Menu](/m2/extensions/navigationpro/use-cases/sticky/)
     - [Click-based dropdowns](/m2/extensions/navigationpro/use-cases/click/)
     - [Slideout Menu](/m2/extensions/navigationpro/use-cases/slideout-menu/)
- 8. [Customization](/m2/extensions/navigationpro/customization/)
+ 9. [Customization](/m2/extensions/navigationpro/customization/)
     - [Custom CSS](/m2/extensions/navigationpro/customization/custom-css/)
     - [LESS variables with third-party themes](/m2/extensions/navigationpro/customization/custom-theme-variables/) -
         For third-party themes developers only
     - [LESS variables](/m2/extensions/navigationpro/customization/less-variables/)
     - [CSS Helpers](/m2/extensions/navigationpro/customization/css-helpers)
     - [Themes](/m2/extensions/navigationpro/themes/)
- 9. [Demo](/m2/extensions/navigationpro/demo/)
+ 10. [Demo](/m2/extensions/navigationpro/demo/)
