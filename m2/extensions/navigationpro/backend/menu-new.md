@@ -19,7 +19,7 @@ This page is accessible from Menu's Grid page when creating new menu.
 Option          | Description
 ----------------|-----------------------
 Name            | Unique menu identifier
-Type            | Select menu type to create
+Type            | Select menu [type](/m2/extensions/navigationpro/menu-types/) to create
 Import Categories From | Select root category to use when importing categories into the new menu
 Replace Top Menu at | Select Store Views where menu should replace standard top navigation
 

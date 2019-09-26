@@ -17,10 +17,12 @@ Option          | Description
 ----------------|-----------------------
 Identifier      | Unique menu identifier.
 Maximal Depth   | Use this option to limit number of loaded dropdown levels. Use `0` to disable limits.
+Modifiers       | Set of useful css modifiers to change menu styles and behaviour.
 CSS Class       | Usefull for [menu customization][menu-modifiers] and some kind of [menu types][use-cases].
 Replace Top Menu at         | Select Store Views where menu should replace standard top navigation
 Default Dropdown Settings   | Show popup with global dropdown layout settings.
 Default Item Settings       | Show popup with global item settings.
+Custom CSS Styles | Add plain CSS styles when need some extra perfection.
 
 ## Global Dropdown settings
 
