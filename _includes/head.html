@@ -7,6 +7,9 @@
   <meta name="description" content="{% if page.description %}{{ page.description | escape | strip_newlines }}{% else %}{{ site.description | escape }}{% endif %}">
   {% if page.keywords %}<meta name="keywords" content="{{ page.keywords | escape | strip_newlines }}">{% endif %}
 
+  <!-- <link rel="icon" type="image/x-icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}"> -->
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ "/favicon.png" | prepend: site.baseurl }}">
+
   <!-- <link rel="stylesheet" href="{{ "/assets/all.css" | prepend: site.baseurl }}" /> -->
   <link rel="stylesheet" href="https://code.getmdl.io/1.1.3/material.min.css">
   <link rel="stylesheet" href="{{ "/assets/almost-all.css?v=18" | prepend: site.baseurl }}">
