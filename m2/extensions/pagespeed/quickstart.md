@@ -225,6 +225,21 @@ application/rss+xml
 application/xml+rss;
 
 gzip_vary on;
+
+#browser caching of static assets
+location ~*  \.(jpg|jpeg|png|webp|gif|ico)$ {
+  expires 31d;
+}
+
+#browser caching of css
+location ~*  \.(css)$ {
+  expires 6d;
+}
+
+#browser caching of js
+location ~*  \.(js)$ {
+  expires 31d;
+}
 </code></pre>
 
 </details>
