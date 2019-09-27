@@ -8,6 +8,30 @@ category: SEO Suite
 
 # Changelog
 
+### Version 1.7.0
+
+> Sep 27, 2019
+
+New submodule included into Suite - [**SEO Images**](/m2/extensions/seo-images/). Module maintains names of product images.
+
+*Regional URLs (hreflang) (1.3.1):*
+
+ -  Integrated with Swissup AMP.
+ -  Compatibility with Magento 2.3.x.
+
+*Rich Snippets (1.4.3)*:
+
+ -  Show correct price in snippet when including tax enabled.
+
+*HTML Sitemap (1.1.2)*:
+
+ -  Don't show disabled CMS pages on sitemap.
+
+*SEO URLs (1.5.5)*:
+
+ -  Fixed DI compilation when hreflang is not installed.
+ -  Performance improvements.
+
 ### Version 1.6.0
 
 > May 30, 2019
