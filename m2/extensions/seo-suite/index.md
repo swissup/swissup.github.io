@@ -19,6 +19,7 @@ This toolkit includes extensions:
  -  [Rich Snippets](../richsnippets)
  -  [SEO CrossLinks](../seo-cross-links)
  -  [SEO Pagination](../seo-pager)
+ -  [SEO Images](../seo-images)
  -  [SEO URLs](../seo-urls)
  -  [XML Sitemap](../seo-xml-sitemap)
 
