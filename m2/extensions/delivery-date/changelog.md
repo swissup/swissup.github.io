@@ -7,6 +7,12 @@ category: Delivery Date
 
 # Changelog
 
+### Version 1.4.4
+
+> Sep 27, 2019
+
+ -  Magento Coding Standard fixes
+
 ### Version 1.4.3
 
 > Sep 9, 2019

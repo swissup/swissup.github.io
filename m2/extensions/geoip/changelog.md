@@ -8,6 +8,12 @@ category: Geoip
 
 # Changelog
 
+### Version 1.3.1
+
+> Sep 27, 2019
+
+ -  Magento Coding Standard fixes
+
 ### Version 1.3.0
 
 > Jun 4, 2019
