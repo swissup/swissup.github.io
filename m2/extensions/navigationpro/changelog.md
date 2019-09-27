@@ -27,7 +27,7 @@ category: Navigationpro
     type builder. Now, it automatically shows parent category thumbnail
     in second level dropdowns.
  -  New effects added to reveal menu dropdowns: Fade, SlideIn, SlideOut, None.
- -  Improved dropdown positioning in some edge cases.
+ -  Improved dropdown positioning.
  -  Many CSS fixes for Dark, Compact, and Flat themes.
 
 ### Version 1.12.0
