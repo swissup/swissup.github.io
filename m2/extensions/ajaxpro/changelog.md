@@ -6,6 +6,13 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.4.11
+
+> Sep 27, 2019
+
+ -  Removed crosssell block from simple type popup
+ -  Improved performance when using cart popup
+
 ### Version 1.4.10
 
 > Aug 19, 2019
