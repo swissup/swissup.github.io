@@ -7,6 +7,56 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.14.0
+
+> Sep 27, 2019
+
+ -  New [Slideout](/m2/extensions/navigationpro/use-cases/slideout-menu/) menu
+    type added to NavigationPro module.
+ -  New [SeoImages](/m2/extensions/seo-images/) module added. It allows you to
+    build product image name based on product name and/or product attributes.
+ -  Fixed blurry product images in minicart popup.
+ -  Code cleanup.
+
+**Extensions Updates**
+
+**swissup/module-ajaxpro — 1.4.11** (was 1.4.10)
+
+ -  Removed crosssell block from simple type popup
+ -  Improved performance when using cart popup
+
+**swissup/module-hreflang — 1.3.1** (was 1.3.0)
+
+ -  Fixed exception "Illegal state..." at some Magento instances on AMP.
+ -  Get rid of around plugins. Slightly improve TTFB.
+ -  Compatibility with Magento 2.3.x.
+
+**swissup/module-navigationpro — 1.13.0** (was 1.12.0)
+
+ -  [Slideout](/m2/extensions/navigationpro/use-cases/slideout-menu/) menu type added.
+ -  New "Air" theme added with borderless shadowed dropdowns.
+ -  Simplified CSS modifiers usage. You can now select them
+    from the [list](/m2/extensions/navigationpro/backend/menu-settings/#modifiers).
+    Previously you had to write them manually into CSS Class field.
+ -  Added ability to write [custom CSS](/m2/extensions/navigationpro/backend/menu-settings/#general-settings)
+    from Edit Menu page.
+ -  Simplified menu creation. You can create [many menu](/m2/extensions/navigationpro/menu-types)
+    types with just one click.
+ -  Improved [Amazon Menu](/m2/extensions/navigationpro/use-cases/amazon-menu/)
+    type builder. Now, it automatically shows parent category thumbnail
+    in second level dropdowns.
+ -  Improved [Megamenu](/m2/extensions/navigationpro/use-cases/megamenu/)
+    type builder. Now, it automatically shows parent category thumbnail
+    in category dropdown.
+ -  New effects added to reveal menu dropdowns: Fade, SlideIn, SlideOut, None.
+ -  Improved dropdown positioning.
+ -  Many CSS fixes for Dark, Compact, and Flat themes.
+
+**swissup/module-seo-urls — 1.5.5** (was 1.5.4)
+
+ -  Get rid of around plugin when redirect to CMS homepage.
+ -  Fixed DI compilation when hreflang is not installed at all.
+
 ### Version 1.13.3
 
 > Sep 25, 2019
