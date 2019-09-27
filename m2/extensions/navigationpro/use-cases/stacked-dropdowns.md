@@ -7,17 +7,23 @@ category: Navigationpro
 
 # Stacked Dropdowns
 
-> Don't have a menu yet? Create [simple menu][simple-menu] and come back!
-
 ![Stacked Dropdowns](/images/m2/navigationpro/use-cases/stacked-dropdowns.png)
 
 Stacked Dropdowns menu — is a [simple menu][simple-menu] variation, except of subcategories
 dropdown positioning and height.
 
- 1. Navigate to _Swissup > NavigationPro_ page, open menu to edit.
- 2. Click on **Menu Settings** button and add `navpro-stacked` class into the
-    **CSS Class** field.
- 3. Press **Save** button.
+ 1. Navigate to _Swissup > NavigationPro_ page, and press "Add New Menu".
+ 2. Fill the with following values:
+
+    ```
+    Name: Some name that will explicitly describe the menu
+    Type: Stacked Menu
+    Import Categories From: Select Root Category
+    Replace Top Menu at: Select Stores that will use this menu
+    ```
+
+ 3. Save the form. Now you can open your store frontend and check if everything
+    works fine.
 
 #### Next up
 {:.no_toc}

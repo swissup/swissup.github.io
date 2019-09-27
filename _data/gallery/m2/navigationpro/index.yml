@@ -74,6 +74,18 @@
       only, secondary menu shown children of active category.
   w: 940
   h: 563
+- href: /images/m2/navigationpro/slideout/ribbon.png
+  src: /images/m2/navigationpro/slideout/small/ribbon.png
+  title: >
+    Vertical slideout menu with 'ribbon' modifier
+  w: 1104
+  h: 747
+- href: /images/m2/navigationpro/slideout/accordion.png
+  src: /images/m2/navigationpro/slideout/small/accordion.png
+  title: >
+    Vertical slideout menu with 'accordion' and 'dark' modifiers
+  w: 1099
+  h: 729
 # - href: /images/m2/navigationpro/showcase/stacked.png
 #   src: /images/m2/navigationpro/showcase/small/stacked.png
 #   alt: Stacked menu

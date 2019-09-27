@@ -10,7 +10,7 @@ category: Navigationpro
 
 ### Version 1.13.0
 
-> Draft
+> Sep 27, 2019
 
 {% include gallery.html images=site.data.gallery.m2.navigationpro.changelog.v1130 class="phone-up-2 tablet-up-3 photoswipe scroll" %}
 
@@ -26,6 +26,9 @@ category: Navigationpro
  -  Improved [Amazon Menu](/m2/extensions/navigationpro/use-cases/amazon-menu/)
     type builder. Now, it automatically shows parent category thumbnail
     in second level dropdowns.
+ -  Improved [Megamenu](/m2/extensions/navigationpro/use-cases/megamenu/)
+    type builder. Now, it automatically shows parent category thumbnail
+    in category dropdown.
  -  New effects added to reveal menu dropdowns: Fade, SlideIn, SlideOut, None.
  -  Improved dropdown positioning.
  -  Many CSS fixes for Dark, Compact, and Flat themes.

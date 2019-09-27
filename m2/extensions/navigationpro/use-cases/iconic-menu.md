@@ -7,8 +7,6 @@ category: Navigationpro
 
 # Iconic Menu
 
-> Don't have a menu yet? Create [simple menu][simple-menu] and come back!
-
 ## Contents
 {:.no_toc}
 
@@ -19,23 +17,53 @@ category: Navigationpro
 
 ![Iconic Menu](/images/m2/navigationpro/use-cases/iconic-menu.png)
 
- 1. Navigate to _Swissup > NavigationPro_ page, open menu to edit
- 2. Apply custom [item renderer][item-renderer] to each top level category as
-    shown below:
+#### Steps to create Menu
 
-    ![Iconic Menu Backend](/images/m2/navigationpro/use-cases/iconic-menu-backend.png)
+ 1. Navigate to _Swissup > NavigationPro_ page, and press "Add New Menu".
+ 2. Fill the with following values:
 
-    ```html
-    {% raw %}<a href="{{navpro data='url'}}" class="{{navpro data='class'}} text-center">
-        <img src="{{media url='wysiwyg/image.png'}}" alt="" />
-        {{navpro data="name"}}
-    </a>{% endraw %}
+    ```
+    Name: Some name that will explicitly describe the menu
+    Type: Iconic
+    Import Categories From: Select Root Category
+    Replace Top Menu at: Select Stores that will use this menu
     ```
 
- 3. Click on **Menu Settings** button and fill the following CSS classes
-    in [Menu Settings][menu-settings] panel: `justify-around caret-bottom navpro-iconic iconic-vertical`.
+ 3. Save the form. Now you can open your store frontend and check if everything
+    works fine.
 
- 4. That's all. Clear Magento's cache and see the result on the frontend.
+#### Tips and Tricks
+
+##### Category Icons
+
+We use [EasyCatalogImages](/m2/extensions/easycatalogimages/) to add thumbnail
+attribute to each category. You can replace it with any other attribute. Open menu
+in backend, then navigate to
+_Menu Settings > Open Item Settings > First level item settings_.
+Here you can edit template that shows category icon:
+
+```html
+{% raw %}<a href="{{var item.url'}}" class="{{var item.class}}">
+    {{depend remote_entity.thumbnail}}
+        <img class="xs-hide sm-hide" width="50px" src="{{media url=''}}/catalog/category/{{var remote_entity.thumbnail}}" />
+    {{/depend}}
+    <span>{{var item.name}}</span>
+</a>{% endraw %}
+```
+
+##### Per-item Icon Settings
+
+Sometimes you may want to change icon for particular item only.
+Open menu in backend, click on the category to edit in categories tree on the left,
+and use "Name as Html" on the right ("Advanced Settings" fieldset).
+Here is an example:
+
+```html
+{% raw %}<a href="{{var item.url'}}" class="{{var item.class}}">
+    <img class="xs-hide sm-hide" src="{{media url=&quot;wysiwyg/iconfinder_multimedia-37_2849799.png&quot;}}" alt="" />
+    <span>{{var item.name}}</span>
+</a>{% endraw %}
+```
 
 ### Dropdown Menu
 
