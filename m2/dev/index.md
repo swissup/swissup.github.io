@@ -98,6 +98,7 @@ composer require\
     swissup/module-seo-core\
     swissup/module-seo-cross-links\
     swissup/module-seo-html-sitemap\
+    swissup/module-seo-images\
     swissup/module-seo-pager\
     swissup/module-seo-templates\
     swissup/module-seo-urls\
@@ -189,6 +190,7 @@ bin/magento module:enable\
     Swissup_SeoCore\
     Swissup_SeoCrossLinks\
     Swissup_SeoHtmlSitemap\
+    Swissup_SeoImages\
     Swissup_SeoPager\
     Swissup_SeoTemplates\
     Swissup_SeoUrls\
