@@ -8,6 +8,13 @@ category: Prolabels
 
 # Changelog
 
+### Version 2.7.16
+
+> Sep 30, 2019
+
+ -  Remove limit from label styles and label text length.
+ -  Do not show system labels for all stores while it's enabled for one only.
+
 ### Version 2.7.15
 
 > Feb 26, 2019
