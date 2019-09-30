@@ -7,6 +7,13 @@ category: Easy Tabs
 sidebar: sidebar.md
 ---
 
+### Version 3.2.2
+
+> Sep 30, 2019
+
+ -  MEQP validation fixes
+ -  Added integration with [AMP](/m1/extensions/amp/) module
+
 ### Version 3.2.1
 
 > Feb 26, 2019

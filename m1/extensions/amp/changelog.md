@@ -7,6 +7,13 @@ category: Accelerated Mobile Pages
 sidebar: sidebar.md
 ---
 
+### Version 1.7.2
+
+> Sep 30, 2019
+
+ -  Added styles for table caption.
+ -  Added styles for any `.data-table` in tabs.
+
 ### Version 1.7.1
 
 > May 22, 2019

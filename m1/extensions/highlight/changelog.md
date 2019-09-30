@@ -8,6 +8,15 @@ category: Highlight
 
 # Changelog
 
+### Version 2.7.3
+
+> Sep 30, 2019
+
+ -  Fixed highlight carousel when Magento cache is enabled.
+ -  Added missing SlickCarousel dependency.
+ -  Fixed "Item with ID already exists" at stores with multiple stocks.
+ -  MEQP validation fixes.
+
 ### Version 2.7.2
 
 > Feb 26, 2019

@@ -7,6 +7,13 @@ category: Cache
 
 # Full Page Cache Changelog
 
+### Version 1.5.1
+
+> Sep 30, 2019
+
+ -  MEQP validation fixes.
+ -  Fixed empty "Cache lifetime rules" config option.
+
 ### Version 1.5.0
 
  -  PHP 7.2 compatibility
