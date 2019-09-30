@@ -7,6 +7,18 @@ category: Firecheckout
 
 # Changelog
 
+### Version 4.4.1
+
+> Draft
+
+ -  Updated integration with Gene_Braintree module (v3.1.1)
+ -  Shipperhq_Calendar integration added.
+ -  DHLparcel_Shipping integration added.
+ -  MageWorx_Donations integration added.
+ -  Sub1_Nps integration added.
+ -  Reset to correct item qty value when reach maximum of available items in cart.
+ -  Hide partially visible password field on some third-party themes.
+
 ### Version 4.4.0
 
 > Apr 16, 2019
