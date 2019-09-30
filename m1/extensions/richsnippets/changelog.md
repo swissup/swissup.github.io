@@ -8,6 +8,15 @@ category: Rich Snippets
 
 # Changelog
 
+### Version 2.1.2
+
+> Sep 30, 2019
+
+ -  Added [AMP](/m1/extensions/amp/) integration.
+ -  Use `https` protocol for all 'schema.org' urls.
+ -  Magento Admin - fixed structured data config when product name has " symbol.
+ -  Compatibility with Magento 1.7.x.
+
 ### Version 2.1.1
 
 > Apr 18, 2019
@@ -22,7 +31,7 @@ category: Rich Snippets
  -  Solve latest Google warnings (missing priceValidUntil, global identifier, review etc).
  -  New config option to map product structured data with product attributes.
  -  New config option to setup brand value for JSON type.
- -  Internal source code improvements. 
+ -  Internal source code improvements.
 
 ### Version 2.0.9
 
