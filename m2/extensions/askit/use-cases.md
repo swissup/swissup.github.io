@@ -17,7 +17,7 @@ category: Askit
 ### Add questions tab on product standart tabs
 
 If you need to move questions block into separate tab,
-open [/vendor/swissup/askit|app/code/local/Swissup/Askit]/view/frontend/layout/catalog_product_view.xml
+open `/vendor/swissup/module-askit/view/frontend/layout/catalog_product_view.xml`
 comment following lines (remove blocks)
 
 ```
