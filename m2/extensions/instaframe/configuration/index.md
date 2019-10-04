@@ -19,9 +19,6 @@ category: Instaframe
 
     ![Item front](/images/m2/instaframe/settings.png)
 
- -  **Image display size** has 2 options **Standard** and **Low** resolution
-    choose the one you need more **fast site load** or **images quality**
-    (in most cases **LOW** is enough)
  -  Now you can add the [widget](/m2/extensions/instaframe/widget/)
 
 ##### Next up
