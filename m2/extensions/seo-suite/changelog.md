@@ -8,6 +8,17 @@ category: SEO Suite
 
 # Changelog
 
+### Version 1.7.1
+
+> Oct 4, 2019
+
+Minor update of readme-files in all submodules.
+
+*SEO Images (1.1.0):*
+
+ - Fixed compatibility with Magento 2.3.0 and lower.
+ - Don't expose additional image parameters in image URL. Its mostly useful when store uses watermarks for images.
+
 ### Version 1.7.0
 
 > Sep 27, 2019
