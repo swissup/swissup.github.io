@@ -73,3 +73,4 @@ Firecheckout includes a huge amount of configurable additional possibilities:
  6. [Use cases](use-cases/)
      -  [Changing URL of Firecheckout page](use-cases/#changing-url-of-firecheckout-page)
  7. [Troubleshooting](troubleshooting/)
+ 8. [Brazilian requirements](brazil)
