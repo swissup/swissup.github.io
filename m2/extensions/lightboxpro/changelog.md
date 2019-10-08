@@ -12,7 +12,7 @@ category: Lightbox Pro
 
 > Oct 8, 2019
 
- -  Fixed missing watermark on images in popup.
+ -  Fixed missing watermark on images in popup when watermarks are enbaled and configured.
 
 ### Version 1.2.4
 
