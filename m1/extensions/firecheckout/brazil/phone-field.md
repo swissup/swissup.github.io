@@ -18,13 +18,13 @@ After installation it, do not forget to apply the script:
 ```
 
 
-Example, that makes phone masks for the billing address field "telephone":
+Example, that makes phone masks for the billing address fields "telephone" and "fax":
 
  1. Create `custom.js` file. [custom.js](/m1/extensions/firecheckout/using-customcss-and-customjs/)
  2. Add the following code into this file
 
 ```js
-        document.observe('dom:loaded', function() {
+    document.observe('dom:loaded', function() {
         var addressTypes = ['billing'];
         addressTypes.each(function(addressType) {
 
@@ -34,8 +34,6 @@ Example, that makes phone masks for the billing address field "telephone":
                     inputElement: phone,
                     guide: false,
                     mask: function (raw) {
-                        console.log(raw);
-
                         var phoneMask = ['(', /\d/, /\d/, ')', ' ', /\d/, /\d/, /\d/, /\d/, '-', /\d/, /\d/, /\d/, /\d/];
 
                         if (raw.toString().length > phoneMask.length) {
@@ -43,6 +41,22 @@ Example, that makes phone masks for the billing address field "telephone":
                         }
 
                         return phoneMask;
+                    }
+            });
+
+            var fax = document.querySelector('[name="billing[fax]"]');
+
+            var maskedInputController = vanillaTextMask.maskInput({
+                    inputElement: fax,
+                    guide: false,
+                    mask: function (raw) {
+                        var faxMask = ['(', /\d/, /\d/, ')', ' ', /\d/, /\d/, /\d/, /\d/, '-', /\d/, /\d/, /\d/, /\d/];
+
+                        if (raw.toString().length > faxMask.length) {
+                            faxMask= ['(', /\d/, /\d/, ')', ' ', /\d/, /\d/, /\d/, /\d/, /\d/, '-', /\d/, /\d/, /\d/, /\d/];
+                        }
+
+                        return faxMask;
                     }
             });
 
