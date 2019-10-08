@@ -8,6 +8,12 @@ category: Lightbox Pro
 
 # Changelog
 
+### Version 1.2.5
+
+> Oct 8, 2019
+
+ -  Fixed missing watermark on images in popup.
+
 ### Version 1.2.4
 
 > Aug 19, 2019
