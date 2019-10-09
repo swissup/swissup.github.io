@@ -9,7 +9,7 @@ category: Firecheckout
 
 ### Version 4.4.1
 
-> Draft
+> Oct 9, 2019
 
  -  Updated integration with Gene_Braintree module (v3.1.1)
  -  Shipperhq_Calendar integration added.
