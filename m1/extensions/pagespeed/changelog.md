@@ -7,6 +7,16 @@ category: Page Speed
 
 # Changelog
 
+### Version 1.3.8
+
+> Aug 14, 2019
+
+**Fixes**
+ -  Fix '/internal_paths/form_key/' checkedValues ='form_key'
+ -  Fix (revert) mass optimise action name
+ -  Fix internal_paths/form_key bug
+
+
 ### Version 1.3.7
 
 > Jun 24, 2019
