@@ -8,6 +8,12 @@ category: EasyCatalogImages
 
 # Changelog
 
+### Version 1.4.6
+
+> Oct 16, 2019
+
+ -  Code cleanup.
+
 ### Version 1.4.5
 
 > Sep 25, 2019

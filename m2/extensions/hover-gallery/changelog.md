@@ -8,6 +8,13 @@ category: Hover Gallery
 
 # Changelog
 
+### Version 1.3.0
+
+> Oct 16, 2019
+
+ -  Much faster hover image rendering.
+ -  Use watermark in hover image when watermark is enabled.
+
 ### Version 1.2.1
 
 > Aug 19, 2019

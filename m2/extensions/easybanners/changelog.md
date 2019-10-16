@@ -8,6 +8,13 @@ category: Easy Banners
 
 # Changelog
 
+### Version 1.4.0
+
+> Oct 16, 2019
+
+ -  Magento 2.1 support dropped (JsonSerializer added instead of serialize).
+ -  Magento coding standard fixes.
+
 ### Version 1.3.1
 
  -  Fixed possible JS error in backend Charts when using slow network connection

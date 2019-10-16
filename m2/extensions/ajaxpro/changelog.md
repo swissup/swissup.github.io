@@ -6,6 +6,12 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.4.12
+
+> Oct 16, 2019
+
+ -  Remove direct 'jquery/ui' usage to improve js performance.
+
 ### Version 1.4.11
 
 > Sep 27, 2019

@@ -7,6 +7,12 @@ category: Attributepages
 
 # Changelog
 
+### Version 1.2.1
+
+> Oct 16, 2019
+
+ -  Magento coding standard fixes.
+
 ### Version 1.2.0
 
 > Jan 04, 2019

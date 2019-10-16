@@ -8,6 +8,12 @@ category: Lightbox Pro
 
 # Changelog
 
+### Version 1.2.6
+
+> Oct 16, 2019
+
+ -  Remove direct 'jquery/ui' usage to improve js performance.
+
 ### Version 1.2.5
 
 > Oct 8, 2019

@@ -7,6 +7,27 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.14.1
+
+> Oct 16, 2019
+
+ -  Magento 2.3.3 compatibility.
+ -  Font preload added to improve PageSpeed rank. To make this possible we've
+    moved google fonts from CDN to local theme resources.
+ -  Fixed possible missing [NavigationPro](/m2/extensions/navigatiopro/) menu
+    after theme installation.
+ -  Fixed blurry images in header cart and hover images when using ArgentoStripes
+    or ArgentoLuxury theme.
+
+**Extensions Updates**
+
+ -  Magento coding standard fixes in all modules.
+ -  Removed direct "jquery/ui" usage in all modules to impove PageSpeed rank.
+ -  Improved [HoverGallery](/m2/extensions/hover-gallery/) images generation.
+ -  [SeoImages](/m2/extensions/seo-images/): Improved generated image path when
+    watermarks are used.
+ -  Fixed missing watermark in [LightboxPro](/m2/extensions/lightboxpro/) popup.
+
 ### Version 1.14.0
 
 > Sep 27, 2019

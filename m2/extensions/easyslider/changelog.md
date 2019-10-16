@@ -8,6 +8,12 @@ category: Easy Slider
 
 # Changelog
 
+### Version 1.5.3
+
+> Oct 16, 2019
+
+ -  Remove direct 'jquery/ui' usage to improve js performance.
+
 ### Version 1.5.2
 
 > Sep 24, 2019

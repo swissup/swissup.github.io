@@ -8,6 +8,12 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.3.7
+
+> Oct 16, 2019
+
+ -  Remove direct 'jquery/ui' usage to improve js performance.
+
 ### Version 1.3.6
 
 > Aug 21, 2019

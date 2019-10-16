@@ -8,6 +8,12 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.13.1
+
+> Oct 16, 2019
+
+ -  Remove direct 'jquery/ui' usage to improve js performance.
+
 ### Version 1.13.0
 
 > Sep 27, 2019
