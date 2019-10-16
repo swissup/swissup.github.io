@@ -8,6 +8,27 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.20.1
+
+> Oct 16, 2019
+
+ -  Magento 2.3.3 compatibility. (CSS issues with discount, braintree payment,
+    and modal popup positioning).
+ -  Fixed empty popup when using "Paypal through Braintree" payment method.
+
+**Modules Updates**
+
+ -  Magento coding standard fixes.
+ -  Removed direct 'jquery/ui' dependency to improve js performance in
+    ([OrderAttachment](/m2/extensions/order-attachments/) and
+    [CheckoutSuccess](/m2/extensions/checkout-success/)) modules.
+ -  [DeliveryDate](/m2/extensions/delivery-date/): Fixed calendar icon
+    positioning when using third-party themes.
+ -  [AddressAutocomplete](/m2/extensions/address-autocomplete/): Fixed 'undefined'
+    word in input field after pressing 'tab' key. (Happens when API key is invalid).
+ -  [CheckoutFields](/m2/extensions/checkout-fields/): Fixed missing fields in
+    orders grid when DB table prefix is used.
+
 ### Version 1.20.0
 
 > Sep 9, 2019

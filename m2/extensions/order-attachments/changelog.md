@@ -7,6 +7,12 @@ category: Order Attachments
 
 # Changelog
 
+### Version 1.3.4
+
+> Oct 16, 2019
+
+ -  Remove direct 'jquery/ui' dependency to improve js performance.
+
 ### Version 1.3.3
 
 > Jun 4, 2019

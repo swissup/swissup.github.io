@@ -8,6 +8,12 @@ category: Checkout Success
 
 # Changelog
 
+### Version 1.3.5
+
+> Oct 16, 2019
+
+ -  Remove direct 'jquery/ui' dependency to improve js performance.
+
 ### Version 1.3.4
 
 > Sep 9, 2019

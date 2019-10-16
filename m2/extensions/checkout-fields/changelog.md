@@ -8,6 +8,12 @@ category: Checkout Fields
 
 # Changelog
 
+### Version 1.3.1
+
+> Oct 16, 2019
+
+ -  Fixed missing fields in orders grid when DB table prefix is used.
+
 ### Version 1.3.0
 
 > Aug 20, 2019

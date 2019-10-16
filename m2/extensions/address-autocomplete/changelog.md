@@ -7,6 +7,13 @@ category: Address Autocomplete
 
 # Changelog
 
+### Version 1.2.2
+
+> Oct 16, 2019
+
+ -  Fixed 'undefined' word in input field after pressing 'tab' key. (Happens
+    when API key is invalid).
+
 ### Version 1.2.1
 
 > May 23, 2019

@@ -7,6 +7,12 @@ category: Delivery Date
 
 # Changelog
 
+### Version 1.4.5
+
+> Oct 16, 2019
+
+ -  Fixed calendar icon positioning on some third-party themes.
+
 ### Version 1.4.4
 
 > Sep 27, 2019
