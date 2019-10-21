@@ -7,6 +7,13 @@ category: Accelerated Mobile Pages
 sidebar: sidebar.md
 ---
 
+### Version 1.7.3
+
+> Oct 21, 2019
+
+ -  Magento 1.9.4.3 compatibility. (Fixed add/remove item from wishlist when
+    browsing CDN-cached version of the site.)
+
 ### Version 1.7.2
 
 > Sep 30, 2019
