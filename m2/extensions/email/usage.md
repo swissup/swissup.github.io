@@ -25,6 +25,9 @@ category: Email
     - Enable/Disable
 ![example](https://user-images.githubusercontent.com/412612/40238625-6bdf426c-5abc-11e8-98ca-9b459efa3fa4.png)
 
+> If field Type select Gmail.
+> Use an [App Password](https://security.google.com/settings/security/apppasswords): Generate new App Password for your account. https://security.google.com/settings/security/apppasswords
+
  4. Navigate to
 
     `Stores -> Configurations -> Swissup -> Email` or
