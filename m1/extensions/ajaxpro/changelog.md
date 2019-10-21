@@ -8,6 +8,12 @@ category: AjaxPro
 
 # Changelog
 
+### Version 3.3.27
+
+> Oct 21, 2019
+
+ -  Fix 1.9.4.3 comptability
+
 ### Version 3.3.24
 
 > Feb 26, 2019
@@ -21,7 +27,7 @@ category: AjaxPro
 
 ### Version 3.3.21
 
- -  Fix integration productAddToCartForm.oldSubmit 
+ -  Fix integration productAddToCartForm.oldSubmit
  -  Addition content at bottom of login popup via xml "ajaxpro_customer_login.form.after"
 
 ### Version 3.3.20
