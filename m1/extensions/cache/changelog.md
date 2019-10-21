@@ -7,6 +7,12 @@ category: Cache
 
 # Full Page Cache Changelog
 
+### Version 1.5.2
+
+> Oct 21, 2019
+
+ -  Magento 1.9.4.3 compatibility. (Fixed add/remove item from cart, compare, and wishlist)
+
 ### Version 1.5.1
 
 > Sep 30, 2019
