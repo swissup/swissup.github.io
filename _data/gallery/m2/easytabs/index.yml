@@ -1,0 +1,10 @@
+- href: /images/m2/easytabs/frontend/desktop.png
+  src: /images/m2/easytabs/frontend/small/desktop.png
+  title: Tabs on desktop
+  w: 1010
+  h: 450
+- href: /images/m2/easytabs/frontend/mobile.png
+  src: /images/m2/easytabs/frontend/small/mobile.png
+  title: Tabs on mobile
+  w: 862
+  h: 1754

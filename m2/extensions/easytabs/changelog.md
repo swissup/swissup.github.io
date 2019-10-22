@@ -8,6 +8,16 @@ category: Easy Tabs
 
 # Changelog
 
+### Version 1.7.3
+
+> Oct 22, 2019
+
+ -  Show multiple attributes for _Product attribute_ tab. Thanks [@erankitsrivastava](https://github.com/erankitsrivastava) for contribution.
+ -  Few minor tweaks to edit tab form in Magento Admin - attribute select is UI Component; spinner while options blocks loads on initial page load.
+ -  Product attribute tab has two templates:
+     +  `tab/catalog/product/attribute.phtml` - show attribute content without attribute label;
+     +  `tab/catalog/product/attribute-with-label.phtml` - show attribute content with label.
+
 ### Version 1.7.2
 
 > Sep 25, 2019
