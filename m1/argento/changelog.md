@@ -7,6 +7,66 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.15.0
+
+> Oct 22, 2019
+
+ -  Magento 1.9.4.3 compatibility.
+ -  Fixed Highlight template to make it work with carousel with enabled cache.
+ -  Luxury theme: added rel="nofollow" to wishlist link in header.
+
+**Modules fixes & improvements**
+
+ -  Ajax Pro
+     + Fixed add to compare/wishlist actions in Magento 1.9.4.3
+
+ -  AMP
+     + Fixed add/remove item from wishlist when browsing CDN-cached version of the site (Magento 1.9.4.3 compatibility)
+     + Added styles for table caption and tables inside tabs
+
+ -  Ask It
+    + Added config to sort questions by votes number
+
+ -  Attribute Pages
+     +  Page Title field is now used for H1 tag only (previously, it was used for meta title too)
+     +  Added ability to set meta title using xml_layout_update field
+
+ -  Easybanner
+     +  Added compatibility with lazy image loading feature of PageSpeed module
+
+ -  EasyTabs
+     +  Added integration with AMP module
+
+ -  GDPR
+     +  Fixed php warning about addcslashes parameter
+
+ -  Highlight
+     +  Fixed broken carousel when Magento cache is enabled
+     +  Added missing SlickCarousel dependency
+     +  Fixed “Item with ID already exists” at stores with multiple stocks
+
+ -  Pagespeed
+     +  Fixed not working ‘ignore’ config option
+     +  Improve offset logic for mobile devices
+
+ -  Pro Labels
+     +  Remove limit from label styles and label text length
+     +  Do not show system labels for all stores when it’s enabled only for one
+
+ -  Review Reminder
+     +  Added store view column to grid
+     +  Order number added in grid and info tab
+     +  Added config to disable reminders for guests
+     +  Fixed grouped products review link
+
+ -  SEO Suite
+     +  XML Sitemap - Improved image generating for big catalogs
+
+ -  Testimonials
+     +  Added config option to disable/enable customer profile picture
+     +  Separate options for testimonials list and form
+     +  Added config option - min length for testimonial at frontend
+
 ### Version 1.14.0
 
 > May 22, 2019
@@ -46,23 +106,23 @@ category: Argento
 
  -  Ajax Pro:
      + Improve handling of Magento messages after adding product to cart when Stock Inventory is enabled.
- 
+
  -  Ask It:
      +  Add plain text section to email templates to improve emails quality.
      +  Few minor improvements to frontend templates (simplify layout and render elements only when it is necessary).
 
  -  Easybanner:
      +  Fixed slow scrolling performance in Chrome when fixed banners are shown.
- 
+
  -  Navigation Pro:
      +  Fix page jumping on scroll at mobile devices when nowrap feature for menu is enabled.
- 
+
  -  Pagespeed:
      +  Improved compatibility with AMP and others third-party extensions.
- 
+
  -  Pro Labels:
      +  Fix Integrity constraint violation error for manual labels when Customer Groups filter is enabled.
- 
+
  -  SEO Suite:
      +  Metadata templates - improve module stability during metadata generation.
      +  Rich Snippets - don’t add social links to organization snippet when there is no values in social links.
@@ -75,7 +135,7 @@ category: Argento
 
  -  [PageSpeed](/m1/extensions/pagespeed/) extension included into Argento package.
  -  Overall themes and extension stability improvements (AjaxPro, EasyTabs, Highlight).
- 
+
  -  AskIt:
      +  Fix empty customer new in email.
 
@@ -94,7 +154,7 @@ category: Argento
 
 ### Version 1.11.0
 
- -  We added fantastic option to stick product image and/or product details at product page for every theme . Read more at [Product Page configuration](../luxury/product-page/). 
+ -  We added fantastic option to stick product image and/or product details at product page for every theme . Read more at [Product Page configuration](../luxury/product-page/).
     ![Sticky product image example](/images/argento/luxury/product-page/sticky-image-example.gif)
 
  -  New feature to change produt image layout at product page. You can have default (old-school) layout or fancy mobile-friendly slider.
@@ -111,7 +171,7 @@ category: Argento
  -  Lightbox Pro:
      +  New option for product page image. You can select between default layout with thumbnails and slider with all images.
      +  Overall code improvements.
-     
+
 ### Version 1.10.0
 
  -  New highly in demand **GDPR module** is included in Argento package. Read more about this module at [our documentaion site](/m1/extensions/gdpr/).
@@ -756,4 +816,3 @@ find more details about data update at
  -  Suggest Page
      -  avoided potential error with multiple calls of event
         'sales_quote_product_add_after'
-
