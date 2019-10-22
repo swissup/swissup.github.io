@@ -8,7 +8,7 @@ category: Easy Tabs
 
 # Changelog
 
-### Version 1.7.3
+### Version 1.7.4
 
 > Oct 22, 2019
 
