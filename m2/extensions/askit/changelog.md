@@ -11,6 +11,14 @@ category: AskIt
 
 # Changelog
 
+### Version 1.6.3
+
+> Oct 23, 2019
+
+**Bugfixes**
+
+ - Fix 2.3.3 compatability
+
 ### Version 1.6.2
 
 > Sep 12, 2019
