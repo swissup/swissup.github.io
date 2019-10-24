@@ -29,7 +29,7 @@ Insert this code right below:
     }
 ?>
 ```
-> If your Hover Gallery version is lower then 1.3.0 then you need to use other code:
+> If your Hover Gallery version is lower 1.3.0 then you need to use other code:
 > 
 >   ```php
 >   <?php
