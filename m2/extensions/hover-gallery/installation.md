@@ -24,11 +24,20 @@ Insert this code right below:
 
 ```php
 <?php
-    if ($this->helper('Magento\Catalog\Helper\Data')->isModuleOutputEnabled('Swissup_HoverGallery')) {
-        echo $this->helper('Swissup\HoverGallery\Helper\Data')->getHoverImage($_product, $productImage->getWidth(), $productImage->getHeight());
+    if ($_helper->isModuleOutputEnabled('Swissup_HoverGallery')) {
+        echo $this->helper('Swissup\HoverGallery\Helper\Data')->renderHoverImage($_product, $image);
     }
 ?>
 ```
+> If your Hover Gallery version is lower then 1.3.0 then you need to use other code:
+> 
+>   ```php
+>   <?php
+>       if ($this->helper('Magento\Catalog\Helper\Data')->isModuleOutputEnabled('Swissup_HoverGallery')) {
+>           echo $this->helper('Swissup\HoverGallery\Helper\Data')->getHoverImage($_product, $productImage->getWidth(), $productImage->getHeight());
+>       }
+>   ?>
+>   ```
 
 Login your store admin and [enable extension](/m2/extensions/hover-gallery/configuration).
 
