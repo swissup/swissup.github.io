@@ -6,6 +6,15 @@ keywords: Helpdesk changelog
 category: Helpdesk
 ---
 
+### Version 1.1.3
+
+> Oct 25, 2019
+
+**Fixes**
+ - MEQP2 Fix: md5 => sha1
+ - Possible fix for store silter
+ - Revert gravatar url
+ - Installation instructions for clients added
 
 ### Version 1.1.2
 
