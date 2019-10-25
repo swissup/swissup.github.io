@@ -8,6 +8,14 @@ category: Email
 
 # Changelog
 
+### Version 0.3.0
+
+> Oct 25, 2019
+
+**Fixes**
+ - Fix: Backward-incompatible Changes in the Mail Library for Magento 2.3.3
+ - Magento 2.1 mime boundary fix
+
 ### Version 0.2.5
 
 > Jun 7, 2019
