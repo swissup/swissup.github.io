@@ -8,6 +8,15 @@ category: Rich Snippets
 
 # Changelog
 
+### Version 1.4.5
+
+> Oct 28, 2019
+
+ -  Change how configurable product is presented in data snippet. Now it is a product with multiple offers.
+ -  User can specify properties in `offers` and `aggregatedRating` parts of data snippet. It is possible with _"Structured data"_ option in config. Syntax example for _"Property Name"_ column - `offers/mpn`.
+ -  Show correct price in snippet when including tax enabled.
+ -  Fixed Magento Coding Standard error - no explicit Proxy in contructor.
+
 ### Version 1.4.2
 
 > May 3, 2019
