@@ -8,6 +8,13 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.13.2
+
+> Oct 29, 2019
+
+ -  Improve accuracy of the [nowrap](/m2/extensions/navigationpro/use-cases/nowrap/) feature.
+ -  Prevent unwanted accordion collapse on mobile devices when click outside of the menu.
+
 ### Version 1.13.1
 
 > Oct 16, 2019
