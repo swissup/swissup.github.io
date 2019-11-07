@@ -8,6 +8,22 @@ category: SEO Suite
 
 # Changelog
 
+### Version 1.8.0
+
+> Nov 7, 2019
+
+*Metadata templates (1.5.0)*:
+
+ -  With this version you can generate alternate text for product images.
+ -  CLI command to generate metadata - `bin/magento swissup:seotemplates:generate`.
+ -  Significant improvements for metadata generation via Cron. No more problems with Magento Cache when job is running.
+ -  Overall code refactoring to meet Magento Guides.
+
+*Rich Snippets (1.4.3)*:
+
+ -  Change how configurable product is presented in data snippet. Now it is a product with multiple offers.
+ -  User can specify properties in `offers` and `aggregatedRating` parts of data snippet. It is possible with _"Structured data"_ option in config. Syntax example for _"Property Name"_ column - `offers/mpn`.
+
 ### Version 1.7.1
 
 > Oct 4, 2019
