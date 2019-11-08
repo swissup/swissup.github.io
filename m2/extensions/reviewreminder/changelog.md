@@ -8,6 +8,11 @@ category: Review Reminder
 
 # Changelog
 
+### Version 1.1.3
+
+ -  Fixed rare issue when customer email was empty in reminder
+ -  Fixed wrong grouped products link in email
+
 ### Version 1.1.1
 
  -  Fixed empty name for guests, taking name from billing address
