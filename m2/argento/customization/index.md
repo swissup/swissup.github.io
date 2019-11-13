@@ -51,5 +51,6 @@ category: Argento
         - [Argento Pure2 homepage](/m2/argento/pure2/page-structure/homepage/)
         - [Argento Mall homepage](/m2/argento/mall/page-structure/homepage/)
         - [Argento Luxury homepage](/m2/argento/luxury/page-structure/homepage/)
+        - [Argento Force homepage](/m2/argento/force/page-structure/homepage/)
     -   [Adding 'Scroll Up' button](add-scroll-up/)
     -   [Removing default footer links](removing-default-footer-links/)
