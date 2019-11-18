@@ -8,6 +8,12 @@ category: Store Maintenance
 
 # Changelog
 
+### Version 2.1.0
+
+> Nov 18, 2019
+
+ -  Added advanced text editor for Styles and HTML of maintenance page in Magento Editor. Advanced text editor based on CodeMirror library.
+
 ### Version 2.0.2
 
 > Jun 4, 2019
