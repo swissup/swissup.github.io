@@ -43,7 +43,7 @@ Manual labels section allows you to create labels based on your own rules. The e
 
 ## Product Label tab and Category Label tab
 
-![Product Settings](/images/m2/prolabels/product_label.png)
+![Product Settings](/images/m2/prolabels/product_label_191119.png)
 
 -   `Position` - select the position of the label
 -   `Label Text` - in this field you are allowed to write the text for the label. Also you can use a few predefined extension variables to choose from.
