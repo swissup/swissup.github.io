@@ -48,12 +48,15 @@ Minify JavaScript Files                         | Allows to enable/disable minif
 
 1. Disable 'Merge JavaScript Files', 'Enable JavaScript Bundling' and 'Minify JavaScript Files' before.
 2. Flush Cache
-3. Reload a homepage
-4. Enable Minify JavaScript Files
-5. Flush Cache
-6. Reload a homepage
-7. Enable Merge JavaScript Files
-2. Flush Cache
+3. Enable Advanced JavaScript Bundling
+4. Reload a homepage
+5. Enable Minify JavaScript Files
+6. In production mode re-deploy static content
+7. Flush Cache
+8. Reload a homepage
+9. Enable Merge JavaScript Files
+10. Flush Cache
+11. Reload a homepage
 
 #### Deferred javascripts
 
