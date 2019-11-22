@@ -8,6 +8,8 @@ category: Easy Banners
 
 ![Screenshot](/images/m2/easybanners/frontend/lightbox.png)
 
+### General Settings
+
 To create popup with newsletter form, create a new `Lightbox` banner with
 following values:
 
@@ -37,9 +39,24 @@ HTML Content:
 </div>
 ```
 
+### Conditions
+
+Now, let's make the banner appear on exit-intent event only.
+
+> Exit-intent condition is supported since version 1.5.0.
+
+Switch to Conditions tab and add the following conditions:
+
+Condition                                       | Value | Comment
+------------------------------------------------|-------|--------
+Exit intent time (seconds) greater than         | 0     | Show popup as soon as client's cursor moves out of the page.
+Display Count per Customer (Per Day) less than  | 1     | Optional.
+
 Save the banner and check your store frontend.
 
-p.s. Don't forget to setup banner conditions to show it just once per client!
+p.s. Since mobile devices doesn't have a cursor, we can't detect when client wants
+to leave the site using the same checks. That's why we will show exit-intent
+banner when mobile customer scrolls up the page to reveal browser toolbar.
 
 #### Next up
 {:.no_toc}

@@ -8,6 +8,15 @@ category: Easy Banners
 
 # Changelog
 
+### Version 1.5.0
+
+> Nov 22, 2019
+
+ -  [Exit-intent popup](/m2/extensions/easybanners/interfaces/#conditions-tab)
+    banners added. See [Newsletter popup example](/m2/extensions/easybanners/use-cases/newsletter-popup/).
+ -  Fixed non-editable date field in backend conditions tab.
+ -  JS code improvements.
+
 ### Version 1.4.0
 
 > Oct 16, 2019

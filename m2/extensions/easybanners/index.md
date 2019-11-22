@@ -18,6 +18,7 @@ There are three banner types available:
     interface or can be attached to `Placeholder`.
  -  Lightbox. Lightbox popup with image, html, or any of magento widgets.
  -  Awesomebar. Sliding panel in the top of the screen.
+ -  Exit-intent popups are supported for Lightbox and Awesomebar banners.
 
 {% include gallery.html images=site.data.gallery.m2.easybanners.index class="scroll phone-up-1 tablet-up-3 photoswipe" %}
 
@@ -32,6 +33,6 @@ There are three banner types available:
  -  [CSS Class Helpers](css-class-helpers/)
  -  [Use Cases](use-cases/)
     - [Product page banner](use-cases/product-page-banner/)
-    - [Newsletter Popup](use-cases/newsletter-popup/)
+    - [Newsletter Popup (Exit-intent)](use-cases/newsletter-popup/)
     - [Hide 'Don\'t show anymore' link](use-cases/hide-dont-show-anymore-link/)
     - [Create borderless lightbox](use-cases/borderless-lightbox/)
