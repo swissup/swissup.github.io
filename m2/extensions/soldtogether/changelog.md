@@ -8,6 +8,14 @@ category: SoldTogether
 
 # Changelog
 
+### Version 1.6.5
+
+> Nov 22, 2019
+
+ -  Fixed message "Requested product does not exists" on edit product in Magento Admin. Error occurs when assigned product deleted.
+ -  Fixed infinit loader in "Add Customers Bought Together" popup at product edit in Magento Admin when popup open before before "Add Frequently Bought Products" popup.
+ -  New breakpoints in carousel for "Customers also buy" widget.
+
 ### Version 1.6.4
 
 > Aug 21, 2019
