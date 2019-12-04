@@ -39,3 +39,6 @@ faster and easier by providing them a simple checkout form.
     - [Loading icon keeps spinning infinitely on initial page load](troubleshooting/loading-icon-keeps-spinning/)
  8. FAQ
     - [Creating Terms and Conditions](faq/creating-terms-and-conditions/)
+ 9. Brazilian Requirements
+    - [CPF/CNPJ code - masks and validation](brazil/cpf-cnpj/)
+    - [Phone fields - masks and validation](brazil/phone-field/)
