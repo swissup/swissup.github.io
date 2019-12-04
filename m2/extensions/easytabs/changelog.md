@@ -8,6 +8,13 @@ category: Easy Tabs
 
 # Changelog
 
+### Version 1.8.1
+
+> Dec 4, 2019
+
+ -  Show loader when content of the tab is loading with ajax.
+ -  Reduce page content jumps on tab opening.
+
 ### Version 1.8.0
 
 > Dec 2, 2019
