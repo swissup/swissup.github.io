@@ -28,16 +28,13 @@ IDENTITY_KEY | Identity key from one of our sites. Multiple keys are allowed.
 # 0. Get the sources
 composer require {{ include.package }}
 
-# 1. Enable new modules
-php bin/magento module:enable {{ include.modules }}
-
-# 2. Run magento upgrade scripts
+# 1. Run magento upgrade scripts
 php bin/magento setup:upgrade
 
-# 3. Remove outdated files
+# 2. Remove outdated files
 rm -rf pub/static/_requirejs var/view_preprocessed pub/static/frontend/ pub/static/adminhtml/ generated/code/
 
-# 4. If you use Production Mode you need to deploy static content and run di:compile command
+# 3. If you use Production Mode you need to deploy static content and run di:compile command
 php bin/magento setup:static-content:deploy en_US en_GB
 php bin/magento setup:di:compile
 ```
