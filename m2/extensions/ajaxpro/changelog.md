@@ -6,6 +6,12 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.4.13
+
+> Nov 15, 2019
+
+ - MEQP improvements (severity 9)
+
 ### Version 1.4.12
 
 > Oct 16, 2019

@@ -20,3 +20,4 @@ Our module offers you to use two-factor authentication based on the Google Authe
 
 
 - [Installation](installation/)
+- [Changelog](changelog/)

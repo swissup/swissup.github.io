@@ -6,6 +6,13 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.8.3
+
+> Nov 15, 2019
+
+ - MEQP improvements (severity 9)
+ - Fix product final price with Tax
+
 ### Version 1.8.1
 
 > Sep 12, 2019

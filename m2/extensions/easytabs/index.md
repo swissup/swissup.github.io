@@ -28,6 +28,7 @@ Tabs build with Magento 2 jQuery tabs widget.
 
 ### Features
 
+ -  **NEW in version 1.8.0!** Option to load tab content via Ajax request. You can set option at tab edit form. The biggest benefit from this option is reduce initial page size and speed up page loading.
  -  NEW! Supports [Swissup AMP module](../amp/). Now you can have accordion tabs at AMP.
  -  Show unlimited number of tabs on product page.
  -  Insert tabs via widget at any page with any content you want.

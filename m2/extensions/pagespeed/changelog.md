@@ -8,6 +8,19 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.3.6
+
+> Nov 18, 2019
+
+**Features**
+ - Move fast image initialization to adapter
+ - Add AbstractCachableOptimiser class
+ - Add local cache in webp optizator
+
+**Fixes**
+ - Fix gzip checking (h2+zend1)
+ - Fix lazyload image placeholder with srcset+sizes by html spec
+
 ### Version 1.3.5
 
 > Sep 12, 2019

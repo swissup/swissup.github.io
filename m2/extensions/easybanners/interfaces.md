@@ -142,6 +142,7 @@ Group | Condition               | Description
 | Customer inactivity time (seconds) | Show banner when customer is idle for more than specified value
 | Customer activity time (seconds) | Show banner when customer actively browsing current page for more than specified value
 | Scroll offset     | Show banner when visitor scrolls the page for more pixels than specified
+| Exit intent time (seconds) | Show banner when visitor's cursor moves out of the page for specified amount of time. (Mobile users will see popup after scroll up event - since this is a standard operation to show browser toolbar.)
 
 ##### Statistics Tab
 

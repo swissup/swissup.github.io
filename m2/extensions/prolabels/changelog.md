@@ -8,6 +8,13 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.4.0
+
+> Nov 19, 2019
+
+ -  Added advanced text editor for product labels text and CSS in Magento Admin. Check how updated interface [here](/m2/extensions/prolabels/interfaces/#product-label-tab-and-category-label-tab). Advanced text editor based on CodeMirror library.
+ -  Fixed missing onSale label for grouped products.
+
 ### Version 1.3.7
 
 > Oct 16, 2019

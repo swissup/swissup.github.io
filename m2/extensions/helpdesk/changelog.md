@@ -6,6 +6,16 @@ keywords: Helpdesk changelog
 category: Helpdesk
 ---
 
+### Version 1.1.4
+
+> Nov 15, 2019
+
+**Fixes**
+ - Meqp improvements (severity 8)
+ - Fix typo
+ - Fix filename conflict for apache %2f+ AllowEncodedSlashes On (close #10)
+ - Fix typo in department::addStoreIdFilter
+
 ### Version 1.1.3
 
 > Oct 25, 2019

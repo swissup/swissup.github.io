@@ -7,6 +7,34 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.3.10
+
+> Nov 18, 2019
+
+**Bugfixes**
+ - Fix 'Fatal error on search results page' (close #52)
+
+**Features**
+ - Add ViewModel/Config
+
+### Version 1.3.9
+
+> Nov 15, 2019
+
+**Features**
+ - Meqp improvements (severity 9)
+ - Add ajax request caching (default xhr+localStorage)
+ - Remove redundant params from url (close #51)
+
+**Bugfixes**
+ - Fix: multiple apply feature works broken (close #50)
+ - Fix calc in less
+ - Fix currency place in proce slider
+ - Fix : twice or more category filter apply (amp=1)
+ - Fix: 'multiselect' + in-stock count calculation
+ - Fix : categories items count calculation
+ - Fix add more products button config
+
 ### Version 1.3.8
 
 > Sep 12, 2019

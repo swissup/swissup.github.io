@@ -8,6 +8,15 @@ category: Easy Tabs
 
 # Changelog
 
+### Version 1.8.0
+
+> Dec 2, 2019
+
+ -  New option for tab "Load content with Ajax". The biggest benefit from this option is reduce initial page size.
+ -  Totally reworked admin interfaces for tab editing. Edit form build as Magento 2 UI Component. It looks up to date and works like a charm.
+ -  No more separate grids for product tabs and widget tabs. All in one place. Product tabs has field "Hide on Product" as No and widget tabs "Hide on Product" - Yes.
+ -  Block HTML cache and Full Page Cache marked as invalidated after tab save.
+
 ### Version 1.7.5
 
 > Nov 11, 2019
