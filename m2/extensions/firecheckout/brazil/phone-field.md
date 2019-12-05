@@ -64,7 +64,7 @@ category: Firecheckout
 
    ![phone-masks](/images/m2/firecheckout/brazil/phone-masks.png)
 
-3. Save the file and run following bash commands to deploy script:
+4. Save the file and run following bash commands to deploy script:
 
 ```
     cd magento/root/folder
@@ -72,7 +72,7 @@ category: Firecheckout
     bin/magento setup:static-content:deploy
 ```
 
-4. That's all.
+5. That's all.
 
 ##### Next up
 
