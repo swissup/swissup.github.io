@@ -26,6 +26,18 @@ but it is included in installation for earlier versions support.
  3. Remove that part ```conditions_encoded="a:1:[i:1;a:4....;]]"``` from every widget
  4. Save. Enjoy!
 
+### Getting error: Required parameter 'theme_dir' was not passed
+
+Such errors can happen if you have __"virtual"__ themes instead of __"normal"__.
+That sometimes happens during the upgrade.
+
+**Fixing**
+
+* Go to `PhpMyAdmin` > `Your Magento2 database`
+* Find the `"theme"` table
+* And make sure that all theme types are set to `'0'`
+* In case any of them have `type` = `'1'` change it to `'0'`
+* Error should be gone
 
 ##### Next up
 
