@@ -16,7 +16,7 @@ A CNPJ is a 14-digit number; 12 base digits and two digits at the end that are t
 
  At this article we explaine you how to create company and persone code using magento field "vat_id" and the firecheckout module.
 
- 1. Create a new address field using [Address Field Manager](/m2/extensions/address-field-manager/index.md) module.
+ 1. Create a new address field using [Address Field Manager](/m2/extensions/address-field-manager/) module.
 
 #### Result
 
