@@ -8,6 +8,12 @@ category: Email
 
 # Changelog
 
+### Version 0.3.1
+
+> Dec 6, 2019
+
+ -  Fixed issues with encoding.
+
 ### Version 0.3.0
 
 > Oct 25, 2019
