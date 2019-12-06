@@ -8,6 +8,13 @@ category: Easy Tabs
 
 # Changelog
 
+### Version 1.8.2
+
+> Dec 6, 2019
+
+ -  Fixed scroll to reviews when click view reviews link.
+ -  Improvement for options of product attribute tab at edit form in Magento Admin.
+
 ### Version 1.8.1
 
 > Dec 4, 2019
