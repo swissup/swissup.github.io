@@ -8,6 +8,13 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.13.3
+
+> Dec 6, 2019
+
+ -  Fixed invalid category links when using iconic or megamenu with thumbnails menu types.
+ -  Fixed bug when new category wasn't added to the menu's.
+
 ### Version 1.13.2
 
 > Oct 29, 2019
