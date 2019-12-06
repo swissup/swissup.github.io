@@ -12,6 +12,7 @@ category: Argento
 > Dec 6, 2019
 
  -  New option for product tabs - load content with ajax. More details you can find at [Swissup Easytabs module](/m2/extensions/easytabs/) docs.
+ -  New banner [Exit-intent](/m2/extensions/easybanners/interfaces/#conditions-tab) popup added. Check [Newsletter popup example](/m2/extensions/easybanners/use-cases/newsletter-popup/) powered by Swissup Easybanners module.
  -  New SEO feature - templates for product image alternate text. Check more details at [Swissup Metadata Template module](/m2/extensions/seo-templates/) docs. 
  -  Few style improvements for product page of grouped product at all themes.
  -  Stripes theme got better product page styles. No more content floating and jumping. All parts of product page are at the same places at any product. Slightly changed product image gallery at mobile view.
@@ -29,7 +30,7 @@ category: Argento
  
 **swissup/module-easybanner — 1.5.0** (was 1.4.0)
 
- -  [Exit-intent](/m2/extensions/easybanners/interfaces/#conditions-tab) popup banners added. See [Newsletter popup example](/m2/extensions/easybanners/use-cases/newsletter-popup/).
+ -  [Exit-intent](/m2/extensions/easybanners/interfaces/#conditions-tab) popup banners added.
  -  Fixed non-editable date field in backend conditions tab.
  -  JS code improvements.
  
