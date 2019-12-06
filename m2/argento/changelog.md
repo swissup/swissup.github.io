@@ -12,6 +12,7 @@ category: Argento
 > Dec 6, 2019
 
  -  New option for product tabs - load content with ajax. More details you can find at [Swissup Easytabs module](/m2/extensions/easytabs/) docs.
+ -  New SEO feature - templates for product image alternate text. Check more details at [Swissup Metadata Template module](/m2/extensions/seo-templates/) docs. 
  -  Few style improvements for product page of grouped product at all themes.
  -  Stripes theme got better product page styles. No more content floating and jumping. All parts of product page are at the same places at any product. Slightly changed product image gallery at mobile view.
  -  Force theme product page looks perfect when expanded layout for tabs enabled.
@@ -44,6 +45,49 @@ category: Argento
  -  Added "alt" to higllight title-images (mostly used when carousel enabled).
  -  Fixed duplicated 2nd page in casousel when there are products only for one page.
  -  Fixed carousel when it didn’t show more then two pages even when there are more products available.
+ 
+**swissup/module-hover-gallery — 1.3.1** (was 1.3.0)
+
+ -  Fixed always visible hover image at Magento 2.2.x.
+ -  Respect image visibility.
+
+**swissup/module-navigationpro — 1.13.3** (was 1.13.1)
+
+ -  Prevent unwanted accordion collapse on mobile devices when click outside of the menu.
+ -  Fixed invalid category links when using iconic or megamenu with thumbnails menu types.
+ -  Fixed bug when new category wasn’t added to the menu’s.
+ 
+**swissup/module-pro-labels — 1.4.1** (was 1.3.7)
+
+ -  Added advanced text editor for product labels text and CSS in Magento AdminAdvanced text editor based on CodeMirror library.
+ -  Fixed missing onSale label for grouped products.
+ -  Improve stability at frontend. Prevent division by zero. Occurs when product special price is 0.
+ 
+**swissup/module-reviewreminder — 1.1.3** (was 1.1.2)
+
+ -  Fixed wrong grouped products link in email.
+ -  Fixed rare issue when customer email is empty
+ 
+**swissup/module-rich-snippets — 1.4.5** (was 1.4.4) 
+
+ -  Change how configurable product is presented in data snippet. Now it is a product with multiple offers.
+ -  User can specify properties in `offers` and `aggregatedRating` parts of data snippet. It is possible with "Structured data" option in config. Syntax example for "Property Name" column - `offers/mpn`.
+
+**swissup/module-slick-carousel — 1.3.2** (was 1.3.1)
+
+ -  Fixed distorted slider images on mobile devices.
+ 
+**swissup/module-seo-templates — 1.5.3** (was 1.4.2)
+
+ -  Generate alternate text for product images.
+ -  CLI command to generate metadata - `bin/magento swissup:seotemplates:generate`.
+ -  Significant improvements for metadata generation via Cron. No more problems with Magento Cache when job is running.
+ 
+**swissup/module-sold-together — 1.6.5** (was 1.6.4)
+
+ -  Fixed message "Requested product does not exists" on edit product in Magento Admin. Error occurs when assigned product deleted.
+ -  Fixed infinit loader in "Add Customers Bought Together" popup at product edit in Magento Admin when popup open before before "Add Frequently Bought Products" popup.
+ -  New breakpoints in carousel for "Customers also buy" widget.
 
 ### Version 1.14.1
 
