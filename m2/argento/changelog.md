@@ -7,6 +7,44 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.14.2
+
+> Dec 6, 2019
+
+ -  New option for product tabs - load content with ajax. More details you can find at [Swissup Easytabs module](/m2/extensions/easytabs/) docs.
+ -  Few style improvements for product page of grouped product at all themes.
+ -  Stripes theme got better product page styles. No more content floating and jumping. All parts of product page are at the same places at any product. Slightly changed product image gallery at mobile view.
+ -  Force theme product page looks perfect when expanded layout for tabs enabled.
+ 
+**Extensions Updates**
+
+**swissup/module-ajaxsearch — 1.8.3** (was 1.8.1)
+
+ -  Product price in search results respects tax include/exlude setting.
+ 
+**swissup/module-amp — 1.3.7** (was 1.3.6)
+
+ -  Fixed overlap for long submenus.
+ 
+**swissup/module-easybanner — 1.5.0** (was 1.4.0)
+
+ -  [Exit-intent](/m2/extensions/easybanners/interfaces/#conditions-tab) popup banners added. See [Newsletter popup example](/m2/extensions/easybanners/use-cases/newsletter-popup/).
+ -  Fixed non-editable date field in backend conditions tab.
+ -  JS code improvements.
+ 
+**swissup/module-easytabs — 1.8.2** (was 1.7.3)
+
+ -  New option for tab "Load content with Ajax". The biggest benefit from this option is reduce initial page size.
+ -  Totally reworked admin interfaces for tab editing. Edit form build as Magento 2 UI Component. It looks up to date and works like a charm.
+ -  No more separate grids for product tabs and widget tabs. All in one place. Product tabs has field "Hide on Product" as No and widget tabs "Hide on Product" - Yes.
+ -  Block HTML cache and Full Page Cache marked as invalidated after tab save.
+ 
+**swissup/module-highlight — 1.5.5** (was 1.5.4)
+
+ -  Added "alt" to higllight title-images (mostly used when carousel enabled).
+ -  Fixed duplicated 2nd page in casousel when there are products only for one page.
+ -  Fixed carousel when it didn’t show more then two pages even when there are more products available.
+
 ### Version 1.14.1
 
 > Oct 16, 2019
