@@ -17,6 +17,7 @@ category: Argento
  -  Few style improvements for product page of grouped product at all themes.
  -  Stripes theme got better product page styles. No more content floating and jumping. All parts of product page are at the same places at any product. Slightly changed product image gallery at mobile view.
  -  Force theme product page looks perfect when expanded layout for tabs enabled.
+ -  Force theme - fixed missing review form at product on Magento 2.2.x.
  
 **Extensions Updates**
 
