@@ -8,6 +8,13 @@ category: Accelerated Mobile Pages
 
 # Changelog
 
+### Version 1.3.7
+
+> Dec 6, 2019
+
+ -  Fixed overlap for long submenus.
+ -  Code cleanup in [Swissup Easy Catalog Images module](/m2/extensions/easycatalogimages/changelog/).
+
 ### Version 1.3.6
 
 > Sep 25, 2019
