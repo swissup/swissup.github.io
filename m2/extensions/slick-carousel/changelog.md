@@ -8,6 +8,18 @@ category: SlickCarousel
 
 # Changelog
 
+### Version 1.3.2
+
+> Dec 6, 2019
+
+ -  Fixed distorted slider images on mobile devices.
+
+### Version 1.3.1
+
+> Sep 4, 2019
+
+ -  Move arrows font to less, base64 encoded. It reduces number of requests from page.
+
 ### Version 1.3.0
 
  -  SlickCarousel library updated to version 1.8.1. Deprecation notices removed
