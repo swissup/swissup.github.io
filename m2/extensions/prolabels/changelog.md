@@ -8,6 +8,12 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.4.1
+
+> Dec 6, 2019
+
+ -  Improve stability at frontend. Prevent division by zero. Occurs when product special price is 0.0000.
+
 ### Version 1.4.0
 
 > Nov 19, 2019
