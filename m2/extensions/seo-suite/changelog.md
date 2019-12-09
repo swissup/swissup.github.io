@@ -8,6 +8,19 @@ category: SEO Suite
 
 # Changelog
 
+### Version 1.8.1
+
+> Dec 9, 2019
+
+*swissup/module-hreflang — 1.3.3* (was 1.3.2)
+
+ -  Improve module stability.
+ 
+*swissup/module-seo-templates — 1.5.3* (was 1.5.0)
+
+ -  Fixed "Area code is not set on 2.2.x" in bin/magento.
+ -  Improve categories directive for product templates. Do not output parent category when product assigned to child category and parent category.
+
 ### Version 1.8.0
 
 > Nov 7, 2019
