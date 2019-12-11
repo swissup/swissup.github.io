@@ -8,6 +8,15 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.13.4
+
+> Dec 11, 2019
+
+ -  Fixed possible webserver error in developer mode when a lot a categories
+    are loaded in menu and FPC is enabled. (Size of 'X-Magento-Tags' header.)
+ -  Fixed issues with Magento Page Builder functionality inside NavigationPro
+    backend forms.
+
 ### Version 1.13.3
 
 > Dec 6, 2019
