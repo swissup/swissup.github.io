@@ -8,6 +8,12 @@ category: SEO Suite
 
 # Changelog
 
+### Version 1.8.2
+
+> Dec 13, 2019
+
+ -  Improved and tested with Magento Enterprise Cloud Edition.
+
 ### Version 1.8.1
 
 > Dec 9, 2019
