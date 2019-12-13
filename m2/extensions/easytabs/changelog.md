@@ -8,6 +8,13 @@ category: Easy Tabs
 
 # Changelog
 
+### Version 1.8.3
+
+> Dec 13. 2019
+
+ -  Small improvement to edit tab form.
+ -  Fixed to work at Magento Enterprise Cloud Edition.
+
 ### Version 1.8.2
 
 > Dec 6, 2019
