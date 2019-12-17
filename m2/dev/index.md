@@ -56,6 +56,7 @@ composer require\
     swissup/module-checkout-cart\
     swissup/module-checkout-fields\
     swissup/module-checkout-success\
+    swissup/module-code-mirror\
     swissup/module-compare\
     swissup/module-core\
     swissup/module-customer-field-manager\
