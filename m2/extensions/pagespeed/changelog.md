@@ -8,6 +8,13 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.3.7
+
+> Dec 30, 2019
+
+**Fixes**
+ - Fix broken admin configuration page
+
 ### Version 1.3.6
 
 > Nov 18, 2019
