@@ -8,6 +8,13 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.13.5
+
+> Jan 08, 2020
+
+ -  Inform about incorrect category data when importing items. (No errors were
+    shown previously.)
+
 ### Version 1.13.4
 
 > Dec 11, 2019
