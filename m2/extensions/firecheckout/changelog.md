@@ -12,7 +12,7 @@ category: Firecheckout
 
 > Jan 8, 2020
 
- -  Added syntax highlighter to the "Custom CSS", "Custom JS", "Custom LESS".
+ -  Added syntax highlighter to the "Custom CSS", "Custom JS", "Custom LESS"
     [config fields](/m2/extensions/firecheckout/configuration/#custom-css-and-js-settings-section).
     Writing custom styles and javascript is much more pleasant now.
  -  16 locales added to translate backend and frontend phrases:
