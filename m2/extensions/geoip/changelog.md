@@ -8,6 +8,28 @@ category: Geoip
 
 # Changelog
 
+### Version 1.4.0
+
+> Jan 8, 2020
+
+ -  16 locales added to translate backend and frontend phrases:
+    - Arabic
+    - Chinese
+    - Dutch
+    - French
+    - Hebrew
+    - Italian
+    - German
+    - Japanese
+    - Norwegian
+    - Korean
+    - Polish
+    - Portuguese
+    - Russian
+    - Spanish
+    - Swedish
+    - Ukrainian
+
 ### Version 1.3.1
 
 > Sep 27, 2019

@@ -8,6 +8,30 @@ category: Checkout Success
 
 # Changelog
 
+### Version 1.4.0
+
+> Jan 8, 2020
+
+ -  Added syntax highlighter to the "Miscellaneous scripts and HTML" config field.
+    Writing custom HTML and javascript is much more pleasant now.
+ -  16 locales added to translate backend and frontend phrases:
+    - Arabic
+    - Chinese
+    - Dutch
+    - French
+    - Hebrew
+    - Italian
+    - German
+    - Japanese
+    - Norwegian
+    - Korean
+    - Polish
+    - Portuguese
+    - Russian
+    - Spanish
+    - Swedish
+    - Ukrainian
+
 ### Version 1.3.5
 
 > Oct 16, 2019

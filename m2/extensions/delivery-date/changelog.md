@@ -7,6 +7,29 @@ category: Delivery Date
 
 # Changelog
 
+### Version 1.5.0
+
+> Jan 8, 2020
+
+ -  Fixed possible error at checkout success page
+ -  16 locales added to translate backend and frontend phrases:
+    - Arabic
+    - Chinese
+    - Dutch
+    - French
+    - Hebrew
+    - Italian
+    - German
+    - Japanese
+    - Norwegian
+    - Korean
+    - Polish
+    - Portuguese
+    - Russian
+    - Spanish
+    - Swedish
+    - Ukrainian
+
 ### Version 1.4.5
 
 > Oct 16, 2019

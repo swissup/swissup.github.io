@@ -8,6 +8,28 @@ category: Address Field Manager
 
 # Changelog
 
+### Version 1.5.0
+
+> Jan 8, 2020
+
+ -  16 locales added to translate backend and frontend phrases:
+    - Arabic
+    - Chinese
+    - Dutch
+    - French
+    - Hebrew
+    - Italian
+    - German
+    - Japanese
+    - Norwegian
+    - Korean
+    - Polish
+    - Portuguese
+    - Russian
+    - Spanish
+    - Swedish
+    - Ukrainian
+
 ### Version 1.4.3
 
 > Dec 19, 2018
