@@ -8,6 +8,12 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.21.1
+
+> Jan 9, 2020
+
+ -  Fixed order totals update when delivery date is required
+
 ### Version 1.21.0
 
 > Jan 8, 2020
