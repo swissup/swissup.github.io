@@ -8,6 +8,29 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.13.5
+
+> Jan 08, 2020
+
+ -  Inform about incorrect category data when importing items. (No errors were
+    shown previously.)
+
+### Version 1.13.4
+
+> Dec 11, 2019
+
+ -  Fixed possible webserver error in developer mode when a lot a categories
+    are loaded in menu and FPC is enabled. (Size of 'X-Magento-Tags' header.)
+ -  Fixed issues with Magento Page Builder functionality inside NavigationPro
+    backend forms.
+
+### Version 1.13.3
+
+> Dec 6, 2019
+
+ -  Fixed invalid category links when using iconic or megamenu with thumbnails menu types.
+ -  Fixed bug when new category wasn't added to the menu's.
+
 ### Version 1.13.2
 
 > Oct 29, 2019

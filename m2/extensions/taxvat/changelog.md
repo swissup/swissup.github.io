@@ -8,6 +8,28 @@ category: Checkout VAT
 
 # Changelog
 
+### Version 1.3.0
+
+> Jan 8, 2020
+
+ -  16 locales added to translate backend and frontend phrases:
+    - Arabic
+    - Chinese
+    - Dutch
+    - French
+    - Hebrew
+    - Italian
+    - German
+    - Japanese
+    - Norwegian
+    - Korean
+    - Polish
+    - Portuguese
+    - Russian
+    - Spanish
+    - Swedish
+    - Ukrainian
+
 ### Version 1.2.2
 
 > May 23, 2019

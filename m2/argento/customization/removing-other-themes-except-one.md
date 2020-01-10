@@ -10,7 +10,7 @@ category: Argento
 # Removing other themes except one
 
 Often clients have only one storeview and want to use just one theme design.
-But when running the `static content deploy` , `compolation` or putting site to
+But when running the `static content deploy` , `compilation` or putting site to
 **production mode** Magento is starting to deploy all the theme designs.
 To save the time you can **disable** not used themes using following instructions:
 

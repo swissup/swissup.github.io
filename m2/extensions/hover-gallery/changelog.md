@@ -8,6 +8,13 @@ category: Hover Gallery
 
 # Changelog
 
+### Version 1.3.1
+
+> Dec 6, 2019
+
+ -  Fixed alwasy visible hover image at Magento 2.2.x.
+ -  Respect image visibility.
+
 ### Version 1.3.0
 
 > Oct 16, 2019

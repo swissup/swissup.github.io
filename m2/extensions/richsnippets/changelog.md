@@ -8,6 +8,12 @@ category: Rich Snippets
 
 # Changelog
 
+### Version 1.4.6
+
+> Dec 13, 2019
+
+ -  Fixed possible PHP notice $offers undefined.
+
 ### Version 1.4.5
 
 > Oct 28, 2019

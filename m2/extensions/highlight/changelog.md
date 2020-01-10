@@ -8,6 +8,14 @@ category: Highlight
 
 # Changelog
 
+### Version 1.5.5
+
+> Dec 6, 2019
+
+ -  Added "alt" to higllight title-images (mostly used when carousel enabled).
+ -  Fixed duplicated 2nd page in casousel when there are products only for one page.
+ -  Fixed carousel when it didn't show more then two pages even when there are more products available.
+
 ### Version 1.5.2
 
 > Apr 05, 2019

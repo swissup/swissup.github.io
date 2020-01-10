@@ -8,6 +8,57 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.21.1
+
+> Jan 9, 2020
+
+ -  Fixed order totals update when delivery date is required
+
+### Version 1.21.0
+
+> Jan 8, 2020
+
+ -  Added syntax highlighter to the "Custom CSS", "Custom JS", "Custom LESS"
+    [config fields](/m2/extensions/firecheckout/configuration/#custom-css-and-js-settings-section).
+    Writing custom styles and javascript is much more pleasant now.
+ -  16 locales added to translate backend and frontend phrases:
+    - Arabic
+    - Chinese
+    - Dutch
+    - French
+    - Hebrew
+    - Italian
+    - German
+    - Japanese
+    - Norwegian
+    - Korean
+    - Polish
+    - Portuguese
+    - Russian
+    - Spanish
+    - Swedish
+    - Ukrainian
+ -  Prevent unwanted order totals reload on initial page load.
+ -  Fixed order totals update when change shipping method when "Multistep Wizard"
+    layout is used.
+ -  Fixed missing "Custom LESS" styles when deploy static content from CLI.
+ -  Small css fixes.
+
+**Modules Updates**
+
+**swissup/module-checkout-fields — 1.4.0** (was 1.3.1)
+
+ -  Fixed error on order view page caused by wrong date format
+ -  Fixed missing checkout field values when making request through the Magento API
+
+**swissup/module-delivery-date — 1.5.0** (was 1.4.5)
+
+ -  Fixed possible error at checkout success page
+
+**swissup/module-orderattachment — 1.4.0** (was 1.3.4)
+
+ -  Fixed serialize error in full page cache module when downloading attachment
+
 ### Version 1.20.1
 
 > Oct 16, 2019

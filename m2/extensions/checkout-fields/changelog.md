@@ -8,6 +8,30 @@ category: Checkout Fields
 
 # Changelog
 
+### Version 1.4.0
+
+> Jan 8, 2020
+
+ -  Fixed error on order view page caused by wrong date format
+ -  Fixed missing checkout field values when making request through the Magento API
+ -  16 locales added to translate backend and frontend phrases:
+    - Arabic
+    - Chinese
+    - Dutch
+    - French
+    - Hebrew
+    - Italian
+    - German
+    - Japanese
+    - Norwegian
+    - Korean
+    - Polish
+    - Portuguese
+    - Russian
+    - Spanish
+    - Swedish
+    - Ukrainian
+
 ### Version 1.3.1
 
 > Oct 16, 2019

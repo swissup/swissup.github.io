@@ -8,6 +8,12 @@ category: reCAPTCHA
 
 # Changelog
 
+### Version 1.2.3
+
+> Dec 6, 2019
+
+ -  Remove 'jquery/ui' dependency to prevent message about slow performance in browser console at Magento 2.3.
+
 ### Version 1.2.2
 
 > Jul 29, 2019
