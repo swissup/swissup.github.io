@@ -151,7 +151,9 @@ additional modifications.
 ### Shipping and Payment related modules
 
 - Amasty_Methods
+- [Amasty_Commonrules](amasty-commonrules/)
 - [Amasty_Payrestriction](amasty-payrestriction/)
+- [Amasty_Shiprules](amasty-shiprules/)
 - [Amasty_Shiprestriction](amasty-shiprestriction/)
 - [Intrum_Cdp](intrum_cdp/)
 - [Ship and pay combo](mymonki-ship2pay/)
