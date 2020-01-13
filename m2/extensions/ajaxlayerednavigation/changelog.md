@@ -7,6 +7,19 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.3.11
+
+> Jan 13, 2020
+
+**Bugfixes**
+ - Remove unused virtual type
+ - Fix : Broken multiple apply when Ajax is not used (close #53)
+ - Fix single option bug (for multiselect)
+
+**Features**
+ - Refactoring Attribute filter code (#55)
+ - Refactor getFacetedData in Attribute
+
 ### Version 1.3.10
 
 > Nov 18, 2019
