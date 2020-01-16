@@ -6,6 +6,13 @@ keywords: Helpdesk changelog
 category: Helpdesk
 ---
 
+### Version 1.1.5
+
+> Jan 16, 2020
+
+**Fixes**
+ - Add AuthorName in email templates (re close #9)
+
 ### Version 1.1.4
 
 > Nov 15, 2019
