@@ -6,6 +6,14 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.8.4
+
+> Jan 14, 2020
+
+**Bugfixes**
+ - Fix : No suggestions popup for second query (#37)
+ - Fix elasticsearch integration (#16)
+
 ### Version 1.8.3
 
 > Nov 15, 2019

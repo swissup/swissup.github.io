@@ -10,11 +10,15 @@ category: Seo Pagination
 
 ![Rel="next" and rel="prev"](/images/m2/seo-pager/example.png)
 
-Current extension improves presentation of paginated content for search engines. It follows latest recommendations from Google webmaster guide - [Indicate paginated content](https://support.google.com/webmasters/answer/1663744).
+Current extension improves presentation of paginated content for search engines. 
 
-This extension adds **'view-all' link** for paginated content also. Search engines appreciate it as well as regular visitors. Because they can find all products at one page.
+> Prev/Next recommendation from Google webmaster guide is outdated since spring of 2019 ([https://support.google.com/webmasters/thread/2783047?hl=en](https://support.google.com/webmasters/thread/2783047?hl=en)). 
+> 
+> Original article -- [Indicate paginated content](https://webmasters.googleblog.com/2011/09/pagination-with-relnext-and-relprev.html).
 
-We implemented multiple strategies for paginated content. So you can choose one that suites best for your store. Our favorite strartegy for paginated content is enabled 'view-all' link + rel="next" and rel="prev". That is why we use it by default. But you always can change it in [configuration](configuration/).
+This extension adds **'view-all' link** for paginated content. Search engines appreciate it as well as regular visitors. Because they can find all products at one page.
+
+We implemented multiple strategies for content with pages. So you can choose one that suites best for your store. Our favorite strartegy (and most relevant one)  is enabled 'view-all' link + use it as canonical. That is why we use it by default. But you always can change it in [configuration](configuration/).
 
 Other great feature is **page number in title**. It helps to avoid possible duplicate content issues.
 

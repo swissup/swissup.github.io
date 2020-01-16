@@ -29,7 +29,7 @@ With "_Show view-all link_" you can show or hide view all link at listing toolba
 
  -  **Leave as-is**. Relay on search engine and its logic only.
  -  **Use rel="canonical" to view all page**. Tell search engine that the View All page is the version you want to appear in search results. So it will crawle this page.
- -  **Use rel="next" and rel="prev"** links to indicate the relationship between component URLs. This markup provides a strong hint to search engine that you would like us to treat these pages as a logical sequence, thus consolidating their linking properties and usually sending searchers to the first page.
+ -  **Use rel="next" and rel="prev"** (deprecated) links to indicate the relationship between component URLs. This markup provides a strong hint to search engine that you would like us to treat these pages as a logical sequence, thus consolidating their linking properties and usually sending searchers to the first page.
 
 ### Page Title
 

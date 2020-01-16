@@ -8,6 +8,24 @@ category: AjaxPro
 
 ### Version 1.4.13
 
+> Jan 13, 2020
+
+ - Fix document.write() js eval
+ - Remove 'block not exist' debug messages
+ - Override messages.phtml for messages block. To remove coockieMessages displaying
+ - Improve layout builder
+ - Fix circular dependecy
+
+
+### Version 1.4.14
+
+> 11 Dec 2019
+
+ - Fixed missing add to cart popup in production mode
+ - Fix: Product with custom options add to cart fails (close #22)
+
+### Version 1.4.13
+
 > Nov 15, 2019
 
  - MEQP improvements (severity 9)

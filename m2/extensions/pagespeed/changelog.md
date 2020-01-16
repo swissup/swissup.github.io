@@ -8,6 +8,19 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.3.8
+
+> Jan 16, 2020
+
+**Fixes**
+ - Fix possible bug 'sent too big header' http/2 over 4k (nginx max) 286c00
+ - Fix advanced js bundlimg with .min.js suffix 3e4e6c
+
+**Features**
+ - Add integration with option 'Use CSS critical path' adf828
+ - Minify block_html before save to cache (#17) 9a459a
+ - New naming rule for webp files, name.jpg => name.jpg.webp (close #18) e8fb4a
+
 ### Version 1.3.7
 
 > Dec 30, 2019
