@@ -102,8 +102,12 @@ variables or `reset` mixin:
 
 ```scss
 // remove squama styles completely
-.page-products .products-grid .product-item,
-.block.widget .products-grid .product-item {
-    .argento-listing-squama-reset();
+.media-width(@extremum, @break) when (@extremum = 'min') and (@break = @screen__m) {
+    .page-products,
+    .block.widget {
+        .products-grid .product-items:not(.slick-slider) .product-item {
+            .argento-listing-squama-reset();
+        }
+    }
 }
 ```
