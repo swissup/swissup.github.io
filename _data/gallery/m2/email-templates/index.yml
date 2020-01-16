@@ -1,0 +1,15 @@
+- href: /images/m2/email-templates/template/forgot-password.png
+  src: /images/m2/email-templates/template/small/forgot-password.png
+  title: Forgot password email
+  w: 720
+  h: 560
+- href: /images/m2/email-templates/template/new-account.png
+  src: /images/m2/email-templates/template/small/new-account.png
+  title: Customer registration email
+  w: 720
+  h: 1160
+- href: /images/m2/email-templates/template/new-order.png
+  src: /images/m2/email-templates/template/small/new-order.png
+  title: New order email
+  w: 720
+  h: 1300
