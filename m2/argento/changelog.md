@@ -7,47 +7,98 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.15.0
+
+> Jan 17, 2020
+
+> [Upgrade Instructions](/m2/argento/upgrade-instructions/#version-1142---1150)
+
+ -  New [**Pagespeed module**](/m2/extensions/pagespeed/) added
+ -  Theme Editor: allow using SVG base64 in background image config
+ -  Improved toolbar sorter styles on mobile devices
+ -  Fixed distorted images on mobile devices
+ -  Argento Essence: improved sidebar products styles on mobile devices
+ -  Argento Stripes: fixed homepage banners styles
+ -  Argento Force: fixed missing reviews form at product page on Magento 2.2.x
+ -  Argento Flat and Pure 2: enabled lazyload for brands slider
+
+**Extensions Updates**
+
+ -  [Ajax Pro](/m2/extensions/ajaxpro/) — 1.4.15 (was 1.4.13)
+    -   Fixed add to cart for products with options
+    -   Added display of backorders notifications
+ -  [Ajax Search](/m2/extensions/ajaxsearch/) — 1.8.4 (was 1.8.3)
+    -   Added Elasticsearch integration
+    -   Fixed missing suggestions popup for second query
+ -  [AMP](/m2/extensions/amp/) — 1.3.8 (was 1.3.7)
+    -   Allowed CMS block widgets on AMP
+    -   Removed loader when critical CSS is enabled
+  - [Attribute Pages](/m2/extensions/attributepages/) — 1.2.2 (was 1.2.1)
+    -   Do not display products not assigned to any category
+ -  [Easy Tabs](/m2/extensions/easytabs/) — 1.8.4 (was 1.8.2)
+    -   Fixed error when using module on Magento Cloud
+    -   Fixed not loaded reviews when expanded layout enabled
+ -  [GDPR](/m2/extensions/gdpr/) — 1.2.1 (was 1.2.0)
+    -   Fixed broken ACL resources page
+ -  [Hover Gallery](/m2/extensions/hover-gallery/) — 1.3.2 (was 1.3.1)
+    -   Don't render prolabels for hover image
+ -  [Navigation Pro](/m2/extensions/navigationpro/) — 1.13.5 (was 1.13.3)
+    -   Fixed issues with Magento Page Builder inside NavigationPro forms
+    -   Fixed ‘X-Magento-Tags’ header size issue
+    -   Display message about incorrect category data when importing items
+ -  [Seo Suite](/m2/extensions/seo-suite/) — 1.8.3 (was 1.8.1)
+     -  Added translation files to all modules
+     -  Improved compatibility with Magento Commerce Cloud
+     -  *Seo Canonical*:
+         -  Do not add canonical to root category
+     -  *Rich Snippets*:
+         -  Fixed possible PHP notice $offers is undefined
+     -  *Seo Images*:
+         -  Compatibility with Magento 2 Commerce
+     -  *Seo URLs*:
+         -  Show 404 page when unrecognized characters found in url
+
 ### Version 1.14.2
 
 > Dec 6, 2019
 
  -  New option for product tabs - load content with ajax. More details you can find at [Swissup Easytabs module](/m2/extensions/easytabs/) docs.
  -  New banner [Exit-intent](/m2/extensions/easybanners/interfaces/#conditions-tab) popup added. Check [Newsletter popup example](/m2/extensions/easybanners/use-cases/newsletter-popup/) powered by Swissup Easybanners module.
- -  New SEO feature - templates for product image alternate text. Check more details at [Swissup Metadata Template module](/m2/extensions/seo-templates/) docs. 
+ -  New SEO feature - templates for product image alternate text. Check more details at [Swissup Metadata Template module](/m2/extensions/seo-templates/) docs.
  -  Few style improvements for product page of grouped product at all themes.
  -  Stripes theme got better product page styles. No more content floating and jumping. All parts of product page are at the same places at any product. Slightly changed product image gallery at mobile view.
  -  Force theme product page looks perfect when expanded layout for tabs enabled.
  -  Force theme - fixed missing review form at product on Magento 2.2.x.
- 
+
 **Extensions Updates**
 
 **swissup/module-ajaxsearch — 1.8.3** (was 1.8.1)
 
  -  Product price in search results respects tax include/exlude setting.
- 
+
 **swissup/module-amp — 1.3.7** (was 1.3.6)
 
  -  Fixed overlap for long submenus.
- 
+
 **swissup/module-easybanner — 1.5.0** (was 1.4.0)
 
  -  [Exit-intent](/m2/extensions/easybanners/interfaces/#conditions-tab) popup banners added.
  -  Fixed non-editable date field in backend conditions tab.
  -  JS code improvements.
- 
+
 **swissup/module-easytabs — 1.8.2** (was 1.7.3)
 
  -  New option for tab "Load content with Ajax". The biggest benefit from this option is reduce initial page size.
  -  Totally reworked admin interfaces for tab editing. Edit form build as Magento 2 UI Component. It looks up to date and works like a charm.
  -  No more separate grids for product tabs and widget tabs. All in one place. Product tabs has field "Hide on Product" as No and widget tabs "Hide on Product" - Yes.
  -  Block HTML cache and Full Page Cache marked as invalidated after tab save.
- 
+
 **swissup/module-highlight — 1.5.5** (was 1.5.4)
 
  -  Added "alt" to higllight title-images (mostly used when carousel enabled).
  -  Fixed duplicated 2nd page in casousel when there are products only for one page.
  -  Fixed carousel when it didn’t show more then two pages even when there are more products available.
- 
+
 **swissup/module-hover-gallery — 1.3.1** (was 1.3.0)
 
  -  Fixed always visible hover image at Magento 2.2.x.
@@ -58,19 +109,19 @@ category: Argento
  -  Prevent unwanted accordion collapse on mobile devices when click outside of the menu.
  -  Fixed invalid category links when using iconic or megamenu with thumbnails menu types.
  -  Fixed bug when new category wasn’t added to the menu’s.
- 
+
 **swissup/module-pro-labels — 1.4.1** (was 1.3.7)
 
  -  Added advanced text editor for product labels text and CSS in Magento AdminAdvanced text editor based on CodeMirror library.
  -  Fixed missing onSale label for grouped products.
  -  Improve stability at frontend. Prevent division by zero. Occurs when product special price is 0.
- 
+
 **swissup/module-reviewreminder — 1.1.3** (was 1.1.2)
 
  -  Fixed wrong grouped products link in email.
  -  Fixed rare issue when customer email is empty
- 
-**swissup/module-rich-snippets — 1.4.5** (was 1.4.4) 
+
+**swissup/module-rich-snippets — 1.4.5** (was 1.4.4)
 
  -  Change how configurable product is presented in data snippet. Now it is a product with multiple offers.
  -  User can specify properties in `offers` and `aggregatedRating` parts of data snippet. It is possible with "Structured data" option in config. Syntax example for "Property Name" column - `offers/mpn`.
@@ -78,13 +129,13 @@ category: Argento
 **swissup/module-slick-carousel — 1.3.2** (was 1.3.1)
 
  -  Fixed distorted slider images on mobile devices.
- 
+
 **swissup/module-seo-templates — 1.5.3** (was 1.4.2)
 
  -  Generate alternate text for product images.
  -  CLI command to generate metadata - `bin/magento swissup:seotemplates:generate`.
  -  Significant improvements for metadata generation via Cron. No more problems with Magento Cache when job is running.
- 
+
 **swissup/module-sold-together — 1.6.5** (was 1.6.4)
 
  -  Fixed message "Requested product does not exists" on edit product in Magento Admin. Error occurs when assigned product deleted.
