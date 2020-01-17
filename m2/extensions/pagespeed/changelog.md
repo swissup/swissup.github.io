@@ -8,6 +8,16 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.3.9
+
+> Jan 17, 2020
+
+**Improvments**
+ - Move critical css output to page head (before <link>)
+
+**Fixes**
+ - Fix config path to use_css_critical_path
+
 ### Version 1.3.8
 
 > Jan 16, 2020
