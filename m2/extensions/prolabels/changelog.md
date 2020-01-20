@@ -8,6 +8,12 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.4.2
+
+> Jan 20, 2020
+
+ -  Improvements for labels at configurable product. Show labels from child products when options selected.
+
 ### Version 1.4.1
 
 > Dec 6, 2019
