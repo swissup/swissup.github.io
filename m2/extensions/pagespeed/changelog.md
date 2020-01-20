@@ -8,6 +8,14 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.3.10
+
+> Jan 20, 2020
+
+**Fixes**
+ - Fix: backward compatability with magento 2.[1-2] was added
+ - Add bugfix patch for 'segmentaion fault' with cacheInterface plugin
+
 ### Version 1.3.9
 
 > Jan 17, 2020
