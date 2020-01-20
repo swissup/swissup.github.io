@@ -365,4 +365,48 @@ Admin -> System -> Web Setup Wizard -> System Config - put Your Magento keys "Pu
 ```
 You can get keys from Your [Magento account page](https://marketplace.magento.com/customer/accessKeys/)
 
+### Cool [patch applying](https://github.com/vaimo/composer-patches)
 
+[Vaimo Composer Patches](https://github.com/vaimo/composer-patches)
+
+
+Example - Composer 'elasticsearch fail' patch for Magento 2.3.1
+
+1. Install composer patcher
+>Applies a patch from a local or remote file to any package that is part of a given composer project.
+
+```bash
+    composer require vaimo/composer-patches
+```
+
+1a.Get file checksum
+
+```bash
+    sha1sum 1.patch
+```
+
+2. In composer.json add patch configuration
+
+```json
+        "extra": {
+            "magento-force": "override",
+            "patches": {
+                "magento/framework": {
+                    "Fix: https://github.com/magento/magento2/issues/21916": {
+                        "source": "https://raw.githubusercontent.com/ConvertGroupsAS/magento2-patches/master/Patch-Magento_Framework-M2.3.1-fix-elasticsearch-generation.patch",
+                        "sha1": "e9354feadd0fde8a2edef3ab6865574a0b7254c9",
+                        "version": [
+                            ">=102.0.1 <102.0.2"
+                        ]
+                    }
+                }
+            }
+        }
+```
+
+Show and apply patches
+
+```bash
+    composer config extra
+    composer update vaimo/composer-patches
+```
