@@ -62,25 +62,23 @@ Please follow the next steps:
 
 1. Open `Store -> Attributes -> Product`.
 
-2. Find attribute `new`.
+2. Find attribute `new`. It comes with Magento 2 Sample Data, so you can create it manually if you don't have it. It should have Yes/No type and `new` as attribute code.
 
-![screenshot from 2017-12-18 11-14-55](https://user-images.githubusercontent.com/412612/34098373-bde2eaa4-e3e4-11e7-933b-1d6ce717a036.png)
+    ![screenshot from 2017-12-18 11-14-55](https://user-images.githubusercontent.com/412612/34098373-bde2eaa4-e3e4-11e7-933b-1d6ce717a036.png)
 
-3. Open Storefront Properties and find `Use in Layered Navigation`. Check/set `Filterable with results` (by default Yes).
+3. Open Storefront Properties section and find `Use in Layered Navigation` config - set it `Filterable (with results)`.
 
-![screenshot from 2017-12-18 11-16-18](https://user-images.githubusercontent.com/412612/34098410-e83e3d94-e3e4-11e7-92bb-373b0e3ce283.png)
+    ![screenshot from 2017-12-18 11-16-18](https://user-images.githubusercontent.com/412612/34098410-e83e3d94-e3e4-11e7-92bb-373b0e3ce283.png)
 
-4. In console run - `php bin/magento indexer:reindex`.
+4. Execute re-index in console: `php bin/magento indexer:reindex`.
 
 5. How to set product as New in Magento 2:
 
- -  Click on “products” -> “catalog“:
- -  Choose the product that you want to change and click into”edit”.
- -  Rolling the mouse down to relatively the end of the page, click on ” Autosettings”.
- -  Fill the “Date blank“.
- -  Save all changes.
+    - Go `Catalog > Products`, choose the product you want to set as New and click "Edit".
+    - Find `Set Product as New From` config and fill the date fields.
+    - Save the changes.
 
-6. Check on the frontend.
+6. Check the frontend.
 
 ![screenshot from 2017-12-14 16-42-33](https://user-images.githubusercontent.com/412612/33997669-cf349072-e0ed-11e7-8678-446f9371ed5c.png)
 
