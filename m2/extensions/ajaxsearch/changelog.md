@@ -6,6 +6,14 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.8.5
+
+> Jan 24, 2020
+
+**Bugfixes**
+ - Add composer requirements
+ - Fix Elastcsearch ItemProvider fatal error in 2.3.1
+
 ### Version 1.8.4
 
 > Jan 14, 2020
