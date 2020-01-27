@@ -8,6 +8,15 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.3.11
+
+> Jan 27, 2020
+
+**Fixes**
+ - Ignore 'text/x-magento-template' in deferJs (close #19)
+ - Add custom img attributes for webp optimiser
+ - Fix webp naming inside js
+
 ### Version 1.3.10
 
 > Jan 20, 2020
