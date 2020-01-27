@@ -9,7 +9,7 @@ category: Email Templates
 # Configuration
 
 Email Templates configuration is located at
-_Stores_ ⇨ _Configuration_ ⇨ _Swissup_ ⇨ _PDF Invoices_.
+_Stores_ ⇨ _Configuration_ ⇨ _Swissup_ ⇨ _Email Templates_.
 
 ![Configuration](/images/m2/email-templates/config.png)
 
