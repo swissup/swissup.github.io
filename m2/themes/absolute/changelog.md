@@ -6,6 +6,15 @@ category: Absolute Theme
 
 # Changelog
 
+### Version 1.3.3
+
+> Jan 29, 2020
+
+ -  Magento 2.3.4 compatibility
+ -  Removed a lot of CSS duplications
+ -  Compatibility with [swissup/marketplace](https://github.com/swissup/module-marketplace)
+    module manager
+
 ### Version 1.3.0
 
 > May 29, 2019
