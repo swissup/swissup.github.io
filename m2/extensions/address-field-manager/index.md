@@ -36,3 +36,4 @@ Works great with standard magento checkout and
      -  [Address Fields Grid](usage/grid)
      -  [Address Fields Form](usage/form)
      -  [Adding Custom Fields to Address Templates](usage/address-templates)
+ 4. [Known issues](known-issues/)
