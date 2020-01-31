@@ -6,6 +6,13 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.8.6
+
+> Jan 31, 2020
+
+**Bugfixes**
+ - mage 2.2 backward compatability improved
+
 ### Version 1.8.5
 
 > Jan 24, 2020

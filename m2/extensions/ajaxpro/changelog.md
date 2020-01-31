@@ -6,7 +6,20 @@ category: AjaxPro
 
 # Changelog
 
-### Version 1.4.13
+### Version 1.4.16
+
+> Jan 31, 2020
+
+**Fixes**
+ - Add 'Grouped products support'
+ - Add composer dependencies
+ - Invalidate 'ajaxpro-cart' localStorage for fixes in 'ajaxpro.checkout.cart.after' (close #24)
+ - Remove not actual code
+ - Update json serializer
+ - Fix some deprecated dependency
+
+
+### Version 1.4.15
 
 > Jan 13, 2020
 

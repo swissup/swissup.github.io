@@ -8,6 +8,14 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.3.12
+
+> Jan 31, 2020
+
+**Fixes**
+ - Fix webp.webp.webp naming inside js
+ - Fix $ext var notice
+
 ### Version 1.3.11
 
 > Jan 27, 2020
