@@ -7,6 +7,19 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.3.12
+
+> Jan 31, 2020
+
+**Bugfixes**
+ - Fix Stock filter after catalog inventory replacements in 2.3
+
+**Features**
+ - Add 'Is Ajax Request Cacheable' config option
+ - New algoritm price min-max, from-to calculating was added
+ - Add price slider option force_edges: true
+ - Update Ion.RangeSlider to 2.3.1
+
 ### Version 1.3.11
 
 > Jan 13, 2020
