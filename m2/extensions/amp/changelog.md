@@ -8,6 +8,15 @@ category: Accelerated Mobile Pages
 
 # Changelog
 
+### Version 1.3.9
+
+> Jan 31, 2020
+
+ -  Fixed missing CMS block when it's inserted as widget.
+ -  Added ability to add styles programmatically.
+    (Integration with [ProLabels](/m2/extensions/prolabels/) module.)
+ -  Code cleanup.
+
 ### Version 1.3.7
 
 > Dec 6, 2019

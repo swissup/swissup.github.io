@@ -8,6 +8,12 @@ category: Easy Banners
 
 # Changelog
 
+### Version 1.5.1
+
+> Jan 31, 2020
+
+ -  Fixed CSS issue with newletter popup in Magento 2.3.4
+
 ### Version 1.5.0
 
 > Nov 22, 2019

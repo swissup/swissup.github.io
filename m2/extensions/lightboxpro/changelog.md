@@ -8,6 +8,15 @@ category: Lightbox Pro
 
 # Changelog
 
+### Version 1.2.1
+
+> Jan 31, 2020
+
+ -  Fixed incorrectly sized image in Magento 2.3.3 when magnifier is used.
+ -  Fixed incorrectly sized thumbnail when gallery is shown on non-product view page.
+    (In third-party ajax popups at home and category pages, for example.)
+ -  Code cleanup. (Removed fixes for old Magento versions (2.0, 2.1))
+
 ### Version 1.2.6
 
 > Oct 16, 2019

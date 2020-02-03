@@ -8,6 +8,13 @@ category: GDPR
 
 # Changelog
 
+### Version 1.2.2
+
+> Jan 31, 2020
+
+ -  Fixed broken ACL resources page in Magento older than 2.3.4
+ -  Fixed too large margin in newsletter checkbox in Magento 2.3.4
+
 ### Version 1.2.0
 
 > Jun 4, 2019

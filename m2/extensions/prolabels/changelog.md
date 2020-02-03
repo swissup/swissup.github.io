@@ -8,6 +8,13 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.5.0
+
+> Jan 31, 2020
+
+ -  [AMP](/m2/extensions/amp/) integration added.
+ -  Code cleanup.
+
 ### Version 1.4.2
 
 > Jan 20, 2020

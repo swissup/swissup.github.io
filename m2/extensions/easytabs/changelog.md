@@ -8,6 +8,13 @@ category: Easy Tabs
 
 # Changelog
 
+### Version 1.8.5
+
+> Jan 31, 2020
+
+ -  Fixed not working ajax tabs at [AMP](/m2/extensions/amp/) pages.
+ -  Stability improvements.
+
 ### Version 1.8.3
 
 > Dec 13. 2019
@@ -42,7 +49,7 @@ category: Easy Tabs
 
 > Nov 11, 2019
 
- -  Fixed exception 'The XML in file "../easytabs.xml" is invalid'. 
+ -  Fixed exception 'The XML in file "../easytabs.xml" is invalid'.
  -  Fixed JS error "this.value.push is not a function". Error occurs for tab type `Product Attribute` when user selects attribute.
  -  Fixed section title'<span>Conditions</span>' in admin at Magento 2.3.3 when edit tab.
  -  Add LESS vars to customize expanded tabs.

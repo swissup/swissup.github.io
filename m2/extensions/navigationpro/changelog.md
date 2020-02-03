@@ -8,6 +8,12 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.13.6
+
+> Jan 31, 2020
+
+ -  Fixed invisible dropdowns in sidebar menu, when it has `.navro-nowrap` class.
+
 ### Version 1.13.5
 
 > Jan 08, 2020

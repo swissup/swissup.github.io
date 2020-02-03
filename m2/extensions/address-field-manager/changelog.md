@@ -8,6 +8,13 @@ category: Address Field Manager
 
 # Changelog
 
+### Version 1.5.1
+
+> Jan 31, 2020
+
+ -  Fixed error at checkout page when using fields with options
+    (select, multiselect) in Magento 2.3.4.
+
 ### Version 1.5.0
 
 > Jan 8, 2020

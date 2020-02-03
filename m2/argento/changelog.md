@@ -7,6 +7,53 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.15.1
+
+> Jan 31, 2020
+
+ -  Magento 2.3.4 compatibility:
+    -  Fixed newsletter block styles.
+    -  Fixed jumping "Product Page" when clicking on a tab.
+    -  Fixed customer menu dropdown styles.
+    -  Fixed too small homepage images.
+ -  [ProLabels](/m2/extensions/prolabels/) is now integrated into
+    [AMP](/m2/extensions/amp/) pages.
+ -  Minor CSS fixes.
+
+**Extensions Updates**
+
+ -  [Ajax Pro](/m2/extensions/ajaxpro/) — 1.4.16 (was 1.4.15)
+    - 'Grouped products' support added.
+    - Code cleanup.
+ -  [Ajax Search](/m2/extensions/ajaxsearch/) — 1.8.6 (was 1.8.4)
+    - Magento 2.2 compatibility
+    - Fixed Elastcsearch ItemProvider fatal in Magento 2.3.1
+ -  [Easybanner](/m2/extensions/easybanner/) — 1.5.1 (was 1.5.0)
+    - Fixed incorrect newsletter block width in Magento 2.3.4
+ -  [Easytabs](/m2/extensions/easytabs/) — 1.8.5 (was 1.8.4)
+    - Fixed not working ajax tabs at [AMP](/m2/extensions/amp/) pages.
+    - Stability improvements.
+ -  [GDPR](/m2/extensions/gdpr/) — 1.2.2 (was 1.2.1)
+    - Fixed broken ACL resources page in Magento older than 2.3.4
+    - Fixed too large margin in newsletter checkbox in Magento 2.3.4
+ -  [LightboxPro](/m2/extensions/lightboxpro/)
+    - Fixed incorrectly sized image in Magento 2.3.3 when magnifier is used.
+    - Fixed incorrectly sized thumbnail when gallery is shown on non-product view page.
+      (In third-party ajax popups at home and category pages, for example.)
+    - Code cleanup. (Removed fixes for old Magento versions (2.0, 2.1))
+ -  [NavigationPro](/m2/extensions/navigationpro/) — 1.13.6 (was 1.13.5)
+    - Fixed invisible dropdowns in sidebar menu, when it has `.navro-nowrap` class.
+ -  [Pagespeed](/m2/extensions/pagespeed/) — 1.3.12 (was 1.3.10)
+    - Fixed broken 'Bundle Product' page when JS Defer is enabled.
+    - Fixed multiple '.webp' extensions added to the filename.
+    - Code cleanup.
+ -  [ProLabels](/m2/extensions/prolabels/) — 1.5.0 (was 1.4.1)
+    - [AMP](/m2/extensions/amp/) integration added.
+    - Improved 'Final Price' calculation for configurable products.
+    - Code cleanup.
+ -  [QtySwitcher](/m2/extensions/qty-switcher/) — 1.1.4 (was 1.1.3)
+    - Fixed incorrect available quantities per selected configurable product.
+
 ### Version 1.15.0
 
 > Jan 17, 2020
