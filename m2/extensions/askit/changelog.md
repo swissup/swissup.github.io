@@ -11,6 +11,15 @@ category: AskIt
 
 # Changelog
 
+### Version 1.6.4
+
+> Feb 3, 2020
+
+ - Check 2.3.4 compatability
+ - Update Json serializer
+ - Add/Update module dependencies
+ - Fix 2.3.4 setMassactionIdField bug (close #41)
+
 ### Version 1.6.3
 
 > Oct 23, 2019
