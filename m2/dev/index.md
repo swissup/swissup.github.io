@@ -350,6 +350,21 @@ Compare a remote file with a local file
 curl -s https://raw.githubusercontent.com/swissup/swissup.github.io/master/m2/dev/index.md | diff m2/dev/index.md -
 ```
 
+5. [Yireo ExtensionChecker](https://github.com/yireo/Yireo_ExtensionChecker)
+
+This extension validates the code of other extensions and is complementary to static code analysis tools like PHPCS.
+
+###### Installation
+```bash
+composer require --dev yireo/magento2-extensionchecker
+bin/magento module:enable Yireo_ExtensionChecker
+```
+
+###### Usage
+```bash
+bin/magento yireo_extensionchecker:scan Swissup_Email
+```
+
 ### Setup Wizard - Authentication errors
 
 1. `ci.swissuplabs.com` packages required authentication
