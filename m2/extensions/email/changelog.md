@@ -8,6 +8,13 @@ category: Email
 
 # Changelog
 
+### Version 0.3.2
+
+> Feb 3, 2020
+
+**Fixes**
+ -  Fixed wrong encoding in Magento 2.3.4
+
 ### Version 0.3.1
 
 > Dec 6, 2019
