@@ -365,6 +365,16 @@ bin/magento module:enable Yireo_ExtensionChecker
 bin/magento yireo_extensionchecker:scan Swissup_Email
 ```
 
+###### Which Magento version matches which package?
+```bash
+curl -s https://gist.githubusercontent.com/0m3r/eff7ff873713e7e7223f08c1e7020f35/raw/fd3c27907dbb0bd23ba33ca70cc295b8700647a7/detector.sh | bash -s 2.2.0,2.3.0 magento/framework,magento/module-store
+
+>composer require magento/framework:^101.0|^102.0
+>composer require magento/module-store:^100.2|^101.0
+>composer require magento/framework:^101.0|^102.0,magento/module-store:^100.2|^101.0
+
+```
+
 ### Setup Wizard - Authentication errors
 
 1. `ci.swissuplabs.com` packages required authentication
