@@ -8,6 +8,13 @@ category: reCAPTCHA
 
 # Changelog
 
+### Version 1.3.0
+
+> Feb 6, 2020
+
+ -  Protect checkout with recaptcha.
+ -  Config recaptcha look for any form with ["Design Exceptions"](../configuration/).
+
 ### Version 1.2.3
 
 > Dec 6, 2019
