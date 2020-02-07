@@ -13,6 +13,8 @@ category: reCAPTCHA
  1. [Installation](installation/)
  2. [Changelog](changelog/)
  3. [Configuration](configuration/)
+ 4. [Use Cases](use-cases/)
+     -  [Captcha at checkout](use-cases#captcha-at-checkout)
 
 Protect your website from spam and abuse while letting real people pass through check with ease. Your customers can now attest they are human without having to solve a CAPTCHA. They will be allowed to confirm they are not a robot via single click only.
 
