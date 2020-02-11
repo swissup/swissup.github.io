@@ -7,6 +7,19 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.3.13
+
+> Feb 11, 2020
+
+**Bugfixes**
+ - Fix categories count
+ - Fix isAjaxRequestCacheableEnabled always true
+
+**Features**
+ - Add Category multiselect
+ - Add Price/AggregationRange
+ - Add elasticsearch price range plugin
+
 ### Version 1.3.12
 
 > Jan 31, 2020
