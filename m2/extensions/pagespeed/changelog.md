@@ -8,6 +8,21 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.3.14
+
+> Feb 12, 2020
+
+**Fixes**
+ - Fix 'Segmentation fault'
+
+### Version 1.3.13
+
+> Feb 5, 2020
+
+**Fixes**
+ - Possible fix 'Killed' bin/magento; recursion and allowed memory after install
+ - Compilation not generating factories declared in di.xml (magento/magento2#12100)
+
 ### Version 1.3.12
 
 > Jan 31, 2020
