@@ -6,6 +6,16 @@ keywords: Helpdesk changelog
 category: Helpdesk
 ---
 
+### Version 1.1.6
+
+> Feb 13, 2020
+
+**Fixes**
+ - Add i18n translates for statuses,priotity,department
+ - Improve translate on frontend (#14)
+ - Email backward compatability with 2.3(3-4)
+ - Marketplace data added 90fe85
+
 ### Version 1.1.5
 
 > Jan 16, 2020
