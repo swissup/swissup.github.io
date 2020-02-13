@@ -37,5 +37,6 @@ Almost 20 presets provides you an inspiration to create your own eye-catching la
     - [SolideWebservices Product Image Enhancements](third-party/#solidewebservices-product-image-enhancements)
 * [Use Cases](use-cases/)
     * [ProLabels do not appear at category page](use-cases/#prolabels-do-not-appear-at-category-page)
+    * [Missing styles at Zemez theme](use-cases/#missing-styles-at-zemez-theme)
 * [Support](https://swissuplabs.com/contacts/)
 * [Forum](https://swissuplabs.com/magento-forum/)
