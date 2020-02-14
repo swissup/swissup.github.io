@@ -4,7 +4,7 @@ abandonedcart:
   size: 2x1
   urls:
     m1: /m1/extensions/abandonedcart/
-    m2:
+    m2: /m2/extensions/abandoned-cart/
 
 amp:
   title: Accelerated Mobile Pages

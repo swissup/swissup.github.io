@@ -1,0 +1,30 @@
+- href: /images/m2/abandoned-cart/backend/carts-grid.png
+  src: /images/m2/abandoned-cart/backend/small/carts-grid.png
+  title: Abandoned Carts Grid
+  w: 1180
+  h: 670
+- href: /images/m2/abandoned-cart/backend/rules-grid.png
+  src: /images/m2/abandoned-cart/backend/small/rules-grid.png
+  title: Abandoned Rules Grid
+  w: 930
+  h: 450
+- href: /images/m2/abandoned-cart/backend/history-grid.png
+  src: /images/m2/abandoned-cart/backend/small/history-grid.png
+  title: Abandoned History Grid
+  w: 1090
+  h: 520
+- href: /images/m2/abandoned-cart/templates/one-hour.png
+  src: /images/m2/abandoned-cart/templates/small/one-hour.png
+  title: Abandoned Cart One Hour Template
+  w: 640
+  h: 1300
+- href: /images/m2/abandoned-cart/templates/one-day.png
+  src: /images/m2/abandoned-cart/templates/small/one-day.png
+  title: Abandoned Cart One Day Template
+  w: 640
+  h: 1369
+- href: /images/m2/abandoned-cart/templates/one-week.png
+  src: /images/m2/abandoned-cart/templates/small/one-week.png
+  title: Abandoned Cart One Week Template
+  w: 640
+  h: 1230
