@@ -7,6 +7,17 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.3.14
+
+> Feb 14, 2020
+
+**Bugfixes**
+ - Possible fix for multiselect attr logic
+
+**Features**
+ - Add price round( ,2)
+ - Marketplace data added
+
 ### Version 1.3.13
 
 > Feb 11, 2020
