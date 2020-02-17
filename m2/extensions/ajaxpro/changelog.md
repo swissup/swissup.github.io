@@ -6,6 +6,13 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.4.17
+
+> Feb 17, 2020
+
+ -  Code optimizations.
+ -  Added 'Grouped products' support.
+
 ### Version 1.4.16
 
 > Jan 31, 2020

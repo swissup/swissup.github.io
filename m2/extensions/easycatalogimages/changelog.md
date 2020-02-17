@@ -8,6 +8,12 @@ category: EasyCatalogImages
 
 # Changelog
 
+### Version 1.3.3
+
+> Feb 17, 2020
+
+ -  CSS style optimizations.
+
 ### Version 1.4.6
 
 > Oct 16, 2019

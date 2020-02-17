@@ -8,6 +8,12 @@ category: GDPR
 
 # Changelog
 
+### Version 1.3.3
+
+> Feb 17, 2020
+
+ -  RTL fixes for newsletter consent
+
 ### Version 1.2.2
 
 > Jan 31, 2020

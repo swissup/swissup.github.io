@@ -8,6 +8,12 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.5.1
+
+> Feb 17, 2020
+
+ -  Don't show low stock label for products with zero qty. (Backordered products)
+
 ### Version 1.5.0
 
 > Jan 31, 2020

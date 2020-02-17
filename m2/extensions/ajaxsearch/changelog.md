@@ -6,6 +6,12 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.8.7
+
+> Feb 17, 2020
+
+ -  Client-side performance optimizations.
+
 ### Version 1.8.6
 
 > Jan 31, 2020

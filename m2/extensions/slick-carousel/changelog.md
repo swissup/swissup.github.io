@@ -8,6 +8,12 @@ category: SlickCarousel
 
 # Changelog
 
+### Version 1.3.3
+
+> Feb 17, 2020
+
+ -  RTL fixes.
+
 ### Version 1.3.2
 
 > Dec 6, 2019

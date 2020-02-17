@@ -7,6 +7,49 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.15.2
+
+> Feb 17, 2020
+
+ -  A lot of RTL fixes and improvements.
+ -  CSS styles cleanup in Pure2 theme.
+ -  Login popup added that allows to login from any page.
+ -  Added server and browser cache invalidation when changing CSS via theme editor.
+ -  New [Marketplace](https://github.com/swissup/module-marketplace#marketplace)
+    installer support added.
+
+**Extensions Updates**
+
+ -  [Ajax Search](/m2/extensions/ajaxsearch/) — 1.8.7 (was 1.8.6)
+    - JS code optimizations.
+ -  [Askit](/m2/extensions/askit/) — 1.6.5 (was 1.6.3)
+    - Fixed broken 'answers' grid in Magento 2.3.4.
+ -  [Easybanner](/m2/extensions/easybanner/) — 1.5.3 (was 1.5.1)
+    - Fixed newsletter popup styles in Firefox.
+    - RTL fixes.
+ -  [EasyCatalogImages](/m2/extensions/easycatalogimages/) — 1.4.7 (was 1.4.6)
+    - CSS code optimizations.
+ -  [GDPR](/m2/extensions/gdpr/) — 1.2.3 (was 1.2.2)
+    - RTL fixes.
+ -  [HoverGallery](/m2/extensions/hover-gallery/) — 1.3.3 (was 1.3.2)
+    - Improve hover image positioning when it has smaller height than requested for listing.
+ -  [NavigationPro](/m2/extensions/navigationpro/) — 1.13.7 (was 1.13.6)
+    - RTL fixes.
+    - Fixed broken magento installation when navpro is enabled before Magento was installed.
+ -  [Pagespeed](/m2/extensions/pagespeed/) — 1.3.15 (was 1.3.12)
+    - Fixed 'Segmentation fault' error.
+    - MagentoCloud fixes.
+    - Prevent possible memory exhausted error.
+ -  [ProLabels](/m2/extensions/prolabels/) — 1.5.1 (was 1.5.0)
+    - Don't show low stock label for products with zero qty. (Backordered products)
+ -  [QuantitySwitcher](/m2/extensions/qty-switcher/) — 1.1.5 (was 1.1.4)
+    - RTL fixes.
+ -  [SlickCarousel](/m2/extensions/slick-carousel/) — 1.3.3 (was 1.3.2)
+    - RTL fixes.
+ -  [SoldTogether](/m2/extensions/soldtogether/) — 1.6.6 (was 1.6.5)
+    -   Rework templates to make blocks work at checkout success page. Carousel
+        template can be used for frequently bought together block also.
+
 ### Version 1.15.1
 
 > Jan 31, 2020

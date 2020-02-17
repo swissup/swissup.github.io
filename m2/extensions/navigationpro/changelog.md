@@ -8,6 +8,13 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.13.7
+
+> Feb 17, 2020
+
+ -  Few RTL fixes.
+ -  Fixed broken magento installation when navpro is enabled before Magento was installed.
+
 ### Version 1.13.6
 
 > Jan 31, 2020

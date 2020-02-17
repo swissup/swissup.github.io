@@ -8,6 +8,12 @@ category: Quantity Switcher
 
 # Changelog
 
+### Version 1.1.5
+
+> Feb 17, 2020
+
+ -  RTL fixes.
+
 ### Version 1.1.0
 
 > Jul 1, 2019

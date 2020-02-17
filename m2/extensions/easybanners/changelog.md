@@ -8,6 +8,12 @@ category: Easy Banners
 
 # Changelog
 
+### Version 1.5.3
+
+> Feb 17, 2020
+
+ -  Fixed newsletter popup styles in Firefox
+
 ### Version 1.5.1
 
 > Jan 31, 2020

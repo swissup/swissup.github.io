@@ -8,6 +8,12 @@ category: Hover Gallery
 
 # Changelog
 
+### Version 1.3.3
+
+> Feb 17, 2020
+
+ -  Improve hover image positioning when it has smaller height than requested for listing.
+
 ### Version 1.3.1
 
 > Dec 6, 2019

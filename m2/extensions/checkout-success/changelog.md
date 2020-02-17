@@ -8,6 +8,12 @@ category: Checkout Success
 
 # Changelog
 
+### Version 1.4.1
+
+> Feb 17, 2020
+
+ -  Add product images to ordered items list at success page.
+
 ### Version 1.4.0
 
 > Jan 8, 2020

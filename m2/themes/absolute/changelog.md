@@ -6,6 +6,13 @@ category: Absolute Theme
 
 # Changelog
 
+### Version 1.3.4
+
+> Feb 17, 2020
+
+ -  Added installation instructions to install theme via
+    [Marketplace](https://github.com/swissup/module-marketplace#marketplace) module.
+
 ### Version 1.3.3
 
 > Jan 29, 2020
