@@ -8,6 +8,13 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.21.2
+
+> Feb 17, 2020
+
+ -  [Marketplace](https://github.com/swissup/module-marketplace#marketplace)
+    installer support added.
+
 ### Version 1.21.1
 
 > Jan 9, 2020
