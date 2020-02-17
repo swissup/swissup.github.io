@@ -8,6 +8,12 @@ category: Checkout Success
 
 # Changelog
 
+### Version 1.4.2
+
+> Feb 17, 2020
+
+ -  Force to use order date template from Magento_Sales module. Some third-party checkout modules break success page when there is no clear specification of Magento_Sales in template path.
+
 ### Version 1.4.1
 
 > Feb 17, 2020
