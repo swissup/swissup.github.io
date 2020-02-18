@@ -8,12 +8,13 @@ category: SoldTogether
 
 # Changelog
 
-### Version 1.3.3
+### Version 1.6.7
 
-> Feb 17, 2020
+> Feb 18, 2020
 
  -  Rework templates to make blocks work at checkout success page.
     Carousel template can be used for frequently bought together block also.
+ -  Fixed RTL carousel styles
 
 ### Version 1.6.5
 

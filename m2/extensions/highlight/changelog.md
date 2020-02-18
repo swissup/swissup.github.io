@@ -8,6 +8,12 @@ category: Highlight
 
 # Changelog
 
+### Version 1.5.6
+
+> Feb 18, 2020
+
+ -  Fixed RTL carousel styles
+
 ### Version 1.5.5
 
 > Dec 6, 2019
