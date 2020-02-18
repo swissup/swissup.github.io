@@ -8,12 +8,13 @@ category: Navigationpro
 
 # Changelog
 
-### Version 1.13.7
+### Version 1.13.8
 
-> Feb 17, 2020
+> Feb 18, 2020
 
  -  Few RTL fixes.
  -  Fixed broken magento installation when navpro is enabled before Magento was installed.
+ -  Fixed possible empty menu when using Argento installer and 'All Stores' option.
 
 ### Version 1.13.6
 
