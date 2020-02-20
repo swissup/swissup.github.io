@@ -41,13 +41,13 @@ That sometimes happens during the upgrade.
 
 ### Troubleshooting Checklist
 
-Often the problems are not related to Swissup theme or modules and it takes
-much time to get your **credentials**, **login** to server, **find out**
-the problem solution.
+> Often the problems are not related to `Swissup` themes or modules.
+> But it takes much time to get your **credentials**, **login** to server, find
+> out the problem **solution**.
 
 
 Before developers check your problem we recommend you to run through the following
-list points. It will save your time and make the support faster and effective:
+list points. It will **save** your time and make the support **faster and effective**:
 
 - [x] Swith your current **Argento** theme design to Magento default **LUMA**
 
