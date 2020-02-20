@@ -49,7 +49,13 @@ That sometimes happens during the upgrade.
 Before developers check your problem we recommend you to run through the following
 list points. It will **save** your time and make the support **faster and effective**:
 
-- [x] Swith your current **Argento** theme design to Magento default **LUMA**
+- Check if you have the latest **Argento** version.
+     * `Admin > Swissup > Module Management` - modules' versions should be 'GREEN'
+     * Please [UPGRADE](/m2/argento/installation/#upgrade-instructions) when required.
+
+     > **Clear cache** and test if the error still there
+
+- Swith your current **Argento** theme design to Magento default **LUMA**
 
      * `Admin > Content > Configuration > Find your theme > Edit` > Set **Magento Luma**
 
@@ -61,21 +67,18 @@ list points. It will **save** your time and make the support **faster and effect
 
      > **Clear cache** and test the behavior at default theme
 
-- [x] **Disable** all **Swissup** modules (run following terminal command from your store root folder)
+- **Disable** all **Swissup** modules (run following terminal command from your store root folder)
 
     ```bash
-    bin/magento mo:st | grep 'Swissup_' | xargs bin/magento mo:dis
+    bin/magento module:status | grep 'Swissup_' | xargs bin/magento module:disable
     ```
 
     > **Clear cache** and test if the error still there
 
-- [x] **Disable** all 3rd-party modules
+- **Disable** all 3rd-party modules
 
     > **Clear cache** and test if the error still there
 
-- [x] If the problem still stays - check if you have the latest **Argento** version.
-     * `Admin > Swissup > Module Management` - modules' versions should be 'GREEN'
-     * Please [UPGRADE](/m2/argento/installation/#upgrade-instructions) when required.
 
 #### If none of previous actions haven't fixed/removed the problem
 
