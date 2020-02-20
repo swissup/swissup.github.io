@@ -39,6 +39,50 @@ That sometimes happens during the upgrade.
 * In case any of them have `type` = `'1'` change it to `'0'`
 * Error should be gone
 
+### Troubleshooting Checklist
+
+Often the problems are not related to Swissup theme or modules and it takes
+much time to get your **credentials**, **login** to server, **find out**
+the problem solution.
+
+
+Before developers check your problem we recommend you to run through the following
+list points. It will save your time and make the support faster and effective:
+
+- [x] Swith your current **Argento** theme design to Magento default **LUMA**
+
+     * `Admin > Content > Configuration > Find your theme > Edit` > Set **Magento Luma**
+
+     * <video controls width="800">
+            <source src="https://webm.red/YddF.webm"
+                    type="video/webm">
+            Sorry, your browser doesn't support embedded videos.
+        </video>
+
+     > **Clear cache** and test the behavior at default theme
+
+- [x] **Disable** all **Swissup** modules (run following terminal command from your store root folder)
+
+    ```bash
+    bin/magento mo:st | grep 'Swissup_' | xargs bin/magento mo:dis
+    ```
+
+    > **Clear cache** and test if the error still there
+
+- [x] **Disable** all 3rd-party modules
+
+    > **Clear cache** and test if the error still there
+
+- [x] If the problem still stays - check if you have the latest **Argento** version.
+     * `Admin > Swissup > Module Management` - modules' versions should be 'GREEN'
+     * Please [UPGRADE](/m2/argento/installation/#upgrade-instructions) when required.
+
+#### If none of previous actions haven't fixed/removed the problem
+
+ *  Please, [create a ticket](https://argentotheme.com/helpdesk) in **Argento Helpdesk**.
+ *  Send the store **credentials** (SSH/FTP/Magento admin etc.) if required
+ *  Add the screenshots for *better/faster* understanding
+
 ##### Next up
 
  -  [Small css customizations](/m2/argento/customization/custom-css/)

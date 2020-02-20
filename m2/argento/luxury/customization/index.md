@@ -100,7 +100,7 @@ Main thing you have to understand. Check value of node `var` with name `options`
 
 ![Product tabs under image](/images/m2/argento/luxury/customization/product-tabs-under-image.png)
 
-Some store owners like to have product tabs under product image. It is not a problem with Luxury design. 
+Some store owners like to have product tabs under product image. It is not a problem with Luxury design.
 
 First, [create custom theme](/m2/argento/customization/custom-theme/#create-custom-theme) and apply it to your store. Then create file `Magento_Catalog/layout/catalog_product_view.xml` in custom theme directory. Insert code below in this file.
 
@@ -126,6 +126,104 @@ First, [create custom theme](/m2/argento/customization/custom-theme/#create-cust
 ```
 
 Save file. Clean Magento Cache. Check product page at storefront.
+
+
+### Change the homepage fullscreen slider to youtube video background
+
+    <iframe src="https://drive.google.com/file/d/18RoKMvh6CYI25Z0sqlkIqMxXJBEncK6l/view" width="720" height="270" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+ 1. Changing of slider to video background requires creating of cms block i.e.
+    `video_background` with following content:
+
+    ```html
+        <style>
+        .title-container {
+            position: absolute;
+            top: 40%;
+            text-align: center;
+            margin: 0 auto;
+            z-index: 1;
+            width: 100%;
+        }
+        .title-container h1,
+        .title-container h4{
+            color: #fafafa;
+            text-transform: uppercase;
+        }
+        .title-container h1 {
+            font-size: 55px;
+            letter-spacing: 50px;
+        }
+        .title-container h4:after {
+            content: "";
+            display: block;
+            width: 40px;
+            height: 5px;
+            background-color: #ea8e6a;
+            margin: 16px auto;
+            margin-bottom: 0;
+        }
+        .title-container button.button span{
+            background-color: transparent;
+            color: #fff;
+            min-width: 200px;
+        }
+        .title-container button.button span span {
+            text-transform: uppercase;
+            font-size: 14px;
+            background-color: transparent !important;
+            height: auto;
+            line-height: 36px;
+        }
+
+         .homepage-video {
+        position:relative;
+        }
+
+        @media (min-aspect-ratio: 16/9) {
+         .homepage-video {
+            height: 100%;
+            top: -10%;
+          }
+        }
+
+        @media (max-width: 768px) {
+         .homepage-video {
+            width: 300%;
+            left: -100%;
+          }
+        }
+        </style>
+
+
+        <div class="homepage-video">
+            <div class="title-container">
+                <h4>2001</h4>
+                <h1>Space Odyssey </h1>
+                <button class="button btn-alt">
+                    <span><span>Shop Now</span></span>
+                </button>
+            </div>
+
+            <div class="embed-responsive embed-responsive-16by9">
+                <iframe style="pointer-events: none;"  type="text/html"
+        src="https://www.youtube.com/embed/W0LHTWG-UmQ?autoplay=1&controls=0&disablekb=1&fs=0&loop=1&modestbranding=1&rel=0&playlist=W0LHTWG-UmQ"
+         frameborder="0"  class="embed-responsive-item"></iframe>
+            </div>
+        </div>
+    ```
+
+    Change the **_https://www.youtube.com/embed/W0LHTWG-UmQ_** and the **_&playlist=W0LHTWG-UmQ_**
+    to your required video from **Youtube**
+
+
+ 2. Then go to your store `homepage` and remove second
+
+    ```html
+        widget type="Swissup\EasySlide\Block\Slider" identifier="argento_luxury"
+    ```
+ 3. Using **WYSIWYG** editor insert your created block `video_background` instead
+ 4. Save and Clear cache.
 
 [Fullscreen Enabled]: /images/m2/argento/luxury/customization/fullscreen-slider-enabled.png
 [Fullscreen Disabled]: /images/m2/argento/luxury/customization/fullscreen-slider-disabled.png
