@@ -8,6 +8,20 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.22.0
+
+> Feb 19, 2020
+
+{% include gallery.html images=site.data.gallery.m2.firecheckout.changelog.v1220 class="phone-up-2 tablet-up-3 photoswipe scroll" %}
+
+ -  Added ability to [move Terms and Conditions](/m2/extensions/firecheckout/configuration/#terms-and-conditions-settings-section)
+    above Place Order button.
+ -  Improved compatibility with third-party payment/shipping methods that
+    dynamically update shipping address.
+ -  Fixed blocked "Place Order" button when Chrome autofill incorrectly fills
+    email field while it's not visible to the customer.
+ -  Small CSS fixes.
+
 ### Version 1.21.2
 
 > Feb 17, 2020

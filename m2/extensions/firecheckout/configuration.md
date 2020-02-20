@@ -131,6 +131,18 @@ Default Method          | Default payment method to use
 Show Billing Address Title | Show/Hide title above billing address form
 Display Billing Address On | Select billing address form placement (Above Payment Methods, Below Shipping Address)
 
+### Terms and Conditions settings section
+
+> Available since version [1.22.0](/m2/extensions/firecheckout/changelog/#version-1220)
+
+![Terms and Conditions section](/images/m2/firecheckout/configuration/terms-and-conditions.png)
+
+Option                  | Description
+------------------------|------------
+Enabled                 | Enable/Disable agreements at checkout page
+Position                | Ability to show agreements at default position (Payment Method) or "Above Place Order Button"
+Title                   | Optionally set the title above agreements
+
 ### Order summary settings section
 
 ![Order summary settings section](/images/m2/firecheckout/configuration/order-summary.png)
