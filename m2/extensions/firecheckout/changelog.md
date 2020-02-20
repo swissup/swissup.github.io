@@ -10,7 +10,7 @@ category: Firecheckout
 
 ### Version 1.22.0
 
-> Feb 19, 2020
+> Feb 20, 2020
 
 {% include gallery.html images=site.data.gallery.m2.firecheckout.changelog.v1220 class="phone-up-2 tablet-up-3 photoswipe scroll" %}
 
