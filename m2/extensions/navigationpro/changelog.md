@@ -8,6 +8,13 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.14.0
+
+> Feb 25, 2020
+
+ -  Added ability to set dropdown settings for third dropdown level.
+ -  Fixed possible error when category name is missing in the backend navpro's tree.
+
 ### Version 1.13.8
 
 > Feb 18, 2020
