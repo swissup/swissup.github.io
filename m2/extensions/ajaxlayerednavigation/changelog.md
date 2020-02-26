@@ -7,6 +7,18 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.3.15
+
+> Feb 26, 2020
+
+**Bugfixes**
+ - Fix category multiselect applying
+
+**Features**
+ - Improve price slider from-to logic
+ - Add from-to input fields for price slider
+ - Add price slider skin config option
+
 ### Version 1.3.14
 
 > Feb 14, 2020
