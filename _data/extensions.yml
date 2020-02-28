@@ -186,12 +186,12 @@ countdowntimer:
     m2:
 
 crawler:
-  title: Crawler
+  title: Cache Warmer
   short_description: Built-in crawler increases page cache hit rate.
   size: 1x1
   urls:
     m1: /m1/extensions/crawler/
-    m2:
+    m2: /m1/extensions/cachewarmer/
 
 dailydeals:
   title: DailyDeals
