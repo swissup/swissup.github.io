@@ -8,6 +8,12 @@ category: reCAPTCHA
 
 # Changelog
 
+### Version 1.3.2
+
+> Mar 2, 2020
+
+ -  Show missing recaptcha at checkout shipping address section when user input email address of existed customer and store asks him to login. Works when captcha at signin form enabled.
+
 ### Version 1.3.0
 
 > Feb 6, 2020
