@@ -6,6 +6,13 @@ keywords: Helpdesk changelog
 category: Helpdesk
 ---
 
+### Version 1.1.7
+
+> Mar 2, 2020
+
+**Fixes**
+ - Fix Call to undefined method 'addBcc'
+
 ### Version 1.1.6
 
 > Feb 13, 2020
