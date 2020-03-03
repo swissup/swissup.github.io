@@ -8,6 +8,19 @@ category: Email
 
 # Changelog
 
+
+### Version 0.3.3
+
+> Mar 3, 2020
+
+**Fixes**
+ - 2.3.4 (2.4-dev) compatability getRawMessage => toString
+ - Fix history body transfer encodings
+ - Fix history subject encodings
+
+**Features**
+ - Marketplace data added
+
 ### Version 0.3.2
 
 > Feb 3, 2020
