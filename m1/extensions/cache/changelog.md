@@ -7,6 +7,13 @@ category: Cache
 
 # Full Page Cache Changelog
 
+### Version 1.5.3
+
+> Mar 05, 2020
+
+ -  Fixed FPC cache cleaning from backend. (There was an issue with cache claning
+    when `tmcache` used separate settings.)
+
 ### Version 1.5.2
 
 > Oct 21, 2019
