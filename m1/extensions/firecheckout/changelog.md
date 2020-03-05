@@ -7,6 +7,23 @@ category: Firecheckout
 
 # Changelog
 
+### Version 4.4.2
+
+> Mar 05, 2020
+
+ -  Fixed password recovery functionality in magento 1.9.3.0 and newer.
+
+**Third-party modules**
+
+ -  Cryozonic_Stripe integration updated.
+ -  District_Stripe integration added.
+ -  Heidelpay payment integration updated.
+ -  Iways_Paypal integration updated to work well with Onecolumn layout.
+ -  Magikfees integration added.
+ -  Smartmage_Paczkomaty integration added.
+ -  Upg_Payments integration added.
+ -  Webkul_Stripe integration added.
+
 ### Version 4.4.1
 
 > Oct 9, 2019
