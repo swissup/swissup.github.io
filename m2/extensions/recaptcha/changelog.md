@@ -8,6 +8,14 @@ category: reCAPTCHA
 
 # Changelog
 
+### Version 1.3.3
+
+> Mar 6, 2020
+
+ -  Fixed defaultCaptcha.js error when recaptcha disabled on frontend.
+ -  Make Recaptcha and Amazon Payment friends (integrate with amzn/amazon-pay-module).
+ -  Add Recaptcha to login form at checkout when only virtual product is in cart.
+
 ### Version 1.3.2
 
 > Mar 2, 2020
