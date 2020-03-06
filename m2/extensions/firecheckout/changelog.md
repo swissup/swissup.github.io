@@ -8,6 +8,18 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.22.1
+
+> Mar 06, 2020
+
+{% include gallery.html images=site.data.gallery.m2.firecheckout.changelog.v1221 class="phone-up-2 tablet-up-3 photoswipe scroll" %}
+
+ -  Improved Agreements section styles when agreement text doesn't fit single line.
+ -  Hide Agreements section at the first step of the 1-column wizard checkout layout.
+    (Now it shows up at the payment step only.)
+ -  Fixed not working 'Default Shipping Method Code' config option.
+ -  Fixed js error when Magento JS bundling is enabled.
+
 ### Version 1.22.0
 
 > Feb 20, 2020
