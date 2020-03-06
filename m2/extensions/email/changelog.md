@@ -8,6 +8,13 @@ category: Email
 
 # Changelog
 
+### Version 0.3.4
+
+> Mar 6, 2020
+
+**Fixes**
+ - Fix 'Call to undefined method ArrayIterator::getFieldValue'
+ - Fix 'Call to undefined method ..\Mail\Message::toString()'
 
 ### Version 0.3.3
 
