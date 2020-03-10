@@ -13,7 +13,7 @@ category: SEO Suite
 > Mar 10, 2020
 
  -  Improve "slugs" for in SEO Urls and SEO Images - remove double quotes, replace non-breakable space with dash (-).
-Than nbsp will be replaced with dash (-)..
+Than nbsp will be replaced with dash (-).
 
 *swissup/module-hreflang — 1.3.6* (was 1.3.4)
 
