@@ -8,6 +8,37 @@ category: SEO Suite
 
 # Changelog
 
+### Version 1.8.4
+
+> Mar 10, 2020
+
+ -  Improve "slugs" for in SEO Urls and SEO Images - remove double quotes, replace non-breakable space with dash (-).
+Than nbsp will be replaced with dash (-)..
+
+*swissup/module-hreflang — 1.3.6* (was 1.3.4)
+
+ -  Fixed poorly worked urls at Magento 2.3.4.
+ -  Force remove store_code parameter from url.
+ 
+*swissup/module-seo-images — 1.1.3* (was 1.1.2)
+
+ -  Fixed compatibility with Magento 2 EE (Enterprise Edition).
+
+### Version 1.8.3
+
+> Jan 8, 2020
+
+ -  Improve modules stability on Magneto Cloud. Fix error "Can't create directory ...Hreflang/Model/CurrentUrl/...".
+ -  Based translations added.
+
+*swissup/module-seo-canonical — 1.0.6* (was 1.0.4)
+
+ -  Don't add canonical to root category. In most cases root category used by third-party extensions to show some products. Like brand pages or other landing pages.
+
+*swissup/module-seo-urls — 1.5.8* (was 1.5.7)
+
+ -  Show 404 page when unrecognized characters are in url. This helps to avoid SEO issues about duplicate content. Previously you could add anything at the end of the URL, and it will always resolve.
+
 ### Version 1.8.2
 
 > Dec 13, 2019
