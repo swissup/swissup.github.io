@@ -8,6 +8,12 @@ category: reCAPTCHA
 
 # Changelog
 
+### Version 1.3.4
+
+> Mar 11, 2020
+
+ -  Improve recaptcha behavior at checkout. Fixed missing recaptcha when customer uses stored with braintree payment card.
+
 ### Version 1.3.3
 
 > Mar 6, 2020
