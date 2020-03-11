@@ -8,6 +8,19 @@ category: Easy Tabs
 
 # Changelog
 
+### Version 1.8.7
+
+> Mar 11, 2020
+
+ -  Fixed attribute tab rendering.
+ -  Easy Tabs grid UX improvements.
+
+### Version 1.8.6
+
+> Feb 17, 2020
+
+ -  [Marketplace](https://github.com/swissup/module-marketplace) module compatibility improvements.
+
 ### Version 1.8.5
 
 > Jan 31, 2020
