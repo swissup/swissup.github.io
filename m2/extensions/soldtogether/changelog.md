@@ -8,6 +8,12 @@ category: SoldTogether
 
 # Changelog
 
+### Version 1.6.8
+
+> Mar 13, 2020
+
+ -  Fixed possible fatal error on the product page.
+
 ### Version 1.6.7
 
 > Feb 18, 2020
