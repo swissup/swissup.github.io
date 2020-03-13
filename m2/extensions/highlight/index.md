@@ -35,6 +35,7 @@ by your own conditions.
 4. [Pages](pages/)
     - [Available Pages](pages/#available-pages)
     - [Page Settings](pages/#settings)
+    - [Create Custom Page](pages/#create-custom-page)
 5. [FAQ](faq/)
     - [Highlight is showing all products](/m2/extensions/highlight/faq/#highlight-is-showing-all-products)
     - [Filter products by current category](/m2/extensions/highlight/faq/#filter-products-by-current-category)

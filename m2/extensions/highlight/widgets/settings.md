@@ -39,7 +39,7 @@ custom_template | Path to the custom template. Used if `template` is empty or no
 css_class       | Additional css classes. See [ready-to-use classes](/m2/extensions/highlight/widgets/css-helpers/)
 **"See all products" link settings** |
 show_page_link  | Flag that indicates to show "See all products" link or not
-page_url        | Custom url to the "See all products" page.
+page_url        | Custom url to the ["See all products" page](/m2/extensions/highlight/pages/#create-custom-page).
 page_link_title | "See all products" link title
 **Pagination settings** |
 page_count      | Pages count to show
