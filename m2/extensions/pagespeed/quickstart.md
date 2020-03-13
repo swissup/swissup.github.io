@@ -11,6 +11,17 @@ category: Pagespeed
 
 ### Lets start
 
+#### Problems list
+
+  - [Enable compression](#enable-compression)
+  - [Minify JavaScript](#minify-javascript)
+  - [Remove render-blocking JavaScript](#remove-render-blocking-javascript)
+  - [Minify HTML](#minify-html)
+  - [Minify CSS](#minify-css)
+  - [Optimize CSS Delivery](#optimize-css-delivery)
+  - [Prioritize Visible Content](#prioritize-visible-content)
+  - [Optimize images](#optimize-images)
+
 Check your site pagespeed rank and take results screenshot
 We recomend use [Google Page speed insights online tool](https://developers.google.com/speed/pagespeed/insights)
 Usally we also check results at [Gtmetrix online tool](http://gtmetrix.com).
