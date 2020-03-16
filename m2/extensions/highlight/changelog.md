@@ -8,6 +8,16 @@ category: Highlight
 
 # Changelog
 
+### Version 1.6.0
+
+> Mar 16, 2020
+
+ -  Added ColorSwatches support to the Highlight widgets and pages.
+ -  Improved [magazine layout](/m2/extensions/highlight/widgets/css-helpers/#magazine-layout)
+    look on mobile devices.
+ -  Added ability to set custom 'View All' [page url](/m2/extensions/highlight/pages/#create-custom-page).
+ -  Improved pagination/limit logic. (Amasty_Preorder module compatibility).
+
 ### Version 1.5.6
 
 > Feb 18, 2020
