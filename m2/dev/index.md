@@ -85,6 +85,7 @@ composer require\
     swissup/module-instaframe\
     swissup/module-lightboxpro\
     swissup/module-maintenance\
+    swissup/module-marketplace\
     swissup/module-navigationpro\
     swissup/module-orderattachment\
     swissup/module-pagespeed\
@@ -135,88 +136,6 @@ composer require\
     swissup/theme-frontend-argento-stripes\
     swissup/module-tippyjs\
     --prefer-source &&\
-bin/magento module:enable\
-    Swissup_AddressAutocomplete\
-    Swissup_AddressFieldManager\
-    Swissup_Ajaxlayerednavigation\
-    Swissup_Ajaxpro\
-    Swissup_Ajaxsearch\
-    Swissup_Akismet\
-    Swissup_Amp\
-    Swissup_Askit\
-    Swissup_Attributepages\
-    Swissup_Checkout\
-    Swissup_CheckoutCart\
-    Swissup_CheckoutFields\
-    Swissup_CheckoutSuccess\
-    Swissup_Compare\
-    Swissup_Core\
-    Swissup_CustomerFieldManager\
-    Swissup_DeleteOrders\
-    Swissup_DeliveryDate\
-    Swissup_Easybanner\
-    Swissup_Easycatalogimg\
-    Swissup_Easyflags\
-    Swissup_EasySlide\
-    Swissup_Easytabs\
-    Swissup_Fblike\
-    Swissup_FeaturedAttributes\
-    Swissup_FieldManager\
-    Swissup_Firecheckout\
-    Swissup_FirecheckoutIntegrations\
-    Swissup_FontAwesome\
-    Swissup_FontAwesome5\
-    Swissup_Gdpr\
-    Swissup_GdprAskit\
-    Swissup_GdprTestimonials\
-    Swissup_Geoip\
-    Swissup_Highlight\
-    Swissup_HoverGallery\
-    Swissup_Hreflang\
-    Swissup_Helpdesk\
-    Swissup_Instaframe\
-    Swissup_Lightboxpro\
-    Swissup_Maintenance\
-    Swissup_Navigationpro\
-    Swissup_Orderattachment\
-    Swissup_Pagespeed\
-    Swissup_PdfInvoice\
-    Swissup_ProLabels\
-    Swissup_QuantitySwitcher\
-    Swissup_Recaptcha\
-    Swissup_Reviewreminder\
-    Swissup_RichSnippets\
-    Swissup_Rtl\
-    Swissup_SeoCanonical\
-    Swissup_SeoCore\
-    Swissup_SeoCrossLinks\
-    Swissup_SeoHtmlSitemap\
-    Swissup_SeoImages\
-    Swissup_SeoPager\
-    Swissup_SeoTemplates\
-    Swissup_SeoUrls\
-    Swissup_SeoXmlSitemap\
-    Swissup_SlickCarousel\
-    Swissup_SocialCore\
-    Swissup_SocialLogin\
-    Swissup_SoldTogether\
-    Swissup_Stickyfill\
-    Swissup_SubscribeAtCheckout\
-    Swissup_SubscriptionChecker\
-    Swissup_Suggestpage\
-    Swissup_Taxvat\
-    Swissup_Testimonials\
-    Swissup_Tfa\
-    Swissup_ThemeEditor\
-    Swissup_ThemeEditorSwissupAbsolute\
-    Swissup_ThemeEditorArgentoEssence\
-    Swissup_ThemeEditorArgentoFlat\
-    Swissup_ThemeEditorArgentoForce\
-    Swissup_ThemeEditorArgentoPure2\
-    Swissup_ThemeEditorArgentoMall\
-    Swissup_ThemeEditorArgentoLuxury\
-    Swissup_ThemeEditorArgentoStripes\
-    Swissup_Tippyjs &&\
 bin/magento setup:upgrade
 ```
 {:.scroll}
