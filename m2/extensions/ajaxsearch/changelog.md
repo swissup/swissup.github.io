@@ -6,6 +6,12 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.8.8
+
+> Feb 17, 2020
+
+ -  Fix 'search' keyboard button bug on iOS devices
+
 ### Version 1.8.7
 
 > Feb 17, 2020

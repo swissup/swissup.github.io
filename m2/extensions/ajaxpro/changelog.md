@@ -6,6 +6,12 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.4.18
+
+> Mar 17, 2020
+
+ - Fix minicart overiding time (add timeout)
+
 ### Version 1.4.17
 
 > Feb 17, 2020
