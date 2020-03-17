@@ -120,15 +120,13 @@ Please go to Swissup > Askit Questions. Select any question from grid to edit. O
 
 ![Question Information Tab](/images/m2/askit/information-tab.png)
 
-* Text - please specify your question.
-* Status - select from drop down list the current status of the question.
-* Hint - specify the weight of the question in the Hint field.
-* Customer - the customer’s name is already set.
-* Item type - the item's type is already set.
-* Item - the item's name is already set.
-* Store view - show store view where that question was posted at. In case you are using multi language environment it will help you better understand what language you should use to place answer or comment.
-* Email - the customer email is already set.
-* Private - select private or public question status.
+ -  **Question text** - please specify your question.
+ -  **Votes** - specify the number of votes for question. Registered customers can vote for the question on storefont also. And it will increase this number.
+ -  **Status** - select from drop down list the current status of the question. 'Approved' and 'Close' questions are visible at storefront.
+ -  **Store view** - show store view where that question was posted at. In case you are using multi language environment it will help you better understand what language you should use to place answer or comment.
+ -  **Customer** - the customer’s name is already set. If you want to change it then check 'Edit' and type new name.
+ -  **Email** - the customer email is already set. If you want to change it then check 'Edit' and type email.
+ -  **Hide this question** - make question private. Question is not visible for general public. Only signed in customer who asked it can see this question.
 
 ###### Answers Tab
 
@@ -141,8 +139,9 @@ Please type your answer in the Text field. And at the very end click Save at the
 
 ![Answer Edit](/images/m2/askit/answer-edit.png)
 
-* Text - please specify your answer text.
-* Hint - specify the weight of the answer in the Hint field.
-* Customer - the customer’s name is already set.
-* Email - the customer’s email is already set.
-* Status - select from drop down list the current status of the comment.
+ -  **Text** - please specify your answer text.
+ -  **Votes** - specify the number of votes for an answer.
+ -  **Status** - select from drop down list the current status of the comment.
+ -  **Hide this answer** - make answer private.
+ -  **Customer** - the customer’s name is already set. But you can edit when check 'Edit'.
+ -  **Email** - the customer’s email. You can edit when check 'Edit'.
