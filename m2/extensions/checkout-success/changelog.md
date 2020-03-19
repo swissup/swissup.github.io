@@ -8,6 +8,12 @@ category: Checkout Success
 
 # Changelog
 
+### Version 1.4.3
+
+> Mar 19, 2020
+
+ -  Compatibility with Magento 2.2.6. There was error when Order Items block added to success page layout `Call to a member function getOptionById()...`.
+
 ### Version 1.4.2
 
 > Feb 17, 2020
