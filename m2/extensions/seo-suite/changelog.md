@@ -8,6 +8,28 @@ category: SEO Suite
 
 # Changelog
 
+### Version 1.9.0
+
+> Mar 10, 2020
+
+*swissup/module-seo-images — 1.3.0* (was 1.1.3)
+
+ -  Add SEO Images Magento Index to speed up initial page rendering. This index speed up page generation before it is cached by Magento.
+ - "Production Mode" feature (beta). Suites best for single store Magento instances. 
+
+*swissup/module-hreflang — 1.3.7* (was 1.3.6)
+
+ -  Fixed "Illegal offset type..." warning during placing order. Occurs when 'Locale as subfolder in URLs'. 46b805
+
+*swissup/module-seo-templates — 1.5.7* (was 1.5.4)
+
+ -  Plugin instead of event on frontend. Works better when it comes to integrating with third-party modules. E.g. "Firebear Improved Configurable Product".
+ -  Improve price directive for products. You can set number of decimals, decimal point symbol and thousands separator symbol.
+
+*swissup/module-seo-urls — 1.5.10* (was 1.5.9)
+
+ -  Fixed incorrect catgeory urls in hreflangs. Occurs when category has different urls on different store views.
+
 ### Version 1.8.4
 
 > Mar 10, 2020
