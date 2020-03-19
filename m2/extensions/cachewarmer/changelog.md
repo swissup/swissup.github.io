@@ -8,9 +8,19 @@ category: Cachewarmer
 
 # Changelog
 
-### Version 0.1.0
+### Version 1.0.1
 
-> Jan 28, 2020
+> Mar 19, 2020
+
+**Fixes**
+ - Fix 'The store ... wasn't found'
+
+**Features**
+ - Improved getting store protocol for URLs
+
+### Version 1.0.0
+
+> Feb 28, 2020
 
  - Initial release
 
