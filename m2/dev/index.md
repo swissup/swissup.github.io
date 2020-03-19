@@ -25,7 +25,7 @@ git clone git@github.com:magento/magento2.git && cd magento2
 Install the version you'd like to use:
 
 ```bash
-git checkout 2.3.2 && composer install
+git checkout 2.3.4 && composer install
 ```
 
 Now, open magento in browser and proceed installation. When magento is isntalled and
