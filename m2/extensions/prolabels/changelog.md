@@ -8,6 +8,12 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.5.2
+
+> Mar 19, 2020
+
+ -  Fix prolabel without styles at product page on frontend. Issue occurs when first page load after cache flush is AMP version.
+
 ### Version 1.5.1
 
 > Feb 17, 2020
