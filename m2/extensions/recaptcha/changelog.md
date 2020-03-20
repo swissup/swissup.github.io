@@ -8,6 +8,13 @@ category: reCAPTCHA
 
 # Changelog
 
+
+### Version 1.3.5
+
+> Mar 20, 2020
+
+ -  Integrate with latest version of Swissup AskiIt module (version 1.7.0+).
+
 ### Version 1.3.4
 
 > Mar 11, 2020
