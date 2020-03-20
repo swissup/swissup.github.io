@@ -8,12 +8,29 @@ category: Pagespeed
 
 # Changelog
 
-### Version 1.3.14
+### Version 1.3.17
 
-> Feb 12, 2020
+> Mar 20, 2020
 
 **Fixes**
- - Fix 'Segmentation fault'
+ - Fix umlauts in image name bug
+ - Fix C14N internalization bug
+ - Fix php DOMDocument utf-8 international string (add prefix \xEF\xBB\xBF)
+ - Remove code dublicates
+
+**Improvments**
+ - Improve bundling r.js config (swissup themes integration)
+ - Move require js config default value into separate file rjs.json
+ - Add AbstractImage optimizer
+ - Image opimizers code was refactored
+ - Move htt2push to construct di
+ - Update lazysizes.min.js version to 5.2.0
+
+### Version 1.3.15
+
+> Feb 17, 2020
+
+ - Marketplace data added
 
 ### Version 1.3.13
 
