@@ -11,6 +11,15 @@ category: AskIt
 
 # Changelog
 
+### Version 1.7.0
+
+> Mar 20, 2020
+
+ -  Totally reworked internal implementation at frontend.
+ -  Question and Answer forms build with UI Component according latest Magento trends.
+ -  Questions list loaded with Ajax request reacts immediately on customer actions (voating, page changing).
+ -  Improved UX at backend also.
+
 ### Version 1.6.4
 
 > Feb 3, 2020
