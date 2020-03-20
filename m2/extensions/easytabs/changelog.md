@@ -8,6 +8,12 @@ category: Easy Tabs
 
 # Changelog
 
+### Version 1.8.8
+
+> Mar 20, 2020
+
+ -  Improvement for tab content loaded with ajax. Initialize UI components at tab load.
+
 ### Version 1.8.7
 
 > Mar 11, 2020
