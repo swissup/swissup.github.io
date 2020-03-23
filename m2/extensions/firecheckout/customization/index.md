@@ -36,3 +36,5 @@ category: Firecheckout
     - [Collapsible Checkout Fields section](use-cases/collapsible-checkout-fields/)
     - [Intro Popup Examples](/m2/extensions/firecheckout/customization/use-cases/intro-popup/)
     - [Combine several use cases](use-cases/combine-several-use-cases/)
+    - [Apply a shipping method automatically](use-cases/apply-shipping-method-automatically)
+    - [Remove item from the mini-cart](use-cases/remove-item-minicart)
