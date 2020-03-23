@@ -16,4 +16,4 @@ category: Firecheckout
  -  [Intro Popup Examples](/m2/extensions/firecheckout/customization/use-cases/intro-popup/)
  -  [Combine several use cases](/m2/extensions/firecheckout/customization/use-cases/combine-several-use-cases/)
  -  [Apply a shipping method automatically](apply-shipping-method-automatically)
- -  [Remove item from the mini-cart](m2/extensions/firecheckout/customization/use-cases/remove-item-minicart)
+ -  [Remove item from the mini-cart](remove-item-minicart)
