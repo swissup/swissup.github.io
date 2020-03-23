@@ -616,6 +616,6 @@ Navigate to `Settings > Startup > Tasks > New` and create new tasks:
     ```
 
  2. Go to VPN connections settins and configure VPN. In `Connection type`
-    drop-down select 'Open VPN'.
+    drop-down select 'Open VPN'. Set Gateway `54.195.241.132:1194`
  3. In Advanced settings check `Use LZO data compression` option (tab
     'General').
