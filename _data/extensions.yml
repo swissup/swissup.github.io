@@ -191,7 +191,7 @@ crawler:
   size: 1x1
   urls:
     m1: /m1/extensions/crawler/
-    m2: /m1/extensions/cachewarmer/
+    m2: /m2/extensions/cachewarmer/
 
 dailydeals:
   title: DailyDeals
