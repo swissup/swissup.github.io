@@ -8,6 +8,13 @@ category: Email
 
 # Changelog
 
+### Version 0.3.5
+
+> Mar 25, 2020
+
+**Fixes**
+ - Fix: Duplicate 'Content-Disposition'
+
 ### Version 0.3.4
 
 > Mar 6, 2020
