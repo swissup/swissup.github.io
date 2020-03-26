@@ -195,7 +195,7 @@ D:
     cd www/public/magento
     git clone git@github.com:speedupmate/Magento-CE-Mirror.git htdocs
     cd htdocs
-    git checkout magento-ce-1.9.2.4
+    git checkout magento-ce-1.9.4.4
     echo '*' > .gitignore
     cp errors/local.xml.sample errors/local.xml
     ```
