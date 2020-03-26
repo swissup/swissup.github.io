@@ -7,6 +7,95 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.16.0
+
+> Mar 26, 2020
+
+ -  Fixed broken image markup in sticky-add-to-cart component
+ -  RTL styles for argento tabs (homepage)
+ -  A lot of improvements in [Askit](/m2/extensions/askit/) module
+ -  Argento Pure2 — added category page configuration section in theme editor with the following features:
+    -  change category page layout
+    -  change page content width
+    -  set products per page and list mode
+    -  configure the number of products in a row for different page sizes
+    -  all changes are immediately visible in page layout preview
+
+**Extensions Updates**
+
+ -  [Ajax Search](/m2/extensions/ajaxsearch/) — 1.8.8 (was 1.8.7)
+    - Fixed search button not working on iOS
+
+ -  [AMP](/m2/extensions/amp/) — 1.3.13 (was 1.3.10)
+    - Fixed broken add to cart on homepage
+    - Fixed rating error on category page
+    - Styles from app/design theme folder now included on AMP pages
+    - Fixed broken allow cookie action in Magento 2.3
+
+ -  [Askit](/m2/extensions/askit/) — 1.7.0 (was 1.6.4)
+    - Totally reworked internal implementation at frontend
+    - Question and Answer forms build with UI Component
+    - Questions list loaded with ajax request reacts immediately on customer actions (voting, page changing)
+    - Improved UX at backend
+
+ -  [Easybanner](/m2/extensions/easybanners/) — 1.5.4 (was 1.5.3)
+    - Fixed small image in newsletter popup when PageSpeed module enabled
+    - Fixed js error when there are two banners with the same ID in database
+
+ -  [Easytabs](/m2/extensions/easytabs/) — 1.8.9 (was 1.8.6)
+    - Content in attribute tab now pocesses widget instructions
+    - Tabs admin grid improvements: added alias column and colors for block types
+    - Removed the limit for product attribute tab: add as many attributes as you need
+
+ -  [Highlight](/m2/extensions/highlight/) — 1.6.0 (was 1.5.6)
+    - Added color swatches support to the Highlight widgets and pages
+    - Improved magazine layout look on mobile devices
+    - Added ability to set custom ‘View All’ page url
+    - Improved pagination/limit logic (Amasty_Preorder module compatibility)
+
+ -  [HoverGallery](/m2/extensions/hover-gallery/) — 1.3.5 (was 1.3.3)
+    - Escape hover image URL: SEO Images module compatibility
+    - Fixed hover image position when using list mode
+
+ -  [LightboxPro](/m2/extensions/lightboxpro/) — 1.2.9 (was 1.2.8)
+    - Now image is resized when height is updated in configuration
+
+ -  [NavigationPro](/m2/extensions/navigationpro/) — 1.14.0 (was 1.13.7)
+    - Fixed possibly empty menu when using Argento installer and ‘All Stores’ option
+    - Added ability to set dropdown settings for third dropdown level
+    - Fixed possible error when category name is missing in the backend navpro’s tree
+
+ -  [Pagespeed](/m2/extensions/pagespeed/) — 1.3.17 (was 1.3.15)
+    - Fixed issue with umlauts in image name
+    - Fixed issues with wrong image alt text
+    - Improved advanced bundling: added Swissup themes integration
+    - Improved image optimization and lazy load features
+
+ -  [ProLabels](/m2/extensions/prolabels/) — 1.5.2 (was 1.5.1)
+    - Fixed label without styles at product page
+
+ -  [Review Reminder](/m2/extensions/reviewreminder/) — 1.1.5 (was 1.1.3)
+    - Added ability to use TrustedShops review link in email
+
+ -  [Seo Suite](/m2/extensions/seo-suite/) — 1.9.0 (was 1.8.3)
+     - Improvements in SEO Urls and SEO Images - remove double quotes, replace non-breakable space with dash
+     -  *Hreflang*:
+         -  Fixed poorly worked urls at Magento 2.3.4
+         -  Force remove store_code parameter from url
+         -  Fixed warning during order placing
+     -  *Seo Images*:
+         -  Added SEO Images Magento Index to speed up initial page rendering
+         -  “Production Mode” feature (beta)
+     -  *Seo Templates*:
+         - Improved third-party modules compatibility
+         - Improved price directive for products
+     -  *Seo URLs*:
+         - Fixed incorrect category urls in hreflangs
+
+ -  [SoldTogether](/m2/extensions/soldtogether/) — 1.6.8 (was 1.6.6)
+    - RTL fixes
+    - Fixed compilation error
+
 ### Version 1.15.2
 
 > Feb 17, 2020
@@ -24,7 +113,7 @@ category: Argento
     - JS code optimizations.
  -  [Askit](/m2/extensions/askit/) — 1.6.5 (was 1.6.3)
     - Fixed broken 'answers' grid in Magento 2.3.4.
- -  [Easybanner](/m2/extensions/easybanner/) — 1.5.3 (was 1.5.1)
+ -  [Easybanner](/m2/extensions/easybanners/) — 1.5.3 (was 1.5.1)
     - Fixed newsletter popup styles in Firefox.
     - RTL fixes.
  -  [EasyCatalogImages](/m2/extensions/easycatalogimages/) — 1.4.7 (was 1.4.6)
@@ -71,7 +160,7 @@ category: Argento
  -  [Ajax Search](/m2/extensions/ajaxsearch/) — 1.8.6 (was 1.8.4)
     - Magento 2.2 compatibility
     - Fixed Elastcsearch ItemProvider fatal in Magento 2.3.1
- -  [Easybanner](/m2/extensions/easybanner/) — 1.5.1 (was 1.5.0)
+ -  [Easybanner](/m2/extensions/easybanners/) — 1.5.1 (was 1.5.0)
     - Fixed incorrect newsletter block width in Magento 2.3.4
  -  [Easytabs](/m2/extensions/easytabs/) — 1.8.5 (was 1.8.4)
     - Fixed not working ajax tabs at [AMP](/m2/extensions/amp/) pages.
