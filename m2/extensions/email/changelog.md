@@ -8,6 +8,14 @@ category: Email
 
 # Changelog
 
+### Version 0.3.6
+
+> Mar 27, 2020
+
+**Fixes**
+ - Small encoding fix (ascii is utf-8 subset)
+ - Clear dublicated mail headers
+
 ### Version 0.3.5
 
 > Mar 25, 2020
