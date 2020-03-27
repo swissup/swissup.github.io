@@ -7,6 +7,27 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.3.18
+
+> Mar 27, 2020
+
+**Bugfixes**
+ - Fix 'DevTools failed to parse SourceMap: ..lib/jalc.min.map'
+
+**Features**
+ - Add Sticky on Mobile
+ - Improve price range calc if another attr option applied
+ - Add js toggler
+ - Add button 'Apply' to each page layout
+ - Remove js component shortname
+
+### Version 1.3.16
+
+> Mar 3, 2020
+
+**Bugfixes**
+ - Remove price delta in elastcisearch price range plugin
+
 ### Version 1.3.15
 
 > Feb 26, 2020
