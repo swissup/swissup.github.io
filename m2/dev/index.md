@@ -309,7 +309,7 @@ Admin -> System -> Web Setup Wizard -> System Config - put Your Magento keys "Pu
 ```
 You can get keys from Your [Magento account page](https://marketplace.magento.com/customer/accessKeys/)
 
-### Cool [patch applying](https://github.com/vaimo/composer-patches)
+### [Patch applying with composer patches](https://github.com/vaimo/composer-patches)
 
 [Vaimo Composer Patches](https://github.com/vaimo/composer-patches)
 
@@ -347,10 +347,22 @@ Example - Composer 'elasticsearch fail' patch for Magento 2.3.1
             }
         }
 ```
+Or you can try to [add vaimo/composer-patches from console](https://gist.github.com/0m3r/16241092b5839345216dcdb1408baaae).
+
+```bash
+curl -s https://gist.githubusercontent.com/0m3r/16241092b5839345216dcdb1408baaae/raw/add_vaimo_patch.bash | bash -s "vendor/module-package" "Path title #1" http://re.ro/path.diff
+```
 
 Show and apply patches
 
 ```bash
     composer config extra
     composer update vaimo/composer-patches
+```
+
+#### Applies comit path with tool patch
+
+```bash
+curl -s https://github.com/magento/magento2/commit/dfdbe7cc4b94c103ab66383577e13b91de395dff.patch | patch -p5 -d ~/public_html/vendor/magento/framework/
+patching file Mail/Message.php
 ```
