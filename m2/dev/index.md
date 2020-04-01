@@ -360,7 +360,7 @@ Show and apply patches
     composer update vaimo/composer-patches
 ```
 
-#### Applies comit path with tool patch
+#### Applying commit patch with tool patch
 
 ```bash
 curl -s https://github.com/magento/magento2/commit/dfdbe7cc4b94c103ab66383577e13b91de395dff.patch | patch -p5 -d ~/public_html/vendor/magento/framework/
