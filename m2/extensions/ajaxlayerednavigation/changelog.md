@@ -7,6 +7,20 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.3.19
+
+> Apr 3, 2020
+
+**Bugfixes**
+ - Fix stock column name resolving
+ - Fix/Add url params filtering in toogler
+ - Add losted js translations
+
+**Features**
+ - Better styles for reset filter button at 1column page layout.
+ - SlideUp and slideDown filter content with CSS (instead of jquery).
+ - Improved filter drop-downs behavior at 1column page layout
+
 ### Version 1.3.18
 
 > Mar 27, 2020
