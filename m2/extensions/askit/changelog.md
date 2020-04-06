@@ -11,6 +11,13 @@ category: AskIt
 
 # Changelog
 
+### Version 1.7.1
+
+> Apr 6, 2020
+
+ -  Fixed poorly working askit widget at homepage. Question didn't assigned to correct page. Questions list not showing up.
+ -  Remove template and js that is no more in use.
+
 ### Version 1.7.0
 
 > Mar 20, 2020
