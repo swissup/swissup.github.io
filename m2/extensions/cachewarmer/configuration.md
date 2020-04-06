@@ -27,6 +27,7 @@ Option    | Description
 ----------|-----------------------------------------------
 Enable    | Enable/disable cron schedule(s). (Yes)
 Schedule  | Use the cron expression to schedule mian warmer job(s), e.g. */5 * * * * to run cron every five minutes
+Urls Limit| Limits URLs per one cron task. Max 1000.
 
 ### Logging section
 

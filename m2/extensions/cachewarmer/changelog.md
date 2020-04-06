@@ -8,6 +8,16 @@ category: Cachewarmer
 
 # Changelog
 
+### Version 1.0.2
+
+> Apr 6, 2020
+
+**Features**
+ - Added limit urls config option per a cron task
+ - Added local chart.js library version
+ - Added batch save in index generation
+ - Stored cur page value in fpc cache (in get source requestentry collection)
+
 ### Version 1.0.1
 
 > Mar 19, 2020
