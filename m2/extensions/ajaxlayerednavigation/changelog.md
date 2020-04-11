@@ -7,6 +7,14 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.3.20
+
+> Apr 11, 2020
+
+**Bugfixes**
+ - Fix: Warning: strpos(): Empty needle
+ - Fixed regex expression in js
+
 ### Version 1.3.19
 
 > Apr 3, 2020
