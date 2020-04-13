@@ -8,6 +8,11 @@ category: reCAPTCHA
 
 # Changelog
 
+### Version 1.3.6
+
+> Apr 13, 2020
+
+ -  Fixed unable to place order when recaptcha protects checkout and paypalflow method is selected.
 
 ### Version 1.3.5
 
