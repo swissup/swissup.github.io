@@ -113,6 +113,8 @@ Enable                           | Allows to enable/disable image auto opmisatio
 Enable WebP Support              | Enable/disable webp image detecting and generating
 Enable Responsive Images Support | Enable/disable [responsive images](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images) detecting and generating (0.5x, 0.75x, 2x, 3x)
 Default Responsive Images Sizes  | [Default sizes atribute values](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images#Resolution_switching_Different_sizes)
+Enable Cron                      | Enable/disable cron schedule(s). (No)
+Cron Limit                       | Limit images per one cron task. (1000)
 
 
 #### Lazy loader for images
