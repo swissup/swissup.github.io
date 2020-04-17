@@ -10,7 +10,7 @@ var gulp = require('gulp'),
     run = require('gulp-run'),
     browserSync = require('browser-sync').create();
 
-gulp.task('js', function () {
+function js() {
     var files = [
         'bower_components/material-design-lite/material.min.js',
         'bower_components/jquery/dist/jquery.min.js',
@@ -24,7 +24,9 @@ gulp.task('js', function () {
         'bower_components/photoswipe/dist/photoswipe-ui-default.min.js',
         'js/*'
     ];
+
     var local = filter('js/*.js', {restore: true});
+
     return gulp.src(files)
         .pipe(local)
         .pipe(jshint())
@@ -33,9 +35,9 @@ gulp.task('js', function () {
         .pipe(uglify())
         .pipe(concat('all.js'))
         .pipe(gulp.dest('assets'));
-});
+}
 
-gulp.task('css', function () {
+function css() {
     var files = [
         // 'bower_components/material-design-lite/material.min.css',
         'bower_components/flickity/dist/flickity.min.css',
@@ -44,7 +46,9 @@ gulp.task('css', function () {
         'css/*.css',
         'css/main.scss'
     ];
+
     var scss = filter('css/*.scss', {restore: true});
+
     return gulp.src(files)
         .pipe(sourcemaps.init())
         .pipe(scss)
@@ -54,35 +58,40 @@ gulp.task('css', function () {
         .pipe(concat('almost-all.css'))
         .pipe(sourcemaps.write())
         .pipe(gulp.dest('assets'));
-});
+}
 
-gulp.task('css-images', function () {
+function images() {
     var files = [
         'bower_components/photoswipe/dist/default-skin/*.{svg,png,gif}'
     ];
+
     return gulp.src(files)
         .pipe(gulp.dest('assets'));
-});
+}
 
-gulp.task('jekyll', function() {
+function jekyll() {
     browserSync.notify("Jekyll build is Running", 6000);
+
     return run('bundle exec jekyll build')
         .exec()
         .on('error', gutil.log);
-});
-gulp.task('jekyll-rebuild', ['jekyll'], function () {
-    browserSync.reload();
-});
+}
 
-gulp.task('serve', ['jekyll'], function() {
+function browser(cb) {
+    browserSync.reload();
+    cb();
+}
+
+const refresh = gulp.series(jekyll, browser);
+
+function serve() {
     browserSync.init({
         server: '_site',
         open: false
     });
 
-    gulp.watch('js/*', ['js']);
-    gulp.watch('css/**/*', ['css']);
-
+    gulp.watch('js/*', js);
+    gulp.watch('css/**/*', css);
     gulp.watch([
         '_data/**/*',
         '_includes/**/*',
@@ -92,8 +101,8 @@ gulp.task('serve', ['jekyll'], function() {
         'images/**/*',
         'm1/**/*',
         'm2/**/*'
-    ], ['jekyll-rebuild']);
-});
+    ], refresh);
+}
 
-gulp.task('default', ['serve']);
-gulp.task('assets', ['js', 'css', 'css-images']);
+exports.default = gulp.series(jekyll, serve);
+exports.assets = gulp.parallel(js, css, images);
