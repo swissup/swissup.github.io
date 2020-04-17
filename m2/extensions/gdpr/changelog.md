@@ -8,6 +8,25 @@ category: GDPR
 
 # Changelog
 
+### Version 1.4.0
+
+> Draft
+
+**Cookie consent feature added. Here is some highlights of the new feature:**
+
+ -  Cookie bar banner in minimalistic and full display modes.
+ -  Separate page to control cookie settings.
+ -  Cookie settings at customer account page.
+ -  When the user creates an account, guest cookie consent automatically links
+    with this account.
+ -  Module blocks all optional cookies until visitor accept consent.
+ -  Accepted cookie consent is saved into DB.
+ -  All _unknown_ blocked cookies automatically added to the backend list, so
+    you can regulary check if all cookies that are used on the site are
+    in the consent list.
+ -  Store owner can register unlimited count of additional cookies and groups.
+ -  All magento cookies are known by the module out of the box.
+
 ### Version 1.3.3
 
 > Feb 17, 2020
