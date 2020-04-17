@@ -1,3 +1,8 @@
+- href: /images/m2/gdpr/frontend/cookie-bar-full.png
+  src: /images/m2/gdpr/frontend/small/cookie-bar-full.png
+  title: Configurable cookie bar.
+  w: 1196
+  h: 773
 - href: /images/m2/gdpr/frontend/newsletter.png
   src: /images/m2/gdpr/frontend/small/newsletter.png
   title: Consent in the newsletter form
@@ -20,8 +25,8 @@
 - href: /images/m2/gdpr/frontend/privacy-tools.png
   src: /images/m2/gdpr/frontend/small/privacy-tools.png
   alt: Privacy Tools Page
-  w: 1057
-  h: 722
+  w: 1029
+  h: 1345
 - href: /images/m2/gdpr/frontend/delete-data-warning.png
   src: /images/m2/gdpr/frontend/small/delete-data-warning.png
   alt: Delete Data Warning
@@ -31,9 +36,19 @@
   h: 457
 - href: /images/m2/gdpr/configuration/all.png
   src: /images/m2/gdpr/configuration/small/all.png
-  alt: Delete Data Warning
-  w: 792
-  h: 524
+  alt: Configuration
+  w: 723
+  h: 585
+- href: /images/m2/gdpr/backend/cookie-registry.png
+  src: /images/m2/gdpr/backend/small/cookie-registry.png
+  alt: Cookie Registry
+  w: 969
+  h: 428
+- href: /images/m2/gdpr/backend/cookie-form.png
+  src: /images/m2/gdpr/backend/small/cookie-form.png
+  alt: Edit cookie form
+  w: 965
+  h: 520
 - href: /images/m2/gdpr/backend/accepted-consents.png
   src: /images/m2/gdpr/backend/small/accepted-consents.png
   alt: Accepted Consents

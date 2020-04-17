@@ -1,0 +1,25 @@
+- title: Cookie Bar (Full Mode)
+  href: /images/m2/gdpr/frontend/cookie-bar-full.png
+  src: /images/m2/gdpr/frontend/small/cookie-bar-full.png
+  w: 1196
+  h: 773
+- title: Cookie Bar (Minimalistic Mode)
+  href: /images/m2/gdpr/frontend/cookie-bar-mini.png
+  src: /images/m2/gdpr/frontend/small/cookie-bar-mini.png
+  w: 1052
+  h: 662
+- title: Cookie Settings Page
+  href: /images/m2/gdpr/frontend/cookie-settings.png
+  src: /images/m2/gdpr/frontend/small/cookie-settings.png
+  w: 982
+  h: 788
+- title: Cookie Settings Page
+  href: /images/m2/gdpr/backend/cookie-registry.png
+  src: /images/m2/gdpr/backend/small/cookie-registry.png
+  w: 969
+  h: 428
+- title: Cookie Settings Page
+  href: /images/m2/gdpr/configuration/cookie-consents.png
+  src: /images/m2/gdpr/configuration/small/all.png
+  w: 903
+  h: 672

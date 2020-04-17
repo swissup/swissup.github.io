@@ -10,7 +10,9 @@ category: GDPR
 
 ### Version 1.4.0
 
-> Draft
+> Apr 17, 2020
+
+{% include gallery.html images=site.data.gallery.m2.gdpr.changelog.v140 class="phone-up-2 tablet-up-3 photoswipe scroll" %}
 
 **Cookie consent feature added. Here is some highlights of the new feature:**
 

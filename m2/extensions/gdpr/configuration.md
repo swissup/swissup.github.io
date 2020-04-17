@@ -20,7 +20,35 @@ Option      | Description
 ------------|------------
 Enabled     | Allows to enable/disable GDPR per store view
 
-### Consents section
+### Cookie Consent section
+
+![Cookie consents section](/images/m2/gdpr/configuration/cookie-consents.png)
+
+Option          | Description
+----------------|------------
+Enabled         | Allows to enable/disable cookie bar and cookie settings page.
+Lifetime        | How many days should the cookie store information about visitor's cookie settings.
+**Cookie Bar**  |
+Display Mode    | Select display mode for cookie bar. See details below the table.
+Content         | HTML to use in cookie bar.
+**Cookie Settings Page** |
+URL             | URL to [cookie settings page](/m2/extensions/gdpr/cookie-settings/)
+Content         | HTML code with a intro text for cookie settings page.
+
+#### Cookie bar display modes
+
+There are two display modes available to choose:
+
+ -  Minimalistic - Horizontal bar with short description, link to cookies settings
+    page, and button to allow all cookies.
+ -  Full - Wide vertical bar with short description and fully functional cookie
+    settings block, which allows granular cookie configuration.
+
+Minimalistic | Full
+-------------|---------------
+![Minimalistic](/images/m2/gdpr/frontend/small/cookie-bar-mini.png) | ![Full](/images/m2/gdpr/frontend/small/cookie-bar-full.png)
+
+### Personal Data Consents section
 
 ![Consents section](/images/m2/gdpr/configuration/consents.png)
 

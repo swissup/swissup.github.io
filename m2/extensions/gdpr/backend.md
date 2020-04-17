@@ -10,10 +10,28 @@ category: GDPR
 * TOC
 {:toc}
 
+### Cookie Registry
+
+This page is located at _Swissup GDPR > Cookie Registry_. You can register
+additional cookies, edit description of system cookies per store view, and
+create/edit cookie groups.
+
+Also you have an access to blocked cookies list at this page. This list is useful to check
+if every cookie is registered in the system and visitors can exlicitly allow or decline
+them. Normally, this list should be empty. When it's not - you should examine
+blocked cookies and add them to the registry, or remove the script that wants
+to create them.
+
+> Blocked cookies - is the list of cookies that some script was trying to create while
+> this cookie is not visible at the
+[frontend cookie settings page](/m2/extensions/gdpr/cookie-settings/).
+
+![Cookie Registry](/images/m2/gdpr/backend/cookie-registry.png)
+
 ### Accepted Consents
 
 This page is located at _Swissup > GDPR > Accepted Consents_. You can view the
-list of accepted consents on this page.
+list of accepted personal data and cookie consents on this page.
 
 ![Accepted Consents](/images/m2/gdpr/backend/accepted-consents.png)
 

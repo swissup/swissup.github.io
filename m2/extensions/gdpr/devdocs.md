@@ -106,7 +106,7 @@ your form.
     ```
 
  3. Check if everything works as expected. You should now see your form in the
-    [consents configuration](/m2/extensions/gdpr/configuration/#consents-section)
+    [consents configuration](/m2/extensions/gdpr/configuration/#personal-data-consents-section)
  4. Using GDPR configuration, activate some consent for your form and check the
     frontend. Client-side and server-side validations will work automatically!
  5. After the form is submitted with accepted consent, check

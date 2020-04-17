@@ -10,9 +10,11 @@ category: GDPR
 
 Main features:
 
- -  [Configurable consents](/m2/extensions/gdpr/configuration/#consents-section)
+ -  [Configurable consents](/m2/extensions/gdpr/configuration/#personal-data-consents-section)
     in the forms with personal data (Newsletter, Contacts, Registration,
     Product Reviews)
+ -  [Cookie consent bar](/m2/extensions/gdpr/configuration/#cookie-consent-section)
+    and [cookie settings page](/m2/extensions/gdpr/cookie-settings/)
  -  Ability to request customer account deletion from [Privacy Tools page](/m2/extensions/gdpr/privacy-tools/)
  -  Request processing [automation](/m2/extensions/gdpr/configuration/#deletion-requests)
  -  [Easily extendable](/m2/extensions/gdpr/devdocs/) by third-party modules
@@ -24,9 +26,11 @@ Main features:
  1. [Installation](installation/)
  2. [Changelog](changelog/)
  3. [Configuration](configuration/)
- 3. [Backend](backend/)
+ 4. [Backend](backend/)
+    - [Cookie Registry](backend/#cookie-registry)
     - [Accepted Consents](backend/#accepted-consents)
     - [Client's Requests](backend/#clients-requests)
- 4. [Privacy Tools](privacy-tools/)
- 5. [FAQ](faq/)
- 6. [Developers documentation](devdocs/)
+ 5. [Cookie Settings](cookie-settings/)
+ 6. [Privacy Tools](privacy-tools/)
+ 7. [FAQ](faq/)
+ 8. [Developers documentation](devdocs/)
