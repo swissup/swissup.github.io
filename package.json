@@ -9,11 +9,9 @@
     "gulp-clean-css": "^4.3.0",
     "gulp-concat": "^2.6.0",
     "gulp-filter": "^6.0.0",
-    "gulp-run": "^1.7.1",
     "gulp-sass": "^4.0.2",
     "gulp-sourcemaps": "^2.6.5",
     "gulp-uglify": "^3.0.2",
-    "gulp-util": "^3.0.7",
     "jshint": "^2.11.0"
   },
   "dependencies": {

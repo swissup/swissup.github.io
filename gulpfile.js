@@ -6,8 +6,7 @@ var gulp = require('gulp'),
     sourcemaps = require('gulp-sourcemaps'),
     filter = require('gulp-filter'),
     concat = require('gulp-concat'),
-    gutil = require('gulp-util'),
-    run = require('gulp-run'),
+    cp = require('child_process'),
     browserSync = require('browser-sync').create();
 
 function js() {
@@ -81,7 +80,7 @@ function jekyllBuild(incremental) {
         command += ' --incremental';
     }
 
-    return run(command).exec().on('error', gutil.log);
+    return cp.exec(command);
 }
 
 function jekyll() {
