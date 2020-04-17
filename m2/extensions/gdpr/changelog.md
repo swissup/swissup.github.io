@@ -8,7 +8,7 @@ category: GDPR
 
 # Changelog
 
-### Version 1.4.0
+### Version 1.3.0
 
 > Apr 17, 2020
 
@@ -29,7 +29,7 @@ category: GDPR
  -  Store owner can register unlimited count of additional cookies and groups.
  -  All magento cookies are known by the module out of the box.
 
-### Version 1.3.3
+### Version 1.2.3
 
 > Feb 17, 2020
 
