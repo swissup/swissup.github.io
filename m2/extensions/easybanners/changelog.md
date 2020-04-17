@@ -8,6 +8,13 @@ category: Easy Banners
 
 # Changelog
 
+### Version 1.5.5
+
+> Apr 17, 2020
+
+ -  GDPR [cookie consent](/m2/extensions/gdpr/) integration
+ -  Fixed small image in newsletter popup when [PageSpeed](/m2/extensions/pagespeed/) is used
+
 ### Version 1.5.3
 
 > Feb 17, 2020
