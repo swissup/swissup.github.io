@@ -69,20 +69,35 @@ function images() {
         .pipe(gulp.dest('assets'));
 }
 
-function jekyll() {
-    browserSync.notify("Jekyll build is Running", 6000);
-
-    return run('bundle exec jekyll build')
-        .exec()
-        .on('error', gutil.log);
-}
-
 function browser(cb) {
     browserSync.reload();
     cb();
 }
 
-const refresh = gulp.series(jekyll, browser);
+function jekyllBuild(incremental) {
+    var command = 'bundle exec jekyll build';
+
+    if (incremental) {
+        command += ' --incremental';
+    }
+
+    return run(command).exec().on('error', gutil.log);
+}
+
+function jekyll() {
+    browserSync.notify("'jekyll build' is running", 10000);
+
+    return jekyllBuild();
+}
+
+function jekyllIncremental() {
+    browserSync.notify("'jekyll build -I' is running", 10000);
+
+    return jekyllBuild(true);
+}
+
+const fullRefresh = gulp.series(jekyll, browser);
+const partialRefresh = gulp.series(jekyllIncremental, browser);
 
 function serve() {
     browserSync.init({
@@ -90,18 +105,10 @@ function serve() {
         open: false
     });
 
-    gulp.watch('js/*', js);
-    gulp.watch('css/**/*', css);
-    gulp.watch([
-        '_data/**/*',
-        '_includes/**/*',
-        '_layouts/*',
-        '_posts/*',
-        'assets/*',
-        'images/**/*',
-        'm1/**/*',
-        'm2/**/*'
-    ], refresh);
+    gulp.watch(['js/*'], js);
+    gulp.watch(['css/**/*'], css);
+    gulp.watch(['_data/**/*', '_includes/**/*', 'assets/*', 'images/**/*'], fullRefresh);
+    gulp.watch(['_layouts/*', '_posts/*', 'm1/**/*', 'm2/**/*'], partialRefresh);
 }
 
 exports.default = gulp.series(jekyll, serve);
