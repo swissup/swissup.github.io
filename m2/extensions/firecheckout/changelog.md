@@ -8,6 +8,15 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.22.2
+
+> Apr 20, 2020
+
+ -  Fixed StripeIntegration_Payments integration:
+    Added workaround for StripeIntegration_Payments module since this payment
+    doesn't have a working `validate` method that could be called programmatically
+    like any other payment method.
+
 ### Version 1.22.1
 
 > Mar 06, 2020
