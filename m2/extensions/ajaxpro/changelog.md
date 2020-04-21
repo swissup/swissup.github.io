@@ -6,6 +6,13 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.4.19
+
+> Apr 21, 2020
+
+ - Fix mage.configurable spConfig.containerId empty bug
+ - Fix no gap at the top of the popup at category page with one column layout
+
 ### Version 1.4.18
 
 > Mar 17, 2020
