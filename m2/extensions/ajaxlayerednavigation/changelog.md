@@ -7,6 +7,16 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.3.21
+
+> Apr 21, 2020
+
+**Features**
+ - Add price slider enable option (default aln price range mode)
+
+**Bugfixes**
+ - Fix response dom replace at search results page
+
 ### Version 1.3.20
 
 > Apr 11, 2020
