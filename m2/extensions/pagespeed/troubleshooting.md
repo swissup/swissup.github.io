@@ -68,4 +68,4 @@ Generate broken small bundle files
 5. Flush Cache
 6. Reload a homepage
 7. Enable Merge JavaScript Files
-2. Flush Cache
+8. Flush Cache
