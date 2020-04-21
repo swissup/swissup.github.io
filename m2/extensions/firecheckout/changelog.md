@@ -8,10 +8,14 @@ category: Firecheckout
 
 # Changelog
 
-### Version 1.22.2
+### Version 1.22.3
 
-> Apr 20, 2020
+> Apr 21, 2020
 
+ -  Improved initial page load time for stores with large amount of payment methods
+    when using multistep checkout layout.
+ -  Fixed PaypalExpress checkout when using in-context mode. (Paypal buttons
+    inside iframe didn't work)
  -  Fixed StripeIntegration_Payments integration:
     Added workaround for StripeIntegration_Payments module since this payment
     doesn't have a working `validate` method that could be called programmatically
