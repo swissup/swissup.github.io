@@ -107,7 +107,7 @@ var Search = function(options) {
       if (!result && !m1 && !m2) {
         result = 'No results found';
       } else {
-        result += m1 + m2;
+        result += m2 + m1;
       }
 
       if (options.resultsContainer.className.indexOf('shown') === -1) {
