@@ -9,7 +9,7 @@ exclude_from_search: true
 
 # Firecheckout Installation and Upgrade
 
-## Prepare to install or update
+## Prepare to install
 
 Firecheckout installation requires Marketplace module. It’s our module that
 registers our packages repository in composer.json file, saves its credentials

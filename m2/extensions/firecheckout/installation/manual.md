@@ -9,7 +9,7 @@ exclude_from_search: true
 
 # Manual Installation and Upgrade
 
-## Prepare to install or update
+## Prepare to install
 
 Firecheckout installation requires Marketplace module. It’s our module that
 automates a bunch of complex commands required to run
