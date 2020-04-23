@@ -13,8 +13,8 @@ exclude_from_search: true
 
 #### 2. Complete the installation
 
-Navigate to `Stores > Configuration` and
-[setup firecheckout](../configuration/) according to your needs.
+Navigate to _Stores > Configuration_ and
+[setup firecheckout](/m2/extensions/firecheckout/configuration/) according to your needs.
 
 #### Next up
 
