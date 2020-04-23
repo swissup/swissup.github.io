@@ -11,16 +11,16 @@ var gulp = require('gulp'),
 
 function js() {
     var files = [
-        'bower_components/material-design-lite/material.min.js',
-        'bower_components/jquery/dist/jquery.min.js',
-        'bower_components/packery/dist/packery.pkgd.min.js',
-        'bower_components/flickity/dist/flickity.pkgd.min.js',
-        'bower_components/clipboard/dist/clipboard.min.js',
-        'bower_components/anchor-js/anchor.min.js',
-        'bower_components/mustache/mustache.min.js',
-        'bower_components/lunr.js/lunr.js',
-        'bower_components/photoswipe/dist/photoswipe.min.js',
-        'bower_components/photoswipe/dist/photoswipe-ui-default.min.js',
+        'node_modules/material-design-lite/material.min.js',
+        'node_modules/jquery/dist/jquery.min.js',
+        'node_modules/packery/dist/packery.pkgd.min.js',
+        'node_modules/flickity/dist/flickity.pkgd.min.js',
+        'node_modules/clipboard/dist/clipboard.min.js',
+        'node_modules/anchor-js/anchor.min.js',
+        'node_modules/mustache/mustache.min.js',
+        'node_modules/lunr/lunr.js',
+        'node_modules/photoswipe/dist/photoswipe.min.js',
+        'node_modules/photoswipe/dist/photoswipe-ui-default.min.js',
         'js/*'
     ];
 
@@ -38,10 +38,10 @@ function js() {
 
 function css() {
     var files = [
-        // 'bower_components/material-design-lite/material.min.css',
-        'bower_components/flickity/dist/flickity.min.css',
-        'bower_components/photoswipe/dist/photoswipe.css',
-        'bower_components/photoswipe/dist/default-skin/default-skin.css',
+        // 'node_modules/material-design-lite/material.min.css',
+        'node_modules/flickity/dist/flickity.min.css',
+        'node_modules/photoswipe/dist/photoswipe.css',
+        'node_modules/photoswipe/dist/default-skin/default-skin.css',
         'css/*.css',
         'css/main.scss'
     ];
@@ -61,7 +61,7 @@ function css() {
 
 function images() {
     var files = [
-        'bower_components/photoswipe/dist/default-skin/*.{svg,png,gif}'
+        'node_modules/photoswipe/dist/default-skin/*.{svg,png,gif}'
     ];
 
     return gulp.src(files)

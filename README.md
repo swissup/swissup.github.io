@@ -1,6 +1,8 @@
-[SwissUpLabs docs site](https://docs.swissuplabs.com/)
+# Swissup Docs
 
-### Installation
+[docs.swissuplabs.com](https://docs.swissuplabs.com/)
+
+## Installation
 
 ```bash
 git clone git@github.com:swissup/swissup.github.io.git && cd swissup.github.io
@@ -9,16 +11,16 @@ git clone git@github.com:swissup/swissup.github.io.git && cd swissup.github.io
 gem install bundler
 
 # Install dependencies
-bundle install && bower install && npm install
+bundle install && npm install
 ```
 
-### Updating
+## Updating
 
 ```bash
-git pull && bundle install && bower install && npm install
+git pull && bundle install && npm install
 ```
 
-### Running
+## Running
 
 ```bash
 gulp
