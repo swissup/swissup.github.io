@@ -1,15 +1,15 @@
 ---
 layout: default
-title: Firecheckout Installation via Composer
-description: magento 2 firecheckout module installation
+title: Firecheckout Recommended Installation
+description: How to install and upgrade firecheckout module
 keywords: firecheckout installation
 category: Firecheckout
 exclude_from_search: true
 ---
 
-# Firecheckout Installation
+# Firecheckout Installation and Upgrade
 
-## Prepare to install
+## Prepare to install or update
 
 Firecheckout installation requires Marketplace module. It’s our module that
 registers our packages repository in composer.json file, saves its credentials
@@ -31,16 +31,28 @@ and activate the domain on the site where you’ve purchased the product:
 
 ## Install the module
 
-When Marketplace module is installed you can proceed with Firecheckout installation
-in teminal:
+When Marketplace module is installed you can proceed with module installation
+in teminal ([GUI](#marketplace-gui) is also available under _System > Marketplace_ menu entry).
 
 ```bash
 bin/magento marketplace:package:require swissup/firecheckout &&\
 bin/magento marketplace:package:install swissup/firecheckout
 ```
 
-Or, you can open Magento backend panel, navigate to _System > Marketplace_ and
-install modules directly from backend:
+## Update the module
+
+When Marketplace module is installed you can update the module using the
+following command ([GUI](#marketplace-gui) is also available under _System > Marketplace_ menu entry).
+
+```bash
+bin/magento marketplace:package:update swissup/firecheckout
+```
+
+## Marketplace GUI
+
+Besides terminal commands, Marketplace module provides a beautilul backend
+interface where you can install, update, enable, disable, and remove modules.
+It is available under _System > Marketplace_ menu entry:
 
 ![GUI](/images/m2/marketplace/gui.png)
 
