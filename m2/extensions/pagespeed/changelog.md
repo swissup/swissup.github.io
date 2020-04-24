@@ -8,6 +8,22 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.4.0
+
+> Apr 24, 2020
+
+**Improvments**
+ - Added ANALYZE; google pagespeed integration in config
+ - Add image optimize cron schedule
+ - Added filename filter argument to 'images:resize' console command
+ - Added limit filter argument to 'images:resize' console command
+
+**Fixes**
+ - Fix (remove) empty data-type="criticalCss"
+ - Move dublicate code in abstract class (custom config fields)
+ - Added comments about heavy server load for some features
+ - Add 'data-srcset' attribute to prepare list in WebP optimizer
+
 ### Version 1.3.17
 
 > Mar 20, 2020
