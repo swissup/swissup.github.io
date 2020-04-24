@@ -33,5 +33,5 @@ To save the time you can **disable** not used themes using following instruction
         "swissup/theme-frontend-argento-luxury": "*"
     },
     ```
- 4. Run `composer update argento-m2` command. It should upgrade all **Argento**
+ 4. Run `composer update swissup/argento-m2` command. It should upgrade all **Argento**
     modules and remove themes listed above.
