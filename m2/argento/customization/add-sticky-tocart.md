@@ -10,7 +10,7 @@ category: Argento
 # Product page sticky tocart button
 {:.no_toc}
 
-![Sticky tocart at Atgento Stripes](/images/m2/argento/customization/product/sticky-tocart.png)
+![Sticky tocart at Argento Stripes](/images/m2/argento/customization/product/sticky-tocart.png)
 
 * TOC
 {:toc}
@@ -21,7 +21,7 @@ category: Argento
 >    based on one of Argento themes.
 >
 >    If you did not &mdash; [go ahead](../custom-theme/), it will take 15 minutes.
->    
+>
 > 2. Argento theme must have version 1.13.0 or above.
 
 ### Enable sticky button
