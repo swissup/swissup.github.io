@@ -8,6 +8,13 @@ category: Checkout Cart
 
 # Changelog
 
+### Version 1.5.0
+
+> Apr 27, 2020
+
+ -  Added translations
+ -  Added support for Quantity Increments configuration
+
 ### Version 1.4.2
 
 > Sep 9, 2019

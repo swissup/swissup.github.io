@@ -53,15 +53,3 @@ you can face following problem on default checkout:
 
 This issue only happens on default Magento 2 checkout.
 There is no such problem with [Firecheckout](../firecheckout).
-
-##### Minimum Order Amount
-
-Extension is not compatible with `Minimum order amount` config in
-`Stores > Configuration > SALES > Sales > Minimum Order Amount` because of bugs
-in Magento 2.
-
-##### Product Stock Options
-
-Extension does not support `Maximum Qty Allowed in Shopping Cart`,
-`Minimum Qty Allowed in Shopping Cart` and `Qty Increments` settings from
-`Stores > Configuration > CATALOG > Inventory > Product Stock Options`.
