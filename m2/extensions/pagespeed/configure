@@ -5,24 +5,49 @@ if [ "$PHP_BIN" = "" ] ; then
     PHP_BIN='/usr/bin/php';
 fi
 
-MAGENTO_BIN="$PHP_BIN bin/magento"
+MAGENTO_BIN="bin/magento"
 
 [ -f 'bin/magento' ] || { echo >&2 "The script requires installed \"Magento 2\" "; pwd; exit 1; }
 
-$MAGENTO_BIN --version
+reload () {
+    # curl --silent `$MAGENTO_BIN config:show web/unsecure/base_url`
+    curl --silent `$MAGENTO_BIN config:show web/unsecure/base_url` > dev/null
+}
 
 $MAGENTO_BIN cache:flush
 $MAGENTO_BIN config:set pagespeed/main/enable 1
 $MAGENTO_BIN config:set pagespeed/main/devmode 1
+
 $MAGENTO_BIN config:set pagespeed/content/enable 1
 $MAGENTO_BIN config:set pagespeed/content/js 1
 $MAGENTO_BIN config:set pagespeed/content/css 1
 $MAGENTO_BIN config:set dev/template/minify_html 1
-$MAGENTO_BIN config:set dev/js/merge_files 1
+
 $MAGENTO_BIN config:set dev/js/enable_js_bundling 0
+$MAGENTO_BIN config:set dev/js/minify_files 0
+$MAGENTO_BIN config:set dev/js/merge_files 0
+$MAGENTO_BIN cache:clean
+reload
+
+$MAGENTO_BIN config:set pagespeed/js/enable_advanced_js_bundling 1
+$MAGENTO_BIN cache:clean
+reload
+
 $MAGENTO_BIN config:set dev/js/minify_files 1
+$MAGENTO_BIN cache:clean
+reload
+
+$MAGENTO_BIN setup:static-content:deploy -f
+# $MAGENTO_BIN setup:di:compile
+$MAGENTO_BIN cache:clean
+
+$MAGENTO_BIN config:set dev/js/merge_files 1
+$MAGENTO_BIN cache:clean
+reload
+
 $MAGENTO_BIN config:set pagespeed/js/defer_enable 1
 $MAGENTO_BIN config:set pagespeed/js/defer_unpack 1
+
 $MAGENTO_BIN config:set dev/css/merge_css_files 1
 $MAGENTO_BIN config:set dev/css/minify_files 1
 $MAGENTO_BIN config:set pagespeed/css/defer_enable 1
@@ -33,6 +58,8 @@ BASE_URL=`$MAGENTO_BIN config:show web/unsecure/base_url`
 SERVICE_API="http://ci.swissuplabs.com/pagespeed/critical-css/generate"
 CRITICAL_CSS=`curl --get --silent --fail "$SERVICE_API?" --data-urlencode "website=$BASE_URL"`
 $MAGENTO_BIN config:set pagespeed/css/critical_default "$CRITICAL_CSS"
+$MAGENTO_BIN cache:clean
+reload
 
 $MAGENTO_BIN config:set pagespeed/image/optimize_enable 1
 $MAGENTO_BIN config:set pagespeed/expire/enable 1
