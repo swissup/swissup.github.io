@@ -8,6 +8,13 @@ category: GDPR
 
 # Changelog
 
+### Version 1.3.1
+
+> Apr 27, 2020
+
+ -  Fixed error during static content deploy when theme buttons use gradient for background.
+ -  Fixed cookie bar positioning when theme uses margins on page-wrapper.
+
 ### Version 1.3.0
 
 > Apr 17, 2020
