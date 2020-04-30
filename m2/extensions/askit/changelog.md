@@ -11,6 +11,15 @@ category: AskIt
 
 # Changelog
 
+### Version 1.7.5
+
+> Apr 30, 2020
+
+ -  Correct '%' symbol in tranlation file.
+ -  Remove common phrases found in Magento. Typo fix: wan't => want.
+ -  - Add/Update translations ar_SA, uk_UA, sw_SE, es_ES, ru_RU, ,pt_PT, pl_PL, nb_NO, ko_KR,
+    ja_JP, it_IT, he_IL, de_DE, fr_FR, nl_NL, zh_CN etc.
+
 ### Version 1.7.1
 
 > Apr 6, 2020
