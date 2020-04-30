@@ -6,6 +6,14 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.5.0
+
+> Apr 30, 2020
+
+**Features**
+ - Update translations ar_SA, uk_UA, sw_SE, es_ES, ru_RU, ,pt_PT, pl_PL, nb_NO, ko_KR,
+    ja_JP, it_IT, he_IL, de_DE, fr_FR, nl_NL, zh_CN etc.
+
 ### Version 1.4.19
 
 > Apr 21, 2020
