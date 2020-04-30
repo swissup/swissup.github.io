@@ -6,6 +6,17 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.9.0
+
+> Apr 30, 2020
+
+**Features**
+ - Add/Update translations ar_SA, uk_UA, sw_SE, es_ES, ru_RU, ,pt_PT, pl_PL, nb_NO, ko_KR,
+    ja_JP, it_IT, he_IL, de_DE, fr_FR, nl_NL, zh_CN etc.
+
+**Bugfixes**
+ -  Don't use transition to hide navigation jumping when flex layout is used. (Pure2).
+
 ### Version 1.8.8
 
 > Feb 17, 2020
