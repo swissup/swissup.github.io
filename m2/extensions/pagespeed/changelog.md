@@ -8,6 +8,14 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.4.1
+
+> Apr 30, 2020
+
+**Fixes**
+ - Magento 2.3.5 CSP compatibility
+ - Do not execute image resize task too often
+
 ### Version 1.4.0
 
 > Apr 24, 2020
