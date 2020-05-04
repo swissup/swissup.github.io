@@ -72,3 +72,41 @@ You can resize the preview dragging its corner to test layout on different windo
 ![Header Builder Preview](/images/m2/argento/customization/theme-editor/preview.png)
 
 If you like new layout, do not forget to save config an clear cache to apply it on frontend.
+
+### Category Page Builder
+
+Category Page builder is a set of options with preview feature to modify the look of category page.
+
+It is available for every theme in Argento package.
+
+![Category page config with instant preview](/images/m2/argento/customization/theme-editor/category/config-with-instant-preview.gif)
+
+General layout of category page is two columns with left sidebar. Left sidebar contains category filters and some other blocks (e.g. wishlist).
+
+  - **Layout** - dropdown to change page layout. Values:
+      + theme definde;
+      + one column;
+      + two columns (left sidebar);
+      + two columns (right sidebar);
+      + three columns.
+  - **Content width** - dropdown to change width of main content. Values:
+      + full width;
+      + limited width.
+  - **Max width** - available only when limited width selected. Sey max allowed width for main content.
+  - **Product list mode** - dropdown to set look of product list. Values:
+      + Grid Only - Formats the list as a grid of rows and columns. Each product appears in a single cell of the grid.
+      + List Only - Formats the list with each product on a separate row.
+      + Grid (default / List) - By default, products appear in Grid view and can be toggled to List view.
+      + List (default / Grid) - By default, products appear in List View and can be toggled to Grid view.
+
+#### Grid Mode
+
+In this subsection you can determine the number of products displayed in grid view and set columns number for grid.
+
+![Category page grid config](/images/m2/argento/customization/theme-editor/category/config-grid.png)
+
+#### List Mode
+
+Lits mode for category page is not very common. But still it can give your store a fresh look when it is configured properly.
+
+![Category page list config](/images/m2/argento/customization/theme-editor/category/config-list.png)
