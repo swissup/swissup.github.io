@@ -29,9 +29,10 @@ So before you show some HTML you need to add it to the category page. If you alr
     - Categories select 'All'
     - Container 'Main Content Top' - will shows above product listing
     - Repeat for `Non-Anchor Categories`
-![Add Widget](https://user-images.githubusercontent.com/412612/77330643-51fee480-6d28-11ea-8758-0db48efbb8fc.png)
+![Add Widget](https://user-images.githubusercontent.com/412612/77307682-5f08dd00-6d02-11ea-8cbf-b508576d6e5d.png)
  3. Flush Cache
  4. Open any category page. In my case, I see many X.
+![Added html](https://user-images.githubusercontent.com/412612/77330643-51fee480-6d28-11ea-8758-0db48efbb8fc.png)
  5. Select attribute-value pair for example color purple. After reloading you can copy your attribute-value from the address bar (in my case ?color=5484)
  6. Open you custom static block created at first step and add some html markup `<div class="swissup-aln-toogle swissup-aln-toogle-color-5484 swissup-aln-hidden">any HTML tags, picture, another widgets, etc.</div>`
 
