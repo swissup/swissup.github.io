@@ -9,13 +9,9 @@ exclude_from_search: true
 
 # Installation from Marketplace
 
-{% include installation/m2/marketplace.html %}
+{% include installation/m2/marketplace.html package="swissup/firecheckout" installer="true" %}
 
-## Complete the installation
+##### Next up
 
-Navigate to _Stores > Configuration_ and
-[setup firecheckout](/m2/extensions/firecheckout/configuration/) according to your needs.
-
-#### Next up
-
- -  [Back to Main Page](../)
+ -  [Installation instructions](../)
+ -  [Back to Main Page](../../)

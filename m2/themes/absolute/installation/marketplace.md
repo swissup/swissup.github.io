@@ -8,9 +8,8 @@ exclude_from_search: true
 
 # Installation from Marketplace
 
-{% include installation/m2/marketplace.html %}
+{% include installation/m2/marketplace.html package="swissup/absolute-metapackage" installer="true" %}
 
-## Complete setup and installation
+## That's all. Navigate to you store to check your new theme:
 
-Proceed to the [step 4](../manual/#setup-configuration-and-theme-content) of manual
-installation instructions.
+![Homepage screenshot](/images/m2/themes/absolute/absolute_homepage.png)

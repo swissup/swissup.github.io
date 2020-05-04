@@ -13,5 +13,5 @@ exclude_from_search: true
 
 #### Next up
 
- -  [Configuration](../#configuration)
- -  [Back to Main Page](../)
+ -  [Configuration](../../#configuration)
+ -  [Back to Main Page](../../)

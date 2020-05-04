@@ -16,6 +16,6 @@ exclude_from_search: true
 Navigate to Swissup > Customer Field Manager and
 [change field values](/m2/extensions/customer-field-manager/usage/) according to your needs.
 
-#### Next up
+##### Next up
 
  -  [Back to Main Page](../)

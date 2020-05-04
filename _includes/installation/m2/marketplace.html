@@ -1,4 +1,25 @@
-#### 1. Install the Extension
+## Prepare to install
 
-Use <a href="https://docs.magento.com/m2/ee/user_guide/magento/magento-marketplace.html#on-premise-magento-commerce">official Magento User Guide</a>
-to install the package.
+Installation requires Marketplace module. It’s our module that
+registers Magento packages repository in composer.json file, saves its credentials
+to the auth.json file, automates a bunch of complex commands required to run
+prior and after module installation, and provides easy to use module installer.
+
+```bash
+composer require swissup/module-marketplace &&\
+bin/magento setup:upgrade &&\
+bin/magento marketplace:channel:enable magento
+```
+
+You'll be asked to enter your credentials. Get your credentials at
+[marketplace.magento.com](https://marketplace.magento.com/customer/accessKeys/)
+
+## Install
+
+When Marketplace module is installed you can proceed with installation
+in teminal (GUI is also available under _System > Marketplace_ menu entry).
+
+```bash
+bin/magento marketplace:package:require {{ include.package }}{% if include.installer == 'true' %} &&\
+bin/magento marketplace:package:install {{ include.package }}{% endif %}
+```

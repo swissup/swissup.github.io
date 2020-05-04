@@ -13,7 +13,7 @@ exclude_from_search: true
 
 {% include installation/m2/composer.html package="swissup/easy-slide" %}
 
-#### After installing the extension you can go to:
+##### Next Up
 
- *  [Admin interfaces](../interfaces/)
- *  [Use cases](../cases/)
+ -  [Admin interfaces](../../interfaces/)
+ -  [Use cases](../../cases/)

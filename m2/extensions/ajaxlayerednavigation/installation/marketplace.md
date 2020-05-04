@@ -9,8 +9,8 @@ exclude_from_search: true
 
 # Installation from Marketplace
 
-{% include installation/m2/marketplace.html %}
+{% include installation/m2/marketplace.html package="swissup/ajaxlayerednavigation" %}
 
 #### Next up
 
- -  [Back to Main Page](../)
+ -  [Back to Main Page](../../)

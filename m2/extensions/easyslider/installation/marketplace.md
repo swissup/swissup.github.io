@@ -11,10 +11,9 @@ exclude_from_search: true
 
 # Installation from Marketplace
 
-{% include installation/m2/marketplace.html %}
+{% include installation/m2/marketplace.html package="swissup/easy-slide" %}
 
-#### After installing the extension you can go to:
-* [Admin interfaces](../interfaces/)
-* [Use cases](../cases/)
-* [Support](https://swissuplabs.com/contacts/)
-* [Forum](https://swissuplabs.com/magento-forum/)
+##### Next Up
+
+ -  [Admin interfaces](../../interfaces/)
+ -  [Use cases](../../cases/)

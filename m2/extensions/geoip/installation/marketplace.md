@@ -9,9 +9,21 @@ exclude_from_search: true
 
 # Installation from Marketplace
 
-{% include installation/m2/marketplace.html %}
+{% include installation/m2/marketplace.html package="swissup/geoip" %}
 
-## Complete setup and installation
+## Download latest free maxmind geolite2 database
 
-Proceed to [step 3](../composer/#3-download-latest-free-maxmind-geolite2-database)
-of Composer Installation Instructions.
+Copy and execute the following command in the terminal:
+
+```bash
+mkdir -p var/swissup/geoip &&\
+cd var/swissup/geoip &&\
+wget http://geolite.maxmind.com/download/geoip/database/GeoLite2-City.tar.gz &&\
+mkdir mmdb && tar -xvzf GeoLite2-City.tar.gz -C mmdb --strip 1 &&\
+mv mmdb/GeoLite2-City.mmdb GeoLite2-City.mmdb &&\
+rm -rf mmdb GeoLite2-City.tar.gz &&\
+cd -
+```
+
+Want to use more accurate database version? Read the
+[article](/m2/extensions/geoip/maxmind-databases/) about database types.

@@ -9,10 +9,8 @@ exclude_from_search: true
 
 # Installation from Marketplace
 
-{% include installation/m2/marketplace.html %}
+{% include installation/m2/marketplace.html package="swissup/easybanner" %}
 
 ##### Next up
 
  -  [Admin interfaces](/m2/extensions/easybanners/interfaces/)
- -  [Support](https://swissuplabs.com/contacts/)
- -  [Forum](https://swissuplabs.com/magento-forum/)

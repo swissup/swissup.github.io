@@ -9,9 +9,9 @@ exclude_from_search: true
 
 # Installation from Marketplace
 
-{% include installation/m2/marketplace.html %}
+{% include installation/m2/marketplace.html package="swissup/product-orderattachment" %}
 
 #### Next up
 
- -  [Configuration](../#configuration)
- -  [Back to Main Page](../)
+ -  [Configuration](../../#configuration)
+ -  [Back to Main Page](../../)

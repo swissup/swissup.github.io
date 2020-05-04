@@ -9,11 +9,8 @@ exclude_from_search: true
 
 # Installation from Marketplace
 
-{% include installation/m2/marketplace.html %}
-
-
+{% include installation/m2/marketplace.html package="swissup/delete-orders" %}
 
 ##### Next up
 
-- [Manual installation](/m2/extensions/delete-orders/installation/manual)
 - [Back to docs homepage](/m2/extensions/delete-orders)

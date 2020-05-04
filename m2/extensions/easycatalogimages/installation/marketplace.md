@@ -9,12 +9,12 @@ exclude_from_search: true
 
 # Installation from Marketplace
 
-{% include installation/m2/marketplace.html %}
+{% include installation/m2/marketplace.html package="swissup/easycatalogimg" %}
 
 ## Complete the installation
 
-Proceed to the [step 4](../manual/#complete-the-installation) of manual installation
-instructions to complete the installation.
+Navigate to _Products > Categories_ and
+[assign thumbnails](../../usage/#add-category-thumbnail) to categories.
 
 #### Next up
 

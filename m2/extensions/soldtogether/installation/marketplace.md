@@ -9,7 +9,7 @@ exclude_from_search: true
 
 # Installation from Marketplace
 
-{% include installation/m2/marketplace.html %}
+{% include installation/m2/marketplace.html package="swissup/sold-together" %}
 
 ###### After installing the extension you can go to:
 
