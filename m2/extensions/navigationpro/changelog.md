@@ -8,6 +8,12 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.14.3
+
+> May 4, 2020
+
+ -  Added marketplace installer support.
+
 ### Version 1.14.1
 
 > Apr 28, 2020

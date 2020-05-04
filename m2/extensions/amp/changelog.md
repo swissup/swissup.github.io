@@ -8,6 +8,31 @@ category: Accelerated Mobile Pages
 
 # Changelog
 
+### Version 1.3.14
+
+> May 4, 2020
+
+ -  Magento 2.3.5 CSP compatibility
+ -  Fixed too big :focus border around the image
+ -  Fixed error at products compare page
+ -  16 locales added to translate backend and frontend phrases:
+    - Arabic
+    - Chinese
+    - Dutch
+    - French
+    - Hebrew
+    - Italian
+    - German
+    - Japanese
+    - Norwegian
+    - Korean
+    - Polish
+    - Portuguese
+    - Russian
+    - Spanish
+    - Swedish
+    - Ukrainian
+
 ### Version 1.3.9
 
 > Jan 31, 2020

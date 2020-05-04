@@ -8,6 +8,30 @@ category: Easy Banners
 
 # Changelog
 
+### Version 1.5.6
+
+> May 4, 2020
+
+ -  Magento 2.3.5 CSP compatibility.
+ -  Fixed broken chart in backend.
+ -  16 locales added to translate backend and frontend phrases:
+    - Arabic
+    - Chinese
+    - Dutch
+    - French
+    - Hebrew
+    - Italian
+    - German
+    - Japanese
+    - Norwegian
+    - Korean
+    - Polish
+    - Portuguese
+    - Russian
+    - Spanish
+    - Swedish
+    - Ukrainian
+
 ### Version 1.5.5
 
 > Apr 17, 2020
