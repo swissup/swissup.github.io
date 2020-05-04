@@ -11,9 +11,9 @@ exclude_from_search: true
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/rich-snippets" modules="Swissup_Core Swissup_RichSnippets Swissup_SeoCore" %}
+{% include installation/m2/manual.html package="swissup/rich-snippets" %}
 
-###### 3. Complete the installation
+## Complete the installation
 
 Navigate to `Stores > Configuration > Swissup Seo Suite > Rich Snippets` and
 enable extension.

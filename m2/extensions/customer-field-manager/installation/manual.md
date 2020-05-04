@@ -9,9 +9,9 @@ exclude_from_search: true
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/product-customer-field-manager" modules="Swissup_Core Swissup_FieldManager Swissup_CustomerFieldManager" %}
+{% include installation/m2/manual.html package="swissup/product-customer-field-manager" %}
 
-#### 3. Complete the installation
+## Complete the installation
 
 Navigate to Swissup > Customer Field Manager and
 [change field values](/m2/extensions/customer-field-manager/usage/) according to your needs.

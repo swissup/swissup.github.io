@@ -8,12 +8,14 @@ exclude_from_search: true
 
 # Manual Installation
 
-* TOC
-{:toc}
+{% include installation/m2/manual.html package="swissup/argento-m2" installer="true" %}
 
-{% include installation/m2/manual.html site="argentotheme.com" package="swissup/argento-m2" modules="Swissup_Core Swissup_Ajaxpro Swissup_Ajaxsearch Swissup_Amp Swissup_Askit Swissup_Attributepages Swissup_Compare Swissup_EasySlide Swissup_Easybanner Swissup_Easycatalogimg Swissup_Easytabs Swissup_Fblike Swissup_FeaturedAttributes Swissup_FontAwesome Swissup_Gdpr Swissup_GdprAskit Swissup_GdprTestimonials Swissup_Highlight Swissup_HoverGallery Swissup_Hreflang Swissup_Lightboxpro Swissup_Navigationpro Swissup_ProLabels Swissup_Reviewreminder Swissup_RichSnippets Swissup_Rtl Swissup_SeoCanonical Swissup_SeoCore Swissup_SeoCrossLinks Swissup_SeoHtmlSitemap Swissup_SeoPager Swissup_SeoUrls Swissup_SeoTemplates Swissup_SeoXmlSitemap Swissup_SlickCarousel Swissup_SoldTogether Swissup_Stickyfill Swissup_Suggestpage Swissup_Testimonials Swissup_ThemeEditor Swissup_ThemeEditorArgentoEssence Swissup_ThemeEditorArgentoForce Swissup_ThemeEditorArgentoFlat Swissup_ThemeEditorArgentoLuxury Swissup_ThemeEditorArgentoPure2 Swissup_ThemeEditorArgentoMall Swissup_ThemeEditorArgentoStripes" preinstall="composer require marc1706/fast-image-size:1.* leafo/scssphp:0.7.6 mobiledetect/mobiledetectlib:2.8" %}
+#### That's all. Navigate to you store to check your new theme:
 
-#### 3. Setup configuration and theme content
+{% include gallery.html images=site.data.gallery.m2.argento.installation.result class="phone-up-1 tablet-up-3 photoswipe scroll" %}
 
-Proceed to [step 3](../composer/#3-setup-configuration-and-theme-content) of
-Composer Installation Instructions.
+##### Next up
+
+- [Small css customizations](/m2/argento/customization/custom-css/)
+- [Create Argento based custom theme](/m2/argento/customization/custom-theme/)
+- [View list of included modules](/m2/argento/#extensions)

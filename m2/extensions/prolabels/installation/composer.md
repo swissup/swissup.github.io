@@ -9,7 +9,7 @@ exclude_from_search: true
 
 # Installation
 
-{% include installation/m2/composer.html site="swissuplabs.com" package="swissup/pro-labels" modules="Swissup_Core Swissup_ProLabels" %}
+{% include installation/m2/composer.html package="swissup/pro-labels" %}
 
 ###### After installing the extension you can go to:
 

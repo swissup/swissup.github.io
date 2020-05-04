@@ -11,7 +11,7 @@ exclude_from_search: true
 
 {% include installation/m2/marketplace.html %}
 
-#### 2. Complete the installation
+## Complete the installation
 
 Now you can enable extension in [Configuration][configuration] and create PDF documents from admin in [PDF Documents Grid][create_pdf]
 

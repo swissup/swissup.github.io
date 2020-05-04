@@ -8,9 +8,9 @@ exclude_from_search: true
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/product-subscribe-at-checkout" modules="Swissup_SubscribeAtCheckout" %}
+{% include installation/m2/manual.html package="swissup/product-subscribe-at-checkout" %}
 
-#### 3. Complete the installation
+## Complete the installation
 
 Navigate to `Stores > Configuration` and
 [setup module](/m2/extensions/subscribe-at-checkout/configuration/) according

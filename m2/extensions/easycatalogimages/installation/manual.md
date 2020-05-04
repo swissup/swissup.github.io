@@ -9,9 +9,9 @@ exclude_from_search: true
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/easycatalogimg" modules="Swissup_Core Swissup_Easycatalogimg" %}
+{% include installation/m2/manual.html package="swissup/easycatalogimg" %}
 
-#### 3. Complete the installation
+## Complete the installation
 
 Navigate to _Products > Categories_ and
 [assign thumbnails](../../usage/#add-category-thumbnail) to categories.

@@ -11,7 +11,7 @@ exclude_from_search: true
 
 {% include installation/m2/marketplace.html %}
 
-#### 2. Complete the installation
+## Complete the installation
 
 Navigate to `Stores > Configuration` and
 [enable GDPR module](/m2/extensions/gdpr/configuration/).

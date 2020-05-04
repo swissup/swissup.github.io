@@ -9,9 +9,9 @@ exclude_from_search: true
 
 # Installation
 
-{% include installation/m2/composer.html site="swissuplabs.com" package="swissup/geoip" modules="Swissup_Core Swissup_Checkout Swissup_Geoip" preinstall="composer require geoip2/geoip2" %}
+{% include installation/m2/composer.html package="swissup/geoip" %}
 
-#### 3. Download latest free maxmind geolite2 database
+## Download latest free maxmind geolite2 database
 
 Copy and execute the following command in the terminal:
 

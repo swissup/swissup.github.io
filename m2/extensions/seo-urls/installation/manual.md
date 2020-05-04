@@ -9,9 +9,9 @@ exclude_from_search: true
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/seo-urls" modules="Swissup_Core Swissup_SeoCore Swissup_SeoUrls" %}
+{% include installation/m2/manual.html package="swissup/seo-urls" %}
 
-#### 3. Complete the installation
+## Complete the installation
 
 Login your store admin and enable extension in magento [configuration](/m2/extensions/seo-urls/configuration).
 

@@ -9,9 +9,9 @@ exclude_from_search: true
 
 # Installation
 
-{% include installation/m2/composer.html site="swissuplabs.com" package="swissup/slick-carousel" modules="Swissup_SlickCarousel" %}
+{% include installation/m2/composer.html package="swissup/slick-carousel" %}
 
-#### 3. Complete the installation
+## Complete the installation
 
 Go ahead and [create your first slick carousel](../usage/#basic-usage).
 

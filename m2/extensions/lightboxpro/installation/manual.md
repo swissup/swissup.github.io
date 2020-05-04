@@ -9,7 +9,7 @@ exclude_from_search: true
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/lightboxpro" modules="Swissup_Core Swissup_Lightboxpro" %}
+{% include installation/m2/manual.html package="swissup/lightboxpro" %}
 
 #### Next up
 

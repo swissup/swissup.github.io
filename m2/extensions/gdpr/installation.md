@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Firecheckout Installation
-description: magento 2 firecheckout module installation
-keywords: firecheckout installation
-category: Firecheckout
+title: GDPR Installation
+description: How to install GDPR module
+keywords: gdpr installation
+category: GDPR
 ---
 
 # Installation instructions

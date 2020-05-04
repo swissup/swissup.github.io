@@ -11,7 +11,7 @@ exclude_from_search: true
 
 {% include installation/m2/marketplace.html %}
 
-#### 2. Complete the installation
+## Complete the installation
 
 Go ahead and [create your first slick carousel](../usage/#basic-usage).
 

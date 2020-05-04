@@ -9,4 +9,4 @@ exclude_from_search: true
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/email-templates" modules="Swissup_Core Swissup_EmailTemplates" %}
+{% include installation/m2/manual.html package="swissup/email-templates" %}

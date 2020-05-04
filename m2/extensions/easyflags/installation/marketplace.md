@@ -11,6 +11,6 @@ exclude_from_search: true
 
 {% include installation/m2/marketplace.html %}
 
-#### 2. Complete the installation
+## Complete the installation
 
 You can upload flag images for store views at `Stores > Configuration > Swissup > Easy Flags`.

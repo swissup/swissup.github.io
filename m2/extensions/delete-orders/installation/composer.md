@@ -7,4 +7,4 @@ exclude_from_search: true
 
 # Installation
 
-{% include installation/m2/composer.html site="swissuplabs.com" package="swissup/delete-orders" modules="Swissup_Core Swissup_DeleteOrders" %}
+{% include installation/m2/composer.html package="swissup/delete-orders" %}

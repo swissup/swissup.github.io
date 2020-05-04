@@ -12,7 +12,7 @@ exclude_from_search: true
 
 {% include installation/m2/marketplace.html %}
 
-#### 2. Complete the installation
+## Complete the installation
 
 Right after installation you'll see no differences on product page, three default magento 2 tabs will be displayed. You can change it in [Easytabs Grid][easytabs_grid]
 

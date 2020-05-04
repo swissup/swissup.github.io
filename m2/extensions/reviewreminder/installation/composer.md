@@ -9,9 +9,9 @@ exclude_from_search: true
 
 # Installation
 
-{% include installation/m2/composer.html site="swissuplabs.com" package="swissup/reviewreminder" modules="Swissup_Core Swissup_Reviewreminder" %}
+{% include installation/m2/composer.html package="swissup/reviewreminder" %}
 
-#### 3. Complete the installation
+## Complete the installation
 
 Navigate to `Stores > Configuration > Swissup > Review Reminder` and
 enable extension for any store you need.

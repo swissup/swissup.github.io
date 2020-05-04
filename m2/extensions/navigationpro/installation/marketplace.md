@@ -11,7 +11,7 @@ exclude_from_search: true
 
 {% include installation/m2/marketplace.html %}
 
-#### 2. Complete the installation
+## Complete the installation
 
 Navigate to _Swissup > NavigationPro_ and
 [create menu](/m2/extensions/navigationpro/backend/menu-grid/) according to your needs.

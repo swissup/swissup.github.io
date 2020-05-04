@@ -9,9 +9,9 @@ exclude_from_search: true
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/slick-carousel" modules="Swissup_SlickCarousel" %}
+{% include installation/m2/manual.html package="swissup/slick-carousel" %}
 
-#### 3. Complete the installation
+## Complete the installation
 
 Go ahead and [create your first slick carousel](../usage/#basic-usage).
 

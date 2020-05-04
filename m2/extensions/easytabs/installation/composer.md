@@ -10,9 +10,9 @@ exclude_from_search: true
 
 # Installation
 
-{% include installation/m2/composer.html site="swissuplabs.com" package="swissup/easytabs" modules="Swissup_Core Swissup_Easytabs" %}
+{% include installation/m2/composer.html package="swissup/easytabs" %}
 
-#### 3. Complete the installation
+## Complete the installation
 
 Right after installation you'll see no differences on product page, three default
 magento 2 tabs will be displayed. You can change it in [Easytabs Grid][easytabs_grid]

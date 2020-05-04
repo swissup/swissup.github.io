@@ -11,7 +11,7 @@ exclude_from_search: true
 
 {% include installation/m2/marketplace.html %}
 
-#### 2. Complete the installation
+## Complete the installation
 
 Navigate to _Stores > Configuration_ and enter your [api key](/m2/extensions/address-autocomplete/get-api-key/).
 

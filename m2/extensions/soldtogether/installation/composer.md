@@ -9,9 +9,9 @@ exclude_from_search: true
 
 # Installation
 
-{% include installation/m2/composer.html site="swissuplabs.com" package="swissup/sold-together" modules="Swissup_Core Swissup_SlickCarousel Swissup_SoldTogether" %}
+{% include installation/m2/composer.html package="swissup/sold-together" %}
 
-#### 3. Build relations
+## Build relations
 
 ``` bash
 # Build relations for "Customer Also Bought" block

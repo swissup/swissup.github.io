@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Instaframe installation
+title: Instaframe installation from Magento Marketrplace
 description: Instaframe installation instructions
-keywords: "instaframe installation"
 category: Instaframe
+exclude_from_search: true
 ---
 
-# Manual Installation
+# Installation from Marketplace
 
-{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/instaframe" modules="Swissup_Core Swissup_Instaframe" %}
+{% include installation/m2/marketplace.html %}
 
 ##### Next up
 

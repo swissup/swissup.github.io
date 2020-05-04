@@ -9,4 +9,4 @@ exclude_from_search: true
 
 # Installation
 
-{% include installation/m2/composer.html site="swissuplabs.com" package="swissup/helpdesk" modules="Swissup_Core Swissup_Helpdesk" %}
+{% include installation/m2/composer.html package="swissup/helpdesk" %}

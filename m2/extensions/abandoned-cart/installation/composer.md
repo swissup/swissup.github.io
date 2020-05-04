@@ -8,7 +8,7 @@ exclude_from_search: true
 
 # Composer Installation
 
-{% include installation/m2/composer.html site="swissuplabs.com" package="swissup/abandoned-cart" modules="Swissup_Core Swissup_AbandonedCart" %}
+{% include installation/m2/composer.html package="swissup/abandoned-cart" %}
 
 ##### Next Up
 

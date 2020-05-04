@@ -11,6 +11,6 @@ exclude_from_search: true
 
 {% include installation/m2/marketplace.html %}
 
-#### 3. Complete the installation
+## Complete the installation
 
 Enable and configure extension in `Stores > Configuration > Swissup Checkout > Tax VAT`.

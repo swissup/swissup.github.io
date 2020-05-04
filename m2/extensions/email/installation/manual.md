@@ -9,7 +9,7 @@ exclude_from_search: true
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/email" modules="Swissup_Email" %}
+{% include installation/m2/manual.html package="swissup/email" %}
 
 ##### Next up
 

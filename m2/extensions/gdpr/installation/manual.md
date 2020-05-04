@@ -9,9 +9,9 @@ exclude_from_search: true
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/gdpr" modules="Swissup_Core Swissup_Gdpr" %}
+{% include installation/m2/manual.html package="swissup/gdpr" %}
 
-#### Complete the installation
+## Complete the installation
 
 Navigate to `Stores > Configuration` and
 [enable GDPR module](/m2/extensions/gdpr/configuration/).

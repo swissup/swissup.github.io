@@ -8,7 +8,7 @@ exclude_from_search: true
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/ajaxlayerednavigation" modules="Swissup_Core Swissup_Ajaxlayerednavigation" %}
+{% include installation/m2/manual.html package="swissup/ajaxlayerednavigation" %}
 
 #### Next up
 

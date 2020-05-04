@@ -9,7 +9,7 @@ exclude_from_search: true
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/cache-warmer" modules="Swissup_Core Swissup_Cachewarmer" %}
+{% include installation/m2/manual.html package="swissup/cache-warmer" %}
 
 ##### Next up
 

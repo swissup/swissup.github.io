@@ -9,9 +9,9 @@ exclude_from_search: true
 
 # Installation
 
-{% include installation/m2/composer.html site="swissuplabs.com" package="swissup/fblike" modules="Swissup_Core Swissup_Fblike" %}
+{% include installation/m2/composer.html package="swissup/fblike" %}
 
-#### 3. Add Like Button To Catalog
+## Add Like Button To Catalog
 
 Add code to any place in catalog list.phtml:
 

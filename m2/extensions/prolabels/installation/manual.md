@@ -9,7 +9,7 @@ exclude_from_search: true
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/pro-labels" modules="Swissup_Core Swissup_ProLabels" %}
+{% include installation/m2/manual.html package="swissup/pro-labels" %}
 
 #### Upgrade from version 1.0.x to 1.1.0
 

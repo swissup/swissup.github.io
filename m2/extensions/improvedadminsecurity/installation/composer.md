@@ -1,15 +1,14 @@
 ---
 layout: default
-title: Checkout VAT Installation via Composer
-description: magento 2 checkout VAT module installation
-keywords: " magento 2 checkout VAT extension "
-category: Checkout VAT
+title: Improved Admin Security Installation
+description: How to install Improved Admin Security module
+category: TFA
 exclude_from_search: true
 ---
 
 # Installation
 
-{% include installation/m2/composer.html site="swissuplabs.com" package="swissup/tfa" modules="Swissup_Core Swissup_Tfa" %}
+{% include installation/m2/composer.html package="swissup/tfa" %}
 
 
 ![2018-05-25 17-15-34](https://user-images.githubusercontent.com/412612/40549149-65439a1a-603f-11e8-950c-106fbf7590b1.png)

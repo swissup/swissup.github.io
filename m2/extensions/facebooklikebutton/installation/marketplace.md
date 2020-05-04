@@ -11,7 +11,7 @@ exclude_from_search: true
 
 {% include installation/m2/marketplace.html %}
 
-#### 2. Add Like Button To Catalog
+## Add Like Button To Catalog
 
 Add code to any place in catalog list.phtml:
 

@@ -9,4 +9,4 @@ exclude_from_search: true
 
 # Installation
 
-{% include installation/m2/composer.html site="swissuplabs.com" package="swissup/recaptcha" modules="Swissup_Core Swissup_Recaptcha" preinstall="composer require google/recaptcha" %}
+{% include installation/m2/composer.html package="swissup/recaptcha" %}

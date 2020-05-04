@@ -10,9 +10,9 @@ category: Featured Attributes
 
 _**Note**: module is included in Argento since 1.3.0_
 
-{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/featured-attributes" modules="Swissup_Core Swissup_FeaturedAttributes" %}
+{% include installation/m2/manual.html package="swissup/featured-attributes" %}
 
-#### 4. Add Featured Attributes To Template
+## Add Featured Attributes To Template
 
 place code in list template in your theme `/Magento_Catalog/templates/product/list.phtml`
 

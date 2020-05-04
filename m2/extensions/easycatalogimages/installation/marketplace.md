@@ -11,7 +11,7 @@ exclude_from_search: true
 
 {% include installation/m2/marketplace.html %}
 
-#### 2. Complete the installation
+## Complete the installation
 
 Proceed to the [step 4](../manual/#complete-the-installation) of manual installation
 instructions to complete the installation.

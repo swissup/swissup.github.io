@@ -9,7 +9,7 @@ exclude_from_search: true
 
 # Installation
 
-{% include installation/m2/composer.html site="swissuplabs.com" package="swissup/product-orderattachment" modules="Swissup_Core Swissup_Checkout Swissup_Orderattachment" %}
+{% include installation/m2/composer.html package="swissup/product-orderattachment" %}
 
 #### Next up
 

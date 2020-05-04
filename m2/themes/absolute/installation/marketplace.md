@@ -10,7 +10,7 @@ exclude_from_search: true
 
 {% include installation/m2/marketplace.html %}
 
-#### 2. Complete setup and installation
+## Complete setup and installation
 
 Proceed to the [step 4](../manual/#setup-configuration-and-theme-content) of manual
 installation instructions.

@@ -1,0 +1,42 @@
+## Prepare to update
+
+Update requires Marketplace module. It’s our module that
+automates a bunch of complex commands required to run
+prior and after module installation, and provides easy to use module installer.
+
+```bash
+composer require swissup/module-marketplace &&\
+bin/magento setup:upgrade
+```
+
+Prepare directory for downloaded archives and register it in `composer.json`:
+
+```bash
+mkdir -p vendor/swissup/artifacts &&\
+composer config repositories.swissupartifacts artifact $(pwd)/vendor/swissup/artifacts
+```
+
+## Download and unpack archive
+
+ 1. Open your account page at the site where you purchased the module and download it:
+    -  [argentotheme.com](https://argentotheme.com/downloadable/customer/products/)
+    -  [firecheckout.net](https://firecheckout.net/subscription/customer/products/)
+    -  [swissuplabs.com](https://swissuplabs.com/subscription/customer/products/)
+
+ 2. Upload this archive to the `<magento_root>` directory, and then unpack it
+    to the `<magento_root>/vendor/swissup/artifacts` folder:
+
+    ```bash
+    unzip swissup.<module-version>.zip -d vendor/swissup/artifacts
+    ```
+
+ 3. Now, proceed to update section.
+
+## Update
+
+When Marketplace module is installed you can proceed with update
+in teminal (GUI is not supported in manual mode):
+
+```bash
+bin/magento marketplace:package:update {{ include.package }}
+```

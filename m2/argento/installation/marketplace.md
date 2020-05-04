@@ -10,7 +10,7 @@ exclude_from_search: true
 
 {% include installation/m2/marketplace.html %}
 
-#### 2. Complete setup and installation
+## Complete setup and installation
 
 Proceed to [step 3](../composer/#3-setup-configuration-and-theme-content) of
 Composer Installation Instructions.

@@ -9,9 +9,9 @@ exclude_from_search: true
 
 # Installation
 
-{% include installation/m2/composer.html site="swissuplabs.com" package="swissup/testimonials" modules="Swissup_Core Swissup_SlickCarousel Swissup_Testimonials" %}
+{% include installation/m2/composer.html package="swissup/testimonials" %}
 
-#### 3. Complete the installation
+## Complete the installation
 
 Now you can add testimonials from admin in [Testimonials Grid][testimonials_grid] and place [Widgets][widgets]
 

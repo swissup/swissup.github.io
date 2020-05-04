@@ -11,7 +11,7 @@ exclude_from_search: true
 
 {% include installation/m2/marketplace.html %}
 
-#### 2. Complete the installation
+## Complete the installation
 
 Now you can add testimonials from admin in [Testimonials Grid][testimonials_grid] and place [Widgets][widgets]
 

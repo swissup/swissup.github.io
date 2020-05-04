@@ -8,9 +8,9 @@ category: Hover Gallery
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/hover-gallery" modules="Swissup_Core Swissup_HoverGallery" %}
+{% include installation/m2/manual.html package="swissup/hover-gallery" %}
 
-#### 4. Complete the installation
+## Complete the installation
 
 In your theme template `/Magento_Catalog/templates/product/list.phtml` find block of code that might be looking like this (**please make sure you have a backup before overwriting your current files**):
 
@@ -30,7 +30,7 @@ Insert this code right below:
 ?>
 ```
 > If your Hover Gallery version is lower 1.3.0 then you need to use other code:
-> 
+>
 >   ```php
 >   <?php
 >       if ($this->helper('Magento\Catalog\Helper\Data')->isModuleOutputEnabled('Swissup_HoverGallery')) {

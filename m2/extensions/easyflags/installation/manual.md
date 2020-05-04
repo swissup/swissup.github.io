@@ -9,8 +9,8 @@ exclude_from_search: true
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/easyflags" modules="Swissup_Core Swissup_Easyflags" %}
+{% include installation/m2/manual.html package="swissup/easyflags" %}
 
-#### 3. Complete the installation
+## Complete the installation
 
 You can upload flag images for store views at `Stores > Configuration > Swissup > Easy Flags`.

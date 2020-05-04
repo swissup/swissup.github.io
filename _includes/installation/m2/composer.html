@@ -1,47 +1,29 @@
-#### 1. Register packages repository (First time only)
+## Prepare to install
+
+Installation requires Marketplace module. It’s our module that
+registers our packages repository in composer.json file, saves its credentials
+to the auth.json file, automates a bunch of complex commands required to run
+prior and after module installation, and provides easy to use module installer.
 
 ```bash
-composer config repositories.swissuplabs composer https://ci.swissuplabs.com/api/packages.json
-composer config -a -g http-basic.ci.swissuplabs.com "DOMAIN" "IDENTITY_KEY1 IDENTITY_KEY2 ..."
+composer require swissup/module-marketplace &&\
+bin/magento setup:upgrade &&\
+bin/magento marketplace:channel:enable swissuplabs
 ```
 
-**Command line options**
+You'll be asked to activate your domain and enter your key. Get identity key(s)
+and activate the domain on the site where you’ve purchased the product:
 
-Option | Description
--------|-------------
-DOMAIN | Your site domain name. Must be activated. See below for more information.
-IDENTITY_KEY | Identity key from one of our sites. Multiple keys are allowed.
+ -  [argentotheme.com](https://argentotheme.com/license/customer/activation/)
+ -  [firecheckout.net](https://firecheckout.net/license/customer/activation/)
+ -  [swissuplabs.com](https://swissuplabs.com/license/customer/activation/)
 
-> Get identity key(s) and activate the domain on the site where you've purchased
-> the product:
->
-> -  [argentotheme.com](https://argentotheme.com/license/customer/activation/)
-> -  [firecheckout.net](https://firecheckout.net/license/customer/activation/)
-> -  [swissuplabs.com](https://swissuplabs.com/license/customer/activation/)
->
-> Just purchased a licence or activated a new domain? Please wait up to five
-> minutes till we rebuild the packages for you.
+## Install
 
-#### 2. Install the package
+When Marketplace module is installed you can proceed with installation
+in teminal (GUI is also available under _System > Marketplace_ menu entry).
 
 ```bash
-# 0. Get the sources
-composer require {{ include.package }}
-
-# 1. Run magento upgrade scripts
-php bin/magento setup:upgrade
-
-# 2. Remove outdated files
-rm -rf pub/static/_requirejs var/view_preprocessed pub/static/frontend/ pub/static/adminhtml/ generated/code/
-
-# 3. If you use Production Mode you need to deploy static content and run di:compile command
-php bin/magento setup:static-content:deploy en_US en_GB
-php bin/magento setup:di:compile
-```
-
-##### One line command (will run all previous commands at once)
-{:.collapsible}
-
-```bash
-curl -s https://raw.githubusercontent.com/swissup/swissup.github.io/master/m2/install | bash -s - -p {{ include.package }} -l 'en_US' -d <domain.com> -k <identity_key>
+bin/magento marketplace:package:require {{ include.package }}{% if include.installer == 'true' %} &&\
+bin/magento marketplace:package:install {{ include.package }}{% endif %}
 ```

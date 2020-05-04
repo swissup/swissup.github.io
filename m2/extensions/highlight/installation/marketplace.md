@@ -11,7 +11,7 @@ exclude_from_search: true
 
 {% include installation/m2/marketplace.html %}
 
-#### 2. Complete the installation
+## Complete the installation
 
 Now you can add Highlight widgets to each store page by using
 [WYSIWYG editor][usage_wysiwyg_editor] or [CMS > Widgets][usage_widgets_page]

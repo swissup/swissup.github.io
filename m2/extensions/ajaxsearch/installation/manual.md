@@ -8,5 +8,5 @@ exclude_from_search: true
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/ajaxsearch" modules="Swissup_Core Swissup_Rtl Swissup_Ajaxsearch" %}
+{% include installation/m2/manual.html package="swissup/ajaxsearch" %}
 

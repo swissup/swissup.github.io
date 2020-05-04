@@ -8,4 +8,4 @@ exclude_from_search: true
 
 # Installation
 
-{% include installation/m2/composer.html site="swissuplabs.com" package="swissup/askit" modules="Swissup_Core Swissup_Askit" %}
+{% include installation/m2/composer.html package="swissup/askit" %}

@@ -9,7 +9,7 @@ exclude_from_search: true
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/easybanner" modules="Swissup_Core Swissup_Easybanner" %}
+{% include installation/m2/manual.html package="swissup/easybanner" %}
 
 ##### Next up
 

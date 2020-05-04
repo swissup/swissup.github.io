@@ -9,9 +9,9 @@ exclude_from_search: true
 
 # Installation
 
-{% include installation/m2/composer.html site="swissuplabs.com" package="swissup/seo-suite" modules="Swissup_Core Swissup_RichSnippets Swissup_SeoCanonical Swissup_SeoCore Swissup_SeoCrossLinks Swissup_SeoHtmlSitemap Swissup_SeoImages Swissup_SeoPager Swissup_SeoUrls Swissup_SeoTemplates Swissup_Hreflang Swissup_SeoXmlSitemap" %}
+{% include installation/m2/composer.html package="swissup/seo-suite" %}
 
-#### 3. Complete the installation
+## Complete the installation
 
 Login your store admin and enable extensions in magento configuration. Under
 section 'Swissup SEO' you can find all SEO related extensions.

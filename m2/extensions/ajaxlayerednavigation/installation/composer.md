@@ -8,7 +8,7 @@ exclude_from_search: true
 
 # Installation
 
-{% include installation/m2/composer.html site="swissuplabs.com" package="swissup/ajaxlayerednavigation" modules="Swissup_Core Swissup_Ajaxlayerednavigation" %}
+{% include installation/m2/composer.html package="swissup/ajaxlayerednavigation" %}
 
 #### Next up
 

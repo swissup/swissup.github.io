@@ -9,9 +9,9 @@ exclude_from_search: true
 
 # Installation
 
-{% include installation/m2/composer.html site="swissuplabs.com" package="swissup/social-login" modules="Swissup_Core Swissup_SocialCore Swissup_SocialLogin" preinstall="composer require hybridauth/hybridauth:^3.0" %}
+{% include installation/m2/composer.html package="swissup/social-login" %}
 
-#### 3. Complete the installation
+## Complete the installation
 
 Login your store admin and enable extension in magento configuration.
 

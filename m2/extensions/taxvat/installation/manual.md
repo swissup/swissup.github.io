@@ -9,8 +9,8 @@ exclude_from_search: true
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/product-taxvat" modules="Swissup_Core Swissup_Checkout Swissup_Taxvat" %}
+{% include installation/m2/manual.html package="swissup/product-taxvat" %}
 
-#### 3. Complete the installation
+## Complete the installation
 
 Enable and configure extension in `Stores > Configuration > Swissup Checkout > Tax VAT`.

@@ -9,9 +9,9 @@ exclude_from_search: true
 
 # Installation
 
-{% include installation/m2/composer.html site="swissuplabs.com" package="swissup/checkout-cart" modules="Swissup_Core Swissup_Checkout Swissup_CheckoutCart" %}
+{% include installation/m2/composer.html package="swissup/checkout-cart" %}
 
-#### 3. Complete the installation
+## Complete the installation
 
 Navigate to `Stores > Configuration > Swissup Checkout > Checkout Cart`. Enable and configure the extension.
 

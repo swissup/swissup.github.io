@@ -9,7 +9,7 @@ exclude_from_search: true
 
 # Installation
 
-{% include installation/m2/composer.html site="swissuplabs.com" package="swissup/easybanner" modules="Swissup_Core Swissup_Easybanner" %}
+{% include installation/m2/composer.html package="swissup/easybanner" %}
 
 ##### Next up
 

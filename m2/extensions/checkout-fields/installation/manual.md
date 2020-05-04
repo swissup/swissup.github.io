@@ -9,4 +9,4 @@ exclude_from_search: true
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/product-checkout-fields" modules="Swissup_Core Swissup_Checkout Swissup_CheckoutFields" %}
+{% include installation/m2/manual.html package="swissup/product-checkout-fields" %}

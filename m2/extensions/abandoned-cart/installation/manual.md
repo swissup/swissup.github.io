@@ -8,7 +8,7 @@ exclude_from_search: true
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/abandoned-cart" modules="Swissup_Core Swissup_AbandonedCart" %}
+{% include installation/m2/manual.html package="swissup/abandoned-cart" %}
 
 ##### Next Up
 

@@ -9,9 +9,9 @@ exclude_from_search: true
 
 # Installation
 
-{% include installation/m2/composer.html site="swissuplabs.com" package="swissup/seo-html-sitemap" modules="Swissup_Core Swissup_SeoCore Swissup_SeoHtmlSitemap" %}
+{% include installation/m2/composer.html package="swissup/seo-html-sitemap" %}
 
-#### 3. Complete the installation
+## Complete the installation
 
 Login your store admin and start to [configure extension](/m2/extensions/seo-html-sitemap/configuration).
 

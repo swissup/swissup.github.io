@@ -8,4 +8,4 @@ exclude_from_search: true
 
 # Manual Installation
 
-{% include installation/m2/manual.html site="swissuplabs.com" package="swissup/akismet" modules="Swissup_Core Swissup_Akismet" %}
+{% include installation/m2/manual.html package="swissup/akismet" %}
