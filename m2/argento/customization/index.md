@@ -9,11 +9,11 @@ category: Argento
 
  1. General
       - [Theme editor](theme-editor/)
-          + [Argento Force](/m2/argento/force/theme-editor/)
           + [Header Builder](theme-editor/#header-builder)
           + [Category Page Builder](theme-editor/#category-page-builder)
           + [Product Page Builder](theme-editor/#product-page-builder)
           + Design specific options and customization examples:
+              * [Argento Force](/m2/argento/force/theme-editor/)
               * [Argento Essence](/m2/argento/essence/theme-editor/)
               * [Argento Flat](/m2/argento/flat/theme-editor/)
               * [Argento Pure2](/m2/argento/pure2/theme-editor/)
