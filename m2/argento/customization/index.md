@@ -8,14 +8,18 @@ category: Argento
 # Argento customization
 
  1. General
-    - [Theme editor](theme-editor/)
-      - [Argento Essence](/m2/argento/essence/theme-editor/)
-      - [Argento Flat](/m2/argento/flat/theme-editor/)
-      - [Argento Pure2](/m2/argento/pure2/theme-editor/)
-      - [Argento Mall](/m2/argento/mall/theme-editor/)
-      - [Argento Luxury](/m2/argento/luxury/theme-editor/)
-      - [Argento Stripes](/m2/argento/stripes/theme-editor/)
-      - [Argento Force](/m2/argento/force/theme-editor/)
+      - [Theme editor](theme-editor/)
+          + [Argento Force](/m2/argento/force/theme-editor/)
+          + [Header Builder](theme-editor/#header-builder)
+          + [Category Page Builder](theme-editor/#category-page-builder)
+          + [Product Page Builder](theme-editor/#product-page-builder)
+          + Design specific options and customization examples:
+              * [Argento Essence](/m2/argento/essence/theme-editor/)
+              * [Argento Flat](/m2/argento/flat/theme-editor/)
+              * [Argento Pure2](/m2/argento/pure2/theme-editor/)
+              * [Argento Mall](/m2/argento/mall/theme-editor/)
+              * [Argento Luxury](/m2/argento/luxury/theme-editor/)
+              * [Argento Stripes](/m2/argento/stripes/theme-editor/)
     - [Custom css file](custom-css/)
     - [Custom js file](custom-js/)
     - [Custom theme](custom-theme/)

@@ -2,10 +2,15 @@
 layout: default
 title: Argento Theme Editor
 description: Argento customizations using theme editor
+keywords: header builder, product page builder, category page builder
 category: Argento
 ---
 
 # Theme Editor
+{:.no_toc}
+
+* TOC
+{:toc}
 
 Theme Editor is a module that comes with every Argento theme and allows you to
 customize its styles, layout, etc.
@@ -92,7 +97,7 @@ General layout of category page is two columns with left sidebar. Left sidebar c
   - **Content width** - dropdown to change width of main content. Values:
       + full width;
       + limited width.
-  - **Max width** - available only when limited width selected. Sey max allowed width for main content.
+  - **Max width** - available only when limited width selected. Set max allowed width for main content.
   - **Product list mode** - dropdown to set look of product list. Values:
       + Grid Only - Formats the list as a grid of rows and columns. Each product appears in a single cell of the grid.
       + List Only - Formats the list with each product on a separate row.
@@ -110,3 +115,57 @@ In this subsection you can determine the number of products displayed in grid vi
 Lits mode for category page is not very common. But still it can give your store a fresh look when it is configured properly.
 
 ![Category page list config](/images/m2/argento/customization/theme-editor/category/config-list.png)
+
+### Product Page Builder
+
+Product Page builder is a set of options with preview feature to modify the look of product page.
+
+It is available for every theme in Argento package.
+
+![Product page config](/images/m2/argento/customization/theme-editor/product/config.png)
+
+Pure2 and Flat Argento themes have product page with two columns and right sidebar layout. You can change it here. Other valueable options are content width, widht of image block and block with main product info. You can get pretty fresh look of product page when you set image and main product info width to 100%.
+
+#### Image
+
+![Product image config](/images/m2/argento/customization/theme-editor/product/config-image.png)
+
+This subsection allows to change position of image thumbnails. It duplicate config of Swisusp Lightbox Pro module (check store view level config it you see no changes at storefront).
+
+Values:
+
+  - Theme defined.
+  - Horizontal.
+  - Vertical.
+  - Hidden.
+
+#### To Cart Form
+
+![Product add to cart form config](/images/m2/argento/customization/theme-editor/product/config-to-cart-form.png)
+
+Here you can change "Add to cart form" position at product page. You can move form under product image similiar to Argento Stripes design. Or move it back to to its normal postion.
+
+Values:
+
+  - Theme defined.
+  - Product Info Main.
+  - Product Media (bottom).
+
+#### Tabs
+
+![Product tabs config](/images/m2/argento/customization/theme-editor/product/config-tabs.png)
+
+This subsection is powered by Swissup Easytabs module. You can change tabs layout and tabs position.
+
+Possible tabs layout:
+
+  - Collapsed tabs (traditional layout).
+  - Expanded tabs.
+  - Accordion.
+
+Possible tabs position:
+
+  - Theme Defined.
+  - Main Content - most common position for tabs (under product image and "add to cart" form blocks).
+  - Product Info Main (bottom) - like tabs at Argento Luxury desing at product page. On right side under "add to cart" form.
+
