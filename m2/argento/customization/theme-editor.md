@@ -89,7 +89,7 @@ It is available for every theme in Argento package.
 General layout of category page is two columns with left sidebar. Left sidebar contains category filters and some other blocks (e.g. wishlist).
 
   - **Layout** - dropdown to change page layout. Values:
-      + theme definde;
+      + theme defined;
       + one column;
       + two columns (left sidebar);
       + two columns (right sidebar);
@@ -124,13 +124,13 @@ It is available for every theme in Argento package.
 
 ![Product page config](/images/m2/argento/customization/theme-editor/product/config.png)
 
-Pure2 and Flat Argento themes have product page with two columns and right sidebar layout. You can change it here. Other valueable options are content width, widht of image block and block with main product info. You can get pretty fresh look of product page when you set image and main product info width to 100%.
+Pure2 and Flat Argento themes have product page with two columns and right sidebar layout. You can change it here. Other valuable options are content width, width of image block and block with main product info. You can get pretty fresh look of product page when you set image and main product info width to 100%.
 
 #### Image
 
 ![Product image config](/images/m2/argento/customization/theme-editor/product/config-image.png)
 
-This subsection allows to change position of image thumbnails. It duplicate config of Swisusp Lightbox Pro module (check store view level config it you see no changes at storefront).
+This subsection allows to change position of image thumbnails. It duplicates config of Swissup Lightbox Pro module (check store view level config if you see no changes at storefront).
 
 Values:
 
@@ -143,7 +143,7 @@ Values:
 
 ![Product add to cart form config](/images/m2/argento/customization/theme-editor/product/config-to-cart-form.png)
 
-Here you can change "Add to cart form" position at product page. You can move form under product image similiar to Argento Stripes design. Or move it back to to its normal postion.
+Here you can change "Add to cart form" position at product page. You can move form under product image similiar to Argento Stripes design. Or move it back to its normal position.
 
 Values:
 
