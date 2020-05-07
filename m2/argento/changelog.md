@@ -7,6 +7,83 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.17.0
+
+> May 7, 2020
+
+ -  Compatibility with Magento 2.3.5 and Content Security Policies
+ -  Added translation for 16 locales in all themes and modules
+ -  Customize category page from admin using [Category Page Builder][cp-builder]
+ -  Customize product page from admin using [Product Page Builder][pp-builder]
+ -  Argento Pure2: you can now change header layout directly from admin using [Header Builder][h-builder]
+ -  Argento Luxury: styles improvements and optimization
+ -  Improved filters styles at one column page layout
+ -  Fancy scroll at Ajaxpro popup
+ -  Fixed wrong logo size in Magento 2.3.5
+
+**Extensions Updates**
+
+ -  [Ajax Pro](/m2/extensions/ajaxpro/) — 1.5.1 (was 1.4.18)
+    -  Fixed issue with configurable products
+    -  Modal logic fix
+ -  [Ajax Search](/m2/extensions/ajaxsearch/) — 1.9.1 (was 1.8.8)
+    -  css fix for search in Header Builder
+ -  [AMP](/m2/extensions/amp/) — 1.3.14 (was 1.3.13)
+    -  Magento 2.3.5 CSP compatibility
+    -  Fixed too big :focus border around the image
+    -  Fixed error at products compare page
+ -  [Askit](/m2/extensions/askit/) — 1.7.5 (was 1.7.0)
+    -  Remove template and js file not used anymore
+    -  Fixed askit widget at homepage
+ -  [Attribute Pages](/m2/extensions/attributepages/) — 1.2.4 (was 1.2.3)
+ -  [EasySlide](/m2/extensions/easyslider/) — 1.5.5 (was 1.5.4)
+    -  Improved positioning of slide description
+    -  Fixed error on image upload page - compatibility with Magento 2.3.5
+ -  [Easybanner](/m2/extensions/easybanners/) — 1.5.6 (was 1.5.4)
+    -  Fixed small image in newsletter popup
+    -  GDPR cookie consent integration
+    -  Magento 2.3.5 CSP compatibility
+    -  Fixed broken chart in backend
+ -  [EasyCatalogImages](/m2/extensions/easycatalogimages/) — 1.4.8 (was 1.4.7)
+ -  [Easytabs](/m2/extensions/easytabs/) — 1.8.10 (was 1.8.9)
+    -  Added config to enable accordion layout on desktop
+ -  [Fblike](/m2/extensions/fblike/) — 1.3.5 (was 1.3.4)
+    -  Magento 2.3.5 CSP compatibility
+ -  [Featured Attributes](/m2/extensions/featured-attributes/) — 1.1.2 (was 1.1.1)
+    -  Improved performance
+ -  **FontAwesome** — 1.4.1 (was 1.4.0)
+    -  Magento 2.3.5 CSP compatibility
+ -  [GDPR](/m2/extensions/gdpr/) — 1.3.2 (was 1.2.3)
+    -  [Cookie consent](/m2/extensions/gdpr/configuration/#cookie-consent-section) feature added
+    -  Fixed error during static content deploy
+    -  Fixed cookie bar positioning
+ -  [Highlight](/m2/extensions/highlight/) — 1.6.1 (was 1.6.0)
+    -  Block title now affects the cache
+ -  [LightboxPro](/m2/extensions/lightboxpro/) — 1.2.10 (was 1.2.9)
+    -  Removed add session param to url: Magento 2.3.5 compatibility
+ -  [NavigationPro](/m2/extensions/navigationpro/) — 1.14.3 (was 1.14.0)
+    -  Fixed bug when dropdown wasn’t shown on mouse hover
+    -  Decreased cache memory consumption
+    -  Added marketplace installer support
+ -  [Pagespeed](/m2/extensions/pagespeed/) — 1.4.2 (was 1.3.17)
+    -  Added google pagespeed insights integration in config
+    -  Added image optimization by schedule
+    -  Added filename and limit arguments to ‘images:resize’ console command
+    -  Added comments about heavy server load for some features in config
+    -  Magento 2.3.5 CSP compatibility
+    -  Added ability to exclude some scripts from defer
+    -  Added http/2 pushing for fonts
+ -  [ProLabels](/m2/extensions/prolabels/) — 1.5.3 (was 1.5.2)
+    -  On Sale, Is New and Stock labels can be disabled for specific customer group
+ -  [Review Reminder](/m2/extensions/reviewreminder/) — 1.1.6 (was 1.1.5)
+    -  Fixed showing wrong products in email
+ -  [SoldTogether](/m2/extensions/soldtogether/) — 1.6.9 (was 1.6.8)
+ -  [Testimonials](/m2/extensions/testimonials/) — 1.2.8 (was 1.2.7)
+
+[cp-builder]: /m2/argento/customization/theme-editor/#category-page-builder
+[pp-builder]: /m2/argento/customization/theme-editor/#product-page-builder
+[h-builder]: /m2/argento/customization/theme-editor/#header-builder
+
 ### Version 1.16.0
 
 > Mar 26, 2020
