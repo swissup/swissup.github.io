@@ -8,6 +8,14 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.4.2
+
+> May 7, 2020
+
+**Improvments**
+ - Add font http/2 pushing
+ - Add ignore defer js signatures
+
 ### Version 1.4.1
 
 > Apr 30, 2020
