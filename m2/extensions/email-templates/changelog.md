@@ -8,6 +8,13 @@ category: Email Templates
 
 # Changelog
 
+### Version 1.0.2
+
+> May 7, 2020
+
+  - Prevent error in template preview when order has deleted product.
+  - Compatibility with M2.2.6.
+
 ### Version 1.0.1
 
 > Jan 27, 2020
