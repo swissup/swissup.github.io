@@ -10,6 +10,26 @@ category: SEO Suite
 
 ### Version 1.9.0
 
+> May 7, 2020
+
+  - All modules from SEO Suite got localization (translations).
+
+*swissup/module-hreflang — 1.4.0* (was 1.3.7)
+
+  - Fixed empty hreflang value for chines locales when "Remove region...".
+  - Build hreflang links using all websites of Magento instance.
+  
+*swissup/module-rich-snippets — 1.4.8* (was 1.4.9)
+
+  - Compatibility with Firebear_ConfigurableProducts module.
+  
+*swissup/module-seo-urls — 1.5.11* (was 1.5.10)
+
+  - Add `nofollow` to category filter in layered navigation.
+
+
+### Version 1.9.0
+
 > Mar 10, 2020
 
 *swissup/module-seo-images — 1.3.0* (was 1.1.3)
