@@ -77,6 +77,14 @@ category: Argento
     -  On Sale, Is New and Stock labels can be disabled for specific customer group
  -  [Review Reminder](/m2/extensions/reviewreminder/) — 1.1.6 (was 1.1.5)
     -  Fixed showing wrong products in email
+ -  [Seo Suite](/m2/extensions/seo-suite/) — 1.9.1 (was 1.9.0)
+     - *swissup/module-hreflang — 1.4.0* (was 1.3.7)
+       - Fixed empty hreflang value for chines locales when "Remove region...".
+       - Build hreflang links using all websites of Magento instance.
+     - *swissup/module-rich-snippets — 1.4.8* (was 1.4.9)
+       - Compatibility with Firebear_ConfigurableProducts module.
+     - *swissup/module-seo-urls — 1.5.11* (was 1.5.10)
+       - Add `nofollow` to category filter in layered navigation.
  -  [SoldTogether](/m2/extensions/soldtogether/) — 1.6.9 (was 1.6.8)
  -  [Testimonials](/m2/extensions/testimonials/) — 1.2.8 (was 1.2.7)
 
