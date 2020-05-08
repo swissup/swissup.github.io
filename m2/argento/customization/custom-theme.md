@@ -110,10 +110,10 @@ Let's create `Local/argento-[essence|flat|pure2|mall|stripes|luxury|force]-custo
     For example
 
     ```bash
-    php bin/magento swissup:theme:create argento-stripes stripes --css
+    php bin/magento swissup:theme:create argento-stripes-custom stripes --css
     ```
 
-    will generate Local/argento-stripes theme based at stripes (swissup/theme-frontend-argento-stripes)
+    will generate Local/argento-stripes-custom theme based at stripes (swissup/theme-frontend-argento-stripes)
 
  3. Log in to Magento backend and navigate to `Content > Themes`. You should
     see new theme in the list.
