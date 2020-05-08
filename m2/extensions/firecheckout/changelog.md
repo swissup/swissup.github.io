@@ -8,6 +8,17 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.22.4
+
+> May 8, 2020
+
+ -  Magento 2.3.5 Content Security Policy compatibility.
+ -  GeoIP module is now allows to download and update Maxmind database directly from
+    [configuration page](/m2/extensions/geoip/configuration/).
+ -  [Cart qty switcher](/m2/extensions/checkout-cart/) now supports qty
+    increments settings.
+ -  Translation updates.
+
 ### Version 1.22.3
 
 > Apr 21, 2020
