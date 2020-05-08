@@ -8,6 +8,35 @@ category: PDF Invoices
 
 # Known Issues
 
+### Download PDF link problem in Magento 2.3.4
+
+Due to a bug in Magento 2.3.4 `$order` variable is empty in emails.
+It causes missing order items in emails, please check the
+[issue on Github](https://github.com/magento/magento2/issues/26882).
+
+As we use the `$order` variable to generate download PDF link it stopped to work too.
+The fix will be available in Magento 2.4.0. Meanwhile, it can be fixed using
+legacy mode for email templates.
+
+When using [Email Templates](/m2/extensions/email-templates/) module, it can be done
+in file `Controller/Adminhtml/Template/Save.php` on line 62:
+
+```diff
+--- a/Controller/Adminhtml/Template/Save.php
++++ b/Controller/Adminhtml/Template/Save.php
+@@ -60,6 +60,7 @@ public function execute()
+            }
+
+            $template->addData($data);
++           $template->setIsLegacy(1);
+
+            try {
+                $template->save();
+```
+
+If you have previously created email templates, you will need to open and save
+them again after the change.
+
 ### Magento 2.2 Compatibility
 
 Due to backward incompatible changes in template variables code in Magento 2.3,

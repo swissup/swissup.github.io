@@ -27,6 +27,7 @@ Also you can add *Download PDF* link to the sales emails.
 3. [Configuration](configuration/)
 4. [Create PDF Template](create-pdf-template/)
 5. [Known Issues](known-issues/)
+   - [Download PDF link problem in Magento 2.3.4](known-issues/#download-pdf-link-problem-in-magento-234)
    - [Magento 2.2 Compatibility](known-issues/#magento-22-compatibility)
    - [HTML and CSS support](known-issues/#html-and-css-support)
 6. [Use cases](use-cases/)
