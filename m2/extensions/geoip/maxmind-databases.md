@@ -26,29 +26,18 @@ Both database versions provide the same address information:
 The only difference is that the paid version is far more accurate and bigger
 than the free one.
 
-### Where should I put the database?
+### How to download the database?
 
-Put the database into `<magento_root>/var/swissup/geoip/` folder.
+ 1. [Sign up for a MaxMind account](https://www.maxmind.com/en/geolite2/signup) (no purchase required)
+ 2. Set your password and create a [license key](https://www.maxmind.com/en/accounts/current/license-key)
+ 3. Enter your license key in [GeoIP configuration](/m2/extensions/geoip/configuration/)
+    and press "Download Database" button.
 
-Example of how to download and unpack free database from the terminal:
+    > If you don't want to use automatic downloader for some reason, you can
+    > download the archive manually from the
+    > [GeoIP download page](https://www.maxmind.com/en/accounts/current/geoip/downloads),
+    > unpack it, and copy *.mmdb file to the <magento_root>/var/swissup/geoip directory.
+    > Then rename the database file into maxmind.mmdb.
 
-```bash
-mkdir -p var/swissup/geoip &&\
-cd var/swissup/geoip &&\
-wget http://geolite.maxmind.com/download/geoip/database/GeoLite2-City.tar.gz &&\
-mkdir mmdb && tar -xvzf GeoLite2-City.tar.gz -C mmdb --strip 1 &&\
-mv mmdb/GeoLite2-City.mmdb GeoLite2-City.mmdb &&\
-rm -rf mmdb GeoLite2-City.tar.gz &&\
-cd -
-```
-
-Make sure that the filename of downloaded database is the same as saved in
-[configuration](/m2/extensions/geoip/configuration/#general-section).
-
-> Attention!
->
-> Database will eventually become out of date.
-> It is recommended to update your database once a month.
->
-> You can add the script above in your cron schedule to perform this task
-> automatically.
+ 4. After download is completed you'll see the date of last update below
+    "Download Database" button.

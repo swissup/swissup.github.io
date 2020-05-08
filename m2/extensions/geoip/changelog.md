@@ -8,6 +8,19 @@ category: Geoip
 
 # Changelog
 
+### Version 1.5.0
+
+> May 8, 2020
+
+ -  You can now [download and update](/m2/extensions/geoip/configuration/) MaxMind
+    database in just one click.
+
+    > Database is now stored in `<magento_root>/var/swissup/geoip/maxmind.mmdb` file.
+    >
+    > In order to keep GeoIP functionality working for our existing customers,
+    > we use a fallback to the configured filename (GeoLite2-City.mmdb by default)
+    > in the same directory if maxmind.mmdb is not found.
+
 ### Version 1.4.0
 
 > Jan 8, 2020

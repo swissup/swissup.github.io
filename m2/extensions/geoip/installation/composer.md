@@ -11,19 +11,7 @@ exclude_from_search: true
 
 {% include installation/m2/composer.html package="swissup/geoip" %}
 
-## Download latest free maxmind geolite2 database
+## Complete installation
 
-Copy and execute the following command in the terminal:
-
-```bash
-mkdir -p var/swissup/geoip &&\
-cd var/swissup/geoip &&\
-wget http://geolite.maxmind.com/download/geoip/database/GeoLite2-City.tar.gz &&\
-mkdir mmdb && tar -xvzf GeoLite2-City.tar.gz -C mmdb --strip 1 &&\
-mv mmdb/GeoLite2-City.mmdb GeoLite2-City.mmdb &&\
-rm -rf mmdb GeoLite2-City.tar.gz &&\
-cd -
-```
-
-Want to use more accurate database version? Read the
-[article](/m2/extensions/geoip/maxmind-databases/) about database types.
+Navigate to [module configuration](/m2/extensions/geoip/configuration/) to
+enable module and download or setup GeoIP database.
