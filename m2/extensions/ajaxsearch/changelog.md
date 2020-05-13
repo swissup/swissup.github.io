@@ -6,6 +6,17 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.9.1
+
+> May 7, 2020
+
+**Features**
+ - Improve translates.
+
+**Bugfixes**
+ - Refix 'search' keyboard button not working on iOS
+ - Don't use transition to hide navigation jumping when flex layout is used.
+
 ### Version 1.9.0
 
 > Apr 30, 2020

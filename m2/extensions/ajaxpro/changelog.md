@@ -6,6 +6,13 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.5.1
+
+> May 7, 2020
+
+**Features**
+ - Improve translates.
+
 ### Version 1.5.0
 
 > Apr 30, 2020
