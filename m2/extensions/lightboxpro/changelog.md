@@ -8,6 +8,30 @@ category: Lightbox Pro
 
 # Changelog
 
+### Version 1.2.10
+
+> May 13, 2020
+
+ -  Resize image when height is updated
+ -  Removed add session param to url - Magento 2.3.5 compatibility
+ -  16 locales added to translate backend and frontend phrases:
+    - Arabic
+    - Chinese
+    - Dutch
+    - French
+    - Hebrew
+    - Italian
+    - German
+    - Japanese
+    - Norwegian
+    - Korean
+    - Polish
+    - Portuguese
+    - Russian
+    - Spanish
+    - Swedish
+    - Ukrainian
+
 ### Version 1.2.7
 
 > Jan 31, 2020

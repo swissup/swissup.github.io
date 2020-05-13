@@ -8,6 +8,34 @@ category: Testimonials
 
 # Changelog
 
+### Version 1.2.8
+
+> May 13, 2020
+
+ -  16 locales added to translate backend and frontend phrases:
+    - Arabic
+    - Chinese
+    - Dutch
+    - French
+    - Hebrew
+    - Italian
+    - German
+    - Japanese
+    - Norwegian
+    - Korean
+    - Polish
+    - Portuguese
+    - Russian
+    - Spanish
+    - Swedish
+    - Ukrainian
+
+### Version 1.2.5
+
+> May 2, 2019
+
+ -  Resize images only by width when height is empty
+
 ### Version 1.2.4
 
 > Mar 29, 2019

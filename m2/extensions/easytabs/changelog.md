@@ -8,6 +8,33 @@ category: Easy Tabs
 
 # Changelog
 
+### Version 1.8.10
+
+> May 7, 2020
+
+ -  Added config for product tabs to enable accordion layout on desktop
+ -  No limits for product attribute tab - add as many attributes as you need
+ -  UX improvements in admin. Colorized tabs grid.
+ -  Added alias column in grid
+ -  Fixed attribute tab rendering
+ -  16 locales added to translate backend and frontend phrases:
+    - Arabic
+    - Chinese
+    - Dutch
+    - French
+    - Hebrew
+    - Italian
+    - German
+    - Japanese
+    - Norwegian
+    - Korean
+    - Polish
+    - Portuguese
+    - Russian
+    - Spanish
+    - Swedish
+    - Ukrainian
+
 ### Version 1.8.8
 
 > Mar 20, 2020

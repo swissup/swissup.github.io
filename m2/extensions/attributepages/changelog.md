@@ -7,6 +7,34 @@ category: Attributepages
 
 # Changelog
 
+### Version 1.2.4
+
+> May 13, 2020
+
+ -  16 locales added to translate backend and frontend phrases:
+    - Arabic
+    - Chinese
+    - Dutch
+    - French
+    - Hebrew
+    - Italian
+    - German
+    - Japanese
+    - Norwegian
+    - Korean
+    - Polish
+    - Portuguese
+    - Russian
+    - Spanish
+    - Swedish
+    - Ukrainian
+
+### Version 1.2.2
+
+> Jan 16, 2020
+
+ -  Do not show products that are not connected to any categories
+
 ### Version 1.2.1
 
 > Oct 16, 2019

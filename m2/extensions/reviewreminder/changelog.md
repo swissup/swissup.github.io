@@ -8,6 +8,30 @@ category: Review Reminder
 
 # Changelog
 
+### Version 1.1.6
+
+> May 13, 2020
+
+ -  Fixed showing wrong products in email
+ -  Added ability to use TrustedShops review link in email
+ -  16 locales added to translate backend and frontend phrases:
+    - Arabic
+    - Chinese
+    - Dutch
+    - French
+    - Hebrew
+    - Italian
+    - German
+    - Japanese
+    - Norwegian
+    - Korean
+    - Polish
+    - Portuguese
+    - Russian
+    - Spanish
+    - Swedish
+    - Ukrainian
+
 ### Version 1.1.3
 
  -  Fixed rare issue when customer email was empty in reminder

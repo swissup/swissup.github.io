@@ -8,7 +8,29 @@ category: EasyCatalogImages
 
 # Changelog
 
-### Version 1.3.3
+### Version 1.4.8
+
+> May 7, 2020
+
+ -  16 locales added to translate backend and frontend phrases:
+    - Arabic
+    - Chinese
+    - Dutch
+    - French
+    - Hebrew
+    - Italian
+    - German
+    - Japanese
+    - Norwegian
+    - Korean
+    - Polish
+    - Portuguese
+    - Russian
+    - Spanish
+    - Swedish
+    - Ukrainian
+
+### Version 1.4.7
 
 > Feb 17, 2020
 

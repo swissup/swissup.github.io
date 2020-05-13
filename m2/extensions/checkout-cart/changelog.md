@@ -8,6 +8,13 @@ category: Checkout Cart
 
 # Changelog
 
+### Version 1.5.2
+
+> May 13, 2020
+
+ -  Convert quantity value to number when incrementing to prevent string concatenation
+ -  Removed default argument value in JS code (IE compatibility)
+
 ### Version 1.5.0
 
 > Apr 27, 2020
