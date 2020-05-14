@@ -8,6 +8,13 @@ category: Checkout Success
 
 # Changelog
 
+### Version 1.4.4
+
+> May 14, 2020
+
+  - Add Danish locale.
+  - Updated CodeMirror module.
+
 ### Version 1.4.3
 
 > Mar 19, 2020
