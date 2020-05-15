@@ -8,6 +8,13 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.5.3
+
+> May 15, 2020
+
+  - Localization added.
+  - Updated CodeMirror module.
+
 ### Version 1.5.2
 
 > Mar 19, 2020
