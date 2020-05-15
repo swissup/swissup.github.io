@@ -8,6 +8,12 @@ category: reCAPTCHA
 
 # Changelog
 
+### Version 1.3.7
+
+> May 15, 2020
+
+  -  Magento 2.3.5 CSP compatibility.
+
 ### Version 1.3.6
 
 > Apr 13, 2020
