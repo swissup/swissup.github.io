@@ -44,9 +44,10 @@ magento field "vat_id" and the firecheckout module.
     ], function ($, _, label, dependency, mask, validator, watcher) {
         'use strict';
 
+        //define address form in which need to use the CPF/CNPJ code
         var scopes = [
-            '.form-shipping-address', //define address form in which need to use the CPF/CNPJ code
-            '.payment-method._active'
+            '.form-shipping-address',
+            '.checkout-billing-address'
 
         ];
 
@@ -54,7 +55,7 @@ magento field "vat_id" and the firecheckout module.
             dependency({
                 scope: scope,
                 watch: {
-                    '[name="custom_attributes[person_company]"]': '218' // change this value according to your options
+                    '[name="custom_attributes[person_company]"]': 'NUM2' // change this value according to your options
                 },
                 react: {
                     '[name="company"]': 'required|hidden', // the field 'Company' will be hidden when choose "Person" code.
@@ -71,7 +72,7 @@ magento field "vat_id" and the firecheckout module.
 
                     var mask = [/\d/, /\d/,'.',/\d/,/\d/,/\d/,'.',/\d/,/\d/,/\d/,'/',/\d/,/\d/,/\d/,/\d/,'-',/\d/,/\d/];
 
-                    if ($(scope + ' [name="custom_attributes[person_company]"]').val() == 217) {
+                    if ($(scope + ' [name="custom_attributes[person_company]"]').val() == NUM1) {
                         mask = [/\d/, /\d/, /\d/,'.',/\d/,/\d/,/\d/,'.',/\d/,/\d/,/\d/,'-',/\d/,/\d/];
                     }
 
@@ -92,7 +93,7 @@ magento field "vat_id" and the firecheckout module.
                     el.data('fc-mask').textMaskInputElement.update();
                 }
 
-                if ($(scope + ' [name="custom_attributes[person_company]"]').val() == 218) {
+                if ($(scope + ' [name="custom_attributes[person_company]"]').val() == NUM2) {
                     label(el, 'CNPJ');
                 } else {
                     label(el, 'CPF');
@@ -104,11 +105,36 @@ magento field "vat_id" and the firecheckout module.
             validator('[name="vat_id"]', {
                 'lazy': true,
                 'fc-custom-rule-vatid': {
-                    handler: function (value) {
-                        if ($(scope + ' [name="custom_attributes[person_company]"]').val() == 218) {
-                            return new RegExp(/^([0-9]{2}(.)[0-9]{3}(.)[0-9]{3}(\/)[0-9]{4}(-)[0-9]{2})$/).test(value);
+                        handler: function (value) {
+                        var spNumbers,
+                            unico = true;
+                            spNumbers = value.split(/[\/\.-]/);
+
+                        if ($(scope + ' [name="custom_attributes[cpf_cnpj]"]').val() == NUM2) {
+                            var cnpj = new RegExp(/^([0-9]{2}(.)[0-9]{3}(.)[0-9]{3}(\/)[0-9]{4}(-)[0-9]{2})$/).test(value);
+
+                            //validation cnpj code on incorrect numbers 00.000.000/0000
+                            if (cnpj && unico) {
+
+                                for (var i=0; i<spNumbers.length; i++){
+                                   unico = (spNumbers[1] == spNumbers[2] && spNumbers[1] == spNumbers[3].slice(1,4));
+                                }
+                                return (!unico);
+                            }
+
+                            return cnpj;
                         } else {
-                            return new RegExp(/^([0-9]{3}(.)[0-9]{3}(.)[0-9]{3}(-)[0-9]{2})$/).test(value);
+                            var cpf = new RegExp(/^([0-9]{3}(.)[0-9]{3}(.)[0-9]{3}(-)[0-9]{2})$/).test(value);
+
+                            //validation cpf code on incorrect numbers 000.000.000
+                            if (cpf && unico) {
+
+                                for (var i=0; i<spNumbers.length; i++){
+                                    unico = (spNumbers[0] == spNumbers[1] && spNumbers[0] == spNumbers[2]);
+                                }
+                                return (!unico);
+                            }
+                            return cpf;
                         }
                     },
                     message: $t('Invalid vat ID ')
