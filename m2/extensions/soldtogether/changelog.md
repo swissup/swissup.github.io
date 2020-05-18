@@ -8,6 +8,12 @@ category: SoldTogether
 
 # Changelog
 
+### Version 1.6.9
+
+> May 18, 2020
+
+  - Localization added.
+
 ### Version 1.6.8
 
 > Mar 13, 2020
