@@ -27,7 +27,7 @@ category: Firecheckout
         - [Field watcher](field-watcher/)
         - [Dependent fields](dependent-fields/)
  3. [Use cases](use-cases/)
-    - [Housenumber](use-cases/housenumber/)
+    - [Housenumber & Remove text "Line 1"](use-cases/housenumber/)
     - [Postcode mask &amp; validator](use-cases/postcode-mask/)
     - [Change field size](use-cases/field-size/)
     - [Email double verification](use-cases/email-verification-field/)

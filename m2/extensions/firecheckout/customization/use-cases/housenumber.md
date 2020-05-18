@@ -6,8 +6,7 @@ keywords: housenumber, validator, label, placeholder, classname
 category: Firecheckout
 ---
 
-# Housenumber
-
+# Housenumber & remove text "Line 1"
 > This feature supported since v.1.12.0
 
  1. Create [custom.js file](/m2/extensions/firecheckout/customization/custom-js/)
@@ -37,6 +36,21 @@ category: Firecheckout
                     message: $t('Invalid housenumber. Valid examples: 42, 3A, 18C')
                 }
             }
+        });
+    });
+    ```
+
+    ```js
+    define([
+        'Swissup_Firecheckout/js/utils/form-field/manager',
+        'mage/translate'
+    ], function (manager, $t) {
+        'use strict';
+
+        // `Street Address: Line 1` - rename to `Street Address`
+        manager('[name="street[0]"]', {
+            label: $t('Street Address'),
+            placeholder: $t('Street Address'),
         });
     });
     ```
