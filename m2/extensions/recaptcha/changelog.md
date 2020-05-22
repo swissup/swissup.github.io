@@ -8,6 +8,12 @@ category: reCAPTCHA
 
 # Changelog
 
+### Version 1.3.8
+
+> May 22, 2020
+
+  -  Fixed missing [OrderAttachements](/m2/extensions/order-attachments/) block when recaptcha is enabled
+
 ### Version 1.3.7
 
 > May 15, 2020

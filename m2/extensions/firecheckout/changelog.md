@@ -8,6 +8,22 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.23.0
+
+> May 22, 2020
+
+{% include gallery.html images=site.data.gallery.m2.firecheckout.changelog.v1230 class="phone-up-2 tablet-up-3 photoswipe scroll" %}
+
+The most awaited feature added! [CheckoutRegistration](/m2/extensions/checkout-registration/)
+module allows buyers to start registration process directly at the checkout page!
+
+ -  [CheckoutRegistration](/m2/extensions/checkout-registration/) module added.
+ -  Fixed City detection for Brazilian addresses in
+    [AddressAutocomplete](/m2/extensions/address-autocomplete/) module.
+ -  Fixed incorrect Swedish locale name.
+ -  Persist [Subscribe to Newsletter](/m2/extensions/subscribe-at-checkout/)
+    checkbox state between page reloads.
+
 ### Version 1.22.4
 
 > May 8, 2020

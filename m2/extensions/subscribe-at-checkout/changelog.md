@@ -8,6 +8,13 @@ category: SubscribeAtCheckout
 
 # Changelog
 
+### Version 1.3.1
+
+> May 22, 2020
+
+ -  Remove duplicate label above the checkbox
+ -  Persist checkbox state between page reloads
+
 ### Version 1.3.0
 
 > Jan 8, 2020

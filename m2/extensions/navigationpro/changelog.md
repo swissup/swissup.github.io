@@ -8,6 +8,13 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.14.4
+
+> May 22, 2020
+
+ -  Fixed flyout menu from top left corner in Safari when fade animation is used
+ -  Code cleanup and installer improvements
+
 ### Version 1.14.3
 
 > May 4, 2020

@@ -7,6 +7,12 @@ category: Address Autocomplete
 
 # Changelog
 
+### Version 1.3.3
+
+> May 22, 2020
+
+ -  Fixed City detection for Brazilian addresses
+
 ### Version 1.3.2
 
 > May 4, 2020
