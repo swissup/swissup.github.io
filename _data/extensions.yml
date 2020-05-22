@@ -117,6 +117,14 @@ checkoutfields:
     m1:
     m2: /m2/extensions/checkout-fields/
 
+checkoutregistration:
+  title: Checkout Registration
+  short_description: Customer registration at checkout page
+  size: 1x1
+  urls:
+    m1:
+    m2: /m2/extensions/checkout-registration/
+
 checkoutsuccess:
   title: Checkout Success
   short_description: Show more details on checkout success page
