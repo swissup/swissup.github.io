@@ -377,6 +377,13 @@ lightboxpro:
     m1: /m1/extensions/lightboxpro/
     m2: /m2/extensions/lightboxpro/
 
+marketplace:
+  title: Marketplace
+  short_description:
+  urls:
+    m1:
+    m2: /m2/extensions/marketplace/
+
 navigationpro:
   title: Navigation Pro
   short_description: Born to build powerful menus with multiple posibilities.
