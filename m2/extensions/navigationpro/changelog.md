@@ -8,6 +8,14 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.14.5
+
+> May 26, 2020
+
+ -  Fixed rare bug when [nowrap](/m2/extensions/navigationpro/use-cases/nowrap/) or
+    [sticky](/m2/extensions/navigationpro/use-cases/sticky/) features does not
+    applied on the initial page load.
+
 ### Version 1.14.4
 
 > May 22, 2020
