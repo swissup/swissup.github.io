@@ -23,6 +23,9 @@ var clipboardButtons = (function(){
           elements = document.getElementsByTagName('pre');
 
       for (i = 0, limit = elements.length; i < limit; i++) {
+        if (elements[i].className.indexOf('nocopy') !== -1) {
+          continue;
+        }
         elements[i].insertAdjacentHTML(
           'afterbegin',
           '<button title="Copy to clipboard" class="btn-clip mdl-button mdl-js-button" data-clipboard-snippet>' +
