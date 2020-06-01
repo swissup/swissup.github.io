@@ -370,6 +370,13 @@ instaframe:
     m1:
     m2: /m2/extensions/instaframe/
 
+helpdesk:
+  title: KnowledgeBase
+  short_description:
+  urls:
+    m1:
+    m2: /m2/extensions/knowledgebase/
+
 lightboxpro:
   title: Lightbox Pro
   short_description:
