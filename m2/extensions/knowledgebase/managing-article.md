@@ -44,8 +44,6 @@ Click on **Save**.
 
 *   [Installation](../installation/)
 *   [Configuration](../configuration/)
-*   [Cron configuration](../cron-configuration/)
-*   [Managing email storage](../managing-email-storage/)
-*   [Managing department](../managing-department/)
+*   [Managing category](../managing-category/)
 *   [Support](https://swissuplabs.com/contacts/)
 *   [Forum](https://swissuplabs.com/magento-forum/)
