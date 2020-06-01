@@ -31,7 +31,7 @@ category: Ajax Layered Navigation
 
 **Bugfixes**
  - Fix stock column name resolving
- - Fix/Add url params filtering in toogler
+ - Fix/Add url params filtering in toggler
  - Add losted js translations
 
 **Features**

@@ -31,7 +31,7 @@ keywords: magento layered navigation updates
 -   Fix undefined params string
 -   Fixed pager logic in return on page 1
 -   Fixed error on catalog search page
--   Add toogle swatches option (close #9)
+-   Add toggle swatches option (close #9)
 -   Fix 404 error when saving option (close #8)
 -   Fix seo redirect
 
