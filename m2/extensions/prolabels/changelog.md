@@ -8,6 +8,12 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.5.4
+
+> Jun 2, 2020
+
+  - Fixed PHP Warning - division by zero in LabelsProvider.
+
 ### Version 1.5.3
 
 > May 15, 2020
