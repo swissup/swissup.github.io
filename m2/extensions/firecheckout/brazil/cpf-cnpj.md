@@ -7,18 +7,19 @@ category: Firecheckout
 ---
 
 # CPF/CNPJ - company&persone code
+### (Use Case 1 - using an extra field)
 
 A CPF is 11 digits long, comprised of nine base digits, and two digits at the end
 that are the result of an arithmetic operation on the first nine numbers, meaning
 any typing mistakes will lead to an invalid number.
 
-> Here is an example of a CPF: 231.002.999-00
+> Here is an example of a CPF: 231.002.999-00 [CPF generator](https://www.4devs.com.br/gerador_de_cpf)
 
 A CNPJ is a 14-digit number; 12 base digits and two digits at the end that are
 the result of an arithmetic formula of the base numbers, making any typing mistakes
 when entering the number lead to an invalid number.
 
-> Here is an example of a CNPJ: 13.339.532/0001-09.
+> Here is an example of a CNPJ: 13.339.532/0001-09 [CNPJ generator](https://www.4devs.com.br/gerador_de_cnpj)
 
 At this article we explaine you how to create company and persone code using
 magento field "vat_id" and the firecheckout module.
@@ -160,4 +161,5 @@ magento field "vat_id" and the firecheckout module.
 
 ##### Next up
 
+ -  [CPF/CNPJ code (Use case 2)](/m2/extensions/firecheckout/brazil/cpfcnpj/)
  -  [Back to home](/m2/extensions/firecheckout)
