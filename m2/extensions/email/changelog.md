@@ -8,6 +8,15 @@ category: Email
 
 # Changelog
 
+### Version 0.3.7
+
+> Maн 26, 2020
+
+**Fixes**
+ - 'Fix' desposition 2.3.5 bug
+ - Fix web tester checking
+ - Add magento 2.3 requirements
+
 ### Version 0.3.6
 
 > Mar 27, 2020

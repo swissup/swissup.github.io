@@ -107,35 +107,98 @@ magento field "vat_id" and the firecheckout module.
                 'lazy': true,
                 'fc-custom-rule-vatid': {
                         handler: function (value) {
-                        var spNumbers,
-                            unico = true;
+                        var spNumbers;                            
                             spNumbers = value.split(/[\/\.-]/);
 
                         if ($(scope + ' [name="custom_attributes[cpf_cnpj]"]').val() == NUM2) {
                             var cnpj = new RegExp(/^([0-9]{2}(.)[0-9]{3}(.)[0-9]{3}(\/)[0-9]{4}(-)[0-9]{2})$/).test(value);
+                            
+                            // Checking for known cnpj invalid code
+                        if ( cnpj && spNumbers.length != 14 || 
+                              spNumbers == "00000000000000" || 
+                              spNumbers == "11111111111111" || 
+                              spNumbers == "22222222222222" || 
+                              spNumbers == "33333333333333" || 
+                              spNumbers == "44444444444444" || 
+                              spNumbers == "55555555555555" || 
+                              spNumbers == "66666666666666" || 
+                              spNumbers == "77777777777777" || 
+                              spNumbers == "88888888888888" || 
+                              spNumbers == "99999999999999")
+                            { return false; }
+                             
+                        var numSize, numbers, lastDigits, sum, pos, result;
+                            
+                            numSize = spNumbers.length - 2
+                            numbers = spNumbers.substring(0,numSize);
+                            lastDigits = spNumbers.substring(numSize);
+                            sum = 0;
+                            pos = numSize - 7;
+                        
+                        for (i = numSize; i >= 1; i--) {
+                          sum += numbers.charAt(numSize - i) * pos--;
+                          if (pos < 2) pos = 9;
+                        }
+                        result = sum % 11 < 2 ? 0 : 11 - sum % 11;
+                        if (result != lastDigits.charAt(0)) return false;
+                             
+                        numSize = numSize + 1;
+                        numbers = spNumbers.substring(0,numSize);
+                        sum = 0;
+                        pos = numSize - 7;
+                        for (i = numSize; i >= 1; i--) {
+                          sum += numbers.charAt(numSize - i) * pos--;
+                          if (pos < 2) pos = 9;
+                        }
+                        result = sum % 11 < 2 ? 0 : 11 - sum % 11;
+                        if (result != lastDigits.charAt(1)) return false;
+                               
+                        return cnpj;
+                          
+                        }else {                            
+                            var cpf, sum = 0,
+                            firstCN, secondCN, checkResult;
+                            
+                            cpf = new RegExp(/^([0-9]{3}(.)[0-9]{3}(.)[0-9]{3}(-)[0-9]{2})$/).test(value);
+                            
+                            firstCN = parseInt(spNumbers.substring(9, 10), 10);
+                            secondCN = parseInt(spNumbers.substring(10, 11), 10);
 
-                            //validation cnpj code on incorrect numbers 00.000.000/0000
-                            if (cnpj && unico) {
+                            checkResult = function(sum, cn) {
+                            var result = (sum * 10) % 11;
+                            if ((result === 10) || (result === 11)) {result = 0;}
+                            return (result === cn);
+                            };
 
-                                for (var i=0; i<spNumbers.length; i++){
-                                   unico = (spNumbers[1] == spNumbers[2] && spNumbers[1] == spNumbers[3].slice(1,4));
-                                }
-                                return (!unico);
+                            // Checking for known cpf invalid code
+                            if ( cpf && spNumbers.length != 11 || 
+                                    spNumbers == "00000000000" || 
+                                    spNumbers == "11111111111" || 
+                                    spNumbers == "22222222222" || 
+                                    spNumbers == "33333333333" || 
+                                    spNumbers == "44444444444" || 
+                                    spNumbers == "55555555555" || 
+                                    spNumbers == "66666666666" || 
+                                    spNumbers == "77777777777" || 
+                                    spNumbers == "88888888888" || 
+                                    spNumbers == "99999999999" )
+                            { return false; }
+
+                            // validate first Check Number:
+                            for (var i = 1; i <= 9; i++ ) {
+                                sum = sum + parseInt(spNumbers.substring(i - 1, i), 10) * (11 - i);
                             }
 
-                            return cnpj;
-                        } else {
-                            var cpf = new RegExp(/^([0-9]{3}(.)[0-9]{3}(.)[0-9]{3}(-)[0-9]{2})$/).test(value);
-
-                            //validation cpf code on incorrect numbers 000.000.000
-                            if (cpf && unico) {
-
-                                for (var i=0; i<spNumbers.length; i++){
-                                    unico = (spNumbers[0] == spNumbers[1] && spNumbers[0] == spNumbers[2]);
+                            // validate second Check Number:
+                            if ( checkResult(sum, firstCN) ) {
+                                sum = 0;
+                                for (var i = 1; i <= 10; i++ ) {
+                                sum = sum + parseInt(spNumbers.substring(i - 1, i), 10) * (12 - i);
                                 }
-                                return (!unico);
+                                return checkResult(sum, secondCN);
                             }
-                            return cpf;
+                            
+                          return false;                            
                         }
                     },
                     message: $t('Invalid vat ID ')

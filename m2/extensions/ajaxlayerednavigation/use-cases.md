@@ -10,17 +10,17 @@ category: Ajax Layered Navigation
 
 Our module supports adding New, In stock, Out of Stock and On Sale filters to Magento 2 layered navigation multi select. By allowing users to sort items that way, you make the searching process more convinient and effective.
 
- 0. [Toogle content by filter](#toogle-content-by-filter)
+ 0. [Toggle content by filter](#toggle-content-by-filter)
  1. [Stock Filter](#stock-filter)
  2. [On Sale Filter](#on-sale-filter)
  3. [New Filter](#new-filter)
  4. [Rating Filter](#rating-filter)
  5. [Integration with magento 2.1](#integration-with-magento-21)
 
-#### Toogle content by filter
+#### Toggle content by filter
 
 If you want to show/hide some HTML when some specific filter was applied in layered navigation.
-So before you show some HTML you need to add it to the category page. If you already have HTML content at the page. Just wrap it in container `<div class="swissup-aln-toogle swissup-aln-toogle-color-5484 swissup-aln-hidden"><!--your toogle content here --></div>`.
+So before you show some HTML you need to add it to the category page. If you already have HTML content at the page. Just wrap it in container `<div class="swissup-aln-toggle swissup-aln-toggle-color-5484 swissup-aln-hidden"><!--your toggle content here --></div>`.
 
  1. Create a static block for all categories. Go `Content -> Blocks -> Add New Block` and fill the form like above
 ![Add custom static block](https://user-images.githubusercontent.com/412612/77307663-57e1cf00-6d02-11ea-8d00-37c505c58e8e.png)
@@ -34,7 +34,7 @@ So before you show some HTML you need to add it to the category page. If you alr
  4. Open any category page. In my case, I see many X.
 ![Added html](https://user-images.githubusercontent.com/412612/77330643-51fee480-6d28-11ea-8758-0db48efbb8fc.png)
  5. Select attribute-value pair for example color purple. After reloading you can copy your attribute-value from the address bar (in my case ?color=5484)
- 6. Open you custom static block created at first step and add some html markup `<div class="swissup-aln-toogle swissup-aln-toogle-color-5484 swissup-aln-hidden">any HTML tags, picture, another widgets, etc.</div>`
+ 6. Open you custom static block created at first step and add some html markup `<div class="swissup-aln-toggle swissup-aln-toggle-color-5484 swissup-aln-hidden">any HTML tags, picture, another widgets, etc.</div>`
 
  When attribute color option purple (5484) was apply js code remove class "swissup-aln-hidden" and show widget content.
 

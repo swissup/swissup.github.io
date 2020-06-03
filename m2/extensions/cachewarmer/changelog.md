@@ -8,6 +8,14 @@ category: Cachewarmer
 
 # Changelog
 
+### Version 1.0.3
+
+> Apr 18, 2020
+
+**Fixes**
+ - Fix php notice array to string (close #1)
+ - Fix 500 error at backend statistic page (too many entries and slow cache test)
+
 ### Version 1.0.2
 
 > Apr 6, 2020

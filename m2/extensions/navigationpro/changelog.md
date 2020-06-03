@@ -8,6 +8,21 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.14.5
+
+> May 26, 2020
+
+ -  Fixed rare bug when [nowrap](/m2/extensions/navigationpro/use-cases/nowrap/) or
+    [sticky](/m2/extensions/navigationpro/use-cases/sticky/) features does not
+    applied on the initial page load.
+
+### Version 1.14.4
+
+> May 22, 2020
+
+ -  Fixed flyout menu from top left corner in Safari when fade animation is used
+ -  Code cleanup and installer improvements
+
 ### Version 1.14.3
 
 > May 4, 2020
