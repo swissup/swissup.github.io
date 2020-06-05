@@ -7,6 +7,16 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.3.22
+
+> Jun 5, 2020
+
+**Features**
+ - Add toogler widget
+
+**Bugfixes**
+ - Add module dependencies
+
 ### Version 1.3.21
 
 > Apr 21, 2020
