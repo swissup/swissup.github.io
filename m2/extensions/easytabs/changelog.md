@@ -8,6 +8,13 @@ category: Easy Tabs
 
 # Changelog
 
+### Version 1.8.11
+
+> Jun 5, 2020
+
+  - Added config option to enable/disable product tabs.
+  - Fixed broken Delete action in action column.
+
 ### Version 1.8.10
 
 > May 7, 2020
