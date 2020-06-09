@@ -8,6 +8,13 @@ category: Easy Tabs
 
 # Changelog
 
+### Version 1.8.12
+
+> Jun 9, 2020
+
+  - Fixed missing description tab after last release.
+  - Fixed typos.
+
 ### Version 1.8.11
 
 > Jun 5, 2020
