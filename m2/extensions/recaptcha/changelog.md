@@ -8,6 +8,12 @@ category: reCAPTCHA
 
 # Changelog
 
+### Version 1.3.9
+
+> Jun 10, 2020
+
+  - Checkout: prevent "Invalid recaptcha" message for next "Place Order" when first attempt failed due to some incorrect data.
+
 ### Version 1.3.8
 
 > May 22, 2020
