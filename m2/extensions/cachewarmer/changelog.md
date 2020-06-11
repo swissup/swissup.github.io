@@ -8,6 +8,13 @@ category: Cachewarmer
 
 # Changelog
 
+### Version 1.0.4
+
+> Jun 11, 2020
+
+**Features**
+ - Allow to warm only specific pages
+
 ### Version 1.0.3
 
 > Apr 18, 2020
