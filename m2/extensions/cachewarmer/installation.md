@@ -16,6 +16,11 @@ category: Cachewarmer
 #### For generate 'Cache Warmer Urls' run indexer
 
 ```bash
-php bin/magento index:reindex swissup_cachewarmer_requestentry
+php bin/magento indexer:reindex swissup_cachewarmer_requestentry
+```
+
+Skip processing
+```
+php bin/magento indexer:reset swissup_cachewarmer_requestentry
 ```
 

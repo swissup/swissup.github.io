@@ -19,6 +19,23 @@ Option                  | Description
 Enable                  | Allows to enable/disable cachewarmer per store view
 Show Developer Toolbar  | Show cachewarmer toolbar at frontend
 
+### Indexer section
+![Indexer](/images/m2/cachewarmer/configuration/indexer.png)
+
+Option        | Description
+--------------|-----------------------------------------------
+Stores        | Select store(s). (if empty mean all selected)
+Page Types    | Select page types. (if empty mean all selected)
+Customer Group| Select customer groups. (if empty mean all selected)
+Currency      | Select currencies. (if empty mean all selected)
+
+when we run the command
+```
+bin/magento index:reindex swissup_cachewarmer_requestentry
+```
+indexing process will fill cache warmer request entry table only by these options
+
+
 ### Cron section
 
 ![Cron](/images/m2/cachewarmer/configuration/cron.png)
