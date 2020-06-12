@@ -6,6 +6,14 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.9.2
+
+> Jun 12, 2020
+
+**Bugfixes**
+ - Fix 'Undefined factory elasticsearch7' #38
+ - Fix/catch Magento\Framework\Module\PackageInfo exception
+
 ### Version 1.9.1
 
 > May 7, 2020
