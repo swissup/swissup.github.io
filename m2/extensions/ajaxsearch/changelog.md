@@ -6,6 +6,13 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.9.3
+
+> Jun 15, 2020
+
+**Bugfixes**
+ - Fix multi currency final price bug #39
+
 ### Version 1.9.2
 
 > Jun 12, 2020
