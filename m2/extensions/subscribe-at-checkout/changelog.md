@@ -8,6 +8,12 @@ category: SubscribeAtCheckout
 
 # Changelog
 
+### Version 1.3.2
+
+> Jun, 2020
+
+ -  Fixed default checkbox state when it has to be checked
+
 ### Version 1.3.1
 
 > May 22, 2020
