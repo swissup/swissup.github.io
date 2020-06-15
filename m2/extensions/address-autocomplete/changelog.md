@@ -7,6 +7,19 @@ category: Address Autocomplete
 
 # Changelog
 
+### Version 1.4.0
+
+> Draft
+
+ -  Enabled module at customer account page.
+ -  Added ability to restrict address search to the
+    [currently selected country](../configuration/#address-search-restrictions).
+ -  Added ability to extend or completely redefine
+    [Address Mapping Settings](../configuration/#advanced-formatting).
+ -  [Unit number](../configuration/#address-formatting) support added.
+ -  Postcode suffix support added.
+ -  Scripts no longer added to the frontend if module is disabled.
+
 ### Version 1.3.3
 
 > May 22, 2020
