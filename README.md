@@ -2,6 +2,11 @@
 
 [docs.swissuplabs.com](https://docs.swissuplabs.com/)
 
+## Requirements
+
+ -  Ruby and ruby-dev
+ -  Node.js and NPM
+
 ## Installation
 
 ```bash
