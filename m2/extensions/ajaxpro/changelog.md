@@ -6,6 +6,16 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.5.3
+
+> Jun 16, 2020
+
+**Features**
+ - Add Quick View feature
+
+**Bugfixes**
+ - Refactored logic in modal-manager
+
 ### Version 1.5.1
 
 > May 7, 2020
