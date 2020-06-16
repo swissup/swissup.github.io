@@ -16,6 +16,7 @@ Our module supports adding New, In stock, Out of Stock and On Sale filters to Ma
  3. [New Filter](#new-filter)
  4. [Rating Filter](#rating-filter)
  5. [Integration with magento 2.1](#integration-with-magento-21)
+ 6. [Porto Img Lazyload Fix](#porto-img-lazyload-fix)
 
 #### Toggle content by filter
 
@@ -140,3 +141,14 @@ For compatibility with 2.1 need apply changes from 2 commits:
     git apply --check /tmp/87ec99d.patch
     git apply /tmp/87ec99d.patch
 ~~~
+
+
+#### Porto Img Lazyload Fix
+
+Add js patch
+
+```js
+$(document).on('swissup:ajaxlayerednavigation:reload:after', function (event, navigation, response) {
+   $("img.porto-lazyload:not(.porto-lazyload-loaded)").lazyload({effect:"fadeIn"});
+});
+```
