@@ -8,6 +8,20 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.24.0
+
+> Jun 16, 2020
+
+ -  Big improvements to the [AddressAutocomplete](/m2/extensions/address-autocomplete/) module:
+     -  Added ability to restrict address search to the
+        [currently selected country](/m2/extensions/address-autocomplete/configuration/#address-search-restrictions).
+        Works flawlessly with [GeoIP module](/m2/extensions/geoip/).
+     -  Added ability to extend or completely redefine
+        [Address Mapping Settings](/m2/extensions/address-autocomplete/configuration/#advanced-formatting).
+     -  [View all changes](/m2/extensions/address-autocomplete/changelog/#version-140)
+ -  Added Order Number to the [OrderAttachments](/m2/extensions/order-attachments/) grid.
+ -  Fixed default state of [SubscribeAtCheckout checkbox](/m2/extensions/subscribe-at-checkout).
+
 ### Version 1.23.0
 
 > May 22, 2020
