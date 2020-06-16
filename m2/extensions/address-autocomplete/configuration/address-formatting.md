@@ -10,6 +10,10 @@ category: Address Autocomplete
 Advanced Address Formatting option is available at
 _Stores > Configuration > Swissup Checkout > Address Autocomplete > Advanced Formatting_.
 
+> **Caution!** When enable "Advanced Formatting",
+> [regular Address Formatting options](/m2/extensions/address-autocomplete/configuration/#address-formatting)
+> are overriden and not working.
+
 ![Advanced Formatting](/images/m2/address-autocomplete/configuration/advanced-formatting.png)
 
 ## Contents
@@ -99,9 +103,8 @@ Token                                               | Description
 
 ### Default Value
 
-Default value includes Australian Unit Number Placement, and
-Brazilian Neighbourhood Placement. The only thing you need to do is to enable
-"Use Advanced Formatting" option.
+Default value includes Unit Number Placement for Australian addresses, and
+Neighbourhood Placement for Brazilian addresses:
 
 ```json
 {% raw %}{

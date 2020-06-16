@@ -7,12 +7,12 @@ category: Address Autocomplete
 
 # Get API Key
 
- 1. [Create a Google Cloud Project](https://console.developers.google.com/flows/enableapi?keyType=CLIENT_SIDE&reusekey=true&apiid=places_backend,maps_backend)
+ 1. [Create, or use existing Google Cloud Project](https://console.developers.google.com/flows/enableapi?keyType=CLIENT_SIDE&reusekey=true&apiid=places_backend,maps_backend)
     with the following APIs:
-    - Maps JavaScript API
-    - Places API
- 2. During project creation, use per website restriction for your API key.
- 2. [Enable billing](https://console.cloud.google.com/project/_/billing/enable) for the newly created project.
+    - [Maps JavaScript API](https://console.cloud.google.com/apis/library/maps-backend.googleapis.com)
+    - [Places API](https://console.cloud.google.com/apis/library/places-backend.googleapis.com)
+ 2. **Important!** Use per website restriction for your API key to prevent quota theft.
+ 2. [Enable billing](https://console.cloud.google.com/project/_/billing/enable) for your Google Cloud Project.
  3. Grab your API key at the [credentials page](https://console.cloud.google.com/apis/credentials).
 
 > **Warning!**

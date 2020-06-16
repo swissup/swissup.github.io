@@ -9,7 +9,7 @@ category: Address Autocomplete
 
 ### Version 1.4.0
 
-> Draft
+> Jun 16, 2020
 
  -  Enabled module at customer account page.
  -  Added ability to restrict address search to the

@@ -41,6 +41,10 @@ Unit Number Divider | Choose unit number divider. Available options: Comma ", ",
 
 ## Advanced Formatting
 
+> **Caution!** When enable "Advanced Formatting",
+> [regular Address Formatting options](/m2/extensions/address-autocomplete/configuration/#address-formatting)
+> are overriden and not working.
+
 ![Advanced Formatting](/images/m2/address-autocomplete/configuration/advanced-formatting.png)
 
 Option | Description
