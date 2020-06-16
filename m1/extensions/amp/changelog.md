@@ -7,6 +7,14 @@ category: Accelerated Mobile Pages
 sidebar: sidebar.md
 ---
 
+# Changelog
+
+### Version 1.7.4
+
+> Jun 16, 2020
+
+ -  Remove paypal 'add to cart' button, since it's not working without js.
+
 ### Version 1.7.3
 
 > Oct 21, 2019

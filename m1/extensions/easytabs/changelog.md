@@ -7,6 +7,14 @@ category: Easy Tabs
 sidebar: sidebar.md
 ---
 
+# Changelog
+
+### Version 3.2.3
+
+> Jun 16, 2020
+
+ -  Show default attribute value when value is empty
+
 ### Version 3.2.2
 
 > Sep 30, 2019

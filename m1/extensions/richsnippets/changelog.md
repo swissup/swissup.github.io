@@ -8,6 +8,13 @@ category: Rich Snippets
 
 # Changelog
 
+### Version 2.1.3
+
+> Jun 16, 2020
+
+ -  Don't add ld+json with breadcrumbs when there is no breadcrumbs on the page.
+ -  Fixed zero price at some Magento instances for configurable products.
+
 ### Version 2.1.2
 
 > Sep 30, 2019

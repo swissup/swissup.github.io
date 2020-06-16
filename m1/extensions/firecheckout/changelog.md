@@ -7,6 +7,17 @@ category: Firecheckout
 
 # Changelog
 
+### Version 4.4.3
+
+> Jun 16, 2020
+
+ -  Fixed Taxvat validation url.
+ -  Ebizmarts_MailChimp integration added (version 1.1.10).
+ -  Chandan_Storepickup integration added.
+ -  Bankpayment integration added.
+ -  Fixed missing tax row when Fooman_Surcharge is enabled.
+ -  Updated Stripe integration.
+
 ### Version 4.4.2
 
 > Mar 05, 2020

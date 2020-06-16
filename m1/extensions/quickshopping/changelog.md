@@ -8,6 +8,12 @@ category: Quick Shopping
 
 # Changelog
 
+### Version 1.3.2
+
+> Jun 16, 2020
+
+ -  Fixed "current_category registry key already exists" error on attribute page.
+
 ### Version 1.3.1
 
  -  Small design improvements
