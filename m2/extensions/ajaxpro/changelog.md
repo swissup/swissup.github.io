@@ -6,6 +6,14 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.5.4
+
+> Jun 17, 2020
+
+**Improvements**
+ - Add Quick View enable/disable config option
+ - Init block was refactored
+
 ### Version 1.5.3
 
 > Jun 16, 2020
