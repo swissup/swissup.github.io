@@ -38,6 +38,7 @@ faster and easier by providing them a simple checkout form.
  7. Troubleshooting
     - [Pre-troubleshooting check](troubleshooting/pre-troubleshooting-check/)
     - [Loading icon keeps spinning infinitely on initial page load](troubleshooting/loading-icon-keeps-spinning/)
+    - [Order Summary block is not sticky](troubleshooting/order-summary-is-not-sticky/)
  8. FAQ
     - [Creating Terms and Conditions](faq/creating-terms-and-conditions/)
  9. Brazilian Requirements
