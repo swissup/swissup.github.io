@@ -8,6 +8,34 @@ category: GDPR
 
 # Changelog
 
+### Version 1.3.3
+
+> Jun 18, 2020
+
+ -  Fixed DB error when customer logging in.
+
+### Version 1.3.2
+
+> May 7, 2020
+
+ -  16 locales added to translate backend and frontend phrases:
+    - Arabic
+    - Chinese
+    - Dutch
+    - French
+    - Hebrew
+    - Italian
+    - German
+    - Japanese
+    - Norwegian
+    - Korean
+    - Polish
+    - Portuguese
+    - Russian
+    - Spanish
+    - Swedish
+    - Ukrainian
+
 ### Version 1.3.1
 
 > Apr 27, 2020
