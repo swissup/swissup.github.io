@@ -11,6 +11,15 @@ category: AskIt
 
 # Changelog
 
+### Version 1.8.0
+
+> Jun 22, 2020
+
+  - New mass actions in Questions grid - "Assign to...".
+  - Added few spaces in customer notification email for better look.
+  - Fixed error when post answer from Admin grid with questions.
+  - Improvements and fixes to admin interfaces of edit questions/answers.
+
 ### Version 1.7.5
 
 > Apr 30, 2020
