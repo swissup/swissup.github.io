@@ -20,7 +20,7 @@ So you have to make sure that your store do not have same labels in one attribut
 
 ## Is it compatible with your Ajax Layered Navigation
 
-SEO URLs extension works greate with [Swissup Ajax Layered Navigation](../../ajaxlayerednavigation/#frontend) version 1.0.2 and higher.
+SEO URLs extension works great with [Swissup Ajax Layered Navigation](../../ajaxlayerednavigation/#frontend) version 1.0.2 and higher.
 
 ## How to make URLs in category filter same as URLs of child categories
 
