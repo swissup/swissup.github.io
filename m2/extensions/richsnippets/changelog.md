@@ -8,6 +8,15 @@ category: Rich Snippets
 
 # Changelog
 
+### Version 1.4.10
+
+> Jun 24, 2020
+
+  - Add support for availability "pre-order" in structured data for product. Availability can be preorder only when "Backorders" option value is "Allow Qty Below 0 and Notify Customer".
+  - Compatibility with Firebear_ConfigurableProducts module.
+  - Fixed errors with missing factories on MagentoCloud server.
+  - Localization for config option labels and values in Admin config.
+
 ### Version 1.4.6
 
 > Dec 13, 2019
