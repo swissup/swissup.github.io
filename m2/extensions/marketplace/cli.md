@@ -13,6 +13,7 @@ Usually you will need to run up to six commands:
 
 ```bash
 # Commonly used
+bin/magento marketplace:auth:import                 # import auth data from COMPOSER_HOME folder
 bin/magento marketplace:channel:enable <channel>    # enable channel and enter auth credentials if needed
 bin/magento marketplace:package:require <package>   # download the package, enable it, deploy static ontent
 bin/magento marketplace:package:install <package>   # run module installer (if module comes with it)
@@ -29,6 +30,7 @@ All other commands are useful to debug some issues. They are not needed usually.
 
 - [Authorization commands](#authorization-commands)
     - [marketplace:auth](#marketplaceauth)
+    - [marketplace:auth:import](#marketplaceauthimport)
     - [marketplace:auth:check](#marketplaceauthcheck)
     - [marketplace:auth:set](#marketplaceauthset)
     - [marketplace:auth:show](#marketplaceauthshow)
@@ -60,6 +62,12 @@ composer config repositories.<id> vcs <https://github.com/repo/url.git>
 bin/magento marketplace:auth <github-oauth.github.com> <token> # https://github.com/settings/tokens/new?scopes=repo
 bin/magento marketplace:package:require <package/name>
 ```
+
+### marketplace:auth:import
+
+Import auth data from auth.json files in COMPOSER_HOME and MAGENTO_ROOT folders
+
+Usage: `bin/magento marketplace:auth:import`
 
 ### marketplace:auth:check
 
