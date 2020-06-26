@@ -64,3 +64,5 @@ devices, tablets, and phones.
     - [CSS Helpers](/m2/extensions/navigationpro/customization/css-helpers)
     - [Themes](/m2/extensions/navigationpro/themes/)
  10. [Demo](/m2/extensions/navigationpro/demo/)
+ 11. [Troubleshooting](/m2/extensions/navigationpro/troubleshooting/)
+     - [Missing top navigation when Varnish is used](/m2/extensions/navigationpro/troubleshooting/missing-top-navigation-when-varnish-is-used/)
