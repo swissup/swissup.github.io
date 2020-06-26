@@ -8,6 +8,15 @@ category: Accelerated Mobile Pages
 
 # Changelog
 
+### Version 1.4.0
+
+> Jun 26, 2020
+
+ -  Full page cache now works on AMP and brings up to 15x speedup!
+ -  Cart, compare, wishlist and cookie restriction were rewritten to work with the cache
+ -  Fixed missing view details button for products with required options
+ -  Abandoned package leafo/scssphp replaced with scssphp/scssphp
+
 ### Version 1.3.14
 
 > May 4, 2020
