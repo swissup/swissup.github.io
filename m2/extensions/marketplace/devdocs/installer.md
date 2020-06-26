@@ -483,7 +483,7 @@ cutomer account page.
             <item name="widget_unset">catalog.product.related</item>
         </item>
         <item>
-            <item name="title">Questions ({{eval code="getCount()"}})</item>
+            <item name="title">Questions ({% raw %}{{eval code="getCount()"}}{% endraw %})</item>
             <item name="alias">questions</item>
             <item name="block">Swissup\Easytabs\Block\Tab\Template</item>
             <item name="sort_order">60</item>
