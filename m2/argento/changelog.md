@@ -7,6 +7,90 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.18.0
+
+> Jun 30, 2020
+
+ -  Added favicons in all themes
+ -  Fixed error when Facebook Like Button module is not installed
+ -  "Photo in description" can play video now
+ -  Improved layered navigation styles when filters in main column
+ -  Fixed horizontal scrollbar when js is not initialized yet on RTL stores
+ -  Allow to change logo size with magento's admin settings
+ -  Fixed missing prolabels on product page after theme installation
+ -  Fixed installation error when some module is missing
+ -  Argento Stripes: Fixed partially invisible text in Braintree inputs on checkout
+ -  Argento Pure2: Always render configurable header at the page top
+ -  Argento Pure2: Added config to disable configurable header on specific pages
+ -  Other small fixes and improvements in styles, templates and scripts
+
+**Extensions Updates**
+
+ -  [Ajax Pro](/m2/extensions/ajaxpro/) — 1.5.5 (was 1.5.1)
+    -  Added quick product view feature on the product listing
+    -  Refactored logic in modal-manager
+    -  Init block was refactored
+ -  [Ajax Search](/m2/extensions/ajaxsearch/) — 1.9.5 (was 1.9.1)
+    -  Added Elasticsearch 7 compatibility
+    -  Fixed wrong price in search popup when store uses multiple currencies
+    -  Fixed RTL style issue
+    -  Fixed error when searching '~'
+ -  [AMP](/m2/extensions/amp/) — 1.4.1 (was 1.3.14)
+    -  Disable move JS to page bottom on AMP
+    -  Full page cache now works on AMP
+    -  Fixed missing view details button for products with required options
+    -  Fixed missing svg logo on AMP
+ -  [Askit](/m2/extensions/askit/) — 1.8.0 (was 1.7.5)
+    -  New mass actions in Questions grid - “Assign to…”
+    -  Fixed error when post answer from Admin grid with questions
+    -  Improvements and fixes to admin interfaces of edit questions/answers
+ -  [Attribute Pages](/m2/extensions/attributepages/) — 1.2.6 (was 1.2.4)
+    -  Do not activate 'exclude_from_display' checkbox when click on another cell
+    -  Removed end slash from pages URLs
+ -  [Easybanner](/m2/extensions/easybanners/) — 1.5.7 (was 1.5.6)
+    -  Added identity interface for block and placeholder
+ -  [Easytabs](/m2/extensions/easytabs/) — 1.8.12 (was 1.8.10)
+    -  Fixed broken Delete action in actions column
+    -  Added enabled config for product tabs
+    -  Fixed typos in description tab name and translations
+ -  [Featured Attributes](/m2/extensions/featured-attributes/) — 1.1.3 (was 1.1.2)
+    -  Display all attributes. Previously, only attributes from default attribute set were displayed.
+ -  [GDPR](/m2/extensions/gdpr/) — 1.3.4 (was 1.3.2)
+    -  Fixed error when customer logging in
+    -  Place consents before captcha/recaptcha field
+ -  [Highlight](/m2/extensions/highlight/) — 1.6.2 (was 1.6.1)
+    -  Fixed highlight carousel on AMP
+ -  [NavigationPro](/m2/extensions/navigationpro/) — 1.14.5 (was 1.14.3)
+    -  Fixed flyout menu from top left corner in Safari when fade animation is used
+    -  Code cleanup and installer improvements
+    -  Fixed rare bug when nowrap or sticky features does not applied on the initial page load
+ -  [Pagespeed](/m2/extensions/pagespeed/) — 1.4.4 (was 1.4.2)
+    -  Fix in removing of empty ‘criticalCss’
+    -  Fixed double slash in URLs to static content
+    -  Fixed duplicated sources in 'picture' if image repeated on the page
+    -  Added preconnect with dns-prefetch
+    -  Added optional link rel='preload'
+ -  [ProLabels](/m2/extensions/prolabels/) — 1.5.5 (was 1.5.3)
+    -  Fixed PHP warning - division by zero
+    -  Fixed PHP warning - array must contain at least one element
+ -  [Seo Suite](/m2/extensions/seo-suite/)
+    -  *swissup/module-seo-core — 1.2.3* (was 1.2.2)
+       - Fix for chinese locales when slufigy package installed
+    -  *swissup/module-hreflang — 1.4.1* (was 1.4.0)
+       - Don't include store view into hreflangs when it is disabled in admin
+    -  *swissup/module-rich-snippets — 1.4.10* (was 1.4.9)
+       - Added support for availability pre-order
+    -  *swissup/module-seo-html-sitemap — 1.1.6* (was 1.1.5)
+       - Improved third-party modules compatibility
+    -  *swissup/module-seo-urls — 1.5.12* (was 1.5.11)
+       - Fixed params resolving logic when yes/no filter and 'No' selected
+    -  *swissup/module-seo-templates — 1.5.11* (was 1.5.8)
+       - Fixed 'categories' and 'parents' directive for products
+       - Update category and product metadata only at pages where it is really necessary
+ -  [Testimonials](/m2/extensions/testimonials/) — 1.2.9 (was 1.2.8)
+    -  Improved slider widget
+    -  Fixed error when admin notification email is empty
+
 ### Version 1.17.0
 
 > May 7, 2020
