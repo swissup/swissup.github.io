@@ -8,6 +8,14 @@ category: PDF Invoices
 
 # Changelog
 
+### Version 1.1.1
+
+> Jun 30, 2020
+
+ -  Fixed insert variable in Magento 2.3.3
+ -  Switch to using Codemirror module
+ -  Catch possible errors when creating pdf
+
 ### Version 1.1.0
 
 > Sep 03, 2019
