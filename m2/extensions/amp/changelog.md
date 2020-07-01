@@ -8,6 +8,15 @@ category: Accelerated Mobile Pages
 
 # Changelog
 
+### Version 1.4.1
+
+> Jul 1, 2020
+
+ -  Fixed broken Varnish esi include after using DOMDocument which caused missing menu
+ -  Fixed image size detection and added detection for svg images - svg logo now will be displayed on AMP
+ -  Fixed page jumping while scripts are initializing
+ -  Do not render cookie notices block when it's disabled
+
 ### Version 1.4.0
 
 > Jun 26, 2020
