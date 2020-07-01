@@ -9,7 +9,7 @@ category: Argento
 
 ### Version 1.18.0
 
-> Jun 30, 2020
+> Jul 1, 2020
 
  -  Added favicons in all themes
  -  Fixed error when Facebook Like Button module is not installed
@@ -40,6 +40,9 @@ category: Argento
     -  Full page cache now works on AMP
     -  Fixed missing view details button for products with required options
     -  Fixed missing svg logo on AMP
+    -  Fixed missing menu when using Varnish
+    -  Fixed page jumping while scripts are initializing
+    -  Do not render cookie notice block when it's disabled
  -  [Askit](/m2/extensions/askit/) — 1.8.0 (was 1.7.5)
     -  New mass actions in Questions grid - “Assign to…”
     -  Fixed error when post answer from Admin grid with questions
@@ -49,6 +52,10 @@ category: Argento
     -  Removed end slash from pages URLs
  -  [Easybanner](/m2/extensions/easybanners/) — 1.5.7 (was 1.5.6)
     -  Added identity interface for block and placeholder
+ -  [EasyCatalogImages](/m2/extensions/easycatalogimages/) — 1.4.9 (was 1.4.8)
+    -  Small style improvement on AMP
+ -  [EasySlide](/m2/extensions/easyslider/) — 1.5.6 (was 1.5.5)
+    -  Small style improvement on AMP
  -  [Easytabs](/m2/extensions/easytabs/) — 1.8.12 (was 1.8.10)
     -  Fixed broken Delete action in actions column
     -  Added enabled config for product tabs
@@ -87,6 +94,8 @@ category: Argento
     -  *swissup/module-seo-templates — 1.5.11* (was 1.5.8)
        - Fixed 'categories' and 'parents' directive for products
        - Update category and product metadata only at pages where it is really necessary
+ -  [SoldTogether](/m2/extensions/soldtogether/) — 1.6.10 (was 1.6.9)
+    -  Fixed error when saving newly created product with sold together data
  -  [Testimonials](/m2/extensions/testimonials/) — 1.2.9 (was 1.2.8)
     -  Improved slider widget
     -  Fixed error when admin notification email is empty
