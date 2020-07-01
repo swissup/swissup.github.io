@@ -7,6 +7,14 @@ category: Address Autocomplete
 
 # Changelog
 
+### Version 1.4.1
+
+> Jul 1, 2020
+
+ -  Added fix for Italian addresses to use proper province code.
+    Requires to [enable advanced formatting](/m2/extensions/address-autocomplete/configuration/#advanced-formatting)
+    to apply the fix.
+
 ### Version 1.4.0
 
 > Jun 16, 2020
