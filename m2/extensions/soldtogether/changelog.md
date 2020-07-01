@@ -8,6 +8,12 @@ category: SoldTogether
 
 # Changelog
 
+### Version 1.6.10
+
+> Jul 1, 2020
+
+  - Fixed SQL error when save newly created product with soldtogether data.
+
 ### Version 1.6.9
 
 > May 18, 2020
