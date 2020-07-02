@@ -20,7 +20,7 @@ There are two ways:
  1. Create [Argento-based custom theme](/m2/argento/customization/custom-theme/) and change value of LESS variable:
 
     ```less
-    @product-qty-field__hide: true;
+    @product-qty-field__hide: false;
     ```
 
  2. Or use [Stripes theme editor](../theme-editor/), section 'Additional CSS Styles'. Add small CSS code:
