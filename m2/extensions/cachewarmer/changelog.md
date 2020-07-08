@@ -8,6 +8,13 @@ category: Cachewarmer
 
 # Changelog
 
+### Version 1.0.5
+
+> Jun 1, 2020
+
+**Features**
+ - Add product visibility checking for url_rewrite entries
+
 ### Version 1.0.4
 
 > Jun 11, 2020

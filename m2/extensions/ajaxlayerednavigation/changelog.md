@@ -7,6 +7,13 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.3.23
+
+> Juд 8, 2020
+
+**Bugfixes**
+ - Fix typos
+
 ### Version 1.3.22
 
 > Jun 5, 2020
