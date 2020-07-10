@@ -6,6 +6,27 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.5.6
+
+> Jul 10, 2020
+
+**Bugfixes**
+ - Add force redirect to cart checking
+ - Fix (commented) force customer data 'cart' reloading if override_minicart === true
+
+### Version 1.5.5
+
+> Jul 1, 2020
+
+**Improvements**
+ - Disable quick view by default
+ - Refactoring ajaxpro (disposableCustomerData); remove timechecking from modal-manager
+ - Add using expirableSectionNames
+ - remove invalidate after #24
+
+**Bugfixes**
+ - Fixed missing quick view button at Argento Home (and probably Argento Luxury).
+
 ### Version 1.5.4
 
 > Jun 17, 2020
