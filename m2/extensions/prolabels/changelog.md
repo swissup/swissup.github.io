@@ -8,6 +8,12 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.5.6
+
+> Jul 10, 2020
+
+  - All about optimization! Significantly reduced load time of category, search result and all other pages with product listing. And as an additional benefit Swissup Ajax Layered Navigation module works faster too. It's must-have update.
+
 ### Version 1.5.5
 
 > Jun 5, 2020
