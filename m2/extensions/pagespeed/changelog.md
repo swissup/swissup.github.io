@@ -8,6 +8,35 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.4.6
+
+> Jul 10, 2020
+
+**Improvments**
+ - Added alternative recommendations
+ - Added requirejs.nextTick setTimeout => requestIdleCallback
+ - Added experimental idle forced requirejs loading
+ - Improved getRjsJsonConfig function
+ - Added Preloder (http2pusher before)
+
+**Fixes**
+ - Do not show filepath as config value if it was mistakenly written to config
+ - Do not show critical file path when config is not saved and file is not exist
+ - Fixed removing script(s) with ignoring attributes (ex:data-defer-js-ignore)
+
+
+### Version 1.4.4
+
+> Jul 1, 2020
+
+**Improvments**
+ - Add optionality <link rel='preload' if http2 push disabled
+ - Add preconnect (close #24)
+ - Add ExtractHosts (lost Preconnect)
+
+**Fixes**
+ - Fix many cloned source in <picture> if image repeats
+
 ### Version 1.4.3
 
 > Jun 9, 2020
