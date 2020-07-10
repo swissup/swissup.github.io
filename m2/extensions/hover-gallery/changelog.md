@@ -8,6 +8,12 @@ category: Hover Gallery
 
 # Changelog
 
+### Version 1.3.6
+
+> Jul 10, 2020
+
+  - Single query to get all necessary data for hover image at product listing pages (category, search result and other pages). This update can significatly improve category page loading time.
+
 ### Version 1.3.3
 
 > Feb 17, 2020
