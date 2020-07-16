@@ -8,9 +8,16 @@ category: Email
 
 # Changelog
 
+### Version 0.3.8
+
+> Jul 16, 2020
+
+**Fixes**
+ - Add/Fix dependencies (without [zend|laminas]-mail) 11e6cb
+
 ### Version 0.3.7
 
-> Maн 26, 2020
+> May 26, 2020
 
 **Fixes**
  - 'Fix' desposition 2.3.5 bug
