@@ -8,6 +8,12 @@ category: SoldTogether
 
 # Changelog
 
+### Vresion 1.6.11
+
+> Jun 16, 2020
+
+  - Dispatch catalog product list event to improve rendering speed of module's blocks. Espacially can be really helpfull when Swissup ProLabes installed at store.
+
 ### Version 1.6.10
 
 > Jul 1, 2020
