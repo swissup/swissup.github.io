@@ -8,6 +8,13 @@ category: Cachewarmer
 
 # Changelog
 
+### Version 1.0.6
+
+> Jul 16, 2020
+
+**Features**
+ - Add redirect_type=0 filter for indexing (#4) f7350b
+
 ### Version 1.0.5
 
 > Jun 1, 2020
