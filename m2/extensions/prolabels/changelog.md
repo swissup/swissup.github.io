@@ -8,6 +8,12 @@ category: Prolabels
 
 # Changelog
 
+### VErsion 1.5.7
+
+> Jul 16
+
+  - Once again about optimization. Improve labels rendering on product page for configurable products. Reduce number of DB queries.
+
 ### Version 1.5.6
 
 > Jul 10, 2020
