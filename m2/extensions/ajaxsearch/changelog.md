@@ -6,6 +6,28 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.9.6
+
+> Jul 17, 2020
+
+**Features**
+ - Added auto checking (isTaxIncludingToPrice) for including tax to the product price
+
+
+### Version 1.9.5
+
+> Jul 1, 2020
+
+**Bugfixes**
+ - Fix ~ expression bug
+
+### Version 1.9.4
+
+> Jun 24, 2020
+
+**Bugfixes**
+ - Fixed RTL css issue
+
 ### Version 1.9.3
 
 > Jun 15, 2020
