@@ -7,9 +7,20 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.3.24
+
+> Jul 20, 2020
+
+**Features**
+ - Add push state to url config feature (close #61)
+
+**Bugfixes**
+ - Fix state filter dublicates
+ - Fix state filter label is object bug
+
 ### Version 1.3.23
 
-> Juд 8, 2020
+> Jul 8, 2020
 
 **Bugfixes**
  - Fix typos
