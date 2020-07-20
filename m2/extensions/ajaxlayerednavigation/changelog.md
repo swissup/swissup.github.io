@@ -15,7 +15,7 @@ category: Ajax Layered Navigation
  - Add push state to url config feature (close #61)
 
 **Bugfixes**
- - Fix state filter dublicates
+ - Fix state filter duplicates
  - Fix state filter label is object bug
 
 ### Version 1.3.23
@@ -30,7 +30,7 @@ category: Ajax Layered Navigation
 > Jun 5, 2020
 
 **Features**
- - Add toogler widget
+ - Add toggle widget
 
 **Bugfixes**
  - Add module dependencies
@@ -60,7 +60,7 @@ category: Ajax Layered Navigation
 **Bugfixes**
  - Fix stock column name resolving
  - Fix/Add url params filtering in toggler
- - Add losted js translations
+ - Add lost js translations
 
 **Features**
  - Better styles for reset filter button at 1column page layout.
