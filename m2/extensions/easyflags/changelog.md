@@ -8,6 +8,12 @@ category: Easy Flags
 
 # Changelog
 
+## Version 1.3.2
+
+> Jul 21, 2020
+
+  - Add flags to stores list to sandwich navigation at mobile.
+
 ## Version 1.3.0
 
  -  Improve CSS. Merge module CSS with theme CSS.
