@@ -6,6 +6,19 @@ keywords: Helpdesk changelog
 category: Helpdesk
 ---
 
+### Version 1.1.8
+
+> Jul 22, 2020
+
+**Fixes**
+ - Removed add session param to url: 2.3.5 compatibility
+ - Remove wrong data-mage-init in notifications
+
+**Features**
+ - Add custom grid severity styles
+ - Add ticket preview (#15)
+ - Add new ticket indicating
+
 ### Version 1.1.7
 
 > Mar 2, 2020
