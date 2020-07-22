@@ -8,6 +8,46 @@ category: SEO Suite
 
 # Changelog
 
+### Version 1.9.3
+
+> Jul 22, 2020
+
+Main theme of this release is speed up category page rendering as well as other pages with product listing. Reduce number of DB queries and TTFB.
+
+*swissup/module-hreflang — 1.4.2 (was 1.4.0)*
+
+  - Reduce number of DB queries. Collect all nessecery data with one DB querie. Previously number of queries was equal to number of storeviews.
+  - Do not include storeview into hreflangs when it is disabled in Admin.
+  
+*swissup/module-rich-snippets — 1.4.10 (was 1.4.9)*
+
+  - Implement product availability pre-order. Product availability can be preorder only when "Backorders" option value is "Allow Qty Below 0 and Notify Customer".
+
+*swissup/module-seo-html-sitemap — 1.1.6 (was 1.1.5)*
+
+  - Improve compatibility with third-party extensions.
+  
+*swissup/module-seo-images — 1.3.5 (was 1.3.2)*
+
+  - Speed up images index via bin/magento command.
+  - Reduce number of DB queries and speed up category page rendering as well as other pages with product listings.
+  - Fixed warning for chines locales when `cocur/slugify` package installed (Empty needle in ...module-seo-urls/Helper/Filter.php on line 143).
+  
+*swissup/module-seo-pager — 1.2.5 (was 1.2.4)*
+
+  - Change the way how page title is updated. To prevent early collection load and fix 'Illegal state' error when Swissup_Pagespeed is enabled with option critical CSS.
+  
+*swissup/module-seo-templates — 1.5.12 (was 1.5.8)*
+
+  - Fixed 'categories' directive for products and 'parents' directive for categories. There was an issue at multilingual stores - category names were in incorrect language.
+  - Improve performance. Update category and product metadata only at pages where it is really necessary. Reduce number of DB queries at category page and other pages with product listings (e.g. search results page).
+  
+*swissup/module-seo-urls — 1.5.16 (was 1.5.11)*
+
+  - Fixed params resolving logic when yes/no filter and 'No' selected.
+  - Less DB queries. Faster layered navigation. Lower TTFB.
+  
+
 ### Version 1.9.1
 
 > May 7, 2020
