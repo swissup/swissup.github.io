@@ -16,7 +16,7 @@ ready-to-use template.
 Admin can download created PDF documents from **Invoice**, **Order**, **Shipment**
 and **Credit Memo** grids and forms. Customers can print PDF from their account
 order view page. Guests can print PDF from *Orders and Returns* page.
-Also you can add *Download PDF* link to the sales emails.
+Also you can add *Download PDF* link to the sales emails or send PDF as email attachment.
 
 {% include gallery.html images=site.data.gallery.m2.pdf-invoices.index class="phone-up-2 tablet-up-3 photoswipe scroll" %}
 
@@ -27,6 +27,7 @@ Also you can add *Download PDF* link to the sales emails.
 3. [Configuration](configuration/)
 4. [Create PDF Template](create-pdf-template/)
 5. [Known Issues](known-issues/)
+   - [Download PDF link displays 404 error with Asynchronous sending enabled](known-issues/#download-pdf-link-displays-404-error-with-asynchronous-sending-enabled)
    - [Download PDF link problem in Magento 2.3.4](known-issues/#download-pdf-link-problem-in-magento-234)
    - [Magento 2.2 Compatibility](known-issues/#magento-22-compatibility)
    - [HTML and CSS support](known-issues/#html-and-css-support)

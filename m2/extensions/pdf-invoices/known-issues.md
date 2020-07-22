@@ -8,6 +8,12 @@ category: PDF Invoices
 
 # Known Issues
 
+### Download PDF link displays 404 error with Asynchronous sending enabled
+
+When `Sales > Sales Emails > General Settings > Asynchronous sending` enabled order emails are sent by cron.
+Download PDF link does not work in such case. We recommend using PDF attachment in such case instead of
+Download PDF link.
+
 ### Download PDF link problem in Magento 2.3.4
 
 Due to a bug in Magento 2.3.4 `$order` variable is empty in emails.

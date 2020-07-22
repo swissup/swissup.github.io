@@ -8,6 +8,13 @@ category: PDF Invoices
 
 # Changelog
 
+### Version 1.2.0
+
+> Jul 22, 2020
+
+ -  You can now send PDF as an attachment in sales email
+ -  Fixed tracking information error in shipment PDF on Magento 2.3.3 and newer
+
 ### Version 1.1.1
 
 > Jun 30, 2020

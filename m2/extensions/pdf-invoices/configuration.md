@@ -20,3 +20,4 @@ Enable on Store Front | Print PDF documents from account order view and orders a
 Page Size             | Select page size (default: A4)
 Page Orientation      | Select page orientation (default: portrait)
 Template              | Select template to use for PDF printing/downloading
+Send PDF as an attachment in the email | Enable to attach PDF to corresponding sales email
