@@ -6,7 +6,18 @@ category: AjaxPro
 
 # Changelog
 
-### Version 1.5.6
+### Version 1.5.7
+
+> Jul 23, 2020
+
+**Improvements**
+ - Add animation feature
+
+**Bugfixes**
+ - Fix blank empty checkout.cart block
+ - Fix override minicart empty bug, add loading by click
+
+###Version 1.5.6
 
 > Jul 10, 2020
 
