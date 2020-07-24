@@ -16,7 +16,7 @@ Also you can create multiple categories and direct support faqs to them. In orde
 
 ![Category interface](/images/m2/knowledgebase/edit-category.png)
 
--   In `Enabled` field select **Yes**, if you allow admin users to escalate issues within the appropriate hidden category.
+-   In `Enabled` field select **Yes**, if the category will be shown at frontend.
 -   In the `Name` field specify the category Title.
 -   In the `Sort Order` field specify the category sort order.
 
