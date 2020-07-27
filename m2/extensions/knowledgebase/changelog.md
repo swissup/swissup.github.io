@@ -6,6 +6,15 @@ keywords: KnowledgeBase changelog
 category: KnowledgeBase
 ---
 
+### Version 1.0.1
+
+> Jul 27, 2020
+
+
+**Bugfixes**
+ - Fix custom /graphql endpoint part
+ - Fix load() method by custom field value
+
 ### Version 1.0.0
 
  -  Initial Release
