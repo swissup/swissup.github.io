@@ -8,6 +8,27 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.4.7
+
+> Jul 29, 2020
+
+**Improvments**
+ - Allow to install on Magento 2.4
+ - Use swissup/module-image to get image dimensions
+ - Optimize image dimensions calculation for luma-based themes
+ - Added including custom page critical css (css/critical/[cms_index_index|...]-[1column|2column|...].[css|less])
+ - Allow to include css without 'layout' suffix
+ - Add config option 'Merge custom critical css files from your theme'
+ - Prevent page jumping when lazy load and image placeholders are enabled
+ - Override mage/bootstrap; Add requestIdleCallback wrapper in mage/bootsrap
+
+**Fixes**
+ - Remove duplicated preload css (if Magento already preloaded it)
+ - Don't lazyload images that aren't visible on initial page load
+ - Increase lazyload offset to 7 (Better for Argento themes)
+ - Small improve lazyload (xs-hide, sm-hide)
+ - Fix broken Result\Page usage; Illegal state
+
 ### Version 1.4.6
 
 > Jul 10, 2020
@@ -23,7 +44,6 @@ category: Pagespeed
  - Do not show filepath as config value if it was mistakenly written to config
  - Do not show critical file path when config is not saved and file is not exist
  - Fixed removing script(s) with ignoring attributes (ex:data-defer-js-ignore)
-
 
 ### Version 1.4.4
 
