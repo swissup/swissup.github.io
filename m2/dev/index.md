@@ -43,6 +43,7 @@ This command will download all modules, enable them and run `setup:upgrade` comm
 ```bash
 composer config repositories.swissup composer https://docs.swissuplabs.com/packages/ &&\
 composer require\
+    swissup/module-abandoned-cart\
     swissup/module-address-autocomplete\
     swissup/module-address-field-manager\
     swissup/module-ajaxlayerednavigation\
@@ -82,7 +83,9 @@ composer require\
     swissup/module-hover-gallery\
     swissup/module-hreflang\
     swissup/module-helpdesk\
+    swissup/module-image\
     swissup/module-instaframe\
+    swissup/module-knowledge-base\
     swissup/module-lightboxpro\
     swissup/module-maintenance\
     swissup/module-marketplace\
