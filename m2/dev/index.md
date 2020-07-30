@@ -68,6 +68,7 @@ composer require\
     swissup/module-easyflags\
     swissup/module-easy-slide\
     swissup/module-easytabs\
+    swissup/module-email-templates\
     swissup/module-fblike\
     swissup/module-featured-attributes\
     swissup/module-field-manager\
