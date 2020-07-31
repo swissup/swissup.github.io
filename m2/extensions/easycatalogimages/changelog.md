@@ -8,6 +8,14 @@ category: EasyCatalogImages
 
 # Changelog
 
+### Version 1.4.10
+
+> Aug 1, 2020
+
+ -  Added margin on AMP homepage
+ -  Prevent styles duplication in styles-m and styles-l files
+ -  Fixed broken thumbnail upload in Magento 2.4
+
 ### Version 1.4.8
 
 > May 7, 2020
