@@ -7,6 +7,12 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.3.25
+
+> Aug 1, 2020
+
+ -  Fixed category and price filters errors on AMP on Magento 2.4
+
 ### Version 1.3.24
 
 > Jul 20, 2020

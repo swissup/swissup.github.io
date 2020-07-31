@@ -8,6 +8,18 @@ category: Accelerated Mobile Pages
 
 # Changelog
 
+### Version 1.4.3
+
+> Aug 1, 2020
+
+ -  Removed prohibited `loading` attribute from images (Magento 2.4 compatibility fix)
+ -  Removed `cookie-status-check` message on AMP (Magento 2.4 compatibility fix)
+ -  Replaced plugin with event (Magento 2.4.0 compatibility)
+  -  Removed deprecated installer. Use [Marketplace](/m2/extensions/marketplace/cli/#marketplacepackageinstall) module to install AMP
+ -  Use `swissup/module-image` to detect image dimensions
+ -  Removed change qty force for bundle products
+ -  Fixed store menu processing when Varnish used
+
 ### Version 1.4.1
 
 > Jul 1, 2020

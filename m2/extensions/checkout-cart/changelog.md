@@ -8,6 +8,12 @@ category: Checkout Cart
 
 # Changelog
 
+### Version 1.5.3
+
+> Jul 31, 2020
+
+ -  Added additional checkoutConfig checks to prevent js error
+
 ### Version 1.5.2
 
 > May 13, 2020

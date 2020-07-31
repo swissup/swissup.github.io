@@ -8,6 +8,13 @@ category: Lightbox Pro
 
 # Changelog
 
+### Version 1.2.11
+
+> Aug 1, 2020
+
+ -  Don't show thumbnail placeholder when there are no secondary images
+ -  Prevent page jumping while scripts are initializing
+
 ### Version 1.2.10
 
 > May 13, 2020

@@ -8,6 +8,12 @@ category: PDF Invoices
 
 # Changelog
 
+### Version 1.2.1
+
+> Aug 1, 2020
+
+ -  Fixed not working `Add New Template` button in templates grid (Magento 2.4 compatibility)
+
 ### Version 1.2.0
 
 > Jul 22, 2020

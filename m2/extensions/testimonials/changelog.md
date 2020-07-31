@@ -8,6 +8,19 @@ category: Testimonials
 
 # Changelog
 
+### Version 1.2.10
+
+> Aug 1, 2020
+
+ -  Removed unnecessary status change confirmations
+
+### Version 1.2.9
+
+> Jun 30, 2020
+
+ -  Fixed error when admin notification email is empty
+ -  Improved slider widget
+
 ### Version 1.2.8
 
 > May 13, 2020

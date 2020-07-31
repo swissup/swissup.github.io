@@ -8,6 +8,28 @@ category: SEO Suite
 
 # Changelog
 
+### Version 1.9.4
+
+> Aug 1, 2020
+
+Main theme of this release is Magento 2.4 compatibility.
+
+*swissup/module-seo-pager — 1.2.6 (was 1.2.5)*
+
+  - Don't load product collection too early - fixed issue at Magento 2.4.0 at product listing when pagination and limits are ignored.
+
+*swissup/module-seo-xml-sitemap — 1.1.7 (was 1.1.6)*
+
+ -  Added missing custom links to sitemap XML.
+
+*swissup/module-seo-images — 1.3.6 (was 1.3.5)*
+
+  - Fixed issue at Magento 2.4.0 at product listing when pagination and limits are ignored.
+
+*swissup/module-seo-templates — 1.5.13 (was 1.5.12)*
+
+  - Fixed issue at Magento 2.4.0 at product listing when pagination and limits are ignored.
+
 ### Version 1.9.3
 
 > Jul 22, 2020
@@ -18,7 +40,7 @@ Main theme of this release is speed up category page rendering as well as other 
 
   - Reduce number of DB queries. Collect all nessecery data with one DB querie. Previously number of queries was equal to number of storeviews.
   - Do not include storeview into hreflangs when it is disabled in Admin.
-  
+
 *swissup/module-rich-snippets — 1.4.10 (was 1.4.9)*
 
   - Implement product availability pre-order. Product availability can be preorder only when "Backorders" option value is "Allow Qty Below 0 and Notify Customer".
@@ -26,27 +48,27 @@ Main theme of this release is speed up category page rendering as well as other 
 *swissup/module-seo-html-sitemap — 1.1.6 (was 1.1.5)*
 
   - Improve compatibility with third-party extensions.
-  
+
 *swissup/module-seo-images — 1.3.5 (was 1.3.2)*
 
   - Speed up images index via bin/magento command.
   - Reduce number of DB queries and speed up category page rendering as well as other pages with product listings.
   - Fixed warning for chines locales when `cocur/slugify` package installed (Empty needle in ...module-seo-urls/Helper/Filter.php on line 143).
-  
+
 *swissup/module-seo-pager — 1.2.5 (was 1.2.4)*
 
   - Change the way how page title is updated. To prevent early collection load and fix 'Illegal state' error when Swissup_Pagespeed is enabled with option critical CSS.
-  
+
 *swissup/module-seo-templates — 1.5.12 (was 1.5.8)*
 
   - Fixed 'categories' directive for products and 'parents' directive for categories. There was an issue at multilingual stores - category names were in incorrect language.
   - Improve performance. Update category and product metadata only at pages where it is really necessary. Reduce number of DB queries at category page and other pages with product listings (e.g. search results page).
-  
+
 *swissup/module-seo-urls — 1.5.16 (was 1.5.11)*
 
   - Fixed params resolving logic when yes/no filter and 'No' selected.
   - Less DB queries. Faster layered navigation. Lower TTFB.
-  
+
 
 ### Version 1.9.1
 
@@ -58,11 +80,11 @@ Main theme of this release is speed up category page rendering as well as other 
 
   - Fixed empty hreflang value for chines locales when "Remove region...".
   - Build hreflang links using all websites of Magento instance.
-  
+
 *swissup/module-rich-snippets — 1.4.8* (was 1.4.9)
 
   - Compatibility with Firebear_ConfigurableProducts module.
-  
+
 *swissup/module-seo-urls — 1.5.11* (was 1.5.10)
 
   - Add `nofollow` to category filter in layered navigation.
@@ -75,7 +97,7 @@ Main theme of this release is speed up category page rendering as well as other 
 *swissup/module-seo-images — 1.3.0* (was 1.1.3)
 
  -  Add SEO Images Magento Index to speed up initial page rendering. This index speed up page generation before it is cached by Magento.
- - "Production Mode" feature (beta). Suites best for single store Magento instances. 
+ - "Production Mode" feature (beta). Suites best for single store Magento instances.
 
 *swissup/module-hreflang — 1.3.7* (was 1.3.6)
 
@@ -101,7 +123,7 @@ Than nbsp will be replaced with dash (-).
 
  -  Fixed poorly worked urls at Magento 2.3.4.
  -  Force remove store_code parameter from url.
- 
+
 *swissup/module-seo-images — 1.1.3* (was 1.1.2)
 
  -  Fixed compatibility with Magento 2 EE (Enterprise Edition).
@@ -134,7 +156,7 @@ Than nbsp will be replaced with dash (-).
 *swissup/module-hreflang — 1.3.3* (was 1.3.2)
 
  -  Improve module stability.
- 
+
 *swissup/module-seo-templates — 1.5.3* (was 1.5.0)
 
  -  Fixed "Area code is not set on 2.2.x" in bin/magento.
@@ -198,11 +220,11 @@ New submodule included into Suite - [**SEO Images**](/m2/extensions/seo-images/)
 *Regional URLs (hreflang) (1.2.3):*
 
  -  Improved integration with pages for third-party modules - Swissup AskIt, Swissup Highlight and Swissup EasyCatalogImg (departments page).
- 
+
 *SEO Pagination (1.2.0):*
  -  New feature - add page number to title of page where paginated content presented.
  -  Improved integration with Catalog Search pages.
- 
+
 *SEO URLs (1.5.2)*:
  -  Fixed compatibility with latest Swissup Ajaxsearch module. "Nothing found" message appeared for any instant search request.
 
