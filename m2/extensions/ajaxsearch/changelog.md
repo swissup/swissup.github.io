@@ -6,6 +6,22 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.9.8
+
+> Jul 17, 2020
+
+**Bugfixes**
+ - reMove code to swissup/module-search-mysql-like
+ - Cleanup layout instructions
+ - Fix array to string conversation (2.4 compatibility)
+
+### Version 1.9.7
+
+> Jul 29, 2020
+
+**Features**
+ - Allow to install on Magento 2.4
+
 ### Version 1.9.6
 
 > Jul 17, 2020
