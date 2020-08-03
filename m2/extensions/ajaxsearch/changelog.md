@@ -8,7 +8,7 @@ category: AjaxSearch
 
 ### Version 1.9.8
 
-> Jul 17, 2020
+> Jul 31, 2020
 
 **Bugfixes**
  - reMove code to swissup/module-search-mysql-like
