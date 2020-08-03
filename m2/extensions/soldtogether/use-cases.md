@@ -17,6 +17,6 @@ category: SoldTogether
 You can add soldtogether blocks to the sales email template using the following code:
 
 ```
-{% raw %}{{block class='Swissup\\SoldTogether\\Block\\Email\\Customer' area='frontend' template='Swissup_SoldTogether::email/customer.phtml' order=$order}}
-{{block class='Swissup\\SoldTogether\\Block\\Email\\Order' area='frontend' template='Swissup_SoldTogether::email/order.phtml' order=$order}}{% endraw %}
+{% raw %}{{block class='Swissup\SoldTogether\Block\Email\Customer' area='frontend' template='Swissup_SoldTogether::email/customer.phtml' order_id=$order.id}}
+{{block class='Swissup\SoldTogether\Block\Email\Order' area='frontend' template='Swissup_SoldTogether::email/order.phtml' order_id=$order.id}}{% endraw %}
 ```

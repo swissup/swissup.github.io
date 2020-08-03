@@ -40,14 +40,14 @@ In order to display checkout fields in order emails, follow next steps:
  5. In `Template Content` place the following code where you want to show checkout fields:
 
     ```txt
-    {% raw %}{{block class="Swissup\CheckoutFields\Block\Adminhtml\Order\View\Fields" area="frontend" template="Swissup_CheckoutFields::email/order/fields.phtml" order=$order}}{% endraw %}
+    {% raw %}{{block class="Swissup\CheckoutFields\Block\Adminhtml\Order\View\Fields" area="frontend" template="Swissup_CheckoutFields::email/order/fields.phtml" order_id=$order.id}}{% endraw %}
     ```
 
     if you want to display only specific fields, list comma-separated attribute codes
     in `fields_to_show` paramether:
 
     ```txt
-    {% raw %}{{block class="Swissup\CheckoutFields\Block\Adminhtml\Order\View\Fields" area="frontend" template="Swissup_CheckoutFields::email/order/fields.phtml" order=$order fields_to_show="order_comment,favourite_products,delivery_date"}}{% endraw %}
+    {% raw %}{{block class="Swissup\CheckoutFields\Block\Adminhtml\Order\View\Fields" area="frontend" template="Swissup_CheckoutFields::email/order/fields.phtml" order_id=$order.id fields_to_show="order_comment,favourite_products,delivery_date"}}{% endraw %}
     ```
 
  6. Press `Save Template` button

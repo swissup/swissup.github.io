@@ -21,7 +21,7 @@ In order to display delivery date and time in order emails, follow next steps:
  5. Add the following code into `Template Content` field:
 
     ```txt
-    {% raw %}{{block class="Swissup\DeliveryDate\Block\View" area="frontend" template="Swissup_DeliveryDate::email/order/view.phtml" order=$order}}{% endraw %}
+    {% raw %}{{block class="Swissup\DeliveryDate\Block\View" area="frontend" template="Swissup_DeliveryDate::email/order/view.phtml" order_id=$order.id}}{% endraw %}
     ```
 
  6. Press **Save Template** button

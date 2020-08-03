@@ -27,7 +27,7 @@ links only.
     - [Order attachments page](#order-attachments-page)
     - [Order edit page](#order-edit-page)
  5. [Use cases](use-cases/)
-     -  [Add to the Success Page](use-cases/#add-to-the-success-page) 
+     -  [Add to the Success Page](use-cases/#add-to-the-success-page)
 
 ## Features
 
@@ -76,7 +76,7 @@ checkout page.
 You can add attachment links to the email template using the following code:
 
 ```
-{% raw %}{{block class='Swissup\\Orderattachment\\Block\\Email\\Attachments' area='frontend'  order=$order}}{% endraw %}
+{% raw %}{{block class='Swissup\Orderattachment\Block\Email\Attachments' area='frontend' order_id=$order.id}}{% endraw %}
 ```
 
 ## Backend
