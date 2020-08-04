@@ -66,3 +66,4 @@ devices, tablets, and phones.
  10. [Demo](/m2/extensions/navigationpro/demo/)
  11. [Troubleshooting](/m2/extensions/navigationpro/troubleshooting/)
      - [Missing top navigation when Varnish is used](/m2/extensions/navigationpro/troubleshooting/missing-top-navigation-when-varnish-is-used/)
+     - [Invalid category image path in Magento 2.4](/m2/extensions/navigationpro/troubleshooting/invalid-category-image-path/)
