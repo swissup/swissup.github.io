@@ -44,12 +44,14 @@ category: EasyCatalogImages
 
 - Page title
 - Page URL
+- Layout Mode - Choose between masonry and regular grid listings
 - Number of categories to show
 - Number of subcategories to show
 - Columns count
 - Show images
 - Image width
 - Image height
+- Categories to hide - Category ids to hide from departments page
 
 ### Automated Image Assignment section
 
