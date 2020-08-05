@@ -8,6 +8,13 @@ category: Checkout Success
 
 # Changelog
 
+### Version 1.4.5
+
+> Aug 5, 2020
+
+  - Fixed ordered items output in Magento 2.4
+  - PHP 7.4 compatibility fix.
+
 ### Version 1.4.4
 
 > May 14, 2020

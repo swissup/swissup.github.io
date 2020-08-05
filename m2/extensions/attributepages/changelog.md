@@ -7,6 +7,12 @@ category: Attributepages
 
 # Changelog
 
+### Version 1.2.7
+
+> Aug 5, 2020
+
+ -  Translations updated
+
 ### Version 1.2.4
 
 > May 13, 2020

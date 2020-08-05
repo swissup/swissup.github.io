@@ -8,6 +8,16 @@ category: GDPR
 
 # Changelog
 
+### Version 1.3.7
+
+> Aug 5, 2020
+
+ -  PHP 7.4 compatibility.
+ -  Allow to translate cookie title and description via i18n files.
+ -  Do not show cookie bar until scripts are ready.
+ -  Fixed newsletter signup styles in Magento 2.4.
+ -  Place consents before captcha/recaptcha field.
+
 ### Version 1.3.3
 
 > Jun 18, 2020

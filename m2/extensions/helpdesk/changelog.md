@@ -6,6 +6,14 @@ keywords: Helpdesk changelog
 category: Helpdesk
 ---
 
+### Version 1.1.10
+
+> Aug 5, 2020
+
+ - Magento 2.4 compatibility (Error on contacts page)
+ - Improve contact form styles
+ - Translations updated
+
 ### Version 1.1.8
 
 > Jul 22, 2020

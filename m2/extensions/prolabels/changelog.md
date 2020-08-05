@@ -8,7 +8,13 @@ category: Prolabels
 
 # Changelog
 
-### VErsion 1.5.7
+### Version 1.5.8
+
+> Aug 5, 2020
+
+ -  Fixed issue at Magento 2.4.0 at product listing when pagination and limits are ignored.
+
+### Version 1.5.7
 
 > Jul 16
 

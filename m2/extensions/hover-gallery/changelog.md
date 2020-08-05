@@ -8,6 +8,13 @@ category: Hover Gallery
 
 # Changelog
 
+### Version 1.3.7
+
+> Aug 5, 2020
+
+ -  Fixed issue at Magento 2.4.0 at product listing when pagination and limits are ignored.
+ -  Fixed array to string conversion at Magento 2.4.0
+
 ### Version 1.3.6
 
 > Jul 10, 2020

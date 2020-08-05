@@ -8,6 +8,12 @@ category: Review Reminder
 
 # Changelog
 
+### Version 1.1.7
+
+> Aug 5, 2020
+
+ -  Translations updated
+
 ### Version 1.1.6
 
 > May 13, 2020

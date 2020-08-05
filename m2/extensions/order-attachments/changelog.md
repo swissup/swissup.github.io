@@ -7,6 +7,13 @@ category: Order Attachments
 
 # Changelog
 
+### Version 1.4.3
+
+> Aug 5, 2020
+
+ - Magento 2.3.5 and 2.4.0 compatibilty (Email was missing attachments block).
+ - Added order number to the backend grid.
+
 ### Version 1.4.0
 
 > Jan 8, 2020

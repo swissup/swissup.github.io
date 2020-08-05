@@ -8,6 +8,12 @@ category: Easy Flags
 
 # Changelog
 
+### Version 1.3.3
+
+> Aug 5, 2020
+
+ -  [AMP](/m2/extensions/amp/) support added.
+
 ## Version 1.3.2
 
 > Jul 21, 2020

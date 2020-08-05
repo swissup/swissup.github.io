@@ -8,6 +8,12 @@ category: reCAPTCHA
 
 # Changelog
 
+### Version 1.3.10
+
+> Aug 5, 2020
+
+ -  Make friends with braintree payment method.
+
 ### Version 1.3.9
 
 > Jun 10, 2020

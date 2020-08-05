@@ -8,6 +8,13 @@ category: Easy Tabs
 
 # Changelog
 
+### Version 1.9.0
+
+> Aug 5, 2020
+
+ -  Prevent page jumping while scripts are initializing.
+ -  Fixed automatic cache invalidation on content and tab update.
+
 ### Version 1.8.12
 
 > Jun 9, 2020

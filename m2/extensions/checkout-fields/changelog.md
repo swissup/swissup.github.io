@@ -8,6 +8,13 @@ category: Checkout Fields
 
 # Changelog
 
+### Version 1.4.3
+
+> Aug 5, 2020
+
+ -  Fixed confirmation message when deleting item in backend grid
+ -  Magento 2.3.5 and 2.4.0 compatibilty (Email was missing checkout-fields block).
+
 ### Version 1.4.0
 
 > Jan 8, 2020

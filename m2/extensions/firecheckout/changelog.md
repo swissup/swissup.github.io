@@ -8,6 +8,26 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.24.1
+
+> Aug 5, 2020
+
+ -  Magento 2.4 compatibility fixes:
+    -   [CheckoutSuccess](/m2/extensions/checkout-success/) -
+        fixed ordered items listing.
+    -   [CustomerFieldManager](/m2/extensions/customer-field-manager/) -
+        fixed error in backend grid when using mass action.
+    -   [CheckoutFields](/m2/extensions/checkout-fields/),
+        [DeliveryDate](/m2/extensions/delivery-date/),
+        [OrderAttachments](/m2/extensions/order-attachments/) - fixed missing block
+        in order confirmation email (You have to use `order_id=$order.id` instead
+        of `order=$order` property when inserting block to the email template).
+    -   Fixed js error caused by stickyfill library.
+ -  Fixed proper region usage (province) for Italy addresses when using
+    [AddressAutocomplete](/m2/extensions/address-autocomplete/) module.
+ -  CSS fixes for third-party themes.
+ -  Braintree_Googlepay styles fixes.
+
 ### Version 1.24.0
 
 > Jun 16, 2020

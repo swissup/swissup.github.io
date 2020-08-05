@@ -8,6 +8,15 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.4.8
+
+> Aug 5, 2020
+
+ -  Minimize layout shifts with own css loader.
+ -  Don't push/preload images from `<picture>` tag.
+ -  Fix webp+picture and lazyload data-srcset bug combination.
+ -  Config refactoring.
+
 ### Version 1.4.7
 
 > Jul 29, 2020

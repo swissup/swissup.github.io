@@ -8,6 +8,12 @@ category: Testimonials
 
 # Changelog
 
+### Version 1.2.11
+
+> Aug 5, 2020
+
+ -  Translations updated
+
 ### Version 1.2.10
 
 > Aug 1, 2020

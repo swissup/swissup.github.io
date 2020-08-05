@@ -8,6 +8,14 @@ category: Highlight
 
 # Changelog
 
+### Version 1.6.3
+
+> Aug 5, 2020
+
+ -  Improve [Prolabels](/m2/extensions/prolabels/),
+    [Seo Images](/m2/extensions/seo-images/) and [Seo Templates](/m2/extensions/seo-templates/)
+    extensions support.
+
 ### Version 1.6.0
 
 > Mar 16, 2020

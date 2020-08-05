@@ -8,6 +8,14 @@ category: Easy Banners
 
 # Changelog
 
+### Version 1.5.8
+
+> Aug 5, 2020
+
+ -  Fixed responsive images in Luma theme.
+ -  Prevent page jumping when image is loading.
+ -  Fixed mispositioned dimensions label in backend form.
+
 ### Version 1.5.6
 
 > May 4, 2020

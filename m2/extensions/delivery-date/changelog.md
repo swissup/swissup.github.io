@@ -7,6 +7,12 @@ category: Delivery Date
 
 # Changelog
 
+### Version 1.5.1
+
+> Aug 5, 2020
+
+ -  Magento 2.3.5 and 2.4.0 compatibilty (Email was missing delivery-date block).
+
 ### Version 1.5.0
 
 > Jan 8, 2020

@@ -8,6 +8,12 @@ category: EasyCatalogImages
 
 # Changelog
 
+### Version 1.4.11
+
+> Aug 5, 2020
+
+ -  Added category to hide and listing mode options to departments page configuration
+
 ### Version 1.4.10
 
 > Aug 1, 2020

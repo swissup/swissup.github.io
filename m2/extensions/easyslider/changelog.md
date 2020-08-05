@@ -8,6 +8,14 @@ category: Easy Slider
 
 # Changelog
 
+### Version 1.5.7
+
+> Aug 5, 2020
+
+ -  Performance improvements.
+ -  Fixed responsive images in Luma theme.
+ -  Prevent page jumping when image is loading.
+
 ### Version 1.5.3
 
 > Oct 16, 2019

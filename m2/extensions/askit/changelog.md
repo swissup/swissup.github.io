@@ -11,6 +11,13 @@ category: AskIt
 
 # Changelog
 
+### Version 1.4.3
+
+> Aug 5, 2020
+
+ -  Fixed issue when unable to assign product/category/page to question.
+ -  Magento 2.4 compatibility (unexpected token 'case' error in backend).
+
 ### Version 1.8.0
 
 > Jun 22, 2020

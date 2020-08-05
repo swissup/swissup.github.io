@@ -8,6 +8,13 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.14.7
+
+> Aug 5, 2020
+
+ -  Fixed invalid category image path in Magento 2.4
+ -  PHP 7.4 compatibility.
+
 ### Version 1.14.5
 
 > May 26, 2020
