@@ -7,6 +7,92 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.19.0
+
+> Aug 5, 2020
+
+ -  Magento 2.4 compatibility in themes and modules.
+ -  PHP 7.4 compatibility added in bundled modules.
+ -  Critical CSS added to all themes to improve PageSpeed score.
+ -  Fixed missing review form on ArgentoForce theme when load product page via
+    url "...#review-form"
+ -  Removed deprecated installation instructions.
+
+**Extensions Updates**
+
+ -  [Ajax Pro](/m2/extensions/ajaxpro/) — 1.5.8 (was 1.5.5)
+    -  Magento 2.4 compatibility.
+    -  Add optional fly to cart animation feature.
+ -  [Ajax Search](/m2/extensions/ajaxsearch/) — 1.9.8 (was 1.9.5)
+    -  Magento 2.4 compatibility.
+    -  Include tax to the product price if needed.
+ -  [AMP](/m2/extensions/amp/) — 1.4.3 (was 1.4.1)
+    -  Magento 2.4 compatibility.
+    -  Removed prohibited loading attribute from images
+    -  Fixed store menu processing when Varnish used.
+ -  [Askit](/m2/extensions/askit/) — 1.8.2 (was 1.8.0)
+    -  Magento 2.4 compatibility (unexpected token 'case' error in backend).
+    -  Fixed issue when unable to assign product/category/page to question.
+ -  [Easybanner](/m2/extensions/easybanners/) — 1.5.8 (was 1.5.7)
+    -  Prevent page jumping when image is loading.
+    -  Fixed mispositioned dimensions label in backend form.
+ -  [EasyCatalogImages](/m2/extensions/easycatalogimages/) — 1.4.11 (was 1.4.9)
+    -  Added category to hide and listing mode options to departments page configuration
+ -  [EasySlide](/m2/extensions/easyslider/) — 1.5.7 (was 1.5.6)
+    -  Performance improvements.
+    -  Prevent page jumping when image is loading.
+ -  [Easytabs](/m2/extensions/easytabs/) — 1.9.0 (was 1.8.12)
+    -  Prevent page jumping while scripts are initializing.
+    -  Fixed automatic cache invalidation on content and tab update.
+ -  [Featured Attributes](/m2/extensions/featured-attributes/) — 1.1.4 (was 1.1.3)
+    -  Performance improvements.
+ -  [GDPR](/m2/extensions/gdpr/) — 1.3.7 (was 1.3.4)
+    -  PHP 7.4 compatibility
+    -  Allow to translate cookie title and description via i18n files
+    -  Do not show cookie bar until scripts are ready
+    -  Fixed newsletter signup styles in Magento 2.4
+ -  [Highlight](/m2/extensions/highlight/) — 1.6.3 (was 1.6.2)
+    -  Improve [Prolabels](/m2/extensions/prolabels/),
+       [Seo Images](/m2/extensions/seo-images/) and [Seo Templates](/m2/extensions/seo-templates/)
+       extensions support.
+ -  [Hover Gallery](/m2/extensions/hover-gallery/) — 1.3.7 (was 1.3.5)
+    -  Fixed issue at Magento 2.4.0 at product listing when pagination and limits are ignored.
+    -  Performance improvemements.
+ -  [NavigationPro](/m2/extensions/navigationpro/) — 1.14.7 (was 1.14.5)
+    -  Fixed invalid category image path in Magento 2.4
+    -  PHP 7.4 compatibility
+ -  [Pagespeed](/m2/extensions/pagespeed/) — 1.4.4 (was 1.4.2)
+    -  Magento 2.4 compatibility.
+    -  Minimize layout shifts with own css loader.
+    -  Don't push/preload images from `<picture>` tag.
+    -  Fix webp+picture and lazyload data-srcset bug combination.
+    -  Config refactoring.
+ -  [ProLabels](/m2/extensions/prolabels/) — 1.5.5 (was 1.5.3)
+    -  Performance improvements.
+    -  Fixed issue at Magento 2.4.0 at product listing when pagination and limits are ignored.
+    -  Improve labels rendering on product page for configurable products.
+ -  [Seo Suite](/m2/extensions/seo-suite/)
+    -  *swissup/module-seo-core — 1.2.3* (was 1.2.2)
+       - Reduce page rendering time by reducing number if queries for SEO Templates and SEO Images extensions.
+    -  *swissup/module-hreflang — 1.4.1* (was 1.4.0)
+       - Reduce number of database queries.
+    -  *swissup/module-seo-images — 1.3.6* (was 1.3.2)
+       - Fixed issue at Magento 2.4.0 at product listing when pagination and limits are ignored.
+       - Performance improvemements.
+    -  *swissup/module-seo-pager — 1.2.6* (was 1.2.4)
+       - Fixed issue at Magento 2.4.0 at product listing when pagination and limits are ignored.
+    -  *swissup/module-seo-templates — 1.5.11* (was 1.5.8)
+       - Performance improvemements.
+       - Fixed issue at Magento 2.4.0 at product listing when pagination and limits are ignored.
+    -  *swissup/module-seo-urls — 1.5.12* (was 1.5.11)
+       - Fixed PHP error "Call getColumnValues on array".
+       - Performance improvemements.
+    -  *swissup/module-seo-xml-sitemap — 1.1.7* (was 1.1.6)
+       - Add missing other links to sitemap XML.
+ -  [QtySwitcher](/m2/extensions/qty-switcher/) — 1.1.6 (was 1.1.5)
+    -  Integrate into AjaxPro popup.
+    -  Get proper stock config for grouped product children.
+
 ### Version 1.18.0
 
 > Jul 1, 2020
