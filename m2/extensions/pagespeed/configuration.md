@@ -74,20 +74,14 @@ Option           | Description
 Merge CSS Files  | Allows to merge your css files (Yes)
 Minify CSS Files | Allows to enable/disable minify css files (Yes)
 
-#### Optimise CSS Delivery
-
-Option         | Description
----------------|-------------------------------------------
-Enable         | Allows to enable/disable [Optimize CSS Delivery](https://developers.google.com/speed/docs/insights/OptimizeCSSDelivery) (Yes)
-Enable LoadCss | Allows to enable/disable [loadCss](https://github.com/filamentgroup/loadCSS#why-loadcss) js library (Yes)
-
 #### Critical CSS (Prioritize Visible Content)
 
 Option               | Description
 ---------------------|-------------------------------------------
 Enable               | Allows to enable/disable [Critical Css](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/optimizing-critical-rendering-path?hl=en) (Yes)
 Default Critical CSS | There is only what the user can see when they first load the page. This means that we only need to load the minimum amount of CSS required to render the top portion of the page across all breakpoints. For the remainder of the CSS, we don’t need to worry as we can load it asynchronously. You can generate your site critical css [here](http://ci.swissuplabs.com/pagespeed/critical-css/).
-
+Use built-in critical CSS feature | Enable/disable Magento's built-in critical.css file.
+Merge custom critical css files from your theme | Enable/disable custom critical css from your theme.
 
 ### Image Processing Settings section
 
