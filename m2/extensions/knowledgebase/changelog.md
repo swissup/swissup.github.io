@@ -6,6 +6,14 @@ keywords: KnowledgeBase changelog
 category: KnowledgeBase
 ---
 
+### Version 1.0.3
+
+> Aug 6, 2020
+
+**Bugfixes**
+ - Fix not filtering by category
+
+
 ### Version 1.0.2
 
 > Aug 6, 2020
