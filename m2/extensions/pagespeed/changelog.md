@@ -8,6 +8,12 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.4.9
+
+> Aug 6, 2020
+
+ -  Fixed not working url to the CriticalCSS generator service.
+
 ### Version 1.4.8
 
 > Aug 5, 2020
