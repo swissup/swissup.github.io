@@ -6,6 +6,22 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.5.9
+
+> Aug 7, 2020
+
+**Bugfixes**
+ - Fix IE quick-view (ie not support es6 template literals)
+ - Fixed quick-view of out-of-stock products
+ - Fix get total-information after order place (empty quote 404)
+ - Rename ajaxpro-checkout.cart.after => ajaxpro-checkout.cart.fixes
+
+### Version 1.5.8
+
+> Jul 29, 2020
+
+ - magento 2.4 intagration
+
 ### Version 1.5.7
 
 > Jul 23, 2020
