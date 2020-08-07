@@ -8,6 +8,14 @@ category: GDPR
 
 # Changelog
 
+### Version 1.3.8
+
+> Aug 7, 2020
+
+ -  Fixed ability to translate `I accept following cookies: ...` phrase via
+    admin configuration _Stores > Configuration > Swissup > GDPR > Personal Data Consents > Cookie Consents_
+ -  Do not show empty "Cookie Settings" on "Privacy Tools" page when it's disabled.
+
 ### Version 1.3.7
 
 > Aug 5, 2020
