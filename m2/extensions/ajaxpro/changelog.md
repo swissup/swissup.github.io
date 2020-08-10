@@ -6,6 +6,14 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.5.10
+
+> Aug 10, 2020
+
+**Bugfixes**
+ - Fix sidebar overlap
+ - Prevent double show() calling
+
 ### Version 1.5.9
 
 > Aug 7, 2020
