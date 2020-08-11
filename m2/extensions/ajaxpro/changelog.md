@@ -6,6 +6,14 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.5.11
+
+> Aug 11, 2020
+
+**Bugfixes**
+ - Fix checkout.cart block not exist after 2.4 integration
+
+
 ### Version 1.5.10
 
 > Aug 10, 2020
