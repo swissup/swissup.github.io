@@ -8,6 +8,12 @@ category: GDPR
 
 # Changelog
 
+### Version 1.3.9
+
+> Aug 25, 2020
+
+ -  Fixed cookie bar flickering when critical css is enabled in theme.
+
 ### Version 1.3.8
 
 > Aug 7, 2020

@@ -8,6 +8,13 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.4.10
+
+> Aug 25, 2020
+
+ -  Fixed broken mobile styles when critical css is enabled.
+ -  Fixed js error when require.js loaded from CDN.
+
 ### Version 1.4.9
 
 > Aug 6, 2020
