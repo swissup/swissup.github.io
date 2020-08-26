@@ -11,7 +11,15 @@ category: AskIt
 
 # Changelog
 
-### Version 1.4.3
+### Version 1.8.3
+
+> Aug 25, 2020
+
+  - Fixed notice at Magento less than 2.4.x about undefined varual in Magento Admin when adding new question or editing one.
+  - Minor styles improvements on frontend.
+  - Slight change in translations.
+
+### Version 1.8.2
 
 > Aug 5, 2020
 
