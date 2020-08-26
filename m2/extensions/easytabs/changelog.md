@@ -8,6 +8,13 @@ category: Easy Tabs
 
 # Changelog
 
+
+### Version 1.9.1
+
+> Aug 25, 2020
+
+  - Fixed not expanded tab when use direct link to tab (link with tabs alias in anchor).
+
 ### Version 1.9.0
 
 > Aug 5, 2020
