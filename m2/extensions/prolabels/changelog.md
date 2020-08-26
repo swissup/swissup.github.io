@@ -8,6 +8,12 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.5.9
+
+> Aug 25, 2020
+
+  - Get rid of Cron job for manual labels and add index instead. New index id is `swissup_prolabels`.
+
 ### Version 1.5.8
 
 > Aug 5, 2020
