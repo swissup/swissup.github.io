@@ -8,6 +8,13 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.14.8
+
+> Aug 26, 2020
+
+ -  Fixed invalid category image path when it's used in category title (Magento 2.3.5, 2.4.0)
+ -  Added missing translations
+
 ### Version 1.14.7
 
 > Aug 5, 2020
