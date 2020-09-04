@@ -6,6 +6,18 @@ keywords: KnowledgeBase changelog
 category: KnowledgeBase
 ---
 
+### Version 1.0.4
+
+> Sep 4, 2020
+
+**Improvements**
+ - Add sitemap integration
+ - Add i18n
+ - Add internalization for 'Search' placeholder
+
+**Bugfixes**
+ - Don't show the link More with a little content. Some css improvements.
+
 ### Version 1.0.3
 
 > Aug 6, 2020
