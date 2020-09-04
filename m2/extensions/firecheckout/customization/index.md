@@ -38,3 +38,4 @@ category: Firecheckout
     - [Combine several use cases](use-cases/combine-several-use-cases/)
     - [Apply a shipping method automatically](use-cases/apply-shipping-method-automatically)
     - [Remove item from the mini-cart](use-cases/remove-item-minicart)
+    - [Checkout Log In using Social Account ](use-cases/login-by-social-account)
