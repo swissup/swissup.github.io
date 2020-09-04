@@ -6,6 +6,16 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.5.12
+
+> Sep 4, 2020
+
+**Bugfixes**
+ - Fix bug show subtotal exclude tax in minicart (display_cart_subtotal_excl_tax:[0,0] => true)
+ - Remove document.ready from modal-manager register function
+ - Deferred element registration before all ajax requests finished
+ - Fix phpstan checks
+
 ### Version 1.5.11
 
 > Aug 11, 2020
