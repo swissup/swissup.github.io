@@ -7,11 +7,21 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.3.26
+
+> Sep 4, 2020
+
+**Bugfixes**
+ - Fixed strange behaviour in stock filter
+ - Fixed don't work 'Display applied options' for ATTRIBUTE_OPTIONS_ONLY_WITH_RESULTS and applied option
+ - Fix some phpstan errors
+ - Investigated how to multiple attribute counting works
+
 ### Version 1.3.25
 
 > Aug 1, 2020
 
- -  Fixed category and price filters errors on AMP on Magento 2.4
+ - Fixed category and price filters errors on AMP on Magento 2.4
 
 ### Version 1.3.24
 
