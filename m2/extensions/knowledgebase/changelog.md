@@ -6,6 +6,14 @@ keywords: KnowledgeBase changelog
 category: KnowledgeBase
 ---
 
+### Version 1.0.5
+
+> Sep 8, 2020
+
+**Bugfixes**
+ - Fixed cropped a FAQ content height.
+ - Changed full FAQ content background on search input focus.
+
 ### Version 1.0.4
 
 > Sep 4, 2020
