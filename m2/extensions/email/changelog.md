@@ -8,6 +8,21 @@ category: Email
 
 # Changelog
 
+### Version 0.3.10
+
+> Aug 4, 2020
+
+**Fixes**
+ - Fixed invalid 'delete' message
+ - Translations updated
+
+### Version 0.3.9
+
+> Jul 29, 2020
+
+**Fixes**
+ - Allow to install on Magento 2.4
+
 ### Version 0.3.8
 
 > Jul 16, 2020
