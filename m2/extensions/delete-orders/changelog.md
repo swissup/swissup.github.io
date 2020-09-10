@@ -8,6 +8,10 @@ category: Delete Orders
 
 # Changelog
 
+### Version 1.0.5
+
+-  Fixed compatibility module with magento 2.4.0
+
 ### Version 1.0.2
 
 -  Added mass delete Order(s) with their Invoice(s), Shipment(s) and Credit Memo(s).
