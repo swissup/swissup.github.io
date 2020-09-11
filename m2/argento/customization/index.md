@@ -20,6 +20,7 @@ category: Argento
               * [Argento Mall](/m2/argento/mall/theme-editor/)
               * [Argento Luxury](/m2/argento/luxury/theme-editor/)
               * [Argento Stripes](/m2/argento/stripes/theme-editor/)
+              * [Argento Home](/m2/argento/home/theme-editor/)
     - [Custom css file](custom-css/)
     - [Custom js file](custom-js/)
     - [Custom theme](custom-theme/)

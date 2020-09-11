@@ -25,10 +25,11 @@ options and customization examples for every Argento design:
  -  [Argento Luxury](/m2/argento/luxury/theme-editor/)
  -  [Argento Stripes](/m2/argento/stripes/theme-editor/)
  -  [Argento Force](/m2/argento/force/theme-editor/)
+ -  [Argento Home](/m2/argento/home/theme-editor/)
 
 ### Header Builder
 
-> Currently only available in Argento Pure2 theme
+> Currently only available in Argento Pure2 and Argento Home themes
 
 With Header Builder, you can replace static header with a fully customizable one.
 
@@ -54,6 +55,7 @@ Language Switcher | ![Lang Block][lang-img]       | Allows to change store langu
 Header Links      | ![Links Block][links-img]     | Customer links and welcome message
 Customer Menu     | ![Customer Block][cust-img]   | Customer Links in form of dropdown
 CMS Links         | ![CMS Links Block][cms-img]   | Displays content from static block `header_cms_links`
+Wishlist Link     | ![Wishlist Link][wishlist-img]| Displays link to customer wishlist
 
 [ajaxsearch-design]: /m2/extensions/ajaxsearch/configuration/#design
 [navpro]: /m2/extensions/navigationpro/backend/menu-settings/
@@ -66,6 +68,7 @@ CMS Links         | ![CMS Links Block][cms-img]   | Displays content from static
 [links-img]: /images/m2/argento/customization/theme-editor/blocks/links.png
 [cust-img]: /images/m2/argento/customization/theme-editor/blocks/customer.png
 [cms-img]: /images/m2/argento/customization/theme-editor/blocks/links-cms.png
+[wishlist-img]: /images/m2/argento/customization/theme-editor/blocks/wishlist.png
 
 #### Preview
 
