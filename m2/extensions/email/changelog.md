@@ -8,6 +8,14 @@ category: Email
 
 # Changelog
 
+### Version 0.3.11
+
+> Sep 14, 2020
+
+**Fixes**
+ - Fix unique headers bug only for converted objects
+ - Fix non utf-8 headers bug
+
 ### Version 0.3.10
 
 > Aug 4, 2020
