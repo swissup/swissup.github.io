@@ -6,6 +6,23 @@ keywords: Helpdesk changelog
 category: Helpdesk
 ---
 
+### Version 1.2.0
+
+> Sep 14, 2020
+
+**Fixes**
+ - Fix message plain_text not update after ajaxSave
+ - Fix double intallation bug
+ - Fix message plain_text not update after ajaxSave
+ - Fix 'enable' single-checkbox set value wrong behaviour
+ - Fix save message button not work
+
+**Features**
+ - Change ticket edit interface layout (2column-right)
+ - Add store encrypted data in db (#17)
+ - Add ticket archivate/restore action and interfaces (#16)
+ - Add etc/db_schema.xml
+
 ### Version 1.1.10
 
 > Aug 5, 2020
