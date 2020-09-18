@@ -1,0 +1,50 @@
+- href: /images/m2/argento/home/index/desktop-home.png
+  src: /images/m2/argento/home/index/small/desktop-home.png
+  title: Argento Home homepage.
+  w: 1385
+  h: 4585
+- href: /images/m2/argento/home/index/desktop-category.png
+  src: /images/m2/argento/home/index/small/desktop-category.png
+  title: Argento Home category page.
+  w: 1385
+  h: 3059
+- href: /images/m2/argento/home/index/desktop-category-filtered.png
+  src: /images/m2/argento/home/index/small/desktop-category-filtered.png
+  title: Argento Home category page with applied filter.
+  w: 1385
+  h: 2558
+- href: /images/m2/argento/home/index/desktop-category-notopimage.png
+  src: /images/m2/argento/home/index/small/desktop-category-notopimage.png
+  title: Argento Home category page without category image.
+  w: 1385
+  h: 2787
+- href: /images/m2/argento/home/index/desktop-product.png
+  src: /images/m2/argento/home/index/small/desktop-product.png
+  title: Argento Home product page.
+  w: 1385
+  h: 3719
+- href: /images/m2/argento/home/index/desktop-product-questions.png
+  src: /images/m2/argento/home/index/small/desktop-product-questions.png
+  title: Argento Home product page with opened Questions tab.
+  w: 1385
+  h: 3925
+- href: /images/m2/argento/home/index/mobile-product.png
+  src: /images/m2/argento/home/index/small/mobile-product.png
+  title: Argento Home product page on mobile devices.
+  w: 862
+  h: 1754
+- href: /images/m2/argento/home/index/mobile-category.png
+  src: /images/m2/argento/home/index/small/mobile-category.png
+  title: Argento Home category page on mobile devices.
+  w: 862
+  h: 1754
+- href: /images/m2/argento/home/index/mobile-layered.png
+  src: /images/m2/argento/home/index/small/mobile-layered.png
+  title: Argento Home layered navigation on mobile.
+  w: 862
+  h: 1754
+- href: /images/m2/argento/home/index/mobile-menu.png
+  src: /images/m2/argento/home/index/small/mobile-menu.png
+  title: Argento Home mobile menu.
+  w: 862
+  h: 1754
