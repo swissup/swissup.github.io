@@ -21,13 +21,12 @@ category: Argento
 
 #### [Homepage](homepage/)
 
- -  [Slider](homepage/#slider)
- -  [Hot Stuff](homepage/#hot-stuff)
- -  [‘Ready to Go’ categories](homepage/#ready-to-go-categories)
- -  [Bestsellers](homepage/#bestsellers)
- -  [New Collection](homepage/#new-collection)
- -  [Get There With Us](homepage/#get-there-with-us)
- -  [Brands](homepage/#brands)
+  - [Slider](homepage/#slider)
+  - [The Essentials](homepage/#the-essentials)
+  - [Explore Our Store](homepage/#explore-our-store)
+  - [Our Brands](homepage/#our-brands)
+  - [Block “Try Now”](homepage/#block-try-now)
+  - [Our clients love us](homepage/#our-clients-love-us)
 
 #### [Product page](product-page/)
 
