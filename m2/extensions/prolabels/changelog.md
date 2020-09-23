@@ -8,6 +8,12 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.5.10
+
+> Sep 23, 2020
+
+  - Few tweaks and fixes for server side logic.
+
 ### Version 1.5.9
 
 > Aug 25, 2020
