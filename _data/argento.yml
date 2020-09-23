@@ -103,14 +103,17 @@ m2:
     - title: Force
       url: /m2/argento/force/
 
+    - title: Home
+      url: /m2/argento/home/
+
+    - title: Luxury
+      url: /m2/argento/luxury/
+
     - title: Mall
       url: /m2/argento/mall/
 
     - title: Pure2
       url: /m2/argento/pure2/
-
-    - title: Luxury
-      url: /m2/argento/luxury/
 
     - title: Stripes
       url: /m2/argento/stripes/

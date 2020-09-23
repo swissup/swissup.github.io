@@ -37,7 +37,9 @@ category: Argento
 
 #### [Category page](category-page/)
 
+ -  [Layout](category-page/#layout)
  -  [Product List](category-page/#product-list)
+ -  [Add to cart popup](category-page/#add-to-cart-popup)
  -  [Recently viewed](category-page/#recently-viewed)
 
 #### [Contact Us page](contact-us/)
