@@ -8,6 +8,12 @@ category: Review Reminder
 
 # Changelog
 
+### Version 1.1.8
+
+> Sep 23, 2020
+
+  - Config option to disable reminders for guest customers.
+
 ### Version 1.1.7
 
 > Aug 5, 2020
