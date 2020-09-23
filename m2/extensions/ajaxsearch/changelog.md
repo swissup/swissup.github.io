@@ -6,6 +6,12 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.9.9
+
+> Sep 23, 2020
+
+  - Fixed not clickable search button on desktop Safari.
+
 ### Version 1.9.8
 
 > Jul 31, 2020
