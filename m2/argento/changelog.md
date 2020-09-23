@@ -7,6 +7,87 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.20.0
+
+> Sep 23, 2020
+
+  - New mind-blowing jaw-dropping Argento Home theme included into package. Check [Argento Home docs](/m2/argento/home/) for more details.
+  - Updated and improved design in every theme for FishPig WordPress extension. Significantly improve your blog look with this release.
+  - Small on-image reload button instead of ugly big button for Magento Captcha.
+  - Magento Commerce compatibility (TargetRule module).
+  - Prevent content jumping when modal popup shown.
+  - Minor improvements to critical CSS.
+  - Reorganized themes editor section of Configuration in Magento Admin. No "Swissup Themes Editor" section. New item "Themes Editor" in "Swissup" section where you select theme you need.
+
+**Extensions Updates**
+
+  - [Ajax Pro](/m2/extensions/ajaxpro/) — 1.5.12 (was 1.5.8)
+      + Fix get total-information after order place (empty quote 404).
+      + Fixes for quick view feature.
+      + Minor fixes and improvements.
+
+  - [Ajax Search](/m2/extensions/ajaxsearch/) — 1.9.9 (was 1.9.8)
+      + Fixed not clickable search button on desktop Safari.
+
+  - [AMP](/m2/extensions/amp/) — 1.4.5 (was 1.4.3)
+      + Fixed missing product reviews in Magento 2.3.3 and newer.
+      + Force scssphp version 1.1.1 as 1.2 is broken.
+
+  - [Askit](/m2/extensions/askit/) — 1.8.4 (was 1.8.2)
+      + Fixed notice when adding new question from admin.
+      + Styles improvements.
+
+  - [EasySlide](/m2/extensions/easyslider/) — 1.6.0 (was 1.5.7)
+      + New option for slider - "Thumbnails". You can set their sizes and position.
+      + Updated and rethinked edit slider form in Magneto Admin.
+
+  - [Easytabs](/m2/extensions/easytabs/) — 1.9.2 (was 1.9.0)
+      + Fixed missing reviews at AMP page.
+      + Fixed not expanded tab when use link with tabs alias in anchor. (Direct link to tab).
+
+  - [GDPR](/m2/extensions/gdpr/) — 1.3.9 (was 1.3.7)
+      + Fixed cookie bar flickering when themes' critical css is enabled.
+      + Do not show empty 'cookie settings' block (When it's disabled).
+      + Fixed ability to translate cookie consent text at 'privacy tools' page.
+
+  - [NavigationPro](/m2/extensions/navigationpro/) — 1.14.9 (was 1.14.7)
+      + Magento 2.3.5, 2.4.0: Fixed invalid category image path when it's used in 'Name as Html' field.
+      + Added missing phrase to translation.
+
+  - [Pagespeed](/m2/extensions/pagespeed/) — 1.4.11 (was 1.4.8)
+      + Add preloading for custom resources.
+      + Don't sync styles loading on mobile devices. Improves page rendering on mobile devices.
+      + Fixed broken mobile styles when critical css is enabled.
+
+  - [ProLabels](/m2/extensions/prolabels/) — 1.5.10 (was 1.5.8)
+      + Get rid of Cron job for manual labels and add index instead. New index id is `swissup_prolabels`.
+      + Few tweaks for server side logic.
+
+  - [Review Reminder](/m2/extensions/reviewreminder/) — 1.1.8 (was 1.1.7)
+      + Config option to disable reminders for guest customers.
+
+  - [Sold Together](/m2/extensions/soldtogether/) — 1.6.13 (was 1.6.12)
+      + Slighly changed logic how relations are built during reindexing. Use product SKUs instead of IDs. It can be really helpful for stores where products imported form ERP system.
+
+  - [Testimonials](/m2/extensions/testimonials/) — 1.2.12 (was 1.2.11)
+      + Fixed error filtering template in M2.4.
+
+  - [Theme Editor](/m2/argento/customization/theme-editor/) - 1.9.1 (was 1.8.1)
+      + No "Swissup Themes Editor" section. "Themes Editor" item in "Swissup" section where you can select theme.
+      + New option for category page builder - "Layered Navigation position".
+
+  - [SEO Suite](/m2/extensions/seo-suite/)
+      + **swissup/module-seo-canonical** — 1.0.8 (was 1.0.7)
+          * Fixed incoppert canonical URL for product when its parent  disabled and config option "Use parent product for canonical" enabled.
+      + **swissup/module-seo-images** — 1.3.7 (was 1.3.6)
+          * Improve module stability. Prevent DB exception - integrity constraint violation.
+      + **swissup/module-seo-templates** — 1.5.15 (was 1.5.14)
+          * Slightly speed up template generating.
+          * Remove cron task and CLI command. Use indexes instead and `bin/magento indexer:reinder [index_id]`.
+      + **swissup/module-seo-urls** — 1.5.19 (was 1.5.16)
+          * Fixed array_flip warning during reindex.
+          * Option to use direct URL to subcategory in category filter. Enabled by default.
+
 ### Version 1.19.0
 
 > Aug 5, 2020
