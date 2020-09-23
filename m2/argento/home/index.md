@@ -5,7 +5,7 @@ description: Argento Hom for Magento2
 category: Argento
 ---
 
-# Argento Force
+# Argento Home
 
 {% include gallery.html images=site.data.gallery.m2.argento.home.index class="phone-up-1 tablet-up-3 photoswipe scroll" %}
 

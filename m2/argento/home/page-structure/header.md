@@ -51,4 +51,4 @@ Search functionality is powered by [Ajax Search](/m2/extensions/ajaxsearch/) mod
 
 - [Small css customizations](/m2/argento/customization/custom-css/)
 - [Create Argento based custom theme](/m2/argento/customization/custom-theme/)
-- [Argento Force docs homepage](/m2/argento/home/)
+- [Argento Home docs homepage](/m2/argento/home/)

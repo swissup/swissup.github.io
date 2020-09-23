@@ -20,7 +20,7 @@ to change it to another one. Or use [product page builder](/m2/argento/customiza
 
 ![Add to cart form](/images/m2/argento/home/product/add-form.png)
 
-Main part of product page is "add to cart" form. It is on the top of the page  in Argento Force. "Add to cart" consists of product images gallery (left side) and form itself (right side).
+Main part of product page is "add to cart" form. It is on the top of the page  in Argento Home. "Add to cart" consists of product images gallery (left side) and form itself (right side).
 
 Product images gallery is powered by [Lightbox Pro](/m2/extensions/lightboxpro/) module. This module allows you to change thumbnails position and size, enable zoom and change image popup type.
 
@@ -41,8 +41,6 @@ It is "Frequently bouth together" block of [Sold Together](/m2/extensions/soldto
 ![Tabs](/images/m2/argento/home/product/tabs.png)
 
 Next important part of product page is product tabs. They located under "Add to Cart" form (or "Frequently Bought Together" block when it is visisble). Product tabs powered by [EasyTabs](m2/extensions/easytabs/) module. You can rearrange, disable existing and create new tabs with this module. Dive deep into module features and intefaces by checking its docs.
-
-Magento create some tabs for your store during Argento Force installtion.
 
 #### Details tab
 
