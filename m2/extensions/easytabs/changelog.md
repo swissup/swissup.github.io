@@ -9,6 +9,12 @@ category: Easy Tabs
 # Changelog
 
 
+### Version 1.9.2
+
+> Sep 23, 2020
+
+  - Fixed missing reviews at AMP page.
+
 ### Version 1.9.1
 
 > Aug 25, 2020
