@@ -11,6 +11,12 @@ category: AskIt
 
 # Changelog
 
+### Version 1.8.4
+
+> Sep 23, 2020
+
+  - Styles improvements.
+
 ### Version 1.8.3
 
 > Aug 25, 2020
