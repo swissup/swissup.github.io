@@ -8,6 +8,12 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.14.9
+
+> Sep 23, 2020
+
+  - Fixed wrong active menu when using installer command with 'activate=0'.
+
 ### Version 1.14.8
 
 > Aug 26, 2020
