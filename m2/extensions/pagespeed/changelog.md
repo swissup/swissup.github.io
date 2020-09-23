@@ -8,6 +8,12 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.4.11
+
+> Sep 23, 2020
+
+  - Add preloading for custom resources.
+
 ### Version 1.4.10
 
 > Aug 25, 2020
