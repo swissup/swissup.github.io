@@ -8,6 +8,12 @@ category: SoldTogether
 
 # Changelog
 
+### Vresion 1.6.13
+
+> Sep 23, 2020
+
+  - Slighly changed logic how relations are built during reindexing. Use product SKUs instead of IDs. It can be really helpful for stores where products imported form ERP system.
+
 ### Vresion 1.6.11
 
 > Jun 16, 2020
