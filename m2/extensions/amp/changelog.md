@@ -8,6 +8,13 @@ category: Accelerated Mobile Pages
 
 # Changelog
 
+### Version 1.4.5
+
+> Sep 23, 2020
+
+  - Fixed missing product reviews in Magento 2.3.3 and newer.
+  - Force scssphp version 1.1.1 as 1.2 is broken.
+
 ### Version 1.4.3
 
 > Aug 1, 2020
