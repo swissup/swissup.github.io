@@ -8,6 +8,12 @@ category: Testimonials
 
 # Changelog
 
+### Version 1.2.12
+
+> Sep 23, 2020
+
+  - Fixed error filtering template in Magento 2.4.
+
 ### Version 1.2.11
 
 > Aug 5, 2020
