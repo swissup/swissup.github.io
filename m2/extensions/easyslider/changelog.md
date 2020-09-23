@@ -8,6 +8,13 @@ category: Easy Slider
 
 # Changelog
 
+### Version 1.6.0
+
+> Sep 23, 2020
+
+  - New option for slider - “Thumbnails”. You can set their sizes and position.
+  - Updated and rethinked edit slider form in Magneto Admin.
+
 ### Version 1.5.7
 
 > Aug 5, 2020
