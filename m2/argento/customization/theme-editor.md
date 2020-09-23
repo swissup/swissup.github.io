@@ -91,21 +91,36 @@ It is available for every theme in Argento package.
 
 General layout of category page is two columns with left sidebar. Left sidebar contains category filters and some other blocks (e.g. wishlist).
 
-  - **Layout** - dropdown to change page layout. Values:
-      + theme defined;
-      + one column;
-      + two columns (left sidebar);
-      + two columns (right sidebar);
-      + three columns.
-  - **Content width** - dropdown to change width of main content. Values:
-      + full width;
-      + limited width.
-  - **Max width** - available only when limited width selected. Set max allowed width for main content.
-  - **Product list mode** - dropdown to set look of product list. Values:
-      + Grid Only - Formats the list as a grid of rows and columns. Each product appears in a single cell of the grid.
-      + List Only - Formats the list with each product on a separate row.
-      + Grid (default / List) - By default, products appear in Grid view and can be toggled to List view.
-      + List (default / Grid) - By default, products appear in List View and can be toggled to Grid view.
+**Layout** - dropdown to change page layout. Values:
+  - theme defined;
+  - one column;
+  - two columns (left sidebar);
+  - two columns (right sidebar);
+  - three columns.
+
+**Content width** - dropdown to change width of main content. Values:
+  - full width;
+  - limited width.
+
+**Max width** - available only when limited width selected. Set max allowed width for main content.
+
+**Description position** - dropdown to change category description position. Values:
+  - theme defined;
+  - after products list into main column;
+  - after all columns before footer;
+  - before products list into main column;
+  - before all columns after title.
+
+**Layered Navigation position** - dropdown to change layered navigation position. Values:
+  - theme defined;
+  - before products list into main column;
+  - sidebar.
+
+**Product list mode** - dropdown to set look of product list. Values:
+  - Grid Only - Formats the list as a grid of rows and columns. Each product appears in a single cell of the grid.
+  - List Only - Formats the list with each product on a separate row.
+  - Grid (default / List) - By default, products appear in Grid view and can be toggled to List view.
+  - List (default / Grid) - By default, products appear in List View and can be toggled to Grid view.
 
 #### Grid Mode
 

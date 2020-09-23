@@ -12,7 +12,7 @@ Theme editor provides a quick way to change Argento styles with minimum css
 knowledge.
 
 Theme editor is located at
-`Magento Admin > Stores > Configuration > Swissup Themes Editor > Argento Force`.
+`Magento Admin > Stores > Configuration > Swissup`. Select `Argento Force` among list of available themes there.
 
 {% include gallery.html images=site.data.gallery.m2.argento.force.theme-editor.config class="scroll phone-up-1 tablet-up-3 photoswipe" %}
 
