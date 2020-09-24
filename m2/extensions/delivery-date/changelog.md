@@ -7,6 +7,36 @@ category: Delivery Date
 
 # Changelog
 
+### Version 1.5.3
+
+> Sep 24, 2020
+
+ -  Fixed possible invalid delivery date on success page (timezone issue).
+ -  Added ability to get delivery information via orders API. Example:
+
+    Request:
+
+    ```
+    curl -X GET "https://example.com/rest/all/V1/orders/ORDER_ID" \
+         -H "accept: application/json" \
+         -H "Authorization: Bearer ACCESS_TOKEN"
+    ```
+
+    Response:
+
+    ```json
+    {
+        ...
+        "extension_attributes": {
+            ...
+            "swissup_delivery_date": {
+                "date": "2020-09-29 00:00:00",
+                "timerange": "01:00 — 02:00"
+            }
+        }
+    }
+    ```
+
 ### Version 1.5.1
 
 > Aug 5, 2020
