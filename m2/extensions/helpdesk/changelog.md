@@ -6,6 +6,17 @@ keywords: Helpdesk changelog
 category: Helpdesk
 ---
 
+### Version 1.2.1
+
+> Sep 25, 2020
+
+**Fixes**
+ - Remove Mail/Message code dublicate; replace at Reflection (close #18)
+
+**Features**
+ - Smaller icon and match other icons color df97dd
+ - Do not show notification count when empty be2df1
+
 ### Version 1.2.0
 
 > Sep 14, 2020
