@@ -16,13 +16,13 @@ Easy Slider extension provides user friendly interfaces to manage sliders.
 
 In order to edit slider or create new one, go Magento Admin > Swissup > General > EasySlide.
 
-![Grid](/images/m2/easyslide/SliderAdminGrid.png)
+![Grid](/images/m2/easyslide/grid.png)
 
 After clicking on any slider from the submitted list, you will be able to edit the settings of Slider information.
 
 #### General configuration
 
-![General](/images/m2/easyslide/SliderAdminGeneral.png)
+![General](/images/m2/easyslide/tab-general.png)
 
  -  **Title** - slider name
  -  **Identifier** - unique slider name
@@ -30,21 +30,31 @@ After clicking on any slider from the submitted list, you will be able to edit t
 
 #### Slider Parameters
 
-![Content](/images/m2/easyslide/SliderAdminParams.png)
+![Content](/images/m2/easyslide/tab-parameters.png)
+
+"Design" section:
 
  -  **Theme** - Could be 'Default', 'White' or 'Black'.
+ -  **Scrollbar** - enabled slider scrollbar.
+ -  **Space Between Slides** - name is pretty self-explained. Value is in pixels.
+
+"Behavior" section: 
+
  -  **Effect** - slider effects list.
- -  **Speed** - Duration of transition between slides (in ms).
+ -  **Effect transition speed** - Duration of transition between slides (in ms).
  -  **Autoplay** - Delay between transitions (in ms). If this parameter is not specified, auto play will be disabled.
+ -  **Start with random slide** - Ability to start slider from random slide. (First slide is used by default).
+ -  **Infinite slider** - slides keep rotating infinitely. When option is disabled then slider will stop on last slide.
+
+"Navigation" section:
+
  -  **Pagination** - show slider pagination.
  -  **Navigation Buttons** - select Yes to display arrows of next and previous navigation.
- -  **Scrollbar** - enabled slider scrollbar.
- -  **Start with random slide** - Ability to start slider from random slide. (First slide is used by default).
- -  **Space Between Slides** - name is pretty self-explained. Value is in pixels.
+ -  **Thumbnails** - enables thumbnails for slider. You can set thumbnails position and thumbnails image size.
 
 #### Slides
 
-![Content](/images/m2/easyslide/SliderAdminSlides.png)
+![Content](/images/m2/easyslide/tab-slides.png)
 
 When you click on slide you can add its title. Add some descrition.
 

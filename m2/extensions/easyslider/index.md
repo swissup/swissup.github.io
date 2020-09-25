@@ -10,10 +10,10 @@ category: Easy Slider
 
 # Easy Slider
 
-If you're running the web-store and want to see it successful, you have to make store pages eye-catching. In order to grab visitors' attention to web-pages, we recommend to use slider with advertising. Therefore we offer you to check Magento Image Slider extension.
-The extension will help to easily create an unlimited number of professional looking image sliders and improve overall look of your store just in 1 minute. Using the module, you will be able to display image slides with title and short description linked to any menu item.
+If you're running the web-store and want to see it successful, you have to make store pages eye-catching. In order to grab visitors' attention to web-pages, we recommend to use slider with advertising. Therefore we offer you to check our Easy Slider extension.
+The extension will help to easily create an unlimited number of professional looking image sliders and improve overall look of your store just in 1 minute. Using the module, you will be able to display image slides with title and short description.
 
-Also you can place your slider at any place of your store by such ways as magento widget, as XML code and as block code.
+Also you can place your slider at any place of your store as magento widget.
 
 - [Installation](installation/)
 - [Changelog](changelog/)
