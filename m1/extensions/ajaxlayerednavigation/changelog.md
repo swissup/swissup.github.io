@@ -7,6 +7,15 @@ keywords: magento layered navigation updates
 
 # Changelog
 
+
+### Version 2.6.7
+
+> Sep 25, 2020
+
+ **Fixes**
+  - Fix: Inactive categories are being shown (#11)
+  - Fix some xss vulnerabilities (#12)
+
 ### Version 2.6.6
 
 > Jun 24, 2019
