@@ -8,6 +8,13 @@ category: Cachewarmer
 
 # Changelog
 
+### Version 1.0.8
+
+> 1 Oct, 2020
+
+**Features**
+ - Add cron councurency and delay option (close #6)
+
 ### Version 1.0.7
 
 > 6 Aug, 2020
