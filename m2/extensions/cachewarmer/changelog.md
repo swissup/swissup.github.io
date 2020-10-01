@@ -8,6 +8,13 @@ category: Cachewarmer
 
 # Changelog
 
+### Version 1.0.7
+
+> 6 Aug, 2020
+
+**Fixes**
+ - Allow to install on Magento 2.4
+
 ### Version 1.0.6
 
 > Jul 16, 2020
