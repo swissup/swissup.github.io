@@ -7,6 +7,15 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.3.27
+
+> Oct 1, 2020
+
+**Bugfixes**
+ - Fix for 'You cannot define a correlation name 'stock_status_index' more than once'
+ - Bugfix for #62, empty sort order field name (tested on 2.3.5)
+ - Fix broken close button on mobile shop by
+
 ### Version 1.3.26
 
 > Sep 4, 2020
