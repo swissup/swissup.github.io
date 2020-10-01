@@ -6,6 +6,14 @@ keywords: KnowledgeBase changelog
 category: KnowledgeBase
 ---
 
+
+### Version 1.0.6
+
+> Oct 1, 2020
+
+**Bugfixes**
+ - Rename select2.min to select2 (Fix compilation warnings)
+
 ### Version 1.0.5
 
 > Sep 8, 2020
