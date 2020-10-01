@@ -8,6 +8,12 @@ category: reCAPTCHA
 
 # Changelog
 
+### Version 1.3.11
+
+> Oct 1, 2020
+
+ -  Recaptcha validation on client side. Validate if checkmark is checked right before placing order.
+
 ### Version 1.3.10
 
 > Aug 5, 2020
