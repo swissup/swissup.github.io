@@ -6,6 +6,16 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.5.13
+
+> Oct 2, 2020
+
+**Bugfixes**
+ - Fix wishlist/updateItemOptions(.updated) and ajaxcian not comptability
+ - Add product listing getAddToCartUrl around plugin
+ - Add quick-view button loader (close #27)
+ - Fix add to wishlist with custom options(merge data-ajax-post and data-post params)
+
 ### Version 1.5.12
 
 > Sep 4, 2020
