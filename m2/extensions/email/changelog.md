@@ -8,6 +8,13 @@ category: Email
 
 # Changelog
 
+### Version 0.3.12
+
+> Oct 2, 2020
+
+**Fixes**
+ - Fix encodings+umlaut (fix for double headers fix)
+
 ### Version 0.3.11
 
 > Sep 14, 2020
