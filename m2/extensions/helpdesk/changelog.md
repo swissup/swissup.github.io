@@ -6,6 +6,14 @@ keywords: Helpdesk changelog
 category: Helpdesk
 ---
 
+### Version 1.2.2
+
+> Oct 9, 2020
+
+**Fixes**
+ - Fix archive.csv file doesn't exist (close #19)
+ - Fix null given to string convertation error
+
 ### Version 1.2.1
 
 > Sep 25, 2020
