@@ -8,6 +8,12 @@ category: SocialLogin
 
 # Changelog
 
+### Version 1.1.3
+
+> Oct 12, 2020
+
+ -  Style fixes
+
 ### Version 1.1.0
 
  -  Using stable Hybridauth version
