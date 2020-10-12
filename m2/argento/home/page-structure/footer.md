@@ -50,7 +50,7 @@ Original CMS block content:
 
 ```html
 <div class="footer-links">
-    <div class="footer-logo"><img src="{{view url='images/footer-logo.svg'}}" alt="Footer Logo"/></div>
+    <div class="footer-logo"><img src="{% raw %}{{view url='images/footer-logo.svg'}}{% endraw %}" alt="Footer Logo"/></div>
     <div class="argento-grid">
         <div class="col-md-4 item">
             <div class="title">Contact us</div>
@@ -83,27 +83,27 @@ Original CMS block content:
         <div class="col-md-4 item">
             <div class="title">Support</div>
             <ul class="links">
-                <li><a href='{{store direct_url="contact#map"}}'>Store location</a></li>
-                <li><a href='{{store direct_url="privacy-policy-cookie-restriction-mode"}}'>Privacy policy</a></li>
-                <li><a href='{{store direct_url="company"}}'>Our company</a></li>
-                <li><a href='{{store direct_url="about-us"}}'>About Us</a></li>
+                <li><a href='{% raw %}{{store direct_url="contact#map"}}{% endraw %}'>Store location</a></li>
+                <li><a href='{% raw %}{{store direct_url="privacy-policy-cookie-restriction-mode"}}{% endraw %}'>Privacy policy</a></li>
+                <li><a href='{% raw %}{{store direct_url="company"}}{% endraw %}'>Our company</a></li>
+                <li><a href='{% raw %}{{store direct_url="about-us"}}{% endraw %}'>About Us</a></li>
             </ul>
         </div>
         <div class="col-md-4 item">
             <div class="title">About us</div>
             <ul class="links">
-                <li><a href='{{store direct_url="blog"}}'>Blog</a></li>
-                <li><a href='{{store direct_url="wishlist"}}'>Wishlist</a></li>
-                <li><a href='{{store direct_url="terms"}}'>Terms of Use</a></li>
-                <li><a href='{{store direct_url="carriers"}}'>Carriers</a></li>
+                <li><a href='{% raw %}{{store direct_url="blog"}}{% endraw %}'>Blog</a></li>
+                <li><a href='{% raw %}{{store direct_url="wishlist"}}{% endraw %}'>Wishlist</a></li>
+                <li><a href='{% raw %}{{store direct_url="terms"}}{% endraw %}'>Terms of Use</a></li>
+                <li><a href='{% raw %}{{store direct_url="carriers"}}{% endraw %}'>Carriers</a></li>
             </ul>
         </div>
     </div>
     <div class="payments">
-        <img src="{{view url='images/payments/visa.svg'}}" alt="Visa"/>
-        <img src="{{view url='images/payments/mastercard.svg'}}" alt="MasterCard"/>
-        <img src="{{view url='images/payments/paypal.svg'}}" alt="PayPal"/>
-        <img src="{{view url='images/payments/sagepay.svg'}}" alt="SagePay"/>
+        <img src="{% raw %}{{view url='images/payments/visa.svg'}}{% endraw %}" alt="Visa"/>
+        <img src="{% raw %}{{view url='images/payments/mastercard.svg'}}{% endraw %}" alt="MasterCard"/>
+        <img src="{% raw %}{{view url='images/payments/paypal.svg'}}{% endraw %}" alt="PayPal"/>
+        <img src="{% raw %}{{view url='images/payments/sagepay.svg'}}{% endraw %}" alt="SagePay"/>
     </div>
 </div>
 
@@ -118,7 +118,7 @@ Original CMS block content:
 ```html
 <div class="footer-newsletter">
     {% raw %}{{block class="Magento\Newsletter\Block\Subscribe" name="footer.newsletter" template="Magento_Newsletter::subscribe.phtml"}}{% endraw %}
-    <div class="privacy">Your information is safe and secure with us. Read our <a href='{{store direct_url="privacy-policy-cookie-restriction-mode"}}'>privacy policy.</a></div>
+    <div class="privacy">Your information is safe and secure with us. Read our <a href='{% raw %}{{store direct_url="privacy-policy-cookie-restriction-mode"}}{% endraw %}'>privacy policy.</a></div>
 </div>
 ```
 

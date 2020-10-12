@@ -15,7 +15,7 @@ category: Argento
 
 ![Contacts Page](/images/m2/argento/home/contact-us-page.png)
 
-Contact Us page has CMS Block with general information on left side and conatct form on right side. Map with store location placed underneath. It CMS block also.
+Contact Us page has CMS Block with general information on left side and conatct form on right side. Map with store location placed underneath. It is CMS block also.
 
 ### General Contact Information
 
@@ -52,7 +52,7 @@ Contact form is default Magento 2 functionality.
 It is CMS block with identifier `contact_footer_map`. Here is block content:
 
 ```html
-<div id="map" class="contact-map-placeholder" style='background-image: url({{media url="wysiwyg/contact-map.png"}})'>
+<div id="map" class="contact-map-placeholder" style='background-image: url({% raw %}{{media url="wysiwyg/contact-map.png"}}{% endraw %})'>
 </div>
 ```
 

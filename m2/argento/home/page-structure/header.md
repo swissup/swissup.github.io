@@ -19,13 +19,13 @@ category: Argento
 
 Top panel is at the most top of the page. It is visible on all pages.
 
-Panel contains sales email, language switcher and currency switcher. Sales email is part of CMS block `header_cms_links`. Feel free to edit when you want to disaplay other info.
+Panel contains sales email, language switcher and currency switcher. Sales email is part of CMS block `header_cms_links`. Feel free to edit when you want to display other info.
 
-#### Sampel block content
+#### Sample block content
 
 ```html
 <ul class="header links header-cms-links">
-    <li class="first"><a href="mailto:{{config path='trans_email/ident_sales/email'}}" title="Email Us">{{config path='trans_email/ident_sales/email'}}</a></li>
+    <li class="first"><a href="mailto:{% raw %}{{config path='trans_email/ident_sales/email'}}{% endraw %}" title="Email Us">{% raw %}{{config path='trans_email/ident_sales/email'}}{% endraw %}</a></li>
 </ul>
 ```
 
@@ -35,12 +35,12 @@ Logo at Argento Home is on the left side of the header. You can change logo usin
 
 ### Menu
 
-Menu is right after logo at Argento Home. Menu is powered by [Navigation Pro](/m2/extensions/navigationpro/) module. This module has a lot of great features. Read it docs to find out more details.
+Menu is right after logo at Argento Home. Menu is powered by [Navigation Pro](/m2/extensions/navigationpro/) module. This module has a lot of great features. Read its docs to find out more details.
 
 Menu identifier is `argento_home_topmenu`.
 
 
-### Seacrh and Minicart
+### Search and Minicart
 
 Search and minicart icon you can see on the right side of the header. Search field is hidden by default and show up when user clicks on its icon. Same thing for minicart. Click on bag and it shows up.
 

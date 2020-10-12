@@ -47,7 +47,7 @@ We recommend to use grid mode for product list. Since it is the most popular pro
 
 Product list is powered by [Hover Gallery](/m2/extensions/hover-gallery/configuration/) module. It shows different image when user is hovering over product image. Check module docs for more details.
 
-One more feature at product listing is product labels - "NEW", "10 %SALE" etc. It is provided by [ProLabels](/m2/extensions/prolabels/) module.
+One more feature at product listing is product labels - "NEW", "10% SALE" etc. It is provided by [ProLabels](/m2/extensions/prolabels/) module.
 
 ### Add to cart popup
 

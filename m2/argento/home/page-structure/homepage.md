@@ -89,9 +89,6 @@ Piece of CMS Page content that adds tabs:
 </div>
 ```
 
-If you want to change text "Ready to Go" then modify text in `<div class="bg-text">...</div>`. Try to keep this phrase short so it fits into block.
-
-
 ### Our Brands
 
 ![Our Brands](/images/m2/argento/home/home/our-brands.png)
@@ -139,7 +136,7 @@ Piece of CMS Page content for "Try Now" block:
 ```html
 <div class="jumbotron no-padding a-center block-try-now">
     <div class="element background-divider a-center">
-        <img src="{{media url='wysiwyg/interior/home-interior.jpg'}}" alt="Interior Design" />
+        <img src="{% raw %}{{media url='wysiwyg/interior/home-interior.jpg'}}{% endraw %}" alt="Interior Design" />
         <div class="content">
             <div class="block-title">
                 <p class="subtitle">Innovative experience</p>
