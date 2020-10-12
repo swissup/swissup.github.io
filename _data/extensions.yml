@@ -413,6 +413,13 @@ orderattachments:
     m1: /m1/extensions/order-attachments/
     m2: /m2/extensions/order-attachments/
 
+pagebuilder:
+  title: Pagebuilder
+  short_description:
+  urls:
+    m1:
+    m2: /m2/extensions/pagebuilder/
+
 pagespeed:
   title: Page Speed
   short_description:
