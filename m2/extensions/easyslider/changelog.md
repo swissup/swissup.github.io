@@ -8,6 +8,13 @@ category: Easy Slider
 
 # Changelog
 
+### Version 1.6.1
+
+> Oct 13, 2020
+
+ -  [Pagebuilder](/m2/extensions/pagebuilder/) integration added
+ -  Swiper library moved to separate module to allow to use it in another modules.
+
 ### Version 1.6.0
 
 > Sep 23, 2020
