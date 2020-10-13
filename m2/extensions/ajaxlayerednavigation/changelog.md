@@ -7,6 +7,14 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.3.28
+
+> Oct 13, 2020
+
+**Bugfixes**
+ - Fix seo-urls and /all-products integration
+ - Add acl.xml
+
 ### Version 1.3.27
 
 > Oct 1, 2020
