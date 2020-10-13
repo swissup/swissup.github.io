@@ -8,6 +8,12 @@ category: GDPR
 
 # Changelog
 
+### Version 1.3.10
+
+> Oct 13, 2020
+
+ -  [Pagebuilder](/m2/extensions/pagebuilder/) integration added
+
 ### Version 1.3.9
 
 > Aug 25, 2020

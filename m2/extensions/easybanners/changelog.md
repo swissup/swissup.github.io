@@ -8,6 +8,12 @@ category: Easy Banners
 
 # Changelog
 
+### Version 1.5.10
+
+> Oct 13, 2020
+
+ -  [Pagebuilder](/m2/extensions/pagebuilder/) integration added
+
 ### Version 1.5.8
 
 > Aug 5, 2020

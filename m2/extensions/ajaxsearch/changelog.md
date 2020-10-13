@@ -6,6 +6,12 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.9.10
+
+> Oct 13, 2020
+
+ -  [Pagebuilder](/m2/extensions/pagebuilder/) integration added
+
 ### Version 1.9.9
 
 > Sep 23, 2020

@@ -8,6 +8,11 @@ category: Easy Tabs
 
 # Changelog
 
+### Version 1.9.3
+
+> Oct 13, 2020
+
+ -  Do not show disabled tabs in the Easytabs widget form
 
 ### Version 1.9.2
 
