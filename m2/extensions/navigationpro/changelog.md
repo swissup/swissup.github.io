@@ -8,6 +8,13 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.14.11
+
+> Oct 15, 2020
+
+ -  Do not allow to save menu or menu item when it has a recursive reference
+    to itself via widget call.
+
 ### Version 1.14.9
 
 > Sep 23, 2020
