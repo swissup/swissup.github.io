@@ -11,11 +11,20 @@ category: AskIt
 
 # Changelog
 
+### Version 1.9.0
+
+> Oct 15, 2020
+
+  - Add/Update graphQl queries and mutations
+  - Do not show askit questions on 404 page. Closes #47
+
 ### Version 1.8.4
 
 > Sep 23, 2020
 
   - Styles improvements.
+  - AMP: Product questions are missing
+  - Improve validator(s) for magento 2.3.5 integration
 
 ### Version 1.8.3
 
