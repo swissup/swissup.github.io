@@ -6,6 +6,16 @@ keywords: Helpdesk changelog
 category: Helpdesk
 ---
 
+### Version 1.2.3
+
+> Oct 15, 2020
+
+**Fixes**
+ - Fix wysiwyg add_images: false bug
+ - Add toggle_button:false (disable wysiwyg editor)
+ - Disable pagebuilder integration (#20)
+ - Fix saving empty message text but with adding files
+
 ### Version 1.2.2
 
 > Oct 9, 2020
