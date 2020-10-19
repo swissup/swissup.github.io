@@ -7,6 +7,34 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.20.1
+
+> Oct 19, 2020
+
+  - Compatibility with Magento 2.3.6 and Magento 2.4.1.
+  - Fixed system.log WARNING about broken reference at different themes. Occurs when catgory page or product page layout is changed to 1column via theme editor. But some blocks added to sidebar in original XML layout.
+  - Overall styles for small pages like customer login, advanced search, forgotpassword etc.
+  - We started to replace Slick Carousel with Swiper. It will help to reduce number of third-party JS libraries and replace some pure HTML with Magento 2 widgets. Currently we updtaed brands sliders at Argento Stripes and Argento Force. Now theye are widgest of EasySlide module. So you can modifies those sliders via EasySlide admin interface.
+  
+**Extensions Updates**
+
+  - [Ajax Pro](/m2/extensions/ajaxpro/) — 1.5.13 (was 1.5.12)
+    * Improvements for quick view feature.
+    
+  - [Ajax Search](/m2/extensions/ajaxsearch/) — 1.9.10 (was 1.9.9)
+    * Integration with our new Pagebuilder module.
+    
+  - [Askit](/m2/extensions/askit/) — 1.9.0 (was 1.8.4)
+    * Server side code tweaks and improvements.
+    
+  - [EasySlide](/m2/extensions/easyslider/) — 1.6.4 (was 1.6.0)
+    * Integration with our new Pagebuilder module.
+    * New option to show multiple sliders per view (with breakpoints where you can setr different slides number for different screen sizes). This option used to create brand sliders for Argento Force and Argento Stripes.
+    * Fixed not working search by keyword at sliders grid in Magento Admin.
+    
+  - [Easybanners](/m2/extensions/easybanners/) — 1.5.11 (was 1.5.8)
+    * Few minor fixes and integration with our Pagebuilder.
+
 ### Version 1.20.0
 
 > Sep 23, 2020
