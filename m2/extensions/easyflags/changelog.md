@@ -8,6 +8,12 @@ category: Easy Flags
 
 # Changelog
 
+### Version 1.3.4
+
+> Oct 19, 2020
+
+ -  Added missing "alt" attribute to the image tag.
+
 ### Version 1.3.3
 
 > Aug 5, 2020

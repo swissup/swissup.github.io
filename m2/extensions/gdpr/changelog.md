@@ -8,6 +8,12 @@ category: GDPR
 
 # Changelog
 
+### Version 1.3.11
+
+> Oct 19, 2020
+
+ -  Fixed php error when using "Login as Customer" feature.
+
 ### Version 1.3.10
 
 > Oct 13, 2020

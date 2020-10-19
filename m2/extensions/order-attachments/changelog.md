@@ -7,6 +7,12 @@ category: Order Attachments
 
 # Changelog
 
+### Version 1.3.11
+
+> Oct 19, 2020
+
+ -  Fixed missing "Attachments" tab at admin order view page.
+
 ### Version 1.4.3
 
 > Aug 5, 2020

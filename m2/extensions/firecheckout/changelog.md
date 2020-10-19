@@ -8,6 +8,37 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.24.2
+
+> Oct 19, 2020
+
+ -  Magento 2.4.1 compatibility: Fixed error at checkout page caused by gift-message
+    integration.
+ -  Fixed tax reload when shipping method is not selected yet.
+ -  Fixed old taxes after zipcode change right after page refresh.
+ -  Fixed loader styles with third-party themes.
+ -  Stability improvements in bundled modules.
+
+**Module Updates**
+
+**swissup/module-checkout-fields — 1.4.5** (was 1.4.3)
+
+ -  Fixed broken admin email preview page.
+
+**swissup/module-checkout-registration — 1.1.0** (was 1.0.1)
+
+ -  Assign address to the registered customer.
+ -  Use 'password options' config when validating password.
+
+**swissup/module-delivery-date — 1.5.4** (was 1.5.1)
+
+ -  Fixed invalid delivery date on success page (timezone issue).
+ -  Added delivery date information to the order response when using magento API.
+
+**swissup/module-orderattachment — 1.4.4** (was 1.4.3)
+
+ -  Fixed missing attachment tab at admin order view page.
+
 ### Version 1.24.1
 
 > Aug 5, 2020

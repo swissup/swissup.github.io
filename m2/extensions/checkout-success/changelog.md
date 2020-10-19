@@ -8,6 +8,12 @@ category: Checkout Success
 
 # Changelog
 
+### Version 1.4.6
+
+> Oct 19, 2020
+
+ -  Stability improvements.
+
 ### Version 1.4.5
 
 > Aug 5, 2020
