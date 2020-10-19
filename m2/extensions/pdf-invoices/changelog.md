@@ -8,6 +8,12 @@ category: PDF Invoices
 
 # Changelog
 
+### Version 1.2.2
+
+> Oct 19, 2020
+
+-  Magento 2.4.1 compatibility
+
 ### Version 1.2.1
 
 > Aug 1, 2020

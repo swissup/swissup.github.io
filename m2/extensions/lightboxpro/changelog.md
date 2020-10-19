@@ -8,6 +8,13 @@ category: Lightbox Pro
 
 # Changelog
 
+### Version 1.2.13
+
+> Oct 19, 2020
+
+ -  Magento 2.4.1 compatbility
+ -  Fixed wrong image size and position with navigation direction vertical on mobile
+
 ### Version 1.2.11
 
 > Aug 1, 2020
