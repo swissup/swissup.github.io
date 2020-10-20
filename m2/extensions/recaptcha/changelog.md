@@ -8,6 +8,12 @@ category: reCAPTCHA
 
 # Changelog
 
+### Version 1.3.12
+
+> Oct 20, 2020
+
+  - Fixed recaptcha validation on checkout when payment does mulptiple server requests to place an order.
+
 ### Version 1.3.11
 
 > Oct 1, 2020
