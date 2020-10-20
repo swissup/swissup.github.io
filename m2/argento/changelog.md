@@ -11,10 +11,12 @@ category: Argento
 
 > Oct 19, 2020
 
+> [Upgrade Instructions](/m2/argento/upgrade-instructions/#version-1200---1201)
+
   - Compatibility with Magento 2.3.6 and Magento 2.4.1.
   - Fixed system.log WARNING about broken reference at different themes. Occurs when catgory page or product page layout is changed to 1column via theme editor. But some blocks added to sidebar in original XML layout.
   - Overall styles for small pages like customer login, advanced search, forgotpassword etc.
-  - We started to replace Slick Carousel with Swiper. It will help to reduce number of third-party JS libraries and replace some pure HTML with Magento 2 widgets. Currently we updaеed brands sliders at Argento Stripes and Argento Force. Now there are widgest of EasySlide module. So you can modifies those sliders via EasySlide admin interface.
+  - We started to replace Slick Carousel with Swiper. It will help to reduce number of third-party JS libraries and replace some pure HTML with Magento 2 widgets. Currently we updated brands sliders at Argento Stripes and Argento Force. Now there are widgest of EasySlide module. So you can modifies those sliders via EasySlide admin interface.
   - All themes (and some modules) integrated with our new [Pagebuilder](/m2/extensions/pagebuilder/) module.
   
 **Extensions Updates**

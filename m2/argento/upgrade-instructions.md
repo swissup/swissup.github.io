@@ -7,6 +7,20 @@ category: Argento
 
 # Upgrade Instructions
 
+### Version 1.20.0 - 1.20.1
+
+We updated brands sliders at **Argento Stripes** and **Argento Force**. We built them using Easyslide widget. That is why we removed styles for slick carousel. Your current brand slider may look unstylized after this update
+
+##### Brand Slider at Force and Stripes
+
+So you have to create brand slider via EasySlide admin interface. Use option *"Number slides per view"* to show multiple slides at the same time. With *"Breakpoints"* you can change "Number slides per view" for different screen widthes.
+
+After that you can insert it to your homepage new brand slider.
+
+##### Header slider at Force
+
+Update CMS Block `header_slider` content from [Page Structure / Header / Header Slider](/m2/argento/force/page-structure/header/#header-slider).
+
 ### Version 1.14.2 - 1.15.0
 
  1. Backup all changes you've made
