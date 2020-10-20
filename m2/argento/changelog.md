@@ -14,7 +14,8 @@ category: Argento
   - Compatibility with Magento 2.3.6 and Magento 2.4.1.
   - Fixed system.log WARNING about broken reference at different themes. Occurs when catgory page or product page layout is changed to 1column via theme editor. But some blocks added to sidebar in original XML layout.
   - Overall styles for small pages like customer login, advanced search, forgotpassword etc.
-  - We started to replace Slick Carousel with Swiper. It will help to reduce number of third-party JS libraries and replace some pure HTML with Magento 2 widgets. Currently we updtaed brands sliders at Argento Stripes and Argento Force. Now theye are widgest of EasySlide module. So you can modifies those sliders via EasySlide admin interface.
+  - We started to replace Slick Carousel with Swiper. It will help to reduce number of third-party JS libraries and replace some pure HTML with Magento 2 widgets. Currently we updaеed brands sliders at Argento Stripes and Argento Force. Now there are widgest of EasySlide module. So you can modifies those sliders via EasySlide admin interface.
+  - All themes (and some modules) integrated with our new [Pagebuilder](/m2/extensions/pagebuilder/) module.
   
 **Extensions Updates**
 
@@ -34,6 +35,37 @@ category: Argento
     
   - [Easybanners](/m2/extensions/easybanners/) — 1.5.11 (was 1.5.8)
     * Few minor fixes and integration with our Pagebuilder.
+    
+  - [GDPR](/m2/extensions/gdpr/) — 1.3.11 (was 1.3.9)
+    * Fixed error when using Login as Customer feature.
+    
+  - [Highlight](/m2/extensions/highlight/) — 1.6.4 (was 1.6.3)
+    * Improvements for highlight carousel widget. Use Swiper lib instead of Slick. Swiper works smoother.
+    
+  - [Hover Gallery](/m2/extensions/hover-gallery/) — 1.3.8 (was 1.3.7)
+    * Fixed visual artifacts during transition animation in Chrome browser. Most often problem occured at Argento Essence theme.
+    
+  - [Lightbox Pro](/m2/extensions/lightboxpro/) — 1.2.13 (was 1.2.11)
+    * Fixed wrong image size and position with navdir=vertical on mobile.
+    * Fixed js error on Magento 2.4.1.
+    
+  - [NavigationPro](/m2/extensions/navigationpro/) — 1.14.11 (was 1.14.9)
+    * Fixed possible invalid image path on nginx servers.
+    * Do not allow to save menu/items if they have recursive call to the same menu.
+    
+  - [ProLabels](/m2/extensions/prolabels/) — 1.5.11 (was 1.5.10)
+    * Fixed discount percent and discount amount variables in prolabel for Bundle product.
+    
+  - [Sold Together](/m2/extensions/soldtogether/) — 1.6.14 (was 1.6.13)
+    * Replace Slick carousel with Swiper for "Customers Also Bought..." widget.
+    
+  - [SEO Suite](/m2/extensions/seo-suite/)
+      + **swissup/module-hreflang** —  1.4.3 (was 1.4.2)
+          * Fixed incorrect product URL for other stores (urls contained categories in their pathes).
+      + **swissup/module-seo-templates** — 1.5.16 (was 1.5.15)
+          * Fixed missing generated metadata on category page.
+      + **swissup/module-seo-urls** — 1.5.20 (was 1.5.19)
+          * Fixed hreflangs at catgeory pages when filter applied. It still added store code to URL even when hreflang option set not to do so.
 
 ### Version 1.20.0
 
