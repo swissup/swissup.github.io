@@ -10,6 +10,11 @@ category: Easy Slider
 
 ### Version 1.6.1
 
+> Oct 20, 2020
+
+  - New option in edit slider interface - "Responsive breakpoints". It allows to change slides per view on different screen width.
+  - Fixed not working search by keyword.
+
 > Oct 13, 2020
 
  -  [Pagebuilder](/m2/extensions/pagebuilder/) integration added
