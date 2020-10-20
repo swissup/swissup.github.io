@@ -90,45 +90,29 @@ page.
 
 ![Brands Slider](/images/m2/argento/stripes/homepage-content/brands-slider.png)
 
+It is a slider with brands your store offers. [Easyslide](/m2/extensions/easyslider/) widget wrapped in HTML.
+
+Slider identifier is `argento_stripes_brands`.
+
 Code:
 
 ```html
-{% raw %}<div class="block row widget block-promo block-carousel">
+<div class="block row widget block-promo block-carousel">
     <div class="block-content">
-        <div class="slick-slider" data-mage-init='{"slick": {"slidesToShow": 6, "slidesToScroll": 1, "dots": false, "autoplay": true, "variableWidth": true, "swipeToSlide": true}}'>
-            <div><a href="#"><img src="{{view url='images/brands/sony.jpg'}}" alt="" width="128" height="73"/></a></div>
-            <div><a href="#"><img src="{{view url='images/brands/apple.png'}}" alt="" width="64" height="74"/></a></div>
-            <div><a href="#"><img src="{{view url='images/brands/garmin.jpg'}}" alt="" width="154" height="74"/></a></div>
-            <div><a href="#"><img src="{{view url='images/brands/htc.jpg'}}" alt="" width="124" height="74"/></a></div>
-            <div><a href="#"><img src="{{view url='images/brands/intel.jpg'}}" alt="" width="103" height="74"/></a></div>
-            <div><a href="#"><img src="{{view url='images/brands/motorola.jpg'}}" alt="" width="204" height="76"/></a></div>
-            <div><a href="#"><img src="{{view url='images/brands/nike.png'}}" alt="" width="118" height="74"/></a></div>
-            <div><a href="#"><img src="{{view url='images/brands/samsung.png'}}" alt="" width="128" height="74"/></a></div>
-            <div><a href="#"><img src="{{view url='images/brands/sony.jpg'}}" alt="" width="128" height="73"/></a></div>
-            <div><a href="#"><img src="{{view url='images/brands/apple.png'}}" alt="" width="64" height="74"/></a></div>
-            <div><a href="#"><img src="{{view url='images/brands/garmin.jpg'}}" alt="" width="154" height="74"/></a></div>
-            <div><a href="#"><img src="{{view url='images/brands/htc.jpg'}}" alt="" width="124" height="74"/></a></div>
-            <div><a href="#"><img src="{{view url='images/brands/intel.jpg'}}" alt="" width="103" height="74"/></a></div>
-            <div><a href="#"><img src="{{view url='images/brands/motorola.jpg'}}" alt="" width="204" height="76"/></a></div>
-            <div><a href="#"><img src="{{view url='images/brands/nike.png'}}" alt="" width="118" height="74"/></a></div>
-            <div><a href="#"><img src="{{view url='images/brands/samsung.png'}}" alt="" width="128" height="74"/></a></div>
-        </div>
+        {% raw %}{{widget type="Swissup\EasySlide\Block\Slider" identifier="argento_stripes_brands"}}{% endraw %}
     </div>
-</div>{% endraw %}
+</div>
 ```
-
-Brands Slider - is a static slider powered by
-[SlickCarousel module](/m2/extensions/slick-carousel/).
 
 #### Whole homepage code
 
 In case if you’ve lost original homepage content, you can get it below:
 
 ```html
-{% raw %}<div class="jumbotron jumbotron-image no-padding">
-    {{widget type="Swissup\EasySlide\Block\Slider" identifier="argento_stripes"}}
+<div class="jumbotron jumbotron-image no-padding">
+    {% raw %}{{widget type="Swissup\EasySlide\Block\Slider" identifier="argento_stripes"}}{% endraw %}
 </div>
-
+{% raw %}
 {{widget type="Swissup\Easybanner\Block\Placeholder" placeholder="argento_stripes_home_top"}}
 
 {{widget type="Swissup\Highlight\Block\ProductList\All" title="Top Selling<br><span>Headphones</span>" carousel="1" products_count="8" column_count="4" page_count="1" order="default" dir="asc" template="Magento_Catalog::product/list.phtml" mode="grid" hide_when_filter_is_used="0" css_class="hl-magazine hl-blue hl-contain" title_image_url="highlight/argento/stripes/headphones.png" show_page_link="1" page_url="highlight/bestsellers.html" page_link_position="top" page_link_title="View All"}}
@@ -142,29 +126,12 @@ In case if you’ve lost original homepage content, you can get it below:
 {{widget type="Swissup\Highlight\Block\ProductList\All" title="Top Selling<br><span>Home<br>Electronics</span>" carousel="1" products_count="8" column_count="4" page_count="1" order="default" dir="asc" template="Magento_Catalog::product/list.phtml" mode="grid" hide_when_filter_is_used="0" css_class="hl-magazine hl-red hl-contain" title_image_url="highlight/argento/stripes/electronics.png" show_page_link="1" page_url="highlight/bestsellers.html" page_link_position="top" page_link_title="View All"}}
 
 {{widget type="Swissup\Easybanner\Block\Placeholder" placeholder="argento_stripes_home_bottom"}}
-
+{% endraw %}
 <div class="block row widget block-promo block-carousel">
     <div class="block-content">
-        <div class="slick-slider" data-mage-init='{"slick": {"slidesToShow": 6, "slidesToScroll": 1, "dots": false, "autoplay": true, "variableWidth": true, "swipeToSlide": true}}'>
-            <div><a href="#"><img src="{{view url='images/brands/sony.jpg'}}" alt="" width="128" height="73"/></a></div>
-            <div><a href="#"><img src="{{view url='images/brands/apple.png'}}" alt="" width="64" height="74"/></a></div>
-            <div><a href="#"><img src="{{view url='images/brands/garmin.jpg'}}" alt="" width="154" height="74"/></a></div>
-            <div><a href="#"><img src="{{view url='images/brands/htc.jpg'}}" alt="" width="124" height="74"/></a></div>
-            <div><a href="#"><img src="{{view url='images/brands/intel.jpg'}}" alt="" width="103" height="74"/></a></div>
-            <div><a href="#"><img src="{{view url='images/brands/motorola.jpg'}}" alt="" width="204" height="76"/></a></div>
-            <div><a href="#"><img src="{{view url='images/brands/nike.png'}}" alt="" width="118" height="74"/></a></div>
-            <div><a href="#"><img src="{{view url='images/brands/samsung.png'}}" alt="" width="128" height="74"/></a></div>
-            <div><a href="#"><img src="{{view url='images/brands/sony.jpg'}}" alt="" width="128" height="73"/></a></div>
-            <div><a href="#"><img src="{{view url='images/brands/apple.png'}}" alt="" width="64" height="74"/></a></div>
-            <div><a href="#"><img src="{{view url='images/brands/garmin.jpg'}}" alt="" width="154" height="74"/></a></div>
-            <div><a href="#"><img src="{{view url='images/brands/htc.jpg'}}" alt="" width="124" height="74"/></a></div>
-            <div><a href="#"><img src="{{view url='images/brands/intel.jpg'}}" alt="" width="103" height="74"/></a></div>
-            <div><a href="#"><img src="{{view url='images/brands/motorola.jpg'}}" alt="" width="204" height="76"/></a></div>
-            <div><a href="#"><img src="{{view url='images/brands/nike.png'}}" alt="" width="118" height="74"/></a></div>
-            <div><a href="#"><img src="{{view url='images/brands/samsung.png'}}" alt="" width="128" height="74"/></a></div>
-        </div>
+        {% raw %}{{widget type="Swissup\EasySlide\Block\Slider" identifier="argento_stripes_brands"}}{% endraw %}
     </div>
-</div>{% endraw %}
+</div>
 ```
 
 ##### Next up

@@ -24,21 +24,24 @@ This slider is CMS block with id `header_slider`. You can edit its content in Ma
 #### Sampel block content
 
 ```html
-<div class="slick-slider header-slider" data-mage-init='{"slick": {"swipeToSlide": true, "centerMode": true, "centerPadding": "0", "rows": 0, "autoplay": true, "autoplaySpeed": 10000}}'>
-    <div class="slick-slide"><i class="force-icon force-icon-medium force-delivery"></i> <strong>Free Shipping</strong> <span class="visible-lg-inline visible-md-inline">Next working day delivery available.</span></div>
-    <div class="slick-slide"><i class="force-icon force-icon-medium force-shield"></i> <strong>Customer Security</strong> <span class="visible-lg-inline visible-md-inline">is our first goal and top priority.</span></div>
-    <div class="slick-slide"><i class="force-icon force-icon-medium force-100percent"></i> <strong>Full Support</strong> <span class="visible-lg-inline visible-md-inline">We glad to help at every step.</span></div>
+<div class="swiper-container header-slider" data-mage-init='{"Swissup_Swiper/js/swiper": {"loop":true, "centeredSlides":true, "autoplay": {"delay": 10000},  "navigation":{"nextEl":".swiper-button-next", "prevEl":".swiper-button-prev"}}}'>
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><i class="force-icon force-icon-medium force-delivery"></i> <strong>Free Shipping</strong> <span class="visible-lg-inline">Next working day delivery available.</span></div>
+        <div class="swiper-slide"><i class="force-icon force-icon-medium force-shield"></i> <strong>Customer Security</strong> <span class="visible-lg-inline">is our first goal and top priority.</span></div>
+        <div class="swiper-slide"><i class="force-icon force-icon-medium force-100percent"></i> <strong>Full Support</strong> <span class="visible-lg-inline">We glad to help at every step.</span></div>
+    </div>
+    <div class="swiper-button-prev swiper-button-black"></div>
+    <div class="swiper-button-next swiper-button-black"></div>
 </div>
 ```
 
-#### Slider settings
+#### Swiper settings
 
-To present block content as slider we use [Slick Carousel](m2/extensions/slick-carousel/). `data-mage-init` sets options for slick slider:
+To present block content as slider we use [Swiper](https://github.com/swissup/module-swiper/). `data-mage-init` sets options for swiper slider:
 
- -  `"autoplay": true` - enable slide autoplay. Set if to 'false' if you want to disable autoplay.
- -  `"autoplaySpeed": 10000` - time in milli seconds (ms) how long to show slide. 10000ms is 10 sec.
+ -  `"autoplay": {"delay": 10000}` - enable slide autoplay. `delay` sets time in ms between slides change. 10000ms is 10 sec.
 
-Feel free to change content of this slider. When you need to add new slider then place new `<div class="slick-slide">...</div>`.
+Feel free to change content of this slider. When you need to add new slider then place new `<div class="swiper-slide">...</div>`.
 
 
 ### Logo

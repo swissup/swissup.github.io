@@ -210,30 +210,21 @@ Piece of CMS Page content with this block:
 
 ![Brands](/images/m2/argento/force/home/brands.png)
 
-This row is slider with brands your store offers. It is regular HTML content presented as a slider with [Slick Carousel](m2/extensions/slick-carousel/).
+This row is slider with brands your store offers. It is an [Easyslide](/m2/extensions/easyslider/) widget wrapped in HTML.
+
+Slider identifier is `argento_force_brands`. You can find this slider in Admin grid and modify it according to your needs.
 
 Piece of CMS Page content for this section:
 
 ```html
 <div class="jumbotron hero block-brands">
     <div class="container">
-        <div class="block">
+        <div class="block block-carousel">
             <div class="block-title">
                 <strong role="heading" aria-level="3">Brands</strong>
             </div>
             <div class="block-content">
-                <div class="slick-slider" data-mage-init='{"slick": {"slidesToShow": 6, "slidesToScroll": 1, "dots": false, "autoplay": true, "swipeToSlide": true, "rows": 0}}'>
-                    <div><a href="#"><img src="{% raw %}{{view url='images/brands/puma.png'}}{% endraw %}" alt="" width="120" height="80"/></a></div>
-                    <div><a href="#"><img src="{% raw %}{{view url='images/brands/nike.png'}}{% endraw %}" alt="" width="120" height="80"/></a></div>
-                    <div><a href="#"><img src="{% raw %}{{view url='images/brands/adidas.jpg'}}{% endraw %}" alt="" width="120" height="80"/></a></div>
-                    <div><a href="#"><img src="{% raw %}{{view url='images/brands/under-armour.jpg'}}{% endraw %}" alt="" width="120" height="90"/></a></div>
-                    <div><a href="#"><img src="{% raw %}{{view url='images/brands/puma.png'}}{% endraw %}" alt="" width="120" height="80"/></a></div>
-                    <div><a href="#"><img src="{% raw %}{{view url='images/brands/nike.png'}}{% endraw %}" alt="" width="120" height="80"/></a></div>
-                    <div><a href="#"><img src="{% raw %}{{view url='images/brands/adidas.jpg'}}{% endraw %}" alt="" width="120" height="80"/></a></div>
-                    <div><a href="#"><img src="{% raw %}{{view url='images/brands/under-armour.jpg'}}{% endraw %}" alt="" width="120" height="90"/></a></div>
-                    <div><a href="#"><img src="{% raw %}{{view url='images/brands/puma.png'}}{% endraw %}" alt="" width="120" height="80"/></a></div>
-                    <div><a href="#"><img src="{% raw %}{{view url='images/brands/nike.png'}}{% endraw %}" alt="" width="120" height="80"/></a></div>
-                </div>
+                {% raw %}{{widget type="Swissup\EasySlide\Block\Slider" identifier="argento_force_brands"}}{% endraw %}
             </div>
         </div>
     </div>
@@ -247,31 +238,37 @@ Piece of CMS Page content for this section:
 <div class="jumbotron jumbotron-image no-padding">
     {% raw %}{{widget type="Swissup\EasySlide\Block\Slider" identifier="argento_force"}}{% endraw %}
 </div>
+
 <div class="jumbotron hero no-padding">
     <div class="container">
         {% raw %}{{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="hot-stuff"}}{% endraw %}
     </div>
 </div>
+
 <div class="jumbotron no-padding block-categories">
     <div class="bg-text">Ready to Go</div>
     {% raw %}{{widget type="Swissup\Easycatalogimg\Block\Widget\SubcategoriesList" category_count="4" subcategory_count="0" column_count="4" show_image="1" image_width="500" image_height="500" template="Swissup_Easycatalogimg::list.phtml" hide_when_filter_is_used="0" link_as_button="true"}}{% endraw %}
     <div class="departments-link"><a class="button" title="All Departments" href='{% raw %}{{store direct_url="departments"}}{% endraw %}'><span>All Departments</span></a></div>
 </div>
+
 <div class="jumbotron hero block-bestsellers">
     <div class="container">
         {% raw %}{{widget type="Swissup\Highlight\Block\ProductList\All" title="Bestsellers" carousel="0" products_count="4" column_count="4" page_count="1" order="default" dir="asc" template="Magento_Catalog::product/list.phtml" mode="grid" conditions_encoded="^[`1`:^[`type`:`Magento||CatalogWidget||Model||Rule||Condition||Combine`,`aggregator`:`all`,`value`:`1`,`new_child`:``^]^]" hide_when_filter_is_used="0" period="P1Y" show_page_link="1" page_link_position="bottom" page_link_title="Shop Now" page_url="highlight/bestsellers.html" min_popularity="1"}}{% endraw %}
     </div>
 </div>
+
 <div class="jumbotron no-padding">
     <div class="a-center block-homepage-banner">
         {% raw %}{{widget type="Swissup\Easybanner\Block\Placeholder" placeholder="argento_force_home"}}{% endraw %}
     </div>
 </div>
+
 <div class="jumbotron hero">
     <div class="container">
         {% raw %}{{widget type="Magento\Cms\Block\Widget\Block" template="widget/static_block/default.phtml" block_id="benefits"}}{% endraw %}
     </div>
 </div>
+
 <div class="jumbotron hero block-brands">
     <div class="container">
         <div class="block block-carousel">
@@ -279,24 +276,7 @@ Piece of CMS Page content for this section:
                 <strong role="heading" aria-level="3">Brands</strong>
             </div>
             <div class="block-content">
-                <div class="slick-slider" data-mage-init='{"slick": {"slidesToShow": 6, "slidesToScroll": 1, "dots": false, "autoplay": true, "swipeToSlide": true, "rows": 0, "lazyLoad": "ondemand"}}'>
-                    <div><a href="#"><img data-lazy="{% raw %}{{view url='images/brands/puma.png'}}{% endraw %}" alt="" width="120" height="80"/></a></div>
-                    <div><a href="#"><img data-lazy="{% raw %}{{view url='images/brands/nike.png'}}{% endraw %}" alt="" width="120" height="80"/></a></div>
-                    <div><a href="#"><img data-lazy="{% raw %}{{view url='images/brands/adidas.jpg'}}{% endraw %}" alt="" width="120" height="80"/></a></div>
-                    <div><a href="#"><img data-lazy="{% raw %}{{view url='images/brands/under-armour.jpg'}}{% endraw %}" alt="" width="120" height="90"/></a></div>
-                    <div><a href="#"><img data-lazy="{% raw %}{{view url='images/brands/puma.png'}}{% endraw %}" alt="" width="120" height="80"/></a></div>
-                    <div><a href="#"><img data-lazy="{% raw %}{{view url='images/brands/nike.png'}}{% endraw %}" alt="" width="120" height="80"/></a></div>
-                    <div><a href="#"><img data-lazy="{% raw %}{{view url='images/brands/adidas.jpg'}}{% endraw %}" alt="" width="120" height="80"/></a></div>
-                    <div><a href="#"><img data-lazy="{% raw %}{{view url='images/brands/under-armour.jpg'}}{% endraw %}" alt="" width="120" height="90"/></a></div>
-                    <div><a href="#"><img data-lazy="{% raw %}{{view url='images/brands/puma.png'}}{% endraw %}" alt="" width="120" height="80"/></a></div>
-                    <div><a href="#"><img data-lazy="{% raw %}{{view url='images/brands/nike.png'}}{% endraw %}" alt="" width="120" height="80"/></a></div>
-                    <div><a href="#"><img data-lazy="{% raw %}{{view url='images/brands/adidas.jpg'}}{% endraw %}" alt="" width="120" height="80"/></a></div>
-                    <div><a href="#"><img data-lazy="{% raw %}{{view url='images/brands/under-armour.jpg'}}{% endraw %}" alt="" width="120" height="90"/></a></div>
-                    <div><a href="#"><img data-lazy="{% raw %}{{view url='images/brands/puma.png'}}{% endraw %}" alt="" width="120" height="80"/></a></div>
-                    <div><a href="#"><img data-lazy="{% raw %}{{view url='images/brands/nike.png'}}{% endraw %}" alt="" width="120" height="80"/></a></div>
-                    <div><a href="#"><img data-lazy="{% raw %}{{view url='images/brands/adidas.jpg'}}{% endraw %}" alt="" width="120" height="80"/></a></div>
-                    <div><a href="#"><img data-lazy="{% raw %}{{view url='images/brands/under-armour.jpg'}}{% endraw %}" alt="" width="120" height="90"/></a></div>
-                </div>
+                {% raw %}{{widget type="Swissup\EasySlide\Block\Slider" identifier="argento_force_brands"}}{% endraw %}
             </div>
         </div>
     </div>
