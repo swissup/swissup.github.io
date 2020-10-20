@@ -31,6 +31,7 @@ All other commands are useful to debug some issues. They are not needed usually.
 - [Authorization commands](#authorization-commands)
     - [marketplace:auth](#marketplaceauth)
     - [marketplace:auth:import](#marketplaceauthimport)
+    - [marketplace:auth:path](#marketplaceauthpath)
     - [marketplace:auth:check](#marketplaceauthcheck)
     - [marketplace:auth:set](#marketplaceauthset)
     - [marketplace:auth:show](#marketplaceauthshow)
@@ -68,6 +69,12 @@ bin/magento marketplace:package:require <package/name>
 Import auth data from auth.json files in COMPOSER_HOME and MAGENTO_ROOT folders
 
 Usage: `bin/magento marketplace:auth:import`
+
+### marketplace:auth:path
+
+Show path to auth.json file
+
+Usage: `bin/magento marketplace:auth:path`
 
 ### marketplace:auth:check
 
