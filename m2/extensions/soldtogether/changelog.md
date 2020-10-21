@@ -8,6 +8,13 @@ category: SoldTogether
 
 # Changelog
 
+### Version 1.6.16
+
+> Oct 21, 2020
+
+  - Fix CatalogGraphQl\..\ProductQueryInterface bug
+  - Improve graphQl resolver
+
 ### Version 1.6.15
 
 > Oct 20, 2020
