@@ -8,6 +8,14 @@ category: Address Field Manager
 
 # Changelog
 
+### Version 1.5.4
+
+> Oct 21, 2020
+
+ -  Show address form fields at multishipping checkout page.
+ -  Show address form fields at customer registration page when `setShowAddressFields`
+    is used.
+
 ### Version 1.5.1
 
 > Jan 31, 2020

@@ -8,6 +8,13 @@ category: Customer Field Manager
 
 # Changelog
 
+### Version 1.2.4
+
+> Oct 21, 2020
+
+ -  Fixed ability to show customer fields together with custom address fields
+    on the same page.
+
 ### Version 1.2.0
 
 > Jan 8, 2020
