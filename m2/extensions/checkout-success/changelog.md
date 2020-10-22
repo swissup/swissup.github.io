@@ -8,6 +8,13 @@ category: Checkout Success
 
 # Changelog
 
+### Version 1.4.7
+
+> Oct 22, 2020
+
+ -  Added config notice about unsupported multishipping checkout page. Standard checkout
+    page will be shown when using multishipping checkout.
+
 ### Version 1.4.6
 
 > Oct 19, 2020
