@@ -19,8 +19,10 @@ Checkout Success Page settings have three sections.
 
 You can enable or disable extension in this section.
 
-Field `Miscellaneous scripts and HTML` allows you to insert on checkout success page any Javascript code or HTML. This field can be very useful when
-you have to add Google Adwords or any other conversion tracing code. This field allows to use variables:
+`Miscellaneous scripts and HTML` field allows you to insert Javascript, CSS, or HTML
+code at the very end of the page. It's not intended to use for visible information
+because it's shown below footer. This field is useful to add Google Adwords or
+any other conversion tracing code. This field allows to use variables:
 
 | Variable                                  | Description                     | Extension version |
 |-------------------------------------------|---------------------------------|
