@@ -8,7 +8,8 @@ category: Checkout Success
 
 # Miscellaneous scripts snippets
 
-Here you can find some code snippets that can be used in [`Miscellaneous scripts`](../settings/) of Checkout Success Page extension.
+Here you can find some code snippets that can be used in [Miscellaneous scripts](../settings/)
+of Checkout Success Page extension.
 
 #### Google AdWords conversion tracking tag
 
@@ -36,12 +37,12 @@ Code below was taken from [Add the opt-in code](https://support.google.com/merch
 </script>
 
 <script>
-  window.renderOptIn = function() { 
+  window.renderOptIn = function() {
     window.gapi.load('surveyoptin', function() {
       var shippingData = {% raw %}{{orderShippingAddress}}{% endraw %},
           today = new Date(),
           estimatedDate = new Date();
-    
+
       estimatedDate.setDate(today.getDate() + 3); // estimated delivery date is 3 days from now
       window.gapi.surveyoptin.render(
         {
@@ -54,7 +55,7 @@ Code below was taken from [Add the opt-in code](https://support.google.com/merch
 
           // OPTIONAL
           "opt_in_style": "OPT_IN_STYLE"
-        }); 
+        });
      });
   }
 </script>
