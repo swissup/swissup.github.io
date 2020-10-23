@@ -8,6 +8,12 @@ category: Customer Field Manager
 
 # Changelog
 
+### Version 1.2.5
+
+> Oct 23, 2020
+
+ -  Fixed missing field default values
+
 ### Version 1.2.4
 
 > Oct 21, 2020

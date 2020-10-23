@@ -8,6 +8,12 @@ category: Address Field Manager
 
 # Changelog
 
+### Version 1.5.5
+
+> Oct 23, 2020
+
+ -  Fixed missing field default values
+
 ### Version 1.5.4
 
 > Oct 21, 2020
