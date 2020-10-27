@@ -8,6 +8,12 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.14.12
+
+> Oct 27, 2020
+
+ -  Fixed synchronization of the new top level category with the departments submenu.
+
 ### Version 1.14.11
 
 > Oct 15, 2020
