@@ -1,8 +1,8 @@
 ---
 layout: default
-title: GDPR Configuration
-description: GDPR Configuration
-category: GDPR
+title: Pagebuilder Configuration
+description: Pagebuilder Configuration
+category: Pagebuilder
 ---
 
 # Configuration

@@ -1,9 +1,9 @@
 ---
 layout: default
-title: GDPR Installation
-description: How to install GDPR module
-keywords: gdpr installation
-category: GDPR
+title: Pagebuilder Installation
+description: How to install Pagebuilder module
+keywords: pagebuilder installation
+category: Pagebuilder
 ---
 
 # Installation instructions
