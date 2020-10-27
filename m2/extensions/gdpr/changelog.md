@@ -8,6 +8,16 @@ category: GDPR
 
 # Changelog
 
+### Version 1.3.13
+
+> Oct 27, 2020
+
+ -  Improved frontend performance when a bunch of cookies are blocked. Previously
+    GDPR module sent a request per each cookie. Now, all cookie names will be
+    merged into a single request.
+ -  Fixed blocked google analytics cookies when Magento_GoogleAnalytics module is
+    enabled in runtime via third-party plugin.
+
 ### Version 1.3.11
 
 > Oct 19, 2020
