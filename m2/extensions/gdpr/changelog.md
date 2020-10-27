@@ -8,7 +8,7 @@ category: GDPR
 
 # Changelog
 
-### Version 1.3.13
+### Version 1.3.14
 
 > Oct 27, 2020
 
@@ -17,6 +17,8 @@ category: GDPR
     merged into a single request.
  -  Fixed blocked google analytics cookies when Magento_GoogleAnalytics module is
     enabled in runtime via third-party plugin.
+ -  Fixed missing GDPR checkboxes on customer registration page when
+    [Swissup_CustomerFields](/m2/extensions/customer-field-manager/) is enabled.
 
 ### Version 1.3.11
 
