@@ -6,6 +6,17 @@ keywords: Helpdesk changelog
 category: Helpdesk
 ---
 
+### Version 1.2.4
+
+> Oct 28, 2020
+
+**Fixes**
+ - Fix file allowed extension logic (close #23)
+ - Implement IdentityInterface in abstract ticket block
+ - Add cacheable=false for ticketMessage listing block
+ - Set open status for ticket when customer add new answer (close #22)
+
+
 ### Version 1.2.3
 
 > Oct 15, 2020
