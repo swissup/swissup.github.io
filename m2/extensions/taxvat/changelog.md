@@ -8,6 +8,14 @@ category: Checkout VAT
 
 # Changelog
 
+### Version 1.3.2
+
+> Oct 29, 2020
+
+ -  Fixed vat number validation when using multishipping checkout.
+ -  Added notice about unsupported tax-free purchases when using multishipping checkout.
+ -  Performance improvements - use cache for VAT VIES validation result.
+
 ### Version 1.3.0
 
 > Jan 8, 2020
