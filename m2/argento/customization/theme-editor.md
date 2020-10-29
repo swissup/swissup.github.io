@@ -29,8 +29,6 @@ options and customization examples for every Argento design:
 
 ### Header Builder
 
-> Currently only available in Argento Pure2 and Argento Home themes
-
 With Header Builder, you can replace static header with a fully customizable one.
 
 Features:
@@ -56,6 +54,8 @@ Header Links      | ![Links Block][links-img]     | Customer links and welcome m
 Customer Menu     | ![Customer Block][cust-img]   | Customer Links in form of dropdown
 CMS Links         | ![CMS Links Block][cms-img]   | Displays content from static block `header_cms_links`
 Wishlist Link     | ![Wishlist Link][wishlist-img]| Displays link to customer wishlist
+CMS Content       | ![CMS Content][cms-content-img]| Displays content from static block `header_cms_content` (used in Argento Essense)
+Header Slider     | ![Header Slider][header-slider-img]| Displays content from static block `header_slider` (used in Argento Force)
 
 [ajaxsearch-design]: /m2/extensions/ajaxsearch/configuration/#design
 [navpro]: /m2/extensions/navigationpro/backend/menu-settings/
@@ -69,6 +69,8 @@ Wishlist Link     | ![Wishlist Link][wishlist-img]| Displays link to customer wi
 [cust-img]: /images/m2/argento/customization/theme-editor/blocks/customer.png
 [cms-img]: /images/m2/argento/customization/theme-editor/blocks/links-cms.png
 [wishlist-img]: /images/m2/argento/customization/theme-editor/blocks/wishlist.png
+[cms-content-img]: /images/m2/argento/customization/theme-editor/blocks/cms-content.gif
+[header-slider-img]: /images/m2/argento/customization/theme-editor/blocks/header-slider.png
 
 #### Preview
 
