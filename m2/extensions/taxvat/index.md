@@ -14,6 +14,8 @@ placement if VAT is not valid, set tax to zero when VAT number is valid.
 
 The module works well with both Firecheckout and Standard onepage checkout modules.
 
+**Tax-free purchases are not supported for multishipping checkout**.
+
 > Please note that VIES service can be offline sometimes and customer
 > will be able to place order with invalid VAT number. Tax-free order **will not**
 > work in this case.
