@@ -8,6 +8,13 @@ category: Email
 
 # Changelog
 
+### Version 0.3.13
+
+> Oct 30, 2020
+
+**Fixes**
+ - Filter invalid header values
+
 ### Version 0.3.12
 
 > Oct 2, 2020
