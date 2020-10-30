@@ -6,6 +6,14 @@ keywords: Helpdesk changelog
 category: Helpdesk
 ---
 
+### Version 1.2.5
+
+> Oct 30, 2020
+
+**Fixes**
+ - Fix customer searching logic (#24)
+ - Fix order searching action (#24)
+
 ### Version 1.2.4
 
 > Oct 28, 2020
