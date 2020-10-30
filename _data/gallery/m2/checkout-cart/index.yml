@@ -1,15 +1,10 @@
 - title: Checkout Cart at Firecheckout
-  href: /images/m2/checkout-cart/firecheckout.png
-  src: /images/m2/checkout-cart/firecheckout-small.png
-  w: 1275
-  h: 725
+  href: /images/m2/checkout-cart/firecheckout.png?v=2
+  src: /images/m2/checkout-cart/firecheckout-small.png?v=2
+  w: 1115
+  h: 835
 - title: Checkout Cart at standard onepage checkout
-  href: /images/m2/checkout-cart/checkout-payment.png
-  src: /images/m2/checkout-cart/checkout-payment-small.png
-  w: 1079
-  h: 784
-- title: Checkout Cart at standard onepage checkout
-  href: /images/m2/checkout-cart/settings.png
-  src: /images/m2/checkout-cart/settings-small.png
-  w: 995
-  h: 375
+  href: /images/m2/checkout-cart/settings.png?v=2
+  src: /images/m2/checkout-cart/settings-small.png?v=2
+  w: 758
+  h: 350

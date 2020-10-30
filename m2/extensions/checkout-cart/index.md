@@ -8,11 +8,15 @@ category: Checkout Cart
 
 # Checkout Cart
 
-Checkout Cart extension brings cart functionality on checkout page. It allows
-to change items quantity and remove items from cart on checkout page. Also with
-this module you can move totals under cart items block in checkout cart summary section.
+Checkout Cart extension improves Order Summary section at checkout:
 
-Extension is compatible with [Firecheckout](../firecheckout) and default Magento 2 checkout.
+ -  Edit cart items quantity
+ -  Remove items from cart
+ -  Display product name as link
+ -  Display product SKU below product name
+ -  Move order totals to the bottom of Order Summary section
+
+Extension is compatible with [Firecheckout](../firecheckout) and Magento Onepage Checkout.
 
 {% include gallery.html images=site.data.gallery.m2.checkout-cart.index class="scroll phone-up-1 tablet-up-3 photoswipe" %}
 
@@ -33,6 +37,8 @@ _Stores > Configuration > Swissup Checkout > Checkout Cart_ page.
 Option  | Description
 --------|------------
 Enabled | Ability to enable/disable quantity switcher at the checkout
+Allow Changing Product Quantity | Ability to enable/disable qty unput fields
+Display Product SKU | Ability to show product sku
 Display Product Name as Link | Ability to show product name as a link to the product page
 Move Totals Under Product Details in Order Summary | Ability to move Order Totals section below products list
 

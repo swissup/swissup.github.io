@@ -7,6 +7,12 @@ category: Order Attachments
 
 # Changelog
 
+### Version 1.4.5
+
+> Oct 30, 2020
+
+ -  Fixed not working search field in backend order attachments grid.
+
 ### Version 1.3.11
 
 > Oct 19, 2020

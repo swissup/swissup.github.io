@@ -8,6 +8,15 @@ category: Checkout Cart
 
 # Changelog
 
+### Version 1.5.5
+
+> Oct 30, 2020
+
+ -  Added ability to show product SKU below product name.
+ -  Added ability to disable qty editor.
+ -  Fixed js error when module is disabled.
+ -  Performance improvements.
+
 ### Version 1.5.3
 
 > Jul 31, 2020
