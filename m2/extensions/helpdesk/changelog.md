@@ -6,6 +6,14 @@ keywords: Helpdesk changelog
 category: Helpdesk
 ---
 
+### Version 1.2.6
+
+> Nov 2, 2020
+
+**Fixes**
+ - Fix :Column 'email' in where clause is ambiguous (#26 1)
+ - In Ticket Form the Field 'email' is required now (#26 2).
+
 ### Version 1.2.5
 
 > Oct 30, 2020
