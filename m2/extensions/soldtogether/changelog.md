@@ -8,6 +8,15 @@ category: SoldTogether
 
 # Changelog
 
+### Version 1.7.0
+
+> Nov 2, 2020
+
+  - Add support for configurable products in "Frequently Bought Together" block. Currently we support only attributes with swatches. But in follow releases we will extens it to all required attributes. Customer has to selecte all options for selected products in block befor adding them to cart.
+  - "Customers Also Bought" block get support for configurable products also. Currently we support only attributes with swatches. But we extend it in future.
+  - New config options "Product Types to Display" for both blocks. You can choose what types of products you want to see in "Frequently Bought Together" and "Customers Also Bought" blocks.
+  - Overall code improvements.
+
 ### Version 1.6.16
 
 > Oct 21, 2020
