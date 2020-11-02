@@ -8,10 +8,12 @@ category: Order Attachments
 
 # Order Attachments
 
-Magento Order Attachments module adds ability to attach files to order. It also
+Order Attachments module adds ability to attach files to order. It also
 provides ability to include attachment links to email template. All attached
 files are protected from public access and accessible via private generated
 links only.
+
+> Multishipping checkout is not supported.
 
 ### Contents
 
@@ -29,35 +31,20 @@ links only.
  5. [Use cases](use-cases/)
      -  [Add to the Success Page](use-cases/#add-to-the-success-page)
 
-## Features
-
-**Secure**
-
-No direct links to uploaded files. Attachments are protected from public access
-with generated links.
-
-**Fast**
-
-File upload powered by ajax technology and does not require to reload whole page.
-
-**Configurable**
-
-You can use the following configuration to filter uploaded files:
-
- - Allowed file extensions
- - Max file size
- - Max files count
-
 ## Frontend
 
-#### Firecheckout and Default Magento Checkout
-Module is rendered in Payment information section and shows the list of allowed
-file extensions to make upload process more friendly.
+#### Firecheckout and Default Magento Onepage Checkout
+
+> Multishipping checkout is not supported.
+
+Module is rendered in Payment information section at Firecheckout and Onepage Checkout
+pages.
+
 ![Firecheckout and default checkout](/images/m2/orderattachment/checkout.png)
 
 #### Order view page
 Attachments are visible on the `Guest Order View` and `Customer Order View` pages.
-You can [allow customer](#configuration) to upload files from these pages as well as from the
+You can [allow customers](#configuration) to upload files from these pages as well as from the
 checkout page.
 
 ##### Editable Mode
