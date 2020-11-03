@@ -78,8 +78,8 @@ m2:
     - title: Installation
       url: /m2/argento/installation/
 
-    - title: Upgrade Instructions
-      url: /m2/argento/upgrade-instructions/
+    # - title: Upgrade Instructions
+    #   url: /m2/argento/upgrade-instructions/
 
     - title: Customization
       url: /m2/argento/customization/
