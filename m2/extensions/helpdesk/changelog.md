@@ -6,6 +6,13 @@ keywords: Helpdesk changelog
 category: Helpdesk
 ---
 
+### Version 1.2.7
+
+> Nov 7, 2020
+
+**Fixes**
+ - Fix :Column 'store_id' in where clause is ambiguous (#27).
+
 ### Version 1.2.6
 
 > Nov 2, 2020
