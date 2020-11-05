@@ -21,7 +21,7 @@ It causes missing order items in emails, please check the
 [issue on Github](https://github.com/magento/magento2/issues/26882).
 
 As we use the `$order` variable to generate download PDF link it stopped to work too.
-The fix will be available in Magento 2.4.0. Meanwhile, it can be fixed using
+The issue was fixed in Magento 2.3.6/2.4.0. For older versions, it can be fixed using
 legacy mode for email templates.
 
 When using [Email Templates](/m2/extensions/email-templates/) module, it can be done

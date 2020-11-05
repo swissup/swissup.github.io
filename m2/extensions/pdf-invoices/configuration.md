@@ -17,6 +17,7 @@ Option                | Description
 ----------------------|------------
 Enabled               | Enable/Disable module
 Enable on Store Front | Print PDF documents from account order view and orders and returns pages
+Address Template      | Select template used to display addresses in PDF. Check `Stores > Configuration > Customers > Customer Configuration > Address Templates` to customize selected address template.
 Page Size             | Select page size (default: A4)
 Page Orientation      | Select page orientation (default: portrait)
 Template              | Select template to use for PDF printing/downloading

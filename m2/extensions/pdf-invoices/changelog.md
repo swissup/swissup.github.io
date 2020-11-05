@@ -8,6 +8,15 @@ category: PDF Invoices
 
 # Changelog
 
+### Version 1.3.0
+
+> Nov 5, 2020
+
+ -  Added two new PDF template designs
+ -  Fixed download link in Magento 2.3.6/2.4.0
+ -  Attachment name now includes increment id
+ -  Added configuration option to select address template used in PDF
+
 ### Version 1.2.2
 
 > Oct 19, 2020

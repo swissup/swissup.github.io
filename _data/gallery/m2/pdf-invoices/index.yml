@@ -1,11 +1,21 @@
+- href: /images/m2/pdf-invoices/frontend/invoice.png
+  src: /images/m2/pdf-invoices/frontend/small/invoice.png
+  title: Invoice PDF Template - Force Design
+  w: 1000
+  h: 1415
+- href: /images/m2/pdf-invoices/frontend/invoice-home.png
+  src: /images/m2/pdf-invoices/frontend/small/invoice-home.png
+  title: Invoice PDF Template - Home Design
+  w: 1000
+  h: 1414
+- href: /images/m2/pdf-invoices/frontend/invoice-home-alt.png
+  src: /images/m2/pdf-invoices/frontend/small/invoice-home-alt.png
+  title: Invoice PDF Template - Alternative Home Design
+  w: 1000
+  h: 1414
 - href: /images/m2/pdf-invoices/frontend/order.png
   src: /images/m2/pdf-invoices/frontend/small/order.png
   title: Order PDF Template
-  w: 1000
-  h: 1415
-- href: /images/m2/pdf-invoices/frontend/invoice.png
-  src: /images/m2/pdf-invoices/frontend/small/invoice.png
-  title: Invoice PDF Template
   w: 1000
   h: 1415
 - href: /images/m2/pdf-invoices/frontend/invoice-image-qr-code.png

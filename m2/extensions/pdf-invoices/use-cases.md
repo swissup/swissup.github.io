@@ -13,12 +13,49 @@ category: PDF Invoices
 * TOC
 {:toc}
 
+### Add PDF attachment to email
+
+![Email Attachment](/images/m2/pdf-invoices/use-cases/email-attachment.png)
+
+To attach PDF to sales emails, enable the setting in the module configuration:
+
+`Stores > Configuration > Swissup > PDF Invoices > Order/Invoice/Shipment/Credit Memo > Send PDF as an attachment in the email`
+
 ### Add download link to email
 
-![PDF grid](/images/m2/pdf-invoices/use-cases/email-download.png)
+> Please note that download link won't work when `Sales > Sales Emails > General Settings > Asynchronous sending` is enabled.
+
+![PDF download link](/images/m2/pdf-invoices/use-cases/email-download.png)
 
 To display download PDF link in emails, edit email template under *Marketing > Email Templates*
 and add the following code:
+
+*For Magento 2.3.6+/2.4.0+:*
+
+ -  for order PDF
+
+    ```txt
+    {% raw %}{{block class="Swissup\PdfInvoice\Block\Email\Documents" area="frontend" order_id=$order_id}}{% endraw %}
+    ```
+
+ -  for invoice PDF
+
+    ```txt
+    {% raw %}{{block class="Swissup\PdfInvoice\Block\Email\Documents" area="frontend" invoice_id=$invoice_id order_id=$order_id}}{% endraw %}
+    ```
+ -  for shipment PDF
+
+    ```txt
+    {% raw %}{{block class="Swissup\PdfInvoice\Block\Email\Documents" area="frontend" shipment_id=$shipment_id order_id=$order_id}}{% endraw %}
+    ```
+
+ -  for credit memo PDF
+
+    ```txt
+    {% raw %}{{block class="Swissup\PdfInvoice\Block\Email\Documents" area="frontend" creditmemo_id=$creditmemo_id order_id=$order_id}}{% endraw %}
+    ```
+
+*For older Magento versions:*
 
  -  for order PDF
 
