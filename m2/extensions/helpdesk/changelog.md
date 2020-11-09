@@ -6,6 +6,13 @@ keywords: Helpdesk changelog
 category: Helpdesk
 ---
 
+### Version 1.2.8
+
+> Nov 9, 2020
+
+**Fixes**
+ - Fixed Undefined index: text in Ui/Component/Listing/Column/Title.php:66 (#28).
+
 ### Version 1.2.7
 
 > Nov 7, 2020
