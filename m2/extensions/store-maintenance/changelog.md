@@ -8,6 +8,12 @@ category: Store Maintenance
 
 # Changelog
 
+### Version 2.1.2
+
+> Nov 9, 2020
+
+  - Improved module stability. Prevent exception when `Maintenance end date` value is incorrect.
+
 ### Version 2.1.0
 
 > Nov 18, 2019
