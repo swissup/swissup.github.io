@@ -44,6 +44,7 @@ Following pages are supported:
  6. [FAQ](faq/)
  7. [Known issues](known-issues/)
  8. [Use cases](use-cases/)
+     -  [Change Logo Size](use-cases/#change-logo-size)
 
 ### Developers documentation
 

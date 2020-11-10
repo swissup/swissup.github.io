@@ -86,3 +86,24 @@ Here is an example of how to do that and do not affect desktop theme:
     ...
 </div>
 ```
+
+### Change logo size
+
+To change logo size on AMP follow the next steps:
+
+ - change logo block size in styles setting [logo size variables](/m2/extensions/amp/customization/design/sass-variables/#header) in [custom scss file](/m2/extensions/amp/customization/design/custom-styles/)
+
+ - create layout xml file `Swissup_Amp/layout/swissupamp_default.xml` in your active theme folder with the following content:
+
+```xml
+<layout xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/layout_generic.xsd">
+    <body>
+        <referenceBlock name="logo">
+            <arguments>
+                <argument name="logo_width" xsi:type="number">322</argument>
+                <argument name="logo_height" xsi:type="number">64</argument>
+            </arguments>
+        </referenceBlock>
+    </body>
+</layout>
+```
