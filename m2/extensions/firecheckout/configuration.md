@@ -111,6 +111,18 @@ Below place order button| Additional content below place order button
 Content for Guest Customers | Content to show for guest customers only
 Content for Registered Customers | Content to show for logged in customers
 
+### Analytics section
+
+![Analytics section](/images/m2/firecheckout/configuration/analytics.png)
+
+Option | Description
+-------|------------
+Enable Google Analytics Integration | Enable/Disable Analytics Integration
+Account Number | Google Analytis Account Number. See [Analytics](analytics/) page for more information
+
+Please follow [Analytics integration docs](analytics/) to setup Analytics inside
+Firecheckout.
+
 ### Shiping settings section
 
 ![Shipping settings section](/images/m2/firecheckout/configuration/shipping.png)

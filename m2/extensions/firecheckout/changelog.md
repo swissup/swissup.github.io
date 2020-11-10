@@ -8,6 +8,15 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.25.0
+
+> Draft
+
+ -  Google Analytics Integration added. See
+    [docs](/m2/extensions/firecheckout/configuration/#analytics-section) for more
+    information.
+ -  Fixed autofill styles in latest chrome versions.
+
 ### Version 1.24.2
 
 > Oct 19, 2020
