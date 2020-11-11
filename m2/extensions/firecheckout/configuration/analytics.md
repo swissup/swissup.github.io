@@ -8,7 +8,7 @@ category: Firecheckout
 
 # Google Analytics
 
-In order to enable Google Analitics Ecommerce for Firecheckout module you should
+In order to enable Google Analytics Ecommerce for Firecheckout module you should
 add Account Number to Firecheckout configuration and setup Ecommerce Settings
 in Google Analytics Panel.
 
@@ -51,6 +51,6 @@ instead of "Email Address" is NOT OK.
 ## Result Example
 
 Google Analytics for Ecommerce is not working in real-time, so you have to wait
-a day to see yout first results. Here is how it should look like:
+a bit to see yout first results. Here is how it should look like:
 
 ![Checkout Behavior](/images/m2/firecheckout/analytics/checkout-behavior.png)

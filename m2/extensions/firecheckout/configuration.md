@@ -118,7 +118,7 @@ Content for Registered Customers | Content to show for logged in customers
 Option | Description
 -------|------------
 Enable Google Analytics Integration | Enable/Disable Analytics Integration
-Account Number | Google Analytis Account Number. See [Analytics](analytics/) page for more information
+Account Number | Google Analytis Account Number. If you use Magento's built-in GA module, this field will be filled automatically. See [Analytics](analytics/) page for more information.
 
 Please follow [Analytics integration docs](analytics/) to setup Analytics inside
 Firecheckout.
