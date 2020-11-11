@@ -15,6 +15,9 @@ category: Firecheckout
  -  Google Analytics Integration added. See
     [docs](/m2/extensions/firecheckout/configuration/#analytics-section) for more
     information.
+ -  Added configurable ability to place "Purchase" button under payment section
+    when using onecolumn layout. See _Firecheckout > Design > Place Order Button Position_
+    config option.
  -  Fixed autofill styles in latest chrome versions.
 
 ### Version 1.24.2
