@@ -33,7 +33,7 @@ Option      | Description
 ------------|------------
 Page Layout | [Select page layout](#page-layout) to use at firecheckout page
 Layout      | [Select layout](#layout) to use at firecheckout page
-Place Order Button Position | Ability to place "Purchase" button under payment section. This config is visible for "1 Column" layouts only.
+Place Order Button Position | [Ability to place](#place-order-button-position) "Purchase" button under payment section. This config is visible for "1 Column" layouts only.
 Theme       | [Select theme](#theme) to use at firecheckout page
 Form Styles | [Select form styles](#form-styles) to use at firecheckout page
 
@@ -66,8 +66,12 @@ Layout screenshots:
 
 #### Place Order Button Position
 
-Ability to place "Purchase" button and "Grand Total" section under payment section.
-This config is visible for "1 Column" layouts only.
+Ability change "Purchase" button position:
+
+ - Default Position (Order Summary Section - For All Layouts)
+ - Below Payment methods Section (For "1 Column" Layouts only)
+
+{% include gallery.html images=site.data.gallery.m2.firecheckout.configuration.place-order-position class="scroll phone-up-1 tablet-up-3 photoswipe" %}
 
 #### Theme
 
