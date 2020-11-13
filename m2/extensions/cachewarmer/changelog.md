@@ -8,6 +8,13 @@ category: Cachewarmer
 
 # Changelog
 
+### Version 1.0.9
+
+> 12 Oct, 2020
+
+**Fixes**
+ - Fixed FK error during setup:upgrade hankey
+
 ### Version 1.0.8
 
 > 1 Oct, 2020
