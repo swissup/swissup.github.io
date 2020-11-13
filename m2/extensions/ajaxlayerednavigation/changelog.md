@@ -7,6 +7,22 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.3.30
+
+> Nov 13, 2020
+
+**Bugfixes**
+ - Add possible multiple 1-column support
+ - Prevent Chrome from scrolling down to 'More' button after clicking on it
+ - Fixed duplicate page description after clearing filters
+ - Do not collapse section when unchecking filter via checkbox
+
+**Improvments**
+ - jQuery accepts array of element to insert. No need for this loop.
+ - Merge two methods together because they do the same logic
+ - Improve scroll to top: scroll when top is outside of the viewport
+ - Attributepages integration
+
 ### Version 1.3.28
 
 > Oct 13, 2020
