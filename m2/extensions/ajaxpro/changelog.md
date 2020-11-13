@@ -6,6 +6,14 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.5.14
+
+> Nov 13, 2020
+
+**Bugfixes**
+ - Fix cartSidebar._isOverflowed function undefined
+ - Fix closeSidebar bug in 2.4.1 regarding magento/magento2@1cb5685
+
 ### Version 1.5.13
 
 > Oct 2, 2020
