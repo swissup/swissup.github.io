@@ -6,6 +6,20 @@ keywords: Helpdesk changelog
 category: Helpdesk
 ---
 
+### Version 1.2.10
+
+> Nov 13, 2020
+
+**Fixes**
+ - Added disabling behavior for submit button to prevent many cloned tickets (close #30)
+ - Fix Deprecated Functionality: strpos() Non-string needles
+ - Fix Warning rand with 1 argument
+ - Add checking imap functions support
+ - Disable some file uploading exceptions
+ - Small grammar improvments.
+ - Rename title column to subject (close #29)
+ - Hide ecrypted text in subject column
+
 ### Version 1.2.8
 
 > Nov 9, 2020
