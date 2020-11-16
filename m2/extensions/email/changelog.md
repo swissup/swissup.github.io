@@ -8,6 +8,14 @@ category: Email
 
 # Changelog
 
+### Version 0.3.14
+
+> Nov 16, 2020
+
+**Fixes**
+ - Move slm/mail and aws packages to 'optional' dependencies (#15)
+ - Fix code styles improvments (magento/magento-coding-standard)
+
 ### Version 0.3.13
 
 > Oct 30, 2020
