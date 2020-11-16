@@ -8,6 +8,15 @@ category: Easy Slider
 
 # Changelog
 
+### Version 1.6.7
+
+> Nov 16, 2020
+
+  - Implement IdentityInterface for slider block. Now you don't need to flush FPC after slider change in Magento Admin. Frontend updated by itself.
+  - Show disabled state on disabled slides in Magento Admin.
+  - Add action to duplicate existing sliders in Magento Admin.
+  - Fixed slider behavior when thumbnails enabled and effect is 'Cude'/'Flip'.
+
 ### Version 1.6.5
 
 > Oct 20, 2020
