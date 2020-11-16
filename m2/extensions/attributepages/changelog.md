@@ -7,6 +7,39 @@ category: Attributepages
 
 # Changelog
 
+### Version 1.3.0
+
+> Nov 16, 2020
+
+ -  [Layered Navigation support added](/m2/extensions/attributepages/attribute-based-page/backend/#option-pages-settings-tab).
+    (If you don't need it for your brand pages, you can disable it at attribute
+    page settings.) Tested on:
+    - Magento_LayeredNavigation
+    - Swissup_AjaxlayeredNavigation
+    - Amasty_Shopby
+ -  [New "Short Description" field added](/m2/extensions/attributepages/option-based-page/backend/#content-tab) for option pages.
+    It may be enabled in "Attributepages: Product Option" widget to show
+    option description at product page.
+ -  [Added ability to apply additional filters](/m2/extensions/attributepages/attribute-based-page/backend/#option-pages-settings-tab)
+    for product list at Option-based pages. This feature allows to create
+    Brand Page filtered by several attributes:
+    "Red Adidas Shoes", "Small Burberry Dresses", etc.
+ -  [Added ability to use placeholders](/m2/extensions/attributepages/attribute-based-page/backend/#option-pages-settings-tab)
+    for Option-based page title: "Red {% raw %}{{var option.label}}{% endraw %} Shoes",
+    "Small {% raw %}{{var option.label}}{% endraw %} Dresses", etc.
+ -  [Added ability to sort brands manually](/m2/extensions/attributepages/attribute-based-page/backend/#options-tab),
+    using sort_order field. Previously brands was sorted aphabetically only.
+ -  Performance improvements when rendering options list.
+ -  Full Page Cache is now automatically invalidates corresonding brand page,
+    when some change is made in backend.
+ -  Breadcrumbs is now using "Title" field. Previously "Page Title" was used, which
+    wasn't intended.
+ -  Brands slider is now using Swiper library instead of SlickCarousel.
+ -  "Title" and "Layout" columns in backend grid are hidden now by default. You
+    can still show them via "Columns" menu above the grid.
+ -  Added mass status action to backend grids.
+ -  Fixed not working search in backend grids.
+
 ### Version 1.2.7
 
 > Aug 5, 2020

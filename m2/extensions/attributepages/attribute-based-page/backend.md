@@ -42,11 +42,12 @@ Attribute page form consists of four tabs:
 - [Page Information](#page-information-tab)
 - [Content](#content-tab)
 - [Display Settings](#display-settings-tab)
+- [Option Pages Settings](#option-pages-settings-tab)
 - [Options](#options-tab)
 
 ##### Page information tab
 
-Page information tab comes with the following fields:
+![Page information tab](/images/m2/attributepages/attribute-based-page/backend/tab-page-information.png)
 
 Field | Description
 :-----|:-----------
@@ -58,7 +59,7 @@ Enabled | Attributepage status
 
 ##### Content tab
 
-Content tab comes with the following fields:
+![Content tab](/images/m2/attributepages/attribute-based-page/backend/tab-content.png)
 
 Field | Description
 :-----|:-----------
@@ -69,7 +70,7 @@ Meta Description | Page Description
 
 ##### Display settings tab
 
-Display settings tab comes with the following fields:
+![Display settings tab](/images/m2/attributepages/attribute-based-page/backend/tab-display-settings.png)
 
 Field | Description
 :-----|:-----------
@@ -82,12 +83,26 @@ Listing Mode | Show as Images or as Links
 Image Width | Image Width
 Image Height | Image Height
 
+##### Option pages settings tab
+
+This tab allows you to configure default settings for option-based pages.
+
+![Option pages settings tab](/images/m2/attributepages/attribute-based-page/backend/tab-option-pages-settings.png)
+
+Field       | Description
+------------|------------
+Title       | Default title. Available Placeholders: `{% raw %}{{var option.label}}, {{var attribute.label}}{% endraw %}`
+Use Layered Navigation | Ability to enable/disable layered navigation.
+Layout      | Choose layout to use at option-based pages.
+Display Mode | Option page display mode (Description and children, Description only, Children only)
+Additional Product Collection Filters | Ability to add additional filters for product list shown at option-based page.
+
 ##### Options tab
 
-Options tab comes with attribute options grid where you can change urls quickly,
-assign images and thumbnails for each of the attribute option (brand).
+Options tab comes with attribute options grid where you can change urls, sort_order,
+and assign images and thumbnails for each of the attribute option (brand).
 
-![Options tab](/images/m2/attributepages/attribute-based-page/backend/tab_options.png)
+![Options tab](/images/m2/attributepages/attribute-based-page/backend/tab-options.png)
 
 Field | Description
 :-----|:-----------
@@ -95,6 +110,7 @@ Exclude from Display | These options(brands) will not be shown at the Attributep
 Url Key | Frontend url, where the page will be available (PAGE_URL/OPTION_URL)
 Image | Image to show at the Attributepage and widgets
 Thumbnail | Image to show, when tiny logo size is needed. See [Use cases](/m2/extensions/attributepages/use-cases/) page.
+Sort Order | Ability to sort options list manually.
 
 ##### Related Articles
 - [Attribute based page frontend screenshots](/m2/extensions/attributepages/attribute-based-page/frontend/)
