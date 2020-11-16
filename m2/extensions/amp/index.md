@@ -22,6 +22,7 @@ Following pages are supported:
 
  -  Homepage
  -  Cms pages
+ -  Contact Us page
  -  Products comparison page
  -  Category
  -  Search results

@@ -8,6 +8,14 @@ category: Accelerated Mobile Pages
 
 # Changelog
 
+### Version 1.4.6
+
+> Nov 16, 2020
+
+  - Added config to exclude URLs from AMP
+  - Added contact us page support
+  - Using the latest FontAwesome version
+
 ### Version 1.4.5
 
 > Sep 23, 2020

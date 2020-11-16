@@ -21,6 +21,7 @@ Enabled | Enable/Disable AMP module
 Persistent browsing | Set "No", and all links on AMP site will direct to normal site
 Use AMP for all supported pages | Set "No" to select supported pages manually
 Use AMP at | Select the pages that will use AMP
+Exclude URLs from AMP | Place URLs which should not be converted to AMP. For example, some third-party modules create product pages which don't work on AMP.
 Force AMP activation on | Allows to force AMP activation for mobile and tablet devices
 
 ### Web
