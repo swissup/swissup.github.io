@@ -8,6 +8,15 @@ category: Email
 
 # Changelog
 
+### Version 0.3.15
+
+> Nov 18, 2020
+
+**Fixes**
+ - Improve exception prepare in check service action (#16)
+ - Fix Laminas many addTo validation warning
+ - Add frontend form validation before 'Check Service' (#16)
+
 ### Version 0.3.14
 
 > Nov 16, 2020
