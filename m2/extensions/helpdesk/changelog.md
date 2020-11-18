@@ -6,6 +6,16 @@ keywords: Helpdesk changelog
 category: Helpdesk
 ---
 
+### Version 1.2.11
+
+> Nov 18, 2020
+
+**Fixes**
+ - Fix unarchive CONSTRAINT errors
+ - Rename AutoClose button
+ - Prevent to delete a department if this department is assigned to the ticket.
+ - Fix 'The department is displayed at the storefront if it disable.'
+
 ### Version 1.2.10
 
 > Nov 13, 2020
