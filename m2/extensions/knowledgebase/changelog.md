@@ -6,9 +6,16 @@ keywords: KnowledgeBase changelog
 category: KnowledgeBase
 ---
 
+### Version 1.0.9
+
+> Nov 19, 2020
+
+**Bugfixes**
+ - Replaced 'Live chat' button to 'contact us' button (close #3)
+
 ### Version 1.0.8
 
-> Oct 18, 2020
+> Nov 18, 2020
 
 **Bugfixes**
  - Fix 'Unable to use faq1... as url for articles' (close #2)
