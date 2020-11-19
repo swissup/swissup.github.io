@@ -8,6 +8,13 @@ category: Email
 
 # Changelog
 
+### Version 0.3.16
+
+> Nov 19, 2020
+
+**Fixes**
+ - Fix sortable some columns in history grid (close #17)
+
 ### Version 0.3.15
 
 > Nov 18, 2020
