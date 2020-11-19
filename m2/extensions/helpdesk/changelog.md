@@ -6,6 +6,15 @@ keywords: Helpdesk changelog
 category: Helpdesk
 ---
 
+### Version 1.2.12
+
+> Nov 19, 2020
+
+**Fixes**
+ - Add dynamic_id:true in wysiwig for fix hiding broken 'Show/Hide Editor' (close #33)
+ - Hide My Tickets tab in account if extension disabled
+ - Fix :Column 'created_at' in where clause is ambiguous
+
 ### Version 1.2.11
 
 > Nov 18, 2020
