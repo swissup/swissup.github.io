@@ -6,6 +6,13 @@ keywords: Helpdesk changelog
 category: Helpdesk
 ---
 
+### Version 1.2.13
+
+> Nov 20, 2020
+
+**Fixes**
+ - Fix: disable strong email hostname validation (close #34)
+
 ### Version 1.2.12
 
 > Nov 19, 2020
