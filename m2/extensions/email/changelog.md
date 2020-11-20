@@ -8,6 +8,13 @@ category: Email
 
 # Changelog
 
+### Version 0.3.17
+
+> Nov 20, 2020
+
+**Fixes**
+ - Fix:php 7.4 base_convert Deprecated Functionality: Invalid characters passed for attempted conversion (close #18)
+
 ### Version 0.3.16
 
 > Nov 19, 2020
