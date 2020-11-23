@@ -7,6 +7,13 @@ category: Delivery Date
 
 # Changelog
 
+### Version 1.5.5
+
+> Nov 23, 2020
+
+ -  Fixed invalid date for holidays in frontend calendar when server's default
+    timezone is not UTC.
+
 ### Version 1.5.3
 
 > Sep 24, 2020
