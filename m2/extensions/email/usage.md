@@ -23,10 +23,14 @@ category: Email
     - Fill all required fields
     - Before enabling you have to click `Save and Continue` and `Check service` buttons
     - Enable/Disable
-![example](https://user-images.githubusercontent.com/412612/40238625-6bdf426c-5abc-11e8-98ca-9b459efa3fa4.png)
 
-> If field Type select Gmail.
-> Use an [App Password](https://security.google.com/settings/security/apppasswords): Generate new App Password for your account. https://security.google.com/settings/security/apppasswords
+### Gmail service setup
+
+> If Type selects Gmail.
+> Use an [App Password](https://security.google.com/settings/security/apppasswords): Generate a new App Password for your Gmail account. https://security.google.com/settings/security/apppasswords
+> [Sign in with App Passwords](https://support.google.com/accounts/answer/185833)
+
+![example](https://user-images.githubusercontent.com/412612/40238625-6bdf426c-5abc-11e8-98ca-9b459efa3fa4.png)
 
  4. Navigate to
 
