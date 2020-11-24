@@ -8,6 +8,14 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.25.2
+
+> Nov 24, 2020
+
+ -  Fixed unable to place order when some invalid field is found in hidden popup.
+ -  Move shipping methods notice to the top of the shipping methods section.
+ -  Tippyjs library updated to the latest version.
+
 ### Version 1.25.1
 
 > Nov 12, 2020

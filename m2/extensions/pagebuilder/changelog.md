@@ -8,6 +8,14 @@ category: Pagebuilder
 
 # Changelog
 
+### Version 1.0.2
+
+> Nov 24, 2020
+
+ -  Fixed not working Pagebuilder when Pagespeed module removes all comments.
+ -  Fixed php error on section save after image upload in Magento 2.4.1.
+ -  Tippyjs updated to the latest version.
+
 ### Version 1.0.1
 
 > Oct 20, 2020
