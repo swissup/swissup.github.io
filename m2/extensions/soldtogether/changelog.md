@@ -8,6 +8,13 @@ category: SoldTogether
 
 # Changelog
 
+### Version 1.7.5
+
+> Nov 23, 2020
+
+  - Fixed incompatibility with Magento FPC.
+  - Fixed ..\Renderer\Configurable doesn't exists. Compatibility with M2.3.2
+
 ### Version 1.7.2
 
 > Nov 16, 2020
