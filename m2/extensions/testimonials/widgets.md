@@ -12,7 +12,7 @@ There are following widget types are available:
 
 Type                                            | Description
 ------------------------------------------------|------------
-Swissup\Testimonials\Block\Widgets\Slider       | Testimonals Slider for content area powered by [Slick Carousel](/m2/extensions/slick-carousel/)
+Swissup\Testimonials\Block\Widgets\Slider       | Testimonals Slider for content area powered by [Swiper](https://github.com/swissup/module-swiper)
 Swissup\Testimonials\Block\Widgets\SideList     | Animated testimonials list block for side panel.
 Swissup\Testimonials\Block\Widgets\SideReview   | Review block for side panel.
 Swissup\Testimonials\Block\TestimonialsList     | Full testimonials list to use on custom CMS page.
@@ -28,14 +28,14 @@ Swissup\Testimonials\Block\Widgets\Form         | Testimonial form to use on cus
 
 ### Testimonials slider widget
 
-Shows testimonials slider powered by [Slick Carousel](/m2/extensions/slick-carousel/)
+Shows testimonials slider powered by [Swiper](https://github.com/swissup/module-swiper)
 
 ![Slider Widget](/images/m2/testimonials/frontend/widgets/slider.gif)
 
  *  Using widget:
 
 ```txt
-{% raw %}{{widget type="Swissup\Testimonials\Block\Widgets\Slider" items_number="6"}}{% endraw %}
+{% raw %}{{widget type="Swissup\Testimonials\Block\Widgets\Slider" items_number="6" title="Our clients love us" slides_to_show="3" show_rating="0" img_width="349" img_height="394"}}{% endraw %}
 ```
 
  *  Using layout XML:
@@ -45,6 +45,7 @@ Shows testimonials slider powered by [Slick Carousel](/m2/extensions/slick-carou
     <block class="Swissup\Testimonials\Block\Widgets\Slider" name="testimonials-slider">
         <arguments>
             <argument name="items_number" xsi:type="string">6</argument>
+            <argument name="slides_to_show" xsi:type="string">3</argument>
         </arguments>
     </block>
 </referenceContainer>
@@ -52,7 +53,11 @@ Shows testimonials slider powered by [Slick Carousel](/m2/extensions/slick-carou
 
 Options:
 
-- `items_number` - number of testimonials to show.
+- `items_number` - total number of testimonials to show in slider.
+- `slides_to_show` - number of testimonials visible per slide.
+- `show_rating` - display rating stars.
+- `title` - slider block title.
+- `img_width`/`img_height` - set size of the testimonial image.
 
 ### Animated list widget
 
