@@ -7,6 +7,14 @@ category: Delivery Date
 
 # Changelog
 
+### Version 1.5.6
+
+> Nov 25, 2020
+
+ -  Hide "Delivery Date" column in orders grid by default. You can bring it back
+    with "Columns" button above the grid.
+ -  Added ability to sort and filter by "Delivery Date" column in orders grid.
+
 ### Version 1.5.5
 
 > Nov 23, 2020
