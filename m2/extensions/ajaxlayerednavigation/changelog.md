@@ -7,6 +7,16 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.3.31
+
+> Nov 25, 2020
+
+**Bugfixes**
+ - Fix multiple behaviors enabled on mobile
+
+**Improvments**
+ - Add range slider for price type custom filters (close #63)
+
 ### Version 1.3.30
 
 > Nov 13, 2020
