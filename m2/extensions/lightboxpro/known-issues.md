@@ -8,11 +8,6 @@ category: Lightbox Pro
 
 # Known Issues
 
-### Magento_ProductVideo/js/fotorama-add-video-events rewrite
-
-Lightbox Pro rewrites `Magento_ProductVideo/js/fotorama-add-video-events` to fix gallery
-issues on configurable product pages. This issue was fixed in Magento versions 2.2.4 and 2.1.13.
-
 ### Magento Magnifier Widget
 
 Zoom feature does not work when using multiple galleries on same page, because
@@ -20,4 +15,4 @@ Zoom feature does not work when using multiple galleries on same page, because
 
 Because of this issue, using gallery widget on product page is not recommended.
 
-[magnifier_widget]: http://devdocs.magento.com/guides/v2.2/javascript-dev-guide/widgets/widget_gallery_mg.html
+[magnifier_widget]: https://devdocs.magento.com/guides/v2.4/javascript-dev-guide/widgets/widget_gallery_mg.html
