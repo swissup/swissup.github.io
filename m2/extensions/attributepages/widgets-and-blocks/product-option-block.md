@@ -75,4 +75,4 @@ following layout update instructions:
 ##### Related articles
 
 - [Product option helper](/m2/extensions/attributepages/widgets-and-blocks/product-option-helper/)
-- [Display brand block on product page](/m2/extensions/attributepages/use-cases/brand-block-on-product-page/#inline-block-directive)
+- [Display brand block on product page](/m2/extensions/attributepages/use-cases/blocks-on-product-page/)
