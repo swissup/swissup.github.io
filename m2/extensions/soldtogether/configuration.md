@@ -13,9 +13,9 @@ category: SoldTogether
 {:toc}
 
 You can configure module at
-_Stores_ 🡪 _Configuration_ 🡪 _Swissup_ 🡪 _SoldTogether_ page.
+_Stores_ / _Configuration_ / _Swissup_ / _SoldTogether_ page.
 
-![Settings](/images/m2/soldtogether/config.png)
+![Settings](/images/m2/soldtogether/config-v2.png)
 
 ### Frequently Bought Together
 

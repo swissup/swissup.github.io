@@ -8,6 +8,13 @@ category: SoldTogether
 
 # Changelog
 
+### Version 1.7.6
+
+> Nov 25, 2020
+
+  - ADA compliant fixes and templates refactoring.
+  - Improved swatches integration. Update product picture for "Frequently bought together..." block with Stripe layout.
+
 ### Version 1.7.5
 
 > Nov 23, 2020
