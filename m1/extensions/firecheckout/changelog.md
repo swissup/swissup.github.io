@@ -7,6 +7,16 @@ category: Firecheckout
 
 # Changelog
 
+### Version 4.4.4
+
+> Nov 25, 2020
+
+ -  Inovarti_Iugu integration added.
+ -  Fixed js error when Netresearch_Ops module is used.
+ -  Fixed php error in logs when old Cryozonic_Stripe module is used.
+ -  Fixed mistakenly visible loading spinner when Wallee_Payment is used.
+ -  Updated integration with Iways_PaypalPlus when onecolumn layout is used.
+
 ### Version 4.4.3
 
 > Jun 16, 2020
