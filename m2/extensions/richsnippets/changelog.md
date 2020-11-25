@@ -8,6 +8,12 @@ category: Rich Snippets
 
 # Changelog
 
+### Version 1.4.11
+
+> Nov 25, 2020
+
+  - Price Valid Untill can be dynamic date - offset from today.
+
 ### Version 1.4.10
 
 > Jun 24, 2020
