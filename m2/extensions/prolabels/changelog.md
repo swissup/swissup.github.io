@@ -8,6 +8,15 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.5.14
+
+> Nov 26, 2020
+
+  - Fixed PHP error for manual label save after image upload in Magento 2.4.1
+  - Fixed incorrect stock qty for stock label. Latest MSI compatibility.
+  - Fixed for discount percent and discount amount for Bundle product.
+  - Minor ADA compatibility fix.
+
 ### Version 1.5.10
 
 > Sep 23, 2020
