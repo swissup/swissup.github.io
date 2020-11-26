@@ -8,6 +8,13 @@ category: Highlight
 
 # Changelog
 
+### Version 1.6.6
+
+> Nov 26, 2020
+
+  - Replaced slick carousel with swiper.
+  - Few style fixes and improvements.
+
 ### Version 1.6.3
 
 > Aug 5, 2020
