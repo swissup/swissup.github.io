@@ -7,6 +7,57 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.21.0
+
+> Nov 26, 2020
+
+  - Configurable header in theme editor added to all themes.
+  - Completed migration for all themes from Slick Carousel to Swiper.
+  - Fixed sticky top menu jumpeed to bottom of the page at some point. Such issue occured when page length increased (via ajax or any other javascript).
+  - Fixed translation for Related products sidebar title.
+  - Improved animation for navigation at RTL stores on mobile devices.
+  - Overall improvements for CSS and JavaScript 
+  
+**Extensions Updates**
+
+  - [Ajax Pro](/m2/extensions/ajaxpro/) — 1.5.14 (was 1.5.13)
+    * Fixes floating cart.
+    
+  - [AMP](/m2/extensions/amp/) — 1.4.6 (was 1.4.5)
+    * Added contact us page support.
+    * Added config to exclude URLs from AMP.
+    * Use the latest FontAwesome version.
+    * Disabled GDPR form validation on AMP.
+
+  - [Attribute Pages](/m2/extensions/attributepages/) — 1.3.2 (was 1.2.7)
+  
+    * [Layered Navigation support added](/m2/extensions/attributepages/attribute-based-page/backend/#option-pages-settings-tab). (If you don't need it for your brand pages, you can disable it at attribute page settings.) Tested on:
+      - Magento_LayeredNavigation
+      - Swissup_AjaxlayeredNavigation
+      - Amasty_Shopby
+    * [New "Short Description" field added](/m2/extensions/attributepages/option-based-page/backend/#content-tab) for option pages.
+    It may be enabled in "Attributepages: Product Option" widget to show
+    option description at product page.
+    * [Added ability to apply additional filters](/m2/extensions/attributepages/attribute-based-page/backend/#option-pages-settings-tab)
+    for product list at Option-based pages. This feature allows to create
+    Brand Page filtered by several attributes:
+    "Red Adidas Shoes", "Small Burberry Dresses", etc.
+    * [Added ability to use placeholders](/m2/extensions/attributepages/attribute-based-page/backend/#option-pages-settings-tab)
+    for Option-based page title: "Red {% raw %}{{var option.label}}{% endraw %} Shoes",
+    "Small {% raw %}{{var option.label}}{% endraw %} Dresses", etc.
+    * [Added ability to sort brands manually](/m2/extensions/attributepages/attribute-based-page/backend/#options-tab),
+    using sort_order field. Previously brands was sorted aphabetically only.
+    * Performance improvements when rendering options list.
+    * Full Page Cache is now automatically invalidates corresonding brand page,
+    when some change is made in backend.
+    * Breadcrumbs is now using "Title" field. Previously "Page Title" was used, which
+    wasn't intended.
+    * Brands slider is now using Swiper library instead of SlickCarousel.
+    * "Title" and "Layout" columns in backend grid are hidden now by default. You
+    can still show them via "Columns" menu above the grid.
+    * Added mass status action to backend grids.
+    * Fixed not working search in backend grids.
+    
 ### Version 1.20.1
 
 > Oct 19, 2020
