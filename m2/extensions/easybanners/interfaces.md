@@ -97,8 +97,9 @@ Title                   | Image title
 Width                   | Width (px), optional
 Height                  | Height (px), optional
 Use Image Resizer       | Ability to use backend resizer instead of css styles. Width and Height are required to make it visible
-Retina Support          | When enabled, a sharp, double sized image will be served for retina displays. Make sure ypu upload a large image to resize.
 Background Color        | Will be used when you want to resize image without keeping original aspect ratio
+Use Responsive Images   | Ability to set different banner size per screen size. This feature allows to improve pagespeed score when properly configured.
+Sizes                   | Media rules use use when generating responsive images.
 
 ###### Html Content Region
 
