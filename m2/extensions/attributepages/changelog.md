@@ -7,6 +7,13 @@ category: Attributepages
 
 # Changelog
 
+### Version 1.3.2
+
+> Nov 26, 2020
+
+  - Fixed wrong options sort order when create new brand page.
+  - Fixed non-seo links when 'Use Categories Path for Product URLs' is enabled.
+
 ### Version 1.3.0
 
 > Nov 16, 2020
