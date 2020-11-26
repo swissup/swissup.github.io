@@ -8,6 +8,45 @@ category: SEO Suite
 
 # Changelog
 
+### Version 1.9.5
+
+> Nov 26, 2020
+
+*swissup/module-hreflang — 1.4.3 (was 1.4.2)*
+
+  - Fixed incorrect product URL for other stores in hreflang block.
+  
+*swissup/module-rich-snippets — 1.4.11 (was 1.4.10)*
+
+  - "Price Valid Until" can be dynamic date - offset from today.
+  - Code refactoring.
+  
+*swissup/module-seo-canonical — 1.0.8 (was 1.0.7)*
+
+  - Fixed incoppert canonical URL for product when its parent is disabled.
+  
+*swissup/module-seo-core — 1.2.5 (was 1.2.4)*
+
+  - PHP 7.4 compatibility fix - deprecated passing glue string after array with implode.
+  
+*swissup/module-seo-images — 1.3.7 (was 1.3.6)*
+
+  - Improve module stability. Prevent DB exception - integrity constraint violation.
+  
+*swissup/module-seo-templates — 1.5.16 (was 1.5.13)*
+
+  - Fixed missing generated metadata on category page for viewed category.
+  - Slightly speed up template generating.
+  - Remove cron task and CLI command. Use indexes instead and `bin/magento indexer:reinder [index_id]`.
+  - Categories directive - don't include root category in result when template is created on 'All Store Views' level.
+  
+*swissup/module-seo-urls — 1.5.22 (was 1.5.16)*
+
+  - Fixed array_flip warning during reindex.
+  - Option to use direct URL to subcategory in category filter. Enabled by default.
+  - Fixed filter urls with other storeview code at catalog search page.
+  - Fixed hreflangs at catgeory pages when filter applied. It still added store code to URL even when hreflang option set not to do so.
+
 ### Version 1.9.4
 
 > Aug 1, 2020
