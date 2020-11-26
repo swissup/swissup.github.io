@@ -8,6 +8,12 @@ category: Easy Flags
 
 # Changelog
 
+### Version 1.3.5
+
+> Nov 26, 2020
+
+  - Fixed php error when uploading image in Magento 2.4.1 at edit storeview form.
+
 ### Version 1.3.4
 
 > Oct 19, 2020
