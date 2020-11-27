@@ -7,6 +7,13 @@ category: Delivery Date
 
 # Changelog
 
+### Version 1.5.7
+
+> Nov 27, 2020
+
+ -  Fixed not working holidays for 1, 2, and 3 days of the month. This bug
+    was accidently produced in version 1.5.5.
+
 ### Version 1.5.6
 
 > Nov 25, 2020
