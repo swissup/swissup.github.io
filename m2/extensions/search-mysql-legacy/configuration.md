@@ -8,7 +8,7 @@ category: Legacy Mysql Search
 
 # Legacy Mysql Search Setup
 
-`Store > Configuration` > `Catalog > Catalog > Catalog Search`
+`Store → Configuration` > `Catalog → Catalog → Catalog Search`
 
 ### Catalog Search
 
