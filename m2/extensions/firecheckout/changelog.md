@@ -8,6 +8,13 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.25.3
+
+> Nov 27, 2020
+
+ -  Fixed error when Paypal Express Checkout popup was shown when customer
+    didn't checked all of required terms and conditions.
+
 ### Version 1.25.2
 
 > Nov 24, 2020
