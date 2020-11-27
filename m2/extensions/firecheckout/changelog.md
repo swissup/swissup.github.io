@@ -14,6 +14,15 @@ category: Firecheckout
 
  -  Fixed error when Paypal Express Checkout popup was shown when customer
     didn't checked all of required terms and conditions.
+ -  Improved scroll to "missing shipping method" error when placing order.
+
+**Module Updates**
+
+**swissup/module-delivery-date**
+
+ -  Fixed not working excluded first, seconds, and third days of the month.
+ -  Added filter and sort by delivery date column in orders grid.
+ -  Fixed invalid holiday date in calendar when default timezone is not UTC
 
 ### Version 1.25.2
 
