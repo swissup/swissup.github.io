@@ -15,7 +15,7 @@ category: Legacy Mysql Search
 ![Catalog Search Section](/images/m2/search-mysql-legacy/configuration/catalogsearch.png)
 
 Option         | Description
----------------|----------------------------------------------------------------
+---------------|----------------------------------
 Search Engine  | Select Legacy MySQL (Deprecated)
 
 
