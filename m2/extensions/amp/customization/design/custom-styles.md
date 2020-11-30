@@ -22,7 +22,7 @@ Extension provides easy and quick way to customize styles without worrying about
 > and it will be automatically included by amp.
 >
 > This allows you to keep original files clean and upgrade to the latest
-> amp version without worrying to lost your changes.
+> amp version without worrying to lose your changes.
 
 Customization can be accomplished with two custom files:
 
