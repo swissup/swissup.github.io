@@ -8,6 +8,13 @@ category: Pagebuilder
 
 # Changelog
 
+### Version 1.0.3
+
+> Dec 1, 2020
+
+ -  Magento 2.4: Fixed buggy users selector when trying to select more than 1 pagebuilder user.
+ -  Don't show file preview in logo and other image related editors when filename is empty.
+
 ### Version 1.0.2
 
 > Nov 24, 2020
