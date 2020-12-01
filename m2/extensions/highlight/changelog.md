@@ -8,6 +8,13 @@ category: Highlight
 
 # Changelog
 
+### Version 1.7.0
+
+> Dec 1, 2020
+
+  - Added ability to [set description and meta tags](/m2/extensions/highlight/pages/#settings)
+    for highlight pages.
+
 ### Version 1.6.6
 
 > Nov 26, 2020
