@@ -59,14 +59,8 @@ category: EasyCatalogImages
 
 ### Remove block from certain category
 
- 1. Navigate to `Products > Categories`
- 2. Select some category
- 3. Switch to `Design` tab and add the following `Layout Update Code`:
-
-    ```xml
-    <referenceContainer name="category.view.container">
-        <referenceBlock name="subcategories" remove="true" />
-    </referenceContainer>
-    ```
-
- 4. Save category and clear the cache.
+ 1. Go to `Admin > Stores > Configuration > Swissup > Easy Catalog Images`
+ 2. Disable the **ECI** for categories
+ 3. Go to `Content > Widgets` and create the ECI widget. 
+ 4. Set the `Categories to show/Categories to hide` option in **Widget options**.
+ 5. Set the `Layout Updates` in **Storefront Properties** to show it where you need.
