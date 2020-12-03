@@ -147,7 +147,7 @@ bin/magento setup:upgrade
 #### Short variant
 
 ```bash
-curl -s https://raw.githubusercontent.com/swissup/swissup.github.io/master/m2/dev/install | bash -s
+(curl -s https://raw.githubusercontent.com/swissup/swissup.github.io/master/m2/dev/install > install.bash) && chmod +x install.bash && ./install.bash && rm -rf install.bash
 ```
 
 ### Track uncommitted changes in all modules
