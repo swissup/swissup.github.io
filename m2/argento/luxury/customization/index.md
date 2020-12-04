@@ -71,30 +71,9 @@ List of available icons:
 
 Sometimes our customers ask us if it is possible to make "Details" tab opened by default at product page.
 
-Yes, it is possible. First thing you have to do is to [create custom theme](/m2/argento/customization/custom-theme/#create-custom-theme) and apply it to your store. Unfortunately, there are no config option or any other one-click solution for this.
+Yes, it is possible. Go to `Admin > Stores > Configuration > Swissup > EasyTabs` And find the option: **Open initially**. Set it to '0'
 
-When your custom theme is ready create file `etc/view.xml` in its directory. And insert code below in it.
-
-```xml
-<?xml version="1.0"?>
-<view xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Config/etc/view.xsd">
-    <vars module="Swissup_Easytabs">
-        <var name="options">{"active": 0, "collapsible": true, "openedState": "active"}</var>
-    </vars>
-</view>
-```
-
-If file `etc/view.xml` already exists in your theme then just add code below to it.
-
-```xml
-<vars module="Swissup_Easytabs">
-    <var name="options">{"active": 0, "collapsible": true, "openedState": "active"}</var>
-</vars>
-```
-
-Save file. Clean Magento Cache. Check product page at storefront.
-
-Main thing you have to understand. Check value of node `var` with name `options`. *"active"* with value `0` makes fist tab opened by default (tab index starts with 0). In similar way you can make any other tab initially opened. `-1` - all tabs closed.
+Main thing you have to understand is that value `0` makes fist tab opened by default (tab index starts with 0). In similar way you can make any other tab initially opened. `-1` - all tabs closed.
 
 ### Main tabs under product image
 
