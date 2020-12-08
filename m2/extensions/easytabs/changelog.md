@@ -8,6 +8,12 @@ category: Easy Tabs
 
 # Changelog
 
+### Version 1.9.5
+
+> Dec 8, 2020
+
+ -  [Swissup_Pagebuilder](/m2/extensions/pagebuilder/) integration.
+
 ### Version 1.9.4
 
 > Nov 26, 2020
