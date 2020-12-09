@@ -36,7 +36,7 @@ You can also insert Easy Slider block in your Pages and Blocks with next code
 
 {% raw %}{{block type="Swissup\\EasySlide\\Block\\Slider" name="easyslide.slider.name" identifier="slider-config-identifier" }}{% endraw %}
 
-### Missing styles at Magento 2 theme
+#### Missing styles at Magento 2 theme
 
 It can occure at Zemez or Ecomwares themes.
 
