@@ -8,6 +8,12 @@ category: PDF Invoices
 
 # Changelog
 
+### Version 1.3.1
+
+> Dec 14, 2020
+
+ -  Added two new PDF template designs in the style of Argento Stripes and Luxury themes
+
 ### Version 1.3.0
 
 > Nov 5, 2020
