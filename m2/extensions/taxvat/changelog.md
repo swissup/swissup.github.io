@@ -12,10 +12,9 @@ category: Checkout VAT
 
 > Dec 17, 2020
 
-This release fixes validation at multistep checkout. However, because of bug in
-Magento, you can't create an account during multistep checkout. If you are using
-Multistep checkout and allow customers to register during multishipping checkout
-you must apply the following patches:
+This release fixes validation at multishipping checkout. However, because of bug in
+Magento, you can't create an account during multishipping checkout. If you use it and
+allow customers to register during multishipping checkout you must apply the following patches:
 
  - [31321](https://github.com/magento/magento2/pull/31321) - will add "VAT Number"
 field to the customer registration page.
