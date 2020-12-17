@@ -8,6 +8,29 @@ category: Checkout VAT
 
 # Changelog
 
+### Version 1.4.0
+
+> Dec 17, 2020
+
+This release fixes validation at multistep checkout. However, because of bug in
+Magento, you can't create an account during multistep checkout. If you are using
+Multistep checkout and allow customers to register during multishipping checkout
+you must apply the following patches:
+
+ - [31321](https://github.com/magento/magento2/pull/31321) - will add "VAT Number"
+field to the customer registration page.
+ - [31318](https://github.com/magento/magento2/pull/31318) - will fix error during
+registration if entered Vat Number is invalid.
+
+**Changes**
+
+ -  **Magento 2.2.x and older are not supported anymore** because of updated
+    taxvat validation logic. We started using built-in
+    `Magento\Customer\Model\Address\CompositeValidator` to validate taxvat.
+ -  Fixed ability to place order with empty "Tax Number" field despite of
+    [config value](/m2/extensions/taxvat/configuration/#general-section)
+    when using multishipping checkout.
+
 ### Version 1.3.2
 
 > Oct 29, 2020
