@@ -18,21 +18,25 @@ There are three ways to generate metadata:
 
 ### CLI Command
 
-> Since module version 1.5.0.
+> Since version 1.5.16 available indexes.
 
-It is possible to generate metadata with **bin\magento** command.
+When you need to regenerate metadata via console please use **bin\magento indexer:reindex [index_id]** command.
 
 ```bash
-bin/magento swissup:seotemplates:generate
+bin/magento indexer:reindex swissup_seotemplates_category
+bin/magento indexer:reindex swissup_seotemplates_product
 ```
 
-Command help:
+> Since module version 1.5.0.
 
-![CLI command help](/images/m2/seo-templates/cli/help.png)
+> REMOVED IN 1.5.16!!!
 
-Command output example:
+~~It is possible to generate metadata with **bin\magento** command.~~
 
-![CLI command example](/images/m2/seo-templates/cli/example.png)
+```bash
+# Removed in 1.5.16. Use indexer instead.
+bin/magento swissup:seotemplates:generate
+```
 
 ### Via Magento Admin interface
 
