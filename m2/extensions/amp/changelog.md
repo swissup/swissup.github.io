@@ -8,6 +8,12 @@ category: Accelerated Mobile Pages
 
 # Changelog
 
+### Version 1.4.8
+
+> Dec 22, 2020
+
+  - Added custom styles field in module backend configuration
+
 ### Version 1.4.6
 
 > Nov 16, 2020

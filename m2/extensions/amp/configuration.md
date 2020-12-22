@@ -49,6 +49,13 @@ Option | Description
 -------|------------
 Disable Layered Navigation | You can disable layered navigation on AMP if your store uses extension which does not work without javascript
 
+### Customization
+
+![Customization](/images/m2/amp/configuration/section-customization.png)
+
+In the `Custom Styles` field you can place styles which will be included on AMP.
+CSS and SCSS syntax supported.
+
 ##### Next Up
 
  -  [Back to Home](/m2/extensions/amp/)
