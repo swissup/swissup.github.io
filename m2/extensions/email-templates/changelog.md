@@ -8,6 +8,27 @@ category: Email Templates
 
 # Changelog
 
+### Version 1.1.0
+
+> Dec 24, 2020
+
+  - New cool feature - email designs. Easy to apply email design. Check ["Apply Email Design"](../apply-design/) article.
+  - Add store view selector in email preview.
+
+### Version 1.0.5
+
+> Dec 3, 2020
+
+  - Prevent PHP error in email preview when there are no frontend customers.
+  - One more update to order template for Magento 2.3.x and Magento 2.4.x.
+
+### Version 1.0.4
+
+> Dec 2, 2020
+
+  - Add missing module-codemirror requirement.
+  - Update order template to work with Magento 2.3.x and Magento 2.4.x.
+
 ### Version 1.0.3
 
 > Dec 2, 2020
