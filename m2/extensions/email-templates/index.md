@@ -16,6 +16,8 @@ Magento2 module provides better experience with email templates editing. It has 
 
 Module features:
 
+ -  5 unique email designs (Simple Blue, Argento Force, Argento Home, Argento Luxury and Argento Stripes);
+ -  designs are easy to change;
  -  add product images to ordered items list in email;
  -  add custom css for all old and new email templates you have;
  -  simple way to insert images.
@@ -25,5 +27,6 @@ Module features:
  1. [Installation](installation/)
  2. [Changelog](changelog/)
  3. [Configuration](configuration/)
- 4. [Edit Template](edit/)
- 5. [Use cases](use-cases/)
+ 4. [Apply design](apply-design/)
+ 5. [Edit Template](edit/)
+ 6. [Use cases](use-cases/)
