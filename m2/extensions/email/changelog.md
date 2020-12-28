@@ -8,6 +8,37 @@ category: Email
 
 # Changelog
 
+### Version 0.3.17
+
+> Nov 20, 2020
+
+**Fixes**
+ - Fix:php 7.4 base_convert Deprecated Functionality: Invalid characters passed for attempted conversion (close #18)
+
+### Version 0.3.16
+
+> Nov 19, 2020
+
+**Fixes**
+ - Fix sortable some columns in history grid (close #17)
+
+### Version 0.3.15
+
+> Nov 18, 2020
+
+**Fixes**
+ - Improve exception prepare in check service action (#16)
+ - Fix Laminas many addTo validation warning
+ - Add frontend form validation before 'Check Service' (#16)
+
+### Version 0.3.14
+
+> Nov 16, 2020
+
+**Fixes**
+ - Move slm/mail and aws packages to 'optional' dependencies (#15)
+ - Fix code styles improvments (magento/magento-coding-standard)
+
 ### Version 0.3.13
 
 > Oct 30, 2020

@@ -11,6 +11,8 @@ category: Attributepages
 Product option block could be used to show the brand logo (or any other attribute)
 **for a single product** with php, layout xml update or widget interface.
 
+![Attribute based pages frontend](/images/m2/attributepages/use-cases/activity_and_material_blocks_on_product_page.png)
+
 > It's not recommended to use the block for a product collection. Use specially optimized
 > [product option helper](/m2/extensions/attributepages/widgets-and-blocks/product-option-helper)
 > for collections.
@@ -73,4 +75,4 @@ following layout update instructions:
 ##### Related articles
 
 - [Product option helper](/m2/extensions/attributepages/widgets-and-blocks/product-option-helper/)
-- [Display brand block on product page](/m2/extensions/attributepages/use-cases/brand-block-on-product-page/#inline-block-directive)
+- [Display brand block on product page](/m2/extensions/attributepages/use-cases/blocks-on-product-page/)

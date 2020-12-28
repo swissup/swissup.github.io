@@ -6,6 +6,28 @@ keywords: KnowledgeBase changelog
 category: KnowledgeBase
 ---
 
+### Version 1.0.9
+
+> Nov 19, 2020
+
+**Bugfixes**
+ - Replaced 'Live chat' button to 'contact us' button (close #3)
+
+### Version 1.0.8
+
+> Nov 18, 2020
+
+**Bugfixes**
+ - Fix 'Unable to use faq1... as url for articles' (close #2)
+ - Fix 'Disabled articles are shown in Category title popup' (#2)
+
+### Version 1.0.7
+
+> Oct 6, 2020
+
+**Bugfixes**
+ - Fixed FK error during setup:upgrade (added db_schema_whitelist.json)
+ - Fixed back button position on question page
 
 ### Version 1.0.6
 

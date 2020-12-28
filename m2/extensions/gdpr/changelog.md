@@ -8,6 +8,16 @@ category: GDPR
 
 # Changelog
 
+### Version 1.3.17
+
+> Nov 26, 2020
+
+  - Do not send email notifications (order status update, newsletter, review reminders)
+    to anonymized email addresses.
+  - Fixed possible disappeared message after add to cart. It prevents magneto from updating customer sections after registring unknown cookie.
+  - Decrease number of ajax requests if some module write cookies multiple times.
+  - Fixed margin for newsletter consent at RTL locales.
+
 ### Version 1.3.14
 
 > Oct 27, 2020

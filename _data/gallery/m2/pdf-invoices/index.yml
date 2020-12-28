@@ -1,3 +1,13 @@
+- href: /images/m2/pdf-invoices/frontend/invoice-stripes.png
+  src: /images/m2/pdf-invoices/frontend/small/invoice-stripes.png
+  title: Invoice PDF Template - Stripes Design
+  w: 1000
+  h: 1414
+- href: /images/m2/pdf-invoices/frontend/invoice-luxury.png
+  src: /images/m2/pdf-invoices/frontend/small/invoice-luxury.png
+  title: Invoice PDF Template - Luxury Design
+  w: 1000
+  h: 1414
 - href: /images/m2/pdf-invoices/frontend/invoice.png
   src: /images/m2/pdf-invoices/frontend/small/invoice.png
   title: Invoice PDF Template - Force Design

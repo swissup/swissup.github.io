@@ -36,8 +36,12 @@ Slideout menu just reveal it for desktop devices with simple CSS styles.
 
  3. Save the form. Now you can open your store frontend and check if everything
     works fine.
- 4. If you need to apply some CSS for this type of menu, use 'Custom CSS Styles'
-    field in [Menu Settings](/m2/extensions/navigationpro/backend/menu-settings/).
+ 4. Pay attention to [Modifiers field](/m2/extensions/navigationpro/backend/menu-settings/).
+    It allows to enable one of the Slideout Menu variations: Accordion, Ribbon, Stacked:
+
+    > You can also uncheck all variations and use simple dropdown styles.
+
+    ![Dropdown Types](/images/m2/navigationpro/slideout/dropdown-type.png)
 
 ### Third-party themes integration
 

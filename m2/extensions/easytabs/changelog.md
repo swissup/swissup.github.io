@@ -8,6 +8,18 @@ category: Easy Tabs
 
 # Changelog
 
+### Version 1.9.5
+
+> Dec 8, 2020
+
+ -  [Swissup_Pagebuilder](/m2/extensions/pagebuilder/) integration.
+
+### Version 1.9.4
+
+> Nov 26, 2020
+
+  - Fixed "Your session has expired" error message when ajax tab has product listing.
+
 ### Version 1.9.3
 
 > Oct 13, 2020

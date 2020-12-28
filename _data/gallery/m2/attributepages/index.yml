@@ -1,0 +1,30 @@
+- href: /images/m2/attributepages/attribute-based-page/frontend/top_fashion_brands.png
+  src: /images/m2/attributepages/attribute-based-page/frontend/small/top_fashion_brands.png
+  alt: Brands page with a brands logos
+  w: 1018
+  h: 620
+- href: /images/m2/attributepages/attribute-based-page/frontend/book_authors.png
+  src: /images/m2/attributepages/attribute-based-page/frontend/small/book_authors.png
+  alt: Book authors page grouped by first letter
+  w: 1100
+  h: 800
+- href: /images/m2/attributepages/option-based-page/frontend/athletic_activity.png
+  src: /images/m2/attributepages/option-based-page/frontend/small/athletic_activity.png
+  alt: Product list filtered by activity attribute
+  w: 1116
+  h: 981
+- href: /images/m2/attributepages/option-based-page/frontend/brand_history_page.png
+  src: /images/m2/attributepages/option-based-page/frontend/small/brand_history_page.png
+  alt: Landing page based on brand attribute
+  w: 986
+  h: 933
+- href: /images/m2/attributepages/use-cases/activity_and_material_blocks_on_product_page.png
+  src: /images/m2/attributepages/use-cases/small/activity_and_material_blocks_on_product_page.png
+  alt: Product Option Widget at Product Page
+  w: 800
+  h: 450
+- href: /images/m2/attributepages/use-cases/activity_block_on_category_page.png
+  src: /images/m2/attributepages/use-cases/small/activity_block_on_category_page.png
+  alt: Product Options at Category Page
+  w: 810
+  h: 460

@@ -7,6 +7,185 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.22.0
+
+> Dec 22, 2020
+
+  - Elements pages and styles added to Stripes and Luxury designs
+  - Added less variables for footer bottom links
+  - Added logos for transactional emails
+  - Fixed an error in the related block on product pages
+  - Added GDPR for review reminder module
+  - _Argento Essence:_ homepage tabs now built with EasyTabs widget
+  - _Argento Pure:_ removed base64 image backgrounds
+  - _Argento Force:_ added copyright in the footer, Navigation Pro style fixes
+  - _Argento Home:_ improved styles for different tabs layouts
+
+**Extensions Updates**
+
+  - [Ajax Pro](/m2/extensions/ajaxpro/) — 1.5.15 (was 1.5.14)
+      + Fixed add to cart when flat catalog enabled
+
+  - [Ajax Search](/m2/extensions/ajaxsearch/) — 1.10.0 (was 1.9.10)
+      + GraphQL support added
+
+  - [AMP](/m2/extensions/amp/) — 1.4.8 (was 1.4.6)
+      + Added custom styles field in module configuration
+
+  - [Askit](/m2/extensions/askit/) — 1.9.1 (was 1.9.0)
+      + Ajax questions listing improvements
+
+  - [Attribute Pages](/m2/extensions/attributepages/) — 1.3.3 (was 1.3.2)
+      + Fixed 'Default Category' page title when using third-party modules or themes
+
+  - [Easytabs](/m2/extensions/easytabs/) — 1.9.5 (was 1.9.4)
+      + Added Page Builder for html tabs
+
+  - [Highlight](/m2/extensions/highlight/) — 1.7.3 (was 1.6.6)
+      + Added ability to set description and meta tags for highlight pages
+      + Fixed carousel styles when widget isn't magazine
+      + Fixed wrong items count for bestsellers at Magento 2.4.x
+
+  - [Lightbox Pro](/m2/extensions/lightboxpro/) — 1.3.1 (was 1.3.0)
+      + Fixed broken gallery widget on Magento 2.4.1
+
+  - [Navigation Pro](/m2/extensions/navigationpro/) — 1.15.0 (was 1.14.14)
+      + New Slideout Menu variation added: Stackable Slideout Menu
+      + Code and style fixes
+
+  - [ProLabels](/m2/extensions/prolabels/) — 1.5.16 (was 1.5.14)
+      + Improved module stability: prevent array_flip warning
+      + Fixed possible JS Error: cannot find template
+
+  - [Sold Together](/m2/extensions/soldtogether/) — 1.7.7 (was 1.7.6)
+      + Further ADA related improvement - better ScreenReader experience
+      + Don't render "Frequently bought together" block when it is disabled or empty
+
+  - [Testimonials](/m2/extensions/testimonials/) — 1.2.15 (was 1.2.14)
+      + Slider widget improvements
+
+### Version 1.21.0
+
+> Nov 26, 2020
+
+  - Configurable header in theme editor added to all themes.
+  - Completed migration for all themes from Slick Carousel to Swiper.
+  - Fixed sticky top menu jumps to bottom of the page during scroll. Such issue occured when page length increased (via ajax or any other javascript).
+  - Fixed translation for Related products sidebar title.
+  - Improved animation for navigation at RTL stores on mobile devices.
+  - Overall improvements for CSS and JavaScript
+
+**Extensions Updates**
+
+  - [Ajax Pro](/m2/extensions/ajaxpro/) — 1.5.14 (was 1.5.13)
+      + Fixes floating cart.
+
+  - [AMP](/m2/extensions/amp/) — 1.4.6 (was 1.4.5)
+      * Added contact us page support.
+      * Added config to exclude URLs from AMP.
+      * Use the latest FontAwesome version.
+      * Disabled GDPR form validation on AMP.
+
+  - [Attribute Pages](/m2/extensions/attributepages/) — 1.3.2 (was 1.2.7)
+      * [Layered Navigation support added](/m2/extensions/attributepages/attribute-based-page/backend/#option-pages-settings-tab). (If you don't need it for your brand pages, you can disable it at attribute page settings.) Tested on:
+        - Magento_LayeredNavigation
+        - Swissup_AjaxlayeredNavigation
+        - Amasty_Shopby
+      * [New "Short Description" field added](/m2/extensions/attributepages/option-based-page/backend/#content-tab) for option pages.
+    It may be enabled in "Attributepages: Product Option" widget to show
+    option description at product page.
+      * [Added ability to apply additional filters](/m2/extensions/attributepages/attribute-based-page/backend/#option-pages-settings-tab)
+    for product list at Option-based pages. This feature allows to create
+    Brand Page filtered by several attributes:
+    "Red Adidas Shoes", "Small Burberry Dresses", etc.
+      * [Added ability to use placeholders](/m2/extensions/attributepages/attribute-based-page/backend/#option-pages-settings-tab)
+    for Option-based page title: "Red {% raw %}{{var option.label}}{% endraw %} Shoes",
+    "Small {% raw %}{{var option.label}}{% endraw %} Dresses", etc.
+      * [Added ability to sort brands manually](/m2/extensions/attributepages/attribute-based-page/backend/#options-tab),
+    using sort_order field. Previously brands was sorted aphabetically only.
+      * Performance improvements when rendering options list.
+      * Full Page Cache is now automatically invalidates corresonding brand page,
+    when some change is made in backend.
+      * Breadcrumbs is now using "Title" field. Previously "Page Title" was used, which
+    wasn't intended.
+      * Brands slider is now using Swiper library instead of SlickCarousel.
+      * "Title" and "Layout" columns in backend grid are hidden now by default. You can still show them via "Columns" menu above the grid.
+      * Added mass status action to backend grids.
+      * Fixed not working search in backend grids.
+
+  - [EasySlide](/m2/extensions/easyslider/) —  1.6.8 (was 1.6.4)
+      + Fix for Argento Force theme - fixed not centered slides in homepage slider.
+      + Implement IdentityInterface for slider block. Now you don't need to flush FPC after slider change in Magento Admin. Frontend updated by itself.
+      + Show disabled state on disabled slides in Magento Admin.
+      + Add action to duplicate existing sliders in Magento Admin.
+      + Fixed slider behavior when thumbnails enabled and effect is 'Cude'/'Flip'.
+      + New option in edit slider interface - "Responsive breakpoints". It allows to change slides per view on different screen width.
+      + Fixed not working search by keyword.
+
+  - [Easybanners](/m2/extensions/easybanners/) — 1.6.0 (was 1.5.11)
+      +  Added ability to set [different banner size per screen size](/m2/extensions/easybanners/interfaces/#image-options-region). This feature allows to improve pagespeed score when properly configured.
+      +  Fixed black background when background setting is not correct. White background will be used in such case.
+      +  Fixed php error on banner save after image was uploaded in Magento 2.4.1.
+
+  - [Easy Catalog Images](/m2/extensions/easycatalogimages/) — 1.4.12 (was 1.4.11)
+      + Do not modify category layout via layout.xml.
+      + Do not output subcategories block on root category (Attribute Pages compatibility).
+      + Widget now can be added using backend widget interface. Previously, block was not displayed if added in such a way.
+
+  - [Easytabs](/m2/extensions/easytabs/) — 1.9.4 (was 1.9.3)
+      + Fixed "Your session has expired" error message when ajax tab has product listing.
+
+  - [GDPR](/m2/extensions/gdpr/) - 1.3.16 (was 1.3.11)
+      + Fixed missing GDPR checkboxes on customer registration page when [Swissup_CustomerFields](/m2/extensions/customer-field-manager/) is enabled.
+      + Fixed blocked google analytics cookies when Magento_GoogleAnalytics module is enabled in runtime via third-party plugin.
+      + Improved frontend performance when a bunch of cookies are blocked. Previously GDPR module sent a request per each cookie. Now, all cookie names will be merged into a single request.
+      + Fixed margin for newsletter consent at RTL locales.
+      + Fixed possible disappeared message after add to cart. It prevents magneto from updating customer sections after registring unknown cookie.
+      + Decrease number of ajax requests if some module write cookies multiple times.
+
+  - [Highlight](/m2/extensions/highlight/) — 1.6.6 (was 1.6.4)
+      + Replaced slick carousel with swiper.
+
+  - [Lightbox Pro](/m2/extensions/lightboxpro/) — 1.3.0 (was 1.2.13)
+      + New "Masonry" template for the gallery widget.
+
+  - [NavigationPro](/m2/extensions/navigationpro/) — 1.14.14 (was 1.14.11)
+      + Fixed synchronization of the new top level category to the departments submenu.
+      + Fixed invalid url to CMS pages - slash at the end of url is not used in 2.4. From now, to generate url with trailing slash admin must add it to the item url in backend.
+      + Allow to disable block cache via XML layout for top menu.
+
+  - [Pagespeed](/m2/extensions/pagespeed/) — 1.4.12 (was 1.4.11)
+      + Add --with-custom, --with-product options to ImagesResizeCommand.
+      + Advanced bundling improvement - better file resolving when minify js is enabled.
+
+  - [ProLabels](/m2/extensions/prolabels/) — 1.5.14 (was 1.5.11)
+      +  PHP error for manual label save after image upload in Magento 2.4.1
+      +  Fixed incorrect stock qty for stock label. Latest MSI compatibility.
+      +  Fixed for discount percent and discount amount for Bundle product.
+      +  Minor ADA compatibility fix.
+
+  - [Sold Together](/m2/extensions/soldtogether/) — 1.7.6 (was 1.6.14)
+      + Added support for configurable products in "Frequently Bought Together" and "Customers Also Bought" blocks.
+      + New config options "Product Types to Display" for both blocks. You can choose what types of products you want to see in "Frequently Bought Together" and "Customers Also Bought" blocks.
+      + ADA compliant fixes and templates refactoring.
+
+  - [Testimonials](/m2/extensions/testimonials/) — 1.2.14 (was 1.2.12)
+      + Replaced slick carousel with swiper.
+      + Fixed php error when saving testimonial with uploading image in Magento 2.4.1 backend.
+      + Added image width and height parameters in slider widget.
+
+  - [SEO Suite](/m2/extensions/seo-suite/)
+      + **swissup/module-rich-snippets** — 1.4.11 (was 1.4.10)
+          * "Price Valid Until" can be dynamic date - offset from today.
+      + **swissup/module-seo-canonical** — 1.0.8 (was 1.0.7)
+          * Fixed incoppert canonical URL for product when its parent is disabled.
+      + **swissup/module-seo-core** — 1.2.5 (was 1.2.4)
+          * PHP 7.4 compatibility fix - deprecated passing glue string after array with implode.
+      + **swissup/module-seo-images** — 1.3.7 (was 1.3.6)
+          * Improve module stability. Prevent DB exception - integrity constraint violation.
+      + **swissup/module-seo-urls** — 1.5.22 (was 1.5.20)
+          * Fixed filter urls with other storeview code at catalog search page.
+
 ### Version 1.20.1
 
 > Oct 19, 2020
@@ -18,49 +197,49 @@ category: Argento
   - Overall styles for small pages like customer login, advanced search, forgotpassword etc.
   - We started to replace Slick Carousel with Swiper. It will help to reduce number of third-party JS libraries and replace some pure HTML with Magento 2 widgets. Currently we updated brands sliders at Argento Stripes and Argento Force. Now there are widgest of EasySlide module. So you can modifies those sliders via EasySlide admin interface.
   - All themes (and some modules) integrated with our new [Pagebuilder](/m2/extensions/pagebuilder/) module.
-  
+
 **Extensions Updates**
 
   - [Ajax Pro](/m2/extensions/ajaxpro/) — 1.5.13 (was 1.5.12)
     * Improvements for quick view feature.
-    
+
   - [Ajax Search](/m2/extensions/ajaxsearch/) — 1.9.10 (was 1.9.9)
     * Integration with our new Pagebuilder module.
-    
+
   - [Askit](/m2/extensions/askit/) — 1.9.0 (was 1.8.4)
     * Server side code tweaks and improvements.
-    
+
   - [EasySlide](/m2/extensions/easyslider/) — 1.6.4 (was 1.6.0)
     * Integration with our new Pagebuilder module.
     * New option to show multiple sliders per view (with breakpoints where you can setr different slides number for different screen sizes). This option used to create brand sliders for Argento Force and Argento Stripes.
     * Fixed not working search by keyword at sliders grid in Magento Admin.
-    
+
   - [Easybanners](/m2/extensions/easybanners/) — 1.5.11 (was 1.5.8)
     * Few minor fixes and integration with our Pagebuilder.
-    
+
   - [GDPR](/m2/extensions/gdpr/) — 1.3.11 (was 1.3.9)
     * Fixed error when using Login as Customer feature.
-    
+
   - [Highlight](/m2/extensions/highlight/) — 1.6.4 (was 1.6.3)
     * Improvements for highlight carousel widget. Use Swiper lib instead of Slick. Swiper works smoother.
-    
+
   - [Hover Gallery](/m2/extensions/hover-gallery/) — 1.3.8 (was 1.3.7)
     * Fixed visual artifacts during transition animation in Chrome browser. Most often problem occured at Argento Essence theme.
-    
+
   - [Lightbox Pro](/m2/extensions/lightboxpro/) — 1.2.13 (was 1.2.11)
     * Fixed wrong image size and position with navdir=vertical on mobile.
     * Fixed js error on Magento 2.4.1.
-    
+
   - [NavigationPro](/m2/extensions/navigationpro/) — 1.14.11 (was 1.14.9)
     * Fixed possible invalid image path on nginx servers.
     * Do not allow to save menu/items if they have recursive call to the same menu.
-    
+
   - [ProLabels](/m2/extensions/prolabels/) — 1.5.11 (was 1.5.10)
     * Fixed discount percent and discount amount variables in prolabel for Bundle product.
-    
+
   - [Sold Together](/m2/extensions/soldtogether/) — 1.6.14 (was 1.6.13)
     * Replace Slick carousel with Swiper for "Customers Also Bought..." widget.
-    
+
   - [SEO Suite](/m2/extensions/seo-suite/)
       + **swissup/module-hreflang** —  1.4.3 (was 1.4.2)
           * Fixed incorrect product URL for other stores (urls contained categories in their pathes).

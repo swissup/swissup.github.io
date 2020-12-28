@@ -6,6 +6,46 @@ keywords: Helpdesk changelog
 category: Helpdesk
 ---
 
+### Version 1.2.13
+
+> Nov 20, 2020
+
+**Fixes**
+ - Fix: disable strong email hostname validation (close #34)
+
+### Version 1.2.12
+
+> Nov 19, 2020
+
+**Fixes**
+ - Add dynamic_id:true in wysiwig for fix hiding broken 'Show/Hide Editor' (close #33)
+ - Hide My Tickets tab in account if extension disabled
+ - Fix :Column 'created_at' in where clause is ambiguous
+
+### Version 1.2.11
+
+> Nov 18, 2020
+
+**Fixes**
+ - Fix unarchive CONSTRAINT errors
+ - Rename AutoClose button
+ - Prevent to delete a department if this department is assigned to the ticket.
+ - Fix 'The department is displayed at the storefront if it disable.'
+
+### Version 1.2.10
+
+> Nov 13, 2020
+
+**Fixes**
+ - Added disabling behavior for submit button to prevent many cloned tickets (close #30)
+ - Fix Deprecated Functionality: strpos() Non-string needles
+ - Fix Warning rand with 1 argument
+ - Add checking imap functions support
+ - Disable some file uploading exceptions
+ - Small grammar improvments.
+ - Rename title column to subject (close #29)
+ - Hide ecrypted text in subject column
+
 ### Version 1.2.8
 
 > Nov 9, 2020

@@ -8,6 +8,17 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.15.0
+
+> Nov 30, 2020
+
+ -  New Slideout Menu variation added:
+    [Stackable Slideout Menu](/m2/extensions/navigationpro/use-cases/slideout-menu/)
+ -  Fixed blurry text dropdowns when using certain slide effects.
+ -  Fixed incorrect padding for menu items when dropdown should be on the left.
+ -  Fixed multiple "Menu was saved" messages in backend when refresh the page after
+    multiple menu saves.
+
 ### Version 1.14.12
 
 > Oct 27, 2020

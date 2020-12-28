@@ -8,6 +8,28 @@ category: SoldTogether
 
 # Changelog
 
+### Version 1.7.6
+
+> Nov 25, 2020
+
+  - ADA compliant fixes and templates refactoring.
+  - Improved swatches integration. Update product picture for "Frequently bought together..." block with Stripe layout.
+
+### Version 1.7.5
+
+> Nov 23, 2020
+
+  - Fixed incompatibility with Magento FPC.
+  - Fixed ..\Renderer\Configurable doesn't exists. Compatibility with M2.3.2
+
+### Version 1.7.2
+
+> Nov 16, 2020
+
+  - Render options for configurable products without swatches.
+  - Fixed possible 404 on product page at some instances where Argento Force is installed.
+  - Improve module stability.
+
 ### Version 1.7.0
 
 > Nov 2, 2020

@@ -8,6 +8,39 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.25.3
+
+> Nov 27, 2020
+
+ -  Fixed error when Paypal Express Checkout popup was shown when customer
+    didn't checked all of required terms and conditions.
+ -  Improved scroll to "missing shipping method" error when placing order.
+
+**Module Updates**
+
+**swissup/module-delivery-date**
+
+ -  Fixed not working excluded first, seconds, and third days of the month.
+ -  Added filter and sort by delivery date column in orders grid.
+ -  Fixed invalid holiday date in calendar when default timezone is not UTC
+
+### Version 1.25.2
+
+> Nov 24, 2020
+
+ -  Fixed unable to place order when some invalid field is found in hidden popup.
+ -  Move shipping methods notice to the top of the shipping methods section.
+ -  Tippyjs library updated to the latest version.
+
+### Version 1.25.1
+
+> Nov 12, 2020
+
+ -  [Google Analytics Integration](/m2/extensions/firecheckout/configuration/#analytics-section) added.
+ -  [Added configurable ability](/m2/extensions/firecheckout/configuration/#place-order-button-position)
+    to place "Purchase" button under payment section when using onecolumn layout.
+ -  Fixed autofill styles in latest chrome versions.
+
 ### Version 1.24.2
 
 > Oct 19, 2020

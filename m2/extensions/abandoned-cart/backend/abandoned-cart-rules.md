@@ -29,7 +29,7 @@ Field            | Description
 -----------------|------------------------------------------------------
 Enabled          | Enable/Disable the rule
 Name             | Rule Name
-Send Email After | Delay before abandoned email will be sent
+Send Email After | Delay before abandoned email will be sent **(the minimum value is 10 minutes)**
 Websites         | Select websites where rule can be applied
 Customer Groups  | Select customer groups for which rule can be applied
 Priority         | Rule sort order

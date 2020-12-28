@@ -83,6 +83,5 @@ Gender attribute will be rendered as a non-link image:
 ##### Related articles
 
 - [Product option block](/m2/extensions/attributepages/widgets-and-blocks/product-option-block/)
-- [Display brand block on product page](/m2/extensions/attributepages/use-cases/brand-block-on-product-page/#inline-php-code)
-- [Display brand block on category page](/m2/extensions/attributepages/use-cases/brand-block-on-category-page/)
-- [Display brand block in recently viewed products block](/m2/extensions/attributepages/use-cases/brand-block-in-recently-viewed-block/)
+- [Display brand block on product page](/m2/extensions/attributepages/use-cases/blocks-on-product-page/)
+- [Display brand block on category page](/m2/extensions/attributepages/use-cases/activity-block-on-category-page/)

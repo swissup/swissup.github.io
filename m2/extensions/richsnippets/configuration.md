@@ -34,13 +34,17 @@ We minify JSON-LD data to reduce page size. You can turn it off with `Minify str
 
 > Settings works only with structured data format JSON-LD.
 
-![Product structured data settings](/images/m2/rich-snippets/config-product-v2.png)
+![Product structured data settings](/images/m2/rich-snippets/config-product-v3.png)
 
 Structured data for product contains a lot of information.
 
 With option `Structured Data` you can configurate basic data snippets. Such as  name, sku, mpn (gtin8, gtin13, gtin14, isbn). Just set data property name as select relatedt product attribute for it.
 
-`Price Valid Until` sets default value for *priceValidUntil* property in *Offers* data snippet.
+`Price Valid Until` sets default value for *priceValidUntil* property in *Offers* data snippet. It applies for all product without special price. When special price has expiration date then it will be used.
+
+We offer two strategies for "Price Valid Until":
+  - *Static Date* - fixed date from field `Static date`.
+  - *Dynamic Date* - date in future. Magento calculates this date every time page is rendered. It uses value from field `Days from today` as offset from current date.
 
 Use option `Product Brand Attribute` to setup brand data snippet. Different stores can name product brand differently (producer, manufacturer, brand, etc.). So with this option you select wich product attribute structered data should use as "brand".
 

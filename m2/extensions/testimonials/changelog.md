@@ -8,6 +8,14 @@ category: Testimonials
 
 # Changelog
 
+### Version 1.2.14
+
+> Nov 25, 2020
+
+  - Replaced slick carousel with swiper
+  - Fixed php error when saving testimonial with uploading image in Magento 2.4.1 backend
+  - Added image width and height parameters in slider widget
+
 ### Version 1.2.12
 
 > Sep 23, 2020

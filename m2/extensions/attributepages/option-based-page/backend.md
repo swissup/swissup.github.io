@@ -39,7 +39,7 @@ Option page form contains three tabs:
 
 ##### Option information tab
 
-Option information tab comes with following fields:
+![Option information](/images/m2/attributepages/option-based-page/backend/tab-option-information.png)
 
 Field | Description
 :-----|:-----------
@@ -53,24 +53,26 @@ Enabled | Optionpage status
 
 ##### Content tab
 
-Content tab comes with the following fields:
+![Content tab](/images/m2/attributepages/option-based-page/backend/tab-content.png)
 
-Field | Description
-:-----|:-----------
-Page Title | Used for page `H1` tag and `meta title`
+Field       | Description
+------------|------------
+Page Title  | Used for page `H1` tag and `meta title`
 Description | Will be shown above products list
-Meta Keywords | Page Keywords
-Meta Description | Page Description
+Short Description | Will be shown below corresponding option in [Product Option Block](/m2/extensions/attributepages/widgets-and-blocks/product-option-block/) if enabled.
+Meta Keywords     | Page Keywords
+Meta Description  | Page Description
 
 ##### Display settings tab
 
-Display settings tab comes with following fields:
+![Display settings tab](/images/m2/attributepages/option-based-page/backend/tab-display-settings.png)
 
 Field | Description
 :-----|:-----------
 Layout | Page Layout (Standard magento layout select field)
 Layout Update XML | This field can be used to add or remove additional blocks
 Display Mode | Page display mode (Description and children, Description only, Children only)
+Use Layered Navigation | Enable/Disable Layered navigation for corresponding option-based page.
 
 ##### Related Articles
 - [Option based page frontend screenshots](/m2/extensions/attributepages/option-based-page/frontend/)

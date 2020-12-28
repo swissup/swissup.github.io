@@ -8,6 +8,14 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.4.12
+
+> Nov 26, 2020
+
+  - Add --with-custom, --with-product options to ImagesResizeCommand.
+  - Advanced bundling improvement - better file resolving when minify js is enabled.
+  - Small code improvments.
+
 ### Version 1.4.11
 
 > Sep 23, 2020

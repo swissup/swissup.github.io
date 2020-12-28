@@ -8,6 +8,14 @@ category: Lightbox Pro
 
 # Changelog
 
+### Version 1.3.0
+
+> Nov 25, 2020
+
+ - Added new masonry template for the gallery widget
+ - Styles refactoring
+ - Keep frame for resized image only when both sides are set
+
 ### Version 1.2.13
 
 > Oct 19, 2020

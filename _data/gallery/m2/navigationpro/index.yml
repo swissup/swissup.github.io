@@ -86,10 +86,10 @@
     Vertical slideout menu with 'accordion' and 'dark' modifiers
   w: 1099
   h: 729
-# - href: /images/m2/navigationpro/showcase/stacked.png
-#   src: /images/m2/navigationpro/showcase/small/stacked.png
-#   alt: Stacked menu
-#   title: >
-#       Stacked submenu's have equal heights and aligned side-by-side
-#   w: 1084
-#   h: 453
+- href: /images/m2/navigationpro/slideout/stacked.png
+  src: /images/m2/navigationpro/slideout/small/stacked.png
+  alt: Stacked menu
+  title: >
+      Vertical slideout menu with 'stacked' modifier
+  w: 1097
+  h: 620

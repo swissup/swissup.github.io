@@ -33,6 +33,7 @@ Option      | Description
 ------------|------------
 Page Layout | [Select page layout](#page-layout) to use at firecheckout page
 Layout      | [Select layout](#layout) to use at firecheckout page
+Place Order Button Position | [Ability to place](#place-order-button-position) "Purchase" button under payment section. This config is visible for "1 Column" layouts only.
 Theme       | [Select theme](#theme) to use at firecheckout page
 Form Styles | [Select form styles](#form-styles) to use at firecheckout page
 
@@ -62,6 +63,15 @@ There are 5 layouts available to use:
 Layout screenshots:
 
 {% include gallery.html images=site.data.gallery.m2.firecheckout.configuration.layout class="scroll phone-up-1 tablet-up-3 photoswipe" %}
+
+#### Place Order Button Position
+
+Ability change "Purchase" button position:
+
+ - Default Position (Order Summary Section - For All Layouts)
+ - Below Payment methods Section (For "1 Column" Layouts only)
+
+{% include gallery.html images=site.data.gallery.m2.firecheckout.configuration.place-order-position class="scroll phone-up-1 tablet-up-3 photoswipe" %}
 
 #### Theme
 
@@ -110,6 +120,18 @@ Below place order button| Additional content below place order button
 **Intro Popup**         | See [ready-to-use examples](/m2/extensions/firecheckout/customization/use-cases/intro-popup/)
 Content for Guest Customers | Content to show for guest customers only
 Content for Registered Customers | Content to show for logged in customers
+
+### Analytics section
+
+![Analytics section](/images/m2/firecheckout/configuration/analytics.png)
+
+Option | Description
+-------|------------
+Enable Google Analytics Integration | Enable/Disable Analytics Integration
+Account Number | Google Analytis Account Number. If you use Magento's built-in GA module, this field will be filled automatically. See [Analytics](analytics/) page for more information.
+
+Please follow [Analytics integration docs](analytics/) to setup Analytics inside
+Firecheckout.
 
 ### Shiping settings section
 

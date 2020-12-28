@@ -7,6 +7,16 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.15.1
+
+> Dec 18, 2020
+
+ -  Fixed js error when inline JS minification enabled in PageSpeed module.
+ -  EasyBanners: fixed missing class name on the banner when its inserted as widget.
+ -  SEO XML Sitemap: respect 'Exclude CMS' config; add homepage url to sitemap file.
+ -  Sold Together: fixed DDL statements are not allowed in transactions error.
+ -  Richsnippets: added option for Price Valid Until. Now it ca be dynamic date - offset from today.
+
 ### Version 1.15.0
 
 > Oct 22, 2019

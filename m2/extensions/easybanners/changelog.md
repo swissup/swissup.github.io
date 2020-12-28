@@ -8,6 +8,16 @@ category: Easy Banners
 
 # Changelog
 
+### Version 1.6.0
+
+> Nov 26, 2020
+
+ -  Added ability to set [different banner size per screen size](/m2/extensions/easybanners/interfaces/#image-options-region).
+    This feature allows to improve pagespeed score when properly configured.
+ -  Fixed black background when background setting is not correct. White background
+    will be used in such case.
+ -  Fixed php error on banner save after image was uploaded in Magento 2.4.1
+
 ### Version 1.5.10
 
 > Oct 13, 2020

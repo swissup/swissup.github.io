@@ -122,22 +122,26 @@ with [ArgentoTabs script](/m2/argento/scripts/argento-tabs/).
 Code:
 
 ```html
+{% raw %}{{block class="Magento\Cms\Block\Block" block_id="brands_slider"}}{% endraw %}
+```
+
+As you can see we moved all content of brand slider element to separate CMS block with id `brands_slider`.
+
+Brands Slider - is a static slider powered by widget of
+[EasySlide module](/m2/extensions/easyslider/). Slides ID is `argento_essence_brands`. Find it at EasySlide grid in Magento Admin.
+
+Content of `brands_slider` is below:
+
+```html
 <div class="block row widget block-promo block-carousel">
     <div class="block-title">
         <strong>Featured Brands</strong>
     </div>
     <div class="block-content">
-        <div class="slick-slider" data-mage-init='{"slick": {"slidesToShow": 6, "slidesToScroll": 1, "dots": false, "autoplay": true, "variableWidth": true, "swipeToSlide": true}}'>
-            <div><a href="#"><img src="{% raw %}{{view url='images/brands/sony.jpg'}}{% endraw %}" alt="" width="128" height="73"/></a></div>
-            <div><a href="#"><img src="{% raw %}{{view url='images/brands/apple.jpg'}}{% endraw %}" alt="" width="70" height="73"/></a></div>
-            ...
-        </div>
+        {% raw %}{{widget type="Swissup\EasySlide\Block\Slider" identifier="argento_essence_brands"}}{% endraw %}
     </div>
 </div>
 ```
-
-Brands Slider - is a static slider powered by
-[SlickCarousel module](/m2/extensions/slick-carousel/).
 
 #### Whole homepage code
 
@@ -160,7 +164,7 @@ In case if you’ve lost original homepage content, you can get it below:
 <div class="argento-grid row block-products-promo">
     <div class="blocks-main item col-md-8 argento-tabs" data-mage-init='{"argentoTabs": {}}'>
         {{widget type="Swissup\Highlight\Block\ProductList\NewList" title="New Products" products_count="6" column_count="3" order="default" dir="desc" template="Swissup_Highlight::product/list.phtml" mode="grid" show_page_link="1" page_link_title="View All New Products"}}
-        {{widget type="Swissup\Highlight\Block\ProductList\Onsale" title="Special Offers" products_count="6" column_count="3" order="default" dir="desc" template="Swissup_Highlight::product/list.phtml" mode="grid"}}
+        {{widget type="Swissup\Highlight\Block\ProductList\Onsale" title="Special Offers" products_count="6" column_count="3" order="default" dir="desc" template="Swissup_Highlight::product/list.phtml" mode="grid" show_page_link="1" page_link_title="View All On Sale Products"}}
         {{widget type="Swissup\Highlight\Block\ProductList\Attribute\Yesno" title="Coming soon" attribute_code="coming_soon" products_count="6" column_count="3" order="default" dir="asc" template="Swissup_Highlight::product/list.phtml" mode="grid"}}
     </div>
     <div class="sidebar blocks-secondary col-md-4">
@@ -172,27 +176,7 @@ In case if you’ve lost original homepage content, you can get it below:
     </div>
 </div>
 
-<div class="block row widget block-promo block-carousel">
-    <div class="block-title">
-        <strong>Featured Brands</strong>
-    </div>
-    <div class="block-content">
-        <div class="slick-slider" data-mage-init='{"slick": {"slidesToShow": 6, "slidesToScroll": 1, "dots": false, "autoplay": true, "variableWidth": true, "swipeToSlide": true}}'>
-            <div><a href="#"><img src="{{view url='images/brands/sony.jpg'}}" alt="" width="128" height="73"/></a></div>
-            <div><a href="#"><img src="{{view url='images/brands/apple.jpg'}}" alt="" width="70" height="73"/></a></div>
-            <div><a href="#"><img src="{{view url='images/brands/garmin.jpg'}}" alt="" width="154" height="74"/></a></div>
-            <div><a href="#"><img src="{{view url='images/brands/htc.jpg'}}" alt="" width="124" height="74"/></a></div>
-            <div><a href="#"><img src="{{view url='images/brands/intel.jpg'}}" alt="" width="103" height="74"/></a></div>
-            <div><a href="#"><img src="{{view url='images/brands/motorola.jpg'}}" alt="" width="204" height="76"/></a></div>
-            <div><a href="#"><img src="{{view url='images/brands/sony.jpg'}}" alt="" width="128" height="73"/></a></div>
-            <div><a href="#"><img src="{{view url='images/brands/apple.jpg'}}" alt="" width="70" height="73"/></a></div>
-            <div><a href="#"><img src="{{view url='images/brands/garmin.jpg'}}" alt="" width="154" height="74"/></a></div>
-            <div><a href="#"><img src="{{view url='images/brands/htc.jpg'}}" alt="" width="124" height="74"/></a></div>
-            <div><a href="#"><img src="{{view url='images/brands/intel.jpg'}}" alt="" width="103" height="74"/></a></div>
-            <div><a href="#"><img src="{{view url='images/brands/motorola.jpg'}}" alt="" width="204" height="76"/></a></div>
-        </div>
-    </div>
-</div>{% endraw %}
+{{block class="Magento\Cms\Block\Block" block_id="brands_slider"}}{% endraw %}
 ```
 
 

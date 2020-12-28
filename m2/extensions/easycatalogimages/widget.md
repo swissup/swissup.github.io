@@ -51,6 +51,7 @@ resize_image                | boolean                   | Flag, that indicating 
 show_image                  | boolean                   | Show image flag
 subacategory_count          | integer                   | Count of subcategories
 template                    | string(Swissup_Easycatalogimg::list.phtml) | Template to use
+custom_template             | string                    | Custom Template to use
 use_image_attribute         | boolean                   | Use image attribute, if thumbnail is not available
 
 ### XML Layout Update

@@ -57,6 +57,10 @@ If you click on **View** you can see ticket messages and another details
 
 ![My ticket view interface](/images/m2/helpdesk/customer-ticket_view.png)
 
+### How to close old tickets manually
+
+In order to close tickets older than 30 days from the backend, go `Admin > Swissup > Helpdesk > Tickets` and click on **AutoClose**.
+
 #### You can also check
 
 *   [Installation](../installation/)

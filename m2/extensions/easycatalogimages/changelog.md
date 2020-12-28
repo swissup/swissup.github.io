@@ -8,6 +8,14 @@ category: EasyCatalogImages
 
 # Changelog
 
+### Version 1.4.12
+
+> Nov 25, 2020
+
+ -  Do not modify category layout via layout.xml
+ -  Do not output subcategories block on root category (Attribute Pages compatibility)
+ -  Widget now can be added using backend widget interface. Previously, block was not displayed if added in such a way.
+
 ### Version 1.4.11
 
 > Aug 5, 2020
