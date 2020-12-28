@@ -7,6 +7,13 @@ category: Order Attachments
 
 # Changelog
 
+### Version 1.4.9
+> Dec 28, 2020
+
+ - Restict order attachemnt for specific customer groups.
+ - Remove not needed index.
+ - Fixed php error on frontend.
+
 ### Version 1.4.5
 
 > Oct 30, 2020
