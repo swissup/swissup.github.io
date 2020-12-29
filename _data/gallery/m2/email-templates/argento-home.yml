@@ -1,0 +1,10 @@
+- href: /images/m2/email-templates/template/argento-home/account.png
+  src: /images/m2/email-templates/template/argento-home/small/account.png
+  title: Customer registration email
+  w: 700
+  h: 1000
+- href: /images/m2/email-templates/template/argento-home/order.png
+  src: /images/m2/email-templates/template/argento-home/small/order.png
+  title: New order email
+  w: 700
+  h: 1280

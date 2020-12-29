@@ -12,7 +12,7 @@ category: Email Templates
 
 > Dec 24, 2020
 
-  - New cool feature - email designs. Easy to apply email design. Check ["Apply Email Design"](../apply-design/) article.
+  - New cool feature - [email designs](../designs/). Easy to apply email design. Check ["Apply Email Design"](../apply-design/) article.
   - Add store view selector in email preview.
 
 ### Version 1.0.5
