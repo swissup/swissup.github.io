@@ -8,6 +8,27 @@ category: Helpmate
 
 # Changelog
 
+### Version 1.7.18
+
+> Jan 8, 2021
+
+**Fixes**
+ - Add light status,proirity etc. changes
+ - If the file does not exist, it will be created
+
+
+### Version 1.7.13-17
+
+> Sep 4, 2020
+
+**Fixes**
+ - Comment timeout undisable submit button
+ - Add dom:loaded wrapper
+ - Prevent many submiting
+ - Debounce ticket submiting
+ - add form_key param
+ - Add getFormKey in new ticket block
+
 ### Version 1.7.12
 
 > May 24, 2019
