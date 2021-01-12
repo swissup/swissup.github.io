@@ -6,7 +6,7 @@ keywords: ArgentoHome, Home, contact us page
 category: Argento
 ---
 
-# Argento Stripes Contact Us Page
+# Argento Home Contact Us Page
 
 {:.no_toc}
 
