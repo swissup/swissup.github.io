@@ -88,6 +88,7 @@ additional modifications.
 - SVMPayment
 - Svea_WebPay
 - TemplateTag_Stripe
+- [Twocheckout_Tco](twocheckout_tco)
 - [Upg_Payments](upg-payments/)
 - Vaimo_Klarna
 - [Xonu_Directdebit](xonu-directdebit/)
