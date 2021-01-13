@@ -9,7 +9,7 @@ category: SEO HTML Sitemap
 # Configuration
 
 SEO HTML Sitemap configuration is located at
-`Stores > Configuration > Swissup SEO Suite > SEO HTML Sitemap` page.
+`Stores > Configuration > Swissup > SEO Suite > SEO HTML Sitemap` page.
 
 ![HTML Sitemap section](/images/m2/seo-html-sitemap/configuration.png)
 

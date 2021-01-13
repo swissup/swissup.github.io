@@ -13,7 +13,7 @@ category: Seo Urls
 {:toc}
 
 You can configure SEO URLs extension at
-_Stores → Configuration → Swissup SEO Suite → Urls_ page.
+_Stores → Configuration → Swissup → SEO Suite → Urls_ page.
 
 ![Settings](/images/m2/seo-urls/config.png)
 

@@ -13,7 +13,7 @@ category: SEO Metadata Templates
 {:toc}
 
 In order to change general extension settings, go to `Stores` ➔ `Configuration`
-➔ `Swissup SEO Suite` section ➔ `Metadata Templates`.
+➔ `Swissup` section ➔ `SEO Suite` ➔ `Metadata Templates`.
 
 Metadata Templates settings have two sections.
 

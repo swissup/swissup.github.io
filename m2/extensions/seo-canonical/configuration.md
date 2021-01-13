@@ -13,7 +13,7 @@ category: Canonical URL
 {:toc}
 
 You can configure SEO enhancements for paginated content at
-_Stores → Configuration → Swissup SEO Suite → Canonical URLs_ page.
+_Stores → Configuration → Swissup → SEO Suite → Canonical URLs_ page.
 
 ### Categories
 

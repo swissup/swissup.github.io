@@ -8,6 +8,14 @@ category: Rich Snippets
 
 # Changelog
 
+### Version 1.4.12
+
+> Jan 13, 2021
+
+  - Fixed structured data error about review for product at Magento 2.4.x.
+  - SEO Suite modules dropdown over module config at System Configuration.
+  - Convert section "Swissup SEO Suite" into item "SEO Suite" under section "Swissup" at System Config page.
+
 ### Version 1.4.11
 
 > Nov 25, 2020

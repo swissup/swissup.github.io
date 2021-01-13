@@ -13,7 +13,7 @@ category: Seo Pagination
 {:toc}
 
 You can configure SEO enhancements for paginated content at
-_Stores → Configuration → Swissup SEO Suite → Pagintaion_ page.
+_Stores → Configuration → Swissup → SEO Suite → Pagintaion_ page.
 
 ![Settings](/images/m2/seo-pager/config-v2.png)
 

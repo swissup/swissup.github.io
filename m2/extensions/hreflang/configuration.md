@@ -13,7 +13,7 @@ category: Regional URLs
 {:toc}
 
 You can configure Regional and Language URLs at
-***Stores → Configuration → Swissup SEO Suite → Regional and Language URLs*** page.
+***Stores → Configuration → Swissup → SEO Suite → Regional and Language URLs*** page.
 
 ![Settings](/images/m2/hreflang/config.png)
 

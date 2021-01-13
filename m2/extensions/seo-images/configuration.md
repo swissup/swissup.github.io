@@ -13,7 +13,7 @@ category: SEO Images
 {:toc}
 
 In order to change module settings, go to `Stores` ➔ `Configuration`
-➔ `Swissup SEO Suite` section ➔ `SEO Images`.
+➔ `Swissup` section → `SEO Suite` ➔ `SEO Images`.
 
 SEO Images settings have three sections.
 

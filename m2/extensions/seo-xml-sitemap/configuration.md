@@ -13,7 +13,7 @@ category: SEO XML Sitemap
 {:toc}
 
 You can configure XML Sitemap at
-***Stores → Configuration → Swissup SEO Suite → XML Sitemap*** page.
+***Stores → Configuration → Swissup → SEO Suite → XML Sitemap*** page.
 
 ![Settings](/images/m2/seo-xml-sitemap/config.png)
 
