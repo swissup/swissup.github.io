@@ -21,7 +21,7 @@ to choose other template type.
 
 In this section of the form you can select and load default PDF templates.
 
-For now, module includes one ready-to-use template for each sales document type.
+Module includes 5 ready-to-use templates for each sales document type.
 
 ![Load Default Template](/images/m2/pdf-invoices/backend/form-default.png)
 
