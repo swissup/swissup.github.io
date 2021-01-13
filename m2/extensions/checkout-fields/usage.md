@@ -29,6 +29,14 @@ To add order comment field on checkout, follow below steps:
 
 ![Order Comment Field](/images/m2/checkout-fields/order-comment.png)
 
+### Add notice, tooltip, and placeholder for the field
+
+You can specify a notice, tooltip, and placeholder for the field in
+the `Advanced Field Properties` section when creating or editing the field at
+`Swissup > Checkout > Checkout Fields`
+
+![Field Notice](/images/m2/checkout-fields/field-notice.png)
+
 ### Display Fields in Order Email
 
 In order to display checkout fields in order emails, follow next steps:

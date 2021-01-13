@@ -8,6 +8,28 @@ category: Checkout Fields
 
 # Changelog
 
+### Version 1.5.1
+
+> Jan 13, 2021
+
+ -  Added ability to specify a notice, tooltip, and placeholder for the field
+ -  Filled fields values are now saved between page reloads
+ -  Saved fields values are not deleted during cleaning of old quotes
+ -  Empty fields values are not saved in database now
+
+### Version 1.4.6
+
+> Nov 12, 2020
+
+ -  Fixed posibility of failed validation when using Paypal Express Checkout
+ -  Remove unsupported input types when creating a new field
+
+### Version 1.4.4
+
+> Sep 28, 2020
+
+ -  Fixed broken admin email preview page
+
 ### Version 1.4.3
 
 > Aug 5, 2020
