@@ -82,7 +82,7 @@ Option | Description
 **Allowed extensions** | Comma separated allowed file extensions list
 
 #### Order attachments page
-The page is located at `Swissup > Order Attachments`. It gives you
+The page is located at `Swissup > Checkout > Order Attachments`. It gives you
 an ability to search, edit, download or remove attachments.
 
 ![Order attachments page](/images/m2/orderattachment/attachment_grid.png)

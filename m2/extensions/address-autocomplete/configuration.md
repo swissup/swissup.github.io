@@ -8,7 +8,7 @@ category: Address Autocomplete
 # Configuration
 
 Module configuration is available at
-_Stores > Configuration > Swissup Checkout > Address Autocomplete_.
+_Stores > Configuration > Swissup > Checkout > Address Autocomplete_.
 
 ## General Settings
 

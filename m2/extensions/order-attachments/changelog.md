@@ -7,7 +7,16 @@ category: Order Attachments
 
 # Changelog
 
+### Version 1.4.10
+
+> Jan 13, 2021
+
+  - Restict order attachemnt for specific customer groups.
+  - Checkout modules dropdown over module config at System Configuration.
+  - Convert section "Swissup Checkout" into item "Checkout" under section "Swissup" at System Config page.
+
 ### Version 1.4.9
+
 > Dec 28, 2020
 
  - Restict order attachemnt for specific customer groups.

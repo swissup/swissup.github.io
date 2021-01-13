@@ -7,6 +7,13 @@ category: Delivery Date
 
 # Changelog
 
+### Version 1.5.8
+
+> Jan 13, 2021
+
+  - Checkout modules dropdown over module config at System Configuration.
+  - Convert section "Swissup Checkout" into item "Checkout" under section "Swissup" at System Config page.
+
 ### Version 1.5.7
 
 > Nov 27, 2020

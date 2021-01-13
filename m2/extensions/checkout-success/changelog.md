@@ -8,6 +8,15 @@ category: Checkout Success
 
 # Changelog
 
+### Version 1.4.8
+
+> Jan 13, 2021
+
+  - Get parent grouped product image if its child is empty at ordered items grid at success order page.
+  - Checkout modules dropdown over module config at System Configuration.
+  - Convert section "Swissup Checkout" into item "Checkout" under section "Swissup" at System Config page.
+  - Fixed compatibility with magento 2.4.1.
+
 ### Version 1.4.7
 
 > Oct 22, 2020

@@ -9,7 +9,7 @@ category: Checkout Success
 # Settings
 
 In order to change general extension settings, go to `Stores` ➔ `Configuration`
-➔ `Swissup Checkout` section ➔ `Success Page`.
+➔ `Swissup` section ➔ `Checkout` ➔ `Success Page`.
 
 Checkout Success Page settings have three sections.
 

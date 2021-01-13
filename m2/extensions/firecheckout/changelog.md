@@ -8,6 +8,43 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.25.4
+
+> Jan 13, 2021
+
+  - Added missing translation 'I Agree'.
+  - Fixed error when event doesn't have originalEvent property.
+  - Checkout modules dropdown over module config at System Configuration.
+  - Convert section "Swissup Checkout" into item "Checkout" under section "Swissup" at System Config page.
+
+**Module Updates**
+
+**swissup/module-address-field-manager**
+
+  - Fixed wrong attributes values in Magento 2.4.
+  - Use overriden validators instead of around plugin. This allows to use afterValidate plugin in third-party modules.
+
+**swissup/module-checkout-fields**
+
+  - Added ability to specify a notice, tooltip, and placeholder for the field
+  - Filled fields values now saved between page reload.
+  - Do not delete field value when quote or store is deleted.
+  - Do not save empty values.
+
+**swissup/module-checkout-success**
+
+  - Get parent grouped product image if its child is empty at ordered items grid at success order page.
+  - Fixed compatibility with magento 2.4.1.
+
+**swissup/module-orderattachment**
+
+  - Restict order attachemnt for specific customer groups.
+
+**swissup/module-taxvat**
+
+  - Validate taxvat when save address.
+  - Do not allow to complete multishipping registration with empty taxvat if not allowed.
+
 ### Version 1.25.3
 
 > Nov 27, 2020

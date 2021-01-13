@@ -30,7 +30,7 @@ Extension is compatible with [Firecheckout](../firecheckout) and Magento Onepage
 ## Settings
 
 Module settings are located at
-_Stores > Configuration > Swissup Checkout > Checkout Cart_ page.
+_Stores > Configuration > Swissup > Checkout > Checkout Cart_ page.
 
 ![Settings](/images/m2/checkout-cart/settings.png)
 

@@ -8,7 +8,7 @@ category: Delivery Date
 # Configuration
 
 Configuration is available at
-_Stores > Configuration > Swissup Checkout > Delivery Date_ page.
+_Stores > Configuration > Swissup > Checkout > Delivery Date_ page.
 
 * TOC
 {:toc}

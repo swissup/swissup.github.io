@@ -7,7 +7,7 @@ category: Geoip
 
 # Configuration
 
-Module configuration is located at _Stores > Configuration > Swissup Checkout > GeoIP_
+Module configuration is located at _Stores > Configuration > Swissup > Checkout > GeoIP_
 page.
 
 ### General section
