@@ -8,6 +8,16 @@ category: Highlight
 
 # Changelog
 
+### Version 1.7.4
+
+> Jan 13, 2021
+
+  - Add highlight pages to [SEO HTML Sitemap](/m2/extensions/seo-html-sitemap/).
+  - Fixed two columns appearance for small screen.
+  - Fixed incorrect items count for bestsellers at Magento 2.4.x.
+  - Fixed carousel styles when widget isn't magazine. Slide is not full width at some Magento instances.
+  - Fixed 'undefined index' error when config for pages meta data is empty.
+
 ### Version 1.7.0
 
 > Dec 1, 2020

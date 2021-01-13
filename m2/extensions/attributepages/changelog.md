@@ -7,6 +7,13 @@ category: Attributepages
 
 # Changelog
 
+### Version 1.3.4
+
+> Jan 13, 2021
+
+  - Add attribute pages to [SEO HTML Sitemap](/m2/extensions/seo-html-sitemap/).
+  - Fixed 'Default Category' page title when using third-party modules or themes.
+
 ### Version 1.3.2
 
 > Nov 26, 2020
