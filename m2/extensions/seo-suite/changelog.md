@@ -8,6 +8,28 @@ category: SEO Suite
 
 # Changelog
 
+### Version 1.10.0
+
+> Jan 13, 2021
+
+Move section "Swissup SEO Suite" under section "Swissup". Now you have config item "SEO Suite" under "Swissup" at System Configuration in Magento Admin.
+
+*swissup/module-rich-snippets — 1.4.12 (was 1.4.11)*
+
+  - Fixed structured data error about review for product at Magento 2.4.x.
+
+*swissup/module-seo-html-sitemap — 1.1.8 (was 1.1.7)*
+  
+  - Few fixes to add Highlight pages and Attribute (Brand) pages to sitemap. You have to update Highlight and Attribute Pages modules.
+
+*swissup/module-seo-pager — 1.2.8 (was 1.2.6)*
+
+  - Integrate page number in title feature with AskIt module (at questions page).
+
+*swissup/module-seo-urls — 1.5.24 (was 1.5.22)*
+
+  - Fixed possible warning - strpos empty needle.
+ 
 ### Version 1.9.5
 
 > Nov 26, 2020

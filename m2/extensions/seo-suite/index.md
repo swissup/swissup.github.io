@@ -8,6 +8,8 @@ category: SEO Suite
 
 # SEO Suite
 
+![SEO Suite modules](/images/m2/seo-suite/modules.png){:class="noborder"}
+
 SEO Suite is a toolkit to optimize your Magento 2 store for search engines.
 
 This toolkit includes extensions:
