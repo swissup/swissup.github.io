@@ -9,7 +9,7 @@ exclude_from_search: true
 
 # Manual Installation
 
-{% include installation/m2/manual.html package="swissup/module-search-mysql-legacy" %}
+{% include installation/m2/manual.html package="swissup/search-mysql-legacy" %}
 
 
 ##### Next up

@@ -9,7 +9,7 @@ exclude_from_search: true
 
 # Installation from Marketplace
 
-{% include installation/m2/marketplace.html package="swissup/module-search-mysql-legacy" %}
+{% include installation/m2/marketplace.html package="swissup/search-mysql-legacy" %}
 
 ##### Next up
 

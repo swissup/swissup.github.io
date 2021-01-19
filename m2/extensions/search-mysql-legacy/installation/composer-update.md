@@ -8,4 +8,4 @@ exclude_from_search: true
 
 # Update Instructions
 
-{% include installation/m2/composer-update.html package="swissup/module-search-mysql-legacy" %}
+{% include installation/m2/composer-update.html package="swissup/search-mysql-legacy" %}

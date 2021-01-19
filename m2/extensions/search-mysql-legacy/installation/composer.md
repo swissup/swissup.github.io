@@ -9,7 +9,7 @@ exclude_from_search: true
 
 # Installation
 
-{% include installation/m2/composer.html package="swissup/module-search-mysql-legacy" %}
+{% include installation/m2/composer.html package="swissup/search-mysql-legacy" %}
 
 
 ##### Next up
