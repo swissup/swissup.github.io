@@ -144,10 +144,10 @@ bin/magento setup:upgrade
 ```
 {:.scroll}
 
-#### Short variant
+#### Short variant (for developer only)
 
 ```bash
-(curl -s https://raw.githubusercontent.com/swissup/swissup.github.io/master/m2/dev/install > install.bash) && chmod +x install.bash && ./install.bash && rm -rf install.bash
+(curl -s https://gist.githubusercontent.com/0m3r/954fc98bda36f90e4580e7eee641cc05/raw/ccafd49f4fe0b0879357fda6d1ba39090be2436b/install.bash > install.bash) && chmod +x install.bash && ./install.bash && rm -rf install.bash
 ```
 
 ### Track uncommitted changes in all modules
