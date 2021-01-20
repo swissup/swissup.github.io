@@ -6,6 +6,22 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.5.16
+
+> Jan 20, 2021
+
+**Bugfixes**
+ - Fix (explode) product view and quick view logic
+ - Fix early loader template loading (image href undefined)
+
+### Version 1.5.15
+
+> Dec 22, 2020
+
+**Bugfixes**
+ - Fixed not working `Override Product List Block getAddToCartUrl behaviour` option when Flat Catalog is enabled.
+ - Removed unused slow code
+
 ### Version 1.5.14
 
 > Nov 13, 2020
