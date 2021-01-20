@@ -6,6 +6,39 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.11.0
+
+> Jan 20, 2021
+
+**Features**
+ - Added use graphql config option
+ - Load categories by graphql request; add config option (close #41)
+ - Move graphqlize logic to standalone js file
+ - Upgrade select2 to 4.0.13
+ - Add config option for categories filter depth (close #42)
+ - Add "loader" in MOBILE view when entering search phrase (close #40)
+
+**Bugfixes**
+ - Fix Notice: Undefined index: category
+ - Remove wrong copyrights
+
+
+### Version 1.10.0
+
+> Jan 20, 2021
+
+**Bugfixes**
+ -  Remove old mysql integration
+ -  Add graphql StoreConfig extended config data
+ -  Restore url attribute(s)
+ -  Fix categories url_key resolving
+
+**Features**
+ - Implements custom graphql suggestions on frontend
+ - Implements categories pages graphql resolving
+ - Add url_suffix in product data provider
+ - Add currency code into product itm provider
+
 ### Version 1.9.10
 
 > Oct 13, 2020
