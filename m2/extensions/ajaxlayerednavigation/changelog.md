@@ -7,6 +7,13 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.3.32
+
+> Jan 20, 2021
+
+**Bugfixes**
+ - Fixed notice int return almost array
+
 ### Version 1.3.31
 
 > Nov 25, 2020
