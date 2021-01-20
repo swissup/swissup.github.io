@@ -6,6 +6,13 @@ keywords: Helpdesk changelog
 category: Helpdesk
 ---
 
+### Version 1.2.14
+
+> Jan 20, 2021
+
+**Features**
+ - Added short messages about status, department, priority, etc.  changes
+
 ### Version 1.2.13
 
 > Nov 20, 2020
