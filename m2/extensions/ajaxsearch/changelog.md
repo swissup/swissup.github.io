@@ -6,6 +6,14 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.11.1
+
+> Jan 21, 2021
+
+**Bugfixes**
+ - Fix typo: unused code
+
+
 ### Version 1.11.0
 
 > Jan 20, 2021
