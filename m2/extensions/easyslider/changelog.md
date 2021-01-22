@@ -8,6 +8,14 @@ category: Easy Slider
 
 # Changelog
 
+### Version 1.6.9
+
+> Jan 22, 2021
+
+ -  Updated integration with out [Pagebuilder module](/m2/extensions/pagebuilder/)
+ -  Log possible errors occurred during image resize.
+ -  Fixed not centered slides in homepage slider in ArgentoForce theme.
+
 ### Version 1.6.7
 
 > Nov 16, 2020

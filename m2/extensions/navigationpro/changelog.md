@@ -8,6 +8,13 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.9.6
+
+> Jan 22, 2021
+
+ -  Updated integration with our [Pagebuilder module](/m2/extensions/pagebuilder/)
+ -  Fixed not working nowrap menu when some items are hidden via css.
+
 ### Version 1.15.0
 
 > Nov 30, 2020

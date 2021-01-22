@@ -8,6 +8,15 @@ category: Pagebuilder
 
 # Changelog
 
+### Version 1.1.0
+
+> Jan 22, 2021
+
+ -  Added ability to add new content (Widgets) to cms page and cms blocks.
+    [See short video on Vimeo](https://vimeo.com/503378341)
+ -  Fixed empty pagebuilder customers dropdown in backend config when customer
+    email has `-` symbol inside email.
+
 ### Version 1.0.4
 
 > Dec 8, 2020

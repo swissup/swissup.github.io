@@ -8,6 +8,13 @@ category: GDPR
 
 # Changelog
 
+### Version 1.9.6
+
+> Jan 22, 2021
+
+ -  Fixed translation for "Agree & save" phrase.
+ -  Updated integration with our [Pagebuilder module](/m2/extensions/pagebuilder/)
+
 ### Version 1.3.17
 
 > Nov 26, 2020

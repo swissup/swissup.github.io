@@ -8,6 +8,14 @@ category: Easy Tabs
 
 # Changelog
 
+### Version 1.9.6
+
+> Jan 22, 2021
+
+ -  Template improvements: do not render empty tabs wrapper.
+ -  Cleanup widget tabs list from duplicates.
+ -  Fixed error when mass actions do not work when store filter is applied.
+
 ### Version 1.9.5
 
 > Dec 8, 2020

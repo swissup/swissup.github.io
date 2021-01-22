@@ -8,6 +8,12 @@ category: EasyCatalogImages
 
 # Changelog
 
+### Version 1.4.13
+
+> Jan 22, 2021
+
+ -  Fixed possible broken image thumbnail in Magento 2.4
+
 ### Version 1.4.12
 
 > Nov 25, 2020

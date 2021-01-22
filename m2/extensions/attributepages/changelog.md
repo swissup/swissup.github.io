@@ -7,6 +7,12 @@ category: Attributepages
 
 # Changelog
 
+### Version 1.3.5
+
+> Jan 22, 2021
+
+ -  Fixed compatibility issues with Mirasvit_LayeredNavigation and Mirasvit_Scroll modules.
+
 ### Version 1.3.4
 
 > Jan 13, 2021
