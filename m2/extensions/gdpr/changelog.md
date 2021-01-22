@@ -8,7 +8,7 @@ category: GDPR
 
 # Changelog
 
-### Version 1.9.6
+### Version 1.3.18
 
 > Jan 22, 2021
 
