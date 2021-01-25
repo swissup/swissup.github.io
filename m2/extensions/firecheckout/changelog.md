@@ -17,11 +17,11 @@ category: Firecheckout
 
 **Module Updates**
 
-[Swissup/CheckoutRegistration](/m2/extensions/checkout-registration/)
+[swissup/module-checkout-registration](/m2/extensions/checkout-registration/)
 
  -  Fixed missing checkout modules at checkout-registration configuration.
 
-[Swissup/DeliveryDate](/m2/extensions/delivery-date/)
+[swissup/module-delivery-date](/m2/extensions/delivery-date/)
 
  -  Added ability to calculate delivery date offset
     [since first business day](/m2/extensions/delivery-date/configuration/#first-available-delivery-date-rules)
