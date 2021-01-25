@@ -8,6 +8,15 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.5.17
+
+> Jan 25, 2021
+
+  - Improve module stability. Prevent warning - array_flip(): Can only flip STRING and INTEGER values!
+  - Fixed possible JS Error: Cannot find template with ID Swissup_ProLabels/labels.
+  - Fixed missing on sale label at configurable product when some of its children have price lowers then discounted price of its other children.
+  - Few minor optimizations and improvements.
+
 ### Version 1.5.14
 
 > Nov 26, 2020
