@@ -8,7 +8,7 @@ category: Navigationpro
 
 # Changelog
 
-### Version 1.9.6
+### Version 1.15.1
 
 > Jan 22, 2021
 
