@@ -50,7 +50,8 @@ Time Options| Set available timeranges
 Option                                      | Description
 :-------------------------------------------|:-----------------------------------
 Delivery processing day ends at             | Orders placed afterwards will be considered as next day orders
-Delivery will be available since first available day (order date) plus this value | Delivery date offset in days
+First available date                        | First available date calculation rule. Choose between "Order date" and "First Business Day since Order Date"
+Delivery will be available since first available day plus this value | Delivery date offset in days
 
 ### Last available delivery date rules
 
