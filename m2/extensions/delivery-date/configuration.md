@@ -45,7 +45,7 @@ Time Options| Set available timeranges
 
 ### First available delivery date rules
 
-![First available delivery date configuration](/images/m2/delivery-date/configuration/first-date.png)
+![First available delivery date configuration](/images/m2/delivery-date/configuration/first-date.png?v=1)
 
 Option                                      | Description
 :-------------------------------------------|:-----------------------------------
