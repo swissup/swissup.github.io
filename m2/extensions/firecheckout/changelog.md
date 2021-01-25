@@ -8,6 +8,26 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.25.5
+
+> Jan 25, 2021
+
+ -  Fixed possible error about missing address field when customer fills
+    the form and presses "Place Order" very quickly.
+
+**Module Updates**
+
+[Swissup/CheckoutRegistration](/m2/extensions/checkout-registration/)
+
+ -  Fixed missing checkout modules at checkout-registration configuration.
+
+[Swissup/DeliveryDate](/m2/extensions/delivery-date/)
+
+ -  Added ability to calculate delivery date offset
+    [since first business day](/m2/extensions/delivery-date/configuration/#first-available-delivery-date-rules)
+    after order was placed.
+ -  Delivery date validation improvements.
+
 ### Version 1.25.4
 
 > Jan 13, 2021

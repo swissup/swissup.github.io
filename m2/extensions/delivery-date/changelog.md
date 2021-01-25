@@ -14,7 +14,7 @@ category: Delivery Date
  -  Added ability to calculate delivery date offset
     [since first business day](/m2/extensions/delivery-date/configuration/#first-available-delivery-date-rules)
     after order was placed.
- -  Fixed ability to place order with invalid delivery date value.
+ -  Delivery date validation improvements.
 
 ### Version 1.5.8
 
