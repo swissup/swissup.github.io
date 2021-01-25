@@ -22,13 +22,14 @@ Enabled     | Allows to enable/disable GDPR per store view
 
 ### Cookie Consent section
 
-![Cookie consents section](/images/m2/gdpr/configuration/cookie-consents.png)
+![Cookie consents section](/images/m2/gdpr/configuration/cookie-consents.png?v=1)
 
 Option          | Description
 ----------------|------------
 Enabled         | Allows to enable/disable cookie bar and cookie settings page.
 Lifetime        | How many days should the cookie store information about visitor's cookie settings.
 **Cookie Bar**  |
+Cookie Wall Mode| Allows to enable/disable site overlay until client will accept the cookie consent.
 Display Mode    | Select display mode for cookie bar. See details below the table.
 Content         | HTML to use in cookie bar.
 **Cookie Settings Page** |

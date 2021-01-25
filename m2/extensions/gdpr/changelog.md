@@ -8,6 +8,12 @@ category: GDPR
 
 # Changelog
 
+### Version 1.4.0
+
+> Jan 25, 2021
+
+ -  [Cookie Wall](/m2/extensions/gdpr/configuration/#cookie-consent-section) feature added.
+
 ### Version 1.3.18
 
 > Jan 22, 2021
