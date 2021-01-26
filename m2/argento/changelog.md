@@ -9,7 +9,7 @@ category: Argento
 
 ### Version 1.22.1
 
-> Jun 26, 2020
+> Jan 26, 2021
 
   - Elements page and styles added to Force design
   - Ajax Pro floating cart styles use theme colors
