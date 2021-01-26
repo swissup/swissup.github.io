@@ -7,6 +7,79 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.22.1
+
+> Jun 26, 2020
+
+  - Elements page and styles added to Force design
+  - Ajax Pro floating cart styles use theme colors
+  - Improved critical css in Stripes design
+  - Updated Ajax Search styles
+  - Improved styles for sticky tocart when include/exclude tax price enabled
+
+**Extensions Updates**
+
+  - [Ajax Pro](/m2/extensions/ajaxpro/) — 1.5.16 (was 1.5.15)
+      + Fixed not-working quick view
+      + Fixed missing quick view loader
+  - [Ajax Search](/m2/extensions/ajaxsearch/) — 1.11.3 (was 1.10.0)
+      + Added loader on mobile view when entering search phrase
+      + Added config option to set categories tree depth in category filter
+      + Updated select2 library
+      + Added config to enable graphQL
+      + Added categories response caching
+      + Fixed notice: Undefined index: category
+  - [AMP](/m2/extensions/amp/) — 1.4.9 (was 1.4.8)
+      + Add amp=1 param to urls in menu when Varnish used
+  - [Askit](/m2/extensions/askit/) — 1.9.2 (was 1.9.1)
+      + The 'Ask Your Question' button now works as a toggle
+  - [Attribute Pages](/m2/extensions/attributepages/) — 1.3.5 (was 1.3.3)
+      + Added attribute pages to SEO HTML Sitemap
+      + Added compatibility with Mirasvit_LayeredNavigation and Mirasvit_Scroll modules
+  - [EasySlide](/m2/extensions/easyslider/) —  1.6.9 (was 1.6.8)
+      + Updated integration with our Pagebuilder module
+      + Added graphQL support
+  - [Easybanners](/m2/extensions/easybanners/) — 1.6.1 (was 1.6.0)
+      + Updated integration with our Pagebuilder module
+  - [Easy Catalog Images](/m2/extensions/easycatalogimages/) — 1.4.13 (was 1.4.12)
+      + Fixed broken image url when it starts from 'pub/'
+  - [Easytabs](/m2/extensions/easytabs/) — 1.9.6 (was 1.9.5)
+      + Template improvements: do not render empty tabs wrapper
+      + Cleanup widget tabs list from duplicates
+      + Fixed broken mass actions when store filter is applied
+  - [GDPR](/m2/extensions/gdpr/) - 1.4.0 (was 1.3.17)
+      + Fixed translation for “Agree & save” phrase
+      + Updated integration with our Pagebuilder module
+      + Cookie Wall feature added
+  - [Highlight](/m2/extensions/highlight/) — 1.7.5 (was 1.7.3)
+      + Added highlight pages to SEO HTML Sitemap
+      + Added graphQL support
+  - [Navigation Pro](/m2/extensions/navigationpro/) — 1.15.1 (was 1.15.0)
+      + Updated integration with our Pagebuilder module
+      + Fixed not working nowrap menu when some items are hidden via css
+  - [ProLabels](/m2/extensions/prolabels/) — 1.5.17 (was 1.5.16)
+      + Fixed missing on sale label at configurable product
+      + Few minor optimizations and improvements
+  - [QuantitySwitcher](/m2/extensions/qty-switcher/) — 1.1.7 (was 1.1.6)
+      + Added compatibility with Multi-Source Inventory (MSI)
+  - [Sold Together](/m2/extensions/soldtogether/) — 1.7.8 (was 1.7.7)
+      + Improved sold together blocks view inside Ajaxpro popup
+      + JS translations fixed
+  - [Testimonials](/m2/extensions/testimonials/) — 1.2.17 (was 1.2.15)
+      + Using short testimonials page url in top and footer links
+      + Added canonical url on testimonials page
+      + Automatically clean page cache when testimonial was changed
+      + Fixed bad-looking testimonial link in customer dropdown
+  - [SEO Suite](/m2/extensions/seo-suite/)
+      + **swissup/module-rich-snippets** — 1.4.12 (was 1.4.11)
+          * Fixed structured data error about review for product at Magento 2.4.x
+      + **swissup/module-seo-html-sitemap** — 1.1.8 (was 1.1.7)
+          * Few fixes to add Highlight pages and Attribute pages to sitemap
+      + **swissup/module-seo-pager** — 1.2.8 (was 1.2.7)
+          * Integrate page number in title feature with AskIt module
+      + **swissup/module-seo-urls** — 1.5.24 (was 1.5.22)
+          * Fixed possible warning - strpos empty needle
+
 ### Version 1.22.0
 
 > Dec 22, 2020
