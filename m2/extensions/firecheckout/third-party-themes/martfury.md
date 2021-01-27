@@ -12,10 +12,26 @@ category: Firecheckout
 
     ```scss
         .opc-wrapper #shipping-new-address-form > .field.street > .control > .field {
-            max-width: 100%!important;
-            flex: auto!important;
+            max-width: initial !important;
+            flex: initial !important;
             padding: 4px!important;
             margin: 0 !important;
+        }
+        .opc-wrapper #shipping-new-address-form > .field {
+            max-width:initial !important;
+            flex: initial !important;
+        }
+        .opc-wrapper #shipping-new-address-form > .field.street > .control {
+            margin: 0 !important;
+        }
+        .field > input[type="radio"] + label {
+            padding: 0!important;
+        }
+        .table-checkout-shipping-method tbody td:first-child {
+            width: initial !important;
+        }
+        .field > input[type="checkbox"] + label {
+            padding-left: 0 !important;
         }
     ```
  3. Save changes and clean magento cache.
