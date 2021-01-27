@@ -35,6 +35,7 @@ faster and easier by providing them a simple checkout form.
  6. Third-party themes compatibility
     - [Argento theme by Templates-Master](third-party-themes/argento/)
     - [Hermes theme by Blue Sky](third-party-themes/hermes/)
+    - [Martfury theme](third-party-themes/martfury/)
  7. Troubleshooting
     - [Pre-troubleshooting check](troubleshooting/pre-troubleshooting-check/)
     - [Loading icon keeps spinning infinitely on initial page load](troubleshooting/loading-icon-keeps-spinning/)
