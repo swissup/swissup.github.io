@@ -8,15 +8,21 @@ category: Firecheckout
 
 # Firecheckout & Hermes Theme
 
- 1. Create `_custom.less` in
-    `app/design/frontend/bs_hermes/bs_hermes/Swissup_Firecheckout/web/css` folder.
- 2. Add the following styles:
+1. Navigate to the admin page and add the below code into the firecheckout custom sections:
+> [Custom CSS / Custom LESS](http://docs.swissuplabs.com/m2/extensions/firecheckout/configuration/#custom-css-and-js-settings-section):
 
+
+- Section  `Custom LESS` - put below less variables:
     ```scss
     @firecheckout-section__padding: 20px 20px;
     @firecheckout-section__background: #fff;
     @firecheckout-section__border: 2px solid rgba(0, 0, 0, 0.1);
 
+    ```
+
+- Section `Custom CSS` - put below css code:
+
+    ```scss
     .firecheckout {
         .page-main {
             padding-top: 20px;
@@ -28,7 +34,6 @@ category: Firecheckout
             margin-top: -55px;
         }
     }
-
     .firecheckout #checkout {
         .fieldset > .field {
             > .label {
@@ -83,14 +88,8 @@ category: Firecheckout
     }
     ```
 
- 3. Save the file and run following bash commands to regenerate compiled styles
+2.
+Save changes and clean magento cache.
 
-    ```bash
-    cd magento/root/folder
 
-    # remove previously deployed firecheckout styles
-    find pub/static var/view_preprocessed -type d -regex ".*Firecheckout.*css" -exec rm -rf {} \;
 
-    # run deployment command
-    php bin/magento setup:static-content:deploy
-    ```
