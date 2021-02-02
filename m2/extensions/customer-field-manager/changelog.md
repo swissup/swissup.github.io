@@ -8,6 +8,19 @@ category: Customer Field Manager
 
 # Changelog
 
+### Version 1.2.8
+
+> Nov 10, 2020
+
+ -  Fixed error when saving a field with the required option disabled
+ -  Force use on all forms when field is required
+
+### Version 1.2.7
+
+> Oct 28, 2020
+
+ -  Fixed multiple select value save on frontend
+
 ### Version 1.2.5
 
 > Oct 23, 2020

@@ -8,6 +8,25 @@ category: Address Field Manager
 
 # Changelog
 
+### Version 1.5.10
+
+> Jan 15, 2021
+
+ -  Validation rewritten for better third-party modules compatibility
+ -  Fixed wrong attributes values in Magento 2.4 (attribute code was added to value)
+
+### Version 1.5.8
+
+> Nov 10, 2020
+
+ -  Fixed error when saving a field with the required option disabled
+
+### Version 1.5.6
+
+> Oct 28, 2020
+
+ -  Force use on all forms when field is required
+
 ### Version 1.5.5
 
 > Oct 23, 2020
