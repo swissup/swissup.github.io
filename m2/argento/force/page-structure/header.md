@@ -41,7 +41,7 @@ To present block content as slider we use [Swiper](https://github.com/swissup/mo
 
  -  `"autoplay": {"delay": 10000}` - enable slide autoplay. `delay` sets time in ms between slides change. 10000ms is 10 sec.
 
-Feel free to change content of this slider. When you need to add new slider then place new `<div class="swiper-slide">...</div>`.
+Feel free to change content of this slider. When you need to add new slide then place new `<div class="swiper-slide">...</div>`.
 
 
 ### Logo
