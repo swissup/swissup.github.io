@@ -8,6 +8,14 @@ category: Address Field Manager
 
 # Changelog
 
+### Version 1.6.0
+
+> Feb 8, 2021
+
+ -  Using after plugins instead of around
+ -  Added custom address fields to orders API
+ -  Fixed multiselect attribute values saving
+
 ### Version 1.5.10
 
 > Jan 15, 2021

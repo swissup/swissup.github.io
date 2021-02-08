@@ -22,6 +22,9 @@ Custom address fields are automatically displayed on:
     -  edit customer form
     -  edit billing and shipping address on order view page
     -  create new order form
+ - API:
+    - list of orders using `orders` endpoint
+    - order information using `orders/{id}` endpoint
 
 Works great with standard magento checkout and
 [Firecheckout](/m2/extensions/firecheckout/) modules.
@@ -36,4 +39,5 @@ Works great with standard magento checkout and
      -  [Address Fields Grid](usage/grid)
      -  [Address Fields Form](usage/form)
      -  [Adding Custom Fields to Address Templates](usage/address-templates)
+     -  [Custom Address Fields in Orders API](usage/api)
  4. [Known issues](known-issues/)
