@@ -12,7 +12,7 @@ category: Firecheckout
 
 Field validator component allows to validate user input according to your needs.
 You can use any of Magento's
-[built-in validators](https://github.com/magento/magento2/blob/2.2-develop/app/code/Magento/Ui/view/base/web/js/lib/validation/rules.js#L61),
+[built-in validators](https://github.com/magento/magento2/blob/2.4-develop/app/code/Magento/Ui/view/base/web/js/lib/validation/rules.js#L61),
 or define your own.
 
 Syntax example:
