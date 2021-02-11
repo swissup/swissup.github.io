@@ -21,7 +21,7 @@ To show special offers block on selected category, follow the steps:
 
  1. go to `Content > Blocks` and create static block
  2. insert [Highlight](/m2/extensions/highlight/) widget with [Magazine Layout](/m2/extensions/highlight/widgets/css-helpers/#magazine-layout) in block content
- 3. select category in `Products > Categories` and configure:
+ 3. select category in `Catalog > Categories` and configure:
      -  Display Settings > Display Mode: Static Block and Products;
      -  select created static block in Content > Add CMS Block.
  4. save category and refresh cache.
