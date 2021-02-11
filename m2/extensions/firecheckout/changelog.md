@@ -8,6 +8,35 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.25.6
+
+> Feb 11, 2021
+
+ -  Magento 2.4.2 fixes for "Purchase Order" payment method:
+    - Fixed js error when Agreements are placed above "Place Order" button.
+    - Fixed visible "Place Order" button inside payment method when it should be
+    in order summary section.
+ -  Fixed layout shifts in order summary section when order totals are reloading.
+ -  Decreased count of multiple visible loaders at the same time.
+
+**Module Updates**
+
+[AddressFieldManager](/m2/extensions/address-field-manager/) — 1.6.0
+
+ -  Fixed multiselect attribute values saving
+ -  Added custom address fields to orders API
+ -  Performance improvements
+
+[DeliveryDate](/m2/extensions/delivery-date/) — 1.6.1
+
+ -  Allow empty delivery date value
+
+[OrderAttachment](/m2/extensions/order-attachments) — 1.4.11
+
+ -  Fixed missing attachments block for guest customers when
+    [customer group restriction config](/m2/extensions/order-attachments/#configuration)
+    was saved with empty value.
+
 ### Version 1.25.5
 
 > Jan 25, 2021
