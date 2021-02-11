@@ -70,16 +70,17 @@ You can add attachment links to the email template using the following code:
 
 #### Configuration
 
-![Backend Configuration](/images/m2/orderattachment/config.png)
+![Backend Configuration](/images/m2/orderattachment/config.png?v=1)
 
-Option | Description
-:------|:-----------
-**Enabled** | Ability to enable/disable module
-**Allow file upload during checkout** | Ability to upload files on before the order has been placed
-**Allow file upload on order view page** | Ability to edit and upload files after the order has been placed
-**Limit** | Files count limit per one order
-**Size** | Allowed file size to attach (kilobytes)
-**Allowed extensions** | Comma separated allowed file extensions list
+Option              | Description
+:-------------------|:-----------
+Enabled             | Ability to enable/disable module
+Restrict Customer Group(s) | Ability to allow file upload for certain customer groups only
+Allow file upload during checkout | Ability to upload files on before the order has been placed
+Allow file upload on order view page | Ability to edit and upload files after the order has been placed
+Limit               | Files count limit per one order
+Size                | Allowed file size to attach (kilobytes)
+Allowed extensions  | Comma separated allowed file extensions list
 
 #### Order attachments page
 The page is located at `Swissup > Checkout > Order Attachments`. It gives you

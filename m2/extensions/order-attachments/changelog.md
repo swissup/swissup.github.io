@@ -7,11 +7,19 @@ category: Order Attachments
 
 # Changelog
 
+### Version 1.4.11
+
+> Feb 11, 2021
+
+ -  Fixed missing attachments block for guest customers when
+    [customer group restriction config](/m2/extensions/order-attachments/#configuration)
+    was saved with empty value.
+
 ### Version 1.4.10
 
 > Jan 13, 2021
 
-  - Restict order attachemnt for specific customer groups.
+  - [Restict order attachment](/m2/extensions/order-attachments/#configuration) for specific customer groups.
   - Checkout modules dropdown over module config at System Configuration.
   - Convert section "Swissup Checkout" into item "Checkout" under section "Swissup" at System Config page.
 
