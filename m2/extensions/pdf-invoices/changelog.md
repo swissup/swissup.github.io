@@ -8,6 +8,19 @@ category: PDF Invoices
 
 # Changelog
 
+### Version 1.3.3
+
+> Feb 11, 2021
+
+ -  Magento 2.4.2 compatibility: fixed undefined method error
+
+### Version 1.3.2
+
+> Jan 15, 2021
+
+ -  Fixed product image display in items grid in Magento 2.4.1
+ -  Fixed js error if codemirror has a toolbar
+
 ### Version 1.3.1
 
 > Dec 14, 2020
