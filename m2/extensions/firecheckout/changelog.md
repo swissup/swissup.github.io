@@ -8,9 +8,9 @@ category: Firecheckout
 
 # Changelog
 
-### Version 1.25.6
+### Version 1.25.7
 
-> Feb 11, 2021
+> Feb 12, 2021
 
  -  Magento 2.4.2 fixes for "Purchase Order" payment method:
     - Fixed js error when Agreements are placed above "Place Order" button.
@@ -19,6 +19,7 @@ category: Firecheckout
  -  Fixed layout shifts in order summary section when order totals are reloading.
  -  Decreased count of multiple visible loaders at the same time.
  -  Improved compatibility with third-party themes.
+ -  Fixed conflict with Eway_DirectConnection payment method.
 
 **Module Updates**
 
