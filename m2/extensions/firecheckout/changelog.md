@@ -18,6 +18,7 @@ category: Firecheckout
     in order summary section.
  -  Fixed layout shifts in order summary section when order totals are reloading.
  -  Decreased count of multiple visible loaders at the same time.
+ -  Improved compatibility with third-party themes.
 
 **Module Updates**
 
