@@ -196,10 +196,10 @@ Save file. Clean Magento Cache. Check product page at storefront.
     to your required video from **Youtube**
 
 
- 2. Then go to your store `homepage` and remove second
+ 2. Then go to your store `homepage` and remove the slider widget code:
 
     ```html
-        widget type="Swissup\EasySlide\Block\Slider" identifier="argento_luxury"
+        {% raw %}{{widget type="Swissup\EasySlide\Block\Slider" identifier="argento_luxury"}}{% endraw %}
     ```
  3. Using **WYSIWYG** editor insert your created block `video_background` instead
  4. Save and Clear cache.
