@@ -109,8 +109,6 @@ Save file. Clean Magento Cache. Check product page at storefront.
 
 ### Change the homepage fullscreen slider to youtube video background
 
-   <iframe src="https://drive.google.com/file/d/18RoKMvh6CYI25Z0sqlkIqMxXJBEncK6l/view" width="720" height="270" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
  1. Changing of slider to video background requires creating of cms block i.e.
     `video_background` with following content:
 
