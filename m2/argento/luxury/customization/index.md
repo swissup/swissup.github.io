@@ -109,7 +109,7 @@ Save file. Clean Magento Cache. Check product page at storefront.
 
 ### Change the homepage fullscreen slider to youtube video background
 
-    <iframe src="https://drive.google.com/file/d/18RoKMvh6CYI25Z0sqlkIqMxXJBEncK6l/view" width="720" height="270" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+   <iframe src="https://drive.google.com/file/d/18RoKMvh6CYI25Z0sqlkIqMxXJBEncK6l/view" width="720" height="270" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
  1. Changing of slider to video background requires creating of cms block i.e.
     `video_background` with following content:
@@ -199,7 +199,7 @@ Save file. Clean Magento Cache. Check product page at storefront.
  2. Then go to your store `homepage` and remove the slider widget code:
 
     ```html
-        {% raw %}{{widget type="Swissup\EasySlide\Block\Slider" identifier="argento_luxury"}}{% endraw %}
+    {% raw %}{{widget type="Swissup\EasySlide\Block\Slider" identifier="argento_luxury"}}{% endraw %}
     ```
  3. Using **WYSIWYG** editor insert your created block `video_background` instead
  4. Save and Clear cache.
