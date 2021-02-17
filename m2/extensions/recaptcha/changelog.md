@@ -8,6 +8,17 @@ category: reCAPTCHA
 
 # Changelog
 
+### Version 1.3.14
+
+> Feb 17, 2021
+
+  - Added ACL.
+  - Better compatibility with Mageplaza One Step Checkout.
+  - Fixed not working JS validator for checkout agrements. Caused by module version 1.3.11.
+  - Fixes for PayPal payment method when checkout is protected with recaptcha.
+  - Few minor JS fixes for recaptcha at checkout.
+  - JS code cleanup and improve potential for JS minification. 
+
 ### Version 1.3.12
 
 > Oct 20, 2020
