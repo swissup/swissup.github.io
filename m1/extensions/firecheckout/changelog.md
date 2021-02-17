@@ -7,6 +7,13 @@ category: Firecheckout
 
 # Changelog
 
+### Version 4.4.5
+
+> Fab 17, 2021
+
+ - Fixed integration with Amasty Checkoutfees module.
+ - Integration with Twocheckout_Tco Paymnet added.
+
 ### Version 4.4.4
 
 > Nov 25, 2020
