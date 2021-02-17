@@ -7,6 +7,15 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.3.33
+
+> Feb 17, 2021
+
+**Bugfixes**
+ - Fixed strange php notice
+ - Reset page param 'p' before attribute filter applying
+ - Catch elasticsearch exception in DynamicPlugin
+
 ### Version 1.3.32
 
 > Jan 20, 2021
