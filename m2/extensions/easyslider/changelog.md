@@ -8,6 +8,12 @@ category: Easy Slider
 
 # Changelog
 
+### Version 1.6.10
+
+> Feb 17, 2021
+
+ -  Fix graphql schema.
+
 ### Version 1.6.9
 
 > Jan 22, 2021
