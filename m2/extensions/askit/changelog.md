@@ -11,6 +11,28 @@ category: AskIt
 
 # Changelog
 
+### Version 1.9.3
+
+> Feb 17, 2021
+
+  - Fixed JS error related to questions form component.
+It doesn't occur in dev enviorement. But often appears when JS bundling enabled
+  - Disable cache at customer questions page.
+This fixes PHP error with Mageplaza_Blog module.
+
+### Version 1.9.2
+
+> Jan 13, 2021
+
+  - Don't hide 'Ask Your Question' button on click
+
+### Version 1.9.1
+
+> Nov 30, 2020
+
+  - Rework ajax listing of questions. Get rid of controller action listAjax
+  - Fix to integrate AskIt Listing with SEO Pager module.
+
 ### Version 1.9.0
 
 > Oct 15, 2020
