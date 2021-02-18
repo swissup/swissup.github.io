@@ -6,6 +6,15 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.5.17
+
+> Feb 18, 2021
+
+**Bugfixes**
+ - Fix '.getProductNameUnsanitizedHtml is not a function'
+ - JS optimization - reduce number of requires on initial load
+ - JS optimization - load loader scripts only on demand.
+
 ### Version 1.5.16
 
 > Jan 20, 2021
