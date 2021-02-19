@@ -8,6 +8,12 @@ category: Checkout Success
 
 # Changelog
 
+### Version 1.4.9
+
+> Fab 19, 2021
+
+  - Set proper image container width in third-party themes.
+
 ### Version 1.4.8
 
 > Jan 13, 2021
