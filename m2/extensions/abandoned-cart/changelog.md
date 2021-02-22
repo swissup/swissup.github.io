@@ -8,6 +8,12 @@ category: Abandoned Cart
 
 # Changelog
 
+### Version 1.0.5
+
+> Feb 22, 2021
+
+ -  Added email templates strict mode compatibility
+
 ### Version 1.0.4
 
  -  Added capture newsletter subscriber email
