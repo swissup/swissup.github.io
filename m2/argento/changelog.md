@@ -7,6 +7,53 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.22.2 (draft)
+
+> Feb 26, 2021
+
+  - Removed Paypal buttons in sticky tocart
+  - Fixed not-working Paypal buttons at product page
+  - Muted browser console messages from jQuery Migrate
+  - Removed unnecessary Magento Ui requirements at storefront
+  - _Argento Force:_ fixed price styles in search results
+  - _Argento Home:_ improved styles and positioning for Paypal buttons at product page
+  - _Argento Mall and Stripes:_ fixed broken static content deploy when Ajaxsearch module disabled
+
+**Extensions Updates**
+
+  - [Ajax Pro](/m2/extensions/ajaxpro/) — 1.5.18 (was 1.5.16)
+      + JS optimization: load the loader scripts only when needed and reduce the number of requires on initial load
+      + Fixed floating cart js error on Magento 2.4.2
+  - [Ajax Search](/m2/extensions/ajaxsearch/) — 1.11.4 (was 1.11.3)
+      + JS optimization: require search loader only when needed
+      + Load JS templates for search results only when used
+      + Fixed getting the final price
+      + Removed the root category from category filter
+  - [Askit](/m2/extensions/askit/) — 1.9.4 (was 1.9.2)
+      + Mageplaza_Blog module compatibility
+      + Fixed JS error related to questions form component
+      + Added Persian translation
+  - [Attribute Pages](/m2/extensions/attributepages/) — 1.3.6 (was 1.3.5)
+      + Fixed invalid sort order for the brands in lower case
+  - [EasySlide](/m2/extensions/easyslider/) —  1.6.10 (was 1.6.9)
+      + Fixed graphQL schema
+  - [Easybanners](/m2/extensions/easybanners/) — 1.6.2 (was 1.6.1)
+      + Added banner placeholder type for PWA integration
+  - [Highlight](/m2/extensions/highlight/) — 1.7.6 (was 1.7.5)
+      + Product collections code refactoring
+  - [Navigation Pro](/m2/extensions/navigationpro/) — 1.15.2 (was 1.15.1)
+      + JS optimization: require sticky script only when sticky menu is enabled
+      + JS optimization: load some additional js only when interaction with menu starts
+  - [SEO Suite](/m2/extensions/seo-suite/)
+      + **swissup/module-seo-images** — 1.3.9 (was 1.3.8)
+        * Decode spec symbols in image filename - fixes missing images
+      + **swissup/module-seo-urls** — 1.5.25 (was 1.5.24)
+        * Define hard-coded filter only when AjaxLayeredNavigation module enabled
+      + **swissup/module-seo-templates** — 1.5.18 (was 1.5.17)
+        * Improved verification if entity metadata is empty and fixed typos in config
+  - [Sold Together](/m2/extensions/soldtogether/) — 1.7.9 (was 1.7.8)
+      + Added graphQL query cache
+
 ### Version 1.22.1
 
 > Jan 26, 2021
