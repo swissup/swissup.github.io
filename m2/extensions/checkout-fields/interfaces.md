@@ -27,6 +27,7 @@ Option                             | Description
 Default Label                      | Field label, which will be used if there is no store specific label set
 Store View                         | Store View, where field will be displayed for customer during checkout
 Catalog Input Type for Store Owner | Available types are: Text Field, Text Area, Date, Dropdown, Yes/No Dropdown and Multiple Select Dropdown
+Display Type                       | Select how the field will look. Available for dropdown, multiselect and yes/no input types
 Values Required                    | Select if field is required or optional
 Manage Options / Values            | Allows to specify values for fields with types dropdown and multiple select
 

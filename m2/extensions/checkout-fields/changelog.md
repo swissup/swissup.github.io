@@ -8,6 +8,13 @@ category: Checkout Fields
 
 # Changelog
 
+### Version 1.5.2
+
+> Feb 25, 2021
+
+ -  Added ability to select display type for the checkout fields with type
+ dropdown, multiselect and yes/no
+
 ### Version 1.5.1
 
 > Jan 13, 2021
