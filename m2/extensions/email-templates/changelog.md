@@ -8,6 +8,13 @@ category: Email Templates
 
 # Changelog
 
+### Version 1.1.1
+
+> Feb 26, 2021
+ 
+  - Fixed missing product image in ordere items grid when there are styles for 'product-name'.
+  - Argento Force design - better ordered items table styles.
+
 ### Version 1.1.0
 
 > Dec 24, 2020
