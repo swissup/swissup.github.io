@@ -8,6 +8,25 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.25.8
+
+> Feb 26, 2021
+
+ -  Fixed js error in Safari when billing address is placed below shipping address.
+
+**Module Updates**
+
+[CheckoutFields](/m2/extensions/checkout-fields/) — 1.5.2
+
+ -  Added ability to select display type for the 'select', 'mutiselect', and 'yes/no' fields:
+    - Select: dropdown or radio buttons;
+    - Mutiselect: multiselect or checkboxes;
+    - Yes/No: dropdown or radio buttons;
+
+[CheckoutSuccess](/m2/extensions/checkout-fields/) — 1.4.9
+
+ -  Set proper image container width in third-party theme
+
 ### Version 1.25.7
 
 > Feb 12, 2021
