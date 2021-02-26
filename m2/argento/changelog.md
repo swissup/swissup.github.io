@@ -7,7 +7,7 @@ category: Argento
 
 # Argento Changelog
 
-### Version 1.22.2 (draft)
+### Version 1.22.2
 
 > Feb 26, 2021
 
@@ -24,6 +24,8 @@ category: Argento
   - [Ajax Pro](/m2/extensions/ajaxpro/) — 1.5.18 (was 1.5.16)
       + JS optimization: load the loader scripts only when needed and reduce the number of requires on initial load
       + Fixed floating cart js error on Magento 2.4.2
+      + Fixed blocks without name warning in log
+      + Fixed cyclic dependency in merged layout
   - [Ajax Search](/m2/extensions/ajaxsearch/) — 1.11.4 (was 1.11.3)
       + JS optimization: require search loader only when needed
       + Load JS templates for search results only when used
