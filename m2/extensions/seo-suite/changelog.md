@@ -8,6 +8,22 @@ category: SEO Suite
 
 # Changelog
 
+### Version 1.10.1
+
+> Feb 26, 2021
+
+*swissup/module-seo-images — 1.3.9 (was 1.3.8)*
+
+  - Decode spec symbols in image filename. Fixes missing images.
+
+*swissup/module-seo-templates — 1.5.18 (was 1.5.17)*
+
+  - Improve verification if entity metadata is empty.
+
+*swissup/module-seo-urls — 1.5.25 (was 1.5.24)*
+
+  - Improve compatibility with Swissup Ajaxlayerednavigation - define hardcodded filter only when Ajaxlayerednavigation module is enabled.
+
 ### Version 1.10.0
 
 > Jan 13, 2021
