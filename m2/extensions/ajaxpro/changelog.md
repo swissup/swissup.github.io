@@ -6,6 +6,22 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.5.19
+
+> Mar 5, 2021
+
+**Bugfixes**
+ - Fix '.getProductNameUnsanitizedHtml is not a function' for minicart
+
+### Version 1.5.18
+
+> Feb 26, 2021
+
+**Bugfixes**
+ - Fix: Cyclic dependency in merged layout for handle: default -> ajaxpro_floatingcart -> default
+ - Fix warnings: blocks without name
+ - Fix animation strip generated id
+
 ### Version 1.5.17
 
 > Feb 18, 2021
