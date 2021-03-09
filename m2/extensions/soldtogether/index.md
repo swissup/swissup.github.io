@@ -14,7 +14,7 @@ category: SoldTogether
 {% include gallery.html images=site.data.gallery.m2.soldtogether.index class="photoswipe scroll" %}
 
 Our Sold Together module will encourage your customers to place the additional products to the cart. Main features:
- 
+
  -  Two types of relations:
      +  Frequently bought together - goods purchased in same order;
      +  Customer also bought - other goods purchased by customer who purchased this item.
@@ -30,4 +30,5 @@ Our Sold Together module will encourage your customers to place the additional p
 3. [Manage relations](manage-relations/)
 4. [Use cases](use-cases/)
     -  [Add block into sales email](use-cases/#add-block-into-sales-email)
+    -  [Show blocks in tabs](use-cases/#show-blocks-in-tabs)
 5. [Changelog](changelog/)
