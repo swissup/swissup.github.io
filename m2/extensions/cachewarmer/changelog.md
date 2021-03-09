@@ -8,6 +8,14 @@ category: Cachewarmer
 
 # Changelog
 
+### Version 1.0.10
+
+> 9 Mar, 2020
+
+**Fixes**
+ - Improve Varnish integration
+ - Fix varnish debug toolbar checking
+
 ### Version 1.0.9
 
 > 12 Oct, 2020
