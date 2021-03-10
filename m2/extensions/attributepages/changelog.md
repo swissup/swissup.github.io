@@ -7,6 +7,13 @@ category: Attributepages
 
 # Changelog
 
+### Version 1.3.7
+
+> Mar 10, 2021
+
+ -  Fixed error on non-existing urls when Swissup_Seo module is enabled
+ -  Fixed invalid brands sort order for lowercased brands
+
 ### Version 1.3.5
 
 > Jan 22, 2021
