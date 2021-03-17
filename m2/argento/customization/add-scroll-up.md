@@ -8,7 +8,7 @@ category: Argento
 
 # Create Scroll Up button
 
-> This feature is supperted since Argento 1.10.0
+> This feature is supported since Argento 1.10.0
 
 Navigate to _Content > Blocks_ and create `argento_scroll_up` CMS block
 with following content:

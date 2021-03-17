@@ -60,6 +60,7 @@ category: Argento
         - [Argento Luxury homepage](/m2/argento/luxury/page-structure/homepage/)
         - [Argento Force homepage](/m2/argento/force/page-structure/homepage/)
     -   [Adding 'Scroll Up' button](add-scroll-up/)
+    -   [Adding YouTube video](add-youtube-video/)
     -   [Removing default footer links](removing-default-footer-links/)
 5. FAQ
     -   [Removing other themes except one](removing-other-themes-except-one/)

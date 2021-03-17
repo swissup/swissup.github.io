@@ -7,6 +7,50 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.22.3
+
+> Mar 17, 2021
+
+ -  Added [Lite YouTube Embed](/m2/argento/customization/add-youtube-video/) to use instead of YouTube iframe
+ -  Reduced cumulative layout shift on homepage caused by slider
+ -  Reduced cumulative layout shift on category pages
+ -  Fixed wrong sticky menu positioning after page length change
+ -  _Argento Mall:_ improved PageSpeed score: replaced video iframe on the homepage with `Lite YouTube Embed`
+ -  _Argento Home:_ fixed visible scripts in product listing when MSRP enabled
+ -  _Argento Luxury:_ fixed not-working customers also bought carousel inside tab
+
+**Extensions Updates**
+
+  - [Ajax Pro](/m2/extensions/ajaxpro/) — 1.5.19 (was 1.5.18)
+      + Fixed slide cart js error on Magento 2.4.2
+  - [Ajax Search](/m2/extensions/ajaxsearch/) — 1.11.5 (was 1.11.4)
+      + Fixed missing popular search terms in results and JS error when search terms returned from server
+  - [Attribute Pages](/m2/extensions/attributepages/) — 1.3.7 (was 1.3.6)
+      + Fixed error on non-existing urls when Swissup_Seo module is enabled
+  - [EasySlide](/m2/extensions/easyslider/) —  1.6.12 (was 1.6.10)
+      + Fixed GraphQL types
+      + Added options "Center slide" and "Slide Max width"
+      + Tweak for sizes setting in sliders to reduce CLS
+  - [Navigation Pro](/m2/extensions/navigationpro/) — 1.15.3 (was 1.15.2)
+      + Added lazy loading attribute for hidden images
+      + Removed unused variable
+      + Removed wishlist block from Amazon Menu because it's not working in 2.4.2
+  - [Pagespeed](/m2/extensions/pagespeed/) — 1.4.13 (was 1.4.12)
+      + Updated lazy sizes js library
+      + Added native lazy loading for images using loading="lazy" attribute
+      + Fixed wrapping into `picture` tag - add srcset, sizes to source tag from original image
+      + Fixed not working css when critical is enabled in Magento 2.4.2
+  - [ProLabels](/m2/extensions/prolabels/) — 1.5.18 (was 1.5.17)
+      + Improved minification ability of JavaScript
+  - [Review Reminder](/m2/extensions/reviewreminder/) — 1.1.9 (was 1.1.8)
+      + Added reminder email unsubscribe feature
+  - [SEO Suite](/m2/extensions/seo-suite/)
+      + Fixed missing modules icons when merge enabled
+      + **swissup/module-seo-templates** — 1.5.19 (was 1.5.18)
+        * Fixed "products" directive for category template
+  - [Sold Together](/m2/extensions/soldtogether/) — 1.7.10 (was 1.7.9)
+      + Fixed items sort order at product edit form
+
 ### Version 1.22.2
 
 > Feb 26, 2021
