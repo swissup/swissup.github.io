@@ -26,6 +26,7 @@ You can also index old orders to send reminders to customers who made orders bef
  - [Email Preview Tab](#email-preview-tab)
 6. [Use cases](#use-cases)
  - [Change Email Template](#change-email-template)
+ - [Unsubscribe Link](#unsubscribe-link)
 
 ## Features
 
@@ -153,3 +154,16 @@ You can modify reminder email as any other Magento email tmeplate under `Marketi
 Press `Add New Template` button, select `Review Reminder` in `Template` field, then `Load Template` button.
 Template will be loaded and you can change template styles and markup in `Template Content` field.
 After modification save template and select it in `Stores > Configuration > Swissup > Review Reminder > Email Settings > Email template`.
+
+##### Unsubscribe Link
+
+Since module version 1.1.9, unsubscribe link can be used in reminder emails
+using `unsubscribe_link` variable.
+
+The unsubscribe link code:
+
+```html
+<p class="small" style="padding-top: 5%">
+    <a href="{% raw %}{{var unsubscribe_link}}{% endraw %}" title='{% raw %}{{trans "Unsubscribe"}}{% endraw %}'>{% raw %}{{trans "Unsubscribe from emails like this"}}{% endraw %}</a>
+</p>
+```

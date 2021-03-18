@@ -8,6 +8,12 @@ category: Review Reminder
 
 # Changelog
 
+### Version 1.1.9
+
+> Mar 18, 2021
+
+  - Added reminder email unsubscribe feature
+
 ### Version 1.1.8
 
 > Sep 23, 2020
