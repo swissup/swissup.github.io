@@ -8,6 +8,12 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.5.18
+
+> Mar 23, 2021
+ 
+  - Improve JavaScript minification potential.
+
 ### Version 1.5.17
 
 > Jan 25, 2021
