@@ -8,6 +8,8 @@ category: SoldTogether
 
 # Changelog
 
+### Version 1.7.10
+
 > Mar 23, 2021
  
  -  Fixed poorly ordered SoldTogether items at product edit form in Magento Admin.
