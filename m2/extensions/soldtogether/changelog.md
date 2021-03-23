@@ -8,6 +8,15 @@ category: SoldTogether
 
 # Changelog
 
+> Mar 23, 2021
+ 
+ -  Fixed poorly ordered SoldTogether items at product edit form im Magento Admin.
+ -  Translations: add missing phrases; fixed not working js translation for message when options aren't selected.
+ -  Don't render "Frequently bought together" block when it is disabled or empty.
+ -  Further ADA related improvement - better ScreenReader experience.
+ -  Carousel template (customers also bought) - initialize carousel only when jsLayout is set. 
+ -  Graphgl improvements.
+
 ### Version 1.7.6
 
 > Nov 25, 2020
