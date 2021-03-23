@@ -8,6 +8,14 @@ category: Easy Slider
 
 # Changelog
 
+### Version 1.6.12
+
+> Mar 23, 2021
+
+ -  New options for slider edit form - "Center slide" and "Slide Max width". Using this options you can reduce cumulative layout shift (CLS) in Google Pagespeed.
+ -  Better values of sizes for slider images.
+ -  Few fixes for graphql.
+
 ### Version 1.6.10
 
 > Feb 17, 2021
