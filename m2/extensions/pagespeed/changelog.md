@@ -8,6 +8,22 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.4.14
+
+> Mar 23, 2021
+
+ -  Added synax highlighter to the "Advanced bundling" and "Default critical css"
+    config options.
+ -  Decreased layout shifts when using image lazyload feature.
+ -  Fixed now working WebP images when original IMG has only `src` attribute.
+ -  Added ability to use `{% raw %}{{pagespeed_asset_url}}{% endraw %}` in critical css.
+    This feature allows you to include font or background urls as shown below:
+
+    ```css
+    src: url('{{pagespeed_asset_url}}/fonts/opensans/light/opensans-300.woff2') format('woff2');
+    ```
+
+
 ### Version 1.4.12
 
 > Nov 26, 2020
