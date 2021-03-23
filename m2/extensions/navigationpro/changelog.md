@@ -8,6 +8,13 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.15.3
+
+> Mar 23, 2021
+
+ -  Magento 2.4.2 fixes.
+ -  Added loading=lazy attribute to the megamenu image placeholders.
+
 ### Version 1.15.1
 
 > Jan 22, 2021

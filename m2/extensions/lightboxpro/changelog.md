@@ -8,6 +8,12 @@ category: Lightbox Pro
 
 # Changelog
 
+### Version 1.3.2
+
+> Mar 23, 2021
+
+ - Decreased layout shift when thumbnails placed on the left side of the image
+
 ### Version 1.3.0
 
 > Nov 25, 2020

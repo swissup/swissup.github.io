@@ -8,6 +8,12 @@ category: GDPR
 
 # Changelog
 
+### Version 1.4.1
+
+> Mar 23, 2021
+
+ -  Fixed overlay blink while styles are loading
+
 ### Version 1.4.0
 
 > Jan 25, 2021
