@@ -7,6 +7,15 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.22.4
+
+> Mar 23, 2021
+
+ -  Updated critical css styles in all themes.
+ -  Minor speed improvements to the header minicart dropdown.
+ -  Fixed jumping product image at product page while page is loading.
+ -  Fixed cookie wall blinks while page is loading.
+
 ### Version 1.22.3
 
 > Mar 17, 2021
