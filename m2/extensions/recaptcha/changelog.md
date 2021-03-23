@@ -8,6 +8,14 @@ category: reCAPTCHA
 
 # Changelog
 
+### Version 1.3.15
+
+> Mar 23, 2021
+
+ - Reset recaptcha on frontent when token expired. Prevent sending of submitting invalid token.
+ -  Improve compatibility with Magento 2.1.x.
+ -  Improve compatibility with third-party modules.
+
 ### Version 1.3.14
 
 > Feb 17, 2021
