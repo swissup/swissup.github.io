@@ -18,8 +18,7 @@ links only.
 ### Contents
 
  1. [Installation](installation/)
- 1. [Changelog](changelog/)
- 2. [Features](#features)
+ 2. [Changelog](changelog/)
  3. [Frontend](#frontend)
     - [Firecheckout](#firecheckout)
     - [Order view page](#order-view-page)
