@@ -6,14 +6,14 @@
       Address Field Manager grid interface.
 - href: /images/m2/address-field-manager/frontend/firecheckout.png
   src: /images/m2/address-field-manager/frontend/small/firecheckout.png
-  w: 1288
-  h: 721
+  w: 1271
+  h: 673
   title: >
       Integration with Firecheckout.
 - href: /images/m2/address-field-manager/frontend/onepage-checkout-form.png
   src: /images/m2/address-field-manager/frontend/small/onepage-checkout-form.png
-  w: 985
-  h: 896
+  w: 1017
+  h: 920
   title: >
       Integration with onepage checkout module.
 - href: /images/m2/address-field-manager/frontend/onepage-checkout-preview.png
