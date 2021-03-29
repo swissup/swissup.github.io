@@ -6,6 +6,15 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.5.20
+
+> Mar 29, 2021
+
+**Bugfixes**
+ - Fix 'sku.replace is not a function'
+ - Move catalog-product-view.js as requirement for catalog-add-to-cart.This will make it lazy loaded on Argento themes.
+ - Use Argento lazy init for x-magento-init script.
+
 ### Version 1.5.19
 
 > Mar 5, 2021
