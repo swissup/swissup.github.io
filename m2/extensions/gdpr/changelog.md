@@ -8,6 +8,14 @@ category: GDPR
 
 # Changelog
 
+### Version 1.4.2
+
+> Mar 30, 2021
+
+ -  Show accepted cookie group titles instead of group ids at account page.
+ -  Fixed invalid 'updated_at' value when client consents gets updated.
+ -  Better compatibility with Athlete theme.
+
 ### Version 1.4.1
 
 > Mar 23, 2021
