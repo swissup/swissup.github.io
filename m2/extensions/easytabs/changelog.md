@@ -8,6 +8,13 @@ category: Easy Tabs
 
 # Changelog
 
+### Version 1.9.8
+
+> Apr 6, 2021
+
+  - Compatibility with MSP_ReCaptcha for product review form. Works only when review tab is static (not loaded via ajax).
+  - Fixed layout shift when using accordion tabs on desktop.
+
 ### Version 1.9.6
 
 > Jan 22, 2021
