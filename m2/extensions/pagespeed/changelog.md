@@ -8,6 +8,12 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.4.15
+
+> Apr 6, 2021
+
+ -  Fixed invalid font url when deploying theme from terminal
+
 ### Version 1.4.14
 
 > Mar 23, 2021
