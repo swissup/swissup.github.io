@@ -8,6 +8,15 @@ category: Highlight
 
 # Changelog
 
+### Version 1.7.7
+
+> Apr 6, 2021
+  
+  - Add highlight pages into XML sitemap.
+  - Fixed invalid product urls at highlight pages.
+  - Code refactoring and improvements.
+  - Add graphql.
+
 ### Version 1.7.4
 
 > Jan 13, 2021
