@@ -7,6 +7,14 @@ category: Attributepages
 
 # Changelog
 
+### Version 1.3.8
+
+> Apr 6, 2021
+
+  - Add Attribute Page into XML Sitemap.
+  - Don't include option pages into HTML Sitemap when parent attribute page is disabled.
+  - Fixed error when trying to open page with invalid url.
+
 ### Version 1.3.7
 
 > Mar 10, 2021
