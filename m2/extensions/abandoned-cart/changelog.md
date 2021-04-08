@@ -8,6 +8,12 @@ category: Abandoned Cart
 
 # Changelog
 
+### Version 1.0.7
+
+> Apr 9, 2021
+
+ -  Fixed error during data installation: area code not set
+
 ### Version 1.0.6
 
 > Apr 8, 2021
