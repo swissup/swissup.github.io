@@ -30,6 +30,7 @@ Field            | Description
 Enabled          | Enable/Disable the rule
 Name             | Rule Name
 Send Email After | Delay before abandoned email will be sent **(the minimum value is 10 minutes)**
+Do NOT send an email if it was sent to the client in the last ? days | Here you can specify a number of days to wait until the next email will be sent to customer
 Websites         | Select websites where rule can be applied
 Customer Groups  | Select customer groups for which rule can be applied
 Priority         | Rule sort order

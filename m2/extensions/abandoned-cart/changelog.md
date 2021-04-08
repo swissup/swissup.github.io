@@ -8,6 +8,12 @@ category: Abandoned Cart
 
 # Changelog
 
+### Version 1.0.6
+
+> Apr 8, 2021
+
+ -  Added rule config to limit email frequency per customer
+
 ### Version 1.0.5
 
 > Feb 22, 2021
