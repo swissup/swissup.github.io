@@ -85,6 +85,13 @@ botprotection:
     m1: /m1/extensions/botprotection/
     m2:
 
+breeze:
+  title: Breeze
+  short_description: Performant Magento Frontend
+  urls:
+    m1:
+    m2: /m2/extensions/breeze/
+
 cache:
   title: Cache
   short_description: Blazing fast store is the key to e-commerce success.
