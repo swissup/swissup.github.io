@@ -10,6 +10,14 @@ category: Breeze
 
 ### Version 1.0.0
 
+> Apr 14, 2021
+
+ -  Magento 2.3.6 compatibility
+
+### Version 1.0.0
+
+> Apr 13, 2021
+
  -  Initial Release.
  -  Supported pages (All except Shopping Cart and Checkout):
     - Home and other CMS pages
