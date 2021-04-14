@@ -64,8 +64,10 @@ Here is a full syntax example on how to register custom component:
                                 <item name="enabled" xsi:type="helper" helper="Swissup\Breeze\Helper\Config::isEnabled">
                                     <param name="path">vendor/module/path</param>
                                 </item>
-                                <item name="deps" xsi:type="array">
+                                <item name="import" xsi:type="array">
                                     <item name="first" xsi:type="string">Vendor_Module/js/breeze/[another-filename]</item>
+                                    <item name="item::another" xsi:type="string">[component-name]</item>
+                                    <item name="bundle::one-more" xsi:type="string">[bundle-name]</item>
                                 </item>
                             </item>
                         </item>

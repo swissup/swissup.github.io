@@ -15,6 +15,10 @@ you will need to write separate Breeze-compatible version of your javascript cod
  -  [Prepare theme js](theme-js/)
  -  [Prepare module js](module-js/)
 
+Additionally you may look at existing modules with Breeze integration:
+
+ -  [swissup/module-swiper](https://github.com/swissup/module-swiper)
+
 #### Next up
 {:.no_toc}
 
