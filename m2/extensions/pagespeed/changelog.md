@@ -8,6 +8,14 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.4.16
+
+> Apr 14, 2021
+
+ -  Enable defer/critical css only on cms,catalog pages (#32)
+ -  Disable build-in magento asyncCss on not allowed pages (#32)
+ -  Added checking is image optimization was already enabled before CLI command run
+
 ### Version 1.4.15
 
 > Apr 6, 2021
