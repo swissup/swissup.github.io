@@ -8,11 +8,12 @@ category: Breeze
 
 # Changelog
 
-### Version 1.0.2
+### Version 1.0.3
 
 > Apr 16, 2021
 
  -  Improved collapsible, menu, and tabs scripts flexibility.
+ -  Magento 2.3 compatibility fixes
 
 ### Version 1.0.1
 
