@@ -8,6 +8,12 @@ category: Breeze
 
 # Changelog
 
+### Version 1.0.2
+
+> Apr 16, 2021
+
+ -  Improved collapsible, menu, and tabs scripts flexibility.
+
 ### Version 1.0.1
 
 > Apr 14, 2021

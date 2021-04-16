@@ -18,6 +18,7 @@ you will need to write separate Breeze-compatible version of your javascript cod
 Additionally you may look at existing modules with Breeze integration:
 
  -  [swissup/module-swiper](https://github.com/swissup/module-swiper)
+ -  [swissup/module-easytabs](https://github.com/swissup/module-easytabs)
 
 #### Next up
 {:.no_toc}
