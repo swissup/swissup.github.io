@@ -7,6 +7,16 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.3.34
+
+> Apr 20, 2021
+
+**Bugfixes**
+ - Fixed option/product counting. Add visibility, category and other filters for full 2.4 (elasticsearch) compatability
+ - Fixed 'Empty swatch tooltips on 2.4'
+ - Fixed JS warning in browser console - "Fallback to JQueryUI Compat activated. Your store is missing a dependency for a jQueryUI widget..."
+ - Apply filter when user typed price into intups at price filter. Or any other range filter.
+
 ### Version 1.3.33
 
 > Feb 17, 2021
