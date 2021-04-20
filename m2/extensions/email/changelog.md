@@ -8,6 +8,15 @@ category: Email
 
 # Changelog
 
+### Version 0.3.18
+
+> Apr 20, 2021
+
+**Fixes**
+ - Merge pull request #21 from sandstein/fix-issue-20. Uses correctly encoded Laminas\Mail\Message instead of reparsing
+ - Add Mail\EmailMessageInterface
+
+
 ### Version 0.3.17
 
 > Nov 20, 2020
