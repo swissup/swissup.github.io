@@ -7,6 +7,70 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.22.6 (Draft)
+
+> TBA
+
+ - Added footer bottom toolbar layout configuration in all theme editors: you can now hide copyright and footer links blocks and display selected static block in footer bottom toolbar
+ - Fixed layout shift caused by breadcrumbs
+ - Critical css fixes
+ - Fixed 'jumping' header panel when store/currency switchers unavailable
+ - Reduced JS resources initial loading: added lazy init for x-magento-init scripts, add to cart at product listing, minicart and auth popup templates
+
+**Extensions Updates**
+
+  - [Ajax Pro](/m2/extensions/ajaxpro/) — 1.5.21 (was 1.5.19)
+      + Fixed sku.replace is not a function error
+      + Added scripts lazy initialization
+      + Add to cart animation fixes
+  - [Ajax Search](/m2/extensions/ajaxsearch/) — 1.11.6 (was 1.11.5)
+      + Initialize category dropdown only on desktop to reduce JS for mobile
+  - [Askit](/m2/extensions/askit/) — 1.9.5 (was 1.9.4)
+      + Added answer in admin notification email
+  - [Attribute Pages](/m2/extensions/attributepages/) — 1.3.9 (was 1.3.7)
+      + Fixed error when trying to open page with invalid url
+      + Added attribute pages to XML Sitemap
+      + Don't include option pages in HTML Sitemap when parent attribute page is disabled
+      + Fixed 404 error on attribute pages
+  - [Easytabs](/m2/extensions/easytabs/) — 1.9.9 (was 1.9.6)
+      + Fixed layout shift when using accordion tabs on desktop
+      + Compatibility with MSP_ReCaptcha for product review form
+      + Swissup Breeze integration
+      + Removed easytabs from product reviews list page
+      + Prevent JS error at product page when anchor in URL is invalid CSS selector
+  - [GDPR](/m2/extensions/gdpr/) - 1.4.2 (was 1.4.1)
+      + Better compatibility with Athlete theme
+      + Store accepted cookie group names instead of codes
+      + Fixed invalid updated_at date in client consents
+      + Fixed newsletter block styles on Luma theme
+  - [Highlight](/m2/extensions/highlight/) — 1.7.8 (was 1.7.6)
+      + Using Argento lazy init for x-magento-init script
+      + Fixed invalid product urls at highlight pages
+      + Added highlight pages into XML sitemap
+      + Fixed not-working widget conditions
+      + Fixed not-working category filter when using ajax pagination
+  - [Hover Gallery](/m2/extensions/hover-gallery/) — 1.3.9 (was 1.3.8)
+      + Fixed mysql error on B2B and Enterprise Magento editions
+  - [Navigation Pro](/m2/extensions/navigationpro/) — 1.15.4 (was 1.15.3)
+      + Initialize top navigation on mobile devices only after hamburger icon clicked
+      + Swissup Breeze integration
+  - [Pagespeed](/m2/extensions/pagespeed/) — 1.4.16 (was 1.4.14)
+      + Fixed invalid font url when deploying theme from terminal
+      + Added configuration checks before image:resize command executing
+      + Enable CSS defer and critical css only on cms and catalog pages
+      + Disable build-in Magento critical CSS on disallowed pages
+  - [SEO Suite](/m2/extensions/seo-suite/)
+      + **swissup/module-rich-snippets** — 1.4.13 (was 1.4.12)
+          * Fixed foreach warning when configurable product has no children
+      + **swissup/module-seo-html-sitemap** — 1.1.9 (was 1.1.8)
+          * Sitemap page: don't show section when there are no items
+      + **swissup/module-seo-images** — 1.3.10 (was 1.3.9)
+        * Fixed mysql error on B2B and Enterprise Magento editions
+      + **swissup/module-seo-xml-sitemap** — 1.1.9 (was 1.1.8)
+        * Improved sorting in XML file
+  - [Sold Together](/m2/extensions/soldtogether/) — 1.7.11 (was 1.7.10)
+      + Restored missing price in Customer Also Bought block
+
 ### Version 1.22.4
 
 > Mar 23, 2021
