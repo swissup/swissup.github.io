@@ -8,6 +8,14 @@ category: Email
 
 # Changelog
 
+### Version 0.3.19
+
+> Apr 22, 2021
+
+**Fixes**
+ - Add 2.3 backward compatibility
+ - Add Mailhog usage example
+
 ### Version 0.3.18
 
 > Apr 20, 2021
