@@ -6,6 +6,13 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.11.6
+
+> Apr 26, 2021
+
+ -  [Breeze](/m2/extensions/breeze/) integration added.
+ -  Optimize initialization on mobile devices.
+
 ### Version 1.11.1
 
 > Jan 21, 2021

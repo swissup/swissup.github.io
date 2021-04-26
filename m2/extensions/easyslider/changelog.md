@@ -8,6 +8,12 @@ category: Easy Slider
 
 # Changelog
 
+### Version 1.6.13
+
+> Apr 26, 2021
+
+ -  [Breeze](/m2/extensions/breeze/) integration added
+
 ### Version 1.6.12
 
 > Mar 23, 2021

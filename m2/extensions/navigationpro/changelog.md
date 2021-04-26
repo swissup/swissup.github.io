@@ -8,6 +8,14 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.15.4
+
+> Apr 26, 2021
+
+ -  [Breeze](/m2/extensions/breeze/) integration added
+ -  PWA integration added
+ -  Optimize menu initialization on mobile devices
+
 ### Version 1.15.3
 
 > Mar 23, 2021
