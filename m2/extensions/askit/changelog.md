@@ -11,6 +11,18 @@ category: AskIt
 
 # Changelog
 
+### Version 1.9.5
+
+> Apr 26, 2021
+
+  - Add answer in admin notification email
+
+### Version 1.9.4
+
+> Feb 26, 2021
+
+  - Added Persian translation
+
 ### Version 1.9.3
 
 > Feb 17, 2021

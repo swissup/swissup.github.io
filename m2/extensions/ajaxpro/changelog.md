@@ -6,6 +6,15 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.5.21
+
+> Apr 20, 2021
+
+**Bugfixes**
+    - Fixed sku.replace is not a function error
+    - Added scripts lazy initialization
+    - Add to cart animation fixes
+
 ### Version 1.5.20
 
 > Mar 29, 2021
