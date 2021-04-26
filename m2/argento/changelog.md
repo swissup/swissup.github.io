@@ -58,6 +58,7 @@ category: Argento
   - [Navigation Pro](/m2/extensions/navigationpro/) — 1.15.4 (was 1.15.3)
       + Initialize top navigation on mobile devices only after hamburger icon clicked
       + Swissup Breeze integration
+      + PWA integration: added GraphQl schema
   - [Pagespeed](/m2/extensions/pagespeed/) — 1.4.16 (was 1.4.14)
       + Fixed invalid font url when deploying theme from terminal
       + Added configuration checks before image:resize command executing
