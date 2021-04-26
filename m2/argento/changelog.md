@@ -7,9 +7,9 @@ category: Argento
 
 # Argento Changelog
 
-### Version 1.22.6 (Draft)
+### Version 1.22.6
 
-> TBA
+> Apr 26, 2021
 
  - Added footer bottom toolbar layout configuration in all theme editors: you can now hide copyright and footer links blocks and display selected static block in footer bottom toolbar
  - Fixed layout shift caused by breadcrumbs
@@ -25,6 +25,8 @@ category: Argento
       + Add to cart animation fixes
   - [Ajax Search](/m2/extensions/ajaxsearch/) — 1.11.6 (was 1.11.5)
       + Initialize category dropdown only on desktop to reduce JS for mobile
+      + Style fixes
+      + Swissup Breeze integration
   - [Askit](/m2/extensions/askit/) — 1.9.5 (was 1.9.4)
       + Added answer in admin notification email
   - [Attribute Pages](/m2/extensions/attributepages/) — 1.3.9 (was 1.3.7)
@@ -38,6 +40,8 @@ category: Argento
       + Swissup Breeze integration
       + Removed easytabs from product reviews list page
       + Prevent JS error at product page when anchor in URL is invalid CSS selector
+  - [EasySlide](/m2/extensions/easyslider/) —  1.6.13 (was 1.6.12)
+      + Swissup Breeze frontend integration
   - [GDPR](/m2/extensions/gdpr/) - 1.4.2 (was 1.4.1)
       + Better compatibility with Athlete theme
       + Store accepted cookie group names instead of codes
@@ -59,13 +63,19 @@ category: Argento
       + Added configuration checks before image:resize command executing
       + Enable CSS defer and critical css only on cms and catalog pages
       + Disable build-in Magento critical CSS on disallowed pages
-  - [SEO Suite](/m2/extensions/seo-suite/)
+  - [ProLabels](/m2/extensions/prolabels/) — 1.5.19 (was 1.5.18)
+      + Added `category_name` and `category_url` string variables
+  - [SEO Suite](/m2/extensions/seo-suite/) — 1.11.0
       + **swissup/module-rich-snippets** — 1.4.13 (was 1.4.12)
-          * Fixed foreach warning when configurable product has no children
+        * Fixed foreach warning when configurable product has no children
+      + **swissup/module-seo-canonical** — 1.11.0 (was 1.0.9)
+        * Added config option to use specific store view for canonical URLs
+        * Added config option to replace canonical base URL
       + **swissup/module-seo-html-sitemap** — 1.1.9 (was 1.1.8)
-          * Sitemap page: don't show section when there are no items
-      + **swissup/module-seo-images** — 1.3.10 (was 1.3.9)
+        * Sitemap page: don't show section when there are no items
+      + **swissup/module-seo-images** — 1.3.11 (was 1.3.9)
         * Fixed mysql error on B2B and Enterprise Magento editions
+        * Fixed "Unique constraint violation found" exception
       + **swissup/module-seo-xml-sitemap** — 1.1.9 (was 1.1.8)
         * Improved sorting in XML file
   - [Sold Together](/m2/extensions/soldtogether/) — 1.7.11 (was 1.7.10)
