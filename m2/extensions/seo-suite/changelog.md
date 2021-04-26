@@ -8,6 +8,41 @@ category: SEO Suite
 
 # Changelog
 
+### Version 1.11.0
+
+> Apr 26, 2021
+
+*swissup/module-rich-snippets — 1.4.13 (was 1.4.12)*
+
+  - Fixed foreach warning when configurable product has no children.
+
+*swissup/module-seo-canonical — 1.11.0 (was 1.0.9)*
+
+  - Config option to use specific store view for canonical URLs. In other words you can change base url of canonical by selecting store view.
+  - Config option to replace base of canonical. Use it when you need to link canonical to other domain and if is not in your Magento instance.
+
+*swissup/module-seo-core — 1.3.1 (was 1.3.0)*
+
+  - Fixed missing module icons when merge enabled.
+
+*swissup/module-seo-html-sitemap — 1.1.9 (was 1.1.8)*
+
+  - Sitemap page - don't show section when there is no items.
+  - Minor templates refactoring.
+
+*swissup/module-seo-images — 1.3.11 (was 1.3.9)*
+
+  - Solved "Unique constraint violation found" exception during catalog image resize at non-english stores.
+  - Minor templates refactoring.
+
+*swissup/module-seo-templates — 1.5.19 (was 1.5.18)*
+
+  - Fixed "products" directive for category template. Previously this directive didn't respect category and collected data for root category.
+
+*swissup/module-seo-xml-sitemap — 1.1.9 (was 1.1.8)*
+
+  - Improve data sorting in XML file. First items with higher priority. Then sort by latest update date and url when priority is equal.
+
 ### Version 1.10.1
 
 > Feb 26, 2021
