@@ -7,9 +7,9 @@ category: Argento
 
 # Argento Changelog
 
-### Version 1.22.6
+### Version 1.22.7
 
-> Apr 26, 2021
+> Apr 27, 2021
 
  - Added footer bottom toolbar layout configuration in all theme editors: you can now hide copyright and footer links blocks and display selected static block in footer bottom toolbar
  - Fixed layout shift caused by breadcrumbs
