@@ -8,9 +8,9 @@ category: SEO Suite
 
 # Changelog
 
-### Version 1.11.0
+### Version 1.11.1
 
-> Apr 26, 2021
+> Apr 27, 2021
 
 *swissup/module-rich-snippets — 1.4.13 (was 1.4.12)*
 
