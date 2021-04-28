@@ -19,7 +19,7 @@ _Stores → Configuration → Swissup → SEO Suite → Canonical URLs_ page.
 
 ![General setting](/images/m2/seo-canonicals/general.png)
 
-Here you can change how canonical URl domain is build.
+Here you can change how canonical URL domain is build.
 
 ### Categories
 
