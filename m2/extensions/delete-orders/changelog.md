@@ -8,6 +8,10 @@ category: Delete Orders
 
 # Changelog
 
+### Version 1.1.0
+
+-  Ability to remove the orders via command line by order Id "swissup:order:delete".
+
 ### Version 1.0.5
 
 -  Fixed compatibility module with magento 2.4.0
