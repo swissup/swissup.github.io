@@ -15,6 +15,12 @@ category: Canonical URL
 You can configure SEO enhancements for paginated content at
 _Stores → Configuration → Swissup → SEO Suite → Canonical URLs_ page.
 
+### General
+
+![General setting](/images/m2/seo-canonicals/general.png)
+
+Here you can change how canonical URl domain is build.
+
 ### Categories
 
 ![Category setting](/images/m2/seo-canonicals/categories.png)
