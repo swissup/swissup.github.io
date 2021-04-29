@@ -7,6 +7,15 @@ category: Attributepages
 
 # Changelog
 
+### Version 1.4.0
+
+> Apr 29, 2021
+
+ -  Added [ability to hide attribute](/m2/extensions/attributepages/attribute-based-page/backend/#page-information-tab)
+    from layered navigation across all Magento pages. This feature was added
+    because latest Attributepages versions requires you to use only filterable
+    attribute for Attribute based page.
+
 ### Version 1.3.8
 
 > Apr 6, 2021

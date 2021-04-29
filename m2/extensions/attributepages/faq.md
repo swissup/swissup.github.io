@@ -8,26 +8,17 @@ category: Attributepages
 
 # Frequently Asked Questions
 
-### Option page is showing all products
+### Page is showing all products
 
-Such problem can happen if the attribute that page is created for i.e. `manufacturer`
-has `Used in Product Listing` option set to `No`
+Open _Stores > Attributes > Product > 'select your attribute' > Storefront properties_
+page and change _Use in Layered Navigation_ option to **Filterable**.
 
-##### Fix
+Update indexes and refresh the cache:
 
- *  Go to `Stores > Attribute > Product > 'select your attribute' > Storefront properties`
- *  Find **Used in Product Listing** and set to **Yes**
- *  Make store indexes reindex using _CLI_ command:
-
-    ```sh
-    php bin/magento indexer:reindex
-    ```
- *  Clear store cache. If you're still in terminal you can use:
-
-    ```sh
-    php bin/magento cache:flush
-    ```
- *  Done
+```bash
+php bin/magento indexer:reindex
+php bin/magento cache:flush
+```
 
 #### Next Up
 
