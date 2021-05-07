@@ -8,6 +8,14 @@ category: reCAPTCHA
 
 # Changelog
 
+### Version 1.3.16
+
+> May 7, 2021
+
+  - Newsletter recaptcha - lazy init. Initialize it on click at newsleter form.
+  - Prevent JS error "Cannot read property 'method' of undefined" at checkout with Ebizmarts_SagePaySuite payment.
+  - Compatibility with Mageants_FrontOrderComment abd VLCSolutions_OrderComments modules.
+
 ### Version 1.3.15
 
 > Mar 23, 2021
