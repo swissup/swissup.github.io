@@ -8,6 +8,13 @@ category: Easy Tabs
 
 # Changelog
 
+### Version 1.9.10
+
+> May 7, 2021
+
+  - Fixed missing Magento built-in recaptcha for review form at M2.4.x.
+  - Remove easytabs from product reviews list page.
+
 ### Version 1.9.8
 
 > Apr 6, 2021
