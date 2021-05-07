@@ -8,6 +8,18 @@ category: SEO Suite
 
 # Changelog
 
+### Version 1.12.0
+
+> May 7, 2021
+
+*swissup/module-seo-templates — 1.6.0 (was 1.5.19)*
+
+  - Long waited feature is finally here - template for "H1 Tag" at product and category pages.
+
+*swissup/module-seo-canonical — 1.11.2 (was 1.11.1)*
+
+  - Move domain update options in module config to "Category" and "Product" sections. It gives store admin more flexibility in setting us canonical urls behavior.
+
 ### Version 1.11.1
 
 > Apr 27, 2021
