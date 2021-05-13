@@ -10,6 +10,13 @@ category: Cachewarmer
 
 ### Version 1.0.10
 
+> 13 May, 2021
+
+**Fixes**
+ - Add debug option to command
+
+### Version 1.0.10
+
 > 9 Mar, 2020
 
 **Fixes**
