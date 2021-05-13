@@ -8,6 +8,21 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.15.6
+
+> May 13, 2021
+
+ -  Fix broken nested menu(close #26)
+ -  Graphql: If menu id empty then use menu id from config
+
+### Version 1.15.5
+
+> Apr 27, 2021
+
+ -  Breeze: Fixed horizontal scrollbar after viewport resize
+ -  Fixed js error `require is not defined` when Varnish used.
+ -  Breeze: don't use hover events for accordion menu's
+
 ### Version 1.15.4
 
 > Apr 26, 2021
