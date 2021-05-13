@@ -8,6 +8,13 @@ category: Easy Slider
 
 # Changelog
 
+### Version 1.6.14
+
+> May 13, 2021
+
+ -  Improve graphql schema
+ -  Add width x height in slide graphQl response
+
 ### Version 1.6.13
 
 > Apr 26, 2021
