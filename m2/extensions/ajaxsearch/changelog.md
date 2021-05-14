@@ -8,6 +8,13 @@ category: AjaxSearch
 
 ### Version 1.11.6
 
+> May 14, 2021
+
+ -  [Breeze](/m2/extensions/breeze/) integration updated.
+ -  Fixed PHP error on MagentoCommerce and MagentoB2B versions.
+
+### Version 1.11.5
+
 > Apr 26, 2021
 
  -  [Breeze](/m2/extensions/breeze/) integration added.

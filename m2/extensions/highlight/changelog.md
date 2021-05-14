@@ -8,10 +8,18 @@ category: Highlight
 
 # Changelog
 
+### Version 1.7.9
+
+> May 14, 2021
+
+ -  [Breeze](/m2/extensions/breeze/) integration added.
+ -  Fixed not working category filter when using ajax pagination.
+ -  Fixed not working widget conditions.
+
 ### Version 1.7.7
 
 > Apr 6, 2021
-  
+
   - Add highlight pages into XML sitemap.
   - Fixed invalid product urls at highlight pages.
   - Code refactoring and improvements.

@@ -8,6 +8,13 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.4.17
+
+> May 14, 2021
+
+ -  [Breeze](/m2/extensions/breeze/) integration added.
+ -  Fixed broken html when using critical css feature.
+
 ### Version 1.4.16
 
 > Apr 14, 2021

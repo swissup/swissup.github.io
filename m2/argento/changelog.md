@@ -7,6 +7,29 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.22.8
+
+> May 14, 2021
+
+ -  [Breeze](/m2/extensions/breeze/) integration added to all themes and other
+    bundled modules.
+ -  Improved critical css styles.
+
+**Extensions Updates**
+
+ -  [Ajax Search](/m2/extensions/ajaxsearch/) — 1.11.6 (was 1.11.5)
+    -  Fixed PHP error on MagentoCommerce and MagentoB2B versions.
+ -  [Highlight](/m2/extensions/highlight/) — 1.7.9 (was 1.7.7)
+    -  Fixed not working category filter when using ajax pagination.
+    -  Fixed not working widget conditions.
+ -  [Navigation Pro](/m2/extensions/navigationpro/) — 1.15.8 (was 1.15.4)
+    -  Fixed not working sticky component.
+    -  Fixed incorrect dropdown height on mobile devices when using stacked or amazon menu's.
+ -  [Pagespeed](/m2/extensions/pagespeed/) — 1.4.17 (was 1.4.16)
+    -  Fixed broken html when using critical css feature.
+ -  [ProLabels](/m2/extensions/prolabels/) — 1.6.1 (was 1.5.18)
+    -  Added ability to place content labels across multiple page locations.
+
 ### Version 1.22.7
 
 > Apr 27, 2021

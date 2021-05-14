@@ -11,6 +11,12 @@ category: AskIt
 
 # Changelog
 
+### Version 1.9.6
+
+> May 14, 2021
+
+ -  [Breeze](/m2/extensions/breeze/) integration added.
+
 ### Version 1.9.5
 
 > Apr 26, 2021

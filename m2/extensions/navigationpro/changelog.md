@@ -8,11 +8,19 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.15.8
+
+> May 14, 2021
+
+ -  [Breeze](/m2/extensions/breeze/) integration added.
+ -  Fixed not working sticky component.
+ -  Fixed incorrect dropdown height on mobile devices when using stacked or amazon menu's.
+
 ### Version 1.15.6
 
 > May 13, 2021
 
- -  Fix broken nested menu(close #26)
+ -  Fixed missing top navigation when another menu instance is rendered inside.
  -  Graphql: If menu id empty then use menu id from config
 
 ### Version 1.15.5

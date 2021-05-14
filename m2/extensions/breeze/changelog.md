@@ -8,6 +8,16 @@ category: Breeze
 
 # Changelog
 
+### Version 1.1.0
+
+> May 14, 2021
+
+ -  Improved flexibility of bundled components for better third-party modules integration.
+ -  Component inheritance implemented.
+ -  Small fixes in js components.
+ -  $.async function added.
+ -  Stability improvements.
+
 ### Version 1.0.3
 
 > Apr 16, 2021

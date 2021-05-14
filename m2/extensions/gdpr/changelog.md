@@ -8,6 +8,12 @@ category: GDPR
 
 # Changelog
 
+### Version 1.4.3
+
+> May 14, 2021
+
+ -  [Breeze](/m2/extensions/breeze/) integration added.
+
 ### Version 1.4.2
 
 > Mar 30, 2021

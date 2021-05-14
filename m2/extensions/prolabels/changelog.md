@@ -8,10 +8,17 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.6.1
+
+> May 14, 2021
+
+ -  [Breeze](/m2/extensions/breeze/) integration added.
+ -  Added ability to place content labels across multiple page locations.
+
 ### Version 1.5.18
 
 > Mar 23, 2021
- 
+
   - Improve JavaScript minification potential.
 
 ### Version 1.5.17

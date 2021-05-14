@@ -8,6 +8,12 @@ category: Easy Banners
 
 # Changelog
 
+### Version 1.6.3
+
+> May 14, 2021
+
+ -  [Breeze](/m2/extensions/breeze/) integration added.
+
 ### Version 1.6.1
 
 > Jan 22, 2021
