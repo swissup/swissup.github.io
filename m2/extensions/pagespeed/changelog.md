@@ -8,6 +8,13 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.4.18
+
+> May 17, 2021
+
+ -  Fixed incorrect image/picture tag markup when responsive images is used, but
+    the images itself are not ready to use (not found).
+
 ### Version 1.4.17
 
 > May 14, 2021

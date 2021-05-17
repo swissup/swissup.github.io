@@ -8,6 +8,13 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.6.2
+
+> May 17, 2021
+
+ -  [Breeze](/m2/extensions/breeze/) integration updated - Fixed image selector
+    config value to work with breeze gallery.
+
 ### Version 1.6.1
 
 > May 14, 2021

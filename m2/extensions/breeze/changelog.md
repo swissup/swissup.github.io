@@ -8,6 +8,14 @@ category: Breeze
 
 # Changelog
 
+### Version 1.1.1
+
+> May 17, 2021
+
+ -  Fixed not working gallery when picture tag is used
+ -  Fixed gallery functionality when sizes/srcset attribute is found in the img tag
+ -  Fixed js errors when defer js is enabled in [Pagespeed](/m2/extensions/pagespeed/) module
+
 ### Version 1.1.0
 
 > May 14, 2021

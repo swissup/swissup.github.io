@@ -8,6 +8,13 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.15.9
+
+> May 17, 2021
+
+ -  [Breeze](/m2/extensions/breeze/) integration updated - Fixed not working
+    vertical columns layout.
+
 ### Version 1.15.8
 
 > May 14, 2021
