@@ -13,8 +13,8 @@ worrying about further updates.
 You can place `_custom.less` and `_custom-variables.less` files inside your active theme
 and they will be automatically included by the module:
 
- -  app/design/frontend/Magento/luma/Swissup_Navigationpro/web/css/_custom.less
- -  app/design/frontend/Magento/luma/Swissup_Navigationpro/web/css/abstracts/_custom-variables.less
+ -  app/design/frontend/Magento/luma/Swissup_Navigationpro/web/css/source/_custom.less
+ -  app/design/frontend/Magento/luma/Swissup_Navigationpro/web/css/source/abstracts/_custom-variables.less
 
 This allows you to keep original files clean and upgrade to the latest
 navigationpro version without worrying to lost your changes.
@@ -35,9 +35,10 @@ Let's make a dark dropdowns. [Scroll down](#result) to see the result.
                     └── Swissup_Navigationpro
                         └── web
                             └── css
-                                ├── abstracts
-                                |   └── _custom-variables.less
-                                ├── _custom.less
+                                └── source
+                                    ├── abstracts
+                                    |   └── _custom-variables.less
+                                    └── _custom.less
     ```
 
  2. Redefine navigationpro [variables][less-variables] with
