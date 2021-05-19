@@ -91,7 +91,8 @@ the page when `Vendor_Module/js/carousel` declaration is found on the page.
     'use strict';
 
     // declare widget that can be used later
-    breeze.widget('carousel', {
+    $.widget('carousel', {
+        component: 'Vendor_Module/js/carousel',
         options: {
             default: 'value'
         },
@@ -100,11 +101,6 @@ the page when `Vendor_Module/js/carousel` declaration is found on the page.
             console.log(this.element);
             console.log(this.options);
         }
-    });
-
-    // instantiate widget for the element with Vendor_Module/js/carousel declaration.
-    $(document).on('breeze:mount:Vendor_Module/js/carousel', function (event, data) {
-        $(data.el).carousel(data.settings);
     });
 })();
 ```
@@ -201,7 +197,8 @@ the page when `Vendor_Module/js/carousel` declaration is found on the page.
     'use strict';
 
     // declare view that can be used later
-    breeze.view('carousel', {
+    $.view('carousel', {
+        component: 'Vendor_Module/js/carousel',
         options: {
             default: 'value'
         },
@@ -210,11 +207,6 @@ the page when `Vendor_Module/js/carousel` declaration is found on the page.
             console.log(this.element);
             console.log(this.options);
         }
-    });
-
-    // instantiate vuew for the element with Vendor_Module/js/carousel declaration.
-    $(document).on('breeze:mount:Vendor_Module/js/carousel', function (event, data) {
-        $(data.el).carousel(data.settings);
     });
 })();
 ```

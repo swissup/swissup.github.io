@@ -56,13 +56,13 @@ ko              | Knockout
 $t              | Translation function.
 $.key           | Collection of usefull keyboard constants to use with events.
 customerData    | Function to work with dynamic customer sections.
-breeze.storage  | Helper to work with local storage.
-breeze.sections | Alias to customerData function.
-breeze.request  | Helper to work with ajax requests.
-breeze.cookies  | Helper to work with cookies.
-breeze.translate| Helper to work with client-side translations.
-breeze.view     | Function to declare view (Knockout powered) component.
-breeze.widget   | Function to declare widget component.
+$.storage       | Helper to work with local storage.
+$.sections      | Alias to customerData function.
+$.request       | Helper to work with ajax requests.
+$.cookies       | Helper to work with cookies.
+$.__            | Translation function.
+$.view          | Function to declare view (Knockout powered) component.
+$.widget        | Function to declare widget component.
 
 ## Uage examples
 
@@ -70,12 +70,12 @@ breeze.widget   | Function to declare widget component.
 
 ```js
 // simple storage
-breeze.storage.get(key);
-breeze.storage.set(key, value);
-breeze.storage.remove(keys|key);
+$.storage.get(key);
+$.storage.set(key, value);
+$.storage.remove(keys|key);
 
 // namespaced storage to prevent conflicts with other modules
-storage = breeze.storage.ns('vendor-module');
+storage = $.storage.ns('vendor-module');
 storage.get(key);
 storage.set(key, value);
 storage.keys();
@@ -86,27 +86,27 @@ storage.removeAll();
 ### Cookies
 
 ```js
-breeze.cookies.get(name);
-breeze.cookies.getJson(name);
-breeze.cookies.set(name, value, attributes);
-breeze.cookies.setJson(name, value, attributes);
-breeze.cookies.remove(name, attributes);
+$.cookies.get(name);
+$.cookies.getJson(name);
+$.cookies.set(name, value, attributes);
+$.cookies.setJson(name, value, attributes);
+$.cookies.remove(name, attributes);
 ```
 
 ### Sections (CustomerData)
 
 ```js
-breeze.sections.get(name);
-breeze.sections.set(name, data);
-breeze.sections.reload(names, forceNewSectionTimestamp);
-breeze.sections.invalidate(names);
+$.sections.get(name);
+$.sections.set(name, data);
+$.sections.reload(names, forceNewSectionTimestamp);
+$.sections.invalidate(names);
 ```
 
 ### Request
 
 ```js
-breeze.request.get(url).then(callback).catch(callback);
-breeze.request.post({
+$.request.get(url).then(callback).catch(callback);
+$.request.post({
     url: 'url',
     type: 'html|json',
     data: data,
@@ -121,15 +121,14 @@ breeze.request.post({
 ```js
 breeze.translate.add(string, translation);
 breeze.translate.add(data);
-breeze.translate.translate(string);
 $t(string);
-__(string);
+$.__(string);
 ```
 
 ### Widget
 
 ```js
-breeze.widget('name', {
+$.widget('name', {
     create: function () {},
     destroy: function () {},
     method: function () {}
@@ -144,7 +143,7 @@ $.fn.name().method(); // static call without instantiation
 ### View
 
 ```js
-breeze.view('name', {
+$.view('name', {
     create: function () {},
     destroy: function () {},
     method: function () {}
