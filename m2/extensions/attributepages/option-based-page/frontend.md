@@ -18,8 +18,6 @@ Here you can find a gallery of seperately configured Option Based Pages.
 
 This page uses `Description and children` display mode and could be used as category page.
 
->Layered navigation is not supported in current version.
-
 Products listing settings are the same as category page settings.
 
 ![Product listing page](/images/m2/attributepages/option-based-page/frontend/athletic_activity.png)
