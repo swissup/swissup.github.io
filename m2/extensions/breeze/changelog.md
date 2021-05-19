@@ -8,6 +8,13 @@ category: Breeze
 
 # Changelog
 
+### Version 1.2.0
+
+> May 19, 2021
+
+ -  Configurable products support added.
+ -  Colorswatches support added.
+
 ### Version 1.1.1
 
 > May 17, 2021
