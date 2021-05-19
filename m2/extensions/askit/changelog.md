@@ -11,6 +11,16 @@ category: AskIt
 
 # Changelog
 
+### Version 1.10.0
+
+> May 19, 2021
+
+**Bugfixes**
+
+ -  Escape question text inside MessageAssignDataProvider to prevent XSS
+ -  Fix 'Removing answer lead to removing question'
+ -  Remove not exists grid mass action 'Edit'
+
 ### Version 1.9.6
 
 > May 14, 2021
