@@ -8,6 +8,12 @@ category: Highlight
 
 # Changelog
 
+### Version 1.7.10
+
+> May 21, 2021
+
+ -  Fix homepage (and other pages) cache invalidation when product is saved in backend.
+
 ### Version 1.7.9
 
 > May 14, 2021

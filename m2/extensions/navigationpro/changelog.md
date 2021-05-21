@@ -8,6 +8,13 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.15.10
+
+> May 21, 2021
+
+ -  Fixed error 'Menu doesn't exist' when saving category when DB has broken menu
+    item records.
+
 ### Version 1.15.9
 
 > May 17, 2021

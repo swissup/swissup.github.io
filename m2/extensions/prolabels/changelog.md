@@ -8,6 +8,13 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.6.3
+
+> May 21, 2021
+
+ -  Fixed possible missing out of stock label.
+ -  Fixed js error on configurable products page.
+
 ### Version 1.6.2
 
 > May 17, 2021

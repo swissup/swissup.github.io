@@ -7,6 +7,65 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.22.10
+
+> May 21, 2021
+
+ -  Improved image dimensions settings for the following demo data:
+    - [Easyslider](/m2/extensions/easyslider/)
+    - [Easybanner](/m2/extensions/easybanner/)
+    - [EasyCatalogImages](/m2/extensions/easycatalogimages/)
+ -  [Breeze](/m2/extensions/breeeze/) integration updated:
+    - Fixed js error "swiper is not defined".
+    - Photo in description integration added.
+    - Configurable products support added.
+
+**Extensions Updates**
+
+[swissup/module-ajaxpro](/m2/extensions/ajaxpro/) — 1.5.22 (was 1.5.21)
+
+ -  Removed message about required product options from ajaxpro popup when adding
+    product to cart.
+
+[swissup/module-askit](/m2/extensions/askit/) — 1.10.0 (was 1.9.6)
+
+ -  Fixed not working mass action in backend
+ -  Escape question text on "Assign to" page to prevent XSS vulnerability
+
+[swissup/module-easycatalogimg](/m2/extensions/easycatalogimages/) — 1.4.14 (was 1.4.13)
+
+ -  Improve image resizer - allow to define width only. Useful when images has
+    different heights.
+ -  Responsive images support added - various devices will now receive
+    images resized according to their screen size.
+
+[swissup/module-highlight](/m2/extensions/highlight/) — 1.7.10 (was 1.7.9)
+
+ -  Fix homepage (and other pages) cache invalidation when product is saved in backend.
+
+[swissup/module-hreflang](/m2/extensions/seo-suite/) — 1.4.5 (was 1.4.4)
+
+ -  Integration with [Attribute Pages module](/m2/extensions/attributepages/)
+
+[swissup/module-navigationpro](/m2/extensions/navigationpro/) — 1.15.10 (was 1.15.8)
+
+ -  Fixed error 'Menu doesn't exist' when saving category when DB has broken menu
+    item records.
+
+[swissup/module-pagespeed](/m2/extensions/pagespeed/) — 1.4.18 (was 1.4.17)
+
+ -  Do not add srcset when no images found to use (Fixes incorrect dimensions)
+
+[swissup/module-pro-labels](/m2/extensions/prolabels/) — 1.6.3 (was 1.6.1)
+
+ -  Fixed possible missing out of stock label.
+ -  Fixed js error on configurable products page.
+
+[swissup/module-seo-images](/m2/extensions/seo-suite/) — 1.3.12 (was 1.3.11)
+
+ -  Solved possible errors at products page when image URL contains non English characters
+    or URL length is more than 150 characters.
+
 ### Version 1.22.8
 
 > May 14, 2021

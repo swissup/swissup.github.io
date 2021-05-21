@@ -6,6 +6,13 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.5.22
+
+> May 21, 2021
+
+ -  Remove message about required product options from ajaxpro popup when adding
+    product to cart.
+
 ### Version 1.5.21
 
 > Apr 20, 2021

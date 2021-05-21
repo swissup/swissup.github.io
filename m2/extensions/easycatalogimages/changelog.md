@@ -8,6 +8,15 @@ category: EasyCatalogImages
 
 # Changelog
 
+### Version 1.4.14
+
+> May 21, 2021
+
+ -  Improve image resizer - allow to define width only. Useful when images has
+    different heights.
+ -  Responsive images support added - various devices will now receive
+    images resized according to their screen size.
+
 ### Version 1.4.13
 
 > Jan 22, 2021
