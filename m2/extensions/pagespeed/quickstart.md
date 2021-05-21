@@ -447,9 +447,9 @@ Set
 
 #### One line command
 
-~~~bash
-curl -s https://raw.githubusercontent.com/swissup/swissup.github.io/master/m2/extensions/pagespeed/configure | bash -s
-~~~
+```bash
+curl -s https://gist.githubusercontent.com/0m3r/a39f76844c465ff1e67d36eaff70592a/raw/221845db1d7a308f322077ad8300871c5b83aa73/configure | bash -s
+```
 
 ~~~sh
 php bin/magento cache:flush
