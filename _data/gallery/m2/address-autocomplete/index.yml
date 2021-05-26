@@ -8,3 +8,8 @@
   src: /images/m2/address-autocomplete/small/onepage-checkout.gif
   w: 880
   h: 524
+- title: Geolocation to automatically fill the address fields upon initial page load
+  href: /images/m2/address-autocomplete/geolocation.png
+  src: /images/m2/address-autocomplete/small/geolocation.png
+  w: 787
+  h: 462

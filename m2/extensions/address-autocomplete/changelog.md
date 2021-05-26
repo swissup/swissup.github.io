@@ -7,6 +7,16 @@ category: Address Autocomplete
 
 # Changelog
 
+### Version 1.5.0
+
+> May 26, 2021
+
+ -  Added ability initialize autocompletion on a
+    [postcode or street address fields](/m2/extensions/address-autocomplete/configuration/#general-settings).
+    (When using postcode autocompletion will search for address by postcode.)
+ -  Added [geolocation detection feature](/m2/extensions/address-autocomplete/configuration/#general-settings).
+    (When enabled, module will ask permission to access browser location API, and fill the form with detected address.)
+
 ### Version 1.4.2
 
 > Jan 13, 2021

@@ -18,6 +18,8 @@ Option | Description
 -------|------------
 Enabled | Module status
 Api Key | Google Maps Api Key. [Get API Key](../get-api-key/)
+Initialize autocompletion on | Select a field to work as autocompletion element. Street Address and Postcode fields are available.
+Use geolocation detection | When enabled, module will ask permission to access browser location API, and fill the form with detected address.
 
 ## Address Search Restrictions
 

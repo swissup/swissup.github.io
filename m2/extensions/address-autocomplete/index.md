@@ -10,7 +10,11 @@ category: Address Autocomplete
 # Address Autocomplete
 
 Address autocomplete module provides superfast way to fill address form, using
-google maps api features.
+google maps api features:
+
+ - Address autocompletion [based on steet address value](configuration/#general-settings)
+ - Address autocompletion [based on postcode value](configuration/#general-settings)
+ - Address autocompletion [on initial page load](configuration/#general-settings) using google geolocation feature
 
 Module supports Magento onepage checkout and Firecheckout modules.
 
