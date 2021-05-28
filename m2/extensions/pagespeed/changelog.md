@@ -8,6 +8,13 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.4.20
+
+> May 17, 2021
+
+ - Generation advanced bundles while run 'setup:static-content:deploy'
+ - Decreased cron limit option default value to 100 (#35) b05edf
+
 ### Version 1.4.18
 
 > May 17, 2021

@@ -7,6 +7,22 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.3.36
+
+> May 28, 2021
+
+**Bugfixes**
+ - Fix di Slider/AbstractFilter (close #66)
+ - Fix Model\Layer\Filter\Slider logic
+ - Fix 'Front controller reached 100 router match iterations' when store category is not active
+
+### Version 1.3.35
+
+> Apr 27, 2021
+
+**Improvments**
+ - Add aria attributtes support for argento compatability
+
 ### Version 1.3.34
 
 > Apr 20, 2021
