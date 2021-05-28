@@ -17,12 +17,6 @@ category: Prolabels
 
 Go to ***Stores → Configuration → Swissup → ProLabels*** page to configurate product labels.
 
-## General
-
-![General section](/images/m2/prolabels/config/general.png)
-
-As you can see, in section "General" you can toggle Cron Reindex for manual labels.
-
 ## "On Sale" Label
 
 SALE labels are the cost-effective way to mark store sales and attract visitors attention. They are shown on discounted and on-sale products. Using On Sale labels you catch customers attention to the promotional items.

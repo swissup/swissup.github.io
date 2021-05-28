@@ -16,7 +16,9 @@ category: Prolabels
 * TOC
 {:toc}
 
-ProLabels extension provides user friendly interfaces to manage product labels and badges.
+ProLabels extension provides user friendly interfaces to manage manual product labels and badges.
+
+When we say manaul labels we mean labels created by user himself. Used have to apply labels after they are created or updated. Used can apply labels by clicking button "Apply" at ProLables grid. Or run reindex with `bin/magento` command for index *swissup_prolabels*.
 
 ## Labels
 
