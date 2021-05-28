@@ -81,7 +81,7 @@ Wide banner is created with [EasyBanner module](/m2/extensions/easybanners/) and
 available to edit at `Magento Admin > Swissup > Easy Banner > Manage Banners`
 page.
 
-#### Tabs and Store Achievements blocks
+#### Tabs and Store Achievements blocks [This method is currently DEPRECATED]
 
 ![Tabs and store achievements](/images/m2/argento/essence/homepage-content/tabs-and-achievements.png)
 
