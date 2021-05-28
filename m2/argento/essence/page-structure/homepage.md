@@ -83,6 +83,8 @@ page.
 
 #### Tabs and Store Achievements blocks
 
+> [This method is currently DEPRECATED]
+
 ![Tabs and store achievements](/images/m2/argento/essence/homepage-content/tabs-and-achievements.png)
 
 Code:
