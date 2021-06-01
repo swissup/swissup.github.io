@@ -101,6 +101,36 @@ sudo apt install gifsicle
 php bin/magento catalog:images:resize
 ~~~
 
+Also you can use our improved command.
+
+```bash
+bin/magento swissup:pagespeed:images:resize -h
+Description:
+  Creates resized and optimized product and custom images and their responsive images 0.5x 0.75x 2x 3x
+
+Usage:
+  swissup:pagespeed:images:resize [options]
+
+Options:
+  -l, --limit=LIMIT                  limit --limit=10 (default: 100 000) [default: 100000]
+  -f, --filename=FILENAME            filename filter --filename=1.png
+      --with-custom[=WITH-CUSTOM]    If set, the task will resize custom images [default: true]
+      --with-product[=WITH-PRODUCT]  If set, the task will resize catalog images [default: true]
+...
+```
+
+It creates resized and optimized product and some custom media images and their responsive duplicates 0.5x 0.75x 2x 3x. Custom dirs are wysiwyg, catalog/category, easybanner, easyslide, swissup, highlight, easycatalogimg, prolabels, testimonials, mageplaza inside pub/media.
+
+It has custom options such us:
+
+Option                           | Description
+---------------------------------|-----------------------------------------------------
+--limit                          | Limit of images per task
+--filename                       | Filename filter for images
+--with-custom                    | If set, the task will resize custom images [default: true]
+--with-product                   | If set, the task will resize catalog images [default: true]
+
+
 Option                           | Description
 ---------------------------------|-----------------------------------------------------
 Enable                           | Allows to enable/disable image auto opmisation (Yes)

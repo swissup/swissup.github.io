@@ -439,7 +439,13 @@ Set
 
 > Please go to Cache Management and refresh cache types.
 
-  Also you can run cli command for manual creating resized product images
+  Next step is to run cli command for creating resized and optimized product images
+
+  ```bash
+  bin/magento swissup:pagespeed:images:resize
+  ```
+
+  Or default magento catalog resize command
 
   ~~~sh
   php bin/magento catalog:images:resize
