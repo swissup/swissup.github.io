@@ -64,7 +64,7 @@ $.__            | Translation function.
 $.view          | Function to declare view (Knockout powered) component.
 $.widget        | Function to declare widget component.
 
-## Uage examples
+## Usage examples
 
 ### Storage
 
