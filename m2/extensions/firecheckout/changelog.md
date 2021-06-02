@@ -24,6 +24,27 @@ category: Firecheckout
  -  Fixed missing place order button below payment section on small tablet devices.
  -  Small CSS fixes.
 
+**Module Updates**
+
+**swissup/module-address-autocomplete — 1.5.1** (was 1.4.2)
+
+ -  Added ability initialize autocompletion on a
+    [postcode or street address fields](/m2/extensions/address-autocomplete/configuration/#general-settings).
+    (When using postcode autocompletion will search for address by postcode.)
+ -  Added [geolocation detection feature](/m2/extensions/address-autocomplete/configuration/#general-settings).
+    (When enabled, module will ask permission to access browser location API, and fill the form with detected address.)
+
+**swissup/module-checkout-cart — 1.5.7** (was 1.5.6)
+
+ -  Fixed errors with Smile_GiftSalesRule module.
+ -  Display SKU label.
+
+**swissup/module-checkout-fields — 1.5.4** (was 1.5.2)
+
+ -  Updated de_DE locale.
+ -  Fixed error on custom grids - improved third-party modules compatibility.
+
+
 ### Version 1.25.8
 
 > Feb 26, 2021

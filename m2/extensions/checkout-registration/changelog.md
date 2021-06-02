@@ -7,6 +7,13 @@ category: Checkout Registration
 
 # Changelog
 
+### Version 1.1.3
+
+> Jun 2, 2020
+
+ -  Added compatibility with new [Firecheckout feature](/m2/extensions/firecheckout/):
+    email on separate step
+
 ### Version 1.1.0
 
 > Sep 2, 2020
