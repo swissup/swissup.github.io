@@ -11,6 +11,11 @@
   src: /images/m2/firecheckout/frontend/small/1column-multistep-guest-customer.png
   w: 1001
   h: 1629
+- title: 1 Column (Multistep With Email Address Step)
+  href: /images/m2/firecheckout/frontend/1column-multistep-email.png
+  src: /images/m2/firecheckout/frontend/small/1column-multistep-email.png
+  w: 1132
+  h: 627
 - href: /images/m2/firecheckout/frontend/1column-expanded-guest-customer.png
   src: /images/m2/firecheckout/frontend/small/1column-expanded-guest-customer.png
   alt: 1 column expanded layout for guest customer

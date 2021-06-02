@@ -64,6 +64,15 @@ Layout screenshots:
 
 {% include gallery.html images=site.data.gallery.m2.firecheckout.configuration.layout class="scroll phone-up-1 tablet-up-3 photoswipe" %}
 
+#### Move Email to the Separate Step
+
+> Available since v1.26.0
+
+Ability to move email field to the separate "Email" step. This option is available
+when using 1-column Multistep layout only.
+
+{% include gallery.html images=site.data.gallery.m2.firecheckout.configuration.move-email class="scroll phone-up-1 tablet-up-3 photoswipe" %}
+
 #### Place Order Button Position
 
 Ability change "Purchase" button position:
@@ -221,6 +230,7 @@ Option  | Description
 --------|------------
 Use jsBuild | Combine checkout-related js files into single jsbuild to reduce number of requests and improve page load time.
 jsBuild include paths| List of modules to process
+Prefetch jsBuild | When enabled, checkout page and jsBuild will be prefetched when customer will add a product to the cart.
 
 #### Next up
 {:.no_toc}

@@ -8,6 +8,22 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.26.0
+
+> Jun 2, 2021
+
+ -  Added ability to
+    [move email and password fields](/m2/extensions/firecheckout/configuration/#move-email-to-the-separate-step)
+    to the separate checkout step.
+ -  Decreased checkout page load time for the first-time visitors. Prefetch is used
+    to gain additional performance. [View config](/m2/extensions/firecheckout/configuration/#performance-settings-section)
+ -  Improved loader when waiting for email address validation and decreased timeout
+    to wait before email validation.
+ -  Fixed possible missing agreements above place order button when button is moved
+    below payment section in 1-column layout.
+ -  Fixed missing place order button below payment section on small tablet devices.
+ -  Small CSS fixes.
+
 ### Version 1.25.8
 
 > Feb 26, 2021
