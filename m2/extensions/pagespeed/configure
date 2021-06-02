@@ -17,6 +17,9 @@ reload () {
 $MAGENTO_BIN cache:flush
 $MAGENTO_BIN config:set pagespeed/main/enable 1
 $MAGENTO_BIN config:set pagespeed/main/devmode 1
+$MAGENTO_BIN config:set pagespeed/main/gzip 1
+$MAGENTO_BIN config:set pagespeed/main/server_push 0
+$MAGENTO_BIN config:set pagespeed/main/link_preload 1
 
 $MAGENTO_BIN config:set pagespeed/content/enable 1
 $MAGENTO_BIN config:set pagespeed/content/js 1
@@ -45,6 +48,7 @@ $MAGENTO_BIN config:set dev/js/merge_files 1
 $MAGENTO_BIN cache:clean
 reload
 
+$MAGENTO_BIN config:set dev/js/move_inline_to_bottom 1
 $MAGENTO_BIN config:set pagespeed/js/defer_enable 1
 $MAGENTO_BIN config:set pagespeed/js/defer_unpack 1
 
@@ -58,11 +62,16 @@ BASE_URL=`$MAGENTO_BIN config:show web/unsecure/base_url`
 SERVICE_API="http://ci.swissuplabs.com/pagespeed/critical-css/generate"
 CRITICAL_CSS=`curl --get --silent --fail "$SERVICE_API?" --data-urlencode "website=$BASE_URL"`
 $MAGENTO_BIN config:set pagespeed/css/critical_default "$CRITICAL_CSS"
+$MAGENTO_BIN config:set dev/css/use_css_critical_path 1
+$MAGENTO_BIN config:set pagespeed/css/critical_layout 1
 $MAGENTO_BIN cache:clean
 reload
 
 $MAGENTO_BIN config:set pagespeed/image/optimize_enable 1
+$MAGENTO_BIN config:set pagespeed/image/lazyload_enable 1
+
 $MAGENTO_BIN config:set pagespeed/expire/enable 1
 $MAGENTO_BIN config:set pagespeed/dnsprefetch/enable 1
+$MAGENTO_BIN config:set pagespeed/preconnect/enable 1
 
 $MAGENTO_BIN cache:flush
