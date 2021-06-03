@@ -20,34 +20,60 @@ composer require swissup/pagespeed
 php bin/magento module:enable Swissup_Pagespeed
 php bin/magento setup:upgrade
 php bin/magento setup:di:compile
+```
 
-#Fast enable and configure
+### Fast enable, configure and deploy
+
+```bash
+php bin/magento marketplace:package:install swissup/module-pagespeed
+php bin/magento setup:static-content:deploy [-f]
+```
+
+### Without marketpalce installer
+
+```bash
 curl -s https://raw.githubusercontent.com/swissup/swissup.github.io/master/m2/extensions/pagespeed/configure | bash -s
-#OR
-bash -c "$(curl -s https://raw.githubusercontent.com/swissup/swissup.github.io/master/m2/extensions/pagespeed/configure)"
-#OR
-php bin/magento cache:flush
+```
+
+### Step by step
+
+```bash
 php bin/magento config:set pagespeed/main/enable 1
 php bin/magento config:set pagespeed/main/devmode 1
+php bin/magento config:set pagespeed/main/gzip 1
+php bin/magento config:set pagespeed/main/server_push 0
+php bin/magento config:set pagespeed/main/link_preload 1
+
 php bin/magento config:set pagespeed/content/enable 1
 php bin/magento config:set pagespeed/content/js 1
 php bin/magento config:set pagespeed/content/css 1
 php bin/magento config:set dev/template/minify_html 1
-php bin/magento config:set dev/js/merge_files 1
+
 php bin/magento config:set dev/js/enable_js_bundling 0
+php bin/magento config:set pagespeed/js/enable_advanced_js_bundling 1
 php bin/magento config:set dev/js/minify_files 1
+php bin/magento config:set dev/js/merge_files 1
+php bin/magento config:set dev/js/move_inline_to_bottom 1
+
 php bin/magento config:set pagespeed/js/defer_enable 1
 php bin/magento config:set pagespeed/js/defer_unpack 1
+
 php bin/magento config:set dev/css/merge_css_files 1
 php bin/magento config:set dev/css/minify_files 1
-php bin/magento config:set pagespeed/css/defer_enable 1
-php bin/magento config:set pagespeed/css/defer_onload 1
+
 php bin/magento config:set pagespeed/css/critical_enable 1
 php bin/magento config:set pagespeed/css/critical_default "$(curl --get --silent --fail "http://ci.swissuplabs.com/pagespeed/critical-css/generate?" --data-urlencode "website=$(php bin/magento config:show web/unsecure/base_url)")"
+php bin/magento config:set dev/css/use_css_critical_path 1
+php bin/magento config:set pagespeed/css/critical_layout 1
+
 php bin/magento config:set pagespeed/image/optimize_enable 1
+php bin/magento config:set pagespeed/image/lazyload_enable 1
+
 php bin/magento config:set pagespeed/expire/enable 1
 php bin/magento config:set pagespeed/dnsprefetch/enable 1
+php bin/magento config:set pagespeed/preconnect/enable 1
 
+php bin/magento setup:static-content:deploy -f
 php bin/magento cache:flush
 ```
 

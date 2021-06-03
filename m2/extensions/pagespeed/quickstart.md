@@ -11,6 +11,23 @@ category: Pagespeed
 
 ### Lets start
 
+#### Fast enable, configure and deploy
+
+```bash
+php bin/magento marketplace:package:install swissup/module-pagespeed
+php bin/magento setup:static-content:deploy [-f]
+```
+
+#### Next step to run images optimisation
+>That can take a time
+
+```bash
+php swissup:pagespeed:images:optimize
+```
+
+If you have some suggestions from Google PageSpeed Insights. Find your problem in list below.
+
+
 #### Problems list
 
   - [Enable compression](#enable-compression)
@@ -25,6 +42,9 @@ category: Pagespeed
 Check your site pagespeed rank and take results screenshot
 We recomend use [Google Page speed insights online tool](https://developers.google.com/speed/pagespeed/insights)
 Usally we also check results at [Gtmetrix online tool](http://gtmetrix.com).
+
+
+
 
 Open configuration `Store > Configuration` > `Swissup > Pagespeed`
 
@@ -453,17 +473,21 @@ Set
 
 #### One line command
 
-Run installer marketplace for pagespeed module
+Run marketplace installer for pagespeed module
 
 ```bash
 bin/magento marketplace:package:install swissup/module-pagespeed
 ```
 
+
+######Without marketpalce installer
+
+
 ```bash
 curl -s https://gist.githubusercontent.com/0m3r/a39f76844c465ff1e67d36eaff70592a/raw/634891ed22f2fe3febe806d8eeab0bd9884c6c9b/configure | bash -s
 ```
 
-Manual
+######Step by step
 
 ~~~sh
 php bin/magento cache:flush
