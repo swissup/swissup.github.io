@@ -8,6 +8,16 @@ category: Breeze
 
 # Changelog
 
+### Version 1.3.0
+
+> Jun 3, 2021
+
+ -  Magento_GoogleTagManager integration added.
+ -  Fixed ability to activate multiple collapsibles at once.
+ -  Fixed invalid image ratio at product page on iOS devices.
+ -  Fixed undefined 'priceUtils' js error.
+ -  Fixed not working address delete and add actions at customer account page.
+
 ### Version 1.2.0
 
 > May 19, 2021
