@@ -8,6 +8,13 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.6.4
+
+> Jun 3, 2021
+
+ -  Fixed js error 'isEmpty is not a function'.
+ -  Improved compatibility with Multi Source Inventory module.
+
 ### Version 1.6.3
 
 > May 21, 2021
