@@ -8,6 +8,12 @@ category: Highlight
 
 # Changelog
 
+### Version 1.7.11
+
+> Jun 8, 2021
+
+ -  Fixed not working add to cart when carousel is enabled and pages are loaded via ajax.
+
 ### Version 1.7.10
 
 > May 21, 2021
