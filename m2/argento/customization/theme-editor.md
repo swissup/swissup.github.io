@@ -189,3 +189,7 @@ Possible tabs position:
   - Main Content - most common position for tabs (under product image and "add to cart" form blocks).
   - Product Info Main (bottom) - like tabs at Argento Luxury desing at product page. On right side under "add to cart" form.
 
+### Enable theme editor for custom theme
+
+You can find this information at
+[custom theme manual](/m2/argento/customization/custom-theme/#enable-theme-editor-for-custom-theme)

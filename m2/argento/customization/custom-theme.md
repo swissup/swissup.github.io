@@ -23,35 +23,50 @@ custom theme allows you to change much more things:
 > modifications
 
 ## Contents
+{:.no_toc}
 
-1. [Create custom theme](#create-custom-theme)
-2. [Apply custom theme to your store](#apply-custom-theme)
+* TOC
+{:toc}
 
 ### Create custom theme
 
-Please, use our istructions at **[Custom Argento Themes Boilerplate](https://github.com/argento/theme-custom-boilerplates)**
-free repository or you can create custom theme manualy:
+#### Terminal command
+{:.collapsible}
 
-Let's create `Local/argento-[essence|flat|pure2|mall|stripes|luxury|force|home]-custom` theme based on
-`Swissup/argento-[essence|flat|pure2|mall|stripes|luxury|force|home]`.
+ 1. Open terminal and navigate to magento home folder.
+ 2. Run the following command:
 
-> This tutorial assumes that you'll replace `[essence|flat|pure2|mall|stripes|luxury|force|home]` entries with
-> theme name, you'd like to use
+    > Please replace `[essence|flat|pure2|mall|stripes|luxury|force|home]`
+    > with theme name, you'd like to use.
+
+    ```bash
+    bin/magento swissup:theme:create Local/my-theme [essence|flat|pure2|mall|stripes|luxury|force|home]
+    ```
+
+ 3. Log in to Magento backend and navigate to Content > Themes. You should see
+    new theme in the list.
+ 4. That's all. [Apply your new theme now](#apply-custom-theme)
+
+#### Manual
+{:.collapsible.collapsed}
+
+Please replace `[essence|flat|pure2|mall|stripes|luxury|force|home]` entries with
+theme name, you'd like to use
 
  1. Create folder for your new theme:
 
     ```
-    app/design/frontend/Local/argento-[essence|flat|pure2|mall|stripes|luxury|force|home]-custom
+    app/design/frontend/Local/my-theme
     ```
 
  2. Create following files inside new theme directory, to register your
-    theme in Magento :
+    theme in Magento:
 
     1.  composer.json
 
         ```json
         {
-            "name": "local/argento-[essence|flat|pure2|mall|stripes|luxury|force|home]-custom",
+            "name": "local/my-theme",
             "type": "magento2-theme",
             "version": "1.0.0",
             "require": {
@@ -68,7 +83,7 @@ Let's create `Local/argento-[essence|flat|pure2|mall|stripes|luxury|force|home]-
         ```xml
         <theme xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
             xsi:noNamespaceSchemaLocation="urn:magento:framework:Config/etc/theme.xsd">
-            <title>Argento Custom by Local</title>
+            <title>Local custom theme</title>
             <parent>Swissup/argento-[essence|flat|pure2|mall|stripes|luxury|force|home]</parent>
         </theme>
         ```
@@ -78,78 +93,53 @@ Let's create `Local/argento-[essence|flat|pure2|mall|stripes|luxury|force|home]-
         ```php
         <?php
 
-        \Magento\Framework\Component\ComponentRegistrar::register(
-            \Magento\Framework\Component\ComponentRegistrar::THEME,
-            'frontend/Local/argento-[essence|flat|pure2|mall|stripes|luxury|force|home]-custom',
-            __DIR__
-        );
+        use Magento\Framework\Component\ComponentRegistrar;
+
+        ComponentRegistrar::register(ComponentRegistrar::THEME, 'frontend/Local/my-theme', __DIR__);
+
         ```
 
-    #### In one line
+ 3. Log in to Magento backend and navigate to Content > Themes. You should see
+    new theme in the list.
+ 4. That's all. [Apply your new theme now](#apply-custom-theme)
 
-    You can also create a custom theme more fastest with our command
+#### View Examples
+{:.collapsible.collapsed}
 
-    ```bash
-    php bin/magento swissup:theme:create <name> <parent-theme-name> --css
-    ```
-
-    **Command line arguments**
-
-    Argument  | Description
-    ----------|------------
-    name      | Put the theme name you want to create (Local/argento-stripes)
-    parent    | Put the parent short theme name (stripes)
-
-    **Command line options**
-
-    Option    | Description
-    ----------|------------
-    --css     | Should I create custom css? [default: false]
-
-
-    For example
-
-    ```bash
-    php bin/magento swissup:theme:create argento-stripes-custom stripes --css
-    ```
-
-    will generate Local/argento-stripes-custom theme based at stripes (swissup/theme-frontend-argento-stripes)
-
- 3. Log in to Magento backend and navigate to `Content > Themes`. You should
-    see new theme in the list.
-
-    > Clear cache if theme is not appeared in the list.
-
-    ![List of themes at Content > Themes](/images/m2/argento/customization/custom-theme/themes-list.png)
-
- 4. Run the following commands in terminal to deploy static content files:
-
-    ```bash
-    bin/magento setup:static-content:deploy
-    ```
-
- 4. That's all. Now you can [apply](#apply-custom-theme) theme to your store.
+If you have trouble when creating new theme, please take a look at our examples
+at [github repository](https://github.com/swissup/theme-frontend-argento-custom).
 
 ### Apply custom theme
 
-Navigate to `Stores > Configuration > Design` and select your new theme in
-`Design Theme` option dropdown.
-
-> Please note, that Magento 2.1 moved this config to separate
-> page. You can find it at `Content > Design > Configuration`
+Navigate to _Content > Design > Configuration_, select the store you wish
+to apply a theme, and select your theme in "Default Theme" section:
 
 ![Design Configuration](/images/m2/argento/customization/custom-theme/configuration.png)
 
-Press `Save Config` button.
+Save configuration, clear cache, and check the frontend.
 
-That's all, now you can modify anything you'd like to, without modifiyng core
-Argento files.
+### Enable theme editor for custom theme
 
-> **NOTE:** After enabling **CUSTOM** theme the **SwissupEditor** will not work for it.
-> It works **only** for native Argento designs.
-> Please, use custom `CSS, JS, templates` editing for changing custom theme look.
+> Supported since theme-editor version 1.9.8
+
+By default, custom theme doesn't inherit theme editor changes. If you want
+to apply the changes to your custom theme (inherited from one of Argento themes)
+you should explicitly indicate this in theme configuration:
+
+ 1. Navigate to _Content > Design > Configuration_.
+ 2. Select your custom theme.
+ 3. In the "Default Theme" section select "Applied Theme Editor"
+    **option that matches parent theme of your custom theme**:
+
+    ![Apply theme editor for custom theme](/images/m2/argento/customization/custom-theme/theme-editor.png)
+
+    > On the screenshot above "Local custom theme" is a child of "Argento Force"
+    > theme. That's why "Argento Force" editor is applied.
+
+ 4. Save configuration, clear cache, and check the frontend.
 
 #### Next Up
+{:.no_toc}
 
 - [Customization](../)
 - [Change page layout](../change-page-layout/)
