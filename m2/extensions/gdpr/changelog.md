@@ -8,6 +8,12 @@ category: GDPR
 
 # Changelog
 
+### Version 1.4.4
+
+> Jun 14, 2021
+
+ -  Fixed not working 'Add Cookie Group' button in backend (Magento 2.4)
+
 ### Version 1.4.3
 
 > May 14, 2021

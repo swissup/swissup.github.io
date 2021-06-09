@@ -8,6 +8,14 @@ category: EasyCatalogImages
 
 # Changelog
 
+### Version 1.4.15
+
+> Jun 14, 2021
+
+ -  Fixed not found image in widget when it should use fallback and take
+    category image attribute.
+ -  Prevent image duplicates in srcset attribute.
+
 ### Version 1.4.14
 
 > May 21, 2021
