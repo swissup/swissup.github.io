@@ -8,11 +8,12 @@ category: GDPR
 
 # Changelog
 
-### Version 1.4.4
+### Version 1.4.5
 
 > Jun 14, 2021
 
  -  Fixed not working 'Add Cookie Group' button in backend (Magento 2.4)
+ -  "Accept All" button replaced with "Accept All & Save" in cookie bar component.
 
 ### Version 1.4.3
 
