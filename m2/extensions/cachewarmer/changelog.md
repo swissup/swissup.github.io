@@ -8,7 +8,7 @@ category: Cachewarmer
 
 # Changelog
 
-### Version 1.0.10
+### Version 1.0.11
 
 > 13 May, 2021
 
