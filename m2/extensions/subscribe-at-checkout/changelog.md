@@ -8,6 +8,12 @@ category: SubscribeAtCheckout
 
 # Changelog
 
+## Version 1.3.4
+
+> Jun 11, 2021
+
+ -  Magento_InventoryInStorePickup integration added
+
 ## Version 1.3.3
 
 > Jan 13, 2021

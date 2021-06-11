@@ -8,6 +8,13 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.26.2
+
+> Jun 11, 2021
+
+ -  Magento_InventoryInStorePickup integration added.
+ -  Fixed js error when trying to use '.subscribe' on isVisible method.
+
 ### Version 1.26.0
 
 > Jun 2, 2021

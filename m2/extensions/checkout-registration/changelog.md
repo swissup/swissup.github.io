@@ -7,6 +7,12 @@ category: Checkout Registration
 
 # Changelog
 
+### Version 1.1.4
+
+> Jun 11, 2020
+
+ -  Magento_InventoryInStorePickup integration added
+
 ### Version 1.1.3
 
 > Jun 2, 2020

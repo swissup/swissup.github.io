@@ -8,6 +8,13 @@ category: Checkout Fields
 
 # Changelog
 
+### Version 1.5.5
+
+> Jun 25, 2021
+
+ -  Increase size for the value column. This allows to save long text messages
+    fro the customers.
+
 ### Version 1.5.2
 
 > Feb 25, 2021
