@@ -21,6 +21,18 @@ Url         | Any dummy text (We will not use it)
 Css Class   | no-border permanent-close-hide
 Mode        | HTML Content
 
+Additionally, you can add some animation to the lightbox popup.
+Top do that, use one of the following css classes:
+
+ - slide-up
+ - slide-down
+ - slide-left
+ - slide-right
+ - zoom-in
+ - zoom-out
+
+> You can read more about CSS classes at the [separate page](/m2/extensions/easybanners/css-class-helpers/).
+
 HTML Content:
 
 ```html
