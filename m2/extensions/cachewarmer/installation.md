@@ -15,12 +15,14 @@ category: Cachewarmer
 
 #### For generate 'Cache Warmer Urls' run indexer
 
+> For more effect use [“Regenerate Url rewrites” extension](https://github.com/olegkoval/magento2-regenerate_url_rewrites) before
+
+
 ```bash
 php bin/magento indexer:reindex swissup_cachewarmer_requestentry
 ```
 
-Skip processing
+Reset generated urls
 ```
 php bin/magento indexer:reset swissup_cachewarmer_requestentry
 ```
-
