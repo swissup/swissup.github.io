@@ -7,6 +7,14 @@ category: Address Autocomplete
 
 # Changelog
 
+### Version 1.6.0
+
+> Jun 14, 2021
+
+ -  Added ability initialize autocompletion on a
+    [city field](/m2/extensions/address-autocomplete/configuration/#general-settings).
+ -  Fixed region autocompletion for spanish addresses.
+
 ### Version 1.5.0
 
 > May 26, 2021
