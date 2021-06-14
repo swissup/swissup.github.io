@@ -62,6 +62,7 @@ Field                   | Description
 Enabled                 | Enable or Disable Banner
 Identifier              | Banner name
 Type                    | Possible values are: Banner, Lightbox, Awesomebar
+Enable Statistics       | Enable or Disable Statistics (Clicks count)
 Sort Order              | Allows to sort banners inside a placeholder
 Store View              | Assign Banner to Specific Store Views
 Placeholder             | Select placeholder. Not visible for Lightbox and Awesomebar banners. You can leave it empty to show the banner [manually](/m2/extensions/easybanners/usage/#show-banner-on-frontend)

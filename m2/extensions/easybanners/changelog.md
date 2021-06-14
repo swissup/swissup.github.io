@@ -8,6 +8,21 @@ category: Easy Banners
 
 # Changelog
 
+### Version 1.7.1
+
+> Jun 14, 2021
+
+ -  New animations for [popup banners](/m2/extensions/easybanners/use-cases/newsletter-popup/#general-settings).
+ -  Added ability to [disable/enable statistics](/m2/extensions/easybanners/interfaces/#general-tab) for each banner.
+ -  Added ability to remove all statistics from banners
+    [grid page](/m2/extensions/easybanners/interfaces/#grid-1),
+    or per banner statistics from banner edit page.
+ -  Added ability to change [cookie name](/m2/extensions/easybanners/configuration/#general).
+ -  Mass actions added to [banners grid](/m2/extensions/easybanners/interfaces/#grid-1).
+ -  Fixed missing "Delete" button at the top of edit banner page.
+ -  Added cron job to cleanup old statistics (older than 6 month).
+ -  Small improvements in JS code.
+
 ### Version 1.6.3
 
 > May 14, 2021

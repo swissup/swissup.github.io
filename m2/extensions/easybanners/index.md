@@ -24,7 +24,8 @@ There are three banner types available:
 
  -  [Installation](installation/)
  -  [Changelog](changelog/)
- -  [Admin interfaces](interfaces/)
+ -  Admin interfaces
+    - [Configuration](configuration/#general)
     - [Placeholders](interfaces/#placeholders)
     - [Banners](interfaces/#banners)
  -  [Banners and Placeholder usage](usage/)
