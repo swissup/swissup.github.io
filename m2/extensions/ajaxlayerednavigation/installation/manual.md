@@ -10,6 +10,10 @@ exclude_from_search: true
 
 {% include installation/m2/manual.html package="swissup/ajaxlayerednavigation" %}
 
+## Complete the installation
+
+[Configuration](/m2/extensions/ajaxlayerednavigation/configuration/).
+
 #### Next up
 
  -  [Back to Main Page](../../)
