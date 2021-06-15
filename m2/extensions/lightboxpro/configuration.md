@@ -8,6 +8,8 @@ category: Lightbox Pro
 
 # Configuration
 
+Go to ***Stores → Configuration → Swissup → Lightbox Pro*** page to configure the module.
+
 ### Contents
 
  -  [General section](#general-section)
