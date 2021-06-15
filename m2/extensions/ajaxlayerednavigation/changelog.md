@@ -7,6 +7,12 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.3.37
+
+> Jun 15, 2021
+
+ -  [Breeze](/m2/extensions/breeze/) integration added.
+
 ### Version 1.3.36
 
 > May 28, 2021
