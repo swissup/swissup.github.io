@@ -7,10 +7,16 @@ keywords: >
 category: Argento
 ---
 
-# Magento2: Removing default footer links
+# Magento 2: Removing default footer links
 ---
 
-  * [Create](http://docs.swissuplabs.com/m2/argento/customization/custom-theme/#create-custom-theme) a custom Argento theme
+### Theme Editor
+
+You can remove the whole footer links block using theme editor: [Footer Layout](/m2/argento/customization/theme-editor/#footer-layout)
+
+### Layout XML
+
+  * [Create](/m2/argento/customization/custom-theme/#create-custom-theme) a custom Argento theme
   * Create/add `Magento_Theme/layout/default.xml` in your _custom theme_
   * Add following content to it:
     ```xml

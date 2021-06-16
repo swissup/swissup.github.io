@@ -189,6 +189,18 @@ Possible tabs position:
   - Main Content - most common position for tabs (under product image and "add to cart" form blocks).
   - Product Info Main (bottom) - like tabs at Argento Luxury desing at product page. On right side under "add to cart" form.
 
+### Footer Layout
+
+Here you can configure blocks displayed in footer bottom toolbar.
+
+![Footer layout config](/images/m2/argento/customization/theme-editor/footer-layout.png)
+
+Name                   | Description
+-----------------------|----------------------------------------------
+Remove Copyright       |  Enable to hide copyright block in footer
+Remove Footer Links    |  Enable to hide footer links block in footer
+Display Static Block   |  Select static block to display in footer
+
 ### Enable theme editor for custom theme
 
 You can find this information at

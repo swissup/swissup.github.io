@@ -12,6 +12,7 @@ category: Argento
           + [Header Builder](theme-editor/#header-builder)
           + [Category Page Builder](theme-editor/#category-page-builder)
           + [Product Page Builder](theme-editor/#product-page-builder)
+          + [Footer Layout](theme-editor/#footer-layout)
           + Design specific options and customization examples:
               * [Argento Force](/m2/argento/force/theme-editor/)
               * [Argento Essence](/m2/argento/essence/theme-editor/)
@@ -21,6 +22,7 @@ category: Argento
               * [Argento Luxury](/m2/argento/luxury/theme-editor/)
               * [Argento Stripes](/m2/argento/stripes/theme-editor/)
               * [Argento Home](/m2/argento/home/theme-editor/)
+          + [Enable theme editor for custom theme](custom-theme/#enable-theme-editor-for-custom-theme)
     - [Custom css file](custom-css/)
     - [Custom js file](custom-js/)
     - [Custom theme](custom-theme/)
