@@ -8,6 +8,13 @@ category: SEO CrossLinks
 
 # Changelog
 
+### Version 1.1.0
+
+> Jun 18, 2021
+
+  -  Ability to use crosslinks for extra product attributes.
+  -  Added html target attribute into cross-links.
+
 ### Version 1.0.6
 
 > Jun 14, 2021
