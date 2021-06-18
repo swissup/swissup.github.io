@@ -7,6 +7,97 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.23.0
+
+> Jun 18, 2021
+
+ -  [**Theme Editor**](/m2/argento/customization/theme-editor/) **now can be used in Argento child themes** [Read how to enable](/m2/argento/customization/custom-theme/#enable-theme-editor-for-custom-theme)
+ -  [Argento Tabs](/m2/argento/scripts/argento-tabs/) script integrated with [Breeze](/m2/extensions/breeze/)
+ -  Improved script lazy loading: fixed double add to cart issue
+ -  Fixed error when top links block does not exist
+ -  Product gallery RTL styles improved
+ -  Magento_StorePickup styles added
+ -  _Argento Luxury:_ fixed missing title on option pages of the [Attribute Pages module](/m2/extensions/attributepages/)
+
+**Extensions Updates**
+
+  - [Ajax Pro](/m2/extensions/ajaxpro/) — 1.5.23 (was 1.5.22)
+      + Removed message about options from popup when adding to cart
+  - [Ajax Search](/m2/extensions/ajaxsearch/) — 1.11.9 (was 1.11.8)
+      + Prevent JS error at checkout page when category filter is enabled
+  - [AMP](/m2/extensions/amp/) — 1.4.10 (was 1.4.9)
+      + Added correct sizes for slider and catalog images
+      + Prefetch Fontawesome CDN
+      + Fixed error caused by text nodes inside audio/video tags
+  - [Askit](/m2/extensions/askit/) — 1.10.1 (was 1.10.0)
+      + Added "Plain text only" notice under question form on frontend
+      + Fixed js error "Unable to process binding" for answer form
+      + Disallow HTML in question and answer to avoid any security risks
+      + Fixed error at answers grid in Admin when filtering items by question
+      + Fixed hidden answers is visible at storefront
+  - [Attribute Pages](/m2/extensions/attributepages/) — 1.4.1 (was 1.4.0)
+      + Fixed incorrect URLs in sitemap when some pages are not assigned to current store view
+  - [EasySlide](/m2/extensions/easyslider/) —  1.6.15 (was 1.6.14)
+      + Code refactoring
+  - [Easybanners](/m2/extensions/easybanners/) — 1.7.1 (was 1.6.3)
+      + Set banners cookie lifetime to 1 year
+      + JS refactoring: do not create observers without the need
+      + Added config to change cookie name
+      + Added missing delete banner button
+      + Added clear statistics button
+      + Added ability to disable statistics
+      + Added mass actions in banners grid
+      + Added new lightbox banner appear effects
+      + Remove statistics older than 6 month by cron
+  - [Easy Catalog Images](/m2/extensions/easycatalogimages/) — 1.4.15 (was 1.4.14)
+      + Added data-mode and data-cols attributes for PWA integration
+      + Fixed missing "use category image" config in widget
+      + Prevent image duplicates in srcset attribute
+  - [Easytabs](/m2/extensions/easytabs/) — 1.9.11 (was 1.9.10)
+      + Fixed Notice: Trying to access array offset on value of type null
+      + Fixed invalid form_key in ajax tabs in Magento 2.4.2
+  - [GDPR](/m2/extensions/gdpr/) - 1.4.5 (was 1.4.3)
+      + Fixed not-working 'Add new Cookie Group' button
+      + "Accept All" button replaced with "Accept All & Save" in cookie bar component
+  - [Highlight](/m2/extensions/highlight/) — 1.7.12 (was 1.7.10)
+      + Fixed not working add to cart when carousel is enabled and pages are loaded via ajax
+      + Fixed not working condition filters when block cache is disabled
+  - [Navigation Pro](/m2/extensions/navigationpro/) — 1.15.11 (was 1.15.10)
+      + Fixed missing 'has-active' class on the non-category menu items (Departments)
+  - [Pagespeed](/m2/extensions/pagespeed/) — 1.4.21 (was 1.4.18)
+      + Added generation of advanced JS bundles during "setup:static-content:deploy" execution
+      + Decreased default image resize limit to 100
+      + Added new commands:
+          * swissup:pagespeed:enable
+          * swissup:pagespeed:disable
+          * swissup:pagespeed:configure
+          * swissup:pagespeed:criticalcss:generate
+  - [ProLabels](/m2/extensions/prolabels/) — 1.6.4 (was 1.6.3)
+      + Fixed incorrect stock labels when Magento MSI is used
+      + Fixed js error "isEmpty is not a function"
+  - [QuantitySwitcher](/m2/extensions/qty-switcher/) — 1.1.9 (was 1.1.8)
+      + Fixed grouped product quantity on Breeze
+  - [SEO Suite](/m2/extensions/seo-suite/)
+      + **swissup/module-seo-canonical** — 1.11.3 (was 1.11.2)
+          * Fixed error at homepage
+          * Fixed incorrect canonical Url at homepage
+      + **swissup/module-seo-cross-links** — 1.1.0 (was 1.0.5)
+          * Fixed acl for the module menu item
+          * Strip slash at the end of the url
+          * Ability to use crosslinks for extra product attributes
+          * Added html target attribute into cross-links
+      + **swissup/module-seo-html-sitemap** — 1.1.10 (was 1.1.9)
+          * Fixed warning: count parameter must be an array or an object that implements Countable
+      + **swissup/module-seo-urls** — 1.5.25 (was 1.5.27)
+          * Fixed error - Call to a member function getLabel() on null
+          * Fixed "Notice: Undefined variable: seoFilter"
+      + **swissup/module-seo-xml-sitemap** — 1.1.10 (was 1.1.9)
+          * Fixed issue when CMS page used for homepage still appears in XML Sitemap
+  - [Testimonials](/m2/extensions/testimonials/) — 1.2.18 (was 1.2.17)
+      + Refactored old controllers code
+      + Updated get identities code
+      + Fixed incorrect date after testimonial save on non-US locale
+
 ### Version 1.22.10
 
 > May 21, 2021
@@ -15,7 +106,7 @@ category: Argento
     - [Easyslider](/m2/extensions/easyslider/)
     - [Easybanner](/m2/extensions/easybanner/)
     - [EasyCatalogImages](/m2/extensions/easycatalogimages/)
- -  [Breeze](/m2/extensions/breeeze/) integration updated:
+ -  [Breeze](/m2/extensions/breeze/) integration updated:
     - Fixed js error "swiper is not defined".
     - Photo in description integration added.
     - Configurable products support added.
