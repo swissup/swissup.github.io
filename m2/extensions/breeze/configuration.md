@@ -14,9 +14,10 @@ page:
 
 ![General section](/images/m2/breeze/configuration.png)
 
-Option                   | Description
--------------------------|------------
-Enable Breeze Experience | Enable/Disable Breeze frontend
+Option                      | Description
+----------------------------|------------
+Enable Breeze Experience    | Enable/Disable Breeze frontend
+Debug Mode                  | When enabled, allows to force breeze status via query parameter.
 
 #### Next up
 {:.no_toc}

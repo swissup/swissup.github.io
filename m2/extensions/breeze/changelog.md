@@ -41,6 +41,7 @@ category: Breeze
  -  Component inheritance implemented.
  -  Small fixes in js components.
  -  $.async function added.
+ -  Ability to force breeze status via [query parameter](/m2/extensions/breeze/configuration/).
  -  Stability improvements.
 
 ### Version 1.0.3
