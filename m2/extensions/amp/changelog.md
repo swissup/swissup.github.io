@@ -8,6 +8,15 @@ category: Accelerated Mobile Pages
 
 # Changelog
 
+### Version 1.4.10
+
+> Jun 18, 2021
+
+  - Added amp=1 param to urls in menu when Varnish used
+  - Added correct sizes for slider and catalog images
+  - Added prefetch for Fontawesome CDN
+  - Fixed error caused by text nodes inside audio/video tags
+
 ### Version 1.4.8
 
 > Dec 22, 2020

@@ -8,6 +8,35 @@ category: Testimonials
 
 # Changelog
 
+### Version 1.2.18
+
+> Jun 18, 2021
+
+ -  Fixed incorrect date on non-US locale
+ -  Updated get identities code
+ -  Controllers code refactored
+
+### Version 1.2.17
+
+> Jan 25, 2021
+
+ -  Fixed bad-looking testimonial link in customer dropdown
+
+### Version 1.2.16
+
+> Jan 6, 2021
+
+ -  Automatically clean page cache when testimonial was changed
+ -  Added canonical url on testimonials page
+ -  Use short testimonials page url
+
+### Version 1.2.15
+
+> Dec 22, 2020
+
+ -  Disabled freeMode in slider widget
+ -  Added space between slides 10px in slider widget
+
 ### Version 1.2.14
 
 > Nov 25, 2020
