@@ -8,6 +8,15 @@ category: Email Templates
 
 # Changelog
 
+### Version 1.1.2
+
+> Jun 22, 2021
+
+  - Improve module stability. Compatibility with Yireo_EmailTester2.
+  - Added ACL.
+  - Fixed conflict with Lof_RequestForQuote (... must be instance of Magento\Sales\Model\Order\Item, instance of Magento\Quote\Model\Quote\Item\Intercepter given ...).
+  - Pass flag 'rendering_email' to render product image block.This can be useful for third-party theme where lazy-loading for images is implemented.
+
 ### Version 1.1.1
 
 > Feb 26, 2021
