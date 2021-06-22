@@ -7,6 +7,14 @@ category: Address Autocomplete
 
 # Changelog
 
+### Version 1.6.1
+
+> Jun 22, 2021
+
+ -  Improve autocompletion when city field is used as main field.
+ -  Do not fill country/region dropdowns with non-existing autodetected values.
+    (This may happen when allowed countries option is used.)
+
 ### Version 1.6.0
 
 > Jun 14, 2021
