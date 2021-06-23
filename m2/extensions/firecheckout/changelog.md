@@ -8,6 +8,20 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.26.4
+
+> Jun 23, 2021
+
+ -  Fixed invisible payment step when Magento_PurchaseOrder is used (B2B commerce).
+
+**Module Updates**
+
+**swissup/module-address-autocomplete — 1.6.1** (was 1.5.1)
+
+ -  Fixed region detection for spanish addresses.
+ -  Ability to initialize autocomplete on city field.
+ -  Do not try to change value to the non-existing dropdown option (country, region).
+
 ### Version 1.26.3
 
 > Jun 11, 2021

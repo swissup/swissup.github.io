@@ -8,6 +8,12 @@ category: Highlight
 
 # Changelog
 
+### Version 1.7.12
+
+> Jun 23, 2021
+
+ -  Fixed not working condition filters when block cache is disabled.
+
 ### Version 1.7.11
 
 > Jun 8, 2021
