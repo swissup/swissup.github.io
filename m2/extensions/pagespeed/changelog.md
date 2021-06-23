@@ -8,6 +8,32 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.4.23
+
+> June 23, 2021
+
+ - Removed direct marketplace module requirements
+ - Fixed blown up critical css textarea at system config.
+
+### Version 1.4.22
+
+> June 22, 2021
+
+ - Fix marketplace dependency
+
+### Version 1.4.21
+
+> June 18, 2021
+
+ - Add marketplace installer (#34)
+ - Add swissup:pagespeed:configure (#34)
+ - Add criticalcss:generate command
+ - Add swissup:pagespeed:[disable|enable] commands
+ - Add image optimize tool checking in pagespeed:images:resize command
+ - Move critical css generation into service
+ - Improve command warnings and descriptions
+ - Added lightboxpro to ResizeCommandTargetDirs
+
 ### Version 1.4.20
 
 > May 17, 2021
