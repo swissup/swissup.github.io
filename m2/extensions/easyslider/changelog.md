@@ -8,6 +8,13 @@ category: Easy Slider
 
 # Changelog
 
+### Version 1.6.15
+
+> Jun 23, 2021
+
+  - Improve server side source code - replace json_encode.
+  - Add composer requirements and module sequences.
+
 ### Version 1.6.14
 
 > May 13, 2021
