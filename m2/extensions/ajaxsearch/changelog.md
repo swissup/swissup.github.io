@@ -6,6 +6,34 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.11.10
+
+> Jun 22, 2021
+
+ -  Fixed elasticsearchFulltextSearchCollectionFactory doesn't exist
+
+### Version 1.11.9
+
+> Jun 18, 2021
+
+ -  Prevent JS error at checkouot page when category filter is enabled.
+ -  Improve codezone theme integartion (iOS)
+
+### Version 1.11.8
+
+> May 19, 2021
+
+ -  Added codezone integration patch
+ -  Breeze: update integration
+
+### Version 1.11.7
+
+> May 14, 2021
+
+ -  [Breeze](/m2/extensions/breeze/) integration updated.
+ -  Fixed PHP error on MagentoCommerce and MagentoB2B versions.
+ -
+
 ### Version 1.11.6
 
 > May 14, 2021
