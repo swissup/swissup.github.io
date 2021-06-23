@@ -8,6 +8,13 @@ category: Easy Tabs
 
 # Changelog
 
+### Version 1.9.11
+
+> Jun 23, 2021
+
+  - Fixed invalid form_key in ajax tabs in Magento 2.4.2.
+  - Fixed Notice: Trying to access array offset on value of type null in ...module-easytabs/Block/Adminhtml/Widget/Form/Renderer/Fieldset/Element/Editor.php
+
 ### Version 1.9.10
 
 > May 7, 2021
