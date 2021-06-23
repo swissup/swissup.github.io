@@ -6,6 +6,20 @@ keywords: KnowledgeBase changelog
 category: KnowledgeBase
 ---
 
+### Version 1.0.10
+
+> Jun 23, 2020
+
+**Improvements**
+ - Add breeze integration
+ - Move index.less to source/_module.less
+ - Remove js debugging
+ - Updated readMore rendering
+
+**Bugfixes**
+ - Fixed jumping faq-content section.
+ - Replace magento custom binding to ko binding
+
 ### Version 1.0.9
 
 > Nov 19, 2020
