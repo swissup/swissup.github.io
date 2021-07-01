@@ -8,6 +8,16 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.4.24
+
+> July 1, 2021
+
+ - Add our custom OptimizerChainFactory(without svgo)
+ - Rename our cwebp optimizer to ConvertToWebp
+ - Add CheckImageOptimizerExisting getMessages
+ - Remove dublicate checking cwebp
+
+
 ### Version 1.4.23
 
 > June 23, 2021
