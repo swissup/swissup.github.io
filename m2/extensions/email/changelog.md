@@ -8,6 +8,13 @@ category: Email
 
 # Changelog
 
+### Version 0.3.20
+
+> Jul 2, 2021
+
+**Fixes**
+ - Remove superfluid header check if message is instance of \Swissup\Email\Mail\EmailMessage
+
 ### Version 0.3.19
 
 > Apr 22, 2021
