@@ -8,6 +8,18 @@ category: Checkout Fields
 
 # Changelog
 
+### Version 1.5.7
+
+> Jul 8, 2021
+
+ -  Fixed error with a date field displayed in the orders grid columns
+
+### Version 1.5.6
+
+> Jun 25, 2021
+
+ -  Fixed error: column value used in key specification without a key length
+
 ### Version 1.5.5
 
 > Jun 25, 2021
