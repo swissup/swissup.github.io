@@ -52,6 +52,20 @@ category: Firecheckout
             label: $t('Street Address'),
             placeholder: $t('Street Address'),
         });
+        
+        // rename multiple Street Address fields
+        var streetFields = {
+           '[name="street[0]"]': 'Street Address 1', 
+           '[name="street[1]"]': 'Street Address 2',
+           '[name="street[2]"]': 'Street Address 3'
+        };
+  
+        for (var key in streetFields) {         
+            manager(key, {
+                label: $t(streetFields[key]),
+                placeholder: $t(streetFields[key]),
+            });
+        }  
     });
     ```
 
