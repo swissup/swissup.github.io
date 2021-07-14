@@ -18,6 +18,8 @@ The SEO Cross Links extension has been introduced to increase the SEO value of y
 -  Easily generate links on any store page.
 -  Link to any Product, Category or CMS page;
 -  Replace keywords with links;
+-  Generate links for any product attributes.
+-  Ability to open links in a new browser window.
 -  Limit the number of links on the particular pages;
 -  Use different view of links per pages.
 
