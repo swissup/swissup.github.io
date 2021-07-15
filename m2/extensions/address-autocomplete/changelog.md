@@ -7,6 +7,12 @@ category: Address Autocomplete
 
 # Changelog
 
+### Version 1.6.2
+
+> Jul 15, 2021
+
+ -  Fixed not working autocomplete when customer blocks location info in browser
+
 ### Version 1.6.1
 
 > Jun 22, 2021

@@ -6,6 +6,13 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.5.24
+
+> Jul 15, 2021
+
+ -  [Breeze](/m2/extensions/breeze/) integration added.
+ -  Fixed not working ajax 'Add to cart' from shopping cart page.
+
 ### Version 1.5.22
 
 > May 21, 2021

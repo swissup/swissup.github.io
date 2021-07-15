@@ -8,6 +8,13 @@ category: GDPR
 
 # Changelog
 
+### Version 1.4.6
+
+> Jul 15, 2021
+
+ -  [Breeze](/m2/extensions/breeze/) integration updated. Prevent js error when
+    Magento_GoogleAnalytics is disabled.
+
 ### Version 1.4.5
 
 > Jun 14, 2021
