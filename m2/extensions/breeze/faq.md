@@ -57,7 +57,7 @@ If your module uses custom scripts, it will not work. You'll need to
 [integrate your module](/m2/extensions/breeze/devdocs/module-js/)
 with Breeze.
 
-### Is it possible to purschase a product using Breeze?
+### Is it possible to checkout when Breeze is enabled?
 
 Yes. Cart and Checkout pages will use default js functionality.
 
