@@ -8,6 +8,28 @@ category: Breeze
 
 # Changelog
 
+### Version 1.4.0
+
+> Jul 15, 2021
+
+ -  Added ability to disable Breeze for [specified URLs](/m2/extensions/breeze/configuration/).
+ -  Magento_Captcha integration added.
+ -  Magento_ReCaptcha integration added.
+ -  Magento_LoginAsCustomer integration added.
+ -  [Swissup_Ajaxpro](/m2/extensions/ajaxpro/) integration added (Since shopping
+    cart page is not supported, we use fallback to minicart content in popup when
+    shopping cart is selected in configuration).
+ -  [Swissup_ProLabels](/m2/extensions/prolabels/) integration updated (Missing
+    labels on main product image in third-party themes).
+ -  Added modal, alert, and confirm components.
+ -  When debug mode is enabled and '?breeze=1' parameter is set, Breeze will work
+    regardless if current page is from exluded urls list.
+ -  Fixed not working 'Add all to cart' button at wishlist page.
+ -  Fixed js error at customer account page.
+ -  Fixed not working gallery on wishlist/configure page.
+ -  Fixed failed form validation when checkbox with empty value is required.
+ -  Prevent layout shift in gallery component when critical CSS is enabled.
+
 ### Version 1.3.0
 
 > Jun 3, 2021

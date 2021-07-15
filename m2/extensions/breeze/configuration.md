@@ -17,6 +17,7 @@ page:
 Option                      | Description
 ----------------------------|------------
 Enable Breeze Experience    | Enable/Disable Breeze frontend
+Disable Breeze for specified URLs | Ability to specify URLs where Breeze should be disabled. Useful for third-party module pages like knowledgebase, helpdesk, etc.
 Debug Mode                  | When enabled, allows to force breeze status via query parameter.
 
 #### Next up
