@@ -82,8 +82,8 @@ Content tab includes 3 regions:
 Field                   | Description
 :-----------------------|:-----------------------------
 Url                     | Link to open on banner click
-Hide Url                | Ability to hide destination url on the frontend
-Open Link in            | Where the link should be opened: Same Window, Popup Window, New Window
+Hide Url                | Ability to hide banner url on the frontend. When url is hidden, banner will have the following url: example.com/easybanner/click/index/id/:id. Otherwise, the url will be visible: example.com/easybanner/click/index/id/:id/url/:url
+Open Link in            | Select where the link should be opened when customer clicks on the banner. Available options: Same Tab, New Tab, Popup Window
 Css Class               | [Additional Css classes](/m2/extensions/easybanners/css-class-helpers/) to add when rendering banner
 Mode                    | Slect between Image and Html banner modes
 
