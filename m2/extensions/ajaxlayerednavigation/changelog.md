@@ -7,11 +7,25 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.3.40
+
+> July 19 2021
+
+ - Fix/Improve js isMobile (portrait mode)
+ - Remove console.log about state dom element
+ - Fix toolbar event racing (Magento_Catalog/.../toolbar.js, navigation/toolbar.js)
+ - Fix phpunit tests
+ - Fix hasAttributeModel not exist warning
+ - Fix Magento\Framework\App\Request not found
+ - Fix access to an undefined property
+ - Fix setUp(): void errors
+ - Add push_state_with_infinite_scroll config option (close #64)
+
 ### Version 1.3.37
 
 > Jun 15, 2021
 
- -  [Breeze](/m2/extensions/breeze/) integration added.
+ - [Breeze](/m2/extensions/breeze/) integration added.
 
 ### Version 1.3.36
 
