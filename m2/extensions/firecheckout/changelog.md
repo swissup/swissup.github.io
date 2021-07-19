@@ -8,6 +8,29 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.26.5
+
+> Jul 19, 2021
+
+ -  Fixed broken checkout when separate email step is used and virtual product added to the cart.
+ -  Fixed js error when Magento_ReCaptcha module is enabled on checkout.
+
+**Module Updates**
+
+**swissup/module-address-autocomplete — 1.6.3** (was 1.6.1)
+
+ -  Fixed mistakenly marked fields as incorrect in initially hidden new-address form
+    when address geodetection is enabled.
+ -  Fixed not working autocomplete when customer blocks location info in browser.
+
+**swissup/module-address-field-manager — 1.6.2** (was 1.6.1)
+
+ -  Added missing format for custom date fields.
+
+**swissup/module-checkout-fields — 1.5.7** (was 1.5.6)
+
+ -  Fixed error when date field displayed on the orders grid.
+
 ### Version 1.26.4
 
 > Jun 23, 2021

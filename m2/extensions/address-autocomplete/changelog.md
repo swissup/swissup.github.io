@@ -7,6 +7,13 @@ category: Address Autocomplete
 
 # Changelog
 
+### Version 1.6.3
+
+> Jul 19, 2021
+
+ -  Fixed mistakenly marked fields as incorrect in initially hidden new-address form
+    when address geodetection is enabled.
+
 ### Version 1.6.2
 
 > Jul 15, 2021
