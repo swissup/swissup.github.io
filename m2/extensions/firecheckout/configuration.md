@@ -151,6 +151,7 @@ Option                  | Description
 Default Method          | Default shipping method to use
 Default Method Code     | Same setting as above. Use this field if you can't find the method you are looking for in the previous option
 Hide methods if single method is available only | Useful if you use single method for all customers
+Sort shipping methods by price | Allows to sort shipping methods by their price. From lower to higher.
 
 ### Payment settings section
 
@@ -193,34 +194,7 @@ CSS     | CSS styles. LESS is not supported.
 LESS    | CSS styles with LESS syntax support.
 JS      | JS code
 
-> **Attention!**
->
-> Unlike js code inserted into custom.js file (begins with "define" function),
-> code inserted in JS section begins with "require" function.
-
-JS code example:
-
-```js
-require([
-    'Magento_Ui/js/lib/view/utils/async'
-], function($) {
-    'use strict';
-
-    var expandables = [
-        '.discount-code',
-        '.order-attachments'
-    ];
-
-    $.async({
-        selector: expandables.join(','),
-        ctx: $('.checkout-container').get(0)
-    }, function (el) {
-        setTimeout(function() {
-            $(el).collapsible('activate');
-        }, 500);
-    });
-});
-```
+View JS code examples at [Checkout Customizations](/m2/extensions/firecheckout/customization/) pages.
 
 ### Performance settings section
 

@@ -8,6 +8,15 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.27.0
+
+> Jul 21, 2021
+
+ -  Added new config option that allows to
+    [sort shipping methods by their price](/m2/extensions/firecheckout/configuration/#shiping-settings-section)
+ -  [Custom js config option](/m2/extensions/firecheckout/configuration/#custom-css-and-js-settings-section)
+    now allows to enter js code that begins with `define` or `require` statement.
+
 ### Version 1.26.5
 
 > Jul 19, 2021

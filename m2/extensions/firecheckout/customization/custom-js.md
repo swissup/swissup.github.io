@@ -23,9 +23,6 @@ core files modification.
 >
 > Since version 1.12.0 you can add JS directly into
 > [backend config settings](/m2/extensions/firecheckout/configuration/#custom-css-and-js-settings-section).
->
-> Please note, that JS syntax in config section is slightly differs from syntax
-> in custom.js file (`require` should be used instead of `define`).
 
 ### Example
 
