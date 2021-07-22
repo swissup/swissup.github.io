@@ -44,7 +44,7 @@ After ***Locale as subfolder in URLs*** enabled this store gets:
 
 When you need just language as your locale you should use option ***Remove region from locale***. You get `en` instead of `en-nz` with this option enabled.
 
-All config options can be change on store view or website level. So you can enbale remove region for one store view and keep it for others.
+All config options can be change on store view or website level. So you can enable remove region for one store view and keep it for others.
 
 #### Next up
 {:.no_toc}
