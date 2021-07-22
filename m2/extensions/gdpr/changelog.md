@@ -8,6 +8,13 @@ category: GDPR
 
 # Changelog
 
+### Version 1.4.7
+
+> Jul 22, 2021
+
+ -  [Breeze](/m2/extensions/breeze/) integration updated. Fixed not working
+    'Delete My Data' button.
+
 ### Version 1.4.6
 
 > Jul 15, 2021

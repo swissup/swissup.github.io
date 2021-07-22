@@ -8,6 +8,16 @@ category: Breeze
 
 # Changelog
 
+### Version 1.4.2
+
+> Jul 22, 2021
+
+ -  Fixed possible css issues in third party themes caused by not removed `script` tags.
+    (Now they are removed just like in standard Magento frontend.)
+ -  Added ability to call `$(el).validation().valid()` chain for better backward
+    compatibility.
+ -  Added integration with Mirasvit_CacheWarmer module. (Debug toolbar and request logging).
+
 ### Version 1.4.0
 
 > Jul 15, 2021
