@@ -8,6 +8,12 @@ category: Breeze
 
 # Changelog
 
+### Version 1.4.3
+
+> Jul 26, 2021
+
+ -  Stability improvements in minicart component when it's reused by third-party modules.
+
 ### Version 1.4.2
 
 > Jul 22, 2021

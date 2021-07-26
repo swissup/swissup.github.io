@@ -6,6 +6,14 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.5.25
+
+> Jul 26, 2021
+
+ -  [Breeze](/m2/extensions/breeze/) integration updated to fix non working 'Delete'
+    button in minicart popup after initial popup display.
+ -  Improved animation speed during popup appearance.
+
 ### Version 1.5.24
 
 > Jul 15, 2021
