@@ -40,7 +40,7 @@ You can also insert Easy Slider block in your Pages and Blocks with next code
 
 It can occure at Zemez or Ecomwares themes.
 
-Because of their implamantation those themes doesn't include styles from `web/css/source/_module.less`.
+Because of their implementation those themes don't include styles from `web/css/source/_module.less`.
 
 So to fix missing styles you have to create additional less-file and xml layout update.
 
