@@ -7,6 +7,65 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.24.0
+
+> Jul 28, 2021
+
+ -  [**Breeze Alternative JS Frontend**](/m2/extensions/breeze/) **module added**
+ -  Added ability to display link to parent item in breadcrumbs
+ -  Smoother popup animation
+ -  Fixed error on category pages: call to a member function getState() on null
+ -  _Argento Flat and Pure:_ fixed possible incorrect sticky header position (bottom of the page)
+
+**Extensions Updates**
+
+  - [Ajax Pro](/m2/extensions/ajaxpro/) — 1.5.25 (was 1.5.23)
+      + Added Breeze integration
+      + Fixed image src is undefined error in add to cart animation
+      + Fixed missing popup for configurable products on cart page
+  - [Ajax Search](/m2/extensions/ajaxsearch/) — 1.11.11 (was 1.11.9)
+      + Fixed error elasticsearchFulltextSearchCollectionFactory doesn't exist
+      + Reduced response size for suggestions when search for CMS pages enabled
+      + Added `View All` link
+  - [Askit](/m2/extensions/askit/) — 1.10.2 (was 1.10.1)
+      + Fixed js error: 'Unable to process bindings'
+      + Fixed access to an undefined property
+      + Fixed error: cannot instantiate Zend_Filter_Interface in graphql area
+  - [Attribute Pages](/m2/extensions/attributepages/) — 1.4.2 (was 1.4.1)
+      + Added instruction on what to do when no attributes found to use for new page
+  - [EasySlide](/m2/extensions/easyslider/) — 1.6.16 (was 1.6.15)
+      + Using attribute loading="lazy" instead of data-src
+  - [Easybanners](/m2/extensions/easybanners/) — 1.7.3 (was 1.6.1)
+      + Prevent posibility to create duplicate popups
+      + Improve banner options readability
+      + Don't show popup banner if cookie is not writable
+  - [Easytabs](/m2/extensions/easytabs/) — 1.9.12 (was 1.9.11)
+      + Fixed poorly working scroll to review tab when click on link
+      + PWA integration: added GraphQl schema
+  - [GDPR](/m2/extensions/gdpr/) — 1.4.7 (was 1.4.5)
+      + Breeze: prevent js error when google-analytics is disabled
+      + Breeze: fixed not working 'Delete My Data' button
+  - [Navigation Pro](/m2/extensions/navigationpro/) — 1.15.12 (was 1.15.11)
+      + Fixed uniqid bug in GraphQl schema
+      + Fixed access to an undefined property warnings
+  - [Pagespeed](/m2/extensions/pagespeed/) — 1.4.25 (was 1.4.21)
+      + Removed Swissup_Marketplace module dependency
+      + Fixed blown up critical css textarea at system config
+      + Removed duplicate cwebp checking
+      + Added config option for image optimizer timeout
+  - [ProLabels](/m2/extensions/prolabels/) — 1.6.5 (was 1.6.4)
+      + Fixed incorrect 0 in label text when #attr:attr_code# used and `attr_code` for product is null
+  - [Review Reminder](/m2/extensions/reviewreminder/) — 1.1.10 (was 1.1.9)
+      + Use simple product image for configurable products in email
+  - [SEO Suite](/m2/extensions/seo-suite/)
+      + **swissup/module-seo-core** — 1.3.4 (was 1.3.3)
+          * Remove % from slugified string since it causes problem for SEO Images
+      + **swissup/module-hreflang** —  1.4.6 (was 1.4.5)
+          * Don't add hreflang item for product when product doesn't assigned to item's website
+          * Integration with Magefan_Blog module
+      + **swissup/module-seo-images** — 1.3.13 (was 1.3.12)
+          * Improved module stability
+
 ### Version 1.23.0
 
 > Jun 18, 2021
