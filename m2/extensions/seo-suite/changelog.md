@@ -8,6 +8,50 @@ category: SEO Suite
 
 # Changelog
 
+
+### Version 1.12.1
+
+> Aug 2, 2021
+
+*swissup/module-hreflang — 1.4.6 (was 1.4.4)*
+
+  - Integration with Attribute Pages module.
+  - Integration with Magefan_Blog module.
+  - Don't add hreflang item for product when product doesn't assigned to item's website.
+
+*swissup/module-seo-canonical — 1.11.3 (was 1.11.2)*
+
+  - Fixed incorrect canonical Url at homepage. Isuse occurs when homepage config is changed by store owner and there are multiple pages with the same identifier. 
+
+*swissup/module-seo-core — 1.3.4 (was 1.3.2)*
+
+  - Remove % from slugified string (when fallback used). Since it cuases problem for SEO Images.
+  - Add model CMS to check if current CMS page is homepage.
+
+*swissup/module-seo-cross-links — 1.1.1 (was 1.0.5)*
+
+  - Apply crosslinks for extra product attribute.
+  - Added target attribute for each cross-link.
+  - Forbid to create crosslinks on the pages with url path like a keyword.
+  - Fixed acl for the menu item.
+
+*swissup/module-seo-html-sitemap — 1.1.10 (was 1.1.9)*
+
+  - Fixed warning: count parameter must be an array or an object that implements Countable.
+
+*swissup/module-seo-images — 1.3.13 (was 1.3.11)*
+
+  - Solved possible errors at products page when image URL contains non English characters. And URL is really long (more than 150 characters).
+
+*swissup/module-seo-urls — 1.5.27 (was 1.5.25)*
+
+  - Fixed not working option "Redirect to site homepage ...". Option doesn't work when hopepage config is changed by store owner and there are multiple pages with the same identifier.
+  - Fixed error - Call to a member function getLabel() on null.
+
+*swissup/module-seo-xml-sitemap — 1.1.10 (was 1.1.9)*
+
+  - Fixed issue when CMS page used for homepage still appears in XML Sitemap. Isuse occurs when homepage config is changed by store owner and there are multiple pages with the same identifier.
+
 ### Version 1.12.0
 
 > May 7, 2021
