@@ -8,6 +8,12 @@ category: Review Reminder
 
 # Changelog
 
+### Version 1.1.10
+
+> Aug 2, 2021
+
+  - Use simple product image for configurable products in email
+
 ### Version 1.1.9
 
 > Mar 18, 2021
