@@ -78,6 +78,7 @@ composer require\
     swissup/module-font-awesome-5\
     swissup/module-gdpr\
     swissup/module-gdpr-askit\
+    swissup/module-gdpr-reviewreminder\
     swissup/module-gdpr-testimonials\
     swissup/module-geoip\
     swissup/module-highlight\
@@ -125,6 +126,7 @@ composer require\
     swissup/module-theme-editor-argento-essence\
     swissup/module-theme-editor-argento-flat\
     swissup/module-theme-editor-argento-force\
+    swissup/module-theme-editor-argento-home\
     swissup/module-theme-editor-argento-pure2\
     swissup/module-theme-editor-argento-mall\
     swissup/module-theme-editor-argento-luxury\
@@ -134,6 +136,7 @@ composer require\
     swissup/theme-frontend-argento-essence\
     swissup/theme-frontend-argento-flat\
     swissup/theme-frontend-argento-force\
+    swissup/theme-frontend-argento-home\
     swissup/theme-frontend-argento-pure2\
     swissup/theme-frontend-argento-mall\
     swissup/theme-frontend-argento-luxury\
