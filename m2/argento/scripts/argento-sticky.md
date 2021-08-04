@@ -63,7 +63,8 @@ to argento theme.
 ```js
 define([
     'jquery',
-    'argentoSticky'
+    'argentoSticky',
+    'domReady!'
 ], function($) {
     $('.some-class-name').argentoSticky({
         media: '(min-width: 768px) and (min-height: 600px)',
