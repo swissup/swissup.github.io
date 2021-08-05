@@ -39,7 +39,7 @@ bin/magento setup:static-content:deploy [-f]
 ### Without marketpalce installer
 
 ```bash
-curl -s https://raw.githubusercontent.com/swissup/swissup.github.io/master/m2/extensions/pagespeed/configure | bash -s
+curl -s https://gist.githubusercontent.com/0m3r/a39f76844c465ff1e67d36eaff70592a/raw/44ea5183ce195aa009d3be68b31aa06688707973/configure | bash -s
 ```
 
 ### Step by step

@@ -14,7 +14,7 @@ exclude_from_search: true
 ## Run automatic configurator
 
 ```bash
-bash -c "$(curl -s https://raw.githubusercontent.com/swissup/swissup.github.io/master/m2/extensions/pagespeed/configure)"
+curl -s https://gist.githubusercontent.com/0m3r/a39f76844c465ff1e67d36eaff70592a/raw/634891ed22f2fe3febe806d8eeab0bd9884c6c9b/configure | bash -s
 ```
 
 ##### Next up
