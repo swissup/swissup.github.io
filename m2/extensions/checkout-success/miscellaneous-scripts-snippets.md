@@ -77,7 +77,7 @@ Code below was taken from [Add the opt-in code](https://support.google.com/merch
 ```html
 <script type="text/javascript">
     var orderedItems = {% raw %}{{orderItems}}{% endraw %};
-    var orderedSKUs = jQuery.map(orderedItems, function(v){ return v.sku; }); // Array
+    var orderedSKUs = orderedItems.map(function(i){ return i.sku; }); // Array
 </script>
 ```
 
@@ -88,11 +88,25 @@ Code below was taken from [Add the opt-in code](https://support.google.com/merch
 ```html
 <script type="text/javascript">
     var orderedItems = {% raw %}{{orderItems}}{% endraw %};
-    var orderedQty = 0;
-    jQuery.map(orderedItems, function(v){ orderedQty += parseFloat(v.qty_ordered); });
+    var orderedQty = orderedItems.reduce(function (q, i) { return q + parseFloat(i.qty_ordered); }, 0);
     // now orderedQty containes quantity of ordered products
 </script>
 ```
+
+#### Money total of ordered products without additional fees
+
+Here is example how to calculate order total without any additional fees (shipping, taxes, discounts).
+
+> Requires Checkout Success Page version 1.1.3 or higher.
+
+```html
+<script type="text/javascript">
+    var orderedItems = {% raw %}{{orderItems}}{% endraw %};
+    var itemsTotal = orderedItems.reduce(function (t, i) { return t + parseFloat(i.row_total); }, 0);
+    // now itemsTotal containes quantity of ordered 
+</script>
+```
+
 
 #### Estimated delivery date
 
