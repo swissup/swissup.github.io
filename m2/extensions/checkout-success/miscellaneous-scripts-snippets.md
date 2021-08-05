@@ -103,7 +103,7 @@ Here is example how to calculate order total without any additional fees (shippi
 <script type="text/javascript">
     var orderedItems = {% raw %}{{orderItems}}{% endraw %};
     var itemsTotal = orderedItems.reduce(function (t, i) { return t + parseFloat(i.row_total); }, 0);
-    // now itemsTotal containes quantity of ordered 
+    // now itemsTotal containes total of ordered items
 </script>
 ```
 
