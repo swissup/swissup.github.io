@@ -48,4 +48,37 @@ require([
 </script>
 ```
 
+[Breeze](/m2/extensions/breeze/) compatible script:
+
+```js
+(function() {
+    'use strict';
+
+    document.addEventListener('breeze:load', function () {
+        var scrollUp = $('.page-scroll-up'),
+            scrollTrigger = 700;
+
+        $(window).on('scroll', _.debounce(toggleScrollButton, 200));
+
+        function toggleScrollButton() {
+            var scrollTop = $(window)[0].scrollY;
+
+            if (scrollTop < scrollTrigger) {
+                scrollUp.addClass('hidden-lg');
+                scrollUp.addClass('hidden-md');
+                scrollUp.addClass('hidden-sm');
+            } else {
+                scrollUp.removeClass('hidden-lg');
+                scrollUp.removeClass('hidden-md');
+                scrollUp.removeClass('hidden-sm');
+            }
+        }
+
+        $(scrollUp).on('click', function () {
+            window.scroll({top: 0, behavior: 'smooth'});
+        });
+    });
+})();
+```
+
 Cleanup Magento's cache and check the frontend.
