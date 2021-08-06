@@ -6,6 +6,12 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.11.12
+
+> Aug 6, 2021
+
+ -  Breeze: compatibility with new [Turbo](/m2/extensions/breeze/configuration/#breeze-section) option added.
+
 ### Version 1.11.10
 
 > Jun 22, 2021

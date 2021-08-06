@@ -8,6 +8,15 @@ category: Breeze
 
 # Changelog
 
+### Version 1.5.0
+
+> Aug 6, 2021
+
+ -  **Singe-page application support added!** [New option](/m2/extensions/breeze/configuration/)
+    allows to transform your store into a site that doesn't reload the page during its use.
+    This means faster browsing and better user experience!
+    ([Turbolinks.js](https://github.com/turbolinks/turbolinks#turbolinks) is used under the hood).
+
 ### Version 1.4.3
 
 > Jul 26, 2021

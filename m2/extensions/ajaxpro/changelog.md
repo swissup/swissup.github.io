@@ -6,6 +6,12 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.5.26
+
+> Aug 6, 2021
+
+ -  Breeze: compatibility with new [Turbo](/m2/extensions/breeze/configuration/#breeze-section) option added.
+
 ### Version 1.5.25
 
 > Jul 26, 2021
