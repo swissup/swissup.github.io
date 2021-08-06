@@ -16,6 +16,7 @@ category: Breeze
     allows to transform your store into a site that doesn't reload the page during its use.
     This means faster browsing and better user experience!
     ([Turbolinks.js](https://github.com/turbolinks/turbolinks#turbolinks) is used under the hood).
+ -  Fixed visible plus symbols in success messages on some server setups.
 
 ### Version 1.4.3
 
