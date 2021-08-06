@@ -8,6 +8,13 @@ category: reCAPTCHA
 
 # Changelog
 
+### Version 1.3.17
+
+> Aug 6, 2021
+
+  - Fixed not working racaptcha at checkout when stored card is used for payment.
+  - Compatibility with EsteSolutions_ManualCCPayment, ZipMoney_ZipMoneyPayment and Ravedigital_CoreUpdate.
+
 ### Version 1.3.16
 
 > May 7, 2021
