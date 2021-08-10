@@ -8,6 +8,14 @@ category: Address Field Manager
 
 # Changelog
 
+### Version 1.6.3
+
+> Aug 10, 2021
+
+ -  Fixed unable to place order when previously saved address became invalid. Now
+    customer will be redirected to the address edit form with the message about
+    missing address fields.
+
 ### Version 1.6.0
 
 > Feb 8, 2021
