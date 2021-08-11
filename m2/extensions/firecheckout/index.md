@@ -36,13 +36,15 @@ faster and easier by providing them a simple checkout form.
     - [Argento theme by Templates-Master](third-party-themes/argento/)
     - [Hermes theme by Blue Sky](third-party-themes/hermes/)
     - [Martfury theme](third-party-themes/martfury/)
- 7. Troubleshooting
+ 7. Third-party modules compatibility
+    - [MultiSafepay payment](third-party-modules/multisafepay/)
+ 8. Troubleshooting
     - [Pre-troubleshooting check](troubleshooting/pre-troubleshooting-check/)
     - [Loading icon keeps spinning infinitely on initial page load](troubleshooting/loading-icon-keeps-spinning/)
     - [Order Summary block is not sticky](troubleshooting/order-summary-is-not-sticky/)
- 8. FAQ
+ 9. FAQ
     - [Creating Terms and Conditions](faq/creating-terms-and-conditions/)
- 9. Brazilian Requirements
+ 10. Brazilian Requirements
     - [CPF/CNPJ code - masks and validation (Use case 1 - create a new address field)](brazil/cpf-cnpj/)
     - [CPF/CNPJ code - masks and validation (Use case 2 - without a new address field)](brazil/cpfcnpj/)
     - [Phone fields - masks and validation](brazil/phone-field/)

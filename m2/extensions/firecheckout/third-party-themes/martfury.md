@@ -34,4 +34,4 @@ category: Firecheckout
             padding-left: 0 !important;
         }
     ```
- 3. Save changes and clean magento cache.
+ 2. Save changes and clean magento cache.
