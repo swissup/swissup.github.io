@@ -8,6 +8,13 @@ category: Easy Tabs
 
 # Changelog
 
+### Version 1.9.13
+
+> Aug 12, 2021
+
+ -  Magento 2.4.3 compatibility: fixed js error when using ajax tabs.
+ -  Improved ajax tabs stability.
+
 ### Version 1.9.11
 
 > Jun 23, 2021

@@ -7,6 +7,24 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.24.2
+
+> Aug 12, 2021
+
+ -  Magento 2.4.3 compatibility. Fixed js errors in backend theme editor
+    (Header builder) and frontend (Ajax tabs) caused by new knockout.js library.
+ -  Updated Breeze integration in all bundled modules.
+
+**Extensions Updates**
+
+ -  [swissup/module-easytabs](/m2/extensions/easytabs/) — 1.9.13 (was 1.9.12)
+    - Improved ajax tabs stability.
+ -  [swissup/module-hreflang](/m2/extensions/seo-suite/) — 1.4.7 (was 1.4.6)
+    - Integration for FishPig_WordPress with FishPig_WordPress_Multisite.
+ -  [swissup/module-pro-labels](/m2/extensions/prolabels/) — 1.6.7 (was 1.6.5)
+    - Added compatibility with Firebear_ConfigurableProducts module.
+    - Fixed negative discount amount at configuarble product when one of items has regular price lower then special price.
+
 ### Version 1.24.0
 
 > Jul 28, 2021

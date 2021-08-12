@@ -8,6 +8,13 @@ category: Checkout Success
 
 # Changelog
 
+### Version 1.4.10
+
+> Aug 12, 2021
+
+  - Magento 2.4.3 compatibility. Fixed js error in backend configuration page
+    caused by new knockout.js library.
+
 ### Version 1.4.9
 
 > Fab 19, 2021
