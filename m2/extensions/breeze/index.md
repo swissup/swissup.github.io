@@ -17,8 +17,8 @@ the speed of your store up to 100%.
 Spec.                       | Luma theme    | Breeze powered Luma theme
 ----------------------------|---------------|---------------------------
 Network requests per page   | 209-250       | 26-30
-Javascript size             | 374-754kB     | 67-72kB
-Page load time*             | 2.32-3.89s    | 0.69-0.77s
+Javascript size             | 374-754kB     | 103-126kB
+Page load time*             | 2.32-3.89s    | 0.69-1.55s
 Google Pagespeed score*     | 49-55         | 84-93
 
 > \* These values depend on a server setup. We've tested Magento on a server with
