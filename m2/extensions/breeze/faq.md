@@ -19,12 +19,13 @@ category: Breeze
     - Search and Advanced Search
     - Account
     - Contact us
- -  Supported products (All except Bundle):
+ -  Supported products (All types are supported):
     - Simple
     - Configurable
     - Virtual
     - Downloadable
     - Grouped
+    - Bundle
  -  Supported features:
     - Add to cart, compare, and wishlist
     - Configurable Swatches
@@ -43,7 +44,6 @@ category: Breeze
     - RequireJs modules
     - jQuery widgets
     - Magento UI components
-    - Bundle Products
 
 ### Will it work with my theme?
 

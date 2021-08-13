@@ -8,6 +8,14 @@ category: Breeze
 
 # Changelog
 
+### Version 1.6.0
+
+> Aug 13, 2021
+
+ -  Bundle products are now supported.
+ -  Fixed not working "Add to cart" button on initial product page load when Turbo mode is enabled.
+ -  Fixed ability to add configurable products to the wishlist without losing selected options.
+
 ### Version 1.5.0
 
 > Aug 6, 2021

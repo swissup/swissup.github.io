@@ -8,6 +8,15 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.27.1
+
+> Aug 13, 2021
+
+ -  Magento 2.4.3 compatiblity: Fixed js error at checkout-success configuration page.
+ -  Fixed unable to place order when previously saved address became invalid. Now
+    customer will be redirected to the address edit form with the message about
+    missing address fields.
+
 ### Version 1.27.0
 
 > Jul 21, 2021
