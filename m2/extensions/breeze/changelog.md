@@ -8,9 +8,9 @@ category: Breeze
 
 # Changelog
 
-### Version 1.6.0
+### Version 1.6.1
 
-> Aug 13, 2021
+> Aug 15, 2021
 
  -  Bundle products are now supported.
  -  Fixed not working "Add to cart" button on initial product page load when Turbo mode is enabled.
