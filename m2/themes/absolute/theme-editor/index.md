@@ -27,5 +27,3 @@ The following sections parameters can be easily changed:
 ##### Next up
 
  -  [Absolute Theme docs homepage](/m2/themes/absolute/)
- -  [Page structure manuals](/m2/themes/absolute/page-structure/)
-    -  [Homepage](/m2/themes/absolute/page-structure/homepage/)

@@ -6,6 +6,14 @@ category: Absolute Theme
 
 # Changelog
 
+### Version 1.4.0
+
+> Aug 17, 2021
+
+ -  Pagebuilder support added.
+ -  Homepage content was rewritten with pagebuilder module.
+ -  Homepage layout updated to use 1-column layout.
+
 ### Version 1.3.4
 
 > Feb 17, 2020

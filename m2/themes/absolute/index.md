@@ -2,8 +2,7 @@
 layout: default
 title: Absolute Theme
 description: Absolute Theme documentation
-keywords: >
-    magento 2 free responsive theme
+keywords: magento 2 free responsive theme
 category: Absolute Theme
 ---
 
@@ -13,8 +12,6 @@ category: Absolute Theme
 
 ### Contents
 
--  [Installation](installation/)
--  [Changelog](changelog/)
--  [**Theme editor**](theme-editor/)
--  [Page structure manuals](page-structure/)
-   -  [Homepage](page-structure/homepage/)
+ -  [Installation](installation/)
+ -  [Changelog](changelog/)
+ -  [Theme editor](theme-editor/)
