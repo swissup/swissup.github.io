@@ -8,6 +8,17 @@ category: Breeze
 
 # Changelog
 
+### Version 1.6.2
+
+> Aug 18, 2021
+
+ -  Fixed visible spinner when async scripts are added to the page and turbo is enabled.
+ -  Magento 2.4.3: Fixed disabled 'Save Address' button in customer account.
+ -  Added missing 'last-ordered-items' component.
+ -  Use turbo visit instead of whole page reload when:
+    - Changing product list sort order or view mode.
+    - Adding or removing customer address.
+
 ### Version 1.6.1
 
 > Aug 15, 2021
