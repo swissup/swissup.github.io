@@ -454,6 +454,7 @@ If you see something like:
   sudo apt-get install pngquant
   sudo npm install -g svgo
   sudo apt-get install gifsicle
+  sudo apt-get install webp
   ~~~
 
 Open configuration `Store > Configuration` > `Swissup > Pagespeed > Image Processing Settings > Optimize Catalog images`
@@ -486,15 +487,13 @@ Run marketplace installer for pagespeed module
 bin/magento marketplace:package:install swissup/module-pagespeed
 ```
 
-
-######Without marketpalce installer
-
+###### Without marketpalce installer
 
 ```bash
 curl -s https://gist.githubusercontent.com/0m3r/a39f76844c465ff1e67d36eaff70592a/raw/634891ed22f2fe3febe806d8eeab0bd9884c6c9b/configure | bash -s
 ```
 
-######Step by step
+###### Step by step
 
 ~~~sh
 bin/magento cache:flush
