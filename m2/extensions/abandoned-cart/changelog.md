@@ -8,6 +8,12 @@ category: Abandoned Cart
 
 # Changelog
 
+### Version 1.0.8
+
+> Aug 19, 2021
+
+ -  Decreased cron task CPU load: filter quotes by the oldest rule delivery
+
 ### Version 1.0.7
 
 > Apr 9, 2021
