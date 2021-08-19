@@ -1,5 +1,15 @@
-- href: /images/m2/askit/frontend/product-page.png
-  src: /images/m2/askit/frontend/product-page-small.png
+- href: /images/m2/askit/frontend/product-page-2021.png
+  src: /images/m2/askit/frontend/product-page-2021.png
   title: Askit questions at product page
+  w: 792
+  h: 921
+- href: /images/m2/askit/frontend/product-page-2021-loggedin.png
+  src: /images/m2/askit/frontend/product-page-2021-loggedin.png
+  title: Askit questions at product page (Logged In)
+  w: 801
+  h: 839
+- href: /images/m2/askit/frontend/product-page-old.png
+  src: /images/m2/askit/frontend/product-page-old-small.png
+  title: Askit questions at product page (old)
   w: 1017
   h: 1679
