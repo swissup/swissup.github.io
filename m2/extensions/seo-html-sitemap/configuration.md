@@ -25,6 +25,7 @@ Show Out of Stock Products | Show out of stock products on sitemap
 Sort Products and Categories By | Sort products and categories links by name or position
 Number of Columns | Select number of columns from 1 to 4
 Group Links by First Letter | Enable to display links in groups by first letter
+Hide Highlight Pages from Sitemap | Ability to display or hide the highlight pages from sitemap. (Set to 0 to show them by default)
 Show CMS Pages on Sitemap | Show CMS pages
 Exclude CMS Pages | Select CMS pages you do not want to show on sitemap
 Show Custom Links on Sitemap | Show links added in [Links Grid](../grid)

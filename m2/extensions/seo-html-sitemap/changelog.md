@@ -8,23 +8,32 @@ category: SEO HTML Sitemap
 
 # Changelog
 
+### Version 1.1.11
+
+> Aug 19, 2021
+
+ -  Added config to hide the highlight pages from sitemap.
+ -  Use separate group for merged css. This makes global bundle persistent across all site.
+ -  Fixed storeId 'null' to display cms pages on sitemap.
+ -  Fixed warning: count parameter must be an array or an object that implements Countable.
+
 ### Version 1.1.3
 
 > Aug 19, 2019
 
- -  Don't show disabled CMS pages on sitemap
+ -  Don't show disabled CMS pages on sitemap.
 
 ### Version 1.1.2
 
 > Mar 29, 2019
 
- -  Fixed PHP 7.2 compatibility issue
+ -  Fixed PHP 7.2 compatibility issue.
 
 ### Version 1.1.1
 
 > Nov 8, 2018
 
- -  Added config to make exclude CMS pages optional
+ -  Added config to make exclude CMS pages optional.
 
 ### Version 1.1.0
 
