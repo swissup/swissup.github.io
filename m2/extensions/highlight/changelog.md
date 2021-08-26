@@ -8,6 +8,12 @@ category: Highlight
 
 # Changelog
 
+### Version 1.7.13
+
+> Aug 26, 2021
+
+ -  Fixed possible PHP error in Magento 2.4.3 when widget is created via admin.
+
 ### Version 1.7.12
 
 > Jun 23, 2021
