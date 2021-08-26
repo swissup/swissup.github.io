@@ -7,9 +7,15 @@ category: Firecheckout
 
 # Changelog
 
+### Version 4.4.6
+
+> Aug 26, 2021
+
+ -  DHLParcel_Shipping integration updated.
+
 ### Version 4.4.5
 
-> Fab 17, 2021
+> Feb 17, 2021
 
  - Fixed integration with Amasty Checkoutfees module.
  - Integration with Twocheckout_Tco Paymnet added.
