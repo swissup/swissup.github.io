@@ -8,6 +8,20 @@ category: Highlight
 
 # Changelog
 
+### Version 1.7.15
+
+> Aug 30, 2021
+
+ - Fixed 'OptionsDataFactory does not exist' in Magento 2.4.2 and less .
+
+
+### Version 1.7.14
+
+> Aug 27, 2021
+
+ - Fixed 'OptionsData does not exist' in Magento 2.4.3.
+
+
 ### Version 1.7.13
 
 > Aug 26, 2021
