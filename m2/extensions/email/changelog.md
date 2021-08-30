@@ -8,6 +8,13 @@ category: Email
 
 # Changelog
 
+### Version 0.3.21
+
+> Aug 30, 2021
+
+**Fixes**
+ - Fixed 'Access to an undefined property'
+
 ### Version 0.3.20
 
 > Jul 2, 2021
