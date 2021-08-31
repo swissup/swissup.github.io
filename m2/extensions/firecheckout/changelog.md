@@ -25,6 +25,8 @@ category: Firecheckout
     to landscape to comfortably fill checkout form.)
  -  Fixed Magento bug, when multiple requests were sent to a single URL.
  -  Improve payment section styles in Magento 2.4.3.
+ -  Impove CSS merging in all bundled modules. Now checkout styles will be merged
+    to the separate file to prevent redownloading whole bundle of theme styles again.
 
 ### Version 1.27.1
 
