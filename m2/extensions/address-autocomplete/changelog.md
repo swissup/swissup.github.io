@@ -7,6 +7,12 @@ category: Address Autocomplete
 
 # Changelog
 
+### Version 1.6.4
+
+> Aug 31, 2021
+
+ -  Improve compatibility with third-party address form fillers.
+
 ### Version 1.6.3
 
 > Jul 19, 2021

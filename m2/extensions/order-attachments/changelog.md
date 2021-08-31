@@ -7,6 +7,12 @@ category: Order Attachments
 
 # Changelog
 
+### Version 1.4.13
+
+> Aug 31, 2021
+
+ -  Removed useless ajax request after upload process.
+
 ### Version 1.4.11
 
 > Feb 11, 2021
