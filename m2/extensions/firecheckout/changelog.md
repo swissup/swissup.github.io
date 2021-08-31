@@ -17,9 +17,10 @@ category: Firecheckout
     for billing address form (Without "Update" button). Works
     great with [Billing before shipping](/m2/extensions/firecheckout/configuration/#payment-settings-section)
     position.
- -  All color schemes slightly updated to match Web Content Accessibility Guidelines.
+ -  All color schemes [slightly updated](/m2/extensions/firecheckout/configuration/#theme)
+    to match Web Content Accessibility Guidelines.
  -  All layouts are now use fallback to faux 1-column layout when using small
-    sized tablets. (Previously, tablet customers had to struggle with scrolbars
+    sized tablets. (Previously, tablet customers had to struggle with scrollbars
     and horizontal overflows, or they had to change tablet orientation
     to landscape to comfortably fill checkout form.)
 

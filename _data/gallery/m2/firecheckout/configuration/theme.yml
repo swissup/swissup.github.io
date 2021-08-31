@@ -1,20 +1,20 @@
 - title: Default theme
-  href: /images/m2/firecheckout/frontend/themes/default-3columns.png
-  src: /images/m2/firecheckout/frontend/themes/small/default-3columns.png
-  w: 1307
-  h: 719
+  href: /images/m2/firecheckout/frontend/themes/default-3columns.png?v=2
+  src: /images/m2/firecheckout/frontend/themes/small/default-3columns.png?v=2
+  w: 1350
+  h: 800
 - title: Light theme
-  href: /images/m2/firecheckout/frontend/themes/light-3columns.png
-  src: /images/m2/firecheckout/frontend/themes/small/light-3columns.png
-  w: 1307
-  h: 753
+  href: /images/m2/firecheckout/frontend/themes/light-3columns.png?v=2
+  src: /images/m2/firecheckout/frontend/themes/small/light-3columns.png?v=2
+  w: 1350
+  h: 920
 - title: Midnight theme
-  href: /images/m2/firecheckout/frontend/themes/midnight-3columns.png
-  src: /images/m2/firecheckout/frontend/themes/small/midnight-3columns.png
-  w: 1272
-  h: 731
+  href: /images/m2/firecheckout/frontend/themes/midnight-3columns.png?v=2
+  src: /images/m2/firecheckout/frontend/themes/small/midnight-3columns.png?v=2
+  w: 1350
+  h: 885
 - title: Round theme
-  href: /images/m2/firecheckout/frontend/themes/round-3columns.png
-  src: /images/m2/firecheckout/frontend/themes/small/round-3columns.png
-  w: 1307
-  h: 808
+  href: /images/m2/firecheckout/frontend/themes/round-3columns.png?v=2
+  src: /images/m2/firecheckout/frontend/themes/small/round-3columns.png?v=2
+  w: 1350
+  h: 900

@@ -86,10 +86,10 @@ Ability change "Purchase" button position:
 
 There are 4 themes available to use:
 
- -  [Default](#&gid=3&pid=1)
- -  [Light](#&gid=3&pid=2)
- -  [Midnight](#&gid=3&pid=3)
- -  [Round](#&gid=3&pid=4)
+ -  [Default](#&gid=5&pid=1)
+ -  [Light](#&gid=5&pid=2)
+ -  [Midnight](#&gid=5&pid=3)
+ -  [Round](#&gid=5&pid=4)
 
 Themes screenshots:
 
@@ -99,9 +99,9 @@ Themes screenshots:
 
 There are 3 form **modes** available:
 
- -  [Horizontal](#&gid=4&pid=1) (Label aside of the field)
- -  [Basic](#&gid=4&pid=2) (Same as horizontal, except label above the field)
- -  [Compact](#&gid=4&pid=3) (Multiple fields per row. [How to change field size?](/m2/extensions/firecheckout/customization/use-cases/field-size/))
+ -  [Horizontal](#&gid=6&pid=1) (Label aside of the field)
+ -  [Basic](#&gid=6&pid=2) (Same as horizontal, except label above the field)
+ -  [Compact](#&gid=6&pid=3) (Multiple fields per row. [How to change field size?](/m2/extensions/firecheckout/customization/use-cases/field-size/))
 
 {% include gallery.html images=site.data.gallery.m2.firecheckout.configuration.form-styles class="scroll phone-up-1 tablet-up-3 photoswipe" %}
 
