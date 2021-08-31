@@ -1,0 +1,25 @@
+- href: /images/m2/firecheckout/frontend/billing-address-position/inside-payment-methods.png
+  src: /images/m2/firecheckout/frontend/billing-address-position/small/inside-payment-methods.png
+  title: Billing address inside active payment method
+  w: 1322
+  h: 878
+- href: /images/m2/firecheckout/frontend/billing-address-position/before-payment-methods.png
+  src: /images/m2/firecheckout/frontend/billing-address-position/small/before-payment-methods.png
+  title: Billing address above payment methods
+  w: 1322
+  h: 878
+- href: /images/m2/firecheckout/frontend/billing-address-position/after-payment-methods.png
+  src: /images/m2/firecheckout/frontend/billing-address-position/small/after-payment-methods.png
+  title: Billing address below payment methods
+  w: 1322
+  h: 878
+- href: /images/m2/firecheckout/frontend/billing-address-position/before-shipping-address.png
+  src: /images/m2/firecheckout/frontend/billing-address-position/small/before-shipping-address.png
+  title: Billing address above shipping address
+  w: 1322
+  h: 878
+- href: /images/m2/firecheckout/frontend/billing-address-position/after-shipping-address.png
+  src: /images/m2/firecheckout/frontend/billing-address-position/small/after-shipping-address.png
+  title: Billing address below shipping address
+  w: 1322
+  h: 878

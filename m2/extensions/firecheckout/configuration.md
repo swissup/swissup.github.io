@@ -161,7 +161,12 @@ Option                  | Description
 ------------------------|------------
 Default Method          | Default payment method to use
 Show Billing Address Title | Show/Hide title above billing address form
-Display Billing Address On | Select billing address form placement (Above Payment Methods, Below Shipping Address)
+Display Billing Address On | Select billing address form placement: [Inside Payment Method](#&gid=9&pid=1), [Above Payment Methods](#&gid=9&pid=2), [Below Payment Methods](#&gid=9&pid=3), [Above Shipping Address](#&gid=9&pid=4), [Below Shipping Address](#&gid=9&pid=5)
+Save Mode | Choose "Default" or "Instant" modes. Default uses "Update" button to save billing form. Instant saves address without "Update" button.
+
+Billing address placement screenshots:
+
+{% include gallery.html images=site.data.gallery.m2.firecheckout.configuration.billing-address-position class="scroll phone-up-1 tablet-up-3 photoswipe" %}
 
 ### Terms and Conditions settings section
 

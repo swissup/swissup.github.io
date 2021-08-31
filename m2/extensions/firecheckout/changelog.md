@@ -8,6 +8,21 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.28.0
+
+> Aug 31, 2021
+
+ -  Added ability to [move billing address before shipping](/m2/extensions/firecheckout/configuration/#payment-settings-section)
+ -  Added [Instant save mode](/m2/extensions/firecheckout/configuration/#payment-settings-section)
+    for billing address form (Without "Update" button). Works
+    great with [Billing before shipping](/m2/extensions/firecheckout/configuration/#payment-settings-section)
+    position.
+ -  All color schemes slightly updated to match Web Content Accessibility Guidelines.
+ -  All layouts are now use fallback to faux 1-column layout when using small
+    sized tablets. (Previously, tablet customers had to struggle with scrolbars
+    and horizontal overflows, or they had to change tablet orientation
+    to landscape to comfortably fill checkout form.)
+
 ### Version 1.27.1
 
 > Aug 13, 2021
