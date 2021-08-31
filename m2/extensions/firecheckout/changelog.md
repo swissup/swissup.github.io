@@ -23,6 +23,8 @@ category: Firecheckout
     sized tablets. (Previously, tablet customers had to struggle with scrollbars
     and horizontal overflows, or they had to change tablet orientation
     to landscape to comfortably fill checkout form.)
+ -  Fixed Magento bug, when multiple requests were sent to a single URL.
+ -  Improve payment section styles in Magento 2.4.3.
 
 ### Version 1.27.1
 
