@@ -8,6 +8,15 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.28.1
+
+> Sep 2, 2021
+
+ -  Fixed discount button color on Midnight theme.
+ -  Fixed incorrect address position when 'Payment page' is selected.
+ -  Fixed missing billing address title.
+ -  Fixed js error in dev console (doesn't affect any functionality).
+
 ### Version 1.28.0
 
 > Aug 31, 2021
