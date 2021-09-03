@@ -8,6 +8,14 @@ category: Breeze
 
 # Changelog
 
+### Version 1.6.4
+
+> Sep 3, 2021
+
+ -  Fixed broken robots.txt content.
+ -  Fixed error caused by 'requirejs' function call.
+ -  Allow to create nested tabs.
+
 ### Version 1.6.2
 
 > Aug 18, 2021
