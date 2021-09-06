@@ -8,6 +8,14 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.28.3
+
+> Sep 6, 2021
+
+ -  Fixed js errors when third-party extension uses deprecated
+    $.jqueryXHR.success or $.jqueryXHR.complete methods.
+ -  Fixed page reload when error is occured during payment processing.
+
 ### Version 1.28.2
 
 > Sep 3, 2021
