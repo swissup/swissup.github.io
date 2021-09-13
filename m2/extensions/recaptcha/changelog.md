@@ -8,6 +8,13 @@ category: reCAPTCHA
 
 # Changelog
 
+### Version 1.3.18
+
+> Sep 13, 2021
+
+  - Compatibility with FireCheckout when terms and conditions block moved.
+  - Fixed missing recaptcha at checkout for some payments methods (e.g., CreditKey_B2BGateway).
+
 ### Version 1.3.17
 
 > Aug 6, 2021
