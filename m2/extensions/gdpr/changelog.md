@@ -8,6 +8,12 @@ category: GDPR
 
 # Changelog
 
+### Version 1.4.8
+
+> Sep 14, 2021
+
+ -  Updated breeze integration.
+
 ### Version 1.4.7
 
 > Jul 22, 2021

@@ -11,6 +11,13 @@ category: AskIt
 
 # Changelog
 
+### Version 1.10.6
+
+> Sep 14, 2021
+
+ -  Updates breeze integration.
+ -  Fixed undefined index notice when persistent shopping cart is used.
+
 ### Version 1.10.0
 
 > May 19, 2021

@@ -8,6 +8,12 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.28.4
+
+> Sep 10, 2021
+
+ -  Fixed billing address validation when it's hidden and instant save is used.
+
 ### Version 1.28.3
 
 > Sep 6, 2021

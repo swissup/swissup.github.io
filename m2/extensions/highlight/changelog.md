@@ -8,6 +8,13 @@ category: Highlight
 
 # Changelog
 
+### Version 1.7.16
+
+> Sep 14, 2021
+
+ -  Updated breeze integration.
+ -  Fixed php error when using module Venia theme.
+
 ### Version 1.7.15
 
 > Aug 30, 2021

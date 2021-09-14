@@ -6,6 +6,13 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.5.29
+
+> Sep 14, 2021
+
+ -  Updated breeze integration.
+ -  Fixed minicart width in ajaxpro popup.
+
 ### Version 1.5.26
 
 > Aug 6, 2021

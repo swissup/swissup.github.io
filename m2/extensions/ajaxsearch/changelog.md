@@ -6,6 +6,12 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.11.13
+
+> Sep 14, 2021
+
+ -  Breeze integration optimizations
+
 ### Version 1.11.12
 
 > Aug 6, 2021

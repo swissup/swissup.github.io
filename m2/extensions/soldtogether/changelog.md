@@ -8,6 +8,12 @@ category: SoldTogether
 
 # Changelog
 
+### Version 1.7.15
+
+> Sep 14, 2021
+
+ -  Updated breeze integration.
+
 ### Version 1.7.12
 
 > May 14, 2021

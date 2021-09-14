@@ -8,6 +8,15 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.6.8
+
+> Sep 14, 2021
+
+ -  Updated breeze integration.
+ -  Improve logic behind generating labels data for grouped products.
+    Especially on-sale label. Now we search for cheapest product in grouped and
+    calculate regular price, special price and final price using it.
+
 ### Version 1.6.7
 
 > Aug 6, 2021

@@ -6,6 +6,12 @@ keywords: KnowledgeBase changelog
 category: KnowledgeBase
 ---
 
+### Version 1.0.13
+
+> Sep 14, 2021
+
+ -  Updated breeze integration.
+
 ### Version 1.0.10
 
 > Jun 23, 2020

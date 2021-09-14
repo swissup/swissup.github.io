@@ -8,6 +8,24 @@ category: Breeze
 
 # Changelog
 
+### Version 1.7.0
+
+> Sep 14, 2021
+
+ -  Added Pagebuilder's Slider and Carousel support.
+ -  Swipe gestures added to product page gallery
+ -  Use tiny scrollbar for product gallery.
+ -  Prevent page zoom when double click on slider or gallery arrows/dots.
+ -  Fixed js error when third-party module uses minicart/content.html template.
+ -  Improved js bundles invalidation. Previously you had to remove old bundles manually.
+    Now new bundles updated automatically after cache cleanup.
+ -  Cleanup dom structure from js templates to improve dev expirience when using
+    Elements panel in dev tools.
+ -  Added ability to disable component via mixin.
+ -  Lazy mixins and widget declarations. You can now declare mixins and components
+    before parent class is loaded.
+ -  Code refactoring.
+
 ### Version 1.6.4
 
 > Sep 3, 2021

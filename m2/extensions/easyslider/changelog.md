@@ -8,6 +8,12 @@ category: Easy Slider
 
 # Changelog
 
+### Version 1.6.17
+
+> Sep 14, 2021
+
+ -  Updated breeze integration.
+
 ### Version 1.6.15
 
 > Jun 23, 2021

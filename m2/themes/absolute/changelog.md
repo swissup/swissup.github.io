@@ -6,6 +6,12 @@ category: Absolute Theme
 
 # Changelog
 
+### Version 1.5.0
+
+> Sep 14, 2021
+
+ -  [Breeze](/m2/extensions/breeze/) integration added.
+
 ### Version 1.4.0
 
 > Aug 17, 2021
