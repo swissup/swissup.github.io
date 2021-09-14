@@ -8,6 +8,13 @@ category: Easy Banners
 
 # Changelog
 
+### Version 1.7.4
+
+> Sep 14, 2021
+
+ -  Partial integration with [Swissup_Amp module](/m2/extensions/amp/).
+    Lightbox and Awesomebar banners are not supported yet.
+
 ### Version 1.7.1
 
 > Jun 14, 2021
