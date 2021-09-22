@@ -8,6 +8,14 @@ category: Breeze
 
 # Changelog
 
+### Version 1.7.2
+
+> Sep 22, 2021
+
+ -  Fixed unclosable mobile navigation sidebar when multiple menus are used on the page.
+ -  Use correct plural form for cart items label.
+ -  Improve slider's current page detection logic.
+
 ### Version 1.7.0
 
 > Sep 14, 2021
