@@ -8,6 +8,12 @@ category: GDPR
 
 # Changelog
 
+### Version 1.4.9
+
+> Sep 24, 2021
+
+ -  Facebook pixel cookie added to known cookies list.
+
 ### Version 1.4.8
 
 > Sep 14, 2021

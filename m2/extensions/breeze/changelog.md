@@ -8,6 +8,12 @@ category: Breeze
 
 # Changelog
 
+### Version 1.7.3
+
+> Sep 24, 2021
+
+ -  Allow to render third-party content in recently viewed products.
+
 ### Version 1.7.2
 
 > Sep 22, 2021

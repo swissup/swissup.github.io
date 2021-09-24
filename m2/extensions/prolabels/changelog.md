@@ -8,6 +8,13 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.6.9
+
+> Sep 24, 2021
+
+ -  Breeze: fixed missing labels in recent products.
+ -  Breeze: Fixed missing prolables after selecting configurable option.
+
 ### Version 1.6.8
 
 > Sep 14, 2021
