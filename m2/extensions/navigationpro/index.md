@@ -38,6 +38,7 @@ devices, tablets, and phones.
     - [Amazon Menu](/m2/extensions/navigationpro/use-cases/amazon-menu/)
       - [Top Menu](/m2/extensions/navigationpro/use-cases/amazon-menu/#top-menu)
       - [Sidebar Menu](/m2/extensions/navigationpro/use-cases/amazon-menu/#sidebar-menu)
+    - [Expanded on Homepage](/m2/extensions/navigationpro/use-cases/expanded-on-homepage/)
     - [Stacked Dropdowns](/m2/extensions/navigationpro/use-cases/stacked-dropdowns/)
     - [Iconic Menu](/m2/extensions/navigationpro/use-cases/iconic-menu/)
        - [Top Menu](/m2/extensions/navigationpro/use-cases/iconic-menu/#top-menu)

@@ -8,6 +8,14 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.16.0
+
+> Sep 24, 2021
+
+ -  **New Feature**: [Always expanded](/use-cases/expanded-on-homepage/) menu on the homepage.
+ -  Breeze: fixed possible invalid shevron position.
+ -  Fixed rare error when this.active is null.
+
 ### Version 1.15.10
 
 > May 21, 2021

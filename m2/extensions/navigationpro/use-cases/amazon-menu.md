@@ -31,25 +31,29 @@ category: Navigationpro
 
 #### Tips and Tricks
 
-We use [EasyCatalogImages](/m2/extensions/easycatalogimages/) to add thumbnail
-attribute to each category. You can replace it with any other attribute. Open menu
-in backend, then navigate to _Menu Settings > Open Dropdown Settings > Second level dropdown settings_.
-Here you can edit template that shows category image:
+ 1. **Category Thumbnails** We use [EasyCatalogImages](/m2/extensions/easycatalogimages/) to add thumbnail
+    attribute to each category. You can replace it with any other attribute. Open menu
+    in backend, then navigate to _Menu Settings > Open Dropdown Settings > Second level dropdown settings_.
+    Here you can edit template that shows category image:
 
-```html
-{% raw %}<div style="overflow: hidden; max-height: 550px;">
-    {{depend remote_entity.thumbnail}}
-        <img class="xs-hide sm-hide" src="{{media url=''}}/catalog/category/{{var remote_entity.thumbnail}}" />
-    {{/depend}}
-</div>{% endraw %}
-```
+    ```html
+    {% raw %}<div style="overflow: hidden; max-height: 550px;">
+       {{depend remote_entity.thumbnail}}
+           <img class="xs-hide sm-hide" src="{{media url=''}}/catalog/category/{{var remote_entity.thumbnail}}" />
+       {{/depend}}
+    </div>{% endraw %}
+    ```
 
-Sometimes you may want to change dropdown layout for particular item only.
-Open menu in backend, click on the category to edit in categories tree on the left
-and turn off "Use Menu Settings" in dropdown settings on the right. Here is a
-screenshot of dropdown settings for "Women" category:
+ 2. **Expanded on Homepage**. Sometimes you want to expand "Departments" dropdown by default.
+    Here is a tutorial on how to [expand menu on the homepage](/m2/extensions/navigationpro/use-cases/expanded-on-homepage/).
 
-![Per-item Dropdown Settings](/images/m2/navigationpro/use-cases/amazon-menu/per-item-dropdown-settings.png)
+
+ 3. **Dropdown layout settings** Sometimes you may want to change dropdown layout for particular item only.
+    Open menu in backend, click on the category to edit in categories tree on the left
+    and turn off "Use Menu Settings" in dropdown settings on the right. Here is a
+    screenshot of dropdown settings for "Women" category:
+
+    ![Per-item Dropdown Settings](/images/m2/navigationpro/use-cases/amazon-menu/per-item-dropdown-settings.png)
 
 ### Sidebar menu
 

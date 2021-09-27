@@ -87,6 +87,8 @@ Class Name          | Description
 --------------------|--------------------------
 **Effects**         |
 `navpro-overlay`    | Use [overlay][overlay] when dropdown is active
+**Dropdown State** |
+`home-expanded`     | Initially [expanded dropdown on the homepage][expanded-on-homepage].
 **Dropdown Visibility** |
 `xs-hide-dropdown`  | Hide dropdown on mobile devices
 `sm-hide-dropdown`  | Hide dropdown on tablet devices
@@ -123,3 +125,4 @@ Class Name          | Description
 [nowrap]: /m2/extensions/navigationpro/use-cases/nowrap/ "Nowrap"
 [sticky-menu]: /m2/extensions/navigationpro/use-cases/sticky/ "Sticky menu"
 [click-menu]: /m2/extensions/navigationpro/use-cases/click/ "Click-based dropdowns"
+[expanded-on-homepage]: /m2/extensions/navigationpro/use-cases/expanded-on-homepage/ "Expanded on Homepage"
