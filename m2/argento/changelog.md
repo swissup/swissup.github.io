@@ -7,6 +7,81 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.25.0
+
+> Sep 27, 2021
+
+ -  Magento 2.4.3 compatibility: fixed missing pagination below products list
+ -  Fixed non-translatable headers in login popup
+ -  _Argento Home:_ Move Layered Navigation block into wrapper with JS not XML
+ -  _Argento Stripes:_ updated Navpro styles and added support for [initially-expanded](/m2/extensions/navigationpro/use-cases/expanded-on-homepage/) menu feature
+ -  _Argento Stripes:_ fixed broken reference message in log
+
+**Extensions Updates**
+
+  - [Ajax Pro](/m2/extensions/ajaxpro/) — 1.5.29 (was 1.5.26)
+      + Updated Breeze integration
+      + Fixed minicart width in AjaxPro popup
+      + Added config option to enable/disable AjaxPro per store view
+      + Prevent hover on invisible quick-view links
+      + Improved accessibility
+      + Magento 2.3.4: fixed 'undefined index' js error
+  - [Ajax Search](/m2/extensions/ajaxsearch/) — 1.11.13 (was 1.11.12)
+      + Breeze integration optimizations
+      + Added less variable to switch category filter position
+      + Disabled quickSearch initialization
+      + Showing correct price in search popup when graphql enabled
+  - [AMP](/m2/extensions/amp/) — 1.4.14 (was 1.4.10)
+      + Magento 2.4.3: fixed missing pagination below products list
+      + Added Featured Attributes module integration
+      + Fixed error on category page: using correct escaping in list template
+      + Fixed notice: Undefined index DESC in sorter template
+  - [Askit](/m2/extensions/askit/) — 1.10.6 (was 1.10.2)
+      + Updated Breeze integration
+      + Fixed undefined index notice when persistent shopping cart is used
+      + Added config option to enable/disable AskIt per store view
+  - [Breeze](/m2/extensions/breeze/) — 1.7.3 (was 1.5.1)
+      + Bundle products are now supported
+      + Fixed broken robots.txt content
+      + Added Pagebuilder’s Slider and Carousel support
+      + Lot of other fixes and improvements
+  - [EasySlide](/m2/extensions/easyslider/) — 1.6.17 (was 1.6.16)
+      + Updated Breeze integration
+  - [Easybanners](/m2/extensions/easybanners/) — 1.7.4 (was 1.7.3)
+      + Added partial integration with Swissup AMP
+  - [Easytabs](/m2/extensions/easytabs/) — 1.9.15 (was 1.9.13)
+      + Updated Breeze integration
+      + Fixed 404 form ajax request from tab at Apache server
+  - [GDPR](/m2/extensions/gdpr/) — 1.4.9 (was 1.4.7)
+      + Facebook pixel cookie added to known list
+  - [Highlight](/m2/extensions/highlight/) — 1.7.17 (was 1.7.12)
+      + Fixed ‘OptionsData does not exist’ in Magento 2.4.3
+      + Updated breeze integration
+      + Fixed php error when using module Venia theme
+  - [Navigation Pro](/m2/extensions/navigationpro/) — 1.16.0 (was 1.15.12)
+      + New Feature: Always expanded menu on the homepage
+      + Breeze: fixed possible invalid shevron position
+      + Fixed rare error when this.active is null
+  - [Pagespeed](/m2/extensions/pagespeed/) — 1.4.27 (was 1.4.25)
+      + Fixed missing 'quality' param in image optimization
+      + Prevent scripts deferring if body tag missing
+      + Fixed error class Optimizers\Cwebp not found
+      + Fixed analyze button store base url
+  - [ProLabels](/m2/extensions/prolabels/) — 1.6.9 (was 1.6.7)
+      + Improved logic behind generating labels data for grouped products
+      + Fixed missing prolables after selecting configurable option
+      + Breeze: fixed missing labels in recent products
+  - [SEO Suite](/m2/extensions/seo-suite/)
+      + **swissup/module-rich-snippets** — 1.4.14 (was 1.4.13)
+          * Added option to remove reviews data from product structured data block
+      + **swissup/module-seo-html-sitemap** — 1.1.11 (was 1.1.10)
+          * Fixed storeId is null when displaying cms pages on sitemap
+          * Added config to hide the highlight pages from sitemap
+      + **swissup/module-seo-urls** — 1.5.28 (was 1.5.27)
+          * Fixed 404 page when applied filter contains string same as category name
+  - [Sold Together](/m2/extensions/soldtogether/) — 1.7.15 (was 1.7.13)
+      + Updated Breeze integration
+
 ### Version 1.24.2
 
 > Aug 12, 2021
@@ -165,7 +240,7 @@ category: Argento
           * Added html target attribute into cross-links
       + **swissup/module-seo-html-sitemap** — 1.1.10 (was 1.1.9)
           * Fixed warning: count parameter must be an array or an object that implements Countable
-      + **swissup/module-seo-urls** — 1.5.25 (was 1.5.27)
+      + **swissup/module-seo-urls** — 1.5.27 (was 1.5.25)
           * Fixed error - Call to a member function getLabel() on null
           * Fixed "Notice: Undefined variable: seoFilter"
       + **swissup/module-seo-xml-sitemap** — 1.1.10 (was 1.1.9)
