@@ -8,6 +8,30 @@ category: Accelerated Mobile Pages
 
 # Changelog
 
+### Version 1.4.14
+
+> Sep 27, 2021
+
+  - Fixed notice: Undefined index DESC in sorter template
+
+### Version 1.4.13
+
+> Sep 1, 2021
+
+  - Fixed error on category page: using correct escaping in list template
+
+### Version 1.4.12
+
+> Aug 31, 2021
+
+  - Featured Attributes module integration added
+
+### Version 1.4.11
+
+> Aug 23, 2021
+
+  - Magento 2.4.3: fixed missing pagination below products list
+
 ### Version 1.4.10
 
 > Jun 18, 2021
