@@ -7,6 +7,14 @@ category: Attributepages
 
 # Changelog
 
+### Version 1.4.3
+
+> Sep 28, 2021
+
+ -  Fixed compatibility with Swissup_Ajaxlayerednavigation. Incorrect available
+    options for multiselect attribute when some option of this attribute is already
+    selected.
+
 ### Version 1.4.0
 
 > Apr 29, 2021
