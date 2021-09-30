@@ -44,7 +44,7 @@ faster and easier by providing them a simple checkout form.
     - [Order Summary block is not sticky](troubleshooting/order-summary-is-not-sticky/)
  9. FAQ
     - [Creating Terms and Conditions](faq/creating-terms-and-conditions/)
- 10. Brazilian Requirements
+10. Brazilian Requirements
     - [CPF/CNPJ code - masks and validation (Use case 1 - create a new address field)](brazil/cpf-cnpj/)
     - [CPF/CNPJ code - masks and validation (Use case 2 - without a new address field)](brazil/cpfcnpj/)
     - [Phone fields - masks and validation](brazil/phone-field/)
