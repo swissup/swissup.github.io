@@ -8,6 +8,13 @@ category: Abandoned Cart
 
 # Changelog
 
+### Version 1.1.0
+
+> Oct 1, 2021
+
+ -  Added export to CSV/Excel button in abandoned emails history grid
+ -  Added unsubscribe link to abandoned emails
+
 ### Version 1.0.8
 
 > Aug 19, 2021
