@@ -8,6 +8,14 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.28.5
+
+> Oct 11, 2021
+
+ -  Fixed missing place order button after refreshing payment step (When using Multistep layout).
+ -  Fixed possible not validated email address when using PaypalExpress or another
+    payment with it's own "Place Order" button.
+
 ### Version 1.28.4
 
 > Sep 10, 2021
