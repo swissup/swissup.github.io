@@ -12,7 +12,7 @@ category: Navigationpro
 
 > Sep 24, 2021
 
- -  **New Feature**: [Always expanded](/use-cases/expanded-on-homepage/) menu on the homepage.
+ -  **New Feature**: [Always expanded](/m2/extensions/navigationpro/use-cases/expanded-on-homepage/) menu on the homepage.
  -  Breeze: fixed possible invalid shevron position.
  -  Fixed rare error when this.active is null.
 
