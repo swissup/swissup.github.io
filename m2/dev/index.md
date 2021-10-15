@@ -53,6 +53,7 @@ composer require\
     swissup/module-amp\
     swissup/module-askit\
     swissup/module-attributepages\
+    swissup/module-breeze\
     swissup/module-checkout\
     swissup/module-checkout-cart\
     swissup/module-checkout-fields\
@@ -118,6 +119,7 @@ composer require\
     swissup/module-subscribe-at-checkout\
     swissup/module-subscription-checker\
     swissup/module-suggestpage\
+    swissup/module-swiper\
     swissup/module-taxvat\
     swissup/module-testimonials\
     swissup/module-tfa\
