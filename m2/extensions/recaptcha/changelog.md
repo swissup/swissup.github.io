@@ -8,6 +8,14 @@ category: reCAPTCHA
 
 # Changelog
 
+### Version 1.4.0
+
+> Oct 18, 2021
+
+  - [Breeze](/m2/extensions/breeze/) integration.
+  - Fixed missing recaptcha at checkout when third-party paymnent doesn't render `checkout-agreements-block`.
+  - Overall improvements for recaptcha at checkout.
+
 ### Version 1.3.18
 
 > Sep 13, 2021
