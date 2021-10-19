@@ -28,3 +28,4 @@ flexible rules for sending well-timed email reminders and history interface.
      -  [Rule Form](backend/abandoned-cart-rules/#form)
 - [Emails History](backend/emails-history/)
 - [Pre-defined rules and templates](pre-defined-rules-and-templates/)
+- [Known Issues](known-issues/)

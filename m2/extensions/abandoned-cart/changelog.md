@@ -8,6 +8,20 @@ category: Abandoned Cart
 
 # Changelog
 
+### Version 1.1.2
+
+> Oct 19, 2021
+
+> The minimum supported Magento version is 2.3.1. For older versions, please check the [known issues section](\m2\extensions\abandoned-cart\known-issues)
+
+ -  Using correct email sender set on store view level
+
+### Version 1.1.1
+
+> Oct 7, 2021
+
+ -  Fixed missing message when unsubscribing
+
 ### Version 1.1.0
 
 > Oct 1, 2021
