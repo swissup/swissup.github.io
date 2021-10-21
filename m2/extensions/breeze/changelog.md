@@ -8,6 +8,16 @@ category: Breeze
 
 # Changelog
 
+### Version 1.7.4
+
+> Oct 21, 2021
+
+ -  Prevent page jumping when showing modal popup.
+ -  Keyboard navigation improvements for modal and dropdown components.
+ -  Fixed rare error when caret is stuck inside search input.
+ -  Do not close dropdowns behind overlay when click in modal.
+ -  Amasty_Xnotif (Out of Stock Notification) integration added.
+
 ### Version 1.7.3
 
 > Sep 24, 2021
