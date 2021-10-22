@@ -12,7 +12,7 @@ category: Seo Urls
 * TOC
 {:toc}
 
-## How extension build urls in layerd navigation
+## How extension build urls in layered navigation
 
 Extension uses attribute labels and its value labels to create urls for filters in layered navigation. Extension tries to find [in-URL label](../change-labels) for filter (attribute). If nothing found the it converts origignal store labels to lower case, remove forbidden characters (`.`, `&`) and replace spaces with dashes. Also extension considers attribute sort order and create always the same url for same filter set. And order in which filters were applied is not important.
 
