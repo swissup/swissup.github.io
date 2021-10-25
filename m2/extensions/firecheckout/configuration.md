@@ -13,9 +13,9 @@ category: Firecheckout
 
 ### General section
 
-![General section](/images/m2/firecheckout/configuration/general.png)
-
 You can access Fire Checkout configuration at Configuration > Swissup > Checkout > Firecheckout page.
+
+![General section](/images/m2/firecheckout/configuration/general.png)
 
 Option      | Description
 ------------|------------
