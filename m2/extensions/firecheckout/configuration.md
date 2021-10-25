@@ -15,6 +15,8 @@ category: Firecheckout
 
 ![General section](/images/m2/firecheckout/configuration/general.png)
 
+You can access Fire Checkout configuration at Configuration > Swissup > Checkout > Firecheckout page.
+
 Option      | Description
 ------------|------------
 Enabled     | Allows to enable/disable firecheckout per store view
