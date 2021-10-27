@@ -7,6 +7,45 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.25.1
+
+> Oct 27, 2021
+
+ -  Products grid/slider elements improvements
+ -  _Argento Essence:_: Fixed search overlapping dropdowns
+ -  _Argento Force:_: Fixed visible configurable variation qty from MSI
+ -  _Argento Luxury:_: Fixed overlapped button by swiper container in Highlight
+
+**Extensions Updates**
+
+  - [Ajax Pro](/m2/extensions/ajaxpro/) — 1.5.30 (was 1.5.29)
+      + Fixed price doubling on configurable products page
+      + Updated Breeze integration
+  - [Attribute Pages](/m2/extensions/attributepages/) — 1.4.3 (was 1.4.2)
+      + Fixed compatibility with Swissup Ajax Layered Navigation: incorrect options in multifilter list when some option is applied
+  - [Breeze](/m2/extensions/breeze/) — 1.7.4 (was 1.7.3)
+      + Prevent page jumping when showing modal popup
+      + Keyboard navigation improvements for modal and dropdown components
+      + Fixed rare error when caret is stuck inside search input
+      + Do not close dropdowns behind overlay when click in modal
+      + Amasty Out of Stock Notification integration
+  - [EasySlide](/m2/extensions/easyslider/) — 1.6.18 (was 1.6.17)
+      + Added Magento Page Builder integration
+  - [Easybanners](/m2/extensions/easybanners/) — 1.7.5 (was 1.7.4)
+      + Fixed not working flex styles and Pagebuilder usage in Argento Stripes theme
+  - [Easytabs](/m2/extensions/easytabs/) — 1.9.16 (was 1.9.15)
+      + Fixed not loaded reviews in reviews tab when it is the first tab
+      + Slightly improve JS minification potential
+  - [Highlight](/m2/extensions/highlight/) — 1.7.19 (was 1.7.17)
+      + Hide per-page limiter inside widget
+      + Fixed order by popularity in graphQl
+  - [SEO Suite](/m2/extensions/seo-suite/)
+      + **swissup/module-hreflang** — 1.4.8 (was 1.4.7)
+          * Don't add hreflang item for product when it is disabled at respective store view
+      + **swissup/module-rich-snippets** — 1.4.15 (was 1.4.14)
+          * Fixed invalid object type for field "brand"
+          * Added '@id' for product data snippet to simplify third-party modules integration
+
 ### Version 1.25.0
 
 > Sep 27, 2021
