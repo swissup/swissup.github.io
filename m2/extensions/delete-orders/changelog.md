@@ -8,6 +8,12 @@ category: Delete Orders
 
 # Changelog
 
+### Version 1.2.0
+
+- Display config on Default Store View only;
+- Verify config module before removing item;
+- Added ability to display order status in order grid in colors.
+
 ### Version 1.1.0
 
 -  Ability to remove the orders via command line by order Id "swissup:order:delete".

@@ -29,6 +29,9 @@ which belong to some order(s).
 - `Sales->Orders->Actions->Delete with (Invoices, Shipments, Creditmemos)` - remove all records with selected order(s).
 {% include gallery.html images=site.data.gallery.m2.delete-orders.backend class="scroll phone-up-1 tablet-up-3 photoswipe" %}
 
+> Display order status in colours: `Sales -> Order grid`
+![Order Grid](/images/m2/delete-orders/admin/order_status.png)
+
 ### Features
 
 -  Safe solution for removing Orders, Invoices, Shipments, Credit Memos:
