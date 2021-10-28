@@ -145,3 +145,16 @@ m2:
     - soldtogether
     - seo-suite
     - testimonials
+
+sh:
+  title: Argento for Shopify
+  url: /shopify/argento/
+
+  articles:
+    - title: Installation
+      url: /shopify/argento/installation/
+
+  themes:
+    - title: Stripes
+      url: /shopify/argento/stripes/
+

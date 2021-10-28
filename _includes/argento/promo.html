@@ -14,6 +14,9 @@
         {% if include.m2 != false %}
           <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="{{ argento.urls.m2 | prepend: site.baseurl }}">Magento 2.x</a>
         {% endif %}
+        {% if include.sh != false %}
+          <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="{{ argento.urls.sh | prepend: site.baseurl }}">Shopify</a>
+        {% endif %}
       </div>
     </div>
     <div class="carousel js-flickity card-thumbnail mdl-cell mdl-cell--7-col mdl-cell--8-col-tablet mdl-cell--4-col-phone"
