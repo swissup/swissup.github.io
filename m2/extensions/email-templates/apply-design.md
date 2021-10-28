@@ -12,7 +12,7 @@ Module provides an easy way to apply design for all emails.
 
 We extended core Magento interface with email designs dropdown.
 
-Go to _Swissup_ ⇨ _Content_ ⇨ _Design Configuration_. Select scope you need. Open section **Transactional Emails**.
+Go to _Magento Admin_ ⇨ _Content_ ⇨ _Design Configuration_. Select scope you need. Open section **Transactional Emails**.
 
 ![Email design](/images/m2/email-templates/apply-design.png)
 
