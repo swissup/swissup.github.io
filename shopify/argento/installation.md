@@ -12,4 +12,4 @@ category: Argento
  2. Login into you Shopify store admin. Click **`Online Store`**. Then **`Themes`**.
  3. On **`Themes`** page under **`Theme library`** section select `Add theme` > `Upload zip file`.
  4. Upload a .zip file (downloaded package on step 1) with **`Upload theme`** popup interface.
- 5. New Argento theme should appear in your theme library. Plublish it with `Actions` button to apply it at your storefront.
+ 5. New Argento theme should appear in your theme library. Publish it with `Actions` button to apply it at your storefront.
