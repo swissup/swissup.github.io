@@ -7,6 +7,13 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.25.2
+
+> Oct 29, 2021
+
+  - [EasySlide](/m2/extensions/easyslider/) — 1.6.19 (was 1.6.18)
+      + Fixed error during compillation on Magento 2.3.x
+
 ### Version 1.25.1
 
 > Oct 27, 2021
