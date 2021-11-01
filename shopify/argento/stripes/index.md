@@ -21,4 +21,4 @@ The Theme Settings include values available to help you change your pages' color
 # Contents
 
  -  [Installation](/shopify/argento/installation/)
- -  [FAQ](FAQ/)
+ -  [FAQ](faq/)
