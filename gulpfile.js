@@ -107,7 +107,7 @@ function serve() {
     gulp.watch(['js/*'], js);
     gulp.watch(['css/**/*'], css);
     gulp.watch(['_data/**/*', '_includes/**/*', 'assets/*', 'images/**/*'], fullRefresh);
-    gulp.watch(['_layouts/*', '_posts/*', 'm1/**/*', 'm2/**/*'], partialRefresh);
+    gulp.watch(['_layouts/*', '_posts/*', 'm1/**/*', 'm2/**/*', 'shopify/**/*'], partialRefresh);
 }
 
 exports.default = gulp.series(jekyll, serve);
