@@ -22,7 +22,7 @@ With the Argento theme, you can use a `full-screen slider` with a single image. 
 
 When customizing the image slider, you can:
 
-- Select a background color
+- Select a background color.
 - Set the maximum width of the container.
 - Make your slider loop continuously. 
 - Set the slider to autoplay. That will make the slides come from left to right or first to last.
