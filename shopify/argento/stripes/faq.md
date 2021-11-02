@@ -98,22 +98,22 @@ Please follow the steps to add custom fonts:
 
  1. Download the Webfont version of your font. It must include the WOFF and WOFF2 file types. Please avoid TTF or OTF. They are not web font file types.
 
- 2. Go to `Admin - Online Store - Themes`. Click on `Actions - Edit Code`. In the sidebar select Assets - theme.scss.liquid. At the bottom of the file paste the next code:
+ 2. Go to `Admin - Online Store - Themes`. Click on `Actions - Edit Code`. In the sidebar select Assets - `theme.css`. At the bottom of the file paste the next code:
 
 	**Code:** 
-	```html
+	```css
 	@font-face {
 	font-family: "NAME OF FONT";
 	src: url("NAME-OF-FONT-FILE.woff2") format("woff2"),
-	url("NAME-OF-FONT-FILE.woff") format("woff");
+	     url("NAME-OF-FONT-FILE.woff") format("woff");
 	}
 	```
 
  3. Now you have to replace NAME OF FONT with the name of your font and NAME OF THE FONT FILE with the exact name. Use case-sensitive with hyphens of the font file on your computer. Paste the next code below this code:
 
 	**Code:** 
-	```html
-	<p><span style="font-weight: 400;">yourcssselectorhere { font-family: "NAME OF FONT"!important; }</span></p>
+	```css
+	.yourcssselectorhere { font-family: "NAME OF FONT"!important; }
 	```
 
  4. Go to the `Assets folder` and click on `Add a new asset`. You have to upload each version of the font file one by one.
