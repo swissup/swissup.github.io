@@ -22,3 +22,6 @@ The Theme Settings include values available to help you change your pages' color
 
  -  [Installation](/shopify/argento/installation/)
  -  [FAQ](faq/)
+ -  [Theme settings](/shopify/argento/stripes/theme-settings)
+ -  [Icons bar](/shopify/argento/stripes/icons-bar)
+ -  [Header](/shopify/argento/stripes/header)
