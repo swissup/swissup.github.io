@@ -6,6 +6,28 @@ keywords: Helpdesk changelog
 category: Helpdesk
 ---
 
+### Version 1.2.17
+
+> Nov 3, 2021
+
+**Fixes**
+ - Remove old zend composer requirement (close #35)
+
+### Version 1.2.16
+
+> Aug 30, 2021
+
+**Fixes**
+ - Fixed broken customer edit page at backend
+
+### Version 1.2.15
+
+> Aug 19, 2021
+
+**Fixes**
+ - Fix potential php warnings/errors (phpstan)
+ - Use separate group for merged css. This makes global bundle persistent across all site.
+
 ### Version 1.2.14
 
 > Jan 20, 2021
