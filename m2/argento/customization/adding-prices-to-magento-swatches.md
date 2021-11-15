@@ -31,9 +31,9 @@ category: Argento
                     .data('mageSwatchRenderer').options.jsonConfig;
 
             $('.swatch-attribute').each(function () {
-                var attributeId = $(this).attr('attribute-id');
+                var attributeId = $(this).data('attribute-id');
                 $('.swatch-option', this).each(function () {
-                    var optiondId = $(this).attr('option-id');
+                    var optiondId = $(this).data('option-id');
                     var index = _.findKey(config.index, function(value) {
                         return value[attributeId] == optiondId;
                     });
