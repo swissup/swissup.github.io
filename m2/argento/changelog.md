@@ -7,6 +7,30 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.26.0
+
+> Nov 19, 2021
+
+  - New **Argento Marketplace** theme added to the package. Check [Argento Marketplace docs](/m2/argento/marketplace/) for more details.
+  - _Argento Home:_ Improved styles for "Photo-in-description"
+
+**Extensions Updates**
+
+  - [Ajax Pro](/m2/extensions/ajaxpro/) — 1.5.31 (was 1.5.30)
+      + Prevent empty popup after store view change
+  - [Easytabs](/m2/extensions/easytabs/) — 1.9.17 (was 1.9.16)
+      + Added Page Builder integration for Easy Tabs widget
+      + Fixes for Magento 2.4.3+ when page layout is "Product -- Full Width"
+  - [ProLabels](/m2/extensions/prolabels/) — 1.6.11 (was 1.6.9)
+      + Performance improvements
+      + Added stock data caching
+      + Manual labels - added product stock conditions: stock status and qty
+  - [SEO Suite](/m2/extensions/seo-suite/)
+      + **swissup/module-seo-cross-links** — 1.1.2 (was 1.1.1)
+          * Fixed performance issue replacing plugin around to after
+      + **swissup/module-hreflang** — 1.4.9 (was 1.4.8)
+          * Fixed error on Adobe Commerce: unknown column 'entity_id'
+
 ### Version 1.25.2
 
 > Oct 29, 2021
@@ -19,9 +43,9 @@ category: Argento
 > Oct 27, 2021
 
  -  Products grid/slider elements improvements
- -  _Argento Essence:_: Fixed search overlapping dropdowns
- -  _Argento Force:_: Fixed visible configurable variation qty from MSI
- -  _Argento Luxury:_: Fixed overlapped button by swiper container in Highlight
+ -  _Argento Essence:_ Fixed search overlapping dropdowns
+ -  _Argento Force:_ Fixed visible configurable variation qty from MSI
+ -  _Argento Luxury:_ Fixed overlapped button by swiper container in Highlight
 
 **Extensions Updates**
 
