@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Argento Home
-description: Argento Home for Magento 2
+title: Argento Marketplace
+description: Argento Marketplace for Magento 2
 category: Argento
 ---
 
-# Argento Home
+# Argento Marketplace
 
-{% include gallery.html images=site.data.gallery.m2.argento.home.index class="phone-up-1 tablet-up-3 photoswipe scroll" %}
+{% include gallery.html images=site.data.gallery.m2.argento.marketplace.index class="phone-up-1 tablet-up-3 photoswipe scroll" %}
 
  -  [Installation](/m2/argento/installation/)
  -  Theming

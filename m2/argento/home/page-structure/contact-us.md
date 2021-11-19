@@ -15,7 +15,7 @@ category: Argento
 
 ![Contacts Page](/images/m2/argento/home/contact-us-page.png)
 
-Contact Us page has CMS Block with general information on left side and conatct form on right side. Map with store location placed underneath. It is CMS block also.
+Contact Us page has CMS Block with general information on left side and contact form on right side. Map with store location placed underneath. It is CMS block also.
 
 ### General Contact Information
 

@@ -112,6 +112,9 @@ m2:
     - title: Mall
       url: /m2/argento/mall/
 
+    - title: Marketplace
+      url: /m2/argento/marketplace/
+
     - title: Pure2
       url: /m2/argento/pure2/
 

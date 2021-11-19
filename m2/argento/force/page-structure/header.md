@@ -55,7 +55,7 @@ Manu is in the middle of the header at Argento Force. Menu is powered by [Naviga
 Menu identifier is `argento_force_topmenu`.
 
 
-### Seacrh and Minicart
+### Search and Minicart
 
 On the right side of the header you can see search and minicart icon. Search is hidden by default and show up when user clicks on its icon. Same thing for minicart. Click on bag and it shows up.
 

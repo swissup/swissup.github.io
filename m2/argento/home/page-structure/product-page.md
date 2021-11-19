@@ -40,7 +40,7 @@ It is "Frequently bouth together" block of [Sold Together](/m2/extensions/soldto
 
 ![Tabs](/images/m2/argento/home/product/tabs.png)
 
-Next important part of product page is product tabs. They located under "Add to Cart" form (or "Frequently Bought Together" block when it is visisble). Product tabs powered by [EasyTabs](m2/extensions/easytabs/) module. You can rearrange, disable existing and create new tabs with this module. Dive deep into module features and intefaces by checking its docs.
+Next important part of product page is product tabs. They located under "Add to Cart" form (or "Frequently Bought Together" block when it is visisble). Product tabs powered by [EasyTabs](/m2/extensions/easytabs/) module. You can rearrange, disable existing and create new tabs with this module. Dive deep into module features and intefaces by checking its docs.
 
 #### Details tab
 

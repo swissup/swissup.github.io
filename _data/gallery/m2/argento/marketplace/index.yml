@@ -1,0 +1,45 @@
+- href: /images/m2/argento/marketplace/index/desktop-home.png
+  src: /images/m2/argento/marketplace/index/small/desktop-home.png
+  title: Argento Marketplace homepage.
+  w: 1602
+  h: 4867
+- href: /images/m2/argento/marketplace/index/desktop-category.png
+  src: /images/m2/argento/marketplace/index/small/desktop-category.png
+  title: Argento Marketplace category page.
+  w: 1500
+  h: 3084
+- href: /images/m2/argento/marketplace/index/desktop-category-filtered.png
+  src: /images/m2/argento/marketplace/index/small/desktop-category-filtered.png
+  title: Argento Marketplace category page with applied filter.
+  w: 1500
+  h: 2236
+- href: /images/m2/argento/marketplace/index/desktop-product.png
+  src: /images/m2/argento/marketplace/index/small/desktop-product.png
+  title: Argento Marketplace product page.
+  w: 1500
+  h: 3318
+- href: /images/m2/argento/marketplace/index/desktop-product-questions.png
+  src: /images/m2/argento/marketplace/index/small/desktop-product-questions.png
+  title: Argento Marketplace product page with opened Questions tab.
+  w: 1500
+  h: 4197
+- href: /images/m2/argento/marketplace/index/mobile-product.png
+  src: /images/m2/argento/marketplace/index/small/mobile-product.png
+  title: Argento Marketplace product page on mobile devices.
+  w: 862
+  h: 1754
+- href: /images/m2/argento/marketplace/index/mobile-category.png
+  src: /images/m2/argento/marketplace/index/small/mobile-category.png
+  title: Argento Marketplace category page on mobile devices.
+  w: 862
+  h: 1754
+- href: /images/m2/argento/marketplace/index/mobile-layered.png
+  src: /images/m2/argento/marketplace/index/small/mobile-layered.png
+  title: Argento Marketplace layered navigation on mobile.
+  w: 862
+  h: 1754
+- href: /images/m2/argento/marketplace/index/mobile-menu.png
+  src: /images/m2/argento/marketplace/index/small/mobile-menu.png
+  title: Argento Marketplace mobile menu.
+  w: 862
+  h: 1754
