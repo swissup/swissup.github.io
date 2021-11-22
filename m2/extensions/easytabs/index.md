@@ -20,7 +20,12 @@ category: Easytabs
  -  [Tabs Grid](tabs-grid/)
      - [Easytabs Edit Form](tabs-grid/#edit-form)
  -  [Use Cases](use-cases/)
+     +  [Activate and scroll to tab on external link click](use-cases/#activate-and-scroll-to-tab-on-external-link-click)
+     +  [Dynamic tab titles](use-cases/#dynamic-tab-titles)
+     +  [Unset multiple blocks](use-cases/#unset-multiple-blocks)
+     +  [Askit example](use-cases/#askit-example)
      +  [Product reviews move from tabs](use-cases/#product-reviews-move-from-tabs)
+     +  [Add tab for custom content](use-cases/#add-tab-for-custom-content)
 
 Easy Tabs extension allows you to add any number of tabs based on content of cms blocks, products attributes or html content. Tabs can have conditions. For example show tab for specific product type or for specific attribute.
 
