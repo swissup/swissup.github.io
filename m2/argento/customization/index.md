@@ -64,5 +64,6 @@ category: Argento
     -   [Adding 'Scroll Up' button](add-scroll-up/)
     -   [Adding YouTube video](add-youtube-video/)
     -   [Removing default footer links](removing-default-footer-links/)
+    -   [Changing theme SVG icon color](changing-theme-svg-icon-color/)
 5. FAQ
     -   [Removing other themes except one](removing-other-themes-except-one/)
