@@ -8,6 +8,28 @@ category: Easy Slider
 
 # Changelog
 
+### Version 1.6.20
+
+> Nov 29, 2021
+
+ -  Remove synonym data-content-type (EasySlider => easyslider)
+
+### Version 1.6.19
+
+> Oct 28, 2021
+
+ -  Possible fix for #33 (m2.3.7 pagebuilder)
+ -  Remove code dublicates
+ -  Supress code standard warnings
+
+### Version 1.6.18
+
+> Oct 27, 2021
+
+ -  Filter slide description (graphql)
+ -  Add magento pagebuilder integration (widget)
+ -  Fix 'Script error for: Swissup_EasySlide/js/easyslide' on backend
+
 ### Version 1.6.17
 
 > Sep 14, 2021
