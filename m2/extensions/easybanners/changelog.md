@@ -10,9 +10,10 @@ category: Easy Banners
 
 ### Version 1.7.6
 
-> Oct 27, 2021
+> Nov 29, 2021
 
- -  Apply style for html content only (other types may have their own styles)
+ -  Add pagebuilder integration (easybanner widget)
+ -  Add pagebuilder integration (easybanner placeholder widget)
  -  Fix cope/paste warnings
 
 ### Version 1.7.5
