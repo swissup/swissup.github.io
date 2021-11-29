@@ -8,6 +8,14 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.16.1
+
+> Nov 29, 2021
+
+ -  :sparkles: Microeffect added to Initially expanded menu 2nd lvl
+ -  Properly reset column height
+ -  Fixed vertical columns mode on mobile devices
+
 ### Version 1.16.0
 
 > Sep 24, 2021
