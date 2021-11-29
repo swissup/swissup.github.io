@@ -8,6 +8,13 @@ category: EasyCatalogImages
 
 # Changelog
 
+### Version 1.4.16
+
+> Nov 29, 2021
+
+ -  Add magento pagebuilder integration (widget)
+ -  Remove synonym data-content-type (EasyCatalogImg => easycatalogimg)
+
 ### Version 1.4.15
 
 > Jun 14, 2021
