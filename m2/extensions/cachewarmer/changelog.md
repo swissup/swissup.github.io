@@ -8,6 +8,13 @@ category: Cachewarmer
 
 # Changelog
 
+### Version 1.0.12
+
+> 29 Nov, 2021
+
+**Fixes**
+ - Set default 'Urls Limit' to 100
+
 ### Version 1.0.11
 
 > 13 May, 2021
