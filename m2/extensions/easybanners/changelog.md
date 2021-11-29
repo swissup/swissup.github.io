@@ -8,6 +8,20 @@ category: Easy Banners
 
 # Changelog
 
+### Version 1.7.6
+
+> Oct 27, 2021
+
+ -  Apply style for html content only (other types may have their own styles)
+ -  Fix cope/paste warnings
+
+### Version 1.7.5
+
+> Oct 27, 2021
+
+ -  Apply style for html content only (other types may have their own styles)
+ -  Fixed not working flex styles and Pagebuilder usage (Stripes theme)
+
 ### Version 1.7.4
 
 > Sep 14, 2021
