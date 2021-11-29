@@ -8,6 +8,13 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.28.7
+
+> Nov 2, 2021
+
+ -  Prevent '400 Bad request' on initial ajax request when default payment is selected
+ -  Fixed 'Wrong email format' error caused by corrupted quote table
+
 ### Version 1.28.6
 
 > Oct 12, 2021
