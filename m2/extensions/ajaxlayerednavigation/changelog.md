@@ -7,6 +7,35 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.3.41
+
+> Nov 29 2021
+
+ - Prevent scroll event triggering after clicking by toolbar
+ - Add speed param of scrolling (fast scroll prevent race)
+ - Save push state (infinite scroll) for returns to the origin page
+
+### Version 1.3.41
+
+> Aug 19 2021
+
+ - Fix 'Cannot instantiate interface Magento\InventorySalesApi...
+ - Use separate group for merged css. This makes global bundle persistent across all site.
+
+### Version 1.3.40
+
+> July 19 2021
+
+ - Fix/Improve js isMobile (portrait mode)
+ - Remove console.log about state dom element
+ - Fix toolbar event racing (Magento_Catalog/.../toolbar.js, navigation/toolbar.js)
+ - Fix phpunit tests
+ - Fix hasAttributeModel not exist warning
+ - Fix Magento\Framework\App\Request not found
+ - Fix access to an undefined property
+ - Fix setUp(): void errors
+ - Add push_state_with_infinite_scroll config option (close #64)
+
 ### Version 1.3.40
 
 > July 19 2021
