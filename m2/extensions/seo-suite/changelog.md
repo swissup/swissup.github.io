@@ -8,6 +8,39 @@ category: SEO Suite
 
 # Changelog
 
+### Version 1.12.2
+
+> Nov 30, 2021
+
+*swissup/module-hreflang — 1.4.10 (was 1.4.6)*
+
+  - Integration for FishPig_WordPress with FishPig_WordPress_Multisite.
+  - Don't add hreflang item for product when it is disabled at respective store view.
+  - Compatibility with Magento Commerce (Enterprise).
+
+*swissup/module-rich-snippets — 1.4.15 (was 1.4.13)*
+
+  - Config options to disable reviews and stock data from product structured data block.
+  - Add '@id' for product data snippet. It is usefull for integration with third-party modules. Id is equal to product URL.
+  - Fixed invalid object type for field "brand".
+
+*swissup/module-seo-core — 1.3.5 (was 1.3.4)*
+
+  - Improve Model\Url stability. Work around logic when parse_url can't handle input.
+
+*swissup/module-seo-cross-links — 1.1.2 (was 1.1.1)*
+
+  - Fixed performance issue replacing plugin around to after.
+
+*swissup/module-seo-html-sitemap — 1.1.11 (was 1.1.10)*
+
+  - Added config to hide the highlight pages from sitemap.
+  - Use separate group for merged css. This makes global bundle persistent across all site.
+  - Fixed storeId 'null' to display cms pages on sitemap.
+
+*swissup/module-seo-urls — 1.5.28 (was 1.5.27)*
+
+  - Fix 404 page when applied filter contains string same as category name.
 
 ### Version 1.12.1
 
