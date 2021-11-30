@@ -8,6 +8,13 @@ category: Easy Slider
 
 # Changelog
 
+### Version 1.6.21
+
+> Nov 30, 2021
+
+ -  Fixes 'Unescaped output detected'
+ -  Supress phpcs MultipleClasses (#34)
+
 ### Version 1.6.20
 
 > Nov 29, 2021
