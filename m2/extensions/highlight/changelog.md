@@ -8,12 +8,36 @@ category: Highlight
 
 # Changelog
 
+### Version 1.7.20
+
+> Nov 29, 2021
+
+ - Rename data-content-type(lowercase)
+
+### Version 1.7.19
+
+> Oct 12, 2021
+
+ - Fix order by popularity in graphQl
+
+### Version 1.7.18
+
+> Oct 8, 2021
+
+ - Hide per-page limiter inside widget
+
+### Version 1.7.17
+
+> Sep 24, 2021
+
+ - Fix compatibility with SEO Pagination module. Check layout before creating toolbar block.
+
 ### Version 1.7.16
 
-> Sep 14, 2021
+> Sep 24, 2021
 
- -  Updated breeze integration.
- -  Fixed php error when using module Venia theme.
+ - Update breeze integration
+ - Fix 'Call to a member function setIsBottom() on bool' (graphql+2.4.3+emulated frontend)
 
 ### Version 1.7.15
 
