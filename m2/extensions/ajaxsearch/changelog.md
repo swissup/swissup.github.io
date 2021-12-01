@@ -10,7 +10,7 @@ category: AjaxSearch
 
 > Dec 1, 2021
 
- -  Breeze integration optimizations
+ -  Prevent break graphql query with js minification
  -  Do not use deprecated e.keyCode property
 
 ### Version 1.11.13
