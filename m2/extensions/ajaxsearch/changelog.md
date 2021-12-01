@@ -6,6 +6,13 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.11.14
+
+> Dec 1, 2021
+
+ -  Breeze integration optimizations
+ -  Do not use deprecated e.keyCode property
+
 ### Version 1.11.13
 
 > Sep 14, 2021
