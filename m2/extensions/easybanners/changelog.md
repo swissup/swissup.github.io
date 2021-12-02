@@ -8,6 +8,13 @@ category: Easy Banners
 
 # Changelog
 
+### Version 1.7.7
+
+> Dec 2, 2021
+
+ - Fix ProviderInterface not exist
+
+
 ### Version 1.7.6
 
 > Nov 29, 2021

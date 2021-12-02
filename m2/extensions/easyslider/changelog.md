@@ -8,6 +8,12 @@ category: Easy Slider
 
 # Changelog
 
+### Version 1.6.23
+
+> Dec 2, 2021
+
+ - Fix function_exists('includeFile') #34
+
 ### Version 1.6.22
 
 > Dec 1, 2021
