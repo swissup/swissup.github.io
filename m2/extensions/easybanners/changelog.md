@@ -8,6 +8,12 @@ category: Easy Banners
 
 # Changelog
 
+### Version 1.7.8
+
+> Dec 2, 2021
+
+ - Fix '...\AdditionalData\function_exists does not exist' for magento 2.3
+
 ### Version 1.7.7
 
 > Dec 2, 2021

@@ -8,6 +8,12 @@ category: Easy Slider
 
 # Changelog
 
+### Version 1.6.24
+
+> Dec 3, 2021
+
+ - Fix '...\AdditionalData\function_exists does not exist' for magento 2.3 (#34)
+
 ### Version 1.6.23
 
 > Dec 2, 2021
