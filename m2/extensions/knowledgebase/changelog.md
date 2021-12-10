@@ -6,6 +6,12 @@ keywords: KnowledgeBase changelog
 category: KnowledgeBase
 ---
 
+### Version 1.0.15
+
+> Dec 10, 2021
+
+ - Add articles list for category item
+
 ### Version 1.0.14
 
 > Dec 1, 2021
