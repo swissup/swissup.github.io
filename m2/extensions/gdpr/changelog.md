@@ -8,6 +8,12 @@ category: GDPR
 
 # Changelog
 
+### Version 1.4.10
+
+> Dec 13, 2021
+
+ -  Breeze theme integration added.
+
 ### Version 1.4.9
 
 > Sep 24, 2021

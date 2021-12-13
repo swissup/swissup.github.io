@@ -8,6 +8,19 @@ category: Breeze
 
 # Changelog
 
+### Version 1.8.0
+
+> Dec 13, 2021
+
+ -  Remove lazyload attribute from main image in gallery since it's rendered above the fold.
+ -  Focus trap added to the modal popups.
+ -  Improved image loader when click on the swatch attribute.
+ -  Added responsive image support. Used in [Breeze Blank theme](/m2/themes/breeze-blank/).
+ -  Keyboard navigation improvements.
+ -  Prevent button resize when press add to cart.
+ -  Underscore library updated to the latest version.
+ -  Small fixes in various js components.
+
 ### Version 1.7.4
 
 > Oct 21, 2021
