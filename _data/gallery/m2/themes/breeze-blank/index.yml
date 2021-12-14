@@ -1,0 +1,40 @@
+- href: /images/m2/themes/breeze-blank/homepage.png
+  src: /images/m2/themes/breeze-blank/small/homepage.png
+  title: Breeze Blank Theme Homepage
+  w: 2000
+  h: 2419
+- href: /images/m2/themes/breeze-blank/category.png
+  src: /images/m2/themes/breeze-blank/small/category.png
+  title: Breeze Blank Theme Category Page
+  w: 2000
+  h: 1922
+- href: /images/m2/themes/breeze-blank/category-1column.png
+  src: /images/m2/themes/breeze-blank/small/category-1column.png
+  title: Breeze Blank Theme Category 1-Column Layout Page
+  w: 2000
+  h: 1696
+# - href: /images/m2/themes/breeze-blank/product.png
+#   src: /images/m2/themes/breeze-blank/small/product.png
+#   title: Breeze Blank Theme Product Page
+#   w: 2000
+#   h: 2039
+- href: /images/m2/themes/breeze-blank/checkout.png
+  src: /images/m2/themes/breeze-blank/small/checkout.png
+  title: Breeze Blank Theme Checkout Page
+  w: 2527
+  h: 2234
+- href: /images/m2/themes/breeze-blank/category-mobile.png
+  src: /images/m2/themes/breeze-blank/small/category-mobile.png
+  title: Breeze Blank Theme on Mobile Device
+  w: 960
+  h: 1900
+- href: /images/m2/themes/breeze-blank/dark-mobile.png
+  src: /images/m2/themes/breeze-blank/small/dark-mobile.png
+  title: Breeze Blank Theme with Dark Mode on Mobile Device
+  w: 960
+  h: 1708
+# - href: /images/m2/themes/breeze-blank/lighthouse.png
+#   src: /images/m2/themes/breeze-blank/small/lighthouse.png
+#   title: Breeze Blank Theme Lighthouse Score
+#   w: 1614
+#   h: 1688
