@@ -12,11 +12,11 @@ bin/magento marketplace:channel:enable swissuplabs
 ```
 
 You'll be asked to activate your domain and enter your key. Get identity key(s)
-and activate the domain on the site where you’ve purchased the product:
-
- -  [argentotheme.com](https://argentotheme.com/license/customer/activation/)
- -  [firecheckout.net](https://firecheckout.net/license/customer/activation/)
- -  [swissuplabs.com](https://swissuplabs.com/license/customer/activation/)
+and activate the domain on the site where you’ve downloaded the product:
+{% if include.argentotheme != 'false' %}
+ -  [argentotheme.com](https://argentotheme.com/license/customer/activation/){% endif %}{% if include.firecheckout != 'false' %}
+ -  [firecheckout.net](https://firecheckout.net/license/customer/activation/){% endif %}{% if include.swissuplabs != 'false' %}
+ -  [swissuplabs.com](https://swissuplabs.com/license/customer/activation/){% endif %}
 
 ## Install
 

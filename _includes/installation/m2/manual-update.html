@@ -18,10 +18,10 @@ composer config repositories.swissupartifacts artifact $(pwd)/vendor/swissup/art
 
 ## Download and unpack archive
 
- 1. Open your account page at the site where you purchased the module and download it:
-    -  [argentotheme.com](https://argentotheme.com/downloadable/customer/products/)
-    -  [firecheckout.net](https://firecheckout.net/subscription/customer/products/)
-    -  [swissuplabs.com](https://swissuplabs.com/subscription/customer/products/)
+ 1. Open your account page at the site where you purchased the module and download it:{% if include.argentotheme != 'false' %}
+    -  [argentotheme.com](https://argentotheme.com/license/customer/activation/){% endif %}{% if include.firecheckout != 'false' %}
+    -  [firecheckout.net](https://firecheckout.net/license/customer/activation/){% endif %}{% if include.swissuplabs != 'false' %}
+    -  [swissuplabs.com](https://swissuplabs.com/license/customer/activation/){% endif %}
 
  2. Upload this archive to the `<magento_root>` directory, and then unpack it
     to the `<magento_root>/vendor/swissup/artifacts` folder:
