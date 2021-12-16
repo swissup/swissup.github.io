@@ -2,7 +2,7 @@
 layout: default
 title: Easy Tabs Use Cases
 description: magento 2 product tabs use cases
-keywords: " magento 2 product tabs, magento 2 product tabs extension free, add tabs, review out of tabs, review block 
+keywords: " magento 2 product tabs, magento 2 product tabs extension free, add tabs, review out of tabs, review block
 magento 2 product page "
 category: Easy Tabs
 ---
@@ -46,6 +46,16 @@ Examples:
 ### Askit example
 
 ![Askit example](/images/m2/easytabs/usecase-askit.gif)
+
+Field                | Value
+---------------------|------------------------------
+Title                | Questions
+Alias                | questions
+Block Type           | Custom Block
+Sort Order           | 18
+Tab Options Block    | Swissup\Askit\Block\Question\Widget
+Tab Options Template | template.phtml
+Tab Options Unset    | askit_listing,askit_form
 
 ### Product reviews move from tabs
 
@@ -120,14 +130,14 @@ require([
 
 ### Add tab for custom content
 
-If you need to add some tab that should be visible on defined products (i.e. __Measuring table__) - you can use the **_Block type_: Product attribute** option. 
+If you need to add some tab that should be visible on defined products (i.e. __Measuring table__) - you can use the **_Block type_: Product attribute** option.
 
 1. Create the Product attribute of **TEXTAREA** type with name **measuring_table**. Set **Allow HTML Tags on Storefront = Yes** and **Visible on Catalog Pages on Storefront = Yes**
 2. Apply that attribute to attribute set that your products will be assigned (i.e. **Tshirts** ).
 3. Run `bin/magento index:reindex` command to apply that chagnes to existing products.
-4. Go to your product settings page in admin and check the text field where 
+4. Go to your product settings page in admin and check the text field where
 you can add the content (i.e. measuring tabe, custom descriptions or other additional info).
-5. Go to `Admin > Swissup > EasyTabs > Add tab` - and create the Tab: **Measuring table** with the **_Block type_: Product attribute**. Choose your Attribute Code: **measuring_table**. 
+5. Go to `Admin > Swissup > EasyTabs > Add tab` - and create the Tab: **Measuring table** with the **_Block type_: Product attribute**. Choose your Attribute Code: **measuring_table**.
 6. Save and clear the cache.
 
 **P.S.:** Your custom tabs will be visible only on products that you filled **Measuring table** admin field. Other products will have it invisible.
