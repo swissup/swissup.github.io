@@ -6,6 +6,23 @@ keywords: KnowledgeBase changelog
 category: KnowledgeBase
 ---
 
+### Version 1.1.1
+
+> Dec 23, 2021
+
+ - Display categories according to relevant search FAQ;
+ - Display empty message only on empty FAQ result.
+
+### Version 1.1.0
+
+> Dec 21, 2021
+
+ - Redesigned custom design;
+ - Set categoies pagination;
+ - Do not show empty categories;
+ - Aligned toolbar into row;
+ - Fixed not working action back to root (with Breeze enabled).
+
 ### Version 1.0.15
 
 > Dec 10, 2021
