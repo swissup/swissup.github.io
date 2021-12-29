@@ -7,6 +7,13 @@ category: Attributepages
 
 # Changelog
 
+### Version 1.4.4
+
+> Dec 29, 2021
+
+ -  Fixed ability to create option page with the same identifier as parent page use.
+ -  Fixed incorrect URLs in sitemap.
+
 ### Version 1.4.3
 
 > Sep 28, 2021
