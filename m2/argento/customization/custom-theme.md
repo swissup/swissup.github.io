@@ -36,11 +36,11 @@ custom theme allows you to change much more things:
  1. Open terminal and navigate to magento home folder.
  2. Run the following command:
 
-    > Please replace `[essence|flat|pure2|mall|stripes|luxury|force|home]`
+    > Please replace `[essence|flat|pure2|mall|stripes|luxury|force|home|marketplace]`
     > with theme name, you'd like to use.
 
     ```bash
-    bin/magento swissup:theme:create Local/my-theme [essence|flat|pure2|mall|stripes|luxury|force|home]
+    bin/magento swissup:theme:create Local/my-theme [essence|flat|pure2|mall|stripes|luxury|force|home|marketplace]
     ```
 
  3. Log in to Magento backend and navigate to Content > Themes. You should see
@@ -50,7 +50,7 @@ custom theme allows you to change much more things:
 #### Manual
 {:.collapsible.collapsed}
 
-Please replace `[essence|flat|pure2|mall|stripes|luxury|force|home]` entries with
+Please replace `[essence|flat|pure2|mall|stripes|luxury|force|home|marketplace]` entries with
 theme name, you'd like to use
 
  1. Create folder for your new theme:
@@ -70,7 +70,7 @@ theme name, you'd like to use
             "type": "magento2-theme",
             "version": "1.0.0",
             "require": {
-                "swissup/theme-frontend-argento-[essence|flat|pure2|mall|stripes|luxury|force|home]": "*"
+                "swissup/theme-frontend-argento-[essence|flat|pure2|mall|stripes|luxury|force|home|marketplace]": "*"
             },
             "autoload": {
                 "files": [ "registration.php" ]
