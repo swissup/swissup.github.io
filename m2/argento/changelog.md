@@ -7,6 +7,73 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.27.0
+
+> Dec 30, 2021
+
+ -  Updated tabs initial styles
+ -  Prevent content shift when toggling search on mobile: use absolute positioning for search input
+ -  _Argento Marketplace:_
+      -  Added critical styles
+      -  Installer - larger prolabels on product page
+      -  Display products in two rows in highlight block when it is set to 6 columns
+      -  Improved style for the old price
+      -  Sold Together block style improved
+ -  _Argento Essence:_
+      -  Fixed related products in Easy Tabs
+      -  Improved bullets styles in homepage slider
+ -  _Argento Home:_ added sizes for images in installer
+ -  _Argento Luxury:_ added styles for the main tabs located outside of the `product.main.info` section
+
+**Extensions Updates**
+
+  - [Ajax Pro](/m2/extensions/ajaxpro/) — 1.5.33 (was 1.5.31)
+      + Fixed sectionConfig is not defined error on Breeze
+      + Prevent showing empty popup messages
+  - [Ajax Search](/m2/extensions/ajaxsearch/) — 1.11.14 (was 1.11.13)
+      + Fixed broken graphql query when js minification enabled
+  - [Attribute Pages](/m2/extensions/attributepages/) — 1.4.4 (was 1.4.3)
+      + Fixed incorrect URLs in sitemap
+      + Added ability to create option page with the same identifier as parent page
+  - [Breeze](/m2/extensions/breeze/) — 1.8.1 (was 1.7.4)
+      + Fixed js error caused by old Page Builder module
+      + Fixed broken video when non-standard youtube url is used
+      + Use memo to reduce repeated method calls
+      + Remove lazyload attribute from main image in gallery
+      + Focus trap added to the modal popups
+      + Improved image loader when click on the swatch attribute
+      + Added responsive image support
+      + Keyboard navigation improvements
+      + Prevent button resize when pressing add to cart
+      + Underscore library updated to the latest version
+      + Small fixes in various js components
+  - [EasySlide](/m2/extensions/easyslider/) — 1.6.24 (was 1.6.19)
+      + Code refactoring
+  - [Easybanners](/m2/extensions/easybanners/) — 1.7.8 (was 1.7.5)
+      + Added Page Builder integration for Easy Banner widgets
+  - [Easy Catalog Images](/m2/extensions/easycatalogimages/) — 1.4.17 (was 1.4.15)
+      + Added Page Builder integration for the widget
+      + Enabled image assignment on store level
+  - [GDPR](/m2/extensions/gdpr/) — 1.4.10 (was 1.4.9)
+      + Added Breeze theme integration
+      + Fixed hide animation on detailed cookie bar
+  - [Highlight](/m2/extensions/highlight/) — 1.7.21 (was 1.7.19)
+      + Carousel - add hover class to swiper container via JS (fixed block hover issue)
+      + Always disable swiper on screens less then 640px wide (previously it was only when block had class `hl-magazine`)
+  - [Navigation Pro](/m2/extensions/navigationpro/) — 1.16.1 (was 1.16.0)
+      + Microeffect added to Initially expanded menu 2nd lvl
+      + Properly reset column height
+      + Fixed vertical columns mode on mobile devices
+  - [ProLabels](/m2/extensions/prolabels/) — 1.6.12 (was 1.6.11)
+      + Fixed missing out of stock label
+  - [SEO Suite](/m2/extensions/seo-suite/)
+      + Added missing ACL files and moved resources to correct group in all modules
+      + **swissup/module-hreflang** — 1.4.11 (was 1.4.9)
+          * Magezon_ShopByBrand integration
+          * Amasty_Storelocator integration
+  - [Sold Together](/m2/extensions/soldtogether/) — 1.7.16 (was 1.7.15)
+      + CSS improvements for the Stripe layout and few new LESS variables
+
 ### Version 1.26.0
 
 > Nov 19, 2021
