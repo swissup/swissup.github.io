@@ -8,7 +8,7 @@ exclude_from_search: true
 
 # Installation
 
-{% include installation/m2/composer.html package="swissup/theme-frontend-breeze-blank" installer="true" firecheckout="false" %}
+{% include installation/m2/composer.html package="swissup/breeze-blank" installer="true" firecheckout="false" %}
 
 ## That's all. Navigate to you store to check your new theme:
 

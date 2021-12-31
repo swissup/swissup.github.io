@@ -8,7 +8,7 @@ exclude_from_search: true
 
 # Installation from Marketplace
 
-{% include installation/m2/marketplace.html package="swissup/theme-frontend-breeze-blank" installer="true" %}
+{% include installation/m2/marketplace.html package="swissup/breeze-blank" installer="true" %}
 
 ## That's all. Navigate to you store to check your new theme:
 

@@ -8,7 +8,7 @@ exclude_from_search: true
 
 # Update Instructions
 
-{% include installation/m2/composer-update.html package="swissup/theme-frontend-breeze-blank" firecheckout="false" %}
+{% include installation/m2/composer-update.html package="swissup/breeze-blank" firecheckout="false" %}
 
 ##### Next up
 

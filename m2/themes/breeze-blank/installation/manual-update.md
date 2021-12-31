@@ -8,7 +8,7 @@ exclude_from_search: true
 
 # Manual Update
 
-{% include installation/m2/manual-update.html package="swissup/theme-frontend-breeze-blank" firecheckout="false" %}
+{% include installation/m2/manual-update.html package="swissup/breeze-blank" firecheckout="false" %}
 
 ##### Next up
 
