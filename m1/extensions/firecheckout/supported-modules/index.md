@@ -23,7 +23,7 @@ keywords: >
     Wyomind_Pickupatstore, Amasty_Methods, Magento EE coupons,
     Magento EE GiftCards and GiftWrap, Aitoc_Aitgiftwrap, Unirgy_GiftCert,
     Webtex_Giftcards, MageWorx_CustomerCredit, Wf_CustomerBalance (Magecredit),
-    AW_Rewards, Magebuzz_Rewardpoint, Emja_Taxrelief, Webgriffe_TaxIdPro,
+    AW_Rewards, Magebuzz_Rewardpoint, Emja_Taxrelief, Webkul_Stripe, Webgriffe_TaxIdPro,
     GCMC_GiveChange, Symmetrics_Buyerprotect, CraftyClicks, Juicy_Geoip,
     Rack_Getpostcode, AW_Advancednewsletter, AW_Newsletter,
     RedPandaPlus_OrderAttachments, Inchoo_SocialConnect, TM_SocialSuite,
@@ -142,6 +142,7 @@ additional modifications.
 - [Unirgy_DropshipSplit](unirgy-dropshipsplit/)
 - [Vconnect_AllInOne](vconnect-allinone/)
 - [Webgriffe_Tntpro](webgriffe-tntpro/)
+- [Webkul_Stripe](webkul-stripe)
 - [Webkul_Warehousemanagement](webkul-warehousemanagement/)
 - Webshopapps_Desttype
 - Webshopapps_Premiumrate
