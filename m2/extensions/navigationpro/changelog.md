@@ -8,6 +8,12 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.16.2
+
+> Jan 5, 2022
+
+ -  Fixed submenu height on Breeze theme when using amazon menu type.
+
 ### Version 1.16.1
 
 > Nov 29, 2021
