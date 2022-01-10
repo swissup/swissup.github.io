@@ -8,6 +8,13 @@ category: Pagebuilder
 
 # Changelog
 
+### Version 1.1.1
+
+> Jan 20, 2022
+
+ -  Remove notice about disallowed attributes when saving page/block.
+ -  Small js error fixes.
+
 ### Version 1.1.0
 
 > Jan 22, 2021
