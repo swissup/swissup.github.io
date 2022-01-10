@@ -8,6 +8,12 @@ category: SocialLogin
 
 # Changelog
 
+### Version 1.1.4
+
+> Jan 10, 2022
+
+Moved module configuration to Swissup submenu
+
 ### Version 1.1.3
 
 > Oct 12, 2020
