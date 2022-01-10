@@ -8,6 +8,21 @@ category: Breeze
 
 # Changelog
 
+### Version 1.8.3
+
+> Jan 10, 2022
+
+ -  Fixed missing background in fullscreen product gallery.
+ -  Fixed js error when spinner is used without initialized blockLoader widget.
+ -  Small js improvements.
+
+### Version 1.8.2
+
+> Jan 5, 2022
+
+ -  Fixed configurable price update on product page, when options moved to
+    the media block (ArgentoStripes).
+
 ### Version 1.8.0
 
 > Dec 13, 2021
