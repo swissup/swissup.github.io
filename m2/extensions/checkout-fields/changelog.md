@@ -8,6 +8,12 @@ category: Checkout Fields
 
 # Changelog
 
+### Version 1.5.9
+
+> Jan 12, 2022
+
+ -  Romanian language added
+
 ### Version 1.5.7
 
 > Jul 8, 2021

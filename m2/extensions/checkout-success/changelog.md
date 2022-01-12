@@ -8,6 +8,13 @@ category: Checkout Success
 
 # Changelog
 
+### Version 1.4.12
+
+> Jan 12, 2022
+
+ -  Fixed wrong product image when customer purchased configurable product.
+ -  Stability improvements.
+
 ### Version 1.4.10
 
 > Aug 12, 2021

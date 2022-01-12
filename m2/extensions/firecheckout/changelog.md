@@ -8,6 +8,20 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.28.8
+
+> Jan 12, 2022
+
+ -  Fixed wrong Google Analytics docs link in configuration.
+ -  [Delivery Date](/m2/extensions/delivery-date/): Fixed possbile wrong date
+    in backend interface when German locale is used.
+ -  [Order Attachments](/m2/extensions/order-attachments/): Fixed "undefined index"
+    notice.
+ -  [Success Page](/m2/extensions/success-page/): Fixed wrong product image when
+    customer purchased configurable product.
+ -  [Checkout Fields](/m2/extensions/checkout-success/): Romanian translations
+    added.
+
 ### Version 1.28.7
 
 > Nov 2, 2021

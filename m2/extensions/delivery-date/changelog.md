@@ -7,6 +7,12 @@ category: Delivery Date
 
 # Changelog
 
+### Version 1.6.3
+
+> Jan 12, 2022
+
+ -  Fixed possbile wrong date in backend interface when German locale is used.
+
 ### Version 1.6.0
 
 > Jan 25, 2021
