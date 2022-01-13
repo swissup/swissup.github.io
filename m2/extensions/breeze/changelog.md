@@ -8,6 +8,14 @@ category: Breeze
 
 # Changelog
 
+### Version 1.8.4
+
+> Jan 13, 2022
+
+ -  Allow to create nested view components.
+ -  Fixed js error when recaptcha is enabled in product review form.
+ -  Fixed "getTemplate" error when third-party component is not available in Breeze.
+
 ### Version 1.8.3
 
 > Jan 10, 2022
