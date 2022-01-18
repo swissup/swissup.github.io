@@ -8,6 +8,15 @@ category: Email
 
 # Changelog
 
+### Version 0.4.0
+
+> Jan 18, 2022
+
+**Fixes**
+ - Fix require command for optional dependency
+ - Fix 'Notice: Undefined property: Magento\Framework\Mail\MimePart::'
+ - Fix copy/paste (add fixBodyParts)
+
 ### Version 0.3.21
 
 > Aug 30, 2021
