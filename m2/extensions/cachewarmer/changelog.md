@@ -8,6 +8,16 @@ category: Cachewarmer
 
 # Changelog
 
+### Version 1.0.13
+
+> 18 Jan, 2021
+
+**Fixes**
+ - Move page/ajaxtest toolbar action to graphql api
+ - Add basic auth
+ - Improve cache checking logic
+ - Fix isVarnishEnabled logic error (typo?)
+
 ### Version 1.0.12
 
 > 29 Nov, 2021
