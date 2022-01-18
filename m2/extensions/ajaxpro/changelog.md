@@ -6,6 +6,37 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.5.34
+
+> Jan 18, 2022
+
+ - Don't show popup afetr checkout/cart/delete
+
+### Version 1.5.33
+
+> Dec 30, 2021
+
+ - Prevent show empty popup messages
+
+### Version 1.5.32
+
+> Nov 30, 2021
+
+ - Fixed sectionConfig is not defined error on Breeze, closes #33
+
+### Version 1.5.31
+
+> Nov 19, 2021
+
+ -  Prevent popup after storeview changing
+
+### Version 1.5.30
+
+> Oct 22, 2021
+
+ -  Fix price calculating 2xfinalPrice (refix old mage bug #12)
+ -  Breeze: update integration
+
 ### Version 1.5.29
 
 > Sep 14, 2021

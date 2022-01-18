@@ -10,7 +10,7 @@ category: Cachewarmer
 
 ### Version 1.0.13
 
-> 18 Jan, 2021
+> 18 Jan, 2022
 
 **Fixes**
  - Move page/ajaxtest toolbar action to graphql api
