@@ -10,7 +10,7 @@ category: AjaxPro
 
 > Jan 18, 2022
 
- - Don't show popup afetr checkout/cart/delete
+ - Don't show popup after checkout/cart/delete
 
 ### Version 1.5.33
 
