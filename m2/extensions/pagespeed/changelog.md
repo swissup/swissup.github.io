@@ -8,6 +8,40 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.5.0
+
+> Jan 18, 2022
+
+ - Don't defer css loader script (fix pagespeedCss is not defined)
+ - Improve image service generators
+ - Improve option(s) logic in swissup:pagespeed:images:resize command
+ - Supress symfony process runtime exception (in image optimize)
+
+### Version 1.4.27
+
+> Aug 31, 2021
+
+ - Fix analyze button store base url
+ - Fix: prevent deferring scripts if body tag doesn't exist
+
+### Version 1.4.26
+
+> Aug 17, 2021
+
+ - Fix class Optimizers\Cwebp not found
+ - Add optimization for View\Result\Layout
+ - Fix lose 'quality' param
+ - Fix logic 'isset() will return false when checking a variable that has been assigned to null'
+
+
+### Version 1.4.25
+
+> Jul 28, 2021
+
+ - Add config option for image optimizer timeout
+ - Prevent 'Unable to unserialize value.'
+ - Fix potential php warnings/errors (phpstan)
+
 ### Version 1.4.24
 
 > July 1, 2021
