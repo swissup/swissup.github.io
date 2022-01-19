@@ -6,6 +6,13 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.11.15
+
+> Jan 19, 2022
+
+ -  Breeze theme integration
+ -  Add prevent sending empty query string (close #51)
+
 ### Version 1.11.14
 
 > Dec 1, 2021
