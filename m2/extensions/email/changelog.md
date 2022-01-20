@@ -8,6 +8,18 @@ category: Email
 
 # Changelog
 
+### Version 0.5.0
+
+> Jan 20, 2022
+
+**Fixes**
+ - Move InstallSchema to etc/db_schema.xml file (new MEQP rule)
+ - Remove multiple email convertor calls
+ - Partial replace Zend => Laminas
+ - Add laminas requires to composer.json
+ - Fix: Direct throw of generic Exception is discouraged
+ - Fix phpcs warnings
+
 ### Version 0.4.0
 
 > Jan 18, 2022
