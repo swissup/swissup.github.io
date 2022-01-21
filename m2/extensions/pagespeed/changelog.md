@@ -8,6 +8,12 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.5.2
+
+> Jan 21, 2022
+
+ - Fix: TypeError: strlen() expects parameter 1 to be string, null given
+
 ### Version 1.5.1
 
 > Jan 21, 2022
