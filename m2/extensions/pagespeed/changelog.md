@@ -8,6 +8,13 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.5.1
+
+> Jan 21, 2022
+
+ - Replace \Zend\Dom => \Laminas\Dom
+ - Fix: Avoid using self-closing tag with non-void html element
+
 ### Version 1.5.0
 
 > Jan 18, 2022
