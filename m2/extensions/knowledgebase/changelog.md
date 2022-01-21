@@ -6,6 +6,22 @@ keywords: KnowledgeBase changelog
 category: KnowledgeBase
 ---
 
+### Version 1.1.3
+
+> Jan 21, 2022
+
+ - Improve router logic, redirect dublicates urls, add m1 urls compatability (close #7)
+ - Fix:Avoid using self-closing tag with non-void html element (meqp)
+ - Show normal url(s) instead of #
+
+
+### Version 1.1.2
+
+> Jan 18, 2022
+
+ - Display search FAQs result separate from category list. Updated styles.
+
+
 ### Version 1.1.1
 
 > Dec 23, 2021
