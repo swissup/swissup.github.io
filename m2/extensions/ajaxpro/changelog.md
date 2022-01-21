@@ -6,6 +6,17 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.6.0
+
+> Jan 21, 2022
+
+ - Fix: Avoid using self-closing tag with non-void html element <each />
+ - Breeze Theme css fixes
+ - Floatingcart: fixed name overlapping with price
+ - Optimize floating cart styles.
+ - Do not show quick view button on touch devices. It's done since this feature requires two clicks on touch devices and it's unexpected for the customer.
+ - Put floating cart behind modals
+
 ### Version 1.5.34
 
 > Jan 18, 2022
