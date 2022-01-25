@@ -6,6 +6,16 @@ keywords: Helpdesk changelog
 category: Helpdesk
 ---
 
+### Version 1.2.20
+
+> Jan 25, 2022
+
+**Fixes**
+ - Fix: InstallData scripts are obsolete.
+ - Fix: InstallSchema scripts are obsolete.
+ - Fix: Avoid using self-closing tag with non-void html element
+ - Add custom frontname(module_name) for helpdesk page(s) (close #36)
+
 ### Version 1.2.17
 
 > Nov 3, 2021
