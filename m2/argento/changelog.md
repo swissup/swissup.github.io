@@ -7,6 +7,73 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.28.0
+
+> Jan 28, 2022
+
+ -  Fixed divider element content position on RTL websites
+ -  Fixed notice "magento_import returns empty result by path css/FishPig_WordPress/argento/_extend.less"
+ -  Few tweaks for SoldTogether block styles
+ -  _Argento Home:_
+      -  Move SoldTogether styles to separate file
+      -  Use default SoldTogether icon
+
+**Extensions Updates**
+
+  - [Ajax Pro](/m2/extensions/ajaxpro/) — 1.6.1 (was 1.5.33)
+      + Fixed not-working quick view on CMS pages
+      + Don’t show popup after checkout cart delete action
+      + Put floating cart behind modals
+      + Do not show quick view button on touch devices
+      + Fixed name overlapping price in floating cart
+  - [Ajax Search](/m2/extensions/ajaxsearch/) — 1.11.16 (was 1.11.14)
+      + Prevent sending empty search request
+      + Reset disabled button when folded mode is used
+      + Added Breeze theme integration
+  - [Askit](/m2/extensions/askit/) — 1.11.1 (was 1.10.6)
+      + Proper spinner centering
+      + Breeze Theme integration added
+  - [Breeze](/m2/extensions/breeze/) — 1.9.0 (was 1.8.1)
+      + Fixed configurable price update on product page on Argento Stripes theme
+      + Fixed missing background in fullscreen product gallery
+      + Allow to create nested view components
+      + Fixed js error when reCaptcha is enabled in product review form
+      + Fixed “getTemplate” error when third-party component is not available
+      + Improved page reload logic when merged css is found on the page
+  - [EasySlide](/m2/extensions/easyslider/) — 1.6.25 (was 1.6.24)
+      + Added Breeze Theme integration
+  - [Easytabs](/m2/extensions/easytabs/) — 1.9.18 (was 1.9.17)
+      + Added Breeze Theme integration
+  - [GDPR](/m2/extensions/gdpr/) — 1.4.11 (was 1.4.10)
+      + Fixed incorrect acl config
+      + Fixed newsletter issue on Breeze theme
+  - [Hover Gallery](/m2/extensions/hover-gallery/) — 1.3.10 (was 1.3.9)
+      + Added Breeze Theme integration
+  - [Navigation Pro](/m2/extensions/navigationpro/) — 1.16.3 (was 1.16.1)
+      + Fixed dropdown height when using Amazon menu type
+      + Fixed layout shift caused by slideout menu
+      + Added Breeze Theme integration
+  - [Pagespeed](/m2/extensions/pagespeed/) — 1.5.2 (was 1.4.27)
+      + Don’t defer CSS loader script (fixed pagespeedCss is not defined error)
+      + Improved image service generators
+      + Replaced \Zend\Dom with \Laminas\Dom
+      + Fixed error strlen expects parameter 1 to be string
+  - [ProLabels](/m2/extensions/prolabels/) — 1.6.13 (was 1.6.12)
+      + Added Breeze Theme integration
+  - [Quantity Switcher](/m2/extensions/qty-switcher/) — 1.1.11 (was 1.1.10)
+      + Added Breeze Theme integration
+  - [SEO Suite](/m2/extensions/seo-suite/)
+      + **swissup/module-seo-urls** — 1.5.30 (was 1.5.29)
+          * Fixed unable to change attribute/option label when identical label exists for other store view
+  - [Sold Together](/m2/extensions/soldtogether/) — 1.7.17 (was 1.7.16)
+      + CSS fixes for better look at Argento Home and Marketplace themes
+      + Replaced blurry 'plus' image with svg icon
+      + Added Breeze Theme integration
+      + Fixed too small item width on mobile view
+  - [Testimonials](/m2/extensions/testimonials/) — 1.3.1 (was 1.2.18)
+      + Added Breeze integration
+      + Added graphql support
+
 ### Version 1.27.0
 
 > Dec 30, 2021
