@@ -6,6 +6,16 @@ category: Breeze Blank
 
 # Changelog
 
+### Version 1.10.0
+
+> Jan 28, 2022
+
+ -  Fixed grouped product view on mobile devices
+ -  Move navigation container below header to allow to use sticky menu.
+ -  Menu is now rendered in `store.menu` block. This provides better compatiblity
+    with third-party menu modules.
+ -  Better compatibility with third-party modules.
+
 ### Version 0.9.1
 
 > Jan 14, 2021

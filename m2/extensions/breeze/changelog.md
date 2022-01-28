@@ -8,6 +8,18 @@ category: Breeze
 
 # Changelog
 
+### Version 1.9.0
+
+> Jan 28, 2022
+
+ -  Support for jQuery-like api in ajax requests: `$.ajax`, `$.post`, `$.get`.
+ -  jQuery-like success callback. Now the callback recieves parsed data
+    as first parameter and response object as a second.
+ -  Added support for multiple expanded tabs.
+ -  Improve click handling inside modal popups.
+ -  Improve SPA experience.
+ -  Deprecated JS code removed.
+
 ### Version 1.8.4
 
 > Jan 13, 2022
