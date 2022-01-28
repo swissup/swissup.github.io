@@ -8,6 +8,12 @@ category: Easy Tabs
 
 # Changelog
 
+### Version 1.9.18
+
+> Jan 28, 2022
+
+ -  [Breeze Theme](https://breezefront.com) integration added
+
 ### Version 1.9.14
 
 > Sep 14, 2021

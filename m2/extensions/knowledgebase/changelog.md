@@ -6,6 +6,15 @@ keywords: KnowledgeBase changelog
 category: KnowledgeBase
 ---
 
+# Changelog
+
+### Version 1.1.4
+
+> Jan 28, 2022
+
+ -  [Breeze Theme](https://breezefront.com) integration added
+ -  Fixed PHP notice about undefined variable
+
 ### Version 1.1.3
 
 > Jan 21, 2022

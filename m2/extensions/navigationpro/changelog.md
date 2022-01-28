@@ -8,6 +8,14 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.16.3
+
+> Jan 28, 2022
+
+ -  Magento Coding Standard fixes
+ -  [Breeze Theme](https://breezefront.com) integration added
+ -  Fixed layout shift caused by slideout menu
+
 ### Version 1.16.2
 
 > Jan 5, 2022

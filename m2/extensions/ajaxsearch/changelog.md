@@ -6,6 +6,12 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.11.16
+
+> Jan 28, 2022
+
+ -  Magento Coding Standard fixes
+
 ### Version 1.11.15
 
 > Jan 19, 2022

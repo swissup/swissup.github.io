@@ -11,6 +11,13 @@ category: AskIt
 
 # Changelog
 
+### Version 1.11.1
+
+> Jan 28, 2022
+
+ -  Magento Coding Standard fixes
+ -  [Breeze Theme](https://breezefront.com) integration added
+
 ### Version 1.10.6
 
 > Sep 14, 2021

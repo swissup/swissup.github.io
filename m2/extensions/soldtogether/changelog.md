@@ -8,6 +8,13 @@ category: SoldTogether
 
 # Changelog
 
+### Version 1.7.17
+
+> Jan 28, 2022
+
+ -  [Breeze Theme](https://breezefront.com) integration added
+ -  Replaced blurry png "plus" image with svg icon
+
 ### Version 1.7.15
 
 > Sep 14, 2021

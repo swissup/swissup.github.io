@@ -8,6 +8,12 @@ category: SocialLogin
 
 # Changelog
 
+### Version 1.1.5
+
+> Jan 28, 2022
+
+ -  [Breeze Theme](https://breezefront.com) integration added
+
 ### Version 1.1.4
 
 > Jan 10, 2022

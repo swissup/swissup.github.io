@@ -8,6 +8,12 @@ category: reCAPTCHA
 
 # Changelog
 
+### Version 1.4.1
+
+> Jan 28, 2022
+
+ -  Fixed deprecation error in PHP 7.4
+
 ### Version 1.4.0
 
 > Oct 18, 2021

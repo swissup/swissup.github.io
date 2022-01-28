@@ -8,6 +8,13 @@ category: Testimonials
 
 # Changelog
 
+### Version 1.3.1
+
+> Jan 28, 2022
+
+ -  Magento Coding Standard fixes
+ -  [Breeze Theme](https://breezefront.com) integration added
+
 ### Version 1.2.18
 
 > Jun 18, 2021

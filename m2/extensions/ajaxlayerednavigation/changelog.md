@@ -7,6 +7,13 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.3.43
+
+> Jan 28, 2022
+
+ -  Magento Coding Standard fixes
+ -  [Breeze Theme](https://breezefront.com) integration added
+
 ### Version 1.3.41
 
 > Nov 29 2021

@@ -8,6 +8,13 @@ category: Easy Slider
 
 # Changelog
 
+### Version 1.6.25
+
+> Jan 28, 2022
+
+ -  Magento Coding Standard fixes
+ -  [Breeze Theme](https://breezefront.com) integration added
+
 ### Version 1.6.24
 
 > Dec 3, 2021

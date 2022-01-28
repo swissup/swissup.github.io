@@ -6,11 +6,17 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.6.1
+
+> Jan 28, 2022
+
+ -  Fixed not working quick view on cms pages
+
 ### Version 1.6.0
 
 > Jan 21, 2022
 
- - Fix: Avoid using self-closing tag with non-void html element <each />
+ - Fix: Avoid using self-closing tag with non-void html element `<each />`
  - Breeze Theme css fixes
  - Floatingcart: fixed name overlapping with price
  - Optimize floating cart styles.

@@ -8,6 +8,12 @@ category: Hover Gallery
 
 # Changelog
 
+### Version 1.3.10
+
+> Jan 28, 2022
+
+ -  [Breeze Theme](https://breezefront.com) integration added
+
 ### Version 1.3.7
 
 > Aug 5, 2020

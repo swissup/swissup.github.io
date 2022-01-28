@@ -8,6 +8,13 @@ category: GDPR
 
 # Changelog
 
+### Version 1.4.11
+
+> Jan 28, 2022
+
+ -  Magento Coding Standard fixes
+ -  [Breeze Theme](https://breezefront.com) integration added
+
 ### Version 1.4.10
 
 > Dec 13, 2021

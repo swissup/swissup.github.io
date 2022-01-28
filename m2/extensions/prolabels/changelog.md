@@ -8,6 +8,12 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.6.13
+
+> Jan 28, 2022
+
+ -  [Breeze Theme](https://breezefront.com) integration added
+
 ### Version 1.6.9
 
 > Sep 24, 2021
