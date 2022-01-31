@@ -8,6 +8,13 @@ category: Email
 
 # Changelog
 
+### Version 0.5.2
+
+> Jan 31, 2022
+
+**Fixes**
+ - Up min magento version to 2.3.5 for fix zend/laminas component conflicts
+
 ### Version 0.5.1
 
 > Jan 24, 2022
