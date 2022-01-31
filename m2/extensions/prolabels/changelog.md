@@ -8,6 +8,13 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.6.14
+
+> Jan 31, 2022
+
+ -  Use declarative schema (db_schema.xml) and schema whitelist. Instead of obsolete UpgradeSchema scripts.
+ -  Integration with furure Sold Together release. 
+
 ### Version 1.6.13
 
 > Jan 28, 2022
