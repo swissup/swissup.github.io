@@ -8,6 +8,13 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.6.15
+
+> Feb 1, 2022
+
+ -  Fixed broken db_schema: The attribute 'length' is not allowed.
+ -  Fixed visible out of stock label when product is available for purchase because backorders enabled.
+
 ### Version 1.6.14
 
 > Jan 31, 2022
