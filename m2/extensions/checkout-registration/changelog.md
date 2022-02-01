@@ -7,6 +7,12 @@ category: Checkout Registration
 
 # Changelog
 
+### Version 1.1.5
+
+> Feb 1, 2022
+
+ -  [Breeze Theme](https://breezefront.com) integration added
+
 ### Version 1.1.4
 
 > Jun 11, 2020

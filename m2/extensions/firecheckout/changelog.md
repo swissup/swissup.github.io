@@ -8,6 +8,12 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.28.9
+
+> Feb 1, 2022
+
+ -  [Breeze Theme](https://breezefront.com) integration added
+
 ### Version 1.28.8
 
 > Jan 12, 2022

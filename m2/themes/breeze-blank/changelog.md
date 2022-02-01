@@ -6,6 +6,12 @@ category: Breeze Blank
 
 # Changelog
 
+### Version 1.10.2
+
+> Feb 1, 2022
+
+ -  Few css tweaks for better swissup modules support.
+
 ### Version 1.10.0
 
 > Jan 28, 2022

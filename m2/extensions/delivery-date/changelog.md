@@ -7,6 +7,12 @@ category: Delivery Date
 
 # Changelog
 
+### Version 1.6.4
+
+> Feb 1, 2022
+
+ -  [Breeze Theme](https://breezefront.com) integration added
+
 ### Version 1.6.3
 
 > Jan 12, 2022

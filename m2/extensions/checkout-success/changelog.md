@@ -8,6 +8,12 @@ category: Checkout Success
 
 # Changelog
 
+### Version 1.4.13
+
+> Feb 1, 2022
+
+ -  [Breeze Theme](https://breezefront.com) integration added
+
 ### Version 1.4.12
 
 > Jan 12, 2022
