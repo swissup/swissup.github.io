@@ -8,6 +8,28 @@ category: Legacy Mysql Search
 
 # Changelog
 
+### Version 1.0.3
+
+> Feb 2, 2022
+
+ -  Fix: CategoryFilter in Layered Navigation not working
+
+### Version 1.0.2
+
+>  Sep 23, 2021
+
+ - Restore lagacy lmysql advanced search strategy
+
+### Version 1.0.1
+
+>  Feb 11, 2021
+
+ - add setup connection validating
+ - Fix attributepage no buckets error
+ - Fix 'error when using the price filter 90 and above'. Fix price range generation
+ - Fix mysql product collection setPageSize
+ - Fix price range buildings
+ - Fix price index table resolving
 
 ### Version 0.1.0
 
