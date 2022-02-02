@@ -131,6 +131,7 @@ composer require\
     swissup/module-theme-editor-argento-home\
     swissup/module-theme-editor-argento-pure2\
     swissup/module-theme-editor-argento-mall\
+    swissup/module-theme-editor-argento-marketplace\
     swissup/module-theme-editor-argento-luxury\
     swissup/module-theme-editor-argento-stripes\
     swissup/theme-frontend-absolute\
@@ -141,8 +142,10 @@ composer require\
     swissup/theme-frontend-argento-home\
     swissup/theme-frontend-argento-pure2\
     swissup/theme-frontend-argento-mall\
+    swissup/theme-frontend-argento-marketplace\
     swissup/theme-frontend-argento-luxury\
     swissup/theme-frontend-argento-stripes\
+    swissup/theme-frontend-breeze-blank\
     swissup/module-tippyjs\
     --prefer-source &&\
 bin/magento setup:upgrade
