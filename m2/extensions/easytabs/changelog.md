@@ -8,6 +8,14 @@ category: Easy Tabs
 
 # Changelog
 
+### Version 1.9.21
+
+> Feb 3, 2022
+
+ -  Use declarative schema. Add schema whitelist. Add data patch. Schema scripts are obsolete.
+ -  Magento Coding Standarts fix - avoid using self-closing tag.
+ -  Fix js error when activate tab on external link click (conflict with Aheadworks_StoreCredit). More details at [d3a5d94](https://github.com/swissup/module-easytabs/commit/d3a5d940494083d37f27b989957fa65b2c7969d5).
+
 ### Version 1.9.18
 
 > Jan 28, 2022
