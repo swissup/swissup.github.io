@@ -8,6 +8,15 @@ category: Checkout Fields
 
 # Changelog
 
+### Version 1.6.0
+
+> Feb 4, 2022
+
+ -  Added ability to filter orders grid by checkout field values.
+ -  Significant performance improvements in backend orders grid when orders table
+    is big (Depends on server capabilities, \~50K-200K orders).
+ -  Magento Coding Standard fixes.
+
 ### Version 1.5.9
 
 > Jan 12, 2022

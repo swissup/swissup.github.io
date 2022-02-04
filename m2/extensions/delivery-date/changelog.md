@@ -7,6 +7,14 @@ category: Delivery Date
 
 # Changelog
 
+### Version 1.7.0
+
+> Feb 4, 2022
+
+ -  Added ability to set different order processing day time
+    [per each day of the week](/m2/extensions/delivery-date/configuration/#first-available-delivery-date-rules)
+ -  Magento Coding Standard fixes.
+
 ### Version 1.6.4
 
 > Feb 1, 2022

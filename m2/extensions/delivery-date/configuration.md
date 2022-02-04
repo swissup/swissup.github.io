@@ -45,13 +45,14 @@ Time Options| Set available timeranges
 
 ### First available delivery date rules
 
-![First available delivery date configuration](/images/m2/delivery-date/configuration/first-date.png?v=1)
+![First available delivery date configuration](/images/m2/delivery-date/configuration/first-date.png?v=2)
 
 Option                                      | Description
 :-------------------------------------------|:-----------------------------------
-Delivery processing day ends at             | Orders placed afterwards will be considered as next day orders
 First available date                        | First available date calculation rule. Choose between "Order date" and "First Business Day since Order Date"
 Delivery will be available since first available day plus this value | Delivery date offset in days
+Delivery processing day ends at             | Orders placed afterwards will be considered as next day orders
+Delivery processing day ends at (Exceptions)| Exceptions for previous option
 
 ### Last available delivery date rules
 
