@@ -8,6 +8,12 @@ category: Checkout Fields
 
 # Changelog
 
+### Version 1.6.1
+
+> Feb 7, 2022
+
+ -  Fixed sql error during `setup:upgrade` command.
+
 ### Version 1.6.0
 
 > Feb 4, 2022
