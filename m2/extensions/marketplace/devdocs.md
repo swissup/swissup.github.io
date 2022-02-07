@@ -37,7 +37,7 @@ composer config -a -g http-basic.example.com "username" "password"</code></pre>
                 <td>
                     <pre class="nocopy"><code>bin/magento maintenance:enable
 composer require my/package
-bin/magento setup:upgrade
+bin/magento setup:upgrade --safe-mode=1
 rm -rf var/view_preprocessed pub/static/frontend/ pub/static/adminhtml/ generated/code/ generated/metadata
 bin/magento setup:static-content:deploy en_US nl_NL
 bin/magento setup:di:compile

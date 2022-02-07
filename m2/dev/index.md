@@ -148,7 +148,7 @@ composer require\
     swissup/theme-frontend-breeze-blank\
     swissup/module-tippyjs\
     --prefer-source &&\
-bin/magento setup:upgrade
+bin/magento setup:upgrade --safe-mode=1
 ```
 {:.scroll}
 
@@ -210,7 +210,7 @@ packages=$(composer info | grep swissup | cut -d ' ' -f 1 | tr '\n\012\015' ' ')
     ```bash
     composer require --dev yireo/magento2-whoops
     bin/magento module:enable Yireo_Whoops
-    bin/magento setup:upgrade
+    bin/magento setup:upgrade --safe-mode=1
     ```
 
 2. [Magento Chrome Toolbar for MSP DevTools](https://github.com/magespecialist/mage-chrome-toolbar)
@@ -224,7 +224,7 @@ packages=$(composer info | grep swissup | cut -d ' ' -f 1 | tr '\n\012\015' ' ')
     composer require --dev msp/devtools
     php bin/magento cache:flush
     php bin/magento cache:disable full_page
-    php bin/magento setup:upgrade
+    php bin/magento setup:upgrade --safe-mode=1
     ```
 
     - Open Magento backend and go to Stores > Settings > Configuration > MageSpecialist > DevTools.
@@ -246,7 +246,7 @@ packages=$(composer info | grep swissup | cut -d ' ' -f 1 | tr '\n\012\015' ' ')
     composer require --dev mgtcommerce/module-mgtdevelopertoolbar
     bin/magento module:enable Mgt_DeveloperToolbar
 
-    bin/magento setup:upgrade
+    bin/magento setup:upgrade --safe-mode=1
     bin/magento config:set mgt_developer_toolbar/module/is_enabled 1
     bin/magento cache:flush
 

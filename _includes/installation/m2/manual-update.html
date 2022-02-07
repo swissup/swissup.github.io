@@ -6,7 +6,7 @@ prior and after module installation, and provides easy to use module installer.
 
 ```bash
 composer require swissup/module-marketplace &&\
-bin/magento setup:upgrade
+bin/magento setup:upgrade --safe-mode=1
 ```
 
 Prepare directory for downloaded archives and register it in `composer.json`:

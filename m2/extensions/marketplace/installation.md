@@ -10,14 +10,14 @@ category: Marketplace
 
 ```bash
 composer require swissup/module-marketplace
-bin/magento setup:upgrade
+bin/magento setup:upgrade --safe-mode=1
 ```
 
 ## Update
 
 ```bash
 composer update swissup/module-marketplace
-bin/magento setup:upgrade
+bin/magento setup:upgrade --safe-mode=1
 ```
 
 ##### Next up
