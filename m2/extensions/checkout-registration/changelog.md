@@ -7,6 +7,12 @@ category: Checkout Registration
 
 # Changelog
 
+### Version 1.1.7
+
+> Feb 8, 2022
+
+ -  Fixed possible "Invalid state change" error at initial page load
+
 ### Version 1.1.5
 
 > Feb 1, 2022
