@@ -8,6 +8,13 @@ category: KnowledgeBase
 
 # Changelog
 
+### Version 1.1.5
+
+> Feb 8, 2022
+
+ -  Fix: there is no option to attach to category in single-store mode
+ -  Fixed rendering ko template when breeze enabled.
+
 ### Version 1.1.4
 
 > Jan 28, 2022
