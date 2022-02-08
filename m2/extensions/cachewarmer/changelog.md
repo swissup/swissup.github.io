@@ -8,6 +8,13 @@ category: Cachewarmer
 
 # Changelog
 
+### Version 1.0.15
+
+> 8 Feb, 2022
+
+**Fixes**
+ - Fix: setup_version and setup patch data applying bug
+
 ### Version 1.0.14
 
 > 24 Jan, 2022
