@@ -6,6 +6,15 @@ keywords: Helpdesk changelog
 category: Helpdesk
 ---
 
+### Version 1.2.21
+
+> Feb 8, 2022
+
+**Fixes**
+ - Fix: initial setup data patch does't work with setup_version
+ - Fix: in unArchivate action add prevention for error like 'same ID already exists'
+ - Fix: 'NOTICE: TRYING TO ACCESS ARRAY OFFSET ON VALUE OF TYPE BOOL IN ABSTRACTNOTIFICATION.PHP ON LINE 94'
+
 ### Version 1.2.20
 
 > Jan 25, 2022
