@@ -7,6 +7,12 @@ category: Delivery Date
 
 # Changelog
 
+### Version 1.7.1
+
+> Feb 9, 2022
+
+ -  Fixed error during `setup:di:compile` on Magento 2.3
+
 ### Version 1.7.0
 
 > Feb 4, 2022
