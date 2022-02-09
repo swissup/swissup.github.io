@@ -8,6 +8,14 @@ category: Easy Banners
 
 # Changelog
 
+### Version 1.7.9
+
+> Feb 9, 2022
+
+ -  Fixed not working banner mass actions in Magento 2.3
+ -  Disable statistics for new banners by default.
+ -  Magento Coding Standard fixes.
+
 ### Version 1.7.8
 
 > Dec 2, 2021
