@@ -6,6 +6,14 @@ keywords: Helpdesk changelog
 category: Helpdesk
 ---
 
+### Version 1.2.22
+
+> Feb 10, 2022
+
+**Fixes**
+ - Fix: Item with the same ID "" already exists.
+ - Fix: Fix: array_merge(): Expected parameter 2 to be an array, null given
+
 ### Version 1.2.21
 
 > Feb 8, 2022
