@@ -6,6 +6,13 @@ keywords: Helpdesk changelog
 category: Helpdesk
 ---
 
+### Version 1.2.23
+
+> Feb 10, 2022
+
+**Fixes**
+ - Fix: array_combine(): Both parameters should have an equal number of elements
+
 ### Version 1.2.22
 
 > Feb 10, 2022
