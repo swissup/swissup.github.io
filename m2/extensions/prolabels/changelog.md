@@ -8,6 +8,14 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.6.16
+
+> Feb 15, 2022
+
+  - Improve module stability. Prevent fatal error about suppling null when ProductInterface expected. Error occurs when grouped product has no assigned products.
+  - Improvements for out of stock label. Out of stock label shows up when all children of main product have disabled backorder, are out of stock or has qty lower/equal zero.
+  - Model\Stock::getIsInStock method deprecated. Use `isInStock` instead.
+
 ### Version 1.6.15
 
 > Feb 1, 2022
