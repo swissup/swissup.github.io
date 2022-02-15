@@ -85,10 +85,7 @@ Streamline add-to-cart function and remove interruptions from the shopping proce
 
 ##### Main
 
-
-
  * Enable - Allows to enable/disable extension per store view. Default: Yes
-
 
 ### General Design
 
