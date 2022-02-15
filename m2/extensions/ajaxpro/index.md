@@ -81,7 +81,7 @@ Streamline add-to-cart function and remove interruptions from the shopping proce
 
 ![Ajaxpro configuration](/images/m2/ajaxpro/configuration.png)
 
-`Store > Configuration` > `Swissup > Ajaxpro`
+`Store` > `Configuration` > `Swissup` > `Ajaxpro`
 
 ##### Main
 
@@ -96,16 +96,18 @@ Streamline add-to-cart function and remove interruptions from the shopping proce
 
  *  Show results - Show results popup after product was added to cart. Default: Yes
 
- *  Results dialog window type - визначає вигляд вікна з результатами додавання в корзину
+ *  Results dialog window type - allows changing the appearance of the window with after adding products to the cart.
 
     Type                | Description
     --------------------|------------
-    Simple              | просте текстове повідомлення
-    SuggestPage Content | текстове повідомлення з виглядом доданого продукту плюс пропозиції
-    Shopping Cart       | вигляд як на окремій сторінці корзини але без переходу на неї
-    Minicart            | вигляд як у розгорнутої міні корзини (у правому верхньому кутку)
+    Simple              | Simple text message
+    SuggestPage Content | A text message with product info and product suggestions
+    Shopping Cart       | Looks like the content on the shopping cart page but without going to it
+    Minicart            | Looks like expanded minicart (cart in the right top corner)
 
-    > По замовчуванню SuggestPage Content. Але залежить від вашої темию приклади нижче.
+    > По замовчуванню SuggestPage Content. It depends on your theme pre-installed options
+
+    Window types
 
     ![Simple](/images/m2/ajaxpro/simple.png)
     ![SuggestPage Content](/images/m2/ajaxpro/suggestpage.png)
@@ -113,20 +115,19 @@ Streamline add-to-cart function and remove interruptions from the shopping proce
     ![MiniCart](/images/m2/ajaxpro/minicart.png)
 
 
- *  Replace Minicart Sidebar - замінюється поведінка мінікарта в правому верхньому кутуб при кліці буде відкриватись попап. Default: No
+ *  Replace Minicart Sidebar - replace mini cart content with ajaxpro popup content. Now by click will be shown ajax popup window. Default: No.
 
-    > працює лише при опції Results dialog window type визначеному як Minicart.
+    > Work only if option 'Results dialog window type' set as 'Minicart'.
 
- * Type of behaviour results - визначає яким способом буде відображуватись(зявлятись)
-   попап вікно
+ * Type of behaviour results - determines how the popup window will be displayed (appear)
 
    Type  | Description
    ------|------------
-   Popup | простий попап посередині екрану
-   Slide | виїзжатиме в правій частині екрану
+   Popup | simple pop in the middle of the screen
+   Slide | will appear from the right side of the screen
 
 
- * Show floating cart - добавляє плаваючу корзину в правій нижній частині екрану
+ * Show floating cart - add floating cart in the right bottom corner of the page
 
  ![Floating Cart](/images/m2/ajaxpro/floatingcart.gif)
 
@@ -140,14 +141,13 @@ Streamline add-to-cart function and remove interruptions from the shopping proce
 
 ![Validation](/images/m2/ajaxpro/usage-validation.gif)
 
- * Show product popup for product with options - Для продуктів з опціями показуватиметься попап
-   в якому без переходу на сторінку продукту можна вибрати опції і добавити продукт в корзину
+ * Show product popup for a product with options - For products with options, a popup will be displayed in which, without going to the product page you can select options and add the product to the cart
 
   > опція Validation має бути вимкнута.
 ![Product popup](/images/m2/ajaxpro/usage-compare.gif)
 
- * Quick View - Добавляє можливість переглянути форму продукта в окремому попап вікні (і добавити в корзину продукт) клацнувши по спеціальному елементу
+ * Quick View - Adds the ability to view the product form in a separate pop-up window (and add the product to the cart) by clicking on a special graphical item
 
  ![Quick View](/images/m2/ajaxpro/quick-view.png)
 
- * Apply custom patch for Product List Block Url(s) - It can help if your addToCartUrl lost options=cart suffix for product with options. Experimental вмикати лише якщо "Show product popup for product with options" не працює з коробки, якщо не допомагає і це звертатись в support.
+ * Apply custom patch for Product List Block Url(s) - It can help if your addToCartUrl lost options=cart suffix for a product with options. The experimental option enables only if the option "Show product popup for a product with options" doesn't work properly.
