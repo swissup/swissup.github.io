@@ -6,11 +6,20 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.6.2
+
+> Feb 15, 2022
+
+ - Fix: cache key info for configurable product block (#36)
+ - Breeze: fixed not working configurable and bundle products in the add to cart popup
+ - Add ajaxpro_add_checkout_cart handle to default.xml
+ - Fix: 'customer-data-reload' event behaviour on breeze theme
+
 ### Version 1.6.1
 
 > Jan 28, 2022
 
- -  Fixed not working quick view on cms pages
+ - Fixed not working quick view on cms pages
 
 ### Version 1.6.0
 
