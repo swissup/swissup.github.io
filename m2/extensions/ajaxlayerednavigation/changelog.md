@@ -7,6 +7,14 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.3.44
+
+> Feb 15, 2022
+
+ - Fix: convert current currency to base currency
+ - Fix: On Sale filter wrong slider renderrer
+ - Fix: setup_version and setup patch data bug
+
 ### Version 1.3.43
 
 > Jan 28, 2022
