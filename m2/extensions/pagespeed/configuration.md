@@ -97,6 +97,7 @@ sudo apt install optipng
 sudo apt install pngquant
 sudo npm install -g svgo
 sudo apt install gifsicle
+sudo apt-get install webp
 
 php bin/magento catalog:images:resize
 ~~~
