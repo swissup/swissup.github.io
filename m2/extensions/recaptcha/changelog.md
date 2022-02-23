@@ -8,6 +8,13 @@ category: reCAPTCHA
 
 # Changelog
 
+### Version 1.4.2
+
+> Feb 21, 2022
+
+ -  Recaptcha on checkout. Fixed grecaptcha js error when applied 100% order discount and no payment required. Error said that Google reCAPTCHA already rendered for this element.
+ -  Fixed weirdest bug ever with Magento Paypal on checkout. Bug description: after passing recaptcha button for "In context paypal" doesn't react on clicks.
+
 ### Version 1.4.1
 
 > Jan 28, 2022
