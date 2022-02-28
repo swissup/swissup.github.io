@@ -67,7 +67,7 @@ Below you can find list of allowed directives for metadata templates.
 
 ##### Directives for category template
 
-**`{% raw %}{{attribute code="…" [prefix="…"] [sufix="…"] [exclude="…"] [limit="…"] [separator="…"] [max_length="…" [break_words="…" etc="…"]]}}{% endraw %}`** - value of attribute by its code. You can set multiple codes separated with comma. It will return first not empty value. For example, some of your products have attribute manufacturer and other have - brand. In such case you can use `{% raw %}{{attribute code="brand,manufacturer"}}{% endraw %}`. With configurable product this directive can return values of attribute from child products. You can set max number of values (`limit="5"`) and separator (`separator=", "`). `exclude` option allows you to exclude some values from output. It can containe multiple values separated with comma.
+**`{% raw %}{{attribute code="…" [prefix="…"] [sufix="…"] [exclude="…"] [limit="…"] [separator="…"] [max_length="…" [break_words="…" etc="…"]]}}{% endraw %}`** - value of category attribute by its code (name, description, url_key, meta_title, meta_key, meta_decription and some others). To get category name use directive `{% raw %}{{attribute code="name"}}{% endraw %}`. To get category description `{% raw %}{{attribute code="description" max_length="150" break_words="1"}}{% endraw %}`.
 `max_length` sets max length in characters for output. By default it respects words and doesn't cut them. `break_words="1"` will force to cut words. `etc` sets trailing string that will be added after output truncate.
 
 **`{% raw %}{{ifexist code="…" [then="…"] [else="…"]}}{% endraw %}`** - condition directive returns `then` if attribute with code `code` has value. Otherwise it returns `else`.
