@@ -8,6 +8,15 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.16.8
+
+> Feb 24, 2022
+
+ -  Fixed error in backend pagebuilder when widget in page content is used.
+ -  Fixed broken drag-n-drop in backend tree.
+ -  Breeze: fixed dropdown content overflow when vertical direction is used.
+ -  Breeze: fixed css issue on checkout success page
+
 ### Version 1.16.3
 
 > Jan 28, 2022
