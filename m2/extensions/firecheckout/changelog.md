@@ -10,9 +10,20 @@ category: Firecheckout
 
 ### Version 1.28.9
 
-> Feb 1, 2022
+> Mar 7, 2022
 
  -  [Breeze Theme](https://breezefront.com) integration added
+ -  Small css fixes
+
+**Checkout Fields**
+
+ -  Added filters by custom checkout fields in order grid
+ -  Significant performance boost for stores with large orders count
+    with custom checkout fields.
+
+**Checkout Registration**
+
+ -  Fixed possible "Invalid state change" error at initial page load.
 
 ### Version 1.28.8
 
