@@ -7,6 +7,66 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.29.0 (Draft)
+
+> TBA, 2022
+
+**Extensions Updates**
+
+  - [Ajax Pro](/m2/extensions/ajaxpro/) — 1.6.3 (was 1.6.1)
+      + Breeze: fixed not working configurable and bundle products in the add to cart popup
+      + Fixed broken configurable products without color swatches
+      + Improved module configuration
+      + Code cleanup
+  - [Ajax Search](/m2/extensions/ajaxsearch/) — 1.11.17 (was 1.11.16)
+      + Added ability to change desktop media breakpoint value
+      + Update Breeze theme integration
+  - [AMP](/m2/extensions/amp/) — 1.4.15 (was 1.4.14)
+      + Do not automatically install AMP during Argento theme installation
+  - [Breeze](/m2/extensions/breeze/) — 1.10.1 (was 1.9.0)
+      + Added critical images preloading
+      + Added “Use CSS critical path” config option support
+      + Added js chunking mechanism that improves page load time on slow internet connections
+      + Fixed js chunks deployment during setup:static-content:deploy command (compatibility with Adobe Commerce Cloud)
+      + Fixed error in logs about empty less file during deployment
+  - [EasySlide](/m2/extensions/easyslider/) — 1.6.26 (was 1.6.25)
+      + Fixed component sort order in PageBuilder
+  - [Easybanners](/m2/extensions/easybanners/) — 1.7.9 (was 1.7.8)
+      + Fixed not working banner mass actions in Magento 2.3
+      + Disabled statistics for new banners by default
+      + Magento coding standards fixes
+  - [Easy Catalog Images](/m2/extensions/easycatalogimages/) — 1.4.18 (was 1.4.17)
+      + Fixed component sort order in PageBuilder
+      + Removed code that duplicates Magento logic since 2.3.0
+      + Fixed possible broken image for both 'image' and 'thumbnail' attributes
+  - [Easytabs](/m2/extensions/easytabs/) — 1.9.22 (was 1.9.18)
+      + Fixed missing tabs when Breeze module is used
+      + Using DB declarative schema
+      + Magento Coding Standarts fixes
+      + Fix js error when activate tab on external link click (conflict with Aheadworks_StoreCredit)
+      + Fixed component sort order in PageBuilder
+  - [Highlight](/m2/extensions/highlight/) — 1.7.22 (was 1.7.21)
+      + Fixed css issue in Breeze Theme
+  - [Navigation Pro](/m2/extensions/navigationpro/) — 1.16.9 (was 1.16.3)
+      + Fixed error in backend PageBuilder when widget in page content is used
+      + Fixed broken drag-n-drop in backend tree
+      + Breeze: fixed dropdown content overflow when vertical direction is used
+      + Breeze: fixed css issue on checkout success page
+      + Fixed GraphQl\Query\Uid does not exists (compatability with Magento 2.3)
+  - [Pagespeed](/m2/extensions/pagespeed/) — 1.5.3 (was 1.5.2)
+      + Fixed broken svg icons inside css files
+  - [ProLabels](/m2/extensions/prolabels/) — 1.6.16 (was 1.6.13)
+      + Using declarative schema (db_schema.xml) and schema whitelist
+      + Fixed visible out of stock label when product is available for purchase because backorders enabled
+      + Fixed fatal error on grouped product without assigned child products
+      + Improvements for out of stock label
+      + Replaced deprecated Model\Stock::getIsInStock method with isInStock
+  - [Quantity Switcher](/m2/extensions/qty-switcher/) — 1.1.12 (was 1.1.11)
+      + Breeze: improve trigger styles
+  - [SEO Suite](/m2/extensions/seo-suite/)
+      + **swissup/module-seo-cross-links** — 1.1.4 (was 1.1.3)
+          * Using declarative schema (db_schema.xml) and schema whitelist
+
 ### Version 1.28.0
 
 > Jan 28, 2022
