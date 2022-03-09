@@ -8,6 +8,12 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.5.3
+
+> March 9, 2022
+
+ - Fix: CSS improver break svg icons xmlns inside critical css (close #41)
+
 ### Version 1.5.2
 
 > Jan 21, 2022
