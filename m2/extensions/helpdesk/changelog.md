@@ -6,6 +6,13 @@ keywords: Helpdesk changelog
 category: Helpdesk
 ---
 
+### Version 1.2.24
+
+> Mar 9, 2022
+
+**Fixes**
+ - Fix: 'Duplicate entry '1' for key 'PRIMARY', query was: INSERT INTO'
+
 ### Version 1.2.23
 
 > Feb 10, 2022
