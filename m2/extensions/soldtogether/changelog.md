@@ -8,6 +8,14 @@ category: SoldTogether
 
 # Changelog
 
+### Version 1.8.0
+
+> Mar 10, 2022
+
+ - New feature - promote products in "Frequently bought together" block. You can set discount for linked product.
+ - Improved admin interface at edit product form to maintain linked products.
+ - Performance improvements for better clients experience with your store.
+
 ### Version 1.7.17
 
 > Jan 28, 2022
