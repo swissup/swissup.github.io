@@ -7,9 +7,9 @@ category: Argento
 
 # Argento Changelog
 
-### Version 1.29.0 (Draft)
+### Version 1.29.0
 
-> TBA, 2022
+> Mar 10, 2022
 
 **Extensions Updates**
 
