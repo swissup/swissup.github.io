@@ -8,6 +8,23 @@ category: PDF Invoices
 
 # Known Issues
 
+### Squares instead of text
+
+Sometimes you can see squares in place of text in generated PDF file. It means your font is missing some `font-weight` or `font-style` used for this text.
+
+It usually happens with Arabic fonts and product option labels that have bold italic styling:
+
+![Squares in place of text](/images/m2/pdf-invoices/known-issues/squares-in-place-of-text.png)
+
+The solution is adding the following styles to the `Template Styles` field:
+
+```css
+strong, em {
+    font-weight: normal !important;
+    font-style: normal !important;
+}
+```
+
 ### Download PDF link displays 404 error with Asynchronous sending enabled
 
 When `Sales > Sales Emails > General Settings > Asynchronous sending` enabled order emails are sent by cron.

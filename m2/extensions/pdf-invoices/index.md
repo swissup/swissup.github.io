@@ -27,6 +27,7 @@ Also you can add *Download PDF* link to the sales emails or send PDF as *email a
 3. [Configuration](configuration/)
 4. [Create PDF Template](create-pdf-template/)
 5. [Known Issues](known-issues/)
+   - [Squares instead of text](known-issues/#squares-instead-of-text)
    - [Download PDF link displays 404 error with Asynchronous sending enabled](known-issues/#download-pdf-link-displays-404-error-with-asynchronous-sending-enabled)
    - [Download PDF link problem in Magento 2.3.4](known-issues/#download-pdf-link-problem-in-magento-234)
    - [Magento 2.2 Compatibility](known-issues/#magento-22-compatibility)
