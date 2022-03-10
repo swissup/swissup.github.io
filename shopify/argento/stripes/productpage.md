@@ -44,7 +44,7 @@ The product reviews tab is one more great feature of the Argento theme. To use t
 
 #### Product recommendations tab
 
-Argento has a separate Product recommendations section. Adding recommended products helps you to increase the average order value. 
+Argento has a separate Product recommendations section. Adding recommended products helps you to increase the average order value.
 
 Within a section, you can:
 
@@ -54,6 +54,4 @@ Within a section, you can:
 - Show the second image on hover.
 - Show vendor.
 
-**Note:** to add a custom product page tab, please go to the [FAQ](faq/).
-
-
+**Note:** to add a custom product page tab, please go to the [FAQ](/shopify/argento/stripes/faq/).
