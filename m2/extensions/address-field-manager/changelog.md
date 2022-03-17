@@ -8,6 +8,19 @@ category: Address Field Manager
 
 # Changelog
 
+### Version 1.6.5
+
+> Mar 17, 2022
+
+ -  Hide Yes / No Fields value at shipping-information.
+
+### Version 1.6.4
+
+> Aug 19, 2021
+
+ -  Use separate group for merged css.
+    This makes global bundle persistent across all site.
+
 ### Version 1.6.3
 
 > Aug 10, 2021
