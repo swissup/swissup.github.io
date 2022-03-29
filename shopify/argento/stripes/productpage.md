@@ -55,3 +55,11 @@ Within a section, you can:
 - Show vendor.
 
 **Note:** to add a custom product page tab, please go to the [FAQ](/shopify/argento/stripes/faq/).
+
+### Use Metafields
+
+Argento theme uses an ability to display some extra product information using `metafields`.
+
+|metafields.brand| **Brand** | Show a product brand.
+|metafields.details| **Details** | Show some additional product details in tab section.
+

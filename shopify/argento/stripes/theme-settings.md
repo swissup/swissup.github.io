@@ -11,9 +11,21 @@ category: Argento
 
 Before you start configuring the template pages, you have to focus on general theme settings. 
 
-Argento theme allows for customizing **Color, Typography, Social media, Favicon, Price, Product Badges, Contact info**, and **Checkout**. Let’s start one by one.    
+Argento theme allows for customizing the following settings:
 
-**Color**
+- **Color**,
+- **Typography**,
+- **Social media**,
+- **Favicon**,
+- **Price**,
+- **Product Badges**,
+- **Predictive Search Results**,
+- **Contact info**,
+- **Checkout**.
+
+Let’s start one by one.
+
+### Color
 
 With the Argento theme, you can set `primary and secondary colors`. 
 
@@ -23,11 +35,11 @@ With the Argento theme, you can set `primary and secondary colors`.
 
 You can choose and change the color from the color palette. 
 
-**Typography**
+### Typography
 
 With typography options, you can select the desired font for template headings and body. The base font of Argento theme headings and body is `Sans-serif`. 
 
-**Social media**
+### Social media
 
 With the Argento theme, you can add social sharing options to the product page. You can show or hide Share Buttons by unchecking the boxes next to the social network. The `Share button` is available for **Facebook, Pinterest, and Twitter** social networks.
 
@@ -35,15 +47,17 @@ With the Argento theme, you can add social sharing options to the product page. 
 
 You can also enable login for users with their accounts in **Instagram, Vimeo, Tumblr, TikTok, Pinterest, Facebook, Twitter, YouTube**.
 
-**Favicon**
+### Favicon
 
 With the Favicon option, you can edit the icon of your Shopify store. This is a small icon that is shown on the tab of your site page in the browser. Select the image right in the admin.
 
-**Price**
+## Price
 
-With the Argento theme, you can `change the color for the Final price`. By checking the box you can also show cents as superscripts.
+With the Argento theme, you can:
+- `change the color for the Final price`. By checking the box you can also show cents as superscripts.
+- `Show / Hide price label`.
 
-**Product Badges**
+### Product Badges
 
 With the Argento theme, you have got `Sale` and `Sold out` badges on product images. Users can see them on the collection page. 
 
@@ -56,11 +70,20 @@ You can change:
 
 ![shopify theme general settings](/images/shopify/badge-soldout.png)
 
-**Contact Info**
+### Contact Info
 
 With the Argento theme, you can specify the `Contact phone number` and `Contact Email`.
 
-**Checkout**
+### Predictive Search Results
+
+This settings allow you to configure search results using below settings:
+- `Enable predictive search` - Enable / Disable Predictive search results.
+- `Show vendor` - Display vendor below the product images.
+- `Show product stock` - Display product stock label `In Stock` / `Out Of Stock`.
+- `Show product price` - Display all product information.
+- `Minimal query length` - Set min amount of characters to start searching. (By default - 3 characters).
+
+### Checkout
 
 With the Argento settings, you can improve the look of the Shopify checkout page.
 
