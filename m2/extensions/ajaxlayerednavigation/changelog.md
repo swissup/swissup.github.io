@@ -7,6 +7,13 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.3.45
+
+> Mar 30, 2022
+
+ - Fix: price min-max values at another currency
+ - Fix: compatability with elasticsearch 6
+
 ### Version 1.3.44
 
 > Feb 15, 2022
