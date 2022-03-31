@@ -59,7 +59,40 @@ Within a section, you can:
 ### Use Metafields
 
 Argento theme uses an ability to display some extra product information using `metafields`.
+After adding metafields they will appear directly in a product configuration page.
 
 |metafields.brand| **Brand** | Show a product brand.
 |metafields.details| **Details** | Show some additional product details in tab section.
 
+To enable this option at your store side, you have to add shopify metafields definition.
+> Navigate to the `shopify admin -> Settings -> Metafields -> Products -> Add definition`
+
+**Brand** - show a product brand above its name;
+
+| Name | Namespace | Select content type |
+| Brand | my_fields.brand | Text -> Single-line-text |
+
+**Details** - show a product details into product tabs;
+
+| Name | Namespace | Select content type |
+| Details | my_fields.details | Text -> Multi-line-text |
+
+It's possible to display some extra product information in either `list` or `row`.
+
+Result:
+
+![metafields settings](/images/shopify/product/metafields-settings.png)
+
+Product page configuration result:
+
+![metafields-settings](/images/shopify/product/product-page-config.png)
+
+Product page schema settings:
+
+![brand-option](/images/shopify/product/brand-option.png)
+![details-option](/images/shopify/product/details-option.png)
+![details-in-list](/images/shopify/product/details-in-list.png)
+
+##### Next up
+
+- [Back to main page](/shopify/argento/stripes/)

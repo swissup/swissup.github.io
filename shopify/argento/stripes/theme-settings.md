@@ -77,11 +77,13 @@ With the Argento theme, you can specify the `Contact phone number` and `Contact 
 ### Predictive Search Results
 
 This settings allow you to configure search results using below settings:
-- `Enable predictive search` - Enable / Disable Predictive search results.
-- `Show vendor` - Display vendor below the product images.
-- `Show product stock` - Display product stock label `In Stock` / `Out Of Stock`.
-- `Show product price` - Display all product information.
+- `Enable predictive search` - Enable / Disable Predictive search results. (Enabled by default)
+- `Show vendor` - Display vendor below the product images. (Disabled by default)
+- `Show product stock` - Display product stock label `In Stock` / `Out Of Stock`. (Disabled by default)
+- `Show product price` - Display all product information. (Enabled by default)
 - `Minimal query length` - Set min amount of characters to start searching. (By default - 3 characters).
+
+![predictive-search-settings](/images/shopify/predictive-search-settings.png)
 
 ### Checkout
 
