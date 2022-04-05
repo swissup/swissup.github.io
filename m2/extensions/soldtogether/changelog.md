@@ -8,6 +8,13 @@ category: SoldTogether
 
 # Changelog
 
+### Version 1.8.1
+
+> Mar 15, 2022
+
+ - Cron processor optimization.
+ - Magento 2.3.x compatibility fixes.
+
 ### Version 1.8.0
 
 > Mar 10, 2022
