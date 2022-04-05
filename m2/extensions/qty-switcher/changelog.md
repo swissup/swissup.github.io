@@ -18,7 +18,7 @@ category: Quantity Switcher
 
 > Jan 26, 2022
 
- -  Breeze theme integration
+ -  [Breeze Theme](https://breezefront.com) integration added
 
 ### Version 1.1.8
 
