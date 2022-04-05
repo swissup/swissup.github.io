@@ -8,6 +8,23 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.28.10
+
+> Mar 25, 2022
+
+ -  Breeze theme integration improvements.
+ -  Small css fixes.
+
+**Address Fields Manager**
+
+ -  Hide Yes/No fields value at shipping information.
+
+**Delivery Date**
+
+ -  Breeze theme integration added.
+ -  Fixed possible SQL error during setup:di:compile execution on Magento 2.3.
+ -  Added ability to set different order processing day time per each day of the week.
+
 ### Version 1.28.9
 
 > Mar 7, 2022
