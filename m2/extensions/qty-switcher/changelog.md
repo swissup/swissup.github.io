@@ -8,6 +8,24 @@ category: Quantity Switcher
 
 # Changelog
 
+### Version 1.1.13
+
+> Mar 25, 2022
+
+ -  Breeze integration fixes and improvements
+
+### Version 1.1.11
+
+> Jan 26, 2022
+
+ -  Breeze theme integration
+
+### Version 1.1.8
+
+> May 19, 2021
+
+ -  Breeze integration
+
 ### Version 1.1.7
 
 > Dec 24, 2020
