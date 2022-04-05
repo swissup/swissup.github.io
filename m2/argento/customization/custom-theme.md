@@ -124,19 +124,41 @@ Save configuration, clear cache, and check the frontend.
 
 By default, custom theme doesn't inherit theme editor changes. If you want
 to apply the changes to your custom theme (inherited from one of Argento themes)
-you should explicitly indicate this in theme configuration:
+you should explicitly indicate this in theme view.xml file:
 
- 1. Navigate to _Content > Design > Configuration_.
- 2. Select your custom theme.
- 3. In the "Default Theme" section select "Applied Theme Editor"
-    **option that matches parent theme of your custom theme**:
+ 1. Open `etc/view.xml` file inside your custom theme. If it doens't exist, create it:
 
-    ![Apply theme editor for custom theme](/images/m2/argento/customization/custom-theme/theme-editor.png)
+    ```xml
+    <?xml version="1.0"?>
+    <view xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Config/etc/view.xsd">
+    </view>
+    ```
 
-    > On the screenshot above "Local custom theme" is a child of "Argento Force"
-    > theme. That's why "Argento Force" editor is applied.
+ 2. Add the following code into the file (between `<view>` tags):
 
- 4. Save configuration, clear cache, and check the frontend.
+    ```xml
+    <vars module="Swissup_ThemeEditor">
+        <var name="code">THEME_EDITOR_CODE</var>
+    </vars>
+    ```
+
+ 3. Replace `THEME_EDITOR_CODE` with one of the following values:
+
+    - swissup_absolute
+    - swissup_argento_essence
+    - swissup_argento_flat
+    - swissup_argento_force
+    - swissup_argento_home
+    - swissup_argento_luxury
+    - swissup_argento_mall
+    - swissup_argento_marketplace
+    - swissup_argento_pure
+    - swissup_argento_pure2
+    - swissup_argento_stripes
+
+    > Make sure your theme is a child of selected theme.
+
+ 4. Save the file, clear cache, and check the frontend.
 
 #### Next Up
 {:.no_toc}
