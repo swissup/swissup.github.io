@@ -8,6 +8,36 @@ category: Breeze
 
 # Changelog
 
+### Version 1.11.4
+
+> Mar 31, 2022
+
+ -  Allow to deploy bundles without DB connection (Cloud Commerce).
+ -  Fixed unformatted prices in custom options and configurable dropdowns.
+ -  Fixed js error when product doesn't have images.
+
+### Version 1.11.0
+
+> Mar 25, 2022
+
+ -  Better gallery styles.
+ -  Fixed error when loading certain youtube videos.
+ -  Fixed loader below visible screen.
+ -  Fixed infinite spinner when navigate with back/forward buttons.
+ -  Fixed incorrectly positioned minicart spinner.
+ -  Fixed not working add to cart for listings loaded via ajax.
+
+### Version 1.10.0
+
+> Feb 17, 2022
+
+ -  Fixed not working "close menu" button.
+ -  Fixed not working configurable products inside quick-view popup.
+ -  Image preload improvements.
+ -  HTML minification improvements.
+ -  Split JS bundles into chunks.
+ -  CSS fixes and improvements.
+
 ### Version 1.9.0
 
 > Jan 28, 2022
