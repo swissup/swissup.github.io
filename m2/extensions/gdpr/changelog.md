@@ -8,6 +8,14 @@ category: GDPR
 
 # Changelog
 
+### Version 1.5.0
+
+> Apr 9, 2022
+
+ -  Added ability to [make a pre-checked cookie consent](/m2/extensions/gdpr/backend/#cookie-registry)
+    for optional cookie group. Previously only required cookie groups
+    were pre-checked.
+
 ### Version 1.4.11
 
 > Jan 28, 2022

@@ -16,6 +16,9 @@ This page is located at _Swissup GDPR > Cookie Registry_. You can register
 additional cookies, edit description of system cookies per store view, and
 create/edit cookie groups.
 
+> If you whould like to create a pre-checked cookie consent, use
+> "View Cookie Groups" button and then edit the group you need.
+
 Also you have an access to blocked cookies list at this page. This list is useful to check
 if every cookie is registered in the system and visitors can exlicitly allow or decline
 them. Normally, this list should be empty. When it's not - you should examine
