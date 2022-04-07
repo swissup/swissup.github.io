@@ -8,6 +8,16 @@ category: EasyCatalogImages
 
 # Changelog
 
+### Version 1.4.19
+
+> Apr 7, 2022
+
+ -  Improved integration with Magento Pagebuilder module:
+    -  Fixed js error when adding component into the page.
+    -  Fixed preview styles.
+    -  Fixed not working categories_to_hide/show, and sizes options.
+ -  Magento Coding Standard fixes.
+
 ### Version 1.4.16
 
 > Nov 29, 2021
