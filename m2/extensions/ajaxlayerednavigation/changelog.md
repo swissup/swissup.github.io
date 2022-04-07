@@ -7,6 +7,12 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.3.46
+
+> Apr 7, 2022
+
+ - Fix: prevent load product collection in Model\Layer\Filter\Price::initRange
+
 ### Version 1.3.45
 
 > Mar 30, 2022
