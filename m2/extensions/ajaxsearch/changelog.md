@@ -8,6 +8,12 @@ category: AjaxSearch
 
 ### Version 1.11.16
 
+> Apr 13, 2022
+
+ -  Fix: urldecode 'query' param in graphql
+
+### Version 1.11.16
+
 > Jan 28, 2022
 
  -  Magento Coding Standard fixes

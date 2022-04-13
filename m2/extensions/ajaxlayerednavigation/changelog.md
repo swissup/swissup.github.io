@@ -7,6 +7,12 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.3.47
+
+> Apr 13, 2022
+
+ - Fix: main.CRITICAL: Warning: A non-numeric value encountered Price.php line 121
+
 ### Version 1.3.46
 
 > Apr 7, 2022
