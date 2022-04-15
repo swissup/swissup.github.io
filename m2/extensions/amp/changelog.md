@@ -8,6 +8,13 @@ category: Accelerated Mobile Pages
 
 # Changelog
 
+### Version 1.5.0
+
+> Apr 15, 2022
+
+  - Magento 2.4.4 and PHP 8.1 compatibility
+  - Font Awesome icons replaced with SVG icons because of an issue in SCSS compiler
+
 ### Version 1.4.14
 
 > Sep 27, 2021
