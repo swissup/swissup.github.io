@@ -8,6 +8,13 @@ category: Geoip
 
 # Changelog
 
+### Version 1.5.3
+
+> Apr 15, 2021
+
+ -  Magento 2.4.4 compatibility.
+ -  Improved compatibility with third-party modules.
+
 ### Version 1.5.1
 
 > Jan 13, 2021

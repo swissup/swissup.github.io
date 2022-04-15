@@ -8,6 +8,14 @@ category: SoldTogether
 
 # Changelog
 
+### Version 1.8.2
+
+> Apr 15, 2022
+
+ -  Magento 2.4.4 and PHP 8.1 compatibility.
+ -  Fix dropdown with swatches/options when amazon layout.
+ -  Product edit form in backend - don't open promo popup when user reorder items.
+
 ### Version 1.8.1
 
 > Mar 15, 2022

@@ -8,6 +8,12 @@ category: Cachewarmer
 
 # Changelog
 
+### Version 1.0.19
+
+> Apr 15, 2022
+
+ -  Magento Coding Standard fixes
+
 ### Version 1.0.15
 
 > 8 Feb, 2022

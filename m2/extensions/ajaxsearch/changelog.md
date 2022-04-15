@@ -6,6 +6,12 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.11.19
+
+> Apr 15, 2022
+
+ -  Magento 2.4.4 and PHP 8.1 compatibility.
+
 ### Version 1.11.16
 
 > Apr 13, 2022

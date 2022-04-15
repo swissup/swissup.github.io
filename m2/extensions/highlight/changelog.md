@@ -8,6 +8,14 @@ category: Highlight
 
 # Changelog
 
+### Version 1.7.24
+
+> Apr 15, 2022
+
+ -  Magento 2.4.4 and PHP 8.1 compatibility.
+ -  Fixed issue with long product names when using carousel mode.
+ -  Fixed css issue in Breeze Theme.
+
 ### Version 1.7.20
 
 > Nov 29, 2021

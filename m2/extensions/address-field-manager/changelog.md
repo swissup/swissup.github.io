@@ -8,6 +8,12 @@ category: Address Field Manager
 
 # Changelog
 
+### Version 1.6.7
+
+> Apr 15, 2022
+
+ -  Magento 2.4.4 and PHP 8.1 compatibilities
+
 ### Version 1.6.5
 
 > Mar 17, 2022

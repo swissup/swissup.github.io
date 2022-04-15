@@ -7,6 +7,12 @@ category: Order Attachments
 
 # Changelog
 
+### Version 1.4.16
+
+> Apr 15, 2022
+
+ -  Magento 2.4.4 compatibility.
+
 ### Version 1.4.13
 
 > Aug 31, 2021

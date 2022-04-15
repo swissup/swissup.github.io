@@ -8,6 +8,12 @@ category: GDPR
 
 # Changelog
 
+### Version 1.5.2
+
+> Apr 15, 2022
+
+ -  Magento 2.4.4 and PHP 8.1 compatibility.
+
 ### Version 1.5.0
 
 > Apr 9, 2022

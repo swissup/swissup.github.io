@@ -8,6 +8,10 @@ category: Delete Orders
 
 # Changelog
 
+### Version 1.2.1
+
+ -  PHP 8.1 compatibility
+
 ### Version 1.2.0
 
 - Display config on Default Store View only;

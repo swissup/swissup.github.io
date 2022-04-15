@@ -10,6 +10,12 @@ category: Checkout Success
 
 ### Version 1.4.13
 
+> Apr 15, 2022
+
+ -  Magento 2.4.4 and PHP 8.1 compatibility.
+
+### Version 1.4.13
+
 > Feb 1, 2022
 
  -  [Breeze Theme](https://breezefront.com) integration added

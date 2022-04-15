@@ -8,6 +8,13 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.16.11
+
+> Apr 15, 2022
+
+ -  Magento 2.4.4 and PHP 8.1 compatibility.
+ -  Fixed incorrect has-active class on custom non-category links
+
 ### Version 1.16.8
 
 > Feb 24, 2022

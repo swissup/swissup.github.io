@@ -8,6 +8,14 @@ category: Easy Tabs
 
 # Changelog
 
+### Version 1.10.1
+
+> Apr 15, 2022
+
+ -  Compatiblity with latest Swissup_Amp module.
+ -  PHP 8.1 compatibility.
+ -  Added ability to show crosssell products in product page tabs.
+
 ### Version 1.9.21
 
 > Feb 3, 2022

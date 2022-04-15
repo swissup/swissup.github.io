@@ -8,6 +8,13 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.6.18
+
+> Apr 15, 2022
+
+ -  Magento 2.4.4 and PHP 8.1 compatibility.
+ -  Respect "manage stock" setting when showing out of stock label.
+
 ### Version 1.6.16
 
 > Feb 15, 2022

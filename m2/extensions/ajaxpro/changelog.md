@@ -6,6 +6,12 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.6.4
+
+> Apr 15, 2022
+
+ -  Magento Coding Standard fixes.
+
 ### Version 1.6.2
 
 > Feb 15, 2022

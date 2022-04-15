@@ -7,6 +7,12 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.3.48
+
+> Apr 15, 2022
+
+ -  Magento 2.4.4 compatibility.
+
 ### Version 1.3.47
 
 > Apr 13, 2022
