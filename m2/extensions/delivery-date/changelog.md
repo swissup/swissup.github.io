@@ -7,6 +7,13 @@ category: Delivery Date
 
 # Changelog
 
+### Version 1.7.2
+
+> Apr 15, 2022
+
+ -  Magento 2.4.4 and PHP 8.1 compatibility.
+ -  Improved delivery date validation.
+
 ### Version 1.7.1
 
 > Feb 9, 2022

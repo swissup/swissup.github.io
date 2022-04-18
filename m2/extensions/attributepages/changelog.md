@@ -7,6 +7,12 @@ category: Attributepages
 
 # Changelog
 
+### Version 1.4.5
+
+> Apr 15, 2022
+
+ -  Magento 2.4.4 and PHP 8.1 compatibility.
+
 ### Version 1.4.4
 
 > Dec 29, 2021

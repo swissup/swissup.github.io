@@ -8,6 +8,13 @@ category: Easy Banners
 
 # Changelog
 
+### Version 1.8.0
+
+> Apr 15, 2022
+
+ -  Magento 2.4.4 and PHP 8.1 compatibility.
+ -  "Duplicate banner" button added.
+
 ### Version 1.7.9
 
 > Feb 9, 2022
