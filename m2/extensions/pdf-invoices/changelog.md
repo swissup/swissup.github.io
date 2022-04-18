@@ -8,6 +8,25 @@ category: PDF Invoices
 
 # Changelog
 
+### Version 1.4.0
+
+> Apr 18, 2022
+
+ -  Fixed PDF templates in Magento 2.4.4
+ -  Converted php schemes into xml format
+
+### Version 1.3.5
+
+> Apr 15, 2022
+
+ -  PHP 8.1 compatibility fix
+
+### Version 1.3.4
+
+> Aug 27, 2021
+
+ -  Added en_US translation csv file
+
 ### Version 1.3.3
 
 > Feb 11, 2021
