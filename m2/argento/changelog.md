@@ -7,6 +7,93 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.30.0
+
+> Apr 21, 2022
+
+ -  Multiple fixes for **Magento 2.4.4**, _PHP 8.1_ and _jQuery 3.6_ compatibility
+ -  Added feature to use LESS code in backend theme editor
+ -  Breeze integration updated
+ -  Login page styles moved from _Home_ theme to _Blank_
+ -  Optimized photo in description script for Youtube videos
+ -  _Argento Home:_ fixed content jumping when toggling filters placed above content
+ -  _Argento Stripes, Argento Marketplace:_ enabled boxed page styles and compact login page
+ -  _Argento Marketplace:_ Fixed expanded tabs styles
+ -  _Argento Luxury:_ using compact login page style
+
+**Extensions Updates**
+
+  - [Ajax Pro](/m2/extensions/ajaxpro/) — 1.6.4 (was 1.6.3)
+      + Code improvements
+  - [Ajax Search](/m2/extensions/ajaxsearch/) — 1.11.19 (was 1.11.17)
+      + Magento 2.4.4 and PHP 8.1 compatibility fixes
+  - [AMP](/m2/extensions/amp/) — 1.5.0 (was 1.4.15)
+      + PHP 8.1 compatibility fixes
+      + Updated SCSS compiler to the latest version
+      + Replaced FontAwesome icons with SVG icons
+  - [Askit](/m2/extensions/askit/) — 1.11.4 (was 1.11.1)
+      + Magento 2.4.4 and PHP 8.1 compatibility fixes
+  - [Attribute Pages](/m2/extensions/attributepages/) — 1.4.5 (was 1.4.4)
+      + Magento 2.4.4 and PHP 8.1 compatibility fixes
+      + Converted php schemes into xml format
+  - [Breeze](/m2/extensions/breeze/) — 1.11.8 (was 1.10.1)
+      + Magento 2.4.4 and PHP 8.1 compatibility fixes
+      + Lot of other fixes, check on [Breeze Site](https://breezefront.com/updates)
+  - [EasySlide](/m2/extensions/easyslider/) — 1.6.27 (was 1.6.26)
+      + Show slide titles in sliders admin interface
+  - [Easybanners](/m2/extensions/easybanners/) — 1.8.0 (was 1.7.9)
+      + Added duplicate banner action in admin banners grid
+  - [Easy Catalog Images](/m2/extensions/easycatalogimages/) — 1.4.20 (was 1.4.18)
+      + Fixed widget settings in PageBuilder
+      + Improved styles in backend PageBuilder preview
+      + Using data patch instead of setup scripts
+  - [Easytabs](/m2/extensions/easytabs/) — 1.10.2 (was 1.9.22)
+      + Added ability to show crosssell products in product page tabs
+      + Magento 2.4.4 and PHP 8.1 compatibility fixes
+      + Whitelisted static block tab in AMP
+  - [Featured Attributes](/m2/extensions/featured-attributes/) — 1.1.5 (was 1.1.4)
+      + PHP 8.1 compatibility fix
+  - [GDPR](/m2/extensions/gdpr/) — 1.5.3 (was 1.4.11)
+      + Added ability to make a pre-checked cookie consent for optional cookie group
+      + Magento 2.4.4 and PHP 8.1 compatibility fixes
+  - [Highlight](/m2/extensions/highlight/) — 1.7.25 (was 1.7.22)
+      + Fixed issue with long product names when using carousel mode
+      + Fixed animated arrow jumping when hover over carousel widget
+  - [Lightbox Pro](/m2/extensions/lightboxpro/) — 1.3.5 (was 1.3.3)
+      + Using correct alt for gallery preloading image
+      + PHP 8.1 compatibility fix
+  - [Navigation Pro](/m2/extensions/navigationpro/) — 1.16.11 (was 1.16.9)
+      + Fixed incorrect has-active class on custom non-category links
+      + PHP 8.1 compatibility fixes
+  - [Pagespeed](/m2/extensions/pagespeed/) — 1.5.4 (was 1.5.3)
+      + Fixed broken svg icons inside css files
+  - [ProLabels](/m2/extensions/prolabels/) — 1.6.18 (was 1.6.16)
+      + Respect manage stock setting when showing out of stock label
+      + PHP 8.1 and jQuery 3.6 compatibility fixes
+  - [Quantity Switcher](/m2/extensions/qty-switcher/) — 1.1.13 (was 1.1.12)
+      + Breeze: improved integration with arrows mode
+  - [SEO Suite](/m2/extensions/seo-suite/)
+      + **swissup/module-rich-snippets** — 1.1.17 (was 1.1.16)
+          * PHP 8.1 compatibility fixes
+      + **swissup/module-seo-canonical** — 1.11.5 (was 1.11.4)
+          * Added config to select product attribute and use it as canonical URL
+      + **swissup/module-seo-cross-links** — 1.1.5 (was 1.1.4)
+          * PHP 8.1 compatibility fix
+      + **swissup/module-seo-images** — 1.3.15 (was 1.3.14)
+          * PHP 8.1 compatibility fix
+          * Converted php schemes into xml format
+      + **swissup/module-seo-urls** — 1.5.31 (was 1.5.30)
+          * Fixed missing translations when category filter applied
+      + **swissup/module-seo-templates** — 1.6.2 (was 1.6.1)
+          * PHP 8.1 compatibility fix
+          * Converted php schemes into xml format
+  - [Sold Together](/m2/extensions/soldtogether/) — 1.8.2 (was 1.7.17)
+      + Added feature to promote products in “Frequently bought together” block
+      + Improved admin interface at edit product form
+      + Performance improvements
+      + Magento 2.4.4 and PHP 8.1 compatibility fixes
+      + Fixed dropdown with swatches/options on Amazon layout
+
 ### Version 1.29.0
 
 > Mar 10, 2022
