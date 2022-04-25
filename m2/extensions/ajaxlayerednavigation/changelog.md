@@ -7,6 +7,16 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.3.50
+
+> Apr 25, 2022
+
+ -  Fixed min/max price calculation for price range filter.
+ -  Prevent layout shift when filter is initially expanded.
+ -  Added ability to reset single swatch filter.
+ -  Small CSS improvements.
+ -  [Breeze](https://breezefront.com/): price range filter added.
+
 ### Version 1.3.48
 
 > Apr 15, 2022
