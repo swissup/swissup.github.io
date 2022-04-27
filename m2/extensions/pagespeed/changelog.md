@@ -8,11 +8,20 @@ category: Pagespeed
 
 # Changelog
 
-### Version 1.5.3
+### Version 1.5.5
+
+> Apr 27, 2022
+
+ - Fix: meqp warnings
+ - Fix: Notice: getimagesize(): read of 8192 bytes failed with errno=21
+
+### Version 1.5.4
 
 > Apr 7, 2022
 
- - Fix: CSS improver break svg icons xmlns inside critical css part II
+ - Fix: CSS improver break svg icons xmlns inside critical css (part II)
+
+### Version 1.5.3
 
 > March 9, 2022
 
