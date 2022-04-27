@@ -8,7 +8,13 @@ category: Cachewarmer
 
 # Changelog
 
-### Version 1.0.19
+### Version 1.0.17
+
+> Apr 27, 2022
+
+ -  update guzzle require
+
+### Version 1.0.16
 
 > Apr 15, 2022
 
