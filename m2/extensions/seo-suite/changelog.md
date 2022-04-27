@@ -8,6 +8,36 @@ category: SEO Suite
 
 # Changelog
 
+### Version 1.13.0
+
+> Apr 27, 2022
+
+ -  Compatibility with Magento 2.4.4 and PHP 8.1.
+ -  Update ACL (Access Control List) for all included modules.
+ -  Convert deprecated php installation scripts into XML schemes.
+
+*swissup/module-hreflang — 1.4.11 (was 1.4.10)*
+
+ -  Amasty_Storelocator and Magezon ShopByBrand integrations.
+
+*swissup/module-rich-snippets — 1.4.18 (was 1.4.15)*
+
+ -  Performance improvements for configurable products with big number of options.
+ -  Correct price for grouped product data snippet when sub product have discounts.
+
+*swissup/module-seo-canonical — 1.11.5 (was 1.11.3)*
+
+ -  **NEW** config option for product canonical - "Use product attribute for canonical". When product attribute value starts with 'http' then it is used directly. Otherwise attribute value will be appended to base URL.
+
+*swissup/module-seo-cross-links — 1.1.6 (was 1.1.2)*
+
+ -  Some optimizations and performance improvements.
+
+*swissup/module-seo-urls — 1.5.31 (was 1.5.28)*
+
+ -  Fix missing translations when category filter applied. Most often issue occurs with ajax requests in Swissup_Ajaxlayerednavigation.
+ -  Fix unable to change attribute/option label on store view. Issue occurs when identical label exists for other store view.
+
 ### Version 1.12.2
 
 > Nov 30, 2021
