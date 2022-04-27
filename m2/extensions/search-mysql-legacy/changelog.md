@@ -8,6 +8,26 @@ category: Legacy Mysql Search
 
 # Changelog
 
+### Version 1.1.2
+
+> Apr 27, 2022
+
+ -  Switch from return type mixed to ReturnTypeWillChange
+ -  Fix signature issues
+
+### Version 1.1.1
+
+> Apr 15, 2022
+
+ -  Remove non-working Match class, switch DI type
+ -  Rename Match to MatchBuilder
+
+### Version 1.1.0
+
+> Apr 7, 2022
+
+ -  Optimize some sql queries
+
 ### Version 1.0.3
 
 > Feb 2, 2022
