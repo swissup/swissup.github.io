@@ -8,6 +8,13 @@ category: Rich Snippets
 
 # Changelog
 
+### Version 1.4.18
+
+> Apr 27, 2022
+
+ -  Performance improvements for configurable products with big number of options.
+ -  Correct price for grouped product data snippet when sub product have discounts.
+
 ### Version 1.4.17
 
 > Apr 15, 2022
