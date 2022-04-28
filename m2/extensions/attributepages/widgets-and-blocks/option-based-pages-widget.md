@@ -23,5 +23,7 @@ Title | Block title (not visible if `Remove Block Wrapper` is used)
 Mode | Show options as links or images
 Show as Slider | Slide mode for images is supported
 Columns Count | Columns count to split options list
+Options to show | Option URL keys (Eg. `yellow,apple`) to show in widget
+Options to hide | Option URL keys (Eg. `yellow,apple`) to hide from display
 Group Options by First Letter | Useful to improve experience, when there are many options available
 Remove Block Wrapper | Useful while inserting block into navigation dropdown and navigation parent item is used as block title.<br/> Look at screenshot on the top of the page

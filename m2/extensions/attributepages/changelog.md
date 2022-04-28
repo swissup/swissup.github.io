@@ -7,6 +7,13 @@ category: Attributepages
 
 # Changelog
 
+### Version 1.5.0
+
+> Apr 28, 2022
+
+ -  Added ability to [filter certain options](/m2/extensions/attributepages/widgets-and-blocks/option-based-pages-widget/)
+    when using "Attributepages: Option List" widget.
+
 ### Version 1.4.5
 
 > Apr 15, 2022
