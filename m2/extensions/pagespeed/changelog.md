@@ -8,6 +8,13 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.5.6
+
+> May 5, 2022
+
+ - Fix:In PHP 8.1 Automatic conversion of false to array is deprecated (close #42)
+ - Fix: PHP 8.1 'Deprecated Functionality: explode(): Passing null to parameter #2 () of type string is deprecated'
+
 ### Version 1.5.5
 
 > Apr 27, 2022
