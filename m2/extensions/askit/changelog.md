@@ -11,6 +11,34 @@ category: AskIt
 
 # Changelog
 
+### Version 1.11.5
+
+> May 5, 2022
+
+ -  Fixed potential possibility to create question even if module is disabled
+ -  Strict type convert
+
+### Version 1.11.4
+
+> Apr 20, 2022
+
+ -  Fixed missing helper method exception after commit
+
+### Version 1.11.3
+
+> Apr 19, 2022
+
+ -  Fix JQMIGRATE: jQuery.fn.click() event shorthand is deprecated.
+ -  Fix meqp warnings
+ -  Revert last change for both PHP 8.1 and 7.4 compatiblity
+
+### Version 1.11.2
+
+> Apr 13, 2022
+
+ -  Php 8.1 - remove deprecated zend dependency (since 2.3.0), jsonSerialize must return mixed
+ -  Php 8.1 - strip_tags doesn't work with nulls
+
 ### Version 1.11.1
 
 > Jan 28, 2022
