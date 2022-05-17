@@ -6,6 +6,14 @@ category: AjaxSearch
 
 # Changelog
 
+
+### Version 1.11.20
+
+> May 17, 2022
+
+ -  WIP: category filter on breeze
+ -  Breeze theme integration updated
+
 ### Version 1.11.19
 
 > Apr 15, 2022
