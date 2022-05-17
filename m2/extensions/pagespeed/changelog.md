@@ -8,6 +8,13 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.5.7
+
+> May 17, 2022
+
+ - Fix: Don't add negative sizes
+ - Fix: Implicit incompatible float to int conversion is deprecated, float array keys
+
 ### Version 1.5.6
 
 > May 5, 2022
