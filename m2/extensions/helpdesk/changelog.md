@@ -6,6 +6,14 @@ keywords: Helpdesk changelog
 category: Helpdesk
 ---
 
+### Version 1.2.25
+
+> May 17, 2022
+
+**Fixes**
+ - Fix: PHP 8.1 compatibility. count expect countable argument, boolean given.
+ - Fixed php error in CloudCommerce on PHP 8.1 (Fixed missing nameInLayout)
+
 ### Version 1.2.24
 
 > Mar 9, 2022
