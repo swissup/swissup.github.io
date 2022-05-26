@@ -7,6 +7,13 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.3.51
+
+> May 26, 2022
+
+ -  Fixed range-slider duplicate when browse using back/forward buttons
+ -  Don't show multiple tooltip if state block is empty
+
 ### Version 1.3.50
 
 > Apr 25, 2022
