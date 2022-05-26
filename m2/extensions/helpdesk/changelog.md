@@ -6,6 +6,13 @@ keywords: Helpdesk changelog
 category: Helpdesk
 ---
 
+### Version 1.2.26
+
+> May 26, 2022
+
+**Fixes**
+ - Remove file extension part in url for some nginx conf
+
 ### Version 1.2.25
 
 > May 17, 2022
