@@ -8,6 +8,12 @@ category: Cachewarmer
 
 # Changelog
 
+### Version 1.0.18
+
+> May 26, 2022
+
+ -  Fix php 8.1 ReplaceNewDateTimeNull
+
 ### Version 1.0.17
 
 > Apr 27, 2022
