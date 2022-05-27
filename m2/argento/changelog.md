@@ -7,6 +7,85 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.31.0
+
+> May 27, 2022
+
+ -  _Theme Editor:_ Fixed logout from admin when css is not deployed yet
+ -  _Argento Pure:_ RTL fixes
+ -  _Argento Marketplace:_ Removed redundant padding for accordion tabs
+ -  _Argento Stripes:_
+      -  Fixed unable to scroll for related products carousel on product page
+      -  Fixed overlapping on 768-1024px screen sizes on contact page
+
+**Extensions Updates**
+
+  - [Ajax Search](/m2/extensions/ajaxsearch/) — 1.11.20 (was 1.11.19)
+      + Breeze theme integration updated
+  - [AMP](/m2/extensions/amp/) — 1.5.2 (was 1.5.0)
+      + Do not include query params in canonical URL
+      + Updated integration with Argento theme editor
+  - [Askit](/m2/extensions/askit/) — 1.11.5 (was 1.11.4)
+      + Fixed possibility to create a question when module is disabled
+  - [Attribute Pages](/m2/extensions/attributepages/) — 1.5.1 (was 1.4.5)
+      + Added ability to hide/show certain options in options widget
+      + Fixed error in Magento Cloud on PHP 8.1
+  - [Breeze](/m2/extensions/breeze/) — 1.11.11 (was 1.11.8)
+      + Added range slider support
+      + Fixed price update in product listing when swithing to another configurable product variation
+  - [Easybanners](/m2/extensions/easybanners/) — 1.8.2 (was 1.8.0)
+      + Fixed error in Magento Cloud on PHP 8.1
+      + Fixed error: passing null to non-nullable internal function parameter
+  - [Easytabs](/m2/extensions/easytabs/) — 1.10.3 (was 1.10.2)
+      + Fixed error in Magento Cloud on PHP 8.1
+      + Fixed missing prices in tabs loaded via ajax
+      + Fixed error: passing null to non-nullable internal function parameter
+  - [Fblike](/m2/extensions/fblike/) — 1.3.6 (was 1.3.5)
+      + Added Breeze integration
+  - [Featured Attributes](/m2/extensions/featured-attributes/) — 1.1.6 (was 1.1.5)
+      + Breeze theme integration added
+  - [GDPR](/m2/extensions/gdpr/) — 1.5.4 (was 1.5.3)
+      + PHP 8.1 fixes
+  - [Highlight](/m2/extensions/highlight/) — 1.7.27 (was 1.7.25)
+      + Performance improvement for ajax carousel on extra large screens
+      + Fixed not working "current" filter when using ajax carousel
+  - [Navigation Pro](/m2/extensions/navigationpro/) — 1.16.12 (was 1.16.11)
+      + Fixed not-working "click" menu on Magento 2.4.4 (jQuery UI conflict)
+      + PHP 8.1 compatibility: passing null to explode is deprecated
+      + Fixed transparent dropdown bug
+      + Breeze integration improvements
+  - [Pagespeed](/m2/extensions/pagespeed/) — 1.5.7 (was 1.5.4)
+      + PHP 8.1 deprecated functionality fixes
+      + Fixed getimagesize notice
+  - [ProLabels](/m2/extensions/prolabels/) — 1.6.19 (was 1.6.18)
+      + Fixed missing labels on configurable product's child products
+      + Fixed error in Magento Cloud on PHP 8.1
+      + Sold Together integration: added linked items processor
+  - [SEO Suite](/m2/extensions/seo-suite/)
+      + Fixed PHP 8.1 error: passing null to "trim" is deprecated
+      + **swissup/module-rich-snippets** — 1.4.19 (was 1.4.17)
+          * Performance improvements for configurable products with big number of options
+          * Using correct price for grouped product
+          * Fixed error: argument 1 must be of the type array, null given
+          * Fixed layout XML: 'before.body.end' is container not block
+          * AMP integration: removed separate xml layout file
+      + **swissup/module-seo-urls** — 1.5.32 (was 1.5.31)
+          * PHP 8.1 compatibility: json_decode expects string only
+      + **swissup/module-seo-templates** — 1.6.3 (was 1.6.2)
+          * Performance improvement: fixed private getter
+          * Fixed error in Magento Cloud on PHP 8.1
+      + **swissup/module-seo-canonical** — 1.11.6 (was 1.11.5)
+          * Fixed issue at attribute pages when canonical URL is missing
+      + **swissup/module-seo-cross-links** — 1.1.6 (was 1.1.5)
+          * Optimization and performance: implemented memoization for DB queries
+  - [Sold Together](/m2/extensions/soldtogether/) — 1.8.3 (was 1.8.2)
+      + Performance improvement: preload configurable attributes for configurable products
+      + Performance improvement when there are no swatches for related configurable products
+      + Fixed ability to disable "Also bought" block
+      + Do not render scripts when block doesn't have products
+  - [Testimonials](/m2/extensions/testimonials/) — 1.3.2 (was 1.3.1)
+      + Fixed error when image input is removed from the submit form
+
 ### Version 1.30.0
 
 > Apr 21, 2022
@@ -73,7 +152,7 @@ category: Argento
   - [Quantity Switcher](/m2/extensions/qty-switcher/) — 1.1.13 (was 1.1.12)
       + Breeze: improved integration with arrows mode
   - [SEO Suite](/m2/extensions/seo-suite/)
-      + **swissup/module-rich-snippets** — 1.1.17 (was 1.1.16)
+      + **swissup/module-rich-snippets** — 1.4.17 (was 1.4.16)
           * PHP 8.1 compatibility fixes
       + **swissup/module-seo-canonical** — 1.11.5 (was 1.11.4)
           * Added config to select product attribute and use it as canonical URL
