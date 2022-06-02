@@ -8,6 +8,15 @@ category: SoldTogether
 
 # Changelog
 
+### Version 1.8.3
+
+> May 26, 2022
+
+ -  Performance improvement: preload configurable attributes for configurable products.
+ -  Performance improvement when there are no swatches for related configurable products.
+ -  Fixed ability to disable “Also bought” block.
+ -  Do not render scripts when block doesn’t have products.
+
 ### Version 1.8.2
 
 > Apr 15, 2022
