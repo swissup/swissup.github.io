@@ -7,6 +7,12 @@ category: Attributepages
 
 # Changelog
 
+### Version 1.5.1
+
+> May 26, 2022
+
+ -  Fixed error in Magento Cloud on PHP 8.1.
+
 ### Version 1.5.0
 
 > Apr 28, 2022
