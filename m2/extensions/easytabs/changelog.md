@@ -8,6 +8,14 @@ category: Easy Tabs
 
 # Changelog
 
+### Version 1.10.3
+
+> May 26, 2022
+
+ -  Fixed error in Magento Cloud on PHP 8.1.
+ -  Fixed missing prices in tabs loaded via ajax.
+ -  Fixed error: passing null to non-nullable internal function parameter.
+
 ### Version 1.10.1
 
 > Apr 15, 2022
