@@ -8,6 +8,14 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.6.19
+
+> May 26, 2022
+
+ -  Fixed missing labels on configurable product’s child products.
+ -  Fixed error in Magento Cloud on PHP 8.1.
+ -  Sold Together integration: added linked items processor.
+
 ### Version 1.6.18
 
 > Apr 15, 2022
