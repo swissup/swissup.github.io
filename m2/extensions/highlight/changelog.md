@@ -8,6 +8,14 @@ category: Highlight
 
 # Changelog
 
+### Version 1.7.27
+
+> May 26, 2022
+
+ -  Performance improvement for ajax carousel on extra large screens.
+ -  Fixed not working “current” filter when using ajax carousel.
+ -  Fix animated arrows jumping when hover over carousel widget.
+
 ### Version 1.7.24
 
 > Apr 15, 2022
