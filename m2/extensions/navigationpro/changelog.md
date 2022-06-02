@@ -8,6 +8,15 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.16.12
+
+> May 27, 2022
+
+ -  Fixed not-working “click” menu on Magento 2.4.4 (jQuery UI conflict).
+ -  PHP 8.1 compatibility: passing null to explode is deprecated.
+ -  Fixed transparent dropdown bug.
+ -  Breeze integration improvements.
+
 ### Version 1.16.11
 
 > Apr 15, 2022
