@@ -8,6 +8,14 @@ category: Rich Snippets
 
 # Changelog
 
+### Version 1.4.19
+
+> May 26, 2022
+
+ -  Fixed error: argument 1 must be of the type array, null given.
+ -  Fixed layout XML: ‘before.body.end’ is container not block.
+ -  AMP integration: removed separate xml layout file.
+
 ### Version 1.4.18
 
 > Apr 27, 2022
