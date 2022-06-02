@@ -8,6 +8,13 @@ category: Easy Banners
 
 # Changelog
 
+### Version 1.8.2
+
+> May 26, 2022
+
+ -  Fixed error in Magento Cloud on PHP 8.1.
+ -  Fixed error: passing null to non-nullable internal function parameter.
+
 ### Version 1.8.0
 
 > Apr 15, 2022
