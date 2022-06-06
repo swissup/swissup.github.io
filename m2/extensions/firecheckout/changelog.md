@@ -8,6 +8,13 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.28.13
+
+> Jun 6, 2022
+
+ -  Paypal Express in-context improvement: Validate shipping information when clicking "Place Order"
+ -  Few more PHP 8.1 fixes
+
 ### Version 1.28.12
 
 > Apr 15, 2022
