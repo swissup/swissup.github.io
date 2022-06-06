@@ -182,7 +182,7 @@ If the command above doesn't work for you, try another one.
 It will run `checkout master && git pull` in each subfolder:
 
 ```bash
-for module in *; do cd $module && git checkout master && git pull && cd ../; done;
+for module in *; do cd $module && ([ -d ".git" ] && git checkout master && git pull) && cd ../; done;
 ```
 
 ### Remove all modules
