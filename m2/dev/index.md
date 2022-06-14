@@ -87,7 +87,6 @@ composer require\
     swissup/module-hreflang\
     swissup/module-helpdesk\
     swissup/module-image\
-    swissup/module-instaframe\
     swissup/module-knowledge-base\
     swissup/module-lightboxpro\
     swissup/module-maintenance\
