@@ -110,7 +110,6 @@ composer require\
     swissup/module-seo-templates\
     swissup/module-seo-urls\
     swissup/module-seo-xml-sitemap\
-    swissup/module-slick-carousel\
     swissup/module-social-core\
     swissup/module-social-login\
     swissup/module-sold-together\
