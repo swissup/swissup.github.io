@@ -11,6 +11,13 @@ category: AskIt
 
 # Changelog
 
+### Version 1.11.6
+
+> Jun 15, 2022
+
+ -  Fixed "My Questions" link visibility when module is disabled
+ -  Breeze fix: do not write fullname to the storage when submit question as guest
+
 ### Version 1.11.5
 
 > May 5, 2022
