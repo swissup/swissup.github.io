@@ -8,6 +8,12 @@ category: KnowledgeBase
 
 # Changelog
 
+### Version 1.1.6
+
+> Jun 15, 2022
+
+ -  Fix compatibility with Magento PageBuilder
+
 ### Version 1.1.5
 
 > Feb 8, 2022
