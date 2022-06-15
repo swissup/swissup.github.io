@@ -7,6 +7,12 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.3.52
+
+> Jun 15, 2022
+
+ -  Fix wrong min-max price range populating (relative #70, #73)
+
 ### Version 1.3.51
 
 > May 26, 2022
