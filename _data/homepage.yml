@@ -15,6 +15,7 @@ argento:
   urls:
     m1: /m1/argento/
     m2: /m2/argento/
+    breeze: /m2/argento-breeze/
     sh: /shopify/argento/
 
 extensions:

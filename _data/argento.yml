@@ -145,7 +145,47 @@ m2:
     - prolabels
     - qty-switcher
     - reviewreminder
-    - slick-carousel
+    - soldtogether
+    - seo-suite
+    - testimonials
+
+breeze:
+  alias: m2
+  title: Argento Breeze for Magento 2.x
+  url: /m2/argento-breeze/
+
+  articles:
+    - title: Changelog
+      url: /m2/argento-breeze/changelog/
+
+    - title: Installation
+      url: /m2/argento-breeze/installation/
+
+  themes:
+    - title: Stripes
+      url: /m2/argento-breeze/stripes/
+
+  extensions:
+    - amp
+    - ajaxpro
+    - ajaxsearch
+    - askit
+    - attributepages
+    - breeze
+    - easybanners
+    - easycatalogimages
+    - easyslider
+    - easytabs
+    - facebooklikebutton
+    - featured-attributes
+    - gdpr
+    - hover-gallery
+    - highlight
+    - navigationpro
+    - pagespeed
+    - prolabels
+    - qty-switcher
+    - reviewreminder
     - soldtogether
     - seo-suite
     - testimonials

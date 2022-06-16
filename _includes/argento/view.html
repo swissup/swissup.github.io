@@ -8,6 +8,10 @@
     </h3>
   {% endif %}
 
+  {% if include.version == 'm2' %}
+    <h4>Looking for a <a href="{{ '/m2/argento-breeze/' | prepend: site.baseurl }}">Breeze-based Argento</a> docs?</h4>
+  {% endif %}
+
   {% assign articles = group.articles %}
   {% if articles %}
     <h4>Articles</h4>
@@ -36,13 +40,18 @@
   <ul class="list-products">
     {% for id in group.extensions %}
       {% assign extension = site.data.extensions[id] %}
+      {% assign url = extension.urls[include.version] %}
 
-      {% if extension.urls[include.version] == null %}
+      {% if url == null and group.alias != null %}
+        {% assign url = extension.urls[group.alias] %}
+      {% endif %}
+
+      {% if url == null %}
         {% continue %}
       {% endif %}
 
       <li>
-        <a href="{{ extension.urls[include.version] | prepend: site.baseurl }}" title="{{ extension.title }}">{{ extension.title }}</a>
+        <a href="{{ url | prepend: site.baseurl }}" title="{{ extension.title }}">{{ extension.title }}</a>
       </li>
     {% endfor %}
   </ul>
