@@ -1,7 +1,7 @@
 <div class="gallery clearfix {{ include.class }}" itemscope itemtype="http://schema.org/ImageGallery">
     {% for image in include.images %}
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
-        <a href="{{ image.href | prepend: site.baseurl }}" itemprop="contentUrl" data-size="{{image.w}}x{{image.h}}">
+        <a href="{{ image.href | prepend: site.baseurl }}" itemprop="contentUrl" data-size="{{image.w | divided_by: 2}}x{{image.h | divided_by: 2}}">
             {% if image.alt %}
                 {% assign alt = image.alt %}
             {% else %}
