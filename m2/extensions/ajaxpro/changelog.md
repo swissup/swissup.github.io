@@ -6,24 +6,30 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.6.7
+
+> June 23, 2022
+
+ - Fix checking isGlobal customer-data-reload (close #39)
+
 ### Version 1.6.6
 
 > June 22, 2022
 
- -  Fix for currency switching bug
- -  Add config option for popup close timeout (close #38)
+ - Fix for currency switching bug
+ - Add config option for popup close timeout (close #38)
 
 ### Version 1.6.5
 
 > June 6, 2022
 
- -  Allow to change quick-view icon color via css
+ - Allow to change quick-view icon color via css
 
 ### Version 1.6.4
 
 > Apr 15, 2022
 
- -  Magento Coding Standard fixes.
+ - Magento Coding Standard fixes.
 
 ### Version 1.6.2
 
