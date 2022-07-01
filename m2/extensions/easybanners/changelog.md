@@ -8,6 +8,12 @@ category: Easy Banners
 
 # Changelog
 
+### Version 1.8.4
+
+> Jul 1, 2022
+
+ -  Fixed missing blocks when added using widget interface
+
 ### Version 1.8.2
 
 > May 26, 2022
