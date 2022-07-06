@@ -10,6 +10,24 @@ category: Akismet
 
 # Changelog
 
+### Version 1.2.7
+
+> Jul 6, 2022
+
+- Fix phpstan errors
+
+### Version 1.2.6
+
+> Apr 15, 2022
+
+- Fix MEQP errors
+
+### Version 1.2.3-5
+
+> 11 Aug, 2021
+
+- Fix Exception\ExceptionInterface not found
+
 ### Version 1.2.1
 
 > Nov 15, 2019
