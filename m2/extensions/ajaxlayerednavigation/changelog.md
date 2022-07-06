@@ -7,6 +7,18 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.3.54
+
+> Jun 16, 2022
+
+ -  Fix phpstan errors
+
+### Version 1.3.53
+
+> Jun 16, 2022
+
+ -  Breeze theme fix
+
 ### Version 1.3.52
 
 > Jun 15, 2022
