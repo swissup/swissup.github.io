@@ -8,6 +8,12 @@ category: Cachewarmer
 
 # Changelog
 
+### Version 1.0.19
+
+> Jul 8, 2022
+
+ -  Fix phpstan errors
+
 ### Version 1.0.18
 
 > May 26, 2022
