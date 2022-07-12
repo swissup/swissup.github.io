@@ -8,7 +8,7 @@ category: Checkout Fields
 
 # Changelog
 
-### Version 1.6.4
+### Version 1.6.5
 
 > Jul 12, 2022
 
