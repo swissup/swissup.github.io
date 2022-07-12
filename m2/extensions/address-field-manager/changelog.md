@@ -8,6 +8,13 @@ category: Address Field Manager
 
 # Changelog
 
+### Version 1.6.8
+
+> Jul 12, 2022
+
+ -  Fixed possible error "Call to a member function getData() on null" when
+    virtual product is used.
+
 ### Version 1.6.7
 
 > Apr 15, 2022

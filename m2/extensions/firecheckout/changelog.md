@@ -8,6 +8,33 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.28.16
+
+> Jul 12, 2022
+
+ -  Fixed possible js error on initial page load.
+ -  MageWorx_MultiFees integration (reload totals after fee update).
+
+**Address Fields Manager**
+
+ -  Fixed possible error "Call to a member function getData() on null" when
+    virtual product is used.
+
+**Checkout Fields**
+
+ -  Fixed undefined array key warning when edit additional fields via order grid.
+ -  Fixed saving checkbox field in backend order management.
+ -  PHP 8.1 fixes.
+
+**Checkout Registration**
+
+ -  Fixed compatibility with VRPay payment method.
+
+**Checkout Success**
+
+ -  Fix PHP error when order has no shipping address and directive
+    `{{orderShippingAddress}}` is used on success page.
+
 ### Version 1.28.13
 
 > Jun 6, 2022

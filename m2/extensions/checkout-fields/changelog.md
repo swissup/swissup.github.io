@@ -8,6 +8,14 @@ category: Checkout Fields
 
 # Changelog
 
+### Version 1.6.4
+
+> Jul 12, 2022
+
+ -  Fixed undefined array key warning when edit additional fields via order grid.
+ -  Fixed saving checkbox field in backend order management.
+ -  PHP 8.1 fixes.
+
 ### Version 1.6.1
 
 > Feb 7, 2022

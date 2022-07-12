@@ -8,7 +8,14 @@ category: Checkout Success
 
 # Changelog
 
-### Version 1.4.13
+### Version 1.4.16
+
+> Jul 12, 2022
+
+ -  Fix PHP error when order has no shipping address and directive
+    `{{orderShippingAddress}}` is used on success page.
+
+### Version 1.4.15
 
 > Apr 15, 2022
 

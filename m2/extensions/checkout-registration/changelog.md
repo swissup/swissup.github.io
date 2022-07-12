@@ -7,6 +7,12 @@ category: Checkout Registration
 
 # Changelog
 
+### Version 1.1.8
+
+> Jul 12, 2022
+
+ -  Fixed compatibility with VRPay payment method.
+
 ### Version 1.1.7
 
 > Feb 8, 2022
