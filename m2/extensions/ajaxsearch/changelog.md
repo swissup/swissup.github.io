@@ -6,6 +6,24 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.11.23
+
+> Jul 14, 2022
+
+ - Improve code quality (MCS, phpstan)
+
+### Version 1.11.22
+
+> Jun 17, 2022
+
+ -  Breeze prefix for inverted colors
+ -  Breeze theme fix
+
+### Version 1.11.21
+
+> Jun 9, 2022
+
+ -  Breeze theme: fixed error with undefined less variable
 
 ### Version 1.11.20
 
