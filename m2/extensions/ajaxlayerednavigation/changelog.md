@@ -7,6 +7,14 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.3.55
+
+> Juj 14, 2022
+
+ -  Fix perfomance for getProductCollection in price range init
+ -  Improve code style
+ -  Fix MCS --severity=8-6
+
 ### Version 1.3.54
 
 > Jun 16, 2022
