@@ -8,6 +8,14 @@ category: Email
 
 # Changelog
 
+### Version 0.5.3
+
+> Jul 14, 2022
+
+**Fixes**
+ - Add performance index for swissup_email_history table
+ - Fix phpstan errors
+
 ### Version 0.5.2
 
 > Jan 31, 2022
