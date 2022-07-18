@@ -6,6 +6,14 @@ keywords: Helpdesk changelog
 category: Helpdesk
 ---
 
+### Version 1.2.27
+
+> Jul 18, 2022
+
+**Fixes**
+ - Improve code quality
+ - Fix MCS warnings
+
 ### Version 1.2.26
 
 > May 26, 2022
