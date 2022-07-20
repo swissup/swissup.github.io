@@ -7,9 +7,15 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.3.56
+
+> Jul 20, 2022
+
+ -  Fix attribute don't work (#76)
+
 ### Version 1.3.55
 
-> Juj 14, 2022
+> Jul 14, 2022
 
  -  Fix perfomance for getProductCollection in price range init
  -  Improve code style
