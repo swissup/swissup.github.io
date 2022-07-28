@@ -54,6 +54,7 @@ composer require\
     swissup/module-askit\
     swissup/module-attributepages\
     swissup/module-breeze\
+    swissup/module-breeze-integrations\
     swissup/module-checkout\
     swissup/module-checkout-cart\
     swissup/module-checkout-fields\
@@ -143,6 +144,7 @@ composer require\
     swissup/theme-frontend-argento-marketplace\
     swissup/theme-frontend-argento-luxury\
     swissup/theme-frontend-argento-stripes\
+    swissup/theme-frontend-argentobreeze-stripes\
     swissup/theme-frontend-breeze-blank\
     swissup/module-tippyjs\
     --prefer-source &&\
