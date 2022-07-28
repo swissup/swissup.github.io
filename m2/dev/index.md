@@ -144,6 +144,7 @@ composer require\
     swissup/theme-frontend-argento-marketplace\
     swissup/theme-frontend-argento-luxury\
     swissup/theme-frontend-argento-stripes\
+    swissup/theme-frontend-argentobreeze-blank\
     swissup/theme-frontend-argentobreeze-stripes\
     swissup/theme-frontend-breeze-blank\
     swissup/module-tippyjs\
