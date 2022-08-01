@@ -15,146 +15,125 @@ Applying field mask and validation code during typing a code.
  2. Put this js code in your custom.js file.
 
     ```js
-    define([
-        'jquery',
-        'underscore',
-        'Swissup_Firecheckout/js/utils/form-field/mask',
-        'Swissup_Firecheckout/js/utils/form-field/validator'
-    ], function ($, _, mask, validator) {
-        'use strict';
+   define([
+     'jquery',
+     'underscore',
+     'Swissup_Firecheckout/js/utils/form-field/mask',
+     'Swissup_Firecheckout/js/utils/form-field/validator',
+     'mage/translate'
+   ], function ($, _, mask, validator, $t) {
+       'use strict';
 
-        //define address form in which need to use the CPF/CNPJ code
-        var scopes = [
-            '.form-shipping-address',
-            '.billing-address-form'
-        ];
+       // validation of CNPJ code
+       function validateCNPJ(num) {
+           var result,
+               numSize = num.length - 2,
+               numbers = num.substring(0,numSize),
+               lastDigits = num.substring(numSize),
+               sum = 0,
+               pos = numSize - 7;
 
-        _.each(scopes, function (scope) {
+           for (var i = numSize; i >= 1; i--) {
+             sum += numbers.charAt(numSize - i) * pos--;
+             if (pos < 2) pos = 9;
+           }
+           result = sum % 11 < 2 ? 0 : 11 - sum % 11;
+           if (result != lastDigits.charAt(0)) return false;
 
-            //set a field mask according to cpf/cnpj code
-            mask(scope + ' [name="vat_id"]', {
-                guide: false,
-                mask: function (raw) {
-                    var mask = [/\d/, /\d/,'.',/\d/,/\d/,/\d/,'.',/\d/,/\d/,/\d/,'/',/\d/,/\d/,/\d/,/\d/,'-',/\d/,/\d/];
+           numSize = numSize + 1;
+           numbers = num.substring(0,numSize);
+           sum = 0;
+           pos = numSize - 7;
+           for (var i = numSize; i >= 1; i--) {
+             sum += numbers.charAt(numSize - i) * pos--;
+             if (pos < 2) pos = 9;
+           }
+           result = sum % 11 < 2 ? 0 : 11 - sum % 11;
+           if (result != lastDigits.charAt(1)) return false;
 
-                    if (raw.length == 14) {
-                        mask = [/\d/, /\d/, /\d/,'.',/\d/,/\d/,/\d/,'.',/\d/,/\d/,/\d/,'-',/\d/,/\d/];
-                    }
+           return true;
+       }
 
-                    return mask;
-                }
-            });
+       // validation of CPF code
+       function validateCPF(num) {
+           var sum = 0, checkResult,
+               firstCN = parseInt(num.substring(9, 10), 10),
+               secondCN = parseInt(num.substring(10, 11), 10);
 
-            //validation cpf/cnpj code
-             validator(scope + ' [name="vat_id"]', {
-                'lazy': false,
-                'fc-custom-rule-vatid': {
-                        handler: function (value) {
-                        var strNumbers, splNumbers;
-                            splNumbers = value.split(/[\/\.-]/);
-                            strNumbers = splNumbers.join("");
+           checkResult = function(sum, cn) {
+              var result = (sum * 10) % 11;
+              if ((result === 10) || (result === 11)) {result = 0;}
+              return (result === cn);
+           };
 
-                        if (value.length == 18) {
+           // validate first Check Number
+           for (var i = 1; i <= 9; i++ ) {
+               sum = sum + parseInt(num.substring(i - 1, i), 10) * (11 - i);
+           }
 
-                            var cnpj = new RegExp(/^([0-9]{2}(.)[0-9]{3}(.)[0-9]{3}(\/)[0-9]{4}(-)[0-9]{2})$/).test(value);
+           // validate second Check Number
+           if ( checkResult(sum, firstCN) ) {
+               sum = 0;
+               for (var i = 1; i <= 10; i++ ) {
+               sum = sum + parseInt(num.substring(i - 1, i), 10) * (12 - i);
+               }
+               return checkResult(sum, secondCN);
+           }
+       }
 
-                            // Checking for known cnpj invalid code
-                            if ( cnpj &&  strNumbers == "00000000000000" ||
-                                          strNumbers == "11111111111111" ||
-                                          strNumbers == "22222222222222" ||
-                                          strNumbers == "33333333333333" ||
-                                          strNumbers == "44444444444444" ||
-                                          strNumbers == "55555555555555" ||
-                                          strNumbers == "66666666666666" ||
-                                          strNumbers == "77777777777777" ||
-                                          strNumbers == "88888888888888" ||
-                                          strNumbers == "99999999999999"
-                                )
-                                    { return false; }
+       // define scope form which will be using for validation CPF/CNPJ code
+       var scopes = [
+           '.form-shipping-address',
+           '.billing-address-form'
+       ];    
 
-                            var numSize, numbers, lastDigits, sum, pos, result;
+       _.each(scopes, function (scope) {
+           // set a field mask according to cpf/cnpj code
+           mask(scope + ' [name="vat_id"]', {
+               guide: false,
+               mask: function (raw) {
+                   var mask = [/\d/, /\d/,'.',/\d/,/\d/,/\d/,'.',/\d/,/\d/,/\d/,'/',/\d/,/\d/,/\d/,/\d/,'-',/\d/,/\d/];
 
-                                numSize = strNumbers.length - 2
-                                numbers = strNumbers.substring(0,numSize);
-                                lastDigits = strNumbers.substring(numSize);
-                                sum = 0;
-                                pos = numSize - 7;
+                   if (raw.length == 14) {
+                       mask = [/\d/, /\d/, /\d/,'.',/\d/,/\d/,/\d/,'.',/\d/,/\d/,/\d/,'-',/\d/,/\d/];
+                   }
+                   
+                   return mask;
+               }
+           });
 
-                            for (i = numSize; i >= 1; i--) {
-                              sum += numbers.charAt(numSize - i) * pos--;
-                              if (pos < 2) pos = 9;
-                            }
-                            result = sum % 11 < 2 ? 0 : 11 - sum % 11;
-                            if (result != lastDigits.charAt(0)) return false;
+           validator(scope + ' [name="vat_id"]', {
+               'lazy': false,
+               'fc-custom-rule-vatid': {
+                   handler: function (value) {
+                       var strNumbers,
+                           splNumbers = value.split(/[\/\.-]/);
+                           strNumbers = splNumbers.join("");
 
-                            numSize = numSize + 1;
-                            numbers = strNumbers.substring(0,numSize);
-                            sum = 0;
-                            pos = numSize - 7;
-                            for (i = numSize; i >= 1; i--) {
-                              sum += numbers.charAt(numSize - i) * pos--;
-                              if (pos < 2) pos = 9;
-                            }
-                            result = sum % 11 < 2 ? 0 : 11 - sum % 11;
-                            if (result != lastDigits.charAt(1)) return false;
+                       // validate invalid code like: 00000000000000, 11111111111111, etc;
+                       if(/^([0-9])\1*$/.test(strNumbers)) {
+                           return false;
+                       }                        
 
-                            return cnpj;
+                       if (value.length == 18) {
+                           var cnpj = new RegExp(/^([0-9]{2}(.)[0-9]{3}(.)[0-9]{3}(\/)[0-9]{4}(-)[0-9]{2})$/).test(value);                        
+                           if (cnpj) {                            
+                               return validateCNPJ(strNumbers);
+                           }
+                       } else {
+                           var cpf = new RegExp(/^([0-9]{3}(.)[0-9]{3}(.)[0-9]{3}(-)[0-9]{2})$/).test(value);                        
+                           if (cpf) {                            
+                               return validateCPF(strNumbers);   
+                           }
 
-                        }else {
-                            var cpf, sum = 0,
-                                firstCN, secondCN, checkResult;
-
-                            cpf = new RegExp(/^([0-9]{3}(.)[0-9]{3}(.)[0-9]{3}(-)[0-9]{2})$/).test(value);
-
-                            firstCN = parseInt(strNumbers.substring(9, 10), 10);
-                            secondCN = parseInt(strNumbers.substring(10, 11), 10);
-
-                            checkResult = function(sum, cn) {
-                            var result = (sum * 10) % 11;
-                            if ((result === 10) || (result === 11)) {result = 0;}
-                                return (result === cn);
-                            };
-
-                            // Checking for known cpf invalid code
-                             if (cpf && strNumbers == "00000000000" ||
-                                        strNumbers == "11111111111" ||
-                                        strNumbers == "22222222222" ||
-                                        strNumbers == "33333333333" ||
-                                        strNumbers == "44444444444" ||
-                                        strNumbers == "55555555555" ||
-                                        strNumbers == "66666666666" ||
-                                        strNumbers == "77777777777" ||
-                                        strNumbers == "88888888888" ||
-                                        strNumbers == "99999999999"
-                                )
-                                { return false; }
-
-                            // validate first Check Number:
-                            for (var i = 1; i <= 9; i++ ) {
-                                sum = sum + parseInt(strNumbers.substring(i - 1, i), 10) * (11 - i);
-                            }
-
-                            // validate second Check Number:
-                            if ( checkResult(sum, firstCN) ) {
-                                sum = 0;
-                                for (var i = 1; i <= 10; i++ ) {
-                                sum = sum + parseInt(strNumbers.substring(i - 1, i), 10) * (12 - i);
-                                }
-                                return checkResult(sum, secondCN);
-                            }
-
-                          return false;
-
-                        }
-
-                    },
-                    message: $t('Invalid vat ID ')
-                }
-            });
-
-
-        });
-    });
+                           return false;
+                       }
+                   },
+                   message: $t('Invalid Code ')
+               }
+           });
+       });
+   });
     ```
 
  3. Save the file and run following bash commands to deploy script:
