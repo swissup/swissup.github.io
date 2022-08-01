@@ -8,6 +8,13 @@ category: Review Reminder
 
 # Changelog
 
+### Version 1.1.11
+
+> Aug 1, 2022
+
+  - Fixed error when order contains deleted products
+  - Converted install script to declarative schema
+
 ### Version 1.1.10
 
 > Aug 2, 2021
