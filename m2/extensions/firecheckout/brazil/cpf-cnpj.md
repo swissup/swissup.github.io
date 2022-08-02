@@ -41,11 +41,69 @@ magento field "vat_id" and the firecheckout module.
         'Swissup_Firecheckout/js/utils/form-field/dependency',
         'Swissup_Firecheckout/js/utils/form-field/mask',
         'Swissup_Firecheckout/js/utils/form-field/validator',
-        'Swissup_Firecheckout/js/utils/form-field/watcher'
-    ], function ($, _, label, dependency, mask, validator, watcher) {
+        'Swissup_Firecheckout/js/utils/form-field/watcher',
+        'mage/translate'
+    ], function ($, _, label, dependency, mask, validator, watcher, $t) {
         'use strict';
 
-        //define address form in which need to use the CPF/CNPJ code
+        // validation of CNPJ code
+        function validateCNPJ(num) {
+            var result,
+                numSize = num.length - 2,
+                numbers = num.substring(0,numSize),
+                lastDigits = num.substring(numSize),
+                sum = 0,
+                pos = numSize - 7;
+
+            for (var i = numSize; i >= 1; i--) {
+                sum += numbers.charAt(numSize - i) * pos--;
+                if (pos < 2) pos = 9;
+            }
+            result = sum % 11 < 2 ? 0 : 11 - sum % 11;
+            if (result != lastDigits.charAt(0)) return false;
+
+            numSize = numSize + 1;
+            numbers = num.substring(0,numSize);
+            sum = 0;
+            pos = numSize - 7;
+            for (var i = numSize; i >= 1; i--) {
+                sum += numbers.charAt(numSize - i) * pos--;
+                if (pos < 2) pos = 9;
+            }
+            result = sum % 11 < 2 ? 0 : 11 - sum % 11;
+            if (result != lastDigits.charAt(1)) return false;
+
+            return true;
+        }
+
+        // validation of CPF code
+        function validateCPF(num) {
+            var sum = 0, checkResult,
+                firstCN = parseInt(num.substring(9, 10), 10),
+                secondCN = parseInt(num.substring(10, 11), 10);
+
+            checkResult = function(sum, cn) {
+                var result = (sum * 10) % 11;
+                if ((result === 10) || (result === 11)) {result = 0;}
+                return (result === cn);
+            };
+
+            // validate first Check Number
+            for (var i = 1; i <= 9; i++ ) {
+                sum = sum + parseInt(num.substring(i - 1, i), 10) * (11 - i);
+            }
+
+            // validate second Check Number
+            if ( checkResult(sum, firstCN) ) {
+                sum = 0;
+                for (var i = 1; i <= 10; i++ ) {
+                    sum = sum + parseInt(num.substring(i - 1, i), 10) * (12 - i);
+                }
+                return checkResult(sum, secondCN);
+            }
+        }
+
+        // define scope form which will be using for validation CPF/CNPJ code
         var scopes = [
             '.form-shipping-address',
             '.checkout-billing-address'
@@ -66,7 +124,6 @@ magento field "vat_id" and the firecheckout module.
             });
 
             // set mask CPF/CNPJ field
-
             mask(scope + ' [name="vat_id"]', {
                 guide: false,
                 mask: function (raw) {
@@ -82,7 +139,6 @@ magento field "vat_id" and the firecheckout module.
             });
 
             //update mask and lable according to custom_attributes
-
             watcher(scope + ' [name="custom_attributes[person_company]"]', function (value) {
                 var el = $(scope + ' [name="vat_id"]'),
                     originalValue = el.val();
@@ -101,107 +157,33 @@ magento field "vat_id" and the firecheckout module.
                 }
             });
 
-            //validation of the CPF/CNPJ field
-
             validator('[name="vat_id"]', {
                 'lazy': true,
                 'fc-custom-rule-vatid': {
-                        handler: function (value) {
-                        var spNumbers;                            
-                            spNumbers = value.split(/[\/\.-]/);
+                    handler: function (value) {
+                        var spNumbers = value.split(/[\/\.-]/);
+
+                        // validate invalid code like: 00000000000000, 11111111111111, etc;
+                        if(/^([0-9])\1*$/.test(spNumbers)) {
+                            return false;
+                        }
 
                         if ($(scope + ' [name="custom_attributes[cpf_cnpj]"]').val() == NUM2) {
                             var cnpj = new RegExp(/^([0-9]{2}(.)[0-9]{3}(.)[0-9]{3}(\/)[0-9]{4}(-)[0-9]{2})$/).test(value);
-                            
-                            // Checking for known cnpj invalid code
-                        if ( cnpj && spNumbers.length != 14 || 
-                              spNumbers == "00000000000000" || 
-                              spNumbers == "11111111111111" || 
-                              spNumbers == "22222222222222" || 
-                              spNumbers == "33333333333333" || 
-                              spNumbers == "44444444444444" || 
-                              spNumbers == "55555555555555" || 
-                              spNumbers == "66666666666666" || 
-                              spNumbers == "77777777777777" || 
-                              spNumbers == "88888888888888" || 
-                              spNumbers == "99999999999999")
-                            { return false; }
-                             
-                        var numSize, numbers, lastDigits, sum, pos, result;
-                            
-                            numSize = spNumbers.length - 2
-                            numbers = spNumbers.substring(0,numSize);
-                            lastDigits = spNumbers.substring(numSize);
-                            sum = 0;
-                            pos = numSize - 7;
-                        
-                        for (i = numSize; i >= 1; i--) {
-                          sum += numbers.charAt(numSize - i) * pos--;
-                          if (pos < 2) pos = 9;
-                        }
-                        result = sum % 11 < 2 ? 0 : 11 - sum % 11;
-                        if (result != lastDigits.charAt(0)) return false;
-                             
-                        numSize = numSize + 1;
-                        numbers = spNumbers.substring(0,numSize);
-                        sum = 0;
-                        pos = numSize - 7;
-                        for (i = numSize; i >= 1; i--) {
-                          sum += numbers.charAt(numSize - i) * pos--;
-                          if (pos < 2) pos = 9;
-                        }
-                        result = sum % 11 < 2 ? 0 : 11 - sum % 11;
-                        if (result != lastDigits.charAt(1)) return false;
-                               
-                        return cnpj;
-                          
-                        }else {                            
-                            var cpf, sum = 0,
-                            firstCN, secondCN, checkResult;
-                            
-                            cpf = new RegExp(/^([0-9]{3}(.)[0-9]{3}(.)[0-9]{3}(-)[0-9]{2})$/).test(value);
-                            
-                            firstCN = parseInt(spNumbers.substring(9, 10), 10);
-                            secondCN = parseInt(spNumbers.substring(10, 11), 10);
-
-                            checkResult = function(sum, cn) {
-                            var result = (sum * 10) % 11;
-                            if ((result === 10) || (result === 11)) {result = 0;}
-                            return (result === cn);
-                            };
-
-                            // Checking for known cpf invalid code
-                            if ( cpf && spNumbers.length != 11 || 
-                                    spNumbers == "00000000000" || 
-                                    spNumbers == "11111111111" || 
-                                    spNumbers == "22222222222" || 
-                                    spNumbers == "33333333333" || 
-                                    spNumbers == "44444444444" || 
-                                    spNumbers == "55555555555" || 
-                                    spNumbers == "66666666666" || 
-                                    spNumbers == "77777777777" || 
-                                    spNumbers == "88888888888" || 
-                                    spNumbers == "99999999999" )
-                            { return false; }
-
-                            // validate first Check Number:
-                            for (var i = 1; i <= 9; i++ ) {
-                                sum = sum + parseInt(spNumbers.substring(i - 1, i), 10) * (11 - i);
+                            if (cnpj) {
+                                return validateCNPJ(spNumbers);
                             }
-
-                            // validate second Check Number:
-                            if ( checkResult(sum, firstCN) ) {
-                                sum = 0;
-                                for (var i = 1; i <= 10; i++ ) {
-                                sum = sum + parseInt(spNumbers.substring(i - 1, i), 10) * (12 - i);
-                                }
-                                return checkResult(sum, secondCN);
+                        } else {
+                            var cpf = new RegExp(/^([0-9]{3}(.)[0-9]{3}(.)[0-9]{3}(-)[0-9]{2})$/).test(value);
+                            if (cpf) {
+                                return validateCPF(spNumbers);
                             }
                             
-                          return false;                            
+                            return false;
                         }
                     },
-                    message: $t('Invalid vat ID ')
+
+                    message: $t('Invalid Code')
                 }
             });
         });

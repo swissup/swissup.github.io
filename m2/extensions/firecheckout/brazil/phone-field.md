@@ -21,15 +21,16 @@ category: Firecheckout
 
     ```js
         define([
-        'jquery',
-        'underscore',
-        'Swissup_Firecheckout/js/utils/form-field/mask',
-        'Swissup_Firecheckout/js/utils/form-field/placeholder'
+            'jquery',
+            'underscore',
+            'Swissup_Firecheckout/js/utils/form-field/mask',
+            'Swissup_Firecheckout/js/utils/form-field/placeholder'
         ], function ($, _, mask, placeholder) {
             'use strict';
 
+            // define scope form which will be using to set the phone-mask
             var scopes = [
-                '.form-shipping-address',  //define address form in which need to set the phone-mask
+                '.form-shipping-address',
                 '.form-billing-address'
             ];
 
