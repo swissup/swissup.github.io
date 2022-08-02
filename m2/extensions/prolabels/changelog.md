@@ -8,6 +8,12 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.6.20
+
+> Jun 17, 2022
+
+ - Breeze integration - minor improve of CSS. Fixed jumping product name when line-clamp is used
+
 ### Version 1.6.19
 
 > May 26, 2022
