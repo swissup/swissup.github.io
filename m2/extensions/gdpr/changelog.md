@@ -8,6 +8,12 @@ category: GDPR
 
 # Changelog
 
+### Version 1.5.8
+
+> Aug 5, 2022
+
+ -  GA4 cookies added to the known cookies list.
+
 ### Version 1.5.2
 
 > Apr 15, 2022

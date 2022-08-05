@@ -8,6 +8,12 @@ category: Address Field Manager
 
 # Changelog
 
+### Version 1.6.9
+
+> Aug 5, 2022
+
+ -  Improved Firecheckout "Order Review" integration.
+
 ### Version 1.6.8
 
 > Jul 12, 2022

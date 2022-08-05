@@ -8,6 +8,23 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.28.19
+
+> Aug 5, 2022
+
+ -  Cleanup layout from fullscreen loaders. Make them less noticeable.
+ -  Reduce validateDelay to instantly react on user input.
+ -  Prevent possible 302 redirect to shopping cart.
+ -  [BreezeTheme](https://breezefront.com) CSS compatibility fixes.
+
+**Address Fields Manager**
+
+ -  Do not show "Disabled" label in order review section when custom checkbox field is used.
+
+**GeoIP**
+
+ -  Fixed incorrect address detection when site uses Sucuri or CloudFlare protection.
+
 ### Version 1.28.16
 
 > Jul 12, 2022

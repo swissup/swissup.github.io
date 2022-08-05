@@ -7,6 +7,12 @@ category: Checkout Registration
 
 # Changelog
 
+### Version 1.1.9
+
+> Aug 5, 2022
+
+ -  Fixed possible undefined 'async' error.
+
 ### Version 1.1.8
 
 > Jul 12, 2022
