@@ -44,6 +44,7 @@ Enable Advanced JavaScript Bundling (RequireJs)*| Allows to eneble/disable [Adva
 RequireJS Bundle Generator Build Config         | r.js optimize tool config. [RequireJS bundle config generating](https://github.com/magento/m2-devtools/blob/master/docs/panels/RequireJS.md#bundle-generator)
 Minify JavaScript Files                         | Allows to enable/disable minify javascripts files (Yes)
 
+<!--
 #### If you want to enable 'Advanced JavaScript Bundling', you have to do some steps first:
 
 1. Disable 'Merge JavaScript Files', 'Enable JavaScript Bundling' and 'Minify JavaScript Files' before.
@@ -57,6 +58,7 @@ Minify JavaScript Files                         | Allows to enable/disable minif
 9. Enable Merge JavaScript Files
 10. Flush Cache
 11. Reload a homepage
+-->
 
 #### Deferred javascripts
 
@@ -91,7 +93,7 @@ Merge custom critical css files from your theme | Enable/disable custom critical
 
 Before images can be optimized, you will need to install the Optimizers as described in article
 
-~~~~
+```bash
 sudo apt install jpegoptim
 sudo apt install optipng
 sudo apt install pngquant
@@ -100,7 +102,7 @@ sudo apt install gifsicle
 sudo apt-get install webp
 
 php bin/magento catalog:images:resize
-~~~
+```
 
 Also you can use our improved command.
 
@@ -118,6 +120,7 @@ Options:
       --with-custom[=WITH-CUSTOM]    If set, the task will resize custom images [default: true]
       --with-product[=WITH-PRODUCT]  If set, the task will resize catalog images [default: true]
 ...
+
 ```
 
 It creates resized and optimized product and some custom media images and their responsive duplicates 0.5x 0.75x 2x 3x. Custom dirs are wysiwyg, catalog/category, easybanner, easyslide, swissup, highlight, easycatalogimg, prolabels, testimonials, mageplaza inside pub/media.
