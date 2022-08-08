@@ -7,6 +7,20 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.3.58
+
+> Aug 8, 2022
+
+ - Fix getRemoveUrl logic
+ - Fix wrong enconing in state
+
+### Version 1.3.57
+
+> Aug 1, 2022
+
+ - Refix #73 (getLiteCollection)
+ - Prevent WHERE AND Sql error
+
 ### Version 1.3.56
 
 > Jul 20, 2022
