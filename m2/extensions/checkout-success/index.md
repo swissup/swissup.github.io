@@ -29,7 +29,7 @@ additional content and quick customer registration when order placed by guest.
 
 Check video below to see how drag-and-drop interface and preview feature works.
 
-<iframe src="https://player.vimeo.com/video/238076662?color=ffffff&title=0&byline=0&portrait=0" width="720" height="420" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+![Checkout Success layout builder](/images/m2/checkout-success/builder-2.0.gif)
 
 ### Contents
 

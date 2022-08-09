@@ -50,23 +50,12 @@ Check ["Miscellaneous scripts snippets"](../miscellaneous-scripts-snippets/) pag
 
 ### Page Layout
 
-![Checkout Success system config layout](/images/m2/checkout-success/settings-layout.png)
+![Checkout Success system config layout](/images/m2/checkout-success/settings-layout-2.0.png)
 
-Section `Layout` provides easy to use drag-and-drop interface to modify
-checkout success page layout. Success page constructed with predefinded blocks that can be arranged in any way you want.
+Section `Layout` allows you to preview your checkout success page for any order you have. Other powerfull tool is layout **Builder** for uccess page. Builder helps you to construct your own unique layout and engage customer come back to your store.
 
-`Blocks available on Success Page` is a list of available blocks. It can not be edited. You can only grab one of that blocks and drop it on success page layout field.
+Button `Preview page` starts full page preview for order (number set in the input field near by).
 
-`Layout of Success Page` is a schematic representation of success page. Extension divides page content on four segments - top, bottom, middle-left and
-middle-right. You can move blocks from one segment to other. You can delete block by clicking on trash bin icon in right side of block (appears when hover
-over block).
+Button `Builder` starts layout builder for success page. You can rearange page elements and add new ones. For example CMS blocks,  additional checkout fields (requires our module) and/or  delivary date (requires our module).
 
-In "Page Layout" section you can find very useful feature - preview success
-page. Input order number in `Order # to preview` and press button
-`Save and Start Preview`.
-
-### Cms Blocks
-
-![Checkout Success system config cms blocks](/images/m2/checkout-success/settings-blocks.png)
-
-In this section you can assign CMS block to respective block on checkout success page.
+![Layout builder](/images/m2/checkout-success/settings-layout-2.0--builder.png)
