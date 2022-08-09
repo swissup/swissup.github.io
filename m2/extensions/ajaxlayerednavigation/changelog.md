@@ -7,6 +7,12 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.3.59
+
+> Aug 9, 2022
+
+ - Don't change url in multiple mode (Fix qty logic errors)
+
 ### Version 1.3.58
 
 > Aug 8, 2022
