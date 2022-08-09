@@ -8,6 +8,12 @@ category: Checkout Fields
 
 # Changelog
 
+### Version 1.6.6
+
+> Aug 9, 2022
+
+ - Update integration with Checkout Success module.
+
 ### Version 1.6.5
 
 > Jul 12, 2022
