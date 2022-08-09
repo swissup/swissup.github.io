@@ -7,6 +7,13 @@ category: Delivery Date
 
 # Changelog
 
+### Version 1.7.4
+
+> Aug 9, 2022
+
+ - Update integration with Checkout Success module.
+ - Compatibility with PHP 8.1.
+
 ### Version 1.7.2
 
 > Apr 15, 2022
