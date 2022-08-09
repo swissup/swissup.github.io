@@ -8,6 +8,13 @@ category: KnowledgeBase
 
 # Changelog
 
+### Version 1.1.7
+
+> Aug 9, 2022
+
+ - Fix phpstan
+ - Improve graphql schema
+
 ### Version 1.1.6
 
 > Jun 15, 2022
