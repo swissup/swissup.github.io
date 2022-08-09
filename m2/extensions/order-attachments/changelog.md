@@ -7,6 +7,12 @@ category: Order Attachments
 
 # Changelog
 
+### Version 1.4.17
+
+> Aug 9, 2022
+
+ - Update integration with Checkout Success module.
+
 ### Version 1.4.16
 
 > Apr 15, 2022
