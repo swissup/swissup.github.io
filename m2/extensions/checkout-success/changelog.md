@@ -7,6 +7,11 @@ category: Checkout Success
 ---
 
 # Changelog
+### Version 2.0.0
+
+> Aug 9, 2022
+
+ - Totally reimagened Checkout Success Page layout builder.
 
 ### Version 1.4.16
 
