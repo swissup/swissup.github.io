@@ -8,23 +8,29 @@ category: Cachewarmer
 
 # Changelog
 
+### Version 1.0.20
+
+> Aug 10, 2022
+
+ - Fix di warnings
+
 ### Version 1.0.19
 
 > Jul 8, 2022
 
- -  Fix phpstan errors
+ - Fix phpstan errors
 
 ### Version 1.0.18
 
 > May 26, 2022
 
- -  Fix php 8.1 ReplaceNewDateTimeNull
+ - Fix php 8.1 ReplaceNewDateTimeNull
 
 ### Version 1.0.17
 
 > Apr 27, 2022
 
- -  update guzzle require
+ - Update guzzle require
 
 ### Version 1.0.16
 
