@@ -6,6 +6,12 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.11.24
+
+> Aug 10, 2022
+
+ - Improve ajaxsearchCategoryOptions graphql request
+
 ### Version 1.11.23
 
 > Jul 14, 2022
