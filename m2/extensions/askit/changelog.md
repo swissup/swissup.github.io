@@ -11,6 +11,14 @@ category: AskIt
 
 # Changelog
 
+### Version 1.12.0
+
+> Jun 15, 2022
+
+ - Remove unused layout update files. Fixes incorrect layout on cms edit page.
+ - Improve Magento Coding Standarts
+ - Fix phpstan errors
+
 ### Version 1.11.6
 
 > Jun 15, 2022
