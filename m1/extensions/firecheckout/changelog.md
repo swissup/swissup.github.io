@@ -7,6 +7,13 @@ category: Firecheckout
 
 # Changelog
 
+### Version 4.4.7
+
+> Aug 10, 2022
+
+ -  Fixed error with newest Prototype.JS used by [OpenMage](https://github.com/openmage) project.
+ -  Fixed not working TaxVat online validation.
+
 ### Version 4.4.6
 
 > Aug 26, 2021
