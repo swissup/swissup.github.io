@@ -8,6 +8,17 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.5.8
+
+> Aug 10, 2022
+
+ - Fix wrong user agent detection
+ - Removed jquery.cookie from deps (fixed Magento 2.4.5 broken add to cart)
+ - Do not add requireJs lazy loading script if module is disabled
+ - Fix phpstan errors
+ - Fix MEQP warnings
+ - Prevent not isset notices
+
 ### Version 1.5.7
 
 > May 17, 2022
