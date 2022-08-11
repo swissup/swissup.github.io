@@ -11,6 +11,7 @@ category: Argento
 
 > Aug 11, 2022
 
+ -  **Tested for compatibility with Magento 2.4.5**
  -  Fixed full-screen loader when recently viewed widget used on Adobe Commerce 2.4.5
  -  Added Easy Catalog Images thumbnail image size
  -  Fixed theme editor error when theme was removed
