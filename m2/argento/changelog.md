@@ -7,6 +7,83 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.32.0
+
+> Aug 11, 2022
+
+ -  Fixed full-screen loader when recently viewed widget used on Adobe Commerce 2.4.5
+ -  Added Easy Catalog Images thumbnail image size
+ -  Fixed theme editor error when theme was removed
+ -  Fixed JQMIGRATE warning in console that `change` is deprecated
+
+**Extensions Updates**
+
+  - [Ajax Pro](/m2/extensions/ajaxpro/) — 1.6.8 (was 1.6.4)
+      + Allow to change quick-view icon color via CSS
+      + Fixed currency switcher bug
+      + Added config option for popup close timeout
+      + Fixed broken minicart sidebar replace
+      + Prevent display of the product view popup on the same product page
+  - [Ajax Search](/m2/extensions/ajaxsearch/) — 1.11.24 (was 1.11.20)
+      + Breeze theme compatibility fixes
+      + Improved code quality
+      + Optimized category options graphql request
+  - [Askit](/m2/extensions/askit/) — 1.12.0 (was 1.11.5)
+      + Removed "My Questions" link from customer account when module is disabled
+      + Remove unused layout update files: fixes incorrect layout on cms edit page
+      + Improved code quality
+  - [Attribute Pages](/m2/extensions/attributepages/) — 1.5.2 (was 1.5.1)
+      + PHP 8.1: Returning bool from comparison function is deprecated
+  - [Breeze](/m2/extensions/breeze/) — 1.13.6 (was 1.11.11)
+      + Lot of fixes and updates available on [Breeze Site](https://breezefront.com/updates)
+  - [Easybanners](/m2/extensions/easybanners/) — 1.8.4 (was 1.8.2)
+      + Breeze theme fixes
+      + Fixed missing block when added using widget interface
+  - [Easy Catalog Images](/m2/extensions/easycatalogimages/) — 1.4.22 (was 1.4.20)
+      + Breeze theme integration added
+      + Added default thumbnail image size
+  - [Easytabs](/m2/extensions/easytabs/) — 1.10.4 (was 1.10.3)
+      + PHP 8.1 compatability fix
+  - **FontAwesome** — 1.4.3 (was 1.4.2)
+      +  Added license
+  - [GDPR](/m2/extensions/gdpr/) — 1.5.8 (was 1.5.4)
+      + Google Analytics 4 cookies added to the known cookies list
+      + Breeze theme css fixes
+      + Fixed not working "New cookie group" button
+      + Validate cookie identifier before save
+  - [Highlight](/m2/extensions/highlight/) — 1.7.30 (was 1.7.27)
+      + Breeze theme fixes
+      + Fixed incorrect conditions when multiple blocks added on the same page
+      + Fixed js error when sku has double quotes
+      + Remove swiper dependency from breeze integration
+  - [Navigation Pro](/m2/extensions/navigationpro/) — 1.16.14 (was 1.16.12)
+      + Fixed not working menu on touch devices when there are two menus on the page
+      + Breeze theme: fixed css errors
+  - [Pagespeed](/m2/extensions/pagespeed/) — 1.5.8 (was 1.5.7)
+      + Do not add requireJs lazy loading script if module is disabled
+      + Removed jquery.cookie from deps (fixed Magento 2.4.5 broken add to cart)
+      + Fixed wrong user agent detection
+  - [Quantity Switcher](/m2/extensions/qty-switcher/) — 1.1.15 (was 1.1.13)
+      + Fixed quantity toggler on the new line in Breeze Theme
+      + Update product price when changing qty and tier pricing is used
+  - [Review Reminder](/m2/extensions/reviewreminder/) — 1.1.12 (was 1.1.10)
+      + Fixed error when order contains deleted products
+      + Converted install script to declarative schema
+  - [SEO Suite](/m2/extensions/seo-suite/)
+      + Fixed PHP 8.1 error: passing null to method_exists
+      + **swissup/module-hreflang** — 1.4.12 (was 1.4.11)
+          * Fixed PHP 8.1 error: passing null to str_replace
+      + **swissup/module-rich-snippets** — 1.4.20 (was 1.4.19)
+          * Removed unused code from di.xml
+      + **swissup/module-seo-urls** — 1.5.33 (was 1.5.32)
+          * Fixed PHP 8.1 error: passing null to explode
+      + **swissup/module-seo-html-sitemap** — 1.1.13 (was 1.1.12)
+          * Converted install script to declarative schema
+  - [Sold Together](/m2/extensions/soldtogether/) — 1.8.6 (was 1.8.3)
+      + Fix for Mirasvit Order Management module
+      + Fixed error in Adobe Cloud on PHP 8.1
+      + Update for reindexing in admin
+
 ### Version 1.31.0
 
 > May 27, 2022
