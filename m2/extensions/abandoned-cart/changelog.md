@@ -8,6 +8,19 @@ category: Abandoned Cart
 
 # Changelog
 
+### Version 1.1.4
+
+> Aug 11, 2022
+
+ -  Fixed php error on Adobe Cloud with PHP 8.1
+ -  Converted install script to declarative schema
+
+### Version 1.1.3
+
+> Oct 25, 2021
+
+ -  Update unsubscribe message on frontent for more explanatory
+
 ### Version 1.1.2
 
 > Oct 19, 2021
