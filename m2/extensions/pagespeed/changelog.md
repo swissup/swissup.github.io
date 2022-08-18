@@ -8,6 +8,12 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.5.9
+
+> Aug 18, 2022
+
+ -  Prevent Deprecated Functionality: strpos() in php 8.1
+
 ### Version 1.5.8
 
 > Aug 10, 2022
