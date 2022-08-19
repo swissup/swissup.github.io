@@ -8,6 +8,13 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.29.0
+
+> Aug 19, 2022
+
+ -  This release delivers drastically updated [Checkout Success Page layout builder](/m2/extensions/checkout-success/#features).
+ -  Few minor JS/CSS tweaks.
+
 ### Version 1.28.19
 
 > Aug 5, 2022
