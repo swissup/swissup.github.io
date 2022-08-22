@@ -6,6 +6,16 @@ keywords: Helpdesk changelog
 category: Helpdesk
 ---
 
+
+### Version 1.2.28
+
+> Aug 22, 2022
+
+**Fixes**
+ - Fix 'Deprecated Functionality: explode(): Passing null to parameter (close #37)
+ - Fix UCT 'critical' errors
+ - Prevent null to string converting errors
+
 ### Version 1.2.27
 
 > Jul 18, 2022
