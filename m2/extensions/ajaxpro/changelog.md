@@ -6,6 +6,21 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.6.9
+
+> Aug 22, 2022
+
+ - Prevent js error on old 2.2-2.3
+ - Add/Restore priceSidebar in ajaxpro_minicart
+
+### Version 1.6.8
+
+> Aug 10, 2022
+
+ - Prevent show product view popup on the same page
+ - Fix phpstan errors
+ - Fix typo /** @var
+
 ### Version 1.6.7
 
 > June 23, 2022
