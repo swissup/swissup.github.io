@@ -6,6 +6,15 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.12.0
+
+> Aug 26, 2022
+
+ - Fix quickSearch and ajaxsearch initialisation time racing bug (#32)
+ - Update composer requirements (>= 2.3.5)
+ - Replace deprecated functionality
+ - Fix Using constant that does not exist
+
 ### Version 1.11.24
 
 > Aug 10, 2022
