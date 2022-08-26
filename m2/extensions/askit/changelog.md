@@ -11,6 +11,15 @@ category: AskIt
 
 # Changelog
 
+### Version 1.12.1
+
+> Aug 26, 2022
+
+ - Fix UCT 'critical' errors
+ - Controller(s) decomposition
+ - changed deprecated messageManager functionality
+ - update composer requirements
+
 ### Version 1.12.0
 
 > Jun 15, 2022
