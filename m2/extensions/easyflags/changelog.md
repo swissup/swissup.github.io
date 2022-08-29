@@ -8,6 +8,13 @@ category: Easy Flags
 
 # Changelog
 
+### Version 1.4.0
+
+> Aug 29, 2022
+
+  - Fix redirect to incorrect pages when store switcher in top navigation block. Such issue occurs at Argento Theme with Marketplace design.
+  - Fixed `AMP validation issue: CSS-Qualifier "!important" is not allowed`.
+
 ### Version 1.3.5
 
 > Nov 26, 2020
