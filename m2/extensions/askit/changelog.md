@@ -11,6 +11,12 @@ category: AskIt
 
 # Changelog
 
+### Version 1.12.2
+
+> Aug 30, 2022
+
+ - Fix _construct context initialization order (Call to a member function getHomePageId() on null)
+
 ### Version 1.12.1
 
 > Aug 26, 2022
