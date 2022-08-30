@@ -1,0 +1,10 @@
+- title: Address Validation popup with suggested verified address
+  href: /images/m2/address-validation/popup-with-suggestions.png
+  src: /images/m2/address-validation/small/popup-with-suggestions.png
+  w: 2000
+  h: 1062
+- title: Address Validation popup with validation error
+  href: /images/m2/address-validation/popup-with-error.png
+  src: /images/m2/address-validation/small/popup-with-error.png
+  w: 1996
+  h: 1364

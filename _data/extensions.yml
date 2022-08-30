@@ -28,6 +28,13 @@ address-field-manager:
     m1:
     m2: /m2/extensions/address-field-manager/
 
+addressvalidation:
+  title: Address Validation
+  short_description:
+  urls:
+    m1:
+    m2: /m2/extensions/address-validation/
+
 affiliatesuite:
   title: Affiliate Suite
   short_description:

@@ -21,6 +21,7 @@ faster and easier by providing them a simple checkout form.
  4. [Customization](customization/)
  5. Additional modules, shipped together with Firecheckout:
     - [Address Autocomplete](/m2/extensions/address-autocomplete/)
+    - [Address Validation](/m2/extensions/address-validation/)
     - [Address Field Manager](/m2/extensions/address-field-manager/)
     - [Checkout Cart](/m2/extensions/checkout-cart/)
     - [Checkout Fields](/m2/extensions/checkout-fields/)

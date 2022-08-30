@@ -8,6 +8,13 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.30.0
+
+> Aug 30, 2022
+
+ -  New [Address Validation](/m2/extensions/address-validation/) module added
+    to the Firecheckout bundle.
+
 ### Version 1.29.0
 
 > Aug 19, 2022
