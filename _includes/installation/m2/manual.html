@@ -35,7 +35,7 @@ composer config repositories.swissupartifacts artifact $(pwd)/vendor/swissup/art
 ## Install
 
 When Marketplace module is installed you can proceed with installation
-in teminal (GUI is not supported in manual mode):
+in teminal:
 
 ```bash
 bin/magento marketplace:package:require {{ include.package }}{% if include.installer == 'true' %} &&\
