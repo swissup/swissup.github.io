@@ -10,6 +10,12 @@ category: Akismet
 
 # Changelog
 
+### Version 1.2.8
+
+> Sep 2, 2022
+
+- Update composer requirements (>= 2.3.5)
+
 ### Version 1.2.7
 
 > Jul 6, 2022
