@@ -8,6 +8,19 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.5.11
+
+> Sep 5, 2022
+
+ - Remove all occurences of sourceMappingURL and sourceURL when JS files are aggregated
+
+
+### Version 1.5.10
+
+> Aug 18, 2022
+
+ - Fix Deprecated Functionality: strpos(): Passing null to parameter 1 part
+
 ### Version 1.5.9
 
 > Aug 18, 2022
