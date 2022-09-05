@@ -8,6 +8,19 @@ category: Highlight
 
 # Changelog
 
+### Version 1.7.31
+
+> Sep 5, 2022
+
+ -  Add canonical tag to highlight pages (when it is at category enabled).
+ -  Fixed inactive buttons after ajax load.
+ -  Fixed js error when sku has double quotes.
+ -  Fixed missing Compare and Wishlist links when using core list.phtml template.
+ -  Fixed incorrect conditions when multiple blocks added on the same page.
+ -  Fixed invisible "Load more" button on mobile devices.
+ -  Improved breeze integration.
+ -  Reduce copy-paste in source code.
+
 ### Version 1.7.27
 
 > May 26, 2022
