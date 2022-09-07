@@ -8,6 +8,14 @@ category: Email
 
 # Changelog
 
+### Version 0.5.4
+
+> Sep 7, 2022
+
+**Fixes**
+ - Allows custom host name to be given in EHLO/HELO statement.
+
+
 ### Version 0.5.3
 
 > Jul 14, 2022
