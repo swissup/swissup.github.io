@@ -8,6 +8,12 @@ category: Cachewarmer
 
 # Changelog
 
+### Version 1.0.21
+
+> Sep 7, 2022
+
+ - Add Fastly CDN integration (in toolbar)
+
 ### Version 1.0.20
 
 > Aug 10, 2022
