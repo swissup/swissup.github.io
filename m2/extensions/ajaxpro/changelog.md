@@ -6,6 +6,17 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.6.10
+
+> Sep 8, 2022
+
+ - Fix Missing product name on the quickview popup (close #40)
+ - Fix layout handles order in customerData/product (close #41)
+ - Remove empty space below footer when floating cart is enabled
+ - Fix use depracated parent non api class
+ - Update messageManager deprecated functionality
+ - Update composer requirements >= 2.3.5
+
 ### Version 1.6.9
 
 > Aug 22, 2022
