@@ -8,6 +8,24 @@ category: KnowledgeBase
 
 # Changelog
 
+### Version 1.1.9
+
+> Sep 8, 2022
+
+ - Add cache identity for correct cache invalidating
+
+### Version 1.1.8
+
+> Aug 23, 2022
+
+ - Remove depracated and unused Registry component
+ - Fix wranings '@deprecated on version '2.4.5'
+ - Add module dependencies
+ - Add composer requirements
+ - Use new messageManager methods (addSuccessMessage)
+ - Decomposite abstract action
+ - Breeze: fixed not working graphql request
+
 ### Version 1.1.7
 
 > Aug 9, 2022
