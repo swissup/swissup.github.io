@@ -11,6 +11,16 @@ category: AskIt
 
 # Changelog
 
+### Version 1.12.3
+
+> Aug 30, 2022
+
+ - Add cache identity for correct cache invalidating
+ - Replace deprecated dependency Magento\Backend\Helper\Data
+ - Remove duplicated code
+ - Replace registry to custom service
+ - Remove unused coreRegistry calls
+
 ### Version 1.12.2
 
 > Aug 30, 2022
