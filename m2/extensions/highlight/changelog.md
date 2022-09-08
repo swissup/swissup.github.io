@@ -8,7 +8,7 @@ category: Highlight
 
 # Changelog
 
-### Version 1.7.31
+### Version 1.8.0
 
 > Sep 8, 2022
 
