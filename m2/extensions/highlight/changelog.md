@@ -10,6 +10,14 @@ category: Highlight
 
 ### Version 1.7.31
 
+> Sep 8, 2022
+
+ -  Added ability to filter by category and all of its children using plus sign.
+
+    Example: '4, 3+' will filter by category 4, 3, and all of the children of category 3.
+
+### Version 1.7.31
+
 > Sep 5, 2022
 
  -  Add canonical tag to highlight pages (when it is at category enabled).

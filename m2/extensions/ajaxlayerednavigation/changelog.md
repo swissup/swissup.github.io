@@ -7,6 +7,14 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.3.60
+
+> Sep 8, 2022
+
+ - Performance improvements when using price filter
+ - Added Breeze integration with "Load More" button and infinity scroll
+ - Hide "Load More" button when last page is loaded
+
 ### Version 1.3.59
 
 > Aug 9, 2022
