@@ -29,19 +29,3 @@ store to use generated metadata instead of metadata from product/category.
 ![Metadata templates system config optimize metadata](/images/m2/seo-templates/backend/config-optimize.png)
 
 There are some recommendations how to get optimal metadata for website. And this config section helps you to meet this recommendations. Optimal length for page title is 70 characters (but you can set any length your need with respective config option). Similar is for meta description. Recommended length for it is around 170 characters.
-
-### Cron settings
-
-![Metadata templates system config cron](/images/m2/seo-templates/backend/config-cron.png)
-
-Here you can setup metadata generation with your metadata templates via
-Magento Cron.
-
-For live stores we recommend to regenerate metadata once per week. Other
-possible options are once per day or once per month.
-
-Metadata generation is very resource-intensive task. Because it walk through
-all products and categories for all store views. We split this process into 
-portions to prevent server overload. The larger the portion is the more it 
-loads server. You can set portion size with `Records to process per run`
-option. 
