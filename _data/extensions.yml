@@ -205,7 +205,7 @@ countdowntimer:
   size: 2x1
   urls:
     m1: /m1/extensions/countdowntimer/
-    m2:
+    m2: /m2/extensions/countdown-timer/
 
 crawler:
   title: Cache Warmer
