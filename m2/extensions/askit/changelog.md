@@ -11,9 +11,15 @@ category: AskIt
 
 # Changelog
 
+### Version 1.12.4
+
+> Sep 9, 2022
+
+ - Fix: Notice: Undefined property: Controller\Question\Save::_eventManager_ (consequence of decomposition)
+
 ### Version 1.12.3
 
-> Aug 30, 2022
+> Sep 8, 2022
 
  - Add cache identity for correct cache invalidating
  - Replace deprecated dependency Magento\Backend\Helper\Data
