@@ -7,6 +7,14 @@ category: Checkout Success
 ---
 
 # Changelog
+
+### Version 2.0.2
+
+> Sep 12, 2022
+
+  - PHP 7.x and Magento 2.4.3 compatibility fixes.
+  - Fix error "Call to a member function addData()".
+
 ### Version 2.0.0
 
 > Aug 9, 2022
