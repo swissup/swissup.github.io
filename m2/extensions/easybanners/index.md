@@ -37,3 +37,4 @@ There are three banner types available:
     - [Newsletter Popup (Exit-intent)](use-cases/newsletter-popup/)
     - [Hide 'Don\'t show anymore' link](use-cases/hide-dont-show-anymore-link/)
     - [Create borderless lightbox](use-cases/borderless-lightbox/)
+    - [Cart conditions banner](/m2/extensions/easybanners/use-cases/cart-conditions/)
