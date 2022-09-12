@@ -8,6 +8,12 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.5.12
+
+> Sep 5, 2022
+
+ - Add pagebuilder integration (data-background-images)
+
 ### Version 1.5.11
 
 > Sep 5, 2022
