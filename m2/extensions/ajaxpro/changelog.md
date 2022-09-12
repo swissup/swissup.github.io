@@ -6,6 +6,12 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.6.11
+
+> Sep 12, 2022
+
+ - Fixed issue with deleting item in cart popup
+
 ### Version 1.6.10
 
 > Sep 8, 2022
