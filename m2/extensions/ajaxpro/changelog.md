@@ -6,6 +6,13 @@ category: AjaxPro
 
 # Changelog
 
+
+### Version 1.6.12
+
+> Sep 13, 2022
+
+ - Fix 'Not supported' error on Apache 2.4 and PHP8.1 (cgi as the php handler)
+
 ### Version 1.6.11
 
 > Sep 12, 2022
