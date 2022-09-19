@@ -8,6 +8,36 @@ category: SEO Suite
 
 # Changelog
 
+### Version 1.14.0
+
+> Sep 19, 2022
+
+  - Compatibility with Magento 2.4.5 and feature fixes for PHP 8.1.
+  - Perfomance improvements.
+
+*swissup/module-hreflang — 1.5.1 (was 1.4.11)*
+
+  - NEW: set hreflang link for CMS page in Magento Admin.
+  - Correct hrefalang data for attribute page on storefront
+  - Fixes for XML sitemap: exclude links for store views where product is disabled; remove store code in hreflang once respective option enabled; add hreflang data for Highlight Pages and Attribute Pages.
+
+*swissup/module-rich-snippets — 1.4.20 (was 1.4.18)*
+
+  - Fix error - Argument 1 passed... must be of the type array, null given. Occurs when store migrated from Magento 1.
+
+*swissup/module-seo-canonical — 1.11.6 (was 1.11.5)*
+
+  - Fix missing caninical URL at attribute pages.
+
+*swissup/module-seo-cross-links — 1.1.7 (was 1.1.6)*
+
+  - NEW: link Tooltip.
+  - Fix possible issue of using ampersand and slash symbols in a keyword. Notice added. 
+
+*swissup/module-seo-xml-sitemap — 1.1.12 (was 1.1.11)*
+
+  - Remove hard-coded dependency with SeoHtmlSitemap module. Now you can disable module Swissup_SeoHtmlSitemap without harm to XML Sitemap.
+
 ### Version 1.13.0
 
 > Apr 27, 2022
