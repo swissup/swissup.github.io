@@ -7,6 +7,24 @@ category: Delivery Date
 
 # Changelog
 
+### Version 1.2.2
+
+> Aug 22, 2022
+
+ - Code cleared up.
+
+### Version 1.2.1
+
+> Apr 15, 2022
+
+ - PHP 8.1 compatibility fix.
+
+### Version 1.2.0
+
+> Oct 27, 2021
+
+ - Added option to show Order Status in colours. (In Sales grid).
+
 ### Version 1.7.4
 
 > Aug 9, 2022
