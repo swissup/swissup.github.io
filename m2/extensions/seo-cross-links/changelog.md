@@ -8,6 +8,22 @@ category: SEO CrossLinks
 
 # Changelog
 
+### Version 1.1.7
+> Sep 19, 2022
+
+  - Fixed possible issue of using symbols: "&" and "/" in a keyword.
+  - Added option to show a Tooltip of a Link.
+
+### Version 1.1.6
+> Apr 27, 2022
+
+  - Performance improvements.
+
+### Version 1.1.5
+> Apr 15, 2022
+
+  - PHP 8.1 compatibility.
+
 ### Version 1.1.0
 
 > Jun 18, 2021
