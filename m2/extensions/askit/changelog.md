@@ -11,6 +11,12 @@ category: AskIt
 
 # Changelog
 
+### Version 1.12.5
+
+> Sep 26, 2022
+
+ - Fix: Backend grid is breakling on questions assigned to deleted product (close #54)
+
 ### Version 1.12.4
 
 > Sep 9, 2022
