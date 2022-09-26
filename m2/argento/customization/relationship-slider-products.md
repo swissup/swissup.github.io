@@ -6,7 +6,7 @@ keywords: product page
 category: Argento
 ---
 
-# Slider Related Products, Slider-Up-Sells, and Slider-Cross-Sells [DEPRECATED. SlickSlider library is removed from Argento]
+# Slider Related Products, Slider-Up-Sells, and Slider-Cross-Sells
 
 These instructions help you to dispaly all relationship products as a slider on the product page.
 
@@ -68,11 +68,28 @@ Choose a relation products and set destination on the product page.
     app/design/frontend/Local/argento-[essence|flat]-custom/Magento_Catalog/templates/product/list/
     ```
 
- 2. Wrap `related products` into `div` with `el` option and specified slick parameters:
+ 2. Find the `div` with classnames `block-content content` that wrap list of future slider items. And add the specified slick parameters this way:
 
     ```html
-    <div data-mage-init='{"slickwrapper": {"el": ".product-items", "slidesToShow": 5, "slidesToScroll": 5, "dots": true}}'>
-        <?php if ($exist):?>
+    <div class="block-content content" aria-labelledby="block-<?= $block->escapeHtmlAttr($class) ?>-heading" 
+         data-mage-init='{"Swissup_Swiper/js/swiper-wrapper": {
+            "target": ".products-grid", 
+            "loop": false, 
+            "slidesPerView": 5, 
+            "spaceBetween": 5, 
+            "breakpoints": {
+                "1023": {
+                    "slidesPerView": 4
+                }, 
+                "767": {
+                    "slidesPerView": 2
+                }, 
+                "640": {
+                    "slidesPerView": 1}
+                }
+            }
+        }'>
+        <?php if ($type == 'related' && $canItemsAddToCart):?>
         ...
 
         <?php endif;?>
