@@ -142,3 +142,15 @@ To display product sku QR code in items table in PDF, add `barcode="QR"` param t
 ```
 
 You can use all supported barcode types, e.g. barcode="QR" or barcode="C39".
+
+### Display Purchase Order information
+
+A purchase order (PO) is one of default Magento payment methods. You can read more about it at [Magento docs](https://docs.magento.com/user-guide/payment/purchase-order.html).
+
+To display PO number use code below:
+
+```html
+{% raw %}{{depend order.getPayment().getPoNumber()}}{% endraw %}
+   <div><strong>{% raw %}{{trans "Purchase Order Number"}}{% endraw %}</strong> {% raw %}{{var order.getPayment().getPoNumber()|raw}}{% endraw %}</div>
+{% raw %}{{/depend}}{% endraw %}
+```
