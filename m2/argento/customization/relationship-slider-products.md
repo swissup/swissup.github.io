@@ -6,7 +6,7 @@ keywords: product page
 category: Argento
 ---
 
-# Slider Related Products, Slider-Up-Sells, and Slider-Cross-Sells
+# Slider Related Products, Slider-Up-Sells, and Slider-Cross-Sells [DEPRECATED. SlickSlider library is removed from Argento]
 
 These instructions help you to dispaly all relationship products as a slider on the product page.
 
