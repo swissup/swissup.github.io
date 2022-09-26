@@ -8,6 +8,19 @@ category: Legacy Mysql Search
 
 # Changelog
 
+### Version 1.1.4
+
+> Sep 26, 2022
+
+ - Possible fix for indexing bug (close #9 #10)
+
+### Version 1.1.3
+
+> Aug 12, 2022
+
+ - Update README.md
+
+
 ### Version 1.1.2
 
 > Apr 27, 2022
