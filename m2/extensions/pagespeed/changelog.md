@@ -8,6 +8,12 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.5.13
+
+> Sep 26, 2022
+
+ - Update advanced js bundling configuration (magento 2.4.5)
+
 ### Version 1.5.12
 
 > Sep 5, 2022
