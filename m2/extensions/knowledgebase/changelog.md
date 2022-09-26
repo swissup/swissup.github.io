@@ -8,6 +8,12 @@ category: KnowledgeBase
 
 # Changelog
 
+### Version 1.1.10
+
+> Sep 26, 2022
+
+ - Fix: Back button does not work (close #10)
+
 ### Version 1.1.9
 
 > Sep 8, 2022
