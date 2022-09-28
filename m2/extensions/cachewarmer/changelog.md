@@ -8,11 +8,21 @@ category: Cachewarmer
 
 # Changelog
 
-### Version 1.0.22
+### Version 1.0.23
 
 > Sep 28, 2022
 
  - Fix indexer (bad filter)
+
+### Version 1.0.22
+
+> Sep 26, 2022
+
+ - Fix some phpcs warnings
+ - Fix Using constant that does not exist
+ - Update composer and module.xml requrements (2.3)
+ - ArrayInterface => OptionSourceInterface
+ - Add x-varnish header checking in debuging toolbar
 
 ### Version 1.0.21
 
