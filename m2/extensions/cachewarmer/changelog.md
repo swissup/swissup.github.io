@@ -8,6 +8,12 @@ category: Cachewarmer
 
 # Changelog
 
+### Version 1.0.22
+
+> Sep 28, 2022
+
+ - Fix indexer (bad filter)
+
 ### Version 1.0.21
 
 > Sep 7, 2022
