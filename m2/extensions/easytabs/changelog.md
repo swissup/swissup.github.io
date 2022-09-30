@@ -8,6 +8,17 @@ category: Easy Tabs
 
 # Changelog
 
+### Version 1.11.0
+
+> Sep 30, 2022
+
+  - NEW tabs layout "Expanded with sticky titles". It is similar to well known "Expanded" layout but titles moved to the top and stuck there while user scrolling via tabs content.
+  - NEW tab option "Update tab content on storefront". This option can be useful for configurable products. Once configurable product options selected Magento update tab content with content from respective child product.
+  - "Cross Sell products" tab - allow to specify number of product to show.
+  - Improve compatibility with PHP 8.1.
+  - Module widget interface update: replace multiselect with tabs for UI select; allow to set initially open tab when tabs layout is "accordion".
+
+
 ### Version 1.10.3
 
 > May 26, 2022

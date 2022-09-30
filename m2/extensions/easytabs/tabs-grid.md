@@ -25,7 +25,7 @@ You may just click on respective row when you need to edit existing tab. Or sele
 
 ### Edit Form
 
-![Edit Tab Form](/images/m2/easytabs/edit-form.png)
+![Edit Tab Form](/images/m2/easytabs/edit-form-v2.png)
 
 This form is the same for new tab and for tab you edit.
 
@@ -41,7 +41,8 @@ With **Block Type** you can select type of created tab. Available types are:
 
  1. Additional Information - displays product attributes that have `Visible on Product View Page on Front-end` enabled.
  2. CMS Static Block - displays content of selected static block.
- 3. Custom Block - create your custom tab using block and template, using this .tab you can display other extension's content in tab.
+ 3. Cross-sell Products - show cross-sell products.
+ 3. Custom Block - create your custom tab using block and template. With this tab you can display other extension's content in tab.
  4. Html content - show any html content created using WYSIWYG editor.
  5. Product Description - displays product description in tab.
  6. Product attribute - display selected product attribute value.
@@ -52,6 +53,8 @@ With **Block Type** you can select type of created tab. Available types are:
 Since module version 1.8.0 you can **Hide tab on Product** page. You should enable this optin if you want to show tab with Easytabs widget.
 
 Other interesting and importatnt option available since 1.8.0 is **Load tab content with Ajax** request. It can reduce initial size of (product) page and speed up its loading. This option may not load tab content for some custom block. Please disable it in such case.
+
+Option **Update tab content on storefront** available in version 1.11.0 and later. If option enabled then Magento updates tab content with values from child product at configurable product once its options selected.
 
 #### Tab Options
 
