@@ -7,6 +7,13 @@ category: Helpdesk
 ---
 
 
+### Version 1.2.29
+
+> Oct 4, 2022
+
+**Fixes**
+ - Fix fatal error in generate number logic
+
 ### Version 1.2.28
 
 > Aug 22, 2022
