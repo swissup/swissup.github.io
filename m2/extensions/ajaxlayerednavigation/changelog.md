@@ -7,6 +7,13 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.3.61
+
+> Oct 12, 2022
+
+ - Fixed visible empty space when more button used
+ - Breeze: fixed duplicated 'More Products' button when using back/forward buttons
+
 ### Version 1.3.60
 
 > Sep 8, 2022
