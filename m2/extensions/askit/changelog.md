@@ -11,6 +11,12 @@ category: AskIt
 
 # Changelog
 
+### Version 1.12.6
+
+> Oct 12, 2022
+
+ - Update composer requirements
+
 ### Version 1.12.5
 
 > Sep 26, 2022
