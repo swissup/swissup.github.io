@@ -8,6 +8,14 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.5.14
+
+> Oct 12, 2022
+
+ - Update composer requirements
+ - Fix removing empty <style> tags
+ - Remove dublicate messages
+
 ### Version 1.5.13
 
 > Sep 26, 2022
