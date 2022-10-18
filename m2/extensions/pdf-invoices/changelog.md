@@ -8,6 +8,14 @@ category: PDF Invoices
 
 # Changelog
 
+### Version 1.4.2
+
+> Oct 18, 2022
+
+ -  Replaced `header` tag with `div` to fix broken sales pdf style
+ -  Fixed missing logo image in PDF templates
+ -  Displaying order creation date without time by default. Use `created_at_formatted_full` variable to display it with time.
+
 ### Version 1.4.0
 
 > Apr 18, 2022
