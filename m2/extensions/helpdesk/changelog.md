@@ -7,6 +7,16 @@ category: Helpdesk
 ---
 
 
+### Version 1.2.30
+
+> Oct 19, 2022
+
+**Fixes**
+ - Fix email messages pickup logic(s)
+ - Fix mime type detection in email message parser
+ - Fix getTicket logic for new tickets
+ - Update composer requirements
+
 ### Version 1.2.29
 
 > Oct 4, 2022
