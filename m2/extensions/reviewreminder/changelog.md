@@ -8,6 +8,12 @@ category: Review Reminder
 
 # Changelog
 
+### Version 1.1.13
+
+> Oct 20, 2022
+
+ -  Use correct email sender set on store view level
+
 ### Version 1.1.11
 
 > Aug 1, 2022
