@@ -7,6 +7,16 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+
+### Version 1.3.62
+
+> Oct 20, 2022
+
+ - Prevent empty viewModel errors (call ... on null)
+ - Remove dublicate and unused code; add AbstractFilterInterface
+ - Fix 'Invalid method Mirasvit\....\SearchFilter::isActive'
+ - Fixed adding br tags inside range slider styles
+
 ### Version 1.3.61
 
 > Oct 12, 2022
