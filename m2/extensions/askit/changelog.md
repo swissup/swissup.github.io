@@ -11,6 +11,15 @@ category: AskIt
 
 # Changelog
 
+### Version 1.12.7
+
+> Oct 21, 2022
+
+ - Fix routing logic, it was always match if url path starts with 'questions'
+ - Prevent string null errors
+ - Cleanup messages container before sending new request
+ - Cleanup the form after question was sent
+
 ### Version 1.12.6
 
 > Oct 12, 2022
