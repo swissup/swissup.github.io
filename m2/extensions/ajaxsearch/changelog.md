@@ -6,6 +6,16 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.13.0
+
+> Oct 24, 2022
+
+ - Update breeze theme integration
+ - Breeze theme: fix empty space above products list
+ - Improved breeze theme integration
+ - Update composer requirements
+
+
 ### Version 1.12.0
 
 > Aug 26, 2022
