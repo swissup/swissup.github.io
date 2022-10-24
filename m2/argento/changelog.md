@@ -7,6 +7,105 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.33.0
+
+> Oct 24, 2022
+
+ -  Added Breeze Integrations module to requirements
+ -  Added `Remember me` checkbox to sign in popup
+ -  Fixed broken header links styles after block was saved in PageBuilder editor
+ -  Fixed duplicated photo-in-description image
+ -  Fixed not working theme editor styles for header links saved with PageBuilder
+ -  _Argento Force:_ fixed hover image issue when "Image optimization based on query parameters" enabled
+ -  _Argento Stripes:_ Fixed horizontal scroll at product page on mobile devices
+ -  _Argento Stripes:_ Fixed category description position `Before all columns after title` in category builder
+
+**Extensions Updates**
+
+  - [Ajax Pro](/m2/extensions/ajaxpro/) — 1.6.13 (was 1.6.8)
+      + Prevent js error on old Magento versions (2.2-2.3)
+      + Fixed missing product name in the quickview popup
+      + Fixed layout handles order in customerData/product
+      + Remove empty space below footer when floating cart is enabled
+      + Fixed issue with deleting item in cart popup
+      + Fixed ‘Not supported’ error on Apache 2.4 and PHP8.1 (cgi as the php handler)
+      + Show quick-view button when using tab for navigation
+      + Do not show loader on quick-view button when clicking on add to compare
+  - [Ajax Search](/m2/extensions/ajaxsearch/) — 1.13.0 (was 1.11.24)
+      + Fixed initialization time racing bug
+      + Replaced deprecated functionality
+      + Fixed using non-existing constant
+      + Updated Breeze theme integration
+  - [Askit](/m2/extensions/askit/) — 1.12.7 (was 1.12.0)
+      + Replaced deprecated messageManager functionality
+      + Fixed initialization order: call to a member function getHomePageId() on null
+      + Added cache identity for correct cache invalidation
+      + Fixed Undefined property: Controller\Question\Save::eventManager error
+      + Fixed broken backend grid on questions assigned to deleted product
+      + Fixed routing logic: it always matched if url path started with ‘questions’
+      + Cleanup messages container before sending new request
+      + Cleanup the form after question was sent
+  - [Breeze](/m2/extensions/breeze/) — 1.14.4 (was 1.13.6)
+      + Lot of fixes and updates available on [Breeze Site](https://breezefront.com/updates)
+  - [Easybanners](/m2/extensions/easybanners/) — 1.9.1 (was 1.8.2)
+      + Fixed missing blocks when added using widget interface
+      + Added ability to show banner when cart items match selected products attribute conditions
+      + Fixed banner and placeholder rendering in backend PageBuilder
+      + Fixed broken page_handle selector in backend "Page" condition
+  - [Easytabs](/m2/extensions/easytabs/) — 1.11.0 (was 1.10.4)
+      + NEW tabs layout “Expanded with sticky titles”
+      + NEW tab option “Update tab content on storefront”
+      + “Cross Sell products” tab - allow to specify number of product to show
+      + Improved compatibility with PHP 8.1
+      + Improved module widget interface
+  - [Fblike](/m2/extensions/fblike/) — 1.3.7 (was 1.3.6)
+      + Fixed not-working custom Facebook button
+  - [Highlight](/m2/extensions/highlight/) — 1.8.3 (was 1.7.30)
+      + Add canonical tag to Highlight pages when it is enabled at category
+      + Added ability to filter by category and all of its children using plus sign
+      + Fixed not working strip tags in Highlight image 'alt'
+      + Fixed popular products widget carousel
+      + Fixed error during sitemap generation
+  - [Hover Gallery](/m2/extensions/hover-gallery/) — 1.3.11 (was 1.3.10)
+      + Fixed hover image positioning when "Image optimization based on query parameters" used
+      + Updated Breeze Theme integration
+  - [Navigation Pro](/m2/extensions/navigationpro/) — 1.16.16 (was 1.16.14)
+      + Fixed missing breadcrumbs when Easy Catalog Images used in dropdowns
+      + Added graphql cache identity for correct cache invalidation
+      + Fixed incorrect mobile breakpoint in Magento 2.4.4+
+      + Make sure that nowrap icon has same height as all level0 items
+  - [Pagespeed](/m2/extensions/pagespeed/) — 1.5.15 (was 1.5.8)
+      + Fixed strpos deprecated functionality in PHP 8.1
+      + Remove all occurences of sourceMappingURL and sourceURL when JS files are aggregated
+      + Added PageBuilder integration
+      + Updated advanced js bundling configuration for Magento 2.4.5
+      + Added theme images optimizations in pub/static
+      + Added fix to remove empty `style` tags
+  - [ProLabels](/m2/extensions/prolabels/) — 1.6.21 (was 1.6.20)
+      + Fixed missing labels at product page when js bundling enabled
+      + Fixed hover gallery image positioning
+      + Updated Breeze theme integration
+  - [Review Reminder](/m2/extensions/reviewreminder/) — 1.1.13 (was 1.1.12)
+      + Using correct email sender set on store view level
+  - [SEO Suite](/m2/extensions/seo-suite/)
+      + **swissup/module-hreflang** — 1.5.2 (was 1.4.12)
+          * NEW: set hreflang link for CMS page in Magento Admin
+          * Correct hrefalang data for attribute page on storefront
+          * Fixes for XML sitemap
+      + **swissup/module-seo-cross-links** — 1.1.7 (was 1.1.6)
+          * NEW: link tooltip added
+          * Fixed possible issue of using ampersand and slash symbols in a keyword
+      + **swissup/module-seo-html-sitemap** — 1.1.14 (was 1.1.13)
+      + **swissup/module-seo-xml-sitemap** — 1.1.12 (was 1.1.11)
+          * Removed hard-coded dependency with SeoHtmlSitemap module
+      + **swissup/module-seo-images** — 1.3.16 (was 1.3.15)
+          * Added support for media url option "Image optimization based on query parameters"
+      + **swissup/module-seo-urls** — 1.5.34 (was 1.5.33)
+          * Added compatibility with Smile_Elasticsuite
+  - [Sold Together](/m2/extensions/soldtogether/) — 1.8.7 (was 1.8.6)
+      + Fixed server error "The product that was requested doesn't exist"
+      + Updated Breeze theme integration
+
 ### Version 1.32.0
 
 > Aug 11, 2022
