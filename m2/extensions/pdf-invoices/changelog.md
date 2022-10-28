@@ -20,7 +20,7 @@ category: PDF Invoices
 
 > Apr 18, 2022
 
- -  Fixed PDF templates in Magento 2.4.4
+ -  Fixed PDF templates in Magento 2.4.4. [More info here](/m2/extensions/pdf-invoices/known-issues/#magento-244-compatibility).
  -  Converted php schemes into xml format
 
 ### Version 1.3.5
