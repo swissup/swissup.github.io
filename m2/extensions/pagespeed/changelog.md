@@ -8,6 +8,18 @@ category: Pagespeed
 
 # Changelog
 
+
+### Version 1.6.0
+
+> Nov 10, 2022
+
+ - Fix backward compatability with old magento versions (2.4.1)
+ - Failure image optimising command only if All optimisers Not Executable
+ - Added image optimization via remote API
+ - Fix for require(['vimeo/*'], ...) magento/magento2#36435
+ - Add new composer requirements guzzlehttp/guzzle
+ - Improve CheckImageOptimizerExisting
+
 ### Version 1.5.14
 
 > Oct 12, 2022
