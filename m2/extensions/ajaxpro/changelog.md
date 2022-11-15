@@ -6,6 +6,12 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.6.12
+
+> Nov 15, 2022
+
+ -  RTL styles fixes
+ -  Fix 'data.sort is not a function' if data is bool
 
 ### Version 1.6.12
 

@@ -8,6 +8,14 @@ category: Easy Banners
 
 # Changelog
 
+### Version 1.9.2
+
+> Nov 15, 2022
+
+ -  Improved Breeze Theme integration
+ -  Fixed broken page_handle selector in backend "Page" condition
+ -  Fixed placeholer rendering in backend pagebuilder preview
+
 ### Version 1.9.0
 
 > Sep 12, 2022

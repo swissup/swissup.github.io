@@ -8,6 +8,13 @@ category: Highlight
 
 # Changelog
 
+### Version 1.8.4
+
+> Nov 15, 2022
+
+ -  Improved Breeze Theme integration
+ -  Update widget placeholders for backend WYSWIG editor
+
 ### Version 1.8.0
 
 > Sep 8, 2022

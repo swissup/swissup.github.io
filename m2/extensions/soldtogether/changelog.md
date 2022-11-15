@@ -8,6 +8,12 @@ category: SoldTogether
 
 # Changelog
 
+### Version 1.8.8
+
+> Nov 15, 2022
+
+ -  Improved Breeze Theme integration
+
 ### Version 1.8.3
 
 > May 26, 2022

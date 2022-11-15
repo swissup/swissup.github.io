@@ -8,6 +8,13 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.16.17
+
+> Nov 15, 2022
+
+ -  Improved Breeze Theme integration
+ -  Fixed incorrect mobile breakpoint in Magento 2.4.4 and newer
+
 ### Version 1.16.12
 
 > May 27, 2022

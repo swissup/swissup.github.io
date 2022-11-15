@@ -8,6 +8,12 @@ category: Testimonials
 
 # Changelog
 
+### Version 1.3.4
+
+> Nov 15, 2022
+
+ -  Improved Breeze Theme integration
+
 ### Version 1.3.1
 
 > Jan 28, 2022

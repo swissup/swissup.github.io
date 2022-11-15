@@ -8,6 +8,12 @@ category: EasyCatalogImages
 
 # Changelog
 
+### Version 1.8.8
+
+> Nov 15, 2022
+
+ -  Improved Breeze Theme integration
+
 ### Version 1.4.19
 
 > Apr 7, 2022

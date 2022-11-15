@@ -6,6 +6,12 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.13.1
+
+> Nov 15, 2022
+
+ -  Icrease default results limit
+
 ### Version 1.13.0
 
 > Oct 24, 2022
