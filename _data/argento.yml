@@ -165,6 +165,9 @@ breeze:
       url: /m2/argento-breeze/customization/
 
   themes:
+    - title: Force
+      url: /m2/argento-breeze/force/
+
     - title: Stripes
       url: /m2/argento-breeze/stripes/
 
