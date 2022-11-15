@@ -161,6 +161,9 @@ breeze:
     - title: Installation
       url: /m2/argento-breeze/installation/
 
+    - title: Upgrade Instructions
+      url: /m2/argento-breeze/upgrade-instructions/
+
     - title: Customization
       url: /m2/argento-breeze/customization/
 

@@ -11,7 +11,7 @@ category: ArgentoBreeze
 
 > Nov 19, 2022
 
-**Run `composer require swissup/argento-breeze:^2.0` to update from old version.**
+**Run `composer require -w swissup/argento-breeze:^2.0` to update from old version.**
 
  -  Breeze Module and Breeze Blank theme updated to 2.0. See the 
     [list of breaking changes](https://breezefront.com/upgrade#breaking-changes)
