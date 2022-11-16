@@ -7,6 +7,12 @@ category: Delivery Date
 
 # Changelog
 
+### Version 1.7.6
+
+> Nov 16, 2022
+
+ -  Fixed error in PHP 8.1 when delivery time is used without delivery date.
+
 ### Version 1.7.5
 
 > Oct 5, 2022

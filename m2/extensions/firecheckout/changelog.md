@@ -8,6 +8,23 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.30.4
+
+> Nov 15, 2022
+
+ -  Improved styles when billing address is placed before shipping.
+ -  Do not allow to save billing address when it doesn't pass validation.
+ -  Small style fixes for PayPal_Braintree module.
+ -  Fixed possible incorrect shipping total after page refresh.
+ -  Fixed "The shipping address is missing" error on initial page load when single
+    payment method is available.
+ -  Improved [Breeze Theme](https://breezefront.com/) integration.
+ -  Fixed error in backend order view in PHP 8.1 when delivery time is used
+    without delivery date.
+ -  Fixed js error in [Address Validation](/m2/extensions/address-validation/)
+    module.
+ -  Fixed possible too early initialization of gift messages block.
+
 ### Version 1.30.0
 
 > Aug 30, 2022
