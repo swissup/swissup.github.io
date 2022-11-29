@@ -7,6 +7,12 @@ category: Order Attachments
 
 # Changelog
 
+### Version 1.4.18
+
+> Nov 28, 2022
+
+ - Highlight order attachments tab in Order grid if it's not empty.
+
 ### Version 1.4.17
 
 > Aug 9, 2022
