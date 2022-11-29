@@ -7,6 +7,62 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.34.0
+
+> Nov 29, 2022
+
+ -  Fixed showing login popup at checkout
+ - Fixed missing spacing between rows when PageBuilder is enabled
+ - _Argento Force:_ Updated to work with the latest Easy Catalog Images module
+ - _Argento Luxury:_ Fixed category name position in Easy Catalog Images block
+
+**Extensions Updates**
+
+  - [Ajax Pro](/m2/extensions/ajaxpro/) — 1.6.15 (was 1.6.13)
+      + RTL fix for prices inside floating cart
+      + Fixed 'data.sort is not a function' error
+      + Show quick-view icon if focus was gained with keyboard event
+  - [Ajax Search](/m2/extensions/ajaxsearch/) — 1.13.1 (was 1.13.0)
+      + Increased global results limit: fix for missing category and cms results
+  - [Askit](/m2/extensions/askit/) — 1.12.8 (was 1.12.7)
+      + Fixed error when creating a new question in admin
+  - [Breeze](/m2/extensions/breeze/) — 2.0.1 (was 1.14.4)
+      + Lot of fixes and updates available on [Breeze Site](https://breezefront.com/updates)
+  - [Easybanners](/m2/extensions/easybanners/) — 1.9.2 (was 1.9.1)
+      + Breeze integration updated
+  - [Easy Catalog Images](/m2/extensions/easycatalogimages/) — 1.4.23 (was 1.4.22)
+      + Improved Breeze Theme integration
+  - [Easytabs](/m2/extensions/easytabs/) — 1.11.2 (was 1.11.0)
+      + Improved Breeze Theme integration
+  - [GDPR](/m2/extensions/gdpr/) — 1.5.9 (was 1.5.8)
+      + Improve Breeze integration
+  - [Highlight](/m2/extensions/highlight/) — 1.8.4 (was 1.8.3)
+      + Improved Breeze Theme integration
+      + Updated widget placeholders
+  - [Navigation Pro](/m2/extensions/navigationpro/) — 1.16.17 (was 1.16.16)
+      + Fixed text color in dropdowns when dark_header is enabled
+  - [Pagespeed](/m2/extensions/pagespeed/) — 1.6.0 (was 1.5.15)
+      + Fixed backward compatability with old magento versions (2.4.1)
+      + Fail image optimisation command only if all optimisers are not executable
+      + Added image optimization via remote API
+      + Fixed Vimeo requirejs error
+  - [Quantity Switcher](/m2/extensions/qty-switcher/) — 1.1.17 (was 1.1.15)
+      + Improved integration with Argento Breeze Force theme
+      + Fixed not-working quantity switcher on Magento 2.4.5
+  - [SEO Suite](/m2/extensions/seo-suite/)
+      + **swissup/module-rich-snippets** — 1.4.21 (was 1.4.20)
+          * PageSpeed compatibility: fixed missing snippets with defer JS enabled
+      + **swissup/module-seo-urls** — 1.5.37 (was 1.5.34)
+          * Fixed undefined variable PHP error
+          * Improved integration with Smile_ElasticsuiteCatalog
+          * Fixed not slugified urls when query parameter value is 0
+          * Fixed PHP 8.1 - htmlspecialchars_decode(): Passing null to parameter 1
+          * Added compatibility with Blueskytechco_LayeredAjax
+      + **swissup/module-seo-xml-sitemap** — 1.1.13 (was 1.1.12)
+          * Add Mirasvit Knowledge Base urls to sitemap when module enabled
+  - [Sold Together](/m2/extensions/soldtogether/) — 1.8.9 (was 1.8.7)
+      + Using area code GLOBAL for cli indexing: prevent error about not set area code
+
 ### Version 1.33.0
 
 > Oct 24, 2022
