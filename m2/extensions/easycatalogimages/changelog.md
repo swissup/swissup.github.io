@@ -8,7 +8,7 @@ category: EasyCatalogImages
 
 # Changelog
 
-### Version 1.8.8
+### Version 1.4.23
 
 > Nov 15, 2022
 
