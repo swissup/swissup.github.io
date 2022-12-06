@@ -8,6 +8,13 @@ category: SocialLogin
 
 # Changelog
 
+### Version 1.1.7
+
+> Dec 6, 2022
+
+ -  Fixed missing login buttons on checkout on Magento 2.4.5
+ -  Added check for customer-data (fixes error on Breeze)
+
 ### Version 1.1.5
 
 > Jan 28, 2022
