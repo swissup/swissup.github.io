@@ -59,7 +59,7 @@ and use "Name as Html" on the right ("Advanced Settings" fieldset).
 Here is an example:
 
 ```html
-{% raw %}<a href="{{var item.url'}}" class="{{var item.class}}">
+{% raw %}<a href="{{var item.url}}" class="{{var item.class}}">
     <img class="xs-hide sm-hide" src="{{media url=&quot;wysiwyg/iconfinder_multimedia-37_2849799.png&quot;}}" alt="" />
     <span>{{var item.name}}</span>
 </a>{% endraw %}
