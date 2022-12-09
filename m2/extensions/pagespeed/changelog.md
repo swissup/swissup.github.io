@@ -9,6 +9,13 @@ category: Pagespeed
 # Changelog
 
 
+### Version 1.6.1
+
+> Dec 9, 2022
+
+ - Fix product image params wrong sort order (in 2.4)
+ - add media/logo dir to target dirs
+
 ### Version 1.6.0
 
 > Nov 10, 2022
