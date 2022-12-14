@@ -31,7 +31,7 @@ You can enable or disable canonical URL on product page.
 
 Force canonical url point to different store view with option *"Use Store View for canonical"* if needed.
 
-Sometimes store owners need to specify canonical urls for products manually. Store owner has to create text product attribute and assign it to nessecery attribute groups. Then select this attribute in option *"Use product attribute for canonical"*.
+Sometimes store owners need to specify canonical urls for products manually. In such case store owner has to create text product attribute and assign it to nessecery attribute groups. Then he selects this attribute in option *"Use product attribute for canonical"*.
 
 Other fun option is *"Use parent product for canonical"*. For product that is a part of configurable, bundle or grouped product, this option forces it to use parent product url as canonical. This feature consolidates Google indexes and can be usefull for stores with huge number of products.
 
