@@ -12,14 +12,8 @@ category: Canonical URL
 * TOC
 {:toc}
 
-You can configure SEO enhancements for paginated content at
+You can configure canonical URLs at
 _Stores → Configuration → Swissup → SEO Suite → Canonical URLs_ page.
-
-### General
-
-![General setting](/images/m2/seo-canonicals/general.png)
-
-Here you can change how canonical URL domain is build.
 
 ### Categories
 
@@ -27,11 +21,17 @@ Here you can change how canonical URL domain is build.
 
 Add canonical URL for category pages with respective option. Please remember enabled [**Pagination module**](/m2/extensions/seo-pager/) **can overpower** this setting.
 
+You can also force canonical url point to different store view - *"Use Store View for canonical"*.
+
 ### Products
 
 ![Products setting](/images/m2/seo-canonicals/products.png)
 
 You can enable or disable canonical URL on product page.
+
+Force canonical url point to different store view with option *"Use Store View for canonical"* if needed.
+
+Sometimes store owners need to specify canonical urls for products manually. Store owner has to create text product attribute and assign it to nessecery attribute groups. Then select this attribute in option *"Use product attribute for canonical"*.
 
 Other fun option is *"Use parent product for canonical"*. For product that is a part of configurable, bundle or grouped product, this option forces it to use parent product url as canonical. This feature consolidates Google indexes and can be usefull for stores with huge number of products.
 
