@@ -17,7 +17,7 @@ _Stores → Configuration → Swissup → SEO Suite → Canonical URLs_ page.
 
 ### Categories
 
-![Category setting](/images/m2/seo-canonicals/categories.png)
+![Category setting](/images/m2/seo-canonicals/categories.png?v=20221214)
 
 Add canonical URL for category pages with respective option. Please remember enabled [**Pagination module**](/m2/extensions/seo-pager/) **can overpower** this setting.
 
@@ -25,7 +25,7 @@ You can also force canonical url point to different store view - *"Use Store Vie
 
 ### Products
 
-![Products setting](/images/m2/seo-canonicals/products.png)
+![Products setting](/images/m2/seo-canonicals/products.png?v=20221214)
 
 You can enable or disable canonical URL on product page.
 
@@ -39,6 +39,6 @@ Other fun option is *"Use parent product for canonical"*. For product that is a 
 
 ### CMS Pages
 
-![CMS Pages setting](/images/m2/seo-canonicals/cms-pages.png)
+![CMS Pages setting](/images/m2/seo-canonicals/cms-pages.png?v=20221214)
 
 Here you can see one and pretty obvious config option.
