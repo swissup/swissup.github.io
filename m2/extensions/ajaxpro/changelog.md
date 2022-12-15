@@ -6,12 +6,33 @@ category: AjaxPro
 
 # Changelog
 
-### Version 1.6.12
+### Version 1.6.16
+
+> Dec 15, 2022
+
+ -  Fix product popup behaviour at homepage
+ -  Fix: Pagebuilder products element issue - product added to cart two times.
+
+### Version 1.6.15
 
 > Nov 15, 2022
 
- -  RTL styles fixes
- -  Fix 'data.sort is not a function' if data is bool
+ -  Hide floating cart from full page screenshot when cart is empty
+
+### Version 1.6.14
+
+> Nov 15, 2022
+
+ -  Show quick-view icon if focus was gained with keyboard event
+ -  Fix 'data.sort is not a function' if data bool
+ -  RTL fix for prices inside floating cart
+
+### Version 1.6.13
+
+> Oct 24, 2022
+
+ -  Do not show loader on quick-view button when clicking on add to compare
+ -  Show quick-view button when using tab for navigation
 
 ### Version 1.6.12
 
