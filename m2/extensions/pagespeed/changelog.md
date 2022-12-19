@@ -8,6 +8,12 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.6.2
+
+> Dec 19, 2022
+
+ - Fix: Notice: Undefined property: ParamsBuilder::magentoMetadata
+ - Off caching ('private') content for logged in customer(s) (#47)
 
 ### Version 1.6.1
 
