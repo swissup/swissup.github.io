@@ -13,7 +13,7 @@ category: Firecheckout
 > Dec 22, 2022
 
  -  Fixed incorrectly activated "My billing and shipping address are the same"
-    checkbox for registered customers when default billign and shipping addresses
+    checkbox for registered customers when default billing and shipping addresses
     are not the same.
  -  Prevent multiple ajax requests when only one payment is available to choose.
  -  Small css fixes
