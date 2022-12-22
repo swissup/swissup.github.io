@@ -8,6 +8,16 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.30.5
+
+> Dec 22, 2022
+
+ -  Fixed incorrectly activated "My billing and shipping address are the same"
+    checkbox for registered customers when default billign and shipping addresses
+    are not the same.
+ -  Prevent multiple ajax requests when only one payment is available to choose.
+ -  Small css fixes
+
 ### Version 1.30.4
 
 > Nov 15, 2022
