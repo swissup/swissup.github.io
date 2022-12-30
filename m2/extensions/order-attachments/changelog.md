@@ -7,6 +7,12 @@ category: Order Attachments
 
 # Changelog
 
+### Version 1.4.19
+
+> Dec 30, 2022
+
+ - Resrtict Edit notes and Remove attachments on the customer account page.
+
 ### Version 1.4.18
 
 > Nov 28, 2022
