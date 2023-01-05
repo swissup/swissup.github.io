@@ -8,6 +8,14 @@ category: KnowledgeBase
 
 # Changelog
 
+### Version 1.1.11
+
+> Jan 5, 2023
+
+ - Improve data provider; add id(s) filter
+ - Update composer requirements
+
+
 ### Version 1.1.10
 
 > Sep 26, 2022
