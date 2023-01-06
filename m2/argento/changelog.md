@@ -7,6 +7,40 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.35.0
+
+> Jan 6, 2023
+
+ - Simplified javascript loading for Argento themes
+ - _Argento Stripes:_ Related products block - fix inability to click on select/unselect all
+
+**Extensions Updates**
+
+  - [Ajax Pro](/m2/extensions/ajaxpro/) — 1.6.16 (was 1.6.15)
+      + Fix product popup behaviour at homepage
+      + Fixed Pagebuilder products element issue - product added to cart two times.
+  - [Breeze](/m2/extensions/breeze/) — 2.1.1 (was 2.0.1)
+      + Lot of fixes and updates available on [Breeze Site](https://breezefront.com/updates)
+  - [Easy Catalog Images](/m2/extensions/easycatalogimages/) — 1.4.24 (was 1.4.23)
+      + Fixed broken grid styles
+  - [Pagespeed](/m2/extensions/pagespeed/) — 1.6.3 (was 1.6.0)
+      + Fix: PHP Exception: no class registered for scheme 'moz-extension'
+      + Fix: Notice: Undefined property: ParamsBuilder::
+      + Fix: "Add Expire Header Enable" cause cache constatnt miss for logged in customers with Varnish installed
+      + Fixed product image params wrong sort order (2.4)
+      + Added media/logo dir to target dirs
+  - [ProLabels](/m2/extensions/prolabels/) — 1.6.22 (was 1.6.21)
+      + Added new condition for manual label - "product type"
+  - [SEO Suite](/m2/extensions/seo-suite/)
+      + **swissup/module-rich-snippets** — 1.4.21 (was 1.4.20)
+          * Added: QAPages integration
+          * Added: Knowledgebase integration
+      + **swissup/module-seo-urls** — 1.5.38 (was 1.5.37)
+          * Fixed php 8.1 exception
+  - [Sold Together](/m2/extensions/soldtogether/) — 1.8.10 (was 1.8.9)
+      + Added filtering by product names at "Frequently Bought..." and "Customers Also..." grids.
+      + Fixed error at "Frequently Bought..." and "Customers Also..." grids when order them by 'product name' or 'related_product_name'
+
 ### Version 1.34.0
 
 > Nov 29, 2022
