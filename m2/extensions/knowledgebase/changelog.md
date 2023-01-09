@@ -8,6 +8,18 @@ category: KnowledgeBase
 
 # Changelog
 
+### Version 1.1.13
+
+> Jan 9, 2023
+
+ - Fix richsnippet hard dependency
+
+### Version 1.1.12
+
+> Jan 9, 2023
+
+ - Improve richsnippets integration
+
 ### Version 1.1.11
 
 > Jan 5, 2023

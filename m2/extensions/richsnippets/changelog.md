@@ -8,6 +8,36 @@ category: Rich Snippets
 
 # Changelog
 
+### Version 1.4.23
+
+> Jan 9, 2022
+
+ -  Improve knowledgebase integration
+ -  Improve askit integration
+ -  Fix hard dependencies
+
+
+### Version 1.4.22
+
+> Jan 6, 2023
+
+ - Add knowledgebase integration
+ - Add askit integration
+
+### Version 1.4.21
+
+> Nov 29, 2022
+
+ - PageSpeed compatibility: fixed missing snippets with defer JS enabled
+
+
+### Version 1.4.20
+
+> Jun 9, 2022
+
+ - Cleanup di.xml
+
+
 ### Version 1.4.19
 
 > May 26, 2022

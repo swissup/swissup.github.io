@@ -11,6 +11,18 @@ category: AskIt
 
 # Changelog
 
+### Version 1.12.9
+
+> Jan 9, 2022
+
+ - Add richsnippet integration
+
+### Version 1.12.8
+
+> Nov 24, 2022
+
+ - Fix PHP error "call to a member function getAssignPages()"
+
 ### Version 1.12.7
 
 > Oct 21, 2022
