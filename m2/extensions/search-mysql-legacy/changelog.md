@@ -10,6 +10,12 @@ category: Legacy Mysql Search
 
 ### Version 1.1.4
 
+> Jan 13, 2023
+
+ - Issue 12: Fix source class for virtualType missing; di.xml cleanup
+
+### Version 1.1.4
+
 > Sep 26, 2022
 
  - Possible fix for indexing bug (close #9 #10)
