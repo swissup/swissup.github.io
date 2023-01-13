@@ -8,7 +8,7 @@ category: KnowledgeBase
 
 # Changelog
 
-### Version 1.1.14
+### Version 1.1.15
 
 > Jan 13, 2023
 
