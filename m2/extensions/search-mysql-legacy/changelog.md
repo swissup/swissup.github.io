@@ -8,7 +8,7 @@ category: Legacy Mysql Search
 
 # Changelog
 
-### Version 1.1.4
+### Version 1.1.5
 
 > Jan 13, 2023
 

@@ -8,6 +8,13 @@ category: KnowledgeBase
 
 # Changelog
 
+### Version 1.1.14
+
+> Jan 13, 2023
+
+ - add (import) css styles to breeze theme(s)
+ - Fix broken markup at breeze http:div
+
 ### Version 1.1.13
 
 > Jan 9, 2023
