@@ -11,6 +11,13 @@ category: AskIt
 
 # Changelog
 
+### Version 1.12.10
+
+> Jan 16, 2022
+
+ - Add correct refer (url) param (closed #56)
+ - Prevent js errors when ajax request was failed (404)
+
 ### Version 1.12.9
 
 > Jan 9, 2022
