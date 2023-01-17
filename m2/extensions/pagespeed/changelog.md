@@ -8,6 +8,18 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.6.4
+
+> Jan 19, 2022
+
+ - Add config option enable/disable image optimization logging (closed #50)
+
+### Version 1.6.3
+
+> Jan 3, 2022
+
+ - Fix: PHP Exception: no class registered for scheme 'moz-extension'
+
 ### Version 1.6.2
 
 > Dec 19, 2022
