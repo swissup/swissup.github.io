@@ -8,6 +8,12 @@ category: Checkout Success
 
 # Changelog
 
+### Version 2.0.4
+
+> Jan 18, 2023
+
+  - Fix not working Success Page Builder in Magento Admin when storefront has different domain than Magento Admin.
+
 ### Version 2.0.2
 
 > Sep 12, 2022
