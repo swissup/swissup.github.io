@@ -7,92 +7,67 @@ category: Argento
 
 # Product Page
 
-On the product page, you can customize the [Header](/shopify/argento/stripes/header) and [Footer](/shopify/argento/stripes/footer).
+On the collection page, you can customize the [Header Top bar](/shopify/argento/stripes/header-top-bar), [Header](/shopify/argento/stripes/header) and [Footer](/shopify/argento/stripes/footer). 
 
-The main content of Argento Stripes product page consists of **Product information, Product tabs, Product recommendations**. You can enable/disable each section by visibility badge.
-
-![Argento Stripes Product page](/images/shopify/product-page.png)
-
-**Note:** to add a custom section to the product page, please go to the [FAQ](faq/).
+The main content of the Product page consists of a product information, cross-sells products, product tabs, product recommendations, and icons bar sections. You can add a new section and the new blocks in some sections. You can also remove blocks you don’t need.
 
 ### Product information
 
-Within a product information section you can:
+In the Argento theme, there are many settings to edit on the product page. In the product information block, you can enable sticky product information on large screens and the Quick Add option. The Quick Add option enables the display of Add to cart button next to the product details block. When users learn more about product details, they would like to add it to the shopping cart without scrolling to the top. The option is a nice solution for a better experience on mobile.
 
-- Choose a value for Text style from `Uppercase, Body, and Subtitle`.
-- Choose the button or drop-down value for the Variant picker.
-- Show dynamic Buy buttons.
-- Show Share button.
+The main content of Argento Stripes product page consists of **Product information, Product tabs, Product recommendations**. You can enable/disable each section by visibility badge.
 
-No customization settings are available for `Title, Price, Quantity selector` values.
+![Argento Stripes Product page](/images/shopify/quick-add-button-mobile.png)
+
+To configure the product information block, you are also allowed to:
+  
+ - Show title with product SKU
+ - Show the title with the product price on desktop
+ - Show title with product badges on desktop
+ - Screens 990px and wider.
+ - Show product badges in the media gallery
+ - Set a product description as initially collapsed
+ - Change the number of lines to be visible when collapsed
+ - Show product badges with price
+ - Choose a button or dropdown type for the variant picker
+ - Show dynamic checkout buttons
+
+### Cross-sells products
+
+Argento theme enables the display of "frequently bought together" product bundles on the product page. To configure the cross-sells block, you can:
+
+ - Specify a heading for the block
+ - Select products to promote
+ - Set to promote random products when there is nothing to show
+ - Choose the number of products to be shown per row
+ - Customize the product card settings
 
 ### Product tabs
 
-Argento Product tabs section consists of **Description, Product Reviews, Related products**, and **Product recommendations**.
+Choose a layout for product tabs. If you set to Collapsed, the block looks like this:
 
-**Note:** you can set all tabs to `Collapsed` or `Expanded` type.
+![Argento Stripes Product page](/images/shopify/product-tabs.png)
 
-![Argento Stripes Product page](/images/shopify/product-tabs-modes.png)
+To configure the product tabs block, you can:
 
-#### Related products tab
+ - Specify a heading for the tab
+ - Specify a heading for details and set the details position
+ - Add a tab heading for customer reviews
+ - Use the possibility of adding reviews by using the Liquid programming language. [Learn more about Custom Liquid.](https://shopify.dev/api/liquid)  
+ - Specify a heading for similar products tab
+ - Select the upsell products to promote
+ - Set to promote "random" products when there is nothing to show.
+ - Change the number of products per page
+ - Customize product card settings
 
-The tab shows products with the same tags or categories as the current product. Using the tab, you can promote other products from your store.
+### Product recommendations
 
-#### Product reviews tab
+To configure the product recommendations block, you can:
 
-The product reviews tab is one more great feature of the Argento theme. To use the tab, you have to get the installed `Free Shopify App - Product Reviews`.
+- Specify a heading for the tab
+- Change the number of products per page
+- Customize product card settings
 
-#### Product recommendations tab
+### Icons bar
 
-Argento has a separate Product recommendations section. Adding recommended products helps you to increase the average order value.
-
-Within a section, you can:
-
-- Specify a heading.
-- Set the number of products per page by using a range filter.
-- Choose size for the badge: `Extra Small, Small, Medium-large, Extra Large`.
-- Show the second image on hover.
-- Show vendor.
-
-**Note:** to add a custom product page tab, please go to the [FAQ](/shopify/argento/stripes/faq/).
-
-### Use Metafields
-
-Argento theme uses an ability to display some extra product information using `metafields`.
-After adding metafields they will appear directly in a product configuration page.
-
-|metafields.brand| **Brand** | Show a product brand.
-|metafields.details| **Details** | Show some additional product details in tab section.
-
-To enable this option at your store side, you have to add shopify metafields definition.
-> Navigate to the `shopify admin -> Settings -> Metafields -> Products -> Add definition`
-
-**Brand** - show a product brand above its name;
-
-| Name | Namespace | Select content type |
-| Brand | my_fields.brand | Text -> Single-line-text |
-
-**Details** - show a product details into product tabs;
-
-| Name | Namespace | Select content type |
-| Details | my_fields.details | Text -> Multi-line-text |
-
-It's possible to display some extra product information in either `list` or `row`.
-
-Result:
-
-![metafields settings](/images/shopify/product/metafields-settings.png)
-
-Product page configuration result:
-
-![metafields-settings](/images/shopify/product/product-page-config.png)
-
-Product page schema settings:
-
-![brand-option](/images/shopify/product/brand-option.png)
-![details-option](/images/shopify/product/details-option.png)
-![details-in-list](/images/shopify/product/details-in-list.png)
-
-##### Next up
-
-- [Back to main page](/shopify/argento/stripes/)
+Icons bar settings are the same as on the Argento homepage. [Click to see.] 

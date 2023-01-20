@@ -1,17 +1,22 @@
 ---
 layout: default
-title: Argento Stripes Collection list page
-description: Argento Collection list page
+title: Argento Stripes Collection List Page
+description: Argento Collection List Page
 category: Argento
 ---
 
-# Collection List page
+# Collection List Page 
 
-On the collections list page, you can show all available collections available in your store.
+The Collection list page is a separate page of Argento theme. Customers will be forwarded to the page right after they click "View All" button in Our collections subsection (link) on the homepage.
 
-![Argento Stripes Collection](/images/shopify/collections-list-page.png)
+![Argento Stripes Collection List Page](/images/shopify/collection-list-page.png)
 
-Within Argento theme customization, you can:
+Here you can set the display of all available product collections in your store. To configure the Collection list page, you can:
 
-- Specify the heading
-- Sort collections by Alphabet A-Z, Z-A; Date new to old, and old to new; Product count high to low, low to high. 
+ - Specify a heading for the page
+ - Sort collections by date, product count or alphabetically.
+ - Choose the image ratio for collection display
+ - Change the number of collections per page
+ - Change the number of columns
+ - Show descriptions on desktop except the case when Circle image ratio is enabled 
+ - Truncate the number of words

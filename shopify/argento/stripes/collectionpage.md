@@ -1,40 +1,82 @@
 ---
 layout: default
 title: Argento Stripes Collection Page
-description: Argento Collection page
+description: Argento Collection Page
 category: Argento
 ---
 
-# Collection Page
+# Collection
 
-On the collection page, you can customize the [Header](/shopify/argento/stripes/header) and [Footer](/shopify/argento/stripes/footer).
+![Argento Stripes Collection page](/images/shopify/collection-page.png)
 
-The main content of Argento Stripes Collection page consists of `Collection banner` and `Product grid` blocks.
+On the collection page, you can customize the [Header Top bar](/shopify/argento/stripes/header-top-bar), [Header](/shopify/argento/stripes/header) and [Footer](/shopify/argento/stripes/footer). 
+
+The main content of the Collection page consists of a collection banner, collection and icons bar sections. You can add a new section and the new blocks in the Collection section.
 
 ### Collection banner
 
-You can enable/disable a banner by visibility badge. Within a collection banner you can:
-
-- Show collection description.
-- Edit your collections.
-- Show collection image.
-
 ![Argento Stripes Collection page](/images/shopify/collection-banner.png)
 
-### Product grid
+To configure the collection banner you are allowed to:
 
-Pay attention that with the Argento theme you can set the number of products per row and set the number of products per page.
+ - Show a collection description
+ - Reduce the collection description and use the link “Show more” or “Show less” instead 
+ - Set a description length
+ - Show the collection image
 
-Within a product grid you also can:
+You can also hide a banner by clicking a visibility badge.
 
-- Choose size for the badge: Extra Small, Small, Medium-large, Extra Large.
-- Show the second image on hover.
-- Add image padding.
-- Show vendor.
-- Enable filtering and sorting.
+### Collection
 
-**Note:** if you want to set a few filters for grouping products, please click `Customize filters`. There you will be able to add filters. Available values are: `product type, brand, availability, price product options (color, size, etc.)`
+Here you may see four customizable blocks: **Special Offers, Filters, Products, Description**. You can either add the new block or remove the existing one.  
 
-![Argento Stripes Collection page](/images/shopify/product-grid.png)
+#### Special offers
 
-Don’t forget to press `Save` every time you make changes.
+To promote products in the block, here is possible to:
+
+ - Specify a heading for the block
+ - Select products to promote
+ - Choose to promote "random" products when there is nothing to promote
+ - Choose products count to show in the block
+ - Customize product card settings
+ - Apply a magazine cover design
+
+#### Filters
+
+There are two options to edit: the position on desktop and the appearance of Filters block.
+
+![Argento Stripes Collection page](/images/shopify/filters.png)
+
+#### Products
+
+In the products block, here is possible to:
+
+ - Enable sorting
+ - Enable mode toggler
+ - Choose a listing mode
+ - Change the number of products per page
+ - Change the number of columns to show in the block
+ - Customize product card settings
+
+![Argento Stripes Collection page](/images/shopify/filters.png)
+
+#### Products
+
+In the products block, here is possible to:
+
+ - Enable sorting
+ - Enable mode toggler
+ - Choose a listing mode
+ - Change the number of products per page
+ - Change the number of columns to show in the block
+ - Customize product card settings
+
+![Argento Stripes Collection page](/images/shopify/products.png)
+
+#### Description
+
+In description block you can enable a collapsed description and change the number of lines visible when collapsed.
+
+### Icons bar
+
+Icons bar settings are the same as on the Argento homepage. [Click to see.](/shopify/argento/stripes/homepage-icons-bar)
