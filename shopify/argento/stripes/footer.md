@@ -28,7 +28,7 @@ Here is possible to:
  - Show contact phone
  - Show newsletter form
 
-To change theme settings for the footer, check the Argento Theme settings page. link
+To change theme settings for the footer, check the [Argento Theme settings page](/shopify/argento/stripes/theme-settings).
 
 ### Quick Links
 

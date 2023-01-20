@@ -7,7 +7,7 @@ category: Argento
 
 # Header
 
-![Argento Stripes Product page](/images/shopify/header.png)
+![Argento Stripes Header](/images/shopify/header.png)
 
 The Argento theme header allows you to:
 
@@ -20,4 +20,4 @@ The Argento theme header allows you to:
  - Display the border at the bottom of the header
  - Activate Top level nowrap
 
-To edit menu items, please click on the Main menu. To change theme settings for the header, check the Argento Theme settings page. link
+To edit menu items, please click on the Main menu. To change theme settings for the header, check the [Argento Theme settings page](/shopify/argento/stripes/theme-settings).

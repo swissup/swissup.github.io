@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Argento Stripes Cart Page
-description: Argento Cart Page
+title: Argento Stripes Cart
+description: Argento Cart
 category: Argento
 ---
 
 # Cart Page
 
-![Argento Stripes Header](/images/shopify/cart-page.png)
+![Argento Stripes Cart](/images/shopify/cart-page.png)
 
 On the Cart (shopping cart page), you can customize the [Header Top bar](/shopify/argento/stripes/header-top-bar), [Header](/shopify/argento/stripes/header) and [Footer](/shopify/argento/stripes/footer). 
 

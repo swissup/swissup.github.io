@@ -70,4 +70,4 @@ To configure the product recommendations block, you can:
 
 ### Icons bar
 
-Icons bar settings are the same as on the Argento homepage. [Click to see.] 
+Icons bar settings are the same as on the Argento homepage. [Click to see.](/shopify/argento/stripes/homepage/#icons-bar)

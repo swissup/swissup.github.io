@@ -28,4 +28,4 @@ The Theme Settings include values available to change your pages' color, typogra
  -  [Collection page](/shopify/argento/stripes/collectionpage)
  -  [Collection list page](/shopify/argento/stripes/collectionlistpage)
  -  [Product page](/shopify/argento/stripes/productpage)
- -  [Cart page](/shopify/argento/stripes/cartpage)
+ -  [Cart page](/shopify/argento/stripes/cart)

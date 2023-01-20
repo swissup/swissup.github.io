@@ -66,7 +66,7 @@ Then you can configure each icon. Click the icon block. Now you can select the i
 
 ### Multicolumn
 
-Argento theme multicolumn section includes Featured collection, Favorite products, Our collections, and Modern gadgets subsections. You can configure or remove the entire section as well as each subsection.  
+Argento theme multicolumn section includes **Featured collection, Favorite products, Our collections**, and **Modern gadgets** subsections. You can configure or remove the entire section as well as each subsection.  
 
 ![Argento Stripes Homepage](/images/shopify/multicolumn.png)
 
@@ -94,7 +94,7 @@ In the multicolumn section, you can customize a Banner Title block and add a new
 
 ### Featured collection
 
-This is a unique Argento theme feature. When adding the product collection, you could give a clue on what your store offers right on the homepage. With the featured collection subsection you can promote New or Popular products.
+This is a unique Argento theme feature. When adding the product collection, you could give a clue on what your store offers right on the homepage. With the featured collection subsection you can promote **New** or **Popular** products.
 
 With featured collection subsection settings you are allowed to:
 
@@ -105,7 +105,7 @@ With featured collection subsection settings you are allowed to:
  - Enable swipe on mobile
  - Enable the “View All” button and use secondary button styles
  - Edit settings for product card: badge size and image ratio. You can show a second image on hover, show the vendor, and show “Add to cart”
- - Add “Magazine cover” design to the featured collection subsection. It creates an eye-catching effect. Here you can choose colors for the text, text background, button, and button background. You can also add the image for magazine cover.
+ - Add **Magazine cover design** to the featured collection subsection. It creates an eye-catching effect. Here you can choose colors for the text, text background, button, and button background. You can also add the image for magazine cover.
 
 ![Argento Stripes Homepage](/images/shopify/magazine-cover.png)
 
@@ -128,7 +128,7 @@ In the section, you can demonstrate to users the favorite products offered in yo
 
 ### Our collections
 
-Here is possible for customers to browse all collections available in your store. If you have many, there is a button “View All” to help users navigate in the necessary direction. There they will see a Collection List page (LINK)
+Here is possible for customers to browse all collections available in your store. If you have many, there is a button “View All” to help users navigate in the necessary direction. There they will see a [Collection List page](/shopify/argento/stripes/collectionlistpage).
 
 ![Argento Stripes Homepage](/images/shopify/our-collections.png)
 

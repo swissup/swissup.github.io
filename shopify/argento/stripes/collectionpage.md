@@ -79,4 +79,4 @@ In description block you can enable a collapsed description and change the numbe
 
 ### Icons bar
 
-Icons bar settings are the same as on the Argento homepage. [Click to see.](/shopify/argento/stripes/homepage-icons-bar)
+Icons bar settings are the same as on the Argento homepage. [Click to see.](/shopify/argento/stripes/homepage/#icons-bar)
