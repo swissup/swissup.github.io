@@ -13,7 +13,7 @@ The main content of the Product page consists of a product information, cross-se
 
 ### Product information
 
-In the Argento theme, there are many settings to edit on the product page. In the product information block, you can enable sticky product information on large screens and the Quick Add option. The Quick Add option enables the display of Add to cart button next to the product details block. When users learn more about product details, they would like to add it to the shopping cart without scrolling to the top. The option is a nice solution for a better experience on mobile.
+In the Argento theme, there are many settings to edit on the product page. In the product information block, you can enable sticky product information on large screens and the Quick Add option. The **Quick Add** option enables the display of Add to cart button next to the product details block. When users learn more about product details, they would like to add it to the shopping cart without scrolling to the top. The option is a nice solution for a better experience on mobile.
 
 The main content of Argento Stripes product page consists of **Product information, Product tabs, Product recommendations**. You can enable/disable each section by visibility badge.
 

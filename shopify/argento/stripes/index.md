@@ -7,11 +7,9 @@ category: Argento
 
 # Argento Stripes
 
-![Argento Stripes for Shopify](/images/shopify/argento-stripes.png)
-
 The main Argento theme content is a set of unique dynamic sections. You can remove some of them or reorder to change the look of the content. You can customize the sections as well as add a brand-new section or a block within the section. 
 
-Argento pages such Homepage, Collection page, Collection list page, and Product page consist of Header, Icons Bar, and Footer. These sections are static. They appear in predetermined locations in your store. It is not available to change the position of static sections.
+Argento pages such as Homepage, Collection page, Collection list page, and Product page consist of Header, Icons Bar, and Footer. These sections are static. They appear in predetermined locations in your store. It is not available to change the position of static sections.
 
 There are also subsections. Some subsections include blocks that can be removed. All options for sections are set out below in the documentation.  
  

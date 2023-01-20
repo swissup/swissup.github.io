@@ -58,19 +58,6 @@ In the products block, here is possible to:
  - Change the number of columns to show in the block
  - Customize product card settings
 
-![Argento Stripes Collection page](/images/shopify/filters.png)
-
-#### Products
-
-In the products block, here is possible to:
-
- - Enable sorting
- - Enable mode toggler
- - Choose a listing mode
- - Change the number of products per page
- - Change the number of columns to show in the block
- - Customize product card settings
-
 ![Argento Stripes Collection page](/images/shopify/products.png)
 
 #### Description

@@ -24,4 +24,4 @@ In the cart section you are allowed to:
 
 ### Icons bar
 
-Icons bar settings are the same as on the Argento homepage. [Click to see.](/shopify/argento/stripes/homepage-icons-bar)
+Icons bar settings are the same as on the Argento homepage. [Click to see.](/shopify/argento/stripes/homepage/#icons-bar)
