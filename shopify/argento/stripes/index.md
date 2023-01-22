@@ -15,6 +15,8 @@ There are also subsections. Some subsections include blocks that can be removed.
  
 The Theme Settings include values available to change your pages' color, typography, and badges.
 
+![Argento Stripes Theme](/images/shopify/theme-presentation/stripes.gif)
+
 # Contents
 
  -  [Installation](/shopify/argento/installation/)
