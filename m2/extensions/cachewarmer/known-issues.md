@@ -8,7 +8,7 @@ category: Cachewarmer
 
 # Known Issues
 
-### Empty Index And/OR User Agent table(swissup_cachewarmer_useragent)
+### Cache Warmer Urls remain empty after executing
 
 Go to your Magento root dir
 
