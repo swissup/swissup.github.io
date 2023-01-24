@@ -38,3 +38,4 @@ The module imitates your customers behavior on a website. Due to timely warming 
 1. [Installation](installation/)
 2. [Configuration](configuration/)
 3. [Changelog](changelog/)
+4. [Known Issues](known-issues/)
