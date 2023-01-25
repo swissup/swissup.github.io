@@ -8,12 +8,17 @@ category: KnowledgeBase
 
 # Changelog
 
-### Version 1.1.18-19
+### Version 1.1.19
+
+> Jan 25, 2023
+
+ - Remove comments
+
+### Version 1.1.18
 
 > Jan 25, 2023
 
  - Add toolbar sizes component breeze integration
- - Remove comments
 
 ### Version 1.1.17
 
