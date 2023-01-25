@@ -8,6 +8,13 @@ category: Cachewarmer
 
 # Changelog
 
+### Version 1.0.24
+
+> Jan 25, 2023
+
+ - Add error message 'user agent table is empty'
+ - Add logger and wrap indexer proccess
+
 ### Version 1.0.23
 
 > Sep 28, 2022
