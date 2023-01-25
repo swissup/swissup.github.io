@@ -8,6 +8,29 @@ category: KnowledgeBase
 
 # Changelog
 
+### Version 1.1.18-19
+
+> Jan 25, 2023
+
+ - Add toolbar sizes component breeze integration
+ - Remove comments
+
+### Version 1.1.17
+
+> Jan 24, 2023
+
+ - Set pageSize param(s) false value by default (works with all items)
+
+### Version 1.1.16
+
+> Jan 20, 2023
+
+ - Fix FaqComplexTextContent logic (always return '')
+ - Fix total_pages counting in knowledgeBaseCategories query
+ - Add isLoading() listing component
+ - Split graphql queries in js code
+ - Add articlesListSize property
+
 ### Version 1.1.15
 
 > Jan 13, 2023
