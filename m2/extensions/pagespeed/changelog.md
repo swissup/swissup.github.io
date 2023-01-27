@@ -8,9 +8,23 @@ category: Pagespeed
 
 # Changelog
 
-### Version 1.6.4
+### Version 1.6.6
+
+> Jan 27, 2022
+
+ - Prevent: PHP8.1 Deprecated function trim(): Passing null to parameter
+ - Force to string converting before Minify_HTML
+ - Don't minify data-breeze scripts (fix for JSMin: Unterminated RegExp)
+
+### Version 1.6.5
 
 > Jan 19, 2022
+
+ - Fix/Prevent: Deprecated Functionality: preg_replace_callback(): Passing null to parameter 3
+
+### Version 1.6.4
+
+> Jan 17, 2022
 
  - Add config option enable/disable image optimization logging (closed #50)
 
