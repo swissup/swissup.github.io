@@ -6,6 +6,13 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.6.17
+
+> Feb 1, 2023
+
+ - Add setHandles before getBlockHtml
+-  Improve abstarct customerData handles logic
+
 ### Version 1.6.16
 
 > Dec 15, 2022
