@@ -52,9 +52,11 @@ Other possible info for structed data of product is its condition. By default, p
 
 ### Organization
 
-![Organization settings](/images/m2/rich-snippets/config-organization.png)
+![Organization settings](/images/m2/rich-snippets/config-organization-v2.png)
 
-Fill out the fields to show the full information about your organization directly in search results.
+Fill out the fields to show the full information about your store at search result page or maps.
+
+We recommend to use this section when you have real store. The store customers can visit or pick-up their orders. You can set your store opening hours, phone number and address.
 
 ### Social links
 
