@@ -11,20 +11,7 @@ category: Argento
 
 On the collection page, you can customize the [Header Top bar](/shopify/argento/stripes/header-top-bar), [Header](/shopify/argento/stripes/header) and [Footer](/shopify/argento/stripes/footer). 
 
-The main content of the Collection page consists of a collection banner, collection and icons bar sections. You can add a new section and the new blocks in the Collection section.
-
-### Collection banner
-
-![Argento Stripes Collection page](/images/shopify/collection-banner.png)
-
-To configure the collection banner you are allowed to:
-
- - Show a collection description
- - Reduce the collection description and use the link “Show more” or “Show less” instead 
- - Set a description length
- - Show the collection image
-
-You can also hide a banner by clicking a visibility badge.
+The main content of the Collection page consists of collection and icons bar sections. You can add a new section and the new blocks in the Collection section.
 
 ### Collection
 
