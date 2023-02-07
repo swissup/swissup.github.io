@@ -32,7 +32,11 @@ To configure the product information block, you are also allowed to:
 
 ### Cross-sells products
 
-Argento theme enables the display of "frequently bought together" product bundles on the product page. To configure the cross-sells block, you can:
+Argento theme enables the display of "frequently bought together" product bundles on the product page.
+
+![Argento Stripes Product page](/images/shopify/product-page-crosssell.png)
+
+To configure the cross-sells block, you can:
 
  - Specify a heading for the block
  - Select products to promote
