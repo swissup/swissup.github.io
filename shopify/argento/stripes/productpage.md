@@ -61,6 +61,9 @@ To configure the product tabs block, you can:
  - Set to promote "random" products when there is nothing to show.
  - Change the number of products per page
  - Customize product card settings
+ - Specify the title for the FAQ block. You can also add an example for question/answer and a link to the FAQ page of your store.
+
+![Argento Stripes Product page](/images/shopify/product-page-faq.png)
 
 ### Product recommendations
 
