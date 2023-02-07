@@ -8,6 +8,12 @@ category: KnowledgeBase
 
 # Changelog
 
+### Version 1.1.20
+
+> Feb 7, 2023
+
+ - Fix: Division by zero
+
 ### Version 1.1.19
 
 > Jan 25, 2023
