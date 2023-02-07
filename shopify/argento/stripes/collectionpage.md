@@ -19,6 +19,8 @@ Here you may see four customizable blocks: **Special Offers, Filters, Products, 
 
 #### Special offers
 
+![Argento Stripes Collection page](/images/shopify/collection-page-specialoffers.png)
+
 To promote products in the block, here is possible to:
 
  - Specify a heading for the block
