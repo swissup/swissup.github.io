@@ -8,6 +8,12 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.6.7
+
+> Feb 7, 2023
+
+ - Fix: PHP 8.1 Deprecated Functionality: preg_match_all
+
 ### Version 1.6.6
 
 > Jan 27, 2022
