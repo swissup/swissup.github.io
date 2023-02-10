@@ -26,6 +26,7 @@ category: Argento
     - [Custom css file](custom-css/)
     - [Custom js file](custom-js/)
     - [Custom theme](custom-theme/)
+    - [Custom fonts](custom-fonts/)
  2. Css tools
     - [Grid system](grid-system/)
     - [Css helpers](css-helpers/)
