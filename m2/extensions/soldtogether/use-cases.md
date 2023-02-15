@@ -14,12 +14,48 @@ category: SoldTogether
 
 ### Add block into sales email
 
-You can add soldtogether blocks to the sales email template using the following code:
+You can add soldtogether blocks to the sales email template.
+
+#### Via interface
+
+Open email template in Magento Admin. Click **"Insert Variable..."**. Under `Template Variables` section soldtogether blocks.
+
+![Insert variable](/images/m2/soldtogether/insert-variable.png)
+
+If you can't find blocks in variable list then perhaps current email template doesn't support them. But you can always try insert block manualy.
+
+#### Manually
+
+
+##### Frequently Bought Together
 
 ```
-{% raw %}{{block class='Swissup\SoldTogether\Block\Email\Customer' area='frontend' template='Swissup_SoldTogether::email/customer.phtml' order_id=$order.id}}
-{{block class='Swissup\SoldTogether\Block\Email\Order' area='frontend' template='Swissup_SoldTogether::email/order.phtml' order_id=$order.id}}{% endraw %}
+{% raw %}{{layout handle="swissup_soldtogetheremail_order" order_id=$order_id products_count="3" area="frontend"}}{% endraw %}
 ```
+
+`handle` and `area` are required parameters. Please don't change them.
+
+`order_id` - Magento internal order ID. It is available via `$order_id` variable in sales emails.
+
+`products_count` - number of products to promote.
+
+`can_use_random` - flag to show random products when there are no assigned products to promote. Use `can_use_random="1"`.
+
+
+##### Customers Also Bought
+
+```
+{% raw %}{{layout handle="swissup_soldtogetheremail_customer" order_id=$order_id products_count="3" area="frontend"}}{% endraw %}
+```
+
+`handle` and `area` are required parameters. Please don't change them.
+
+`order_id` - Magento internal order ID. It is available via `$order_id` variable in sales emails.
+
+`products_count` - number of products to promote.
+
+`can_use_random` - flag to show random products when there are no assigned products to promote. Use `can_use_random="1"`.
+
 
 ### Show blocks in tabs
 

@@ -8,6 +8,15 @@ category: SoldTogether
 
 # Changelog
 
+### Version 1.9.0
+
+> Feb 15, 2023
+
+ -  Added soldtogether blocks to template variables list in edit email template interface. Now it is much more easier to insert soldtogether block into Magento Sales emails.
+ -  Added button "Select products" if there are no soldtogether relations when edit product in Magento Admin.
+ -  Added filtering by product name in Magento admin for grid with relations.
+ -  Fixed error for indexing via CLI command about not set area code.
+
 ### Version 1.8.8
 
 > Nov 15, 2022
