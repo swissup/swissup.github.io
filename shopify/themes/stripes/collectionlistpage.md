@@ -7,7 +7,7 @@ category: Argento
 
 # Collection List Page 
 
-The Collection list page is a separate page of Argento theme. Customers will be forwarded to the page right after they click "View All" button in [Our collections subsection](/shopify/argento/stripes/homepage/#our-collections) on the homepage.
+The Collection list page is a separate page of Argento theme. Customers will be forwarded to the page right after they click "View All" button in [Our collections subsection](/shopify/themes/stripes/homepage/#our-collections) on the homepage.
 
 ![Argento Stripes Collection List Page](/images/shopify/collections-list-page.png)
 

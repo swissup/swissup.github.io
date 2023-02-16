@@ -9,7 +9,7 @@ category: Argento
 
 ![Argento Stripes Cart](/images/shopify/cart-page.png)
 
-On the Cart (shopping cart page), you can customize the [Header Top bar](/shopify/argento/stripes/header-top-bar), [Header](/shopify/argento/stripes/header) and [Footer](/shopify/argento/stripes/footer). 
+On the Cart (shopping cart page), you can customize the [Header Top bar](/shopify/themes/stripes/header-top-bar), [Header](/shopify/themes/stripes/header) and [Footer](/shopify/themes/stripes/footer).
 
 The main content of the Cart page consists of cart and icons bar sections. You can add a new section according to your requirements.
 
@@ -24,4 +24,4 @@ In the cart section you are allowed to:
 
 ### Icons bar
 
-Icons bar settings are the same as on the Argento homepage. [Click to see.](/shopify/argento/stripes/homepage/#icons-bar)
+Icons bar settings are the same as on the Argento homepage. [Click to see.](/shopify/themes/stripes/homepage/#icons-bar)

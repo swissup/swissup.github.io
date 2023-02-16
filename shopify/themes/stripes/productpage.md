@@ -7,7 +7,7 @@ category: Argento
 
 # Product Page
 
-On the collection page, you can customize the [Header Top bar](/shopify/argento/stripes/header-top-bar), [Header](/shopify/argento/stripes/header) and [Footer](/shopify/argento/stripes/footer). 
+On the collection page, you can customize the [Header Top bar](/shopify/themes/stripes/header-top-bar), [Header](/shopify/themes/stripes/header) and [Footer](/shopify/themes/stripes/footer).
 
 The main content of Argento Stripes product page consists of **Product information, Product tabs, Product recommendations** and **Icons bar** sections. You can enable/disable each section by visibility badge. You can add a new section and the new blocks in some sections. You can also remove blocks you don’t need.
 
@@ -75,4 +75,4 @@ To configure the product recommendations block, you can:
 
 ### Icons bar
 
-Icons bar settings are the same as on the Argento homepage. [Click to see.](/shopify/argento/stripes/homepage/#icons-bar)
+Icons bar settings are the same as on the Argento homepage. [Click to see.](/shopify/themes/stripes/homepage/#icons-bar)

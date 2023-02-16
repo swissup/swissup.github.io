@@ -7,7 +7,7 @@ category: Argento
 
 # Homepage
 
-On the homepage, you can customize the [Header Top bar](/shopify/argento/stripes/header-top-bar), [Header](/shopify/argento/stripes/header) and [Footer](/shopify/argento/stripes/footer). On the homepage template, you can change settings for **Slideshow, Icons Bar, Multicolumn, Blog posts, About Store, bottom Slideshow**, and **Popup banner**.
+On the homepage, you can customize the [Header Top bar](/shopify/themes/stripes/header-top-bar), [Header](/shopify/themes/stripes/header) and [Footer](/shopify/themes/stripes/footer). On the homepage template, you can change settings for **Slideshow, Icons Bar, Multicolumn, Blog posts, About Store, bottom Slideshow**, and **Popup banner**.
 
 ### Slideshow
 
@@ -128,7 +128,7 @@ In the section, you can demonstrate to users the favorite products offered in yo
 
 ### Our collections
 
-Here is possible for customers to browse all collections available in your store. If you have many, there is a button “View All” to help users navigate in the necessary direction. There they will see a [Collection List page](/shopify/argento/stripes/collectionlistpage).
+Here is possible for customers to browse all collections available in your store. If you have many, there is a button “View All” to help users navigate in the necessary direction. There they will see a [Collection List page](/shopify/themes/stripes/collectionlistpage).
 
 ![Argento Stripes Homepage](/images/shopify/our-collections.png)
 

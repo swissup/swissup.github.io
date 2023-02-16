@@ -9,7 +9,7 @@ category: Argento
 
 ![Argento Stripes Collection page](/images/shopify/collection-page.png)
 
-On the collection page, you can customize the [Header Top bar](/shopify/argento/stripes/header-top-bar), [Header](/shopify/argento/stripes/header) and [Footer](/shopify/argento/stripes/footer). 
+On the collection page, you can customize the [Header Top bar](/shopify/themes/stripes/header-top-bar), [Header](/shopify/themes/stripes/header) and [Footer](/shopify/themes/stripes/footer).
 
 The main content of the Collection page consists of collection and icons bar sections. You can add a new section and the new blocks in the Collection section.
 
@@ -55,4 +55,4 @@ In description block you can enable a collapsed description and change the numbe
 
 ### Icons bar
 
-Icons bar settings are the same as on the Argento homepage. [Click to see.](/shopify/argento/stripes/homepage/#icons-bar)
+Icons bar settings are the same as on the Argento homepage. [Click to see.](/shopify/themes/stripes/homepage/#icons-bar)
