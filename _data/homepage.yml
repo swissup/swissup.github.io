@@ -58,3 +58,5 @@ sh:
   images:
     - title: Argento or Shopify
       src: /images/site/homepage/shopify/desktop.png
+    - title: Argento or Shopify
+      src: /images/site/homepage/shopify/tablet.png

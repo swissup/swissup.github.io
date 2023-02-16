@@ -13,7 +13,8 @@
         {% endif %}
       </div>
     </div>
-    <div class="card-content-image">
+    <div class="carousel js-flickity card-thumbnail mdl-cell mdl-cell--7-col mdl-cell--8-col-tablet mdl-cell--4-col-phone"
+      data-flickity-options='{ "wrapAround": true, "pageDots": false, "prevNextButtons": false, "autoPlay": true, "imagesLoaded": true }'>
       {% for image in shopify.images %}
         <img class="noborder" src="{{ image.src | prepend: site.baseurl }}" alt="{{ image.title }}"/>
       {% endfor %}
