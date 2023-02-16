@@ -16,7 +16,7 @@ argento:
     m1: /m1/argento/
     m2: /m2/argento/
     breeze: /m2/argento-breeze/
-    sh: /shopify/argento/
+    sh: /shopify/
 
 extensions:
   title: Extensions
@@ -47,3 +47,14 @@ themes:
     - absolute
     - classic
     - mobilestar
+
+sh:
+  title: Argento for Shopify
+  subtitle: Shopify Premium Themes, Developed With the Latest Web Design Trends
+  description: >
+    <p>Argento theme is a professionally made e-commerce website template that is
+    in tune with mobile and desktop. It would be easier to increase customer engagement and boost conversions with Stripes-based site.
+    Powered with Shopify features, Argento template can easily promote your store products.</p>
+  images:
+    - title: Argento or Shopify
+      src: /images/site/homepage/shopify/desktop.png

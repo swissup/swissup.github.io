@@ -19,13 +19,13 @@ The Theme Settings include values available to change your pages' color, typogra
 
 # Contents
 
- -  [Installation](/shopify/argento/installation/)
- -  [Theme settings](/shopify/argento/stripes/theme-settings)
- -  [Header Top bar](/shopify/argento/stripes/header-top-bar)
- -  [Header](/shopify/argento/stripes/header)
- -  [Footer](/shopify/argento/stripes/footer)
- -  [Homepage](/shopify/argento/stripes/homepage)
- -  [Collection page](/shopify/argento/stripes/collectionpage)
- -  [Collection list page](/shopify/argento/stripes/collectionlistpage)
- -  [Product page](/shopify/argento/stripes/productpage)
- -  [Cart page](/shopify/argento/stripes/cart)
+ -  [Installation](/shopify/themes/installation/)
+ -  [Theme settings](/shopify/themes/stripes/theme-settings)
+ -  [Header Top bar](/shopify/themes/stripes/header-top-bar)
+ -  [Header](/shopify/themes/stripes/header)
+ -  [Footer](/shopify/themes/stripes/footer)
+ -  [Homepage](/shopify/themes/stripes/homepage)
+ -  [Collection page](/shopify/themes/stripes/collectionpage)
+ -  [Collection list page](/shopify/themes/stripes/collectionlistpage)
+ -  [Product page](/shopify/themes/stripes/productpage)
+ -  [Cart page](/shopify/themes/stripes/cart)

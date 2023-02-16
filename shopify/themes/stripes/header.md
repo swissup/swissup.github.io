@@ -17,7 +17,7 @@ The Argento theme header allows you to:
     - Megamenu dropdown settings:
         - Use Image as Item menu - let you add Item image with link to collection/product page.
         (Available only one Item image per Top Item menu);
-        - Main Items per dropdown row - let you manage the number of Item menu per row in dropdown level;
+        - Main Items per dropdown row - let you manage the number of Items menu per row in dropdown level;
         - Limit number categories menu to show in dropdowm level - let you use the link “Shop All” at the end of Item menu;
     - Enable sticky header to make the header shown when users scroll up;
     - Display the border at the bottom of the header;

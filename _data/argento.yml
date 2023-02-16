@@ -200,14 +200,12 @@ breeze:
     - testimonials
 
 sh:
-  title: Argento for Shopify
-  url: /shopify/argento/
+  url: /shopify/
 
   articles:
     - title: Installation
-      url: /shopify/argento/installation/
+      url: /shopify/themes/installation/
 
   themes:
     - title: Stripes
-      url: /shopify/argento/stripes/
-
+      url: /shopify/themes/stripes/
