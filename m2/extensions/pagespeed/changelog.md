@@ -8,6 +8,12 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.6.8
+
+> Feb 21, 2023
+
+ - Add env checking in CheckImageOptimizerExisting.php
+
 ### Version 1.6.7
 
 > Feb 7, 2023
