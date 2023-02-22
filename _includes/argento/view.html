@@ -36,23 +36,26 @@
     </ul>
   {% endif %}
 
-  <h4>Extensions</h4>
-  <ul class="list-products">
-    {% for id in group.extensions %}
-      {% assign extension = site.data.extensions[id] %}
-      {% assign url = extension.urls[include.version] %}
+  {% assign extensions = group.extensions %}
+  {% if extensions %}
+    <h4>Extensions</h4>
+    <ul class="list-products">
+      {% for id in extensions %}
+        {% assign extension = site.data.extensions[id] %}
+        {% assign url = extension.urls[include.version] %}
 
-      {% if url == null and group.alias != null %}
-        {% assign url = extension.urls[group.alias] %}
-      {% endif %}
+        {% if url == null and group.alias != null %}
+          {% assign url = extension.urls[group.alias] %}
+        {% endif %}
 
-      {% if url == null %}
-        {% continue %}
-      {% endif %}
+        {% if url == null %}
+          {% continue %}
+        {% endif %}
 
-      <li>
-        <a href="{{ url | prepend: site.baseurl }}" title="{{ extension.title }}">{{ extension.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+        <li>
+          <a href="{{ url | prepend: site.baseurl }}" title="{{ extension.title }}">{{ extension.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
 </div>
