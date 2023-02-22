@@ -7,6 +7,78 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.36.0
+
+> Feb 22, 2023
+
+**Extensions Updates**
+
+  - [Ajax Pro](/m2/extensions/ajaxpro/) — 1.6.18 (was 1.6.16)
+      + Improved minicart preloading
+      + Improved abstarct customerData handles logic
+  - [AskIt](/m2/extensions/askit/) — 1.12.10 (was 1.12.9)
+      + Fix: Added correct refer (url) param
+      + Fix: Prevent js errors when ajax request was failed
+  - [Breeze](/m2/extensions/breeze/) — 2.3.2 (was 2.2.0)
+      + Fixed incorrect css class for alert modal
+      + Fixed visible loader after 'hide' call when custom loader was found in DOM
+      + Refactor and minimize isResourceVersionChanged method
+      + Fixed possible different resource version numbers on different pages
+      + Do not list virtual themes when selecting parent one
+      + getVendorName moved to abstract command
+      + Move shared logic to abstract command
+      + New command: `breeze:theme:create`
+      + Do not confirm `module:create` action when package was entered via args
+      + Update `module:create` command description
+      + Add compatiblity with old jQuery .bind method
+      + Range slider added
+      + Add mage/template implementation
+      + Improve uiComponent template searching.
+      + Add observe function to view component 
+      + Allow to call ajax request with two params (jQuery-like): `$.get(url, callback)`
+      + Do not process ajax response if it's not ok.
+  - [EasySlide](/m2/extensions/easyslider/) — 1.6.28 (was 1.6.27)
+      + Prevent fix: Fatal error Call to undefined function Composer\Autoload\includeFile() 
+  - [Easybanners](/m2/extensions/easybanners/) — 1.9.3 (was 1.9.2) 
+      + Prevent fix: Fatal error Call to undefined function Composer\Autoload\includeFile() 
+  - [SEO Suite](/m2/extensions/seo-suite/)
+      + **swissup/module-hreflang** — 1.5.3 (was 1.5.2)
+        * One more fix for newer PHP - fix Passing null to parameter 2 ($string)
+          in /cache/vendor/swissup/module-hreflang/Helper/Store.php on line 269
+      + **swissup/module-rich-snippets** — 1.5.0 (was 1.4.23)
+        * Organization block - code refactor.
+        * Don't render website data snippet when no data is set
+        * Fix: copy/paste warning.
+        * Fix wrong markup (must be only one mainEntity at QAPage)  
+        * Closed issue: Add opening hours config for organization data snippet
+        * Closed issue: Add weight unit information to product snippet 
+        * Organization config comment.
+        * Set store (organization) type for organization snippet.
+        * StructuredData/DataSnippetInterface - fix phpdoc return type
+        * Refactor Model/Product/StrcuturedData.
+        * Create and use interface for product structured data data snippet.
+  - [Pagespeed](/m2/extensions/pagespeed/) — 1.6.8 (was 1.6.3)
+      + Add env checking in CheckImageOptimizerExisting.php
+      + Fix: PHP 8.1 Deprecated Functionality: preg_match_all
+      + Don't minify data-breeze scripts (fix for JSMin: Unterminated RegExp at byte 2326: /ko -->)
+      + Force to string converting before Minify_HTML
+      + Prevent: PHP8.1 Deprecated function trim(): Passing null to parameter
+      + Fix/Prevent: Deprecated Functionality: preg_replace_callback(): Passing null to parameter 3 (subject) mrclay/minify/lib/Minify/HTML.php on line 111
+      + Closed issue: Add config option enable/disable image optimization logging
+  - [Sold Together](/m2/extensions/soldtogether/) — 1.9.0 (was 1.8.10)
+      + Remove redundant class.
+      + Phpdoc update.
+      + Remove email blocks config.
+        They will be implemented in separate module.
+      + Config provider properties from private to protected.
+        So the options can be availbale in child class.
+      + Move email blocks and templates to separate module. 
+      + Move prepareLayout from general block to Order specific block.
+        Because general block will be used to render email blocks.
+      + Edit product page in Admin - add button "Select products" when there no soldtogether links.
+  - [Sold Together Email](/m2/extensions/soldtogether/use-cases/#add-block-into-sales-email) — 1.0.0
+
+
 ### Version 1.35.0
 
 > Jan 6, 2023
