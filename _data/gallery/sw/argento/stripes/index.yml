@@ -1,0 +1,20 @@
+- href: /images/shopware/argento/stripes/home.webp
+  src: /images/shopware/argento/stripes/small/home.webp
+  title: Argento Stripes homepage
+  w: 3000
+  h: 11551
+- href: /images/shopware/argento/stripes/category.webp
+  src: /images/shopware/argento/stripes/small/category.webp
+  title: Argento Stripes category page
+  w: 3000
+  h: 7649
+- href: /images/shopware/argento/stripes/product.webp
+  src: /images/shopware/argento/stripes/small/product.webp
+  title: Argento Stripes product page
+  w: 3000
+  h: 6789
+- href: /images/shopware/argento/stripes/cart.webp
+  src: /images/shopware/argento/stripes/small/cart.webp
+  title: Argento Stripes shopping cart page
+  w: 3000
+  h: 3212

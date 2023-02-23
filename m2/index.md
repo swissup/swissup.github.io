@@ -4,7 +4,7 @@ body_class: no-anchors  no-edit
 title: Magento 2.x
 ---
 
-{% include argento/promo.html m1=false sh=false %}
+{% include argento/promo.html m1=false sh=false sw=false %}
 
 {% include extensions/m2.html %}
 

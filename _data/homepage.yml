@@ -17,6 +17,7 @@ argento:
     m2: /m2/argento/
     breeze: /m2/argento-breeze/
     sh: /shopify/
+    sw: /shopware/argento/
 
 extensions:
   title: Extensions

@@ -209,3 +209,15 @@ sh:
   themes:
     - title: Stripes
       url: /shopify/themes/stripes/
+
+sw:
+  title: Argento for Shopware
+  url: /shopware/argento/
+
+  articles:
+    - title: Installation
+      url: /shopware/argento/installation/
+
+  themes:
+    - title: Stripes
+      url: /shopware/argento/stripes/

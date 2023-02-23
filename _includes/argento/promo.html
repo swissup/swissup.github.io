@@ -17,6 +17,9 @@
         {% if include.sh != false %}
           <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="{{ argento.urls.sh | prepend: site.baseurl }}">Shopify</a>
         {% endif %}
+        {% if include.sw != false %}
+          <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="{{ argento.urls.sw | prepend: site.baseurl }}">Shopware</a>
+        {% endif %}
       </div>
     </div>
     <div class="carousel js-flickity card-thumbnail mdl-cell mdl-cell--7-col mdl-cell--8-col-tablet mdl-cell--4-col-phone"
