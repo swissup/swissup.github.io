@@ -8,6 +8,16 @@ category: Email Templates
 
 # Changelog
 
+### Version 1.1.4
+
+> Feb 27, 2023
+
+  - Email preview for desktop/tablet/mobile.
+  - Minor updates for supplied with module email templates (reset password, new order).
+  - Fixed overpurified html in email template preview in Magento 2.4.5.
+  - Solve jquery migration warnings on email preview.
+
+
 ### Version 1.1.2
 
 > Jun 22, 2021
