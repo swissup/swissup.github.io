@@ -8,6 +8,15 @@ category: Rich Snippets
 
 # Changelog
 
+### Version 1.5.0
+
+> Feb 27, 2023
+
+ -  Add weight unit information to product snippet.
+ -  Add opening hours config for organization data snippet.
+ -  Option in module configuration to set store (organization) type for organization snippet.
+ -  Don't render website data snippet when no data is set.
+
 ### Version 1.4.23
 
 > Jan 9, 2022
