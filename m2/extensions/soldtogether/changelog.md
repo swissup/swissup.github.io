@@ -8,6 +8,13 @@ category: SoldTogether
 
 # Changelog
 
+### Version 1.9.1
+
+> Feb 27, 2023
+
+ -  Data export and import implemented for Sold Together relations. Use core Magento Export/Import interfaces.
+ -  Code clean up.
+
 ### Version 1.9.0
 
 > Feb 15, 2023

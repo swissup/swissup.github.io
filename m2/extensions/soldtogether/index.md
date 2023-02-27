@@ -22,6 +22,8 @@ Our Sold Together module will encourage your customers to place the additional p
  -  Easy-to-use admin interfaces to maintain Sold Together relations.
  -  Build relations based on existing orders (via Magneto Admin and CLI commands).
  -  Create new relations when order is placed.
+ -  Show Sold Together blocks in sales email to promote other products.
+ -  Import/export relations.
 
 ### Contents
 
