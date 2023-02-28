@@ -11,6 +11,14 @@ category: AskIt
 
 # Changelog
 
+
+### Version 1.12.11
+
+> Feb 28, 2023
+
+ - Remove unused filterOutputHtml method and fix #58
+ - Removed deprecated complete callback (Magento 2.4.6 fix)
+
 ### Version 1.12.10
 
 > Jan 16, 2022
