@@ -7,6 +7,16 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.4.0
+
+> Mar 2, 2023
+
+ - Fix elasticsearch integration
+ - Add 'Load Previous Page' button
+ - Fix add more button logic page culculating
+ - Fix "On Sale" or "Rating" incorrect items count
+ - Add page-detector.js component (?p=)
+ - Fix Plugin/.../Rating/ElasticsearchCollectionFilterPlugin.php
 
 ### Version 1.3.62
 
