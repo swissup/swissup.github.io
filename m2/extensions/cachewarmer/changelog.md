@@ -8,6 +8,13 @@ category: Cachewarmer
 
 # Changelog
 
+### Version 1.0.25
+
+> Mar 6, 2023
+
+ - Fix: Error in cache warmer makes it crawl disabled products
+ - Add getNotVisibleProductRewriteIds function (memoization) for decrease sql query count
+
 ### Version 1.0.24
 
 > Jan 25, 2023
