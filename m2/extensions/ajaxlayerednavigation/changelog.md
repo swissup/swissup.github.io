@@ -7,6 +7,14 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.4.1
+
+> Mar 10, 2023
+
+ - Fix 'Unable to save product in admin' wrong store and current category detection on backend (#82)
+ - Fix: Table 'magento.catalog_category_product_index_store0' doesn't exist
+ - Fixed not working sticky config with breeze.
+
 ### Version 1.4.0
 
 > Mar 2, 2023
