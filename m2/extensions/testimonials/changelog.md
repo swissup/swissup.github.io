@@ -10,6 +10,12 @@ category: Testimonials
 
 ### Version 1.3.4
 
+> Mar 14, 2023
+
+ -  PHP 8.2 compatibility.
+
+### Version 1.3.2
+
 > Nov 15, 2022
 
  -  Improved Breeze Theme integration

@@ -6,6 +6,11 @@ keywords: Helpdesk changelog
 category: Helpdesk
 ---
 
+### Version 1.2.32
+
+> Mar 14, 2023
+
+ -  Stability improvements.
 
 ### Version 1.2.30
 

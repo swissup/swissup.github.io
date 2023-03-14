@@ -8,6 +8,12 @@ category: Easy Banners
 
 # Changelog
 
+### Version 1.9.4
+
+> Mar 14, 2023
+
+ -  PHP 8.2 compatibility.
+
 ### Version 1.9.2
 
 > Nov 15, 2022

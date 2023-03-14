@@ -8,6 +8,12 @@ category: Checkout Fields
 
 # Changelog
 
+### Version 1.6.7
+
+> Mar 14, 2023
+
+ -  Improve error message placement for checkbox fields.
+
 ### Version 1.6.6
 
 > Aug 9, 2022

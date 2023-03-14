@@ -11,6 +11,11 @@ category: AskIt
 
 # Changelog
 
+### Version 1.12.12
+
+> Mar 14, 2023
+
+ -  Magento 2.4.6 compatibility.
 
 ### Version 1.12.11
 

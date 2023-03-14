@@ -8,6 +8,12 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.6.23
+
+> Mar 14, 2023
+
+ -  PHP 8.2 compatibility.
+
 ### Version 1.6.20
 
 > Jun 17, 2022

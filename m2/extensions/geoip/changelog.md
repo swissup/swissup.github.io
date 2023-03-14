@@ -8,6 +8,12 @@ category: Geoip
 
 # Changelog
 
+### Version 1.5.5
+
+> Mar 14, 2023
+
+ -  PHP 8.2 compatibility.
+
 ### Version 1.5.3
 
 > Apr 15, 2021

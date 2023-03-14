@@ -8,6 +8,12 @@ category: Checkout VAT
 
 # Changelog
 
+### Version 1.4.3
+
+> Mar 14, 2023
+
+ -  PHP 8.2 compatibility.
+
 ### Version 1.4.1
 
 > Jan 13, 2021

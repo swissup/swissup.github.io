@@ -8,6 +8,13 @@ category: GDPR
 
 # Changelog
 
+### Version 1.5.10
+
+> Mar 14, 2023
+
+ -  PHP 8.2 compatibility.
+ -  Stability improvements.
+
 ### Version 1.5.9
 
 > Nov 15, 2022

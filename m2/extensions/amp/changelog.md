@@ -8,6 +8,12 @@ category: Accelerated Mobile Pages
 
 # Changelog
 
+### Version 1.5.4
+
+> Mar 14, 2023
+
+ -  PHP 8.2 compatibility.
+
 ### Version 1.5.0
 
 > Apr 15, 2022

@@ -6,6 +6,12 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.13.2
+
+> Mar 14, 2023
+
+ -  Update deprecated js code.
+
 ### Version 1.13.1
 
 > Nov 15, 2022
