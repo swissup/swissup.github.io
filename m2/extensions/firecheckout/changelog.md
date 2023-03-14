@@ -8,6 +8,17 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.31.0
+
+> Mar 14, 2023
+
+ -  Magento 2.4.6 and PHP 8.2 compatibility in all bundled modules.
+ -  Fixed possible incorrect billing address data when it's moved to shipping step.
+ -  Improve styles when billing is moved to shipping section.
+ -  Fixed billing address title position when rendered after shipping address.
+ -  Improved callback debouncing when multiple ajax requests are sent at the same time.
+ -  ShipperHQ integration added - reload totals when select extra shipping options.
+
 ### Version 1.30.5
 
 > Dec 22, 2022
