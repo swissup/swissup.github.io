@@ -8,6 +8,14 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.7.0
+
+> Mar 15, 2023
+
+ - PHP 8.2 compatibility
+ - Resize only important image types
+ - Add standalone Resizer.php and Scaler.php models
+
 ### Version 1.6.8
 
 > Feb 21, 2023
