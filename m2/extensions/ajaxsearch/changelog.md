@@ -6,11 +6,30 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.13.5
+
+> Mar 20, 2023
+
+ - Fix: Undefined factory 'opensearch'
+
+### Version 1.13.4
+
+> Mar 17, 2023
+
+ - Fixed compilation error: $_instanceName must be protected
+
+
+### Version 1.13.3
+
+> Mar 17, 2023
+
+ - PHP 8.2: fixed dynamic properties creation
+
 ### Version 1.13.2
 
 > Mar 14, 2023
 
- -  Update deprecated js code.
+ - Update deprecated js code.
 
 ### Version 1.13.1
 

@@ -15,6 +15,7 @@ category: Pagespeed
  - PHP 8.2 compatibility
  - Resize only important image types
  - Add standalone Resizer.php and Scaler.php models
+ - Add Model/Image/Product/DestanationPathResolver.php
 
 ### Version 1.6.8
 
