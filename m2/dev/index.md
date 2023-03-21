@@ -408,14 +408,22 @@ curl -sS https://get.symfony.com/cli/installer | bash
 
 #### [Shopware Quickstart / Installation](https://github.com/shopware/platform#quickstart--installation)
 
-Let's start by creating a new project:
-```bash
- composer create-project shopware/production:dev-flex project
+##### PHP preparation
+
+```
+apt install php8.1-{cli,fpm,common,mysql,curl,zip,gd,xml,mbstring,intl,opcache} git socat unzip curl bash-completion -y
+```
+
+Let's start by creating a new project `shopware`:
+
+```
+ composer create-project shopware/production:dev-flex shopware
 ```
 
 You now have the application template for the Shopware Platform in the directory project, we now change into it:
+
 ```
-cd project
+cd shopware
 ```
 
 ```
@@ -425,31 +433,37 @@ composer req --dev profiler
 ```
 
 Now we start our service containers:
+
 ```
 docker compose up -d
 ```
 
 And install Shopware with the following command:
+
 ```
 symfony console system:install --basic-setup --drop-database --create-database -f
 ```
 
-Start the webserver:
+Start the webserver
+
 ```
 symfony server:start -d
 ```
 
 Stop the webserver
+
 ```
 symfony server:stop
 ```
 
 If you want to run the web server with TLS support
+
 ```
 symfony server:ca:install
 ```
 
 Default admin credentials
+
 username: admin
 password: shopware
 
