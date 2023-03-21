@@ -414,7 +414,14 @@ curl -sS https://get.symfony.com/cli/installer | bash
 apt install php8.1-{cli,fpm,common,mysql,curl,zip,gd,xml,mbstring,intl,opcache} git socat unzip curl bash-completion -y
 ```
 
-Let's start by creating a new project `shopware`:
+##### [Install Symfony CLI](https://symfony.com/download)
+
+```
+curl -sS https://get.symfony.com/cli/installer | bash
+```
+
+
+###### Let's start by creating a new project `shopware`:
 
 ```
  composer create-project shopware/production:dev-flex shopware
