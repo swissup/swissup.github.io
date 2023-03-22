@@ -8,6 +8,13 @@ category: Checkout Success
 
 # Changelog
 
+### Version 2.0.6
+
+> Mar 22, 2023
+
+ -  Compatibility with Magento 2.4.6.
+ -  Fix inability to drag-and-drop new block or reorder existing ones when Success Page builder enabled.
+
 ### Version 2.0.5
 
 > Mar 14, 2023
