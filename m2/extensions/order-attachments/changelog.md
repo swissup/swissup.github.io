@@ -7,6 +7,18 @@ category: Order Attachments
 
 # Changelog
 
+### Version 1.4.21
+
+> Mar 24, 2023
+ 
+ -  [Breeze](https://breezefront.com/) integration added.
+ -  Security fix: do not allow to add attachment using order_id parameter.
+ -  Do not allow to upload/edit/remove attachments from order view page if 
+    the corresponsing option is disabled.
+ -  Newly uploaded files will be added to the top, so user see them without 
+    scrolling down the list.
+ -  A lot of code cleanup was made.
+
 ### Version 1.4.19
 
 > Dec 30, 2022
