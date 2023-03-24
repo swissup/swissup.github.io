@@ -69,7 +69,7 @@ bin/magento config:set dev/css/merge_css_files 1
 bin/magento config:set dev/css/minify_files 1
 
 bin/magento config:set pagespeed/css/critical_enable 1
-bin/magento config:set pagespeed/css/critical_default "$(curl --get --silent --fail "http://ci.swissuplabs.com/pagespeed/critical-css/generate?" --data-urlencode "website=$(bin/magento config:show web/unsecure/base_url)")"
+bin/magento config:set pagespeed/css/critical_default "$(curl --get --silent --fail "http://pagespeed.swissuplabs.com/critical-css/generate?" --data-urlencode "website=$(bin/magento config:show web/unsecure/base_url)")"
 bin/magento config:set dev/css/use_css_critical_path 1
 bin/magento config:set pagespeed/css/critical_layout 1
 

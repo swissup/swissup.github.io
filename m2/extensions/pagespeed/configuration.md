@@ -81,7 +81,7 @@ Minify CSS Files | Allows to enable/disable minify css files (Yes)
 Option               | Description
 ---------------------|-------------------------------------------
 Enable               | Allows to enable/disable [Critical Css](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/optimizing-critical-rendering-path?hl=en) (Yes)
-Default Critical CSS | There is only what the user can see when they first load the page. This means that we only need to load the minimum amount of CSS required to render the top portion of the page across all breakpoints. For the remainder of the CSS, we don’t need to worry as we can load it asynchronously. You can generate your site critical css [here](http://ci.swissuplabs.com/pagespeed/critical-css/).
+Default Critical CSS | There is only what the user can see when they first load the page. This means that we only need to load the minimum amount of CSS required to render the top portion of the page across all breakpoints. For the remainder of the CSS, we don’t need to worry as we can load it asynchronously. You can generate your site critical css [here](http://pagespeed.swissuplabs.com/critical-css/).
 Use built-in critical CSS feature | Enable/disable Magento's built-in critical.css file.
 Merge custom critical css files from your theme | Enable/disable custom critical css from your theme.
 

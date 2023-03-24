@@ -59,7 +59,7 @@ $MAGENTO_BIN config:set pagespeed/css/defer_onload 1
 
 $MAGENTO_BIN config:set pagespeed/css/critical_enable 1
 BASE_URL=`$MAGENTO_BIN config:show web/unsecure/base_url`
-SERVICE_API="http://ci.swissuplabs.com/pagespeed/critical-css/generate"
+SERVICE_API="http://pagespped.swissuplabs.com/critical-css/generate"
 CRITICAL_CSS=`curl --get --silent --fail "$SERVICE_API?" --data-urlencode "website=$BASE_URL"`
 $MAGENTO_BIN config:set pagespeed/css/critical_default "$CRITICAL_CSS"
 $MAGENTO_BIN config:set dev/css/use_css_critical_path 1
