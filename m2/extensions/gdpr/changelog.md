@@ -8,6 +8,14 @@ category: GDPR
 
 # Changelog
 
+### Version 1.5.12
+
+> Mar 27, 2023
+
+ -  When new cookie group is added by store administrator, show cookie consent 
+    again to all visitors.
+ -  Remove outdated PHP code.
+
 ### Version 1.5.10
 
 > Mar 14, 2023
