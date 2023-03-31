@@ -6,12 +6,28 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.6.20
+
+> Mar 31, 2023
+
+ - Remove minicart loading mask if addtocart request complete but isn't success
+ - Improve url checking in catalog-product-view
+ - Fix catalog-product-view isCyclicRedirect logic error
+
+
+### Version 1.6.19
+
+> Mar 31, 2023
+
+ - Fix \Zend_Json is undefined in 2.4.6 (closed #44)
+
+
 ### Version 1.6.17
 
 > Feb 1, 2023
 
  - Add setHandles before getBlockHtml
--  Improve abstarct customerData handles logic
+ -  Improve abstarct customerData handles logic
 
 ### Version 1.6.16
 
