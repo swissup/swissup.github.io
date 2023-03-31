@@ -8,6 +8,14 @@ category: Easy Tabs
 
 # Changelog
 
+### Version 1.11.4
+
+> Mar 31, 2023
+
+ -  Fixed error on breeze theme 1.0.
+ -  Compatibility with PHP 8.2.
+ -  Remove Zend_Db_Expr usage.
+
 ### Version 1.11.1
 
 > Nov 15, 2022
