@@ -8,6 +8,13 @@ category: SoldTogether
 
 # Changelog
 
+### Version 1.9.4
+
+> Mar 31, 2023
+
+ -  Improved compatibility with PHP 8.2.
+ -  Compatibility with Magento 2.4.6.
+
 ### Version 1.9.2
 
 > Mar 14, 2023
