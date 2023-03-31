@@ -7,6 +7,97 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.37.0
+
+> Mar 31, 2023
+
+ - Fixed error that happens when the `ProLabels` module is disabled
+ - Updated `SEO Pagination` default configuration
+ - Themes and extensions were made compatible with Magento 2.4.6 and PHP 8.2
+ - Added Sold Together Import/Export extension
+
+**Extensions Updates**
+
+  - [Ajax Pro](/m2/extensions/ajaxpro/) — 1.6.19 (was 1.6.18)
+      +  Removed Zend_Json usage (Magento 2.4.6 compatilibity)
+  - [Ajax Search](/m2/extensions/ajaxsearch/) — 1.13.5 (was 1.13.1)
+      + Removed deprecated jQuery methods
+      + Fixed dynamic properties creation (PHP 8.2 compatilibity)
+      + Fixed undefined factory opensearch error
+  - [AMP](/m2/extensions/amp/) — 1.5.5 (was 1.5.3)
+      + Fixed deprecated mb_convert_encoding usage (PHP 8.2 compatilibity)
+      + Removed usage of Zend classes (Magento 2.4.6 compatilibity)
+  - [AskIt](/m2/extensions/askit/) — 1.12.14 (was 1.12.10)
+      + Removed deprecated jQuery methods
+      + Remove unused filterOutputHtml method
+      + Fixed dynamic properties creation (PHP 8.2 compatilibity)
+      + Removed usage of Zend classes (Magento 2.4.6 compatilibity)
+  - [Attribute Pages](/m2/extensions/attributepages/) — 1.5.3 (was 1.5.2)
+      + Fixed dynamic properties creation (PHP 8.2 compatilibity)
+  - [Breeze](/m2/extensions/breeze/) — 2.4.5 (was 2.3.2)
+      + Lot of fixes and updates available on [Breeze Site](https://breezefront.com/updates)
+  - [EasySlide](/m2/extensions/easyslider/) — 1.7.1 (was 1.6.28)
+      + Added new type of slide `Raw HTML`
+      + Added fancy features to edit slide popup in admin
+      + Fixed wrong description positon value
+  - [Easybanners](/m2/extensions/easybanners/) — 1.9.6 (was 1.9.3)
+      + Fixed dynamic properties creation (PHP 8.2 compatilibity)
+      + Removed usage of Zend classes (Magento 2.4.6 compatilibity)
+  - [Easytabs](/m2/extensions/easytabs/) — 1.11.4 (was 1.11.2)
+      + Fixed dynamic properties creation (PHP 8.2 compatilibity)
+      + Removed usage of Zend classes (Magento 2.4.6 compatilibity)
+  - [Fblike](/m2/extensions/fblike/) — 1.3.8 (was 1.3.7)
+      + Fixed dynamic properties creation (PHP 8.2 compatilibity)
+  - [Featured Attributes](/m2/extensions/featured-attributes/) — 1.1.7 (was 1.1.6)
+      + Fixed dynamic properties creation (PHP 8.2 compatilibity)
+  - [GDPR](/m2/extensions/gdpr/) — 1.5.13 (was 1.5.9)
+      + PHP 8.2 compatibility
+      + When new cookie group is added by store administrator, show cookie consent again to all visitors
+      + Fixed possible initially invisible consents in all forms except newsletter
+  - [Highlight](/m2/extensions/highlight/) — 1.8.6 (was 1.8.4)
+      + Fixed dynamic properties creation (PHP 8.2 compatilibity)
+      + Removed usage of Zend classes (Magento 2.4.6 compatilibity)
+  - [Pagespeed](/m2/extensions/pagespeed/) — 1.7.1 (was 1.6.8)
+      + PHP 8.2 compatibility
+      + Resize only important image types
+      + Fixed htaccess is not a valid file path
+      + Removed usage of Zend classes (Magento 2.4.6 compatilibity)
+  - [ProLabels](/m2/extensions/prolabels/) — 1.6.24 (was 1.6.22)
+      + Fixed dynamic properties creation (PHP 8.2 compatilibity)
+      + Added sort order for labels
+      + Added duplicate label button
+  - [SEO Suite](/m2/extensions/seo-suite/)
+      + Compatibility with Magento 2.4.6 and PHP 8.2
+      + **swissup/module-hreflang** — 1.5.6 (was 1.5.3)
+        * Don't add hreflang to page that have canonical pointing to other page
+      + **swissup/module-rich-snippets** — 1.5.4 (was 1.5.0)
+        * Fixed dynamic properties creation (PHP 8.2 compatilibity)
+        * Product structured data. Allow to override @id, @type and @context with attributes.
+        * Fixed "Can’t check requested quantity for products"
+      + **swissup/module-seo-cross-links** — 1.1.11 (was 1.1.7)
+        * Fixed broken characters (currency, etc) in widgets
+        * Fixed broken cyrillic characters after DOMDocument saveHTML
+      + **swissup/module-seo-images** — 1.3.17 (was 1.3.16)
+        * Fixed high memory usage during CLI reindex
+      + **swissup/module-seo-urls** — 1.5.40 (was 1.5.38)
+        * Fixed dynamic properties creation (PHP 8.2 compatilibity)
+      + **swissup/module-seo-xml-sitemap** — 1.1.14 (was 1.1.13)
+        * Fixed dynamic properties creation (PHP 8.2 compatilibity)
+      + **swissup/module-seo-pager** — 1.2.11 (was 1.2.9)
+        * Fixed dynamic properties creation (PHP 8.2 compatilibity)
+        * Removed usage of Zend classes (Magento 2.4.6 compatilibity)
+      + **swissup/module-seo-templates** — 1.6.5 (was 1.6.3)
+        * Fixed dynamic properties creation (PHP 8.2 compatilibity)
+      + **swissup/module-seo-html-sitemap** — 1.1.15 (was 1.1.14)
+        * Fixed dynamic properties creation (PHP 8.2 compatilibity)
+  - [Sold Together](/m2/extensions/soldtogether/) — 1.9.4 (was 1.9.0)
+      + Fixed dynamic properties creation (PHP 8.2 compatilibity)
+      + Refactor link data provider for ui component: compatibility with Adobe Commerce
+      + Removed usage of Zend classes (Magento 2.4.6 compatilibity)
+  - [Testimonials](/m2/extensions/testimonials/) — 1.3.6 (was 1.3.3)
+      + Fixed dynamic properties creation (PHP 8.2 compatilibity)
+      + Removed usage of Zend classes (Magento 2.4.6 compatilibity)
+
 ### Version 1.36.0
 
 > Feb 22, 2023
@@ -34,13 +125,13 @@ category: Argento
       + Range slider added
       + Add mage/template implementation
       + Improve uiComponent template searching.
-      + Add observe function to view component 
+      + Add observe function to view component
       + Allow to call ajax request with two params (jQuery-like): `$.get(url, callback)`
       + Do not process ajax response if it's not ok.
   - [EasySlide](/m2/extensions/easyslider/) — 1.6.28 (was 1.6.27)
-      + Prevent fix: Fatal error Call to undefined function Composer\Autoload\includeFile() 
-  - [Easybanners](/m2/extensions/easybanners/) — 1.9.3 (was 1.9.2) 
-      + Prevent fix: Fatal error Call to undefined function Composer\Autoload\includeFile() 
+      + Prevent fix: Fatal error Call to undefined function Composer\Autoload\includeFile()
+  - [Easybanners](/m2/extensions/easybanners/) — 1.9.3 (was 1.9.2)
+      + Prevent fix: Fatal error Call to undefined function Composer\Autoload\includeFile()
   - [SEO Suite](/m2/extensions/seo-suite/)
       + **swissup/module-hreflang** — 1.5.3 (was 1.5.2)
         * One more fix for newer PHP - fix Passing null to parameter 2 ($string)
@@ -49,9 +140,9 @@ category: Argento
         * Organization block - code refactor.
         * Don't render website data snippet when no data is set
         * Fix: copy/paste warning.
-        * Fix wrong markup (must be only one mainEntity at QAPage)  
+        * Fix wrong markup (must be only one mainEntity at QAPage)
         * Closed issue: Add opening hours config for organization data snippet
-        * Closed issue: Add weight unit information to product snippet 
+        * Closed issue: Add weight unit information to product snippet
         * Organization config comment.
         * Set store (organization) type for organization snippet.
         * StructuredData/DataSnippetInterface - fix phpdoc return type
@@ -72,7 +163,7 @@ category: Argento
         They will be implemented in separate module.
       + Config provider properties from private to protected.
         So the options can be availbale in child class.
-      + Move email blocks and templates to separate module. 
+      + Move email blocks and templates to separate module.
       + Move prepareLayout from general block to Order specific block.
         Because general block will be used to render email blocks.
       + Edit product page in Admin - add button "Select products" when there no soldtogether links.
