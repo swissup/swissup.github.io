@@ -8,6 +8,15 @@ category: Easy Slider
 
 # Changelog
 
+### Version 1.7.0
+
+> Mar 31, 2023
+
+ -  Add new type of slide for slider - "Raw HTML". With this type you can add any content to your slide.
+ -  Add fancy features to edit slide popup in Magento Admin - toggler for "Visible on frontent", code editor for "Description" and "Raw HTML" fields.
+ -  Fix wrong description positon value of slide after close popup in edit slider interface in Magento Admin.
+ -  Code improvements.
+
 ### Version 1.6.25
 
 > Jan 28, 2022
