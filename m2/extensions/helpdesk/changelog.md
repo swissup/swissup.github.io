@@ -6,6 +6,15 @@ keywords: Helpdesk changelog
 category: Helpdesk
 ---
 
+### Version 1.2.33
+
+> Mar 31, 2023
+
+ - Replace \Zend_Mail (zf1) for 2.4.6 compatability
+ - Replace \Zend_Validate (zf1) for 2.4.6 compatability
+ - Fixed passing null to parameter 2 of preg_match
+ - Replace \Zend_Date => \DateTime
+
 ### Version 1.2.32
 
 > Mar 14, 2023
