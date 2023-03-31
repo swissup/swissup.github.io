@@ -8,6 +8,13 @@ category: Rich Snippets
 
 # Changelog
 
+### Version 1.5.4
+
+> Mar 31, 2023
+
+ -  Fix "Can't check requested quantity for products...".
+ -  Some additional fixes for PHP 8.2.
+
 ### Version 1.5.1
 
 > Mar 14, 2023
