@@ -8,6 +8,14 @@ category: Easy Slider
 
 # Changelog
 
+### Version 1.7.1
+
+> Mar 31, 2023
+
+ -  Fix error about undefined variable $isLaze in `thumbs.phtml`.
+ -  Fix incorrect order of slides at edit slider form in Magento Admin.
+ -  Fix removed raw html slide still exists after slider saved.
+
 ### Version 1.7.0
 
 > Mar 31, 2023
