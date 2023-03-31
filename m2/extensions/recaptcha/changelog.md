@@ -8,6 +8,13 @@ category: reCAPTCHA
 
 # Changelog
 
+### Version 1.4.7
+
+> Mar 31, 2023
+
+ -  Few more fixes for PHP 8.2.
+ -  Meeting Magento Coding Standarts. Avoid using closing slash with void tags.
+
 ### Version 1.4.5
 
 > Mar 14, 2023
