@@ -8,6 +8,48 @@ category: SEO Suite
 
 # Changelog
 
+### Version 1.15.0
+
+> Mar 31, 2023
+
+ -  Compatibility with Magento 2.4.6 and feature fixes for PHP 8.2.
+
+*swissup/module-hreflang — 1.5.6 (was 1.5.1)*
+
+ -  Don’t add hreflang to page that have canonical pointing to other page.
+
+*swissup/module-rich-snippets — 1.5.4 (was 1.4.20)*
+
+ -  Add weight unit information to product snippet.
+ -  Add opening hours config for organization data snippet.
+ -  Option in module configuration to set store (organization) type for organization snippet.
+ -  Don't render website data snippet when no data is set.
+ -  Integration with Swissup_Askit and Swissup_Knowledgebase.
+ -  Product structured data. Allow to override `@id`, `@type` and `@context` with attributes.
+ -  Fix "Can’t check requested quantity for products…".
+ -  Some additional fixes for PHP 8.2.
+
+*swissup/module-seo-cross-links — 1.1.11 (was 1.1.7)*
+
+ -  Fixed broken characters (currency, etc) in widgets.
+ -  Fixed broken cyrillic characters after DOMDocument saveHTML.
+
+*swissup/module-seo-images — 1.3.17 (was 1.3.15)*
+
+ -  Fix error during during CLI reindex about exhausted memory.
+ -  Support media url option "Image optimization based on query parameters".
+
+*swissup/module-seo-urls — 1.5.40 (was 1.5.33)*
+
+ -  Compatibility with Blueskytechco_LayeredAjax and Smile_Elastcsuite.
+ -  Magento Admin - show SEO Urls tab at attribute when it is filterable.
+ -  Fix not sligified urls when query parameter value is 0.
+
+*swissup/module-seo-xml-sitemap — 1.1.14 (was 1.1.12)*
+
+ -  Add Mirasvit Knowledge Base urls to sitemap when module enabled.
+
+
 ### Version 1.14.0
 
 > Sep 19, 2022
