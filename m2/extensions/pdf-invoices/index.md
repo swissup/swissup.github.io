@@ -27,6 +27,7 @@ Also you can add *Download PDF* link to the sales emails or send PDF as *email a
 3. [Configuration](configuration/)
 4. [Create PDF Template](create-pdf-template/)
 5. [Known Issues](known-issues/)
+   - [The items table disappears when the display of the product image or barcode enabled](known-issues/#the-items-table-disappears-when-the-display-of-the-product-image-or-barcode-enabled)
    - [Magento 2.4.4+ Compatibility](known-issues/#magento-244-compatibility)
    - [Squares instead of text](known-issues/#squares-instead-of-text)
    - [Download PDF link displays 404 error with Asynchronous sending enabled](known-issues/#download-pdf-link-displays-404-error-with-asynchronous-sending-enabled)

@@ -8,6 +8,22 @@ category: PDF Invoices
 
 # Known Issues
 
+### The items table disappears when the display of the product image or barcode enabled
+
+It happens because of a bug in tables logic in `mPDF` library.
+
+Workaround can be added in file `vendor/mpdf/mpdf/src/Tag/Table.php` (lines 827-850):
+
+```php
+if (isset($c)) {
+    if (!$this->mpdf->simpleTables) {
+        ...
+    } elseif ($this->mpdf->simpleTables) {
+        ...
+    }
+}
+```
+
 ### Magento 2.4.4+ Compatibility
 
 With the release of Magento 2.4.4 and 2.4.3-p2, legacy email templates support was removed. PDF templates should be re-created based on the default templates to use new correct variables.

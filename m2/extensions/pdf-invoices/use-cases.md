@@ -130,7 +130,7 @@ that will be converted to `LF` or `CRLF` characters.
 To display product image in items table in PDF, add `image="1"` param to items code:
 
 ```
-{% raw %}{{layout area="frontend" handle="sales_email_order_invoice_items" invoice=$invoice order=$order image="1"}}{% endraw %}
+{% raw %}{{layout area="frontend" handle="sales_email_order_invoice_items" invoice_id=$invoice_id order_id=$order_id image="1"}}{% endraw %}
 ```
 
 ### Display product SKU barcode or QR code in items table
@@ -138,7 +138,7 @@ To display product image in items table in PDF, add `image="1"` param to items c
 To display product sku QR code in items table in PDF, add `barcode="QR"` param to items code:
 
 ```
-{% raw %}{{layout area="frontend" handle="sales_email_order_invoice_items" invoice=$invoice order=$order barcode="QR"}}{% endraw %}
+{% raw %}{{layout area="frontend" handle="sales_email_order_invoice_items" invoice_id=$invoice_id order_id=$order_id barcode="QR"}}{% endraw %}
 ```
 
 You can use all supported barcode types, e.g. barcode="QR" or barcode="C39".
