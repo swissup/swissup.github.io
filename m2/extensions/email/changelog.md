@@ -8,6 +8,28 @@ category: Email
 
 # Changelog
 
+### Version 0.5.7
+
+> Apr 4, 2023
+
+**Fixes**
+ - Remove zf1 support
+ - Remove comments
+
+### Version 0.5.6
+
+> Mar 17, 2023
+
+**Fixes**
+ - PHP 8.2: fixed dynamic properties creation
+
+### Version 0.5.5
+
+> Jan 6, 2023
+
+**Fixes**
+ - Update composer requirements
+
 ### Version 0.5.4
 
 > Sep 7, 2022
