@@ -7,6 +7,18 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.4.3
+
+> Apr 4, 2023
+
+ - Fix: use correct getTableName method
+
+### Version 1.4.2
+
+> Apr 4, 2023
+
+ - Prevent division by zero
+
 ### Version 1.4.1
 
 > Mar 10, 2023
