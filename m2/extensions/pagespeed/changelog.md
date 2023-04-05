@@ -8,6 +8,30 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.7.3
+
+> Apr 5, 2023
+
+ - Fix guzzlehttp/psr7 requirements
+
+### Version 1.7.2
+
+> Mar 31, 2023
+
+ - Added missing laminas-dom dependency
+
+
+### Version 1.7.1
+
+> Mar 31, 2023
+
+ - Fix htaccess is not a valid file path (DenyListPathValidator.php)
+ - Update composer and module.xml requirements
+ - Replace Zend_Http_ regarding Magento Coding Standards
+ - Fixed using wrong variable
+ - Added 'attribute' directory to have wepb images available for product
+
+
 ### Version 1.7.0
 
 > Mar 15, 2023
