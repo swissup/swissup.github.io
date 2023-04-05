@@ -8,6 +8,14 @@ category: Email
 
 # Changelog
 
+### Version 0.5.8
+
+> Apr 5, 2023
+
+**Fixes**
+ - Secure email passwords (close #27)
+ - Increase password column size
+
 ### Version 0.5.7
 
 > Apr 4, 2023
