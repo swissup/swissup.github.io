@@ -8,6 +8,12 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.7.4
+
+> Apr 5, 2023
+
+ - Decrease laminas/laminas-* composer requirements for old magento versions
+
 ### Version 1.7.3
 
 > Apr 5, 2023
