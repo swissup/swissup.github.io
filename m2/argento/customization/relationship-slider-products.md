@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Relatioship slider products
+title: Relationship slider products
 description: Add slider Up-sells and Cross-sells and Related products to the product page
 keywords: product page
 category: Argento
@@ -8,7 +8,7 @@ category: Argento
 
 # Slider Related Products, Slider-Up-Sells, and Slider-Cross-Sells
 
-These instructions help you to dispaly all relationship products as a slider on the product page.
+These instructions help you to display all relationship products as a slider on the product page.
 
 > **Notice**
 >
@@ -19,7 +19,7 @@ These instructions help you to dispaly all relationship products as a slider on 
 >
 > 2. You should add related products in the configuration of each product.
 
-#### Relatioships:
+#### Relationships:
 - [Related Products](https://docs.magento.com/m2/ce/user_guide/catalog/settings-advanced-related-products.html) - Related products are meant to be purchased in addition to the item the customer is viewing.
 - [Up-sell Products](https://docs.magento.com/m2/ce/user_guide/catalog/settings-advanced-up-sells.html) - items that are similar, but are perhaps of a higher-quality, more popular, or have a better profit margin than the item the customer is considering.
 - [Cross-sell Products](https://docs.magento.com/m2/ce/user_guide/catalog/settings-advanced-cross-sells.html) - offered on the shopping cart page as last-minute purchases before the checkout process begins.
@@ -96,5 +96,5 @@ Choose a relation products and set destination on the product page.
     </div>
     ```
 
-Clear Magento cache to see the result:
+Clear Magento cache to see the results.
 
