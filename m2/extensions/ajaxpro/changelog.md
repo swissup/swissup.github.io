@@ -6,6 +6,12 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.6.21
+
+> Apr 6, 2023
+
+ - Improve modal-manager (add unregister)
+
 ### Version 1.6.20
 
 > Mar 31, 2023
