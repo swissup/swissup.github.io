@@ -8,6 +8,15 @@ category: SoldTogether
 
 # Changelog
 
+### Version 1.9.5
+
+> Apr 12, 2023
+
+ -  Perfomance improvements. Speedup initial page load (not cached yet) on storefront where module block exists with enabled option "List random products for empty collections".
+ -  Added danish translation provided by our clients.
+ -  Fixed error `Item (...) with the same ID "..." already exists." at storefront atd some instances.
+ -  
+
 ### Version 1.9.4
 
 > Mar 31, 2023
