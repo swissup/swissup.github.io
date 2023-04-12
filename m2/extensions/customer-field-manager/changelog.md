@@ -8,6 +8,12 @@ category: Customer Field Manager
 
 # Changelog
 
+### Version 1.2.10
+
+> Apr 10, 2023
+
+ -  [BreezeFrontend](https://breezefront.com/) integration added.
+
 ### Version 1.2.8
 
 > Nov 10, 2020

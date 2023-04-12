@@ -8,6 +8,12 @@ category: Address Field Manager
 
 # Changelog
 
+### Version 1.6.12
+
+> Apr 12, 2023
+
+ -  [BreezeFrontend](https://breezefront.com/) integration added.
+
 ### Version 1.6.9
 
 > Aug 5, 2022
