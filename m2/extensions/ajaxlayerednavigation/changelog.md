@@ -7,6 +7,18 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.4.5
+
+> Apr 13, 2023
+
+ - Fix: Prevent error 'addItem with the same Id'
+
+### Version 1.4.4
+
+> Apr 6, 2023
+
+ - Fix: Fixed division by zero for float numbers
+
 ### Version 1.4.3
 
 > Apr 4, 2023
