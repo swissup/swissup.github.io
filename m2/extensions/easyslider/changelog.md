@@ -8,6 +8,14 @@ category: Easy Slider
 
 # Changelog
 
+### Version 1.8.0
+
+> Apr 19, 2023
+
+ -  Add options for slides to set "Active from" - "Active to" period (with date and time).
+ -  Refactor javascript for slides gallery at edit slider form in Magento Admin.
+ -  Update responsive image settings for image slides. Proper config ontions for `sizes` attribute and widths to generate `srcset` attribute.
+
 ### Version 1.7.1
 
 > Mar 31, 2023
