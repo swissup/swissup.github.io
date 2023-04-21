@@ -7,6 +7,14 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.4.6
+
+> Apr 21, 2023
+
+ - Fix scroling bug if next element is hidden
+ - Fix Amasty_Sorting Unknown column 'e.sku'
+
+
 ### Version 1.4.5
 
 > Apr 13, 2023
