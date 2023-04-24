@@ -7,6 +7,13 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.4.7
+
+> Apr 24, 2023
+
+ - Fix: Deprecated Functionality: str_replace() error (close #84)
+
+
 ### Version 1.4.6
 
 > Apr 21, 2023
