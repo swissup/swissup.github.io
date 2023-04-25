@@ -8,6 +8,12 @@ category: Store Maintenance
 
 # Changelog
 
+### Version 2.1.3
+
+> Apr 25, 2023
+
+  - Customize maintenance page content and title per website / store view.
+
 ### Version 2.1.2
 
 > Nov 9, 2020
