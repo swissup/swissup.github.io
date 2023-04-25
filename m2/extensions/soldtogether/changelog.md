@@ -8,6 +8,15 @@ category: SoldTogether
 
 # Changelog
 
+### Version 1.9.6
+
+> Apr 25, 2023
+
+ -  Fixed show random products when now relations feature. After previous release random products may include current one. It is fixed in this version.
+ -  Improve module stability. Prevent PHP error when previously related product doesn't exists anymore.
+ -  Fixed calculation of total amount for "Freaquently bought together..." block at stores with Asian currencies.
+ -  Overall JavaScript update for storefront. Now we have common JS files for Luma-based and Breeze-based storefronts. It slightly reduces amount of static content.
+
 ### Version 1.9.5
 
 > Apr 12, 2023
