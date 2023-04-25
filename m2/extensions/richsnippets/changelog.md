@@ -8,6 +8,12 @@ category: Rich Snippets
 
 # Changelog
 
+### Version 1.5.5
+
+> Apr 25, 2023
+
+ -  Product structured data. Provide currect data for grouped products
+
 ### Version 1.5.4
 
 > Mar 31, 2023
