@@ -8,6 +8,15 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.16.18
+
+> Apr 27, 2023
+
+ -  Fixed not working save functionality when using pagebuilder with latest 
+    Google Chrome (Version 112)
+ -  Improved dropdown content preview renderer. Dedicated icons added for 
+    iframe, map, slider, and grid widgets.
+
 ### Version 1.16.17
 
 > Nov 15, 2022
