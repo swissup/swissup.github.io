@@ -6,6 +6,13 @@ keywords: Helpdesk changelog
 category: Helpdesk
 ---
 
+### Version 1.2.34
+
+> Apr 27, 2023
+
+ - Fix too late FLAG_NO_DISPATCH setting
+ - Fix: Deprecated Functionality: preg_match(): Passing null to parameter #2
+
 ### Version 1.2.33
 
 > Mar 31, 2023
