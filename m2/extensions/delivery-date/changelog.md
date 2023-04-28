@@ -7,6 +7,13 @@ category: Delivery Date
 
 # Changelog
 
+### Version 1.7.7
+
+> Apr 28, 2023
+
+ -  Hide delivery date if no shipping method is selected and filter per shipping 
+    method is used
+
 ### Version 1.7.6
 
 > Nov 16, 2022
