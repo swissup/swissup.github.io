@@ -6,6 +6,13 @@ keywords: Helpdesk changelog
 category: Helpdesk
 ---
 
+### Version 1.2.35
+
+> May 1, 2023
+
+ - Fixed 404 error when viewing ticket for logged-in customer
+ - Refactor Ticket View Controller to improve readability
+
 ### Version 1.2.34
 
 > Apr 27, 2023
