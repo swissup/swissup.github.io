@@ -7,6 +7,86 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.38.0
+
+> May 2, 2023
+
+ - FishPig Wordpress css update. Tested on FishPig version 3.28.0.
+ - Fixed Safari benefits icons overlapping background (Argento Home)
+ - Update XML layout to move add-to buttons below add-to-cart.
+   It reduces number of XML layout updfate directives and solves issue when add-to buttons not visible for out of stock products. (Argento Stripes)
+ - FishPig Wordpress integration JS for breeze.
+ - Added option to check and fix the "Virtual Themes" error from backend
+   in Swissup > Core > Troubleshooting
+
+**Extensions Updates**
+
+  - [Ajax Pro](/m2/extensions/ajaxpro/) — 1.6.21 (was 1.6.19)
+      +  Improve modal-manager (add unregister)
+  - [Ajax Search](/m2/extensions/ajaxsearch/) — 1.13.6 (was 1.13.5)
+      + Removed Debugging comments
+  - [AMP](/m2/extensions/amp/) — 1.5.6 (was 1.5.5)
+      + Prevent passing null to explode parameter is deprecated error
+      + Add Danish translations
+  - [AskIt](/m2/extensions/askit/) — 1.12.15 (was 1.12.14)
+      + Fixed class not found on submitting question.
+      + Add Danish translations (frontend only)
+  - [Breeze](/m2/extensions/breeze/) — 2.4.5 (was 2.3.2)
+      + Lot of fixes and updates available on [Breeze Site](https://breezefront.com/updates)
+  - [EasySlide](/m2/extensions/easyslider/) — 1.8.0 (was 1.7.1)
+      + Update responsive image settings for image slides.
+        Proper config ontions for sizes attribute and widths to generate srcset attribute. Previously there was grid to generate not so well sizes and srcset.
+      + Show active period for slide at gallery at edit slider in Admin
+      + Edit slide popup in Admin. Dropdown an d datepicker slightly wider.
+        And the same width.
+      + Fixed: Output slides on storefron respecting active from and active to.
+      + Edit slide popup in Admin. Move visibility toggler to image side
+      + Edit slide popup in Admin. Slide active_from and active_to
+      + JS refactor for Admin. Code clean up
+      + JS refactor for Admin. Initialize toggler via data-mage-init. 
+      + JS refactor for Admin. Initialize codemirror via data-mage-init.
+      + JS refactor for Admin. Simplify codemirror initialization.
+      + Fixed: Edit slide popup in Admin. Allow to chnage slide image
+  - [Easybanners](/m2/extensions/easybanners/) — 1.9.7 (was 1.9.6)
+      + Breeze: fixed js error when no banners were created
+  - [Easytabs](/m2/extensions/easytabs/) — 1.11.5 (was 1.11.4)
+      + Fixed [aria] attributes are not vald or misspelled.
+      And set want tabpanel controls tab with attribute aria-controls.
+  - [Navigation Pro](/m2/extensions/navigationpro/) — 1.16.19 (was 1.16.17)
+      + Fixed missing active class for CMS links inside menu
+      + Sync dropdown class name with latest jqueryUI
+      + Fixed unable to save changes using pagebuilder
+      + Improve image, paragraph, and heading preview
+      + Fixed MCS
+      + Improve preview for iframe, map, slider, and grid widgets.
+      + Fixed error in browser console when using pagebuilder in dropdown content
+      + Avoid using closing slash with void tags
+      + Remove not working code
+  - [Pagespeed](/m2/extensions/pagespeed/) — 1.7.4 (was 1.7.1)
+      + Decrease laminas/laminas-* composer requirements for old magento versions
+      + Fix guzzlehttp/psr7 requirements
+  - [ProLabels](/m2/extensions/prolabels/) — 1.6.25 (was 1.6.24)
+      + Fixed: Accessibility fix - links are not crawlable error
+  - [SEO Suite](/m2/extensions/seo-suite/)
+      + **swissup/module-hreflang** — 1.5.7 (was 1.5.6)
+        * Fixed class "Zend_Uri" not found in Magento 2.4.6
+      + **swissup/module-rich-snippets** — 1.5.5 (was 1.5.4)
+        * Fixed: Correct structured data for grouped products
+      + **swissup/module-seo-images** — 1.3.18 (was 1.3.17)
+        * Add index for field target_file to speed up DB queries. 
+  - [Sold Together](/m2/extensions/soldtogether/) — 1.9.6 (was 1.9.4)
+      + Improve module stability at edit product form in Magento Admin.
+        Prevent PHP error when related product does not exist.
+      + Fix total price counting for FBT block at storefront.
+      + DataProvider/Products - exclude current product(s).
+      + Breeze integrations.
+      + Add Danish translations (frontend only)
+      + Fix: Improve perfomance when option "List random products for empty collections" enabled
+      + Fix: Error `Item (...) with the same ID "..." already exists.`
+        Fix for storefront blocks.
+      + Storefront block getIdententies is empty when block is disabled.
+        Previously DB query still executed event when block was disabled
+
 ### Version 1.37.0
 
 > Mar 31, 2023
