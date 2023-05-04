@@ -8,6 +8,18 @@ category: Abandoned Cart
 
 # Changelog
 
+### Version 1.1.6
+
+> Apr 26, 2023
+
+ -  Fixed Call to a member function create() on null
+
+### Version 1.1.5
+
+> Mar 17, 2023
+
+ -  PHP 8.2: fixed dynamic properties creation
+
 ### Version 1.1.4
 
 > Aug 11, 2022
