@@ -24,3 +24,4 @@ Module supports Magento onepage checkout and Firecheckout modules.
 - [Changelog](changelog/)
 - [Configuration](configuration/)
 - [Get API key](get-api-key/)
+- [Troubleshooting](troubleshooting/)
