@@ -9,3 +9,4 @@ category: SEO Metadata Templates
 # Use Cases
 
  -  [Amazon-like metadata](amazon-like-metadata/)
+ -  [Template localize and translate](i18n-template/)
