@@ -6,6 +6,18 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.13.7
+
+> Apr 22, 2023
+
+ - Fix: Undefined factory elasticsearch8
+
+### Version 1.13.6
+
+> Apr 22, 2023
+
+ - Remove debugging comments
+
 ### Version 1.13.5
 
 > Mar 20, 2023
