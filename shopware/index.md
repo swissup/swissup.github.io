@@ -11,3 +11,7 @@ title: Shopware Products
 ### Argento Theme
 
 [Argento theme for Shopware manual](argento)
+
+### Pagespeed
+
+[Pagespeed](pagespeed)

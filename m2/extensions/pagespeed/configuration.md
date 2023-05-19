@@ -151,7 +151,7 @@ Cron Limit                       | Limit images per one cron task. (1000)
 
 Option  | Description
 --------|-------------------------------------------
-Enable  | Allows to enable/disable image [lazy loading](https://github.com/aFarkas/lazysizes) (Yes)
+Enable  | Allows to enable/disable image [lazy loading](https://developer.mozilla.org/ru/docs/Web/Performance/Lazy_loading) (Yes)
 Ignore  | Field specify images that won’t be lazy loading.
 
 
