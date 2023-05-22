@@ -19,6 +19,7 @@ symfony console cache:clear
 
 ```
 
+
 ## Features
 
  - HTML (JavaScript, CSS) minification
@@ -35,7 +36,7 @@ symfony console cache:clear
 
 Option                      | Description
 ----------------------------|--------------------------------------------------
-Enable                      | Allows to enable/disable pagespeed per store view
+Enable                      | Allows to enable/disable pagespeed per sales channels
 Enable HTML minification    | Allows to enable/disable minify your pages HTML content. (Yes)
 Enable Critical Css Feature | Allows to enable/disable [Critical Css](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/optimizing-critical-rendering-path?hl=en) (Yes)
 Critical CSS                | There is only what the user can see when they first load the page. This means that we only need to load the minimum amount of CSS required to render the top portion of the page across all breakpoints. For the remainder of the CSS, we don’t need to worry as we can load it asynchronously. You can generate your site critical css [here](http://pagespeed.swissuplabs.com/critical-css/).
@@ -79,21 +80,30 @@ Options:
   -e, --env=ENV                The Environment name. [default: "prod"]
       --no-debug               Switch off debug mode.
   -v|vv|vvv, --verbose         Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug
-
 ```
+*Convert JPEG & PNG to WebP with PHP*
 
-#### Optimize media
+This extension enables you to do webp conversion with PHP. It supports an abundance of methods for converting and automatically selects the most capable of these that is available on the system.
 
-Before images can be optimized, you will need to install the optimizers as described in article
-```bash
-➜ sudo apt install jpegoptim
-➜ sudo apt install optipng
-➜ sudo apt install pngquant
-➜ sudo npm install -g svgo
-➜ sudo apt install gifsicle
-➜ sudo apt-get install cwebp
-```
- Than you can optimization with command
+The library can convert using the following methods:
+- *cwebp* (executing [cwebp](https://developers.google.com/speed/webp/docs/cwebp) binary using an `exec` call)
+- *vips* (using [Vips PHP extension](https://github.com/libvips/php-vips-ext))
+- *imagick* (using [Imagick PHP extension](https://github.com/Imagick/imagick))
+- *gmagick* (using [Gmagick PHP extension](https://www.php.net/manual/en/book.gmagick.php))
+- *imagemagick* (executing [imagemagick](https://imagemagick.org/index.php) binary using an `exec` call)
+- *graphicsmagick* (executing [graphicsmagick](http://www.graphicsmagick.org/) binary using an `exec` call)
+- *ffmpeg* (executing [ffmpeg](https://ffmpeg.org/) binary using an `exec` call)
+- *wpc* (using [WebPConvert Cloud Service](https://github.com/rosell-dk/webp-convert-cloud-service/) - an open source webp converter for PHP - based on this library)
+- *ewwww* (using the [ewww](https://ewww.io/plans/) cloud converter (1 USD startup and then free webp conversion))
+- *gd* (using the [Gd PHP extension](https://www.php.net/manual/en/book.image.php))
+
+In addition to converting, the library also has a method for *serving* converted images, and we have instructions here on how to set up a solution for automatically serving webp images to browsers that supports webp.
+
+*Shopware at least has one reasonable [system requirement](https://docs.shopware.com/en/shopware-6-en/first-steps/system-requirements)  out of the box and suits our needs. It is Gd PHP extension*
+
+#### Optimize media (optimization of another images formats is recommended but not necessary)
+
+Than you can optimization with command
 ```bash
 ➜ symfony console swissup:media:optimize
 ```
@@ -115,7 +125,7 @@ Options:
       --no-debug               Switch off debug mode.
   -v|vv|vvv, --verbose         Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug
 ```
-##### Check optimizers
+##### Check optimize tools
 ```bash
 ➜ symfony console swissup:media:optimize --info
 +-----------+---------------------+
@@ -129,4 +139,47 @@ Options:
 | cwebp     | /usr/bin/cwebp      |
 +-----------+---------------------+
 
+```
+*Optimization tools*
+
+The package will use these optimizers if they are present on your system:
+
+- [JpegOptim](https://github.com/tjko/jpegoptim)
+- [Optipng](http://optipng.sourceforge.net/)
+- [Pngquant 2](https://pngquant.org/)
+- [SVGO 1](https://github.com/svg/svgo)
+- [Gifsicle](http://www.lcdf.org/gifsicle/)
+- [cwebp](https://developers.google.com/speed/webp/docs/precompiled)
+
+Here's how to install all the optimizers on Ubuntu:
+
+```bash
+sudo apt-get install jpegoptim
+sudo apt-get install optipng
+sudo apt-get install pngquant
+sudo npm install -g svgo
+sudo apt-get install gifsicle
+sudo apt-get install webp
+```
+
+And here's how to install the binaries on MacOS (using [Homebrew](https://brew.sh/)):
+
+```bash
+brew install jpegoptim
+brew install optipng
+brew install pngquant
+npm install -g svgo
+brew install gifsicle
+brew install webp
+```
+And here's how to install the binaries on Fedora/RHEL/CentOS:
+
+```bash
+sudo dnf install epel-release
+sudo dnf install jpegoptim
+sudo dnf install optipng
+sudo dnf install pngquant
+sudo npm install -g svgo
+sudo dnf install gifsicle
+sudo dnf install libwebp-tools
 ```
