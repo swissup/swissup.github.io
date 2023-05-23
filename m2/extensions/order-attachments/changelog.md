@@ -7,6 +7,12 @@ category: Order Attachments
 
 # Changelog
 
+### Version 1.4.24
+
+> May 23, 2023
+
+ -  Fixed inability to upload attachment or edit them from backend
+
 ### Version 1.4.21
 
 > Mar 24, 2023
