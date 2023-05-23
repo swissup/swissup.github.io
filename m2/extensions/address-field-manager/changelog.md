@@ -8,6 +8,14 @@ category: Address Field Manager
 
 # Changelog
 
+### Version 1.6.13
+
+> May 23, 2023
+
+ -  Fixed inability to create custom address fields that will save its value properly.
+    (If you have such fields, you need to open them in backend and re-save each one.)
+ -  Fixed "Passing null is deprecated" error when multiselect is used
+
 ### Version 1.6.12
 
 > Apr 12, 2023
