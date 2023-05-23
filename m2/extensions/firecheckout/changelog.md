@@ -8,6 +8,24 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.31.1
+
+> May 23, 2023
+
+ -  [AddressFieldManager](https://docs.swissuplabs.com/m2/extensions/address-field-manager/): 
+    Fixed inability to create custom address fields that 
+    will save its value properly. If you have such fields, you need to open them 
+    in backend and save each one again.
+ -  [CheckoutCart](https://docs.swissuplabs.com/m2/extensions/checkout-cart/): 
+    Improve user experience when changing products count at checkout page.
+ -  [CheckoutSuccess](https://docs.swissuplabs.com/m2/extensions/checkout-success/): 
+    Fixed not working Success Page builder.
+ -  [DeliveryDate](https://docs.swissuplabs.com/m2/extensions/delivery-date/): 
+    Hide delivery date if no method is selected and filterPerShippingMethod is used.
+ -  Additional Magento 2.4.6 and PHP 8.2 fixes in AddressFieldManager, GeoIP, 
+    CustomerFieldManager, and CheckoutSuccess modules.
+
+
 ### Version 1.31.0
 
 > Mar 14, 2023

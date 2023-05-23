@@ -8,6 +8,13 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.16.20
+
+> May 23, 2023
+
+ -  Fixes wrong redirect after currency change when currency block is added to menu item.
+ -  Fixed missing active class for CMS links inside menu.
+
 ### Version 1.16.18
 
 > Apr 27, 2023

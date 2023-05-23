@@ -8,6 +8,12 @@ category: GDPR
 
 # Changelog
 
+### Version 1.5.14
+
+> May 23, 2023
+
+ -  Fixed missing validation message when form uses `data-errors-message-box` (Swissup_Askit)
+
 ### Version 1.5.13
 
 > Mar 27, 2023
