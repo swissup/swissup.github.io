@@ -8,6 +8,15 @@ category: Checkout Cart
 
 # Changelog
 
+### Version 1.5.9
+
+> May 23, 2023
+
+ -  [Breeze Theme](https://breezefront.com/) integration improved.
+ -  Improve user experience when changing products count at checkout page.
+ -  Accessebility fix: addded missing label for quantity input field.
+
+
 ### Version 1.5.6
 
 > Jan 13, 2021
