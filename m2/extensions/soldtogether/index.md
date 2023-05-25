@@ -33,4 +33,5 @@ Our Sold Together module will encourage your customers to place the additional p
 4. [Use cases](use-cases/)
     -  [Add block into sales email](use-cases/#add-block-into-sales-email)
     -  [Show blocks in tabs](use-cases/#show-blocks-in-tabs)
-5. [Changelog](changelog/)
+5. [Trouble shooting](trouble-shooting/)
+6. [Changelog](changelog/)
