@@ -133,6 +133,7 @@ composer require\
     swissup/module-theme-editor-argento-marketplace\
     swissup/module-theme-editor-argento-luxury\
     swissup/module-theme-editor-argento-stripes\
+    swissup/module-tippyjs\
     swissup/theme-frontend-absolute\
     swissup/theme-frontend-argento-blank\
     swissup/theme-frontend-argento-essence\
@@ -147,7 +148,7 @@ composer require\
     swissup/theme-frontend-argentobreeze-blank\
     swissup/theme-frontend-argentobreeze-stripes\
     swissup/theme-frontend-breeze-blank\
-    swissup/module-tippyjs\
+    swissup/theme-frontend-breeze-evolution\
     --prefer-source &&\
 bin/magento setup:upgrade --safe-mode=1
 ```
