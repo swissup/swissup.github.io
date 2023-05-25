@@ -146,6 +146,7 @@ composer require\
     swissup/theme-frontend-argento-luxury\
     swissup/theme-frontend-argento-stripes\
     swissup/theme-frontend-argentobreeze-blank\
+    swissup/theme-frontend-argentobreeze-force\
     swissup/theme-frontend-argentobreeze-stripes\
     swissup/theme-frontend-breeze-blank\
     swissup/theme-frontend-breeze-evolution\
