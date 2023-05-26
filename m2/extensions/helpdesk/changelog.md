@@ -6,6 +6,13 @@ keywords: Helpdesk changelog
 category: Helpdesk
 ---
 
+### Version 1.2.36
+
+> May 27, 2023
+
+ - Refactor email expression in TicketMessage collection select query
+ - Fix (sync) ui-select component code
+
 ### Version 1.2.35
 
 > May 1, 2023
