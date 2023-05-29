@@ -45,3 +45,11 @@ For example, it can be MPN.
 ![Structured data mpn](/images/m2/rich-snippets/config-structured-data.png)
 
 We setup to use SKU attribute as mpn also in this example. Check module [configuration](../configuration/#product-structured-data) to find out where to set it.
+
+#### Missing field "shippingDetails"
+
+It is optional field used by Google for merchant listing experiences. Module has subsection ["Merchant shipping details"](../configuration/#merchant-shipping-details) in "Product structured data" in stores configuration. Here you can setup all nessecery data. You may also check [Google docs](https://developers.google.com/search/docs/appearance/structured-data/product#merchant-listings_offer-shipping-details) regarding this topic.
+
+#### Missing field "hasMerchantReturnPolicy"
+
+It is optional field used by Google for merchant listing experiences. Module has subsection ["Merchant Return Policy"](../configuration/#merchant-return-policy) in "Product structured data" in stores configuration. Here you can choose return policy your store has and set country(ies) this policy applicable for.
