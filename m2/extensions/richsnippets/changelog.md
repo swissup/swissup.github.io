@@ -8,11 +8,18 @@ category: Rich Snippets
 
 # Changelog
 
+### Version 1.6.0
+
+> May 29, 2023
+
+ -  Add support of Google merchant listing fields: "shippingDetails" and "hasMerchantReturnPolicy". Added dedicated subsections in "Product structured data" section in module settings in Stores Configuration.
+ -  Reorganized section "Product structured data" to be more intuitive.
+
 ### Version 1.5.5
 
 > Apr 25, 2023
 
- -  Product structured data. Provide currect data for grouped products
+ -  Product structured data. Provide currect data for grouped products.
 
 ### Version 1.5.4
 
