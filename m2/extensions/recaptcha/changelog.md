@@ -8,6 +8,12 @@ category: reCAPTCHA
 
 # Changelog
 
+### Version 1.4.8
+
+> May 30, 2023
+
+ -  Update integration with Amazon Pay at checkout.
+
 ### Version 1.4.7
 
 > Mar 31, 2023
