@@ -8,9 +8,11 @@ category: Seo Pagination
 
 # SEO Pagination
 
-Improves presentation of paginated content for search engines and store visitors.
+Improve presentation of paginated content for search engines and store visitors.
 
-Extension gives store owner an option to show **"View all"** link for paginated content. It can be really helpfull because all prodcuts is listed on one page.
+Module implements [Google guidelines](https://developers.google.com/search/docs/specialty/ecommerce/pagination-and-incremental-page-loading#use-urls-correctly) to present pagenated product listing.
+
+Module gives store owner an option to show **"View all"** link for paginated content also. It can be really helpfull because all prodcuts is listed on one page.
 
 Other great feature is **page number in title**. It helps to avoid possible duplicate content issues.
 
@@ -20,7 +22,7 @@ Other great feature is **page number in title**. It helps to avoid possible dupl
 
 Check module [configuration](configuration/).
 
-Extension works perfectly with:
+It is works perfectly with:
 
  -  Category view pages - product listing;
  -  Search results page;
