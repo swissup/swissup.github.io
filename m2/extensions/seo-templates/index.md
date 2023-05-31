@@ -26,3 +26,4 @@ You can force your store to use generated metadat over original ones from produc
  -  [View Generated Data](view-generated-data/)
  -  [Use-cases](use-cases/)
      +  [Amazon-like metadata](use-cases/amazon-like-metadata/)
+     +  [Template localize and translate](use-cases/i18n-template/)
