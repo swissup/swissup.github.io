@@ -8,6 +8,12 @@ category: Rich Snippets
 
 # Changelog
 
+### Version 1.6.1
+
+> May 30, 2023
+
+ -  Fix typo and resolve compatibility issue with PHP 8.1.
+
 ### Version 1.6.0
 
 > May 29, 2023
