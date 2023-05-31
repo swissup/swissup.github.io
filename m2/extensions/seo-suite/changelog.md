@@ -8,6 +8,38 @@ category: SEO Suite
 
 # Changelog
 
+### Version 1.16.0
+
+> May 31, 2023
+
+*swissup/module-hreflang — 1.5.8 (was 1.5.6)*
+
+ -  Show all available store views for "Default store" option in Magento Admin Configuration on store view level.
+ -  Fixed class "Zend_Uri" not found in Magento 2.4.6.
+
+*swissup/module-rich-snippets — 1.6.1 (was 1.5.4)*
+
+ -  Product structured data. Provide currect data for grouped products.
+ -  Add support of Google merchant listing fields: “shippingDetails” and “hasMerchantReturnPolicy”. Added dedicated subsections in “Product structured data” section in module settings in Stores Configuration.
+ -  Reorganized section “Product structured data” to be more intuitive.
+
+*swissup/module-seo-images — 1.3.18 (was 1.3.17)*
+
+ -  Add DB index for field `target_file` to speed up queries.
+
+*swissup/module-seo-pager — 1.3.0 (was 1.2.11)*
+
+ -  Implement Google recommendations for paginated product listings with new strategy "Canonical url to each page (Google way)". More details you can find at [module docs](https://docs.swissuplabs.com/m2/extensions/seo-pager/configuration/#general).
+
+*swissup/module-seo-templates — 1.7.3 (was 1.6.5)*
+
+ -  Allow to use translations in metadata templates. More details at [module docs](https://docs.swissuplabs.com/m2/extensions/seo-templates/use-cases/i18n-template/).
+ -  New condition for category templates - "Layerede Navigation / Applied filter".
+
+*swissup/module-seo-urls — 1.5.41 (was 1.5.40)*
+
+ -  Improve compatibility with Swissup Ajaxlayerednavigation module and SEO Urls setting "Use direct URL to subcategory".
+
 ### Version 1.15.0
 
 > Mar 31, 2023
