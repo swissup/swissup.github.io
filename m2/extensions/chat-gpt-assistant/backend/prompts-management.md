@@ -81,4 +81,4 @@ Directive options in square brackets ([...]) are optional. If you want to use op
 ##### Next Up
 
  -  [Back to Home](/m2/extensions/chat-gpt-assistant/)
- -  [Back to Admin Interfaces](/m2/extensions/abandoned-cart/backend/)
+ -  [Back to Admin Interfaces](/m2/extensions/chat-gpt-assistant/backend/)
