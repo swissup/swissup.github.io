@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Manual update
-description: How to manually updateAbandoned Cart on Magento 2
+description: How to manually update Abandoned Cart on Magento 2
 category: Abandoned Cart
 exclude_from_search: true
 ---

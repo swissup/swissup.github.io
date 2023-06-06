@@ -115,6 +115,14 @@ cdn:
     m1: /m1/extensions/cdn/
     m2:
 
+chat-gpt-assistant:
+  title: ChatGPT Assistant
+  short_description: Generate content with AI
+  size: 1x1
+  urls:
+    m1:
+    m2: /m2/extensions/chat-gpt-assistant/
+
 checkoutcart:
   title: Checkout Cart
   short_description: Add cart functionality on checkout page
