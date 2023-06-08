@@ -8,15 +8,11 @@ category: Compare
 
 # Configuration
 
- 1. Pass to `Stores > Configuration > Swissup > Compare`
- 2. You'll find **2 options** there
+The module allows to use the ***alternative design*** with the next options:
+   - Sticky compare table header;
+   - Show / Hide the product attributes labels.
 
-    ![Options](/images/m2/compare/options.png){:class="noborder"}
+Also, you can easily disable Magento compare feature at your store:
+> `Stores > Configuration > Swissup > Compare` set `Enabled` to `No`.
 
- 3. You can:
-    - **Enable** "alternative" Compare page design here
-    - Hide default Magento "Compare" functionality
-        > Sometimes customers don't need to compare products _i.e. clothes_
-
-
-
+   ![Options](/images/m2/compare/configuration.png){:class="noborder"}

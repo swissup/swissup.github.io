@@ -16,17 +16,17 @@ category: Comparee
 
 Lets you see the products that have many attributes
 
-#### Sticky attributes column
+#### Show sticky attributes labels column
 
 ![Sticky left](/images/m2/compare/sticky-left.gif)
-
-Lets you see the attributes if you have many products
 
 #### Show All product attributes or just Differences
 
 ![Difference](/images/m2/compare/difference.gif)
 
-Shows all product attributes or only attributes that differ
+#### Compare products with no Attributes labels
+
+![Difference](/images/m2/compare/no_attributes.png)
 
 ##### Next up
 

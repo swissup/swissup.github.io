@@ -10,7 +10,7 @@ category: Compare
 
 # Compare
 
-![Compare](/images/m2/compare/general.png){:class="noborder"}
+<!-- ![Compare](/images/m2/compare/general.png){:class="noborder"} -->
 
 Magento2 extension to expand default magento Compare design or disable it at all
 
