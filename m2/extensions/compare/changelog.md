@@ -11,6 +11,7 @@ category: Compare
 ### 1.2.1
 
 * Styled compare table scrollbar.
+* Fixed compilation error "less file is empty" in production mode.
 
 
 ### 1.2.0
