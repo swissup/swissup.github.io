@@ -7,6 +7,14 @@ category: Attributepages
 
 # Changelog
 
+### Version 1.6.0
+
+> June 13, 2023
+
+ -  Pagebuilder added to backend description and short_description fields.
+ -  Added ability to set different H1 and meta title attributes.
+ -  Fixed incorrect page title when page is overriden for store view.
+
 ### Version 1.5.1
 
 > May 26, 2022

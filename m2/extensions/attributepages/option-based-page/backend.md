@@ -43,13 +43,13 @@ Option page form contains three tabs:
 
 Field | Description
 :-----|:-----------
+Enabled | Option-based page status
 Name | Page identifier for store owner
 Title | Used by `Swissup\Attributepages\Block\Option\OptionList` block and widget.<br/> It's also used as a `Page Title` if content tab does not redefine it.
 Url key | Frontend url where the page will be available
 Image | Image to show at the Attributepage and widgets
 Thumbnail | Image to show, when tiny logo size is needed. Look at [Use cases](/m2/extensions/attributepages/use-cases/) page.
 Store View | List of store views, where current page should be available
-Enabled | Optionpage status
 
 ##### Content tab
 
@@ -60,6 +60,7 @@ Field       | Description
 Page Title  | Used for page `H1` tag and `meta title`
 Description | Will be shown above products list
 Short Description | Will be shown below corresponding option in [Product Option Block](/m2/extensions/attributepages/widgets-and-blocks/product-option-block/) if enabled.
+Meta Title | Meta title
 Meta Keywords     | Page Keywords
 Meta Description  | Page Description
 

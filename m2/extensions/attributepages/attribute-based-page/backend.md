@@ -52,11 +52,11 @@ Attribute page form consists of four tabs:
 Field | Description
 :-----|:-----------
 **Page Information** |
+Enabled | Attributepage status
 Name | Page identifier for store owner
 Title | Used by `Swissup\Attributepages\Block\Attribute\PagesList` block and widget.<br/> It's also used as a `Page Title` if the content tab does not redefine it.
 Url key | Frontend url where the page will be available
 Store View | List of store views, where the current page should be available
-Enabled | Attributepage status
 **Attribute Information** |
 Attribute | Attribute label and ID
 Hide from layered navigation | Show/Hide attribute from layered navigation across all Magento pages
@@ -69,6 +69,7 @@ Field | Description
 :-----|:-----------
 Page Title | Used for page `H1` tag and `meta title`
 Description | Will be shown above options list (brands list)
+Meta Title | Meta title
 Meta Keywords | Page Keywords
 Meta Description | Page Description
 
