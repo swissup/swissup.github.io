@@ -8,6 +8,13 @@ category: Rich Snippets
 
 # Changelog
 
+### Version 1.6.2
+
+> Jun 14, 2023
+
+ -  Improvements for shippingDetails section in product structured data.
+ -  Fix exception "Product that you are trying to add is not available". Occurs when product is not for sale but module tries to build shipping details for it.
+
 ### Version 1.6.1
 
 > May 30, 2023
