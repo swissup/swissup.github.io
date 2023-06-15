@@ -12,6 +12,7 @@ category: Argento Shopware
 ## Contents
 
 - [Installation](/shopware/argento/installation/)
+- [Changelog](/shopware/argento/changelog/)
 - [Theme Configuration](/shopware/argento/stripes/configuration)
 - [CMS Blocks](/shopware/argento/stripes/cms)
 - [Homepage](/shopware/argento/stripes/homepage)

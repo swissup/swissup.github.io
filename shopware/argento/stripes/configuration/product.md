@@ -26,6 +26,7 @@ Here you can customize product image gallery:
  -  set image border color and selected thumbnail border color
  -  set thumbnails position (left or bottom) or disable them
  -  configure image zoom position (next or over the gallery) or disable it
+ -  configure dots navigation: disabled or over the gallery
 
 ![Argento Shopware Product Gallery Configuration](/images/shopware/configuration/product-gallery.png)
 
