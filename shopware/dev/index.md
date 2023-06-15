@@ -52,7 +52,7 @@ curl -sS https://get.symfony.com/cli/installer | bash
 ###### Let's start by creating a new project `shopware`:
 
 ```
- composer create-project shopware/production:dev-flex shopware
+ composer create-project shopware/production shopware
 ```
 
 You now have the application template for the Shopware Platform in the directory project, we now change into it:
@@ -105,3 +105,10 @@ password: shopware
 #### Add Proxy
 
 https://symfony.com/doc/current/setup/symfony_server.html#local-domain-names
+
+#### Install framework demo data
+
+```
+composer require shopware/dev-tools
+symfony console framework:demodata
+```
