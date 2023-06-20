@@ -7,6 +7,14 @@ category: Attributepages
 
 # Changelog
 
+### Version 1.6.1
+
+> June 20, 2023
+
+ -  Fixed "Item with the same ID already exists" error.
+ -  Fixed inability to duplicate page from backend grid.
+ -  Fixed inability to save page for multiple store views.
+
 ### Version 1.6.0
 
 > June 13, 2023
