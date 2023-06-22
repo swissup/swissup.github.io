@@ -6,6 +6,26 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.13.10
+
+> Jun 22, 2023
+
+ - Fix: Undefined factory lmysql
+
+
+### Version 1.13.9
+
+> Jun 8, 2023
+
+ - Breeze: fixed visible autocomplete dropdown on initial page load
+
+### Version 1.13.8
+
+> Jun 5, 2023
+
+ - Breeze: update integration
+
+
 ### Version 1.13.7
 
 > Apr 22, 2023
