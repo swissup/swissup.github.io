@@ -8,6 +8,12 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.7.0
+
+> Jun 23, 2023
+
+ -  Advanced settings for configurable products and manual labels. Now you can choose how product label and category label of configurable product appears.
+
 ### Version 1.6.23
 
 > Mar 14, 2023
