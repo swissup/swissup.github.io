@@ -8,6 +8,14 @@ category: Address Field Manager
 
 # Changelog
 
+### Version 1.6.14
+
+> Jun 26, 2023
+
+ -  Added [ability to choose](/m2/extensions/address-field-manager/usage/form/)
+    between "Dropdown", "Radio" or "Checkbox" display modes for "Yes/No",
+    "Multiple Select", and "Single Select" fields.
+
 ### Version 1.6.13
 
 > May 23, 2023

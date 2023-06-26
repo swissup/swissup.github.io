@@ -8,6 +8,14 @@ category: Customer Field Manager
 
 # Changelog
 
+### Version 1.2.11
+
+> Jun 26, 2023
+
+ -  Added [ability to choose](/m2/extensions/customer-field-manager/usage/form/)
+    between "Dropdown", "Radio" or "Checkbox" display modes for "Yes/No",
+    "Multiple Select", and "Single Select" fields.
+
 ### Version 1.2.10
 
 > Apr 10, 2023

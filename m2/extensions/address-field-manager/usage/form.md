@@ -18,8 +18,8 @@ Available field types:
  -  Text Field
  -  Text Area
  -  Date
- -  Yes/No
- -  Multiple Select
- -  Dropdown
+ -  Yes/No (You can choose between `Dropdown` and `Radio Buttons` display modes)
+ -  Multiple Select (You can choose between `Multiselect` and `Checkboxes` display modes)
+ -  Single Select (You can choose between `Dropdown` and `Radio Buttons` display modes)
 
 ![New Address Field Form](/images/m2/address-field-manager/backend/new-field-form.png)
