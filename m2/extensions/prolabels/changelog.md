@@ -8,6 +8,12 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.7.1
+
+> Jun 28, 2023
+-  Fix missing system "In Stock" label. Label didn't showed up even when it enabled and properly setup.
+-  Update integration with Breeze-powered frontend. Use the same JS for Luma and Breeze.
+
 ### Version 1.7.0
 
 > Jun 23, 2023
