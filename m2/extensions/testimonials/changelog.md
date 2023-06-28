@@ -8,6 +8,31 @@ category: Testimonials
 
 # Changelog
 
+### Version 1.3.8
+
+> Jun 28, 2023
+
+ -  Added email validation in the admin form
+ -  Added email validation in graphQL Resolver
+
+### Version 1.3.7
+
+> May 26, 2023
+
+ -  Fixed file upload in Magento 2.4.5+
+
+### Version 1.3.6
+
+> Mar 21, 2023
+
+ -  Replaced Zend_Validate usage that was removed in Magento 2.4.6
+
+### Version 1.3.5
+
+> Mar 17, 2023
+
+ -  PHP 8.2: fixed dynamic properties creation
+
 ### Version 1.3.4
 
 > Mar 14, 2023
