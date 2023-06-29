@@ -8,6 +8,13 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.17.0
+
+> June 29, 2023
+
+ -  Added ability to render dropdown items in [alphabetical order](/m2/extensions/navigationpro/ui/dropdown-layout-builder/#children-subcategories-and-child-items)
+ -  Added ability to [duplicate existing menu](/m2/extensions/navigationpro/backend/menu-edit/#top-toolbar)
+
 ### Version 1.16.20
 
 > May 23, 2023

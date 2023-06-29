@@ -36,13 +36,14 @@ Content| Html content to show on frontend
 
 ## Children (Subcategories and Child Items)
 
-![Subcategories and Child Items content](/images/m2/navigationpro/ui/content-children.png)
+![Subcategories and Child Items content](/images/m2/navigationpro/ui/content-children.png){:width="726"}
 
 Option          | Description
 ----------------|------------
 Enabled         | Ability to enable or disable content
 Columns Count   | Split subcategories into columns
 Columns Direction | Ability to organize multicolumn subcategories horizontally or vertically
+Children Sort Order | Choose between "Default" or "Alphabetical" sort orders.
 Maximum Number of Children to Display | Limit number of categories to display in dropdown. "Shop All" link will be displayed if children count exceed the limit.
 Nested Levels per Dropdown | Use this setting to render child categories together with parent in the same dropdown. (Megamenu uses this option to render all children in the first level dropdown)
 

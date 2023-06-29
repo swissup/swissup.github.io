@@ -17,10 +17,11 @@ The page has the following sections:
 
 ## Top Toolbar
 
-![Top toolbar](/images/m2/navigationpro/backend/menu-edit/top-toolbar.png)
+![Top toolbar](/images/m2/navigationpro/backend/menu-edit/top-toolbar.png){:width="1046"}
 
 From the top toolbar you can switch active store view and save specific values
-for that store, open menu settings, and save current menu item.
+for that store, open menu settings, save current menu item, and duplicate entire
+menu.
 
 **Menu Settings** button will open
 [menu settings form](/m2/extensions/navigationpro/backend/menu-settings/)
