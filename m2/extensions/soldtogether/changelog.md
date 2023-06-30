@@ -12,7 +12,7 @@ category: SoldTogether
 
 > Jun 30, 2023
 
- -  Fixes to improve Asccesibility score on product page.
+ -  Fixes to improve Accessibility score on product page.
  -  Update integration with Breeze-powered storefront.
 
 ### Version 1.9.6
@@ -31,7 +31,7 @@ category: SoldTogether
  -  Perfomance improvements. Speedup initial page load (not cached yet) on storefront where module block exists with enabled option "List random products for empty collections".
  -  Added danish translation provided by our clients.
  -  Fixed error `Item (...) with the same ID "..." already exists." at storefront atd some instances.
- -  
+ -
 
 ### Version 1.9.4
 

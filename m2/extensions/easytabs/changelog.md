@@ -12,7 +12,7 @@ category: Easy Tabs
 
 > Jun 30, 2023
 
- -  Accesibility update. Remaster collapsible tabs template to meet accesibility requirements (role and aria naming) for content presentend in tabs. Since this release collapsible tabs remain are the same both for desktop and mobile screens (previosly they becom accordion on mobile). If you want to have old bahavior then there is respective tabs layout (but it doesn't meet accesibility reqs).
+ -  Accessibility update. Remaster collapsible tabs template to meet accessibility requirements (role and aria naming) for content presentend in tabs. Since this release collapsible tabs remain are the same both for desktop and mobile screens (previosly they becom accordion on mobile). If you want to have old bahavior then there is respective tabs layout (but it doesn't meet accessibility reqs).
  -  Update integration with Breeze-powered frontend. Same JS files for Luma and Breeze. Requires latest Breeze extension.
  -  Few LESS vairables added to simplify customization.
 

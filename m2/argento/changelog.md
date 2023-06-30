@@ -7,6 +7,92 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.39.0
+
+> Jul 1, 2023
+
+ - [**ChatGPT Assistant**](/m2/extensions/chat-gpt-assistant/) **module added**
+ - FishPig Wordpress integration update: show large images at posts list
+ - Fixed sticky layered navigation width bug
+ - Added ability to disable Magento compare feature with `Swissup\Compare` module
+ - Added missing alt for photo in description image
+ - Updated ARIA attributes for navigation sidebar on mobile
+ - Fixed accessibility error: button missing accessible name
+ - Improved scroll into view for collapsible: fixed accordion jumping on Safari
+ - Fixed accessibility error in social icons in footer
+ - Improved styles for EasyTabs
+ - _Argento Home:_ Fixed overlapped "Forgot password" link in login popup
+ - _Argento Stripes:_ Fixed poorly looking sticky add to cart
+ - _Argento Marketplace:_ Improved Paypal Express form styles
+
+**Extensions Updates**
+
+  - [Ajax Pro](/m2/extensions/ajaxpro/) — 1.6.23 (was 1.6.21)
+      + Breeze: fixed missing "out of stock" message
+      + Simple cart handling improved
+  - [Ajax Search](/m2/extensions/ajaxsearch/) — 1.13.10 (was 1.13.6)
+      + Fixed error when ElasticSearch 8 used
+      + Fixed undefined factory "lmysql"
+      + Breeze: updated integration
+      + Breeze: fixed visible autocomplete dropdown on initial page load
+  - [Attribute Pages](/m2/extensions/attributepages/) — 1.6.1 (was 1.5.3)
+      + Fixed missing body classes on attribute and option pages
+      + Pagebuilder added to backend description and short description fields
+      + Added ability to set different H1 and meta title
+      + Fixed incorrect page title when page is overriden for store view
+      + Fixed “Item with the same ID already exists” error
+  - [Breeze](/m2/extensions/breeze/) — 2.7.3 (was 2.5.5)
+      + Lot of fixes and updates available on [Breeze Site](https://breezefront.com/updates)
+  - [Compare](/m2/extensions/compare/) — 1.2.1 (was 1.1.3)
+      + Added new options to module configuration
+      + Added "Add new product" link to the compare page
+      + Added compatibility with Breeze module
+      + Improved compare table scrollbar style
+  - [Easybanners](/m2/extensions/easybanners/) — 1.9.8 (was 1.9.7)
+      + Add "equals or greater than" and "equals or less than" conditions operators
+  - [Easytabs](/m2/extensions/easytabs/) — 1.12.0 (was 1.11.5)
+      + Update integration with Breeze-powered frontend
+      + Accessibility update: remaster collapsible tabs template to meet accesibility requirements
+  - [GDPR](/m2/extensions/gdpr/) — 1.5.15 (was 1.5.13)
+      + Fixed missing validation message in Askit question form
+      + Breeze: updated integration
+  - [Highlight](/m2/extensions/highlight/) — 1.8.7 (was 1.8.6)
+      + Fixed not working ajax "add to cart" at compare page
+  - [Navigation Pro](/m2/extensions/navigationpro/) — 1.17.0 (was 1.16.19)
+      + Removed uenc in cached block: fixes wrong currency switcher redirect
+      + Added ability to render dropdown items in alphabetical order
+      + Added ability to duplicate existing menu
+  - [ProLabels](/m2/extensions/prolabels/) — 1.7.1 (was 1.6.25)
+      + Added advanced settings for configurable products and manual labels
+      + Fixed missing system “In Stock” label
+      + Updated integration with Breeze-powered frontend
+  - [Quantity Switcher](/m2/extensions/qty-switcher/) — 1.1.18 (was 1.1.17)
+      + Fixed accessibility error: elements do not have accessible names
+  - [Review Reminder](/m2/extensions/reviewreminder/) — 1.1.14 (was 1.1.13)
+      + Updated old and broken mass status code
+  - [SEO Suite](/m2/extensions/seo-suite/)
+      + **swissup/module-hreflang** — 1.5.9 (was 1.5.7)
+        * Show all available store views for "Default store" option
+      + **swissup/module-rich-snippets** — 1.6.2 (was 1.5.5)
+        * Reorganized section “Product structured data” to be more intuitive
+      + **swissup/module-seo-urls** — 1.5.42 (was 1.5.40)
+        * Improve compatibility with Swissup Ajax Layered Navigation module and SEO URLs setting “Use direct URL to subcategory”
+        * Fixed error: category not found at attribute page filtered by category
+      + **swissup/module-seo-pager** — 1.3.2 (was 1.2.11)
+        * Implemented Google recommendations for paginated product listings
+        * Fixed not updated title of paginated content when page cache enabled
+        * Fixed not-working "Relevance" sorting option on search results page
+      + **swissup/module-seo-templates** — 1.7.3 (was 1.6.5)
+        * Allow to use translations in metadata templates
+        * New condition for category templates: Layered Navigation / Applied filter
+  - [Sold Together](/m2/extensions/soldtogether/) — 1.9.8 (was 1.9.6)
+      + Fixes to improve Accessibility score on product page
+      + Updated integration with Breeze-powered storefront
+  - [Testimonials](/m2/extensions/testimonials/) — 1.3.8 (was 1.3.6)
+      + Fixed file upload in Magento 2.4.5+
+      + Added email validation in the admin form
+      + Added email validation in graphQL Resolver
+
 ### Version 1.38.0
 
 > May 2, 2023
@@ -43,7 +129,7 @@ category: Argento
       + Edit slide popup in Admin. Move visibility toggler to image side
       + Edit slide popup in Admin. Slide active_from and active_to
       + JS refactor for Admin. Code clean up
-      + JS refactor for Admin. Initialize toggler via data-mage-init. 
+      + JS refactor for Admin. Initialize toggler via data-mage-init.
       + JS refactor for Admin. Initialize codemirror via data-mage-init.
       + JS refactor for Admin. Simplify codemirror initialization.
       + Fixed: Edit slide popup in Admin. Allow to chnage slide image
@@ -73,7 +159,7 @@ category: Argento
       + **swissup/module-rich-snippets** — 1.5.5 (was 1.5.4)
         * Fixed: Correct structured data for grouped products
       + **swissup/module-seo-images** — 1.3.18 (was 1.3.17)
-        * Add index for field target_file to speed up DB queries. 
+        * Add index for field target_file to speed up DB queries.
   - [Sold Together](/m2/extensions/soldtogether/) — 1.9.6 (was 1.9.4)
       + Improve module stability at edit product form in Magento Admin.
         Prevent PHP error when related product does not exist.

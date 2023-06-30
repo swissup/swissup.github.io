@@ -11,6 +11,7 @@ category: Prolabels
 ### Version 1.7.1
 
 > Jun 28, 2023
+
 -  Fix missing system "In Stock" label. Label didn't showed up even when it enabled and properly setup.
 -  Update integration with Breeze-powered frontend. Use the same JS for Luma and Breeze.
 
@@ -67,7 +68,7 @@ category: Prolabels
 > Jan 31, 2022
 
  -  Use declarative schema (db_schema.xml) and schema whitelist. Instead of obsolete UpgradeSchema scripts.
- -  Integration with furure Sold Together release. 
+ -  Integration with furure Sold Together release.
 
 ### Version 1.6.13
 
