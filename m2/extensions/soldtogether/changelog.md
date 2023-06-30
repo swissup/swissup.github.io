@@ -8,6 +8,13 @@ category: SoldTogether
 
 # Changelog
 
+### Version 1.9.8
+
+> Jun 30, 2023
+
+ -  Fixes to improve Asccesibility score on product page.
+ -  Update integration with Breeze-powered storefront.
+
 ### Version 1.9.6
 
 > Apr 25, 2023
