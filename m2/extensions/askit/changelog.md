@@ -11,6 +11,34 @@ category: AskIt
 
 # Changelog
 
+
+### Version 1.12.16
+
+> Jul 3, 2023
+
+ - Add createVote graphql mutation (like, dislike)
+ - Add 'provide the graphQL can return the product (item) data'
+
+### Version 1.12.15
+
+> Apr 18, 2023
+
+ - Fixed class not found on submitting question.
+ - Add Danish translations (frontend only)
+
+### Version 1.12.14
+
+> Mar 31, 2023
+
+ - Replace \Zend_ for 2.4.6
+
+
+### Version 1.12.13
+
+> Mar 17, 2023
+
+ - PHP 8.2: fixed dynamic properties creation
+
 ### Version 1.12.12
 
 > Mar 14, 2023
