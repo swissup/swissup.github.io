@@ -97,6 +97,7 @@ composer require\
     swissup/module-pagespeed\
     swissup/module-pdf-invoice\
     swissup/module-pro-labels\
+    swissup/module-pro-labels-configurable-product\
     swissup/module-quantity-switcher\
     swissup/module-recaptcha\
     swissup/module-reviewreminder\
@@ -114,6 +115,8 @@ composer require\
     swissup/module-social-core\
     swissup/module-social-login\
     swissup/module-sold-together\
+    swissup/module-sold-together-email\
+    swissup/module-sold-together-email-import-export\
     swissup/module-stickyfill\
     swissup/module-subscribe-at-checkout\
     swissup/module-subscription-checker\
