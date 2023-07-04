@@ -8,6 +8,12 @@ category: Highlight
 
 # Changelog
 
+### Version 1.8.9
+
+> July 4, 2023
+
+ -  Fixed ajax-loaded slides when [Breeze theme](https://breezefront.com/) is used
+
 ### Version 1.8.4
 
 > Nov 15, 2022
