@@ -8,6 +8,12 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.17.1
+
+> July 4, 2023
+
+ -  Fixed incorrect "Shop All" link and item classes when alphabetical sort is used.
+
 ### Version 1.17.0
 
 > June 29, 2023
