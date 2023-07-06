@@ -8,6 +8,18 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.7.6
+
+> Jul 6, 2023
+
+ - Add rjs configuration level app/etc/rjs.json
+
+### Version 1.7.5
+
+> Jul 4, 2023
+
+ - Fix: Warning: strpos(): Empty needle
+
 ### Version 1.7.4
 
 > Apr 5, 2023
