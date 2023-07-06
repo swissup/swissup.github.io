@@ -8,6 +8,13 @@ category: reCAPTCHA
 
 # Changelog
 
+### Version 1.4.10
+
+> Jul 6, 2023
+
+ -  JS improvements for Breeze-powered store front to reduce number of initially loaded assets.
+ -  Fixed dynamic property creation error in PHP 8.2.
+
 ### Version 1.4.8
 
 > May 30, 2023
