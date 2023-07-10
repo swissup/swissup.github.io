@@ -112,3 +112,11 @@ https://symfony.com/doc/current/setup/symfony_server.html#local-domain-names
 composer require shopware/dev-tools
 symfony console framework:demodata
 ```
+
+ #### Update shopware version
+
+ ```
+ symfony console system:update:prepare
+ composer update
+ symfony console system:update:finish
+ ```
