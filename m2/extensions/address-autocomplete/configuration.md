@@ -12,11 +12,12 @@ _Stores > Configuration > Swissup > Checkout > Address Autocomplete_.
 
 ## General Settings
 
-![General settings](/images/m2/address-autocomplete/configuration/general.png)
+![General settings](/images/m2/address-autocomplete/configuration/general.png){:width="801" height="442"}
 
 Option | Description
 -------|------------
-Enabled | Module status
+Enable | Module status
+Enable in backend | Ability to enable autocomplete in backend forms
 Api Key | Google Maps Api Key. [Get API Key](../get-api-key/)
 Initialize autocompletion on | Select a field to work as autocompletion element. Street Address and Postcode fields are available.
 Use geolocation detection | When enabled, module will ask permission to access browser location API, and fill the form with detected address.

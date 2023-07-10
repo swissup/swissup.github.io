@@ -46,7 +46,7 @@ Position                | Ability to change placeholder's position inside a pare
 Grid with available banners is located at
 _Swissup > Easy Banner > Manage Banners_ page.
 
-![Grid with Banners](/images/m2/easybanners/banner-grid.png)
+![Grid with Banners](/images/m2/easybanners/banner-grid.png){:width="1100" height="588"}
 
 After clicking on any banner from the submitted list, you will be able to edit
 the settings of Banner information.
@@ -104,7 +104,7 @@ Sizes                   | Media rules use use when generating responsive images.
 
 ###### Html Content Region
 
-![Html content region](/images/m2/easybanners/content-region-html.png)
+![Html content region](/images/m2/easybanners/content-region-html.png){:width="819" height="505"}
 
 Any html content could be placed here. If you would like to place trackable
 banner url from the content region, use the following placeholder:

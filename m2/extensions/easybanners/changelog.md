@@ -8,6 +8,14 @@ category: Easy Banners
 
 # Changelog
 
+### Version 1.9.9
+
+> July 10, 2023
+
+ -  Improved [backend preview](/m2/extensions/easybanners/interfaces/#grid-1)
+    of html banners. If possible, we will detect and display banner image
+    for these banners.
+
 ### Version 1.9.4
 
 > Mar 14, 2023

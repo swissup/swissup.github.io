@@ -7,12 +7,22 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.4.12
+
+> July 10, 2023
+
+ -  Added missing integrations with [Breeze frontend](https://breezefront.com):
+    - Search option form
+    - Show more button
+    - Slideout panel
+    - Apply multiple filters
+ -  Fixed not working "Back" button when using Breeze frontend with Turbo option enabled.
+
 ### Version 1.4.7
 
 > Apr 24, 2023
 
  - Fix: Deprecated Functionality: str_replace() error (close #84)
-
 
 ### Version 1.4.6
 

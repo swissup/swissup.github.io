@@ -7,6 +7,13 @@ category: Address Autocomplete
 
 # Changelog
 
+### Version 1.7.0
+
+> July 10, 2023
+
+ -  Ability to enable autocomplete in [backend forms](/m2/extensions/address-autocomplete/configuration/#general-settings).
+    Customer Address and Order Address forms are supported.
+
 ### Version 1.6.5
 
 > Apr 15, 2022
