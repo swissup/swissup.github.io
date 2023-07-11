@@ -113,7 +113,7 @@ composer require shopware/dev-tools
 symfony console framework:demodata
 ```
 
- #### Update shopware version
+#### Update shopware version
 
  ```
  symfony console system:update:prepare
