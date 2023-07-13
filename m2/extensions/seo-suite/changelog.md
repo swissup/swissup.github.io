@@ -8,6 +8,31 @@ category: SEO Suite
 
 # Changelog
 
+### Version 1.17.0
+
+> Jul 13, 2023
+
+Code improvement for all included modules.
+
+*swissup/module-hreflang — 1.6.1 (was 1.5.8)*
+
+ -  NEW: set hreflang link for Catalog Category in Magento Admin. It can be useful when have multiple stores at your Magento instance and you need to link categories.
+ -  NEW: import and export hreflang links for CMS Pages and Catalog Categories.
+
+*swissup/module-rich-snippets — 1.6.3 (was 1.6.1)*
+
+ -  Fix exception "Product that you are trying to add is not available". Occurs when product is not for sale and module tries to build shipping details for it.
+ -  Improve (and fix) shippingDetails calculation.
+
+*swissup/module-seo-pager — 1.3.3 (was 1.3.0)*
+
+ -  Fix not updated title of paginated content when page cache enabled.
+ -  Fixed not working "Relevance" sorting option on search results page.
+
+*swissup/module-seo-urls — 1.5.43 (was 1.5.41)*
+
+ -  Fix error - category not found at attribute page filtered by category.
+
 ### Version 1.16.0
 
 > May 31, 2023
