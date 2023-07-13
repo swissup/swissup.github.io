@@ -8,6 +8,12 @@ category: Rich Snippets
 
 # Changelog
 
+### Version 1.6.3
+
+> Jul 13, 2023
+
+ -  Source code quality improvements.
+
 ### Version 1.6.2
 
 > Jun 14, 2023
