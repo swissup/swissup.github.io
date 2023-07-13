@@ -6,6 +6,41 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.6.26
+
+> Jul 13, 2023
+
+ - Split minicart.js, add minicart/override.js;
+ - Add setTimeout for prevent random popup
+
+
+### Version 1.6.25
+
+> Jul 6, 2023
+
+ - Fixed layout error
+
+### Version 1.6.24
+
+> Jul 6, 2023
+
+ - Breeze: compatibility with breeze:config:dump
+
+### Version 1.6.23
+
+> Jun 30, 2023
+
+ - Include cart fixes for complex cart popup only. (Breeze fix)
+ - Update ajaxpro product view config variable name
+ - Refactor handling of simple cart in Cart.php
+
+
+### Version 1.6.22
+
+> May 22, 2023
+
+ - Breeze: fixed missing "out of stock" message. breezefront/module-breeze#46
+
 ### Version 1.6.21
 
 > Apr 6, 2023
