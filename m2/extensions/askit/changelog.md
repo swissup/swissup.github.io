@@ -11,6 +11,12 @@ category: AskIt
 
 # Changelog
 
+### Version 1.13.0
+
+> Jul 13, 2023
+
+ -  Support of Google ReCaptcha v3 for question and answer forms at storefront.
+ -  Fix some minor errors.
 
 ### Version 1.12.16
 
