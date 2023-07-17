@@ -7,6 +7,25 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.4.14
+
+> July 17, 2023
+
+ -  Fixed bottleneck in getting review rating
+
+
+### Version 1.4.13
+
+> July 12, 2023
+
+ -  Fixed incorrect position of "apply multiple" button (2)
+ -  Breeze: Fixed duplicated price slider after "multiple apply"
+ -  Do not scroll to top when filters are not applied yet
+ -  Fixed incorrect position of "apply multiple" button when using sticky filters
+ -  Fixed multiple tooltip behind hovered product
+ -  Improve multiple tooltip styles
+ -  Fix :'Deprecated Functionality: current(): Calling current() on an object is deprecated'
+
 ### Version 1.4.12
 
 > July 10, 2023
