@@ -7,6 +7,22 @@ category: Attributepages
 
 # Changelog
 
+### Version 1.6.2
+
+> July 17, 2023
+
+ -  Fixed ability to set page title with XML layout update instruction using backend field:
+
+    ```xml
+    <body>
+        <referenceBlock name="page.main.title">
+            <action method="setPageTitle">
+                <argument name="title" xsi:type="string">Custom Page Title</argument>
+            </action>
+        </referenceBlock>
+    </body>
+    ```
+
 ### Version 1.6.1
 
 > June 20, 2023
