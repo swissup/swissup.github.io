@@ -7,6 +7,14 @@ category: Attributepages
 
 # Changelog
 
+### Version 1.6.3
+
+> July 19, 2023
+
+ -  Fixed double slash in product URL when "catalog/seo/product_use_categories"
+    option is enabled.
+ -  Fixed missing field label when Pagebuilder is disabled.
+
 ### Version 1.6.2
 
 > July 17, 2023
