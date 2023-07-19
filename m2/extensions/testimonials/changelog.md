@@ -8,6 +8,13 @@ category: Testimonials
 
 # Changelog
 
+### Version 1.3.9
+
+> Jul 19, 2023
+
+ -  Fixed not-working `slides_to_show` widget config
+ -  PHP Stan code fixes
+
 ### Version 1.3.8
 
 > Jun 28, 2023
