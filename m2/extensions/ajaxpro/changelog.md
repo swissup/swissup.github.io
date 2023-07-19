@@ -6,6 +6,13 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.6.27
+
+> Jul 19, 2023
+
+ - Add ModalManager.has
+ - fix race bug for prevent 'random' popup (unregister before register)
+
 ### Version 1.6.26
 
 > Jul 13, 2023
