@@ -7,6 +7,12 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.4.15
+
+> July 19, 2023
+
+ -  Hide filter apply tooltip when no filters are selected
+
 ### Version 1.4.14
 
 > July 17, 2023
