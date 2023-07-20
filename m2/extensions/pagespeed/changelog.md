@@ -8,6 +8,12 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.7.7
+
+> Jul 6, 2023
+
+ - Add magento/module-media-gallery-renditions integration (close #53)
+
 ### Version 1.7.6
 
 > Jul 6, 2023
