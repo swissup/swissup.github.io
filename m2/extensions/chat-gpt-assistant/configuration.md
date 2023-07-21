@@ -19,6 +19,7 @@ Option                    | Description
 --------------------------|-------------------------------------------
 Enabled                   | Enable/Disable the module
 OpenAI API Key            | Enter [OpenAI API](https://platform.openai.com/account/api-keys) key
+OpenAI Model              | Enter model used for generation, e.g. `gpt-3.5-turbo`, `gpt-4`, etc. Find more at [Models Documentation](https://platform.openai.com/docs/models) page.
 
 ##### Next Up
 
