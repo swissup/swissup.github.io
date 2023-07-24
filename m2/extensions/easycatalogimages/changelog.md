@@ -8,6 +8,15 @@ category: EasyCatalogImages
 
 # Changelog
 
+### Version 1.5.0
+
+> Jul 24, 2023
+
+ -  Added ability to [cache block result](/m2/extensions/easycatalogimages/widget/#widget-interface).
+    This options is useful, when block is rendered inside navigation dropdown
+    (Same EasyCatalogImg content on all pages).
+ -  Reduced count of generated responsive images from 6 to 3.
+
 ### Version 1.4.23
 
 > Nov 15, 2022

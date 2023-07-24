@@ -29,30 +29,35 @@ pages:
  -  Content > Widgets
  -  All other pages, that utilize `Insert Widget` button functionality
 
-![EasyCatalogImages widget](/images/m2/easycatalogimages/widget.png)
+![EasyCatalogImages widget](/images/m2/easycatalogimages/widget.png?v=3){:width="908" height="918"}
 
 ### Options
 
 Widget interface does not provide visual preview for all available options. Here
 you can find the full list of supported options:
 
-Option                      | Value                     | Description
-----------------------------|---------------------------|----------------------------
-background_color            | rgb color code            | Background color what will be used to fill background of resized image, if needed
-category_count              | integer                   | Count of categories to show
-category_id                 | integer\|null(default)    | Parent category, do not set to use current category
-category_to_hide            | comma separated ids       | Categories to hide from output
-category_to_show            | comma separated ids       | Categories to show
-column_count                | integer                   | Columns count
-hide_when_filter_is_used    | boolean                   | Ability to hide block, if filter is applied or current page > 1
-image_width                 | integer                   | Image width, px
-image_height                | integer                   | Image height, px
-resize_image                | boolean                   | Flag, that indicating to use image resizer or not
-show_image                  | boolean                   | Show image flag
-subacategory_count          | integer                   | Count of subcategories
-template                    | string(Swissup_Easycatalogimg::list.phtml) | Template to use
-custom_template             | string                    | Custom Template to use
-use_image_attribute         | boolean                   | Use image attribute, if thumbnail is not available
+Option                      | Description
+----------------------------|----------------------------
+**Default Options**         |
+category_id                 | Root category
+category_count              | Number of categories to show
+subcategory_count           | Number of subcategories to show
+column_count                | Columns count
+show_image                  | Show image flag
+image_width                 | Image width, px
+image_height                | Image height, px
+parent_category_position    | Choose between "Above Image" and "Below Image" options
+sizes                       | Responsive sizes to generate perfect image size for every device. Example: `(min-width: 768px) 25vw, 50vw`
+category_to_show            | Categories to show
+category_to_hide            | Categories to hide from output
+hide_when_filter_is_used    | Ability to hide block, if filter is applied or current page > 1
+cache_lifetime              | Cache lifetime in seconds. Cache is disabled when empty.
+**Hidden Options**          |
+resize_image                | Flag, that indicating to use image resizer or not
+template                    | Template to use
+custom_template             | Custom Template to use
+use_image_attribute         | Use image attribute, if thumbnail is not available
+background_color            | Background color what will be used to fill background of resized image, if needed
 
 ### XML Layout Update
 
