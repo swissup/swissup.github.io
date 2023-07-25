@@ -8,6 +8,12 @@ category: Checkout Success
 
 # Changelog
 
+### Version 2.0.7
+
+> Jun 24, 2023
+
+ -  Stability improvements.
+
 ### Version 2.0.6
 
 > Mar 22, 2023

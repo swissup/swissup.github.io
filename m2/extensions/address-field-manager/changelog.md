@@ -8,6 +8,12 @@ category: Address Field Manager
 
 # Changelog
 
+### Version 1.6.15
+
+> Jul 24, 2023
+
+ -  Stability improvements
+
 ### Version 1.6.14
 
 > Jun 26, 2023

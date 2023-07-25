@@ -8,6 +8,12 @@ category: Geoip
 
 # Changelog
 
+### Version 1.5.7
+
+> Jun 24, 2023
+
+ -  Stability improvements.
+
 ### Version 1.5.5
 
 > Mar 14, 2023

@@ -8,6 +8,14 @@ category: Checkout Fields
 
 # Changelog
 
+### Version 1.6.9
+
+> Jul 24, 2023
+
+ -  Improved checkbox field validation.
+ -  Prevent redirect to shipping step when validation is failed.
+ -  Stability improvements
+
 ### Version 1.6.7
 
 > Mar 14, 2023

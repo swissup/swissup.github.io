@@ -8,6 +8,12 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.17.2
+
+> July 25, 2023
+
+ -  [Breeze](https://breezefront.com) fixes for slideout and simple menu's.
+
 ### Version 1.17.1
 
 > July 4, 2023

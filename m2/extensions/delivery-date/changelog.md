@@ -7,6 +7,12 @@ category: Delivery Date
 
 # Changelog
 
+### Version 1.7.8
+
+> Jul 24, 2023
+
+ -  Stability improvements.
+
 ### Version 1.7.7
 
 > Apr 28, 2023

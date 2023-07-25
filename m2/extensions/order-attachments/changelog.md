@@ -7,6 +7,13 @@ category: Order Attachments
 
 # Changelog
 
+### Version 1.4.27
+
+> Jul 24, 2023
+
+ -  Stability improvements.
+ -  [Breeze](https://breezefront.com/) integration updated.
+
 ### Version 1.4.24
 
 > May 23, 2023
