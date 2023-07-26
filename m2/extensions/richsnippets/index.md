@@ -20,10 +20,11 @@ Today Google recommends using JSON-LD for structured data whenever possible ([so
 
 Our module does exactly this. It presents structured data with JSON-LD format instead of microdata. But this is not all. We allow you to include some addtional information in structured data. Here is full list of structured data we add to pages:
 
- -  Product data (SKU, price, currency, availability and reviews' rating).
+ -  Product data (SKU, price, currency, availability and reviews' rating)
  -  [Information about your organization](configuration/#organization) with [social links](configuration/#social-links).
  -  [Website](configuration/#website) info with sitelinks searchbox.
  -  Breadcrumbs trail.
+ -  FAQ list (via widget).
 
 To test structured data at any page of your store you can use [Google Rich Snippets testing tool](https://developers.google.com/structured-data/testing-tool/).
 
@@ -41,5 +42,7 @@ Please check troubleshooting page to get answer for the most common questions.
 
 1. [Installation](installation/)
 2. [Configuration](configuration/)
-3. [Troubleshooting](troubleshooting/)
-4. [Changelog](changelog/)
+3. [Widgets](widgets/):
+    -  [FAQ](widgets/faq/)
+4. [Troubleshooting](troubleshooting/)
+5. [Changelog](changelog/)
