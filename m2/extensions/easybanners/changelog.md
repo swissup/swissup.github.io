@@ -8,6 +8,12 @@ category: Easy Banners
 
 # Changelog
 
+### Version 1.9.10
+
+> July 27, 2023
+
+ -  Stability improvements.
+
 ### Version 1.9.9
 
 > July 10, 2023

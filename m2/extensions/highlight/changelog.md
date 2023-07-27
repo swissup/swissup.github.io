@@ -8,6 +8,12 @@ category: Highlight
 
 # Changelog
 
+### Version 1.8.10
+
+> Jul 27, 2023
+
+ -  Stability improvements.
+
 ### Version 1.8.9
 
 > July 4, 2023

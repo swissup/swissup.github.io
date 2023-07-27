@@ -8,6 +8,12 @@ category: Easy Slider
 
 # Changelog
 
+### Version 1.8.1
+
+> Jul 27, 2023
+
+ -  Stability improvements.
+
 ### Version 1.8.0
 
 > Apr 19, 2023

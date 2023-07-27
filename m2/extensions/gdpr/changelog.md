@@ -8,6 +8,13 @@ category: GDPR
 
 # Changelog
 
+### Version 1.5.18
+
+> Jul 27, 2023
+
+ -  [Breeze](https://breezefront.com) integration fixes.
+ -  Stability improvements.
+
 ### Version 1.5.14
 
 > May 23, 2023

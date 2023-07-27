@@ -6,6 +6,12 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.6.28
+
+> Jul 27, 2023
+
+ - [Breeze](https://breezefront.com) integration fixes.
+
 ### Version 1.6.27
 
 > Jul 19, 2023
