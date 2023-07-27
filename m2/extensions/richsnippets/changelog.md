@@ -8,6 +8,13 @@ category: Rich Snippets
 
 # Changelog
 
+### Version 1.7.0
+
+> Jul 26, 2023
+
+ -  NEW! [FAQ data snippet widget](/m2/extensions/richsnippets/widgets/faq/) added.
+ -  Cache shipping details snippet data to avoid too many shipping requests to online carriers.
+
 ### Version 1.6.3
 
 > Jul 13, 2023
