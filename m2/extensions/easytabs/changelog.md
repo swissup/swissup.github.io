@@ -8,6 +8,12 @@ category: Easy Tabs
 
 # Changelog
 
+### Version 1.12.1
+
+> Jul 27, 2023
+
+ -  Improved [Breeze](https://breezefront.com) integration.
+
 ### Version 1.12.0
 
 > Jun 30, 2023
