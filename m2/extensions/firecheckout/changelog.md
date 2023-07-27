@@ -8,6 +8,23 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.31.2
+
+> Jul 27, 2023
+
+ -  [AddressFieldManager](https://docs.swissuplabs.com/m2/extensions/address-field-manager/):
+    - Allow to use radio as yes/no attribute.
+    - Fixed failed multiselect elements validation during checkout.
+ -  [AddressAutocomplete](https://docs.swissuplabs.com/m2/extensions/address-autocomplete/):
+    - Added ability to use autocomplete in backend.
+    - Disabled Chrome's autofill popup on autocomplete field so it would not cover it.
+ -  [CheckoutFields](https://docs.swissuplabs.com/m2/extensions/checkout-fields/):
+    - Prevent redirect to shipping step when validation is failed.
+    - Improved checkbox field validation.
+ -  [OrderAttachments](https://docs.swissuplabs.com/m2/extensions/order-attachments/):
+    - [Breeze](https://breezefront.com/) integration updated
+ -  Stability improvements in all other modules.
+
 ### Version 1.31.1
 
 > May 23, 2023
