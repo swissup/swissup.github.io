@@ -8,6 +8,17 @@ category: SEO CrossLinks
 
 # Changelog
 
+### Version 1.1.12
+> Jul 13, 2023
+
+  - Fixed PHPStan errors.
+
+### Version 1.1.11
+> Mar 21, 2023
+
+  - Fixed broken characters (currency, etc) in widgets.
+  - PHP 8.2: fixed dynamic properties creation.
+
 ### Version 1.1.7
 > Sep 19, 2022
 

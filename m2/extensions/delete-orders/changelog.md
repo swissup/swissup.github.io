@@ -8,6 +8,17 @@ category: Delete Orders
 
 # Changelog
 
+### Version 1.3.1
+> Jul 27, 2023
+
+    - Fixed PHPStan errors.
+
+### Version 1.3.1
+> Jul 5, 2023
+
+    - Added ability to remove the orders using increment_id.
+    - Added ability to remove orders by cron schedule.
+
 ### Version 1.2.1
 
  -  PHP 8.1 compatibility
