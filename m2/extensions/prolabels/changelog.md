@@ -8,6 +8,13 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.7.3
+
+> Jul 26, 2023
+
+ -  NEW condition for manual labels - final price. But is has one downside. Final price condition requires a lot of calculations. So labels with this condition takes much more time to apply.
+ -  Source code tweaks and improvements.
+
 ### Version 1.7.1
 
 > Jun 28, 2023
