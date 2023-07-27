@@ -13,6 +13,8 @@ category: ArgentoBreeze
 
  -  Magento 2.4.6 and PHP 8.2 compatibilty in all modules.
  -  [**ChatGPT Assistant**](/m2/extensions/chat-gpt-assistant/) **module added**
+ -  Accessibility fixes to EasyTabs module. Tabs are no longer transformed into
+    accordion on mobile devices.
  -  Minor fixes and improvements in all bundled modules.
 
 ### Version 2.0.0
