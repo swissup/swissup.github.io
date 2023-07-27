@@ -7,6 +7,14 @@ category: ArgentoBreeze
 
 # Argento Breeze Changelog
 
+### Version 2.1.0
+
+> Jul 27, 2023
+
+ -  Magento 2.4.6 and PHP 8.2 compatibilty in all modules.
+ -  [**ChatGPT Assistant**](/m2/extensions/chat-gpt-assistant/) **module added**
+ -  Minor fixes and improvements in all bundled modules.
+
 ### Version 2.0.0
 
 > Nov 19, 2022
