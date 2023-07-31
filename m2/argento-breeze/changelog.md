@@ -13,8 +13,18 @@ category: ArgentoBreeze
 
  -  Magento 2.4.6 and PHP 8.2 compatibilty in all modules.
  -  [**ChatGPT Assistant**](/m2/extensions/chat-gpt-assistant/) **module added**
- -  Accessibility fixes to EasyTabs module. Tabs are no longer transformed into
-    accordion on mobile devices.
+ -  Tabs are no longer transformed into accordion on mobile devices by default
+    to meet accesibility requirements.
+ -  Accessibility fixes in [EasyTabs](/m2/extensions/easytabs/) and
+    [NavigationPro](/m2/extensions/navigationpro/) modules.
+ -  Performance improvements in [SeoSuite](/m2/extensions/seo-suite/) and
+    [SoldTogether](/m2/extensions/soldtogether/) modules.
+ -  Added ability to set active_from and active_to properties for each of
+    [EasySlider](/m2/extensions/easyslider/) slides.
+ -  Pagebuilder added to backend description and short description fields of
+    [AttributePages](/m2/extensions/attributepages/) module.
+ -  Added ability to sort [NavigationPro](/m2/extensions/navigationpro/) menu
+    items in alphabetical order.
  -  Minor fixes and improvements in all bundled modules.
 
 ### Version 2.0.0
