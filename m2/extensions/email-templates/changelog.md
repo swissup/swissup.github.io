@@ -8,6 +8,12 @@ category: Email Templates
 
 # Changelog
 
+### Version 1.2.0
+
+> Aug 2, 2023
+
+ -  Reworked all templates and styles. Updated email templates look great in all most common mail clients (including Outlook) and devices.
+
 ### Version 1.1.5
 
 > Mar 14, 2023
