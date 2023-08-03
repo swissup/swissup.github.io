@@ -8,6 +8,20 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.7.9
+
+> Aug 2, 2023
+
+ - Fix file extension detecting with query params in url (webp)
+ - Fix broken path detection /media//
+
+### Version 1.7.8
+
+> Jul 20, 2023
+
+ - Fix phpstan errors
+ - Fix some phpstan warnings
+
 ### Version 1.7.7
 
 > Jul 6, 2023
