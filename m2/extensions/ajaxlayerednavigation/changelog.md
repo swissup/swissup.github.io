@@ -7,6 +7,15 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.4.16
+
+> Aug 2, 2023
+
+ - Fix multiple apply for categories
+ - Breeze: Fix products listing replacing
+ - Fix products listing replacing
+ - Add rel=nofollow on filter links
+
 ### Version 1.4.15
 
 > July 19, 2023
