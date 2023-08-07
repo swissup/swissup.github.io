@@ -15,3 +15,7 @@ title: Shopware Products
 ### Pagespeed
 
 [Pagespeed](pagespeed)
+
+### ChatGPT Assistant
+
+[ChatGPT Assistant](chat-gpt-assistant)

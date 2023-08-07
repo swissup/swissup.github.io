@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Argento for Shopware
-description: Argento for Shopware Documentation
-category: Argento Shopware
+title: Pagespeed for Shopware
+description: Pagespeed for Shopware Documentation
+category: Pagespeed Shopware
 ---
 
 # sw6-pagespeed
