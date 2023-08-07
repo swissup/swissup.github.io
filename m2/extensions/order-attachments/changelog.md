@@ -7,6 +7,15 @@ category: Order Attachments
 
 # Changelog
 
+### Version 1.5.0
+
+> Aug 7, 2023
+
+ -  Added ability to [notify customer and admin](/m2/extensions/order-attachments/#configuration)
+    about changes in attachments made after other placement.
+
+    > Notification is sent once per 10 minutes for updated and new attachments only.
+
 ### Version 1.4.27
 
 > Jul 24, 2023
