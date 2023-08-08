@@ -35,6 +35,7 @@ Supported fields:
  -  Category Meta Description (SEO)
  -  Category Keywords (SEO)
 
+[Product Description](/images/shopware/chat-gpt-assistant/product.png)
 
 ## Configuration  (Extensions -> My Extensions -> Chat GPT Assistant plugin)
 
