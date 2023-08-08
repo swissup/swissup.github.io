@@ -44,13 +44,13 @@ Enable  | Allows to enable/disable plugin per sales channels
 Api Key | Enter [OpenAI API](https://platform.openai.com/account/api-keys) key
 Model   | Enter model used for generation, e.g. `gpt-3.5-turbo`, `gpt-4`, etc. Find more at [Models Documentation](https://platform.openai.com/docs/models) page.
 
-![configuration](https://github.com/swissup/sw6-chat-gpt-assistant/assets/412612/9f6c6b77-81d1-4c61-8073-95960de0d8af)
+![configuration](/images/shopware/chat-gpt-assistant/configuration.png)
 
 ## Usage
 
 With our extension you can generate content in two ways.
 
-### Black ChatGPT Icon ![black](https://github.com/swissup/sw6-chat-gpt-assistant/assets/412612/ee8d5083-6f87-4ffe-82fb-5bb29f553690)
+### Black ChatGPT Icon ![black](/images/shopware/chat-gpt-assistant/black.png)
 
 You can send a request to chatGPT by pressing the black chatgpt icon near the associated field  near product description for example.
 Request will be sent using the default prompt and chatGPT response will be inserted into the field.
@@ -58,7 +58,7 @@ Request will be sent using the default prompt and chatGPT response will be inser
 
 You can then edit the content if needed and save the product and/or category.
 
-### Green ChatGPT Popup Icon ![green](https://github.com/swissup/sw6-chat-gpt-assistant/assets/412612/21ce5b67-075d-42af-92ff-4a1c628b553a)
+### Green ChatGPT Popup Icon ![green](/images/shopware/chat-gpt-assistant/green.png)
 
 If you need more control over the content generation process or want to send a custom prompt, press the chat button to open popup window.
 Here you can edit existing prompt and run it.
