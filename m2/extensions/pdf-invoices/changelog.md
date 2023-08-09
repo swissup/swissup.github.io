@@ -8,6 +8,31 @@ category: PDF Invoices
 
 # Changelog
 
+### Version 1.4.6
+
+> Jul 19, 2023
+
+ -  Do not add PDF attachment to email when entityId is missing
+ -  Fixed access to undefined constant
+
+### Version 1.4.5
+
+> Mar 22, 2023
+
+ -  Replaced Zend namespace with Laminas
+
+### Version 1.4.4
+
+> Dec 12, 2022
+
+ -  Fixed missing barcodes
+
+### Version 1.4.3
+
+> Nov 16, 2022
+
+ -  PHP 8.1 compatibility fix: passing null to base64_decode
+
 ### Version 1.4.2
 
 > Oct 18, 2022
