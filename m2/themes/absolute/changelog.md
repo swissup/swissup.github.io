@@ -8,6 +8,12 @@ category: Absolute Theme
 
 ### Version 1.5.0
 
+> Aug 14, 2023
+
+ -  Bump version to update theme on Magento marketplace.
+
+### Version 1.5.0
+
 > Sep 14, 2021
 
  -  [Breeze](/m2/extensions/breeze/) integration added.

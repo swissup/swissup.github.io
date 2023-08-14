@@ -8,6 +8,13 @@ category: Easy Flags
 
 # Changelog
 
+### Version 1.4.4
+
+> Aug 14, 2023
+
+ -  PHP 8.2 compatibility.
+ -  Code cleanup.
+
 ### Version 1.4.0
 
 > Aug 29, 2022
