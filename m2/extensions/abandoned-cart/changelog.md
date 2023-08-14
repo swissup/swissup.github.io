@@ -8,6 +8,12 @@ category: Abandoned Cart
 
 # Changelog
 
+### Version 1.1.7
+
+> May 4, 2023
+
+ -  Added check to prevent error when there are no active rules
+
 ### Version 1.1.6
 
 > Apr 26, 2023
