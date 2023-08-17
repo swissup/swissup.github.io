@@ -7,6 +7,15 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.4.17
+
+> Aug 17, 2023
+
+ - Fix filter count in Stock+New
+ - Fix decimal resource _getSelect logic
+ - Fix Decimal::getAttributeCode return null
+ - Prevent show attributes with empty attribute code
+
 ### Version 1.4.16
 
 > Aug 2, 2023
