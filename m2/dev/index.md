@@ -116,7 +116,7 @@ composer require\
     swissup/module-social-login\
     swissup/module-sold-together\
     swissup/module-sold-together-email\
-    swissup/module-sold-together-email-import-export\
+    swissup/module-sold-together-import-export\
     swissup/module-stickyfill\
     swissup/module-subscribe-at-checkout\
     swissup/module-subscription-checker\
