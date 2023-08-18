@@ -8,6 +8,13 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.7.10
+
+> Aug 18, 2023
+
+ - Prevent: PHP8.1 Deprecated function
+ - Fix phpstan errors
+
 ### Version 1.7.9
 
 > Aug 2, 2023
