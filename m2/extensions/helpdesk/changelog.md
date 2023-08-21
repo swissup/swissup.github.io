@@ -6,6 +6,12 @@ keywords: Helpdesk changelog
 category: Helpdesk
 ---
 
+### Version 1.2.37
+
+> Aug 21, 2023
+
+ - Fix: Incorrect DATETIME format
+
 ### Version 1.2.36
 
 > May 27, 2023
