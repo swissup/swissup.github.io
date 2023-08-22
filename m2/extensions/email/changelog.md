@@ -8,6 +8,20 @@ category: Email
 
 # Changelog
 
+### Version 0.5.10
+
+> Aug 22, 2023
+
+**Fixes**
+ - Fix phpstan error
+
+### Version 0.5.9
+
+> Aug 21, 2023
+
+**Fixes**
+ - Increase password column length to 255
+
 ### Version 0.5.8
 
 > Apr 5, 2023
