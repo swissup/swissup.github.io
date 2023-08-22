@@ -7,6 +7,12 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.4.18
+
+> Aug 22, 2023
+
+ - Fix: 'the same ID already exists' double decimal table join without group by
+
 ### Version 1.4.17
 
 > Aug 17, 2023

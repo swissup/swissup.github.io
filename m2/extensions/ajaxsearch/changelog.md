@@ -6,6 +6,25 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.13.13
+
+> Aug 22, 2023
+
+ - JS - remove service inputs from accessibility tree.
+ - Remove console.log
+
+### Version 1.13.12
+
+> Jul 6, 2023
+
+ - Fixed layout error
+
+### Version 1.13.11
+
+> Jul 6, 2023
+
+ - Breeze: integration with breeze:config:dump command
+
 ### Version 1.13.10
 
 > Jun 22, 2023
