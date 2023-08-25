@@ -7,6 +7,15 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+
+### Version 1.4.19
+
+> Aug 25, 2023
+
+ - Prevent join the same _idx in StateFilterApplier
+ - Reset GROUP BY in Decimal::_getSelect
+ - Always add GROUP BY with decimal table join statement
+
 ### Version 1.4.18
 
 > Aug 22, 2023
