@@ -6,6 +6,29 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.6.30
+
+> Aug 25, 2023
+
+ - Force reload page after adding product with option in_cart/1/ in url
+
+### Version 1.6.29
+
+> Aug 8, 2023
+
+ - Fixed missing quick-view inside magento widget
+ - Hide "Options Details" title in floating cart
+ - Fixed possible incorrect quick-view position
+ - Use module.less for styles
+ - CSS fixes
+ - Ability to configure position via css props
+ - Hide quick-view on list mode (bad positioning)
+ - WIP: allow to place quick-view to secondary actions container
+ - Remove not needed lines
+ - Breeze: reuse quick-view component
+ - Breeze: reuse quick-view component. Work in progress.
+ - Shorten quick-view component. Prepare to reuse in breeze.
+
 ### Version 1.6.28
 
 > Jul 27, 2023
