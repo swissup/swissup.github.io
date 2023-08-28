@@ -1,12 +1,17 @@
 ---
 layout: default
-title: Delete Orders Changelog
+title: Delete Orders with additional features like UnCancel orders and Show order status in colors.
 description: Magento 2 Delete Orders allows remove orders from your store
-keywords: orders updates
+keywords: orders updates, uncancel orders, show order status in colors
 category: Delete Orders
 ---
 
 # Changelog
+
+### Version 1.3.2
+> Aug 28, 2023
+
+    - Added new feature to uncancel orders.
 
 ### Version 1.3.1
 > Jul 27, 2023
