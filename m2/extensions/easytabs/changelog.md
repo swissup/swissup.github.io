@@ -8,6 +8,13 @@ category: Easy Tabs
 
 # Changelog
 
+### Version 1.12.4
+
+> Aug 28, 2023
+
+ -  One fix for PHP 8.1 and update of integration with Argento Force powered by Breeze.
+ -  Fix for tab "Attributtes" and template "attribute-with-label.phtml". Use attribute label set on store level. Previously always used attribuite label for "All store views".
+
 ### Version 1.12.2
 
 > Jul 28, 2023
