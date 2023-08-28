@@ -161,7 +161,7 @@ magento field "vat_id" and the firecheckout module.
                 'lazy': true,
                 'fc-custom-rule-vatid': {
                     handler: function (value) {
-                        var spNumbers = value.split(/[\/\.-]/);
+                        var spNumbers = value.replace(/[\/\.-]/g, '');
 
                         // validate invalid code like: 00000000000000, 11111111111111, etc;
                         if(/^([0-9])\1*$/.test(spNumbers)) {
