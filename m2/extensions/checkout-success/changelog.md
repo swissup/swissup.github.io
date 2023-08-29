@@ -8,6 +8,12 @@ category: Checkout Success
 
 # Changelog
 
+### Version 2.0.8
+
+> Aug 29, 2023
+
+ -  Add fallback to old success page layout builder to solev issue that occurs at Magento instances where admin and storefront have different host names.
+
 ### Version 2.0.7
 
 > Jun 24, 2023

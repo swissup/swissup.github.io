@@ -50,12 +50,16 @@ Check ["Miscellaneous scripts snippets"](../miscellaneous-scripts-snippets/) pag
 
 ### Page Layout
 
-![Checkout Success system config layout](/images/m2/checkout-success/settings-layout-2.0.png)
+![Checkout Success system config layout](/images/m2/checkout-success/settings-layout-2.0-v2.png)
 
 Section `Layout` allows you to preview your checkout success page for any order you have. Other powerfull tool is layout **Builder** for uccess page. Builder helps you to construct your own unique layout and engage customer come back to your store.
 
 Button `Preview page` starts full page preview for order (number set in the input field near by).
 
-Button `Builder` starts layout builder for success page. You can rearange page elements and add new ones. For example CMS blocks,  additional checkout fields (requires our module) and/or  delivary date (requires our module).
+Button `Builder` starts layout builder (real-time builder) for success page. You can rearange page elements and add new ones. For example CMS blocks,  additional checkout fields (requires our module) and/or delivary date (requires our module).
 
 ![Layout builder](/images/m2/checkout-success/settings-layout-2.0--builder.png)
+
+**Notice:** unfortunatly real-time builder works not for all Magento instances. The issue occurs when Magento Admin has one host name and storefront has the other. Browser blocks crossorigin requests for security reasons. For such case we kept old Success Page layout builder. You can choose "Layout builder" in drop-down near "Builder" button.
+
+![Layout builder (old)](/images/m2/checkout-success/settings-layout-2.0--builder-old.png)
