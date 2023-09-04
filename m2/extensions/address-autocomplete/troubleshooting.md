@@ -14,7 +14,7 @@ the browser's console: "You have included the Google Maps JavaScript API multipl
 times on this page", you need to keep only one module that will include Google Maps.
 
 Here is how you can prevent our module from including this js. Open 
-`vendor/swissup/module-address-autocomplete/view/frontend/web/js/google-maps.js`
+`vendor/swissup/module-address-autocomplete/view/base/web/js/google-maps.js`
 and find the following lines:
 
 ```js
