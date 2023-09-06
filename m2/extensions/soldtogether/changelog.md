@@ -8,6 +8,14 @@ category: SoldTogether
 
 # Changelog
 
+### Version 1.9.9
+
+> Sep 6, 2023
+
+ -  Fixed error "ID already exists" when rendering block for order or cart.
+ -  Fixed not updated total amount at "Frequently bought together" block when main product option has changed.
+ -  Removed "Frequently bought together" and "Customer also bought" blocks at checkout cart configure item page becuase they make no sense there.
+
 ### Version 1.9.8
 
 > Jun 30, 2023
