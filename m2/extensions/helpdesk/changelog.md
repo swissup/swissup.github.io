@@ -6,6 +6,13 @@ keywords: Helpdesk changelog
 category: Helpdesk
 ---
 
+### Version 1.2.38
+
+> Sep 12, 2023
+
+ - Add mass actions (delete/change status/change priority) for the tickets grid
+ - Add massSuspend action for the tickets grid
+
 ### Version 1.2.37
 
 > Aug 21, 2023
