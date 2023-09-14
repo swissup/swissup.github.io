@@ -7,6 +7,12 @@ category: Checkout Registration
 
 # Changelog
 
+### Version 1.1.12
+
+> Sep 14, 2023
+
+ -  Fixed error when quoteId is outdated.
+
 ### Version 1.1.9
 
 > Aug 5, 2022

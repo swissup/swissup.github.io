@@ -8,6 +8,14 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.17.5
+
+> Sep 14, 2023
+
+ -  Performance: improve total blocking time score.
+ -  Fixed not working 'dark' modifier for boxed dropdown.
+ -  Fixed missing caret icon when js is not initialized yet.
+
 ### Version 1.17.2
 
 > July 25, 2023

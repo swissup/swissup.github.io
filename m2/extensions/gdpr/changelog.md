@@ -8,6 +8,12 @@ category: GDPR
 
 # Changelog
 
+### Version 1.17.5
+
+> Sep 14, 2023
+
+ -  Performance: improved LCP when cookie bar is enabled.
+
 ### Version 1.5.18
 
 > Jul 27, 2023

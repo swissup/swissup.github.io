@@ -8,6 +8,12 @@ category: Easy Banners
 
 # Changelog
 
+### Version 1.9.11
+
+> Sep 14, 2023
+
+ -  Performance: improve total blocking time score.
+
 ### Version 1.9.10
 
 > July 27, 2023

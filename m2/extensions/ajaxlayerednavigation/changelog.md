@@ -7,6 +7,11 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.4.20
+
+> Sep 14, 2023
+
+ - Performance: improve total blocking time score.
 
 ### Version 1.4.19
 
