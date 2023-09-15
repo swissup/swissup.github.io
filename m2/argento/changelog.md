@@ -7,6 +7,156 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.40.0
+
+> Sep 15, 2023
+
+ - The main change is that Sticky Header option added to all theme designs and can be accessed from backend theme editor
+ - Configurable header styles improved
+ - Configurable header styles improved
+ - Fixed missing header links on mobile
+
+**Extensions Updates**
+
+  - [Ajax Pro](/m2/extensions/ajaxpro/) — 1.6.30 (was 1.6.23)
+      + Fixed force reload page after adding product with option in_cart/1/ in url
+      + Fixed missing quick-view inside magento widget
+      + Hide "Options Details" title in floating cart
+      + Fixed possible incorrect quick-view position
+      + CSS fixes
+      + Hide quick-view on list mode (bad positioning)
+      + WIP: allow to place quick-view to secondary actions container
+      + Breeze: reuse quick-view component. Work in progress.
+      + Fix show behaviour run customerData.reload([], false)
+      + Add ModalManager.has; fix race bug for prevent 'random' popup (unregister before register)
+      + Split minicart.js, add minicart/override.js; add setTimeout for prevent random popup
+      + Fixed layout error
+      + Breeze: compatibility with breeze:config:dump
+  - [Ajax Search](/m2/extensions/ajaxsearch/) — 1.13.13 (was 1.13.10)
+      + JS - remove service inputs from accessibility tree.
+      + Fixed layout error
+      + Breeze: integration with breeze:config:dump command
+  - [AskIt](/m2/extensions/askit/) — 1.13.1 (was 1.12.15)
+      + Removed trailing comma in constructor (PHP 7.4 compatibility)
+      + Integration with Google ReCaptcha v3
+      + Fix : Caught class NoSuchEntityException not found
+      + Fix graphql cacheIdentity logic
+      + Fix: Deprecated Functionality: strpos(): Passing null to parameter 1
+      + Add createVote graphql mutation (like, dislike)
+      + Add 'provide the graphQL can return the product (item) data'
+  - [Attribute Pages](/m2/extensions/attributepages/) — 1.6.4 (was 1.6.1)
+      + Fixed possible "getIdentifier() on bool" error at the backend option page
+      + Fixed missing field label when pagebuilder is disabled
+      + Fixed double slash in product URL when product_use_categories option is enabled
+      + Fixed: Do not set page title if layout update xml is used
+  - [Breeze](/m2/extensions/breeze/) — 2.10.0 (was 2.7.3)
+      + Lot of fixes and updates available on [Breeze Site](https://breezefront.com/updates)
+  - [ChatGPT Assistant](/m2/extensions/chat-gpt-assistant/) — 1.0.1 (was 1.0.0)
+      + Fixed PHP Stan errors
+      + Added OpenAI model config
+  - [Easybanners](/m2/extensions/easybanners/) — 1.9.11 (was 1.9.8)
+      + Lazy load cookie read to improve TBT
+      + Improve preview of html banner
+      + Show html banner preview in backend popup
+  - [Easy Catalog Images](/m2/extensions/easycatalogimages/) — 1.5.0 (was 1.4.24)
+      + Reduce count of generated images
+      + Do not use use cache by default
+      + Cache added
+      + PHP Stan fixes
+  - [Easytabs](/m2/extensions/easytabs/) — 1.12.4 (was 1.12.0)
+      + Attributes tab - use store label for when renderAttributeLabel.
+      + Other translation for attribute label set in Magento Admin.
+      + Breeze: improve integration with force theme
+      + Fix Deprecated Functionality: str_replace()
+      + Prevent layout shift when loader is disabled
+  - [GDPR](/m2/extensions/gdpr/) — 1.5.19 (was 1.5.15)
+      + Performance: improved LCP when cookie bar is enabled
+      + Breeze: fixed show/hide labels
+      + Performance: improve LCP metrics
+      + Remove code written for php 5
+      + Fixed layout error
+      + Breeze: update integration
+      + Breeze: config:dump compatibility
+  - [Highlight](/m2/extensions/highlight/) — 1.8.10 (was 1.8.7)
+      + Add additional classes to override breeze defaults
+      + Fixed laggy slider mouse drag when breeze theme is used
+  - [SEO Suite](/m2/extensions/seo-suite/)
+      + **swissup/module-hreflang** — 1.6.4 (was 1.5.9)
+        * Code refactor for Helper\Sitemap.
+        * Escape urls for hreflang data in XML sitemap.
+        * Update Amasty Store Locator integration.
+        * Prevent error at category edit - undefined offset.
+        * Prevent error at category edit due to third-party module conflict.
+        * Create proper foreign keys for table SWISSUP_HREFLANG_CATEGORY.
+        * Alternative hreflang values for categories
+        * Refactor for CMS Page load/save observers in adminhtml.
+        * Link categories - manage hreflang link data when editing category.
+        * Link categories - remove hard-coded attribute ID
+      + **swissup/module-hreflang-import-export** — 1.0.1 (was 1.0.0)
+        * Remove redundent properties in export collection factories.
+        * Catalog Category hreflang data export.
+        * Catalog Category hreflang data import
+        * CMS Pages hreflang data export.
+      + **swissup/module-seo-core** — 1.3.9 (was 1.3.8)
+        * Fix getQuery for url model.
+        * Allow filter directive to have digits in it.
+      + **swissup/module-seo-templates** — 1.7.5 (was 1.7.3)
+        * Directly render HTML entities (emojis) as symbols
+        * Edit category form - generated data order in section "SEO Suite".
+      + **swissup/module-seo-urls** — 1.5.47 (was 1.5.42)
+        * Fix for layered navigation when multiple lables applied to one filter.
+        * Fix "Return value must be of type array, string returned".
+        * Fix missing variable.
+        * A bit of code refactoring.
+        * Fix not working URLs in filters when filters have the same labels.
+        * Filter item in Layered Nav. - force or remove nofollow
+        * Fix/Improve category swissup/aln integration
+        * Fix error - Too few arguments to function getCategoryUrlRewrite.
+        * And remove direct dependancy from Hreflang module. Now client can safly remove package 'swissup/module-hreflang' if it is not needed.
+        * Watches on listing plugin refactored.
+      + **swissup/module-rich-snippets** — 1.6.2 (was 1.5.5)
+        * FAQ snippet widget
+        * Meets MSC - use sha instead of md5.
+        * Cache shipping details snippet data to avoid too many shipping requests to online carriers.
+  - [Navigation Pro](/m2/extensions/navigationpro/) — 1.17.5 (was 1.17.0)
+      + Fixed not working 'dark' modifier for boxed dropdown.
+      + TBT improvement: move logic to separate task
+      + Fixed missing caret icon when js is not initialized yet. (Caret blink fix)
+      + Breeze: remove not needed init script
+      + Breeze: Fixed error when breeze theme is not updated
+      + Breeze: slideout menu fixes
+      + Breeze: fixed styles for stacked, slideout and other menu's
+      + Breeze: fixed not working overlay after page visit
+      + Breeze: improve integration
+      + Renamed header/menu sticky class
+      + Disable home expanded menu when sticky header used
+      + Fixed incorrect "Shop All" link and item classes when alphabetical sort is used
+  - [ProLabels](/m2/extensions/prolabels/) — 1.7.3 (was 1.7.1)
+      + Minor code improvement to reduce hardcoded data
+      + Add final price to conditions
+  - [Pagespeed](/m2/extensions/pagespeed/) — 1.7.11 (was 1.7.4)
+      + Add 'Catalog media URL format' checking before run 'images:optimize' command
+      + Fix broken srcset if webp some size doesn't exist
+      + Replace origin src in <img> tag inside <picture> (webp) for breeze compatability
+      + Run html optimizers early to prevent race condition with breeze
+      + Prevent: PHP8.1 Deprecated function
+      + Fix broken path detection /media//
+      + Remove unused code
+      + Fix file extension detecting with query params in url (webp)
+      + Add magento/module-media-gallery-renditions integration
+      + Add rjs configuration level app/etc/rjs.json
+      + Fix: Warning: strpos(): Empty needle
+  - [Review Reminder](/m2/extensions/reviewreminder/) — 1.1.15 (was 1.1.14)
+      + Skip reminder if there is no products
+  - [Sold Together](/m2/extensions/soldtogether/) — 1.9.9 (was 1.9.8)
+      + FBT - fix not updated total amount when main product option changed.
+      + Remove blocks at checkout cart configure item
+      + Fix error ID already exists when rendering block for order or cart.
+  - [Testimonials](/m2/extensions/testimonials/) — 1.3.9 (was 1.3.8)
+      + Fixed access to undefined constant
+      + Do not use return in _construct
+      + Fixed not-working slides_to_show widget config
+
 ### Version 1.39.0
 
 > Jul 1, 2023
