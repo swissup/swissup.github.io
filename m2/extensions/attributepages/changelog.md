@@ -7,6 +7,12 @@ category: Attributepages
 
 # Changelog
 
+### Version 1.6.4
+
+> Sep 21, 2023
+
+ -  Fixed possible PHP error in backend when saving option without parent page.
+
 ### Version 1.6.3
 
 > July 19, 2023

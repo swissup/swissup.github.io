@@ -8,6 +8,14 @@ category: EasyCatalogImages
 
 # Changelog
 
+### Version 1.5.1
+
+> Sep 21, 2023
+
+ -  Integration with Swissup_AjaxLayerednavigation added. Now, the block is
+    correctly hidden when ajax filter is enabled and `hide_when_filter_is_used`
+    option is used.
+
 ### Version 1.5.0
 
 > Jul 24, 2023
