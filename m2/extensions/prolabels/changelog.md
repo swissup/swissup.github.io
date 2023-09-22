@@ -8,6 +8,12 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.7.4
+
+> Sep 22, 2023
+
+ -  Allowe to set type of predefined variable. Examples, `#attr:sku:string#`. It is useful when you want product label with SKU (or any other attribute). It starts with zeros and you want to keep them.
+
 ### Version 1.7.3
 
 > Jul 26, 2023
