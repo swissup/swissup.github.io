@@ -8,6 +8,13 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.7.5
+
+> Sep 25, 2023
+
+ -  Fix not processed variables in labels on storefront.
+ -  Model LabelsProvider code refactor.
+
 ### Version 1.7.4
 
 > Sep 22, 2023
