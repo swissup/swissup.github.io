@@ -11,6 +11,13 @@ category: AskIt
 
 # Changelog
 
+### Version 1.13.2
+
+> Sep 26, 2023
+
+ -  PHP 7.4 compatibility. Removed trailing comma in constructor.
+ -  Fix undefined variable in captcha observer.
+
 ### Version 1.13.0
 
 > Jul 13, 2023
