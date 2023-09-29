@@ -8,6 +8,13 @@ category: Easy Slider
 
 # Changelog
 
+### Version 1.8.2
+
+> Sep 29, 2023
+
+ - Fix 'Call to undefined function Composer\Autoload\includeFile'
+ - Slider with thumbnails. Render empty thumbnail when can't resize. Add mime type of image in system log.
+
 ### Version 1.8.1
 
 > Jul 27, 2023

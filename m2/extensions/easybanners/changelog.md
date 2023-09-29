@@ -8,6 +8,12 @@ category: Easy Banners
 
 # Changelog
 
+### Version 1.9.12
+
+> Sep 29, 2023
+
+ -  Fix 'Call to undefined function Composer\Autoload\includeFile'
+
 ### Version 1.9.11
 
 > Sep 14, 2023
