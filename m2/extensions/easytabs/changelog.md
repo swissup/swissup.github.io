@@ -8,6 +8,13 @@ category: Easy Tabs
 
 # Changelog
 
+### Version 1.12.5
+
+> Oct 10, 2023
+
+ -  Fix and improve scroll to tab logic when tab ID is in url hash. Fixed scroll to review tab when url hash is `review-form`.
+ -  Minor CSS fixes on Breeze Evolution theme.
+
 ### Version 1.12.4
 
 > Aug 28, 2023
