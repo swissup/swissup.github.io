@@ -8,6 +8,14 @@ category: Easy Tabs
 
 # Changelog
 
+### Version 1.12.6
+
+> Oct 13, 2023
+
+ -  Fix not loaded reviews when tab loaded via ajax and layout is expanded tabs or accordion.
+ -  Improve ARIA for expanded tabs. Present tabs titles as headings.
+ -  Minor Java Script code improvements.
+
 ### Version 1.12.5
 
 > Oct 10, 2023
