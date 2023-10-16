@@ -6,6 +6,18 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.6.32
+
+> Oct 16, 2023
+
+ - Ability to change quick-view icon
+
+### Version 1.6.31
+
+> Sep 22, 2023
+
+ - Breeze: Fixed not working "Procced to checkout" button after first add to cart.
+
 ### Version 1.6.30
 
 > Aug 25, 2023
