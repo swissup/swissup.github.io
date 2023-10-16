@@ -8,6 +8,22 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.7.12
+
+> Oct 16, 2023
+
+ - Add interactive unpacking mode for delayed scripts
+ - Add load-all-requirejs-scripts.js (disabled)
+
+### Version 1.7.11
+
+> Sep 15, 2023
+
+ - Add 'Catalog media URL format' checking before run 'images:optimize' command
+ - Fix broken srcset if webp some size doesn't exist
+ - Replace origin src in <img> tag inside <picture> (webp) for breeze compatability
+ - Run html optimizers early to prevent race condition with breeze
+
 ### Version 1.7.10
 
 > Aug 18, 2023
