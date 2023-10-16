@@ -6,6 +6,12 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.13.14
+
+> Oct 16, 2023
+
+ - Fixed not visible "View all" link.
+
 ### Version 1.13.13
 
 > Aug 22, 2023
