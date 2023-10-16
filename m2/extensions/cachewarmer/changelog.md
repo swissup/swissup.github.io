@@ -8,6 +8,12 @@ category: Cachewarmer
 
 # Changelog
 
+### Version 1.0.26
+
+> Oct 16, 2023
+
+ - Fix no visible logic
+
 ### Version 1.0.25
 
 > Mar 6, 2023
