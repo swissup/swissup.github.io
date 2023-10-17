@@ -8,6 +8,12 @@ category: SoldTogether
 
 # Changelog
 
+### Version 1.9.10
+
+> Oct 17, 2023
+
+ -  Fixed not updated total amount at "Frequently bought together" block when promoted product option changed.
+
 ### Version 1.9.9
 
 > Sep 6, 2023
