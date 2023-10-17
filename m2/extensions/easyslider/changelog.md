@@ -8,6 +8,12 @@ category: Easy Slider
 
 # Changelog
 
+### Version 1.8.3
+
+> Oct 17, 2023
+
+ - Fix IdentifierDataUrl does not exist (magento without pagebuilder package)
+
 ### Version 1.8.2
 
 > Sep 29, 2023
