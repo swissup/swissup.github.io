@@ -8,6 +8,18 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.7.14
+
+> Oct 19, 2023
+
+ - Fix phpstan error
+
+### Version 1.7.13
+
+> Oct 19, 2023
+
+ - Fix js unpacking for delayed scripts
+
 ### Version 1.7.12
 
 > Oct 16, 2023
