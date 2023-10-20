@@ -8,6 +8,12 @@ category: SoldTogether
 
 # Changelog
 
+### Version 1.9.11
+
+> Oct 20, 2023
+
+ -  Make latest fix for not updated amout of "Frequently bought together" block compatible with older Magento version. And resolvse JS error about priceBox.cache.
+
 ### Version 1.9.10
 
 > Oct 17, 2023
