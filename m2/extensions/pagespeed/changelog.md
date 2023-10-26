@@ -8,6 +8,20 @@ category: Pagespeed
 
 # Changelog
 
+
+### Version 1.7.16
+
+> Oct 26, 2023
+
+ - Up magento framework composer requirements (2.4.4)
+
+
+### Version 1.7.15
+
+> Oct 24, 2023
+
+ - Fix firefox integration
+
 ### Version 1.7.14
 
 > Oct 19, 2023
