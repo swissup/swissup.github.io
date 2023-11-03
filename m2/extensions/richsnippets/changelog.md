@@ -8,6 +8,12 @@ category: Rich Snippets
 
 # Changelog
 
+### Version 1.7.1
+
+> Nov 3, 2023
+
+ -  Shipping details data snippet. Fix not show table rate shipping and matrix rate shipping (WebShopApps vendor).
+
 ### Version 1.7.0
 
 > Jul 26, 2023
