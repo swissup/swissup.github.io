@@ -8,6 +8,13 @@ category: Email Templates
 
 # Changelog
 
+### Version 1.2.1
+
+> Nov 3, 2023
+
+ -  Fix not loaded product image in order emails when storefront theme is Olegnax/athlete2.
+ -  Improve source code to meet Magento Coding Standarts.
+
 ### Version 1.2.0
 
 > Aug 2, 2023
