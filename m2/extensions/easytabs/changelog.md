@@ -8,6 +8,13 @@ category: Easy Tabs
 
 # Changelog
 
+### Version 1.12.7
+
+> Nov 3, 2023
+
+ -  Improve implementation of the feature "Update tab content on storefront" (works for configurable product on option change). Better compatibility with third-party modules.
+ -  A lot of CSS fixes for better integration with Breeze Blank and Breeze Evolution themes.
+
 ### Version 1.12.6
 
 > Oct 13, 2023
