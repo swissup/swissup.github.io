@@ -7,6 +7,25 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.4.23
+
+> Nov 7, 2023
+
+ - Fix: page detector error in Breeze (close #94)
+
+### Version 1.4.22
+
+> Oct 26, 2023
+
+ - Fix east arabic number in page-detector.js
+
+### Version 1.4.21
+
+> Oct 16, 2023
+
+ - Added customer loggedin flag to cache_key block params
+ - Add step property in slider configuration
+
 ### Version 1.4.20
 
 > Sep 14, 2023
