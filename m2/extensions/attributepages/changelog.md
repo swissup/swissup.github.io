@@ -7,6 +7,12 @@ category: Attributepages
 
 # Changelog
 
+### Version 1.6.6
+
+> Nov 9, 2023
+
+ -  Updated integration with Swissup_AjaxLayerednavigation module.
+
 ### Version 1.6.4
 
 > Sep 21, 2023
