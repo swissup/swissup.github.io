@@ -6,6 +6,14 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.6.33
+
+> Nov 10, 2023
+
+ - Do not add quickview to wishlist popup (Breeze Theme)
+ - Remove empty string in file head
+ - Allow changing modal width with less variable
+
 ### Version 1.6.32
 
 > Oct 16, 2023
