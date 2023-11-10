@@ -8,6 +8,12 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.7.17
+
+> Nov 10, 2023
+
+ - Override require.config for interactive deps loading
+ - Fix js defer, add ignore "window.checkout =""
 
 ### Version 1.7.16
 
