@@ -8,6 +8,13 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.7.18
+
+> Nov 13, 2023
+
+ - Improve 'interactive' config description
+ - Fix checkoutConfig defering error
+
 ### Version 1.7.17
 
 > Nov 10, 2023
