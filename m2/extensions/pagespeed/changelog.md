@@ -8,6 +8,12 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.7.20
+
+> Nov 17, 2023
+
+ - Fix unpack defering with enabled merge js
+
 ### Version 1.7.19
 
 > Nov 17, 2023
