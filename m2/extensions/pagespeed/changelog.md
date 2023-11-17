@@ -8,6 +8,14 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.7.19
+
+> Nov 17, 2023
+
+ - Merge head scripts blocks
+ - Fix console warning messages
+ - Fix mapping in advance js bundling
+
 ### Version 1.7.18
 
 > Nov 13, 2023
