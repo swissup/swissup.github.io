@@ -1,6 +1,9 @@
 {
   "name": "swissup.github.io",
   "description": "Magento's extensions and themes documentation",
+  "scripts": {
+    "dev": "bundle exec jekyll serve --livereload"
+  },
   "private": true,
   "repository": "https://github.com/swissup/swissup.github.io",
   "devDependencies": {
