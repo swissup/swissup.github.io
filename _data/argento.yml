@@ -168,6 +168,9 @@ breeze:
       url: /m2/argento-breeze/customization/
 
   themes:
+    - title: Chic
+      url: /m2/argento-breeze/chic/
+
     - title: Force
       url: /m2/argento-breeze/force/
 
