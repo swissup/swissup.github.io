@@ -8,6 +8,12 @@ category: Checkout VAT
 
 # Changelog
 
+### Version 1.4.4
+
+> Nov 28, 2023
+
+ -  Added ability to validate UK and IM vat numbers.
+
 ### Version 1.4.3
 
 > Mar 14, 2023

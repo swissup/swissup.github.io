@@ -8,6 +8,19 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.31.3
+
+> Nov 28, 2023
+
+ -  Fixed js error when JS bundle and minification are enabled.
+ -  Fixed few issues with Olegnax theme.
+ -  PaypalExpress fix: do not validate shipping address when quote is virtual.
+ -  Remove stickyfill dependency because all browsers already support it.
+ -  Fixed error in [CheckoutRegistration](/m2/extensions/checkout-registration/)
+    module when quoteId is outdated.
+ -  JS fixes in [CheckoutSuccess](/m2/extensions/checkout-success/) module.
+ -  Email notifications added to [OrderAttachment](/m2/extensions/order-attachments/) module.
+
 ### Version 1.31.2
 
 > Jul 27, 2023
