@@ -1,3 +1,4 @@
 services:
-- name: dev
-  command: npm run dev
+- name: jekyll
+  command: bundle exec jekyll serve --livereload --incremental
+
