@@ -12,7 +12,7 @@ category: ArgentoBreeze
 > Nov 28, 2023
 
  -  **[ArgentoChic](/m2/argento-breeze/chic/) theme added**.
- -  Performance improvements in slider, colorswatches, and popup components.
+ -  Performance improvements in slider, colorswatches, and auth popup components.
  -  Performance improvements in Easycatalogimg, Highlight, Easyslide, and Testimonials modules.
  -  BreezeTheme and BreezeModule updated to the [latest versions](https://breezefront.com).
  -  Fixed not working dropdown position in [NavigationPro](/m2/extensions/navigationpro/) module.
