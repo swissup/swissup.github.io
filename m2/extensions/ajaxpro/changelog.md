@@ -6,6 +6,13 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.6.34
+
+> Nov 28, 2023
+
+ -  Remove outdated Magento 2.2 compatibility code. This also fixes adding of
+    gallery.less in breeze theme.
+
 ### Version 1.6.33
 
 > Nov 10, 2023

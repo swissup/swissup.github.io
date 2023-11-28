@@ -8,6 +8,13 @@ category: Highlight
 
 # Changelog
 
+### Version 1.8.11
+
+> Nov 28, 2023
+
+ -  Breeze performance improvement: slide item is no longer cloned on initial page load.
+    It's now triggered when user is starting to slide the slider.
+
 ### Version 1.8.10
 
 > Jul 27, 2023

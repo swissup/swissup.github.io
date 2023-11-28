@@ -8,6 +8,12 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.17.7
+
+> Nov 28, 2023
+
+ -  Breeze Theme integration improvements: dropdown positioning, chevron support added.
+
 ### Version 1.17.5
 
 > Sep 14, 2023

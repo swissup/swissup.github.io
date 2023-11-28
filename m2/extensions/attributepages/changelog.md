@@ -7,6 +7,12 @@ category: Attributepages
 
 # Changelog
 
+### Version 1.6.7
+
+> Nov 28, 2023
+
+ -  Fixed possible division by zero error
+
 ### Version 1.6.6
 
 > Nov 9, 2023

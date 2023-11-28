@@ -8,6 +8,13 @@ category: Testimonials
 
 # Changelog
 
+### Version 1.3.10
+
+> Nov 28, 2023
+
+ -  Remove empty spaces around the testimonial (Used in ArgentoChic theme).
+ -  Installer command added.
+
 ### Version 1.3.9
 
 > Jul 19, 2023

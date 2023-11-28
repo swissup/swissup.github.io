@@ -8,6 +8,14 @@ category: Easy Slider
 
 # Changelog
 
+### Version 1.8.4
+
+> Nov 28, 2023
+
+ -  Improve description positioning.
+ -  Inherit font style from theme.
+ -  Code cleaup.
+
 ### Version 1.8.3
 
 > Oct 17, 2023

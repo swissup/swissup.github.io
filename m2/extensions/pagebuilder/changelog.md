@@ -8,6 +8,12 @@ category: Pagebuilder
 
 # Changelog
 
+### Version 1.1.6
+
+> Nov 28, 2023
+
+ -  Fixed array to string conversion error.
+
 ### Version 1.1.1
 
 > Jan 20, 2022

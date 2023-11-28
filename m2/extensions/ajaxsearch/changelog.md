@@ -6,6 +6,12 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.13.15
+
+> Nov 28, 2023
+
+ -  Breeze theme fixes.
+
 ### Version 1.13.14
 
 > Oct 16, 2023

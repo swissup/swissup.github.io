@@ -8,6 +8,13 @@ category: EasyCatalogImages
 
 # Changelog
 
+### Version 1.5.2
+
+> Nov 28, 2023
+
+ -  Improve breeze compatibility.
+ -  Allow using [lazyload attribute](/m2/extensions/easycatalogimages/widget/).
+
 ### Version 1.5.1
 
 > Sep 21, 2023

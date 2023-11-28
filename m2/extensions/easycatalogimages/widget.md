@@ -44,6 +44,7 @@ category_count              | Number of categories to show
 subcategory_count           | Number of subcategories to show
 column_count                | Columns count
 show_image                  | Show image flag
+image_lazyload              | Use lazyload
 image_width                 | Image width, px
 image_height                | Image height, px
 parent_category_position    | Choose between "Above Image" and "Below Image" options

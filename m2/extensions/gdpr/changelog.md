@@ -8,7 +8,13 @@ category: GDPR
 
 # Changelog
 
-### Version 1.17.5
+### Version 1.5.20
+
+> Nov 28, 2023
+
+ -  Code cleanup.
+
+### Version 1.5.19
 
 > Sep 14, 2023
 
