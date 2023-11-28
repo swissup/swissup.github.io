@@ -7,6 +7,18 @@ category: ArgentoBreeze
 
 # Argento Breeze Changelog
 
+### Version 2.2.0
+
+> Nov 28, 2023
+
+ -  **[ArgentoChic](/m2/argento-breeze/chic/) theme added**.
+ -  Performance improvements in slider, colorswatches, and popup components.
+ -  Performance improvements in Easycatalogimg, Highlight, Easyslide, and Testimonials modules.
+ -  BreezeTheme and BreezeModule updated to the [latest versions](https://breezefront.com).
+ -  Fixed not working dropdown position in [NavigationPro](/m2/extensions/navigationpro/) module.
+ -  Fixed not working lightbox/awesomebar popups in [EasyBanner](/m2/extensions/easybanner/) module.
+ -  Minor fixes and improvements in all bundled themes and modules.
+
 ### Version 2.1.0
 
 > Jul 27, 2023
