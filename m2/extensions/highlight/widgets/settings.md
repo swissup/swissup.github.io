@@ -1,10 +1,7 @@
 ---
 layout: default
 title: Highlight Widget Settings
-description: >
-    Highlight widget settings
-keywords: >
-    settings, attribute_code, link title, calculation period, highlight sort order
+description: Highlight widget settings
 category: Highlight
 ---
 
@@ -51,7 +48,8 @@ Option          | Description
 ----------------|------------
 attribute_code  | Attribute to use to filter product collection. Available for (Date and Yesno widgets)
 period          | Period that will be used to filter popular and bestseller products. [See examples](#calculation-period)
-sort_order      | Sort order. [See avaialble options](#sort-order)
+order           | Sort order. [See avaialble options](#sort-order)
+dir             | Sort order direction (`desc` or `asc`).
 conditions_encoded | Magento built-in conditions. Use them to filter product by product attribute, category or price.
 
 ###### Calculation period

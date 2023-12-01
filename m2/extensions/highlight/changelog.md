@@ -8,6 +8,13 @@ category: Highlight
 
 # Changelog
 
+### Version 1.9.0
+
+> Dec 1, 2023
+
+ -  Added ability to set [custom sort order](/m2/extensions/highlight/pages/#advanced-settings)
+    at highlight pages
+
 ### Version 1.8.11
 
 > Nov 28, 2023

@@ -40,6 +40,40 @@ Bestsellers and Popular products settings allow to set the `Calculation period`
 option. It allows to filter products collection by time period in order to get
 recent Bestsellers and Popular products.
 
+## Advanced settings
+
+You can use layout update xml file to change other settings that are not
+available in admin. To do that create the file at `<theme_dir>/Swissup_Highlight/layout`
+folder.
+
+Possible file names:
+
+ -  `highlight_view_index.xml` - layout update for all pages.
+ -  `highlight_view_bestseller.xml`
+ -  `highlight_view_featured.xml`
+ -  `highlight_view_newaction.xml`
+ -  `highlight_view_onsale.xml`
+ -  `highlight_view_popular.xml`
+
+`<theme_dir>/Swissup_Highlight/layout/highlight_view_onsale.xml` example:
+
+```xml
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="category.products.list">
+            <action method="setOrder">
+                <argument name="order" xsi:type="string">price</argument>
+            </action>
+            <action method="setDir">
+                <argument name="dir" xsi:type="string">asc</argument>
+            </action>
+        </referenceBlock>
+    </body>
+</page>
+```
+
 ## Create custom page
 
 Let's create a widget and a page that will show all bestsellers from "Fitness Equipment"

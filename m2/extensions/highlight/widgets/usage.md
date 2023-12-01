@@ -101,6 +101,12 @@ of highlight widget:
         <action method="setPageTitle">
             <argument name="page_title" xsi:type="string">See All Featured Products</argument>
         </action>
+        <action method="setOrder">
+            <argument name="order" xsi:type="string">price</argument>
+        </action>
+        <action method="setDir">
+            <argument name="dir" xsi:type="string">asc</argument>
+        </action>
     </block>
 </referenceContainer>
 ```
