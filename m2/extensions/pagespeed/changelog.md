@@ -8,6 +8,17 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.7.21
+
+> Dec 1, 2023
+
+ - Fix: Cannot use object of type Laminas\Http\Headers as array
+ - Fix phpstan zend warning
+ - Fix gzip header detection
+ - Fix HTTP2 detecting (skip default http_ver param)
+ - Add focusin observer in requirejs-override
+ - Add init data-mage-init js component(s) in viewport (init menu defore interaction)
+
 ### Version 1.7.20
 
 > Nov 17, 2023
