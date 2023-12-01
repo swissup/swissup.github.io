@@ -6,6 +6,19 @@ keywords: Helpdesk changelog
 category: Helpdesk
 ---
 
+### Version 1.2.40
+
+> Dec 1, 2023
+
+ - Fix phpstan error - 'Undefined variable: $formId'
+ - Integration with Google ReCaptcha
+
+### Version 1.2.39
+
+> Oct 16, 2023
+
+ - Fix: File upload doesn't work on Breeze
+
 ### Version 1.2.38
 
 > Sep 12, 2023
