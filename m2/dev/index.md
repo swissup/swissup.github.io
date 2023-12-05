@@ -25,7 +25,7 @@ git clone git@github.com:magento/magento2.git && cd magento2
 Install the version you'd like to use:
 
 ```bash
-git checkout 2.3.4 && composer install
+git checkout 2.4.6 && composer install
 ```
 
 Now, open magento in browser and proceed installation. When magento is isntalled and
@@ -34,6 +34,48 @@ everything work as expected, you cna install sample data and swissup modules:
 ```bash
 composer config repositories.magento composer https://repo.magento.com/ &&\
 bin/magento sampledata:deploy
+```
+
+### Opensearch
+
+Remove outdated plugins:
+
+```
+sudo /usr/share/opensearch/bin/opensearch-plugin remove analysis-icu &&\
+sudo /usr/share/opensearch/bin/opensearch-plugin remove analysis-phonetic
+```
+
+Install new plugin version:
+
+```
+sudo /usr/share/opensearch/bin/opensearch-plugin install analysis-icu &&\
+sudo /usr/share/opensearch/bin/opensearch-plugin install analysis-phonetic
+```
+
+Allow unsecure connections:
+
+Add the following line to `/etc/opensearch/opensearch.yml`:
+
+```
+plugins.security.disabled: true
+```
+
+Run opensearch:
+
+```
+sudo service opensearch start
+```
+
+Check status:
+
+```
+curl -XGET http://localhost:9200 -u 'admin:admin' --insecure
+```
+
+Run reindex:
+
+```
+bin/magento indexer:reindex
 ```
 
 ### Install Swissup modules
