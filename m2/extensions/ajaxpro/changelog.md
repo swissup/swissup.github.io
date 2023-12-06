@@ -6,6 +6,13 @@ category: AjaxPro
 
 # Changelog
 
+
+### Version 1.6.35
+
+> Dec 5, 2023
+
+ - Fix: Duplicated IDs in floating cart
+
 ### Version 1.6.34
 
 > Nov 28, 2023
