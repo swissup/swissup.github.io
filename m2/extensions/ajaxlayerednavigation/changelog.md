@@ -7,6 +7,20 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.5.0
+
+> Nov 27, 2023
+
+ - Add scroll up feature
+ - Fix and improve some next and prev logics
+ - Split scrolldown (add scroll/down.js)
+ - Add isScrollDown() in scroll.js
+ - Decrease js monolit (split code)
+ - Fixed layout shift when slideout is used
+ - Breeze: move sticky to its dependent component
+ - Breeze fixes for slideout panel
+ - Breeze: fixed possible error when listjs is lazy loaded
+
 ### Version 1.4.23
 
 > Nov 7, 2023
