@@ -34,7 +34,7 @@ We minify JSON-LD data to reduce page size. You can turn it off with `Minify str
 
 > Settings works only with structured data format JSON-LD.
 
-![Product structured data settings](/images/m2/rich-snippets/config-product-v4.png)
+![Product structured data settings](/images/m2/rich-snippets/config-product-v5.png)
 
 Structured data for product contains a lot of information.
 
@@ -43,6 +43,16 @@ With option `Structured Data` you can configurate basic data snippets. Such as  
 Google highly appreciate product with customer reviews. Option "Add review data" includes data from Magento. Some times third-party modules provide data snippets about reviews for Google. Then turn off this option to avoid conflicts.
 
 Option "Add availablity data" includes information about product stock status in product data snippet.
+
+#### Image
+
+![Product structured data settings. Image.](/images/m2/rich-snippets/config-product-image.png)
+
+In `Image identifier` dropdown you can choose identifier to set width and height of the product image for product snippet. The dropdown has list of all media identifiers with type "image" in your storefront theme. Value in the brackets is width and height. When there are no brackets then original image sizes are used.
+
+Identifiers defined in `view.xml` file. More details about the file you can find in [Magento docs](https://developer.adobe.com/commerce/frontend-core/guide/themes/configure/#configure-image-properties).
+
+You can create custom theme and add new image identifier in its `view.xml` with own sizes. Eventhough we recommend to use one of default.
 
 #### Price valid
 

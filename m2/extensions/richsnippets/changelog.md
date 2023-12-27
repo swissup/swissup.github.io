@@ -8,6 +8,13 @@ category: Rich Snippets
 
 # Changelog
 
+### Version 1.7.2
+
+> Dec 27, 2023
+
+ -  Config option to set image size for product data snippet.
+ -  Improve module stability. Avoid "deprecated" warning in PHP.
+
 ### Version 1.7.1
 
 > Nov 3, 2023
