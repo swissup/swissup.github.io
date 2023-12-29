@@ -7,6 +7,12 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.5.1
+
+> Nov 29, 2023
+
+ - Fix breeze integration
+
 ### Version 1.5.0
 
 > Nov 27, 2023
