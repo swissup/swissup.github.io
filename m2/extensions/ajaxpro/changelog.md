@@ -6,6 +6,20 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.7.0
+
+> Jan 3, 2024
+
+ - Improve modal-manager
+ - Add is-ajaxpro-request.js
+ - Add get-product-request.js
+ - Fixed error on luma theme
+ - Breeze fix
+ - Breeze: reuse luma file
+ - Breeze: fixed js errors in latest changes
+ - Fix var losing
+ - Improve code readability
+
 
 ### Version 1.6.35
 
