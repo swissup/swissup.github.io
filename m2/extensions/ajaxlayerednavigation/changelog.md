@@ -7,6 +7,12 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.5.2
+
+> Jan 3, 2024
+
+ - Fix prev.js logic
+
 ### Version 1.5.1
 
 > Nov 29, 2023
