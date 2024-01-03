@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Add additional consent to the existing form
-description: How to add additional consents to the existing Magneto's form
+description: How to add additional consents to the existing Magento's form
 category: GDPR
 ---
 
