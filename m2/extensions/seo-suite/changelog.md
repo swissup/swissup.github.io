@@ -492,7 +492,7 @@ Than nbsp will be replaced with dash (-).
 
 > Jan 8, 2020
 
- -  Improve modules stability on Magneto Cloud. Fix error "Can't create directory ...Hreflang/Model/CurrentUrl/...".
+ -  Improve modules stability on Magento Cloud. Fix error "Can't create directory ...Hreflang/Model/CurrentUrl/...".
  -  Based translations added.
 
 *swissup/module-seo-canonical — 1.0.6* (was 1.0.4)
