@@ -217,7 +217,7 @@ category: Argento
  -  New '404' page at Luxury theme so your customers don't be upset but interested in staying at your store.
  -  New expanded layout for product tabs.
  -  Fix issue with 'More Products' button on product listing (content not loading, incorrect image sizes, black image background).
- -  Fix not woking "Estimate shipping" and "Apply coupon" forms at checkout cart page on Magneto version less than 1.9.2.0.
+ -  Fix not woking "Estimate shipping" and "Apply coupon" forms at checkout cart page on Magento version less than 1.9.2.0.
  -  Overall stability and source code improvements.
 
 **Modules fixes & improvements**
@@ -614,7 +614,7 @@ find more details about data update at
 
  *  AskIt
      -  Fixed product url generation for emails
-     -  Mass answers status change action added in Magneto Admin
+     -  Mass answers status change action added in Magento Admin
      -  Corrected block type for askit_tabbed block in layout
      -  Fixed bug about showing answers with pending status on frontend
      -  Missing translations added
