@@ -20,7 +20,7 @@ Our Sold Together module will encourage your customers to place the additional p
      +  Customer also bought - other goods purchased by customer who purchased this item.
  -  Configurable blocks for product page to display additional products.
  -  Easy-to-use admin interfaces to maintain Sold Together relations.
- -  Build relations based on existing orders (via Magneto Admin and CLI commands).
+ -  Build relations based on existing orders (via Magento Admin and CLI commands).
  -  Create new relations when order is placed.
  -  Show Sold Together blocks in sales email to promote other products.
  -  Import/export relations.
