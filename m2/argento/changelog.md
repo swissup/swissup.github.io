@@ -1891,7 +1891,7 @@ category: Argento
       + Fixed blocked google analytics cookies when Magento_GoogleAnalytics module is enabled in runtime via third-party plugin.
       + Improved frontend performance when a bunch of cookies are blocked. Previously GDPR module sent a request per each cookie. Now, all cookie names will be merged into a single request.
       + Fixed margin for newsletter consent at RTL locales.
-      + Fixed possible disappeared message after add to cart. It prevents magneto from updating customer sections after registring unknown cookie.
+      + Fixed possible disappeared message after add to cart. It prevents Magento from updating customer sections after registring unknown cookie.
       + Decrease number of ajax requests if some module write cookies multiple times.
 
   - [Highlight](/m2/extensions/highlight/) — 1.6.6 (was 1.6.4)
@@ -2031,7 +2031,7 @@ category: Argento
 
   - [EasySlide](/m2/extensions/easyslider/) — 1.6.0 (was 1.5.7)
       + New option for slider - "Thumbnails". You can set their sizes and position.
-      + Updated and rethinked edit slider form in Magneto Admin.
+      + Updated and rethinked edit slider form in Magento Admin.
 
   - [Easytabs](/m2/extensions/easytabs/) — 1.9.2 (was 1.9.0)
       + Fixed missing reviews at AMP page.
