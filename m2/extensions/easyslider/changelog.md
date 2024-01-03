@@ -191,7 +191,7 @@ category: Easy Slider
 > Sep 23, 2020
 
   - New option for slider - “Thumbnails”. You can set their sizes and position.
-  - Updated and rethinked edit slider form in Magneto Admin.
+  - Updated and rethinked edit slider form in Magento Admin.
 
 ### Version 1.5.7
 
