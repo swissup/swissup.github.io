@@ -7,6 +7,14 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.5.3
+
+> Jan 16, 2024
+
+ - Fix wrong scrolling in footer
+ - Fix element detecting in getElementToScrollTo
+
+
 ### Version 1.5.2
 
 > Jan 3, 2024
