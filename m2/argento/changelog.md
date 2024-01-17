@@ -10,9 +10,10 @@ category: Argento
 ### Version 1.41.0
 
 > Jan 17, 2024
-  - Added many code fixes and improvements
-  - _Argento Blank:_ Added ability to set slides per view for the Argento Swiper with CSS class and removed unused code
-  - _Argento Marketplace:_ Fixed wrong departments menu icon position
+
+- Added many code fixes and improvements
+- _Argento Blank:_ Added ability to set slides per view for the Argento Swiper with CSS class and removed unused code
+- _Argento Marketplace:_ Fixed wrong departments menu icon position
 
 **Extensions Updates**
 
