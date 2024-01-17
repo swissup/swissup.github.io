@@ -102,7 +102,7 @@ category: Argento
       + Remove unused variable
   - [Highlight](/m2/extensions/highlight/) — 1.9.0 (was 1.8.10)
       + Added ability to set custom sort order for highlight page.
-  See https://docs.swissuplabs.com/m2/extensions/highlight/pages/#advanced-settings
+  See [Highlight](https://docs.swissuplabs.com/m2/extensions/highlight/pages/#advanced-settings)
       + Do not clone slide item until user wants to scroll
       + ArgentoChic variable
   - [Navigation Pro](/m2/extensions/navigationpro/) — 1.17.8 (was 1.17.5)
