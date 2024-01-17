@@ -7,6 +7,177 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.41.0
+
+> Jan 17, 2024
+  - Added many code fixes and improvements
+  - _Argento Blank:_ Added ability to set slides per view for the Argento Swiper with CSS class and removed unused code
+  - _Argento Marketplace:_ Fixed wrong departments menu icon position
+
+**Extensions Updates**
+
+  - [Ajax Pro](/m2/extensions/ajaxpro/) — 1.7.2 (was 1.6.30)
+      + Improve ajaxpro subscribe logic
+      + modal-manager was refactored
+      + Fix Modalmanager undefined in breeze/minicart.js
+      + Improve breeze integration
+      + Fix cart show on minicart click
+      + Improve modal-manager
+      + Breeze: dynamic js. WIP
+      + Fix: TypeError: Cannot read properties of null (reading ‘split’)
+      + Fix cart show on minicart click
+      + Fixed error on luma theme
+      + Breeze: reuse luma file
+      + Breeze: fixed js errors in latest changes
+      + Improve code readability
+      + Add get-product-request.js
+      + Fix: Avoid using closing slash with void tags
+      + Fix missing floatingcart/item/default template
+      + Fix: Duplicated IDs in floating cart
+      + Remove Magento 2.2 compatibility. This also fixes adding of gallery.less in breeze theme.
+      + Do not add quickview to wishlist popup (Breeze Theme)
+      + Ability to change quick-view icon
+      + Breeze: Fixed not working “Procced to checkout” button after first add to cart.
+      + Code improvements
+  - [Ajax Search](/m2/extensions/ajaxsearch/) — 1.13.15 (was 1.13.13)
+      + New variables for folded design
+      + Breeze theme fixes
+      + Fixed not visible "View all" link. 
+  - [AMP](/m2/extensions/amp/) — 1.5.7 (was 1.5.6)
+      + Code improvements
+  - [AskIt](/m2/extensions/askit/) — 1.13.3 (was 1.13.1)
+      + Fixed possible 'Class does not exist' error
+      + Fix undefined variable in captcha observer.
+  - [Attribute Pages](/m2/extensions/attributepages/) — 1.6.7 (was 1.6.4)
+      + Fixed possible division by zero error
+      + Update integration with Swissup_Ajaxlayerednavigation
+      + Fixed possible PHP error in backend when saving the option without parent page
+  - [Breeze](/m2/extensions/breeze/) — 2.10.0 (was 2.7.3)
+      + Lot of fixes and updates available on [Breeze Site](https://breezefront.com/updates)
+  - [Compare](/m2/extensions/compare/) — 1.2.2 (was 1.2.1)
+      + Code improvements
+      + Update breeze integration
+  - [EasySlide](/m2/extensions/easyslider/) — 1.8.4 (was 1.8.1)
+      + Improve description positioning. Remove font style.
+      + Code improvements      
+      + Slider with thumbnails. Render empty thumbnail when can't resize.
+      + Add mime type of image in system log.
+  - [Easybanners](/m2/extensions/easybanners/) — 1.9.14 (was 1.9.11)
+      + Remove unused code
+      + Do not show banner when cookie is not writable
+      + Breeze: dynamic js. WIP
+      + Improve label for shopping cart items rules
+      + Fixed not working lightbox/awesomebar popups
+      + Fix 'Call to undefined function Composer\Autoload\includeFile'
+  - [Easy Catalog Images](/m2/extensions/easycatalogimages/) — 1.5.2 (was 1.5.0)
+      + Improve breeze compatibility
+      + Fix sort order in widget form
+      + Allow using lazyload attribute
+      + Integration of 'hide_when_filter_is_used' with Swissup_AjaxLayerednavigation module
+  - [Easytabs](/m2/extensions/easytabs/) — 1.12.7 (was 1.12.4)
+      + Tabs updater code improvement. Get instance of ui widget properly.
+  Fisrt try uiwidgetname(&#039;instance&#039;). When it doesn't work try get instance via .data(). It makes code more compatible with others.
+      + Fix invisible focus ring in a better way that doesn't affect third-party themes
+      + Breeze theme: Fixed invisible focus ring
+      + Fixed error on breeze theme
+      + Update default params in installer command
+      + Fixed content height when float is used
+      + Expanded with toolbar. Reduce jumping when click on tab in toolbar.
+        The core of this problem is in mage/collapsible:_scrollToTopIfNotVisible.
+      + Improve ARIA for expanded tabs. Present tabs titles as headings.
+      + Restore role after reviews loaded.
+      + Properly define destroy method for ui widget.
+      + Allow to change expanded tabs width
+      + JS code improve. Bind events with widget _on. So Breeze turbo can easily unbind them.
+      + Fix not loaded reviews when tab loaded via ajax and layout is expanded tabs.
+      + Fix and improve scroll to tab logic when tab ID is in url hash.
+      + Fixed scroll to review tab when url hash is review-form.
+      + Ability to override CSS values
+      + Use font size from theme settings
+
+  - [GDPR](/m2/extensions/gdpr/) — 1.5.22 (was 1.5.19)
+      + Update locale files: ar_SA, de_DE, en_US, es_ES, fr_FR, he_IL, it_IT, ja_JP, ko_KR, nb_NO, nl_NL, pl_PL, pt_PT, ru_RU, sw_SE, uk_UA, zh_CN
+      + A11y fixes
+      + Remove unused variable
+  - [Highlight](/m2/extensions/highlight/) — 1.9.0 (was 1.8.10)
+      + Added ability to set custom sort order for highlight page.
+  See https://docs.swissuplabs.com/m2/extensions/highlight/pages/#advanced-settings
+      + Do not clone slide item until user wants to scroll
+      + ArgentoChic variable
+  - [Navigation Pro](/m2/extensions/navigationpro/) — 1.17.8 (was 1.17.5)
+      + Breeze: dynamic js. WIP
+      + Update breeze integration
+      + Improve store id getting in graphql
+      + Revert "Do not add parent-expanded class is item has no child (same as parent class work)"
+      + Do not add parent-expanded class if item has no child (same as parent class works)
+      + Breeze: chevron support added
+      + Backport dropdown positioning from luma-based module
+      + Remove useless 'rtl' file
+      + Do not hide expanded menu after window resize.
+      + Fixed duplicate breadcrumb label when category found multiple times.
+      + Removed old code since it's merged into 2.3.0: magento/magento2@22746f0
+      + Fixed double caret on Firefox
+      + Do not clean cache when saved category is not used in the menu
+  - [Pagespeed](/m2/extensions/pagespeed/) — 1.7.21 (was 1.7.11)
+      + Fix gzip header detection
+      + Fix HTTP2 detecting (skip default http_ver param)
+      + Merge head scripts blocks
+      + Fix console warning messages
+      + Fix mapping in advance js bundling
+      + Fix checkoutConfig deferring error
+      + Improve 'interactive' config description
+      + Override require.config for interactive deps loading
+      + Fix js defer, add ignore window.checkout
+      + Up Magento framework composer requirements (2.4.4)
+      + Fix Firefox integration
+      + Fix broken unpacking
+      + Add interactive unpacking mode for delayed scripts
+      + Add load-all-requirejs-scripts.js (disabled)
+      + Code improvements
+  - [ProLabels](/m2/extensions/prolabels/) — 1.7.5 (was 1.7.3)
+      + LabelsProvider code refactor.
+      + Move labels' variables processing in backend into a separate class.
+      + Fix not processed variables in labels.
+      + Allow to set type of predefined variable 
+        Examples, #attr:sku:string#.
+  - [Review Reminder](/m2/extensions/reviewreminder/) — 1.1.16 (was 1.1.15)
+      + Fixed empty email in GdprReviewreminder plugin when saving reminder from edit form
+  - [SEO Suite](/m2/extensions/seo-suite/)
+      + **swissup/module-rich-snippets** — 1.7.3 (was 1.7.0)
+        * Added OnlineStore to the Organization Type dropdown
+        * Fix MCS.
+        * Proper value for rich snippets/product/image/id
+        * Set image size for product data snippet 
+        * Fix explode(): Passing null to parameter 2 
+        * Product data snippet. Use the same image as og:image on the page.
+        * Shipping details - work with table rate shipping and matrix rate shipping from WebShopApps vendor.
+      + **swissup/module-seo-html-sitemap** — 1.1.18 (was 1.1.16)
+        * Fix type in property name of Block\Stores.
+        * Block Stores. Code refactor.
+        * Fix PHP error on sitemap page when stores added there.
+        * Reduce allocated memory while rendering sitemap.
+          Load collections by pages to reduce memory usage.
+      + **swissup/module-seo-images** — 1.3.20 (was 1.3.19)
+        * Improve module stability.
+          Prevent memory exhausted errors on big collections.
+        * Update index on product save when index not set to "On Schedule".
+        * Truncate table instead of delete when reindex 
+      + **swissup/module-seo-urls** — 1.5.48 (was 1.5.47)
+        * Fixed swatches mixin for Magento 2.4.1+
+  - [Sold Together](/m2/extensions/soldtogether/) — 1.9.12 (was 1.9.9)
+      + Breeze: dynamic js. WIP
+      + Breeze: fixed incorrect bundle name
+      + Compatibility with older Magento versions 
+      + FBT - fix not updated total amount when promoted product option changed
+  - [Testimonials](/m2/extensions/testimonials/) — 1.3.11 (was 1.3.9)
+      + Breeze dynamic js. WIP
+      + Breeze: remove unused file
+      + Improve breeze integration
+      + Reduce CSS size
+      + Installer command added
+      + Remove empty spaces around text when adding small quotes around (::before, ::after)
+      + Revert "Prevent layout shift when using swiper"
+
 ### Version 1.40.0
 
 > Sep 15, 2023
