@@ -8,6 +8,13 @@ category: SoldTogether
 
 # Changelog
 
+### Version 1.9.13
+
+> Jan 18, 2023
+
+ -  Fixed poorly calculated total price at FBT block when price displayed "Including and Excluding Tax".
+ -  Minor JS improvements for stores with Breeze-powered storefront.
+
 ### Version 1.9.11
 
 > Oct 20, 2023
