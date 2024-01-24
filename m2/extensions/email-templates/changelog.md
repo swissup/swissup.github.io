@@ -8,6 +8,12 @@ category: Email Templates
 
 # Changelog
 
+### Version 1.2.2
+
+> Jan 24, 2024
+
+ -  Define email variables when previewing templates for invoices, creditmemo and shipment.
+
 ### Version 1.2.1
 
 > Nov 3, 2023
