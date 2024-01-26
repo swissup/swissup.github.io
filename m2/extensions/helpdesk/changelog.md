@@ -6,6 +6,15 @@ keywords: Helpdesk changelog
 category: Helpdesk
 ---
 
+### Version 1.2.41
+
+> Jan 26, 2024
+
+ - Add priority(and status) color to frontend (close #43)
+ - Force customers to pick department (close #44)
+ - Add and integrate sort order field for Departments (close #42)
+ - Show admin name to clients (close #41)
+
 ### Version 1.2.40
 
 > Dec 1, 2023
