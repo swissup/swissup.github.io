@@ -8,6 +8,27 @@ category: KnowledgeBase
 
 # Changelog
 
+### Version 1.1.23
+
+> Jan 30, 2024
+
+ - Fix: ACL resources names
+
+### Version 1.1.22
+
+> Jan 11, 2024
+
+ - Fix graphql Identity classes logic
+ - Fix: Class ...Model\Faq referenced with incorrect case
+ - Breeze: dynamic js. WIP
+
+### Version 1.1.21
+
+> Apr 6, 2023
+
+ - Fix: Division by zero
+
+
 ### Version 1.1.21
 
 > Apr 6, 2023
