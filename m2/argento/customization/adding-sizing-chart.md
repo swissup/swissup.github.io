@@ -21,7 +21,7 @@ gallery:
 
 ---
 
-# Adding the Sizing 
+# Adding the Sizing Chart
 
 {% include gallery.html images=page.gallery class="scroll phone-up-1 tablet-up-2 photoswipe" %}
 
