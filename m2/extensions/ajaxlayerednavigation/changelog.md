@@ -7,6 +7,19 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.5.4
+
+> Feb 1, 2024
+
+- Fix 'Type Error occurred when creating object: ClientResolver' (elasticsearch module was disabled)
+- Add js/navigation/user-agent.js (remove duplicate code)
+- Add dynamic component loading
+- Do not pass proxy object explicitly
+- Remove not needed dependency
+- Fixed "Element with same ID already exist" error
+- Breeze: critical css for collapsed filters
+- Remove ion-range slider styles
+
 ### Version 1.5.3
 
 > Jan 16, 2024
