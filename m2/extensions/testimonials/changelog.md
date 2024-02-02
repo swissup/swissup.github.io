@@ -8,6 +8,13 @@ category: Testimonials
 
 # Changelog
 
+### Version 1.3.12
+
+> Feb 2, 2024
+
+ - Breeze integration updated. Dynamic JS support added.
+ - Added image lazyload in widget template.
+
 ### Version 1.3.10
 
 > Nov 28, 2023

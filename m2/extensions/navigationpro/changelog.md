@@ -8,6 +8,13 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.17.10
+
+> Feb 2, 2024
+
+ -  Breeze integration updated. Dynamic JS support added.
+ -  Fixed nowrap on mobile devices when nav is using display: none
+
 ### Version 1.17.7
 
 > Nov 28, 2023

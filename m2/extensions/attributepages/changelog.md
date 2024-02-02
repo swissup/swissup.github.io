@@ -7,6 +7,12 @@ category: Attributepages
 
 # Changelog
 
+### Version 1.6.8
+
+> Feb 2, 2024
+
+ - Added missing width and height attributes.
+
 ### Version 1.6.7
 
 > Nov 28, 2023

@@ -8,6 +8,12 @@ category: Highlight
 
 # Changelog
 
+### Version 1.9.1
+
+> Feb 2, 2024
+
+ - Breeze integration updated. Dynamic JS support added.
+
 ### Version 1.9.0
 
 > Dec 1, 2023

@@ -8,6 +8,12 @@ category: SoldTogether
 
 # Changelog
 
+### Version 1.9.14
+
+> Feb 2, 2024
+
+ - Breeze integration updated. Dynamic JS support added.
+
 ### Version 1.9.13
 
 > Jan 18, 2023

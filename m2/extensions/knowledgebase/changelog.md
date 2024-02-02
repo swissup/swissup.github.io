@@ -8,6 +8,12 @@ category: KnowledgeBase
 
 # Changelog
 
+### Version 1.1.24
+
+> Feb 2, 2024
+
+ - Breeze integration updated. Dynamic JS support added.
+
 ### Version 1.1.23
 
 > Jan 30, 2024

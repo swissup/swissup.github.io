@@ -8,6 +8,12 @@ category: Easy Tabs
 
 # Changelog
 
+### Version 1.12.8
+
+> Feb 2, 2024
+
+ - Breeze integration updated. Dynamic JS support added.
+
 ### Version 1.12.7
 
 > Nov 3, 2023

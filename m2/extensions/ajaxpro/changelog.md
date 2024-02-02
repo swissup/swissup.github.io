@@ -6,6 +6,12 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.7.3
+
+> Feb 2, 2024
+
+ - Breeze integration updated. Dynamic JS support added.
+
 ### Version 1.7.0
 
 > Jan 3, 2024

@@ -8,6 +8,13 @@ category: Easy Banners
 
 # Changelog
 
+### Version 1.9.15
+
+> Feb 2, 2024
+
+ - Breeze integration updated. Dynamic JS support added.
+ - Prevent image loading when it's not visible.
+
 ### Version 1.9.12
 
 > Sep 29, 2023

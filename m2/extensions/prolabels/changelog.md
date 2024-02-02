@@ -8,6 +8,12 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.7.6
+
+> Feb 2, 2024
+
+ - Breeze integration updated. Dynamic JS support added.
+
 ### Version 1.7.5
 
 > Sep 25, 2023

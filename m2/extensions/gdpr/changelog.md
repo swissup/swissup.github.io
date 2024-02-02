@@ -8,6 +8,13 @@ category: GDPR
 
 # Changelog
 
+### Version 1.5.23
+
+> Feb 2, 2024
+
+ - Breeze integration updated. Dynamic JS support added.
+ - Locale files cleanup.
+
 ### Version 1.5.20
 
 > Nov 28, 2023
