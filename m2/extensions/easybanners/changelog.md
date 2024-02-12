@@ -8,6 +8,12 @@ category: Easy Banners
 
 # Changelog
 
+### Version 1.9.16
+
+> Feb 12, 2024
+
+ - Fixed possible incorrect BANNER_EDIT_URL which leads to logout from backend.
+
 ### Version 1.9.15
 
 > Feb 2, 2024
