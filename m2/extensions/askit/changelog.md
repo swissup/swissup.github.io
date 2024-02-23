@@ -11,6 +11,15 @@ category: AskIt
 
 # Changelog
 
+### Version 1.14.0
+
+> Feb 23, 2024
+
+ - **Questions Page Enhancement:** Option "enable when has questions" now respects question status. Closes #62.
+ - **New Config Group:** Added a new config group "Questions page." Options include disabling it entirely, showing the page only when it has at least one question, or always showing it. Closes #62.
+ - **Messages Repository Update:** Messages repository now allows selection by `item_id` and/or `item_type_id`.
+ - **Fix (Add) Component:** Fixed and added `data-vote` component for non-ajax listing.
+
 ### Version 1.13.2
 
 > Sep 26, 2023
