@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Argento Marketplace Theme Editor
-description: Argento Marketplace theme editor usage
+title: Argento Chic Theme Editor
+description: Argento Chic theme editor usage
 category: Argento
 ---
 
@@ -12,9 +12,9 @@ Theme editor provides a quick way to change Argento styles with minimum css
 knowledge.
 
 Theme editor is located at
-`Magento Admin > Stores > Configuration > Swissup > Themes Editor`. Select `Argento Marketplace` among list of available themes there.
+`Magento Admin > Stores > Configuration > Swissup > Themes Editor`. Select `Argento Chic` among list of available themes there.
 
-{% include gallery.html images=site.data.gallery.m2.argento.marketplace.theme-editor.config class="scroll phone-up-1 tablet-up-3 photoswipe" %}
+![Argento Theme Editor Config](/images/m2/argento/chic/theme-editor/config.png)
 
 * TOC
 {:toc}
@@ -33,11 +33,9 @@ Take at look at the picture below with highlighted layout regions:
 
 ### Header Styles
 
-Check slider on top of the page to see how this config section looks like.
+![Argento Chic Header](/images/m2/argento/chic/header/header.png)
 
-![Argento Marketplace Header](/images/m2/argento/marketplace/header/header.png)
-
-Default Marketplace header is above. Be creative. Find color palette that suits best for your business and customize your store page header.
+Default Chic header is above. Be creative. Find color palette that suits best for your business and customize your store page header.
 
 ### Header Builder
 
@@ -45,11 +43,11 @@ You can read about `Header Builder` here: [Header Builder Manual](/m2/argento/cu
 
 ### Footer
 
-You can see options of footer section config in slider on top of the page. This section allows you to change background, colors and configure bottom toolbar layout.
+This section allows you to change background, colors and configure bottom toolbar layout.
 
 Default look of the footer you can find below.
 
-![Argento Marketplace Footer](/images/m2/argento/marketplace/footer/footer.png)
+![Argento Chic Footer](/images/m2/argento/chic/footer/footer.png)
 
 ### Buttons
 
@@ -69,7 +67,7 @@ You can read about `Category Page Builder` here: [Category Page Builder Manual](
 
 You can read about `Product Page Builder` here: [Product Page Builder Manual](/m2/argento/customization/theme-editor/#product-page-builder)
 
-### Additional css styles
+### Additional styles
 
 Use this section to apply some advanced styling.
 
@@ -78,6 +76,6 @@ Use this section to apply some advanced styling.
 
  -  [Custom css file](/m2/argento/customization/custom-css/)
  -  [Create Argento based custom theme](/m2/argento/customization/custom-theme/)
- -  [Page structure manuals](/m2/argento/marketplace/page-structure/)
-    -  [Homepage](/m2/argento/marketplace/page-structure/homepage/)
-    -  [Product page](/m2/argento/marketplace/page-structure/product-page/)
+ -  [Page structure manuals](/m2/argento/chic/page-structure/)
+    -  [Homepage](/m2/argento/chic/page-structure/homepage/)
+    -  [Product page](/m2/argento/chic/page-structure/product-page/)

@@ -1,16 +1,12 @@
 ---
 layout: default
-title: Argento Marketplace Category Page
-keywords: Argento Marketplace, category page, hover gallery, recently viewed
+title: Argento Chic Category Page
+keywords: Argento Chic, category page, hover gallery, recently viewed
 category: Argento
 ---
 
-# Argento Marketplace Category Page
+# Argento Chic Category Page
 {:.no_toc}
-
-![Category Page](/images/m2/argento/marketplace/index/small/desktop-category.png)
-
-[View full size](/m2/argento/marketplace/#&gid=1&pid=2)
 
 ### Content
 {:.no_toc}
@@ -18,7 +14,7 @@ category: Argento
 * TOC
 {:toc}
 
-Category page in Argento Marketplace has traditional elements of Magento 2 category page:
+Category page in Argento Chic has traditional elements of Magento 2 category page:
 
   - category title;
   - layered navigation (when category is anchored) or list of child categories (non-anchored category);
@@ -26,12 +22,12 @@ Category page in Argento Marketplace has traditional elements of Magento 2 categ
 
 ### Layout
 
-Argento Marketplace uses `2columns-left` layout for the category page. Follow our [customization guide](/m2/argento/customization/change-page-layout/)
+Argento Chic uses `2columns-left` layout for the category page. Follow our [customization guide](/m2/argento/customization/change-page-layout/)
 to change it to another one. Or use [category page builder](/m2/argento/customization/theme-editor/#category-page-builder) in theme editor.
 
 ### Product list
 
-![List item example](/images/m2/argento/marketplace/category/product-list-hover.png)
+![List item example](/images/m2/argento/chic/category/product-list-hover.png)
 
 We recommend to use grid mode for product list. Since it is the most popular products presentation among ecommerce.
 
@@ -41,7 +37,7 @@ One more feature at product listing is product labels - "NEW", "-5%" etc. It is 
 
 ### Add to cart popup
 
-![Ajaxpro popup](/images/m2/argento/marketplace/category/ajaxpro-popup.png)
+![Ajaxpro popup](/images/m2/argento/chic/category/ajaxpro-popup.png)
 
 Magento shows add to cart popup when user adds product to cart from product list. And when this product has some options to select.
 
@@ -50,11 +46,11 @@ This popup is implemented by [Ajax Pro](/m2/extensions/ajaxpro/) module.
 ### Recently viewed
 
 One distinct feature of Argento themes is Recently Viewed block at category page. This block shows recently viewed products by current visitor on current device/PC.
-For Argento Marketplace this block is under the product listing.
+For Argento Chic this block is located under the product listing.
 
 ##### Next up
 {:.no_toc}
 
 - [Small css customizations](/m2/argento/customization/custom-css/)
 - [Create Argento based custom theme](/m2/argento/customization/custom-theme/)
-- [Argento Marketplace docs homepage](/m2/argento/marketplace/)
+- [Argento Chic docs homepage](/m2/argento/chic/)
