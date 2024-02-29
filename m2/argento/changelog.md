@@ -7,6 +7,54 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.42.0
+
+> Feb 29, 2024
+
+- **Added the brand NEW mesmerizing** **[Argento Chic](/m2/argento/chic/)**  **design** 🎉🎉🎉
+- _Argento Blank:_ Small improvements in jumbotrons and image-block element,
+    added marquee3k script
+- _Argento Marketplace:_ Few cosmetic changes 💄
+- _Theme Editor:_ Added **[Argento Chic](/m2/argento/chic/)** to theme list
+
+**Extensions Updates**
+
+  - [Ajax Pro](/m2/extensions/ajaxpro/) — 1.7.4 (was 1.7.2)
+      + Fixed js error when window.checkout is not defined
+  - [AskIt](/m2/extensions/askit/) — 1.14.1 (was 1.13.3)
+      + Prevent 404 error on prodyct page caused by js ajax request.
+      + Try to render product questions listing only when there are questions. 
+      + Questions page: Option "enable when has questions" respects question status.
+      + New config group "Questions page". You can disable then at all.
+        Or show questions page only when it has at least one question. Or show questions page always.
+  - [Attribute Pages](/m2/extensions/attributepages/) — 1.6.8 (was 1.6.7)
+      + Added width/height to option product image
+  - [Breeze](/m2/extensions/breeze/) — 2.13.1 (was 2.12.0)
+      + Lot of fixes and updates available on [Breeze Site](https://breezefront.com/updates)
+  - [Easybanners](/m2/extensions/easybanners/) — 1.9.16 (was 1.9.14)
+      + Fixed possible incorrect edit banner url in admin (Logout from admin)
+  - [Easy Catalog Images](/m2/extensions/easycatalogimages/) — 1.5.3 (was 1.5.2)
+      + Added missing jQueryUI dependency
+  - [Fblike](/m2/extensions/fblike/) — 1.3.9 (was 1.3.8)
+      + Fixed infinite loader with latest breeze module
+  - [Highlight](/m2/extensions/highlight/) — 1.9.2 (was 1.9.0)
+      + Keep the gap between ajax slides same as between products inside this slide
+  - [SEO Suite](/m2/extensions/seo-suite/)
+      + **swissup/module-hreflang** — 1.6.5 (was 1.6.4)
+        * Fix issue when user is logged out in Magento Admin.
+      + **swissup/module-seo-canonical** — 1.11.9 (was 1.11.8) 
+        * Create category attribute. Use it as custom canonical.
+      + **swissup/module-seo-urls** — 1.5.49 (was 1.5.48)
+        * Smile Integration update. Fix PHP error "Illegal offset type in isset or empty"
+  - [Navigation Pro](/m2/extensions/navigationpro/) — 1.17.10 (was 1.17.8)
+      + Fixed nowrap on mobile devices when nav is using _display: none_
+      + Fixed invisible dropdown menu on mobile devices
+  - [Sold Together](/m2/extensions/soldtogether/) — 1.9.15 (was 1.9.12)
+      + Properly check when swatches module enbaled.
+      + Fix poorly calculated totla price at FBT blcok when price displayed "Including and Excluding Tax". 
+  - [Testimonials](/m2/extensions/testimonials/) — 1.3.12 (was 1.3.11)
+      + Lazy load for profile image in widget
+
 ### Version 1.41.0
 
 > Jan 17, 2024
@@ -84,12 +132,12 @@ category: Argento
       + Update default params in installer command
       + Fixed content height when float is used
       + Expanded with toolbar. Reduce jumping when click on tab in toolbar.
-        The core of this problem is in mage/collapsible:_scrollToTopIfNotVisible.
+        The core of this problem is in mage/collapsible:_scrollToTopIfNotVisible_.
       + Improve ARIA for expanded tabs. Present tabs titles as headings.
       + Restore role after reviews loaded.
       + Properly define destroy method for ui widget.
       + Allow to change expanded tabs width
-      + JS code improve. Bind events with widget _on. So Breeze turbo can easily unbind them.
+      + JS code improve. Bind events with widget _on_. So Breeze turbo can easily unbind them.
       + Fix not loaded reviews when tab loaded via ajax and layout is expanded tabs.
       + Fix and improve scroll to tab logic when tab ID is in url hash.
       + Fixed scroll to review tab when url hash is review-form.
