@@ -6,6 +6,13 @@ keywords: Helpdesk changelog
 category: Helpdesk
 ---
 
+### Version 1.2.42
+
+> Mar 1, 2024
+
+ - Fix: Argument 1 (array) must be of type array, null given
+ - Replace \Zend\ namespace to \Laminas\ cb10ab
+
 ### Version 1.2.41
 
 > Jan 26, 2024
