@@ -8,6 +8,18 @@ category: GDPR
 
 # Changelog
 
+### Version 1.6.0
+
+> Mar 5, 2024
+
+![Google Consent Mode](/images/m2/gdpr/google-consent.png){:width=772 height="440"}
+
+ - Added integration with [Google Consent Mode v2](https://developers.google.com/tag-platform/security/guides/consent?consentmode=advanced).
+   It's enabled by default. Still, you can disable it from the [module configuration](/m2/extensions/gdpr/configuration/#cookie-consent-section).
+ - Cookies reorganized into better groups. Preferences cookie group added.
+   Advertisement group merged into Marketing group.
+ - Removed useless customers section update after cookie consent settings were changed.
+
 ### Version 1.5.23
 
 > Feb 2, 2024

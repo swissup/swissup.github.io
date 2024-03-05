@@ -59,3 +59,9 @@
   alt: Client's Requests
   w: 1100
   h: 434
+- href: /images/m2/gdpr/google-consent.png
+  src: /images/m2/gdpr/google-consent-sm.png
+  alt: Works with Google Consent Mode v2
+  title: Works with Google Consent Mode v2
+  w: 1545
+  h: 881

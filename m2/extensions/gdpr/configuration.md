@@ -22,12 +22,13 @@ Enabled     | Allows to enable/disable GDPR per store view
 
 ### Cookie Consent section
 
-![Cookie consents section](/images/m2/gdpr/configuration/cookie-consents.png?v=1)
+![Cookie consents section](/images/m2/gdpr/configuration/cookie-consents.png?v=2){:width="777" height="800"}
 
 Option          | Description
 ----------------|------------
 Enabled         | Allows to enable/disable cookie bar and cookie settings page.
 Lifetime        | How many days should the cookie store information about visitor's cookie settings.
+Google Consent  | Enable/Disable integration with [Google Consent Mode v2](https://developers.google.com/tag-platform/security/guides/consent?consentmode=advanced). Integration is [fully automated](/m2/extensions/gdpr/cookie-settings/) and doens't require any additional actions.
 **Cookie Bar**  |
 Cookie Wall Mode| Allows to enable/disable site overlay until client will accept the cookie consent.
 Display Mode    | Select display mode for cookie bar. See details below the table.
