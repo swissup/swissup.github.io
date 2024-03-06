@@ -12,7 +12,7 @@ category: GDPR
 
 > Mar 5, 2024
 
-![Google Consent Mode](/images/m2/gdpr/google-consent.png){:width=772 height="440"}
+![Google Consent Mode](/images/m2/gdpr/google-consent.png){:width="772" height="440"}
 
  - Added integration with [Google Consent Mode v2](https://developers.google.com/tag-platform/security/guides/consent?consentmode=advanced).
    It's enabled by default. Still, you can disable it from the [module configuration](/m2/extensions/gdpr/configuration/#cookie-consent-section).
