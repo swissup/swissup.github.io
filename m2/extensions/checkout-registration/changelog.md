@@ -7,6 +7,13 @@ category: Checkout Registration
 
 # Changelog
 
+### Version 1.2.0
+
+> Mar 6, 2024
+
+ -  Added ability to [disable module](/m2/extensions/checkout-registration/configuration/)
+    for orders created via API call.
+
 ### Version 1.1.12
 
 > Sep 14, 2023

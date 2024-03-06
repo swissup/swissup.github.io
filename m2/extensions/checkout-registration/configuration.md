@@ -11,13 +11,14 @@ Module configuration is available at _Stores > Configuration > Swissup Checkout 
 
 ## General Settings
 
-![General Settings](/images/m2/checkout-registration/configuration/general.png)
+![General Settings](/images/m2/checkout-registration/configuration/general.png){:width="777" height="337"}
 
 Option              | Description
 --------------------|------------
 Registration Mode   | Select one of available registration modes. See the table below.
 Activate registration checkbox by default | Set the default state of the registration checkbox. Visible for "Registration is Allowed" mode only.
 Registration Mode if Cart Contains Downloadable Items | Usefull to set "Registration is Required" or "Automatic Registration" when regular "Registration Mode" allows guest checkout.
+Enabled for orders created via API | Ability to disable module for all orders created via API.
 
 **Available Registration Modes**
 
