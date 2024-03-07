@@ -8,6 +8,12 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.17.11
+
+> Mar 7, 2024
+
+ -  Fixed large margin below category name on mobile view when using megamenu.
+
 ### Version 1.17.10
 
 > Feb 2, 2024

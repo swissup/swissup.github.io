@@ -7,6 +7,36 @@ category: ArgentoBreeze
 
 # Argento Breeze Changelog
 
+### Version 2.3.0
+
+> Mar 7, 2024
+
+ -  ArgentoChic: Fixed [Askit](/m2/extensions/askit/) styles when gravatar is enabled.
+ -  ArgentoChic: Fixed incorrectly rotated "close" buttons in askit questions.
+ -  Compatibility with latest [Breeze Frontend](https://breezefront.com/updates).
+ -  JS fixes in all bundled modules.
+
+**[EasyBanner](/m2/extensions/easybanners/)**
+
+ -  Fixed possible incorrect edit URL in backend.
+ -  Updated integration with latest GDPR module.
+
+**[GDPR](/m2/extensions/gdpr/)**
+
+ -  Added inegration with Google Consent Mode.
+ -  Preferences cookie group added. Advertisement group is replaced by marketing.
+
+**[Highlight](/m2/extensions/highlight/)**
+
+ -  Fixed possible js error "blockData" on undefined.
+ -  Fixed carousel styles.
+
+**[SeoSuite](/m2/extensions/seo-suite/)**
+
+ -  Prevent possible exception from Magento_Review module on product listing page
+    when [AjaxLayeredNavigation](/m2/extensions/ajaxlayerednavigation) module is used.
+ -  Smile Integration update. Fix PHP error "Illegal offset type in isset or empty"
+
 ### Version 2.2.0
 
 > Nov 28, 2023
