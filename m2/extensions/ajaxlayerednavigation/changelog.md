@@ -7,6 +7,23 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.5.6
+
+> Mar 7, 2024
+
+- Fix: Assignment to constant variable (Close #96)
+- Improve getFacetedData logic (Close #95)
+- Improve di argument (use Factory)
+
+### Version 1.5.5
+
+> Feb 16, 2024
+
+- Add Scroll-Up config option
+- Fix push url state after aln request completed
+- Add lazy loading for jacl.min.js (ajax request caching lib)
+- Remove URLSearchParams polyfill
+
 ### Version 1.5.4
 
 > Feb 1, 2024
