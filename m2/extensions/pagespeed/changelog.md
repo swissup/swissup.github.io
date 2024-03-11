@@ -12,7 +12,7 @@ category: Pagespeed
 
 > Mar 11, 2023
 
- -
+ - Fixed custom images over-optimizing
 
 ### Version 1.7.22
 
