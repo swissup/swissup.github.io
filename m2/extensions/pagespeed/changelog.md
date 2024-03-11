@@ -8,6 +8,18 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.7.23
+
+> Mar 11, 2023
+
+ -
+
+### Version 1.7.22
+
+> Feb 29, 2023
+
+ - Remove unused code
+
 ### Version 1.7.21
 
 > Dec 1, 2023
