@@ -8,6 +8,12 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.7.24
+
+> Mar 12, 2023
+
+ - Fix: "Uncaught Error: Script error for 'jquery' and 'mage/apply/main'\'; too early run require() before requirejs-min-resolver, mixins, etc.
+
 ### Version 1.7.23
 
 > Mar 11, 2023
