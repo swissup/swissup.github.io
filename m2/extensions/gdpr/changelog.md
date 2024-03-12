@@ -8,6 +8,14 @@ category: GDPR
 
 # Changelog
 
+### Version 1.6.1
+
+> Mar 12, 2024
+
+ -  Fixed possible undefined 'swissupGdprCookieSettings' when using js bundling.
+ -  Fixed not working Magento_GoogleTag because of
+    [window.gtag function checking by Magento](https://github.com/magento/magento2/blob/2.4-develop/app/code/Magento/GoogleGtag/view/frontend/web/js/google-analytics.js#L39).
+
 ### Version 1.6.0
 
 > Mar 5, 2024

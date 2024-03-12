@@ -8,6 +8,12 @@ category: EasyCatalogImages
 
 # Changelog
 
+### Version 1.5.4
+
+> Mar 12, 2024
+
+ -  Do not require category_id when inserting widget using Pagebuilder.
+
 ### Version 1.5.2
 
 > Nov 28, 2023

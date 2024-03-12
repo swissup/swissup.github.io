@@ -7,6 +7,12 @@ category: Delivery Date
 
 # Changelog
 
+### Version 1.7.10
+
+> Mar 12, 2024
+
+ -  Fixed possible incorrect date in backend calendar when editing order.
+
 ### Version 1.7.8
 
 > Jul 24, 2023

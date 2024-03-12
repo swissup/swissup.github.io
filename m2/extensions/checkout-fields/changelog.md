@@ -8,6 +8,14 @@ category: Checkout Fields
 
 # Changelog
 
+### Version 1.6.10
+
+> Mar 12, 2024
+
+ -  **Run `setup:upgrade` command after update**.
+ -  Fixed possible invalid date in backend calendar editor.
+ -  Save date to the database in ISO 8601 format.
+
 ### Version 1.6.9
 
 > Jul 24, 2023
