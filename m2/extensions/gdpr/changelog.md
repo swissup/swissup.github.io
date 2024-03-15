@@ -8,6 +8,12 @@ category: GDPR
 
 # Changelog
 
+### Version 1.6.2
+
+> Mar 15, 2024
+
+ -  Do not store `!notfound` cookie group in cookies.
+
 ### Version 1.6.1
 
 > Mar 12, 2024
