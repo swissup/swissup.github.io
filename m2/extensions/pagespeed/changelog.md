@@ -8,6 +8,14 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.7.25
+
+> Mar 19, 2024
+
+ - Reworked image adapter(s) integration (preference => plugin)
+ - Fix 'Deprecated Functionality: Automatic conversion of false to array is deprecated' (close #55)
+ - Fix phpstan errors
+
 ### Version 1.7.24
 
 > Mar 12, 2024
