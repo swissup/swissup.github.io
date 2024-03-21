@@ -17,6 +17,12 @@ Supported fields:
  -  Product Short Description
  -  Product Description
  -  Product Meta Description
+ -  Product Meta Title
+ -  Product Meta Keywords
+ -  Category Description
+ -  Category Meta Description
+ -  Category Meta Title
+ -  Category Meta Keywords
 
 ### Screenshots
 
@@ -29,3 +35,4 @@ Supported fields:
 - [Configuration](configuration/)
 - [Prompts Management](backend/prompts-management/)
 - [Content Generation](backend/content-generation/)
+- [Mass Content Generation](backend/mass-content-generation/)

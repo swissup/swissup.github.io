@@ -11,10 +11,15 @@
 - href: /images/m2/chat-gpt-assistant/backend/prompts-grid.png
   src: /images/m2/chat-gpt-assistant/backend/small/prompts-grid.png
   title: Prompts Grid
-  w: 2014
-  h: 942
+  w: 1216
+  h: 713
 - href: /images/m2/chat-gpt-assistant/backend/short-description-prompt.png
   src: /images/m2/chat-gpt-assistant/backend/small/short-description-prompt.png
   title: Short Description Prompt
   w: 2580
   h: 1960
+- href: /images/m2/chat-gpt-assistant/backend/mass_action_edit.png
+  src: /images/m2/chat-gpt-assistant/backend/small/mass_action_edit.png
+  title: Mass Content Generation
+  w: 1057
+  h: 677

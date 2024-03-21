@@ -8,6 +8,15 @@ category: ChatGPT Assistant
 
 # Changelog
 
+### Version 1.1.0
+
+> Mar 21, 2024
+
+ -  Added product content generation mass action
+ -  Added content generation for category description and meta tags
+ -  Added product meta title and meta keywords generation
+ -  Small improvements in the default prompts
+
 ### Version 1.0.1
 
 > Jul 21, 2023

@@ -8,7 +8,7 @@ category: ChatGPT Assistant
 
 # Content Generation
 
-With our extension you can generate content in two ways.
+With our extension you can generate content for products and categories in two ways.
 
 ### Generate button
 
@@ -18,7 +18,7 @@ Request will be sent using the default prompt and chatGPT response will be inser
 
 > Please note that any existing field content will be replaced.
 
-You can then edit the content if needed and save the product.
+You can then edit the content if needed and save the product/category.
 
 ![Generate Button](/images/m2/chat-gpt-assistant/backend/generate-button.png)
 
@@ -32,6 +32,6 @@ Every chatGPT response can be copied to clipboard or saved to the associated fie
 
 > Please note that any existing field content will be replaced.
 
-You can then edit the content if needed and save the product.
+You can then edit the content if needed and save the product/category.
 
 ![Chat Popup](/images/m2/chat-gpt-assistant/backend/chat-popup.png)
