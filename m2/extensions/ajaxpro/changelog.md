@@ -6,6 +6,19 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.7.5
+
+> Mar 26, 2024
+
+ - Fix broken 'Login for Price' refer param behaviour
+
+### Version 1.7.4
+
+> Feb 2, 2024
+
+ - Breeze: Do not load floatingcart.js if block is removed from layout
+ - Fixed js error when window.checkout is not defined
+
 ### Version 1.7.3
 
 > Feb 2, 2024
