@@ -633,3 +633,10 @@ testimonials:
   urls:
     m1: /m1/extensions/testimonials/
     m2: /m2/extensions/testimonials/
+webp:
+  title: Webp
+  short_description: Magento2 module for converting images to webp format.
+  size: 2x1
+  urls:
+    m1: /m1/extensions/webp/
+    m2: /m2/extensions/webp/
