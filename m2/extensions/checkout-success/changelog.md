@@ -8,6 +8,12 @@ category: Checkout Success
 
 # Changelog
 
+### Version 2.0.9
+
+> Mar 28, 2024
+
+ -  Update translations.
+
 ### Version 2.0.8
 
 > Aug 29, 2023

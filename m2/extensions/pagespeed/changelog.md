@@ -8,6 +8,12 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.7.26
+
+> Mar 28, 2024
+
+ -  Remove `psr/log:^1` dependency. We support all psr/log versions now.
+
 ### Version 1.7.25
 
 > Mar 19, 2024
@@ -260,7 +266,7 @@ category: Pagespeed
 > Oct 12, 2022
 
  - Update composer requirements
- - Fix removing empty <style> tags
+ - Fix removing empty `<style>` tags
  - Remove dublicate messages
 
 ### Version 1.5.13
@@ -550,7 +556,7 @@ category: Pagespeed
 > Jul 1, 2020
 
 **Improvments**
- - Add optionality <link rel='preload' if http2 push disabled
+ - Add optionality `<link rel='preload'` if http2 push disabled
  - Add preconnect (close #24)
  - Add ExtractHosts (lost Preconnect)
 
@@ -563,7 +569,7 @@ category: Pagespeed
 
 **Fixes**
  - Fix //pub/static/ in font url
- - Fix in remove empty 'criticalCss' <style>
+ - Fix in remove empty 'criticalCss' `<style>`
 
 **Improvments**
  - Improve js config options sort order

@@ -8,6 +8,13 @@ category: Highlight
 
 # Changelog
 
+### Version 1.9.3
+
+> Mar 28, 2024
+
+ -  Fixed js error in highlight carousel in Luma theme when Breeze module is used.
+ -  Fixed possible js error "blockData" on undefined.
+
 ### Version 1.9.1
 
 > Feb 2, 2024

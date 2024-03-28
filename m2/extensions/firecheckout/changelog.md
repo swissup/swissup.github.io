@@ -8,6 +8,24 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.31.4
+
+> Mar 28, 2024
+
+ -  Improved integration with MSI Pickup In Store module.
+ -  Css fixes for third-party themes.
+ -  [CheckoutFields](https://docs.swissuplabs.com/m2/extensions/checkout-fields/):
+    Fixed incorrect displayed date in backend calendar editor when
+    frontend and backend using different locales.
+ -  [CheckoutRegistration](https://docs.swissuplabs.com/m2/extensions/checkout-registration/):
+    Added ability to disable module for orders created via rest/soap api.
+ -  [CustomerFieldManager](https://docs.swissuplabs.com/m2/extensions/customer-field-manager/):
+    Fixed large gap between customer registration form and submit button.
+ -  [DeliveryDate](https://docs.swissuplabs.com/m2/extensions/delivery-date/):
+    Fixed possible incorrect date in backend edit calendar.
+ -  [OrderAttachments](https://docs.swissuplabs.com/m2/extensions/order-attachments/):
+    Fixed inability to upload the same file multiple times in a row.
+
 ### Version 1.31.3
 
 > Nov 28, 2023

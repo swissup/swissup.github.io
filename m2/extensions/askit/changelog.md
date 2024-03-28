@@ -11,6 +11,13 @@ category: AskIt
 
 # Changelog
 
+### Version 1.14.2
+
+> Mar 28, 2024
+
+ -  Remove `psr/log:^1` dependency. We support all psr/log versions now.
+ -  Prevent 404 error on product page caused by ajax request.
+
 ### Version 1.13.2
 
 > Sep 26, 2023

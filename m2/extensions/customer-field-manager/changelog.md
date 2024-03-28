@@ -10,13 +10,19 @@ category: Customer Field Manager
 
 ### Version 1.2.11
 
+> Mar 28, 2024
+
+ -  Fixed large gap between customer registration form and submit button.
+
+### Version 1.2.10
+
 > Jun 26, 2023
 
  -  Added [ability to choose](/m2/extensions/customer-field-manager/usage/form/)
     between "Dropdown", "Radio" or "Checkbox" display modes for "Yes/No",
     "Multiple Select", and "Single Select" fields.
 
-### Version 1.2.10
+### Version 1.2.9
 
 > Apr 10, 2023
 

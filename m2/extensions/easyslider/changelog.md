@@ -8,6 +8,13 @@ category: Easy Slider
 
 # Changelog
 
+### Version 1.8.6
+
+> Mar 28, 2024
+
+ -  Remove `psr/log:^1` dependency. Now, we support all psr/log versions.
+ -  Improved integration with [Breeze Frontend](https://breezefront.com/).
+
 ### Version 1.8.4
 
 > Nov 28, 2023

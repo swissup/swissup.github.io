@@ -6,6 +6,12 @@ keywords: Helpdesk changelog
 category: Helpdesk
 ---
 
+### Version 1.2.43
+
+> Mar 28, 2024
+
+ -  Remove `psr/log:^1` dependency. We support all psr/log versions now.
+
 ### Version 1.2.42
 
 > Mar 1, 2024

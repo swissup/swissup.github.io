@@ -8,6 +8,12 @@ category: KnowledgeBase
 
 # Changelog
 
+### Version 1.1.25
+
+> Mar 28, 2024
+
+ -  Remove `psr/log:^1` dependency. Now, we support all psr/log versions.
+
 ### Version 1.1.24
 
 > Feb 2, 2024
