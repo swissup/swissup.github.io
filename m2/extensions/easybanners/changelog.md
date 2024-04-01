@@ -8,6 +8,12 @@ category: Easy Banners
 
 # Changelog
 
+### Version 1.9.18
+
+> Apr 1, 2024
+
+ -  Fixed inability to remove banner image.
+
 ### Version 1.9.16
 
 > Feb 12, 2024

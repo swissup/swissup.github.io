@@ -7,6 +7,13 @@ category: Attributepages
 
 # Changelog
 
+### Version 1.6.10
+
+> Apr 1, 2024
+
+ -  Fixed missing height parameter in widget slider.
+ -  Added underline style for hovered links.
+
 ### Version 1.6.8
 
 > Feb 2, 2024

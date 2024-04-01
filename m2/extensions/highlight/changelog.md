@@ -8,6 +8,13 @@ category: Highlight
 
 # Changelog
 
+### Version 1.9.5
+
+> Apr 1, 2024
+
+ -  Breeze: fixed not working scroll animation when clicking "next" for the first time.
+ -  Fixed not working page_count parameter when ajax carousel is used.
+
 ### Version 1.9.3
 
 > Mar 28, 2024

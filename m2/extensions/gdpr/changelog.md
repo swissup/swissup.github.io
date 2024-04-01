@@ -8,6 +8,13 @@ category: GDPR
 
 # Changelog
 
+### Version 1.6.3
+
+> Apr 1, 2024
+
+ -  Breeze: fixed missing focus styles.
+ -  Improve styles for cookie togglers.
+
 ### Version 1.6.2
 
 > Mar 15, 2024

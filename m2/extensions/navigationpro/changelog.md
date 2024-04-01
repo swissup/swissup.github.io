@@ -8,6 +8,12 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.17.13
+
+> Apr 1, 2024
+
+ -  Reduce layout shift when "nowrap" feature is used.
+
 ### Version 1.17.11
 
 > Mar 7, 2024
