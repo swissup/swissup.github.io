@@ -99,6 +99,7 @@ composer require\
     swissup/module-attributepages\
     swissup/module-breeze\
     swissup/module-breeze-integrations\
+    swissup/module-cache-warmer\
     swissup/module-checkout\
     swissup/module-checkout-cart\
     swissup/module-checkout-fields\
