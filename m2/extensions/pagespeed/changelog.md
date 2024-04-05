@@ -8,6 +8,13 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.7.27
+
+> Apr 5, 2024
+
+ - Remove useless (old version) of ParamsBuilder
+ - Fix curl options in custom admin form field(s)
+
 ### Version 1.7.26
 
 > Mar 28, 2024
