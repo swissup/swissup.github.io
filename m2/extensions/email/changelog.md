@@ -8,6 +8,12 @@ category: Email
 
 # Changelog
 
+### Version 0.5.12
+
+> Apr 10, 2024
+
+ - Magento 2.4.7 compatibility
+
 ### Version 0.5.10
 
 > Aug 22, 2023
