@@ -7,6 +7,13 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.5.8
+
+> Apr 19, 2024
+
+ - Fix setIsLoaded(true) to not loaded product collection
+ - Add flag checking before collection filter apply
+
 ### Version 1.5.7
 
 > Mar 28, 2024
