@@ -8,6 +8,13 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.31.6
+
+> Apr 23, 2024
+
+ -  Fixed not working jsbuild prefetch when js merge is enabled
+ -  Breeze: fix layout shift when critical css is enabled
+
 ### Version 1.31.4
 
 > Mar 28, 2024
