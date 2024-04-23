@@ -8,6 +8,12 @@ category: Easy Slider
 
 # Changelog
 
+### Version 1.8.8
+
+> Apr 23, 2024
+
+ -  Solved issue with slide description in Magento Admin. User couldn't remove the slide's description once it was saved.
+
 ### Version 1.8.6
 
 > Mar 28, 2024
