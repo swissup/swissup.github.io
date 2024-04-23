@@ -8,6 +8,12 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.7.7
+
+> Apr 23, 2024
+
+ -  Minor fixes.
+
 ### Version 1.7.6
 
 > Feb 2, 2024
