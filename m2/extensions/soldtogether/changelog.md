@@ -8,6 +8,13 @@ category: SoldTogether
 
 # Changelog
 
+### Version 1.9.16
+
+> Apr 23, 2024
+
+ -  Fixed error on Magento 2.4.7 at product page with configurable products in module blocks.
+ -  Other minor fixes.
+
 ### Version 1.9.14
 
 > Feb 2, 2024
