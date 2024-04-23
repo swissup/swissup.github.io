@@ -7,6 +7,39 @@ category: ArgentoBreeze
 
 # Argento Breeze Changelog
 
+### Version 2.3.1
+
+> Apr 23, 2024
+
+ -  Magento 2.4.7 compatibility.
+
+**[AttributePages](/m2/extensions/attributepages/)**
+
+ -  Added redirect from pages with trailing slash to the pages without trailing slash.
+
+**[ChatGPT](/m2/extensions/chat-gpt-assistant/)**
+
+ -  Added mass product content generation.
+ -  Added content generation for category description and meta tags.
+ -  Added product meta title and keywords generation.
+
+**[EasySlide](/m2/extensions/easyslider/)**
+
+ -  Fixed inability to remove slide description.
+
+**[GDPR](/m2/extensions/gdpr/)**
+
+ -  Improve styles for cookie togglers.
+ -  Fixed missing toggler focus style.
+
+**[Highlight](/m2/extensions/highlight/)**
+
+ -  Fixed not working page_count parameter when ajax carousel is used.
+
+**[SeoSuite](/m2/extensions/seo-suite/)**
+
+ -  Magenfan Blog integration updated.
+
 ### Version 2.3.0
 
 > Mar 7, 2024
