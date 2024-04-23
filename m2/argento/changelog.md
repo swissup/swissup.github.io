@@ -7,6 +7,106 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.43.0
+
+> Apr 23, 2024
+
+- **Compatibility with NEW Magento 2.4.7 arrived!** 🤩🤩🤩
+- _Argento Blank:_ Code refactoring. Cart actions polising. Photo-in-description 
+video problems fixed.
+- _Argento Chic:_ Some critical styles added.
+- _Argento Force:_ Sizing chart for breeze fixed.
+
+
+**Extensions Updates**
+
+  - [Ajax Pro](/m2/extensions/ajaxpro/) — 1.7.5 (was 1.7.4)
+      + Fix broken 'Login for Price' refer param behaviour
+  - [AskIt](/m2/extensions/askit/) — 1.14.2 (was 1.14.1)
+      + Allow using any version of psr/log dependency
+  - [Attribute Pages](/m2/extensions/attributepages/) — 1.6.11 (was 1.6.8)
+      + Added redirect from pages with trailing slash to the pages without
+      + Underline on hover
+      + Fixed height parameter missing in widget slider
+  - [ChatGPT Assistant](/m2/extensions/chat-gpt-assistant/) — 1.1.0 (was 1.0.1)
+      + Set bulkSize 20 products per operation
+      + Added mass product content generation
+      + Small default prompts improvements 
+      + Added content generation for category description and meta tags
+      + Added product meta title and keywords generation
+      + Small improvement to the meta description prompt 
+  - [Compare](/m2/extensions/compare/) — 1.2.4 (was 1.2.3)
+      + Remove compare link from the highlight widgets when the module is disabled.   
+  - [EasySlide](/m2/extensions/easyslider/) — 1.8.8 (was 1.8.4)
+      + A bit of JS refactor.
+      + Solved issue with slide description. User can't remove it 
+      + Issue occurs because initial value of editor wasn't set even when some text was rendered.
+      + Fix 'Each interface must be in a file by itself' use class_alias instead.
+      + Allow using any version of psr/log.
+      + Do not load swiper lib until it's really needed.
+  - [Breeze](/m2/extensions/breeze/) — 2.16.0 (was 2.13.1)
+      + Lot of fixes and updates available on [Breeze Site](https://breezefront.com/updates)
+  - [Easybanners](/m2/extensions/easybanners/) — 1.9.19 (was 1.9.16)
+      + Fix 'Each interface must be in a file by itself' use class_alias instead
+      + Fixed inability to remove banner image
+      + Update integration with latest Swissup_Gdpr module
+  - [Easy Catalog Images](/m2/extensions/easycatalogimages/) — 1.5.5 (was 1.5.3)
+      + Category id is not required in widget
+  - [Easytabs](/m2/extensions/easytabs/) — 1.12.10 (was 1.12.8)
+      + Breeze: do not animate expanded tabs because content standing right aside title
+      + Fixed incorrect tabs position on Magento 2.4.7
+      + Fixed error on Magento 2.4.7
+  - [GDPR](/m2/extensions/gdpr/) — 1.6.3 (was 1.5.24)
+      + Fixed missing focus style on breeze theme
+      + Improve styles for cookie togglers
+      + Do not store dummy cookie group in cookies
+      + Fixed possible undefined 'swissupGdprCookieSettings' when using js bundling
+      + Fixed not working gtag because of window.gtag function
+      + Integrate with google consent mode
+      + No need to update customer sections after cookie save
+      + Preferences cookie group added. Advertisement group is replaced by marketing.
+  - [Highlight](/m2/extensions/highlight/) — 1.9.6 (was 1.9.2)
+      + Breeze: disable animation for loading placeholders
+      + Breeze: fixed not working scroll animation when clicking "next" for the first time
+      + Fixed js error in highlight carousel in Luma theme with breeze
+  - [SEO Suite](/m2/extensions/seo-suite/)
+      + **swissup/module-hreflang** — 1.6.6 (was 1.6.5)
+        * Add config at storeview level to set custom locale
+        * Magenfan Blog integration update. 
+      + **swissup/module-seo-urls** — 1.5.50 (was 1.5.49)
+        * Improve url resolving when filter name occurs in filter value.
+      + **swissup/module-seo-cross-links** — 1.1.13 (was 1.1.12)
+        * Mafefan blog: description compatibility added.
+        * Magefan blog: category compatibility added.
+        * Magefan blog: post list compatibility added.
+        * Magefun blog: posts compatibility added.
+      + **swissup/module-seo-templates** — 1.7.7 (was 1.7.6)
+        * Fixed error "setPage() on null" on Magento 2.4.7.
+          Module couldn't resolve template collection in Generator model because of commit magento/magento2@71cb333
+      + **swissup/module-seo-pager** — 1.3.5 (was 1.3.3)
+        * Improve stability. Prevent load of main collection at listing. It helps to avoid Illegal state exception.
+        * Prevent exception from Magento_Review module on product listing. This exception occurs when our ALN enabled. We couldn't reproduce it locally. Only at client's store.
+  - [Navigation Pro](/m2/extensions/navigationpro/) — 1.17.13 (was 1.17.10)
+      + Hide items in nowrap mode until menu is ready to reduce layout shift
+      + Fixed possible error when no categories found
+      + Remove extra margin below category on mobile devices
+  - [Pagespeed](/m2/extensions/pagespeed/) — 1.7.28 (was 1.7.22)
+      + Fixed "Invalid header value" error when image has newlines around src
+      + Remove useless (old version) of ParamsBuilder
+      + Fix curl options in custom admin form field(s)
+      + Allow using any version of psr/log dependency
+      + Fix 'Deprecated Functionality: Automatic conversion of false to array is deprecated' 
+      + Reworked image adapter(s) integration (preference => plugin)
+      + Fix: "Uncaught Error: Script error for 'jquery' and 'mage/apply/main'; too early run require() before requirejs-min-resolver, mixins, etc.
+      + Fixed custom images over-optimizing
+  - [ProLabels](/m2/extensions/prolabels/) — 1.7.7 (was 1.7.6)
+      + Update uk_UA.csv. Remove pro swop from translations
+  - [Sold Together](/m2/extensions/soldtogether/) — 1.9.16 (was 1.9.15)
+      + Fixed js error at grouped product page.
+      + Fix error on Magento 2.4.7 at product page with configurable products in SoldTogether.
+      + Update uk_UA.csv. Remove pro swop 
+  - [Testimonials](/m2/extensions/testimonials/) — 1.3.13 (was 1.3.12)
+
 ### Version 1.42.0
 
 > Feb 29, 2024
