@@ -8,6 +8,43 @@ category: SEO Suite
 
 # Changelog
 
+### Version 1.18.0
+
+> Apr 23, 2024
+
+Magento 2.4.7 fixes. New features added. Better stability.
+
+*swissup/module-hreflang — 1.6.6 (was 1.6.1)*
+
+ -  NEW: option at storeview level to set custom locale.
+ -  Integration updates for Magefan Blog, Amasty Store Locator and Magento XML Sitemap.
+ -  Overall stability improvements.
+
+*swissup/module-rich-snippets — 1.7.3 (was 1.6.3)*
+
+ -  NEW: option to set image size for product data snippet.
+ -  NEW: FAQ snippet widget.
+ -  Added OnlineStore to the Organization Type dropdown.
+ -  Shipping details snippet. It works with table rate shipping and matrix rate shipping from WebShopApps vendor. Cache snippet data to avoid too many shipping requests to online carriers.
+
+*swissup/module-seo-canonical — 1.11.9 (was 1.11.8)*
+
+ -  NEW: setting for each category in Magento Admin to set custom canonical URL.
+
+*swissup/module-seo-cross-links — 1.1.13 (was 1.1.12)*
+
+ -  NEW: Magefan Blog integratation.
+
+*swissup/module-seo-templates — 1.7.7 (was 1.7.4)*
+
+ -  NEW: directive `random`. Randomly outputs string from list of strings. Example - `{{random "Get|Purchase|Buy|Acquire|Find|Check"}}`.
+ -  ACL updates.
+
+*swissup/module-seo-urls — 1.5.50 (was 1.5.43)*
+
+ -  Improved url resolving when filter name occurs in filter value.
+ -  Smile module integration updated. Fix PHP error "Illegal offset type in isset or empty"
+
 ### Version 1.17.0
 
 > Jul 13, 2023
