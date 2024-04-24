@@ -133,6 +133,7 @@ composer require\
     swissup/module-hover-gallery\
     swissup/module-hreflang\
     swissup/module-helpdesk\
+    swissup/module-ignition\
     swissup/module-image\
     swissup/module-knowledge-base\
     swissup/module-lightboxpro\
