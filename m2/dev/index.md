@@ -255,71 +255,16 @@ packages=$(composer info | grep swissup | cut -d ' ' -f 1 | tr '\n\012\015' ' ')
 ```
 
 
-### Tools & Tricks
+### Tools
 
-1. [Whoops](https://github.com/yireo/Yireo_Whoops) module for Magento 2
+1. [Swissup_Ignition](https://github.com/swissup/module-ignition) &mdash; beautiful error pages.
+2. [Swissup_DeveloperToolbar](https://github.com/swissup/module-developer-toolbar) &mdash; find slow and inefficient code.
+3. [Mage2tv Clean](https://github.com/mage2tv/magento-cache-clean) &mdash; automated cache clean.
+4. [Yireo ExtensionChecker](https://github.com/yireo/Yireo_ExtensionChecker) &mdash; code validator.
 
-    This module adds Whoops error handling to Magento 2.
+### Tips
 
-    ```bash
-    composer require --dev yireo/magento2-whoops
-    bin/magento module:enable Yireo_Whoops
-    bin/magento setup:upgrade --safe-mode=1
-    ```
-
-2. [Magento Chrome Toolbar for MSP DevTools](https://github.com/magespecialist/mage-chrome-toolbar)
-
-    - Just install from [Chrome WebStore](https://chrome.google.com/webstore/detail/magespecialist-devtools-f/odbnbnenehdodpnebgldhhmicbnlmapj?authuser=3).
-    Now you have the Chrome extension, next step is to install and configure the Magento extension.
-
-    - Run commands
-
-    ```bash
-    composer require --dev msp/devtools
-    php bin/magento cache:flush
-    php bin/magento cache:disable full_page
-    php bin/magento setup:upgrade --safe-mode=1
-    ```
-
-    - Open Magento backend and go to Stores > Settings > Configuration > MageSpecialist > DevTools.
-    Enable devtools and set IP restrictions.
-
-    - Add the following line at the very beginning on index.php and pub/index.php file:
-
-    ```php
-    $_SERVER['MAGE_PROFILER'] = json_encode([ 'drivers' => [['output' => 'MSP\DevTools\Profiler\Driver\Standard\Output\DevTools']] ], true);
-    ```
-
-    Or another profiler
-
-    [Mgt Developer Toolbar](https://github.com/mgtcommerce/Mgt_Developertoolbar) for Magento 2
-
-    The toolbar shows you all important information for performance optimisation and magento development.
-
-    ```bash
-    composer require --dev mgtcommerce/module-mgtdevelopertoolbar
-    bin/magento module:enable Mgt_DeveloperToolbar
-
-    bin/magento setup:upgrade --safe-mode=1
-    bin/magento config:set mgt_developer_toolbar/module/is_enabled 1
-    bin/magento cache:flush
-
-    rm -rf pub/static/*
-    rm -rf var/*
-
-    bin/magento setup:static-content:deploy
-    ```
-
-3. [Magento 2 Cache Clean](https://github.com/mage2tv/magento-cache-clean)
-
-The file watcher automatically cleans affected cache types in the Magento 2 cache during development.
-
-```bash
-composer require --dev mage2tv/magento-cache-clean
-vendor/bin/cache-clean.js --watch
-```
-
-4. To manually show recently modified files
+#### Show recently modified files
 
 ```bash
 find ./ -type f -mtime -1
@@ -335,100 +280,20 @@ Compare a remote file with a local file
 curl -s https://raw.githubusercontent.com/swissup/swissup.github.io/master/m2/dev/index.md | diff m2/dev/index.md -
 ```
 
-5. [Yireo ExtensionChecker](https://github.com/yireo/Yireo_ExtensionChecker)
+#### Which Magento version matches which package?
 
-This extension validates the code of other extensions and is complementary to static code analysis tools like PHPCS.
-
-###### Installation
-```bash
-composer require --dev yireo/magento2-extensionchecker
-bin/magento module:enable Yireo_ExtensionChecker
-```
-
-###### Usage
-```bash
-bin/magento yireo_extensionchecker:scan Swissup_Email
-```
-
-###### Which Magento version matches which package?
 ```bash
 curl -s https://gist.githubusercontent.com/0m3r/eff7ff873713e7e7223f08c1e7020f35/raw/fd3c27907dbb0bd23ba33ca70cc295b8700647a7/detector.sh | bash -s 2.2.0,2.3.0 magento/framework,magento/module-store
 
 >composer require magento/framework:^101.0|^102.0
 >composer require magento/module-store:^100.2|^101.0
 >composer require magento/framework:^101.0|^102.0,magento/module-store:^100.2|^101.0
-
 ```
 
-### Setup Wizard - Authentication errors
+#### Setup Wizard - Authentication errors
 
-1. `ci.swissuplabs.com` packages required authentication
+`ci.swissuplabs.com` packages required authentication
 
 ```bash
 composer config -a --file="var/composer_home/auth.json" http-basic.ci.swissuplabs.com "DOMAIN" "IDENTITY_KEY"
-```
-
-2. `repo.magento.com` packages required authentication
-
-```
-Admin -> System -> Web Setup Wizard -> System Config - put Your Magento keys "Public Access Key" & "Private Access Key"
-```
-You can get keys from Your [Magento account page](https://marketplace.magento.com/customer/accessKeys/)
-
-### [Patch applying with composer patches](https://github.com/vaimo/composer-patches)
-
-[Vaimo Composer Patches](https://github.com/vaimo/composer-patches)
-
-
-Example - Composer 'elasticsearch fail' patch for Magento 2.3.1
-
-1. Install composer patcher
->Applies a patch from a local or remote file to any package that is part of a given composer project.
-
-```bash
-    composer require vaimo/composer-patches
-```
-
-1a.Get file checksum
-
-```bash
-    sha1sum 1.patch
-```
-
-2. In composer.json add patch configuration
-
-```json
-        "extra": {
-            "magento-force": "override",
-            "patches": {
-                "magento/framework": {
-                    "Fix: https://github.com/magento/magento2/issues/21916": {
-                        "source": "https://raw.githubusercontent.com/ConvertGroupsAS/magento2-patches/master/Patch-Magento_Framework-M2.3.1-fix-elasticsearch-generation.patch",
-                        "sha1": "e9354feadd0fde8a2edef3ab6865574a0b7254c9",
-                        "version": [
-                            ">=102.0.1 <102.0.2"
-                        ]
-                    }
-                }
-            }
-        }
-```
-Or you can try to [add vaimo/composer-patches from console](https://gist.github.com/0m3r/16241092b5839345216dcdb1408baaae).
-
-```bash
-curl -s https://gist.githubusercontent.com/0m3r/16241092b5839345216dcdb1408baaae/raw/add_vaimo_patch.bash | bash -s "vendor/module-package" "Path title #1" http://re.ro/path.diff
-```
-
-Show and apply patches
-
-```bash
-    composer config extra
-    composer update vaimo/composer-patches
-```
-
-#### Applying commit patch with tool patch
-
-```bash
-curl -s https://github.com/magento/magento2/commit/dfdbe7cc4b94c103ab66383577e13b91de395dff.patch | patch -p5 -d ~/public_html/vendor/magento/framework/
-patching file Mail/Message.php
 ```
