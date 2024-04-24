@@ -7,6 +7,12 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.5.9
+
+> Apr 24, 2024
+
+ - Fix getAllCategoryProductIds logic return product ids only from current category
+
 ### Version 1.5.8
 
 > Apr 19, 2024
