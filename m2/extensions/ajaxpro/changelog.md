@@ -6,6 +6,12 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.7.6
+
+> Apr 29, 2024
+
+ - Fix wrong uenc value in ajax product view request(s)
+
 ### Version 1.7.5
 
 > Mar 26, 2024
