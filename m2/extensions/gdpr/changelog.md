@@ -8,6 +8,17 @@ category: GDPR
 
 # Changelog
 
+### Version 1.7.0
+
+> Apr 30, 2024
+
+ -  Added ability to change and create region-specific [default Google consent values](/m2/extensions/gdpr/configuration/#cookie-consent-section).
+ -  Added "Deny" and "Allow Selection" buttons to [minimal cookie bar mode](/m2/extensions/gdpr/configuration/#cookie-bar-display-modes).
+ -  Fixed not working default Google consent values.
+ -  Do not set Google consent values until customer presses "Accept" or "Deny" buttons.
+ -  Allow using `url_passthrough` variable when consent is declined.
+ -  Default cookie wall color changed to dark.
+
 ### Version 1.6.3
 
 > Apr 1, 2024
