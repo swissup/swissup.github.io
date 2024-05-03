@@ -6,6 +6,13 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.7.7
+
+> May 3, 2024
+
+ - Breeze: Fixed possible js errors when navigate using back button.
+ - Fixed conflict with Amasty_Xnotif module.
+
 ### Version 1.7.6
 
 > Apr 29, 2024
