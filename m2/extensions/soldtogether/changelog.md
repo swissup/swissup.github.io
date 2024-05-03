@@ -8,6 +8,12 @@ category: SoldTogether
 
 # Changelog
 
+### Version 1.9.17
+
+> May 3, 2024
+
+ -  Fixed js error at the grouped product page.
+
 ### Version 1.9.16
 
 > Apr 23, 2024

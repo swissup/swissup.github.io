@@ -8,6 +8,12 @@ category: EasyCatalogImages
 
 # Changelog
 
+### Version 1.5.6
+
+> May 3, 2024
+
+ -  Breeze: zoom on hover support added.
+
 ### Version 1.5.4
 
 > Mar 12, 2024

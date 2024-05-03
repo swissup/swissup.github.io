@@ -7,6 +7,12 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.5.10
+
+> May 3, 2024
+
+ -  Breeze: fixed scroll position restoration on page reload.
+
 ### Version 1.5.9
 
 > Apr 24, 2024
