@@ -7,6 +7,22 @@ category: ArgentoBreeze
 
 # Argento Breeze Changelog
 
+### Version 2.4.0
+
+> May 9, 2024
+
+ -  Scroll reveal animations added all themes. See [upgrade guide](/m2/argento-breeze/upgrade-instructions/)
+    on how to add scroll reveal to existing CMS pages.
+ -  Zoom on hover animation added to product listing in Force and Chic themes.
+ -  Fixed menu styles in Force and Stripes themes.
+ -  Fixed too large MSRP message in Force theme.
+ -  Fixed js errors when using unpack feature from [Pagespeed] module.
+
+**[GDPR](/m2/extensions/gdpr/)**
+
+ -  Added ability to change and create region-specific [default Google consent values](/m2/extensions/gdpr/configuration/#cookie-consent-section).
+ -  Added "Deny" and "Allow Selection" buttons to [minimal cookie bar mode](/m2/extensions/gdpr/configuration/#cookie-bar-display-modes).
+
 ### Version 2.3.1
 
 > Apr 23, 2024
