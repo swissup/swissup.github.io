@@ -7,6 +7,13 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.5.11
+
+> May 9, 2024
+
+ - Add 'step' attribute integration into breeze range-slider
+ - Fix ionRangeSlider is not function
+
 ### Version 1.5.10
 
 > May 3, 2024
