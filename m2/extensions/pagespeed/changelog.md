@@ -8,6 +8,18 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.7.29
+
+> May 10, 2024
+
+ - Prevent broken attributes parsing data-mage-init=' { }'
+
+### Version 1.7.28
+
+> Apr 23, 2024
+
+ - Fixed "Invalid header value" error when image has newlines around src
+
 ### Version 1.7.27
 
 > Apr 5, 2024
