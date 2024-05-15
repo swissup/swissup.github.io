@@ -8,6 +8,16 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.31.7
+
+> May 15, 2024
+
+ -  Fixed billing address validation when it's moved to the shipping step.
+ -  Fixed copying shipping address into the billing if "Same as shipping" checkbox is not set.
+ -  Improve CSS when billing address is shown after shipping.
+ -  [AddressFieldManager](https://docs.swissuplabs.com/m2/extensions/address-field-manager/)
+    Fixed php error when using paypal standard buttons at product page.
+
 ### Version 1.31.6
 
 > Apr 23, 2024

@@ -8,6 +8,12 @@ category: Address Field Manager
 
 # Changelog
 
+### Version 1.6.17
+
+> May 15, 2024
+
+ -  Fixed php error when using paypal standard buttons at product page.
+
 ### Version 1.6.15
 
 > Jul 24, 2023
