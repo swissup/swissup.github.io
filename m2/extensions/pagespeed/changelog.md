@@ -8,6 +8,19 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.7.31
+
+> May 21, 2024
+
+ - Fix double data-mage-initi alization for components in viewport
+ - Move `ignore` config option up to depend `enable` option
+
+### Version 1.7.30
+
+> May 21, 2024
+
+ - Increase the Mobiledetect version (close #60)
+
 ### Version 1.7.29
 
 > May 10, 2024
