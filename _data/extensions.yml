@@ -607,6 +607,14 @@ soldtogether:
     m1: /m1/extensions/soldtogether/
     m2: /m2/extensions/soldtogether/
 
+speculation-rules:
+  title: Speculation Rules
+  short_description: >
+    Speculation rules take the form of a JSON structure that determine what resources should be prefetched or prerendered by the browser.
+  urls:
+    m1:
+    m2: /m2/extensions/speculation-rules/
+
 store-maintenance:
   title: Store Maintenance
   short_description: >
@@ -633,6 +641,7 @@ testimonials:
   urls:
     m1: /m1/extensions/testimonials/
     m2: /m2/extensions/testimonials/
+
 webp:
   title: Webp
   short_description: Magento2 module for converting images to webp format.
