@@ -8,7 +8,7 @@ category: Pagespeed
 
 # Pagespeed setup
 
-`Store > Configuration` > `Swissup > Pagespeed`
+`Store` > `Configuration` > `Swissup` > `Pagespeed`
 
 ### Main section
 
