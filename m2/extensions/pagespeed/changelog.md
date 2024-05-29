@@ -8,6 +8,13 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.7.32
+
+> May 28, 2024
+
+ - Add swissup/module-speculation-rules requirements
+ - Fix: 'Uncaught SyntaxError: Function statements require a function name' in unpack-defer.js
+
 ### Version 1.7.31
 
 > May 21, 2024
