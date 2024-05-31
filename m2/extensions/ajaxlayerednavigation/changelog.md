@@ -7,6 +7,19 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.5.13
+
+> May 30, 2024
+
+ - Fix wrong rusults count calculation (apply state filters)
+
+### Version 1.5.12
+
+> May 13, 2024
+
+ - Add Price slider inputs coma sanatizing
+ - Icrease time for typing in price inputs
+
 ### Version 1.5.11
 
 > May 9, 2024
