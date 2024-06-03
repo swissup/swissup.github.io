@@ -8,6 +8,12 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.7.33
+
+> Jun 3, 2024
+
+ - Add ignoring by css class in lazyload optimizer
+
 ### Version 1.7.32
 
 > May 28, 2024
