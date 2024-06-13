@@ -8,6 +8,21 @@ category: Pagespeed
 
 # Changelog
 
+
+### Version 1.7.35
+
+> Jun 13, 2024
+
+ - Preload image if main <img> tag in <picture> tag is already has .webp extension
+ - Add Http2 server_push option comments about deprecating
+
+### Version 1.7.34
+
+> Jun 6, 2024
+
+ - Preload images if don't loading='lazy' it
+ - Add attribute fetchpriority='high' in preload <link tags
+
 ### Version 1.7.33
 
 > Jun 3, 2024
