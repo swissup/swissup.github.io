@@ -8,6 +8,13 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.31.8
+
+> Jun 14, 2024
+
+ -  Fixed inability to select billing address equal to shipping from addresses dropdown list.
+ -  Fixed not checked "Same as Shipping Address" checkbox when using multistep layout.
+
 ### Version 1.31.7
 
 > May 15, 2024
