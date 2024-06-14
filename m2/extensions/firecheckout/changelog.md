@@ -14,6 +14,7 @@ category: Firecheckout
 
  -  Fixed inability to select billing address equal to shipping from addresses dropdown list.
  -  Fixed not checked "Same as Shipping Address" checkbox when using multistep layout.
+ -  Fixed inability to update GeoIP database using "Update" button.
 
 ### Version 1.31.7
 
