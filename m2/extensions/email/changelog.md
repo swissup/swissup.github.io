@@ -8,6 +8,12 @@ category: Email
 
 # Changelog
 
+### Version 0.6
+
+> Jun 17, 2024
+
+ - Add Gmail OAuth 2.0 Support
+
 ### Version 0.5.12
 
 > Apr 10, 2024
