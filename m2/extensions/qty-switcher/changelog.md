@@ -8,6 +8,12 @@ category: Quantity Switcher
 
 # Changelog
 
+### Version 1.1.21
+
+> Jun 20, 2024
+
+ -  Fixed CLS when arrows mode is used.
+
 ### Version 1.1.13
 
 > Mar 25, 2022
