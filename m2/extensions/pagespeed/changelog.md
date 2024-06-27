@@ -13,7 +13,7 @@ category: Pagespeed
 
 > Jun 13, 2024
 
- - Preload image if main <img> tag in <picture> tag is already has .webp extension
+ - Preload image if main `<img>` tag in `<picture>` tag is already has .webp extension
  - Add Http2 server_push option comments about deprecating
 
 ### Version 1.7.34
@@ -40,14 +40,14 @@ category: Pagespeed
 
 > May 21, 2024
 
- - Fix double data-mage-initi alization for components in viewport
+ - Fix double data-mage-init initialization for components in viewport
  - Move `ignore` config option up to depend `enable` option
 
 ### Version 1.7.30
 
 > May 21, 2024
 
- - Increase the Mobiledetect version (close #60)
+ - Increase the Mobiledetect version
 
 ### Version 1.7.29
 
