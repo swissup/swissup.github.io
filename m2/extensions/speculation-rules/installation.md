@@ -10,9 +10,7 @@ category: Speculation Rules
 
 {% include installation/m2/index.html %}
 
-##
-
-Run the following commands:
+## Run the following commands:
 
 ```bash
 cd <magento_root>
