@@ -8,6 +8,13 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.31.9
+
+> Jul 2, 2024
+
+ -  Fixed race condition bug that caused not working "Billing is same as shipping" when instant save is enabled.
+ -  Fixed rarely invisible shipping form in Safari.
+
 ### Version 1.31.8
 
 > Jun 14, 2024
