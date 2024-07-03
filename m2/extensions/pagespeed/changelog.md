@@ -8,6 +8,17 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.7.37
+
+> Jul 3, 2024
+
+ - Fix too long `sriHashes =` script (PREG_BACKTRACK_LIMIT_ERROR)
+
+### Version 1.7.36
+
+> Jun 27, 2024
+
+ - Fix Uncaught ReferenceError: require is not defined (close #57)
 
 ### Version 1.7.35
 
