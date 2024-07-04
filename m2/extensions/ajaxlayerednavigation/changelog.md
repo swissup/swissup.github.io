@@ -7,6 +7,13 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.5.14
+
+> Jul 4, 2024
+
+ - Fix missing table prefix (not correct getTableName method)
+ - Fixed few typos in configuration
+
 ### Version 1.5.13
 
 > May 30, 2024
