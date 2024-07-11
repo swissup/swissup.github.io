@@ -6,6 +6,13 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.13.19
+
+> Jul 11, 2024
+
+ -  Breeze: fixed inability to open mobile search form on the pages with disabled
+    breeze js.
+
 ### Version 1.13.16
 
 > May 17, 2024
