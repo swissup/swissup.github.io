@@ -14,6 +14,7 @@ category: GDPR
 
  -  Magento 2.4.7-p1 compatibility: Fixed not working Google consents and GDPR
     cookie consent toolbar at the checkout page.
+ -  Do not pass GA session params in URL when consent is declined or not yet accepted.
 
 ### Version 1.7.0
 
