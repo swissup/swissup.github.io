@@ -8,6 +8,13 @@ category: GDPR
 
 # Changelog
 
+### Version 1.7.3
+
+> Jul 15, 2024
+
+ -  Magento 2.4.7-p1 compatibility: Fixed not working Google consents and GDPR
+    cookie consent toolbar at the checkout page.
+
 ### Version 1.7.0
 
 > Apr 30, 2024
