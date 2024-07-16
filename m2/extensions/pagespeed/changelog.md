@@ -8,6 +8,19 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.7.40
+
+> Jul 16, 2024
+
+ - Catch all exceptions until image optimize
+ - Fix empty message error
+
+### Version 1.7.39
+
+> Jul 12, 2024
+
+ - Fix:Static content deploy compact strategy compatibility (close #62)
+
 ### Version 1.7.38
 
 > Jul 10, 2024
