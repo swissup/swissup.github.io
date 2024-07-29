@@ -8,6 +8,14 @@ category: Rich Snippets
 
 # Changelog
 
+### Version 1.7.5
+
+> Jul 29, 2024
+
+ -  Added OnlineStore to the Organization Type dropdown.
+ -  Fixed exception about no source items with the in stock status.
+ -  Minor tweak to shipping details snippet. Show only country and shipping method combinations that are selected in config.
+
 ### Version 1.7.2
 
 > Dec 27, 2023
