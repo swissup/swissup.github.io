@@ -8,6 +8,13 @@ category: SoldTogether
 
 # Changelog
 
+### Version 1.10.0
+
+> Jul 29, 2024
+
+ -  NEW! "Frequently bought together" and "Customers also buy" blocks support custom options of promoted products there.
+ -  Overall CSS and JS improvements. Reduce module affect on page rendering at storefront. Now CSS of blocks loads only when any of them become visible.
+
 ### Version 1.9.17
 
 > May 3, 2024
