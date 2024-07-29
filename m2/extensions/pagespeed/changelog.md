@@ -8,6 +8,13 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.8.0
+
+> Jul 29, 2024
+
+ - Fix nonce attribute in defer js (CSP integration)
+ - Add (move part code to) swissup/module-image-optimizer
+
 ### Version 1.7.40
 
 > Jul 16, 2024
