@@ -8,6 +8,13 @@ category: Email Templates
 
 # Changelog
 
+### Version 1.2.4
+
+> Jul 29, 2024
+
+ -  Fixed missing product image in email related to orders when storefron theme developed by Blueskytechco.
+ -  Preview template. Field "Order" added to preview form so you can choose data from which order to preview.
+
 ### Version 1.2.2
 
 > Jan 24, 2024
