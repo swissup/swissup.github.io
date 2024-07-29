@@ -8,6 +8,14 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.7.9
+
+> Jul 29, 2024
+
+ -  Fixed missing labels at product page at some instances.
+ -  Fixed incorrect onsale labels at some configuarble products. Issue occurs when product has a lot of options and really diverse prices.
+ -  Fixed incorrect label with Firebear_ConfigurableProducts module when page of simple product from configurable one is initially loaded.
+
 ### Version 1.7.7
 
 > Apr 23, 2024
