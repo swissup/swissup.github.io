@@ -8,6 +8,24 @@ category: Cachewarmer
 
 # Changelog
 
+### Version 1.0.29
+
+> Jul 31, 2024
+
+ - Fix "Error while warming the URLs from command line"
+
+### Version 1.0.28
+
+> Apr 11, 2024
+
+ - Update composer requirements for 2.4.7 compatability
+
+### Version 1.0.27
+
+> Apr 2, 2024
+
+ - Fix 2.4.6 coomposer requirements
+
 ### Version 1.0.26
 
 > Oct 16, 2023
