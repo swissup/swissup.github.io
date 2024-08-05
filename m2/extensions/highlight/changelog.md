@@ -8,6 +8,17 @@ category: Highlight
 
 # Changelog
 
+### Version 1.10.0
+
+> August 5, 2024
+
+ -  [New Page](/m2/extensions/highlight/pages/) and [Widget](/m2/extensions/highlight/widgets/)
+    added: **Bulk Bestsellers**.
+
+    While old Bestsellers page show most sold products ordered by orders count,
+    the new Bulk Bestsellers page shows most sold products ordered by quantity
+    sold count.
+
 ### Version 1.9.5
 
 > Apr 1, 2024
