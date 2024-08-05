@@ -7,6 +7,12 @@ category: Attributepages
 
 # Changelog
 
+### Version 1.7.0
+
+> Aug 5, 2024
+
+ -  [URL suffix](/m2/extensions/attributepages/configuration/#seo) feature added.
+
 ### Version 1.6.10
 
 > Apr 1, 2024

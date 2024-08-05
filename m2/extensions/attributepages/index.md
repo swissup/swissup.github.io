@@ -17,6 +17,7 @@ with brands list and attribute based pages list, [product page][block_on_product
 
  -  [Installation](installation/)
  -  [Changelog](changelog/)
+ -  [Configuration](configuration/)
  -  [Attribute based page](attribute-based-page/) (Page with a list of brands names or logos)
     - [Frontend screenshots](attribute-based-page/frontend/)
     - [Backend](attribute-based-page/backend/)
