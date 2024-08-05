@@ -12,6 +12,7 @@ category: Attributepages
 > Aug 5, 2024
 
  -  [URL suffix](/m2/extensions/attributepages/configuration/#seo) feature added.
+ -  Fixed overflowed dropdown content of the "Save" button in admin panel.
 
 ### Version 1.6.10
 
