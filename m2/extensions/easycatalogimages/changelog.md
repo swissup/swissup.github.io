@@ -8,6 +8,13 @@ category: EasyCatalogImages
 
 # Changelog
 
+### Version 1.5.8
+
+> August 5, 2024
+
+ -  Return path to original image if error happens during resize. Previsously we
+    showed image placeholder instead.
+
 ### Version 1.5.6
 
 > May 3, 2024
