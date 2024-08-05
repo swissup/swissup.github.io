@@ -8,6 +8,13 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.17.16
+
+> August 5, 2024
+
+ -  Fixed wrong styles for multicolumn layout when less.js v4 via grunt command is used.
+ -  Fixed missing `alt` attribute in generated Amazon, Megamenu, and Iconic menus.
+
 ### Version 1.17.13
 
 > Apr 1, 2024
