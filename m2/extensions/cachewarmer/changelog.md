@@ -8,6 +8,14 @@ category: Cachewarmer
 
 # Changelog
 
+### Version 1.0.30
+
+> Aug 6, 2024
+
+ - Analitics refactored
+ - Rewrite toolbar isHit logic
+ - Add breeze integration
+
 ### Version 1.0.29
 
 > Jul 31, 2024
