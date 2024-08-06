@@ -8,6 +8,15 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.31.10
+
+> August 6, 2024
+
+ -  Fixed too large gap between email and password fields
+ -  Fixed CSS issue with AddressFieldManager module when checkbox or radio fields are in use.
+ -  Few CSS fixes for StripePayments module.
+ -  Breeze: small CSS fixes
+
 ### Version 1.31.9
 
 > Jul 2, 2024
