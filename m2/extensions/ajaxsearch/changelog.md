@@ -6,6 +6,12 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.13.20
+
+> Aug 6, 2024
+
+ -  Fixed incorrect sort order of config group.
+
 ### Version 1.13.19
 
 > Jul 11, 2024
