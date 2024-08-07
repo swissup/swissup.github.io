@@ -8,6 +8,13 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.8.1
+
+> Aug 7, 2024
+
+ - Improve image searching in webp optimizer (#63)
+ - Move part image config options into swissup/module-image-optimizer
+
 ### Version 1.8.0
 
 > Jul 29, 2024
