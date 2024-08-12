@@ -8,6 +8,12 @@ category: ChatGPT Assistant
 
 # Changelog
 
+### Version 1.1.1
+
+> May 16, 2024
+
+ -  Added html option to the attribute directive
+
 ### Version 1.1.0
 
 > Mar 21, 2024
