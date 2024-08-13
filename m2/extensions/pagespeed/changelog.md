@@ -8,6 +8,13 @@ category: Pagespeed
 
 # Changelog
 
+
+### Version 1.8.2
+
+> Aug 13, 2024
+
+ - Up swissup/module-image-optimizer to 1.0.3
+
 ### Version 1.8.1
 
 > Aug 7, 2024
