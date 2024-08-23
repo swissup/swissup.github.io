@@ -8,6 +8,11 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.8.3
+
+> Aug 13, 2024
+
+ - Fix mailformed html loading &amp; (close #65)
 
 ### Version 1.8.2
 
