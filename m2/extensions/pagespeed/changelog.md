@@ -8,6 +8,13 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.8.4
+
+> Aug 27, 2024
+
+ - Increase pcre.backtrack_limit (close #66)
+ - Fix wrong doublication and defering window.sriHashes =
+
 ### Version 1.8.3
 
 > Aug 13, 2024
