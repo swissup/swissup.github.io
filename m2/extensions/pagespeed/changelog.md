@@ -8,6 +8,21 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.8.6
+
+> Aug 30, 2024
+
+ - Add integration advanced bundles with csp module (generate integaration hashes)
+ - Fix advanced js bundling file adding
+ - Fix isDeferJsUnpackEnable logic
+ - Fix phpstan (phpdoc) error
+
+### Version 1.8.6
+
+> Aug 27, 2024
+
+ - Move PcreBacktrackLimit patch in standalone class and wrap all optimizers with it
+
 ### Version 1.8.4
 
 > Aug 27, 2024
