@@ -7,6 +7,75 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.45.0
+
+> Aug 30, 2024
+
+ -  _Argento Blank:_ Fixed rarely invisible shipping form in Safari
+ -  _Argento Force:_ Sold Together blur color fix
+ -  _Argento Chic:_ Fixed missing slider handle on hover in layered navigation when Smile_ElasticSearch used
+ -  _Argento Chic:_ Related products block styles improved
+ -  _Argento Chic:_ Fixed CSS for Sold Together block with Amazon layout
+ -  _Argento Stripes:_ Fixed not-working configurable options
+
+**Extensions Updates**
+
+  - [Ajax Pro](/m2/extensions/ajaxpro/) — 1.7.12 (was 1.7.10)
+      + Quick view link: added title
+      + Quick View string localized for NL
+      + Minicart override logic improved and fixed on Breeze
+  - [Ajax Search](/m2/extensions/ajaxsearch/) — 1.13.21 (was 1.13.18)
+      + Breeze: fixed invisible form on mobile device on the pages with disabled breeze js
+      + Fixed incorrect sort order of config group
+      + Improved init block performance
+  - [AskIt](/m2/extensions/askit/) — 1.14.5 (was 1.14.4)
+      + Fixed default captcha in module forms
+  - [Attribute Pages](/m2/extensions/attributepages/) — 1.7.0 (was 1.6.11)
+      + Add config for the URL Suffix feature
+      + Fixed overflowed split button
+      + Added redirect to the correct URL when page has different URL per store
+  - [Breeze](/m2/extensions/breeze/) — 2.17.12 (was 2.17.8)
+      + Lot of fixes and updates available on [Breeze Site](https://breezefront.com/updates)
+  - [Easy Catalog Images](/m2/extensions/easycatalogimages/) — 1.5.8 (was 1.5.7)
+      + Return original image if error happens during resize
+  - [Easytabs](/m2/extensions/easytabs/) — 1.12.12 (was 1.12.10)
+      + Fixed missing AskIt tab
+  - [GDPR](/m2/extensions/gdpr/) — 1.7.3 (was 1.7.2)
+      + Magento 2.4.7-p1: Fixed not-working Google consents, GDPR cookies at checkout page
+  - [Highlight](/m2/extensions/highlight/) — 1.10.2 (was 1.9.6)
+      + Bulk bestsellers page and widget added
+      + More time periods for popular and bestselling pages and widgets
+      + Bestsellers block performance improvement: create temporary table with popularity data from orders
+  - [Navigation Pro](/m2/extensions/navigationpro/) — 1.17.16 (was 1.17.15)
+      + Fixed wrong styles with grunt on less.js v4
+      + Fixed missing alt text for the images
+  - [Pagespeed](/m2/extensions/pagespeed/) — 1.8.5 (was 1.7.36)
+      + Magento 2.4.7-p1: fixed checkout error when HTML minification enabled
+      + Added static content deploy compact strategy compatibility
+      + Catch all exceptions during image optimization
+      + Fixed empty error message in admin configuration
+      + CSP integration: fixed nonce attribute in defer js
+      + Improved image searching in webp optimizer
+      + Fixed long page loading with malformed HTML
+      + Fixed image optimization when watermark enabled
+  - [ProLabels](/m2/extensions/prolabels/) — 1.7.9 (was 1.7.7)
+      + Fixed incorrect onsale labels at some configurable products
+      + Fixed missing labels on product page on some instances
+      + Improve labels change behavior on product page: fixes incorrect label with Firebear_ConfigurableProducts
+  - [SEO Suite](/m2/extensions/seo-suite/)
+      + **swissup/module-hreflang** — 1.6.8 (was 1.6.7)
+        * Improved compatibility with FishPig Wordpress
+      + **swissup/module-rich-snippets** — 1.7.5 (was 1.7.4)
+        * Minor tweak to shipping details snippet: show country and shipping methods that are selected in config
+      + **swissup/module-seo-images** — 1.3.21 (was 1.3.20)
+        * Improved product image indexing
+        * Improved product resolver model
+  - [Sold Together](/m2/extensions/soldtogether/) — 1.10.1 (was 1.9.18)
+      + NEW! “Frequently bought together” and “Customers also buy” blocks support custom options of promoted products there
+      + Overall CSS and JS improvements: reduce module affect on page rendering at storefront. Now styles of blocks loading only when become visible
+      + Fixed PHP exception in latest Magento version
+      + Fixed expand options dropdown in FBT when invalid
+
 ### Version 1.44.0
 
 > Jun 27, 2024
