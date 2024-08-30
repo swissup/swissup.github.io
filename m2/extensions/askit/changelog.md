@@ -11,6 +11,26 @@ category: AskIt
 
 # Changelog
 
+### Version 1.14.5
+
+> Aug 30, 2024
+
+ - add askit default captcha integration for breeze themes
+ - Fix captcha param losing when data-form-part is not set
+
+### Version 1.14.4
+
+> Jun 21, 2024
+
+ - Breeze: update to latest version
+
+### Version 1.14.3
+
+> Jun 11, 2024
+
+ - Breeze: remove global variables
+ - Breeze: Load questions when element comes into the viewport
+
 ### Version 1.14.2
 
 > Mar 28, 2024
