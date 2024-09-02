@@ -8,6 +8,14 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.32.1
+
+> September 2, 2024
+
+ -  Disable guest REST API if guest checkout is disabled.
+ -  PayPal_Braintree: fixed possible outdated address information.
+ -  Fixed not working tax-free purchases when admin price includes tax.
+
 ### Version 1.31.10
 
 > August 6, 2024

@@ -8,6 +8,12 @@ category: Highlight
 
 # Changelog
 
+### Version 1.10.3
+
+> September 2, 2024
+
+ -  Fixed PHP error when using table prefixes.
+
 ### Version 1.10.0
 
 > August 5, 2024
