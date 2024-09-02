@@ -8,6 +8,12 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.8.7
+
+> Sep 2, 2024
+
+ - Fix csp integrity wit older magento versions (close #67)
+
 ### Version 1.8.6
 
 > Aug 30, 2024
