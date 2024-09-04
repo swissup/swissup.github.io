@@ -6,6 +6,13 @@ keywords: Helpdesk changelog
 category: Helpdesk
 ---
 
+### Version 1.3.0
+
+> Sep 4, 2024
+
+ -  Added integration with [Swissup_GDPR](/m2/extensions/gdpr/) module.
+ -  Removed empty spaces from textarea in ticket and message forms.
+
 ### Version 1.2.43
 
 > Mar 28, 2024
