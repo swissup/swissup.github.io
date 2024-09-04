@@ -11,6 +11,12 @@ category: AskIt
 
 # Changelog
 
+### Version 1.14.6
+
+> Sep 4, 2024
+
+ - Fixed empty askit form in breeze. Needs to update Breeze module.
+
 ### Version 1.14.5
 
 > Aug 30, 2024
