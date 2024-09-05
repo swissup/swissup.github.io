@@ -1,6 +1,6 @@
 ---
 layout: default
-title: GDPR for Magento 2
+title: GDPR
 description: GDPR implementation for Magento 2
 keywords: gdpr for magento 2, GDPR
 category: GDPR

@@ -28,27 +28,20 @@ All we need to process personal data is to register a personal data handler.
 
     namespace Vendor\Module\Observer;
 
-    class RegisterPersonalDataHandler implements \Magento\Framework\Event\ObserverInterface
-    {
-        /**
-         * @var \Vendor\Module\Model\PersonalDataHandler\Question
-         */
-        private $handler;
+    use Magento\Framework\Event\Observer;
+    use Magento\Framework\Event\ObserverInterface;
+    use Vendor\Module\Model\GdprDataHandler;
 
-        /**
-         * @param \Vendor\Module\Model\PersonalDataHandler\Question $handler
-         */
-        public function __construct(
-            \Vendor\Module\Model\PersonalDataHandler\Question $handler
-        ) {
+    class RegisterPersonalDataHandler implements ObserverInterface
+    {
+        private GdprDataHandler $handler;
+
+        public function __construct(GdprDataHandler $handler)
+        {
             $this->handler = $handler;
         }
 
-        /**
-         * @param \Magento\Framework\Event\Observer $observer
-         * @return void
-         */
-        public function execute(\Magento\Framework\Event\Observer $observer)
+        public function execute(Observer $observer)
         {
             $observer->getCollection()->addItem($this->handler);
         }
@@ -60,29 +53,19 @@ All we need to process personal data is to register a personal data handler.
     ```php
     <?php
 
-    namespace Vendor\Module\Model\PersonalDataHandler;
+    namespace Vendor\Module\Model;
 
-    use Swissup\Gdpr\Model\ClientRequest;
-    use Swissup\Gdpr\Model\PersonalDataHandler\AbstractHandler;
-    use Swissup\Gdpr\Model\PersonalDataHandler\HandlerInterface;
     use Magento\Framework\Exception\LocalizedException;
+    use Swissup\Gdpr\Model\ClientRequest;
+    use Swissup\Gdpr\Model\PersonalDataHandler\HandlerHelper;
+    use Vendor\Module\Model\ResourceModel\Item\CollectionFactory;
 
-    class Question extends AbstractHandler implements HandlerInterface
+    class GdprDataHandler
     {
-        /**
-         * @var \Vendor\Module\Model\ResourceModel\Question\CollectionFactory
-         */
-        private $collectionFactory;
+        private CollectionFactory $collectionFactory;
 
-        /**
-         * @param \Swissup\Gdpr\Model\PersonalDataHandler\Context $context
-         * @param \Vendor\Module\Model\ResourceModel\Question\CollectionFactory $collectionFactory
-         */
-        public function __construct(
-            \Swissup\Gdpr\Model\PersonalDataHandler\Context $context,
-            \Vendor\Module\Model\ResourceModel\Question\CollectionFactory $collectionFactory
-        ) {
-            parent::__construct($context);
+        public function __construct(CollectionFactory $collectionFactory)
+        {
             $this->collectionFactory = $collectionFactory;
         }
 
@@ -97,7 +80,7 @@ All we need to process personal data is to register a personal data handler.
          * @return void
          * @throws LocalizedException
          */
-        public function beforeDelete(ClientRequest $request)
+        public function beforeDelete(ClientRequest $request, HandlerHelper $handlerHelper)
         {
             $collection = $this->getCollection($request)
                 ->addFieldToFilter('status', ['neq' => 'completed']);
@@ -112,51 +95,32 @@ All we need to process personal data is to register a personal data handler.
             }
         }
 
-        /**
-         * @return void
-         */
-        public function delete(ClientRequest $request)
+        public function delete(ClientRequest $request, HandlerHelper $handlerHelper)
         {
             $this->anonymize($request);
         }
 
-        /**
-         * @return void
-         */
-        public function anonymize(ClientRequest $request)
+        public function anonymize(ClientRequest $request, HandlerHelper $handlerHelper)
         {
-            $collection = $this->getCollection($request);
-            $size = $collection->getSize();
+            $collections = [$this->getCollection($request, $handlerHelper)];
 
-            $this->anonymizeCollections(
-                [
-                    $collection
-                ],
-                [
-                    'email' => $this->faker->getEmail($request),
-                    'fullname' => $this->faker->getStaticPlaceholder(),
-                ]
-            );
+            $handlerHelper->anonymizeCollections($collections, [
+                'email' => $handlerHelper->getFaker()->getEmail($request),
+                'fullname' => $handlerHelper->getFaker()->getStaticPlaceholder(),
+            ]);
 
             $request->addSuccess(sprintf(
                 'Questions data anonymization finished. %s items where processed',
-                $size
+                $collection->getSize()
             ));
         }
 
-        /**
-         * @return array
-         */
-        public function export(ClientRequest $request)
+        public function export(ClientRequest $request, HandlerHelper $handlerHelper)
         {
             return [];
         }
 
-        /**
-         * @param  ClientRequest $request
-         * @return \Magento\Sales\Model\ResourceModel\Order\Collection
-         */
-        private function getCollection(ClientRequest $request)
+        private function getCollection(ClientRequest $request, HandlerHelper $handlerHelper)
         {
             $columns = ['email'];
             $values = [$request->getClientIdentity()];
@@ -166,15 +130,14 @@ All we need to process personal data is to register a personal data handler.
                 $values[] = $request->getCustomerId();
             }
 
-            $collection = $this->collectionFactory->create()
-                ->addFieldToFilter($columns, $values);
+            $collection = $this->collectionFactory->create()->addFieldToFilter($columns, $values);
 
-            if ($this->useWebsiteFilter()) {
+            if ($handlerHelper->useWebsiteFilter()) {
                 $collection->addFieldToFilter(
                     'store_id',
                     [
                         'or' => [
-                            ['in' => $this->getStoreIds($request)],
+                            ['in' => $handlerHelper->getStoreIds($request)],
                             ['null' => true],
                         ]
                     ]
