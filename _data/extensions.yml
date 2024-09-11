@@ -90,7 +90,7 @@ botprotection:
   short_description: One more line of defence from unwelcome visitors.
   urls:
     m1: /m1/extensions/botprotection/
-    m2:
+    m2: /m2/extensions/bot-protection/
 
 breeze:
   title: Breeze
