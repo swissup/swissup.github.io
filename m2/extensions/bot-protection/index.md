@@ -9,6 +9,10 @@ category: Bot Protection
 This module allows to protect your forms from unwanted bots. By default it protects
 checkout if common hacky words are found in request params.
 
+When we block the request, we redirect visitor to the previous page and
+display the `Unable to process the request. Invalid parameter received` error
+message.
+
 {% include gallery.html images=site.data.gallery.m2.bot-protection.index class="phone-up-2 tablet-up-3 photoswipe scroll" %}
 
 ### Contents
