@@ -8,6 +8,12 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.33.0
+
+> September 11, 2024
+
+ -  [BotProtection](/m2/extensions/bot-protection/) module added to Firecheckout.
+
 ### Version 1.32.1
 
 > September 2, 2024
