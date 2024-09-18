@@ -8,6 +8,27 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.8.10
+
+> Sep 18, 2024
+
+- Fix file.min.js and file.js dublicate loading for '_' and '$' rjs contexts
+- Prevent integrity adding (broke js files including) if another files doesn't have integrity
+- Prevent 'jsbuild' js error
+
+### Version 1.8.9
+
+> Sep 9, 2024
+
+ - Remove js bundles from breeze pages
+
+### Version 1.8.8
+
+> Sep 2, 2024
+
+ - Fix config path move_inline_to_bottom => move_script_to_bottom
+
+
 ### Version 1.8.7
 
 > Sep 2, 2024
