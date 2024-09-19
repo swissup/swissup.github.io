@@ -8,6 +8,13 @@ category: Highlight
 
 # Changelog
 
+### Version 1.10.4
+
+> September 19, 2024
+
+ -  Fixed possible "duplicate ID 'limiter'" error.
+ -  Do not render bottom toolbar block when there is only one page to display.
+
 ### Version 1.10.3
 
 > September 2, 2024
