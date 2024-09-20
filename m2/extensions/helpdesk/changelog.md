@@ -6,6 +6,12 @@ keywords: Helpdesk changelog
 category: Helpdesk
 ---
 
+### Version 1.3.1
+
+> Sep 20, 2024
+
+ -  Added integration with oauth2.
+
 ### Version 1.3.0
 
 > Sep 4, 2024
