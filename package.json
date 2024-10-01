@@ -9,10 +9,10 @@
   "repository": "https://github.com/swissup/swissup.github.io",
   "devDependencies": {
     "anchor-js": "^5.0.0",
-    "browser-sync": "^2.29.3",
+    "browser-sync": "^3.0.0",
     "clipboard": "^2.0.6",
     "flickity": "^2.2.1",
-    "gulp": "^4.0.2",
+    "gulp": "^5.0.0",
     "gulp-clean-css": "^4.3.0",
     "gulp-concat": "^2.6.0",
     "gulp-filter": "^7.0.0",

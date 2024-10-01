@@ -26,30 +26,8 @@ bin/magento marketplace:package:remove <package>    # remove the package
 
 All other commands are useful to debug some issues. They are not needed usually.
 
-<!-- MarkdownTOC -->
-
-- [Authorization commands](#authorization-commands)
-    - [marketplace:auth](#marketplaceauth)
-    - [marketplace:auth:import](#marketplaceauthimport)
-    - [marketplace:auth:path](#marketplaceauthpath)
-    - [marketplace:auth:check](#marketplaceauthcheck)
-    - [marketplace:auth:set](#marketplaceauthset)
-    - [marketplace:auth:show](#marketplaceauthshow)
-    - [marketplace:auth:key:add](#marketplaceauthkeyadd)
-    - [marketplace:auth:key:remove](#marketplaceauthkeyremove)
-- [Channel commands](#channel-commands)
-    - [marketplace:channel:enable](#marketplacechannelenable)
-    - [marketplace:channel:disable](#marketplacechanneldisable)
-    - [marketplace:channel:clean](#marketplacechannelclean)
-    - [marketplace:channel:list](#marketplacechannellist)
-- [Package commands](#package-commands)
-    - [marketplace:package:require](#marketplacepackagerequire)
-    - [marketplace:package:remove](#marketplacepackageremove)
-    - [marketplace:package:install](#marketplacepackageinstall)
-    - [marketplace:package:update](#marketplacepackageupdate)
-    - [marketplace:package:show](#marketplacepackageshow)
-
-<!-- /MarkdownTOC -->
+* TOC
+{:toc}
 
 ## Authorization commands
 
@@ -151,6 +129,26 @@ Usage: `bin/magento marketplace:package:remove <package>`
 Run the installer for the requested module. If module provides an installer.
 
 Usage: `bin/magento marketplace:package:install <package>`
+Advanced usage examples:
+
+```bash
+# Run cms-page and config installers only for specified store
+bin/magento marketplace:package:install <package> store=ID cms-page config
+
+# Run all except cms-page installer for specified store
+bin/magento marketplace:package:install <package> store=ID skip-cms-page
+```
+
+Known installers:
+
+ - cms-page
+ - cms-block
+ - config
+ - tabs
+ - menu
+ - slider
+ - banner
+ - widget
 
 ### marketplace:package:update
 

@@ -8,6 +8,44 @@ category: Highlight
 
 # Changelog
 
+### Version 1.10.4
+
+> September 19, 2024
+
+ -  Fixed possible "duplicate ID 'limiter'" error.
+ -  Do not render bottom toolbar block when there is only one page to display.
+
+### Version 1.10.3
+
+> September 2, 2024
+
+ -  Fixed PHP error when using table prefixes.
+
+### Version 1.10.0
+
+> August 5, 2024
+
+ -  [New Page](/m2/extensions/highlight/pages/) and [Widget](/m2/extensions/highlight/widgets/)
+    added: **Bulk Bestsellers**.
+
+    While old Bestsellers page show most sold products ordered by orders count,
+    the new Bulk Bestsellers page shows most sold products ordered by quantity
+    sold count.
+
+### Version 1.9.5
+
+> Apr 1, 2024
+
+ -  Breeze: fixed not working scroll animation when clicking "next" for the first time.
+ -  Fixed not working page_count parameter when ajax carousel is used.
+
+### Version 1.9.3
+
+> Mar 28, 2024
+
+ -  Fixed js error in highlight carousel in Luma theme when Breeze module is used.
+ -  Fixed possible js error "blockData" on undefined.
+
 ### Version 1.9.1
 
 > Feb 2, 2024

@@ -8,6 +8,79 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.33.0
+
+> September 11, 2024
+
+ -  [BotProtection](/m2/extensions/bot-protection/) module added to Firecheckout.
+
+### Version 1.32.1
+
+> September 2, 2024
+
+ -  Disable guest REST API if guest checkout is disabled.
+ -  PayPal_Braintree: fixed possible outdated address information.
+ -  Fixed not working tax-free purchases when admin price includes tax.
+
+### Version 1.31.10
+
+> August 6, 2024
+
+ -  Fixed too large gap between email and password fields
+ -  Fixed CSS issue with AddressFieldManager module when checkbox or radio fields are in use.
+ -  Few CSS fixes for StripePayments module.
+ -  Breeze: small CSS fixes
+
+### Version 1.31.9
+
+> Jul 2, 2024
+
+ -  Fixed race condition bug that caused not working "Billing is same as shipping" when instant save is enabled.
+ -  Fixed rarely invisible shipping form in Safari.
+
+### Version 1.31.8
+
+> Jun 14, 2024
+
+ -  Fixed inability to select billing address equal to shipping from addresses dropdown list.
+ -  Fixed not checked "Same as Shipping Address" checkbox when using multistep layout.
+ -  Fixed inability to update GeoIP database using "Update" button.
+
+### Version 1.31.7
+
+> May 15, 2024
+
+ -  Fixed billing address validation when it's moved to the shipping step.
+ -  Fixed copying shipping address into the billing if "Same as shipping" checkbox is not set.
+ -  Improve CSS when billing address is shown after shipping.
+ -  [AddressFieldManager](https://docs.swissuplabs.com/m2/extensions/address-field-manager/)
+    Fixed php error when using paypal standard buttons at product page.
+
+### Version 1.31.6
+
+> Apr 23, 2024
+
+ -  Fixed not working jsbuild prefetch when js merge is enabled
+ -  Breeze: fix layout shift when critical css is enabled
+
+### Version 1.31.4
+
+> Mar 28, 2024
+
+ -  Improved integration with MSI Pickup In Store module.
+ -  Css fixes for third-party themes.
+ -  [CheckoutFields](https://docs.swissuplabs.com/m2/extensions/checkout-fields/):
+    Fixed incorrect displayed date in backend calendar editor when
+    frontend and backend using different locales.
+ -  [CheckoutRegistration](https://docs.swissuplabs.com/m2/extensions/checkout-registration/):
+    Added ability to disable module for orders created via rest/soap api.
+ -  [CustomerFieldManager](https://docs.swissuplabs.com/m2/extensions/customer-field-manager/):
+    Fixed large gap between customer registration form and submit button.
+ -  [DeliveryDate](https://docs.swissuplabs.com/m2/extensions/delivery-date/):
+    Fixed possible incorrect date in backend edit calendar.
+ -  [OrderAttachments](https://docs.swissuplabs.com/m2/extensions/order-attachments/):
+    Fixed inability to upload the same file multiple times in a row.
+
 ### Version 1.31.3
 
 > Nov 28, 2023

@@ -126,7 +126,7 @@ By default, custom theme doesn't inherit theme editor changes. If you want
 to apply the changes to your custom theme (inherited from one of Argento themes)
 you should explicitly indicate this in theme view.xml file:
 
- 1. Open `etc/view.xml` file inside your custom theme. If it doens't exist, create it:
+ 1. Open `etc/view.xml` file inside your custom theme. If it doesn't exist, create it:
 
     ```xml
     <?xml version="1.0"?>
@@ -145,6 +145,7 @@ you should explicitly indicate this in theme view.xml file:
  3. Replace `THEME_EDITOR_CODE` with one of the following values:
 
     - swissup_absolute
+    - swissup_argento_chic
     - swissup_argento_essence
     - swissup_argento_flat
     - swissup_argento_force

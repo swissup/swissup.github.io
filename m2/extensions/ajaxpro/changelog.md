@@ -6,6 +6,70 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.7.12
+
+> Aug 21, 2024
+
+ - Fix/rewrite minicart/override logic
+ - Improve Template block(s) and viewModel(s)
+ - Remove Block/Config?? use viewModel instead
+ - Improve init performance
+
+### Version 1.7.11
+
+> Aug 1, 2024
+
+ - Quick view link. Add title.
+ - "Quick View" string localize for nl_NL
+
+### Version 1.7.10
+
+> Jun 21, 2024
+
+ - Breeze: update according to the latest changes
+
+### Version 1.7.9
+
+
+### Version 1.7.9
+
+> Jun 7, 2024
+
+ - Breeze: update according to the latest changes
+
+### Version 1.7.8
+
+> May 13, 2024
+
+ - Revert changed styles ajax onComplete
+ - Remove unused code (Fix for ignition popup)
+
+### Version 1.7.7
+
+> May 3, 2024
+
+ - Breeze: Fixed possible js errors when navigate using back button.
+ - Fixed conflict with Amasty_Xnotif module.
+
+### Version 1.7.6
+
+> Apr 29, 2024
+
+ - Fix wrong uenc value in ajax product view request(s)
+
+### Version 1.7.5
+
+> Mar 26, 2024
+
+ - Fix broken 'Login for Price' refer param behaviour
+
+### Version 1.7.4
+
+> Feb 2, 2024
+
+ - Breeze: Do not load floatingcart.js if block is removed from layout
+ - Fixed js error when window.checkout is not defined
+
 ### Version 1.7.3
 
 > Feb 2, 2024

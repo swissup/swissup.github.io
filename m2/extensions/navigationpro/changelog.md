@@ -8,6 +8,25 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.17.16
+
+> August 5, 2024
+
+ -  Fixed wrong styles for multicolumn layout when less.js v4 via grunt command is used.
+ -  Fixed missing `alt` attribute in generated Amazon, Megamenu, and Iconic menus.
+
+### Version 1.17.13
+
+> Apr 1, 2024
+
+ -  Reduce layout shift when "nowrap" feature is used.
+
+### Version 1.17.11
+
+> Mar 7, 2024
+
+ -  Fixed large margin below category name on mobile view when using megamenu.
+
 ### Version 1.17.10
 
 > Feb 2, 2024

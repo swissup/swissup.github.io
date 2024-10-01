@@ -8,6 +8,12 @@ category: Checkout VAT
 
 # Changelog
 
+### Version 1.4.5
+
+> Sep 2, 2024
+
+ -  Fixed not working tax-free purchases when admin price includes tax.
+
 ### Version 1.4.4
 
 > Nov 28, 2023

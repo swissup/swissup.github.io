@@ -1,0 +1,40 @@
+- href: /images/m2/argento/chic/index/desktop-home.webp
+  src: /images/m2/argento/chic/index/small/desktop-home.webp
+  title: Argento Chic homepage.
+  w: 1554
+  h: 8178
+- href: /images/m2/argento/chic/index/desktop-category.webp
+  src: /images/m2/argento/chic/index/small/desktop-category.webp
+  title: Argento Chic category page.
+  w: 1550
+  h: 3588
+- href: /images/m2/argento/chic/index/desktop-category-filtered.webp
+  src: /images/m2/argento/chic/index/small/desktop-category-filtered.webp
+  title: Argento Chic category page with applied filter.
+  w: 1530
+  h: 3588
+- href: /images/m2/argento/chic/index/desktop-product.webp
+  src: /images/m2/argento/chic/index/small/desktop-product.webp
+  title: Argento Chic product page.
+  w: 1550
+  h: 5655
+- href: /images/m2/argento/chic/index/desktop-product-collapsed.webp
+  src: /images/m2/argento/chic/index/small/desktop-product-collapsed.webp
+  title: Argento Chic product page with collapsed tabs.
+  w: 1500
+  h: 2774
+- href: /images/m2/argento/chic/index/mobile-product.png
+  src: /images/m2/argento/chic/index/small/mobile-product.png
+  title: Argento Chic product page on mobile devices.
+  w: 1410
+  h: 2862
+- href: /images/m2/argento/chic/index/mobile-category.png
+  src: /images/m2/argento/chic/index/small/mobile-category.png
+  title: Argento Chic category page on mobile devices.
+  w: 1410
+  h: 2862
+- href: /images/m2/argento/chic/index/mobile-menu.png
+  src: /images/m2/argento/chic/index/small/mobile-menu.png
+  title: Argento Chic mobile menu.
+  w: 1410
+  h: 2862

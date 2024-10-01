@@ -10,11 +10,11 @@ argento:
     m1: /m1/argento
     m2: /m2/argento
 
-breeze-blank:
-  title: Breeze Blank Theme
+argento-breeze:
+  title: Argento Breeze Theme
   urls:
     m1:
-    m2: /m2/themes/breeze-blank/
+    m2: /m2/argento-breeze
 
 classic:
   title: Classic Theme

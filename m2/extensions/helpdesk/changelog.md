@@ -6,6 +6,32 @@ keywords: Helpdesk changelog
 category: Helpdesk
 ---
 
+### Version 1.3.1
+
+> Sep 20, 2024
+
+ -  Added integration with oauth2.
+
+### Version 1.3.0
+
+> Sep 4, 2024
+
+ -  Added integration with [Swissup_GDPR](/m2/extensions/gdpr/) module.
+ -  Removed empty spaces from textarea in ticket and message forms.
+
+### Version 1.2.43
+
+> Mar 28, 2024
+
+ -  Remove `psr/log:^1` dependency. We support all psr/log versions now.
+
+### Version 1.2.42
+
+> Mar 1, 2024
+
+ - Fix: Argument 1 (array) must be of type array, null given
+ - Replace \Zend\ namespace to \Laminas\ cb10ab
+
 ### Version 1.2.41
 
 > Jan 26, 2024

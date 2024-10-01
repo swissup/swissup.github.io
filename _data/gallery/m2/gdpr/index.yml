@@ -1,8 +1,13 @@
-- href: /images/m2/gdpr/frontend/cookie-bar-full.png
-  src: /images/m2/gdpr/frontend/small/cookie-bar-full.png
+- href: /images/m2/gdpr/frontend/cookie-bar-full.png?v=1
+  src: /images/m2/gdpr/frontend/small/cookie-bar-full.png?v=1
   title: Configurable cookie bar.
-  w: 1196
-  h: 773
+  w: 2350
+  h: 1382
+- href: /images/m2/gdpr/frontend/cookie-bar-mini.png?v=1
+  src: /images/m2/gdpr/frontend/small/cookie-bar-mini.png?v=1
+  title: Configurable cookie bar.
+  w: 2350
+  h: 1382
 - href: /images/m2/gdpr/frontend/newsletter.png
   src: /images/m2/gdpr/frontend/small/newsletter.png
   title: Consent in the newsletter form
@@ -59,3 +64,9 @@
   alt: Client's Requests
   w: 1100
   h: 434
+- href: /images/m2/gdpr/google-consent.png
+  src: /images/m2/gdpr/google-consent-sm.png
+  alt: Works with Google Consent Mode v2
+  title: Works with Google Consent Mode v2
+  w: 1545
+  h: 881

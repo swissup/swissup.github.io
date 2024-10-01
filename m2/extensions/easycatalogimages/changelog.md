@@ -8,6 +8,25 @@ category: EasyCatalogImages
 
 # Changelog
 
+### Version 1.5.8
+
+> August 5, 2024
+
+ -  Return path to original image if error happens during resize. Previsously we
+    showed image placeholder instead.
+
+### Version 1.5.6
+
+> May 3, 2024
+
+ -  Breeze: zoom on hover support added.
+
+### Version 1.5.4
+
+> Mar 12, 2024
+
+ -  Do not require category_id when inserting widget using Pagebuilder.
+
 ### Version 1.5.2
 
 > Nov 28, 2023

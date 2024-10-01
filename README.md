@@ -27,6 +27,14 @@ git pull && bundle install && npm install
 
 ## Running
 
+With Gulp:
+
 ```bash
 gulp
+```
+
+Without Gulp:
+
+```bash
+bundle exec jekyll serve --livereload --incremental
 ```

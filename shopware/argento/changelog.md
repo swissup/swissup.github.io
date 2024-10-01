@@ -8,6 +8,20 @@ category: Argento Shopware
 
 # Argento Theme Changelog
 
+### Version 3.0.0
+
+> May 3, 2024
+
+> **Warning!**
+>
+> This version requires **Shopware 6.6** or later
+
+  - Rewritten CMS Blocks to work on Shopware 6.6 and Vue 3
+  - Re-compiled storefront JavaScript for Shopware 6.6
+  - Updated data-attribute selector names
+  - Rewritten product page with new templates after removal of static templates in Shopware 6.6
+  - Small CSS fixes
+
 ### Version 2.0.0
 
 > Jun 15, 2023

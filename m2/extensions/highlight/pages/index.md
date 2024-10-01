@@ -17,7 +17,7 @@ category: Highlight
 
 ## Available Pages
 
-There are following pages are available:
+There are following pages available:
 
 Page            | Default Url
 ----------------|------------
@@ -25,7 +25,8 @@ New Products    | https://example.com/highlight/new.html
 Featured        | https://example.com/highlight/featured.html
 OnSale Products | https://example.com/highlight/onsale.html
 Popular         | https://example.com/highlight/popular.html
-Bestsellers     | https://example.com/highlight/bestsellers.html
+Bestsellers (By orders count)       | https://example.com/highlight/bestsellers.html
+Bulk Bestsellers (By quantity sold) | https://example.com/highlight/bulksellers.html
 
 ## Settings
 
@@ -49,7 +50,8 @@ folder.
 Possible file names:
 
  -  `highlight_view_index.xml` - layout update for all pages.
- -  `highlight_view_bestseller.xml`
+ -  `highlight_view_bestsellers.xml`
+ -  `highlight_view_bulksellers.xml`
  -  `highlight_view_featured.xml`
  -  `highlight_view_newaction.xml`
  -  `highlight_view_onsale.xml`

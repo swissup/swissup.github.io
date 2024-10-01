@@ -8,6 +8,26 @@ category: SoldTogether
 
 # Changelog
 
+### Version 1.10.0
+
+> Jul 29, 2024
+
+ -  NEW! "Frequently bought together" and "Customers also buy" blocks support custom options of promoted products there.
+ -  Overall CSS and JS improvements. Reduce module affect on page rendering at storefront. Now CSS of blocks loads only when any of them become visible.
+
+### Version 1.9.17
+
+> May 3, 2024
+
+ -  Fixed js error at the grouped product page.
+
+### Version 1.9.16
+
+> Apr 23, 2024
+
+ -  Fixed error on Magento 2.4.7 at product page with configurable products in module blocks.
+ -  Other minor fixes.
+
 ### Version 1.9.14
 
 > Feb 2, 2024

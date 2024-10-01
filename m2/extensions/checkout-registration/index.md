@@ -16,6 +16,7 @@ process at checkout page:
  -  Optional registration at checkout page
  -  Required registration at checkout page
  -  Automatic registration in background
+ -  Ability to disable for orders created via API
 
 {% include gallery.html images=site.data.gallery.m2.checkout-registration.index class="scroll phone-up-1 tablet-up-3 photoswipe" %}
 

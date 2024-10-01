@@ -8,6 +8,58 @@ category: GDPR
 
 # Changelog
 
+### Version 1.7.3
+
+> Jul 15, 2024
+
+ -  Magento 2.4.7-p1 compatibility: Fixed not working Google consents and GDPR
+    cookie consent toolbar at the checkout page.
+ -  Do not pass GA session params in URL when consent is declined or not yet accepted.
+
+### Version 1.7.0
+
+> Apr 30, 2024
+
+ -  Added ability to change and create region-specific [default Google consent values](/m2/extensions/gdpr/configuration/#cookie-consent-section).
+ -  Added "Deny" and "Allow Selection" buttons to [minimal cookie bar mode](/m2/extensions/gdpr/configuration/#cookie-bar-display-modes).
+ -  Fixed not working default Google consent values.
+ -  Do not set Google consent values until customer presses "Accept" or "Deny" buttons.
+ -  Allow using `url_passthrough` variable when consent is declined.
+ -  Default cookie wall color changed to dark.
+
+### Version 1.6.3
+
+> Apr 1, 2024
+
+ -  Breeze: fixed missing focus styles.
+ -  Improve styles for cookie togglers.
+
+### Version 1.6.2
+
+> Mar 15, 2024
+
+ -  Do not store `!notfound` cookie group in cookies.
+
+### Version 1.6.1
+
+> Mar 12, 2024
+
+ -  Fixed possible undefined 'swissupGdprCookieSettings' when using js bundling.
+ -  Fixed not working Magento_GoogleTag because of
+    [window.gtag function checking by Magento](https://github.com/magento/magento2/blob/2.4-develop/app/code/Magento/GoogleGtag/view/frontend/web/js/google-analytics.js#L39).
+
+### Version 1.6.0
+
+> Mar 5, 2024
+
+![Google Consent Mode](/images/m2/gdpr/google-consent.png){:width="772" height="440"}
+
+ - Added integration with [Google Consent Mode v2](https://developers.google.com/tag-platform/security/guides/consent?consentmode=advanced).
+   It's enabled by default. Still, you can disable it from the [module configuration](/m2/extensions/gdpr/configuration/#cookie-consent-section).
+ - Cookies reorganized into better groups. Preferences cookie group added.
+   Advertisement group merged into Marketing group.
+ - Removed useless customers section update after cookie consent settings were changed.
+
 ### Version 1.5.23
 
 > Feb 2, 2024

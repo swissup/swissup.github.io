@@ -7,6 +7,75 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.5.14
+
+> Jul 4, 2024
+
+ - Fix missing table prefix (not correct getTableName method)
+ - Fixed few typos in configuration
+
+### Version 1.5.13
+
+> May 30, 2024
+
+ - Fix wrong rusults count calculation (apply state filters)
+
+### Version 1.5.12
+
+> May 13, 2024
+
+ - Add Price slider inputs coma sanatizing
+ - Icrease time for typing in price inputs
+
+### Version 1.5.11
+
+> May 9, 2024
+
+ - Add 'step' attribute integration into breeze range-slider
+ - Fix ionRangeSlider is not function
+
+### Version 1.5.10
+
+> May 3, 2024
+
+ -  Breeze: fixed scroll position restoration on page reload.
+
+### Version 1.5.9
+
+> Apr 24, 2024
+
+ - Fix getAllCategoryProductIds logic return product ids only from current category
+
+### Version 1.5.8
+
+> Apr 19, 2024
+
+ - Fix setIsLoaded(true) to not loaded product collection
+ - Add flag checking before collection filter apply
+
+### Version 1.5.7
+
+> Mar 28, 2024
+
+ -  Remove `psr/log:^1` dependency. We support all psr/log versions now.
+
+### Version 1.5.6
+
+> Mar 7, 2024
+
+- Fix: Assignment to constant variable (Close #96)
+- Improve getFacetedData logic (Close #95)
+- Improve di argument (use Factory)
+
+### Version 1.5.5
+
+> Feb 16, 2024
+
+- Add Scroll-Up config option
+- Fix push url state after aln request completed
+- Add lazy loading for jacl.min.js (ajax request caching lib)
+- Remove URLSearchParams polyfill
+
 ### Version 1.5.4
 
 > Feb 1, 2024

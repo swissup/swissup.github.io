@@ -6,6 +6,27 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.13.20
+
+> Aug 6, 2024
+
+ -  Fixed incorrect sort order of config group.
+
+### Version 1.13.19
+
+> Jul 11, 2024
+
+ -  Breeze: fixed inability to open mobile search form on the pages with disabled
+    breeze js.
+
+### Version 1.13.16
+
+> May 17, 2024
+
+ -  Split category initialization
+ -  Add (split) get-graphql-query
+ -  Improve initialization viewModel
+
 ### Version 1.13.15
 
 > Nov 28, 2023

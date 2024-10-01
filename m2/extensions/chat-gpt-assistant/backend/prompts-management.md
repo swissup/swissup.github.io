@@ -74,6 +74,20 @@ Create short product description for {% raw %}{{attribute code="name"}}{% endraw
 Create short product description for Fusion Backpack in en_US language.
 ```
 
+**{% raw %}{{subcats [prefix="..."] [sufix="..."] [exclude="..."] [limit="..."] [separator="..."]}}{% endraw %}** - get subcategories for category. You can set max number of subcategories to output (limit) and separator (separator). With exclude option you can exclude some subcategories from output by their names.
+
+*Example:*
+
+```
+Write a short marketing description for the product category "{% raw %}{{attribute code="name"}}{% endraw %}" with child subcategories: {% raw %}{{subcats}}{% endraw %}
+```
+
+*Result:*
+
+```
+Write a short marketing description for the product category "Women" with child subcategories: Tops, Bottoms
+```
+
 With sufix and prefix options you can add some text before or after output. Works only when output is not empty.
 
 Directive options in square brackets ([...]) are optional. If you want to use option please do not wrap it in square brackets.

@@ -26,7 +26,7 @@ Category page in Argento Marketplace has traditional elements of Magento 2 categ
 
 ### Layout
 
-Argento Marketplace uses `2columns-left` layout for the product page. Follow our [customization guide](/m2/argento/customization/change-page-layout/)
+Argento Marketplace uses `2columns-left` layout for the category page. Follow our [customization guide](/m2/argento/customization/change-page-layout/)
 to change it to another one. Or use [category page builder](/m2/argento/customization/theme-editor/#category-page-builder) in theme editor.
 
 ### Product list

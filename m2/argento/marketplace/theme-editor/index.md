@@ -49,7 +49,7 @@ You can see options of footer section config in slider on top of the page. This 
 
 Default look of the footer you can find below.
 
-![Argento Home Footer](/images/m2/argento/marketplace/footer/footer.png)
+![Argento Marketplace Footer](/images/m2/argento/marketplace/footer/footer.png)
 
 ### Buttons
 

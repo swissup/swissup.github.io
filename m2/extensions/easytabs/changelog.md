@@ -8,6 +8,12 @@ category: Easy Tabs
 
 # Changelog
 
+### Version 1.12.9
+
+> Apr 1, 2024
+
+ -  Magento 2.4.7 compatibility fixes.
+
 ### Version 1.12.8
 
 > Feb 2, 2024

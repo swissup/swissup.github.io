@@ -11,6 +11,7 @@ category: AskIt
 
 # Changelog
 
+<<<<<<< HEAD
 ### Version 1.14.0
 
 > Feb 23, 2024
@@ -19,6 +20,40 @@ category: AskIt
  - **New Config Group:** Added a new config group "Questions page." Options include disabling it entirely, showing the page only when it has at least one question, or always showing it. Closes #62.
  - **Messages Repository Update:** Messages repository now allows selection by `item_id` and/or `item_type_id`.
  - **Fix (Add) Component:** Fixed and added `data-vote` component for non-ajax listing.
+=======
+### Version 1.14.6
+
+> Sep 4, 2024
+
+ - Fixed empty askit form in breeze. Needs to update Breeze module.
+
+### Version 1.14.5
+
+> Aug 30, 2024
+
+ - add askit default captcha integration for breeze themes
+ - Fix captcha param losing when data-form-part is not set
+
+### Version 1.14.4
+
+> Jun 21, 2024
+
+ - Breeze: update to latest version
+
+### Version 1.14.3
+
+> Jun 11, 2024
+
+ - Breeze: remove global variables
+ - Breeze: Load questions when element comes into the viewport
+
+### Version 1.14.2
+
+> Mar 28, 2024
+
+ -  Remove `psr/log:^1` dependency. We support all psr/log versions now.
+ -  Prevent 404 error on product page caused by ajax request.
+>>>>>>> 83a8ef395d6c030d4f3232831d10111536cbaef5
 
 ### Version 1.13.2
 

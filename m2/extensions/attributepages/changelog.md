@@ -7,6 +7,20 @@ category: Attributepages
 
 # Changelog
 
+### Version 1.7.0
+
+> Aug 5, 2024
+
+ -  [URL suffix](/m2/extensions/attributepages/configuration/#seo) feature added.
+ -  Fixed overflowed dropdown content of the "Save" button in admin panel.
+
+### Version 1.6.10
+
+> Apr 1, 2024
+
+ -  Fixed missing height parameter in widget slider.
+ -  Added underline style for hovered links.
+
 ### Version 1.6.8
 
 > Feb 2, 2024

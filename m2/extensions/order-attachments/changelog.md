@@ -7,6 +7,12 @@ category: Order Attachments
 
 # Changelog
 
+### Version 1.5.1
+
+> Mar 6, 2024
+
+ -  Fixed inability to upload the same file multiple times in a row.
+
 ### Version 1.5.0
 
 > Aug 7, 2023

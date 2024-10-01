@@ -35,9 +35,7 @@ Here is an example on how to add additional consent to the "Contact Us" form.
          */
         public function execute(\Magento\Framework\Event\Observer $observer)
         {
-            $forms = $observer->getCollection();
-
-            $forms->getItemById('magento:contact-us')->addConsent([
+            $observer->getCollection()->getItemById('magento:contact-us')->addConsent([
                 'html_id' => 'vendor_module_id',
                 'sort_order' => 0,
                 'title' => __('Custom consent added via event observer'),

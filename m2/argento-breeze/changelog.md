@@ -7,6 +7,85 @@ category: ArgentoBreeze
 
 # Argento Breeze Changelog
 
+### Version 2.4.0
+
+> May 9, 2024
+
+ -  Scroll reveal animations added all themes. See [upgrade guide](/m2/argento-breeze/upgrade-instructions/)
+    on how to add scroll reveal to existing CMS pages.
+ -  Zoom on hover animation added to product listing in Force and Chic themes.
+ -  Fixed menu styles in Force and Stripes themes.
+ -  Fixed too large MSRP message in Force theme.
+ -  Fixed js errors when using unpack feature from [Pagespeed] module.
+
+**[GDPR](/m2/extensions/gdpr/)**
+
+ -  Added ability to change and create region-specific [default Google consent values](/m2/extensions/gdpr/configuration/#cookie-consent-section).
+ -  Added "Deny" and "Allow Selection" buttons to [minimal cookie bar mode](/m2/extensions/gdpr/configuration/#cookie-bar-display-modes).
+
+### Version 2.3.1
+
+> Apr 23, 2024
+
+ -  Magento 2.4.7 compatibility.
+
+**[AttributePages](/m2/extensions/attributepages/)**
+
+ -  Added redirect from pages with trailing slash to the pages without trailing slash.
+
+**[ChatGPT](/m2/extensions/chat-gpt-assistant/)**
+
+ -  Added mass product content generation.
+ -  Added content generation for category description and meta tags.
+ -  Added product meta title and keywords generation.
+
+**[EasySlide](/m2/extensions/easyslider/)**
+
+ -  Fixed inability to remove slide description.
+
+**[GDPR](/m2/extensions/gdpr/)**
+
+ -  Improve styles for cookie togglers.
+ -  Fixed missing toggler focus style.
+
+**[Highlight](/m2/extensions/highlight/)**
+
+ -  Fixed not working page_count parameter when ajax carousel is used.
+
+**[SeoSuite](/m2/extensions/seo-suite/)**
+
+ -  Magenfan Blog integration updated.
+
+### Version 2.3.0
+
+> Mar 7, 2024
+
+ -  ArgentoChic: Fixed [Askit](/m2/extensions/askit/) styles when gravatar is enabled.
+ -  ArgentoChic: Fixed incorrectly rotated "close" buttons in askit questions.
+ -  Compatibility with latest [Breeze Frontend](https://breezefront.com/updates).
+ -  JS fixes in all bundled modules.
+
+**[EasyBanner](/m2/extensions/easybanners/)**
+
+ -  Fixed possible incorrect edit URL in backend.
+ -  Updated integration with latest GDPR module.
+
+**[GDPR](/m2/extensions/gdpr/)**
+
+ -  Added inegration with Google Consent Mode.
+ -  Preferences cookie group added. Advertisement group is replaced by marketing.
+
+**[Highlight](/m2/extensions/highlight/)**
+
+ -  Fixed possible js error "blockData" on undefined.
+ -  Fixed carousel styles.
+
+**[SeoSuite](/m2/extensions/seo-suite/)**
+
+ -  Prevent possible exception from Magento_Review module on product listing page
+    when [AjaxLayeredNavigation](/m2/extensions/ajaxlayerednavigation) module is used.
+ -  Smile Integration update. Fix PHP error "Illegal offset type in isset or empty"
+
 ### Version 2.2.0
 
 > Nov 28, 2023

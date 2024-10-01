@@ -8,6 +8,43 @@ category: SEO Suite
 
 # Changelog
 
+### Version 1.18.0
+
+> Apr 23, 2024
+
+Magento 2.4.7 fixes. New features added. Better stability.
+
+*swissup/module-hreflang — 1.6.6 (was 1.6.1)*
+
+ -  NEW: option at storeview level to set custom locale.
+ -  Integration updates for Magefan Blog, Amasty Store Locator and Magento XML Sitemap.
+ -  Overall stability improvements.
+
+*swissup/module-rich-snippets — 1.7.3 (was 1.6.3)*
+
+ -  NEW: option to set image size for product data snippet.
+ -  NEW: FAQ snippet widget.
+ -  Added OnlineStore to the Organization Type dropdown.
+ -  Shipping details snippet. It works with table rate shipping and matrix rate shipping from WebShopApps vendor. Cache snippet data to avoid too many shipping requests to online carriers.
+
+*swissup/module-seo-canonical — 1.11.9 (was 1.11.8)*
+
+ -  NEW: setting for each category in Magento Admin to set custom canonical URL.
+
+*swissup/module-seo-cross-links — 1.1.13 (was 1.1.12)*
+
+ -  NEW: Magefan Blog integratation.
+
+*swissup/module-seo-templates — 1.7.7 (was 1.7.4)*
+
+ -  NEW: directive `random`. Randomly outputs string from list of strings. Example - `{% raw %}{{random "Get|Purchase|Buy|Acquire|Find|Check"}}{% endraw %}`.
+ -  ACL updates.
+
+*swissup/module-seo-urls — 1.5.50 (was 1.5.43)*
+
+ -  Improved url resolving when filter name occurs in filter value.
+ -  Smile module integration updated. Fix PHP error "Illegal offset type in isset or empty"
+
 ### Version 1.17.0
 
 > Jul 13, 2023
@@ -131,7 +168,7 @@ Code improvement for all included modules.
 *swissup/module-seo-cross-links — 1.1.7 (was 1.1.6)*
 
   - NEW: link Tooltip.
-  - Fix possible issue of using ampersand and slash symbols in a keyword. Notice added. 
+  - Fix possible issue of using ampersand and slash symbols in a keyword. Notice added.
 
 *swissup/module-seo-xml-sitemap — 1.1.12 (was 1.1.11)*
 
@@ -213,7 +250,7 @@ Code improvement for all included modules.
 
 *swissup/module-seo-canonical — 1.11.3 (was 1.11.2)*
 
-  - Fixed incorrect canonical Url at homepage. Isuse occurs when homepage config is changed by store owner and there are multiple pages with the same identifier. 
+  - Fixed incorrect canonical Url at homepage. Isuse occurs when homepage config is changed by store owner and there are multiple pages with the same identifier.
 
 *swissup/module-seo-core — 1.3.4 (was 1.3.2)*
 
@@ -318,7 +355,7 @@ Move section "Swissup SEO Suite" under section "Swissup". Now you have config it
   - Fixed structured data error about review for product at Magento 2.4.x.
 
 *swissup/module-seo-html-sitemap — 1.1.8 (was 1.1.7)*
-  
+
   - Few fixes to add Highlight pages and Attribute (Brand) pages to sitemap. You have to update Highlight and Attribute Pages modules.
 
 *swissup/module-seo-pager — 1.2.8 (was 1.2.6)*
@@ -328,7 +365,7 @@ Move section "Swissup SEO Suite" under section "Swissup". Now you have config it
 *swissup/module-seo-urls — 1.5.24 (was 1.5.22)*
 
   - Fixed possible warning - strpos empty needle.
- 
+
 ### Version 1.9.5
 
 > Nov 26, 2020
@@ -336,31 +373,31 @@ Move section "Swissup SEO Suite" under section "Swissup". Now you have config it
 *swissup/module-hreflang — 1.4.3 (was 1.4.2)*
 
   - Fixed incorrect product URL for other stores in hreflang block.
-  
+
 *swissup/module-rich-snippets — 1.4.11 (was 1.4.10)*
 
   - "Price Valid Until" can be dynamic date - offset from today.
   - Code refactoring.
-  
+
 *swissup/module-seo-canonical — 1.0.8 (was 1.0.7)*
 
   - Fixed incoppert canonical URL for product when its parent is disabled.
-  
+
 *swissup/module-seo-core — 1.2.5 (was 1.2.4)*
 
   - PHP 7.4 compatibility fix - deprecated passing glue string after array with implode.
-  
+
 *swissup/module-seo-images — 1.3.7 (was 1.3.6)*
 
   - Improve module stability. Prevent DB exception - integrity constraint violation.
-  
+
 *swissup/module-seo-templates — 1.5.16 (was 1.5.13)*
 
   - Fixed missing generated metadata on category page for viewed category.
   - Slightly speed up template generating.
   - Remove cron task and CLI command. Use indexes instead and `bin/magento indexer:reinder [index_id]`.
   - Categories directive - don't include root category in result when template is created on 'All Store Views' level.
-  
+
 *swissup/module-seo-urls — 1.5.22 (was 1.5.16)*
 
   - Fixed array_flip warning during reindex.
