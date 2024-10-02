@@ -8,6 +8,16 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.8.11
+
+> Oct 1, 2024
+
+- Fix greedy behaviour LIBXML_HTML_NOIMPLIED
+- Add LIBXML_SCHEMA_CREATE (#68)
+- Fix double urlencoding
+- Fix wrong redirecting
+- Add button for generate default critical css
+
 ### Version 1.8.10
 
 > Sep 18, 2024
