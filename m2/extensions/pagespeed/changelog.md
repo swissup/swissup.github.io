@@ -8,6 +8,12 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.8.12
+
+> Oct 1, 2024
+
+- add fetchpriotity=high
+
 ### Version 1.8.11
 
 > Oct 1, 2024
