@@ -7,6 +7,48 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.5.21
+
+> oct 2, 2024
+
+ - Apply search term filter for price ranges (close #99)
+
+### Version 1.5.20
+
+> Sep 5, 2024
+
+ - Allow admin to enable/disable single select mode (close #97)
+
+### Version 1.5.19
+
+> Aug 29, 2024
+
+ - Use more specific selector to fix swatches More link
+
+### Version 1.5.18
+
+> Aug 9, 2024
+
+ - Fix null to float converting in php 8.2
+
+### Version 1.5.17
+
+> Aug 5, 2024
+
+ - Fix east arabic number detecting
+
+### Version 1.5.16
+
+> Jul 25, 2024
+
+ - Replace native <script> tag on secureRenderer->renderTag
+
+### Version 1.5.15
+
+> Jul 18, 2024
+
+ - code refactoring
+
 ### Version 1.5.14
 
 > Jul 4, 2024
