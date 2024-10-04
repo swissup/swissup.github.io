@@ -18,19 +18,19 @@ Option                     | Description
 ---------------------------|--------------------------------------------------
 Enable                     | Allows to enable/disable pagespeed per store view
 Enable in developer mode   | Allows to enable/disable pagespeed per in [developer mode](https://devdocs.magento.com/guides/v2.2/config-guide/bootstrap/magento-modes.html)
-Test GZIP compression      | Test gzip compression support on your web server
+Test GZIP compression      | Test GZIP compression support on your web server
 Server HTTP/2 push enabled | Enable/disable native [HTTP/2](https://en.wikipedia.org/wiki/HTTP/2) support
 
-### Minify HTML Content section
+### Minify the HTML Content section
 
 ![Minify HTML Content](/images/m2/pagespeed/configuration/minify-html-content.png)
 
 Option                          | Description
 --------------------------------|--------------------------------------------------------------
-Enable                          | Allows to enable/disable minify your pages HTML content. (Yes)
-Js Content Minification Enable  | Allows to enable/disable minify inline JS at HTML content. (Yes)
-Css Content Minification Enable | Allows to enable/disable minify inline CSS at HTML content. (Yes)
-Minify Templates                | Allows to enable/disable minify phtml templates (Yes)
+Enable                          | Allows enabling/disabling minify your page's HTML content. (Yes)
+Js Content Minification Enable  | Allows enabling/disabling minify inline JS at HTML content. (Yes)
+CSS Content Minification Enable | Allows enabling/disabling minify inline CSS at HTML content. (Yes)
+Minify Templates                | Allows enabling/disabling minify phtml templates (Yes)
 
 ### JavaScript Settings section
 
@@ -38,16 +38,16 @@ Minify Templates                | Allows to enable/disable minify phtml template
 
 Option                                          | Description
 ------------------------------------------------|-------------------------------------------
-Merge JavaScript Files                          | Allows to merge your javasripts files (Yes)
-Enable JavaScript Bundling                      | Allows to eneble/disable [JavaScript Bundling](https://devdocs.magento.com/guides/v2.2/frontend-dev-guide/themes/js-bundling.html) (No)
-Enable Advanced JavaScript Bundling (RequireJs)*| Allows to eneble/disable [Advanced JavaScript Bundling](https://devdocs.magento.com/guides/v2.3/performance-best-practices/advanced-js-bundling.html) (No)
+Merge JavaScript Files                          | Allows to merge your javascript files (Yes)
+Enable JavaScript Bundling                      | Allows to enable/disable [JavaScript Bundling](https://devdocs.magento.com/guides/v2.2/frontend-dev-guide/themes/js-bundling.html) (No)
+Enable Advanced JavaScript Bundling (RequireJs)*| Allows to enable/disable [Advanced JavaScript Bundling](https://devdocs.magento.com/guides/v2.3/performance-best-practices/advanced-js-bundling.html) (No)
 RequireJS Bundle Generator Build Config         | r.js optimize tool config. [RequireJS bundle config generating](https://github.com/magento/m2-devtools/blob/master/docs/panels/RequireJS.md#bundle-generator)
-Minify JavaScript Files                         | Allows to enable/disable minify javascripts files (Yes)
+Minify JavaScript Files                         | Allows to enable/disable minify javascript files (Yes)
 
 <!--
 #### If you want to enable 'Advanced JavaScript Bundling', you have to do some steps first:
 
-1. Disable 'Merge JavaScript Files', 'Enable JavaScript Bundling' and 'Minify JavaScript Files' before.
+1. Disable 'Merge JavaScript Files', 'Enable JavaScript Bundling', and 'Minify JavaScript Files' before.
 2. Flush Cache
 3. Enable Advanced JavaScript Bundling
 4. Reload a homepage
@@ -64,7 +64,7 @@ Minify JavaScript Files                         | Allows to enable/disable minif
 
 Option     | Description
 -----------|------------
-Enable     | Allow to enable/disable deferred running all js code at page
+Enable     | Allow to enable/disable deferred running all js code on the page
 Add Unpack | Allow to enable/disable using custom js code unpacking
 
 ### CSS Settings section
@@ -73,17 +73,17 @@ Add Unpack | Allow to enable/disable using custom js code unpacking
 
 Option           | Description
 -----------------|-------------------------------------------
-Merge CSS Files  | Allows to merge your css files (Yes)
-Minify CSS Files | Allows to enable/disable minify css files (Yes)
+Merge CSS Files  | Allows to merge your CSS files (Yes)
+Minify CSS Files | Allows to enable/disable minify CSS files (Yes)
 
 #### Critical CSS (Prioritize Visible Content)
 
 Option               | Description
 ---------------------|-------------------------------------------
 Enable               | Allows to enable/disable [Critical Css](https://developers.google.com/web/fundamentals/performance/critical-rendering-path/optimizing-critical-rendering-path?hl=en) (Yes)
-Default Critical CSS | There is only what the user can see when they first load the page. This means that we only need to load the minimum amount of CSS required to render the top portion of the page across all breakpoints. For the remainder of the CSS, we don’t need to worry as we can load it asynchronously. You can generate your site critical css [here](http://pagespeed.swissuplabs.com/critical-css/).
+Default Critical CSS | Only the user can see what they see when they first load the page. This means that we only need to load the minimum amount of CSS required to render the top portion of the page across all breakpoints. For the remainder of the CSS, we don’t need to worry as we can load it asynchronously. You can generate your site's critical CSS [here](http://pagespeed.swissuplabs.com/critical-css/).
 Use built-in critical CSS feature | Enable/disable Magento's built-in critical.css file.
-Merge custom critical css files from your theme | Enable/disable custom critical css from your theme.
+Merge custom critical CSS files from your theme | Enable/disable custom critical CSS from your theme.
 
 ### Image Processing Settings section
 
@@ -91,7 +91,7 @@ Merge custom critical css files from your theme | Enable/disable custom critical
 
 #### Optimize Catalog Images
 
-Before images can be optimized, you will need to install the Optimizers as described in article
+Before images can be optimized, you will need to install the Optimizers as described in the article
 
 ```bash
 sudo apt install jpegoptim
@@ -104,7 +104,7 @@ sudo apt-get install webp
 php bin/magento catalog:images:resize
 ```
 
-Also you can use our improved command.
+Also, you can use our improved command.
 
 ```bash
 bin/magento swissup:pagespeed:images:resize -h
@@ -123,9 +123,9 @@ Options:
 
 ```
 
-It creates resized and optimized product and some custom media images and their responsive duplicates 0.5x 0.75x 2x 3x. Custom dirs are wysiwyg, catalog/category, easybanner, easyslide, swissup, highlight, easycatalogimg, prolabels, testimonials, mageplaza inside pub/media.
+It creates resized and optimized product and some custom media images and their responsive duplicates 0.5x 0.75x 2x 3x. Custom dirs are WYSIWYG, catalog/category, easybanner, easyslide, swissup, highlight, easycatalogimg, prolabels, testimonials, mageplaza inside pub/media.
 
-It has custom options such us:
+It has custom options such as:
 
 Option                           | Description
 ---------------------------------|-----------------------------------------------------
@@ -137,10 +137,10 @@ Option                           | Description
 
 Option                           | Description
 ---------------------------------|-----------------------------------------------------
-Enable                           | Allows to enable/disable image auto opmisation (Yes)
+Enable                           | Allows to enable/disable image auto optimization (Yes)
 Enable WebP Support              | Enable/disable webp image detecting and generating
 Enable Responsive Images Support | Enable/disable [responsive images](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images) detecting and generating (0.5x, 0.75x, 2x, 3x)
-Default Responsive Images Sizes  | [Default sizes atribute values](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images#Resolution_switching_Different_sizes)
+Default Responsive Images Sizes  | [Default sizes attribute values](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images#Resolution_switching_Different_sizes)
 Enable Cron                      | Enable/disable cron schedule(s). (No)
 Cron Limit                       | Limit images per one cron task. (1000)
 
@@ -157,7 +157,7 @@ Ignore  | Field specify images that won’t be lazy loading.
 
 Option                        | Description
 ------------------------------|-------------------------------------------
-Auto Specify image dimensions | Allows to enable/disable auto add image width/heigh attributes (No)
+Auto Specify image dimensions | Allows to enable/disable auto add image width/height attributes (No)
 
 ### Expire Header section
 
@@ -176,7 +176,7 @@ The [dns-prefetch](https://www.w3.org/TR/resource-hints/#dns-prefetch) link rela
 
 Option                   | Description
 -------------------------|-------------------------------------------
-Enable | Allows to enable/disable DNS Prefetch feature
+Enable | Allows to enable/disable the DNS Prefetch feature
 
 ##### See also
 
