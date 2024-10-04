@@ -65,7 +65,9 @@ Minify JavaScript Files                         | Allows to enable/disable minif
 Option     | Description
 -----------|------------
 Enable     | Allow to enable/disable deferred running all js code on the page
+Ignore     | Allow to specify the list of signatures or script properties to prevent the deferring of this part of javascript
 Add Unpack | Allow to enable/disable using custom js code unpacking
+Run unpack on user interactive | Allows to enable the JavaScript delay based on user interaction
 
 ### CSS Settings section
 
@@ -137,7 +139,7 @@ Option                           | Description
 
 Option                           | Description
 ---------------------------------|-----------------------------------------------------
-Enable                           | Allows to enable/disable image auto optimization (Yes)
+Enable                           | Allows to enable/disable image auto-optimization (Yes)
 Enable WebP Support              | Enable/disable webp image detecting and generating
 Enable Responsive Images Support | Enable/disable [responsive images](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images) detecting and generating (0.5x, 0.75x, 2x, 3x)
 Default Responsive Images Sizes  | [Default sizes attribute values](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images#Resolution_switching_Different_sizes)
