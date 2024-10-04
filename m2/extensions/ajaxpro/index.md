@@ -102,7 +102,7 @@ Streamline add-to-cart function and remove interruptions from the shopping proce
     Shopping Cart       | Looks like the content on the shopping cart page but without going to it
     Minicart            | Looks like expanded minicart (cart in the right top corner)
 
-    > По замовчуванню SuggestPage Content. It depends on your theme pre-installed options
+    > Default value is SuggestPage Content. It depends on your theme pre-installed options
 
     Window types
 
