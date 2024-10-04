@@ -140,7 +140,7 @@ Streamline add-to-cart function and remove interruptions from the shopping proce
 
  * Show product popup for a product with options - For products with options, a popup will be displayed in which, without going to the product page you can select options and add the product to the cart
 
-  > опція Validation має бути вимкнута.
+  > Validation option must be disabled.
 ![Product popup](/images/m2/ajaxpro/usage-compare.gif)
 
  * Quick View - Adds the ability to view the product form in a separate pop-up window (and add the product to the cart) by clicking on a special graphical item
