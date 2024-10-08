@@ -8,6 +8,35 @@ category: Pagespeed
 
 # Changelog
 
+
+### Version 1.8.15
+
+> Oct 8, 2024
+
+- Add enable/disable html processing config option
+- Image also should preloaded
+- Add debug mode
+- Add options for 'Enable/Disable Pagespeed per page type'
+
+### Version 1.8.14
+
+> Oct 7, 2024
+
+- Fix short sriHashes patch placeholder after minification
+
+
+### Version 1.8.13
+
+> Oct 4, 2024
+
+- Fix sriHashes performance issue
+
+### Version 1.8.12
+
+> Oct 1, 2024
+
+- add fetchpriotity=high
+
 ### Version 1.8.12
 
 > Oct 1, 2024
