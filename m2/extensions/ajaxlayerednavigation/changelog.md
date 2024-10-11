@@ -7,9 +7,15 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.5.22
+
+> Oct 11, 2024
+
+ - Add integration with Amasty\ElasticSearch
+
 ### Version 1.5.21
 
-> oct 2, 2024
+> Oct 2, 2024
 
  - Apply search term filter for price ranges (close #99)
 
