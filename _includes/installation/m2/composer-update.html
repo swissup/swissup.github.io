@@ -24,5 +24,8 @@ When Marketplace module is installed you can proceed with update using the
 following command:
 
 ```bash
-bin/magento marketplace:package:update {{ include.package }}
+composer update {{ include.package }} -w &&\
+bin/magento setup:upgrade --safe-mode=1 &&\
+bin/magento setup:di:compile &&\
+bin/magento setup:static-content:deploy
 ```

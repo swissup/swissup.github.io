@@ -20,6 +20,9 @@ When Marketplace module is installed you can proceed with installation
 in teminal:
 
 ```bash
-bin/magento marketplace:package:require {{ include.package }}{% if include.installer == 'true' %} &&\
+composer require {{ include.package }} &&\
+bin/magento setup:upgrade --safe-mode=1 &&\
+bin/magento setup:di:compile &&\
+bin/magento setup:static-content:deploy{% if include.installer == 'true' %} &&\
 bin/magento marketplace:package:install {{ include.package }}{% endif %}
 ```
