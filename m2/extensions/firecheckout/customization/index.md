@@ -31,6 +31,7 @@ category: Firecheckout
     - [Postcode mask &amp; validator](use-cases/postcode-mask/)
     - [Change field size](use-cases/field-size/)
     - [Email double verification](use-cases/email-verification-field/)
+    - [Email verification checkbox](/m2/extensions/firecheckout/customization/use-cases/email-verification-checkbox/)
     - [Business account checkbox](use-cases/business-account-checkbox/)
     - [Move Checkout Fields to the Order Summary](use-cases/move-checkout-fields-to-order-summary/)
     - [Collapsible Checkout Fields section](use-cases/collapsible-checkout-fields/)
