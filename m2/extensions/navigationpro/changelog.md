@@ -8,6 +8,14 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.17.17
+
+> October 10, 2024
+
+ -  Removed TTL property from navigation block to prevent numerous issues with Varnish cash.
+ -  Improved [nowrap](https://docs.swissuplabs.com/m2/extensions/navigationpro/use-cases/nowrap/) calculation logic.
+ -  Fixed possible hidden menu items after simultaneous reload and rotate whne using nowrap feature.
+
 ### Version 1.17.16
 
 > August 5, 2024
