@@ -8,6 +8,12 @@ category: Cachewarmer
 
 # Changelog
 
+### Version 1.0.31
+
+> Oct 17, 2024
+
+ - Updated logging config since Varnish is supported now
+
 ### Version 1.0.30
 
 > Aug 6, 2024
