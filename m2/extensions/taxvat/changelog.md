@@ -8,6 +8,12 @@ category: Checkout VAT
 
 # Changelog
 
+### Version 1.33.1
+
+> October 18, 2024
+
+ -  Added integration with Amasty_Extrafee module.
+
 ### Version 1.4.5
 
 > Sep 2, 2024

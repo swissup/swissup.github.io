@@ -7,6 +7,15 @@ category: Attributepages
 
 # Changelog
 
+### Version 1.33.1
+
+> October 18, 2024
+
+ -  Show original image when resize was failed.
+ -  Svg image support added (Need third-party module that allows to upload svg's).
+ -  Fixed css styles when widget added into navigation dropdown.
+ -  Added missing image dimensions.
+
 ### Version 1.7.0
 
 > Aug 5, 2024

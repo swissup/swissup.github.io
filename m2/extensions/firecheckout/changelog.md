@@ -8,6 +8,15 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.33.1
+
+> October 18, 2024
+
+ -  Fixed postcode notice when billing and shipping addresses use different countries.
+ -  Fixed skipped js validation when pressing "Enter" in Purcahse Order Number input.
+ -  [AddressFieldManager](/m2/extensions/address-field-manager/): Fixed possible "Undefined array key" warning.
+ -  [Taxvat](/m2/extensions/taxvat/): Added integration with Amasty_Extrafee module.
+
 ### Version 1.33.0
 
 > September 11, 2024
