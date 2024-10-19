@@ -47,11 +47,25 @@ sudo /usr/share/opensearch/bin/opensearch-plugin remove analysis-icu &&\
 sudo /usr/share/opensearch/bin/opensearch-plugin remove analysis-phonetic
 ```
 
+Mac version:
+
+```
+sudo /usr/local/bin/opensearch-plugin remove analysis-icu &&\
+sudo /usr/local/bin/opensearch-plugin remove analysis-phonetic
+```
+
 Install new plugin version:
 
 ```
 sudo /usr/share/opensearch/bin/opensearch-plugin install analysis-icu &&\
 sudo /usr/share/opensearch/bin/opensearch-plugin install analysis-phonetic
+```
+
+Mac version:
+
+```
+sudo /usr/local/bin/opensearch-plugin install analysis-icu &&\
+sudo /usr/local/bin/opensearch-plugin install analysis-phonetic
 ```
 
 Allow unsecure connections:
