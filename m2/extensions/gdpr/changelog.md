@@ -8,6 +8,17 @@ category: GDPR
 
 # Changelog
 
+### Version 1.7.8
+
+> Oct 25, 2024
+
+ -  Accessibility improvements.
+ -  Improve GoogleConsent integration. Now, we update consents right after default
+    values was set. This makes much better compatibility with third-party GTM modules.
+ -  Fixed blink of default cookie bar for a moment.
+ -  Fixed conflict with built-in cookie restriction mode.
+ -  Fixed not working GDPR consents validation in UI forms.
+
 ### Version 1.7.3
 
 > Jul 15, 2024
