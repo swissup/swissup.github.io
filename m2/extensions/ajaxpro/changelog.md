@@ -30,9 +30,6 @@ category: AjaxPro
 
 ### Version 1.7.9
 
-
-### Version 1.7.9
-
 > Jun 7, 2024
 
  - Breeze: update according to the latest changes
