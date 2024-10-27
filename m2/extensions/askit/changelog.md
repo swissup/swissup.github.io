@@ -11,7 +11,7 @@ category: AskIt
 
 # Changelog
 
-<<<<<<< HEAD
+
 ### Version 1.14.0
 
 > Feb 23, 2024
@@ -20,7 +20,7 @@ category: AskIt
  - **New Config Group:** Added a new config group "Questions page." Options include disabling it entirely, showing the page only when it has at least one question, or always showing it. Closes #62.
  - **Messages Repository Update:** Messages repository now allows selection by `item_id` and/or `item_type_id`.
  - **Fix (Add) Component:** Fixed and added `data-vote` component for non-ajax listing.
-=======
+
 ### Version 1.14.6
 
 > Sep 4, 2024
