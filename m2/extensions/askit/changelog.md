@@ -12,9 +12,9 @@ category: AskIt
 # Changelog
 
 
-### Version 1.14.0
+### Version 1.14.7
 
-> Feb 23, 2024
+> Sept 23, 2024
 
  - **Questions Page Enhancement:** Option "enable when has questions" now respects question status. Closes #62.
  - **New Config Group:** Added a new config group "Questions page." Options include disabling it entirely, showing the page only when it has at least one question, or always showing it. Closes #62.
