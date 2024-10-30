@@ -8,7 +8,13 @@ category: Checkout VAT
 
 # Changelog
 
-### Version 1.33.1
+### Version 1.4.7
+
+> October 30, 2024
+
+ -  Fixed not working tax-free purchases when VAT is entered with lowercased country code.
+
+### Version 1.4.6
 
 > October 18, 2024
 
