@@ -65,13 +65,13 @@ Look at [list of available product_option block methods][product_option_block_me
 <referenceContainer name="product.info.extrahint">
     <block class="Swissup\Attributepages\Block\Product\Option" template="Swissup_Attributepages::product/options.phtml" name="attributepage_activity_material">
         <arguments>
-            <argument name="attributeCode" xsi:type="string">activity,material</argument>
-            <argument name="useImage" xsi:type="boolean">true</argument>
-            <argument name="imageType" xsi:type="string">thumbnail</argument>
+            <argument name="attribute_code" xsi:type="string">activity,material</argument>
+            <argument name="use_image" xsi:type="boolean">true</argument>
+            <argument name="image_type" xsi:type="string">thumbnail</argument>
             <argument name="width" xsi:type="number">45</argument>
             <argument name="height" xsi:type="number">15</argument>
-            <argument name="useLink" xsi:type="boolean">true</argument>
-            <argument name="cssClass" xsi:type="string">hidden-label</argument>
+            <argument name="use_link" xsi:type="boolean">true</argument>
+            <argument name="css_class" xsi:type="string">hidden-label</argument>
         </arguments>
     </block>
 </referenceContainer>
