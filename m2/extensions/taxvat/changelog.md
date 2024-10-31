@@ -8,6 +8,12 @@ category: Checkout VAT
 
 # Changelog
 
+### Version 1.4.8
+
+> October 31, 2024
+
+ -  Allow using ".,- " separators in VAT number
+
 ### Version 1.4.7
 
 > October 30, 2024
