@@ -8,6 +8,12 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.33.2
+
+> November 6, 2024
+
+ -  Fixed incorrect version number in composer.json file.
+
 ### Version 1.33.1
 
 > October 18, 2024
