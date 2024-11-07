@@ -6,6 +6,52 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.7.18
+
+> Nov 7, 2024
+
+ - Fix: Cannot read properties of undefined (reading 'match') is-ajaxpro-request.js:41
+
+### Version 1.7.18
+
+> Nov 1, 2024
+
+ - Merge all recent changes from magento codebase. (#47) (checkout-add-to-cart)
+
+### Version 1.7.17
+
+> Oct 31, 2024
+
+ - Fixed js error when pressing "Next" on checkout page
+
+### Version 1.7.16
+
+> Oct 29, 2024
+
+ - Fix 'Cannot read properties of undefined (reading 'totals')' on breeze
+
+### Version 1.7.15
+
+> Oct 24, 2024
+
+ - Minicart can be replaced only if results popup enebled
+
+### Version 1.7.14
+
+> Oct 18, 2024
+
+ - Restore ajaxpro_add_checkout_cart in default
+ - Fixed js error when form contains elements with name=method|action
+
+
+### Version 1.7.13
+
+> Sep 23, 2024
+
+ - Supress layout 'broken reference' logging (close #45)
+ - Fix strange calls counting behaviour
+ - Fix: override minicart popup issue #46
+
 ### Version 1.7.12
 
 > Aug 21, 2024
