@@ -8,6 +8,12 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.33.3
+
+> November 11, 2024
+
+ -  Fixed slow performance when compiling LESS files.
+
 ### Version 1.33.2
 
 > November 6, 2024
