@@ -8,6 +8,33 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.9.2
+
+> Nov 12, 2024
+
+- Add {pagespeed_asset_url} support to custom preloaded resources (close #70)
+- Add 'Generate critical css for theme(s)'
+- Add View/Asset/PlaceholderReplacer
+- Fix : 'Deprecated Functionality: str_replace(): Passing null to parameter #3 () of type array|string is deprecated Helper/Config.php on line 487'
+
+### Version 1.9.1
+
+> Oct 30, 2024
+
+- Add 'Enable Critical Css for Pages' config option
+
+### Version 1.9.0
+
+> Oct 29, 2024
+
+- Improve isAllowedCriticalCssOnCurrentPage logic
+- Add hidden config option pagespeed/css/critical_handles which set pages integrated with critical css feature
+- Preserve same order of js files regardless of data-defer-js-ignore attr
+- Improve generate critical css button extra html
+- Fix Incorrect JavaScript File Loading Order After Enabling CSP module magento/magento2#39274
+- Move couple requirejs scripts to subdir
+- Rename config option method
+
 
 ### Version 1.8.15
 
