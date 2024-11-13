@@ -6,7 +6,7 @@ category: AjaxPro
 
 # Changelog
 
-### Version 1.7.18
+### Version 1.7.19
 
 > Nov 7, 2024
 
