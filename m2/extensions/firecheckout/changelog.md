@@ -8,6 +8,13 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.33.4
+
+> November 18, 2024
+
+ -  Fixed js error when using checkout layout with header and minicart, and
+    PayPal Smart buttons are rendered inside minicart dropdown.
+
 ### Version 1.33.3
 
 > November 11, 2024
