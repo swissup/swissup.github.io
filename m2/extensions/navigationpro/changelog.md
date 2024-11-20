@@ -8,6 +8,13 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.18.0
+
+> Nov 20, 2024
+
+ -  Remove mage/menu dependency. Reduce JS codebase by 10KB (gzipped).
+ -  Added missing title to the "View More" button.
+
 ### Version 1.17.17
 
 > October 10, 2024

@@ -8,6 +8,13 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.7.10
+
+> Nov 20, 2024
+
+ -  Breeze: Update breeze integration.
+ -  Improved color contrast for "bow" label.
+
 ### Version 1.7.9
 
 > Jul 29, 2024

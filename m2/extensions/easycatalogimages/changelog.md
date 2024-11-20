@@ -8,6 +8,13 @@ category: EasyCatalogImages
 
 # Changelog
 
+### Version 1.5.9
+
+> Nov 20, 2024
+
+ -  Fixed a11y contrast issues.
+ -  Improved ability to use keyboard navigation.
+
 ### Version 1.5.8
 
 > August 5, 2024

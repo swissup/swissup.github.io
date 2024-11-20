@@ -6,6 +6,13 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.13.22
+
+> Nov 20, 2024
+
+ -  Accessibility improvements for keyboard navigation.
+ -  Fixed possible horizontal scroll in third-party themes.
+
 ### Version 1.13.20
 
 > Aug 6, 2024

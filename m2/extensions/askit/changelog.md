@@ -11,6 +11,11 @@ category: AskIt
 
 # Changelog
 
+### Version 1.14.8
+
+> Nov 20, 2024
+
+ -  Fixed color contrast errors to pass WCAG tests.
 
 ### Version 1.14.7
 

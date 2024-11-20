@@ -7,6 +7,24 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.46.0
+
+> November 20, 2024
+
+ -  Accessibility improvements for all themes and bundled modules:
+    - Navigation using keyboard improvements.
+    - Increased small elements size.
+    - Partially improved color contrast between text and background colors.
+ -  ArgentoChic, ArgentoMarketplace: Fixed unscrollable page when category name = "view".
+
+**Extensions Updates**
+
+ - [Navigationpro](/m2/extensions/navigationpro/)
+    + Remove mage/menu dependency. Reduce JS codebase by 10KB (gzipped).
+ - [SoldTogether](/m2/extensions/soldtogether/)
+    + Fixed line wrap on laptop whne using Amazon-like layout.
+    + Remove deferred CSS styles to reduce layout shift score.
+
 ### Version 1.45.0
 
 > Aug 30, 2024

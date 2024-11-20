@@ -6,6 +6,12 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.7.20
+
+> Nov 20, 2024
+
+ -  Fixed color contrast errors to pass WCAG tests.
+
 ### Version 1.7.19
 
 > Nov 7, 2024

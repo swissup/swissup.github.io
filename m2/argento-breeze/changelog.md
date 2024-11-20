@@ -7,6 +7,28 @@ category: ArgentoBreeze
 
 # Argento Breeze Changelog
 
+### Version 2.5.0
+
+> November 20, 2024
+
+ -  Improve color contrast in all themes to pass WGAC tests.
+ -  Improve site navigation using keyboard only.
+ -  Fixed layout shifts caused by client-side color swatches.
+ -  ArgentoChic: Fixed unscrollable page when category name = "view".
+ -  Updated all bundled modules with various accessibility fixes such as:
+    - Color contrast fixes.
+    - Navigation using keyboard improvements.
+    - Increased small elements size.
+
+**[Navigationpro](/m2/extensions/navigationpro/)**
+
+ -  Remove mage/menu dependency. Reduce JS codebase by 10KB (gzipped).
+
+**[SoldTogether](/m2/extensions/soldtogether/)**
+
+ -  Fixed line wrap on laptop whne using Amazon-like layout.
+ -  Remove deferred CSS styles to reduce layout shift score.
+
 ### Version 2.4.0
 
 > May 9, 2024

@@ -8,6 +8,12 @@ category: Testimonials
 
 # Changelog
 
+### Version 1.3.14
+
+> Nov 10, 2024
+
+ -  Fixed accessibility error: Can't use h5 without all of the previous levels.
+
 ### Version 1.3.12
 
 > Feb 2, 2024

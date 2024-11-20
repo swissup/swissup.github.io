@@ -8,6 +8,13 @@ category: Quantity Switcher
 
 # Changelog
 
+### Version 1.2.0
+
+> Nov 20, 2024
+
+ -  Fixed a11y error about too small button.
+ -  Added ability to use quantity dropdown uning keyboard.
+
 ### Version 1.1.21
 
 > Jun 20, 2024

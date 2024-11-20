@@ -8,6 +8,15 @@ category: SoldTogether
 
 # Changelog
 
+### Version 1.10.3
+
+> Nov 20, 2024
+
+ -  Fixed line wrap on laptop whne using Amazon-like layout.
+ -  Remove deferred CSS styles to reduce layout shift score.
+ -  Improve navigation with keyboard.
+ -  Increased elements size to pass accessibility tests.
+
 ### Version 1.10.0
 
 > Jul 29, 2024
