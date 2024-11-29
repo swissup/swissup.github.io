@@ -8,6 +8,12 @@ category: Easy Slider
 
 # Changelog
 
+### Version 1.8.11
+
+> Nov 29, 2024
+
+ -  Fixed the ability to add images by clicking on "change image" button.
+
 ### Version 1.8.8
 
 > Apr 23, 2024
