@@ -176,6 +176,7 @@ deliverydate:
   urls:
     m1:
     m2: /m2/extensions/delivery-date/
+
 deleteorders:
   title: Delete Orders
   short_description: Allow admin to remove unnecessary orders from store.
@@ -183,6 +184,14 @@ deleteorders:
   urls:
     m1:
     m2: /m2/extensions/delete-orders/
+
+diagnostic: 
+  title: Diagnostic
+  short_description: Show some diagnostic and maintenance Magento store information on CLI.
+  size: 1x1
+  urls:
+    m2: /m2/extensions/diagnostic/
+
 taxvat:
   title: Checkout VAT
   short_description: Validate VAT field on checkout
@@ -385,14 +394,7 @@ improvedadminsecurity:
     m1: /m1/extensions/improvedadminsecurity/
     m2: /m2/extensions/improvedadminsecurity/
 
-instaframe:
-  title: Instaframe
-  short_description:
-  urls:
-    m1:
-    m2: /m2/extensions/instaframe/
-
-helpdesk:
+knowledgebase:
   title: KnowledgeBase
   short_description:
   urls:
