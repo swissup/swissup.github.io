@@ -33,5 +33,6 @@ Main features:
     - [Client's Requests](backend/#clients-requests)
  5. [Cookie Settings and Google Consent](cookie-settings/)
  6. [Privacy Tools](privacy-tools/)
- 7. [FAQ](faq/)
- 8. [Developers documentation](devdocs/)
+ 7. [Integration with third-party scripts](integration-with-third-party-scripts/)
+ 8. [FAQ](faq/)
+ 9. [Developers documentation](devdocs/)
