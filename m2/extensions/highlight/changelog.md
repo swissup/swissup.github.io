@@ -8,6 +8,33 @@ category: Highlight
 
 # Changelog
 
+### Version 1.11.0
+
+> December 9, 2024
+
+ -  Performance improvements for large store catalogs (> 100K SKU) for the All Products Block
+    and Bestsellers blocks.
+
+    This improvement requires one of the following minimal DB engine versions:
+
+    - Maria &mdash; 10.2
+    - MySQL &mdash; 8.0
+    - PostgreSQL &mdash; All versions are supported
+
+    > If you are using older DB, you will not see significant difference with previous version.
+
+    Our tests shows the following results for single DB query on a catalog of
+    300K products and 200K sold items:
+
+    Block               | Before    | After
+    --------------------|-----------|------
+    All Products Slider | 7s        | 0.001
+    Bestsellers Slider  | 0.5s      | 0.3s
+
+ -  [Improved toolbar pager](/m2/extensions/highlight/configuration/) added to
+    improve store performance even more.
+ -  Fixed CSS compilation error.
+
 ### Version 1.10.4
 
 > September 19, 2024

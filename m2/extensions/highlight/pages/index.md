@@ -30,7 +30,7 @@ Bulk Bestsellers (By quantity sold) | https://example.com/highlight/bulksellers.
 
 ## Settings
 
-Configuration is located at _Stores > Configuration > Swissup > Highlight Pages_
+Configuration is located at _Stores > Configuration > Swissup > Highlight_
 page.
 
 Each page has configuration settings that allow to change page title and URL.
