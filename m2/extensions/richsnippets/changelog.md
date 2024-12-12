@@ -8,6 +8,13 @@ category: Rich Snippets
 
 # Changelog
 
+### Version 1.7.6
+
+> Dec 12, 2024
+
+ -  Added current page to the `ld+json` breadcrumbs according to
+    [google docs](https://developers.google.com/search/docs/appearance/structured-data/breadcrumb)
+
 ### Version 1.7.5
 
 > Jul 29, 2024

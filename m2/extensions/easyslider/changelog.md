@@ -8,6 +8,12 @@ category: Easy Slider
 
 # Changelog
 
+### Version 1.8.12
+
+> Dec 12, 2024
+
+ -  Fixed not clickable slider link when slider description is used.
+
 ### Version 1.8.11
 
 > Nov 29, 2024
