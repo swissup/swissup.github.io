@@ -8,7 +8,14 @@ category: Navigationpro
 
 # Changelog
 
-### Version 1.18.0
+### Version 1.17.20
+
+> Dec 10, 2024
+
+ -  Improve dropdown alignment below "More" icon.
+ -  Added missing `jquery-ui/position` dependency.
+
+### Version 1.17.18
 
 > Nov 20, 2024
 

@@ -8,6 +8,12 @@ category: Lightbox Pro
 
 # Changelog
 
+### Version 1.3.7
+
+> Dec 12, 2024
+
+ -  Fixed image placeholder style on mobile devices when fotorama is loading.
+
 ### Version 1.3.5
 
 > Apr 15, 2022

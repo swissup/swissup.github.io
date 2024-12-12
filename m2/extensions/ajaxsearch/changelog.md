@@ -6,6 +6,12 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.13.23
+
+> Dec 12, 2024
+
+ -  Fixed possible js error when using with Breeze frontend.
+
 ### Version 1.13.22
 
 > Nov 20, 2024

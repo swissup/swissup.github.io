@@ -8,6 +8,12 @@ category: GDPR
 
 # Changelog
 
+### Version 1.7.9
+
+> Dec 12, 2024
+
+ -  Fixed unclickable search field when cookie bar consent is visible.
+
 ### Version 1.7.8
 
 > Oct 25, 2024

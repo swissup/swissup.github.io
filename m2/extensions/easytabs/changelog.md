@@ -8,6 +8,13 @@ category: Easy Tabs
 
 # Changelog
 
+### Version 1.12.14
+
+> Dec 12, 2024
+
+ -  Fixed unwanted scroll to tab when changing configurable option
+ -  Fixed js error when URL anchor contains numbers or umlauts.
+
 ### Version 1.12.9
 
 > Apr 1, 2024
