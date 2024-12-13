@@ -8,6 +8,59 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.9.8
+
+> Dec 9, 2024
+
+ - Return 'Use Pagespeed at' and write logic for it
+ - Disable page speed on firecheckout/checkout pages by default
+ - Config sections was refactored
+ - Possible solution for not deferiing requirejs scripts
+
+### Version 1.9.7
+
+> Dec 4, 2024
+
+ - Fix integrity attributes bug (once again)
+ - Fix place of insertion for advanced bundling (after requirejs-min-resolver)
+ - Add defering for obsolete 'application/javascript' js
+ - Fixed broken styles on mobile devices
+ - Fix getting random category url for critical css generation service
+ - New logic in get store ids method for critical css
+ - Fix get category url on backend (generate critical css)
+ - Fix backslash bug in script type='text/html' (breeze)
+ - Force init mage components from header sections
+
+### Version 1.9.6
+
+> Nov 29, 2024
+
+- Improve loading of deferred styles to prevent CLS
+- Use DOMContentLoaded insteadof load event in override.js
+
+### Version 1.9.5
+
+> Nov 27, 2024
+
+- Fix ignore by signature logic in deferjs optimizer
+- Add varnish checking in expire optimizer
+- Remove adding unnecessary 'defer' and 'async' in defer js optimizer
+- Fixed possible unprocessed deferred scripts on Safari
+- Simplify unpack script
+
+
+### Version 1.9.4
+
+> Nov 14, 2024
+
+- Fix getStoreIds when website '0'
+
+### Version 1.9.3
+
+> Nov 13, 2024
+
+- Move 'Generate themes criitical css' into standalone config option
+
 ### Version 1.9.2
 
 > Nov 12, 2024
