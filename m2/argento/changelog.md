@@ -7,6 +7,12 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.46.2
+
+> December 17, 2024
+
+ -  Fixed conflict between configurable header and NavigationPro nowrap mode.
+
 ### Version 1.46.0
 
 > November 20, 2024
