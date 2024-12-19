@@ -7,6 +7,44 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.5.28
+
+> Dec 19, 2024
+
+ - Fix wrong min max prices in livesearch engine (livesearch query doesn't work properly without correct page size)
+
+### Version 1.5.27
+
+> Dec 9, 2024
+
+ - Add custom ajaxpro.init.container in list response (close swissup/module-ajaxpro#48)
+
+### Version 1.5.26
+
+> Dec 2, 2024
+
+ - Improve parseLocaleNumber in brezze price-slider.js
+
+### Version 1.5.25
+
+> Nov 28, 2024
+
+ - Improve parseLocaleNumber in brezze price-slider.js
+
+### Version 1.5.24
+
+> Oct 30, 2024
+
+ - Add option filtering for 'single select' attrs (close #100)
+
+### Version 1.5.23
+
+> Oct 24, 2024
+
+ - Improve js aln components initialization
+ - Fix scrollRestoration behaviour on breeze
+
+
 ### Version 1.5.22
 
 > Oct 11, 2024
