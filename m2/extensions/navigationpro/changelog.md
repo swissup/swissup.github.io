@@ -8,6 +8,19 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.17.21
+
+> Dec 20, 2024
+
+ -  Significant performance boost for the menu's with large category count.
+
+   We tested performance with 3000 categories and 1000 dropdown items and here are the results:
+
+   - **Before:** One large task - 600ms. **TBT - 550ms.**
+   - **After:** Eight seprate microtasks - 10-40ms each. **TBT - 0ms.**
+
+   > Please note that `nowrap` feature is not optimized yet.
+
 ### Version 1.17.20
 
 > Dec 10, 2024
