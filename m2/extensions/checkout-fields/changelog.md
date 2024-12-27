@@ -8,6 +8,18 @@ category: Checkout Fields
 
 # Changelog
 
+### Version 1.6.12
+
+> Dec 27, 2024
+
+ -  Restore fields data when creating order from backend has failed
+
+### Version 1.6.11
+
+> Mar 13, 2024
+
+ -  Fixed possible error during checkout
+
 ### Version 1.6.10
 
 > Mar 12, 2024

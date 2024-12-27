@@ -8,6 +8,12 @@ category: ChatGPT Assistant
 
 # Changelog
 
+### Version 1.1.2
+
+> Nov 12, 2024
+
+ -  Added option to take product attribute value from specified store view
+
 ### Version 1.1.1
 
 > May 16, 2024

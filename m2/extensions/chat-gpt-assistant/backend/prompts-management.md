@@ -32,7 +32,7 @@ Default for Field | Select a field for which the prompt will be used by default 
 
 #### Available Directives
 
-**{% raw %}{{attribute code="..." [prefix="..."] [sufix="..."] [exclude="..."]}}{% endraw %}** - value of attribute by its code. You can set multiple codes separated with comma or use "*" for all attributes. With configurable product this directive can return values of attribute from child products. The `exclude` option allows you to exclude some values from output. It can contain multiple values separated with comma.
+**{% raw %}{{attribute code="..." [html="1"] [store="5"] [prefix="..."] [sufix="..."] [exclude="..."]}}{% endraw %}** - value of attribute by its code. You can set multiple codes separated with comma or use "*" for all attributes. With configurable product this directive can return values of attribute from child products. The `exclude` option allows you to exclude some values from output. It can contain multiple values separated with comma. `html` option enables HTML in the attribute value. `store` option allows to get the attribute value from the specified store view.
 
 *Example:*
 
