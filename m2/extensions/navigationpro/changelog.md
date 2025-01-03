@@ -8,6 +8,16 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.17.22
+
+> Jan 3, 2025
+
+ -  Improved nowrap performance.
+ -  Postpone menu initialization on mobile devices until menu is used.
+ -  Significant performance improvements for menu with heavy dropdowns.
+ -  Improved performance of the vertical menu mode.
+ -  Fixed not working menu overlay.
+
 ### Version 1.17.21
 
 > Dec 20, 2024
@@ -20,6 +30,10 @@ category: Navigationpro
    - **After:** Eight seprate microtasks - 10-40ms each. **TBT - 0ms.**
 
    > Please note that `nowrap` feature is not optimized yet.
+
+ -  Fixed incorrect mobile media breakpoint in older Magento versions (< 2.4.4),
+    and in upcoming magento versions (> 2.4.7).
+ -  Fixed horizontal scrollbar when xlarge dropdowns are used
 
 ### Version 1.17.20
 
