@@ -7,6 +7,90 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.47.0
+
+> January 17, 2025
+
+ -  _Argento Blank:_ Fixed horizontal scroll in Force theme
+ -  _Argento Blank:_ Fixed Navigation Pro nowrap styles when configurable header is enabled
+ -  _Argento Blank:_ Fixed broken mobile styles in configurable header
+ -  _Argento Blank:_ Properly align "x" icon inside close modal and close minicart buttons
+ -  _Argento Blank:_ Do not move the sidebar before main-column when using 2columns-right
+ -  _Argento Flat:_ Added fallback fonts to decrease CLS
+ -  _Argento Flat:_ Updated critical CSS to include global cookie style
+ -  _Argento Force:_ Fixed cart alignment on mobile view and misaligned search icon
+ -  _Argento Home:_ Fixed CSS issue with dropdown icon in the sidebar navigation
+ -  _Argento Home:_ Hide default Navigation Pro dropdown icon to prevent icon blinking
+ -  _Argento Pure:_ Fixed CLS
+ -  _Argento Pure:_ Fixed search form styles when configurable header is enabled
+ -  _Argento Pure:_ Fixed header styles on mobile devices
+ -  _Argento Stripes:_ Bring hovered dropdown above the dropdown that's about to close
+ -  _Argento Chic:_ Fixed misaligned search icon when using configurable header
+
+**Extensions Updates**
+
+  - [Ajax Pro](/m2/extensions/ajaxpro/) — 1.7.22 (was 1.7.20)
+      + Added prefix 'ajaxpro.init' to init blocks in ajaxpro: ALN ajax load compatibility
+      + Removed media attribute from style: it prevented CSS merge
+  - [Ajax Search](/m2/extensions/ajaxsearch/) — 1.13.22 (was 1.13.21)
+      + Breeze: Added missing priceUtils dependency
+  - [AMP](/m2/extensions/amp/) — 1.5.10 (was 1.5.9)
+      + Disable NewRelic injecting custom javascript on AMP
+      + Unset ttl for menu because NewRelic inserts its code in Varnish request
+  - [Breeze](/m2/extensions/breeze/) — 2.19.6 (was 2.17.12)
+      + Lot of fixes and updates available on [Breeze Site](https://breezefront.com/updates)
+  - [EasySlide](/m2/extensions/easyslider/) — 1.8.12 (was 1.8.10)
+      + Fixed the ability of adding image on change image button click
+      + Fixed non-clickable slide when `height: 100%` is used on the description
+  - [Easytabs](/m2/extensions/easytabs/) — 1.12.14 (was 1.12.13)
+      + Fixed JS error when URL has tab alias with umlaut
+      + Do not throw exception when unable to find tab to activate
+      + Fixed randomly occurred js error
+  - [GDPR](/m2/extensions/gdpr/) — 1.7.9 (was 1.7.8)
+      + Prevent scrolling to the page footer if styles are not loaded
+      + Ability to get declared cookie groups
+      + Deactivate focus trap when clicking outside cookie bar
+  - [Highlight](/m2/extensions/highlight/) — 1.11.0 (was 1.10.4)
+      + **Performance improvements** for large store catalogs (> 100K SKU) for the All Products Block and Bestsellers blocks
+      + Improved toolbar pager added to improve store performance even more
+      + Fixed CSS compilation error
+  - [Hover Gallery](/m2/extensions/hover-gallery/) — 1.3.12 (was 1.3.11)
+      + Added loading lazy for hover image
+  - [Lightbox Pro](/m2/extensions/lightboxpro/) — 1.3.6 (was 1.3.7)
+      + Fixed image placeholder styles
+      + Fixed PHPStan errors
+  - [Navigation Pro](/m2/extensions/navigationpro/) — 1.17.23 (was 1.17.18)
+      + Added missing `jquery-ui/position` dependency
+      + Improved dropdown alignment below `More` icon
+      + **Significant performance boost** for the menus with large category count
+      + Fixed incorrect mobile media breakpoint in older Magento versions (< 2.4.4), and in upcoming magento versions (> 2.4.7)
+      + Fixed horizontal scrollbar when `xlarge` dropdowns are used
+      + Improved nowrap performance
+      + Postpone menu initialization on mobile devices until menu is used
+      + **Significant performance improvements** for menu with heavy dropdowns
+      + Improved performance of the vertical menu mode
+      + Fixed not working menu overlay
+  - [Pagespeed](/m2/extensions/pagespeed/) — 1.9.9 (was 1.9.4)
+      + Fixed ignore by signature logic in deferJS optimizer
+      + Added Varnish checking in expire optimizer
+      + Removed unnecessary `defer` and `async` in deferJS optimizer
+      + Fixed possible unprocessed deferred scripts on Safari
+      + Improved loading of deferred styles to prevent CLS
+      + Fixed integrity attributes bug
+      + Fixed broken styles on mobile devices
+      + Force init mage components from header sections
+      + Added `Use Pagespeed at` configuration
+      + Disabled Pagespeed on FireCheckout/Checkout pages by default
+      + Added possible solution for not deferring requireJS scripts
+      + Fixed error 404 for webp image url
+  - [Quantity Switcher](/m2/extensions/qty-switcher/) — 1.1.23 (was 1.1.22)
+      + Display error message for configurable product when no options selected
+  - [SEO Suite](/m2/extensions/seo-suite/)
+      + **swissup/module-rich-snippets** — 1.7.6 (was 1.7.5)
+        * Do not omit current item in the breadcrumbs
+      + **swissup/module-seo-urls** — 1.5.52 (was 1.5.51)
+        * Improve filter resolving when there are multiple filters url lables start with the same strings
+
 ### Version 1.46.2
 
 > December 17, 2024
