@@ -210,6 +210,7 @@ composer require\
     swissup/theme-frontend-argento-luxury\
     swissup/theme-frontend-argento-stripes\
     swissup/theme-frontend-argentobreeze-blank\
+    swissup/theme-frontend-argentobreeze-business\
     swissup/theme-frontend-argentobreeze-chic\
     swissup/theme-frontend-argentobreeze-force\
     swissup/theme-frontend-argentobreeze-stripes\
