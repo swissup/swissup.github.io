@@ -8,6 +8,12 @@ category: GDPR
 
 # Changelog
 
+### Version 1.7.20
+
+> Jan 22, 2025
+
+ -  Use lazy consent initialization to improve pagespeed score.
+
 ### Version 1.7.9
 
 > Dec 12, 2024

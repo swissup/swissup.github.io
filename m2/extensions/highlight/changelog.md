@@ -8,6 +8,12 @@ category: Highlight
 
 # Changelog
 
+### Version 1.11.1
+
+> January 22, 2025
+
+ - Fixed php error when using pagination in ajax carousel
+
 ### Version 1.11.0
 
 > December 9, 2024

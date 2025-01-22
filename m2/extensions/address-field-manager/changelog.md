@@ -8,6 +8,12 @@ category: Address Field Manager
 
 # Changelog
 
+### Version 1.6.19
+
+> Jan 22, 2025
+
+ -  Fixed incorrect value on Magento 2.4.6 (Attribute code added as prefix to the field value)
+
 ### Version 1.6.17
 
 > May 15, 2024
