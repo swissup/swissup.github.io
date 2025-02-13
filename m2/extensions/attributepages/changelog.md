@@ -7,7 +7,13 @@ category: Attributepages
 
 # Changelog
 
-### Version 1.33.1
+### Version 1.7.2
+
+> October 30, 2024
+
+ -  Fixed missing URL suffix in Swissup_SeoSitemapXml module
+
+### Version 1.7.1
 
 > October 18, 2024
 
