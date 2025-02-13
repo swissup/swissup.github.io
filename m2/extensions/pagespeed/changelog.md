@@ -12,21 +12,22 @@ category: Pagespeed
 
 > Feb 12, 2024
 
- - Add LCP optimizer;
- - Add standalone preload optimizer
- - Rm excessive replaces in lazyload
- - Avoid marking too many requests with high priority
- - Fix: Prevent lazyload offfset problems
- - Remove SERVER PUSH implementation
- - Fix criticalCss search in html
- - Fix criticalCss dublication
+ - Added LCP optimizer
+ - Added standalone preload optimizer
+ - Removed excessive replaces in lazyload
+ - Avoided marking too many requests with high priority
+ - Prevented lazyload offset problems
+ - Removed SERVER PUSH implementation
+ - Fixed criticalCss search in HTML
+ - Fixed criticalCss duplication
+ - Ignored images with class 'product-image-photo' in lazyload optimizer
 
 ### Version 1.9.9
 
 > Dec 20, 2024
 
  - Fix .webp.webp 404 when image url is the same in srcset attribute
- - Move preload after </title>
+ - Move preload after </title> tag
 
 ### Version 1.9.8
 
