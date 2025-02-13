@@ -8,6 +8,26 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.9.10
+
+> Feb 12, 2024
+
+ - Add LCP optimizer;
+ - Add standalone preload optimizer
+ - Rm excessive replaces in lazyload
+ - Avoid marking too many requests with high priority
+ - Fix: Prevent lazyload offfset problems
+ - Remove SERVER PUSH implementation
+ - Fix criticalCss search in html
+ - Fix criticalCss dublication
+
+### Version 1.9.9
+
+> Dec 20, 2024
+
+ - Fix .webp.webp 404 when image url is the same in srcset attribute
+ - Move preload after </title>
+
 ### Version 1.9.8
 
 > Dec 9, 2024
