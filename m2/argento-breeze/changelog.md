@@ -7,6 +7,28 @@ category: ArgentoBreeze
 
 # Argento Breeze Changelog
 
+### Version 2.5.2
+
+> February 26, 2025
+
+ -  Significant performance improvements in Breeze module and all bundled modules.
+
+**[EasySlider](/m2/extensions/easyslider/)**
+
+ -  Fixed not clickable slide when `height: 100%` is used on the description.
+
+**[EasyCatalogImages](/m2/extensions/easycatalogimages/)**
+
+ -  Added canonical to Departments Page.
+
+**[EasyTabs](/m2/extensions/easytabs/)**
+
+ -  Fixed layout shift when all tabs are inactive by default.
+
+**[GDPR](/m2/extensions/gdpr/)**
+
+ -  Fixed js error when enabling focus-trap on slow internet connections.
+
 ### Version 2.5.0
 
 > November 20, 2024
