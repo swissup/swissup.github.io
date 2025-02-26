@@ -8,6 +8,12 @@ category: Easy Tabs
 
 # Changelog
 
+### Version 1.12.15
+
+> Feb 26, 2025
+
+ -  Breeze: Fixed layout shift when all tabs are inactive by default
+
 ### Version 1.12.14
 
 > Dec 12, 2024

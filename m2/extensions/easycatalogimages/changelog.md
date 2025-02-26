@@ -8,6 +8,12 @@ category: EasyCatalogImages
 
 # Changelog
 
+### Version 1.5.10
+
+> Feb 26, 2025
+
+ -  Added canonical URL to the Departments Page.
+
 ### Version 1.5.9
 
 > Nov 20, 2024

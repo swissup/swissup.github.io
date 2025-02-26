@@ -8,7 +8,13 @@ category: GDPR
 
 # Changelog
 
-### Version 1.7.20
+### Version 1.7.11
+
+> Feb 26, 2025
+
+ -  Breeze: fixed js error when enabling focus-trap on slow internet connections
+
+### Version 1.7.10
 
 > Jan 22, 2025
 
