@@ -8,6 +8,16 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.17.24
+
+> Feb 3, 2026
+
+ -  Allow using `tel:` and `mailto:` in URLs.
+ -  Fixed tiny layout shift when nowrap is used.
+ -  Fixed incorrect caret rotation on mobile devices.
+ -  Improve performance when adding close icons or "View All" link to every dropdown.
+ -  Do not apply bold font for expanded parent if it has no children.
+
 ### Version 1.17.22
 
 > Jan 3, 2025

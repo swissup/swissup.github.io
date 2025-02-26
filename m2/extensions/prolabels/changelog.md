@@ -8,6 +8,12 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.7.11
+
+> Feb 26, 2025
+
+ -  Significant perfomance improvements for DB query and frontend rendering logic.
+
 ### Version 1.7.10
 
 > Nov 20, 2024

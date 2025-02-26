@@ -6,6 +6,15 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.13.24
+
+> Feb 26, 2025
+
+ -  Improve markup whne using fullscreen layout mode.
+ -  Do not show "Not found" message when popular terms are empty.
+ -  Breeze: fixed not working 'show popular search terms' feature.
+ -  Breeze: Fixed colors in fullscreen mode when dark header is used
+
 ### Version 1.13.23
 
 > Dec 12, 2024
