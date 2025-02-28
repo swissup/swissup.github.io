@@ -8,7 +8,18 @@ category: Pagespeed
 
 # Changelog
 
-### Version 1.9.10
+### Version 1.11.0
+
+> Feb 28, 2024
+
+ - Add link rel='preload' strong order styles, fonts, scripts, images
+ - Improve AddLinkPreload
+ - Move ExtaractHosts model in more correct place
+ - Move Html minifier in more correct place
+ - Move service classes to Model dir
+
+
+### Version 1.10.0
 
 > Feb 12, 2024
 
