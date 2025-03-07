@@ -40,7 +40,7 @@ custom theme allows you to change much more things:
     > with theme name, you'd like to use.
 
     ```bash
-    bin/magento swissup:theme:create Local/my-theme [essence|flat|pure2|mall|stripes|luxury|force|home|marketplace]
+    bin/magento swissup:theme:create Local/my-theme [essence|flat|pure2|mall|stripes|luxury|force|home|marketplace|chic]
     ```
 
  3. Log in to Magento backend and navigate to Content > Themes. You should see
