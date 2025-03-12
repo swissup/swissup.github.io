@@ -11,6 +11,13 @@ category: AskIt
 
 # Changelog
 
+### Version 1.14.9
+
+> Mar 5, 2024
+
+ - Fixed error in email "CSS inlining error: Compilation from source..."
+
+
 ### Version 1.14.8
 
 > Nov 20, 2024
