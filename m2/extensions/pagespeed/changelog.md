@@ -8,6 +8,15 @@ category: Pagespeed
 
 # Changelog
 
+
+### Version 1.11.1
+
+> Mar 11, 2024
+
+ - Prevent (Bundle\Manager __construct running) advanced js bundling if it disabled
+ - Fix bad string replacing Magento\Deploy\Service\Bundle
+ - Improve code readability
+
 ### Version 1.11.0
 
 > Feb 28, 2024
