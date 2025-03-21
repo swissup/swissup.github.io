@@ -36,7 +36,7 @@ bin/magento index:reindex swissup_cachewarmer_requestentry
 indexing process will fill cache warmer request entry table only by these options
 
 
-### Basic Authentication
+### Basic Authentication section
 
 ![Basic Authentication](/images/m2/cachewarmer/configuration/auth.png)
 
