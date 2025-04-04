@@ -8,6 +8,15 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.11.2
+
+> Apr 4, 2024
+
+ - Prevent parsing non html response (robots.txt)
+ - Fixed implicitly marking parameter as nullable error in PHP 8.4
+ - Improve ExtrractHosts(use in preconnect, dns-prefetch)
+ - Spicify crossorigin attribute for link rel=preconnect
+ - Improve LCP detecting logic (add easyslide img on homepage)
 
 ### Version 1.11.1
 
