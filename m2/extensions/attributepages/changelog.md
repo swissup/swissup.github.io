@@ -7,6 +7,13 @@ category: Attributepages
 
 # Changelog
 
+### Version 1.7.3
+
+> April 9, 2025
+
+ -  PHP 8.4 support added.
+ -  Magento 2.4.8 support added.
+
 ### Version 1.7.2
 
 > October 30, 2024

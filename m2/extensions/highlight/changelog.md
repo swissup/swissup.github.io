@@ -8,6 +8,13 @@ category: Highlight
 
 # Changelog
 
+### Version 1.11.3
+
+> April 9, 2025
+
+ -  PHP 8.4 support added.
+ -  Magento 2.4.8 support added.
+
 ### Version 1.11.1
 
 > January 22, 2025

@@ -8,6 +8,13 @@ category: KnowledgeBase
 
 # Changelog
 
+### Version 1.1.26
+
+> April 9, 2025
+
+ -  PHP 8.4 support added.
+ -  Magento 2.4.8 support added.
+
 ### Version 1.1.25
 
 > Mar 28, 2024

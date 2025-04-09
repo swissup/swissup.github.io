@@ -8,6 +8,14 @@ category: Easy Tabs
 
 # Changelog
 
+### Version 1.12.18
+
+> April 9, 2025
+
+ -  PHP 8.4 support added.
+ -  Magento 2.4.8 support added.
+ -  Breeze: Fixed CSS style when scroll-reveal styles are enabled.
+
 ### Version 1.12.15
 
 > Feb 26, 2025

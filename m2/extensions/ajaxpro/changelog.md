@@ -6,6 +6,13 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.7.24
+
+> April 9, 2025
+
+ -  PHP 8.4 support added.
+ -  Magento 2.4.8 support added.
+
 ### Version 1.7.20
 
 > Nov 20, 2024

@@ -8,6 +8,12 @@ category: EasyCatalogImages
 
 # Changelog
 
+### Version 1.5.11
+
+> April 9, 2025
+
+ -  Do not throw exception when `cat_id` passed to widget does not exist.
+
 ### Version 1.5.10
 
 > Feb 26, 2025

@@ -8,6 +8,14 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.7.15
+
+> April 9, 2025
+
+ -  PHP 8.4 support added.
+ -  Magento 2.4.8 support added.
+ -  Removed knockout.js dependency, js optimizations.
+
 ### Version 1.7.11
 
 > Feb 26, 2025

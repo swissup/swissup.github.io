@@ -8,6 +8,13 @@ category: reCAPTCHA
 
 # Changelog
 
+### Version 1.4.12
+
+> April 9, 2025
+
+ -  PHP 8.4 support added.
+ -  Updated Breeze integration.
+
 ### Version 1.4.10
 
 > Jul 6, 2023

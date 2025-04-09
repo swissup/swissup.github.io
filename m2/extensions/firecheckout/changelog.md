@@ -8,6 +8,13 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.33.6
+
+> April 9, 2025
+
+ -  PHP 8.4 support added.
+ -  Magento 2.4.8 support added.
+
 ### Version 1.33.4
 
 > November 18, 2024

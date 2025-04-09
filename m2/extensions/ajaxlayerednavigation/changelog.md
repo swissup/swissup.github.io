@@ -7,6 +7,14 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.5.30
+
+> April 9, 2025
+
+ -  PHP 8.4 support added.
+ -  Magento 2.4.8 support added.
+ -  Fixed non seo links `//`, when 'Use Categories Path for Product URLs' is enabled.
+
 ### Version 1.5.28
 
 > Dec 19, 2024

@@ -8,6 +8,13 @@ category: Easy Slider
 
 # Changelog
 
+### Version 1.8.13
+
+> April 9, 2025
+
+ -  PHP 8.4 support added.
+ -  Magento 2.4.8 support added.
+
 ### Version 1.8.12
 
 > Dec 12, 2024

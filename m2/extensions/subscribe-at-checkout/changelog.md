@@ -8,6 +8,13 @@ category: SubscribeAtCheckout
 
 # Changelog
 
+## Version 1.3.6
+
+> April 9, 2025
+
+ -  PHP 8.4 support added.
+ -  Magento 2.4.8 support added.
+
 ## Version 1.3.4
 
 > Jun 11, 2021

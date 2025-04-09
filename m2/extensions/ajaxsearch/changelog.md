@@ -6,6 +6,13 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.13.25
+
+> April 9, 2025
+
+ -  PHP 8.4 support added.
+ -  Magento 2.4.8 support added.
+
 ### Version 1.13.24
 
 > Feb 26, 2025

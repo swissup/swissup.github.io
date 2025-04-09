@@ -6,6 +6,15 @@ keywords: Helpdesk changelog
 category: Helpdesk
 ---
 
+# Changelog
+
+### Version 1.3.3
+
+> April 9, 2025
+
+ -  PHP 8.4 support added.
+ -  Magento 2.4.8 support added.
+
 ### Version 1.3.1
 
 > Sep 20, 2024

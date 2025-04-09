@@ -11,6 +11,13 @@ category: AskIt
 
 # Changelog
 
+### Version 1.14.10
+
+> April 9, 2025
+
+ -  PHP 8.4 support added.
+ -  Magento 2.4.8 support added.
+
 ### Version 1.14.9
 
 > Mar 5, 2024

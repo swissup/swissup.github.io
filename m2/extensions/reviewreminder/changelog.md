@@ -8,6 +8,13 @@ category: Review Reminder
 
 # Changelog
 
+### Version 1.1.17
+
+> April 9, 2025
+
+ -  PHP 8.4 support added.
+ -  Magento 2.4.8 support added.
+
 ### Version 1.1.13
 
 > Oct 20, 2022

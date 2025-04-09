@@ -8,6 +8,15 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.17.27
+
+> April 9, 2025
+
+ -  PHP 8.4 support added.
+ -  Magento 2.4.8 support added.
+ -  Fixed not working navpro when jquery-ui/menu is added by third-party module.
+ -  Fixed js error in Magento <= 2.4.3
+
 ### Version 1.17.24
 
 > Feb 3, 2026

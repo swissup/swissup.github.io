@@ -7,6 +7,13 @@ category: Delivery Date
 
 # Changelog
 
+### Version 1.7.11
+
+> April 9, 2025
+
+ -  PHP 8.4 support added.
+ -  Magento 2.4.8 support added.
+
 ### Version 1.7.10
 
 > Mar 12, 2024

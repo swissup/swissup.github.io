@@ -8,6 +8,15 @@ category: SoldTogether
 
 # Changelog
 
+### Version 1.10.4
+
+> April 9, 2025
+
+ -  PHP 8.4 support added.
+ -  Magento 2.4.8 support added.
+ -  Breeze: Fixed uninitialized swatches in the swiper block.
+ -  Breeze: Fixed not working validation when swatches are lazy
+
 ### Version 1.10.3
 
 > Nov 20, 2024

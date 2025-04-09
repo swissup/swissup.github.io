@@ -7,6 +7,13 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.48.0
+
+> April 9, 2025
+
+ -  PHP 8.4 support added.
+ -  Magento 2.4.8 support added.
+
 ### Version 1.47.0
 
 > January 17, 2025

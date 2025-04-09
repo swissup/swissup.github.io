@@ -8,21 +8,31 @@ category: Delete Orders
 
 # Changelog
 
+### Version 1.3.4
+
+> April 9, 2025
+
+ -  PHP 8.4 support added.
+ -  Magento 2.4.8 support added.
+
 ### Version 1.3.2
+
 > Aug 28, 2023
 
-    - Added new feature to uncancel orders.
+ -  Added new feature to uncancel orders.
 
 ### Version 1.3.1
+
 > Jul 27, 2023
 
-    - Fixed PHPStan errors.
+ -  Fixed PHPStan errors.
 
 ### Version 1.3.1
+
 > Jul 5, 2023
 
-    - Added ability to remove the orders using increment_id.
-    - Added ability to remove orders by cron schedule.
+ -  Added ability to remove the orders using increment_id.
+ -  Added ability to remove orders by cron schedule.
 
 ### Version 1.2.1
 

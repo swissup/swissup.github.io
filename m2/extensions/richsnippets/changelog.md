@@ -8,6 +8,14 @@ category: Rich Snippets
 
 # Changelog
 
+### Version 1.7.7
+
+> April 9, 2025
+
+ -  PHP 8.4 support added.
+ -  Magento 2.4.8 support added.
+ -  Use `0` for `returnShippingFeesAmount` field when free delivery is available.
+
 ### Version 1.7.6
 
 > Dec 12, 2024
