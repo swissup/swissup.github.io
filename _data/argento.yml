@@ -171,6 +171,9 @@ breeze:
       url: /m2/argento-breeze/customization/
 
   themes:
+    - title: Business
+      url: /m2/argento-breeze/business/
+
     - title: Chic
       url: /m2/argento-breeze/chic/
 
