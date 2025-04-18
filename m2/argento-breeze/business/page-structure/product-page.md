@@ -52,3 +52,12 @@ This block is powered by [SoldTogether](/m2/extensions/soldtogether/) module.
 ![Customers also bought](/images/m2/argento-breeze/business/product/customers-also-bought-1696x637.webp)
 
 This block is powered by [SoldTogether](/m2/extensions/soldtogether/) module.
+
+## Testimonials
+
+![Testimonials](/images/m2/argento-breeze/business/homepage/testimonials-1671x744.webp)
+
+Testimonials block is a CMS block `testimonials` powered by [Testimonials](/m2/extensions/testimonials/) module.
+You can edit this block at the CMS blocks backend interface (_Magento Admin > Content > Blocks > testimonials_).
+
+This block is also displayed on the homepage, and category pages.

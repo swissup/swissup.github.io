@@ -12,6 +12,9 @@ category: ArgentoBreeze
 ### Contents
 
  -  [Installation](/m2/argento-breeze/installation/)
+ -  Theming
+     -  [Theme editor](theme-editor/)
+     <!-- -  [Common customization examples](customization/) -->
  -  [Page structure manuals](page-structure/)
      -  [Header](page-structure/header/)
      -  [Footer](page-structure/footer/)

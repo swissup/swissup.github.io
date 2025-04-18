@@ -82,8 +82,10 @@ directly from CMS page backend interface (_Magento Admin > Content > Pages > Arg
 
 ![Testimonials](/images/m2/argento-breeze/business/homepage/testimonials-1671x744.webp)
 
-Testimonials block is powered by [Testimonials](/m2/extensions/testimonials/) module.
-You can edit widget parameters directly from CMS page backend interface (_Magento Admin > Content > Pages > Argento Business Homepage_).
+Testimonials block is a CMS block `testimonials` powered by [Testimonials](/m2/extensions/testimonials/) module.
+You can edit this block at the CMS blocks backend interface (_Magento Admin > Content > Blocks > testimonials_).
+
+This block is also displayed on the product, and category pages.
 
 ## Recent posts
 

@@ -7,6 +7,52 @@ category: ArgentoBreeze
 
 # Argento Breeze Changelog
 
+### Version 2.7.0
+
+> April 18, 2025
+
+  - [Business theme](business) added.
+  - Magento 2.4.8 and PHP 8.4 compatibility added.
+
+**Extensions Updates**
+
+  - [Ajax Pro](/m2/extensions/ajaxpro/)
+      + Improve suggestpage styles.
+  - [Ajax Search](/m2/extensions/ajaxsearch/)
+      + Improve dropdown size on mobile devices.
+      + Ability to hide price and sku labels.
+      + Small CSS fixes.
+  - [AskIt](/m2/extensions/askit/)
+      + Breeze: Show loader when adding question. Prevent multiple submits.
+      + Breeze: Fixed not working recaptcha validation.
+  - [EasyCatalogImages](/m2/extensions/easycatalogimages/)
+      + Do not throw exception when `cat_id` passed to widget does not exist.
+  - [EasyTabs](/m2/extensions/easytabs/)
+      + Ability to move existing block into the tab using its layout name.
+      + Breeze: Fixed CSS issue with overlapped title when scroll-reveal is enabled.
+      + Breeze: Allow using accordion inside tabs.
+  - [Highlight](/m2/extensions/highlight/)
+      + Improve cache key generation to correctly update highlight block cache.
+  - [NavigationPro](/m2/extensions/navigationpro/)
+      + Fixed not working navpro when `jquery-ui/menu` is added by a third-party module.
+      + Fixed js error in Magento <= 2.4.3.
+      + Improve performance when adding close icons or "View All" link.
+      + Allow using `tel:` and `mailto:` in image URLs.
+      + Breeze: fixed not working closeable and slideout menus.
+  - [Pagespeed](/m2/extensions/pagespeed/)
+      + Fixed broken `robots.txt` when minification is enabled.
+      + Improve `preload` logic to include proper LCP image.
+  - [ProLabels](/m2/extensions/prolabels/)
+      + Improve labels rendering performance.
+      + Improve DB query selector to significantly speedup query on large catalogs. Tested on catalog with 200K products.
+  - [QtySwitcher](/m2/extensions/qty-switcher/)
+      + Fixed possible missing styles in ajaxpro popup.
+  - [SeoSuite](/m2/extensions/seo-suite/)
+      + Use proper value for `returnShippingFeesAmount` when free shipping is available.
+  - [SoldTogether](/m2/extensions/soldtogether/)
+      + Breeze: fixed not working validation when swatches are lazy.
+      + Breeze: Fixed uninitialized swatches in the swiper block.
+
 ### Version 2.5.2
 
 > February 26, 2025
