@@ -12,13 +12,20 @@ img {
     color: #789ba9;
 }
 main img {
-    padding: 10px;
-    border: 1px solid #ddd;
+    margin: 10px;
+    outline: 1px solid #ddd;
+    outline-offset: 10px;
     box-sizing: border-box;
 }
+.gallery img {
+    margin: 0;
+    outline: 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
 main img.noborder {
-    border: none;
-    padding: 0;
+    outline: none;
+    margin: 0;
 }
 table {
     display: block;
