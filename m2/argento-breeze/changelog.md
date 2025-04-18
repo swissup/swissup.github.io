@@ -11,7 +11,7 @@ category: ArgentoBreeze
 
 > April 18, 2025
 
-  - [Business theme](business) added.
+  - [Business theme](../business) added.
   - Magento 2.4.8 and PHP 8.4 compatibility added.
 
 **Extensions Updates**
