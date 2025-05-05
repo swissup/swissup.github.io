@@ -8,6 +8,12 @@ category: PDF Invoices
 
 # Changelog
 
+### Version 1.4.8
+
+> May 5, 2025
+
+ -  Fixed email attachments error in Magento 2.4.8: `Laminas\Mime\Part` not found
+
 ### Version 1.4.7
 
 > April 9, 2025
