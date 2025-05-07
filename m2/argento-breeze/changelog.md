@@ -7,12 +7,19 @@ category: ArgentoBreeze
 
 # Argento Breeze Changelog
 
+### Version 2.7.2
+
+> May 7, 2025
+
+ -  Small CSS fixes to ArgentoBreeze Business theme.
+
 ### Version 2.7.0
 
 > April 18, 2025
 
   - [Business theme](../business) added.
   - Magento 2.4.8 and PHP 8.4 compatibility added.
+  - Theme editors added to all bundled themes.
 
 **Extensions Updates**
 
