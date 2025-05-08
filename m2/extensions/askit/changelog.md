@@ -11,6 +11,17 @@ category: AskIt
 
 # Changelog
 
+### Version 1.14.11
+
+> May 4, 2025
+
+ -  Fix string is not valid
+ -  Add data(email) validation in graphql request
+ -  Remove commented code
+ -  Fix 'mage.dataPost' require in data-vote.js
+ -  Implement direct link to question (close #60)
+ -  Fix 'applyBinding' undefined
+
 ### Version 1.14.10
 
 > April 9, 2025
