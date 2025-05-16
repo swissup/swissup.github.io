@@ -6,6 +6,13 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.13.26
+
+> May 16, 2025
+
+ -  Fixed possible disabled search icon when using folded layout.
+ -  Removed not needed customer_sections update after get category list request.
+
 ### Version 1.13.25
 
 > April 9, 2025
