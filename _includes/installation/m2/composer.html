@@ -27,6 +27,6 @@ in teminal:
 composer require {{ include.package }} &&\
 bin/magento setup:upgrade --safe-mode=1 &&\
 bin/magento setup:di:compile &&\
-bin/magento setup:static-content:deploy{% if include.installer == 'true' %} &&\
+bin/magento setup:static-content:deploy -f {% if include.installer == 'true' %} &&\
 bin/magento marketplace:package:install {{ include.package }}{% endif %}
 ```
