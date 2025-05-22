@@ -11,16 +11,7 @@ var Search = function(options) {
       ].join('');
   }
 
-  var docs,
-    loaded = false,
-    idx = lunr(function () {
-      this.field('title', {boost: 10});
-      this.field('category', {boost: 3});
-      this.field('description');
-      this.field('keywords');
-      this.field('searchterms');
-      this.ref('id');
-    });
+  var docs, loaded = false, idx;
 
   if (options.searchInput) {
     options.searchInput.addEventListener('keyup', function() {
@@ -42,10 +33,19 @@ var Search = function(options) {
         loaded = true;
         try {
           docs = JSON.parse(xhr.responseText);
-          for (var i in docs) {
-            docs[i].id = i;
-            idx.add(docs[i]);
-          }
+          idx = lunr(function () {
+            this.field('title', {boost: 10});
+            this.field('category', {boost: 3});
+            this.field('description');
+            this.field('keywords');
+            this.field('searchterms');
+            this.ref('id');
+
+            for (var i in docs) {
+              docs[i].id = i;
+              this.add(docs[i]);
+            }
+          });
         } catch(err) {
           console.log(err);
         }
@@ -62,6 +62,7 @@ var Search = function(options) {
       return false;
     }
     limit = limit || 10;
+    value = `${value}*`;
     return idx.search(value).slice(0, limit).map(function(result) {
       return docs[parseInt(result.ref, 10)];
     });
@@ -72,6 +73,8 @@ var Search = function(options) {
       return false;
     }
     limit = parseInt(limit / 2) || 5;
+    value1 = `${value1}*`;
+    value2 = `${value2}*`;
     var result1 = idx.search(value1).slice(0, limit),
       result2 = idx.search(value2).slice(0, limit);
 
