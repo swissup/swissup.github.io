@@ -8,6 +8,12 @@ category: Hover Gallery
 
 # Changelog
 
+### Version 1.3.13
+
+> May 22, 2025
+
+ -  Improve performance. All hover images are now lazyloaded.
+
 ### Version 1.3.10
 
 > Jan 28, 2022

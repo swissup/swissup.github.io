@@ -8,6 +8,12 @@ category: EasyCatalogImages
 
 # Changelog
 
+### Version 1.5.12
+
+> May 22, 2025
+
+ -  Improve performance of widgets enabled via module settings.
+
 ### Version 1.5.11
 
 > April 9, 2025

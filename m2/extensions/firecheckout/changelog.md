@@ -8,6 +8,13 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.33.8
+
+> May 22, 2025
+
+ -  Storepickup: Fixed invisible billing address when moved below shipping.
+ -  Fixed discount form styles when reCaptcha is enabled.
+
 ### Version 1.33.6
 
 > April 9, 2025

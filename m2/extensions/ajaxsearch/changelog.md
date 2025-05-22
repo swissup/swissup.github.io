@@ -6,6 +6,12 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.13.27
+
+> May 22, 2025
+
+ -  Fixed broken StorePickup search store styles at checkout page.
+
 ### Version 1.13.26
 
 > May 16, 2025

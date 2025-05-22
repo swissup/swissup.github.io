@@ -8,6 +8,12 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.7.20
+
+> May 22, 2025
+
+ -  Fixed possible styles issues caused by CSS lazy loading.
+
 ### Version 1.7.15
 
 > April 9, 2025
