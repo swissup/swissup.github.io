@@ -8,6 +8,18 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.33.9
+
+> May 29, 2025
+
+ -  Fixed inability to enter billing address when it's moved after shipping address
+    and Store Pickup shipping method is selected.
+ -  Hide fullscreen loader when the page is mostly rendered, but some requests are still active.
+    This fixes rare case when Paypal resource is never loaded for some countries
+    and visitor can't place an order because of visible fullscreen loader.
+ -  Globalpay compatibility fixes.
+ -  Fixed not working mixins when js and html minifications are enabled.
+
 ### Version 1.33.8
 
 > May 22, 2025
