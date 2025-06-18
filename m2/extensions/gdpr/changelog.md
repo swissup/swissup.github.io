@@ -8,6 +8,18 @@ category: GDPR
 
 # Changelog
 
+### Version 1.8.0
+
+> June 18, 2025
+
+ -  Improved display of accepted newsletter subscription consents for registered
+    customers. If a customer subscribed with multiple emails, a consent entry is
+    shown for each email.
+ -  Added integration with the newsletter confirmation feature. Now, if a customer
+    has not confirmed the subscription, the consent is marked as "Awaiting confirmation".
+ -  Newsletter consent is automatically revoked when a customer is unsubscribed
+    from the email newsletter by an administrator.
+
 ### Version 1.7.13
 
 > April 9, 2025

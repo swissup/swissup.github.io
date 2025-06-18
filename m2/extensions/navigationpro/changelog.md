@@ -8,6 +8,12 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.17.28
+
+> June 18, 2025
+
+ -  Fixed not working accordion on mobile devices when menu is added to the sidebar.
+
 ### Version 1.17.27
 
 > April 9, 2025
