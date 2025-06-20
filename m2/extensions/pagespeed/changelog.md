@@ -8,6 +8,32 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.11.6
+
+> May 26, 2025
+
+ - Preload only 1-6 first stylesheet in defercss optimizer
+
+### Version 1.11.5
+
+> Apr 24, 2025
+
+ - Fix: data-pagespeed-hash breaks the 'text/x-magento-init' script with an unescaped attribute (script inside another script)
+ - Prev commit refactored
+
+### Version 1.11.4
+
+> Apr 23, 2025
+
+ - Fix: 'Scripts relocation' text/x-magento-template
+
+### Version 1.11.3
+
+> Apr 11, 2025
+
+ - Remove reqs laminas/laminas-dom (for php 8.4 compatibility)
+ - Fix: DOMDocument::loadHTML(): Argument #1 () must not be empty (close #74)
+
 ### Version 1.11.2
 
 > Apr 4, 2024
