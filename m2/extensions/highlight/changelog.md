@@ -8,6 +8,12 @@ category: Highlight
 
 # Changelog
 
+### Version 1.11.7
+
+> June 20, 2025
+
+ -  Fixed possible PHP error when Smile_ElasticSuite module is enabled.
+
 ### Version 1.11.3
 
 > April 9, 2025
