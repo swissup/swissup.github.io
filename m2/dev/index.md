@@ -197,6 +197,10 @@ composer require\
     swissup/module-theme-editor-argento-marketplace\
     swissup/module-theme-editor-argento-luxury\
     swissup/module-theme-editor-argento-stripes\
+    swissup/module-theme-editor-argentobreeze-force\
+    swissup/module-theme-editor-argentobreeze-business\
+    swissup/module-theme-editor-argentobreeze-stripes\
+    swissup/module-theme-editor-argentobreeze-chic\
     swissup/module-tippyjs\
     swissup/theme-frontend-absolute\
     swissup/theme-frontend-argento-blank\
