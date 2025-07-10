@@ -123,6 +123,7 @@ composer require\
     swissup/module-compare\
     swissup/module-core\
     swissup/module-customer-field-manager\
+    swissup/module-diagnostic\
     swissup/module-delete-orders\
     swissup/module-delivery-date\
     swissup/module-easybanner\
@@ -186,6 +187,7 @@ composer require\
     swissup/module-taxvat\
     swissup/module-testimonials\
     swissup/module-tfa\
+    swissup/module-theme-store-views\
     swissup/module-theme-editor\
     swissup/module-theme-editor-swissup-absolute\
     swissup/module-theme-editor-argento-essence\
