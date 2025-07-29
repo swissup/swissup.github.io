@@ -7,6 +7,174 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.49.0
+
+> July 29, 2025
+
+**Extensions Updates**
+
+  - [Ajax Pro](/m2/extensions/ajaxpro/)
+      + Add ajaxpro.minicart.addons container for promotions (easybanner)
+      + Fix sections order for simple window in customer/sections/load
+  - [Ajax Search](/m2/extensions/ajaxsearch/)
+      + Fixed broken StorePickup search styles at checkout page
+      + Fixed possible disabled search icon when using folded layout
+      + Do not update customer_sections after graphql requests
+  - [AskIt](/m2/extensions/askit/)
+      + Fix string is not valid
+      + Add data(email) validation in graphql request
+      + Remove commented code
+      + Fix 'mage.dataPost' require in data-vote.js
+      + Implement direct link to question 
+      + Fix 'applyBinding' undefined
+  - [Chat GPT Assistant](/m2/extensions/chat-gpt-assistant/)
+      + Exclude useless gallery attribute from filter
+  - [Easy Slide](/m2/extensions/easy-slide/)
+      + Fixed empty slides on Force theme with new swiper - added slides cloning
+      + Fixed invisible images when container is scrolled down because of focus?
+  - [EasyCatalogImages](/m2/extensions/easycatalogimages/)
+      + Enable lazyload for all images except for the first two
+      + Do not preload category image if it was moved to bottom
+      + Breeze: preload feature. Preload two images if widget added above product listing. Don't skip category image. Preload first image at the departments page.
+  - [GDPR](/m2/extensions/gdpr/)
+      + Consent confirmation status feature. Revoke consent when unsubscribing. Consent confirmation is used when "Need to confirm" is enabled.
+      + Allow collecting consents for multiple form ids
+      + Show newsletter consent for each subscribed email
+      + Better spacing between accepted consents
+  - [Highlight](/m2/extensions/highlight/)
+      + Fixed php error when trying to apply conditions (Smile_Elasticsuite). Hide conditions when Smile_Elasticsuite is enabled.
+      + Override Amasty sorting directions for Highlight orders
+      + Fixed partially invisible "Load more" button on mobile devices
+      + Fixed JS error classList is undefined on mobile
+      + Breeze: Loading placeholder must be visible to read its width
+      + Do not clone listing into loading slide until the slide is used. This reduces DOM size
+      + BC: update to newest breeze module
+  - [Hover Gallery](/m2/extensions/hover-gallery/)
+      + Fixed missing animation on hover out
+      + Optimize css selectors
+      + Fixed incorrect logic of the prev commit
+      + Do not load hover images until the image is hovered
+  - [NavigationPro](/m2/extensions/navigationpro/)
+      + Postpone menu initialization only if it's a slideout menu
+  - [Pagespeed](/m2/extensions/pagespeed/)
+      + Fix: Call to an undefined method Optimizer\Image\Responsive::isMediaImageFileExist
+      + Refactor: add generic caching for image file existence checks in WebP optimizer, improve performance and reliability
+      + Remove Model/Optimizer/Image/AbstractImage::isParentTagPicture
+      + Add Image/WebP/PictureTagBuilder
+      + Add Image/ImageAttributeParser
+      + Add WebP/JsReplacer
+      + Feat: add generic executeWithCache helper for file existence checks in AbstractCachableOptimizer, improve caching logic in WebP optimizer
+      + Refactor: improve getUrlPath type safety and error handling in File.php
+      + Refactor SpecifyDimension and Responsive optimizers to use DimensionsTrait
+      + Add Image/WebP/UrlResolver and Image/DimensionsTrait
+      + Refactor SpecifyDimension to extend AbstractImage instead of WebP
+      + Refactor optimizer flow: extract Coordinator and clean up plugin logic
+      + Fix: Identical operator === is not used for testing the return value of strpos function
+      + Set 'Enable in developer mode' true by default 
+      + Preload only 1-6 first stylesheet in defercss optimizer
+      + Fix: data-pagespeed-hash breaks the 'text/x-magento-init' script with an unescaped attribute (script inside another script)
+      + Fix: 'Scripts relocation' text/x-magento-template
+      + Remove reqs laminas/laminas-dom (for php 8.4 compatibility)
+  - [ProLabels](/m2/extensions/prolabels/)
+      + Fix: Don't show 0 or negative for backorder product
+      + CSP compatibility. Fixed js error on checkout page
+      + Possibility to place labels top-center and bottom-center
+      + Always use position relative for prolabels-wrapper (Argento listing fix)
+      + Fixed missing styles when prolabels inserted as static html (without data-mage-init)
+      + Base template. Use inline script to init helper src.
+      + Fixed js error caused by previous commit
+      + Refactor prolabels initialization and rendering logic to use window.swissupProlabels for better modularity and async handling
+      + Add reveal observer management for image and content labels
+      + Remove outdated code.
+      + Storefront labels rendering. Content labels respect "Insert method" and "Target element" settings.
+      + Do not show empty prolabels wrapper
+      + Fix selector for hiding labels in Fotorama fullscreen mode
+      + Enhance image handling in labels: add async image dimension retrieval and update CSS generation
+      + Quick fix for a missing image background
+  - [ProLabels Configurable Product](/m2/extensions/prolabels-configurable-product/)
+      + Add Data helper class. Move there logic from template.
+  - [QtySwitcher](/m2/extensions/qty-switcher/)
+      + Check for input disabled state with prop (Breeze fix)
+      + Group styles
+      + Fixed arrows layout on cart page
+      + Added basic quantity switcher to the cart page
+  - [ReviewReminder](/m2/extensions/reviewreminder/)
+      + Fixed wrong product URL on multistore setup
+  - [Rich Snippets](/m2/extensions/rich-snippets/)
+      + Output multiple QAPage JSON-LD blocks for better indexing
+      + Fixed two warnings about returns policy. returnShippingFeesAmount is not applicable when free return is used. When return is allowed returnFees should not be empty.
+  - [Seo Cross Links](/m2/extensions/seo-cross-links/)
+      + Magefun post list: return the current page instead of the entire collection. (fixed blog pagination)
+      + Use frontend model to verify if magefun post is available.
+      + Fixed php stan.
+      + Separate config to disable the crosslinks for the Magefun posts.
+      + Fix megefan only post images.(exclude product and category pages.)
+      + Fixed broken posts images.
+  - [SoldTogether](/m2/extensions/soldtogether/)
+      + Add null coalescing operator to getLayout method for safer return value
+      + Add return statement to toggleElementHidden for improved functionality
+      + Refactor helper functions to consolidate related data handling and improve code readability
+      + Implement toggleElementHidden helper and refactor handleDetailsToggle for improved readability
+      + Refactor javascript validator. To use it in future hyva integration.
+      + Refactor JavaScript helper. Use native import. This allows to reuse it hyva storefront.
+      + Fixed missing dropdown options caused by wrong parent selector
+  - [Testimonials](/m2/extensions/testimonials/)
+      + Fixed wrong Swiper breakpoints config
+  - [Theme Editor Argento Stripes](/m2/extensions/theme-editor-argento-stripes/)
+      + Update to the latest stripe changes
+  - [Theme Frontend Argento Blank](/m2/extensions/theme-frontend-argento-blank/)
+      + Fixed incorrect style for "New Products" widget.
+      + Magento 2.4.8: Fixed not working screeen__l styles
+      + Remove overriden bootstrap.js to fix error with dimVisible on 2.4.8
+  - [Theme Frontend Argento Chic](/m2/extensions/theme-frontend-argento-chic/)
+      + Replaced broken placeholder image on typography page
+  - [Theme Frontend Argento Essence](/m2/extensions/theme-frontend-argento-essence/)
+      + Replaced broken placeholder image on typography page
+  - [Theme Frontend Argento Flat](/m2/extensions/theme-frontend-argento-flat/)
+      + Replaced broken placeholder image on typography page
+  - [Theme Frontend Argento Force](/m2/extensions/theme-frontend-argento-force/)
+      + Enabled centeredSlides option again as EasySlider is fixed now
+      + Fixed broken tabs styles in Magento 2.4.8
+      + Disabled centeredSlides option for EasySlider
+      + Replaced broken placeholder image on typography page
+  - [Theme Frontend Argento Home](/m2/extensions/theme-frontend-argento-home/)
+      + Fixed wrong product item height caused by wrong styles order
+      + Replaced broken placeholder image on typography page
+  - [Theme Frontend Argento Luxury](/m2/extensions/theme-frontend-argento-luxury/)
+      + Replaced broken placeholder image on typography page
+  - [Theme Frontend Argento Mall](/m2/extensions/theme-frontend-argento-mall/)
+      + Replaced broken placeholder image on typography page
+  - [Theme Frontend Argento Marketplace](/m2/extensions/theme-frontend-argento-marketplace/)
+      + Replaced broken placeholder image on typography page
+  - [Theme Frontend Argento Pure2](/m2/extensions/theme-frontend-argento-pure2/)
+      + Replaced broken placeholder image on typography page
+  - [Theme Frontend Argento Stripes](/m2/extensions/theme-frontend-argento-stripes/)
+      + Fixed highlight title styles on the homepage
+      + Replaced broken placeholder image on typography page
+      + Magento 2.4.8: fixed broken product page layout
+  - [Core](/m2/extensions/core/)
+      + Fixed unescaped output
+      + Fixed integrity constraint violation: Duplicate entry for key primary
+  - [Image Optimizer](/m2/extensions/image-optimizer/)
+      + No commits found
+  - [Theme Editor](/m2/extensions/theme-editor/)
+      + Fix 'undefined' buttonBlock
+      + PHP 8.4 compatibility
+      + Do not update customer_sections after graphql requests
+      + Add draggable behaviour
+      + Add loading indication
+      + add color picker in frontend toolbar
+      + Add state saving for frondend mode
+      + Add frontend mode
+      + Magento 2.4.8 fix: Fixed broken layout when tabs moved to content
+      + cancel previous commit
+      + Fix bad area identfication
+      + Media gallery width and category description for breeze themes
+      + Grid columns count for Breeze Themes
+      + Ability to set css props and css pros in rgb format. See Argentobreeze_Business theme editor.
+      + Fix sort order, add breeze business
+
+
 ### Version 1.48.0
 
 > April 9, 2025
