@@ -7,6 +7,71 @@ category: ArgentoBreeze
 
 # Argento Breeze Changelog
 
+### Version 2.7.3
+
+> July 29, 2025
+
+**Extensions Updates**
+
+  - [Ajax Search](/m2/extensions/ajaxsearch/)
+      + Fixed broken StorePickup search styles at checkout page
+      + Fixed possible disabled search icon when using folded layout
+      + Do not update `customer_sections` after graphql requests
+  - [AskIt](/m2/extensions/askit/)
+      + Fix string is not valid
+      + Add data(email) validation in graphql request
+      + Remove commented code
+      + Fix 'mage.dataPost' require in data-vote.js
+      + Implement direct link to question
+      + Fix 'applyBinding' undefined
+  - [Easy Slide](/m2/extensions/easy-slide/)
+      + Fixed empty slides on Force theme with new swiper - added slides cloning
+      + Fixed invisible images when container is scrolled down because of focus?
+  - [EasyCatalogImages](/m2/extensions/easycatalogimages/)
+      + Enable lazyload for all images except for the first two
+      + Do not preload category image if it was moved to bottom
+      + Breeze: preload feature. Preload two images if widget added above product listing. Don't skip category image. Preload first image at the departments page.
+  - [Highlight](/m2/extensions/highlight/)
+      + Fixed php error when trying to apply conditions (Smile_Elasticsuite). Hide conditions when Smile_Elasticsuite is enabled.
+      + Override Amasty sorting directions for Highlight orders
+      + Fixed partially invisible "Load more" button on mobile devices
+      + Fixed JS error classList is undefined on mobile
+      + Breeze: Loading placeholder must be visible to read its width
+      + Do not clone listing into loading slide until the slide is used. This reduces DOM size
+      + BC: update to newest breeze module
+  - [Hover Gallery](/m2/extensions/hover-gallery/)
+      + Fixed missing animation on hover out
+      + Optimize css selectors
+      + Fixed incorrect logic of the prev commit
+      + Do not load hover images until the image is hovered
+  - [NavigationPro](/m2/extensions/navigationpro/)
+      + Postpone menu initialization only if it's a slideout menu
+  - [Pagespeed](/m2/extensions/pagespeed/)
+      + Fix: Call to an undefined method `Optimizer\Image\Responsive::isMediaImageFileExist`
+      + Refactor: add generic caching for image file existence checks in WebP optimizer, improve performance and reliability
+      + Remove Model/Optimizer/Image/AbstractImage::isParentTagPicture
+      + Add `Image/WebP/PictureTagBuilder`
+      + Add Image/ImageAttributeParser
+      + Add WebP/JsReplacer
+      + Feat: add generic executeWithCache helper for file existence checks in AbstractCachableOptimizer, improve caching logic in WebP optimizer
+      + Refactor: improve getUrlPath type safety and error handling in File.php
+      + Refactor SpecifyDimension and Responsive optimizers to use DimensionsTrait
+      + Add Image/WebP/UrlResolver and Image/DimensionsTrait
+      + Refactor SpecifyDimension to extend AbstractImage instead of WebP
+      + Refactor optimizer flow: extract Coordinator and clean up plugin logic
+      + Fix: Identical operator === is not used for testing the return value of strpos function
+      + Set 'Enable in developer mode' true by default
+      + Fix isEnable(d)
+      + Fix optimiser => optimizer
+      + Fix :107 Undefined variable: (prev commit)
+      + Refactor: improve AfterRenderResultPlugin structure and readability
+      + Preload only 1-6 first stylesheet in defercss optimizer
+      + Fix: data-pagespeed-hash breaks the 'text/x-magento-init' script with an unescaped attribute (script inside another script)
+      + Fix: 'Scripts relocation' text/x-magento-template
+      + Remove reqs laminas/laminas-dom (for php 8.4 compatibility)
+  - [ProLabels](/m2/extensions/prolabels/)
+      + Always use position relative for prolabels-wrapper (Argento listing fix)
+
 ### Version 2.7.2
 
 > May 7, 2025
