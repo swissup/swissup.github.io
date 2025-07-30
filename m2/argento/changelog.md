@@ -11,6 +11,28 @@ category: Argento
 
 > July 29, 2025
 
+  - _Argento Blank_: Fixed incorrect style for "New Products" widget.
+  - _Argento Blank_: Magento 2.4.8: Fixed not working screeen__l styles
+  - _Argento Blank_: Remove overriden bootstrap.js to fix error with dimVisible on 2.4.8
+  - _Argento Stripes_: Update to the latest stripe changes
+  - _Argento Chic_: Replaced broken placeholder image on typography page
+  - _Argento Essence_: Replaced broken placeholder image on typography page
+  - _Argento Flat_: Replaced broken placeholder image on typography page
+  - _Argento Force_: Enabled centeredSlides option again as EasySlider is fixed now
+  - _Argento Force_: Fixed broken tabs styles in Magento 2.4.8
+  - _Argento Force_: Disabled centeredSlides option for EasySlider
+  - _Argento Force_: Replaced broken placeholder image on typography page
+  - _Argento Home_: Fixed wrong product item height caused by wrong styles order
+  - _Argento Home_: Replaced broken placeholder image on typography page
+  - _Argento Luxury_: Replaced broken placeholder image on typography page
+  - _Argento Mall_: Replaced broken placeholder image on typography page
+  - _Argento Marketplace_: Replaced broken placeholder image on typography page
+  - _Argento Pure2_: Replaced broken placeholder image on typography page
+  - _Argento Stripes_: Fixed highlight title styles on the homepage
+  - _Argento Stripes_: Replaced broken placeholder image on typography page
+  - _Argento Stripes_: Magento 2.4.8: fixed broken product page layout
+
+
 **Extensions Updates**
 
   - [Ajax Pro](/m2/extensions/ajaxpro/)
@@ -120,44 +142,12 @@ category: Argento
       + Fixed missing dropdown options caused by wrong parent selector
   - [Testimonials](/m2/extensions/testimonials/)
       + Fixed wrong Swiper breakpoints config
-  - [Theme Editor Argento Stripes](/m2/extensions/theme-editor-argento-stripes/)
-      + Update to the latest stripe changes
-  - [Theme Frontend Argento Blank](/m2/extensions/theme-frontend-argento-blank/)
-      + Fixed incorrect style for "New Products" widget.
-      + Magento 2.4.8: Fixed not working screeen__l styles
-      + Remove overriden bootstrap.js to fix error with dimVisible on 2.4.8
-  - [Theme Frontend Argento Chic](/m2/extensions/theme-frontend-argento-chic/)
-      + Replaced broken placeholder image on typography page
-  - [Theme Frontend Argento Essence](/m2/extensions/theme-frontend-argento-essence/)
-      + Replaced broken placeholder image on typography page
-  - [Theme Frontend Argento Flat](/m2/extensions/theme-frontend-argento-flat/)
-      + Replaced broken placeholder image on typography page
-  - [Theme Frontend Argento Force](/m2/extensions/theme-frontend-argento-force/)
-      + Enabled centeredSlides option again as EasySlider is fixed now
-      + Fixed broken tabs styles in Magento 2.4.8
-      + Disabled centeredSlides option for EasySlider
-      + Replaced broken placeholder image on typography page
-  - [Theme Frontend Argento Home](/m2/extensions/theme-frontend-argento-home/)
-      + Fixed wrong product item height caused by wrong styles order
-      + Replaced broken placeholder image on typography page
-  - [Theme Frontend Argento Luxury](/m2/extensions/theme-frontend-argento-luxury/)
-      + Replaced broken placeholder image on typography page
-  - [Theme Frontend Argento Mall](/m2/extensions/theme-frontend-argento-mall/)
-      + Replaced broken placeholder image on typography page
-  - [Theme Frontend Argento Marketplace](/m2/extensions/theme-frontend-argento-marketplace/)
-      + Replaced broken placeholder image on typography page
-  - [Theme Frontend Argento Pure2](/m2/extensions/theme-frontend-argento-pure2/)
-      + Replaced broken placeholder image on typography page
-  - [Theme Frontend Argento Stripes](/m2/extensions/theme-frontend-argento-stripes/)
-      + Fixed highlight title styles on the homepage
-      + Replaced broken placeholder image on typography page
-      + Magento 2.4.8: fixed broken product page layout
-  - [Core](/m2/extensions/core/)
+  - **Core**
       + Fixed unescaped output
       + Fixed integrity constraint violation: Duplicate entry for key primary
-  - [Image Optimizer](/m2/extensions/image-optimizer/)
+  - **Image Optimizer**
       + No commits found
-  - [Theme Editor](/m2/extensions/theme-editor/)
+  - **Theme Editor**
       + Fix 'undefined' buttonBlock
       + PHP 8.4 compatibility
       + Do not update customer_sections after graphql requests
