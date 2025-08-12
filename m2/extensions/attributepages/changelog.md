@@ -7,6 +7,15 @@ category: Attributepages
 
 # Changelog
 
+### Version 1.7.4
+
+> August 12, 2025
+
+ -  Do not render short description in ProductOption widget when it's disabled.
+ -  Fixed displaying of the incorrect "brand" page when it's disabled per store level.
+ -  Improved cache invalidation of the parent attribute page when child is updated.
+ -  Added missing escapeHtml methods.
+
 ### Version 1.7.3
 
 > April 9, 2025
