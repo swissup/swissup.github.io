@@ -7,7 +7,7 @@ category: Attributepages
 
 # Changelog
 
-### Version 1.7.4
+### Version 1.7.5
 
 > August 12, 2025
 
@@ -15,6 +15,7 @@ category: Attributepages
  -  Fixed displaying of the incorrect "brand" page when it's disabled per store level.
  -  Improved cache invalidation of the parent attribute page when child is updated.
  -  Added missing escapeHtml methods.
+ -  Fixed compatibility with Swissup_Askit module.
 
 ### Version 1.7.3
 
