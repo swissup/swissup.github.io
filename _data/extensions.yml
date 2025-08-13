@@ -107,6 +107,14 @@ cache:
     m1: /m1/extensions/cache/
     m2:
 
+crawler:
+  title: Cache Warmer
+  short_description: Built-in crawler increases page cache hit rate.
+  size: 1x1
+  urls:
+    m1: /m1/extensions/crawler/
+    m2: /m2/extensions/cachewarmer/
+
 cdn:
   title: CDN
   short_description: Cloud Destribution Network intagration
@@ -155,43 +163,6 @@ checkoutsuccess:
     m1: /m1/extensions/checkout-success/
     m2: /m2/extensions/checkout-success/
 
-compare:
-  title: Compare
-  short_description: Show more details on checkout success page
-  size: 1x1
-  urls:
-    m2: /m2/extensions/compare/
-
-customer-field-manager:
-  title: Customer Field Manager
-  short_description:
-  urls:
-    m1:
-    m2: /m2/extensions/customer-field-manager/
-
-deliverydate:
-  title: Delivery Date
-  short_description: Allow customer to choose delivery date during checkout.
-  size: 1x1
-  urls:
-    m1:
-    m2: /m2/extensions/delivery-date/
-
-deleteorders:
-  title: Delete Orders
-  short_description: Allow admin to remove unnecessary orders from store.
-  size: 1x1
-  urls:
-    m1:
-    m2: /m2/extensions/delete-orders/
-
-diagnostic: 
-  title: Diagnostic
-  short_description: Show some diagnostic and maintenance Magento store information on CLI.
-  size: 1x1
-  urls:
-    m2: /m2/extensions/diagnostic/
-
 taxvat:
   title: Checkout VAT
   short_description: Validate VAT field on checkout
@@ -206,6 +177,13 @@ configurableswatches:
   urls:
     m1: /m1/extensions/catalog-configurable-swatches/
     m2:
+
+compare:
+  title: Compare
+  short_description: Show more details on checkout success page
+  size: 1x1
+  urls:
+    m2: /m2/extensions/compare/
 
 core:
   title: Core
@@ -224,13 +202,12 @@ countdowntimer:
     m1: /m1/extensions/countdowntimer/
     m2: /m2/extensions/countdown-timer/
 
-crawler:
-  title: Cache Warmer
-  short_description: Built-in crawler increases page cache hit rate.
-  size: 1x1
+customer-field-manager:
+  title: Customer Field Manager
+  short_description:
   urls:
-    m1: /m1/extensions/crawler/
-    m2: /m2/extensions/cachewarmer/
+    m1:
+    m2: /m2/extensions/customer-field-manager/
 
 dailydeals:
   title: DailyDeals
@@ -239,6 +216,29 @@ dailydeals:
   urls:
     m1: /m1/extensions/dailydeals/
     m2:
+
+deliverydate:
+  title: Delivery Date
+  short_description: Allow customer to choose delivery date during checkout.
+  size: 1x1
+  urls:
+    m1:
+    m2: /m2/extensions/delivery-date/
+
+deleteorders:
+  title: Delete Orders
+  short_description: Allow admin to remove unnecessary orders from store.
+  size: 1x1
+  urls:
+    m1:
+    m2: /m2/extensions/delete-orders/
+
+diagnostic:
+  title: Diagnostic
+  short_description: Show some diagnostic and maintenance Magento store information on CLI.
+  size: 1x1
+  urls:
+    m2: /m2/extensions/diagnostic/
 
 easybanners:
   title: EasyBanners
