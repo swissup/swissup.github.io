@@ -8,6 +8,14 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.34.0
+
+> August 18, 2025
+
+ -  Prefetch feature is now Hyva compatible.
+ -  [AddressAutocomplete](https://docs.swissuplabs.com/m2/extensions/address-autocomplete/):
+    - New Google Autocomplete API is now used.
+
 ### Version 1.33.9
 
 > May 29, 2025
