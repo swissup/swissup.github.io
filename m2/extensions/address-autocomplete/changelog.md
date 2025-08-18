@@ -7,6 +7,13 @@ category: Address Autocomplete
 
 # Changelog
 
+### Version 1.8.0
+
+> August 18, 2025
+
+ -  New Google Autocomplete API is now used.
+ -  Magento Coding Standard fixes.
+
 ### Version 1.7.0
 
 > July 10, 2023
