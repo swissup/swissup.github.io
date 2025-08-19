@@ -8,6 +8,13 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.17.30
+
+> August 18, 2025
+
+ -  Fixed JS error on older Magento versions (jQueryUI < 1.11.0)
+ -  Magento coding Standard fixes
+
 ### Version 1.17.28
 
 > June 18, 2025
