@@ -30,7 +30,8 @@ than the free one.
 
  1. [Sign up for a MaxMind account](https://www.maxmind.com/en/geolite2/signup) (no purchase required)
  2. Set your password and create a [license key](https://www.maxmind.com/en/accounts/current/license-key)
- 3. Enter your license key in [GeoIP configuration](/m2/extensions/geoip/configuration/)
+ 3. Accept [agreement](https://www.maxmind.com/en/accounts/1214134/geolite2/eula) to use GeoLite database.
+ 4. Enter your license key in [GeoIP configuration](/m2/extensions/geoip/configuration/)
     and press "Download Database" button.
 
     > If you don't want to use automatic downloader for some reason, you can
@@ -39,5 +40,5 @@ than the free one.
     > unpack it, and copy *.mmdb file to the <magento_root>/var/swissup/geoip directory.
     > Then rename the database file into maxmind.mmdb.
 
- 4. After download is completed you'll see the date of last update below
+ 5. After download is completed you'll see the date of last update below
     "Download Database" button.
