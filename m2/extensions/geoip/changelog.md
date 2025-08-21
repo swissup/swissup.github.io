@@ -8,6 +8,12 @@ category: Geoip
 
 # Changelog
 
+### Version 1.6.0
+
+> August 21, 2025
+
+ -  Added ability to enable daily [automatic MaxMind Database updates](/m2/extensions/geoip/configuration/)
+
 ### Version 1.5.7
 
 > Jun 24, 2023

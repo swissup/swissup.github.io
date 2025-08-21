@@ -3,8 +3,8 @@
   title: Automatically filled form at the checkout page
   w: 527
   h: 323
-- href: /images/m2/geoip/configuration/general.png
-  src: /images/m2/geoip/configuration/small/general.png
+- href: /images/m2/geoip/configuration/general.png?v=2
+  src: /images/m2/geoip/configuration/small/general.png?v=2
   title: Module configuration
-  w: 672
-  h: 400
+  w: 1666
+  h: 908
