@@ -14,7 +14,7 @@ category: Firecheckout
 
  -  Fixed missing focus outline for the radio and checkbox buttons when navigating via keyboard.
  -  [AddressAutocomplete](https://docs.swissuplabs.com/m2/extensions/address-autocomplete/):
-    - AddressAutocomplete: Fixed mistakenly opened autocomplete list when focus is not on the field anymore.
+    - Fixed mistakenly opened autocomplete list when focus is not on the field anymore.
 
 ### Version 1.34.0
 
