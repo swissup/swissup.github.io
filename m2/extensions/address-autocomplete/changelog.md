@@ -7,6 +7,12 @@ category: Address Autocomplete
 
 # Changelog
 
+### Version 1.8.1
+
+> September 9, 2025
+
+ -  Fixed mistakenly opened autocomplete list when focus is not on the field anymore.
+
 ### Version 1.8.0
 
 > August 18, 2025
