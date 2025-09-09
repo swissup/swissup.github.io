@@ -8,6 +8,13 @@ category: Highlight
 
 # Changelog
 
+### Version 1.11.8
+
+> September 9, 2025
+
+ -  Compatibility with Breeze 2.25.0
+ -  Magento coding standard fixes
+
 ### Version 1.11.7
 
 > June 20, 2025

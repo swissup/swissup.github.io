@@ -6,6 +6,12 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.7.28
+
+> September 9, 2025
+
+ -  Compatibility with Breeze 2.25.0
+
 ### Version 1.7.24
 
 > April 9, 2025

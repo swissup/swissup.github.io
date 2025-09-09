@@ -7,6 +7,12 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.6.1
+
+> September 9, 2025
+
+ -  Compatibility with Breeze 2.25.0
+
 ### Version 1.5.30
 
 > April 9, 2025
