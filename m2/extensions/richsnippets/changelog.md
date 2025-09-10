@@ -8,6 +8,16 @@ category: Rich Snippets
 
 # Changelog
 
+### Version 1.7.10
+
+> September 20, 2025
+
+ -  Allow multiple "Day of Week" with same day for opening hours. This allows
+    adding multiple opening hours ranges for the same day.
+ -  Fixed not working FAQ widget when inserting in the CMS block of page content.
+ -  Fixed bug when the question was removed after using product filter at
+    _Content > Widgets > FAQ > Layout Updates > Specific Products_ section.
+
 ### Version 1.7.7
 
 > April 9, 2025
