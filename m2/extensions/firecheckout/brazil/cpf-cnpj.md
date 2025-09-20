@@ -13,7 +13,7 @@ A CPF is 11 digits long, comprised of nine base digits, and two digits at the en
 that are the result of an arithmetic operation on the first nine numbers, meaning
 any typing mistakes will lead to an invalid number.
 
-> Here is an example of a CPF: 231.002.999-00 [CPF generator](https://www.4devs.com.br/gerador_de_cpf)
+> Here is an example of a CPF: 231.002.999-00 [CPF generator](https://www.4devs.com.br/gerador_de_cpf), [Bulk CPF generator](https://goonlinetools.com/pt/gerador-de-cpf/)
 
 A CNPJ is a 14-digit number; 12 base digits and two digits at the end that are
 the result of an arithmetic formula of the base numbers, making any typing mistakes
