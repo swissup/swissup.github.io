@@ -8,6 +8,72 @@ category: SEO Suite
 
 # Changelog
 
+### Version 1.19.0
+
+> Sep 23, 2025
+
+**swissup/module-hreflang — 1.6.10** (was 1.6.6)
+
+ -  PHP 8.4 fixes.
+ -  Improve compatibility with Swissup Attributepages.
+ -  Improve compatibility with FishPig Wordpress.
+ -  Fixed error "Cannot assign null to property $currentStore".
+ -  Custom value for locale in hraflang supports comma-separated list of locales.
+ -  Code optimizations.
+
+**swissup/module-rich-snippets — 1.7.11** (was 1.7.3)
+
+ -  Added QAPage schema to category pages.
+ -  Added `datePublished` and `author` fields to the QAPage schema to comply with Google Search Console requirements.
+ -  Do not remove question at the backend Widgets page, when pressing `Enter` in grid filter.
+ -  Fixed not working FAQ widget
+ -  Allow multiple Day of Week with same value for opening hours.
+ -  FAQPages: improve answers markup.
+ -  feat: Output multiple QAPage JSON-LD blocks for better indexing
+ -  Fixed two warnings about returns policy:
+    1. returnShippingFeesAmount is not applicable when free return is used.
+    See https://schema.org/returnShippingFeesAmount
+    2. When return is allowed returnFees should not be empty.
+ -  Fixed implicitly marking parameter as nullable error in PHP 8.4
+ -  Do not omit current item in the breadcrumbs.
+ -  Minor tweak to shipping details snippet.
+ -  Fixed exception about no source items with the in stock status.
+
+**swissup/module-seo-core — 1.3.10** (was 1.3.9)
+
+ -  Fixed implicitly marking parameter as nullable error in PHP 8.4
+
+**swissup/module-seo-cross-links — 1.1.19** (was 1.1.13)
+
+ -  Fixed duplicated image tag added via pagebuilder.
+ -  Fixed Magefan Blog compatibility.
+ -  Added additional config to disable the crosslinks for the Magefan blog posts.
+ -  Fixed implicitly marking parameter as nullable error in PHP 8.4
+ -  Do not render crosslinks that lead to the same page.
+
+**swissup/module-seo-html-sitemap — 1.1.21** (was 1.1.18)
+
+ -  Added missing HTML escapes.
+ -  PHP 8.4 fixes
+
+**swissup/module-seo-images — 1.3.21** (was 1.3.20)
+
+ -  Stability improvements.
+
+**swissup/module-seo-templates — 1.7.9** (was 1.7.7)
+
+ -  PHP 8.4 fixes.
+ -  Improve integration with Swissup_AjaxLayeredNavigation.
+
+**swissup/module-seo-urls — 1.5.53** (was 1.5.50)
+
+ -  Stability improvements.
+ -  Fix "404 Not Found Error" when switching language with applied filters.
+
+**swissup/module-seo-xml-sitemap — 1.1.16** (was 1.1.15)
+
+ -  PHP 8.4 fixes.
+
 ### Version 1.18.0
 
 > Apr 23, 2024
