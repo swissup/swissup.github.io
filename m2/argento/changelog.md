@@ -7,6 +7,77 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.50.0
+
+> September 25, 2025
+
+  - _Argento Blank_: Added ARIA for breadcrumbs: accessibility fix and new swiper uses mobile-first approach for breakpoints (min-width)
+  - _Argento Essence_: New swiper uses mobile-first approach for breakpoints (min-width)
+  - _Argento Flat_: New swiper uses mobile-first approach for breakpoints (min-width)
+  - _Argento Home_: MCS fixes and new swiper uses mobile-first approach for breakpoints (min-width)
+  - _Argento Marketplace_: New swiper uses mobile-first approach for breakpoints (min-width)
+
+**Extensions Updates**
+
+  - [Ajax Pro](/m2/extensions/ajaxpro/) — 1.7.29 (was 1.7.26)
+      + Fix double reloading
+      + Fix: 'ajaxpro-cart' section reload on store/website switch
+      + Fix: cart-item-render breeze integration
+  - [AskIt](/m2/extensions/askit/) — 1.14.12 (was 1.14.11)
+      + Feat: Add handle to category view 
+      + Feat: Add QAPage schema generation
+  - [Attributepages](/m2/extensions/attributepages/) — 1.7.7 (was 1.7.3)
+      + Prevent php error when calling the widget, but the module is disabled
+      + Do not allow to view the page from different store view
+      + Do not render short description if option is disabled
+      + Render option from "Active store" view or "All stores" only
+      + Properly clear fpc when option is linked to multiple parent pages
+  - [Easytabs](/m2/extensions/easytabs/) — 1.13.1 (was 1.12.18)
+      + Slightly better performance in breeze theme
+      + No need to call resizeCb. ResizeObserver will call it automatically.
+      + Avoid multiple escaping of tabs alias. Store escaper alias into variable.
+      + Enhance security by escaping output in templates using Escaper class
+      + Update widget_unset to include review form and list for Hyva theme
+      + Trim whitespace from unset block names in Tabs class
+  - [GDPR](/m2/extensions/gdpr/) — 1.8.2 (was 1.8.0)
+      + MCS fixes
+      + Do not suppress syntax error in config value
+  - [Highlight](/m2/extensions/highlight/) — 1.11.8 (was 1.11.7)
+      + Breeze: prepare for the new version
+  - [NavigationPro](/m2/extensions/navigationpro/) — 1.17.32 (was 1.17.28)
+      + Breeze: Allow to use with jQuery
+      + Fixed js error on old Magento versions (jQueryUI < 1.11.0)
+  - [ProLabels](/m2/extensions/prolabels/) — 1.7.23 (was 1.7.22)
+      + Enhancement: Add noEscape directive for padding and line-height in label template; ensure HTML output is escaped for security
+      + Enhancement: Escape HTML output and add noEscape directive in label templates for security
+      + Enhancement: Escape HTML output in label templates for security
+      + Enhancement: Add noEscape directive to fix commit validation
+      + Enhancement: Add async unbinding functionality to mutation observer
+  - [ProLabels Configurable Product](/m2/extensions/prolabels-configurable-product/) — 1.0.9 (was 1.0.8)
+      + Destroy label of the previously selected product when reset the select
+  - [Rich Snippets](/m2/extensions/rich-snippets/) — 1.7.11 (was 1.7.8)
+      + Feat: Add QAPage schema to category pages (close #35)
+      + Adds 'datePublished' and 'author' fields to the QAPage schema to comply with Google Search Console reqs
+      + Do not remove question when pressing "Enter" in grid filter
+      + Fixed php error when data is saved in old (unparseable) format
+      + Fixed not working FAQ widget
+      + Allow multiple Day of Week with same value for opening hours config
+      + Fix mcs escape warnings
+      + FAQPages: Removed pagebuilder code in answers.
+  - [Seo Cross Links](/m2/extensions/seo-cross-links/) — 1.1.20 (was 1.1.18)
+      + Refactor link creation in Filter class. Add createLink method. It allows to add plugin for it in Hyva-compatibility module.
+      + Fixed duplicated image tag added via pagebuilder.
+  - [Seo HTML Sitemap](/m2/extensions/seo-html-sitemap/) — 1.1.21 (was 1.1.20)
+      + Refactor sitemap item retrieval to use helper method and improve URL and name escaping
+      + Refactor sitemap templates to use helper method for item retrieval and enhance HTML escaping
+  - [SoldTogether](/m2/extensions/soldtogether/) — 1.10.8 (was 1.10.6)
+      + Added titles to links
+      + Fixed js error when using breeze
+      + Fixed helper.restoreValuesToRelatedProductsField is not a function error
+      + New swiper uses mobile-first approach for breakpoints (min-width)
+  - [SuggestPage](/m2/extensions/suggestpage/) — 1.2.13 (was 1.2.12)
+      + Fixed unescaped output, closes #3
+
 ### Version 1.49.0
 
 > July 29, 2025
