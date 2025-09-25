@@ -7,6 +7,78 @@ category: ArgentoBreeze
 
 # Argento Breeze Changelog
 
+### Version 2.8.0
+
+> September 25, 2025
+
+  - _ArgentoBreeze Force Theme_ 
+      + Fixed incorrect newsletter input field background
+      + Reset MageWorx_OptionFeatures integration
+
+**Extensions Updates**
+
+  - [Ajax Pro](/m2/extensions/ajaxpro/) — 1.7.29 (was 1.7.26)
+      + Fix double reloading
+      + Fix: 'ajaxpro-cart' section reload on store/website switch
+      + Fix: cart-item-render breeze integration
+  - [AskIt](/m2/extensions/askit/) — 1.14.12 (was 1.14.11)
+      + Feat: Add handle to category view 
+      + Feat: Add QAPage schema generation
+  - [AttributePages](/m2/extensions/attributepages/) — 1.7.7 (was 1.7.3)
+      + Prevent php error when calling the widget, but the module is disabled
+      + Do not allow to view the page from different store view
+      + Remove askit because it shows all questions without filtering
+      + Do not render short description if option is disabled
+      + Render option from "Active store" view or "All stores" only
+      + Properly clear fpc when option is linked to multiple parent pages
+      + Revert "Add missing cache identities to the attribute options list page"
+      + Add missing cache identities to the attribute options list page
+  - [EasyTabs](/m2/extensions/easytabs/) — 1.13.1 (was 1.12.18)
+      + Slightly better performance in breeze theme
+      + No need to call resizeCb. ResizeObserver will call it automatically.
+      + Use @NoEscape for attributes serialization in accordion, collapsed, default, expanded, and tabs templates
+      + Enhance security by escaping output in templates using Escaper class
+      + Update widget_unset to include review form and list for Hyva theme
+      + Dispatch event after preparing layout in Review block
+      + Add 'product.review.form' to blockUnsetTemplate in Tabs class
+  - [GDPR](/m2/extensions/gdpr/) — 1.8.2 (was 1.8.0)
+      + MCS fixes
+  - [Highlight](/m2/extensions/highlight/) — 1.11.8 (was 1.11.7)
+      + Breeze: prepare for the new version
+  - [NavigationPro](/m2/extensions/navigationpro/) — 1.17.32 (was 1.17.28)
+      + Breeze: Allow to use with jQuery
+      + Fixed js error on old Magento versions (jQueryUI < 1.11.0)
+  - [ProLabels](/m2/extensions/prolabels/) — 1.7.23 (was 1.7.22)
+      + Enhancement: Add noEscape directive for padding and line-height in label template; ensure HTML output is escaped for security
+      + Enhancement: Escape HTML output and add noEscape directive in label templates for security
+      + Enhancement: Escape HTML output in label templates for security
+      + Enhancement: Add noEscape directive to fix commit validation
+      + Enhancement: Add async unbinding functionality to mutation observer (close #36)
+  - [Rich Snippets](/m2/extensions/richsnippets/) — 1.7.11 (was 1.7.8)
+      + Fix: rm debug line
+      + Feat: Add QAPage schema to category pages (close #35)
+      + Adds 'datePublished' and 'author' fields to the QAPage schema to comply with Google Search Console reqs
+      + Do not remove question when pressing "Enter" in grid filter (type="button" to prevent submit)
+      + Fixed php error when data is saved in old (unparseable) format
+      + Fixed not working FAQ widget
+      + Allow multiple Day of Week with same value for opening hours config
+      + Fix mcs escape warnings
+      + FAQPages: Removed pagebuilder code in answers.
+  - [Seo Cross Links](/m2/extensions/seo-cross-links/) — 1.1.20 (was 1.1.18)
+      + Fixed duplicated image tag added via pagebuilder.
+  - [Seo HTML Sitemap](/m2/extensions/seo-html-sitemap/) — 1.1.21 (was 1.1.20)
+      + Refactor sitemap item retrieval to use helper method and improve URL and name escaping
+      + Refactor sitemap templates to use helper method for item retrieval and enhance HTML escaping
+  - [SoldTogether](/m2/extensions/soldtogether/) — 1.10.8 (was 1.10.6)
+      + Added titles to links
+      + Fixed js error when using breeze
+      + Fixed helper.restoreValuesToRelatedProductsField is not a function error
+      + New swiper uses mobile-first approach for breakpoints (min-width)
+  - **ProLabels Configurable Product** — 1.0.9 (was 1.0.8)
+      + Destroy label of the previously selected product when reset the select
+  - **SuggestPage** — 1.2.13 (was 1.2.12)
+      + Fixed unescaped output
+
 ### Version 2.7.3
 
 > July 29, 2025
