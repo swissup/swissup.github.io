@@ -53,9 +53,9 @@ category: Argento
       + Enhancement: Escape HTML output in label templates for security
       + Enhancement: Add noEscape directive to fix commit validation
       + Enhancement: Add async unbinding functionality to mutation observer
-  - [ProLabels Configurable Product](/m2/extensions/prolabels-configurable-product/) — 1.0.9 (was 1.0.8)
+  - *ProLabels Configurable Product* — 1.0.9 (was 1.0.8)
       + Destroy label of the previously selected product when reset the select
-  - [Rich Snippets](/m2/extensions/rich-snippets/) — 1.7.11 (was 1.7.8)
+  - [Rich Snippets](/m2/extensions/richsnippets/) — 1.7.11 (was 1.7.8)
       + Feat: Add QAPage schema to category pages (close #35)
       + Adds 'datePublished' and 'author' fields to the QAPage schema to comply with Google Search Console reqs
       + Do not remove question when pressing "Enter" in grid filter
@@ -75,7 +75,7 @@ category: Argento
       + Fixed js error when using breeze
       + Fixed helper.restoreValuesToRelatedProductsField is not a function error
       + New swiper uses mobile-first approach for breakpoints (min-width)
-  - [SuggestPage](/m2/extensions/suggestpage/) — 1.2.13 (was 1.2.12)
+  - *SuggestPage* — 1.2.13 (was 1.2.12)
       + Fixed unescaped output, closes #3
 
 ### Version 1.49.0
