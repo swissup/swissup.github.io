@@ -8,6 +8,39 @@ category: Pagespeed
 
 # Changelog
 
+
+
+### Version 1.13.0
+
+#### Added
+
+- Introduced **stream-based optimization pipeline** for HTML transformations. Optimizers now use a shared `Context` object for DOM operations, improving performance and modularity.
+- **New cache management system**: `Model/Cache/CacheManager.php` added for unified optimizer caching with LRU in-memory support.
+- **New context system**: `Model/Optimizer/Context.php` and `ContextFactory.php` for shared state during optimizations.
+- **Centralized DOM utilities**: `Model/Optimizer/DomManager.php` for robust DOM parsing and manipulation.
+- **Stream-aware optimizer interface**: `Model/Optimizer/StreamOptimizerInterface.php` enables pipeline compatibility.
+- **JavaScript manager**: `Model/Optimizer/Js/JsManager.php` for third-party script detection and content fixes.
+- **HashManager**: For hash-based tracking of HTML elements (e.g., scripts) during optimization.
+- **Unit Tests**: Extensive PHPUnit test coverage for all major optimizer classes (see `Test/Unit/...`).
+- **New optimizer architecture**: Most image, CSS, JS, and preload optimizers migrated to stream-based classes for improved reliability.
+- **Responsive image optimizer**: Now generates `srcset` and `sizes` for product and CMS images with flexible resolutions.
+- **Critical CSS optimizer**: Refactored to support stream processing and improved inlining.
+- **LCP optimizer**: Refactored to preload above-the-fold images for home, CMS, product, and category pages.
+- **DNS Prefetch and Preconnect optimizers**: Add `<link rel="dns-prefetch">` and `<link rel="preconnect">` for third-party resources.
+- **Unit tests**: Added for all new/changed classes.
+
+#### Changed
+- **Refactor**: All major optimizers (HTML minification, defer CSS/JS, lazy load, responsive images, specify dimensions, WebP conversion, preload, DNS prefetch, preconnect) now use stream-based context and pipeline.
+- **Image lazy load optimizer**: Improved logic for skipping LCP candidates and configurable offset.
+- **Defer CSS optimizer**: More robust stylesheet detection, preload limit based on merge settings, CSS loader script added for styles-l.
+- **Defer JS optimizer**: Now moves scripts using hash markers, supports ignore attributes/signatures, adds defer/async based on position and type.
+- **WebP optimizer**: Improved support for `<picture>` tags and JS-based replacements.
+- **Preload optimizer**: More robust asset deduplication and attribute extraction.
+- **Expire header optimizer**: Now stream-based, restricts to allowed page types, respects Varnish configuration.
+- **ExtractHosts**: Now uses modern PHP syntax, improved host detection, and caching.
+- **Image file extension extraction**: Logic improved to strip query strings and support edge cases.
+- **Abstract optimizers**: Unified interface and
+
 ### Version 1.11.6
 
 > May 26, 2025
