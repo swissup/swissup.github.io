@@ -6,6 +6,18 @@ category: Absolute Theme
 
 # Changelog
 
+### Version 1.5.3
+
+> Oct 13, 2025
+
+ -  Fixed unescaped output detected errors.
+
+### Version 1.5.2
+
+> Aug 14, 2023
+
+ -  Updated to the latest Theme Editor (Less in backend editor)
+
 ### Version 1.5.0
 
 > Aug 14, 2023
