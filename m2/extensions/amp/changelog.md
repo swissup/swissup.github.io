@@ -8,6 +8,18 @@ category: Accelerated Mobile Pages
 
 # Changelog
 
+### Version 1.6.0
+
+> October 14, 2025
+
+ -  Switched to scssphp version 2 and fixed compatibility errors
+
+### Version 1.5.13
+
+> October 7, 2025
+
+ -  Fixed unescaped output detected errors
+
 ### Version 1.5.11
 
 > April 9, 2025
