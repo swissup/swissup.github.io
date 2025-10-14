@@ -8,6 +8,12 @@ category: Email Templates
 
 # Changelog
 
+### Version 1.2.6
+
+> Oct 13, 2025
+
+ - Security improvements added
+
 ### Version 1.2.4
 
 > Jul 29, 2024
