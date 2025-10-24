@@ -8,6 +8,12 @@ category: Rich Snippets
 
 # Changelog
 
+### Version 1.7.13
+
+> October 24, 2025
+
+ -  Fixed ability to use faq widget with non-latin words and symbols.
+
 ### Version 1.7.10
 
 > September 20, 2025
