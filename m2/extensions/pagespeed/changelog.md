@@ -8,7 +8,59 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.15.0
 
+
+#### Added
+
+- **Browser Console Logger**: Added a new PSR-3 compatible logger (`Logger/BrowserConsoleLogger.php`) that outputs logs to the browser via JavaScript, supporting color output, structured data, performance metrics, and log grouping.
+- **Logger Factory and Singleton**: Added `Logger/LoggerFactory.php` and `Logger/LoggerSingleton.php` for centralized logger management.
+- **LoggerAwareTrait**: Added trait `Model/Logger/LoggerAwareTrait.php` for easy logging integration into classes.
+- **NodeIdManager**: Added `Model/Dom/NodeIdManager.php` for stable DOM node ID management using `SplObjectStorage`, preventing conflicts when reusing `spl_object_id()`.
+- **NodeIdManager Integration**: Integrated stable node ID system into `TrackedDomDocument`, `NodePositionTracker`, and `NodeSignatureBuilder`.
+- **Batch Modify Element**: Added the `batchModifyElement()` method to `TrackedDomDocument` to group multiple DOM element changes into a single patch.
+
+#### Fixed
+
+- **PHP 8.1+ Compatibility**: Fixed deprecation warnings by explicitly declaring nullable types for the `NodePositionTracker` constructor parameters (close #76).
+- **UTF-8 Encoding**: Fixed UTF-8 encoding corruption in AJAX responses by adding BOM and properly handling HTML fragments.
+- **DOM Patch System**: Improved reliability and performance of DOM patches with better duplicate detection and validation.
+- **ElementExtractor**: Fixed "undefined array key" error on empty input.
+- **PatchManager**: Improved duplicate patch detection using offset + content length.
+- **HtmlReplacer**: Added offset-based search with radius for more accurate content replacement.
+- **Context Fragment Handling**: Fixed proper handling of HTML fragments vs. full documents with improved extraction logic.
+
+#### Improved
+
+- **Logging System**: Replaced direct `consoleLog()` calls with structured debug methods via LoggerAwareTrait.
+- **DeferCSS Optimizer**: Fixed bug skipping stylesheet links during iteration (collecting nodes before processing).
+- **DeferCSS Loader Script**: Improved CSS loader script to wait for preload completion before converting to stylesheets.
+- **AddLinkPreload**: Fixed removal of preload links by other optimizers and preserved onload/onerror attributes.
+- **DomManager**: Simplified API—removed `normalizeEncoding` parameter, added `isDocument()` method to determine HTML type.
+- **TrackedDomDocument**: Uses normalized HTML for accurate node position indexing.
+- **Patch Application**: Improved error handling—continues patch application even if some fail, falls back to saveHTML() on critical errors.
+
+#### Performance
+
+- **TrackedDomDocument**: Delayed node position indexing until patches are applied.
+- **PatchManager**: Optimized logging—outputs only basic information and results.
+
+#### Tests
+
+- **Integration Tests**: Added tests for `AddLinkPreload` with defercss/deferjs optimizers.
+- **Real HTML Tests**: Added integration tests with production-like HTML to catch real-world bugs.
+
+### Version 1.14.2
+
+- **UTF-8 Fix + Cleanup**: Fixed UTF-8 encoding in AJAX responses.
+
+### Version 1.14.1
+
+- **Fragment Detection**: Correct handling of HTML fragments vs. full documents in Context.
+
+### Version 1.14.0
+
+- **Magento Coding Standard**: Fixed coding standard violations for unit tests (part II).
 
 ### Version 1.13.0
 
