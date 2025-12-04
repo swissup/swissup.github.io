@@ -8,6 +8,12 @@ category: SoldTogether
 
 # Changelog
 
+### Version 1.11.3
+
+> December 4, 2025
+
+ -  Added missing currency cache key
+
 ### Version 1.10.4
 
 > April 9, 2025
