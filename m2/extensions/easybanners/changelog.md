@@ -8,6 +8,12 @@ category: Easy Banners
 
 # Changelog
 
+### Version 1.9.22
+
+> December 5, 2025
+
+ -  Updated Breeze integration.
+
 ### Version 1.9.20
 
 > April 9, 2025

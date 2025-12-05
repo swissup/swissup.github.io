@@ -8,6 +8,12 @@ category: KnowledgeBase
 
 # Changelog
 
+### Version 1.1.34
+
+> December 5, 2025
+
+ -  Updated Breeze integration.
+
 ### Version 1.1.26
 
 > April 9, 2025

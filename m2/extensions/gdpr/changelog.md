@@ -8,6 +8,13 @@ category: GDPR
 
 # Changelog
 
+### Version 1.8.3
+
+> December 5, 2025
+
+ -  Fixed adding google consent scripts above google tag manager scripts.
+ -  Updated Breeze integration.
+
 ### Version 1.8.0
 
 > June 18, 2025

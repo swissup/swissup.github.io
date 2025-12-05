@@ -8,6 +8,12 @@ category: Highlight
 
 # Changelog
 
+### Version 1.11.9
+
+> December 5, 2025
+
+ -  Updated Breeze integration.
+
 ### Version 1.11.8
 
 > September 9, 2025

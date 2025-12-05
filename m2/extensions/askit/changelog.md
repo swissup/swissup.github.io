@@ -11,6 +11,12 @@ category: AskIt
 
 # Changelog
 
+### Version 1.14.18
+
+> December 5, 2025
+
+ -  Updated Breeze integration.
+
 ### Version 1.14.11
 
 > May 4, 2025

@@ -8,6 +8,12 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.17.33
+
+> December 5, 2025
+
+ -  Updated Breeze integration.
+
 ### Version 1.17.31
 
 > August 21, 2025

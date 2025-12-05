@@ -8,6 +8,12 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.16.2
+
+> December 5, 2025
+
+ -  Updated Breeze integration.
+
 ### Version 1.15.0
 
 

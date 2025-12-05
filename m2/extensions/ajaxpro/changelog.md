@@ -6,6 +6,12 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.7.30
+
+> December 5, 2025
+
+ -  Updated Breeze integration.
+
 ### Version 1.7.28
 
 > September 9, 2025

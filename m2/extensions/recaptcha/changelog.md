@@ -8,6 +8,12 @@ category: reCAPTCHA
 
 # Changelog
 
+### Version 1.4.14
+
+> December 5, 2025
+
+ -  Updated Breeze integration.
+
 ### Version 1.4.12
 
 > April 9, 2025
