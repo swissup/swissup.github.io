@@ -8,6 +8,74 @@ category: Helpdesk
 
 # Changelog
 
+
+### Version 1.3.13
+
+> Sep 12, 2025
+
+ -  Fix: Resolve Symfony MIME header compatibility issues in email notifications.
+
+### Version 1.3.12
+
+> Sep 8, 2025
+
+ -  Fix: Compilation from source: LESS file is empty jquery.fileupload-ui.less.
+
+### Version 1.3.11
+
+> Jul 1, 2025
+
+ -  Fix: Guest ticket error (close #58).
+
+### Version 1.3.10
+
+> Jun 23, 2025
+
+ -  Fix: main. CRITICAL: TypeError: Swissup\Helpdesk\Model\TicketViewers::remove(): Argument 1 (ticketId) must be of type int, null given (close #56).
+ -  Removed textarea animation styles (close #57).
+
+### Version 1.3.9
+
+> Jun 16, 2025
+
+ -  Fix CRITICAL: Error: Call to a member function getNumber() on bool (close #55).
+ -  Fix: AbstractNotification::sendEmail(): Argument 1 must be of type array, string given.
+
+### Version 1.3. 8
+
+> Jun 12, 2025
+
+ -  Fix XssTemplate.FoundUnescaped (close #53).
+ -  Use correct template escaper.
+
+### Version 1.3.7
+
+> Jun 9, 2025
+
+ -  Add Symfony mail message supporting for Magento 2.4.8.
+
+### Version 1.3.6
+
+> Jun 6, 2025
+
+ -  Supress error reporting in file action (close #52).
+
+### Version 1.3.5
+
+> Jun 4, 2025
+
+ -  Fix: Fatal error: Declaration of Swissup\Helpdesk\Mail\Message methods compatibility with Magento\Framework\Mail\Message.
+ -  Fix: Class Laminas\Mail\Message not found.
+ -  Fix addBcc for 2.4.8.
+ -  Fix splitBody logic.
+
+### Version 1.3.4
+
+> May 30, 2025
+
+ -  Add correct page title for each ticket on frontend. Add page.main.title custom blocks (close #51).
+ -  Add 'People currently checking this ticket' like in M1 version (close #46).
+
 ### Version 1.3.3
 
 > April 9, 2025
