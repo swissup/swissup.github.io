@@ -7,6 +7,16 @@ category: Attributepages
 
 # Changelog
 
+### Version 1.8.0
+
+> December 8, 2025
+
+ -  Added ability to activate page according specified date range.
+    "Active from", and "Active to" options available for both [attribute](/m2/extensions/attributepages/attribute-based-page/backend/#attribute-page-form)
+    and [option-based pages](/m2/extensions/attributepages/option-based-page/backend/#option-page-form).
+    These fields are optional and you may leave them empty to keep
+    pages active regardless of date.
+
 ### Version 1.7.5
 
 > August 12, 2025

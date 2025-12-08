@@ -47,7 +47,7 @@ Attribute page form consists of four tabs:
 
 ##### Page information tab
 
-![Page information tab](/images/m2/attributepages/attribute-based-page/backend/tab-page-information.png)
+![Page information tab](/images/m2/attributepages/attribute-based-page/backend/tab-page-information.png?v=2)
 
 Field | Description
 :-----|:-----------
@@ -57,6 +57,7 @@ Name | Page identifier for store owner
 Title | Used by `Swissup\Attributepages\Block\Attribute\PagesList` block and widget.<br/> It's also used as a `Page Title` if the content tab does not redefine it.
 Url key | Frontend url where the page will be available
 Store View | List of store views, where the current page should be available
+Active From, Active To | Ability to set date range when the page should be active
 **Attribute Information** |
 Attribute | Attribute label and ID
 Hide from layered navigation | Show/Hide attribute from layered navigation across all Magento pages

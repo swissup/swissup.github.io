@@ -39,7 +39,7 @@ Option page form contains three tabs:
 
 ##### Option information tab
 
-![Option information](/images/m2/attributepages/option-based-page/backend/tab-option-information.png)
+![Option information](/images/m2/attributepages/option-based-page/backend/tab-option-information.png?v=2)
 
 Field | Description
 :-----|:-----------
@@ -50,6 +50,7 @@ Url key | Frontend url where the page will be available
 Image | Image to show at the Attributepage and widgets
 Thumbnail | Image to show, when tiny logo size is needed. Look at [Use cases](/m2/extensions/attributepages/use-cases/) page.
 Store View | List of store views, where current page should be available
+Active From, Active To | Ability to set date range when the page should be active
 
 ##### Content tab
 
