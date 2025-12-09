@@ -7,6 +7,124 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.51.0
+
+> December 8, 2025
+
+ -  _Argento Chic:_ Fixed incorrectly pointed arrow
+ -  _Argento Chic:_ Update swiper config at the homepage
+ -  _Argento Marketplace:_ Fixed outdated swiper config at the homepage
+ -  _Argento Marketplace:_ Fixed collapsed highlight slider when inserted as widget on attrpage
+
+**Extensions Updates**
+
+  - [Ajax Pro](/m2/extensions/ajaxpro/) — 1.7.30 (was 1.7.29)
+      + Breeze: update integration
+      + Breeze: exclude requirejs-config
+      + Breeze: fixed invalid css selector
+      + Do not register modal if 'el' is not exists
+  - [Ajax Search](/m2/extensions/ajaxsearch/) — 1.13.30 (was 1.13.27)
+      + Breeze: update integration
+      + Breeze: exclude requirejs-config
+      + fix(graphql): make 'search' parameter optional in ajaxsearch graphql
+  - [AMP](/m2/extensions/amp/) — 1.6.0 (was 1.5.11)
+      + Allow scssphp version 2
+  - [AskIt](/m2/extensions/askit/) — 1.14.18 (was 1.14.12)
+      + Breeze: Update integration
+      + Feat: Add FAQPageSchema provider
+      + Breeze: prepare for next update
+      + Enhance input sanitization and validation for XSS & SQL injection protection
+  - [AttributePages](/m2/extensions/attributepages/) — 1.8.0 (was 1.7.7)
+      + Ability to activate page on specified date range
+  - [Compare](/m2/extensions/compare/) — 1.2.8 (was 1.2.7)
+  - [Easy Slide](/m2/extensions/easyslider/) — 1.8.16 (was 1.8.14)
+      + Fixed deprecation warning - The use of function image_type_to_mime_type() is discouraged
+      + Fixed deprecation warning - The use of function is_file() is discouraged
+      + Fix escaping of slider identifier using Escaper in slider template
+      + Add @NoEscape annotations to JSON encoding and improve HTML escaping in gallery template
+      + Refactor templates to use Escaper for HTML attributes and improve code readability
+  - [EasyBanner](/m2/extensions/easybanners/) — 1.9.22 (was 1.9.20)
+      + Breeze: update integration
+      + Breeze: exclude requirejs-config
+      + Remove double escaping
+      + Escaper added
+  - [EasyCatalogImages](/m2/extensions/easycatalogimages/) — 1.5.13 (was 1.5.12)
+  - [EasyTabs](/m2/extensions/easytabs/) — 1.13.2 (was 1.13.1)
+      + Breeze: update integration
+      + Breeze: prepare for the next version
+  - [Featured Attributes](/m2/extensions/featured-attributes/) — 1.1.9 (was 1.1.8)
+  - **Font Awesome** — 1.4.4 (was 1.4.3)
+      + Fixed CORS error in admin when Page Builder used
+  - [GDPR](/m2/extensions/gdpr/) — 1.8.3 (was 1.8.2)
+      + Move google consent js before possible GTM script from misc html option
+      + Breeze: reuse luma-mixins
+      + Breeze: update integration
+  - [Highlight](/m2/extensions/highlight/) — 1.11.9 (was 1.11.8)
+      + Breeze: update integration
+      + Breeze: exclude requirejs-config
+      + Move dynamic script to dynamic bundle
+  - [Hover Gallery](/m2/extensions/hover-gallery/) — 1.3.15 (was 1.3.14)
+  - [LightboxPro](/m2/extensions/lightboxpro/) — 1.3.9 (was 1.3.8)
+  - [NavigationPro](/m2/extensions/navigationpro/) — 1.17.33 (was 1.17.32)
+      + Breeze: update integration
+      + Breeze: exclude requirejs-config
+  - [Pagespeed](/m2/extensions/pagespeed/) — 1.16.2 (was 1.12.0)
+      + Major refactoring: migrated to DOM-aware architecture for better reliability
+      + Implemented TrackedDomDocument for patch-based HTML modifications
+      + Added comprehensive unit tests for improved code quality
+      + Fixed UTF-8 encoding corruption in AJAX responses
+      + Fixed data-mage-init attribute corruption in DOMDocument processing
+      + Added JSON content signature support and fixed duplicate offsets
+      + Improved error messages for Critical CSS API failures
+      + Fixed infinite loops and memory leaks in DOM operations
+      + Enhanced XSS protection and security measures
+      + Improved performance with optimized DOM operations and caching
+      + Fixed nested script tag handling
+      + Added fetchpriority=high for LCP image nodes
+      + Breeze: update integration
+      + Breeze: do not include requirejs-config
+  - [ProLabels](/m2/extensions/prolabels/) — 1.7.26 (was 1.7.23)
+      + fix: hide stock labels when qty <= 0 and prevent empty label rendering
+      + Breeze: fixed lazy init when slide gallery is used
+      + Fixed visible \Magento\Framework\Escaper string
+      + Breeze: remove invalid selector (expanded gallery)
+      + Breeze: expanded gallery fixes
+  - [QtySwitcher](/m2/extensions/qty-switcher/) — 1.1.28 (was 1.1.27)
+      + Breeze: fixed not working switcher in shopping cart
+      + Improved styles with error message
+  - [ReviewReminder](/m2/extensions/reviewreminder/) — 1.1.19 (was 1.1.18)
+  - [SEO Suite](/m2/extensions/seo-suite/)
+      + **[Rich Snippets](/m2/extensions/richsnippets/)** — 1.7.16 (was 1.7.11)
+        * Ensure organization config returns structured array
+        * Refactor: Centralize FAQPage block with shared layout handle
+        * Refactor: Replace FAQPages with universal FAQPage block
+        * Fixed inability to use faq widget with non-latin words
+        * Fix QAPage filter logic: apply either product or category, not both
+      + **[Hreflang](/m2/extensions/hreflang/)** — 1.6.11 (was 1.6.10)
+        * Update Attributepage integration
+      + **[Seo Cross Links](/m2/extensions/seo-cross-links/)** — 1.1.21 (was 1.1.20)
+        * Sanitize crosslink keywords and skip empty rules to prevent invalid rendering html
+      + **[Seo Templates](/m2/extensions/seo-templates/)** — 1.7.10 (was 1.7.9)
+        * Remove HTML escaping from translatable strings in metadata template
+        * Enhance security by escaping HTML output in metadata template
+      + **[Seo URLs](/m2/extensions/seo-urls/)** — 1.5.54 (was 1.5.53)
+        * Refactor attribute labels and options templates to use the escaper for HTML output
+  - [SoldTogether](/m2/extensions/soldtogether/) — 1.11.3 (was 1.10.8)
+      + Added missing currency cache key
+      + Option to add 'data-nosnippet' attribute to sold-together blocks
+      + Added missing translation
+      + Enhance template security by escaping section titles and descriptions
+      + Enhance template security by escaping product ID and attribute IDs in configurable options
+      + Enhance security and readability by using Escaper for URL and HTML escaping in templates
+      + Refactor JavaScript URL handling and improve code readability in templates
+  - [Testimonials](/m2/extensions/testimonials/) — 1.3.17 (was 1.3.16)
+  - **Core Module** — 1.12.25 (was 1.12.24)
+      + Fixed broken markup when using newer libxml version (2.15.1)
+  - **SoldTogether Custom Options** — 1.0.2 (was 1.0.1)
+  - **SuggestPage** — 1.2.14 (was 1.2.13)
+      + Fixed wrong escape in translation
+  - **Theme Editor** — 1.11.5 (was 1.11.4)
+
 ### Version 1.50.0
 
 > September 25, 2025
