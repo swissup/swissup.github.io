@@ -7,6 +7,13 @@ category: Delivery Date
 
 # Changelog
 
+### Version 1.8.0
+
+> December 16, 2025
+
+ -  Added [option](/m2/extensions/delivery-date/configuration/#first-available-delivery-date-rules)
+    that allows to skip weekends and holidays from "First Available Day" offset.
+
 ### Version 1.7.11
 
 > April 9, 2025
