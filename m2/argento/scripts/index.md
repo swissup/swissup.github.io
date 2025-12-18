@@ -2,14 +2,14 @@
 layout: default
 title: Argento scripts
 description: >
-    Argento scripts - are the small javascript widgets that helping you to implement
-    common design tasks with ease.
+    Argento scripts are small javascript widgets that help you implement
+common design tasks with ease.
 category: Argento
 ---
 
 # Argento scripts
 
-Argento scripts - are the small javascript widgets that helps you to implement
+Argento scripts are small javascript widgets that help you implement
 common design tasks with ease.
 
  -  [ArgentoSticky](argento-sticky/)
