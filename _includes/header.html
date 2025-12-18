@@ -7,17 +7,6 @@
             </a>
         </span>
         <div class="mdl-layout-spacer"></div>
-        <div class="docs-search">
-            <div class="textfield-wrapper">
-                <div class="mdl-textfield mdl-js-textfield">
-                    <label class="mdl-button mdl-js-button mdl-button--icon" for="search">
-                        <i class="material-icons">search</i>
-                    </label>
-                    <input class="mdl-textfield__input" type="text" autocomplete="off" id="search" data-url="{{ "/search.json" | prepend: site.baseurl }}"/>
-                    <label class="mdl-textfield__label" for="search">Search...</label>
-                </div>
-                <ul id="search-results" class="search-results"></ul>
-            </div>
-        </div>
+        <div id="docsearch"></div>
     </div>
 </header>
