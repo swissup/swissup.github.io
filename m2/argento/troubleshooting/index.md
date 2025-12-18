@@ -9,7 +9,7 @@ category: Argento
 
 ### Argento "Can't generate content" at Magento 2.2 homepage
 
-**Magento 2.2** version is not using that widget part anymore:
+**Magento 2.2** version is not using the following widget part anymore:
 
 ```
 conditions_encoded="a:1:[i:1;a:4:[s:4:`type`;s:50:`Magento|CatalogWidget|Model|
@@ -17,13 +17,13 @@ Rule|Condition|Combine`;s:10:`aggregator`;s:3:`all`;s:5:`value`;s:1:`1`;
 s:9:`new_child`;s:0:``;]]"
 ```
 
-but it is included in installation for earlier versions support.
+but it is included in the installation for earlier versions support.
 
 **Fixing**
 
- 1. Open your homepage content and turn off **WYSIWYG** editor to see the raw code
+ 1. Open your homepage content and turn off the **WYSIWYG** editor to see the raw code
  2. Find all **Highlight** widgets
- 3. Remove that part ```conditions_encoded="a:1:[i:1;a:4....;]]"``` from every widget
+ 3. Remove the part ```conditions_encoded="a:1:[i:1;a:4....;]]"``` from every widget
  4. Save. Enjoy!
 
 ### Getting error: Required parameter 'theme_dir' was not passed
@@ -35,27 +35,27 @@ That sometimes happens during the upgrade.
 
 * Go to `PhpMyAdmin` > `Your Magento2 database`
 * Find the `"theme"` table
-* And make sure that all theme types are set to `'0'`
+* Make sure that all theme types are set to `'0'`
 * In case any of them have `type` = `'1'` change it to `'0'`
 * Error should be gone
 
 ### Troubleshooting Checklist
 
-> Often the problems are not related to `Swissup` themes or modules.
-> But it takes much time to get your **credentials**, **login** to server, find
-> out the problem **solution**.
+> Often problems are not related to `Swissup` themes or modules.
+> However, it takes much time to get your **credentials**, **login** to server, and
+> find a **solution**.
 
 
-Before developers check your problem we recommend you to run through the following
+Before developers check your problem, we recommend that you go through the following
 list points. It will **save** your time and make the support **faster and effective**:
 
 - Check if you have the latest **Argento** version.
-     * `Admin > Swissup > Module Management` - modules' versions should be 'GREEN'
+     * `Admin > Swissup > Module Management` - the modules' versions should be 'GREEN'
      * Please [UPGRADE](/m2/argento/installation/#upgrade-instructions) when required.
 
      > **Clear cache** and test if the error still there
 
-- Swith your current **Argento** theme design to Magento default **LUMA**
+- Switch your current **Argento** theme design to Magento default **LUMA**
 
      * `Admin > Content > Configuration > Find your theme > Edit` > Set **Magento Luma**
 
@@ -65,26 +65,26 @@ list points. It will **save** your time and make the support **faster and effect
             Sorry, your browser doesn't support embedded videos.
         </video>
 
-     > **Clear cache** and test the behavior at default theme
+     > **Clear cache** and test the behavior in the default theme
 
-- **Disable** all **Swissup** modules (run following terminal command from your store root folder)
+- **Disable** all **Swissup** modules (run the following terminal command from your store root folder)
 
     ```bash
     bin/magento module:status | grep 'Swissup_' | xargs bin/magento module:disable
     ```
 
-    > **Clear cache** and test if the error still there
+    > **Clear cache** and test if the error is still there
 
 - **Disable** all 3rd-party modules
 
     > **Clear cache** and test if the error still there
 
 
-#### If none of previous actions haven't fixed/removed the problem
+#### If none of the previous actions fixed/removed the problem
 
  *  Please, [create a ticket](https://argentotheme.com/helpdesk) in **Argento Helpdesk**.
  *  Send the store **credentials** (SSH/FTP/Magento admin etc.) if required
- *  Add the screenshots for *better/faster* understanding
+ *  Add screenshots for *better/faster* understanding
 
 ##### Next up
 
