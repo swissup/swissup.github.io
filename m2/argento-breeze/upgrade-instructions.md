@@ -9,10 +9,10 @@ category: ArgentoBreeze
 
 ## Version 2.x.x - 2.4.0
 
-The easiest way to enable scroll reveal - is to rerun the installer. But this
-method is not suitable if you've made some customizations and want to keep them.
+The easiest way to enable scroll reveal is to rerun the installer. However, this
+method is not suitable if you've made customizations and want to keep them.
 
-In this case you need open homepage in backend editor and manually add
+In this case, you need to open your homepage in the backend editor and manually add
 `scroll-reveal-container`, `scroll-reveal-children`, and `scroll-reveal` css
 classes.
 
