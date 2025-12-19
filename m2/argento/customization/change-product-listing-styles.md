@@ -71,7 +71,7 @@ Variable | Description | Default Value
 
 ### Squama mixin
 
-Squama listing mixin is used on Argento Essence theme. It provides following
+Squama listing mixin is used on the Argento Essence theme. It provides the following
 variables:
 
 Variable | Description | Default Value
@@ -86,7 +86,7 @@ Variable | Description | Default Value
 @argento-listing-squama__hover__border | Item border | @argento-listing-squama__border
 @argento-listing-squama__hover__box-shadow | Item shadow | 0 0 5px rgba(0, 0, 0, 0.2)
 
-Let's make items shorter, and increase hover effect:
+Let's make items shorter and increase the hover effect:
 
 Open `_argento_custom.less` file and add the following content:
 
