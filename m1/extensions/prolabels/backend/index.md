@@ -8,8 +8,8 @@ category: Prolabels
 
 # Prolabels
 
- +  [Extension Configuration](configuration)
- +  [Add On Sale Label](on-sale-label)
- +  [Add New Product Label](new-product-label)
- +  [Add In Stock Label](in-stock-label)
- +  [Create Manual Label](manual-label)
+ +  [Extension Configuration](configuration/)
+ +  [Add On Sale Label](on-sale-label/)
+ +  [Add New Product Label](new-product-label/)
+ +  [Add In Stock Label](in-stock-label/)
+ +  [Create Manual Label](manual-label/)

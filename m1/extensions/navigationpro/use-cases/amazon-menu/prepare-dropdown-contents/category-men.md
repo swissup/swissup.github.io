@@ -17,5 +17,5 @@ into single dropdown item, stacked dropdown styles will be automatically applied
 ##### Next up
 
   -  [**Proceed to next chapter**](../category-sale/)
-  -  [Back to previous chapter](../category-women)
+  -  [Back to previous chapter](../category-women/)
   -  [Back to contents](../#contents)

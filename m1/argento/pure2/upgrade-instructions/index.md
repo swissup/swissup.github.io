@@ -8,6 +8,6 @@ category: Argento
 
 ### 1.8.3 - 1.8.4 upgrade instructions:
 
-- [Upgrade using installer](/m1/argento/pure2/upgrade-instructions/1.8.3-1.8.4-installer-upgrade)
+- [Upgrade using installer](/m1/argento/pure2/upgrade-instructions/1.8.3-1.8.4-installer-upgrade/)
 
-- [Manual upgrade](/m1/argento/pure2/upgrade-instructions/1.8.3-1.8.4-manual-upgrade)
+- [Manual upgrade](/m1/argento/pure2/upgrade-instructions/1.8.3-1.8.4-manual-upgrade/)

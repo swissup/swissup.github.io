@@ -208,4 +208,4 @@ Trail.prototype = {
 ##### Next up
 
  -  [Back to Brazilian Utilities](/m1/extensions/firecheckout/brazil/)
- -  [Back to home](/m1/extensions/firecheckout)
+ -  [Back to home](/m1/extensions/firecheckout/)

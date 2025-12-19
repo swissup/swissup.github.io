@@ -679,7 +679,7 @@ allows to create unique checkout that will perfectly fit your store.
 ### Version 3.6.1
 
  -  [Address Autocomplete](/m1/extensions/address-autocomplete/) updated to 1.1.0
-    with js fixes and new [Street Number Placement](/m1/extensions/address-autocomplete/configuration)
+    with js fixes and new [Street Number Placement](/m1/extensions/address-autocomplete/configuration/)
     config option
 
 **Improvements & Fixes**

@@ -30,7 +30,7 @@ periodic Weekend deal or periodic Friday night deal.
  3. [Frontend](frontend/)
      - [Features right from the box](frontend/features-right-from-the-box/)
      - [Checkout feature](frontend/checkout-feature/)
-     - [Additional features](frontend/#)
+     - [Additional features](frontend/)
         * [Deal timer on category page](frontend/additional-features/deal-timer-on-category-page/)
         * [Other products with discount on deals page](frontend/additional-features/other-products-with-discount/)
         * [Deal label](frontend/additional-features/deal-label/)
@@ -41,7 +41,7 @@ periodic Weekend deal or periodic Friday night deal.
      - [Timer can not find jQuery](use-cases/#timer-can-not-find-jquery)
      - [jQuery(...) is not a function](use-cases/#jquery-is-not-a-function)
      - [Change Flip Timer color](/m1/extensions/countdowntimer/use-cases/#change-flip-timer-color)
- 5. [Troubleshooting](troubleshooting)
+ 5. [Troubleshooting](troubleshooting/)
      -  [Deals page does not show all items or is empty](troubleshooting/#deals-page-does-not-show-all-items-or-is-empty)
- 6. [Changelog](changelog)
+ 6. [Changelog](changelog/)
 

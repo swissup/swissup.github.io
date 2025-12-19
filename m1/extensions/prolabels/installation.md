@@ -132,8 +132,8 @@ follows:
     ```
 
 That's all. Now you are ready to create label for
-[**On Sale**](../backend/on-sale-label) or
-[**New**](../backend/new-product-label) products.
+[**On Sale**](../backend/on-sale-label/) or
+[**New**](../backend/new-product-label/) products.
 
 #### After you install an extension you can go to:
 

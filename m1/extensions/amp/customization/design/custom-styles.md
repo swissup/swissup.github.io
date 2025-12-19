@@ -23,7 +23,7 @@ Theme customization can be accomplished with two custom files:
 AMP will automatically include these files as soon as you'll create them.
 
 The first one is for SASS variables. You can change any existing
-[AMP variable](../sass-variables) in this file. Example:
+[AMP variable](../sass-variables/) in this file. Example:
 
 ```scss
 $header-fixed: false;

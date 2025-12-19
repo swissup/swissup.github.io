@@ -33,7 +33,7 @@ please check [homepage configuration](/m1/argento/luxury/configuration/#home-pag
 
 ![Slider](/images/argento/luxury/homepage/slider.png)
 
-Slider is powered by [EasySlider](/m1/extensions/easyslider) module.
+Slider is powered by [EasySlider](/m1/extensions/easyslider/) module.
 You can manage each slide and animation effects at `Templates-Master > Easyslide` backend page.
 
 Slider is inserted in homepage with widget. The following code is used to show

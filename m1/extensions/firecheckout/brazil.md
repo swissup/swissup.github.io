@@ -23,4 +23,4 @@ category: Firecheckout
 
 ##### Next up
 
- -  [Back to home](/m1/extensions/firecheckout)
+ -  [Back to home](/m1/extensions/firecheckout/)

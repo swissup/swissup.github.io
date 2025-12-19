@@ -88,7 +88,7 @@ additional modifications.
 - SVMPayment
 - Svea_WebPay
 - TemplateTag_Stripe
-- [Twocheckout_Tco](twocheckout_tco)
+- [Twocheckout_Tco](twocheckout_tco/)
 - [Upg_Payments](upg-payments/)
 - Vaimo_Klarna
 - [Xonu_Directdebit](xonu-directdebit/)
@@ -142,7 +142,7 @@ additional modifications.
 - [Unirgy_DropshipSplit](unirgy-dropshipsplit/)
 - [Vconnect_AllInOne](vconnect-allinone/)
 - [Webgriffe_Tntpro](webgriffe-tntpro/)
-- [Webkul_Stripe](webkul-stripe)
+- [Webkul_Stripe](webkul-stripe/)
 - [Webkul_Warehousemanagement](webkul-warehousemanagement/)
 - Webshopapps_Desttype
 - Webshopapps_Premiumrate

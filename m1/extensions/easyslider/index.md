@@ -21,7 +21,7 @@ Magento image slider with Swiper slider integration.
  3. [Admin interfaces](backend/#admin-interfaces)
      -  [Configuration tab](backend/#configuration-tab)
      -  [Slides tab](backend/#slides-tab)
- 4. [Use cases](use-cases)
+ 4. [Use cases](use-cases/)
      -  [Easy Slider as Magento widget](use-cases/#easy-slider-as-magento-widget)
      -  [Easy Slider as XML code](use-cases/#easy-slider-as-xml-code)
      -  [Easy Slider as block code](use-cases/#easy-slider-as-block-code)

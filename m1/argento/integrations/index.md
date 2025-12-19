@@ -8,6 +8,6 @@ category: Argento
 
 # Integrations
 
- *  [with Magento Enterprice Edition](magento-ee)
- *  [with Cart2Quote extension](cart2quote)
- *  [with TBT (Sweet Tooth) Rewards](tbt-rewards)
+ *  [with Magento Enterprice Edition](magento-ee/)
+ *  [with Cart2Quote extension](cart2quote/)
+ *  [with TBT (Sweet Tooth) Rewards](tbt-rewards/)

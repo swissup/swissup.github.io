@@ -89,9 +89,9 @@ read ho to do it at [this link](/m1/extensions/amp/installation/#run-installer)
 
     You can switch to new `homepage` and `footer` in two ways:
 
-    - [Upgrade using installer](/m1/argento/pure/upgrade-instructions/1.8.4-1.8.5-installer-upgrade)
+    - [Upgrade using installer](/m1/argento/pure/upgrade-instructions/1.8.4-1.8.5-installer-upgrade/)
 
-    - [Manual upgrade](/m1/argento/pure/upgrade-instructions/1.8.4-1.8.5-manual-upgrade)
+    - [Manual upgrade](/m1/argento/pure/upgrade-instructions/1.8.4-1.8.5-manual-upgrade/)
 
 -  **Update Homepage and Footer markup (ArgentoMall theme users only)**
 
@@ -99,9 +99,9 @@ read ho to do it at [this link](/m1/extensions/amp/installation/#run-installer)
 
     You can switch to new `homepage` and `footer` in two ways:
 
-    - [Upgrade using installer](/m1/argento/mall/upgrade-instructions/1.8.4-1.8.5-installer-upgrade)
+    - [Upgrade using installer](/m1/argento/mall/upgrade-instructions/1.8.4-1.8.5-installer-upgrade/)
 
-    - [Manual upgrade](/m1/argento/mall/upgrade-instructions/1.8.4-1.8.5-manual-upgrade)
+    - [Manual upgrade](/m1/argento/mall/upgrade-instructions/1.8.4-1.8.5-manual-upgrade/)
 
  -  To keep your Magento instance "clean and tidy" you can delete following
     files:
@@ -159,9 +159,9 @@ read ho to do it at [this link](/m1/extensions/amp/installation/#run-installer)
 
     You can switch to new `homepage` and `footer` in two ways:
 
-    - [Upgrade using installer](/m1/argento/pure2/upgrade-instructions/1.8.3-1.8.4-installer-upgrade)
+    - [Upgrade using installer](/m1/argento/pure2/upgrade-instructions/1.8.3-1.8.4-installer-upgrade/)
 
-    - [Manual upgrade](/m1/argento/pure2/upgrade-instructions/1.8.3-1.8.4-manual-upgrade)
+    - [Manual upgrade](/m1/argento/pure2/upgrade-instructions/1.8.3-1.8.4-manual-upgrade/)
 
 ### Version 1.8.1 - 1.8.2
 
@@ -209,9 +209,9 @@ read ho to do it at [this link](/m1/extensions/amp/installation/#run-installer)
 
     You can switch to new `homepage` and `footer` in two ways:
 
-    - [Upgrade using installer](/m1/argento/flat/upgrade-instructions/1.8.1-1.8.2-installer-upgrade)
+    - [Upgrade using installer](/m1/argento/flat/upgrade-instructions/1.8.1-1.8.2-installer-upgrade/)
 
-    - [Manual upgrade](/m1/argento/flat/upgrade-instructions/1.8.1-1.8.2-manual-upgrade)
+    - [Manual upgrade](/m1/argento/flat/upgrade-instructions/1.8.1-1.8.2-manual-upgrade/)
 
 ### Version 1.7.4 - 1.8.0
 
@@ -237,9 +237,9 @@ read ho to do it at [this link](/m1/extensions/amp/installation/#run-installer)
 
     You can switch to new `homepage` and `footer` in two ways:
 
-    - [Upgrade using installer](/m1/argento/default/upgrade-instructions/1.7.4-1.8.0-installer-upgrade)
+    - [Upgrade using installer](/m1/argento/default/upgrade-instructions/1.7.4-1.8.0-installer-upgrade/)
 
-    - [Manual upgrade](/m1/argento/default/upgrade-instructions/1.7.4-1.8.0-manual-upgrade)
+    - [Manual upgrade](/m1/argento/default/upgrade-instructions/1.7.4-1.8.0-manual-upgrade/)
 
 ### Version 1.7.3.1 - 1.7.4
 

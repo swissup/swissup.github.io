@@ -68,4 +68,4 @@ Example, that makes phone masks for the billing address fields "telephone" and "
 ##### Next up
 
  -  [Back to Brazilian Utilities](/m1/extensions/firecheckout/brazil/)
- -  [Back to home](/m1/extensions/firecheckout)
+ -  [Back to home](/m1/extensions/firecheckout/)

@@ -68,4 +68,4 @@ category: Argento
 
 - [Short header and footer layout](checkout-page/#short-header-and-footer-layout)
 
-##### [RTL support for Pure2 Enabling](rtl)
+##### [RTL support for Pure2 Enabling](rtl/)

@@ -9,7 +9,7 @@ category: Countdown Timer
 # Countdown Timer
 
 * [Extension configuration](#extension-configuration)
-* [Use cases](use-cases)
+* [Use cases](use-cases/)
     - [Change flip timer color](use-cases/#change-flip-timer-color)
     - [Timer can not find jQuery](use-cases/#timer-can-not-find-jquery)
     - [jQuery(...) is not a function](use-cases/#jquery-is-not-a-function)

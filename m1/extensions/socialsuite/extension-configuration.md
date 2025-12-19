@@ -25,8 +25,8 @@ category: Social Suite
     -   [Using social buttons on the product page](../options/using-social-buttons-on-the-product-page/)
     -   [Using social buttons on the category products page](../options/using-social-buttons-on-the-category-products-page/)
     -   [Using social buttons on the category page](../options/using-social-buttons-on-the-category-page/)
-    -   [Using social buttons on the store page](../options/using-social-buttons-on-the-store-page)
-    -   [Using social buttons on CMS page](../options/using-social-buttons-on-cms-page)
+    -   [Using social buttons on the store page](../options/using-social-buttons-on-the-store-page/)
+    -   [Using social buttons on CMS page](../options/using-social-buttons-on-cms-page/)
 
 ### Basic Setup
 

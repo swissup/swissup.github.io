@@ -32,6 +32,6 @@ ___
 *   [Using social buttons on the product page](../using-social-buttons-on-the-product-page/)
 *   [Using social buttons on the category products page](../using-social-buttons-on-the-category-products-page/)
 *   [Using social buttons on the category page](../using-social-buttons-on-the-category-page/)
-*   [Using social buttons on the store page](../using-social-buttons-on-the-store-page)
+*   [Using social buttons on the store page](../using-social-buttons-on-the-store-page/)
 *   [Support](https://swissuplabs.com/contacts/)
 *   [Forum](https://swissuplabs.com/magento-forum/)

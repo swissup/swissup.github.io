@@ -36,4 +36,4 @@ Example of working CPF/CNPJ field, file - `taxvat.phtml`:
 ##### Next up
 
  -  [Back to Brazilian Utilities](/m1/extensions/firecheckout/brazil/)
- -  [Back to home](/m1/extensions/firecheckout)
+ -  [Back to home](/m1/extensions/firecheckout/)

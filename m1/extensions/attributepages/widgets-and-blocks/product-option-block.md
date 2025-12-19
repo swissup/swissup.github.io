@@ -12,7 +12,7 @@ Product option block could be used to show the brand logo (or any other attribut
 **for a single product** with php, layout xml update or widget interface.
 
 > It's not recommended to use the block for a product collection. Use specially optimized
-> [product option helper](/m1/extensions/attributepages/widgets-and-blocks/product-option-helper)
+> [product option helper](/m1/extensions/attributepages/widgets-and-blocks/product-option-helper/)
 > for collections.
 
 Table of Contents

@@ -10,7 +10,7 @@ category: SEO HTML Sitemap
 
 Other extensions can add their links to sitemap
 using `tm_seohtmlsitemap_prepare_custom_links` event.
-Here is example how its done in [Highlight](/m1/extensions/highlight) extension:
+Here is example how its done in [Highlight](/m1/extensions/highlight/) extension:
 
 1.  add event listener in `config.xml` in `frontend` section:
 
