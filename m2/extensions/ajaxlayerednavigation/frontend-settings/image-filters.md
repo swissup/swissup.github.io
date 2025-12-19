@@ -30,7 +30,7 @@ category: Ajax Layered Navigation
 ![vendor](https://user-images.githubusercontent.com/412612/56506693-f4ff1b00-6527-11e9-9eeb-f21c49b3d881.png)
 
 #### Next up
- -  [Installation](../installation)
- -  [Configuration](../#configuration)
- -  [Use cases](../#use-cases)
- -  [Back to Main Page](../)
+ -  [Installation](../installation/)
+ -  [Configuration](../../configuration/)
+ -  [Use cases](../../use-cases/)
+ -  [Back to Main Page](../../)

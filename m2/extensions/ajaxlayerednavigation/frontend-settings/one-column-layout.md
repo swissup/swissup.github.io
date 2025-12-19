@@ -13,7 +13,7 @@ The layered navigation filters shown in the one column layout have to be used if
 ![One column layout](/images/m2/ajaxlayerednavigation/one-column-layout.png)
 
 #### Next up
- -  [Installation](../installation)
- -  [Configuration](../#configuration)
- -  [Use cases](../#use-cases)
- -  [Back to Main Page](../)
+ -  [Installation](../../installation/)
+ -  [Configuration](../../configuration/)
+ -  [Use cases](../../use-cases/)
+ -  [Back to Main Page](../../)

@@ -19,4 +19,4 @@ as an example.
 {:.no_toc}
 
  -  [Back to Home](/m2/extensions/easybanners/)
- -  [CSS Class Helpers](/m2/extensions/css-class-helpers/)
+ -  [CSS Class Helpers](/m2/extensions/easybanners/css-class-helpers/)

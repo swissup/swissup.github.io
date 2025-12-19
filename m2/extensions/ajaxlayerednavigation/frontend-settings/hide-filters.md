@@ -28,7 +28,7 @@ Set something like
 ![Screen](https://user-images.githubusercontent.com/412612/56489195-99ae3800-64e9-11e9-8bbc-52825ed75632.png)
 
 #### Next up
- -  [Installation](../installation)
- -  [Configuration](../#configuration)
- -  [Use cases](../#use-cases)
- -  [Back to Main Page](../)
+ -  [Installation](../../installation/)
+ -  [Configuration](../../configuration/)
+ -  [Use cases](../../use-cases/)
+ -  [Back to Main Page](../../)

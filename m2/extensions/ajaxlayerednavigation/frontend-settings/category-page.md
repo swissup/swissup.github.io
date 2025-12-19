@@ -17,7 +17,7 @@ You can use only the catalog input type `Dropdown, Multiple Select and Price` in
 ![Ajax Layered Navigation on Category Page](/images/m2/ajaxlayerednavigation/category.png)
 
 #### Next up
- -  [Installation](../../installation)
- -  [Configuration](../#configuration)
- -  [Use cases](../#use-cases)
- -  [Back to Main Page](../)
+ -  [Installation](../../installation/)
+ -  [Configuration](../../configuration/)
+ -  [Use cases](../../use-cases/)
+ -  [Back to Main Page](../../)
