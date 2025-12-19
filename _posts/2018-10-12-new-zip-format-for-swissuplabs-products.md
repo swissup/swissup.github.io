@@ -4,6 +4,7 @@ title: New zip format for SwissupLabs products
 permalink: /posts/new-zip-format-for-swissuplabs-products/
 description: New composer-compatible archive format for SwissupLabs products
 categories: posts
+breadcrumbs: false
 ---
 
 # New format for our packages

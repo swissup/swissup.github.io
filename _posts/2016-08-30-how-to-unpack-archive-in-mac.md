@@ -5,6 +5,7 @@ permalink: "/posts/how-to-unpack-archive-on-mac/"
 description: "How to unpack archive in Mac, when 'Error 1 - Operation not permitted' message is raised"
 keywords: "archive, operation not permitted, unarchiver, error 1 - operation not permitted, zip, unzip"
 categories: "posts"
+breadcrumbs: false
 ---
 
 # Can't unzip: Operation not permitted (Mac)

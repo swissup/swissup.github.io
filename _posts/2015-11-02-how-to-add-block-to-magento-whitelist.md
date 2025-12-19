@@ -5,6 +5,7 @@ permalink: "/posts/how-to-add-block-to-magento-whitelist/"
 description: "How to fix SUPEE-6788 conflict with themes that are using inline blocks call"
 keywords: "block whitelist, whitelist, blank regions, missing block, SUPEE-6788"
 categories: "posts"
+breadcrumbs: false
 ---
 
 # How to add blocks to Magento's whitelist

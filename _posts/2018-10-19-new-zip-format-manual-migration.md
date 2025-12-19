@@ -4,6 +4,7 @@ title: New zip format for SwissupLabs products
 permalink: /posts/new-zip-format-manual-migration/
 description: New composer-compatible archive format for SwissupLabs products
 categories: posts
+breadcrumbs: false
 ---
 
 # Manual migration

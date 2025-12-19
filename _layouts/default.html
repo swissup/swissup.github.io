@@ -7,7 +7,9 @@
         {% include header.html class="mdl-color--white mdl-color-text--grey-700 mdl-layout__header--transparent" %}
 
         <main class="mdl-layout__content-off mdl-color-text--grey-800">
-          {% include breadcrumbs.html %}
+          {% unless page.breadcrumbs == false %}
+            {% include breadcrumbs.html %}
+          {% endunless %}
 
           {% comment %}
             if page.sidebar is a temporary solution to prevent duplicated page titles

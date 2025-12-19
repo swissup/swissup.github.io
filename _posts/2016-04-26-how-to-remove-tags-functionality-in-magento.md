@@ -5,6 +5,7 @@ permalink: "/posts/how-to-remove-tags-functionality-in-magento/"
 description: "Removing unneeded Tags functionality in Magento using xml"
 keywords: "magento, tags, tag, remove, magento1"
 categories: "posts"
+breadcrumbs: false
 ---
 
 # How to remove Tags functionality in Magento
