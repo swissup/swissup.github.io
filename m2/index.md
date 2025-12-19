@@ -1,7 +1,7 @@
 ---
 layout: default
 body_class: no-anchors  no-edit
-title: Magento 2.x
+title: Magento 2.x Products
 ---
 
 {% include argento/promo.html m1=false sw=false %}

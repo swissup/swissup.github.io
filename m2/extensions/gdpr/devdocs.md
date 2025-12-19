@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Developers documentaion
+title: GDPR developers documentaion
 description: How to integrate your module with GDPR
 category: GDPR
 ---

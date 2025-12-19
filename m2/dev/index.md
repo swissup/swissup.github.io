@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Magento 2 development documentation
+title: Developers documentation
 ---
 
 # Dev docs
