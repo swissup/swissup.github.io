@@ -27,7 +27,7 @@ There are two ways of thumbnail assignment:
 
  2. **Manual assignment**
 
-    Navigate to `Products > Categories`, select category and switch to
+    Navigate to `Content > Categories`, select category and switch to
     `Content` section. Upload thumbnail and save the category.
 
     ![Backend Category Content Section](/images/m2/easycatalogimages/backend-category-content.png)
