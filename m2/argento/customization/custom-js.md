@@ -16,16 +16,16 @@ category: Argento
 >
 > If you did not &mdash; [go ahead](../custom-theme/), it will take 15 minutes.
 
-Argento brings possibility to create new `argento-custom.js` file, that will be
+Argento allows one to create a new `argento-custom.js` file that will be
 automatically included on all pages.
 
- 1. Create new directory in yout custom Argento sub-theme:
+ 1. Create a new directory in your custom Argento sub-theme:
 
     ```
     app/design/frontend/Local/argento-[essence|flat]-custom/web/js
     ```
 
- 2. Create `argento-custom.js` inside `js` folder
+ 2. Create `argento-custom.js` inside the `js` folder
  3. Add script skeleton:
 
     ```js
@@ -37,7 +37,7 @@ automatically included on all pages.
     });
     ```
 
- 4. Save the file and run following bash commands to deploy script
+ 4. Save the file and run the following bash commands to deploy the script
 
     ```bash
     cd magento/root/folder
