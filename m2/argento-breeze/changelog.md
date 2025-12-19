@@ -205,7 +205,7 @@ category: ArgentoBreeze
       + Fix 'mage.dataPost' require in data-vote.js
       + Implement direct link to question
       + Fix 'applyBinding' undefined
-  - [Easy Slide](/m2/extensions/easy-slide/)
+  - [Easy Slide](/m2/extensions/easyslider/)
       + Fixed empty slides on Force theme with new swiper - added slides cloning
       + Fixed invisible images when container is scrolled down because of focus?
   - [EasyCatalogImages](/m2/extensions/easycatalogimages/)
@@ -438,7 +438,7 @@ category: ArgentoBreeze
  -  Performance improvements in Easycatalogimg, Highlight, Easyslide, and Testimonials modules.
  -  BreezeTheme and BreezeModule updated to the [latest versions](https://breezefront.com).
  -  Fixed not working dropdown position in [NavigationPro](/m2/extensions/navigationpro/) module.
- -  Fixed not working lightbox/awesomebar popups in [EasyBanner](/m2/extensions/easybanner/) module.
+ -  Fixed not working lightbox/awesomebar popups in [EasyBanner](/m2/extensions/easybanners/) module.
  -  Minor fixes and improvements in all bundled themes and modules.
 
 ### Version 2.1.0

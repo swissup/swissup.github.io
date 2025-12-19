@@ -240,7 +240,7 @@ category: Argento
       + Fix 'applyBinding' undefined
   - [Chat GPT Assistant](/m2/extensions/chat-gpt-assistant/)
       + Exclude useless gallery attribute from filter
-  - [Easy Slide](/m2/extensions/easy-slide/)
+  - [Easy Slide](/m2/extensions/easyslider/)
       + Fixed empty slides on Force theme with new swiper - added slides cloning
       + Fixed invisible images when container is scrolled down because of focus?
   - [EasyCatalogImages](/m2/extensions/easycatalogimages/)
@@ -2394,7 +2394,7 @@ video problems fixed.
 
  -  Improved image dimensions settings for the following demo data:
     - [Easyslider](/m2/extensions/easyslider/)
-    - [Easybanner](/m2/extensions/easybanner/)
+    - [Easybanner](/m2/extensions/easybanners/)
     - [EasyCatalogImages](/m2/extensions/easycatalogimages/)
  -  [Breeze](/m2/extensions/breeze/) integration updated:
     - Fixed js error "swiper is not defined".

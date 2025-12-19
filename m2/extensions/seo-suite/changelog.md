@@ -907,7 +907,7 @@ Include new module [*Metadata Templates*](../../seo-templates/). Generate metada
 *SEO URLs*:
 
  -  Fix redirects on category pages when URL ends with '.../?p=2'.
- -  Fix issues with category parameter in [Swissup Ajax Search](../../ajasearch/).
+ -  Fix issues with category parameter in [Swissup Ajax Search](../../ajaxsearch/).
 
 ### Version 0.9.1
 

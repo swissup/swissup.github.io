@@ -114,6 +114,6 @@ You can edit the block by navigating to `System > Configuration > Tempaltes-Mast
 
 ![Customers who bought this item also bought](/images/argento/default/product-page-who-bought-also-bought.jpg)
 
-[custom_xml]: /argento/theme-customization/small-changes/#custom-layout-update-file "custom.xml layout"
+[custom_xml]: /m1/argento/theme-customization/small-changes/#custom-layout-update-file "custom.xml layout"
 [fontawesome]: http://fontawesome.io/icons/ "FontAwesome Icons"
 [colorswatches]: http://sherodesigns.com/tutorial-configurable-swatches-in-magento/ "Catalog Configurable Swatches tutorial"

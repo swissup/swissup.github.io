@@ -9,7 +9,7 @@ category: Quick Shopping
 
 # Quick Shopping
 
--	[General and ajax window settings](#general-settings)
+-	[General and ajax window settings](#general-and-ajax-window-settings)
 -	[Product listing settings](#product-listing-settings)
 -	[Product page settings](#product-page-settings)
 

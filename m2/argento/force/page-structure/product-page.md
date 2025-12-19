@@ -234,7 +234,7 @@ Sticky tocart is disbaled for mobile and devices with small screens.
 
 ![Tabs](/images/m2/argento/force/product/tabs.png)
 
-Next important part of product page is product tabs. They located under "Add to Cart" form. Product tabs powered by [EasyTabs](m2/extensions/easytabs/) module. You can rearrange, disable existing and create new tabs with this module. Dive deep into module features and intefaces by checking its docs.
+Next important part of product page is product tabs. They located under "Add to Cart" form. Product tabs powered by [EasyTabs](/m2/extensions/easytabs/) module. You can rearrange, disable existing and create new tabs with this module. Dive deep into module features and intefaces by checking its docs.
 
 Magento create some tabs for your store during Argento Force installtion.
 

@@ -49,7 +49,7 @@ extensions that can cause such problem (every of it has option turn off jQuery
 loading):
 
 * [Ajax Layered Navigation](/m1/extensions/ajaxlayerednavigation/)
-* [Product Videos](/m1/extensions/productvideos/)
+* [Product Videos](/m1/extensions/product-videos/)
 
 In case of Argento theme package this error can be caused by
 `/app/design/frontend/base/default/layout/tm/configurableswatches.xml`. To solve

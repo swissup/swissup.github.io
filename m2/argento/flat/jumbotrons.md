@@ -117,7 +117,7 @@ Let's change default colors. [Scroll down](#result) to see results.
 ##### Next up
 
  -  [Create Argento based custom theme](/m2/argento/customization/custom-theme/)
- -  [Theme editor](theme-editor/)
+ -  [Theme editor](/m2/argento/flat/theme-editor/)
  -  [Page structure manuals](/m2/argento/flat/page-structure/)
-    -  [Homepage](page-structure/homepage/)
-    -  [Product page](page-structure/product-page/)
+    -  [Homepage](/m2/argento/flat/page-structure/homepage/)
+    -  [Product page](/m2/argento/flat/page-structure/product-page/)

@@ -16,7 +16,7 @@ Affiliate Suite is a perfect solution for creating your own affiliate program. O
 
 In back-end, Affiliate Suite comes with 7 interfaces allowing affiliate manager control the affiliate campaigns, affiliate payments, transactions, statistics as well as partner’s information and statistics. 
 
-[Using product frame widget](admin-interdaces-for-partners/) you can create easily the list of promoted products on partners website, forum, blog.
+[Using product frame widget](admin-interfaces-for-partners/) you can create easily the list of promoted products on partners website, forum, blog.
 
 - [Installation](installation/)
 - [Configuration](configuration/)

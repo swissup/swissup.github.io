@@ -30,4 +30,4 @@ zoom-out                | Lightbox appears with zoom out animation
 {:.no_toc}
 
  -  [Back to Home](/m2/extensions/easybanners/)
- -  [Layouts for HTML banners](/m2/extensions/layouts-for-html-banners/)
+ -  [Layouts for HTML banners](/m2/extensions/easybanners/layouts-for-html-banners/)

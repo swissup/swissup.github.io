@@ -451,7 +451,7 @@ category: AjaxPro
 
 > Aug 6, 2021
 
- -  Breeze: compatibility with new [Turbo](/m2/extensions/breeze/configuration/#breeze-section) option added.
+ -  Breeze: compatibility with new Turbo option added.
 
 ### Version 1.5.25
 

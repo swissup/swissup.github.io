@@ -93,7 +93,7 @@ Piece of CMS Page content that adds tabs:
 
 ![Our Brands](/images/m2/argento/home/home/our-brands.png)
 
-This row is slider with brands your store offers or working with. It is regular HTML content presented as a slider with [Slick Carousel](m2/extensions/slick-carousel/).
+This row is slider with brands your store offers or working with. It is regular HTML content presented as a slider with [Slick Carousel](/m2/extensions/slick-carousel/).
 
 Piece of CMS Page content for this section:
 

@@ -11,8 +11,8 @@ category: Helpmate
 
 Our extension includes two Magento modules - Helpmate and Knowledgebase. The Helpmate module allows you to use easy to support interfaces, email gateways, department and tickets in your Magento store. Knowledge Base extension reduces number of support requests that makes the support easier.
 
-- [Helpmate](helpmate/)
-- [Knowledgebase](knowledgebase/)
+- [Helpmate](/m1/extensions/helpmate/)
+- [Knowledgebase](/m1/extensions/knowledgebase/)
 
 ### Helpmate configuration
 

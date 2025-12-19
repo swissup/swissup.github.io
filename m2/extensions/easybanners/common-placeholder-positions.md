@@ -102,4 +102,4 @@ Position: after="-"
 {:.no_toc}
 
  -  [Back to Home](../)
- -  [Admin interfaces](interfaces/)
+ -  [Admin interfaces](../interfaces/)

@@ -163,7 +163,7 @@ category: Prolabels
 
 > Aug 6, 2021
 
- -  Breeze: compatibility with new [Turbo](/m2/extensions/breeze/configuration/#breeze-section) option added.
+ -  Breeze: compatibility with new Turbo option added.
  -  Compatibility with Firebear_ConfigurableProducts module.
  -  Fixed negative discount amount at configuarble product when one of items has regular price lower then special price.
 

@@ -49,6 +49,6 @@ Check result. [PageSpeed Insights](https://developers.google.com/speed/pagespeed
 #### You can also check:
 
 *   [Installation](../installation/)
-*   [Configuration](../configuration/)
+*   [Configuration](../config-options/)
 *   [Support](https://swissuplabs.com/contacts/)
 *   [Forum](https://swissuplabs.com/magento-forum/)

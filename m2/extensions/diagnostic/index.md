@@ -60,9 +60,3 @@ Output:
 bin/magento swissup:info:virtualfix
 bin/magento cache:clean
 ```
-
-
-### Contents
-
-1. [Installation](installation/)
-2. [Changelog](changelog/)

@@ -84,12 +84,12 @@ configure Suggestion popup and Search engine settings at
 
 ### Navigation
 
-Argento Mall utilizes [NavigationPro](/m1/navigationpro/) module for top navigation.
+Argento Mall utilizes [NavigationPro](/m1/extensions/navigationpro/) module for top navigation.
 You can configure Menu items at `Templates-Master > Navigation Pro`.
 
 Please read the following docs about NavigationPro features:
 
-- [NavigationPro docs](/m1/navigationpro/)
+- [NavigationPro docs](/m1/extensions/navigationpro/)
 - [Argento Navigation Setup](/m1/argento/navigation-setup/)
 
 

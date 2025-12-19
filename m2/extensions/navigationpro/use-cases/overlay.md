@@ -19,7 +19,7 @@ _Menu Settings_ button. Then add `navpro-overlay` class to the
 
 In case when you want to show overlay for specific dropdown only, open menu
 and select parent item for the dropdown you need. Then add `navpro-overlay` class
-to the [CSS class field](m2/extensions/navigationpro/backend/menu-edit/#advanced-settings).
+to the [CSS class field](/m2/extensions/navigationpro/backend/menu-edit/#advanced-settings).
 
 #### Next up
 

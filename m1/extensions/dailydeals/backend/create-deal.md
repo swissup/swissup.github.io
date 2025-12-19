@@ -104,7 +104,7 @@ you can set option `Use different label` to `No` in section
 
 ![Label example](/images/dailydeals/backend/create-deal-label-tab.png)
 
-Deal labels are tightly integrated with our [Prolabels extension](/m1/prolabels) (minimum version
+Deal labels are tightly integrated with our [Prolabels extension](/m1/extensions/prolabels) (minimum version
 2.7.2). If you do not have Prolabels or its version is lower, the deal label
 will not be set.
 

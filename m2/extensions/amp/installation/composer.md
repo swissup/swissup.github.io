@@ -24,11 +24,11 @@ Navigate to you store with `?amp=1` parameter in url to check how it looks.
 ##### Next Up
 {:.no_toc}
 
- -  [Configuration](../configuration/)
- -  [Homepage](../customization/homepage/)
- -  [Footer](../customization/footer/)
- -  [Google Analytics](../google-analytics/)
- -  [FAQ](../faq/)
+ -  [Configuration](../../configuration/)
+ -  [Homepage](../../customization/homepage/)
+ -  [Footer](../../customization/footer/)
+ -  [Google Analytics](../../google-analytics/)
+ -  [FAQ](../../faq/)
 
 [m21_add_event]: /m2/extensions/amp/known-issues/#broken-amp-pages-on-magento-21x
 [m21_allow_template]: /m2/extensions/amp/known-issues/#the-attribute-template-is-not-allowed-error-on-magento-21x

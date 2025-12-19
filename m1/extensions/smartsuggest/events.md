@@ -17,7 +17,7 @@ Using the following interface you can set up the priority of display items in re
 
 *   [Installation](../installation/)
 *   [Configuration](../configuration/)
-*	[Settings to enable the search of suggested products in different product relations in Magento](../magento-product-relations/)
+*	[Settings to enable the search of suggested products in different product relations in Magento](../magento-product-relation/)
 *   [Integration with Suggest page](../integration-with-suggest-page/)
 *   [Filters for founded products](../filters-for-founded-products/)
 *   [Widget](../widget/)

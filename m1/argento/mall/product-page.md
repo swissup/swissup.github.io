@@ -132,6 +132,6 @@ You can edit the block by navigating to `System > Configuration > Tempaltes-Mast
 You can edit the block by navigating to `System > Configuration > Tempaltes-Master > SoldTogether > Customer Bought Together`
 
 
-[custom_xml]: /argento/theme-customization/small-changes/#custom-layout-update-file "custom.xml layout"
+[custom_xml]: /m1/argento/theme-customization/small-changes/#custom-layout-update-file "custom.xml layout"
 [fontawesome]: http://fontawesome.io/icons/ "FontAwesome Icons"
 [colorswatches]: http://sherodesigns.com/tutorial-configurable-swatches-in-magento/ "Catalog Configurable Swatches tutorial"

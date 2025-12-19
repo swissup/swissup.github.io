@@ -74,5 +74,5 @@ banner when mobile customer scrolls up the page to reveal browser toolbar.
 {:.no_toc}
 
  -  [Back to Home](/m2/extensions/easybanners/)
- -  [Layouts for HTML banners](/m2/extensions/layouts-for-html-banners/)
- -  [CSS Class Helpers](/m2/extensions/css-class-helpers/)
+ -  [Layouts for HTML banners](/m2/extensions/easybanners/layouts-for-html-banners/)
+ -  [CSS Class Helpers](/m2/extensions/easybanners/css-class-helpers/)

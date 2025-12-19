@@ -12,7 +12,8 @@ A blacklist is a list of visitors that, for one reason or another, are being
 denied an access to your store. Blacklist is an opposite meaning to whitelist.
 
 All blacklisted visitors recieve 'access denied' page as a response when they
-try to open your store. You can setup this response page in [extension configurations](extension-configuration/#response-page).
+try to open your store. You can setup this response page in
+[extension configurations](../extension-configuration/#response-page).
 
 In case you need manage blacklist, go to menu `Templates Master` >
 `Bot Protection` > `Blacklist` in magento backend.

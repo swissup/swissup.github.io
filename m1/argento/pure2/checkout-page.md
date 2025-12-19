@@ -25,4 +25,4 @@ You can disable short header and footer using [custom layout update file][custom
 </short_header_footer>
 ```
 
-[custom_xml]: /argento/theme-customization/small-changes/#custom-layout-update-file "custom.xml layout"
+[custom_xml]: /m1/argento/theme-customization/small-changes/#custom-layout-update-file "custom.xml layout"

@@ -13,9 +13,9 @@ exclude_from_search: true
 
 ## Complete the installation
 
-Go ahead and [create your first slick carousel](../usage/#basic-usage).
+Go ahead and [create your first slick carousel](../../usage/#basic-usage).
 
 ##### Next up
 
-- [Back to docs homepage](../)
-- [Usage Examples](../usage/)
+- [Back to docs homepage](../../)
+- [Usage Examples](../../usage/)

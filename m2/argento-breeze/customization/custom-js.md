@@ -6,7 +6,8 @@ category: ArgentoBreeze
 
 # Argento custom js
 
-> Make sure to [create and change](/custom-theme) your theme to `Local/argentobreeze-custom`
+> Make sure to [create and change](/m2/argento-breeze/customization/custom-theme/)
+> your theme to `Local/argentobreeze-custom`
 > before start.
 
 ArgentoBreeze themes are based on [Breeze frontend](https://breezefront.com/).
