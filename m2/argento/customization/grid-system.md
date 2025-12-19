@@ -45,9 +45,9 @@ gallery:
 
 # Argento grid system
 
-Argento utilize Bootstrap powered 12 columns grid system to organize cms content.
+Argento utilizes the Bootstrap powered 12 columns grid system to organize cms content.
 
-Typical grid markup with three equal width columns on all devices:
+Below is an example of a typical grid markup with three equal width columns on all devices:
 
 ```html
 <div class="argento-grid">
@@ -64,7 +64,7 @@ Typical grid markup with three equal width columns on all devices:
 ```
 
 `col-xs` means that this rule will work on all screen dimensions. If you would
-like to specify separate rules for different devices, use couple of classes with
+like to specify separate rules for different devices, use several classes with an
 appropriate suffix.
 
 Column size prefix | Description
