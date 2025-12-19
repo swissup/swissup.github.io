@@ -9,17 +9,17 @@ category: Argento
 
 # Argento custom theme
 
-Creating Argento sub-theme gives you unlimited possibilities in theme
+Creating an Argento sub-theme provides you with unlimited possibilities in theme
 customization. Unlike [css customization](/m2/argento/customization/custom-css/),
-custom theme allows you to change much more things:
+a custom theme allows you to customize the following areas:
 
 - Layout instructions
 - Template files
 - Javascripts
 - Css styles
 
-> Using Argento sub-theme, you guarantee that all Argento files left untouched and
-> you can unpack new Argento version over the old one without losing your
+> When an Argento sub-theme is used, Argento files are left untouched, and
+> you may unpack a new Argento version over the old one without losing your
 > modifications
 
 ## Contents
@@ -33,33 +33,33 @@ custom theme allows you to change much more things:
 #### Terminal command
 {:.collapsible}
 
- 1. Open terminal and navigate to magento home folder.
+ 1. Open the terminal and navigate to the Magento home folder.
  2. Run the following command:
 
-    > Please replace `[essence|flat|pure2|mall|stripes|luxury|force|home|marketplace]`
-    > with theme name, you'd like to use.
+    > Please, replace `[essence|flat|pure2|mall|stripes|luxury|force|home|marketplace]`
+    > with the heme name you would like to use.
 
     ```bash
     bin/magento swissup:theme:create Local/my-theme [essence|flat|pure2|mall|stripes|luxury|force|home|marketplace|chic]
     ```
 
- 3. Log in to Magento backend and navigate to Content > Themes. You should see
+ 3. Log in to Magento backend and navigate to Content > Themes. You should see the
     new theme in the list.
  4. That's all. [Apply your new theme now](#apply-custom-theme)
 
 #### Manual
 {:.collapsible.collapsed}
 
-Please replace `[essence|flat|pure2|mall|stripes|luxury|force|home|marketplace]` entries with
-theme name, you'd like to use
+Please replace `[essence|flat|pure2|mall|stripes|luxury|force|home|marketplace]` entries with the
+theme name you would like to use
 
- 1. Create folder for your new theme:
+ 1. Create a folder for your new theme:
 
     ```
     app/design/frontend/Local/my-theme
     ```
 
- 2. Create following files inside new theme directory, to register your
+ 2. Create the following files inside the new theme directory to register your
     theme in Magento:
 
     1.  composer.json
@@ -99,20 +99,20 @@ theme name, you'd like to use
 
         ```
 
- 3. Log in to Magento backend and navigate to Content > Themes. You should see
+ 3. Log in to Magento backend and navigate to Content > Themes. You should see the
     new theme in the list.
  4. That's all. [Apply your new theme now](#apply-custom-theme)
 
 #### View Examples
 {:.collapsible.collapsed}
 
-If you have trouble when creating new theme, please take a look at our examples
+If you have trouble creating a new theme, please take a look at our examples
 at [github repository](https://github.com/swissup/theme-frontend-argento-custom).
 
 ### Apply custom theme
 
 Navigate to _Content > Design > Configuration_, select the store you wish
-to apply a theme, and select your theme in "Default Theme" section:
+to apply the custom theme to, and select your theme in the "Default Theme" section:
 
 ![Design Configuration](/images/m2/argento/customization/custom-theme/configuration.png)
 
@@ -122,9 +122,9 @@ Save configuration, clear cache, and check the frontend.
 
 > Supported since theme-editor version 1.9.8
 
-By default, custom theme doesn't inherit theme editor changes. If you want
+By default, a custom theme doesn't inherit theme editor changes. If you want
 to apply the changes to your custom theme (inherited from one of Argento themes)
-you should explicitly indicate this in theme view.xml file:
+you should explicitly indicate this in the theme view.xml file:
 
  1. Open `etc/view.xml` file inside your custom theme. If it doesn't exist, create it:
 
