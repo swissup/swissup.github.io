@@ -208,17 +208,6 @@ breeze:
     - seo-suite
     - testimonials
 
-sh:
-  url: /shopify/
-
-  articles:
-    - title: Installation
-      url: /shopify/themes/installation/
-
-  themes:
-    - title: Stripes
-      url: /shopify/themes/stripes/
-
 sw:
   title: Argento for Shopware
   url: /shopware/argento/
