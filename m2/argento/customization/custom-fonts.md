@@ -12,11 +12,11 @@ category: Argento
 Custom fonts offer more versatility and creativity than standard web fonts and
 can help a website stand out from its competitors. Custom fonts can also be used
 to reinforce and enhance a website's branding and identity.
-While making Argento customizations often the custom font changes are needed too.
+Argento customization often requires font changes.
 
 ## Instructions
 
-To do this you need to follow these few simple steps:
+To do custumize fonts, you need to follow the following simple steps:
 
 1. Find your font at [Google Fonts](https://fonts.google.com/) i.e. [Quicksand](https://fonts.google.com/specimen/Quicksand). Choose all required parameters and copy the URL.
 
@@ -25,12 +25,11 @@ To do this you need to follow these few simple steps:
     https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap
     ```
 
-2. Then you can use the [GetFonts](https://getfonts.vercel.app/) tool by [VovaYatsyuk](https://github.com/vovayatsyuk) to download chosen fonts and styles. Or use any other convenient way
-to get them.
+2. Then you can use the [GetFonts](https://getfonts.vercel.app/) tool by [VovaYatsyuk](https://github.com/vovayatsyuk) to download the chosen fonts and styles. You may obtain them in any other way you find convenient.
 
-3. You'll need the [custom theme](../custom-theme/) to be created also.
+3. You'll need a [custom theme](../custom-theme/) to be created.
 
-4. Unzip the `fonts.zip` and put the `fonts` folder to custom theme `web`
+4. Unzip `fonts.zip` and put the `fonts` folder into your custom theme `web` folder
 
    *Example:*
 
@@ -46,7 +45,7 @@ to get them.
     │  │  │  ├─ 6xKtdSZaM9iE8KbpRA_hK1QN.woff2
 
    ```
-5. Create the file `Magento_Theme/layout/default_head_blocks.xml` in your custom theme
+5. Create a file `Magento_Theme/layout/default_head_blocks.xml` in your custom theme
 where we'll call our **new font** and/or remove the unneeded **old fonts**.
 
     *Example:*
@@ -66,8 +65,8 @@ where we'll call our **new font** and/or remove the unneeded **old fonts**.
         </head>
     </page>
     ```
-6. Now define the font-face by copying required CSS to your theme custom style sheet
-    from downloaded `css/fonts.css`.
+6. Now define the font-face by copying the required CSS to your theme custom style sheet
+    from the downloaded `css/fonts.css`.
 
     *Example:*
 
@@ -101,7 +100,7 @@ where we'll call our **new font** and/or remove the unneeded **old fonts**.
     }
     ```
 
-7. And the last part is to apply created font face to CSS elements
+7. Finally, apply the created font-face to CSS elements
 
     *Example:*
     ```css
@@ -109,7 +108,7 @@ where we'll call our **new font** and/or remove the unneeded **old fonts**.
         font-family: 'Quicksand',sans-serif;
     }
     ```
-8. That's it! Your tricky font is visible now.
+8. That's it! Your new font is visible now.
 
 ##### Next up
 
