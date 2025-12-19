@@ -35,6 +35,6 @@ Here you can customize the look of the product items in the listing:
 
 ##### Next up
 
-[⬅ Back to the Argento Configuration Page](..)
+[⬅ Back to the Argento Configuration Page](../)
 
-[⬅ Back to the Argento Theme Start Page](../..)
+[⬅ Back to the Argento Theme Start Page](../../)

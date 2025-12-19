@@ -17,6 +17,6 @@ Here you can upload favicon image and different logo images for desktop, tablet,
 
 ##### Next up
 
-[⬅ Back to the Argento Configuration Page](..)
+[⬅ Back to the Argento Configuration Page](../)
 
-[⬅ Back to the Argento Theme Start Page](../..)
+[⬅ Back to the Argento Theme Start Page](../../)

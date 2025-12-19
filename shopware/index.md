@@ -6,16 +6,16 @@ title: Shopware Products
 
 ### Development
 
-[Development](dev)
+[Development](dev/)
 
 ### Argento Theme
 
-[Argento theme for Shopware manual](argento)
+[Argento theme for Shopware manual](argento/)
 
 ### Pagespeed
 
-[Pagespeed](pagespeed)
+[Pagespeed](pagespeed/)
 
 ### ChatGPT Assistant
 
-[ChatGPT Assistant](chat-gpt-assistant)
+[ChatGPT Assistant](chat-gpt-assistant/)

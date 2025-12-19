@@ -23,6 +23,6 @@ Change the color of success, information, notice and error status messages.
 
 ##### Next up
 
-[⬅ Back to the Argento Configuration Page](..)
+[⬅ Back to the Argento Configuration Page](../)
 
-[⬅ Back to the Argento Theme Start Page](../..)
+[⬅ Back to the Argento Theme Start Page](../../)

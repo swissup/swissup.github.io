@@ -38,6 +38,6 @@ Also, you can assign a *link* for every image and toggle the *open link in a new
 
 ##### Next up
 
-[⬅ Back to the Argento CMS Blocks Page](..)
+[⬅ Back to the Argento CMS Blocks Page](../)
 
-[⬅ Back to the Argento Theme Start Page](../..)
+[⬅ Back to the Argento Theme Start Page](../../)

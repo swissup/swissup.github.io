@@ -45,6 +45,6 @@ Here you can configure the following element settings:
 
 ##### Next up
 
-[⬅ Back to the Argento CMS Blocks Page](..)
+[⬅ Back to the Argento CMS Blocks Page](../)
 
-[⬅ Back to the Argento Theme Start Page](../..)
+[⬅ Back to the Argento Theme Start Page](../../)

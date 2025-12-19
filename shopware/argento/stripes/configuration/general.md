@@ -15,6 +15,6 @@ Also, you can rename the theme and create duplicate using the dropdown menu.
 
 ##### Next up
 
-[⬅ Back to the Argento Configuration Page](..)
+[⬅ Back to the Argento Configuration Page](../)
 
-[⬅ Back to the Argento Theme Start Page](../..)
+[⬅ Back to the Argento Theme Start Page](../../)

@@ -36,6 +36,6 @@ You can read how to edit snippets in [Shopware 6 Docs](https://docs.shopware.com
 
 ##### Next up
 
-[⬅ Back to the Argento Configuration Page](..)
+[⬅ Back to the Argento Configuration Page](../)
 
-[⬅ Back to the Argento Theme Start Page](../..)
+[⬅ Back to the Argento Theme Start Page](../../)

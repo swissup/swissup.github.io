@@ -13,5 +13,5 @@ You can use CMS Blocks when creating/editing layouts on the **Content > Shopping
 
 List of available CMS blocks:
 
- -  [Logo Slider](logo-slider)
- -  [Products Highlight](highlight)
+ -  [Logo Slider](logo-slider/)
+ -  [Products Highlight](highlight/)
