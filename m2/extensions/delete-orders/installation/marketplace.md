@@ -13,4 +13,4 @@ exclude_from_search: true
 
 ##### Next up
 
-- [Back to docs homepage](/m2/extensions/delete-orders)
+- [Back to docs homepage](/m2/extensions/delete-orders/)

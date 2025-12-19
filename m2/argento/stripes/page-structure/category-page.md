@@ -38,4 +38,4 @@ Widget Code:
 
 Stripes theme includes [Featured Attributes](/m2/extensions/featured-attributes/)
 extension which allows to display selected product attributes on category page.
-You can select attributes in [extension configuration](/m2/extensions/featured-attributes/configuration).
+You can select attributes in [extension configuration](/m2/extensions/featured-attributes/configuration/).

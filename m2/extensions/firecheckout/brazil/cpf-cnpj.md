@@ -207,4 +207,4 @@ magento field "vat_id" and the firecheckout module.
 ##### Next up
 
  -  [CPF/CNPJ code (Use case 2)](/m2/extensions/firecheckout/brazil/cpfcnpj/)
- -  [Back to home](/m2/extensions/firecheckout)
+ -  [Back to home](/m2/extensions/firecheckout/)

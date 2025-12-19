@@ -3674,7 +3674,7 @@ video problems fixed.
     Previously you had to write them manually into CSS Class field.
  -  Added ability to write [custom CSS](/m2/extensions/navigationpro/backend/menu-settings/#general-settings)
     from Edit Menu page.
- -  Simplified menu creation. You can create [many menu](/m2/extensions/navigationpro/menu-types)
+ -  Simplified menu creation. You can create [many menu](/m2/extensions/navigationpro/menu-types/)
     types with just one click.
  -  Improved [Amazon Menu](/m2/extensions/navigationpro/use-cases/amazon-menu/)
     type builder. Now, it automatically shows parent category thumbnail
@@ -4573,9 +4573,9 @@ highlighted changes:
 
  -  [Lightbox Pro](/m2/extensions/lightboxpro/) added
  -  [Seo Suite](/m2/extensions/seo-suite/) added with the following modules:
-     -  [Google rich snippets](/m2/extensions/richsnippets)
-     -  [HTML Sitemap](/m2/extensions/seo-html-sitemap)
-     -  [SEO URLs](/m2/extensions/seo-urls)
+     -  [Google rich snippets](/m2/extensions/richsnippets/)
+     -  [HTML Sitemap](/m2/extensions/seo-html-sitemap/)
+     -  [SEO URLs](/m2/extensions/seo-urls/)
  -  Fixed missing ProLabels on product page when other theme was installed after previously installed Luxury
 
 **Luxury Theme**

@@ -47,4 +47,4 @@ define([
 
  -  [Collapsible Checkout Fields section](/m2/extensions/firecheckout/customization/use-cases/collapsible-checkout-fields/)
  -  [Back to customization page](/m2/extensions/firecheckout/customization/)
- -  [Back to home](/m2/extensions/firecheckout)
+ -  [Back to home](/m2/extensions/firecheckout/)

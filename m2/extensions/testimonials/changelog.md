@@ -192,7 +192,7 @@ category: Testimonials
 
 ### Version 1.1.0
 
-[Upgrade Instructions](/m2/extensions/testimonials/upgrade-instructions)
+[Upgrade Instructions](/m2/extensions/testimonials/upgrade-instructions/)
 
  -  Added config to make rating field required on testimonial submit form
  -  Added config to disable testimonial submit for guests

@@ -67,7 +67,7 @@ You can determine the number of displayed filter values for long filter lists. T
 ![+ More in action](/images/m2/ajaxlayerednavigation/more.gif)
 
 #### Next up
- -  [Installation](../installation)
+ -  [Installation](../installation/)
  -  [Frontend-settings](../#frontend-settings)
  -  [Use cases](../#use-cases)
  -  [Back to Main Page](../)

@@ -85,7 +85,7 @@ category: Easy Banners
 > Sep 12, 2022
 
  -  Added ability to show banner when cart items match selected products attribute
-    conditions. [View Example](/m2/extensions/easybanners/use-cases/cart-conditions)
+    conditions. [View Example](/m2/extensions/easybanners/use-cases/cart-conditions/)
 
 ### Version 1.8.4
 

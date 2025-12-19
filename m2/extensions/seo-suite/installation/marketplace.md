@@ -17,4 +17,4 @@ Login your store admin and enable extensions in magento configuration. Under sec
 
 ##### Next up
 
-- [Back to docs homepage](/m2/extensions/seo-suite)
+- [Back to docs homepage](/m2/extensions/seo-suite/)

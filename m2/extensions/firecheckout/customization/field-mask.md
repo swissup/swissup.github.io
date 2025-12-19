@@ -53,4 +53,4 @@ define([
 ##### Next up
 
  -  [Back to customization page](/m2/extensions/firecheckout/customization/)
- -  [Back to home](/m2/extensions/firecheckout)
+ -  [Back to home](/m2/extensions/firecheckout/)

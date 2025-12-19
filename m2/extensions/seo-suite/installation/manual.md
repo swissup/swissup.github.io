@@ -18,4 +18,4 @@ section 'Swissup SEO' you can find all SEO related extensions.
 
 ##### Next up
 
- -  [Back to docs homepage](/m2/extensions/seo-suite)
+ -  [Back to docs homepage](/m2/extensions/seo-suite/)

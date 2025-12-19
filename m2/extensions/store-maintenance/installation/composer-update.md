@@ -12,4 +12,4 @@ exclude_from_search: true
 
 ##### Next up
 
-- [Module settings](../../settings)
+- [Module settings](../../settings/)

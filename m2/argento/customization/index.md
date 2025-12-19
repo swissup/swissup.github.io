@@ -48,8 +48,8 @@ category: Argento
         + [Add sticky tocart at product page](add-sticky-tocart/)
         + [Add photo into description at product page](add-photo-in-description/)
         + [Add price to colorswatch items](adding-prices-to-magento-swatches/)
-        + [Relationship slider products](relationship-slider-products)
-        + [Adding Sizing chart](adding-sizing-chart)
+        + [Relationship slider products](relationship-slider-products/)
+        + [Adding Sizing chart](adding-sizing-chart/)
     - Category page
         - [Moving category header to main content](moving-category-header-to-main-content/)
     - Checkout page

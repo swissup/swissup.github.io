@@ -30,8 +30,8 @@ Insert this code right below:
 ?>
 ```
 
-Login your store admin and [enable extension](/m2/extensions/hover-gallery/configuration).
+Login your store admin and [enable extension](/m2/extensions/hover-gallery/configuration/).
 
 ##### Next up
 
-- [Back to docs homepage](/m2/extensions/hover-gallery)
+- [Back to docs homepage](/m2/extensions/hover-gallery/)

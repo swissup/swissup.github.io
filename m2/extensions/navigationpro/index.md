@@ -62,7 +62,7 @@ devices, tablets, and phones.
     - [LESS variables with third-party themes](/m2/extensions/navigationpro/customization/custom-theme-variables/) -
         For third-party themes developers only
     - [LESS variables](/m2/extensions/navigationpro/customization/less-variables/)
-    - [CSS Helpers](/m2/extensions/navigationpro/customization/css-helpers)
+    - [CSS Helpers](/m2/extensions/navigationpro/customization/css-helpers/)
     - [Themes](/m2/extensions/navigationpro/themes/)
  10. [Demo](/m2/extensions/navigationpro/demo/)
  11. [Troubleshooting](/m2/extensions/navigationpro/troubleshooting/)

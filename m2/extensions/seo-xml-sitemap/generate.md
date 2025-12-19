@@ -52,4 +52,4 @@ For more information, see the instructions for the specific search engine. Here 
 {:.no_toc}
 
  -  [Back to Main Page](../)
- -  [Configuration](../configuration)
+ -  [Configuration](../configuration/)

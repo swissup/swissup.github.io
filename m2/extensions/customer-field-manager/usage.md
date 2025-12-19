@@ -8,8 +8,8 @@ category: Customer Field Manager
 
 # Usage
 
- -  [Customer Fields Grid](/m2/extensions/customer-field-manager/usage/grid)
- -  [Customer Fields Form](/m2/extensions/customer-field-manager/usage/form)
+ -  [Customer Fields Grid](/m2/extensions/customer-field-manager/usage/grid/)
+ -  [Customer Fields Form](/m2/extensions/customer-field-manager/usage/form/)
 
 #### Next up
 

@@ -450,7 +450,7 @@ category: Navigationpro
     Previously you had to write them manually into CSS Class field.
  -  Added ability to write [custom CSS](/m2/extensions/navigationpro/backend/menu-settings/#general-settings)
     from Edit Menu page.
- -  Simplified menu creation. You can create [many menu](/m2/extensions/navigationpro/menu-types)
+ -  Simplified menu creation. You can create [many menu](/m2/extensions/navigationpro/menu-types/)
     types with just one click.
  -  Improved [Amazon Menu](/m2/extensions/navigationpro/use-cases/amazon-menu/)
     type builder. Now, it automatically shows parent category thumbnail

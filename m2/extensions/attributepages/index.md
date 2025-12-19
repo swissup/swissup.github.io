@@ -9,7 +9,7 @@ category: Attributepages
 # Attributepages (Brandpages)
 
 Attributepage module allows to create brand or any other attribute page,
-based on catalog attribute. It also provides [widgets and helpers](widgets-and-blocks)
+based on catalog attribute. It also provides [widgets and helpers](widgets-and-blocks/)
 with brands list and attribute based pages list, [product page][block_on_product_page],
 [category page][block_on_category_page] or any other page customization.
 

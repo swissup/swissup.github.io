@@ -1001,7 +1001,7 @@ category: Ajax Layered Navigation
  -  Initial release
 
 #### Next up
- -  [Installation](../installation)
+ -  [Installation](../installation/)
  -  [Configuration](../#configuration)
  -  [Use cases](../#use-cases)
  -  [Back to Main Page](../)

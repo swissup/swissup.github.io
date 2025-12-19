@@ -147,4 +147,4 @@ Applying field mask and validation code during typing a code.
 ##### Next up
 
  -  [CPF/CNPJ code (Use case 1)](/m2/extensions/firecheckout/brazil/cpf-cnpj/)
- -  [Back to home](/m2/extensions/firecheckout)
+ -  [Back to home](/m2/extensions/firecheckout/)

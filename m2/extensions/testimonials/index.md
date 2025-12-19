@@ -16,7 +16,7 @@ Testimonials extension allows your customers to leave reviews about your store. 
 
 1. [Installation](installation/)
 2. [Changelog](changelog/)
-3. [Upgrade Instructions](upgrade-instructions)
+3. [Upgrade Instructions](upgrade-instructions/)
 3. [Configuration](configuration/)
  - [General Section](configuration/#general-section)
  - [Testimonials List Section](configuration/#testimonials-list-section)

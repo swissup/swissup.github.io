@@ -16,7 +16,7 @@ Checkout Cart extension improves Order Summary section at checkout:
  -  Display product SKU below product name
  -  Move order totals to the bottom of Order Summary section
 
-Extension is compatible with [Firecheckout](../firecheckout) and Magento Onepage Checkout.
+Extension is compatible with [Firecheckout](../firecheckout/) and Magento Onepage Checkout.
 
 {% include gallery.html images=site.data.gallery.m2.checkout-cart.index class="scroll phone-up-1 tablet-up-3 photoswipe" %}
 
@@ -58,4 +58,4 @@ you can face following problem on default checkout:
  and you can't place order
 
 This issue only happens on default Magento 2 checkout.
-There is no such problem with [Firecheckout](../firecheckout).
+There is no such problem with [Firecheckout](../firecheckout/).

@@ -50,7 +50,7 @@ category: Abandoned Cart
 
 > Oct 19, 2021
 
-> The minimum supported Magento version is 2.3.1. For older versions, please check the [known issues section](\m2\extensions\abandoned-cart\known-issues)
+> The minimum supported Magento version is 2.3.1. For older versions, please check the [known issues section](/m2/extensions/abandoned-cart/known-issues/)
 
  -  Using correct email sender set on store view level
 

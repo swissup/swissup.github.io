@@ -12,7 +12,7 @@ category: Argento
 ![Benefits Banner](/images/m2/argento/stripes/header/benefits.png)
 
 Benefits banner displayed on all pages. It is created with
-[Easy Banners](/m2/extensions/easybanners) extension.
+[Easy Banners](/m2/extensions/easybanners/) extension.
 You can edit it under `Swissup > EasyBanner > Manage Banners > argento-stripes-benefits`.
 
 ##### Sample Banner Content:

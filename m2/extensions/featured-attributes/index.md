@@ -15,5 +15,5 @@ and display them on category page for every product.
 
 ### Contents
 
-1. [Installation](installation)
-3. [Configuration](configuration)
+1. [Installation](installation/)
+3. [Configuration](configuration/)

@@ -28,7 +28,7 @@ Group Links by First Letter | Enable to display links in groups by first letter
 Hide Highlight Pages from Sitemap | Ability to display or hide the highlight pages from sitemap. (Set to 0 to show them by default)
 Show CMS Pages on Sitemap | Show CMS pages
 Exclude CMS Pages | Select CMS pages you do not want to show on sitemap
-Show Custom Links on Sitemap | Show links added in [Links Grid](../grid)
+Show Custom Links on Sitemap | Show links added in [Links Grid](../grid/)
 
 ##### Next Up
 

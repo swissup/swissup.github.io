@@ -560,7 +560,7 @@ category: Firecheckout
 
  -  Allow empty delivery date value
 
-[OrderAttachment](/m2/extensions/order-attachments) — 1.4.11
+[OrderAttachment](/m2/extensions/order-attachments/) — 1.4.11
 
  -  Fixed missing attachments block for guest customers when
     [customer group restriction config](/m2/extensions/order-attachments/#configuration)
@@ -719,7 +719,7 @@ category: Firecheckout
         [Address Mapping Settings](/m2/extensions/address-autocomplete/configuration/#advanced-formatting).
      -  [View all changes](/m2/extensions/address-autocomplete/changelog/#version-140)
  -  Added Order Number to the [OrderAttachments](/m2/extensions/order-attachments/) grid.
- -  Fixed default state of [SubscribeAtCheckout checkbox](/m2/extensions/subscribe-at-checkout).
+ -  Fixed default state of [SubscribeAtCheckout checkbox](/m2/extensions/subscribe-at-checkout/).
 
 ### Version 1.23.0
 
@@ -1348,7 +1348,7 @@ and Field Mask feature!
  -  [AddressAutocomplete](/m2/extensions/address-autocomplete/)
     [DeliveryDate](/m2/extensions/delivery-date/),
     [CheckoutCart](/m2/extensions/checkout-cart/),
-    [CheckoutSuccess](/m2/extensions/checkout-success),
+    [CheckoutSuccess](/m2/extensions/checkout-success/),
     [OrderAttachment](/m2/extensions/order-attachment/)
     updated to the latest versions.
 

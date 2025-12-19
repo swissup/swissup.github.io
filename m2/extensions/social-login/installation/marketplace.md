@@ -17,5 +17,5 @@ Login your store admin and enable extension in Magento configuration.
 
 ##### Next up
 
- -  [Create Social Apps](/m2/extensions/social-login/api)
- -  [Back to docs homepage](/m2/extensions/social-login)
+ -  [Create Social Apps](/m2/extensions/social-login/api/)
+ -  [Back to docs homepage](/m2/extensions/social-login/)

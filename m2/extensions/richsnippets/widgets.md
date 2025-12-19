@@ -8,4 +8,4 @@ category: RichSnippets
 
 # Widgets
 
- 1. [FAQ - frequently asked questions](faq)
+ 1. [FAQ - frequently asked questions](faq/)

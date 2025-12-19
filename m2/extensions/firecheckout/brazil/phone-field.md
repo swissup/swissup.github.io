@@ -77,4 +77,4 @@ category: Firecheckout
 
 ##### Next up
 
- -  [Back to home](/m2/extensions/firecheckout)
+ -  [Back to home](/m2/extensions/firecheckout/)

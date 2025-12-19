@@ -11,4 +11,4 @@ category: Delete Order
 
 ##### Next up
 
-- [Back to docs homepage](/m2/extensions/delete-orders)
+- [Back to docs homepage](/m2/extensions/delete-orders/)

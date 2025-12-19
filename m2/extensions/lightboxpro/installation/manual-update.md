@@ -12,4 +12,4 @@ exclude_from_search: true
 
 #### Next up
 
- -  [Configuration](/m2/extensions/lightboxpro/configuration)
+ -  [Configuration](/m2/extensions/lightboxpro/configuration/)

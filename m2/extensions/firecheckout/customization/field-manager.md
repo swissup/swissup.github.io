@@ -65,7 +65,7 @@ Util                                                    | Example               
 ##### Next up
 
  -  [Back to customization page](/m2/extensions/firecheckout/customization/)
- -  [Back to home](/m2/extensions/firecheckout)
+ -  [Back to home](/m2/extensions/firecheckout/)
 
 [css-helpers]: /m2/extensions/firecheckout/customization/css-helpers/ "CSS Helpers"
 [housenumber]: /m2/extensions/firecheckout/customization/use-cases/housenumber/ "Housenumber"

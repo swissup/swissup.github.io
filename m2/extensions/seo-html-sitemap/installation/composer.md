@@ -13,8 +13,8 @@ exclude_from_search: true
 
 ## Complete the installation
 
-Login your store admin and start to [configure extension](/m2/extensions/seo-html-sitemap/configuration).
+Login your store admin and start to [configure extension](/m2/extensions/seo-html-sitemap/configuration/).
 
 ##### Next up
 
-- [Back to docs homepage](/m2/extensions/seo-html-sitemap)
+- [Back to docs homepage](/m2/extensions/seo-html-sitemap/)

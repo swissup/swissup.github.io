@@ -12,4 +12,4 @@ exclude_from_search: true
 
 ##### Next up
 
-- [Back to docs homepage](/m2/extensions/seo-cross-links)
+- [Back to docs homepage](/m2/extensions/seo-cross-links/)

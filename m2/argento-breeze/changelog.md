@@ -263,7 +263,7 @@ category: ArgentoBreeze
 
 > April 18, 2025
 
-  - [Business theme](../business) added.
+  - [Business theme](../business/) added.
   - Magento 2.4.8 and PHP 8.4 compatibility added.
   - Theme editors added to all bundled themes.
 
@@ -426,7 +426,7 @@ category: ArgentoBreeze
 **[SeoSuite](/m2/extensions/seo-suite/)**
 
  -  Prevent possible exception from Magento_Review module on product listing page
-    when [AjaxLayeredNavigation](/m2/extensions/ajaxlayerednavigation) module is used.
+    when [AjaxLayeredNavigation](/m2/extensions/ajaxlayerednavigation/) module is used.
  -  Smile Integration update. Fix PHP error "Illegal offset type in isset or empty"
 
 ### Version 2.2.0

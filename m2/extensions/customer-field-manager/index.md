@@ -32,6 +32,6 @@ Works great with standard magento checkout and
  1. [Installation](installation/)
  2. [Changelog](changelog/)
  3. [Usage](usage/)
-     -  [Customer Fields Grid](usage/grid)
-     -  [Customer Fields Form](usage/form)
+     -  [Customer Fields Grid](usage/grid/)
+     -  [Customer Fields Form](usage/form/)
  4. [Known Issues](known-issues/)

@@ -12,5 +12,5 @@ exclude_from_search: true
 
 ##### Next up
 
- -  [Create Social Apps](/m2/extensions/social-login/api)
- -  [Back to docs homepage](/m2/extensions/social-login)
+ -  [Create Social Apps](/m2/extensions/social-login/api/)
+ -  [Back to docs homepage](/m2/extensions/social-login/)

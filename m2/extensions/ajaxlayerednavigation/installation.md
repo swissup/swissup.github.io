@@ -11,7 +11,7 @@ category: Ajax Layered Navigation
 {% include installation/m2/index.html %}
 
 #### Next up
- -  [Configuration](../configuration)
+ -  [Configuration](../configuration/)
  -  [Frontend settings](../#frontend-settings)
  -  [Use cases](../#use-cases)
  -  [Back to Main Page](../)

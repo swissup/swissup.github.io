@@ -50,4 +50,4 @@ define([
 
  -  [Move Checkout Fields to the Order Summary](/m2/extensions/firecheckout/customization/use-cases/move-checkout-fields-to-order-summary/)
  -  [Back to customization page](/m2/extensions/firecheckout/customization/)
- -  [Back to home](/m2/extensions/firecheckout)
+ -  [Back to home](/m2/extensions/firecheckout/)

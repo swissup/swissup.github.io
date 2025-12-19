@@ -14,7 +14,7 @@ Product option block could be used to show the brand logo (or any other attribut
 ![Attribute based pages frontend](/images/m2/attributepages/use-cases/activity_and_material_blocks_on_product_page.png)
 
 > It's not recommended to use the block for a product collection. Use specially optimized
-> [product option helper](/m2/extensions/attributepages/widgets-and-blocks/product-option-helper)
+> [product option helper](/m2/extensions/attributepages/widgets-and-blocks/product-option-helper/)
 > for collections.
 
 Table of Contents

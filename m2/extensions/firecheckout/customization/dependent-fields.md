@@ -76,7 +76,7 @@ define([
 
  -  [Business account checkbox][business-account-checkbox]
  -  [Back to customization page](/m2/extensions/firecheckout/customization/)
- -  [Back to home](/m2/extensions/firecheckout)
+ -  [Back to home](/m2/extensions/firecheckout/)
 
 [field-watcher]: /m2/extensions/firecheckout/customization/field-watcher/ "Field watcher"
 [business-account-checkbox]: /m2/extensions/firecheckout/customization/use-cases/business-account-checkbox/ "Business account checkbox"

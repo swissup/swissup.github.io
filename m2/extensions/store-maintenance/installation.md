@@ -12,4 +12,4 @@ category: Store Maintenance
 
 ##### Next up
 
-- [Module settings](../settings)
+- [Module settings](../settings/)

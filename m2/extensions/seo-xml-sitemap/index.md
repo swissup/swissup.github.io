@@ -25,7 +25,7 @@ Magento 2 has its own nice sitemap implementation. Our module adds few awesome f
  -  sort links in XML according their priority (make sure crawler will check the most important links first),
  -  include any other (custom) links into XML,
  -  add images to category links,
- -  add regional and language URLs - hreflang (check [Regional URLs](../hreflang) docs),
+ -  add regional and language URLs - hreflang (check [Regional URLs](../hreflang/) docs),
  -  along side with core functions like, generate via Cron,
  -  set the sitemap file limits.
 

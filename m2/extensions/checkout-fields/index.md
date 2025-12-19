@@ -13,7 +13,7 @@ to be filled during checkout process.
 After order placed, fields will be visible on order view page.
 Also additional fields can be inserted in order email templates.
 
-Extension is compatible with [Firecheckout](../firecheckout) and default Magento 2 checkout.
+Extension is compatible with [Firecheckout](../firecheckout/) and default Magento 2 checkout.
 
 {% include gallery.html images=site.data.gallery.m2.checkout-fields.index class="phone-up-2 tablet-up-3 photoswipe scroll" %}
 

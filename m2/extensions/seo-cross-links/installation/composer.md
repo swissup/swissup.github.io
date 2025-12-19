@@ -13,8 +13,8 @@ exclude_from_search: true
 
 ## Complete the installation
 
-Login your store admin and enable extension in magento [configuration](/m2/extensions/seo-cross-links/configuration).
+Login your store admin and enable extension in magento [configuration](/m2/extensions/seo-cross-links/configuration/).
 
 ##### Next up
 
-- [Back to docs homepage](/m2/extensions/seo-cross-links)
+- [Back to docs homepage](/m2/extensions/seo-cross-links/)
