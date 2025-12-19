@@ -22,20 +22,20 @@ gallery:
 
 # Argento custom css
 
-When talking about theme customization it very important to be able to easily
-upgrade Argento in future. That is why Argento brings possibility to create new
-`_argento_custom.less` file, that will be automatically included and processed.
+To ensure seamless theme customization, it is important to be able to easily
+upgrade Argento in the future. Argento allows one to create a new
+`_argento_custom.less` file that will be automatically included and processed.
 
-> Using new file, you'll guarantee that all Argento files left untouched and
-> you can unpack new Argento version over the old one without losing your
-> modifications
+> If the aforementioned file is used, Argento files are left untouched,
+> and you can unpack a new Argento version over the old one without losing
+> your modifications.
 
 ## Example
 
-Let's change product links color from black to blue and update color scheme for
-homepage and products page tabs. [Scroll down](#result) to see results.
+Let's change the product links color from black to blue and update the color scheme for
+the homepage and products page tabs. [Scroll down](#result) to see results.
 
- 1. Navigate to Argento theme css directory, you'd like to modify
+ 1. Navigate to the Argento theme css directory you would like to modify
 
     ```
     vendor/swissup/theme-frontend-argento-stripes/web/css/source
@@ -60,7 +60,7 @@ homepage and products page tabs. [Scroll down](#result) to see results.
     }
     ```
 
- 4. Save the file and run following bash commands to regenerate compiled styles
+ 4. Save the file and run the following bash commands to regenerate compiled styles
 
     ```bash
     cd magento/root/folder
