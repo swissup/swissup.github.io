@@ -11,9 +11,8 @@
     {%- continue -%}
   {%- endif -%}
 
-  {%- assign title = page.title -%}
   <url>
-    <loc>{{ page.url | remove_first: "/" | absolute_url }}</loc>
+    <loc>{{ page.url | remove_first: "/" | prepend: site.baseurl | prepend: site.url }}</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
