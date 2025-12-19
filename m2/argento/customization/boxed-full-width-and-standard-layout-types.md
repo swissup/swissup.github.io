@@ -29,7 +29,7 @@ There are 3 layout types avaliable.
 You can switch between these layouts with [theme editor](../theme-editor/#layout)
 or [custom.less file](../custom-css/).
 
-Please follow instructions below, to implement one of the following layouts:
+Please, follow the instructions below to implement one of the following layouts:
 
  -  [Standard](#standard-layout)
  -  [Boxed](#boxed-layout)
@@ -39,12 +39,12 @@ Please follow instructions below, to implement one of the following layouts:
 
 ### Standard layout
 
-Standard layout - is a default Argento Essence layout. It displays centered
+Standard layout is a default Argento Essence layout. It displays centered
 content with a white background around it.
 
 ![Standard layout](/images/m2/argento/customization/layout-types/standard.png)
 
-Standard layout uses following less variables:
+Standard layout uses the following less variables:
 
 Variable | Value
 ---------|------
@@ -52,20 +52,20 @@ Variable | Value
 @page-wrapper__max-width | none
 @page-wrapper__margin | 0px auto
 
-Put these variables into `_argento_custom.less` file and run static content deploy
-command according to [custom css tutorial](../custom-css/#example).
+Put these variables into the `_argento_custom.less` file and run the static content deploy
+command according to the [custom css tutorial](../custom-css/#example).
 
-> Make sure, that you don't use [theme editor](../theme-editor/) layout section
+> Make sure that you don't use the [theme editor](../theme-editor/) layout section
 > in order to use layout less variables in `_argento_custom.less`
 
 ### Boxed layout
 
-Boxed layout has a paddings around the page wrapper, which makes possible to use
+Boxed layout has paddings around the page wrapper, which enables the use of
 body background.
 
 ![Boxed layout](/images/m2/argento/customization/layout-types/boxed.png)
 
-Boxed layout uses following less variables:
+Boxed layout uses the following less variables:
 
 Variable | Value
 ---------|------
@@ -74,22 +74,22 @@ Variable | Value
 @page-wrapper__max-width | 1024px
 @page-wrapper__margin | 0px auto
 
-Put these variables into `_argento_custom.less` file and run static content deploy
+Put these variables into the `_argento_custom.less` file and run the static content deploy
 command according to [custom css tutorial](../custom-css/#example).
 
-> Make sure, that you don't use [theme editor](../theme-editor/) layout section
+> Make sure that you don't use the [theme editor](../theme-editor/) layout section
 > in order to use layout less variables in `_argento_custom.less`
 
 ### Full-width layout
 
-Full width layout removes width from the content wrapper which makes wide content.
+Full width layout removes width from the content wrapper, thus widening the content area.
 
-> This layout type requires additional changes into content settings, like category
+> This layout type requires additional changes in the content settings, such as category
 > columns count, homepage slider and banner widths, etc.
 
 ![Full-Width layout](/images/m2/argento/customization/layout-types/full-width.png)
 
-Full-width layout uses following less variables:
+Full-width layout uses the following less variables:
 
 Variable | Value
 ---------|------
@@ -101,12 +101,12 @@ Variable | Value
 @product-grid-items-per-row-layout-2-screen-l | 5
 @product-grid-items-per-row-layout-3-screen-l | 4
 
-Put these variables into `_argento_custom.less` file and run static content deploy
+Put these variables into the `_argento_custom.less` file and run the static content deploy
 command according to [custom css tutorial](../custom-css/#example).
 
 **You will also need to update homepage slider width, easybanner images,
-easycategory and highlight widgets columns count.** See details in
+easycategory and highlight widgets columns count.** See details in the
 [homepage content](../homepage-content/) article.
 
-> Make sure, that you don't use [theme editor](../theme-editor/) layout section
+> Make sure that you don't use the [theme editor](../theme-editor/) layout section
 > in order to use layout less variables in `_argento_custom.less`
