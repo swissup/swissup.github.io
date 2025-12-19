@@ -18,16 +18,16 @@ category: Argento
 
 ### Visible and hidden classes
 
-Argento provides Bootstrap `visible-*` and `hidden-*` classes, to help you to
+Argento provides Bootstrap `visible-*` and `hidden-*` classes to help you
 organize custom content.
 
 Examples:
 
 ```html
-<!-- Visible on the phones only -->
+<!-- Visible on phones only -->
 <img class="visible-xs-block" src="..." alt="..."/>
 
-<!-- Hidden on the phones -->
+<!-- Hidden on phones -->
 <img class="hidden-xs" src="..." alt="..."/>
 ```
 
@@ -36,7 +36,7 @@ for more information.
 
 ### Responsive embed
 
-You can use Bootstrap `embed-responsive` class to make any video content responsive.
+You can use the Bootstrap `embed-responsive` class to make video content responsive.
 
 Examples:
 
