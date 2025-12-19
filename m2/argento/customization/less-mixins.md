@@ -17,11 +17,11 @@ category: Argento
 
 ### Invert button state
 
-This mixin allows to change how the button looks and swap default and hovered
+This mixin allows one to change how a button looks and to swap the default and hovered
 states.
 
-You can see how it looks like in ArgentoPure2 theme. Take a look at the `Add To Cart`
-button at product page.
+You can see how it looks like in the ArgentoPure2 theme. Take a look at the `Add To Cart`
+button on the product page.
 
 Usage example:
 
@@ -39,7 +39,7 @@ Usage example:
 
 ### Page container
 
-Applies centering, max-width and spacing styles for the block.
+This mixin applies centering, max-width and spacing styles to a block.
 
 Usage example:
 
