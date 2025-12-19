@@ -24,21 +24,7 @@ exclude:
   - css/app.scss
   - css/syntax.scss
   - js/app.js
-  - js/search.js
   - node_modules
 
 github:
   repository_url: https://github.com/swissup/swissup.github.io
-
-prose:
-  siteurl: "https://swissup.github.io/"
-  media: "media"
-  ignore:
-    - .gitignore
-    - bower.json
-    - _config.yml
-    - search.json
-    - /_includes
-    - /_layouts
-    - /_posts
-    - /bower_components
