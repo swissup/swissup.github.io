@@ -24,22 +24,22 @@ gallery:
 
 > **Notice**
 >
-> This tutorial assumes that you already created [custom theme](../custom-theme/)
-> based on one of Argento themes.
+> This tutorial assumes that you already created a [custom theme](../custom-theme/)
+> based on one of the Argento themes.
 >
 > If you did not &mdash; [go ahead](../custom-theme/), it will take 15 minutes.
 
-Let's change category page layout to 3columns and product layout
-to 2columns with right sidebar.
+Let's change the category page layout to 3columns and the product layout
+to 2columns with a right sidebar.
 
- 1. Create `catalog_category_view.xml` and `catalog_product_view.xml` files
+ 1. Create the `catalog_category_view.xml` and `catalog_product_view.xml` files
     in the following directory:
 
     ```
     app/design/frontend/Local/argento-[essence|flat]-custom/Magento_Catalog/layout
     ```
 
- 2. Add the following content to `catalog_category_view.xml` file and save it.
+ 2. Add the following content to the `catalog_category_view.xml` file and save it.
 
     ```xml
     <?xml version="1.0"?>
@@ -48,7 +48,7 @@ to 2columns with right sidebar.
     </page>
     ```
 
- 3. Add the following content `catalog_product_view.xml` file and save it.
+ 3. Add the following content to the `catalog_product_view.xml` file and save it.
 
     ```xml
     <?xml version="1.0"?>
