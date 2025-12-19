@@ -7,14 +7,14 @@ absolute:
 argento:
   title: Argento Theme
   urls:
-    m1: /m1/argento
-    m2: /m2/argento
+    m1: /m1/argento/
+    m2: /m2/argento/
 
 argento-breeze:
   title: Argento Breeze Theme
   urls:
     m1:
-    m2: /m2/argento-breeze
+    m2: /m2/argento-breeze/
 
 classic:
   title: Classic Theme
