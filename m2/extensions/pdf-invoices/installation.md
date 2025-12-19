@@ -15,5 +15,5 @@ category: PDF Invoices
 * [Create PDF Template][create_pdf]
 * [Configuration][configuration]
 
-[create_pdf]: /m2/extensions/pdf-invoices/create-pdf-template
-[configuration]: /m2/extensions/pdf-invoices/configuration
+[create_pdf]: /m2/extensions/pdf-invoices/create-pdf-template/
+[configuration]: /m2/extensions/pdf-invoices/configuration/

@@ -17,5 +17,5 @@ category: Testimonials
 * [Configuration][configuration]
 
 [testimonials_grid]: /m2/extensions/testimonials/admin-interfaces/#testimonials-grid
-[widgets]: /m2/extensions/testimonials/widgets
-[configuration]: /m2/extensions/testimonials/configuration
+[widgets]: /m2/extensions/testimonials/widgets/
+[configuration]: /m2/extensions/testimonials/configuration/

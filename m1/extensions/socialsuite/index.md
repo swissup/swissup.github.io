@@ -11,11 +11,11 @@ category: Social Suite
 
 # Social Suite
 
-[![Facebook](/images/socialsuite/facebook-ico.png)](api/facebook){:style="margin:10px;"}
-[![GooglePlus](/images/socialsuite/google-plus-ico.png)](api/google){:style="margin:10px;"}
-[![Twitter](/images/socialsuite/twitter-ico.png)](api/twitter){:style="margin:10px;"}
+[![Facebook](/images/socialsuite/facebook-ico.png)](api/facebook/){:style="margin:10px;"}
+[![GooglePlus](/images/socialsuite/google-plus-ico.png)](api/google/){:style="margin:10px;"}
+[![Twitter](/images/socialsuite/twitter-ico.png)](api/twitter/){:style="margin:10px;"}
 [![Pinterest](/images/socialsuite/pinterest-ico.png)](http://www.pinterest.com){:style="margin:10px;"}
-[![Yahoo](/images/socialsuite/yahoo-ico.png)](api/yahoo){:style="margin:10px;"}
+[![Yahoo](/images/socialsuite/yahoo-ico.png)](api/yahoo/){:style="margin:10px;"}
 
 The **Social Suite** extension is easy way to attract new customers to your online store.
 Our extension is tightly integrated with the most popular social networks such

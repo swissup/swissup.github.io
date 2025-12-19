@@ -51,4 +51,4 @@ Let's remove search icon and form from the header.
  -  [Back to Home](/m1/extensions/amp/)
  -  [Custom styles](/m1/extensions/amp/customization/design/custom-styles/)
 
-[amp_config_design]: /m1/extensions/amp/configuration#design
+[amp_config_design]: /m1/extensions/amp/configuration/#design

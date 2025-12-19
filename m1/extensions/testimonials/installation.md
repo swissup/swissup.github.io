@@ -30,5 +30,5 @@ That's all. Now you can add testimonials from admin in [Testimonials Grid][testi
 * [Settings][settings]
 
 [testimonials_grid]: /m1/extensions/testimonials/#testimonials-grid
-[widgets_and_blocks]: /m1/extensions/testimonials/widgets-and-blocks
+[widgets_and_blocks]: /m1/extensions/testimonials/widgets-and-blocks/
 [settings]: /m1/extensions/testimonials/#settings

@@ -66,5 +66,5 @@ You can read more about the **Logo Slider** block settings at [Logo Slider Block
 [shopping_experiences]: https://docs.shopware.com/en/shopware-6-en/content/ShoppingExperiences
 [new_layout]: https://docs.shopware.com/en/shopware-6-en/content/ShoppingExperiences#creating-a-new-layout
 [image_slider]: https://docs.shopware.com/en/shopware-6-en/content/ShoppingExperiences#Slider
-[highlight]: /shopware/argento/stripes/cms/highlight
-[logo_slider]: /shopware/argento/stripes/cms/logo-slider
+[highlight]: /shopware/argento/stripes/cms/highlight/
+[logo_slider]: /shopware/argento/stripes/cms/logo-slider/

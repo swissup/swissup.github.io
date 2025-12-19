@@ -57,8 +57,8 @@ Firecheckout includes a huge amount of configurable additional possibilities:
  3. [Configuration](configuration/)
  3. [Usps address verification](usps-address-verification/)
  4. [Supported modules](supported-modules/)
-     -  [Magento built-in modules](supported-modules#magento-built-in-modules)
-     -  [Third-party modules](supported-modules#third-party-modules)
+     -  [Magento built-in modules](supported-modules/#magento-built-in-modules)
+     -  [Third-party modules](supported-modules/#third-party-modules)
  5. Additional possibilities
      -  [House number field](housenumber/)
      -  [Form field manager](form-field-manager/)
