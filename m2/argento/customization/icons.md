@@ -16,9 +16,9 @@ category: Argento
 
 ### FontAwesome Icons
 
-Argento uses FontAwesome icons and you can use any of icons provided by this
+Argento uses FontAwesome icons. You can use all icons provided by this
 wonderful project. See the [official site](https://fontawesome.com/v4.7.0/icons/) for
-usage examples and icons list.
+usage examples and the icons list.
 
 ### Social icons
 
@@ -45,7 +45,7 @@ colorize-fa-stack-hover | Colorized hovered stacked icons
 
 #### Stacked list
 
-Stacked icons - is two icons stacked togehter.
+Stacked icons are two icons stacked togehter.
 See [example](http://fontawesome.io/examples/#stacked).
 
 ```html
