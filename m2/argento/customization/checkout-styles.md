@@ -8,12 +8,12 @@ category: Argento
 
 # Checkout styles
 
-> This feature supported since Argento 1.10.0
+> This feature is supported since Argento 1.10.0.
 
 > **Notice**
 >
-> This tutorial assumes that you already created [custom css](../custom-css/)
-> to add additional css styles
+> This tutorial assumes that you already created a [custom css](../custom-css/)
+> to add css styles.
 >
 > If you did not — [go ahead](../custom-css/), it will take 5 minutes.
 
