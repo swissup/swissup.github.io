@@ -8,6 +8,133 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.17.0
+
+> December 22, 2025
+
+#### Refactored
+
+- **Logger System**: Removed `$debugMode` constructor parameters from 25+ classes
+  - Debug mode auto-detected from `PAGESPEED_DEBUG` constant via `LoggerSingleton`
+  - Deleted `Logger/LoggerFactory.php` (replaced by `LoggerSingleton`)
+  - `LoggerSingleton:: getInstance()` no longer accepts `$debug` parameter
+  - Added `LoggerSingleton::isDebugEnabled()` and `getLoggerType()` methods
+  - `LoggerAwareTrait` uses lazy initialization
+  - Simplified constructors across codebase
+  - Classes now use `LoggerAwareTrait` instead of injected logger:
+    - `DuplicateValidator`, `PatchGrouper`, `PatchApplicator`, `ParentPatcher`
+    - `DuplicateOffsetDetector`, `OffsetStatistics`
+  - Performance: Added `isDebugEnabled()` checks before expensive operations
+  - ~200 lines of code removed
+
+- **Offset Finding**:  Complete strategy chain refactoring
+  - Priority order: `UniqueMarker` → `IndexedAttribute` → `DirectAttribute` → `SiblingIndexTag` → `ParentContext` → `Content`
+  - Added `UniqueMarkerOffsetFinder` - O(1) lookup with temporary `data-pspd-n` markers
+  - Added `IndexedAttributeOffsetFinder` - pre-built index for fast hash lookup (27% coverage)
+  - Added `DirectAttributeOffsetFinder` - priority attributes handler (2% coverage)
+  - Added `SiblingIndexTagOffsetFinder` - fallback for non-unique tags
+  - Added `Helper/TagIndex` - shared index with duplicate detection
+  - Added `ContentDisambiguationOffsetFinder` - JSON key extraction
+  - Removed `FastTagOffsetFinder`, `SignatureOffsetFinder`, `AttributeOffsetFinder`
+  - Result: 100% accurate tracking, ~50x faster than signature-based
+
+- **DOM Architecture**:
+  - Extracted debug logs injection into separate `InjectDebugLogsPlugin`
+  - Simplified logging architecture in DOM pipeline
+  - Extracted `TrackedDomDocument` into focused traits
+  - Moved mode detection from `Manager` to `TrackedDomDocument`
+  - Migrated to Magento-generated `ContextFactory`
+  - Centralized UTF-8 BOM constant to `TrackedDomDocument`
+  - Renamed `DomManager:: getDom()` to `getDocument()`
+  - Moved `DomManager` to `Model/Dom/Manager`
+
+#### Fixed
+
+- `TrackedDomDocument:: __construct()` - fixed double `$this->` typo
+- `Pipeline::runOptimizer()` - fixed undefined variables
+- `Chain::logDebugInfo()` - proper debug check
+- Preserve script tracking in `DeferJs` with `DocumentFragment`
+- Fix data-mage-init attribute corruption in DOMDocument processing (#85)
+- UTF-8 charset handling with meta charset injection
+- Losing `<script>` tags in DOM operations
+
+#### Performance
+
+- **11x faster**:  Removed `SignatureOffsetFinder`, added profiling
+- **16x faster**: `DeferJs` - reverted to native DOM from DocumentFragment
+- **41x faster**: `OffsetBasedStrategy` - optimized with fast path and UTF-8 fallback
+  - ASCII detection cache for common cases
+  - `mb_*` → `substr_replace` for ASCII strings
+  - UTF-8 fallback only when needed
+- **5.75x faster**: Added `FastTagOffsetFinder` strategy
+- Optimized node indexing with combined XPath queries
+- XPath query batching for DOM indexing
+- Centralized profiler usage with `ProfilerLoggingTrait`
+
+#### Added
+
+- **Unique Markers System**: `Model/Patch/UniqueMarkers.php`
+  - Temporary `data-pspd-n` markers for accurate offset tracking
+  - Integrated as highest priority strategy
+- XPath query validation with debug-aware logging
+- Moved default XPath queries to `Tracker`
+- Robust UTF-8 charset handling and structure restoration
+- `PatchManager`: exact regex check for `<html>`/`<head>`/`<body>`, better logging
+
+#### Tests
+
+- Added `UniqueMarkersIntegrationTest`
+- Added `OffsetFinderChainSetup` trait
+- Comprehensive `DeferJs` ignore logic tests with execution order validation
+- Regression test for emoji and special characters (#84)
+- Fixed tests for selective XPath indexing
+- UTF-8 encoding tests
+- All tests passing
+
+#### Improved
+
+- **LCP Optimizer**: batch node indexing, XPath constants
+- **PatchManager**: better duplicate detection and validation
+- **Tracker**: Added `//style` to default queries
+- `DirectMatchStrategy`: clean up core fast/UTF-8 replacement logic
+- Drop global ASCII cache in `OffsetBasedStrategy`, use local fragment check
+- Critical CSS API:  improved error messages
+- Breeze integration updates
+
+### Version 1.16.8
+
+> December 16, 2025
+
+- Fix:  Preserve script tracking in DeferJs with DocumentFragment
+- Sync composer version with last tag
+
+### Version 1.16.5
+
+> December 11, 2025
+
+- Performance: Optimize OffsetBasedStrategy - 41x faster (mb_* → substr_replace)
+- feat(performance): add FastTagOffsetFinder strategy for 5.75x speedup
+- perf(tracker): optimize node indexing with combined XPath queries
+
+### Version 1.16.3
+
+> December 10, 2025
+
+- Performance: optimize DOM indexing with XPath query batching
+- Refactor: centralize profiler usage with ProfilerLoggingTrait
+
+### Version 1.16.2
+
+> December 5, 2025
+
+- Updated Breeze integration
+
+### Version 1.16.1
+
+> November 25, 2025
+
+- Fix data-mage-init attribute corruption in DOMDocument processing (close #85)
+
 ### Version 1.16.2
 
 > December 5, 2025
