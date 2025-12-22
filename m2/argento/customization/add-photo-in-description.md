@@ -13,47 +13,47 @@ category: Argento
 
 > Argento theme must have version 1.13.0 or above.
 
-Beautiful picture can be a difference maker that convince your customer to make a purchase.
+An appropriate picture may convince your customer to make a purchase.
 
-You can position your picture in product description in the same way as above. And this is available in every Argento theme.
+You can position your picture in the product description as illustrated above.
 
-This feature is enabled in Argento Forece by default.
+This feature is available in every Argento theme, although it is enabled by default only in Argento Force.
 
 ### Manually
 
-This approach can be useful when you want to have such kind of picture only at specific products.
+This approach is suitable when you want such a picture to be present only on specific product pages.
 
-Edit product in Magento Admin. Find field where you can edit product description. Disable WYSIWYG editor for this field. And insert HTML code before all content in description. You can find this code below.
+Edit the desired product in Magento Admin. Find the field where you can edit the product description. Disable WYSIWYG editor for this field. Insert the following HTML code before all content in the description.
 
 ```html
 <img class="argento-float-photo hidden-xs hidden-sm" src="[URL_TO_IMAGE]" />
 ```
 
-`[URL_TO_IMAGE]` - URL to image you want to show in description.
+`[URL_TO_IMAGE]` - the URL to the image you want to display in the description.
 
-Save product and you can check product page at frontend.
+Save the product and check the frontend.
 
 ##### Some tech info
 
-As you can see IMG element has classes:
+As you can see, the IMG element has classes:
 
-`argento-float-photo` - Argento css class that positions picture.
+`argento-float-photo` - an Argento css class that positions an image.
 
-`hidden-xs` - hide image on mobile devices. Screen less then 768px.
+`hidden-xs` - hides an image on mobile devices (screen size less than 768px).
 
-`hidden-sm` - hide images on tablets. Screen 768px - 1024px.
+`hidden-sm` - hides an image on tablets (screen size 768px - 1024px).
 
 ### Automatically
 
 > **Notice**
 >
-> This tutorial assumes that you already created [custom theme](../custom-theme/) based on one of Argento themes.
+> This tutorial assumes that you already created a [custom theme](../custom-theme/) based on one of the Argento themes.
 >
 > If you did not &mdash; [go ahead](../custom-theme/), it will take 15 minutes.
 
-Also you can add photo in description for every product. In this case Magento will use last image from product gallery and add it into product description. If description already has photo-in-description then Magento will do nothing.
+You can add an image in the description for every product. In this case, Magento will use the last image from the product gallery and add it into the product description. If the description already contains an image, Magento will do nothing.
 
-Create `view.xml` file at directory `etc` of your custom theme with follow content. In case your theme has such file go to next paragraph.
+Create a file `view.xml` in the directory `etc` of your custom theme with the following content. If your theme already contains this file, go to the next step.
 
 ```xml
 <?xml version="1.0"?>
@@ -62,7 +62,7 @@ Create `view.xml` file at directory `etc` of your custom theme with follow conte
 </view>
 ```
 
-Add settings to `view.xml`. Insert them before closing 'view' node (`</view>`).
+Add the following to `view.xml` before closing the 'view' node (`</view>`).
 
 ```xml
 <vars module="Argento_Theme">
@@ -73,4 +73,4 @@ Add settings to `view.xml`. Insert them before closing 'view' node (`</view>`).
 </vars>
 ```
 
-Save file. Clear Magento Cache.
+Save the file. Clear Magento Cache.
