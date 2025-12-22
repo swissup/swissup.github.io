@@ -27,12 +27,12 @@ gallery:
 
 Adding a **sizing chart** button to your website or application can greatly enhance the user experience, providing quick access to essential sizing information for products. Here're the steps to seamlessly integrate a **sizing chart** button into your product pages.
 
-### Create CMS Block
+### Create a CMS Block
 
-Go to **Content > CMS Blocks** section of your admin and create the **Sizing Chart** block:
+Go to the **Content > CMS Blocks** section of your admin and create a **Sizing Chart** block:
 - Name: `Sizing chart`
 - ID: `sizing_chart`
-- Add "html content" to PageBuilder with a following code:
+- Add the following "html content" via PageBuilder:
 
     ```html
     <div data-role="sizing-chart" style="display: none;">
@@ -209,9 +209,9 @@ Go to **Content > CMS Blocks** section of your admin and create the **Sizing Cha
     </style>
     ```
 
-### Create Widget 
+### Create a Widget 
 
-Go to **Content > Widgets** section of your admin and create the **Sizing Chart** widget:
+Go to the **Content > Widgets** section of your admin and create a **Sizing Chart** widget:
 - Type: `CMS Static Block`
 - Widget title: `Sizing Chart`
 - Layout Updates: `Configurable product`
@@ -223,7 +223,7 @@ Go to **Content > Widgets** section of your admin and create the **Sizing Chart*
 
 Clear the store cache and refresh your store product page.
 
-If everything was applied correctly - you'll get the **Sizing chart** link with a pretty icon.
+If everything was done correctly, you'll see the **Sizing chart** link and a relevant icon.
 
-> To improve the button styling you may add your CSS directly to CMS block content in
+> To improve the button styling, you may add your CSS directly to the CMS block content in the
 `<style>` tag
