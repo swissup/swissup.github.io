@@ -8,9 +8,9 @@ category: Canonical URL
 
 # SEO Canonical URL
 
-Absolutely gorgeous module that adds canonical URLs for products, categories and CMS pages in Magento 2.
+An excellent module that adds canonical URLs for products, categories, and CMS pages in Magento 2.
 
-One of the best features use parent product url as canonical for child. If product is included in configurable, bundle or grouped product then you can force it to use parent product url as its canonical. This feature can be useful for stores with really big catalog of products when store owner want to consolidate Google indexing.
+One of its best features is the ability to use the parent product URL as the canonical URL for child products. If a product is included in a configurable, bundle, or grouped product, you can force it to use the parent product URL as its canonical URL. This is especially useful for stores with very large product catalogs, where the store owner wants to consolidate Google indexing and avoid duplicate content.
 
 ### Contents
 
