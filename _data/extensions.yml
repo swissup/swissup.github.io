@@ -99,6 +99,13 @@ breeze:
     m1:
     m2: /m2/extensions/breeze/
 
+breeze-theme-editor:
+  title: Breeze Theme Editor
+  short_description: Visual theme customization tool for Breeze
+  urls:
+    m1:
+    m2: /m2/extensions/breeze-theme-editor/
+
 cache:
   title: Cache
   short_description: Blazing fast store is the key to e-commerce success.

@@ -1,3 +1,11 @@
+---
+layout: default
+title: Theme Developer Guide
+description: Complete guide for adding Breeze Theme Editor support to your Magento 2 theme
+keywords: breeze theme editor, theme development, settings.json, field types, css variables
+category: Breeze Theme Editor
+---
+
 # Breeze Theme Editor - Theme Developer Guide
 
 **Version**: 1.0  
@@ -547,6 +555,282 @@ Facebook, Twitter, Instagram, LinkedIn, YouTube, Pinterest, TikTok
 
 ---
 
+### 13. IMAGE_UPLOAD - Image Upload with URL
+
+**Purpose**: Upload images or provide image URLs
+
+```json
+{
+  "id": "logo",
+  "label": "Logo Image",
+  "type": "image_upload",
+  "default": "",
+  "css_var": "--logo-url",
+  "description": "Upload logo or enter URL",
+  "params": {
+    "acceptTypes": "image/*",
+    "maxSize": 2048
+  }
+}
+```
+
+**Properties**:
+- `params.acceptTypes` - Accepted file types (default: `"image/*"`)
+- `params.maxSize` - Maximum file size in KB (default: 2048)
+
+**Features**:
+- File upload with preview
+- URL input option
+- Base64 encoding for uploaded files
+- Client-side validation
+- Remove button to clear image
+
+**Value Format**:
+- URL: `"https://example.com/logo.png"`
+- Data URL: `"data:image/png;base64,iVBORw0KG..."`
+
+**CSS Output**:
+```css
+:root {
+  --logo-url: https://example.com/logo.png;
+}
+```
+
+**Usage in CSS**:
+```css
+.header-logo {
+  background-image: url(var(--logo-url));
+}
+```
+
+**Notes**:
+- Uploaded files are stored as base64 data URLs
+- For production, consider using Magento media storage
+- Data URLs increase CSS file size
+
+---
+
+### 14. SPACING - 4-Sided Spacing Control
+
+**Purpose**: Control padding or margin with individual sides
+
+```json
+{
+  "id": "container_padding",
+  "label": "Container Padding",
+  "type": "spacing",
+  "default": {
+    "top": 20,
+    "right": 20,
+    "bottom": 20,
+    "left": 20,
+    "unit": "px",
+    "linked": true
+  },
+  "css_var": "--container-padding",
+  "description": "Inner spacing",
+  "params": {
+    "unit": "px",
+    "allowedUnits": ["px", "rem", "em", "%"],
+    "min": 0,
+    "max": 100,
+    "step": 1,
+    "linkedByDefault": true
+  }
+}
+```
+
+**Properties**:
+- `params.unit` - Default unit (default: `"px"`)
+- `params.allowedUnits` - Available units (default: `["px", "rem", "em", "%"]`)
+- `params.min` - Minimum value (default: 0)
+- `params.max` - Maximum value (default: 100)
+- `params.step` - Input step (default: 1)
+- `params.linkedByDefault` - Link all sides initially (default: true)
+
+**Features**:
+- Visual 4-sided input (top, right, bottom, left)
+- Link/unlink button to sync all sides
+- Unit selector dropdown
+- Number inputs with min/max validation
+
+**Value Format** (JSON):
+```json
+{
+  "top": 20,
+  "right": 20,
+  "bottom": 20,
+  "left": 20,
+  "unit": "px",
+  "linked": true
+}
+```
+
+**CSS Output**:
+```css
+:root {
+  --container-padding: 20px;  /* All sides same */
+  --header-margin: 10px 20px;  /* top/bottom, left/right */
+  --section-padding: 10px 20px 30px 40px;  /* All different */
+}
+```
+
+**Shorthand Logic**:
+- All same: `20px`
+- Top/Bottom + Left/Right: `10px 20px`
+- Top + Left/Right + Bottom: `10px 20px 30px`
+- All different: `10px 20px 30px 40px`
+
+**Usage Examples**:
+```css
+.container {
+  padding: var(--container-padding);
+}
+
+.section {
+  margin: var(--section-margin);
+}
+```
+
+---
+
+### 15. REPEATER - Dynamic List of Items
+
+**Purpose**: Create repeating groups of fields (slideshows, testimonials, features)
+
+```json
+{
+  "id": "features",
+  "label": "Features List",
+  "type": "repeater",
+  "default": [],
+  "description": "Add feature items",
+  "params": {
+    "min": 0,
+    "max": 10,
+    "addButtonLabel": "Add Feature",
+    "itemLabel": "Feature",
+    "collapsible": true,
+    "sortable": true
+  },
+  "fields": [
+    {
+      "code": "title",
+      "label": "Title",
+      "type": "text",
+      "required": true,
+      "placeholder": "Feature name"
+    },
+    {
+      "code": "description",
+      "label": "Description",
+      "type": "textarea",
+      "placeholder": "Describe the feature"
+    },
+    {
+      "code": "icon",
+      "label": "Icon",
+      "type": "text",
+      "placeholder": "Icon name"
+    },
+    {
+      "code": "enabled",
+      "label": "Enabled",
+      "type": "toggle",
+      "default": true
+    }
+  ]
+}
+```
+
+**Properties**:
+- `fields` - Array of sub-field definitions (required)
+- `params.min` - Minimum items (default: 0)
+- `params.max` - Maximum items (default: 10)
+- `params.addButtonLabel` - Button text (default: "Add Item")
+- `params.itemLabel` - Item title prefix (default: "Item")
+- `params.collapsible` - Allow collapsing items (default: true)
+- `params.sortable` - Allow reordering (default: true)
+
+**Supported Sub-Field Types**:
+- `text` - Single line input
+- `url` - URL input
+- `textarea` - Multi-line input
+- `number` - Numeric input
+- `select` - Dropdown with options
+- `toggle` - Checkbox/switch
+
+**Features**:
+- Add/remove items dynamically
+- Collapsible items to save space
+- Drag-and-drop reordering (basic)
+- Each item has numbered header
+- Min/max validation
+- Remove button per item
+
+**Value Format** (JSON array):
+```json
+[
+  {
+    "title": "Fast Performance",
+    "description": "Lightning-fast page loads",
+    "icon": "speed",
+    "enabled": true
+  },
+  {
+    "title": "Mobile First",
+    "description": "Responsive on all devices",
+    "icon": "mobile",
+    "enabled": true
+  }
+]
+```
+
+**CSS Output**:
+```css
+:root {
+  --features: [{...}, {...}];  /* JSON string, escaped */
+}
+```
+
+**Notes**:
+- Repeater fields typically don't output to CSS directly
+- Use in JavaScript/PHP to render dynamic content
+- Access via GraphQL API or custom logic
+- Not suitable for CSS variables (use for data storage)
+
+**Example Sub-Field Configuration**:
+```json
+{
+  "fields": [
+    {
+      "code": "link_text",
+      "label": "Link Text",
+      "type": "text",
+      "required": true
+    },
+    {
+      "code": "link_url",
+      "label": "URL",
+      "type": "url",
+      "required": true
+    },
+    {
+      "code": "target",
+      "label": "Open in",
+      "type": "select",
+      "options": [
+        {"value": "_self", "label": "Same Tab"},
+        {"value": "_blank", "label": "New Tab"}
+      ],
+      "default": "_self"
+    }
+  ]
+}
+```
+
+---
+
 ## Field Properties
 
 ### Common Properties
@@ -583,7 +867,7 @@ All field types support these properties:
 
 #### `type` (string, required)
 - See [Field Types Reference](#field-types-reference)
-- Supported: `color`, `text`, `textarea`, `number`, `range`, `select`, `toggle`, `code`, `font_picker`, `color_scheme`, `social_links`, `icon_set_picker`
+- Supported: `color`, `text`, `textarea`, `number`, `range`, `select`, `toggle`, `code`, `font_picker`, `color_scheme`, `social_links`, `icon_set_picker`, `image_upload`, `spacing`, `repeater`
 
 #### `default` (mixed, optional)
 - Default value when field is empty
@@ -595,6 +879,9 @@ All field types support these properties:
   - `select/font_picker/icon_set_picker`: `"option_value"`
   - `color_scheme`: `"light"` | `"dark"` | `"auto"`
   - `social_links`: `"{}"`
+  - `image_upload`: `"https://example.com/image.png"` or `""`
+  - `spacing`: `{"top": 20, "right": 20, "bottom": 20, "left": 20, "unit": "px", "linked": true}`
+  - `repeater`: `[]` (empty array)
 
 #### `css_var` (string, optional)
 - CSS custom property name
