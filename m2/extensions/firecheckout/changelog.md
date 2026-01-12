@@ -8,6 +8,18 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.34.2
+
+> January 8, 2026
+
+ -  Improve visualization of the checkout loading state.
+ -  Fixed sending duplicate ajax requests on initial page load.
+ -  Fixed blinking of the "Place Order" button when using paypal express.
+ -  Fixed not working click on the shipping method radio button (Magento bug).
+ -  Fixed not working click on the "Cancel" billing address button when address is not saved yet.
+ -  Improve `Sequra_Payment` compatibility.
+ -  Improve StorePickup styles.
+
 ### Version 1.34.1
 
 > September 9, 2025

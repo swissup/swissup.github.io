@@ -11,11 +11,11 @@ category: Pagespeed
 
 # Pagespeed
 
-Magento2 module for increase you store page speed and rank.
+A Magento2 module that increases you store page speed and rank.
 
-Google considers the site speed as an important search rankings factor. It’s proved that Javascript and CSS minification achieved a 21% size reduction and that can make your store load up to 85% faster! Don’t throw away advantages of our new Page Speed extension for magento stores. It allows you to improve the overall web-shop performance by speeding up the page load time. You can use the extension for building better connections the online store and visitors. Customers actually will wait the page loading for less time, so they will start go shopping faster.
+Google considers the site loading speed an important search ranking factor. It has been proven that JavaScript and CSS minification may achieve a 21% size reduction, which can make your store load up to 85% faster! Don’t dismiss the advantages of our new Page Speed extension for Magento stores. It allows you to improve the overall web-shop performance by speeding up the page load time. You can use the extension to build a better connection between your online store and its visitors. Customers will spend less time waiting for the page to load, so they can start shopping sooner.
 
-If you are running the website with a lot of images, scripts and content, the Page Speed module is must have solution for you. Meet the main features, that will help you to make website loading faster:
+If you are running the website with many images, scripts and content, the Page Speed module will be beneficial to you. Below you may learn about the main features that will help you to make the website load faster:
 
 ![Google insights](/images/m2/pagespeed/insight.png)
 

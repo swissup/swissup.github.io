@@ -8,13 +8,13 @@ category: Seo Images
 
 # SEO Images
 
-Module helps to maintain names of product images. It allows you to build product image name base on product attribute. Most common case, image name is the same as product name.
+The module helps maintain meaningful product image names. It allows you to generate product image names based on a product attribute; the most common use case is using the product name as the image name.
 
-This extension does not change any original files. It changes names for resized images only.
+This extension does not modify any original image files. It renames resized images only.
 
-Module has minimal number of settings.
+The module has a minimal number of settings.
 
-The only restriction is that module works with global settings. And can't be changes on store view level.
+The only limitation is that the module works with the global configuration and cannot be configured per store view.
 
 ### Contents
 

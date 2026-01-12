@@ -17,8 +17,8 @@ category: Argento
 
 > **Notice**
 >
-> 1. This tutorial assumes that you already created [custom theme](../custom-theme/)
->    based on one of Argento themes.
+> 1. This tutorial assumes that you already created a [custom theme](../custom-theme/)
+>    based on one of the Argento themes.
 >
 >    If you did not &mdash; [go ahead](../custom-theme/), it will take 15 minutes.
 >
@@ -26,9 +26,9 @@ category: Argento
 
 ### Enable sticky button
 
-Sticky tocart button is available in all Argento themes but it is disabled by default. Except Argento Force where it is enabled.
+A sticky to-cart button is available in all Argento themes but is enabled by default only in Argento Force.
 
-Create `view.xml` file at directory `etc` of your custom theme with follow content. In case your theme has such file go to next paragraph.
+Create a file `view.xml` in the directory `etc` of your custom theme with the following content. If your theme already contains this file, proceed to the next step.
 
 ```xml
 <?xml version="1.0"?>
@@ -37,7 +37,7 @@ Create `view.xml` file at directory `etc` of your custom theme with follow conte
 </view>
 ```
 
-Add settings to `view.xml`. Insert them before closing 'view' node (`</view>`).
+Add the following section to `view.xml` before closing the 'view' node (`</view>`).
 
 ```xml
 <vars module="Argento_Theme">
@@ -47,16 +47,16 @@ Add settings to `view.xml`. Insert them before closing 'view' node (`</view>`).
 </vars>
 ```
 
-Save file. Clear Magento Cache.
+Save the file. Clear Magento Cache.
 
 ### Disable sticky button
 
-If you want to disable sticky button then please follow all steps described above. And set value "enabled" as 0 in "sticky_add_to_cart" node.
+If you want to disable the sticky button, please, follow the above steps but set the value of "enabled" to 0 in the "sticky_add_to_cart" node.
 
 ### Additional options
 
-You can set some additional options for sticky button if you need via `view.xml`.
+You can configure the sticky button via `view.xml`.
 
-`offset_top` - offset from window top in pixels when button is stuck. Can be useful if your store has sticky menu also.
+`offset_top` - offset from the window top in pixels when the button is stuck. This ption could be useful if your store has a sticky menu.
 
-`media` - media query rule. It specifies when tocart button can stick.
+`media` - a media query rule that specifies when the tocart button can stick.

@@ -11,7 +11,7 @@ category: Argento
 ![Swatches](/images/m2/argento/customization/swatches.png){:class="noborder"}
 
   - [Create](http://docs.swissuplabs.com/m2/argento/customization/custom-js/) `argento-custom.js`
-  - Add following javascript code there
+  - Add the following javascript code in it:
 
     ```js
 
@@ -54,7 +54,7 @@ category: Argento
 
 
     ```
-  - Make static content redeploy:
+  - Redeploy static content:
 
     ```
     php bin/magento setup:static-content:deploy

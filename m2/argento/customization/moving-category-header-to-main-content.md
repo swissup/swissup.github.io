@@ -7,11 +7,11 @@ keywords: >
 category: Argento
 ---
 
-# Moving category header to main content
+# Moving the category header to the main content
 
   * [Create](http://docs.swissuplabs.com/m2/argento/customization/custom-theme/#create-custom-theme) a custom Argento theme
   * Create/add `Magento_Catalog/layout/catalog_category_view.xml` in your _custom theme_
-  * Add following content to it:
+  * Add the following content to it:
 
     ```xml
     <?xml version="1.0"?>
@@ -23,4 +23,4 @@ category: Argento
     </page>
     ```
 
-  * Flush the store cache
+  * Flush the store cache.
