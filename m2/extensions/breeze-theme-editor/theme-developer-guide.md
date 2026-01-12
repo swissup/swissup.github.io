@@ -930,6 +930,289 @@ All field types support these properties:
 
 ---
 
+## 16. Presets - Pre-configured Templates
+
+Presets allow theme developers to provide ready-to-use style templates that users can apply with one click. Think of them as "starter kits" for different design variations.
+
+### What are Presets?
+
+- **Read-only templates** defined by theme developer in `settings.json`
+- **Quick styling** - apply multiple settings at once
+- **Not saved** as separate entities - they update Draft values
+- **User flow**: Select → Preview → Apply → Edit (optional) → Publish
+
+### Preset vs Publication
+
+| Feature | Preset | Publication |
+|---------|--------|-------------|
+| **Source** | Static JSON in theme | Dynamic DB records |
+| **Created by** | Theme developer | User (via UI) |
+| **Modifiable** | No (code only) | Yes (via UI) |
+| **Versioning** | No | Yes (full history) |
+| **Purpose** | Starting templates | Saved versions |
+
+### Configuration
+
+Add `presets` array to your `settings.json`:
+
+```json
+{
+  "version": "1.0",
+  "sections": [...],
+  "presets": [
+    {
+      "id": "dark-mode",
+      "name": "🌙 Dark Mode",
+      "description": "Complete dark color scheme with high contrast",
+      "settings": {
+        "colors.primary_color": "#3b82f6",
+        "colors.text_color": "rgb(243, 244, 246)",
+        "colors.background": "#0d0d0d",
+        "colors.link_color": "rgb(96, 165, 250)"
+      }
+    },
+    {
+      "id": "minimal-clean",
+      "name": "✨ Minimal Clean",
+      "description": "Clean light theme with generous spacing",
+      "settings": {
+        "layout.container_width": "1024px",
+        "layout.grid_gap": "1.5rem",
+        "colors.primary_color": "#ffffff"
+      }
+    }
+  ]
+}
+```
+
+### Preset Structure
+
+| Field | Type | Required | Description |
+|-------|------|----------|-------------|
+| `id` | string | Yes | Unique preset identifier (kebab-case) |
+| `name` | string | Yes | Display name in UI (can include emoji) |
+| `description` | string | No | Short description (1-2 sentences) |
+| `settings` | object | Yes | Key-value pairs of settings to apply |
+
+### Settings Format
+
+Use **dot notation** for setting keys:
+
+```json
+"settings": {
+  "section_code.field_code": "value"
+}
+```
+
+**Examples:**
+```json
+{
+  "colors.primary_color": "#1a1a1a",
+  "typography.font_family": "Roboto",
+  "layout.sidebar_width": "250px",
+  "spacing.container_padding": "2rem"
+}
+```
+
+**Important:** Section code must match your `sections[].id` and field code must match `sections[].settings[].id`.
+
+### User Flow
+
+1. **User opens Panel** → sees "Apply Preset" dropdown
+2. **Selects preset** → expanded view shows:
+   - Description
+   - Warning: "This will change N settings"
+3. **Clicks "Apply Preset"**:
+   - If no unsaved changes → applies immediately
+   - If unsaved changes exist → shows dialog:
+     - **Merge**: Keep my changes, apply preset to unchanged fields
+     - **Overwrite**: Discard my changes, use all preset values
+4. **Values applied to Draft** → fields update, live preview refreshes
+5. **User can**:
+   - Continue editing fields
+   - Save Draft
+   - Publish changes
+
+### Best Practices
+
+#### 1. Provide 2-4 Presets Maximum
+Too many options = decision paralysis. Focus on key variations:
+- Light/Dark mode
+- Minimal/Detailed style
+- Accessibility preset
+
+#### 2. Use Descriptive Names
+✅ Good: "🌙 Dark Mode", "♿ High Contrast", "✨ Minimal Clean"
+❌ Bad: "Preset 1", "Theme 2", "Option B"
+
+#### 3. Write Clear Descriptions
+Explain **what** it does and **why** user might want it:
+```json
+{
+  "description": "Complete dark color scheme with high contrast for better readability in low-light conditions. Perfect for night browsing."
+}
+```
+
+#### 4. Only Include Essential Settings
+Don't change everything - focus on settings that define the preset's character:
+```json
+{
+  "dark-mode": {
+    "settings": {
+      // ✅ Core colors that define dark mode
+      "colors.background": "#0d0d0d",
+      "colors.text": "rgb(243, 244, 246)",
+      "colors.primary": "#3b82f6"
+      // ❌ Don't include unrelated settings like sidebar_width
+    }
+  }
+}
+```
+
+#### 5. Test All Presets
+- Apply each preset on clean Draft
+- Verify all values apply correctly
+- Check live preview updates
+- Test with existing unsaved changes (merge vs overwrite)
+
+### Complete Example
+
+```json
+{
+  "version": "1.0",
+  "sections": [
+    {
+      "id": "colors",
+      "name": "Colors",
+      "settings": [
+        {
+          "id": "background",
+          "label": "Background Color",
+          "type": "color",
+          "default": "#ffffff",
+          "css_var": "--bg-color"
+        },
+        {
+          "id": "text",
+          "label": "Text Color",
+          "type": "color",
+          "default": "rgb(17, 24, 39)",
+          "css_var": "--text-color"
+        },
+        {
+          "id": "primary",
+          "label": "Primary Color",
+          "type": "color",
+          "default": "#1979c3",
+          "css_var": "--primary-color"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "id": "dark-mode",
+      "name": "🌙 Dark Mode",
+      "description": "Dark color scheme for night browsing with reduced eye strain",
+      "settings": {
+        "colors.background": "#0d0d0d",
+        "colors.text": "rgb(243, 244, 246)",
+        "colors.primary": "#3b82f6"
+      }
+    },
+    {
+      "id": "high-contrast",
+      "name": "♿ High Contrast",
+      "description": "Maximum contrast for accessibility and users with visual impairments",
+      "settings": {
+        "colors.background": "#000000",
+        "colors.text": "rgb(255, 255, 255)",
+        "colors.primary": "#ffff00"
+      }
+    },
+    {
+      "id": "light-minimal",
+      "name": "✨ Light Minimal",
+      "description": "Clean light theme with soft colors and minimal distractions",
+      "settings": {
+        "colors.background": "#fafafa",
+        "colors.text": "rgb(55, 65, 81)",
+        "colors.primary": "#6b7280"
+      }
+    }
+  ]
+}
+```
+
+### GraphQL API
+
+**Query Presets:**
+```graphql
+query {
+  breezeThemeEditorPresets(storeId: 1, themeId: 21) {
+    id
+    name
+    description
+  }
+}
+```
+
+**Apply Preset:**
+```graphql
+mutation {
+  applyBreezeThemeEditorPreset(input: {
+    storeId: 1
+    themeId: 21
+    presetId: "dark-mode"
+    status: DRAFT
+    overwriteExisting: false  # Merge mode
+  }) {
+    success
+    message
+    appliedCount
+    values {
+      sectionCode
+      fieldCode
+      value
+    }
+  }
+}
+```
+
+### Troubleshooting
+
+#### Presets not showing in UI
+- Check JSON syntax with `python3 -m json.tool settings.json`
+- Verify `presets` is top-level array (same level as `sections`)
+- Clear Magento cache: `bin/magento cache:clean`
+
+#### Preset applies but fields don't update
+- Check section/field codes match exactly (case-sensitive)
+- Verify fields exist in `sections[].settings[]`
+- Check browser console for JavaScript errors
+
+#### "Setting not found" error
+```
+Error: colors.primary_color not found
+```
+Fix: Verify `colors` section exists with `primary_color` field:
+```json
+{
+  "sections": [
+    {
+      "id": "colors",  // Must match "colors" in preset
+      "settings": [
+        {
+          "id": "primary_color"  // Must match "primary_color"
+        }
+      ]
+    }
+  ]
+}
+```
+
+---
+
 ## Validation Rules
 
 ### Built-in Validation
@@ -1618,24 +1901,39 @@ Breeze uses RGB format:
 
 ### How do I create presets?
 
-Create JSON files in `etc/theme_editor/presets/`:
+Add `presets` array to your `settings.json`:
 
 ```json
 {
-  "name": "Dark Mode",
-  "description": "Dark color scheme",
-  "values": {
-    "colors.primary_color": "#3b82f6",
-    "colors.text_color": "#f3f4f6",
-    "colors.bg_color": "#1f2937"
-  }
+  "version": "1.0",
+  "sections": [...],
+  "presets": [
+    {
+      "id": "dark-mode",
+      "name": "🌙 Dark Mode",
+      "description": "Dark color scheme for night browsing",
+      "settings": {
+        "colors.primary_color": "#3b82f6",
+        "colors.text_color": "rgb(243, 244, 246)",
+        "colors.background": "#0d0d0d"
+      }
+    }
+  ]
 }
 ```
+
+See [Section 16: Presets](#16-presets---pre-configured-templates) for complete documentation.
 
 ---
 
 ## Version History
 
+- **1.1** (2026-01-13) - Presets Feature
+  - Added Section 16: Presets documentation
+  - 3 new field types: IMAGE_UPLOAD, SPACING, REPEATER (v1.0.5)
+  - Preset UI implementation
+  - Updated FAQ with preset examples
+  
 - **1.0** (2026-01-09) - Initial documentation
   - 12 field types documented
   - Validation rules
