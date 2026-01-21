@@ -14,7 +14,7 @@ Our module alows to integrate GeoIP2 City database provided by MaxMind company. 
 [free](https://dev.maxmind.com/geoip/geoip2/geolite2/)
 and
 [paid](https://www.maxmind.com/en/geoip2-city) versions of geoip database
-available. We don't distribute module with our module.
+available. We don't distribute database with our module.
 
 Both database versions provide the same address information:
 
