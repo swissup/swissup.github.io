@@ -10,11 +10,11 @@ category: Geoip
 
 ### Database types
 
-Our module uses GeoIP2 City database provided by MaxMind company. There are
+Our module alows to integrate GeoIP2 City database provided by MaxMind company. There are
 [free](https://dev.maxmind.com/geoip/geoip2/geolite2/)
 and
 [paid](https://www.maxmind.com/en/geoip2-city) versions of geoip database
-available.
+available. We don't distribute module with our module.
 
 Both database versions provide the same address information:
 
