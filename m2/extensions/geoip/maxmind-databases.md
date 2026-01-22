@@ -3,7 +3,7 @@ layout: default
 title: MaxMind GeoIP Databases
 description: What types of GeoIP databases are provided by MaxMind company
 keywords: maxmind
-category: Geoip
+category: Geo Address IP
 ---
 
 # MaxMind Databases
