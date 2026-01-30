@@ -142,6 +142,7 @@ Full list: https://fonts.google.com/icons
   "type": "color",
   "default": "#1979c3",
   "css_var": "--primary-color",
+  "format": "hex",
   "description": "Main brand color",
   "help_text": "Used for buttons, links, and accents"
 }
@@ -150,20 +151,118 @@ Full list: https://fonts.google.com/icons
 **Features**:
 - Visual color picker
 - HEX input (#RRGGBB or #RGB)
-- RGB format support
-- Automatic RGB conversion for CSS variables
+- Configurable output format (HEX or RGB)
+- Automatic format conversion
 
-**CSS Output**:
-```css
-:root {
-  --primary-color: 25, 121, 195;  /* Converted to RGB */
+#### Format Property
+
+**Property**: `format`  
+**Type**: String  
+**Values**: `"hex"` | `"rgb"` | `"auto"`  
+**Required**: No
+
+Controls the CSS output format for color values.
+
+**Format Options**:
+
+1. **`"hex"`** (Breeze 3.0) - Default for new themes
+   ```json
+   {
+     "id": "text_color",
+     "type": "color",
+     "default": "#111827",
+     "css_var": "--text-color",
+     "format": "hex"
+   }
+   ```
+   **CSS Output**:
+   ```css
+   :root {
+     --text-color: #111827;
+   }
+   ```
+   **Use for**: Modern themes using `color: var(--text-color)`
+
+2. **`"rgb"`** (Breeze 2.0) - For legacy themes
+   ```json
+   {
+     "id": "text_color",
+     "type": "color",
+     "default": "#111827",
+     "css_var": "--text-color",
+     "format": "rgb"
+   }
+   ```
+   **CSS Output**:
+   ```css
+   :root {
+     --text-color: 17, 24, 39;  /* RGB format */
+   }
+   ```
+   **Use for**: Legacy themes using `color: rgb(var(--text-color))`
+
+3. **`"auto"`** - Smart detection
+   ```json
+   {
+     "id": "text_color",
+     "type": "color",
+     "default": "255, 0, 0",
+     "css_var": "--text-color",
+     "format": "auto"
+   }
+   ```
+   **Behavior**: Detects format from `default` value
+   - If `default` is HEX → outputs HEX
+   - If `default` is RGB → outputs RGB
+
+**Default Format**:
+- If `format` is not specified AND `default` exists → `"auto"`
+- If `format` is not specified AND no `default` → `"hex"`
+
+**Migration Guide (Breeze 2.0 → 3.0)**:
+
+If your theme uses `rgb(var())` syntax in CSS:
+```less
+// Old Breeze 2.0 CSS
+.button {
+  color: rgb(var(--button-color));
+  background: rgba(var(--bg-color), 0.5);
+}
+```
+
+You MUST add `"format": "rgb"` to your color fields:
+```json
+{
+  "id": "button_color",
+  "type": "color",
+  "format": "rgb",  // ← ADD THIS
+  "css_var": "--button-color"
+}
+```
+
+For new Breeze 3.0 themes using direct `var()`:
+```less
+// New Breeze 3.0 CSS
+.button {
+  color: var(--button-color);
+  background: color-mix(in srgb, var(--bg-color) 50%, transparent);
+}
+```
+
+Use `"format": "hex"` (or omit for default):
+```json
+{
+  "id": "button_color",
+  "type": "color",
+  "format": "hex",  // ← Optional (default)
+  "css_var": "--button-color"
 }
 ```
 
 **Notes**:
-- HEX values are converted to RGB format (Breeze standard)
-- Original HEX value added as CSS comment
-- Supports both `#FF0000` and `#F00` formats
+- Palette color references (e.g., `--color-brand-primary`) always output as `var()` regardless of format
+- User input is accepted in any format (HEX or RGB) and automatically converted
+- Supports both `#FF0000` and `#F00` HEX formats
 
 ---
 
@@ -1605,7 +1704,86 @@ Breeze uses RGB format:
 }
 ```
 
-### Example 2: Typography Section
+### Example 2: Color Format Options (Breeze 2.0 vs 3.0)
+
+```json
+{
+  "id": "color_formats",
+  "name": "🎨 Color Format Examples",
+  "description": "Different color format configurations",
+  "icon": "palette",
+  "order": 1,
+  "settings": [
+    {
+      "id": "modern_color_hex",
+      "label": "Modern Color (HEX)",
+      "type": "color",
+      "default": "#1979c3",
+      "css_var": "--modern-color",
+      "format": "hex",
+      "description": "Breeze 3.0 - outputs HEX format",
+      "help_text": "Use with: color: var(--modern-color)"
+    },
+    {
+      "id": "legacy_color_rgb",
+      "label": "Legacy Color (RGB)",
+      "type": "color",
+      "default": "#1979c3",
+      "css_var": "--legacy-color",
+      "format": "rgb",
+      "description": "Breeze 2.0 - outputs RGB format",
+      "help_text": "Use with: color: rgb(var(--legacy-color))"
+    },
+    {
+      "id": "auto_hex",
+      "label": "Auto-detect HEX",
+      "type": "color",
+      "default": "#ff5722",
+      "css_var": "--auto-hex",
+      "format": "auto",
+      "description": "Auto-detects HEX from default value"
+    },
+    {
+      "id": "auto_rgb",
+      "label": "Auto-detect RGB",
+      "type": "color",
+      "default": "255, 87, 34",
+      "css_var": "--auto-rgb",
+      "format": "auto",
+      "description": "Auto-detects RGB from default value"
+    },
+    {
+      "id": "no_format_with_default",
+      "label": "No Format Property (with default)",
+      "type": "color",
+      "default": "#4caf50",
+      "css_var": "--no-format-default",
+      "description": "Defaults to 'auto' → detects HEX"
+    },
+    {
+      "id": "no_format_no_default",
+      "label": "No Format Property (no default)",
+      "type": "color",
+      "css_var": "--no-format-no-default",
+      "description": "Defaults to 'hex' when no default exists"
+    }
+  ]
+}
+```
+
+**Expected CSS Output**:
+```css
+:root {
+  --modern-color: #1979c3;           /* format: hex */
+  --legacy-color: 25, 121, 195;      /* format: rgb */
+  --auto-hex: #ff5722;               /* format: auto (detected HEX) */
+  --auto-rgb: 255, 87, 34;           /* format: auto (detected RGB) */
+  --no-format-default: #4caf50;      /* no format + default → auto → HEX */
+  --no-format-no-default: #somevalue; /* no format + no default → hex */
+}
+```
+
+### Example 3: Typography Section
 
 ```json
 {
