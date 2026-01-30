@@ -22,11 +22,13 @@ This guide explains how to add Theme Editor support to your Breeze theme.
 3. [Configuration Format](#configuration-format)
 4. [Field Types Reference](#field-types-reference)
 5. [Field Properties](#field-properties)
-6. [Validation Rules](#validation-rules)
-7. [Theme Inheritance](#theme-inheritance)
-8. [Best Practices](#best-practices)
-9. [Examples](#examples)
-10. [Troubleshooting](#troubleshooting)
+6. [Color Palette System](#color-palette-system)
+7. [Validation Rules](#validation-rules)
+8. [Theme Inheritance](#theme-inheritance)
+9. [Best Practices](#best-practices)
+10. [Examples](#examples)
+11. [Troubleshooting](#troubleshooting)
+
 
 ---
 
@@ -259,10 +261,44 @@ Use `"format": "hex"` (or omit for default):
 }
 ```
 
+#### Palette Property
+
+**Property**: `palette`  
+**Type**: String  
+**Required**: No
+
+Enables "Quick Select" color picker with predefined palette colors.
+
+**Example**:
+```json
+{
+  "id": "text_color",
+  "label": "Text Color",
+  "type": "color",
+  "default": "#111827",
+  "css_var": "--text-color",
+  "palette": "default",
+  "format": "hex"
+}
+```
+
+**Behavior**:
+- Displays color swatches from the specified palette
+- Users can click palette colors for instant selection
+- Palette colors are defined in the `palettes` section (see [Color Palette System](#color-palette-system))
+- Users can still manually enter custom colors
+
+**When to use**:
+- ✅ For theme colors that should match brand palette
+- ✅ To provide quick access to predefined color schemes
+- ✅ To maintain color consistency across the theme
+- ❌ Not needed for completely custom color fields
+
 **Notes**:
 - Palette color references (e.g., `--color-brand-primary`) always output as `var()` regardless of format
 - User input is accepted in any format (HEX or RGB) and automatically converted
 - Supports both `#FF0000` and `#F00` HEX formats
+- See [Color Palette System](#color-palette-system) section for palette configuration
 
 ---
 
@@ -1312,6 +1348,303 @@ Fix: Verify `colors` section exists with `primary_color` field:
 
 ---
 
+## Color Palette System
+
+Color palettes provide a centralized way to define and manage theme colors. Users can quickly select colors from predefined palettes when editing COLOR fields.
+
+### Palette Structure
+
+Palettes are defined in the `palettes` section at the root level of `settings.json`:
+
+```json
+{
+  "version": "1.0",
+  "sections": [...],
+  "palettes": {
+    "default": {
+      "id": "default",
+      "label": "Default Color Palette",
+      "description": "Professional color system",
+      "groups": {
+        "brand": {
+          "id": "brand",
+          "label": "Brand Colors",
+          "description": "Primary brand identity colors",
+          "colors": [
+            {
+              "id": "primary",
+              "label": "Primary",
+              "description": "Main brand color",
+              "css_var": "--color-brand-primary",
+              "default": "#1979c3"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
+```
+
+### Palette Properties
+
+#### Palette Object
+- `id` (String, required) - Unique palette identifier
+- `label` (String, required) - Display name
+- `description` (String) - Palette description
+- `groups` (Object, required) - Color groups
+
+#### Group Object
+- `id` (String, required) - Unique group identifier
+- `label` (String, required) - Display name
+- `description` (String) - Group description
+- `colors` (Array, required) - Color definitions
+
+#### Color Object
+- `id` (String, required) - Unique color identifier
+- `label` (String, required) - Display name
+- `description` (String) - Color usage description
+- `css_var` (String, required) - CSS variable name (e.g., `--color-brand-primary`)
+- `default` (String, required) - Default HEX color value
+
+### Complete Palette Example
+
+```json
+{
+  "palettes": {
+    "default": {
+      "id": "default",
+      "label": "Default Color Palette",
+      "description": "Professional color system for theme customization",
+      "groups": {
+        "brand": {
+          "id": "brand",
+          "label": "Brand Colors",
+          "description": "Primary brand identity colors",
+          "colors": [
+            {
+              "id": "primary",
+              "label": "Primary",
+              "description": "Main brand color for buttons and key elements",
+              "css_var": "--color-brand-primary",
+              "default": "#1979c3"
+            },
+            {
+              "id": "secondary",
+              "label": "Secondary",
+              "description": "Supporting brand color",
+              "css_var": "--color-brand-secondary",
+              "default": "#111827"
+            },
+            {
+              "id": "accent",
+              "label": "Accent",
+              "description": "Highlight color for links",
+              "css_var": "--color-brand-accent",
+              "default": "#1d4ed8"
+            }
+          ]
+        },
+        "neutral": {
+          "id": "neutral",
+          "label": "Neutral Colors",
+          "description": "Grayscale palette",
+          "colors": [
+            {
+              "id": "0",
+              "label": "White",
+              "description": "Pure white",
+              "css_var": "--color-neutral-0",
+              "default": "#ffffff"
+            },
+            {
+              "id": "900",
+              "label": "Gray 900",
+              "description": "Darkest gray",
+              "css_var": "--color-neutral-900",
+              "default": "#111827"
+            }
+          ]
+        },
+        "state": {
+          "id": "state",
+          "label": "State Colors",
+          "description": "Semantic colors for UI feedback",
+          "colors": [
+            {
+              "id": "success",
+              "label": "Success",
+              "description": "Positive actions",
+              "css_var": "--color-state-success",
+              "default": "#10b981"
+            },
+            {
+              "id": "error",
+              "label": "Error",
+              "description": "Errors and warnings",
+              "css_var": "--color-state-error",
+              "default": "#ef4444"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
+```
+
+### Using Palettes in Color Fields
+
+Reference a palette in COLOR field configuration:
+
+```json
+{
+  "id": "text_color",
+  "label": "Text Color",
+  "type": "color",
+  "default": "#111827",
+  "css_var": "--text-color",
+  "palette": "default",
+  "description": "Main text color"
+}
+```
+
+**Result**: Users will see color swatches from the "default" palette when editing this field.
+
+### Referencing Palette Colors
+
+Users can select a palette color, which creates a CSS variable reference:
+
+**User Action**: Click on "Primary" color from palette  
+**Stored Value**: `--color-brand-primary`  
+**CSS Output**:
+```css
+:root {
+  --text-color: var(--color-brand-primary);
+}
+```
+
+**Benefits**:
+- ✅ Changing palette color updates all referencing fields
+- ✅ Maintains color consistency across theme
+- ✅ Easier theme customization with predefined schemes
+
+### Best Practices
+
+#### 1. Group Related Colors
+```json
+"groups": {
+  "brand": {...},      // Primary brand colors
+  "neutral": {...},    // Grays and backgrounds
+  "state": {...},      // Success, error, warning
+  "accent": {...}      // Highlights and special elements
+}
+```
+
+#### 2. Use Descriptive IDs
+```json
+// ❌ Bad
+"id": "color1"
+
+// ✅ Good
+"id": "primary"
+```
+
+#### 3. Provide Clear Descriptions
+```json
+{
+  "id": "primary",
+  "label": "Primary",
+  "description": "Main brand color for buttons and key elements",
+  "css_var": "--color-brand-primary",
+  "default": "#1979c3"
+}
+```
+
+#### 4. CSS Variable Naming Convention
+```
+--color-{group}-{id}
+
+Examples:
+--color-brand-primary
+--color-neutral-900
+--color-state-success
+```
+
+#### 5. Recommended Neutral Scale
+```json
+"neutral": {
+  "colors": [
+    {"id": "0", "default": "#ffffff"},    // White
+    {"id": "50", "default": "#f9fafb"},   // Lightest
+    {"id": "100", "default": "#f3f4f6"},
+    {"id": "200", "default": "#e5e7eb"},
+    {"id": "300", "default": "#d1d5db"},
+    {"id": "400", "default": "#9ca3af"},
+    {"id": "500", "default": "#6b7280"},  // Base
+    {"id": "600", "default": "#4b5563"},
+    {"id": "700", "default": "#374151"},
+    {"id": "800", "default": "#1f2937"},
+    {"id": "900", "default": "#111827"}   // Darkest
+  ]
+}
+```
+
+### Multiple Palettes
+
+You can define multiple palettes for different color schemes:
+
+```json
+{
+  "palettes": {
+    "default": {
+      "id": "default",
+      "label": "Light Theme Palette",
+      "groups": {...}
+    },
+    "dark": {
+      "id": "dark",
+      "label": "Dark Theme Palette",
+      "groups": {...}
+    },
+    "highcontrast": {
+      "id": "highcontrast",
+      "label": "High Contrast Palette",
+      "groups": {...}
+    }
+  }
+}
+```
+
+**Usage**:
+```json
+{
+  "id": "bg_color",
+  "type": "color",
+  "palette": "dark",
+  "css_var": "--bg-color"
+}
+```
+
+### Palette Color Format
+
+**Important**: Palette colors always output in **HEX format** regardless of field's `format` property:
+
+```css
+/* Palette definition */
+--color-brand-primary: #1979c3;  /* Always HEX */
+
+/* Field using palette reference */
+--text-color: var(--color-brand-primary);  /* Reference, not converted */
+```
+
+If a field has `format: "rgb"` but user selects a palette color, the output will be:
+```css
+--my-field: var(--color-brand-primary);  /* NOT converted to RGB */
+```
+
+---
+
 ## Validation Rules
 
 ### Built-in Validation
@@ -1783,7 +2116,202 @@ Breeze uses RGB format:
 }
 ```
 
-### Example 3: Typography Section
+### Example 3: Complete Configuration with Palette and Presets
+
+This example shows a full `settings.json` with color palette, multiple field types, and presets:
+
+```json
+{
+  "version": "1.0",
+  "sections": [
+    {
+      "id": "colors",
+      "name": "🎨 Colors",
+      "description": "Theme color customization",
+      "icon": "palette",
+      "order": 1,
+      "settings": [
+        {
+          "id": "text_color",
+          "label": "Text Color",
+          "type": "color",
+          "default": "#111827",
+          "description": "Main text color across the site",
+          "css_var": "--base-color",
+          "palette": "default",
+          "format": "hex"
+        },
+        {
+          "id": "primary_button_color",
+          "label": "Primary Button Color",
+          "type": "color",
+          "default": "#1979c3",
+          "description": "Color for primary action buttons",
+          "css_var": "--button-primary-bg",
+          "palette": "default",
+          "format": "hex"
+        },
+        {
+          "id": "link_color",
+          "label": "Link Color",
+          "type": "color",
+          "default": "#1d4ed8",
+          "description": "Clickable links color",
+          "css_var": "--link-color",
+          "palette": "default",
+          "format": "hex"
+        }
+      ]
+    }
+  ],
+  "palettes": {
+    "default": {
+      "id": "default",
+      "label": "Default Color Palette",
+      "description": "Professional color system for theme customization",
+      "groups": {
+        "brand": {
+          "id": "brand",
+          "label": "Brand Colors",
+          "description": "Primary brand identity colors",
+          "colors": [
+            {
+              "id": "primary",
+              "label": "Primary",
+              "description": "Main brand color for buttons and key elements",
+              "css_var": "--color-brand-primary",
+              "default": "#1979c3"
+            },
+            {
+              "id": "secondary",
+              "label": "Secondary",
+              "description": "Supporting brand color for headers and emphasis",
+              "css_var": "--color-brand-secondary",
+              "default": "#111827"
+            },
+            {
+              "id": "accent",
+              "label": "Accent",
+              "description": "Highlight color for links and interactive elements",
+              "css_var": "--color-brand-accent",
+              "default": "#1d4ed8"
+            }
+          ]
+        },
+        "neutral": {
+          "id": "neutral",
+          "label": "Neutral Colors",
+          "description": "Grayscale palette for backgrounds, borders, and text",
+          "colors": [
+            {
+              "id": "0",
+              "label": "White",
+              "description": "Pure white",
+              "css_var": "--color-neutral-0",
+              "default": "#ffffff"
+            },
+            {
+              "id": "100",
+              "label": "Gray 100",
+              "description": "Very light gray",
+              "css_var": "--color-neutral-100",
+              "default": "#f3f4f6"
+            },
+            {
+              "id": "500",
+              "label": "Gray 500",
+              "description": "Base gray",
+              "css_var": "--color-neutral-500",
+              "default": "#6b7280"
+            },
+            {
+              "id": "900",
+              "label": "Gray 900",
+              "description": "Darkest gray - almost black",
+              "css_var": "--color-neutral-900",
+              "default": "#111827"
+            }
+          ]
+        },
+        "state": {
+          "id": "state",
+          "label": "State Colors",
+          "description": "Semantic colors for UI feedback",
+          "colors": [
+            {
+              "id": "success",
+              "label": "Success",
+              "description": "Positive actions and confirmations",
+              "css_var": "--color-state-success",
+              "default": "#10b981"
+            },
+            {
+              "id": "error",
+              "label": "Error",
+              "description": "Errors and destructive actions",
+              "css_var": "--color-state-error",
+              "default": "#ef4444"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "presets": [
+    {
+      "id": "dark-mode",
+      "name": "🌙 Dark Mode",
+      "description": "Complete dark color scheme with high contrast",
+      "settings": {
+        "colors.text_color": "#f3f4f6",
+        "colors.primary_button_color": "#3b82f6",
+        "colors.link_color": "#60a5fa"
+      }
+    },
+    {
+      "id": "high-contrast",
+      "name": "♿ High Contrast",
+      "description": "Maximum contrast for accessibility",
+      "settings": {
+        "colors.text_color": "#000000",
+        "colors.primary_button_color": "#dc2626",
+        "colors.link_color": "#0000ff"
+      }
+    }
+  ]
+}
+```
+
+**Key Features**:
+- ✅ Color fields with `palette: "default"` property
+- ✅ Full palette definition with 3 groups (brand, neutral, state)
+- ✅ Users can click palette colors for quick selection
+- ✅ Two presets that apply multiple color changes at once
+- ✅ All colors use `format: "hex"` for Breeze 3.0 compatibility
+
+**User Experience**:
+1. User opens Theme Editor
+2. Clicks on "Text Color" field
+3. Sees color picker + palette swatches
+4. Can click any palette color (e.g., "Gray 900")
+5. Field value becomes `--color-neutral-900` (palette reference)
+6. Or user can enter custom HEX color
+
+**CSS Output**:
+```css
+:root {
+  /* Palette colors (only if modified from defaults) */
+  --color-brand-primary: #1979c3;
+  --color-neutral-900: #111827;
+  
+  /* Field values */
+  --base-color: var(--color-neutral-900);  /* User selected from palette */
+  --button-primary-bg: #1979c3;            /* User entered custom HEX */
+  --link-color: var(--color-brand-accent); /* User selected from palette */
+}
+```
+
+### Example 4: Typography Section
 
 ```json
 {
