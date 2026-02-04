@@ -24,7 +24,7 @@ category: SEO Suite
 
  - Add Swissup Attribute Pages support.
 
-Security and MCS updtaes to all modules in package.
+Security and MCS updates to all modules in package.
 
 
 ### Version 1.19.0
