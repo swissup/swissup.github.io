@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Breeze Theme Editor
-description: Visual theme customization tool for Magento 2 with Breeze - live preview, draft/publish workflow, 12+ field types
+description: Visual theme customization tool for Magento 2 with Breeze - live preview, draft/publish workflow, 16 field types
 keywords: breeze theme editor, magento 2 theme customization, visual theme editor, live preview, css variables
 category: Breeze Theme Editor
 ---
@@ -14,7 +14,7 @@ Visual theme customization tool for Magento 2 Breeze themes.
 
 - **Live Preview**: See changes instantly without page reload
 - **Draft/Publish Workflow**: Test changes before making them live
-- **15+ Field Types**: Colors, fonts, toggles, images, spacing, repeaters, and more
+- **16 Field Types**: Colors, fonts, toggles, images, spacing, repeaters, and more
 - **Theme Inheritance**: Extend parent theme configurations
 - **Version Control**: Publication history with rollback
 - **Multi-Store Support**: Different settings per store view
@@ -82,9 +82,9 @@ See [Theme Developer Guide](theme-developer-guide/) for complete documentation.
 
 ## Requirements
 
-- Magento 2.4.x
-- PHP 8.1+
-- Breeze theme
+- Magento 2.4.x or higher
+- PHP 7.4, 8.0, 8.1, or 8.2
+- Breeze Frontend (v2.0+ for RGB format, v3.0+ for HEX format)
 
 ## Installation
 
@@ -97,7 +97,7 @@ bin/magento cache:clean
 
 ## Field Types
 
-The Theme Editor supports 15 field types:
+The Theme Editor supports 16 field types:
 
 | Type | Description | Example Use |
 |------|-------------|-------------|
