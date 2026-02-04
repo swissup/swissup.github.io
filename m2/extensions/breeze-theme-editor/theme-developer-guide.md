@@ -2641,7 +2641,7 @@ See [Section 16: Presets](#16-presets---pre-configured-templates) for complete d
   - Updated FAQ with preset examples
   
 - **1.0** (2026-01-09) - Initial documentation
-  - 12 field types documented
+  - 16 field types documented
   - Validation rules
   - Theme inheritance
   - Examples and best practices
