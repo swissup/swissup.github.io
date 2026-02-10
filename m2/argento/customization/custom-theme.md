@@ -37,7 +37,7 @@ a custom theme allows you to customize the following areas:
  2. Run the following command:
 
     > Please, replace `[essence|flat|pure2|mall|stripes|luxury|force|home|marketplace]`
-    > with the heme name you would like to use.
+    > with the theme name you would like to use.
 
     ```bash
     bin/magento swissup:theme:create Local/my-theme [essence|flat|pure2|mall|stripes|luxury|force|home|marketplace|chic]

@@ -8,6 +8,25 @@ category: SEO Suite
 
 # Changelog
 
+### Version 1.20.0
+
+> Feb 4, 2026
+
+**swissup/module-rich-snippets — 1.7.18** (was 1.7.11)
+
+ - Skip home breadcrumb in JSON-LD output and enforce minimum items for valid BreadcrumbList.
+ - Improve product page breadcrumbs snippet (generate it via JS)
+ - Update Organization snippet. Render it st homepage only (as recommended).
+ - Update schema.org URLs to use HTTPS.
+ - Swissup AskIt and Swissup KnowldegeBase uupdates.
+
+**swissup/module-seo-cross-links — 1.1.26** (was 1.1.19)
+
+ - Add Swissup Attribute Pages support.
+
+Security and MCS updates to all modules in package.
+
+
 ### Version 1.19.0
 
 > Sep 23, 2025
