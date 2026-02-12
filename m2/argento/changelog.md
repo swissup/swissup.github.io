@@ -16,22 +16,20 @@ category: Argento
   - [Ajax Pro](/m2/extensions/ajaxpro/) — 1.7.33 (was 1.7.30)
       + Breeze: Improve floating cart integration
       + Breeze: Fixed unresolved Swissup_Ajaxpro/js/catalog-product-view cmp
-      + Breeze: floating cart and breeze 2.27.0 fixes
   - [AskIt](/m2/extensions/askit/) — 1.14.20 (was 1.14.18)
       + Remove askit because it shows all questions without filtering
       + Refactored to use Filter component with fallback for legacy Widget grids.
-      + Fix #66: Mass actions now properly respect grid filters
+      + Mass actions now properly respect grid filters
       + Refactored to use Filter component and fixed SQL ambiguous column error.
-      + Fix mass actions ignoring grid filters (close #66)
+      + Fix mass actions ignoring grid filters
       + Refactored mass actions to use Magento's Filter component instead of manual selected/excluded handling. Now mass delete/enable/disable/status properly respect all grid filters.
   - [AttributePages](/m2/extensions/attributepages/) — 1.8.1 (was 1.8.0)
-      + Fixed inability to upload image in "options grid" at "Manage Pages" (close #36)
+      + Fixed inability to upload image in "options grid" at "Manage Pages"
   - [EasyBanner](/m2/extensions/easybanners/) — 1.9.23 (was 1.9.22)
       + Fixed incorrect return type
       + Removed non-existing acl name
-      + No need to extend Adminhtml\Promo\Catalog action #49
   - [GDPR](/m2/extensions/gdpr/) — 1.8.4 (was 1.8.3)
-      + Argument 1 ($object_or_class) must be of type object|string, bool given
+      + Fixed: Argument 1 ($object_or_class) must be of type object|string, bool given
   - [NavigationPro](/m2/extensions/navigationpro/) — 1.17.34 (was 1.17.33)
       + Breeze: fixed uninitialized menu
   - [Pagespeed](/m2/extensions/pagespeed/) — 1.17.1 (was 1.16.2)
@@ -71,9 +69,6 @@ category: Argento
   - **Theme Editor** — 1.11.6 (was 1.11.5)
       + use Magento filesystem API for file operations on remote server
       + replace native PHP file functions with Magento filesystem abstraction
-      + Replace file_exists() with getMediaDirectory()->isExist()
-      + Replace filemtime() with getMediaDirectory()->stat()['mtime']
-
 ### Version 1.51.0
 
 > December 8, 2025
