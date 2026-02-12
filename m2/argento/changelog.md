@@ -7,6 +7,73 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.52.0
+
+> February 12, 2026
+
+**Extensions Updates**
+
+  - [Ajax Pro](/m2/extensions/ajaxpro/) — 1.7.33 (was 1.7.30)
+      + Breeze: Improve floating cart integration
+      + Breeze: Fixed unresolved Swissup_Ajaxpro/js/catalog-product-view cmp
+      + Breeze: floating cart and breeze 2.27.0 fixes
+  - [AskIt](/m2/extensions/askit/) — 1.14.20 (was 1.14.18)
+      + Remove askit because it shows all questions without filtering
+      + Refactored to use Filter component with fallback for legacy Widget grids.
+      + Fix #66: Mass actions now properly respect grid filters
+      + Refactored to use Filter component and fixed SQL ambiguous column error.
+      + Fix mass actions ignoring grid filters (close #66)
+      + Refactored mass actions to use Magento's Filter component instead of manual selected/excluded handling. Now mass delete/enable/disable/status properly respect all grid filters.
+  - [AttributePages](/m2/extensions/attributepages/) — 1.8.1 (was 1.8.0)
+      + Fixed inability to upload image in "options grid" at "Manage Pages" (close #36)
+  - [EasyBanner](/m2/extensions/easybanners/) — 1.9.23 (was 1.9.22)
+      + Fixed incorrect return type
+      + Removed non-existing acl name
+      + No need to extend Adminhtml\Promo\Catalog action #49
+  - [GDPR](/m2/extensions/gdpr/) — 1.8.4 (was 1.8.3)
+      + Argument 1 ($object_or_class) must be of type object|string, bool given
+  - [NavigationPro](/m2/extensions/navigationpro/) — 1.17.34 (was 1.17.33)
+      + Breeze: fixed uninitialized menu
+  - [Pagespeed](/m2/extensions/pagespeed/) — 1.17.1 (was 1.16.2)
+      + HTML5 void tag handling to prevent invalid closing tags
+      + Graceful handling of corrupted CSP SRI storage
+      + Logger refactor with lazy singleton and streamlined pipeline logging
+      + UniqueMarker-based offset finding with indexed lookups for accuracy
+      + DOM/TrackedDomDocument refactors: mode detection, UTF-8 handling, traits split, and utilities cleanup
+      + Performance improvements for offset finding and node indexing (new strategies, combined XPath, faster paths)
+      + DeferJs script tracking fixes and regression/perf rollbacks
+      + Test updates plus profiler/logging cleanups
+  - [ProLabels](/m2/extensions/prolabels/) — 1.7.28 (was 1.7.26)
+      + Fix: Allow text labels without digits, validate stock_item instead
+      + Fixed not initialized labels in preview at Magento 2 system config.
+      + Fixed issue when uploaded image doesn't showup in preview for manula labesl.
+      + Enhancement: Update getBackgroundImageUrl (use parent selector instead of href); modify getControlName to support Uppy input
+      + Fixed poorly positioned labes in preview in admin.
+  - [Rich Snippets](/m2/extensions/richsnippets/) — 1.7.18 (was 1.7.16)
+      + Skip home breadcrumb in JSON-LD output and enforce minimum items for valid BreadcrumbList
+      + Add Breeze integration for product breadcrumbs created via JS.
+      + Improve product page breadcrumbs snippet. Generate it via JS.
+      + Refactor FAQPage and QAPage to use PageContext ViewModel for page context resolving. Remove copy/paste error.
+      + Update schema.org URLs to use HTTPS
+      + Rich snippet Organization is rendered on Home page only (Google recommendation)
+      + Do not add richsnippets to attributepage because it shown all questions
+  - [Seo Cross Links](/m2/extensions/seo-cross-links/) — 1.1.26 (was 1.1.21)
+      + Fixed failed compilation when Attribute Pages is not installed. (#8)
+      + Fixed not working seosuite without the attribute pages module. (swissup/module-seo-cross-links#8)
+      + Fix variable name casing for skipCrossLinksProcessing in afterProductAttribute method
+      + Add skipCrosslinksProcessing parameter to afterProductAttribute method (close #10)
+      + Fixed broken column layout.
+      + Serialize only body child nodes when get the HTML back.
+      + Assign priority to the longest key available in the description. (for example, two links: X-Max and X-Max V3 Pro. The shortest link will use the longest link canonical url) (swissup/module-seo-cross-links#5)
+      + Support attribute pages. (part1 -swissup/module-seo-cross-links#8)
+  - **Core Module** — 1.12.26 (was 1.12.25)
+      + Improve the libxml fix to include data-post and data-config attrs
+  - **Theme Editor** — 1.11.6 (was 1.11.5)
+      + use Magento filesystem API for file operations on remote server
+      + replace native PHP file functions with Magento filesystem abstraction
+      + Replace file_exists() with getMediaDirectory()->isExist()
+      + Replace filemtime() with getMediaDirectory()->stat()['mtime']
+
 ### Version 1.51.0
 
 > December 8, 2025
