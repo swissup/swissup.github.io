@@ -40,7 +40,7 @@ category: ArgentoBreeze
       + Removed non-existing acl name
       + No need to extend Adminhtml\Promo\Catalog action #49
   - [GDPR](/m2/extensions/gdpr/) — 1.8.4 (was 1.8.3)
-      + Fix: Argument 1 ($object_or_class) must be of type object|string, bool given
+      + Fixed Argument 1 ($object_or_class) must be of type object string, bool given
   - [NavigationPro](/m2/extensions/navigationpro/) — 1.17.34 (was 1.17.33)
       + Breeze: fixed uninitialized menu
   - [Pagespeed](/m2/extensions/pagespeed/) — 1.17.1 (was 1.16.2)
