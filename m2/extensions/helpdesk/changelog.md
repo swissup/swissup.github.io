@@ -8,6 +8,41 @@ category: Helpdesk
 
 # Changelog
 
+## Version 1.4.0
+
+> Feb 16, 2026
+
+**Security Enhancements:**
+
+ -  **Critical:** Fix mass assignment vulnerability in ticket controllers (CWE-915, CVSS 9.8→2.0)
+ -  Add comprehensive rate limiting to prevent spam and DoS attacks (CWE-770, CVSS 7.5→3.0)
+    - IP-based limits: 5 tickets/15min (logged-in), 3 tickets/15min (guests), 10 messages/15min
+    - Automatic IP blocking after 10 violations (1 hour block)
+    - SHA-256 hashed identifiers for privacy compliance
+ -  Implement whitelist-based input filtering through service layer architecture
+ -  Add security logging for mass assignment and rate limit violation attempts
+
+**New Features:**
+
+ -  Add admin security warnings for guest tickets without CAPTCHA protection
+ -  Show remaining rate limit attempts in success messages for transparency
+ -  Add rate limiting admin panel with enable/disable toggle
+ -  Add CAPTCHA status detection (reCAPTCHA + native Magento CAPTCHA)
+
+**Improvements:**
+
+ -  Replace `json_*` functions with Magento `SerializerInterface` for better error handling
+ -  Replace direct `$_SERVER` access with Magento `HTTP\Header` API
+ -  Add Statistics API for rate limiting monitoring (`getStats` method)
+ -  Improve security context logging with `ticket_id` and `admin_user` tracking
+
+**Technical:**
+
+ -  New services: `TicketDataFilter`, `TicketDataValidator`, `TicketDataEnricher`, `MessageDataFilter`, `SecurityLogger`, `RateLimiter`
+ -  Backend validation model for guest ticket configuration
+ -  Cache-based rate limiting with sliding window algorithm
+ -  Compatible with Redis/File/Memcached cache backends
+
 
 ### Version 1.3.13
 
