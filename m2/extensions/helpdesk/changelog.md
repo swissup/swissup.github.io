@@ -14,13 +14,13 @@ category: Helpdesk
 
 **Security Enhancements:**
 
- -  **Critical:** Fix mass assignment vulnerability in ticket controllers (CWE-915, CVSS 9.8→2.0)
- -  Add comprehensive rate limiting to prevent spam and DoS attacks (CWE-770, CVSS 7.5→3.0)
+ -  **Fixed:** Prevent unauthorized modification of ticket fields (status, priority, department)
+ -  **Added:** Automatic protection against spam and bot attacks with rate limiting
     - IP-based limits: 5 tickets/15min (logged-in), 3 tickets/15min (guests), 10 messages/15min
     - Automatic IP blocking after 10 violations (1 hour block)
-    - SHA-256 hashed identifiers for privacy compliance
- -  Implement whitelist-based input filtering through service layer architecture
- -  Add security logging for mass assignment and rate limit violation attempts
+    - Privacy-friendly: IP addresses are hashed using SHA-256
+ -  **Added:** Whitelist-based input filtering for better security
+ -  **Added:** Security logging for blocked attempts (mass assignment and rate limits)
 
 **New Features:**
 
