@@ -8,6 +8,30 @@ category: KnowledgeBase
 
 # Changelog
 
+### Version 1.1.36
+
+> Feb 16, 2026
+
+**Security Enhancements:**
+
+ -  Add input validation for FAQ/Category identifiers to prevent SQL injection attempts in URL routing
+ -  Implement IdentifierValidator with regex pattern validation (a-z0-9-/) and max length check (100 chars)
+ -  Block 25 SQL keywords including SELECT, UNION, SLEEP, DBMS_PIPE, CHR to reduce false positives in WAF/SIEM
+ -  Fix validator consistency: empty strings now properly rejected with error message
+ -  Add real-world attack examples documentation (Problem #1: Basic SQLi, Problem #2: Time-based SQLi)
+
+**Technical:**
+
+ -  Note: System was already protected by PDO prepared statements; this adds defense-in-depth
+
+
+### Version 1.1.35
+
+> January 26, 2025
+
+ -  Fix HTML entity decoding order in FAQ schema cleaner
+
+
 ### Version 1.1.34
 
 > December 5, 2025
