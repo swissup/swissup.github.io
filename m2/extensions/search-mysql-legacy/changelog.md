@@ -8,6 +8,16 @@ category: Legacy Mysql Search
 
 # Changelog
 
+### Version 1.1.12
+
+> Feb 16, 2026
+
+ - **Feature**: Add configurable multi-word search logic (OR vs AND mode)
+ - **Enhancement**: New admin setting to choose between OR mode (default, original Magento 2.3 behavior) and AND mode (recommended, Elasticsearch-like behavior)
+ - **Configuration**: `Stores > Configuration > Catalog > Catalog Search > Multi-word Search Logic`
+ - **Backward Compatible**: OR mode remains default - no breaking changes
+ - Closes [#24](https://github.com/swissup/module-search-mysql-legacy/issues/24)
+
 ### Version 1.1.5
 
 > Jan 13, 2023
