@@ -6,17 +6,21 @@ category: AjaxSearch
 
 # Changelog
 
-### Version 1.14.0
+### Version 1.14.4
 
 > Feb 19, 2026
 
  -  **Security**: Added GraphQL query validation - search parameter must be at least 2 characters OR category filter must be provided.
- -  **Security**: Added rate limiting via Magento Backpressure API to prevent abuse (requires Magento 2.4.4+).
- -  **Security**: Added logging for suspicious query attempts with IP address and User Agent.
- -  Added admin configuration for rate limiting with separate limits for guests, customers, and admin users.
+ -  **Security**: Added logging for invalid query attempts with IP address and User Agent.
  -  Limited pageSize to 20 for short/empty search queries for security reasons.
  -  Updated GraphQL schema documentation to reflect new validation requirements.
- -  Added backward compatibility layer for Magento < 2.4.4 (rate limiting won't function on older versions, but module installs without errors).
+ -  Removed Backpressure rate limiting integration due to backward compatibility challenges across Magento versions.
+
+### Version 1.14.0 - 1.14.3
+
+> Feb 19, 2026
+
+ -  **Deprecated**: These versions had backward compatibility issues with Backpressure integration. Please upgrade to 1.14.4.
 
 ### Version 1.13.30
 
