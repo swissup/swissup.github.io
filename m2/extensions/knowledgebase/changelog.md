@@ -8,6 +8,12 @@ category: KnowledgeBase
 
 # Changelog
 
+### Version 1.1.37
+
+> Feb 19, 2026
+
+ -  Fix: Filter FAQs by current category, skip loadCategories() on category page for better performance
+
 ### Version 1.1.36
 
 > Feb 16, 2026
