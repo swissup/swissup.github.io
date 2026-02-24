@@ -8,8 +8,8 @@ category: Breeze Theme Editor
 
 # Breeze Theme Editor - Theme Developer Guide
 
-**Version**: 1.0  
-**Last Updated**: 2026-01-09
+**Version**: 1.2  
+**Last Updated**: 2026-02-24
 
 This guide explains how to add Theme Editor support to your Breeze theme.
 
@@ -63,7 +63,7 @@ your-theme/
           "label": "Primary Color",
           "type": "color",
           "default": "#1979c3",
-          "css_var": "--primary-color",
+          "property": "--primary-color",
           "description": "Main brand color"
         }
       ]
@@ -119,7 +119,9 @@ your-theme/
   "description": "Description",  // Optional: Section description
   "icon": "palette",             // Optional: Material icon name
   "order": 1,                    // Optional: Display order (default: 999)
-  "settings": []                 // Required: Array of fields
+  "selector": ".my-section",     // Optional: Default CSS selector for all settings in section
+  "settings": [],                // Required: Array of fields
+  "disable": true                // Optional: Remove inherited section (child themes only)
 }
 ```
 
@@ -143,7 +145,7 @@ Full list: https://fonts.google.com/icons
   "label": "Primary Color",
   "type": "color",
   "default": "#1979c3",
-  "css_var": "--primary-color",
+  "property": "--primary-color",
   "format": "hex",
   "description": "Main brand color",
   "help_text": "Used for buttons, links, and accents"
@@ -173,7 +175,7 @@ Controls the CSS output format for color values.
      "id": "text_color",
      "type": "color",
      "default": "#111827",
-     "css_var": "--text-color",
+     "property": "--text-color",
      "format": "hex"
    }
    ```
@@ -191,7 +193,7 @@ Controls the CSS output format for color values.
      "id": "text_color",
      "type": "color",
      "default": "#111827",
-     "css_var": "--text-color",
+     "property": "--text-color",
      "format": "rgb"
    }
    ```
@@ -209,7 +211,7 @@ Controls the CSS output format for color values.
      "id": "text_color",
      "type": "color",
      "default": "255, 0, 0",
-     "css_var": "--text-color",
+     "property": "--text-color",
      "format": "auto"
    }
    ```
@@ -238,7 +240,7 @@ You MUST add `"format": "rgb"` to your color fields:
   "id": "button_color",
   "type": "color",
   "format": "rgb",  // ← ADD THIS
-  "css_var": "--button-color"
+  "property": "--button-color"
 }
 ```
 
@@ -257,7 +259,7 @@ Use `"format": "hex"` (or omit for default):
   "id": "button_color",
   "type": "color",
   "format": "hex",  // ← Optional (default)
-  "css_var": "--button-color"
+  "property": "--button-color"
 }
 ```
 
@@ -276,7 +278,7 @@ Enables "Quick Select" color picker with predefined palette colors.
   "label": "Text Color",
   "type": "color",
   "default": "#111827",
-  "css_var": "--text-color",
+  "property": "--text-color",
   "palette": "default",
   "format": "hex"
 }
@@ -312,7 +314,7 @@ Enables "Quick Select" color picker with predefined palette colors.
   "label": "Container Width",
   "type": "text",
   "default": "1280px",
-  "css_var": "--container-width",
+  "property": "--container-width",
   "placeholder": "e.g. 1280px",
   "description": "Maximum content width"
 }
@@ -378,7 +380,7 @@ Enables "Quick Select" color picker with predefined palette colors.
   "min": "1",
   "max": "12",
   "step": "1",
-  "css_var": "--grid-columns",
+  "property": "--grid-columns",
   "description": "Number of product columns"
 }
 ```
@@ -408,7 +410,7 @@ Enables "Quick Select" color picker with predefined palette colors.
   "max": "1",
   "step": "0.1",
   "unit": "",
-  "css_var": "--text-opacity",
+  "property": "--text-opacity",
   "description": "Transparency level"
 }
 ```
@@ -435,7 +437,7 @@ Enables "Quick Select" color picker with predefined palette colors.
   "label": "Layout Type",
   "type": "select",
   "default": "boxed",
-  "css_var": "--layout-type",
+  "property": "--layout-type",
   "options": [
     {"value": "boxed", "label": "Boxed Layout"},
     {"value": "full", "label": "Full Width"},
@@ -464,7 +466,7 @@ Enables "Quick Select" color picker with predefined palette colors.
   "label": "Sticky Header",
   "type": "toggle",
   "default": true,
-  "css_var": "--header-sticky",
+  "property": "--header-sticky",
   "description": "Fix header on scroll"
 }
 ```
@@ -519,7 +521,7 @@ Enables "Quick Select" color picker with predefined palette colors.
   "label": "Body Font",
   "type": "font_picker",
   "default": "Open Sans",
-  "css_var": "--font-family-base",
+  "property": "--font-family-base",
   "options": [
     {"value": "Open Sans", "label": "Open Sans"},
     {"value": "Roboto", "label": "Roboto"},
@@ -564,7 +566,7 @@ Courier New, Courier, Monaco, Consolas, Lucida Console, monospace
   "label": "Color Scheme",
   "type": "color_scheme",
   "default": "auto",
-  "css_var": "--color-scheme",
+  "property": "--color-scheme",
   "schemes": [
     {
       "value": "light",
@@ -700,7 +702,7 @@ Facebook, Twitter, Instagram, LinkedIn, YouTube, Pinterest, TikTok
   "label": "Logo Image",
   "type": "image_upload",
   "default": "",
-  "css_var": "--logo-url",
+  "property": "--logo-url",
   "description": "Upload logo or enter URL",
   "params": {
     "acceptTypes": "image/*",
@@ -762,7 +764,7 @@ Facebook, Twitter, Instagram, LinkedIn, YouTube, Pinterest, TikTok
     "unit": "px",
     "linked": true
   },
-  "css_var": "--container-padding",
+  "property": "--container-padding",
   "description": "Inner spacing",
   "params": {
     "unit": "px",
@@ -978,12 +980,14 @@ All field types support these properties:
   "label": "Field Label",        // Required: Display label
   "type": "text",                // Required: Field type
   "default": "value",            // Optional: Default value
-  "css_var": "--css-variable",  // Optional: CSS custom property name
+  "property": "--css-variable",  // Optional: CSS property name (custom prop or standard)
+  "selector": ".my-element",     // Optional: CSS selector override (default: :root or section selector)
   "description": "Short text",   // Optional: Help text below label
   "help_text": "Detailed help",  // Optional: Tooltip on (i) icon
   "placeholder": "Hint...",      // Optional: Input placeholder
   "required": false,             // Optional: Required field (default: false)
-  "important": false             // Optional: Add !important to CSS (default: false)
+  "important": false,            // Optional: Add !important to CSS (default: false)
+  "disable": true                // Optional: Remove inherited field (child themes only)
 }
 ```
 
@@ -1018,18 +1022,49 @@ All field types support these properties:
   - `spacing`: `{"top": 20, "right": 20, "bottom": 20, "left": 20, "unit": "px", "linked": true}`
   - `repeater`: `[]` (empty array)
 
-#### `css_var` (string, optional)
-- CSS custom property name
-- Must start with `--`
-- Example: `--primary-color`, `--font-size-base`
+#### `property` (string, optional)
+- CSS property to output the field value to
+- **CSS custom property** (starts with `--`): sets a CSS variable  
+  Example: `"--primary-color"`, `"--font-size-base"`
+- **Standard CSS property** (no `--` prefix): sets a regular property on the selector  
+  Example: `"max-width"`, `"padding"`
 - If omitted, field value is stored but NOT output to CSS
+- Replaces the old `css_var` key (`css_var` still works for backward compatibility)
 
-**CSS Output**:
+**CSS Output (custom property)**:
 ```css
 :root {
   --primary-color: 25, 121, 195;
 }
 ```
+
+**CSS Output (standard property with selector)**:
+```css
+.page-wrapper {
+  max-width: 1280px;
+}
+```
+
+#### `selector` (string or array, optional)
+- CSS selector where the property is applied
+- Overrides the section-level `selector` for this field only
+- Defaults to `:root` (or the section `selector` if set)
+- Can be a string or an array of selectors
+
+**Single selector**:
+```json
+{ "property": "max-width", "selector": ".page-wrapper" }
+```
+
+**Multiple selectors**:
+```json
+{ "property": "max-width", "selector": [".page-wrapper", ".page-header"] }
+```
+
+**Selector hierarchy** (highest → lowest priority):
+1. Field-level `selector` — explicit override
+2. Section-level `selector` — inherited by all fields in section
+3. `:root` — default fallback
 
 #### `description` (string, optional)
 - Short help text displayed below label
@@ -1225,21 +1260,21 @@ Don't change everything - focus on settings that define the preset's character:
           "label": "Background Color",
           "type": "color",
           "default": "#ffffff",
-          "css_var": "--bg-color"
+          "property": "--bg-color"
         },
         {
           "id": "text",
           "label": "Text Color",
           "type": "color",
           "default": "rgb(17, 24, 39)",
-          "css_var": "--text-color"
+          "property": "--text-color"
         },
         {
           "id": "primary",
           "label": "Primary Color",
           "type": "color",
           "default": "#1979c3",
-          "css_var": "--primary-color"
+          "property": "--primary-color"
         }
       ]
     }
@@ -1503,7 +1538,7 @@ Reference a palette in COLOR field configuration:
   "label": "Text Color",
   "type": "color",
   "default": "#111827",
-  "css_var": "--text-color",
+  "property": "--text-color",
   "palette": "default",
   "description": "Main text color"
 }
@@ -1622,7 +1657,7 @@ You can define multiple palettes for different color schemes:
   "id": "bg_color",
   "type": "color",
   "palette": "dark",
-  "css_var": "--bg-color"
+  "property": "--bg-color"
 }
 ```
 
@@ -1759,7 +1794,7 @@ Extend parent theme configuration:
           "id": "primary_color",
           "type": "color",
           "default": "#1979c3",
-          "css_var": "--primary-color"
+          "property": "--primary-color"
         }
       ]
     }
@@ -1780,7 +1815,7 @@ Extend parent theme configuration:
           "id": "secondary_color",
           "type": "color",
           "default": "#ff6b6b",
-          "css_var": "--secondary-color"
+          "property": "--secondary-color"
         }
       ]
     },
@@ -1797,7 +1832,49 @@ Extend parent theme configuration:
 - Child inherits ALL parent sections and fields
 - Child can ADD new sections
 - Child can ADD fields to existing sections
-- Child CANNOT override/remove parent fields
+- Child can DISABLE inherited sections or fields using `"disable": true`
+
+### Disabling Inherited Content
+
+Use `"disable": true` to remove sections or fields that were inherited from a parent theme but are not relevant to the child theme.
+
+**Disable an entire section:**
+
+```json
+{
+  "version": "1.0",
+  "sections": [
+    {
+      "id": "layout",
+      "disable": true
+    }
+  ]
+}
+```
+
+**Disable a specific field within a section:**
+
+```json
+{
+  "version": "1.0",
+  "sections": [
+    {
+      "id": "layout",
+      "settings": [
+        {
+          "id": "border-radius",
+          "disable": true
+        }
+      ]
+    }
+  ]
+}
+```
+
+**Rules:**
+- `"disable": true` on an existing inherited section → section is removed from the merged result
+- `"disable": true` on an existing inherited field → field is removed from the merged result
+- `"disable": true` on a non-existing `id` → silently ignored (nothing is added)
 
 ### Inheritance Rules
 
@@ -1805,11 +1882,13 @@ Extend parent theme configuration:
    - Parent sections are included
    - Child sections are added
    - If `id` matches, settings are merged
+   - If `id` matches and `disable: true`, section is removed
 
 2. **Settings**: Merged by `id`
    - Parent settings are included
    - Child settings are added
    - If `id` matches, child value is used (override)
+   - If `id` matches and `disable: true`, setting is removed
 
 3. **Values**: Child can override parent defaults
    - Even without redefining field
@@ -1893,7 +1972,7 @@ Extend parent theme configuration:
 ```json
 {
   "id": "primary_color",
-  "css_var": "--primary"  // ✅ Breeze standard
+  "property": "--primary"  // ✅ Breeze standard
 }
 ```
 
@@ -1912,7 +1991,7 @@ Breeze uses RGB format:
 **Avoid Direct Colors**:
 ```json
 {
-  "css_var": "--button-bg-hex"  // ❌ Not Breeze style
+  "property": "--button-bg-hex"  // ❌ Not Breeze style
 }
 ```
 
@@ -1965,7 +2044,7 @@ Breeze uses RGB format:
 7. ✅ Verify draft/publish workflow
 
 **Common Issues**:
-- Missing `css_var` → field stores but doesn't output CSS
+- Missing `property` → field stores but doesn't output CSS
 - Wrong `default` type → validation errors
 - Duplicate `id` → only last field shows
 - Missing `extends` → inheritance doesn't work
@@ -1989,7 +2068,7 @@ Breeze uses RGB format:
       "label": "Primary Color",
       "type": "color",
       "default": "#1979c3",
-      "css_var": "--primary",
+      "property": "--primary",
       "description": "Main brand color",
       "help_text": "Used for buttons, links, and accents. Supports HEX format (#FF0000)"
     },
@@ -1998,7 +2077,7 @@ Breeze uses RGB format:
       "label": "Secondary Color",
       "type": "color",
       "default": "#6c757d",
-      "css_var": "--secondary",
+      "property": "--secondary",
       "description": "Secondary actions and elements"
     },
     {
@@ -2006,7 +2085,7 @@ Breeze uses RGB format:
       "label": "Success Color",
       "type": "color",
       "default": "#28a745",
-      "css_var": "--success",
+      "property": "--success",
       "description": "Success messages and states"
     },
     {
@@ -2014,7 +2093,7 @@ Breeze uses RGB format:
       "label": "Error Color",
       "type": "color",
       "default": "#dc3545",
-      "css_var": "--error",
+      "property": "--error",
       "description": "Error messages and validation"
     },
     {
@@ -2022,7 +2101,7 @@ Breeze uses RGB format:
       "label": "Text Color",
       "type": "color",
       "default": "#212529",
-      "css_var": "--text-color",
+      "property": "--text-color",
       "description": "Main body text color"
     },
     {
@@ -2030,7 +2109,7 @@ Breeze uses RGB format:
       "label": "Link Color",
       "type": "color",
       "default": "#007bff",
-      "css_var": "--link-color",
+      "property": "--link-color",
       "description": "Hyperlink color"
     }
   ]
@@ -2052,7 +2131,7 @@ Breeze uses RGB format:
       "label": "Modern Color (HEX)",
       "type": "color",
       "default": "#1979c3",
-      "css_var": "--modern-color",
+      "property": "--modern-color",
       "format": "hex",
       "description": "Breeze 3.0 - outputs HEX format",
       "help_text": "Use with: color: var(--modern-color)"
@@ -2062,7 +2141,7 @@ Breeze uses RGB format:
       "label": "Legacy Color (RGB)",
       "type": "color",
       "default": "#1979c3",
-      "css_var": "--legacy-color",
+      "property": "--legacy-color",
       "format": "rgb",
       "description": "Breeze 2.0 - outputs RGB format",
       "help_text": "Use with: color: rgb(var(--legacy-color))"
@@ -2072,7 +2151,7 @@ Breeze uses RGB format:
       "label": "Auto-detect HEX",
       "type": "color",
       "default": "#ff5722",
-      "css_var": "--auto-hex",
+      "property": "--auto-hex",
       "format": "auto",
       "description": "Auto-detects HEX from default value"
     },
@@ -2081,7 +2160,7 @@ Breeze uses RGB format:
       "label": "Auto-detect RGB",
       "type": "color",
       "default": "255, 87, 34",
-      "css_var": "--auto-rgb",
+      "property": "--auto-rgb",
       "format": "auto",
       "description": "Auto-detects RGB from default value"
     },
@@ -2090,14 +2169,14 @@ Breeze uses RGB format:
       "label": "No Format Property (with default)",
       "type": "color",
       "default": "#4caf50",
-      "css_var": "--no-format-default",
+      "property": "--no-format-default",
       "description": "Defaults to 'auto' → detects HEX"
     },
     {
       "id": "no_format_no_default",
       "label": "No Format Property (no default)",
       "type": "color",
-      "css_var": "--no-format-no-default",
+      "property": "--no-format-no-default",
       "description": "Defaults to 'hex' when no default exists"
     }
   ]
@@ -2137,7 +2216,7 @@ This example shows a full `settings.json` with color palette, multiple field typ
           "type": "color",
           "default": "#111827",
           "description": "Main text color across the site",
-          "css_var": "--base-color",
+          "property": "--base-color",
           "palette": "default",
           "format": "hex"
         },
@@ -2147,7 +2226,7 @@ This example shows a full `settings.json` with color palette, multiple field typ
           "type": "color",
           "default": "#1979c3",
           "description": "Color for primary action buttons",
-          "css_var": "--button-primary-bg",
+          "property": "--button-primary-bg",
           "palette": "default",
           "format": "hex"
         },
@@ -2157,7 +2236,7 @@ This example shows a full `settings.json` with color palette, multiple field typ
           "type": "color",
           "default": "#1d4ed8",
           "description": "Clickable links color",
-          "css_var": "--link-color",
+          "property": "--link-color",
           "palette": "default",
           "format": "hex"
         }
@@ -2326,7 +2405,7 @@ This example shows a full `settings.json` with color palette, multiple field typ
       "label": "Body Font",
       "type": "font_picker",
       "default": "Open Sans",
-      "css_var": "--font-family-base",
+      "property": "--font-family-base",
       "options": [
         {"value": "Open Sans", "label": "Open Sans"},
         {"value": "Roboto", "label": "Roboto"},
@@ -2340,7 +2419,7 @@ This example shows a full `settings.json` with color palette, multiple field typ
       "label": "Heading Font",
       "type": "font_picker",
       "default": "Montserrat",
-      "css_var": "--font-family-heading",
+      "property": "--font-family-heading",
       "options": [
         {"value": "Montserrat", "label": "Montserrat"},
         {"value": "Playfair Display", "label": "Playfair Display"},
@@ -2357,7 +2436,7 @@ This example shows a full `settings.json` with color palette, multiple field typ
       "max": "20",
       "step": "1",
       "unit": "px",
-      "css_var": "--font-size-base",
+      "property": "--font-size-base",
       "description": "Body text size"
     },
     {
@@ -2368,7 +2447,7 @@ This example shows a full `settings.json` with color palette, multiple field typ
       "min": "1",
       "max": "2",
       "step": "0.1",
-      "css_var": "--line-height-base",
+      "property": "--line-height-base",
       "description": "Text line spacing"
     }
   ]
@@ -2390,7 +2469,7 @@ This example shows a full `settings.json` with color palette, multiple field typ
       "label": "Container Width",
       "type": "select",
       "default": "1280px",
-      "css_var": "--container-max-width",
+      "property": "--container-max-width",
       "options": [
         {"value": "960px", "label": "Narrow (960px)"},
         {"value": "1140px", "label": "Standard (1140px)"},
@@ -2418,7 +2497,7 @@ This example shows a full `settings.json` with color palette, multiple field typ
       "min": "2",
       "max": "6",
       "step": "1",
-      "css_var": "--product-grid-columns",
+      "property": "--product-grid-columns",
       "description": "Products per row (desktop)"
     },
     {
@@ -2430,7 +2509,7 @@ This example shows a full `settings.json` with color palette, multiple field typ
       "max": "48",
       "step": "4",
       "unit": "px",
-      "css_var": "--product-grid-gap",
+      "property": "--product-grid-gap",
       "description": "Space between products"
     }
   ]
@@ -2461,7 +2540,7 @@ This example shows a full `settings.json` with color palette, multiple field typ
       "label": "Enable Animations",
       "type": "toggle",
       "default": true,
-      "css_var": "--animations-enabled",
+      "property": "--animations-enabled",
       "description": "Smooth transitions and effects"
     },
     {
@@ -2473,7 +2552,7 @@ This example shows a full `settings.json` with color palette, multiple field typ
       "max": "1000",
       "step": "50",
       "unit": "ms",
-      "css_var": "--animation-duration",
+      "property": "--animation-duration",
       "description": "How fast animations play"
     }
   ]
@@ -2537,8 +2616,8 @@ This example shows a full `settings.json` with color palette, multiple field typ
 **Problem**: Field value doesn't appear in CSS output
 
 **Solutions**:
-1. ✅ Add `css_var` property
-2. ✅ Verify `css_var` starts with `--`
+1. ✅ Add `property` field
+2. ✅ Verify `property` starts with `--` for CSS custom properties
 3. ✅ Check value is not empty
 4. ✅ Verify value is not same as `default`
 5. ✅ View CSS output: `?breeze_theme_editor=1&breeze_theme_editor_debug=1`
@@ -2633,6 +2712,12 @@ See [Section 16: Presets](#16-presets---pre-configured-templates) for complete d
 ---
 
 ## Version History
+
+- **1.2** (2026-02-24) - Selector + Property
+  - Renamed `css_var` → `property` (backward compatible; `css_var` still accepted)
+  - `property` now supports both CSS custom properties (`--var`) and standard properties (`max-width`)
+  - Added section-level and field-level `selector` support with inheritance hierarchy
+  - Updated Section Structure, Field Properties, Common Issues, and Troubleshooting sections
 
 - **1.1** (2026-01-13) - Presets Feature
   - Added Section 16: Presets documentation
