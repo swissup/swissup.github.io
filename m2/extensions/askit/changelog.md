@@ -11,6 +11,12 @@ category: AskIt
 
 # Changelog
 
+### Version 1.14.19
+
+> December 9, 2025
+
+ -  Fixed mass actions ignoring grid filters in the admin grid. (closes [#66](https://github.com/swissup/module-askit/issues/66))
+
 ### Version 1.14.18
 
 > December 5, 2025
