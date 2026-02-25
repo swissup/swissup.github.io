@@ -69,6 +69,7 @@ category: Argento
   - **Theme Editor** — 1.11.6 (was 1.11.5)
       + use Magento filesystem API for file operations on remote server
       + replace native PHP file functions with Magento filesystem abstraction
+           
 ### Version 1.51.0
 
 > December 8, 2025
