@@ -117,7 +117,7 @@ your-theme/
   "id": "unique_section_id",     // Required: Unique identifier
   "name": "Section Name",        // Required: Display name
   "description": "Description",  // Optional: Section description
-  "icon": "palette",             // Optional: Material icon name
+  "icon": "palette",             // Optional: Icon (see below)
   "order": 1,                    // Optional: Display order (default: 999)
   "selector": ".my-section",     // Optional: Default CSS selector for all settings in section
   "settings": [],                // Required: Array of fields
@@ -125,11 +125,57 @@ your-theme/
 }
 ```
 
-### Material Icons
+### Section Icons
 
-Common icons: `palette`, `format_paint`, `text_fields`, `view_column`, `image`, `settings`, `code`, `link`
+The `icon` field is optional. When set, a small icon is shown to the left of the section title in the settings panel.
 
-Full list: https://fonts.google.com/icons
+Four formats are supported:
+
+**Named Phosphor icon** (recommended) — use any icon name from [phosphoricons.com](https://phosphoricons.com):
+
+```json
+{ "icon": "text-t" }
+{ "icon": "palette" }
+{ "icon": "layout" }
+```
+
+**Raw inline SVG** — the SVG string is inserted directly, so `currentColor` is respected:
+
+```json
+{ "icon": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 256 256\"><path d=\"…\"/></svg>" }
+```
+
+**Base64 data URI** — decoded and inserted as inline SVG (`currentColor` works):
+
+```json
+{ "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0…" }
+```
+
+**Plain data URI** — rendered as an `<img>` tag (no `currentColor` support):
+
+```json
+{ "icon": "data:image/svg+xml,%3Csvg%20xmlns%3D…" }
+```
+
+Common Phosphor icon names for typical sections:
+
+| Section type | Icon name |
+|---|---|
+| Typography / Fonts | `text-t` |
+| Colors | `palette` |
+| Layout | `layout` |
+| Spacing | `arrows-out` |
+| Header | `layout-header` |
+| Footer | `layout-footer` |
+| Navigation | `list` |
+| Buttons | `cursor-click` |
+| Forms | `textbox` |
+| Images | `image` |
+| Effects | `sparkle` |
+| Global | `globe` |
+| SEO | `magnifying-glass` |
+
+Full icon list: [phosphoricons.com](https://phosphoricons.com)
 
 ---
 
