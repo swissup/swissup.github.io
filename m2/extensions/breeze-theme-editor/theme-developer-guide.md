@@ -600,6 +600,73 @@ Georgia, Times New Roman, Times, Garamond, Palatino, Baskerville, Didot, Bodoni,
 **Supported Monospace Fonts**:
 Courier New, Courier, Monaco, Consolas, Lucida Console, monospace
 
+**Loading Fonts**:
+
+Use the `url` key on an option to tell the module where the font stylesheet lives.
+Two patterns are supported:
+
+**Google Fonts (external URL)** — the module emits `@import url(...)` in the generated CSS automatically:
+
+```json
+{
+  "options": [
+    {
+      "value": "Roboto",
+      "label": "Roboto",
+      "url": "https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+    }
+  ]
+}
+```
+
+```css
+/* Generated CSS — emitted before :root */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+  --font-family-base: "Roboto", sans-serif;
+}
+```
+
+**Local theme fonts** — specify `url` as a theme-relative path (`web/fonts/...`).
+The module does **not** emit `@import` for local paths — the font must be declared
+via `@font-face` in the theme's own CSS. The `url` value is reserved for future
+admin UI preview support:
+
+```json
+{
+  "options": [
+    {
+      "value": "MyFont",
+      "label": "My Font",
+      "url": "web/fonts/MyFont.woff2"
+    }
+  ]
+}
+```
+
+```css
+/* In your theme's CSS (e.g. web/css/source/_typography.less): */
+@font-face {
+    font-family: 'MyFont';
+    src: url('../fonts/MyFont.woff2') format('woff2'),
+         url('../fonts/MyFont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+```
+
+```css
+/* Generated CSS — only the CSS variable, no @import */
+:root {
+  --font-family-base: "MyFont", sans-serif;
+}
+```
+
+> **Note**: Options without a `url` key (web-safe fonts like Arial, Georgia) are
+> always valid — no stylesheet loading is required for them.
+
 ---
 
 ### 10. COLOR_SCHEME - Scheme Selector
