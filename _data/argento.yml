@@ -208,6 +208,18 @@ breeze:
     - seo-suite
     - testimonials
 
+hyva:
+  alias: m2
+  title: Argento Hyva for Magento 2.x
+  url: /m2/argento-hyva/
+
+  themes:
+    - title: Chic
+      url: /m2/argento-hyva/chic/
+
+  extensions:
+    - hyva-easybanners
+
 sw:
   title: Argento for Shopware
   url: /shopware/argento/

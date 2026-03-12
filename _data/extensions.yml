@@ -255,6 +255,14 @@ easybanners:
     m1: /m1/extensions/easybanners/
     m2: /m2/extensions/easybanners/
 
+hyva-easybanners:
+  title: HyvaEasyBanners
+  short_description: Custom content blocks with flexible conditions and usage statistics
+  size: 2x1
+  urls:
+    m1: 
+    m2: /m2/extensions/hyva-easybanners/
+
 easycatalogimages:
   title: Easy Catalog Images
   short_description: Visualize your sub-categories with awesome images.
