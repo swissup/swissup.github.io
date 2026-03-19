@@ -19,7 +19,7 @@ category: GDPR
 
 > February 11, 2026
 
- -  Changed type of argument to type object|string, bool given.
+ -  Changed type of argument to type object/string, bool given.
 
 ### Version 1.8.3
 
