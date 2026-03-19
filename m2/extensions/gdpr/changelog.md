@@ -8,6 +8,19 @@ category: GDPR
 
 # Changelog
 
+### Version 1.8.5
+
+> March 19, 2026
+
+ -  Added Bing Consent mode.
+ -  Updated Breeze color variables.
+
+### Version 1.8.4
+
+> February 11, 2026
+
+ -  Changed type of argument to type object|string, bool given.
+
 ### Version 1.8.3
 
 > December 5, 2025
