@@ -28,8 +28,10 @@ Option          | Description
 ----------------|------------
 Enabled         | Allows to enable/disable cookie bar and cookie settings page.
 Lifetime        | How many days should the cookie store information about visitor's cookie settings.
+**Third Party Consents**  |
 Integrate with Google Consent Mode | Enable/Disable integration with [Google Consent Mode v2](https://developers.google.com/tag-platform/security/guides/consent?consentmode=advanced). Integration is [fully automated](/m2/extensions/gdpr/cookie-settings/) and doens't require any additional actions.
 Google Consent Defaults | Default values to use. They are used until the client accept the consent.
+Bing Consent Defaults | Default values to use. They are used until the client accept the consent.
 **Cookie Bar**  |
 Cookie Wall Mode| Allows to enable/disable site overlay until client will accept the cookie consent.
 Display Mode    | Select display mode for cookie bar. See details below the table.
@@ -73,6 +75,20 @@ Additionally, you can set region-specific behavior:
 ```
 
 Open [Google Documentation](https://developers.google.com/tag-platform/security/guides/consent?consentmode=advanced)
+to get more info.
+
+#### Bing consent defaults
+
+While we use `denied` for default values, you can change them to `granted`:
+
+```json
+[
+    {
+        "ad_storage": "denied"
+    }
+]
+```
+Open [Microsoft Documentation](https://help.ads.microsoft.com/#apex/ads/en/60119/1)
 to get more info.
 
 #### Cookie bar display modes
