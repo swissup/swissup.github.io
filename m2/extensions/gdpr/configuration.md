@@ -22,7 +22,7 @@ Enabled     | Allows to enable/disable GDPR per store view
 
 ### Cookie Consent section
 
-![Cookie consents section](/images/m2/gdpr/configuration/cookie-consents.png?v=3){:width="936" height="1053"}
+![Cookie consents section](/images/m2/gdpr/configuration/google_bing_consent.png?v=3){:width="936" height="1053"}
 
 Option          | Description
 ----------------|------------
