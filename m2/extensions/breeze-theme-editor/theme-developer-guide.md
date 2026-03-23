@@ -8,8 +8,8 @@ category: Breeze Theme Editor
 
 # Breeze Theme Editor - Theme Developer Guide
 
-**Version**: 1.2  
-**Last Updated**: 2026-02-24
+**Version**: 1.3  
+**Last Updated**: 2026-03-23
 
 This guide explains how to add Theme Editor support to your Breeze theme.
 
@@ -26,8 +26,9 @@ This guide explains how to add Theme Editor support to your Breeze theme.
 7. [Validation Rules](#validation-rules)
 8. [Theme Inheritance](#theme-inheritance)
 9. [Best Practices](#best-practices)
-10. [Examples](#examples)
-11. [Troubleshooting](#troubleshooting)
+10. [Reading Settings in PHP Templates](#reading-settings-in-php-templates)
+11. [Examples](#examples)
+12. [Troubleshooting](#troubleshooting)
 
 
 ---
@@ -2164,6 +2165,127 @@ Breeze uses RGB format:
 
 ---
 
+## Reading Settings in PHP Templates
+
+The Breeze Theme Editor automatically injects a `$breezeThemeEditor` helper
+variable into every frontend `.phtml` template — no ViewModel or Block injection
+needed. This works the same way as Magento's built-in `$secureRenderer`.
+
+### API
+
+#### `get(string $path): ?string`
+
+Returns the current published value of a setting for the active store and theme,
+falling back to the `default` defined in `settings.json`. Returns `null` if the
+setting does not exist.
+
+```php
+$breezeThemeEditor?->get('section_code/setting_code')
+```
+
+#### `is(string $path, string $value): bool`
+
+Returns `true` if the current value of the setting equals `$value` (strict
+string comparison). Shorthand for `get() === $value`.
+
+```php
+$breezeThemeEditor?->is('section_code/setting_code', 'value')
+```
+
+> **Note:** The nullsafe operator (`?->`) is recommended because the variable
+> may not be available in older Magento versions or non-Breeze environments.
+
+---
+
+### PHP-only Settings (no CSS variable)
+
+Most settings map to a CSS variable via the `property` field. When you need a
+setting that controls PHP-side template logic only (e.g. enable/disable a block,
+pick a layout, pass a string to an API), simply omit `property`:
+
+```json
+{
+  "id": "layout_mode",
+  "label": "Layout Mode",
+  "type": "select",
+  "default": "grid",
+  "options": [
+    {"value": "grid",  "label": "Grid"},
+    {"value": "list",  "label": "List"}
+  ]
+}
+```
+
+This setting produces no CSS output but is readable from PHP templates.
+
+---
+
+### Usage Examples
+
+#### Conditionally render a block
+
+```php
+<?php if ($breezeThemeEditor?->is('header/sticky_header', 'true')): ?>
+    <div class="sticky-header-placeholder"></div>
+<?php endif; ?>
+```
+
+#### Pass a value to a JS component attribute
+
+```php
+<div data-mage-init='{"Vendor_Module/js/component": {
+    "layout": "<?= $escaper->escapeHtmlAttr(
+        $breezeThemeEditor?->get('catalog/product_list_mode') ?? 'grid'
+    ) ?>"
+}}'></div>
+```
+
+#### Apply a CSS class based on a setting
+
+```php
+<?php $headerStyle = $breezeThemeEditor?->get('header/style') ?? 'default'; ?>
+<header class="page-header page-header--<?= $escaper->escapeHtmlAttr($headerStyle) ?>">
+```
+
+#### Read a numeric / string value
+
+```php
+<?php $columns = (int) ($breezeThemeEditor?->get('catalog/grid_columns') ?? 4); ?>
+<ul class="products-grid products-grid--<?= $escaper->escapeHtmlAttr((string) $columns) ?>-col">
+```
+
+---
+
+### Block Caching
+
+If your template belongs to a block that uses the full-page cache, the rendered
+HTML is cached per the block's cache key. Because theme editor settings can
+change, you must include the relevant setting values in `getCacheKeyInfo()`;
+otherwise stale HTML may be served after a publish:
+
+```php
+// Block class
+public function getCacheKeyInfo(): array
+{
+    return array_merge(parent::getCacheKeyInfo(), [
+        $this->breezeThemeEditor->get('header/style'),
+        $this->breezeThemeEditor->get('catalog/product_list_mode'),
+    ]);
+}
+```
+
+Alternatively, disable caching for that block entirely when the setting value
+affects the rendered output:
+
+```php
+public function getCacheLifetime(): ?int
+{
+    return null; // no cache
+}
+```
+
+---
+
 ## Examples
 
 ### Example 1: Complete Color Section
@@ -2825,6 +2947,12 @@ See [Section 16: Presets](#16-presets---pre-configured-templates) for complete d
 ---
 
 ## Version History
+
+- **1.3** (2026-03-23) - PHP Settings Reader
+  - Added `$breezeThemeEditor` helper — automatically injected into all frontend `.phtml` templates
+  - `get('section/setting')` — returns published value with store/theme scope, falls back to `settings.json` default
+  - `is('section/setting', 'value')` — strict equality shorthand
+  - Added Section 10: Reading Settings in PHP Templates (API, PHP-only settings, examples, block caching)
 
 - **1.2** (2026-02-24) - Selector + Property
   - Renamed `css_var` → `property` (backward compatible; `css_var` still accepted)
