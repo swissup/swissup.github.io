@@ -6,6 +6,30 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.7.34
+
+> February 17, 2026
+
+ -  Suggest page configurable products options hidden as not working.
+
+### Version 1.7.33
+
+> February 11, 2026
+
+ -  Breeze: improved floating cart integration.
+
+### Version 1.7.32
+
+> December 12, 2025
+
+ -  Breeze: fixed unresolved `Swissup_Ajaxpro/js/catalog-product-view` component.
+
+### Version 1.7.31
+
+> December 10, 2025
+
+ -  Breeze: floating cart and Breeze 2.27.0 fixes.
+
 ### Version 1.7.30
 
 > December 5, 2025
