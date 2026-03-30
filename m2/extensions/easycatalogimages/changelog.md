@@ -8,6 +8,12 @@ category: EasyCatalogImages
 
 # Changelog
 
+### Version 1.5.13
+
+> September 30, 2025
+
+ -  Fixed unescaped output detected error.
+
 ### Version 1.5.12
 
 > May 22, 2025
