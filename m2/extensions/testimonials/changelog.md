@@ -8,6 +8,18 @@ category: Testimonials
 
 # Changelog
 
+### Version 1.3.17
+
+> September 29, 2025
+
+ -  Fixed unescaped output detected error.
+
+### Version 1.3.16
+
+> May 23, 2025
+
+ -  Fixed wrong Swiper breakpoints config.
+
 ### Version 1.3.15
 
 > April 9, 2025
