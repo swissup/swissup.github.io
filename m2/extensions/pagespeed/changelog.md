@@ -8,6 +8,26 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.17.3
+
+> March 5, 2026
+
+ -  Fixed HTML minification being silently discarded and patch limit being too low.
+ -  Fixed misleading debug measurements in `TrackedDomDocument::indexNodes()`.
+
+### Version 1.17.2
+
+> February 16, 2026
+
+ -  Fixed logger issue on PHP 8.4+.
+
+### Version 1.17.1
+
+> February 9, 2026
+
+ -  Fixed: handle corrupted CSP SRI data gracefully.
+ -  Include all HTML5 void (self-closing) elements in `SELF_CLOSING_TAGS`.
+
 ### Version 1.17.0
 
 > December 22, 2025
