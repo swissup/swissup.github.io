@@ -8,6 +8,21 @@ category: Testimonials
 
 # Changelog
 
+### Version 1.4.0
+
+> March 30, 2026
+
+ -  Added a config option to set a custom frontend route per store view
+ -  Removed trailing slash in the canonical tag
+ -  Fixed N+1 database writes in mass status action
+ -  Fixed showing email in listing regardless of config
+ -  Code rewritten to use repository
+ -  Replaced deprecated classes usage
+ -  Fixed undefined variable and division-by-zero
+ -  Fixed wrong escaping
+ -  Removed unnecessary `setup_version`
+ -  Added `escape` to the admin notification email template
+
 ### Version 1.3.17
 
 > September 29, 2025
