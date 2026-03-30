@@ -8,6 +8,85 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.8.1
+
+> Mar 27, 2026
+
+ -  Refactored product validation and label handling for store views.
+
+### Version 1.8.0
+
+> Mar 24, 2026
+
+ -  Added new variables for base prices: `price_base`, `final_price_base`, `special_price_base`, `discount_amount_base`.
+ -  Enhanced LabelText editor with variable support.
+ -  Fixed label text escaping for label presets.
+
+### Version 1.7.30
+
+> Feb 24, 2026
+
+ -  Allow to render prolabels with empty text. Label can have only an image uploaded.
+
+### Version 1.7.29
+
+> Feb 12, 2026
+
+ -  Minor code improvements.
+
+### Version 1.7.28
+
+> Jan 29, 2026
+
+ -  Fixed: allow text labels without digits, validate stock item instead.
+
+### Version 1.7.27
+
+> Dec 17, 2025
+
+ -  Fixed not initialized labels in preview at Magento 2 system config.
+ -  Fixed poorly positioned labels in preview in admin.
+ -  Fixed issue when uploaded image doesn't show up in preview for manual labels.
+
+### Version 1.7.26
+
+> Dec 4, 2025
+
+ -  Fixed: hide stock labels when qty is less than or equal to 0 and prevent empty label rendering.
+
+### Version 1.7.25
+
+> Nov 10, 2025
+
+ -  Breeze: fixed lazy init when slide gallery is used.
+ -  Fixed visible `\Magento\Framework\Escaper` string on frontend.
+
+### Version 1.7.24
+
+> Oct 3, 2025
+
+ -  Breeze: fixed expanded gallery compatibility.
+
+### Version 1.7.23
+
+> Sep 25, 2025
+
+ -  Security improvements: escape HTML output in label templates.
+ -  Fixed async unbinding functionality for mutation observer.
+
+### Version 1.7.22
+
+> Jul 11, 2025
+
+ -  Fixed: don't show 0 or negative values for backorder products.
+ -  CSP compatibility fix. Fixed JS error on checkout page.
+
+### Version 1.7.21
+
+> Jun 13, 2025
+
+ -  Added possibility to place labels at top-center and bottom-center positions.
+
 ### Version 1.7.20
 
 > May 22, 2025
