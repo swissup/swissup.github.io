@@ -6,7 +6,7 @@ category: AjaxSearch
 
 # Changelog
 
-### Version 1.14.4
+### Version 1.14.5
 
 > Feb 19, 2026
 
