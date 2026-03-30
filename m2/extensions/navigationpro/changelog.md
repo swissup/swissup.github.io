@@ -8,6 +8,18 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.17.35
+
+> March 23, 2026
+
+ -  Allow setting colors using any available format.
+
+### Version 1.17.34
+
+> December 12, 2025
+
+ -  Breeze: fixed uninitialized menu.
+
 ### Version 1.17.33
 
 > December 5, 2025
