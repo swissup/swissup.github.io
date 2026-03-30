@@ -8,6 +8,14 @@ category: Easy Banners
 
 # Changelog
 
+### Version 1.9.23
+
+> February 11, 2026
+
+ -  Fixed incorrect return type.
+ -  Removed non-existing ACL name.
+ -  No need to extend `Adminhtml\Promo\Catalog` action.
+
 ### Version 1.9.22
 
 > December 5, 2025
