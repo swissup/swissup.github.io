@@ -8,6 +8,40 @@ category: Rich Snippets
 
 # Changelog
 
+### Version 1.7.18
+
+> January 15, 2026
+
+ -  Improved product page breadcrumbs snippet. Generate it via JS.
+ -  Breeze integration for product breadcrumbs created via JS.
+ -  Skip home breadcrumb in JSON-LD output and enforce minimum items for valid BreadcrumbList.
+ -  Updated schema.org URLs to use HTTPS.
+
+### Version 1.7.17
+
+> January 8, 2026
+
+ -  Organization rich snippet is rendered on Home page only (Google recommendation).
+ -  Do not add rich snippets to attribute pages because it shows all questions.
+
+### Version 1.7.16
+
+> December 8, 2025
+
+ -  Fixed organization config to return properly structured data array.
+
+### Version 1.7.15
+
+> November 13, 2025
+
+ -  Refactored: centralized FAQPage block with shared layout handle.
+
+### Version 1.7.14
+
+> November 13, 2025
+
+ -  Refactored: replaced FAQPages with universal FAQPage block.
+
 ### Version 1.7.13
 
 > October 24, 2025
