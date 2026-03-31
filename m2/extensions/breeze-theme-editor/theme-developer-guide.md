@@ -8,8 +8,8 @@ category: Breeze Theme Editor
 
 # Breeze Theme Editor - Theme Developer Guide
 
-**Version**: 1.3  
-**Last Updated**: 2026-03-23
+**Version**: 1.4  
+**Last Updated**: 2026-03-31
 
 This guide explains how to add Theme Editor support to your Breeze theme.
 
@@ -22,13 +22,14 @@ This guide explains how to add Theme Editor support to your Breeze theme.
 3. [Configuration Format](#configuration-format)
 4. [Field Types Reference](#field-types-reference)
 5. [Field Properties](#field-properties)
-6. [Color Palette System](#color-palette-system)
-7. [Validation Rules](#validation-rules)
-8. [Theme Inheritance](#theme-inheritance)
-9. [Best Practices](#best-practices)
-10. [Reading Settings in PHP Templates](#reading-settings-in-php-templates)
-11. [Examples](#examples)
-12. [Troubleshooting](#troubleshooting)
+6. [Conditional Field Visibility (dependsOn)](#conditional-field-visibility-dependson)
+7. [Color Palette System](#color-palette-system)
+8. [Validation Rules](#validation-rules)
+9. [Theme Inheritance](#theme-inheritance)
+10. [Best Practices](#best-practices)
+11. [Reading Settings in PHP Templates](#reading-settings-in-php-templates)
+12. [Examples](#examples)
+13. [Troubleshooting](#troubleshooting)
 
 
 ---
@@ -1497,6 +1498,145 @@ Fix: Verify `colors` section exists with `primary_color` field:
 
 ---
 
+## Conditional Field Visibility (dependsOn)
+
+The `dependsOn` property makes a field visible only when another field has a
+specific value. Hidden fields are automatically excluded from save mutations —
+their values are never written to the database while hidden.
+
+### Syntax
+
+```json
+{
+  "id": "custom_font_url",
+  "type": "text",
+  "label": "Custom Font URL",
+  "dependsOn": {
+    "field": "font_source",
+    "value": "custom",
+    "operator": "EQUALS"
+  }
+}
+```
+
+### `dependsOn` Properties
+
+| Property | Type | Required | Description |
+|----------|------|----------|-------------|
+| `field` | string | Yes | `id` of the controlling field |
+| `value` | string | Yes | Value to compare against |
+| `operator` | string | No | Comparison operator (default: `EQUALS`) |
+
+### Operators
+
+| Operator | Behaviour |
+|----------|-----------|
+| `EQUALS` | Show field when controlling field **equals** `value` |
+| `NOT_EQUALS` | Show field when controlling field **does not equal** `value` |
+
+### Example — Font Source
+
+Show a "Custom Font URL" input only when the user selects "Custom" from a
+`font_source` dropdown:
+
+```json
+{
+  "id": "fonts",
+  "name": "Typography",
+  "settings": [
+    {
+      "id": "font_source",
+      "label": "Font Source",
+      "type": "select",
+      "default": "google",
+      "property": "--font-source",
+      "options": [
+        { "value": "google", "label": "Google Fonts" },
+        { "value": "system", "label": "System Fonts" },
+        { "value": "custom", "label": "Custom URL" }
+      ]
+    },
+    {
+      "id": "custom_font_url",
+      "label": "Custom Font URL",
+      "type": "text",
+      "placeholder": "https://example.com/fonts/font.css",
+      "description": "URL of the custom font stylesheet",
+      "dependsOn": {
+        "field": "font_source",
+        "value": "custom",
+        "operator": "EQUALS"
+      }
+    }
+  ]
+}
+```
+
+Result: `custom_font_url` is only visible (and only saved) when `font_source = "custom"`.
+
+### Example — NOT_EQUALS
+
+Hide an "Override Width" field when layout is set to "fullwidth" (i.e. show it
+for all other options):
+
+```json
+{
+  "id": "container_width",
+  "label": "Container Width",
+  "type": "text",
+  "default": "1280px",
+  "property": "--container-width",
+  "dependsOn": {
+    "field": "layout_type",
+    "value": "fullwidth",
+    "operator": "NOT_EQUALS"
+  }
+}
+```
+
+### Cross-Section Dependencies
+
+The controlling field and the dependent field **do not need to be in the same
+section**. `dependsOn.field` is resolved across all sections in the editor.
+
+```json
+// Section: "layout"
+{ "id": "layout_type", "type": "select", ... }
+
+// Section: "typography" — depends on field from "layout" section
+{
+  "id": "narrow_font_size",
+  "type": "number",
+  "dependsOn": { "field": "layout_type", "value": "narrow", "operator": "EQUALS" }
+}
+```
+
+### Notes
+
+- Only **1 level** of dependency is supported — chaining (A → B → C) is not implemented.
+- The controlling field must be a `select`, `toggle`, `text`, `number`, `range`,
+  or `color_scheme` — any field type that produces a scalar value.
+- If the controlling field is not found in the DOM, `EQUALS` conditions default
+  to **hidden** and `NOT_EQUALS` conditions default to **visible**.
+
+### Best Practices
+
+✅ Use `dependsOn` to reduce clutter — hide advanced options until they are relevant:
+```json
+{ "dependsOn": { "field": "enable_feature", "value": "true", "operator": "EQUALS" } }
+```
+
+✅ Keep the controlling field **above** the dependent field in the same section
+for a natural top-to-bottom reveal flow.
+
+❌ Do not use `dependsOn` for required fields — a hidden required field will
+never pass validation, preventing save.
+
+❌ Do not chain dependencies (A depends on B which depends on C) — only the
+first level is evaluated.
+
+---
+
 ## Color Palette System
 
 Color palettes provide a centralized way to define and manage theme colors. Users can quickly select colors from predefined palettes when editing COLOR fields.
@@ -2947,6 +3087,13 @@ See [Section 16: Presets](#16-presets---pre-configured-templates) for complete d
 ---
 
 ## Version History
+
+- **1.4** (2026-03-31) - Conditional Field Visibility
+  - Added `dependsOn` field property — show/hide fields based on another field's value
+  - Supports `EQUALS` and `NOT_EQUALS` operators
+  - Cross-section dependencies supported (controlling field may be in any section)
+  - Hidden fields are excluded from save mutations
+  - Added Section 6: Conditional Field Visibility (dependsOn)
 
 - **1.3** (2026-03-23) - PHP Settings Reader
   - Added `$breezeThemeEditor` helper — automatically injected into all frontend `.phtml` templates

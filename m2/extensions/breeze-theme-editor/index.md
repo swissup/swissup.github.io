@@ -15,6 +15,7 @@ Visual theme customization tool for Magento 2 Breeze themes.
 - **Live Preview**: See changes instantly without page reload
 - **Draft/Publish Workflow**: Test changes before making them live
 - **16 Field Types**: Colors, fonts, toggles, images, spacing, repeaters, and more
+- **Conditional Fields**: Show/hide fields based on other field values (`dependsOn`)
 - **Theme Inheritance**: Extend parent theme configurations
 - **Version Control**: Publication history with rollback
 - **Multi-Store Support**: Different settings per store view
