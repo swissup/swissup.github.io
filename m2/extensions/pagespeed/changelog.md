@@ -8,6 +8,39 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.17.3
+
+> March 5, 2026
+
+#### Fixed
+
+- **HTML minification silently discarded**: `Pipeline::run()` was checking `isDirty()` after `Html::processContext()` already called `getHtml()` (which resets the dirty flag), so the minified result was never applied to the response. Fixed by comparing the final HTML string against the original instead of relying on the dirty flag.
+- **Patch limit too low causing HTML size increase**: `PatchManager` had a hard limit of 500 patches. Real Magento pages generate 562+ patches; when the limit was exceeded validation failed, `applyPatches()` returned an empty string, and the pipeline fell back to `DOMDocument::saveHTML()` — causing ~12.7% HTML size inflation due to libxml normalization. Limit raised from 500 to 2000.
+- **Misleading debug measurements in `TrackedDomDocument::indexNodes()`**: `current_bytes` was measured via `parent::saveHTML()` (bypassing the UTF-8 override, adding ~900 bytes from charset meta and libxml normalization), and the "DOM modified before indexing" comparison was tautological (variable compared to itself). Fixed by capturing an `$initialNormalizedHtml` snapshot immediately after `loadHtmlWithUtf8()` and comparing against it.
+
+---
+
+### Version 1.17.2
+
+> February 16, 2026
+
+#### Fixed
+
+- **PHP 8.4+ logger compatibility**: Fixed a deprecation/fatal error in the logger caused by implicit nullable parameter types, which became illegal in PHP 8.4.
+
+---
+
+### Version 1.17.1
+
+> February 9, 2026
+
+#### Fixed
+
+- **Self-closing tag handling**: Added all HTML5 void (self-closing) elements to `SELF_CLOSING_TAGS` constant to prevent malformed HTML output when processing tags such as `<area>`, `<base>`, `<col>`, `<embed>`, `<param>`, `<track>`, and `<wbr>`.
+- **Corrupted CSP SRI data**: Handle gracefully when `window.sriHashes` data is corrupted or contains unexpected structure, preventing a fatal error in the PageSpeed plugin.
+
+---
+
 ### Version 1.17.0
 
 > December 22, 2025
