@@ -8,6 +8,97 @@ category: Email
 
 # Changelog
 
+### Version 0.7.10
+
+> January 15, 2026
+
+ - Fix: Handle Unix timestamps in getTimestamp method.
+
+### Version 0.7.9
+
+> January 14, 2026
+
+ - Fix: Use fully qualified `\RuntimeException` class name.
+
+### Version 0.7.8
+
+> January 12, 2026
+
+ - Fix: Convert Throwable to Exception for PHP 8.3 compatibility.
+
+### Version 0.7.7
+
+> October 27, 2025
+
+ - Fix PHP 8.4 deprecation: explicitly mark parameters as nullable in GmailOAuth2 constructor.
+
+### Version 0.7.6
+
+> September 23, 2025
+
+ - Fix email history logging for Symfony Mime messages.
+
+### Version 0.7.5
+
+> September 16, 2025
+
+ - Fix Gmail OAuth2 Transport & Token Handling.
+ - Fix: Use plain access token for XOAUTH2 authentication.
+ - Fix: Implement proper XOAUTH2 authentication format for Gmail.
+ - Fix: Add 5-minute buffer for OAuth2 token expiration check.
+ - Fix: Add username parameter to Gmail OAuth2 DSN query string.
+
+### Version 0.7.4
+
+> August 27, 2025
+
+ - Add a custom transport class for the Symfony Mailer.
+ - Fix MailException to properly handle TypeError exceptions.
+ - Fix a bug where Gmail OAuth2 settings are incorrectly hidden.
+
+### Version 0.7.3
+
+> July 11, 2025
+
+ - Add mail-tester standalone service.
+
+### Version 0.7.2
+
+> June 19, 2025
+
+ - Remove non-actual `require-dev` section in composer.json.
+
+### Version 0.7.1
+
+> June 19, 2025
+
+ - Fix phpstan errors for invalid return type of Symfony\Component classes.
+ - Fix typo in composer.json.
+
+### Version 0.7.0
+
+> June 19, 2025
+
+ - Big library migration: Laminas => Symfony Mailer.
+ - Remove Laminas dependency; add symfony/mailer and symfony/mime requirements.
+ - Add `Service::getDsn` method.
+ - AI code refactoring; remove unused `Mail/EmailMessage.php` class.
+ - Fix undefined variable: subject.
+ - Fix PHP warning in Magento 2.4.8.
+ - Fix "Check service" button not working (null address argument).
+
+### Version 0.6.4
+
+> May 28, 2025
+
+ - Compatibility with Magento 2.4.8 `symfonyMessage` property.
+
+### Version 0.6.3
+
+> September 11, 2024
+
+ - Add db_schema constraint to whitelist for OAuth tokens.
+
 ### Version 0.6.2
 
 > Jul 11, 2024
