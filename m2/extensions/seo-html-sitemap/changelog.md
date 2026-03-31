@@ -8,6 +8,70 @@ category: SEO HTML Sitemap
 
 # Changelog
 
+### Version 1.1.21
+
+> August 29, 2025
+
+ - Refactor sitemap item retrieval to use helper method and improve URL and name escaping.
+ - Refactor sitemap templates to use helper method for item retrieval and enhance HTML escaping.
+
+### Version 1.1.20
+
+> April 9, 2025
+
+ - Fixed implicitly marking parameter as nullable error in PHP 8.4.
+
+### Version 1.1.19
+
+> June 27, 2024
+
+ - Prevent deprecation functionality exception. Occurs because pass null when string expected.
+
+### Version 1.1.18
+
+> December 1, 2023
+
+ - Fix type in property name of `Block\Stores`.
+ - Block Stores. Code refactor.
+ - Fix PHP error on sitemap page when stores added there.
+
+### Version 1.1.17
+
+> November 3, 2023
+
+ - Reduce allocated memory while rendering sitemap. Load collections by pages to reduce memory usage.
+
+### Version 1.1.16
+
+> July 13, 2023
+
+ - Trigger PHPStan check.
+ - Fix PHPStan errors.
+
+### Version 1.1.15
+
+> March 17, 2023
+
+ - PHP 8.2: fixed dynamic properties creation.
+
+### Version 1.1.14
+
+> September 19, 2022
+
+ - Specify the collection for other items to Swissup_SeoXmlSitemap.
+
+### Version 1.1.13
+
+> August 11, 2022
+
+ - Use declarative schema.
+
+### Version 1.1.12
+
+> December 30, 2021
+
+ - Update ACL. Change item order.
+
 ### Version 1.1.11
 
 > Aug 19, 2021

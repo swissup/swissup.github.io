@@ -8,6 +8,28 @@ category: Easy Slider
 
 # Changelog
 
+### Version 1.8.16
+
+> September 30, 2025
+
+ -  Fixed deprecation warnings for `image_type_to_mime_type()` and `is_file()` functions.
+ -  Fixed escaping of slider identifier in slider template.
+ -  Added `@noEscape` annotations to JSON encoding and improved HTML escaping in gallery template.
+
+### Version 1.8.15
+
+> September 29, 2025
+
+ -  Added `@noEscape` to JSON encoding in datepicker and toggler configurations.
+ -  Refactored templates to use Escaper for HTML attributes and improved code readability.
+
+### Version 1.8.14
+
+> June 26, 2025
+
+ -  Fixed empty slides on Force theme with new Swiper — added slides cloning.
+ -  Fixed invisible images when container is scrolled down due to focus.
+
 ### Version 1.8.13
 
 > April 9, 2025

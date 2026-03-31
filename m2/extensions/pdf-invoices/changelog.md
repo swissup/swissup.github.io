@@ -8,6 +8,23 @@ category: PDF Invoices
 
 # Changelog
 
+### Version 1.4.10
+
+> Mar 26, 2026
+
+ -  Catch possible attachment errors to prevent email sending fail
+ -  Better way to find image position in template
+ -  Get payment title more safely to prevent errors
+ -  Prevent duplicate of logger instances on every getMpdf() call
+ -  Use `application/pdf` type for email attachments
+ -  Code fixes after review
+
+### Version 1.4.9
+
+> Feb 23, 2026
+
+ -  Fixed unescaped output error
+
 ### Version 1.4.8
 
 > May 5, 2025

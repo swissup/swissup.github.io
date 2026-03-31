@@ -14,6 +14,7 @@ category: Testimonials
 
 Option                                             | Description
 :--------------------------------------------------|:-----------------------------
+URL Path                                           | Frontend URL slug for the testimonials page.
 Automatically approve testimonials                 | Approve new testimonials automatically or manually. Only approved testimonials displayed on store frontend.
 Add link to top links                              | Place link to testimonials list in top links block. _Note that in Magento 2 default themes top links block are visible for logged in users only._
 Add link to footer links                           | Place link to testimonials list in footer links block

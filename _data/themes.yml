@@ -16,6 +16,12 @@ argento-breeze:
     m1:
     m2: /m2/argento-breeze/
 
+argento-hyva:
+  title: Argento Hyva Theme
+  urls:
+    m1: 
+    m2: /m2/argento-hyva/
+
 classic:
   title: Classic Theme
   urls:

@@ -54,11 +54,13 @@ Configure conditions to limit the rule to specific carts.
 
 ![Rule Form Coupon](/images/m2/abandoned-cart/backend/rule-form-coupon.png)
 
-Select shopping cart price rule which will be used to generate coupon with discount.
-Only rules with coupon auto-generation will be available here.
+Field                    | Description
+-------------------------|------------------------------------------------------
+Shopping Cart Price Rule | Select shopping cart price rule which will be used to generate coupon with discount. Only rules with coupon *auto-generation* will be available here.
+Coupon Expires In        | Set the number of days the coupon is valid
 
 Check Magento manual about creating cart price rule here:
-[Create a Cart Price Rule](https://docs.magento.com/m2/ce/user_guide/marketing/price-rules-cart-create.html)
+[Create a Cart Price Rule](https://experienceleague.adobe.com/en/docs/commerce-admin/marketing/promotions/cart-rules/price-rules-cart-create)
 
 ##### Next Up
 

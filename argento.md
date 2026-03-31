@@ -8,4 +8,6 @@ title: Argento
 
 ### [Argento for Magento 2.x](/m2/argento/)
 
+### [Argento for Hyva](/hyva/argento/)
+
 ### [Breeze-based Argento for Magento 2.x](/m2/argento-breeze/)

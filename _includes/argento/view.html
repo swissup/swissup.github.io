@@ -12,6 +12,10 @@
     <h4>Looking for a <a href="{{ '/m2/argento-breeze/' | prepend: site.baseurl }}">Breeze-based Argento</a> docs?</h4>
   {% endif %}
 
+  {% if include.version == 'm2' %}
+    <h4>Looking for a <a href="{{ '/m2/argento-hyva/' | prepend: site.baseurl }}">Hyva-based Argento</a> docs?</h4>
+  {% endif %}
+
   {% assign articles = group.articles %}
   {% if articles %}
     <h4>Articles</h4>

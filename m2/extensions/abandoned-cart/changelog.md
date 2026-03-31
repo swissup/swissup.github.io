@@ -8,6 +8,26 @@ category: Abandoned Cart
 
 # Changelog
 
+### Version 1.2.0
+
+> Mar 25, 2026
+
+ -  Fixed wrong totals when non-base currency used
+ -  Display item price according to taxes configuration
+ -  Added config to set coupon expiration
+ -  Replaced deprecated `Zend_Db_Expr` with `Magento\Framework\DB\Sql\Expression`
+ -  Fixed N+1 query loading full order model per order item
+ -  Save coupon to quote only if email send was successful
+ -  Fixed uninitialized variables
+ -  Added module enabled check and JSON response to quote save controller
+ -  Added missing foreign key on `coupon_rule_id`
+
+### Version 1.1.9
+
+> Oct 13, 2025
+
+ -  Fixed unescaped output detected error
+
 ### Version 1.1.8
 
 > April 9, 2025
