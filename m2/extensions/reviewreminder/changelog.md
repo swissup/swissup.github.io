@@ -8,6 +8,18 @@ category: Review Reminder
 
 # Changelog
 
+### Version 1.1.19
+
+> October 6, 2025
+
+ - Fixed unescaped output detected error.
+
+### Version 1.1.18
+
+> June 16, 2025
+
+ - Fixed wrong product URL on multistore setup.
+
 ### Version 1.1.17
 
 > April 9, 2025
