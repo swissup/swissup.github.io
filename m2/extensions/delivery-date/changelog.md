@@ -7,6 +7,12 @@ category: Delivery Date
 
 # Changelog
 
+### Version 1.8.1
+
+> April 2, 2026
+
+ -  Fixed missing holiday when offset field left empty.
+
 ### Version 1.8.0
 
 > December 16, 2025
