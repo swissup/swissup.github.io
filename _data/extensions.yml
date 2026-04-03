@@ -372,11 +372,11 @@ ga-plugin-scrolldepth:
     m2:
 
 geoip:
-  title: Geoip
+  title: Geo Address IP
   short_description:
   urls:
     m1:
-    m2: /m2/extensions/geoip/
+    m2: /m2/extensions/geo-address-ip/
 
 helpdesk:
   title: Helpdesk
