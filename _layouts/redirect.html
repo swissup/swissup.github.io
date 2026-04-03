@@ -1,8 +1,8 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta http-equiv="refresh" content="0; url={{ page.redirect_to | absolute_url}}">
-    <link rel="canonical" href="{{ page.redirect_to | absolute_url }}" />
+    <meta http-equiv="refresh" content="0; url={{ page.redirect_to | prepend: site.baseurl }}">
+    <link rel="canonical" href="{{ page.redirect_to | prepend: site.baseurl }}" />
   </head>
   <body></body>
 </html>
