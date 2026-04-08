@@ -7,7 +7,7 @@ category: Argento
 
 # Argento Changelog
 
-### Version 1.53.0
+### Version 1.53.1
 
 > April 8, 2026
 
