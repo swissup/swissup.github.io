@@ -8,6 +8,34 @@ category: Helpdesk
 
 # Changelog
 
+## Version 1.4.3
+
+> Mar 2, 2026
+
+**Fixes:**
+
+ -  **Fixed:** Admin replies to tickets never created a `TicketMessage` record and never sent email notifications to customers — `swissup_helpdesk_ticket_message`, `http`, `website`, and `ftp` keys were silently stripped by `filterAdminData()` before reaching `ResourceModel`.
+ -  **Fixed:** Saving an existing ticket from the admin panel failed with a "field is required" validation error — required-field check now runs only when creating a new ticket, not on every edit.
+ -  **Fixed:** Enricher no longer overwrites `store_id`, `status`, and `priority` when editing an existing ticket.
+ -  **Fixed:** Removed rate-limit remaining count from the ticket creation success message.
+
+## Version 1.4.2
+
+> Mar 2, 2026
+
+**Fixes:**
+
+ -  **Fixed:** False positive "Mass Assignment attack" log entries on every legitimate admin message save — `message_id` and `email_message_id` are expected hidden form fields and must not be treated as forbidden (the whitelist filter already blocks them).
+
+## Version 1.4.1
+
+> Mar 2, 2026
+
+**Fixes:**
+
+ -  **Fixed:** Admin replies via AJAX form did not send email notifications to customers — `user_id` from the backend auth session is now set before saving the message so the `CustomerNotification` observer fires correctly.
+ -  **Fixed:** Apply `MessageDataFilter` whitelist to admin AJAX message save to prevent mass assignment of forbidden message fields; forbidden field attempts are logged via `SecurityLogger`.
+
 ## Version 1.4.0
 
 > Feb 16, 2026
