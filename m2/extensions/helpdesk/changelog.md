@@ -8,6 +8,26 @@ category: Helpdesk
 
 # Changelog
 
+## Version 1.4.5
+
+> Apr 2, 2026
+
+**Fixes:**
+
+ -  Fixed deprecated functionality for PHP 8.4 compatibility.
+ -  Fixed file upload security: validate MIME type and content before saving attachments — rejects polyglot files, fake PDFs, and invalid images.
+ -  Fixed safe default extensions fallback — returns `['gif','jpeg','jpg','png','txt','pdf']` when `allowed_extension` config is empty.
+
+## Version 1.4.4
+
+> Apr 2, 2026
+
+**Fixes:**
+
+ -  Fixed false positive "Mass Assignment attack" security log entries on every legitimate admin ticket save — split forbidden fields into context-aware lists: frontend vs admin.
+ -  Fixed `TicketDataFilter` to use empty `FORBIDDEN_ADMIN_FIELDS` (whitelist is the actual defense in admin context).
+ -  Fixed missing keys in `ADMIN_ADDITIONAL_FIELDS` that caused admin replies to never create `TicketMessage` records.
+
 ## Version 1.4.3
 
 > Mar 2, 2026
