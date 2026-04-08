@@ -7,6 +7,47 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.53.1
+
+> April 8, 2026
+
+**Extensions Updates**
+
+  - [Ajax Pro](/m2/extensions/ajaxpro/) — 1.7.34 (was 1.7.33)
+      + SuggestPage: configurable product options hidden as not working
+  - [Ajax Search](/m2/extensions/ajaxsearch/) — 1.14.6 (was 1.13.30)
+      + Added GraphQL security validation: search query must be ≥2 chars or category filter required
+      + Added rate limiting via Magento Backpressure mechanism (Magento 2.4.4+)
+      + Added logging for suspicious query attempts
+      + Added admin configuration for rate limits
+  - [AskIt](/m2/extensions/askit/) — 1.14.21 (was 1.14.20)
+      + Breeze 3.0 compatibility
+  - [GDPR](/m2/extensions/gdpr/) — 1.8.5 (was 1.8.4)
+      + Added Bing consent mode
+      + Breeze 2.0 and 3.0 compatibility
+  - [NavigationPro](/m2/extensions/navigationpro/) — 1.17.35 (was 1.17.34)
+      + Allow setting colors using any available format
+  - [Pagespeed](/m2/extensions/pagespeed/) — 1.17.3 (was 1.17.1)
+      + Fixed HTML minification being silently discarded; raised patch limit to handle large Magento pages
+      + Fixed logger PHP 8.4+ issue
+      + Fixed misleading debug measurements in DOM node indexing
+  - [ProLabels](/m2/extensions/prolabels/) — 1.8.1 (was 1.7.28)
+      + Refactored product validation to respect store view attribute values
+      + Added store view-aware label rendering with updated indexing logic
+      + Enhanced LabelText editor with variable support and base price variables
+      + Allow rendering labels with empty text (image-only labels)
+  - [QtySwitcher](/m2/extensions/qty-switcher/) — 1.2.1 (was 1.1.28)
+      + Added support for qty min/max/increment restrictions on cart page
+      + Fixed on Breeze theme
+  - [Testimonials](/m2/extensions/testimonials/) — 1.4.0 (was 1.3.17)
+      + Customizable frontend route
+      + Removed trailing slash in canonical tag
+      + Fixed captcha for save controller
+      + Used Testimonial Repository in controllers; replaced deprecated code
+      + Fixed N+1 DB writes in mass status action
+      + Fixed undefined avgRating and division-by-zero
+      + Security fixes: escape in admin notification email, fixed wrong escaping
+
 ### Version 1.52.0
 
 > February 12, 2026
