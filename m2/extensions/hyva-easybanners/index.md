@@ -1,14 +1,14 @@
 ---
 layout: default
-title: Easy Banners
+title: Hyva Easy Banners
 description:
 keywords: banner, easybanner, easybanners
-category: Easy Banners
+category: Hyva Easy Banners
 ---
 
-# Easy Banners
+# Hyva Easy Banners
 
-Easy Banners is remarkable magento module focused on creating banners.
+Hyva Easy Banners is remarkable magento module focused on creating banners.
 It follows the effect of banners advertising. Place the relevant call-to-action
 content on the banner and make it encouraging to visit your store.
 

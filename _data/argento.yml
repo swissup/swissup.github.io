@@ -213,12 +213,34 @@ hyva:
   title: Argento Hyva for Magento 2.x
   url: /m2/argento-hyva/
 
+  articles:
+    - title: Changelog
+      url: /m2/argento-hyva/changelog/
+
+    - title: Installation
+      url: /m2/argento-hyva/installation/
+
+    # - title: Upgrade Instructions
+    #   url: /m2/argento-breeze/upgrade-instructions/
+
+    # - title: Customization
+    #   url: /m2/argento-breeze/customization/
+
   themes:
     - title: Chic
       url: /m2/argento-hyva/chic/
 
   extensions:
     - hyva-easybanners
+    - hyva-easycatalogimages
+    - hyva-easyslider
+    - hyva-easytabs
+    - hyva-gdpr
+    - hyva-highlight
+    - hyva-prolabels
+    - hyva-soldtogether
+    - hyva-seo-suite
+    - hyva-testimonials
 
 sw:
   title: Argento for Shopware
