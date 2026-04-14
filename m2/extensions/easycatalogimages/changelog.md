@@ -8,6 +8,23 @@ category: EasyCatalogImages
 
 # Changelog
 
+### Version 1.5.14
+
+> April 14, 2026
+
+ -  Added ability to render categories inside `block` wrapper using layout instruction:
+
+    ```xml
+    <referenceBlock name="subcategories">
+        <arguments>
+            <argument name="use_block_wrapper" xsi:type="boolean">true</argument>
+            <argument name="block_wrapper_css" xsi:type="string">block-hero breeze-carousel</argument>
+            <argument name="block_title_html" xsi:type="string"><![CDATA[Browse <span class="color-muted">categories</span>]]></argument>
+            <argument name="parent_category_position" xsi:type="string">bottom</argument>
+        </arguments>
+    </referenceBlock>
+    ```
+
 ### Version 1.5.13
 
 > September 30, 2025
