@@ -8,6 +8,55 @@ category: Breeze Theme Editor
 
 # Changelog
 
+### Version 1.0.0-beta.4
+
+> April 16, 2026
+
+ -  Fixed GraphQL coercion errors on save: JS client still sent removed
+    `autoPublish`/`publicationTitle` fields to `SaveBreezeThemeEditorValues`
+    after they were dropped from the schema in beta.3 — closes #15.
+ -  Fixed `StoreManagerInterface` regression introduced during css-var shim
+    cleanup: dependency was accidentally made nullable again, silently breaking
+    the `stores → websites → default` scope inheritance chain.
+ -  Removed `css_var` backward-compat shims (breaking): all installed Breeze
+    themes use `property` exclusively. Removed from `CssVariableBuilder`,
+    `AbstractConfigResolver`, `PaletteProvider`, `PaletteResolver`,
+    `SavePaletteValue`, `SaveBreezeThemeEditorPaletteValueInput` GraphQL schema,
+    and JS panel handlers (`settings-editor.js`, `css-preview-manager.js`).
+ -  Removed dead GraphQL input fields: `autoPublish`/`publicationTitle` from
+    `SaveBreezeThemeEditorValuesInput` and `notifyUsers` from
+    `PublishBreezeThemeEditorInput` — never read by any resolver.
+ -  Removed 10 speculative Collection query-builder methods (`Value`,
+    `Status`, `Changelog`) — all access goes through SearchCriteria API.
+ -  Eliminated `window.breezeThemeEditorConfig` global: split into two AMD
+    closure singletons — `config-manager.js` (static readonly config) and
+    `scope-manager.js` (runtime scope/theme state). 14 JS files migrated.
+ -  Added `ResolverAclGuardrailTest` — security guardrail enforcing all 22
+    GraphQL resolvers implement `BreezeResolverInterface`; added `SECURITY NOTE`
+    to `AclAuthorization::beforeResolve()` explaining the silent-bypass risk.
+ -  Extracted `CssGenerator::EMPTY_CSS_OUTPUT` constant and
+    `hasRealCssContent()` static method — replaced 4 hardcoded `:root {}\n`
+    literals across 4 files.
+ -  Extracted `StatusCode::draftUserId()` / `draftUserIdForSave()` static
+    helpers — removed 7+ inline ternary duplications across resolvers and
+    services.
+ -  Extracted `PublishService::applySnapshot()` private helper and unified
+    `saveChangelog` / `saveChangelogFromOld` into a single method.
+ -  Extracted `ValueRepository::toRow()`, `AdminUserLoader::buildUserData()`,
+    `ConfigProvider::mergeById()` private helpers to eliminate code duplication.
+ -  Added per-request memoisation to `ThemeResolver::loadTheme()` — eliminates
+    redundant DB queries in `getThemeInfo`, `hasParentTheme`,
+    `getParentThemeId`, `buildThemeHierarchy`.
+ -  Removed empty `FrontendPageUrlProvider` class and its `di.xml` preference
+    entry — parent `PageUrlProvider` works identically for frontend context.
+ -  Removed deprecated `hexToRgb`/`rgbToHex` wrapper methods from
+    `palette-manager.js`, `.permission-notice` CSS block, and no-op tooltip
+    stub from `_utilities.less`.
+ -  Applied DRY refactoring across JS panel handlers: extracted
+    `_handleFieldAction` (base.js), `_applyConfig` (settings-editor.js),
+    `_traverseScopes` (scope-selector.js), `_extractErrorMessage`
+    (action-executor.js); removed `preview-manager.js` `_injectCSS` duplicate.
+
 ### Version 1.0.0-beta.3
 
 > April 8, 2026
