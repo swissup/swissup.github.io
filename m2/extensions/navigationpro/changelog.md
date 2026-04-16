@@ -8,6 +8,12 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.17.36
+
+> April 16, 2026
+
+ -  Fixed broken resizable columns in backend menu editor.
+
 ### Version 1.17.35
 
 > March 23, 2026
