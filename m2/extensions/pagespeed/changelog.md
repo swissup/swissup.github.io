@@ -8,6 +8,16 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.17.5
+
+> April 17, 2026
+
+#### Fixed
+
+- **Fatal error on Magento DI compilation**: PHP 8.1 "new in initializers" syntax (`new TagIndex()` as constructor default value in `IndexedAttributeOffsetFinder`) caused Magento's DI compiler to serialize `TagIndex` via `var_export()`, requiring a `__set_state()` method that did not exist. Fixed by removing the default value and passing `$tagIndex` explicitly from `TrackerFactory` and test setup trait.
+
+---
+
 ### Version 1.17.3
 
 > March 5, 2026
