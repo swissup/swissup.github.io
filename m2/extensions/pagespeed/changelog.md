@@ -18,6 +18,17 @@ category: Pagespeed
 
 ---
 
+### Version 1.17.4
+
+> April 17, 2026
+
+#### Fixed
+
+- **WebP `<picture>/<img>` offset calculation**: Corrected offset calculation for pages with script templates containing inline HTML tags that polluted the tag index and shifted sibling indexes.
+- **Orphan DOM chains after WebP conversion**: `<picture>` elements were left without their `<img>` child after WebP conversion. Fixed by folding orphan DOM chains so `<picture>` always contains `<img>`.
+
+---
+
 ### Version 1.17.3
 
 > March 5, 2026
