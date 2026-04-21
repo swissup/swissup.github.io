@@ -21,9 +21,11 @@ page.
 Option      | Description
 ------------|---------------
 Enabled     | Enable/Disable module.
-Limit       | Set the max number of results to be displayed.
+Limit       | Set the max number of results to be displayed. 
 Highlight   | Highlight the words you are searhing, in search results dropdown.
 Minimal Query Length | Set minimum amount of characters in search field to start searching.
+
+> If the Categories or CMS results are not displayed, only products - increase **limit** i.e. from 9 to 90 
 
 ### Design
 
