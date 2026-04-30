@@ -8,6 +8,25 @@ category: Breeze Theme Editor
 
 # Changelog
 
+### Version 1.0.0
+
+> April 30, 2026
+
+ -  Added Breeze Layout Builder integration.
+ -  Added `BteLogger` with structured server-side logging via `swissup/module-logger`.
+ -  Added checkerboard background for transparent colors in the color picker preview.
+ -  Replaced `window.confirm`/`window.prompt` with Magento UI modal dialogs.
+ -  Added `values[]` array to all GraphQL mutation payloads.
+ -  Replaced `setTimeout` calls with `Bsync` promises for reliable async sequencing.
+ -  Fixed form accessibility warnings in the Theme Editor panel.
+ -  Extracted `base-palette-renderer.js` — deduplicated accordion, badge updates, and escape helpers across palette renderers.
+ -  Extracted `ToolbarUrlProvider` — moved URL-building logic out of `AdminToolbar`.
+ -  Extracted `ColorPipeline` — replaced static `ColorConverter` calls in `CssGenerator`.
+ -  Decomposed `AbstractConfigResolver` into dedicated `Formatter` classes.
+ -  Replaced magic numbers and strings with named constants across JS modules.
+ -  Removed unused `.bte-control-group` legacy CSS block and dead `url-builder.js` methods.
+ -  Translated all remaining Ukrainian inline comments to English.
+
 ### Version 1.0.0-beta.4
 
 > April 16, 2026
