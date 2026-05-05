@@ -7,6 +7,16 @@ category: Attributepages
 
 # Changelog
 
+### Version 1.8.3
+
+> May 5, 2026
+
+ -  Added the ability to filter attributes on the attributes-based page.
+    The option can be activated for a separate page through admin interface.
+ -  Improved styling of attribute-based page for mobile view.
+ -  Fixed inability to upload image in "options grid" at "Manage Pages".
+
+
 ### Version 1.8.0
 
 > December 8, 2025
