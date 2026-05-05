@@ -99,6 +99,13 @@ breeze:
     m1:
     m2: /m2/extensions/breeze/
 
+breeze-content-builder:
+  title: Breeze Content Builder
+  short_description: Visual drag-and-drop page and layout builder for Breeze
+  urls:
+    m1:
+    m2: /m2/extensions/breeze-content-builder/
+
 breeze-theme-editor:
   title: Breeze Theme Editor
   short_description: Visual theme customization tool for Breeze
@@ -260,7 +267,7 @@ hyva-easybanners:
   short_description: Custom content blocks with flexible conditions and usage statistics
   size: 2x1
   urls:
-    m1: 
+    m1:
     m2: /m2/extensions/hyva-easybanners/
 
 easycatalogimages:
@@ -276,7 +283,7 @@ hyva-easycatalogimages:
   short_description: Visualize your sub-categories with awesome images.
   size: 2x2
   urls:
-    m1: 
+    m1:
     m2: /m2/extensions/hyva-easycatalogimages/
 
 easycolorswatches:
@@ -332,7 +339,7 @@ hyva-easyslider:
   title: Hyva EasySlider
   short_description:
   urls:
-    m1: 
+    m1:
     m2: /m2/extensions/hyva-easyslider/
 
 easytabs:
@@ -346,7 +353,7 @@ hyva-easytabs:
   title: Hyva EasyTabs
   short_description:
   urls:
-    m1: 
+    m1:
     m2: /m2/extensions/hyva-easytabs/
 
 featured-attributes:
@@ -384,7 +391,7 @@ hyva-gdpr:
   short_description: GDPR compliance module
   size: 1x1
   urls:
-    m1: 
+    m1:
     m2: /m2/extensions/hyva-gdpr/
 
 ga-plugin-events:
@@ -432,7 +439,7 @@ hyva-highlight:
     on homepage and other cms pages.
   size: 2x1
   urls:
-    m1: 
+    m1:
     m2: /m2/extensions/hyva-highlight/
 
 hover-gallery:
@@ -524,7 +531,7 @@ hyva-prolabels:
   title: Hyva Prolabels
   short_description:
   urls:
-    m1: 
+    m1:
     m2: /m2/extensions/hyva-prolabels/
 
 productvideos:
@@ -618,7 +625,7 @@ hyva-seo-suite:
   title: SEO Suite
   short_description:
   urls:
-    m1: 
+    m1:
     m2: /m2/extensions/hyva-seo-suite/
 
 seo-templates:
@@ -682,7 +689,7 @@ hyva-soldtogether:
   title: Hyva Sold Together
   short_description:
   urls:
-    m1: 
+    m1:
     m2: /m2/extensions/hyva-soldtogether/
 
 speculation-rules:
@@ -725,7 +732,7 @@ hyva-testimonials:
   short_description: Let the customer's speak. Your business deserves good words.
   size: 2x1
   urls:
-    m1: 
+    m1:
     m2: /m2/extensions/hyva-testimonials/
 
 webp:
