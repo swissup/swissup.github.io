@@ -76,13 +76,14 @@ Meta Description | Page Description
 
 ##### Display settings tab
 
-![Display settings tab](/images/m2/attributepages/attribute-based-page/backend/tab-display-settings.png)
+![Display settings tab](/images/m2/attributepages/attribute-based-page/backend/tab-display-settings_new.png)
 
 Field | Description
 :-----|:-----------
 Layout | Page Layout (Standard magento layout select field)
 Layout Update XML | This field can be used to add or remove additional blocks
 Display Mode | Page display mode (Description and children, Description only, Children only)
+Show Search Field | Enable search field on an attribute-based page
 Columns Count | Attribute options column count
 Group Options by First Letter | Handy, when you have really many attribute options(brands) count
 Listing Mode | Show as Images or as Links
