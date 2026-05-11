@@ -13,6 +13,16 @@ category: Breeze Content Builder
 
 ## Breeze Content Builder
 
+### 1.0.2
+
+- Added the ability to set descriptive labels for components
+- Fixed History panel styles with props opened
+
+### 1.0.1
+
+- Added `HugeRTE` compatibility (`TinyMCE` replacement since Magento 2.4.8-p3)
+- Fixed `HugeRTE` style in modal
+
 ### 1.0.0
 
 - Initial release
