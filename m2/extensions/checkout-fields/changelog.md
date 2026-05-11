@@ -8,6 +8,12 @@ category: Checkout Fields
 
 # Changelog
 
+### Version 1.6.16
+
+> May 11, 2026
+
+ -  Fixed incorrect table name in SQL query when using Magento 2.4.8.
+
 ### Version 1.6.13
 
 > April 9, 2025

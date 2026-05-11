@@ -7,6 +7,12 @@ category: Address Autocomplete
 
 # Changelog
 
+### Version 1.8.3
+
+> May 11, 2026
+
+ -  Fixed not working subpremise detection for some addresses.
+
 ### Version 1.8.1
 
 > September 9, 2025

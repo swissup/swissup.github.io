@@ -8,6 +8,14 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.34.4
+
+> May 11, 2026
+
+ -  Improved integration with StripePayments module.
+ -  CheckoutFields: Fixed incorrect table name in SQL query when using Magento 2.4.8.
+ -  AddressAutocomplete: Fixed not working subpremise detection for some addresses.
+
 ### Version 1.34.2
 
 > January 8, 2026
