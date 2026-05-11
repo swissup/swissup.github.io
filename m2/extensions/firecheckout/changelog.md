@@ -13,8 +13,10 @@ category: Firecheckout
 > May 11, 2026
 
  -  Improved integration with StripePayments module.
- -  CheckoutFields: Fixed incorrect table name in SQL query when using Magento 2.4.8.
- -  AddressAutocomplete: Fixed not working subpremise detection for some addresses.
+ -  [CheckoutFields](/m2/extensions/checkout-fields/): Fixed incorrect table name in SQL query when using Magento 2.4.8.
+ -  [AddressAutocomplete](/m2/extensions/address-autocomplete/): Fixed not working subpremise detection for some addresses.
+ -  [CheckoutCart](/m2/extensions/checkout-cart/): Fixed incorrect quantity button height on Magento 2.4.8
+ -  [DeliveryDate](/m2/extensions/delivery-date/): Fixed missing holiday when offset value is empty.
 
 ### Version 1.34.2
 
