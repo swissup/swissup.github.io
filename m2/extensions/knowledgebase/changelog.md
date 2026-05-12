@@ -8,6 +8,15 @@ category: KnowledgeBase
 
 # Changelog
 
+### Version 1.1.38
+
+> May 12, 2026
+
+ -  Fix: Restore search input reactivity in Breeze compatibility mode (`textInput:` → `value + valueUpdate + event` binding)
+ -  Perf: Skip `loadCategories()` GraphQL request when search query is active — saves one round-trip per keystroke
+ -  Perf: Memoize `loadCategories()` and `loadFaqs()` responses so clearing the search triggers zero additional requests
+ -  Test: Add PHPUnit unit tests for `IdentifierValidator` (45 cases) and `Router` integration; add `phpunit.xml.dist` and `bin/test` script
+
 ### Version 1.1.37
 
 > Feb 19, 2026
