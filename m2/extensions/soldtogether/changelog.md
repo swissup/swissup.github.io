@@ -8,6 +8,12 @@ category: SoldTogether
 
 # Changelog
 
+### Version 1.11.4
+
+> May 15, 2026
+
+ -  Magento 2.4.9 support
+
 ### Version 1.11.3
 
 > December 4, 2025

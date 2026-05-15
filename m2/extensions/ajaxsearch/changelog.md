@@ -6,6 +6,14 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.14.8
+
+> May 15, 2026
+
+ -  Magento 2.4.9 support
+ -  Fullscreen mode fixes
+ -  Improve Breeze Themes integration
+
 ### Version 1.14.5
 
 > Feb 19, 2026

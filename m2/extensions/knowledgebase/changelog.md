@@ -8,6 +8,12 @@ category: KnowledgeBase
 
 # Changelog
 
+### Version 1.1.44
+
+> May 15, 2026
+
+ -  Magento 2.4.9 support
+
 ### Version 1.1.37
 
 > Feb 19, 2026

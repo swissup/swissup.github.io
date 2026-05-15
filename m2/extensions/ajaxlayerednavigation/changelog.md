@@ -7,6 +7,12 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.6.7
+
+> May 15, 2026
+
+ -  Magento 2.4.9 support
+
 ### Version 1.6.5
 
 > December 5, 2025

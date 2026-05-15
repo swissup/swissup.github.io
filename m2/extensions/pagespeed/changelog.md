@@ -8,6 +8,12 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.17.7
+
+> May 15, 2026
+
+ -  Magento 2.4.9 support
+
 ### Version 1.17.5
 
 > April 17, 2026

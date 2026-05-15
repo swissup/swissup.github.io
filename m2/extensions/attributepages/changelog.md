@@ -7,6 +7,12 @@ category: Attributepages
 
 # Changelog
 
+### Version 1.8.5
+
+> May 15, 2026
+
+ -  PHP 8.5 compatibility.
+
 ### Version 1.8.3
 
 > May 5, 2026

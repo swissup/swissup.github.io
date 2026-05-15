@@ -11,6 +11,12 @@ category: AskIt
 
 # Changelog
 
+### Version 1.14.22
+
+> May 15, 2026
+
+ -  Magento 2.4.9 support
+
 ### Version 1.14.19
 
 > December 9, 2025

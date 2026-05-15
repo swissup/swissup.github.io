@@ -8,6 +8,12 @@ category: Easy Slider
 
 # Changelog
 
+### Version 1.8.17
+
+> May 15, 2026
+
+ -  Magento 2.4.9 support
+
 ### Version 1.8.16
 
 > September 30, 2025

@@ -8,6 +8,12 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.34.5
+
+> May 15, 2026
+
+ -  PHP 8.5 compatibility.
+
 ### Version 1.34.4
 
 > May 11, 2026

@@ -8,6 +8,12 @@ category: PDF Invoices
 
 # Changelog
 
+### Version 1.4.11
+
+> May 15, 2026
+
+ -  PHP 8.5 compatibility.
+
 ### Version 1.4.10
 
 > Mar 26, 2026

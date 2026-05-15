@@ -8,6 +8,16 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.18.0
+
+> May 15, 2026
+
+ -  Magento 2.4.9 support
+ -  Small fix for the styles when two levels per dropdown is shown
+ -  Fixed incorrect column width in backend preview
+ -  Fixed not visible loading-mask when saving menu
+ -  Update Breeze integration
+
 ### Version 1.17.36
 
 > April 16, 2026
