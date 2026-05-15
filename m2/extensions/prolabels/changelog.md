@@ -8,6 +8,12 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.9.1
+
+> May 15, 2026
+
+ -  Magento 2.4.9 compatibility.
+
 ### Version 1.8.1
 
 > Mar 27, 2026
