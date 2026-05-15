@@ -15,7 +15,7 @@ title: Developers documentation
 Install dependencies:
 
 ```bash
-sudo apt install php8.5-common php8.5-{bcmath,bz2,curl,gd,gmp,intl,mbstring,mysql,simplexml,soap,xml,zip}
+sudo apt install php8.5-common php8.5-fpm php8.5-{bcmath,bz2,curl,gd,gmp,intl,mbstring,mysql,simplexml,soap,xml,zip}
 ```
 
 Clone magento:
