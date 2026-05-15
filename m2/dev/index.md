@@ -15,7 +15,7 @@ title: Developers documentation
 Install dependencies:
 
 ```bash
-sudo apt install php-bcmath php-curl php-dom php-gd php-intl php-mbstring php-mysql php-simplexml php-soap php-xsl php-zip
+sudo apt install php8.5-common php8.5-{bcmath,bz2,curl,gd,gmp,intl,mbstring,mysql,simplexml,soap,xml,zip}
 ```
 
 Clone magento:
@@ -27,7 +27,7 @@ git clone git@github.com:magento/magento2.git && cd magento2
 Install the version you'd like to use:
 
 ```bash
-git checkout 2.4.6 && composer install
+git checkout 2.4.9 && composer install
 ```
 
 Now, open magento in browser and proceed installation. When magento is isntalled and
@@ -247,10 +247,12 @@ see what repos were affected.
 
 ### Update all modules
 
-This command will run parallel `git pull origin master` commands in each subfolder:
+This command will run parallel `git pull` commands in each subfolder:
 
 ```bash
-ls | xargs -P10 -I{} git -C {} pull origin master
+ls | xargs -P10 -I{} git -C {} checkout master &&\
+ls | xargs -P10 -I{} git -C {} checkout 3.x &&\
+ls | xargs -P10 -I{} git -C {} pull
 ```
 
 If the command above doesn't work for you, try another one.
