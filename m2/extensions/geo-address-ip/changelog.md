@@ -6,6 +6,13 @@ category: Geo Address IP
 
 # Changelog
 
+### Version 1.6.2
+
+> May 21, 2026
+
+ -  Allow using the latest version of `geoip2/geoip2` package.
+    Previously, the version was locked to `^2.0`.
+
 ### Version 1.6.0
 
 > August 21, 2025
