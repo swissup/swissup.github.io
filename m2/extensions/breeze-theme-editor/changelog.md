@@ -8,6 +8,13 @@ category: Breeze Theme Editor
 
 # Changelog
 
+### Version 1.0.1
+
+> Jun 4, 2026
+
+ -  Fixed palette swatches not restored visually after page reload in draft mode.
+ -  Fixed palette section header badges (Changed N / Reset) not restored after page reload in draft mode.
+
 ### Version 1.0.0
 
 > April 30, 2026
