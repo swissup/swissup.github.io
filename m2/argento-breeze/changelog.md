@@ -13,7 +13,7 @@ category: ArgentoBreeze
 
  - **Breeze Theme Editor and Breeze Layout Builder are now bundled in ArgentoBreeze!**
 
-## Extensions Updates
+**Extensions Updates**
 
 - [Ajax Search](/m2/extensions/ajaxsearch/) — 1.14.10 (was 1.14.6)
     + Breeze: configuration changes no longer require static content redeployment
