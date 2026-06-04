@@ -8,6 +8,12 @@ category: Rich Snippets
 
 # Changelog
 
+### Version 1.8.2
+
+> May 15, 2026
+
+ -  PHP 8.5 compatibility.
+
 ### Version 1.7.18
 
 > January 15, 2026

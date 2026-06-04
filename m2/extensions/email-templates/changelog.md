@@ -8,6 +8,12 @@ category: Email Templates
 
 # Changelog
 
+### Version 1.2.7
+
+> May 15, 2026
+
+ -  PHP 8.5 compatibility.
+
 ### Version 1.2.6
 
 > Oct 13, 2025

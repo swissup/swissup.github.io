@@ -8,6 +8,12 @@ category: Easy Banners
 
 # Changelog
 
+### Version 1.9.24
+
+> May 15, 2026
+
+ -  PHP 8.5 compatibility.
+
 ### Version 1.9.23
 
 > February 11, 2026

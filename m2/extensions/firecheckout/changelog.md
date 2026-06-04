@@ -8,6 +8,22 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.34.5
+
+> May 15, 2026
+
+ -  PHP 8.5 compatibility.
+
+### Version 1.34.4
+
+> May 11, 2026
+
+ -  Improved integration with StripePayments module.
+ -  [CheckoutFields](/m2/extensions/checkout-fields/): Fixed incorrect table name in SQL query when using Magento 2.4.8.
+ -  [AddressAutocomplete](/m2/extensions/address-autocomplete/): Fixed not working subpremise detection for some addresses.
+ -  [CheckoutCart](/m2/extensions/checkout-cart/): Fixed incorrect quantity button height on Magento 2.4.8
+ -  [DeliveryDate](/m2/extensions/delivery-date/): Fixed missing holiday when offset value is empty.
+
 ### Version 1.34.2
 
 > January 8, 2026

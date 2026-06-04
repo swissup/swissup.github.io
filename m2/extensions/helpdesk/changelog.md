@@ -8,6 +8,13 @@ category: Helpdesk
 
 # Changelog
 
+### Version 1.4.7
+
+> May 15, 2026
+
+ -  PHP 8.5 compatibility.
+ -  Minimum PHP version requirement updated to 8.1
+
 ## Version 1.4.5
 
 > Apr 2, 2026

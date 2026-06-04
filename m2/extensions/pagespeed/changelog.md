@@ -8,6 +8,49 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.17.8
+
+> June 3, 2026
+
+#### Fixed
+
+- **Double-backslash handling in ScriptTagEscaper JS parser**: `\\` in JS strings incorrectly caused the following character to be treated as escaped, making `findClosingScriptTag` never exit string literals and stripping `</body>` and `</html>` from the page. Fixed with an `isPrecededByOddBackslashes()` helper.
+- **New Relic (NREUM) scripts moved out of `<head>` by DeferJs**: NREUM scripts must run synchronously in `<head>`. DeferJs was relocating them to body end, breaking New Relic initialization. Added NREUM signatures to the DeferJs ignore list and removed the overly broad check that disabled all optimization when any page content contained `newrelic`.
+- **Script parsing error with New Relic (`Unexpected token '<'`)**: Fixed a script parsing issue triggered by New Relic inline scripts.
+- **TTL missing on optimizer cache entries**: Added a 30-day TTL to `CacheManager` entries to prevent stale entries from accumulating indefinitely.
+- **`block_html` cache tag on optimizer cache entries** *(closes #90)*: Removed the `block_html` tag from optimizer cache entries in `CacheManager` to prevent premature cache invalidation.
+
+---
+
+### Version 1.17.7
+
+> May 15, 2026
+
+#### Added
+
+- **Magento 2.4.9 native defer option support**: Added compatibility with Magento 2.4.9's built-in `dev/js/defer_non_critical` config option.
+
+#### Fixed
+
+- **CLI execute command on Magento 2.4.9**: Fixed a compatibility issue with the CLI command runner.
+- **`Zend_Cache` constant removed in Magento 2.4.9**: Replaced `Zend_Cache` constant with its string equivalent for Magento 2.4.9 compatibility.
+
+---
+
+### Version 1.17.6
+
+> May 12, 2026
+
+#### Changed
+
+- **Logger extracted to `swissup/module-logger`**: Logger functionality moved to the dedicated `swissup/module-logger ^2.0` package; updated namespaces and module sequence accordingly.
+
+#### Fixed
+
+- **Interaction mode in RequireJS override**: Fixed `touch` → `touchstart` event for proper mobile support; added `requestIdleCallback` as idle fallback; added 2s `setTimeout` fallback to ensure JS loads without user interaction; fixed `DOMContentLoaded` race condition via `readyState` check.
+
+---
+
 ### Version 1.17.5
 
 > April 17, 2026

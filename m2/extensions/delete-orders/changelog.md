@@ -8,6 +8,12 @@ category: Delete Orders
 
 # Changelog
 
+### Version 1.3.5
+
+> May 15, 2026
+
+ -  Magento 2.4.9 support
+
 ### Version 1.3.4
 
 > April 9, 2025

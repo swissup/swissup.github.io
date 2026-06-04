@@ -8,6 +8,12 @@ category: Checkout Success
 
 # Changelog
 
+### Version 2.0.11
+
+> May 15, 2026
+
+ -  Magento 2.4.9 support
+
 ### Version 2.0.9
 
 > Mar 28, 2024
