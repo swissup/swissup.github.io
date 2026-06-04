@@ -7,6 +7,95 @@ category: ArgentoBreeze
 
 # Argento Breeze Changelog
 
+### Version 3.0.0
+
+> June 4, 2026
+
+ - **Breeze Theme Editor and Breeze Layout Builder are now bundled in ArgentoBreeze!**
+
+## Extensions Updates
+
+- [Ajax Search](/m2/extensions/ajaxsearch/) — 1.14.10 (was 1.14.6)
+    + Breeze: configuration changes no longer require static content redeployment
+    + Added Magento 2.4.9 compatibility fixes
+    + Improved fullscreen search UI and styling
+    + Fixed conflicts when multiple Ajax Search instances are present on the same page
+    + Improved Breeze dark mode support and theme compatibility
+
+- [AskIt](/m2/extensions/askit/) — 1.14.23 (was 1.14.21)
+    + Added Swissup reCAPTCHA protection for question submission form
+    + Fixed AJAX form submission bypass when reCAPTCHA validation fails
+    + Improved CAPTCHA handling for AJAX requests
+    + Added Magento 2.4.9 compatibility fixes
+    + Added PHP 8.5 compatibility fixes
+
+- [Attribute Pages](/m2/extensions/attributepages/) — 1.8.5 (was 1.8.1)
+    + Added searchable attribute option lists (configurable, disabled by default)
+    + Added ability to hide Attribute Pages from HTML Sitemap
+    + Added PHP 8.5 compatibility fixes
+
+- [Easy Slide](/m2/extensions/easyslide/) — 1.8.17 (was 1.8.16)
+    + Added Magento 2.4.9 compatibility fixes
+    + Added PHP 8.5 compatibility fixes
+
+- [Easybanner](/m2/extensions/easybanner/) — 1.9.24 (was 1.9.23)
+    + Added PHP 8.5 compatibility fixes
+
+- [Easy Catalog Images](/m2/extensions/easycatalogimg/) — 1.5.14 (was 1.5.13)
+    + Added ability to customize block title and CSS classes via layout XML
+    + Added support for wrapping output with custom block containers
+    + Fixed escaping issues
+
+- [Hreflang Tags](/m2/extensions/hreflang/) — 1.6.12 (was 1.6.11)
+    + Added Magento 2.4.9 compatibility fixes
+    + Added PHP 8.5 compatibility fixes
+
+- [Navigation Pro](/m2/extensions/navigationpro/) — 1.18.0 (was 1.17.35)
+    + Improved Breeze dark mode compatibility
+    + Fixed backend preview column sizing
+    + Fixed resizable column functionality
+    + Added PHP 8.5 compatibility fixes
+
+- [Page Speed](/m2/extensions/pagespeed/) — 1.17.8 (was 1.17.3)
+    + Added support for Magento 2.4.9 native JavaScript deferring option
+    + Fixed New Relic compatibility issues with JavaScript optimization
+    + Fixed script parsing issues causing JavaScript errors
+    + Improved optimizer cache management
+    + Fixed WebP conversion edge cases affecting `<picture>` elements
+    + Multiple stability and performance improvements
+
+- [ProLabels](/m2/extensions/prolabels/) — 1.9.1 (was 1.8.1)
+    + Added Media Gallery integration for label image management
+    + Added "Upload + Media Gallery" image selector
+    + Added label image selection directly on product pages
+    + Improved label preview functionality
+    + Refactored label management architecture
+    + Added Magento 2.4.9 compatibility fixes
+    + Added PHP 8.5 compatibility fixes
+
+- [Quantity Switcher](/m2/extensions/quantity-switcher/) — 1.2.2 (was 1.2.1)
+    + Fixed TypeError when product type is unavailable
+
+- [Rich Snippets](/m2/extensions/rich-snippets/) — 1.8.2 (was 1.7.18)
+    + Added visual modifier builder with modal interface
+    + Added support for AdditionalProperty structured data modifiers
+    + Added Local Business schema configuration section
+    + Improved modifier management UI and workflow
+    + Added PHP 8.5 compatibility fixes
+
+- [SEO HTML Sitemap](/m2/extensions/html-sitemap/) — 1.1.23 (was 1.1.21)
+    + Added ability to hide Attribute Pages from sitemap
+    + Added custom sitemap URL per store view
+    + Added canonical tags for sitemap pages
+
+- [Sold Together](/m2/extensions/soldtogether/) — 1.11.4 (was 1.11.3)
+    + Fixed Customer recommendations block on shopping cart page
+    + Added Magento 2.4.9 compatibility fixes
+    + Added PHP 8.5 compatibility fixes
+
+- [Sold Together Import/Export](/m2/extensions/soldtogether/) — 1.0.2 (was 1.0.1)
+    + Added Magento 2.4.9 compatibility fixes
+
 ### Version 2.11.3
 
 > April 10, 2026
