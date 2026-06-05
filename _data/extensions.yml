@@ -153,6 +153,14 @@ checkoutcart:
     m1:
     m2: /m2/extensions/checkout-cart/
 
+checkoutconsumerrights:
+  title: Checkout Consumer Rights
+  short_description: Checkout consumer rights
+  size: 1x1
+  urls:
+    m1:
+    m2: /m2/extensions/checkout-consumer-rights/
+
 checkoutfields:
   title: Checkout Fields
   short_description: Add custom fields on checkout page
