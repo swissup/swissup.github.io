@@ -8,6 +8,19 @@ category: GDPR
 
 # Changelog
 
+### Version 1.9.0
+
+> June 8, 2026
+
+ -  When client clicks on the "Allow Selection" button, the module will now redirect
+    client back to the page after cookie settings are saved.
+ -  Added cleanup of the Blocked Cookies registry. Now, only 100 last entries
+    will be preserved in the log.
+ -  "Blocked cookies" title changed to "Unregistered cookies".
+ -  Show cookies count in the "Unregistered cookies" button title. See the [screenshot](/m2/extensions/gdpr/backend/#cookie-registry).
+ -  Automatically remove cookie from Unregistered list when you register it.
+ -  Fixed error on PHP 8.5 when trying to register blocked cookie.
+
 ### Version 1.8.5
 
 > March 19, 2026

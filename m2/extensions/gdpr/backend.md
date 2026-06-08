@@ -25,11 +25,10 @@ them. Normally, this list should be empty. When it's not - you should examine
 blocked cookies and add them to the registry, or remove the script that wants
 to create them.
 
-> Blocked cookies - is the list of cookies that some script was trying to create while
-> this cookie is not visible at the
-[frontend cookie settings page](/m2/extensions/gdpr/cookie-settings/).
+> Unregistered cookies - is the list of cookies that some script was trying to create while
+> this cookie is not visible at the [frontend cookie settings page](/m2/extensions/gdpr/cookie-settings/).
 
-![Cookie Registry](/images/m2/gdpr/backend/cookie-registry.png)
+![Cookie Registry](/images/m2/gdpr/backend/cookie-registry.webp?v=2){:width="1000" height="312"}
 
 ### Accepted Consents
 
