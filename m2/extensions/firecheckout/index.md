@@ -24,6 +24,7 @@ faster and easier by providing them a simple checkout form.
     - [Address Validation](/m2/extensions/address-validation/)
     - [Address Field Manager](/m2/extensions/address-field-manager/)
     - [Checkout Cart](/m2/extensions/checkout-cart/)
+    - [Checkout Consumer Rights](/m2/extensions/checkout-consumer-rights/)
     - [Checkout Fields](/m2/extensions/checkout-fields/)
     - [Customer Field Manager](/m2/extensions/customer-field-manager/)
     - [Customer Registration](/m2/extensions/checkout-registration/)

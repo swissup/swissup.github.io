@@ -8,6 +8,16 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.35.0
+
+> June 8, 2026
+
+ -  [CheckoutConsumerRights](/m2/extensions/checkout-consumer-rights/) module
+    added. This module helps to keep your store up to date with EU consumer rights
+    regulations by providing necessary checkout features and information to the
+    customers.
+ -  PHP 8.5 fixes.
+
 ### Version 1.34.5
 
 > May 15, 2026
