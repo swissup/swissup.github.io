@@ -7,6 +7,25 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.6.8
+
+> June 16, 2026
+
+ -  Fixed DynamicPlugin not catching OpenSearch exceptions. OpenSearch client
+    throws `OpenSearch\Common\Exceptions\BadRequest400Exception` which extends
+    `\Exception` and is not related to
+    `Elastic\Elasticsearch\Exception\ElasticsearchException`. The narrow catch
+    was silently missing all OpenSearch errors causing uncaught exceptions when
+    attributes with incorrect integer mapping contain non-numeric values
+    (e.g. `2xl`, `3xl`).
+ -  Fixed filter input search returning zero results for decimal values with dot
+    or comma separator (e.g. `0.4` or `0,4`). List.js escapes `.` and `,` as
+    regex special chars before doing a plain `indexOf` match, so `0.4` became
+    `0\.4` which never matched `0.47uF`.
+ -  Fixed PHPStan error: updated `ElasticsearchException` namespace for
+    Elasticsearch PHP client v8 (`Elasticsearch\Common\Exceptions` →
+    `Elastic\Elasticsearch\Exception`).
+
 ### Version 1.6.7
 
 > May 15, 2026
