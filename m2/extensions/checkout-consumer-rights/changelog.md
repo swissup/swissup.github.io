@@ -7,6 +7,12 @@ category: Checkout Consumer Rights
 
 # Changelog
 
+### Version 1.0.1
+
+> June 22, 2026
+
+ -  Breeze integration added
+
 ### Version 1.0.0
 
 > June 8, 2026
