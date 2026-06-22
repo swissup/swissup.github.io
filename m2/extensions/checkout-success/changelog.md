@@ -8,6 +8,12 @@ category: Checkout Success
 
 # Changelog
 
+### Version 2.0.12
+
+> June 22, 2026
+
+ -  Magento coding standards fixes
+
 ### Version 2.0.11
 
 > May 15, 2026
