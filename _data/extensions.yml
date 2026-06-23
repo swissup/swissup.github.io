@@ -63,6 +63,13 @@ ajaxsearch:
     m1: /m1/extensions/ajaxsearch/
     m2: /m2/extensions/ajaxsearch/
 
+hyva-ajaxsearch:
+  title: Hyva AjaxSearch
+  short_description:
+  urls:
+    m1: 
+    m2: /m2/extensions/hyva-ajaxsearch/
+
 akismet:
   title: Akismet
   short_description:
@@ -76,6 +83,13 @@ askit:
   urls:
     m1: /m1/extensions/askit/
     m2: /m2/extensions/askit/
+
+hyva-askit:
+  title: Hyva AskIt
+  short_description:
+  urls:
+    m1: 
+    m2: /m2/extensions/hyva-askit/
 
 attributepages:
   title: Attribute based pages

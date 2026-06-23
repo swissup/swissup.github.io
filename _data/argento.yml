@@ -231,6 +231,8 @@ hyva:
       url: /m2/argento-hyva/chic/
 
   extensions:
+    - hyva-ajaxsearch
+    - hyva-askit
     - hyva-easybanners
     - hyva-easycatalogimages
     - hyva-easyslider
