@@ -221,10 +221,10 @@ hyva:
       url: /m2/argento-hyva/installation/
 
     # - title: Upgrade Instructions
-    #   url: /m2/argento-breeze/upgrade-instructions/
+    #   url: /m2/argento-hyva/upgrade-instructions/
 
-    # - title: Customization
-    #   url: /m2/argento-breeze/customization/
+    - title: Customization
+      url: /m2/argento-hyva/customization/
 
   themes:
     - title: Chic

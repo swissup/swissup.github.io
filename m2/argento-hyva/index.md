@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Argento Hyva
-description: Argento Hyva documentation
+title: Argento Hyvä
+description: Argento Hyvä documentation
 category: ArgentoHyva
 ---
 
