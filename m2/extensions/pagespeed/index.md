@@ -30,6 +30,7 @@ If you are running the website with many images, scripts and content, the Page S
 **How to measure site grade?**
 
 *   [Google Page speed insights online tool](https://developers.google.com/speed/pagespeed/insights)
+*   [PageGym online tool](https://pagegym.com)
 *   [Gtmetrix online tool](http://gtmetrix.com)
 *   [Pingdom online tool](http://tools.pingdom.com)
 *   [Check GZIP compression](https://checkgzipcompression.com/)
