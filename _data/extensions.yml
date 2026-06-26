@@ -113,6 +113,13 @@ breeze:
     m1:
     m2: /m2/extensions/breeze/
 
+breeze-ai:
+  title: Breeze AI
+  short_description: AI content generation and translation for Magento 2
+  urls:
+    m1:
+    m2: /m2/extensions/breeze-ai/
+
 breeze-content-builder:
   title: Breeze Content Builder
   short_description: Visual drag-and-drop page and layout builder for Breeze
