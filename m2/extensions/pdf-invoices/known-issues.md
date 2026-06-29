@@ -24,6 +24,19 @@ if (isset($c)) {
 }
 ```
 
+If you still experience such issues, as totals duplication, items table is not rendered correctly,
+blank pages when exporting multiple invoices, try to apply the next fix.
+
+Workaround can be added in file `vendor/mpdf/mpdf/src/Mpdf.php` lines 11826 to 12267:
+
+```php
+if (isset($content[$i])) {
+    foreach ($content[$i] as $tablehf) {
+        ...
+    }
+}
+```
+
 ### Magento 2.4.4+ Compatibility
 
 With the release of Magento 2.4.4 and 2.4.3-p2, legacy email templates support was removed. PDF templates should be re-created based on the default templates to use new correct variables.
