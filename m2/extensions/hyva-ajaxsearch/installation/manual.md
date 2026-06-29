@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Hyva Ajaxsearch installation
-description: Hyva Ajaxsearch installation instructions
-category: Hyva Ajaxsearch
+title: Hyvä Ajaxsearch installation
+description: Hyvä Ajaxsearch installation instructions
+category: Hyvä Ajaxsearch
 exclude_from_search: true
 ---
 

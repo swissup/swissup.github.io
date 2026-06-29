@@ -1,8 +1,8 @@
 ---
 layout: default
-title: ArgentoBreeze Chic Contact Us Page
-description: ArgentoBreeze Chic contact us page
-category: ArgentoBreeze
+title: Argento Hyvä Chic Contact Us Page
+description: Argento Hyvä Chic contact us page
+category: Argento Hyvä Chic
 ---
 
 # Contact Us Page

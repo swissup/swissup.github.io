@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Ajaxsearch update
-description: Ajaxsearch update instructions
-category: Ajaxsearch
+title: Hyvä Ajaxsearch update
+description: Hyvä Ajaxsearch update instructions
+category: Hyvä Ajaxsearch
 exclude_from_search: true
 ---
 

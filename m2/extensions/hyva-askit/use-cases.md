@@ -1,17 +1,19 @@
 ---
 layout: default
-title: Askit Use Cases
+title: Hyvä Use Cases
 description: magento 2 questions use cases
 keywords: "magento product questions module, product questions on magento
      product page, magento askit module "
-category: Askit
+category: Hyvä Askit
 ---
 
 # Askit Use Cases
 
 ### Contents
 
-1. [Add questions tab on product standart tabs](#add-questions-tab-on-product-standart-tabs)
+- [Askit Use Cases](#askit-use-cases)
+    - [Contents](#contents)
+    - [Add questions tab on product standart tabs](#add-questions-tab-on-product-standart-tabs)
 
 
 ### Add questions tab on product standart tabs

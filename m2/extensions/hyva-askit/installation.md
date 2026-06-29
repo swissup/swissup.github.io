@@ -1,9 +1,9 @@
 ---
 layout: default
-title: AskIt Installation
-description: How to install Askit for Magento 2
-keywords: askit installation
-category: AskIt
+title: Hyvä AskIt Installation
+description: How to install Hyvä Askit for Magento 2
+keywords: hyva askit installation
+category: Hyvä AskIt
 ---
 
 # Installation instructions

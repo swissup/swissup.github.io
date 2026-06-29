@@ -1,8 +1,8 @@
 ---
 layout: default
-title: ArgentoHyva Chic
-description: ArgentoHyva Chic for Magento2
-category: ArgentoHyva
+title: Argento Hyvä Chic
+description: Argento Hyvä Chic for Magento2
+category: Argento Hyvä Chic
 ---
 
 # ArgentoHyva Chic

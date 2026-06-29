@@ -1,15 +1,36 @@
 ---
 layout: default
-title: Argento Hyva changelog
-description: Argento Hyva changelog
-category: ArgentoHyva
+title: Argento Hyvä Changelog
+description: Argento Hyvä Changelog
+category: Argento Hyvä
 ---
 
 # Argento Hyva Changelog
 
+### Version 1.3.1
+
+> June 29, 2026
+
+  - _ArgentoHyva Chic Theme_
+    + Fix Image on the card page
+    + Fixed Ajaxsearch
+    + Add styles expanded tabs & sticky titles
+    + Change style block Recently Viewed Products
+    + Added the ability to disable the "Show more" button
+    + Easy Catalog Images moved above columns
+    + Add event dispatch to trigger animated reveal on initialization of recently viewed products component
+
+**Hyva Extensions Updates**
+  - [Hyva Easy Tabs](/m2/extensions/hyva-easytabs/) — 1.1.4
+
+**Core Swissup Modules Updates**
+
+  - [Pro Labels](/m2/extensions/prolabels/) — 1.9.2
+  - [SEO Templates](/m2/extensions/seo-templates/) — 1.7.10
+
 ### Version 1.3.0
 
-> Jun 20, 2026
+> June 20, 2026
 
   - Fixed chache error
   - Refactor header panel link style

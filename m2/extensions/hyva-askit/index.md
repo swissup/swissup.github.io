@@ -1,15 +1,15 @@
 ---
 layout: default
-title: AskIt
+title: Hyvä AskIt
 description: >
     magento2 product questions askit module
 keywords: >
      magento product questions module, product questions on magento
      product page, magento askit module installation
-category: AskIt
+category: Hyvä AskIt
 ---
 
-# AskIt
+# Hyvä AskIt
 
 ![Talk](/images/m2/askit/talk.png)
 
@@ -22,10 +22,19 @@ category: AskIt
  - [Email Settings Section](#email-settings-section)
 4. [Frontend interface](#frontend-interface)
 5. [Admin interfaces](#admin-interfaces)
- - [Askit Questions Grid](#askit-questions-grid)
- - [Question Information Tab](#question-information-tab)
- - [Answers Tab](#answers-tab)
- - [Answer Edit](#answer-edit)
+- [Hyvä AskIt](#hyvä-askit)
+    - [Contents](#contents)
+  - [Features](#features)
+  - [Settings](#settings)
+    - [General section](#general-section)
+    - [Email Settings section](#email-settings-section)
+    - [Captcha section](#captcha-section)
+  - [Frontend interface](#frontend-interface)
+  - [Admin interfaces](#admin-interfaces)
+    - [Askit Questions Grid](#askit-questions-grid)
+          - [Question Information Tab](#question-information-tab)
+          - [Answers Tab](#answers-tab)
+          - [Answer Edit](#answer-edit)
 6. [Use Cases](use-cases/)
 7. [Changelog](changelog/)
 
@@ -41,7 +50,7 @@ Our module supports [Swissup AMP](../amp/) since AskIt version 1.6.0.
 
 ### General section
 
-![General Section](/images/m2/askit/general-section.png)
+![General Section](/images/m2/hyva-askit/general-section.png)
 
  *  Default question status - please select default status for question displayed
     on frontend from drop down list. Possible values are Pending,Approved,
@@ -80,7 +89,7 @@ Our module supports [Swissup AMP](../amp/) since AskIt version 1.6.0.
 
  *  Enable Gravatar integrity - select Yes to allow the display of avatar
     by customer email.
-![Integration Settings](/images/m2/askit/assign-config.png)
+![Integration Settings](/images/m2/hyva-askit/assign-config.png)
 
 ### Email Settings section
 
@@ -100,7 +109,7 @@ Our module supports [Swissup AMP](../amp/) since AskIt version 1.6.0.
 
 > Navigate to Stores -> Configuration -> Customers -> Customer Configuration -> CAPTCHA -> Forms
 
-![CAPTCHA settings](/images/m2/askit/captcha-config.png)
+![CAPTCHA settings](/images/m2/hyva-askit/captcha-config.png)
 
 ## Frontend interface
 

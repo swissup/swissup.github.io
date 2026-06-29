@@ -1,8 +1,8 @@
 ---
 layout: default
-title: ArgentoBreeze upgrade instructions
-description: ArgentoBreeze for Magento2 upgrade instructions
-category: ArgentoBreeze
+title: Argento Hyvä upgrade instructions
+description: Argento Hyvä for Magento2 upgrade instructions
+category: Argento Hyvä
 ---
 
 # Upgrade Instructions

@@ -1,8 +1,8 @@
 ---
 layout: default
-title: ArgentoBreeze Chic Header
-description: ArgentoBreeze Chic header
-category: ArgentoBreeze
+title: Argento Hyvä Chic Header
+description: Argento Hyvä Chic header
+category: Argento Hyvä Chic
 ---
 
 # Header

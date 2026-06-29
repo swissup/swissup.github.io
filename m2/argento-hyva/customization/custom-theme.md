@@ -1,8 +1,8 @@
 ---
 layout: default
-title: ArgentoBreeze custom theme
-description: How to create ArgentoBreeze-based custom theme
-category: ArgentoBreeze
+title: Argento Hyvä custom theme
+description: How to create ArgentoHyva-based custom theme
+category: Argento Hyva
 ---
 
 # Argento Hyvä custom theme

@@ -1,8 +1,8 @@
 ---
 layout: default
-title: ArgentoBreeze Chic Footer
-description: ArgentoBreeze Chic footer
-category: ArgentoBreeze
+title: Argento Hyvä Chic Footer
+description: Argento Hyvä Chic footer
+category: Argento Hyvä Chic
 ---
 
 # Footer

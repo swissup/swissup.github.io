@@ -1,8 +1,8 @@
 ---
 layout: default
-title: ArgentoBreeze Chic homepage content structure
-description: ArgentoBreeze Chic homepage content structure
-category: ArgentoBreeze
+title: Argento Hyvä Chic homepage content structure
+description: Argento Hyvä Chic homepage content structure
+category: Argento Hyvä Chic
 ---
 
 # Homepage content

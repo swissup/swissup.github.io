@@ -1,8 +1,8 @@
 ---
 layout: default
-title: ArgentoBreeze Chic Product Page
-description: ArgentoBreeze Chic product page
-category: ArgentoBreeze
+title: Argento Hyvä Chic Product Page
+description: Argento Hyvä Chic product page
+category: Argento Hyvä Chic
 ---
 
 # Product Page

@@ -1,11 +1,11 @@
 ---
 layout: default
-title: AskIt Update
-description: How to update Askit for Magento 2
-category: AskIt
+title: Hyvä AskIt Update
+description: How to update Hyvä Askit for Magento 2
+category: Hyvä AskIt
 exclude_from_search: true
 ---
 
 # Update Instructions
 
-{% include installation/m2/composer-update.html package="swissup/askit" %}
+{% include installation/m2/composer-update.html package="swissup/hyva-askit" %}

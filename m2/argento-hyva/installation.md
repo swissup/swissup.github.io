@@ -1,8 +1,8 @@
 ---
 layout: default
-title: ArgentoHyva Installation and Upgrade Instructions
-description: How to install ArgentoHyva on Magento 2
-category: ArgentoHyva
+title: Argento Hyvä Installation and Upgrade Instructions
+description: How to install Argento Hyvä on Magento 2
+category: Argento Hyvä
 ---
 
 ## Installation and upgrade instructions

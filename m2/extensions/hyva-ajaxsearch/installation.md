@@ -1,8 +1,8 @@
 ---
 layout: default
-title: Ajaxsearch installation
-description: Ajaxsearch installation instructions
-category: Ajaxsearch
+title: Hyvä Ajaxsearch installation
+description: Hyvä Ajaxsearch installation instructions
+category: Hyvä Ajaxsearch
 ---
 
 # Installation instructions

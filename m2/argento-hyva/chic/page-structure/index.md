@@ -1,8 +1,8 @@
 ---
 layout: default
-title: ArgentoBreeze Chic page structure manuals
-description: ArgentoBreeze Chic page structure manuals
-category: ArgentoBreeze
+title: Argento Hyvä Chic page structure manuals
+description: Argento Hyvä Chic page structure manuals
+category: Argento Hyvä Chic
 ---
 
 # Page structure manuals
