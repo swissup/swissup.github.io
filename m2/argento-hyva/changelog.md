@@ -7,6 +7,16 @@ category: Argento Hyvä
 
 # Argento Hyva Changelog
 
+### Version 1.3.2
+
+> June 30, 2026
+
+  - _ArgentoHyva Chic Theme_
+    + RTL support for AjaxSearch module
+
+**Hyva Extensions Updates**
+  - [Hyva Ajax Search](/m2/extensions/hyva-ajaxsearch/) — 1.0.1
+
 ### Version 1.3.1
 
 > June 29, 2026
