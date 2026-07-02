@@ -14,6 +14,9 @@ category: Adobe Cloud
 
 We will review the essential steps for the local environment setup of an in-progress Magento Cloud project.
 
+> Prefer to keep PHP and Composer off your machine? See the
+> [Pure Docker setup](/m2/dev/cloud-docker/), which runs every bootstrap command in a container.
+
 #### Prerequisites
 
 1. PHP:
