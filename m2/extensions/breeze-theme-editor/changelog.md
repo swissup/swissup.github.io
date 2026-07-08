@@ -8,12 +8,72 @@ category: Breeze Theme Editor
 
 # Changelog
 
-### Version 1.0.1
+### Version 1.0.10
+
+> Jul 8, 2026
+
+ -  Fixed status detection treating a cached empty status map as a valid cache entry.
+ -  Migrated unit tests off APIs removed in PHPUnit 10-12 while keeping PHPUnit 9.6 compatibility.
+
+### Version 1.0.9
+
+> Jun 23, 2026
+
+ -  Fixed misleading GraphQL errors when `.htaccess` Basic Auth blocks the endpoint with 401 — now detected and reported clearly.
+
+### Version 1.0.8
 
 > Jun 4, 2026
 
  -  Fixed palette swatches not restored visually after page reload in draft mode.
  -  Fixed palette section header badges (Changed N / Reset) not restored after page reload in draft mode.
+
+### Version 1.0.7
+
+> Jun 4, 2026
+
+ -  Added raw CSS injection for code fields without `property`.
+ -  Added preview iframe reload via cookie override for PHP-only field changes.
+ -  Fixed session expiry during CSS load — login toast is shown instead of a silent failure.
+ -  Fixed live preview to update the `--preview-color` variable instead of `background-color`.
+ -  Fixed cache handling after Publish/Rollback — clean cache types instead of invalidating them.
+ -  Synced JS GraphQL selection sets with the schema.
+ -  Enabled the module by default.
+ -  Fixed Marketplace EQP errors.
+
+### Version 1.0.6
+
+> May 29, 2026
+
+ -  Removed `notifyUsers` field from the Publish GraphQL input.
+
+### Version 1.0.5
+
+> May 28, 2026
+
+ -  Added `media` property support with device switcher integration.
+ -  Added ref-sync module for live two-way field synchronization.
+ -  Fixed live preview to respect the CSS selector and propagate `data-selector` to all field templates.
+ -  Fixed setup patches to use prefix-aware table name resolution.
+ -  Added number field styles to the Theme Editor panel.
+
+### Version 1.0.4
+
+> May 20, 2026
+
+ -  Fixed missing `suggestPublicationTitle` in the GraphQL client.
+
+### Version 1.0.3
+
+> May 15, 2026
+
+ -  Added Magento 2.4.9 compatibility — replaced `Zend_Cache` constants with strings.
+
+### Version 1.0.2
+
+> May 12, 2026
+
+ -  Updated `swissup/module-logger` dependency to `^2.0` and removed it from the module sequence.
 
 ### Version 1.0.0
 
