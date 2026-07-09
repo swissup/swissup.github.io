@@ -8,6 +8,13 @@ category: Checkout Cart
 
 # Changelog
 
+### Version 1.5.10
+
+> Dec 18, 2025
+
+ -  Fixed incorrect quantity toggler height on stores using a newer LESS compiler.
+ -  Compatibility update for Checkout module 1.5.3.
+
 ### Version 1.5.9
 
 > May 23, 2023

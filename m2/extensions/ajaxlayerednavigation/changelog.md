@@ -32,17 +32,64 @@ category: Ajax Layered Navigation
 
  -  Magento 2.4.9 support
 
+### Version 1.6.6
+
+> February 10, 2026
+
+ -  Added SQL fallback for OpenSearch attribute aggregation failures. When
+    OpenSearch fails to aggregate product attributes due to type mismatches
+    (e.g. `2xl` values in integer-mapped fields), falls back to a direct SQL
+    query against `catalog_product_index_eav`. Fixes #105.
+ -  Removed stock filter from search results page. OpenSearch already
+    factors stock availability into relevance, and the filter was showing a
+    count but returning no results when clicked. Category pages keep the
+    filter.
+
 ### Version 1.6.5
 
 > December 5, 2025
 
  -  Updated Breeze integration.
 
+### Version 1.6.4
+
+> November 25, 2025
+
+ -  Breeze integration fixes; Breeze no longer uses turbolinks.
+ -  Fixed `navigation.scroll` JS errors.
+ -  Fixed total pages calculation by using `max(productItemsTotal, toolbarTotal)`.
+
+### Version 1.6.3
+
+> October 20, 2025
+
+ -  Fixed page-detector: prevent invalid page parameter from causing empty
+    product listings.
+
+### Version 1.6.2
+
+> September 17, 2025
+
+ -  Fixed lost `disabled` CSS class (typo); renamed `isDisabled` to
+    `hasNoResults` for clarity.
+
 ### Version 1.6.1
 
 > September 9, 2025
 
  -  Compatibility with Breeze 2.25.0
+
+### Version 1.6.0
+
+> August 27, 2025
+
+ -  Updated the List.js library to v2.3.1 (close #101).
+ -  Fixed escaping of `checked="checked"` attribute (double `escapeHtmlAttr`
+    call was dropping the background color).
+ -  Hid href in layered navigation (close #102).
+ -  Restored rating template.
+ -  General PHPCS/PHPDoc/Magento coding-standard warning fixes (Escaper
+    usage, method annotations).
 
 ### Version 1.5.30
 

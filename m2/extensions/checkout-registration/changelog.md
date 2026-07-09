@@ -7,6 +7,19 @@ category: Checkout Registration
 
 # Changelog
 
+### Version 1.2.3
+
+> December 18, 2025
+
+ -  Improved API request detection to also check the `HTTP_REFERER` header.
+ -  Compatibility update for Checkout module 1.5.3.
+
+### Version 1.2.2
+
+> September 1, 2025
+
+ -  Fixed invalid PHPDoc annotation in the page class name observer.
+
 ### Version 1.2.1
 
 > April 9, 2025

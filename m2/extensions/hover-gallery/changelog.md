@@ -8,6 +8,18 @@ category: Hover Gallery
 
 # Changelog
 
+### Version 1.3.15
+
+> Sep 30, 2025
+
+ -  Fixed unescaped output error in hover image template (#5).
+
+### Version 1.3.14
+
+> May 22, 2025
+
+ -  Fixed missing animation on hover out.
+
 ### Version 1.3.13
 
 > May 22, 2025

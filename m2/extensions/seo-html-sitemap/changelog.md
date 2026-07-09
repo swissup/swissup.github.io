@@ -8,6 +8,18 @@ category: SEO HTML Sitemap
 
 # Changelog
 
+### Version 1.1.23
+
+> May 11, 2026
+
+ - Added Hide Attribute Pages config.
+
+### Version 1.1.22
+
+> May 8, 2026
+
+ - Added ability to set custom sitemap URL per store; added canonical tag.
+
 ### Version 1.1.21
 
 > August 29, 2025

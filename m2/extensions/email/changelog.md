@@ -8,6 +8,12 @@ category: Email
 
 # Changelog
 
+### Version 0.7.11
+
+> January 29, 2026
+
+ - Fix PHP 8.4 deprecation: add explicit nullable types to `fromDsn()` parameters.
+
 ### Version 0.7.10
 
 > January 15, 2026

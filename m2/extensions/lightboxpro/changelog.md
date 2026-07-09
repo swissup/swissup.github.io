@@ -8,6 +8,24 @@ category: Lightbox Pro
 
 # Changelog
 
+### Version 1.3.10
+
+> Apr 8, 2026
+
+ -  Synced with Magento core: added missing width/height attributes to gallery images.
+
+### Version 1.3.9
+
+> Oct 7, 2025
+
+ -  Fixed unescaped output detected error.
+
+### Version 1.3.8
+
+> Mar 20, 2025
+
+ -  Updated widget uploader template with latest Magento core changes.
+
 ### Version 1.3.7
 
 > Dec 12, 2024

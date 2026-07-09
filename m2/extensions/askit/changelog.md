@@ -11,6 +11,13 @@ category: AskIt
 
 # Changelog
 
+### Version 1.14.23
+
+> May 29, 2026
+
+ -  Added Swissup ReCaptcha protection for the "Ask question" form.
+ -  Fixed: AJAX form submission is no longer processed when reCAPTCHA validation fails.
+
 ### Version 1.14.22
 
 > May 15, 2026

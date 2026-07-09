@@ -6,6 +6,19 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.14.10
+
+> June 1, 2026
+
+ -  Breeze: config changes no longer require static content redeployment.
+
+### Version 1.14.9
+
+> May 21, 2026
+
+ -  Breeze 2.0: fixed search form styles.
+ -  Breeze 2.0: reverted `input-bg`/`base-bg` background CSS variables for compatibility.
+
 ### Version 1.14.8
 
 > May 15, 2026

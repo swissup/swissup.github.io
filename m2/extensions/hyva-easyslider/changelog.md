@@ -8,6 +8,12 @@ category: Easy Slider
 
 # Changelog
 
+### Version 1.8.18
+
+> June 11, 2026
+
+ -  Fixed JS error on hidden slider (close #41).
+
 ### Version 1.8.16
 
 > September 30, 2025

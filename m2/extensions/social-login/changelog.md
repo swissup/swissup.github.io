@@ -8,6 +8,12 @@ category: SocialLogin
 
 # Changelog
 
+### Version 1.1.12
+
+> December 8, 2025
+
+ -  Added missing HTML escaping to the login buttons template.
+
 ### Version 1.1.11
 
 > April 9, 2025

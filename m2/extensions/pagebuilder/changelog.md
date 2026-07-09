@@ -8,6 +8,27 @@ category: Pagebuilder
 
 # Changelog
 
+### Version 1.1.9
+
+> Apr 3, 2026
+
+ -  Fixed implicitly marking parameter as nullable deprecation notice.
+
+### Version 1.1.8
+
+> Mar 26, 2026
+
+ -  Fixed unescaped output detected error.
+
+### Version 1.1.7
+
+> Jan 30, 2026
+
+ -  Added overlays toggler.
+ -  Added "Login As Customer" link.
+ -  Fixed deprecated nullable parameter in `Section::setParentSection()`.
+ -  Fixed "Avoid using self-closing tag with non-void html element" notice.
+
 ### Version 1.1.6
 
 > Nov 28, 2023

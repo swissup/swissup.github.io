@@ -8,6 +8,25 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.18.0
+
+> July 8, 2026
+
+#### Added
+
+- **Dedicated cache type for optimizer entries**: Added a new Magento cache type (`swissup_pagespeed`) so PageSpeed optimizer cache entries no longer pollute the `block_html` cache type. Fixes Redis "Default" cache pollution where 1.2M+ `SWISSUP_PAGESPEED` entries were mixed into `block_html`; optimizer cache is now independently manageable in Stores > Cache Management.
+
+#### Fixed
+
+- **Preload `rel`/`fetchpriority` per resource type** *(closes #93, #94)*: Replaced the global priority counter with per-type counters — fonts unlimited, styles limited to 2, image/LCP limited to 1, scripts get `rel=prefetch` instead of `preload`. Also fixed `isEnabled()` being hardcoded to `true` instead of respecting the "Link Preload" config option.
+- **Scripts downloaded twice via preload + DOM** *(closes #95)*: Removed `DeferJs::addPreloadLinks()` — every external `<script src>` remained live in the DOM while also getting a `<link rel=prefetch>` hint, causing the browser to fetch the file twice (confirmed with CookiePal, Elfsight, requirejs-config-breeze on mobile). Added a defensive guard in `AddLinkPreload` to skip any script href already present as a `<script src>` tag in the DOM.
+
+#### Removed
+
+- **Expire Header feature** *(closes #91)*: Removed the `Body\Expire` optimizer, its `pagespeed/expire/*` config, and admin section. The feature set `Cache-Control: public, max-age=31536000` on guest page HTML; browsers and hosting-side proxies invisible to the Varnish config check could cache such pages for up to a year, preventing merchants from pushing content/price updates to returning visitors.
+
+---
+
 ### Version 1.17.8
 
 > June 3, 2026

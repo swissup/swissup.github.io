@@ -8,6 +8,20 @@ category: Address Field Manager
 
 # Changelog
 
+### Version 1.6.21
+
+> Oct 9, 2025
+
+ -  Fixed shipping address custom field values being copied from the default
+    address during checkout.
+
+### Version 1.6.20
+
+> Jun 12, 2025
+
+ -  Fixed JSON config escaping issue that could break address renderer
+    initialization.
+
 ### Version 1.6.19
 
 > Jan 22, 2025

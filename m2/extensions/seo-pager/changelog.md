@@ -8,6 +8,15 @@ category: SEO Pager
 
 # Changelog
 
+### Version 1.4.0
+
+> June 7, 2026
+
+ - Added "Filter sets to allow INDEX,FOLLOW" configuration for the
+   `Unique rel="canonical" to each page` strategy, so specific filter
+   combinations can be presented to search engines as separate pages.
+ - Updated canonical URL generation.
+
 ### Version 1.3.5
 
 > April 23, 2024

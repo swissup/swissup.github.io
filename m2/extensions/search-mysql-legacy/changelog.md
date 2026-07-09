@@ -8,6 +8,13 @@ category: Legacy Mysql Search
 
 # Changelog
 
+### Version 1.1.13
+
+> Feb 26, 2026
+
+ - Fix: Use explicit nullable type for `$scopeConfig` in `MatchBuilder` (PHP 8.4 deprecation).
+ - Closes [#25](https://github.com/swissup/module-search-mysql-legacy/issues/25)
+
 ### Version 1.1.12
 
 > Feb 16, 2026

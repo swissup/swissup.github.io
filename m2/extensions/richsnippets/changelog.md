@@ -8,6 +8,16 @@ category: Rich Snippets
 
 # Changelog
 
+### Version 1.8.4
+
+> June 9, 2026
+
+ -  Added `strip_pagebuilder` modifier to remove Page Builder markup from
+    Additional Property values.
+ -  Added `regex` modifier for PCRE-based find-and-replace.
+ -  Added validation of the `regex` modifier pattern in the modifier admin modal.
+ -  Fixed reordered modifiers not being saved.
+
 ### Version 1.8.2
 
 > May 15, 2026

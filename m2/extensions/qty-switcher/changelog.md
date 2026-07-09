@@ -8,6 +8,18 @@ category: Quantity Switcher
 
 # Changelog
 
+### Version 1.2.2
+
+> May 15, 2026
+
+ -  Fixed `TypeError` in `getMaxQty()` when product `type_id` is `null`.
+
+### Version 1.2.1
+
+> Mar 31, 2026
+
+ -  Breeze: fixed quantity switcher widget not initializing after a previous refactor.
+
 ### Version 1.2.0
 
 > Mar 26, 2026

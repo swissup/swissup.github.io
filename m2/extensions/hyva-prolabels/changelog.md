@@ -8,6 +8,12 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.9.2
+
+> June 29, 2026
+
+ -  Fixed `ParseError` in admin templates (`apply/all.phtml`, `apply/label.phtml`) when template minification is enabled.
+
 ### Version 1.8.1
 
 > Mar 27, 2026

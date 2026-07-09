@@ -13,6 +13,19 @@ category: Breeze Content Builder
 
 ## Breeze Content Builder
 
+### 1.0.4
+
+- Fixed page builder installer using a hard-coded content version instead of the next available one
+- Widgets that rely on the current page (e.g. AskIt) now receive the current `page_id`
+- Fixed missing CSS class in the Featured Product component
+
+### 1.0.3
+
+- Added Header and Footer management
+- Hid the Label field for Header and Footer items
+- Added methods to expand sections
+- Fixed History panel tracking for Header and Footer changes
+
 ### 1.0.2
 
 - Added the ability to set descriptive labels for components

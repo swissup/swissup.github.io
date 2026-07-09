@@ -20,6 +20,13 @@ category: Checkout Success
 
  -  Magento 2.4.9 support
 
+### Version 2.0.10
+
+> February 24, 2025
+
+ -  Fixed type error in plugin: argument #3 must be of type
+    `Magento\Sales\Model\Order\Item`.
+
 ### Version 2.0.9
 
 > Mar 28, 2024

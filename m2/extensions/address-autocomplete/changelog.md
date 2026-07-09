@@ -7,6 +7,13 @@ category: Address Autocomplete
 
 # Changelog
 
+### Version 1.8.4
+
+> June 16, 2026
+
+ -  Fixed city detection for addresses in small towns where Google Places
+    returns `administrative_area_level_3` instead of `locality`.
+
 ### Version 1.8.3
 
 > May 11, 2026

@@ -8,11 +8,50 @@ category: Cachewarmer
 
 # Changelog
 
-### Version 1.3.5
+### Version 1.0.40
+
+> Jul 6, 2026
+
+ -  Prioritize invalidated pages for immediate re-warm after cache flush.
+ -  Fix schema drift on `load_time` column (#16).
+ -  Fix PHPUnit 12 compatibility for unit tests (#17).
+
+### Version 1.0.39
+
+> Jun 19, 2026
+
+ -  Add `--url` option to `swissup:cache:warm` command to warm specific URLs (#14).
+ -  Prioritize warm queue by page type (homepage, product, category, cms-page) (#15).
+
+### Version 1.0.38
 
 > May 15, 2026
 
  -  Magento 2.4.9 support
+
+### Version 1.0.37
+
+> Nov 19, 2025
+
+ -  Fixed broken json config.
+
+### Version 1.0.36
+
+> Nov 19, 2025
+
+ -  Fix: Unescaped output detected.
+
+### Version 1.0.35
+
+> Nov 19, 2025
+
+ -  Add analytics enable check for backend graph block.
+
+### Version 1.0.34
+
+> May 23, 2025
+
+ -  Do not update customer_sections after analytics request.
 
 ### Version 1.0.33
 
@@ -20,6 +59,12 @@ category: Cachewarmer
 
  -  PHP 8.4 support added.
  -  Magento 2.4.8 support added.
+
+### Version 1.0.32
+
+> Dec 13, 2024
+
+ -  Improve output in --debug mode.
 
 ### Version 1.0.31
 

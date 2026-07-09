@@ -8,6 +8,18 @@ category: Easy Tabs
 
 # Changelog
 
+### Version 1.13.4
+
+> July 2, 2026
+
+ -  Product Attribute tab: Excluded root and current store's root category from the rendered "Categories" attribute value.
+
+### Version 1.13.3
+
+> July 2, 2026
+
+ -  Product Attribute tab: Added support for rendering the "Categories" attribute - shows names of categories assigned to the product.
+
 ### Version 1.13.2
 
 > December 5, 2025

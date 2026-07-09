@@ -7,6 +7,22 @@ category: Argento Hyvä
 
 # Argento Hyva Changelog
 
+### Version 1.3.4
+
+> July 8, 2026
+
+  - _ArgentoHyva Chic Theme_
+    + Updated theme dependencies to version 1.3.4
+
+**Hyva Extensions Updates**
+  - [Hyva Highlight](/m2/extensions/hyva-highlight/) — 1.1.1 (was 1.0.4)
+  - [Hyva Sold Together](/m2/extensions/hyva-soldtogether/) — 1.2.1 (was 1.2.0)
+
+**Core Swissup Modules Updates**
+
+  - [EasyTabs](/m2/extensions/easytabs/) — 1.13.4 (was 1.13.2)
+  - [GDPR](/m2/extensions/gdpr/) — 1.9.1 (was 1.9.0)
+
 ### Version 1.3.2
 
 > June 30, 2026
@@ -58,6 +74,28 @@ category: Argento Hyvä
 
   - [SEO XML Sitemap](/m2/extensions/seo-xml-sitemap/) — 1.2.0 (was 1.1.16)
 
+### Version 1.2.1
+
+> June 29, 2026
+
+  - _ArgentoHyva Chic Theme_
+    + Updated theme dependencies to version 1.3.0
+
+**Hyva Extensions Updates**
+  - [Hyva Askit](/m2/extensions/hyva-askit/) — 1.0.0 (new dependency)
+
+**Core Swissup Modules Updates**
+
+  - [Easy Slide](/m2/extensions/easyslider/) — 1.8.18 (was 1.8.17)
+  - [GDPR](/m2/extensions/gdpr/) — 1.9.0 (was 1.8.5)
+  - [Pro Labels](/m2/extensions/prolabels/) — 1.9.2 (was 1.9.1)
+
+**SEO Modules Updates**
+
+  - [Rich Snippets](/m2/extensions/richsnippets/) — 1.8.4 (was 1.8.2)
+  - [SEO Templates](/m2/extensions/seo-templates/) — 1.7.11 (was 1.7.10)
+  - [SEO XML Sitemap](/m2/extensions/seo-xml-sitemap/) — 1.2.0 (was 1.1.16)
+
 ### Version 1.2.0
 
 > Jun 17, 2026
@@ -104,6 +142,22 @@ category: Argento Hyvä
 
   - [Sold Together](/m2/extensions/soldtogether/) — 1.11.4 (was 1.11.3)
   - [Sold Together Import/Export](/m2/extensions/soldtogether/) — 1.0.2 (was 1.0.1)
+
+### Version 1.1.3
+
+> April 10, 2026
+
+  - _ArgentoHyva Blank Theme_
+      + Updated theme dependencies to version 1.1.3
+  - _ArgentoHyva Chic Theme_
+      + Updated theme dependencies to version 1.1.3
+
+### Version 1.1.2
+
+> April 10, 2026
+
+  - _ArgentoHyva Chic Theme_
+      + Updated theme dependencies to version 1.1.1
 
 ### Version 1.1.1
 

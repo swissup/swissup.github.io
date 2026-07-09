@@ -8,6 +8,14 @@ category: GDPR
 
 # Changelog
 
+### Version 1.9.1
+
+> June 30, 2026
+
+ -  Fixed PHP 8.5 warning ("Using null as an array offset is deprecated")
+    when loading Cookie Groups grid data.
+ -  Added Danish (da_DK) translation.
+
 ### Version 1.9.0
 
 > June 8, 2026

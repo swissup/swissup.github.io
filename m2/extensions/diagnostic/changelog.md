@@ -8,6 +8,19 @@ category: Diagnostic
 
 # Changelog
 
+### Version 1.0.13
+
+> June 30, 2026
+
+ -  Refactored console commands. Extracted shared module enable/disable logic into `Abstract*Command` base classes.
+ -  `swissup:info` command now reads PHP/Magento/Composer version info in-process instead of shelling out to sub-processes.
+
+### Version 1.0.12
+
+> May 15, 2026
+
+ -  Fixed Magento 2.4.9 compatibility. Added missing `int` return type to `execute()` method in CLI commands.
+
 ### Version 1.0.11
 
 > March 7, 2026

@@ -8,6 +8,12 @@ category: Helpdesk
 
 # Changelog
 
+### Version 1.4.8
+
+> May 18, 2026
+
+ -  Fix: show error message when attachment file is missing instead of throwing an exception (close #63).
+
 ### Version 1.4.7
 
 > May 15, 2026

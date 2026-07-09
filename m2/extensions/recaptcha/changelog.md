@@ -8,6 +8,12 @@ category: reCAPTCHA
 
 # Changelog
 
+### Version 1.4.15
+
+> December 10, 2025
+
+ -  Fixed Breeze checkout error caused by Magezon Builder's custom jQuery alias.
+
 ### Version 1.4.14
 
 > December 5, 2025
