@@ -8,6 +8,13 @@ category: Breeze Theme Editor
 
 # Changelog
 
+### Version 1.0.11
+
+> Jul 14, 2026
+
+ -  Fixed Theme Editor menu redirecting to an error page in Commerce/Enterprise setups with admin website-scope restrictions.
+ -  Added per-field icon to highlight elements affected by a CSS var.
+
 ### Version 1.0.10
 
 > Jul 8, 2026
