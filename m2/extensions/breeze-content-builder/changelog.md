@@ -13,6 +13,14 @@ category: Breeze Content Builder
 
 ## Breeze Content Builder
 
+### 1.0.5
+
+ -  Added `Column Divider` config option for the `Columns` component
+ -  Added `2 Columns (25/75)` layout for the `Columns` component
+ -  Added new `Collage` layout for the `Banner` component
+ -  Fixed missing content after running installer
+ -  Added Breeze scrollReveal settings for the `Banner` component
+
 ### 1.0.4
 
 - Fixed page builder installer using a hard-coded content version instead of the next available one
