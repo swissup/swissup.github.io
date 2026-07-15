@@ -6,6 +6,23 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.7.36
+
+> July 15, 2026
+
+ -  Fixed all storefront notice messages being silently dropped during ajax requests.
+ -  Fixed an endless customer section reload loop on same-domain multi-store setups.
+ -  Fixed the auto-close timeout not closing the results popup.
+ -  Improved event handling to avoid removing click handlers registered by other modules.
+ -  Replaced the `PostHelper` class override with a plugin to compose with other extensions instead of conflicting.
+ -  Unified the customer-data handling between Luma and Breeze frontends.
+
+### Version 1.7.35
+
+> July 14, 2026
+
+ -  Fixed the results popup opening on page load for logged-in customers when AjaxPro sections expired.
+
 ### Version 1.7.34
 
 > February 17, 2026
