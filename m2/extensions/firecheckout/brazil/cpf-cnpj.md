@@ -19,7 +19,7 @@ A CNPJ is a 14-digit number; 12 base digits and two digits at the end that are
 the result of an arithmetic formula of the base numbers, making any typing mistakes
 when entering the number lead to an invalid number.
 
-> Here is an example of a CNPJ: 13.339.532/0001-09 [CNPJ generator](https://www.4devs.com.br/gerador_de_cnpj)
+> Here is an example of a CNPJ: 13.339.532/0001-09. For development and testing, you can generate valid CNPJ numbers using the [4Devs CNPJ Generator](https://www.4devs.com.br/gerador_de_cnpj) or the [Gerador BR CNPJ Generator](https://gerador-br.com/gerador-de-cnpj/).
 
 At this article we explaine you how to create company and persone code using
 magento field "vat_id" and the firecheckout module.
