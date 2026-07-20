@@ -7,6 +7,93 @@ category: ArgentoBreeze
 
 # Argento Breeze Changelog
 
+### Version 3.1.0
+
+> July 20, 2026
+
+ - **Stripes theme Homepage content is now built with Breeze Content Builder** — banners, sliders, benefits and brand blocks on the ArgentoBreeze Stripes homepage are now editable in the Content Builder
+ - Added **Breeze AI** — generate and translate product/category content right from the admin
+ - Added footer colors to **Theme Editor**
+ - Use `muted-bg` for items at ECI departments page
+
+**Extensions Updates**
+
+- [Ajax Pro](/m2/extensions/ajaxpro/) — 1.7.36 (was 1.7.34)
+    + Fixed cart popup opening on page load instead of only after add to cart
+    + Fixed endless cart reload loop on multi-store setups
+    + Fixed AJAX notice messages being dropped
+    + Fixed modal auto-close timer error
+    + Improved compatibility with other modules that customize the cart
+
+- [AskIt](/m2/extensions/askit/) — 1.14.24 (was 1.14.23)
+    + Fixed PHP 8.4 error on question listing
+    + Fixed Breeze Content Builder preview
+
+- [Attribute Pages](/m2/extensions/attributepages/) — 1.8.6 (was 1.8.5)
+    + Added option to move the description to the bottom of the page
+
+- [Breeze AI](/m2/extensions/breeze-ai/) — 1.0.7 (new)
+    + Generate product and category content with AI (OpenAI, Claude, Gemini)
+    + Bulk generate and translate content across store views
+    + Translate product images, gallery labels and custom option titles
+    + AI assistant chat and AI buttons on CMS page SEO fields
+
+- [Breeze Content Builder](/m2/extensions/breeze-content-builder/) — 1.0.6 (was 1.0.2)
+    + Added mobile layout (stack/slider) options for Columns and Grid
+    + Added Hover Zoom and scroll-reveal animation for the Banner component
+    + Added Collage layout and Column Divider options
+    + Header and Footer management
+    + Various fixes and BreezeStripes compatibility improvements
+
+- [Easy Slide](/m2/extensions/easyslider/) — 1.8.18 (was 1.8.17)
+    + Fixed JS error on hidden sliders
+
+- [Easytabs](/m2/extensions/easytabs/) — 1.13.4 (was 1.13.2)
+    + Added category render attribute
+
+- [GDPR](/m2/extensions/gdpr/) — 1.9.1 (was 1.8.5)
+    + Added ability to register selected blocked cookies
+    + Show count of blocked cookies in the button label
+    + Automatic cleanup of blocked cookie records via cron
+    + Added PHP 8.5 compatibility fixes
+
+- [Page Speed](/m2/extensions/pagespeed/) — 1.18.0 (was 1.17.8)
+    + Added a dedicated cache type to keep optimizer entries out of the block cache
+    + Fixed scripts being downloaded twice from preload hints
+    + Improved link preload priorities
+    + Removed the Expire Header feature (could cache pages for up to a year)
+
+- [ProLabels](/m2/extensions/prolabels/) — 1.10.0 (was 1.9.1)
+    + Added active period (from/to date) for labels
+    + Added AMP storefront support
+    + Fixed template minification error
+
+- [Rich Snippets](/m2/extensions/richsnippets/) — 1.8.4 (was 1.8.2)
+    + Added regex find-and-replace modifier
+    + Added modifier to strip Page Builder markup
+    + Added regex validation in the modifier builder
+    + Fixed saving of reordered modifiers
+
+- [SEO Canonical](/m2/extensions/seo-canonical/) — 1.11.10 (was 1.11.9)
+    + Fallback to current store when a product is not assigned to the forced store
+
+- [SEO Pager](/m2/extensions/seo-pager/) — 1.4.0 (was 1.3.5)
+    + Added allowlist filter sets configuration for pagination strategy
+    + Improved canonical URL handling
+
+- [SEO Templates](/m2/extensions/seo-templates/) — 1.7.12 (was 1.7.10)
+    + Added Smile Elasticsuite compatibility
+    + Added database index for faster queries
+    + Added PHP 8.5 compatibility fixes
+
+- [SEO URLs](/m2/extensions/seo-urls/) — 1.5.55 (was 1.5.54)
+    + Preserve query parameters when redirecting the homepage
+
+- [SEO XML Sitemap](/m2/extensions/seo-xml-sitemap/) — 1.2.0 (was 1.1.16)
+    + Added forced minimal lastmod date for products
+    + Added product options configuration
+    + Modularized sitemap settings for easier configuration
+
 ### Version 3.0.0
 
 > June 4, 2026
@@ -161,7 +248,7 @@ category: ArgentoBreeze
       + Refactored to use Filter component with fallback for legacy Widget grids.
       + Fix #66: Mass actions now properly respect grid filters
       + Refactored to use Filter component and fixed SQL ambiguous column error.
-      + Fix mass actions ignoring grid filters 
+      + Fix mass actions ignoring grid filters
       + Refactored mass actions to use Magento's Filter component instead of manual selected/excluded handling. Now mass delete/enable/disable/status properly respect all grid filters.
   - [AttributePages](/m2/extensions/attributepages/) — 1.8.1 (was 1.8.0)
       + Fixed inability to upload image in "options grid" at "Manage Pages"
@@ -215,7 +302,7 @@ category: ArgentoBreeze
 
 > December 8, 2025
 
-  - _ArgentoBreeze Business Theme_ 
+  - _ArgentoBreeze Business Theme_
       + Read more => Read Testimonials
 
 **Extensions Updates**
@@ -324,7 +411,7 @@ category: ArgentoBreeze
 
 > September 25, 2025
 
-  - _ArgentoBreeze Force Theme_ 
+  - _ArgentoBreeze Force Theme_
       + Fixed incorrect newsletter input field background
       + Reset MageWorx_OptionFeatures integration
 
@@ -335,7 +422,7 @@ category: ArgentoBreeze
       + Fix: 'ajaxpro-cart' section reload on store/website switch
       + Fix: cart-item-render breeze integration
   - [AskIt](/m2/extensions/askit/) — 1.14.12 (was 1.14.11)
-      + Feat: Add handle to category view 
+      + Feat: Add handle to category view
       + Feat: Add QAPage schema generation
   - [AttributePages](/m2/extensions/attributepages/) — 1.7.7 (was 1.7.3)
       + Prevent php error when calling the widget, but the module is disabled
@@ -369,7 +456,7 @@ category: ArgentoBreeze
       + Enhancement: Add async unbinding functionality to mutation observer
   - [Rich Snippets](/m2/extensions/richsnippets/) — 1.7.11 (was 1.7.8)
       + Fix: rm debug line
-      + Feat: Add QAPage schema to category pages 
+      + Feat: Add QAPage schema to category pages
       + Adds 'datePublished' and 'author' fields to the QAPage schema to comply with Google Search Console reqs
       + Do not remove question when pressing "Enter" in grid filter (type="button" to prevent submit)
       + Fixed php error when data is saved in old (unparseable) format
@@ -671,7 +758,7 @@ category: ArgentoBreeze
 
 **Run `composer require -w swissup/argento-breeze:^2.0` to update from old version.**
 
- -  Breeze Module and Breeze Blank theme updated to 2.0. See the 
+ -  Breeze Module and Breeze Blank theme updated to 2.0. See the
     [list of breaking changes](https://breezefront.com/upgrade#breaking-changes)
  -  [Force Theme](/m2/argento-breeze/force/) added.
  -  Added missing logo in email templates.

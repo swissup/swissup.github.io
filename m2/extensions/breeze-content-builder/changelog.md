@@ -13,6 +13,11 @@ category: Breeze Content Builder
 
 ## Breeze Content Builder
 
+### 1.0.6
+
+ -  Added config to enable `Hover Zoom` effect for the Banner components
+ -  Added `Mobile Layout` (stack or slider) config for `Columns` and `Grid` components
+
 ### 1.0.5
 
  -  Added `Column Divider` config option for the `Columns` component
