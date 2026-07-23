@@ -8,6 +8,25 @@ category: Email
 
 # Changelog
 
+### Version 0.7.13
+
+> July 22, 2026
+
+ - Fix PHP 8.4 deprecation: add explicit nullable type and remove unset on hooked property.
+
+### Version 0.7.12
+
+> July 22, 2026
+
+ - Magento 2.4.9 compatibility.
+ - Fix Symfony 7.x `attach()` resource→string type error in Convertor.
+ - Replace deprecated `getParts()` with `getMediaParts()` in History.
+ - Align GmailOAuth2 constructor types with Symfony 7.x parent.
+ - Add LoggerInterface injection and structured logging to Convertor.
+ - Add UTF-8 encoding handling for email headers and subjects.
+ - Add MIME encoding for non-ASCII header values.
+ - Improve error handling in address parsing.
+
 ### Version 0.7.11
 
 > January 29, 2026
