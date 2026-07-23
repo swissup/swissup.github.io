@@ -8,6 +8,12 @@ category: Breeze AI
 
 # Changelog
 
+### Version 1.0.9
+
+> July 23, 2026
+
+ -  Fixed bulk translation of product custom option titles leaking into the default store scope instead of being saved strictly into the selected Target Store View.
+
 ### Version 1.0.7
 
 > July 17, 2026
