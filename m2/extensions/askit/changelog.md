@@ -11,6 +11,20 @@ category: AskIt
 
 # Changelog
 
+### Version 1.14.25
+
+> July 27, 2026
+
+ -  Fixed: "Using null as an array offset is deprecated" notice on the new product form (PHP 8.5). (closes [#68](https://github.com/swissup/module-askit/issues/68))
+
+### Version 1.14.24
+
+> July 16, 2026
+
+ -  Fixed PHP 8.4 error: "Cannot unset property $totalCount because it might have hooks in a subclass".
+ -  Fixed Breeze (BCB) preview by using the frontend URL builder directly in blocks.
+ -  PHPUnit 12 compatibility.
+
 ### Version 1.14.23
 
 > May 29, 2026
