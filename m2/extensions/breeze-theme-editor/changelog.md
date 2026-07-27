@@ -8,6 +8,12 @@ category: Breeze Theme Editor
 
 # Changelog
 
+### Version 1.0.12
+
+> Jul 27, 2026
+
+ -  Fixed invalid `magento/framework` version constraint (`^2.4`) that broke `composer update` on recent Magento releases — now `^103.0` for Magento 2.4.4–2.4.9.
+
 ### Version 1.0.11
 
 > Jul 14, 2026
