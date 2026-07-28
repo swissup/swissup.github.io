@@ -8,6 +8,12 @@ category: Breeze AI
 
 # Changelog
 
+### Version 1.0.10
+
+> July 28, 2026
+
+ -  Fixed bulk translation of media gallery labels overwriting the source store view's custom option titles. Media labels and video metadata are now written directly to the selected Target Store View without a full product save.
+
 ### Version 1.0.9
 
 > July 23, 2026
