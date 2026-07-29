@@ -8,6 +8,18 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.19.0
+
+> July 29, 2026
+
+ -  Breadcrumbs will now use category name from the menu item
+    instead of category name from the category entity. This logic was already
+    working on the product page, but not on the category page.
+ -  Added ability to respect "Include in menu" setting. It's disabled
+    by default to maintain backward compatibility.
+    You can enable it per item in the [menu item form](/m2/extensions/navigationpro/backend/menu-edit/#general-settings)
+    or in the menu items ["Mass Edit" form](/m2/extensions/navigationpro/ui/menu-items-mass-edit/)
+
 ### Version 1.18.0
 
 > May 15, 2026

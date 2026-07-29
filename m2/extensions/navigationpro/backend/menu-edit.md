@@ -40,11 +40,12 @@ tree element.
 
 ## General Settings
 
-![General Settings](/images/m2/navigationpro/backend/menu-edit/general-settings.png)
+![General Settings](/images/m2/navigationpro/backend/menu-edit/general-settings.webp){:width="979"}
 
 Option | Description
 -------|------------
 Enabled | Ability to enable or disable item visibility
+Respect Category "Include in Menu" Setting | This option is visible if the item was imported only. When enabled, item visibility is received from corresponding category. When disabled, item visbility is only controlled by "Enabled" option.
 Sync Name and URL with Category Data | This option is visible if the item was imported only. When enabled, item name and url will be taken from original category. When disabled, you can override this data with your own.
 Name | Text to show on frontend
 Url | Item link
