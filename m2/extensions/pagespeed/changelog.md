@@ -8,6 +8,16 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.18.1
+
+> July 29, 2026
+
+#### Fixed
+
+- **Slow page generation from `DirectMatch` on large non-ASCII patches** *(#98)*: `DirectMatchStrategy` branched to `mb_strpos()`/`mb_substr()` for any non-ASCII HTML. On PHP < 8.3 mbstring that path is ~O(n·m): body-level patches (~380KB, containing `£` and other multibyte characters) each spent ~8s in a failing lookup, adding ~24s to page-generation time. Switched to byte-based `strpos()`/`substr_replace()`, which is correct for UTF-8 (self-synchronising) and O(n). Verified on a large catalog: product-page generation dropped from ~29s to ~6.6s.
+
+---
+
 ### Version 1.18.0
 
 > July 8, 2026
