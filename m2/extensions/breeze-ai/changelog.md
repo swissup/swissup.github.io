@@ -8,6 +8,12 @@ category: Breeze AI
 
 # Changelog
 
+### Version 1.0.11
+
+> July 30, 2026
+
+ -  Improved bulk translation quality: the AI is now told both the source and target language ("translate from X to Y") and instructed to translate every word, so translating between two non-English languages (e.g. Danish → German) no longer leaves words in the source language.
+
 ### Version 1.0.10
 
 > July 28, 2026
