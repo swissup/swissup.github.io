@@ -8,6 +8,12 @@ category: KnowledgeBase
 
 # Changelog
 
+### Version 1.1.46
+
+> August 3, 2026
+
+ -  Fix: Category grid, paging and page-size controls not rendering on the Knowledge Base homepage under Breeze older than 2.31.3 (child components are now bound to real DOM elements instead of virtual comment nodes)
+
 ### Version 1.1.44
 
 > May 15, 2026
