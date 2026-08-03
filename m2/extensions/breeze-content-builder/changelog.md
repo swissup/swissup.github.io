@@ -13,6 +13,17 @@ category: Breeze Content Builder
 
 ## Breeze Content Builder
 
+### 1.0.8
+
+ -  Performance improvements for random product lists
+ -  Product grid performance improvements
+ -  Do not use rand in fallback product provider
+ -  Force `STRAIGHT_JOIN` usage to fix slow query on old MariaDB version 10.6
+
+### 1.0.7
+
+ -  Fixed LESS error on old compiler
+
 ### 1.0.6
 
  -  Added config to enable `Hover Zoom` effect for the Banner components
