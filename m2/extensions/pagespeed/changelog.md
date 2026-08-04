@@ -8,6 +8,30 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.18.3
+
+> August 4, 2026
+
+#### Fixed
+
+- **Category page rendering two products with each other's image** *(#100)*: On a category grid the first two product images were rendered with each other's `<img>` tag — swapped `src` and `alt` — and only on the images that LCP marks with `fetchpriority="high"`. `AbstractImage::markImageAsProcessed()` wrote the `data-pagespeed-processed` marker through the raw `\DOMElement::setAttribute()` instead of the tracked document, so the DOM changed without a recorded patch. The later `Lcp` patch then had an `oldHtml` that no longer existed in the page, `PatchGrouper` left it as an orphan group, and `AttributeBasedStrategy` fell back to matching on `class="product-image-photo"` — shared by every product image — rewriting the first match. The broken markup was then stored in the full page cache, which is why it looked cache-related. The processed marker now lives in an `SplObjectStorage` registry keyed by node instead of in the DOM, and `AttributeBasedStrategy` tries `class` only as a last resort and skips it entirely when more than one element matches.
+- **Remaining RequireJS bootstrap assets moved out of `<head>`** *(#101, completes #99)*: 1.18.2 protected three of the up to eight bootstrap assets Magento renders in `<head>`. The rest — `requirejs-min-resolver.js` (emitted on every store with JS minification on, i.e. production), `mage/requirejs/baseUrlResolver.js`, `requirejs-map.js`, `mage/requirejs/static.js` and the `js/bundle/bundle*.js` pool — were still relocated to the end of `<body>`, reproducing the same wrong static URLs on those configurations. Bootstrap detection was also rewritten: external assets are matched on `src` only, so a third-party script merely mentioning `requirejs-config` in a string is no longer opted out of deferring, and inline blocks are matched on the config statement itself in both spellings — the `require.config()` call and the global `var require = {...}` object emitted before require.js loads.
+- **Ignored scripts shifting the optimization thresholds of later scripts** *(#101)*: The processing loop skipped ignored scripts before advancing its counter, so every entry in the ignore list shifted the unpack, async and third-party defer thresholds of all following scripts, silently reducing optimization. On a page with the bootstrap in `<head>` and 8 inline body scripts, 1.18.2 delayed 3 where 1.18.0 delayed 6. Skipped scripts now keep their position.
+
+**Behaviour changes:** `data-pagespeed-processed` no longer appears in page output. Because ignored scripts now keep their counter position, some scripts on a page may receive `async`/`defer` where 1.18.2 left them synchronous — inert blocks (`text/x-magento-template`, `text/html`, JSON payloads) are excluded from the count, since the browser never executes them.
+
+---
+
+### Version 1.18.2
+
+> August 3, 2026
+
+#### Fixed
+
+- **Wrong static URLs from RequireJS when Defer JS is enabled** *(#99)*: With Defer JS and Unpack enabled, RequireJS resolved module ids against the bare baseUrl instead of the `paths`/`map` from `requirejs-config`, requesting e.g. `.../en_US/domReady.min.js` instead of `.../en_US/requirejs/domReady.min.js`. `DeferJs` relocates every `<head>` script to the end of `<body>`, which moved the RequireJS bootstrap behind early synchronous `require([...])` consumers, so `map`/`paths` were not applied in time. The bootstrap is now excluded from move, defer and unpack. See 1.18.3 for the assets this release left uncovered.
+
+---
+
 ### Version 1.18.1
 
 > July 29, 2026
