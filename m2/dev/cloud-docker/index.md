@@ -32,7 +32,7 @@ long-running store environment is still the official Cloud Docker stack; only th
 #### Add the `bin/` Wrappers
 
 Copy the `bin/` directory (and `bin/.env`) from the
-[project template](https://github.com/swissup) into your working folder. The wrappers:
+[project template](https://gist.github.com/roma84/dcb10a0901baaa97edff87bf0eecc975) into your working folder. The wrappers:
 
 | Script              | Purpose                                                             |
 |---------------------|---------------------------------------------------------------------|
