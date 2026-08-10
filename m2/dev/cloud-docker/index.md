@@ -82,10 +82,12 @@ Set the two pins in `bin/.env` so the CLI image tag
     bin/magento-cloud db:dump
     ```
 
- -  Get the media files:
+ -  Get the media files. `mount:download` needs `rsync` (the CLI image lacks it — the wrapper
+    installs it in the container on demand, a one-time short pause), and this CLI version requires an
+    explicit `--target`:
 
     ```bash
-    bin/magento-cloud mount:download -m pub/media --exclude="cache"
+    bin/magento-cloud mount:download -m pub/media --target pub/media --exclude="cache"
     ```
 
 #### Create Docker Configuration File
@@ -204,6 +206,9 @@ Use `bin/magento-docker bash` to enter the container and execute `bin/magento` c
  -  Free port 80 on the host before `bin/magento-docker up`.
  -  Files the container writes under the project are root-owned; `bin/composer` and
     `bin/magento-cloud` chown them back to you automatically.
+ -  SSH/rsync from the container: `~/.ssh` is mounted read-only and staged as a root-owned copy
+    inside the container with the strict `700`/`600` perms SSH requires, so it isn't rejected for
+    "bad owner or permissions". `mount:download`/`mount:upload` also auto-install `rsync` on demand.
 
 #### Sources
 
