@@ -7,6 +7,14 @@ category: Checkout Consumer Rights
 
 # Changelog
 
+### Version 1.1.0
+
+> August 14, 2026
+
+ -  Added customer email notification for order withdrawal request.
+ -  Added "Withdraw Order" button in the order view page for registered customers.
+ -  Fixed not working custom admin email template.
+
 ### Version 1.0.1
 
 > June 22, 2026
