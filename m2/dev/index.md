@@ -263,6 +263,21 @@ It will run `checkout master && git pull` in each subfolder:
 for module in *; do cd $module && ([ -d ".git" ] && git checkout master && git pull) && cd ../; done;
 ```
 
+If you have local uncommitted changes in some modules and don't want the update
+to touch them, use this variant instead — it skips (`SKIP (dirty)`) any repo
+with a dirty `git status` instead of pulling over it:
+
+```bash
+curl -s https://docs.swissuplabs.com/m2/dev/update-all-modules.sh | bash
+```
+
+or download and run it manually, pointing it at your modules folder:
+
+```bash
+curl -sO https://docs.swissuplabs.com/m2/dev/update-all-modules.sh
+bash update-all-modules.sh vendor/swissup
+```
+
 ### Remove all modules
 
 This trick is usefull when modules were installed using `--prefer-source` option
