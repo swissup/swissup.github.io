@@ -8,6 +8,15 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.19.3
+
+> August 17, 2026
+
+ -  Added ability to select all items in "Mass Edit" form.
+ -  Fixed not working ribbon style for vertical menu.
+ -  Do not inherit `is_active` state from corresponding category since we added
+    'Respect Category "Include in menu"' option.
+
 ### Version 1.19.0
 
 > July 29, 2026
