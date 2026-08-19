@@ -63,13 +63,6 @@ ajaxsearch:
     m1: /m1/extensions/ajaxsearch/
     m2: /m2/extensions/ajaxsearch/
 
-hyva-ajaxsearch:
-  title: Hyva AjaxSearch
-  short_description:
-  urls:
-    m1: 
-    m2: /m2/extensions/hyva-ajaxsearch/
-
 akismet:
   title: Akismet
   short_description:
@@ -83,13 +76,6 @@ askit:
   urls:
     m1: /m1/extensions/askit/
     m2: /m2/extensions/askit/
-
-hyva-askit:
-  title: Hyva AskIt
-  short_description:
-  urls:
-    m1: 
-    m2: /m2/extensions/hyva-askit/
 
 attributepages:
   title: Attribute based pages
@@ -291,14 +277,6 @@ easybanners:
     m1: /m1/extensions/easybanners/
     m2: /m2/extensions/easybanners/
 
-hyva-easybanners:
-  title: Hyva EasyBanners
-  short_description: Custom content blocks with flexible conditions and usage statistics
-  size: 2x1
-  urls:
-    m1:
-    m2: /m2/extensions/hyva-easybanners/
-
 easycatalogimages:
   title: Easy Catalog Images
   short_description: Visualize your sub-categories with awesome images.
@@ -306,14 +284,6 @@ easycatalogimages:
   urls:
     m1: /m1/extensions/easycatalogimages/
     m2: /m2/extensions/easycatalogimages/
-
-hyva-easycatalogimages:
-  title: Hyva Easy Catalog Images
-  short_description: Visualize your sub-categories with awesome images.
-  size: 2x2
-  urls:
-    m1:
-    m2: /m2/extensions/hyva-easycatalogimages/
 
 easycolorswatches:
   title: Easy Color Swatches
@@ -364,26 +334,12 @@ easyslider:
     m1: /m1/extensions/easyslider/
     m2: /m2/extensions/easyslider/
 
-hyva-easyslider:
-  title: Hyva EasySlider
-  short_description:
-  urls:
-    m1:
-    m2: /m2/extensions/hyva-easyslider/
-
 easytabs:
   title: EasyTabs
   short_description:
   urls:
     m1: /m1/extensions/easytabs/
     m2: /m2/extensions/easytabs/
-
-hyva-easytabs:
-  title: Hyva EasyTabs
-  short_description:
-  urls:
-    m1:
-    m2: /m2/extensions/hyva-easytabs/
 
 featured-attributes:
   title: Featured Attributes
@@ -414,14 +370,6 @@ gdpr:
   urls:
     m1: /m1/extensions/gdpr/
     m2: /m2/extensions/gdpr/
-
-hyva-gdpr:
-  title: Hyva GDPR
-  short_description: GDPR compliance module
-  size: 1x1
-  urls:
-    m1:
-    m2: /m2/extensions/hyva-gdpr/
 
 ga-plugin-events:
   title: Google Analytics - Additional Events
@@ -460,16 +408,6 @@ highlight:
   urls:
     m1: /m1/extensions/highlight/
     m2: /m2/extensions/highlight/
-
-hyva-highlight:
-  title: Hyva Highlight
-  short_description: >
-    Highlight widgets help you to create outstanding product promotions
-    on homepage and other cms pages.
-  size: 2x1
-  urls:
-    m1:
-    m2: /m2/extensions/hyva-highlight/
 
 hover-gallery:
   title: Hover Gallery
@@ -555,13 +493,6 @@ prolabels:
   urls:
     m1: /m1/extensions/prolabels/
     m2: /m2/extensions/prolabels/
-
-hyva-prolabels:
-  title: Hyva Prolabels
-  short_description:
-  urls:
-    m1:
-    m2: /m2/extensions/hyva-prolabels/
 
 productvideos:
   title: Product Videos
@@ -650,13 +581,6 @@ seo-suite:
     m1: /m1/extensions/seo-suite/
     m2: /m2/extensions/seo-suite/
 
-hyva-seo-suite:
-  title: SEO Suite
-  short_description:
-  urls:
-    m1:
-    m2: /m2/extensions/hyva-seo-suite/
-
 seo-templates:
   title: SEO Metadata Templates
   short_description:
@@ -714,13 +638,6 @@ soldtogether:
     m1: /m1/extensions/soldtogether/
     m2: /m2/extensions/soldtogether/
 
-hyva-soldtogether:
-  title: Hyva Sold Together
-  short_description:
-  urls:
-    m1:
-    m2: /m2/extensions/hyva-soldtogether/
-
 speculation-rules:
   title: Speculation Rules
   short_description: >
@@ -755,14 +672,6 @@ testimonials:
   urls:
     m1: /m1/extensions/testimonials/
     m2: /m2/extensions/testimonials/
-
-hyva-testimonials:
-  title: Hyva Testimonials
-  short_description: Let the customer's speak. Your business deserves good words.
-  size: 2x1
-  urls:
-    m1:
-    m2: /m2/extensions/hyva-testimonials/
 
 webp:
   title: Webp

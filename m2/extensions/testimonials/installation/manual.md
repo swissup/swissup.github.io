@@ -9,7 +9,7 @@ exclude_from_search: true
 
 # Manual Installation
 
-{% include installation/m2/manual.html package="swissup/testimonials" %}
+{% include installation/m2/manual.html package="swissup/testimonials" hyva_package="swissup/hyva-testimonials" %}
 
 ## Complete the installation
 

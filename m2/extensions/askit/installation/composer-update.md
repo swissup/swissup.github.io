@@ -8,4 +8,4 @@ exclude_from_search: true
 
 # Update Instructions
 
-{% include installation/m2/composer-update.html package="swissup/askit" %}
+{% include installation/m2/composer-update.html package="swissup/askit" hyva_package="swissup/hyva-askit" %}

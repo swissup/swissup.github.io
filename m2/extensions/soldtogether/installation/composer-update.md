@@ -8,4 +8,4 @@ exclude_from_search: true
 
 # Update Instructions
 
-{% include installation/m2/composer-update.html package="swissup/sold-together" %}
+{% include installation/m2/composer-update.html package="swissup/sold-together" hyva_package="swissup/hyva-soldtogether" %}

@@ -8,7 +8,7 @@ exclude_from_search: true
 
 # Manual Installation
 
-{% include installation/m2/manual.html package="swissup/ajaxsearch" %}
+{% include installation/m2/manual.html package="swissup/ajaxsearch" hyva_package="swissup/hyva-ajaxsearch" %}
 
 ## Complete the installation
 

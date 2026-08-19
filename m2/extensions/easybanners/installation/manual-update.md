@@ -8,7 +8,7 @@ exclude_from_search: true
 
 # Manual Update
 
-{% include installation/m2/manual-update.html package="swissup/easybanner" %}
+{% include installation/m2/manual-update.html package="swissup/easybanner" hyva_package="swissup/hyva-easybanner" %}
 
 ##### Next up
 

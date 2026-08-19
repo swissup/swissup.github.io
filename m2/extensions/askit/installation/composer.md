@@ -8,7 +8,7 @@ exclude_from_search: true
 
 # Installation
 
-{% include installation/m2/composer.html package="swissup/askit" %}
+{% include installation/m2/composer.html package="swissup/askit" hyva_package="swissup/hyva-askit" %}
 
 ## Complete the installation
 

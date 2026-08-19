@@ -9,7 +9,7 @@ exclude_from_search: true
 
 # Manual Installation
 
-{% include installation/m2/manual.html package="swissup/easybanner" %}
+{% include installation/m2/manual.html package="swissup/easybanner" hyva_package="swissup/hyva-easybanner" %}
 
 ##### Next up
 

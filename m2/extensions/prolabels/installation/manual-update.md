@@ -8,4 +8,4 @@ exclude_from_search: true
 
 # Manual Update
 
-{% include installation/m2/manual-update.html package="swissup/pro-labels" %}
+{% include installation/m2/manual-update.html package="swissup/pro-labels" hyva_package="swissup/hyva-pro-labels" %}

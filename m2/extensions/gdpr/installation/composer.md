@@ -9,7 +9,7 @@ exclude_from_search: true
 
 # Installation
 
-{% include installation/m2/composer.html package="swissup/gdpr" %}
+{% include installation/m2/composer.html package="swissup/gdpr" hyva_package="swissup/hyva-gdpr" %}
 
 ## Complete the installation
 

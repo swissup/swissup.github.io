@@ -9,7 +9,7 @@ exclude_from_search: true
 
 # Manual Installation
 
-{% include installation/m2/manual.html package="swissup/sold-together" %}
+{% include installation/m2/manual.html package="swissup/sold-together" hyva_package="swissup/hyva-soldtogether" %}
 
 ## Build relations
 

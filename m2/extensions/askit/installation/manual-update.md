@@ -8,4 +8,4 @@ exclude_from_search: true
 
 # Manual Update
 
-{% include installation/m2/manual-update.html package="swissup/askit" %}
+{% include installation/m2/manual-update.html package="swissup/askit" hyva_package="swissup/hyva-askit" %}

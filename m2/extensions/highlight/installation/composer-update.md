@@ -8,4 +8,4 @@ exclude_from_search: true
 
 # Update Instructions
 
-{% include installation/m2/composer-update.html package="swissup/highlight" %}
+{% include installation/m2/composer-update.html package="swissup/highlight" hyva_package="swissup/hyva-highlight" %}

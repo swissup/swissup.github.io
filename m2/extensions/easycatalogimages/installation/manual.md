@@ -9,7 +9,7 @@ exclude_from_search: true
 
 # Manual Installation
 
-{% include installation/m2/manual.html package="swissup/easycatalogimg" %}
+{% include installation/m2/manual.html package="swissup/easycatalogimg" hyva_package="swissup/hyva-easycatalogimg" %}
 
 ## Complete the installation
 

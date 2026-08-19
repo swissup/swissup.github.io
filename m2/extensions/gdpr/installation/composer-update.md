@@ -8,7 +8,7 @@ exclude_from_search: true
 
 # Update Instructions
 
-{% include installation/m2/composer-update.html package="swissup/gdpr" %}
+{% include installation/m2/composer-update.html package="swissup/gdpr" hyva_package="swissup/hyva-gdpr" %}
 
 #### Next up
 

@@ -8,4 +8,4 @@ exclude_from_search: true
 
 # Manual Update
 
-{% include installation/m2/manual-update.html package="swissup/highlight" %}
+{% include installation/m2/manual-update.html package="swissup/highlight" hyva_package="swissup/hyva-highlight" %}

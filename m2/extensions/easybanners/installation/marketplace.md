@@ -9,7 +9,7 @@ exclude_from_search: true
 
 # Installation from Marketplace
 
-{% include installation/m2/marketplace.html package="swissup/easybanner" %}
+{% include installation/m2/marketplace.html package="swissup/easybanner" hyva_package="swissup/hyva-easybanner" %}
 
 ##### Next up
 

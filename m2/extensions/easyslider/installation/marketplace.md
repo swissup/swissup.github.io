@@ -11,7 +11,7 @@ exclude_from_search: true
 
 # Installation from Marketplace
 
-{% include installation/m2/marketplace.html package="swissup/easy-slide" %}
+{% include installation/m2/marketplace.html package="swissup/easy-slide" hyva_package="swissup/hyva-easy-slide" %}
 
 ##### Next Up
 

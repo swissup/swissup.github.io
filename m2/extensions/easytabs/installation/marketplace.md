@@ -10,7 +10,7 @@ exclude_from_search: true
 
 # Installation from Marketplace
 
-{% include installation/m2/marketplace.html package="swissup/easytabs" %}
+{% include installation/m2/marketplace.html package="swissup/easytabs" hyva_package="swissup/hyva-easytabs" %}
 
 ## Complete the installation
 

@@ -44,3 +44,16 @@ bin/magento setup:di:compile &&\
 bin/magento setup:static-content:deploy{% if include.installer == 'true' %} &&\
 bin/magento marketplace:package:install {{ include.package }}{% endif %}
 ```
+
+{% if include.hyva_package %}
+
+If you are using the Hyvä Theme, you need to install the compatibility module:
+
+```bash
+composer require {{ include.hyva_package }} &&\
+bin/magento setup:upgrade --safe-mode=1 &&\
+bin/magento setup:di:compile &&\
+bin/magento setup:static-content:deploy{% if include.installer == 'true' %} &&\
+bin/magento marketplace:package:install {{ include.hyva_package }}{% endif %}
+```
+{% endif %}

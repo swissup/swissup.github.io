@@ -11,7 +11,7 @@ exclude_from_search: true
 
 # Manual Installation
 
-{% include installation/m2/manual.html package="swissup/easy-slide" %}
+{% include installation/m2/manual.html package="swissup/easy-slide" hyva_package="swissup/hyva-easy-slide" %}
 
 #### After installing the extension you can go to:
 * [Admin interfaces](../interfaces/)

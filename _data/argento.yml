@@ -231,18 +231,18 @@ hyva:
       url: /m2/argento-hyva/chic/
 
   extensions:
-    - hyva-ajaxsearch
-    - hyva-askit
-    - hyva-easybanners
-    - hyva-easycatalogimages
-    - hyva-easyslider
-    - hyva-easytabs
-    - hyva-gdpr
-    - hyva-highlight
-    - hyva-prolabels
-    - hyva-soldtogether
-    - hyva-seo-suite
-    - hyva-testimonials
+    - ajaxsearch
+    - askit
+    - easybanners
+    - easycatalogimages
+    - easyslider
+    - easytabs
+    - gdpr
+    - highlight
+    - prolabels
+    - soldtogether
+    - seo-suite
+    - testimonials
 
 sw:
   title: Argento for Shopware

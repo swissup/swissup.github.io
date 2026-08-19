@@ -9,7 +9,7 @@ exclude_from_search: true
 
 # Installation from Marketplace
 
-{% include installation/m2/marketplace.html package="swissup/pro-labels" %}
+{% include installation/m2/marketplace.html package="swissup/pro-labels" hyva_package="swissup/hyva-pro-labels" %}
 
 #### Labels in Catalog and Search pages
 

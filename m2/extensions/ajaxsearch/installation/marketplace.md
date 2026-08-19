@@ -9,4 +9,4 @@ exclude_from_search: true
 
 # Installation from Marketplace
 
-{% include installation/m2/marketplace.html package="swissup/ajaxsearch" %}
+{% include installation/m2/marketplace.html package="swissup/ajaxsearch" hyva_package="swissup/hyva-ajaxsearch" %}

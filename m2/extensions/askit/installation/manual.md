@@ -8,7 +8,7 @@ exclude_from_search: true
 
 # Manual Installation
 
-{% include installation/m2/manual.html package="swissup/askit" %}
+{% include installation/m2/manual.html package="swissup/askit" hyva_package="swissup/hyva-askit" %}
 
 ## Complete the installation
 

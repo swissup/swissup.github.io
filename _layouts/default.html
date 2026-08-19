@@ -25,9 +25,26 @@
             </h1>
           {% endif %}
 
+          {% assign hyva_compatibility = false %}
+          {% for extension_id in site.data.argento.hyva.extensions %}
+            {% assign extension_url = '/m2/extensions/' | append: extension_id | append: '/' %}
+            {% if page.url contains extension_url %}
+              {% assign hyva_compatibility = true %}
+              {% break %}
+            {% endif %}
+          {% endfor %}
+
+          {% if hyva_compatibility %}
+            {% capture compatibility_notice %}{% include hyva-compatibility.html %}{% endcapture %}
+            {% capture compatibility_marker %}</h1>{{ compatibility_notice }}{% endcapture %}
+            {% assign rendered_content = content | replace_first: '</h1>', compatibility_marker %}
+          {% else %}
+            {% assign rendered_content = content %}
+          {% endif %}
+
           <section class="main-section">
             <article>
-              {{ content }}
+              {{ rendered_content }}
             </article>
             {% include sidebar.html %}
           </section>

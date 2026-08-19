@@ -8,4 +8,4 @@ exclude_from_search: true
 
 # Manual Update
 
-{% include installation/m2/manual-update.html package="swissup/easycatalogimg" %}
+{% include installation/m2/manual-update.html package="swissup/easycatalogimg" hyva_package="swissup/hyva-easycatalogimg" %}

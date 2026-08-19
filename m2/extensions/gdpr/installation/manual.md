@@ -9,7 +9,7 @@ exclude_from_search: true
 
 # Manual Installation
 
-{% include installation/m2/manual.html package="swissup/gdpr" %}
+{% include installation/m2/manual.html package="swissup/gdpr" hyva_package="swissup/hyva-gdpr" %}
 
 ## Complete the installation
 

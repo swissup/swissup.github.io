@@ -9,7 +9,7 @@ exclude_from_search: true
 
 # Manual Installation
 
-{% include installation/m2/manual.html package="swissup/pro-labels" %}
+{% include installation/m2/manual.html package="swissup/pro-labels" hyva_package="swissup/hyva-pro-labels" %}
 
 #### Upgrade from version 1.0.x to 1.1.0
 

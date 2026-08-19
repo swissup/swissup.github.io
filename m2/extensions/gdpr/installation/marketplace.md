@@ -9,7 +9,7 @@ exclude_from_search: true
 
 # Installation from Marketplace
 
-{% include installation/m2/marketplace.html package="swissup/gdpr" %}
+{% include installation/m2/marketplace.html package="swissup/gdpr" hyva_package="swissup/hyva-gdpr" %}
 
 ## Complete the installation
 

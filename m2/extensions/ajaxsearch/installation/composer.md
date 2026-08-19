@@ -8,5 +8,5 @@ exclude_from_search: true
 
 # Installation
 
-{% include installation/m2/composer.html package="swissup/ajaxsearch" %}
+{% include installation/m2/composer.html package="swissup/ajaxsearch" hyva_package="swissup/hyva-ajaxsearch" %}
 

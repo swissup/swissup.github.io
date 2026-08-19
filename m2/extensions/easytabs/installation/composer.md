@@ -10,7 +10,7 @@ exclude_from_search: true
 
 # Installation
 
-{% include installation/m2/composer.html package="swissup/easytabs" %}
+{% include installation/m2/composer.html package="swissup/easytabs" hyva_package="swissup/hyva-easytabs" %}
 
 ## Complete the installation
 
