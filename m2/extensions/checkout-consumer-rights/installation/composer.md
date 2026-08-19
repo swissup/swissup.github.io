@@ -9,6 +9,7 @@ exclude_from_search: true
 # Installation
 
 {% include installation/m2/composer.html package="swissup/checkout-consumer-rights" %}
+{% include installation/m2/hyva-checkout.html %}
 
 ## Complete the installation
 

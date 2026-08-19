@@ -10,3 +10,4 @@ exclude_from_search: true
 # Manual Installation
 
 {% include installation/m2/manual.html package="swissup/product-checkout-fields" %}
+{% include installation/m2/hyva-checkout.html %}

@@ -8,7 +8,7 @@ exclude_from_search: true
 
 # Update Instructions
 
-{% include installation/m2/composer-update.html package="swissup/module-seo-cross-links" %}
+{% include installation/m2/composer-update.html package="swissup/module-seo-cross-links" hyva_package="swissup/swissup/hyva-seo-cross-links" %}
 
 ##### Next up
 

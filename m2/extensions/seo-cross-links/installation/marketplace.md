@@ -9,7 +9,7 @@ exclude_from_search: true
 
 # Installation from Marketplace
 
-{% include installation/m2/marketplace.html package="swissup/seo-cross-links" %}
+{% include installation/m2/marketplace.html package="swissup/seo-cross-links" hyva_package="swissup/swissup/hyva-seo-cross-links" %}
 
 ## Complete the installation
 

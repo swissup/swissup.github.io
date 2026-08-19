@@ -9,7 +9,7 @@ exclude_from_search: true
 
 # Installation from Marketplace
 
-{% include installation/m2/marketplace.html package="swissup/seo-html-sitemap" %}
+{% include installation/m2/marketplace.html package="swissup/seo-html-sitemap" hyva_package="swissup/swissup/hyva-seo-html-sitemap" %}
 
 ## Complete the installation
 

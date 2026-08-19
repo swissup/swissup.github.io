@@ -9,3 +9,4 @@ category: Checkout Fields
 # Installation instructions
 
 {% include installation/m2/index.html %}
+{% include installation/m2/hyva-checkout.html %}

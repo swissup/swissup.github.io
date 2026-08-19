@@ -8,7 +8,7 @@ exclude_from_search: true
 
 # Manual Update
 
-{% include installation/m2/manual-update.html package="swissup/seo-html-sitemap" %}
+{% include installation/m2/manual-update.html package="swissup/seo-html-sitemap" hyva_package="swissup/swissup/hyva-seo-html-sitemap" %}
 
 ##### Next up
 

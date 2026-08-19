@@ -8,7 +8,7 @@ exclude_from_search: true
 
 # Manual Update
 
-{% include installation/m2/manual-update.html package="swissup/module-seo-cross-links" %}
+{% include installation/m2/manual-update.html package="swissup/module-seo-cross-links" hyva_package="swissup/swissup/hyva-seo-cross-links" %}
 
 ##### Next up
 

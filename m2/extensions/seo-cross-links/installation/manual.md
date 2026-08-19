@@ -9,7 +9,7 @@ exclude_from_search: true
 
 # Manual Installation
 
-{% include installation/m2/manual.html package="swissup/module-seo-cross-links" %}
+{% include installation/m2/manual.html package="swissup/module-seo-cross-links" hyva_package="swissup/swissup/hyva-seo-cross-links" %}
 
 ## Complete the installation
 

@@ -8,7 +8,8 @@ exclude_from_search: true
 
 # Update Instructions
 
-{% include installation/m2/composer-update.html package="swissup/seo-suite" hyva_package="swissup/hyva-seo-suite" %}
+{% include installation/m2/composer-update.html package="swissup/seo-suite" %}
+{% include installation/m2/hyva-seo-suite.html %}
 
 ##### Next up
 

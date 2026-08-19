@@ -9,6 +9,7 @@ exclude_from_search: true
 # Installation from Marketplace
 
 {% include installation/m2/marketplace.html package="swissup/checkout-registration" %}
+{% include installation/m2/hyva-checkout.html %}
 
 ##### Next up
 

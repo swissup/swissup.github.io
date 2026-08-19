@@ -241,8 +241,21 @@ hyva:
     - highlight
     - prolabels
     - soldtogether
+    - seo-html-sitemap
+    - seo-cross-links
+    - seo-pager
     - seo-suite
+    - seo-templates
+    - seo-urls
+    - seo-xml-sitemap
     - testimonials
+    - chat-gpt-assistant
+    - checkoutcart
+    - checkoutconsumerrights
+    - checkoutfields
+    - checkoutregistration
+    - checkoutsuccess
+    - pdfinvoices
 
 sw:
   title: Argento for Shopware

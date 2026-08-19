@@ -9,7 +9,7 @@ exclude_from_search: true
 
 # Installation
 
-{% include installation/m2/composer.html package="swissup/seo-html-sitemap" %}
+{% include installation/m2/composer.html package="swissup/seo-html-sitemap" hyva_package="swissup/swissup/hyva-seo-html-sitemap" %}
 
 ## Complete the installation
 
