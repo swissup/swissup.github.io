@@ -27,7 +27,8 @@
 
           {% assign hyva_compatibility = false %}
           {% for extension_id in site.data.argento.hyva.extensions %}
-            {% assign extension_url = '/m2/extensions/' | append: extension_id | append: '/' %}
+            {% assign extension = site.data.extensions[extension_id] %}
+            {% assign extension_url = extension.urls.m2 %}
             {% if page.url contains extension_url %}
               {% assign hyva_compatibility = true %}
               {% break %}
