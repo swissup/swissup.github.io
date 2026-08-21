@@ -4,6 +4,7 @@ title: Geo Address IP
 description: Automatically detect the client's address using their IP address
 keywords: magento2 address autodetection, geoip
 category: Geo Address IP
+extension_id: geoip
 ---
 
 # Geo Address IP

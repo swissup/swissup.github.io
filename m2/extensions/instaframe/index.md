@@ -6,6 +6,7 @@ description: >
 keywords: >
     magento2, instagram, widget
 category: Instaframe
+extension_id: instaframe
 ---
 
 # Instaframe

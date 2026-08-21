@@ -6,6 +6,7 @@ keywords: >
     magento 2 product tabs, magento 2 product tabs extension free,
     magento2 product page tabs
 category: Easytabs
+extension_id: easytabs
 ---
 
 # Easytabs

@@ -4,6 +4,7 @@ title: Regional URLs
 description: SEO enchancements for language and regional URLs
 keywords: regiaonal urls, language urls, hreflang
 category: Regional URLs
+extension_id: hreflang
 ---
 
 # Regional and Language URLs

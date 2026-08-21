@@ -4,6 +4,7 @@ title: SEO Suite
 description: Toolkit to improve your store SEO
 keywords: seo suite, seo toolkit,
 category: SEO Suite
+extension_id: seo-suite
 ---
 
 # SEO Suite

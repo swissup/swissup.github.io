@@ -5,6 +5,7 @@ description: Magento 2 Countdown Timer module
 keywords: >
     Magento countdown timer, countdown timer extension
 category: Countdown Timer
+extension_id: countdowntimer
 ---
 
 # Countdown Timer

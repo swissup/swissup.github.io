@@ -4,6 +4,7 @@ title: SEO HTML Sitemap
 description: magento 2 html sitemap module documentation
 keywords: " magento 2 html sitemap extension "
 category: SEO HTML Sitemap
+extension_id: seo-html-sitemap
 ---
 
 # SEO HTML Sitemap

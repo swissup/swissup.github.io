@@ -10,7 +10,7 @@
 
       <li>
         <a href="{{ extension.urls.m2 | prepend: site.baseurl }}" title="{{ extension.title }}">{{ extension.title }}</a>
-        {% if site.data.argento.hyva.extensions contains hash[0] %}
+        {% if extension.hyva == true %}
           <img src="{{ '/images/argento-hyva/badge_ext.svg' | prepend: site.baseurl }}" alt="Hyvä Themes compatible"
                width="20" height="20" style="outline: 0; vertical-align: middle; margin: 0 4px;">
           <span style="font-size: 13px; color: green;">Hyvä compatible</span>

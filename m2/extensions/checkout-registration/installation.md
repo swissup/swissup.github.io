@@ -9,7 +9,6 @@ category: Checkout Registration
 ## Installation and upgrade instructions
 
 {% include installation/m2/index.html %}
-{% include installation/m2/hyva-checkout.html %}
 
 ##### Next up
 

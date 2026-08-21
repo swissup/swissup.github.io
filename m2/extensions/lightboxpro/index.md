@@ -5,6 +5,7 @@ description: magento 2 lightbox module
 keywords: " magento 2 lightbox popup, magento 2 lightbox extension, magento 2
 product lightbox extension, lightbox magento 2 extension "
 category: Lightbox Pro
+extension_id: lightboxpro
 ---
 
 # Lightbox Pro

@@ -4,6 +4,7 @@ title: Review Reminder
 description: magento review reminder module documentation
 keywords: " magento review reminder extension, magento review reminder email "
 category: Review Reminder
+extension_id: reviewreminder
 ---
 
 # Review Reminder

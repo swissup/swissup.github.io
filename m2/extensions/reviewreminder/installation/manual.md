@@ -10,8 +10,11 @@ exclude_from_search: true
 # Manual Installation
 
 {% include installation/m2/manual.html package="swissup/reviewreminder" %}
+{% include installation/m2/hyva-no-extra.html %}
 
-## Navigate to `Stores > Configuration > Swissup > Review Reminder` and
+### Complete the installation
+
+Navigate to `Stores > Configuration > Swissup > Review Reminder` and
 enable extension for any store you need.
 
 That's all. Now you can generate reminders for orders created before extension was installed, more info in  [Manual Order Indexing Section][manual_order_indexing]

@@ -2,6 +2,7 @@ abandonedcart:
   title: Abandoned Cart
   short_description: Easily recover abandoned carts
   size: 2x1
+  hyva: true
   urls:
     m1: /m1/extensions/abandonedcart/
     m2: /m2/extensions/abandoned-cart/
@@ -10,6 +11,7 @@ amp:
   title: Accelerated Mobile Pages
   short_description: Mobile optimized store based on AMP project
   size: 2x2
+  hyva:
   urls:
     m1: /m1/extensions/amp/
     m2: /m2/extensions/amp/
@@ -17,6 +19,7 @@ amp:
 addressautocomplete:
   title: Address Autocomplete
   short_description:
+  hyva: true
   urls:
     m1: /m1/extensions/address-autocomplete/
     m2: /m2/extensions/address-autocomplete/
@@ -24,6 +27,7 @@ addressautocomplete:
 address-field-manager:
   title: Address Field Manager
   short_description:
+  hyva: true
   urls:
     m1:
     m2: /m2/extensions/address-field-manager/
@@ -31,6 +35,7 @@ address-field-manager:
 addressvalidation:
   title: Address Validation
   short_description:
+  hyva: true
   urls:
     m1:
     m2: /m2/extensions/address-validation/
@@ -38,6 +43,7 @@ addressvalidation:
 affiliatesuite:
   title: Affiliate Suite
   short_description:
+  hyva:
   urls:
     m1: /m1/extensions/affiliatesuite/
     m2:
@@ -45,6 +51,7 @@ affiliatesuite:
 ajaxlayerednavigation:
   title: AjaxLayeredNavigation
   short_description:
+  hyva:
   urls:
     m1: /m1/extensions/ajaxlayerednavigation/
     m2: /m2/extensions/ajaxlayerednavigation/
@@ -52,6 +59,7 @@ ajaxlayerednavigation:
 ajaxpro:
   title: AjaxPro
   short_description:
+  hyva:
   urls:
     m1: /m1/extensions/ajaxpro/
     m2: /m2/extensions/ajaxpro/
@@ -59,6 +67,7 @@ ajaxpro:
 ajaxsearch:
   title: AjaxSearch
   short_description:
+  hyva: true
   urls:
     m1: /m1/extensions/ajaxsearch/
     m2: /m2/extensions/ajaxsearch/
@@ -66,6 +75,7 @@ ajaxsearch:
 akismet:
   title: Akismet
   short_description:
+  hyva:
   urls:
     m1:
     m2: /m2/extensions/akismet/
@@ -73,6 +83,7 @@ akismet:
 askit:
   title: AskIt
   short_description:
+  hyva: true
   urls:
     m1: /m1/extensions/askit/
     m2: /m2/extensions/askit/
@@ -81,6 +92,7 @@ attributepages:
   title: Attribute based pages
   short_description: Enhance your store with beautiful brand pages.
   size: 2x1
+  hyva:
   urls:
     m1: /m1/extensions/attributepages/
     m2: /m2/extensions/attributepages/
@@ -88,6 +100,7 @@ attributepages:
 botprotection:
   title: Bot Protection
   short_description: One more line of defence from unwelcome visitors.
+  hyva:
   urls:
     m1: /m1/extensions/botprotection/
     m2: /m2/extensions/bot-protection/
@@ -95,6 +108,7 @@ botprotection:
 breeze:
   title: Breeze
   short_description: Performant Magento Frontend
+  hyva:
   urls:
     m1:
     m2: /m2/extensions/breeze/
@@ -102,6 +116,7 @@ breeze:
 breeze-ai:
   title: Breeze AI
   short_description: AI content generation and translation for Magento 2
+  hyva:
   urls:
     m1:
     m2: /m2/extensions/breeze-ai/
@@ -109,6 +124,7 @@ breeze-ai:
 breeze-content-builder:
   title: Breeze Content Builder
   short_description: Visual drag-and-drop page and layout builder for Breeze
+  hyva:
   urls:
     m1:
     m2: /m2/extensions/breeze-content-builder/
@@ -116,6 +132,7 @@ breeze-content-builder:
 breeze-theme-editor:
   title: Breeze Theme Editor
   short_description: Visual theme customization tool for Breeze
+  hyva:
   urls:
     m1:
     m2: /m2/extensions/breeze-theme-editor/
@@ -124,6 +141,7 @@ cache:
   title: Cache
   short_description: Blazing fast store is the key to e-commerce success.
   size: 1x2
+  hyva:
   urls:
     m1: /m1/extensions/cache/
     m2:
@@ -132,6 +150,7 @@ crawler:
   title: Cache Warmer
   short_description: Built-in crawler increases page cache hit rate.
   size: 1x1
+  hyva: true
   urls:
     m1: /m1/extensions/crawler/
     m2: /m2/extensions/cachewarmer/
@@ -140,6 +159,7 @@ cdn:
   title: CDN
   short_description: Cloud Destribution Network intagration
   size: 1x1
+  hyva:
   urls:
     m1: /m1/extensions/cdn/
     m2:
@@ -148,6 +168,7 @@ chat-gpt-assistant:
   title: ChatGPT Assistant
   short_description: Generate content with AI
   size: 1x1
+  hyva: true
   urls:
     m1:
     m2: /m2/extensions/chat-gpt-assistant/
@@ -156,6 +177,7 @@ checkoutcart:
   title: Checkout Cart
   short_description: Add cart functionality on checkout page
   size: 1x1
+  hyva: true
   urls:
     m1:
     m2: /m2/extensions/checkout-cart/
@@ -164,6 +186,7 @@ checkoutconsumerrights:
   title: Checkout Consumer Rights
   short_description: Checkout consumer rights
   size: 1x1
+  hyva: true
   urls:
     m1:
     m2: /m2/extensions/checkout-consumer-rights/
@@ -172,6 +195,7 @@ checkoutfields:
   title: Checkout Fields
   short_description: Add custom fields on checkout page
   size: 1x1
+  hyva: true
   urls:
     m1:
     m2: /m2/extensions/checkout-fields/
@@ -180,6 +204,7 @@ checkoutregistration:
   title: Checkout Registration
   short_description: Customer registration at checkout page
   size: 1x1
+  hyva: true
   urls:
     m1:
     m2: /m2/extensions/checkout-registration/
@@ -188,6 +213,7 @@ checkoutsuccess:
   title: Checkout Success
   short_description: Show more details on checkout success page
   size: 1x1
+  hyva: true
   urls:
     m1: /m1/extensions/checkout-success/
     m2: /m2/extensions/checkout-success/
@@ -196,6 +222,7 @@ taxvat:
   title: Checkout VAT
   short_description: Validate VAT field on checkout
   size: 1x1
+  hyva: true
   urls:
     m1:
     m2: /m2/extensions/taxvat/
@@ -203,6 +230,7 @@ taxvat:
 configurableswatches:
   title: Configurable Swatches
   short_description:
+  hyva:
   urls:
     m1: /m1/extensions/catalog-configurable-swatches/
     m2:
@@ -211,12 +239,14 @@ compare:
   title: Compare
   short_description: Show more details on checkout success page
   size: 1x1
+  hyva:
   urls:
     m2: /m2/extensions/compare/
 
 core:
   title: Core
   short_description:
+  hyva:
   urls:
     m1: /m1/extensions/core/
     m2:
@@ -227,6 +257,7 @@ countdowntimer:
     Time is running out. Let your customers know about store events with
     beatifully designed timers.
   size: 2x1
+  hyva:
   urls:
     m1: /m1/extensions/countdowntimer/
     m2: /m2/extensions/countdown-timer/
@@ -234,6 +265,7 @@ countdowntimer:
 customer-field-manager:
   title: Customer Field Manager
   short_description:
+  hyva:
   urls:
     m1:
     m2: /m2/extensions/customer-field-manager/
@@ -242,6 +274,7 @@ dailydeals:
   title: DailyDeals
   short_description: Show limited-time deals at your store.
   size: 2x2
+  hyva:
   urls:
     m1: /m1/extensions/dailydeals/
     m2:
@@ -250,6 +283,7 @@ deliverydate:
   title: Delivery Date
   short_description: Allow customer to choose delivery date during checkout.
   size: 1x1
+  hyva: true
   urls:
     m1:
     m2: /m2/extensions/delivery-date/
@@ -258,6 +292,7 @@ deleteorders:
   title: Delete Orders
   short_description: Allow admin to remove unnecessary orders from store.
   size: 1x1
+  hyva: true
   urls:
     m1:
     m2: /m2/extensions/delete-orders/
@@ -266,6 +301,7 @@ diagnostic:
   title: Diagnostic
   short_description: Show some diagnostic and maintenance Magento store information on CLI.
   size: 1x1
+  hyva: true
   urls:
     m2: /m2/extensions/diagnostic/
 
@@ -273,6 +309,7 @@ easybanners:
   title: EasyBanners
   short_description: Custom content blocks with flexible conditions and usage statistics
   size: 2x1
+  hyva: true
   urls:
     m1: /m1/extensions/easybanners/
     m2: /m2/extensions/easybanners/
@@ -281,6 +318,7 @@ easycatalogimages:
   title: Easy Catalog Images
   short_description: Visualize your sub-categories with awesome images.
   size: 2x2
+  hyva: true
   urls:
     m1: /m1/extensions/easycatalogimages/
     m2: /m2/extensions/easycatalogimages/
@@ -288,6 +326,7 @@ easycatalogimages:
 easycolorswatches:
   title: Easy Color Swatches
   short_description:
+  hyva:
   urls:
     m1: /m1/extensions/easycolorswatches/
     m2:
@@ -295,6 +334,7 @@ easycolorswatches:
 easyflags:
   title: Easy Flags
   short_description:
+  hyva:
   urls:
     m1: /m1/extensions/easyflags/
     m2: /m2/extensions/easyflags/
@@ -302,6 +342,7 @@ easyflags:
 easylightbox:
   title: Easy Lightbox
   short_description:
+  hyva:
   urls:
     m1: /m1/extensions/easylightbox/
     m2:
@@ -309,6 +350,7 @@ easylightbox:
 easynavigation:
   title: Easy Navigation
   short_description:
+  hyva:
   urls:
     m1: /m1/extensions/easynavigation/
     m2:
@@ -316,6 +358,7 @@ easynavigation:
 email:
   title: Email
   short_description:
+  hyva: true
   urls:
     m1: /m1/extensions/email/
     m2: /m2/extensions/email/
@@ -323,6 +366,7 @@ email:
 email-templates:
   title: Email Templates
   short_description:
+  hyva: true
   urls:
     m1:
     m2: /m2/extensions/email-templates/
@@ -330,6 +374,7 @@ email-templates:
 easyslider:
   title: EasySlider
   short_description:
+  hyva: true
   urls:
     m1: /m1/extensions/easyslider/
     m2: /m2/extensions/easyslider/
@@ -337,6 +382,7 @@ easyslider:
 easytabs:
   title: EasyTabs
   short_description:
+  hyva: true
   urls:
     m1: /m1/extensions/easytabs/
     m2: /m2/extensions/easytabs/
@@ -344,6 +390,7 @@ easytabs:
 featured-attributes:
   title: Featured Attributes
   short_description:
+  hyva:
   urls:
     m1:
     m2: /m2/extensions/featured-attributes/
@@ -351,6 +398,7 @@ featured-attributes:
 facebooklikebutton:
   title: Facebook Like Button
   short_description:
+  hyva:
   urls:
     m1: /m1/extensions/facebooklikebutton/
     m2: /m2/extensions/facebooklikebutton/
@@ -359,6 +407,7 @@ firecheckout:
   title: Firecheckout
   short_description: One-step checkout solution
   size: 2x2
+  hyva: true
   urls:
     m1: /m1/extensions/firecheckout/
     m2: /m2/extensions/firecheckout/
@@ -367,6 +416,7 @@ gdpr:
   title: GDPR
   short_description: GDPR compliance module
   size: 1x1
+  hyva: true
   urls:
     m1: /m1/extensions/gdpr/
     m2: /m2/extensions/gdpr/
@@ -374,6 +424,7 @@ gdpr:
 ga-plugin-events:
   title: Google Analytics - Additional Events
   short_description: Track different events at your store and send them to Gogole Analytics
+  hyva:
   urls:
     m1: /m1/extensions/ga-plugin-events/
     m2:
@@ -381,6 +432,7 @@ ga-plugin-events:
 ga-plugin-scrolldepth:
   title: Google Analytics - Scroll Depth
   short_description: Integration of Scroll Depth plugin for Google Analytics
+  hyva:
   urls:
     m1: /m1/extensions/ga-plugin-scrolldepth/
     m2:
@@ -388,6 +440,7 @@ ga-plugin-scrolldepth:
 geoip:
   title: Geo Address IP
   short_description:
+  hyva: true
   urls:
     m1:
     m2: /m2/extensions/geo-address-ip/
@@ -395,6 +448,7 @@ geoip:
 helpdesk:
   title: Helpdesk
   short_description:
+  hyva:
   urls:
     m1: /m1/extensions/helpmate/
     m2: /m2/extensions/helpdesk/
@@ -405,6 +459,7 @@ highlight:
     Highlight widgets help you to create outstanding product promotions
     on homepage and other cms pages.
   size: 2x1
+  hyva: true
   urls:
     m1: /m1/extensions/highlight/
     m2: /m2/extensions/highlight/
@@ -412,6 +467,7 @@ highlight:
 hover-gallery:
   title: Hover Gallery
   short_description:
+  hyva:
   urls:
     m1:
     m2: /m2/extensions/hover-gallery/
@@ -419,6 +475,7 @@ hover-gallery:
 improvedadminsecurity:
   title: Improved Admin Security
   short_description:
+  hyva:
   urls:
     m1: /m1/extensions/improvedadminsecurity/
     m2: /m2/extensions/improvedadminsecurity/
@@ -426,6 +483,7 @@ improvedadminsecurity:
 knowledgebase:
   title: KnowledgeBase
   short_description:
+  hyva:
   urls:
     m1:
     m2: /m2/extensions/knowledgebase/
@@ -433,6 +491,7 @@ knowledgebase:
 lightboxpro:
   title: Lightbox Pro
   short_description:
+  hyva:
   urls:
     m1: /m1/extensions/lightboxpro/
     m2: /m2/extensions/lightboxpro/
@@ -440,6 +499,7 @@ lightboxpro:
 marketplace:
   title: Marketplace
   short_description:
+  hyva: true
   urls:
     m1:
     m2: /m2/extensions/marketplace/
@@ -448,6 +508,7 @@ navigationpro:
   title: Navigation Pro
   short_description: Born to build powerful menus with multiple posibilities.
   size: 2x1
+  hyva:
   urls:
     m1: /m1/extensions/navigationpro/
     m2: /m2/extensions/navigationpro/
@@ -455,6 +516,7 @@ navigationpro:
 newsletterbooster:
   title: Newsletter Booster
   short_description:
+  hyva:
   urls:
     m1: /m1/extensions/newsletterbooster/
     m2:
@@ -462,6 +524,7 @@ newsletterbooster:
 orderattachments:
   title: Order Attachments
   short_description:
+  hyva: true
   urls:
     m1: /m1/extensions/order-attachments/
     m2: /m2/extensions/order-attachments/
@@ -469,6 +532,7 @@ orderattachments:
 pagebuilder:
   title: Pagebuilder
   short_description:
+  hyva:
   urls:
     m1:
     m2: /m2/extensions/pagebuilder/
@@ -476,6 +540,7 @@ pagebuilder:
 pagespeed:
   title: Page Speed
   short_description:
+  hyva:
   urls:
     m1: /m1/extensions/pagespeed/
     m2: /m2/extensions/pagespeed/
@@ -483,6 +548,7 @@ pagespeed:
 pdfinvoices:
   title: PDF Invoices
   short_description:
+  hyva: true
   urls:
     m1:
     m2: /m2/extensions/pdf-invoices/
@@ -490,6 +556,7 @@ pdfinvoices:
 prolabels:
   title: Prolabels
   short_description:
+  hyva: true
   urls:
     m1: /m1/extensions/prolabels/
     m2: /m2/extensions/prolabels/
@@ -497,6 +564,7 @@ prolabels:
 productvideos:
   title: Product Videos
   short_description:
+  hyva:
   urls:
     m1: /m1/extensions/product-videos/
     m2:
@@ -504,6 +572,7 @@ productvideos:
 prozoom:
   title: Prozoom
   short_description:
+  hyva:
   urls:
     m1: /m1/extensions/prozoom/
     m2:
@@ -511,6 +580,7 @@ prozoom:
 qty-switcher:
   title: Quantity Switcher
   short_description:
+  hyva:
   urls:
     m1: /m1/extensions/qty-switcher/
     m2: /m2/extensions/qty-switcher/
@@ -518,6 +588,7 @@ qty-switcher:
 quickshopping:
   title: Quick Shopping
   short_description:
+  hyva:
   urls:
     m1: /m1/extensions/quickshopping/
     m2:
@@ -526,6 +597,7 @@ recaptcha:
   title: ReCAPTCHA
   short_description: reCAPTCHA protects and defends. That is what we do best.
   size: 1x2
+  hyva:
   urls:
     m1: /m1/extensions/recaptcha/
     m2: /m2/extensions/recaptcha/
@@ -533,6 +605,7 @@ recaptcha:
 hreflang:
   title: Regional URLs
   short_description: Tell Google you have multilingual/multi-regional store.
+  hyva: true
   urls:
     m1:
     m2: /m2/extensions/hreflang/
@@ -542,6 +615,7 @@ reviewreminder:
   short_description: >
     Social commerce is what everyone needs. Get improved CTR with review reminders.
   size: 1x2
+  hyva: true
   urls:
     m1: /m1/extensions/reviewreminder/
     m2: /m2/extensions/reviewreminder/
@@ -549,6 +623,7 @@ reviewreminder:
 richsnippets:
   title: Rich Snippets
   short_description:
+  hyva: true
   urls:
     m1: /m1/extensions/richsnippets/
     m2: /m2/extensions/richsnippets/
@@ -556,6 +631,7 @@ richsnippets:
 seo-cross-links:
   title: SEO CrossLinks
   short_description:
+  hyva: true
   urls:
     m1:
     m2: /m2/extensions/seo-cross-links/
@@ -563,6 +639,7 @@ seo-cross-links:
 seo-html-sitemap:
   title: SEO HTML Sitemap
   short_description:
+  hyva: true
   urls:
     m1: /m1/extensions/seo-html-sitemap/
     m2: /m2/extensions/seo-html-sitemap/
@@ -570,6 +647,7 @@ seo-html-sitemap:
 seo-pager:
   title: SEO Pagination
   short_description: SEO enchancements for pagination
+  hyva: true
   urls:
     m1:
     m2: /m2/extensions/seo-pager/
@@ -577,6 +655,7 @@ seo-pager:
 seo-suite:
   title: SEO Suite
   short_description:
+  hyva: true
   urls:
     m1: /m1/extensions/seo-suite/
     m2: /m2/extensions/seo-suite/
@@ -584,6 +663,7 @@ seo-suite:
 seo-templates:
   title: SEO Metadata Templates
   short_description:
+  hyva: true
   urls:
     m1: /m1/extensions/seo-templates/
     m2: /m2/extensions/seo-templates/
@@ -591,6 +671,7 @@ seo-templates:
 seo-urls:
   title: SEO URLs
   short_description: SEO friendly urls for layere navigation and search
+  hyva: true
   urls:
     m1:
     m2: /m2/extensions/seo-urls/
@@ -598,6 +679,7 @@ seo-urls:
 seo-xml-sitemap:
   title: SEO XML Sitemap
   short_description:
+  hyva: true
   urls:
     m1: /m1/extensions/seo-xml-sitemap/
     m2: /m2/extensions/seo-xml-sitemap/
@@ -606,6 +688,7 @@ slick-carousel:
   title: Slick Carousel
   short_description: The last carousel you'll ever need
   size: 1x1
+  hyva:
   urls:
     m1: /m1/extensions/slick-carousel/
     m2: /m2/extensions/slick-carousel/
@@ -613,6 +696,7 @@ slick-carousel:
 smartsuggest:
   title: Smart Suggest
   short_description:
+  hyva:
   urls:
     m1: /m1/extensions/smartsuggest/
     m2:
@@ -620,6 +704,7 @@ smartsuggest:
 social-login:
   title: Social Login
   short_description:
+  hyva:
   urls:
     m1:
     m2: /m2/extensions/social-login/
@@ -627,6 +712,7 @@ social-login:
 socialsuite:
   title: Social Suite
   short_description:
+  hyva:
   urls:
     m1: /m1/extensions/socialsuite/
     m2:
@@ -634,6 +720,7 @@ socialsuite:
 soldtogether:
   title: Sold Together
   short_description:
+  hyva: true
   urls:
     m1: /m1/extensions/soldtogether/
     m2: /m2/extensions/soldtogether/
@@ -642,6 +729,7 @@ speculation-rules:
   title: Speculation Rules
   short_description: >
     Speculation rules take the form of a JSON structure that determine what resources should be prefetched or prerendered by the browser.
+  hyva:
   urls:
     m1:
     m2: /m2/extensions/speculation-rules/
@@ -652,6 +740,7 @@ store-maintenance:
     Store maintenance mode done right. SEO friendly, IP adress filter,
     maintenance period.
   size: 2x1
+  hyva:
   urls:
     m1:
     m2: /m2/extensions/store-maintenance/
@@ -661,6 +750,7 @@ subscribe-at-checkout:
   short_description: >
     Subscribe to store newsletter directly from checkout page
   size: 2x1
+  hyva: true
   urls:
     m1:
     m2: /m2/extensions/subscribe-at-checkout/
@@ -669,6 +759,7 @@ testimonials:
   title: Testimonials
   short_description: Let the customer's speak. Your business deserves good words.
   size: 2x1
+  hyva: true
   urls:
     m1: /m1/extensions/testimonials/
     m2: /m2/extensions/testimonials/
@@ -677,6 +768,7 @@ webp:
   title: Webp
   short_description: Magento2 module for converting images to webp format.
   size: 2x1
+  hyva:
   urls:
     m1:
     m2: /m2/extensions/webp/

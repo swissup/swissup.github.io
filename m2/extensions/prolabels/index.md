@@ -7,6 +7,7 @@ keywords: >
     magento2 featured products, magento2 product listing block, featured
     products block on magento2 homepage, labels,
 category: Prolabels
+extension_id: prolabels
 ---
 
 # ProLabels - product labels

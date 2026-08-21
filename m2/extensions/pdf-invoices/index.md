@@ -6,6 +6,7 @@ keywords: >
   magento pdf invoice, magento pdf order, magento pdf shipment,
   magento pdf credit memo, magento customize pdf
 category: PDF Invoices
+extension_id: pdfinvoices
 ---
 
 # PDF Invoices

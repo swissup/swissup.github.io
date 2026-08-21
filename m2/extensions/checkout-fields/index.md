@@ -4,6 +4,7 @@ title: Checkout Fields
 description: magento 2 checkout fields module documentation
 keywords: magento 2 checkout fields extension
 category: Checkout Fields
+extension_id: checkoutfields
 ---
 
 # Checkout Fields

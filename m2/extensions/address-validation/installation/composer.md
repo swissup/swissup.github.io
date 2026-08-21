@@ -9,6 +9,7 @@ exclude_from_search: true
 # Installation
 
 {% include installation/m2/composer.html package="swissup/address-validation" %}
+{% include installation/m2/hyva-no-extra.html %}
 
 #### Next Up
 

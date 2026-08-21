@@ -4,6 +4,7 @@ title: Checkout Success
 description: magento 2 checkout success page module documentation
 keywords: " magento 2 checkout success page extension "
 category: Checkout Success
+extension_id: checkoutsuccess
 gallery:
   - href: /images/m2/checkout-success/frontend.png
     src: /images/m2/checkout-success/frontend-small.png

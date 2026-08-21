@@ -3,6 +3,7 @@ layout: default
 title: Delivery Date and Time
 description: Delivery Date and Time documentation
 category: Delivery Date
+extension_id: deliverydate
 ---
 
 # Delivery Date and Time

@@ -5,6 +5,7 @@ description: Customer Field Manager for Magento 2
 keywords: >
     Customer fields, customer attributes, fields manager, attribute manager
 category: Customer Field Manager
+extension_id: customer-field-manager
 ---
 
 # Customer Field Manager

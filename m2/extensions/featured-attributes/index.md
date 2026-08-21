@@ -4,6 +4,7 @@ title: Featured Attributes
 description: Magento2 module to display selected attributes on category listing
 keywords: magento2 featured attributes, magento2 module
 category: Featured Attributes
+extension_id: featured-attributes
 ---
 
 # Featured Attributes

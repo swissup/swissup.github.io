@@ -8,6 +8,7 @@ keywords: >
     google rich snippets extension, google rich snippets magento2 extension, google
     rich snippets tool
 category: Rich Snippets
+extension_id: richsnippets
 ---
 
 # Rich Snippets

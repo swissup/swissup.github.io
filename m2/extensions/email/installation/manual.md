@@ -10,6 +10,7 @@ exclude_from_search: true
 # Manual Installation
 
 {% include installation/m2/manual.html package="swissup/email" %}
+{% include installation/m2/hyva-no-extra.html %}
 
 ##### Next up
 

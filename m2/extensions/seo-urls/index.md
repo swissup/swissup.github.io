@@ -4,6 +4,7 @@ title: SEO URLs
 description: SEO freidnly URLs
 keywords: seo friendly urls, good urls, seo url layered navigation
 category: Seo Urls
+extension_id: seo-urls
 ---
 
 # SEO URLs

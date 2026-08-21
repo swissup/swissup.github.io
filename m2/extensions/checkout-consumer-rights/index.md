@@ -4,6 +4,7 @@ title: Checkout Consumer Rights
 description: Consumer Rights modes at checkout page
 keywords: Consumer Rights, Checkout Consumer Rights
 category: Checkout Consumer Rights
+extension_id: checkoutconsumerrights
 ---
 
 # Checkout Consumer Rights

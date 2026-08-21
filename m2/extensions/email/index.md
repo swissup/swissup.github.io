@@ -6,6 +6,7 @@ description: >
 keywords: >
     magento2 email, magento2 module, magento2 smtp, magento2 mandrill, magento2 amazon ses
 category: Email
+extension_id: email
 ---
 
 # Email

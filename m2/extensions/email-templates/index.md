@@ -6,6 +6,7 @@ description: >
 keywords: >
     magento 2 email, magento 2 email template
 category: Email Templates
+extension_id: email-templates
 ---
 
 # Email Templates

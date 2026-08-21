@@ -4,6 +4,7 @@ title: Ajax Layered Navigation
 description: Magento2 Ajax Layered Navigation
 keywords: "magento 2 layered navigation extension, magento 2 layered navigation, magento 2 ajax layered navigation, magento 2 custom layered navigation, magento 2 layered navigation multi select, magento 2 custom product collection with layered navigation, magento create custom layered navigation, magento custom layered navigation filter, layered navigation, ajax layered navigation, ajax filters, multiple filters"
 category: Ajax Layered Navigation
+extension_id: ajaxlayerednavigation
 ---
 
 # Ajax Layered Navigation

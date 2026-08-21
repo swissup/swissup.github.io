@@ -6,6 +6,7 @@ description: >
 keywords: >
     magento2, diacnostic, fix, check, virtual
 category: Diagnostic
+extension_id: diagnostic
 ---
 
 # Diagnostic

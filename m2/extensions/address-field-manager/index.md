@@ -5,6 +5,7 @@ description: Address Field Manager for Magento 2
 keywords: >
     address fields, address attributes, fields manager, attribute manager
 category: Address Field Manager
+extension_id: address-field-manager
 ---
 
 # Address Field Manager

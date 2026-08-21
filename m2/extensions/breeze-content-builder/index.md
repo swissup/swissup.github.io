@@ -4,6 +4,7 @@ title: Breeze Content Builder
 description: Visual drag-and-drop page builder and layout editor for Magento 2 Breeze storefronts
 keywords: breeze content builder, magento 2 page builder, drag and drop, cms page builder, layout builder
 category: Breeze Content Builder
+extension_id: breeze-content-builder
 ---
 
 # Breeze Content Builder

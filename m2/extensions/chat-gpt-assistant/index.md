@@ -4,6 +4,7 @@ title: ChatGPT Assistant
 description: magento 2 chatGPT assistant module
 keywords: " magento AI content generation, magento 2 chatGPT assistant"
 category: ChatGPT Assistant
+extension_id: chat-gpt-assistant
 ---
 
 # ChatGPT Assistant

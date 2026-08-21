@@ -4,6 +4,7 @@ title: Checkout Cart
 description: magento 2 checkout cart module documentation
 keywords: checkout ajax cart, ajax cart magento 2, ajax cart at checkout page
 category: Checkout Cart
+extension_id: checkoutcart
 ---
 
 # Checkout Cart

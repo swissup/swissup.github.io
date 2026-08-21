@@ -5,6 +5,7 @@ description: magento image converting module
 keywords: >
   magento image extension, convert magento image
 category: Webp
+extension_id: webp
 ---
 
 # Webp

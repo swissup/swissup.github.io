@@ -4,6 +4,7 @@ title: Checkout Registration
 description: Customer registration modes at checkout page
 keywords: customer registration, checkout registration
 category: Checkout Registration
+extension_id: checkoutregistration
 ---
 
 # Checkout Registration

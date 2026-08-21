@@ -4,6 +4,7 @@ title: Quantity Switcher
 description: magento 2 quantity switcher module documentation
 keywords: " magento 2 quantity switcher extension "
 category: Quantity Switcher
+extension_id: qty-switcher
 ---
 
 # Quantity Switcher

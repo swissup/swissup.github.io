@@ -5,6 +5,7 @@ description: Address Autocompleter based on Google Maps API
 keywords: >
     magento 2 address autocompleter, magento gmaps, magento 2 google maps
 category: Address Autocomplete
+extension_id: addressautocomplete
 ---
 
 # Address Autocomplete

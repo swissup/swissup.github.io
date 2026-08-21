@@ -7,6 +7,7 @@ keywords: >
      magento product questions module, product questions on magento
      product page, magento askit module installation
 category: AskIt
+extension_id: askit
 ---
 
 # AskIt

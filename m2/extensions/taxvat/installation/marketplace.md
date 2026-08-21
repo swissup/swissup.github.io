@@ -10,6 +10,7 @@ exclude_from_search: true
 # Installation from Marketplace
 
 {% include installation/m2/marketplace.html package="swissup/product-taxvat" %}
+{% include installation/m2/hyva-checkout.html %}
 
 ## Complete the installation
 

@@ -6,6 +6,7 @@ keywords: >
   magento2 slider on homepage, magento2 slider extension, magento2 image
   slider, magento2 slider on product page, easyslider
 category: Easy Slider
+extension_id: easyslider
 ---
 
 # Easy Slider

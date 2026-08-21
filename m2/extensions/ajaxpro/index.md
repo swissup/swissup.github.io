@@ -6,6 +6,7 @@ description: >
 keywords: >
     magento ajax, magento ajax module, magento ajax call to block, magento ajax shopping cart, magento ajax cart pro
 category: AjaxPro
+extension_id: ajaxpro
 gallery:
   - href: /images/m2/ajaxpro/usage0.gif
     src: /images/m2/ajaxpro/usage0.gif

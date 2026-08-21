@@ -6,6 +6,7 @@ keywords: " magento2 security extension, admin security extension, magento2
 security module, magento2 login protection, magento2 secure admin login, magento
 admin extension "
 category: Improved Admin Security
+extension_id: improvedadminsecurity
 ---
 
 # Improved Admin Security

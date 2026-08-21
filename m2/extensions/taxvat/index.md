@@ -4,6 +4,7 @@ title: Checkout VAT
 description: magento 2 checkout VAT module documentation
 keywords: checkout, vat, taxvat, zero-tax, zero tax, tax-free, taxfree
 category: Checkout VAT
+extension_id: taxvat
 ---
 
 # Checkout VAT

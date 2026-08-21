@@ -4,6 +4,7 @@ title: Subscribe at Checkout
 description: Subscribe at Checkout for Magento 2
 keywords: subscribe at checkout, newsletter at checkout
 category: SubscribeAtCheckout
+extension_id: subscribe-at-checkout
 ---
 
 # Subscribe at Checkout

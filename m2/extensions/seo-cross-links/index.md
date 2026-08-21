@@ -4,6 +4,7 @@ title: SEO CrossLinks
 description: SEO crosslinks increase the SEO value of your store
 keywords: seo crosslinks
 category: Seo CrossLinks
+extension_id: seo-cross-links
 ---
 
 # SEO CrossLinks

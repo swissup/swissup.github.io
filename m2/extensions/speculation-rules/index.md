@@ -5,6 +5,7 @@ description: JSON-defined API developed by Google to enhance the performance of 
 keywords: >
   magento prerender pagespeed extension
 category: Speculation Rules
+extension_id: speculation-rules
 ---
 
 # Speculation Rules

@@ -9,8 +9,9 @@ exclude_from_search: true
 # Installation from Marketplace
 
 {% include installation/m2/marketplace.html package="swissup/product-subscribe-at-checkout" %}
+{% include installation/m2/hyva-checkout.html %}
 
-## Complete the installation
+### Complete the installation
 
 Navigate to `Stores > Configuration` and
 [setup module](/m2/extensions/subscribe-at-checkout/configuration/) according

@@ -2,6 +2,7 @@
 layout: default
 title: Bot Protection
 category: Bot Protection
+extension_id: botprotection
 ---
 
 # Bot Protection

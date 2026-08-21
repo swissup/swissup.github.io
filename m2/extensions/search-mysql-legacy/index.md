@@ -5,6 +5,7 @@ description: magento mysql search module for 2.4
 keywords: >
   magento search extension, mysql, 2.4
 category: Legacy Mysql Search
+extension_id: search-mysql-legacy
 ---
 
 # Legacy Mysql Search

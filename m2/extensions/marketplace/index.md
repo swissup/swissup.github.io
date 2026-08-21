@@ -3,6 +3,7 @@ layout: default
 title: Marketplace
 description: Marketplace for Magento - a module to manage Magento modules and update channels.
 category: Marketplace
+extension_id: marketplace
 ---
 
 # Marketplace

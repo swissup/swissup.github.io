@@ -6,6 +6,7 @@ description: >
 keywords: >
     magento2 facebook like button, magento2 module, magento2 facebook
 category: Social
+extension_id: facebooklikebutton
 ---
 
 # Facebook Like Button

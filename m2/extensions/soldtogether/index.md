@@ -7,6 +7,7 @@ keywords: >
     magento2 cross sells, magento2 related products, customer who bought
     also bought, frequently bought together, soldtogether
 category: SoldTogether
+extension_id: soldtogether
 ---
 
 # Sold Together

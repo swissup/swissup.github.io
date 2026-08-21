@@ -4,6 +4,7 @@ title: Social Login
 description: Social Login for Magento 2
 keywords: magento 2 social login, facebook login, google login, twitter login
 category: SocialLogin
+extension_id: social-login
 ---
 
 # Social Login

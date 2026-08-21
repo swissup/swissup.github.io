@@ -6,6 +6,7 @@ description: >
 keywords: >
     magento help desk module, magento help desk extension, magento ticket, magento support
 category: Helpdesk
+extension_id: helpdesk
 gallery:
   - href: /images/m2/helpdesk/form.png
     src: /images/m2/helpdesk/form.png

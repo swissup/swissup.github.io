@@ -4,6 +4,7 @@ title: Slick Carousel
 description: Slick Carousel for Magento 2
 keywords: slick carousel, slider
 category: SlickCarousel
+extension_id: slick-carousel
 ---
 
 # Slick Carousel

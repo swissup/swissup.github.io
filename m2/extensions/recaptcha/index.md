@@ -4,6 +4,7 @@ title: reCAPTCHA
 description: magento2 recaptcha module
 keywords: " magento2 captcha, recaptcha extension"
 category: reCAPTCHA
+extension_id: recaptcha
 ---
 
 # ReCAPTCHA from Google

@@ -4,6 +4,7 @@ title: SEO Images
 description: SEO freidnly product images names
 keywords: seo product images names, good product images names
 category: Seo Images
+extension_id: seo-images
 ---
 
 # SEO Images

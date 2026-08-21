@@ -12,6 +12,7 @@ exclude_from_search: true
 # Installation from Marketplace
 
 {% include installation/m2/marketplace.html package="swissup/rich-snippets" %}
+{% include installation/m2/hyva-no-extra.html %}
 
 ###### After you install an extension you can go to:
 

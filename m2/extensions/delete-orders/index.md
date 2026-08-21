@@ -4,6 +4,7 @@ title: Delete Orders
 description: Magento 2 Delete Orders allows remove orders from your store
 keywords: orders
 category: Delete Orders
+extension_id: deleteorders
 ---
 
 # Delete Orders

@@ -12,6 +12,7 @@ exclude_from_search: true
 # Manual Installation
 
 {% include installation/m2/manual.html package="swissup/rich-snippets" %}
+{% include installation/m2/hyva-no-extra.html %}
 
 ## Complete the installation
 

@@ -6,6 +6,7 @@ description: >
 keywords: >
     magento2 maintenance
 category: Store Maintenance
+extension_id: store-maintenance
 ---
 
 # Store Maintenance

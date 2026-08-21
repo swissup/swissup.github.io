@@ -4,6 +4,7 @@ title: SEO Metadata Templates
 description: magento metadata templates documentation
 keywords: " magento metadata templates extension "
 category: SEO Metadata Templates
+extension_id: seo-templates
 ---
 
 # SEO Metadata Templates

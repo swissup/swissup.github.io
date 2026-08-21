@@ -4,6 +4,7 @@ title: GDPR
 description: GDPR implementation for Magento 2
 keywords: gdpr for magento 2, GDPR
 category: GDPR
+extension_id: gdpr
 ---
 
 # GDPR

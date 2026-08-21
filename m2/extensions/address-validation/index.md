@@ -4,6 +4,7 @@ title: Address Validation
 description: USPS Shipping Address Verification
 keywords: magento shipping address validator, usps verification
 category: Address Validation
+extension_id: addressvalidation
 ---
 
 # Address Validation

@@ -9,6 +9,7 @@ exclude_from_search: true
 # Manual Installation
 
 {% include installation/m2/manual.html package="swissup/firecheckout" installer="true" %}
+{% include installation/m2/hyva-checkout.html %}
 
 ##### Next up
 

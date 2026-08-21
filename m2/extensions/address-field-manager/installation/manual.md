@@ -9,6 +9,7 @@ exclude_from_search: true
 # Manual Installation
 
 {% include installation/m2/manual.html package="swissup/product-address-field-manager" %}
+{% include installation/m2/hyva-no-extra.html %}
 
 ## Complete the installation
 

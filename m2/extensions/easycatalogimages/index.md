@@ -4,6 +4,7 @@ title: Easy Catalog Images
 description: Categories and subcategories listing with images or thumbnails
 keywords: easycatalogimages, category, subcategory
 category: EasyCatalogImages
+extension_id: easycatalogimages
 gallery:
   - href: /images/m2/easycatalogimages/departments.png
     src: /images/m2/easycatalogimages/departments.png

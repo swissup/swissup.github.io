@@ -7,6 +7,7 @@ description: >
 keywords: >
     magento2 search, ajaxsearch
 category: Ajaxsearch
+extension_id: ajaxsearch
 ---
 
 # Ajaxsearch

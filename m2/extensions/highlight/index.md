@@ -8,6 +8,7 @@ keywords: >
     magento2 featured products, magento2 bestsellers, featured
     products block on magento2 homepage
 category: Highlight
+extension_id: highlight
 ---
 
 # Highlight

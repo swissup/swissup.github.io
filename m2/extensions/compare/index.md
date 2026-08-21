@@ -6,6 +6,7 @@ description: >
 keywords: >
     magento2, compare, design, styles
 category: Compare
+extension_id: compare
 ---
 
 # Compare

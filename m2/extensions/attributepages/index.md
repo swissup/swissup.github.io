@@ -4,6 +4,7 @@ title: Attribute based pages (Brand pages)
 description: Magento 2 Attributepages documentation
 keywords: magento 2 attributepages, brandpage, brand page
 category: Attributepages
+extension_id: attributepages
 ---
 
 # Attributepages (Brandpages)

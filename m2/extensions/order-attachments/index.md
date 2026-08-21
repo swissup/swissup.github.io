@@ -4,6 +4,7 @@ title: Order Attachments
 description: Magento Order Attachments documentation
 keywords: "order attachments, email integration"
 category: Order Attachments
+extension_id: orderattachments
 ---
 
 # Order Attachments

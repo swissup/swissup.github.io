@@ -4,6 +4,7 @@ title: AMP
 description: Accelerated Mobile Pages for Magento 2
 keywords: amp for magento 2, accelerated mobile pages
 category: Accelerated Mobile Pages
+extension_id: amp
 ---
 
 # Accelerated Mobile Pages

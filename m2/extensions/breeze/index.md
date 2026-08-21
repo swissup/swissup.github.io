@@ -3,6 +3,7 @@ layout: default
 title: Breeze for Magento 2
 description: Performant Magento 2 frontend
 category: Breeze
+extension_id: breeze
 ---
 
 # Breeze

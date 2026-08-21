@@ -7,6 +7,7 @@ keywords: >
   optimize magento speed, magento speed optimization, magento page speed module,
   pagespeed
 category: Cachewarmer
+extension_id: crawler
 ---
 
 # Cachewarmer

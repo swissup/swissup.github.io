@@ -9,7 +9,6 @@ category: Checkout Success
 # Installation instructions
 
 {% include installation/m2/index.html %}
-{% include installation/m2/hyva-checkout.html %}
 
 #### After installing the extension you can go to:
 

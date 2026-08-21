@@ -4,6 +4,7 @@ title: Breeze AI
 description: AI content generation and translation for Magento 2 — products, categories and CMS pages, powered by OpenAI, Claude or Gemini
 keywords: magento 2 ai, ai content generation, ai translation, breeze ai, openai, claude, gemini
 category: Breeze AI
+extension_id: breeze-ai
 ---
 
 # Breeze AI

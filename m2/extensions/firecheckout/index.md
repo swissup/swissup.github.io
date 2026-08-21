@@ -4,6 +4,7 @@ title: Firecheckout
 description: Onestep checkout module for Magento 2
 keywords: firecheckout for magento 2, onestepcheckout for magento 2
 category: Firecheckout
+extension_id: firecheckout
 ---
 
 # Firecheckout

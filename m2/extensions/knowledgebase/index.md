@@ -6,6 +6,7 @@ description: >
 keywords: >
     magento faq module, magento knowledge extension, magento article
 category: KnowledgeBase
+extension_id: knowledgebase
 ---
 
 # KnowledgeBase

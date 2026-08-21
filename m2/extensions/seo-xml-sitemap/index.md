@@ -4,6 +4,7 @@ title: XML Sitemap
 description: SEO XML Sitemap
 keywords: magento 2 xml sitemap
 category: SEO XML Sitemap
+extension_id: seo-xml-sitemap
 ---
 
 # SEO XML Sitemap

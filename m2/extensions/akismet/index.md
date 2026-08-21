@@ -6,6 +6,7 @@ description: >
 keywords: >
     magento akismet
 category: Akismet
+extension_id: akismet
 ---
 
 # Akismet

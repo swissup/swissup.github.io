@@ -4,6 +4,7 @@ title: Easy Banners
 description:
 keywords: banner, easybanner, easybanners
 category: Easy Banners
+extension_id: easybanners
 ---
 
 # Easy Banners

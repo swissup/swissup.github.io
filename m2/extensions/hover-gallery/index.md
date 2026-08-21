@@ -4,6 +4,7 @@ title: Hover Gallery
 description: magento 2 hover gallery module documentation
 keywords: " magento 2 hover gallery extension "
 category: Hover gallery
+extension_id: hover-gallery
 ---
 
 # Hover Gallery

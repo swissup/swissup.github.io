@@ -4,6 +4,7 @@ title: Abandoned Cart
 description: magento 2 abandoned cart module
 keywords: " magento shopping cart abandonment, magento abandoned cart, magento 2 abandoned cart email"
 category: Abandoned Cart
+extension_id: abandonedcart
 ---
 
 # Abandoned Cart

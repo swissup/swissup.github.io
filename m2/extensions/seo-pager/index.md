@@ -4,6 +4,7 @@ title: SEO Pagination
 description: SEO enchancements for paginated content
 keywords: seo pagination
 category: Seo Pagination
+extension_id: seo-pager
 ---
 
 # SEO Pagination

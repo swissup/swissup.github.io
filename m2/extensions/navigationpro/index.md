@@ -4,6 +4,7 @@ title: Navigationpro
 description: Navigationpro for Magento 2
 keywords: navigationpro, megamenu, megadropdown, amazon menu, navpro
 category: Navigationpro
+extension_id: navigationpro
 ---
 
 # Navigation Pro

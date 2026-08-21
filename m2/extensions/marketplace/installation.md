@@ -12,6 +12,7 @@ category: Marketplace
 composer require swissup/module-marketplace
 bin/magento setup:upgrade --safe-mode=1
 ```
+{% include installation/m2/hyva-no-extra.html %}
 
 ## Update
 

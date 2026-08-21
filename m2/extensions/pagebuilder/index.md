@@ -4,6 +4,7 @@ title: Pagebuilder for Magento 2
 description: Pagebuilder implementation for Magento 2
 keywords: pagebuilder for magento 2, pagebuilder
 category: Pagebuilder
+extension_id: pagebuilder
 ---
 
 # Pagebuilder

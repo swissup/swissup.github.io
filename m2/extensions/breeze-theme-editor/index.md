@@ -4,6 +4,7 @@ title: Breeze Theme Editor
 description: Visual theme customization tool for Magento 2 with Breeze - live preview, draft/publish workflow, 16 field types
 keywords: breeze theme editor, magento 2 theme customization, visual theme editor, live preview, css variables
 category: Breeze Theme Editor
+extension_id: breeze-theme-editor
 ---
 
 # Breeze Theme Editor

@@ -4,6 +4,7 @@ title: Testimonials
 description: magento 2 testimonials module documentation
 keywords: magento 2 testimonials extension
 category: Testimonials
+extension_id: testimonials
 ---
 
 # Testimonials

@@ -4,6 +4,7 @@ title: Canonical URL
 description: magento2 canonical url module
 keywords: " magento2 seo canonical url extension"
 category: Canonical URL
+extension_id: seo-canonical
 ---
 
 # SEO Canonical URL
