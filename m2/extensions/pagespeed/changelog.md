@@ -8,6 +8,16 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.18.7
+
+> August 25, 2026
+
+#### Fixed
+
+- **Category page still swapping product images after 1.18.3** *(#113, completes #100)*: The 1.18.3 fix hardened `AttributeBasedStrategy`'s `class`-attribute fallback, but `SmartTagStrategy` runs earlier in the replacement chain and was never touched — it picked the first element whose attributes cleared a 70% similarity score against the patch's `oldHtml`, with no check for a later, better (or exact) candidate. Product images in the same category grid share nearly every attribute (`class`, `style`, `loading`, `decoding`, `width`, `height`, `sizes`, `srcset`) and differ only in `src`/`alt`, comfortably clearing that threshold, so a patch meant for one image could still land on an earlier, unrelated one — reproducing the same symptom on a client site running 1.18.3+. `SmartTagStrategy` now scores every candidate and applies the best-scoring one only when it isn't tied with another at the same score.
+
+---
+
 ### Version 1.18.3
 
 > August 4, 2026
