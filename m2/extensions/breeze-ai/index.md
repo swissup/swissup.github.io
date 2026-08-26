@@ -37,7 +37,7 @@ with OpenAI, Anthropic Claude and Google Gemini — you bring your own API key.
 ## Contents
 
  1. [Installation](installation/)
- 2. [Changelog](https://github.com/breezefront/module-breeze-ai/releases)
+ 2. [Changelog](changelog/)
 
 ## Quick Start
 
