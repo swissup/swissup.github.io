@@ -7,6 +7,43 @@ category: Argento Hyvä
 
 # Argento Hyva Changelog
 
+### Version 1.3.9
+
+  - _ArgentoHyva Chic Theme_
+    + Updated theme dependencies to version 1.3.10
+  - _ArgentoHyva Stripe Theme_
+    + Updated theme dependencies to version 1.0.3
+
+**Hyva Extensions Updates**
+  - [Hyva Ajax Search](/m2/extensions/ajaxsearch/) — 1.0.2
+  - [Hyva Sold Together](/m2/extensions/soldtogether/) — 1.2.3
+  - [Hyva EasyTabs](/m2/extensions/easytabs/) — 1.1.7
+
+### Version 1.3.8
+
+> Aug 27, 2026
+
+  - _Added ArgentoHyva Stripes Theme_
+  
+**Core Swissup Modules**
+
+  + Added swissup/module-core dependency version 1.13.0
+
+  
+### Version 1.3.6
+
+> July 21, 2026
+
+  - _ArgentoHyva Chic Theme_
+    + Updated theme dependencies to version 1.3.6
+
+### Version 1.3.5
+
+> June 10, 2026
+
+  - _ArgentoHyva Chic Theme_
+    + Updated theme dependencies to version 1.3.5
+
 ### Version 1.3.4
 
 > July 8, 2026
@@ -17,11 +54,6 @@ category: Argento Hyvä
 **Hyva Extensions Updates**
   - [Hyva Highlight](/m2/extensions/hyva-highlight/) — 1.1.1 (was 1.0.4)
   - [Hyva Sold Together](/m2/extensions/hyva-soldtogether/) — 1.2.1 (was 1.2.0)
-
-**Core Swissup Modules Updates**
-
-  - [EasyTabs](/m2/extensions/easytabs/) — 1.13.4 (was 1.13.2)
-  - [GDPR](/m2/extensions/gdpr/) — 1.9.1 (was 1.9.0)
 
 ### Version 1.3.2
 
