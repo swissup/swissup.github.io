@@ -8,6 +8,35 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.19.0
+
+> August 28, 2026
+
+#### Added
+
+- **Font preload budget: `Max font preloads` and `Never preload these fonts`** *(#117)*: Two new options in Stores > Configuration > Swissup > PageSpeed, Preload group (both depend on "Link Preload"). `Max font preloads` (`pagespeed/main/font_preload_limit`, default `0`) caps how many font hints the module generates from the stylesheets in one response; `Never preload these fonts` (`pagespeed/main/font_preload_ignore`) drops fonts whose url contains any of the listed substrings — one per line, matched case-insensitively — which is what decorative icon fonts need. Candidates are ranked by their effective `font-display`: render-blocking faces (`auto`, `block`) first, then `fallback`, then `swap`; `font-display: optional` is never preloaded, since the declaration already tells the browser it may skip the font. The budget is applied once per response, after every stylesheet has been through the improver, so the first stylesheet can no longer spend all of it. Explicit links from the admin's custom preload list are not candidates and are never dropped.
+
+#### Fixed
+
+- **Uncapped font preloads stretching the LCP image download** *(#117)*: Every `woff2` found in the merged stylesheets was preloaded, with no limit and no notion of whether the face blocks rendering. Measured on a live Argento product page, 138 KB of preloaded fonts plus an eager 219 KB footer PNG stretched a 68 KB LCP JPEG into a 3.1 s download; removing them took LCP from 3.83 s to 2.11 s on Slow 4G. Font preloading is now opt-in through `Max font preloads`, and the faces that do get the budget are the ones that actually block the paint.
+- **`@font-face` url parsing dropping fonts, and aiming preloads at a nonexistent host** *(#117)*: The url() handling collapsed `//` to `/` and then prefixed `https://`, so a root-relative `/media/fonts/x.woff2` became `https://media/fonts/x.woff2` — a preload pointed at a host that does not exist. Quoted `url('…')` values kept their quotes and were rejected by url validation; the query string was stripped, so a cache-busted font hint never matched the real request and the file was downloaded twice; `#iefix`-style fragments defeated the extension sniff. Values are now unquoted, fragments dropped, queries kept, `data:` uris and non-`woff2` formats skipped, protocol- and root-relative hrefs left in the form the browser will request, and absolute urls mirrored to the protocol-relative form `Improver::process()` rewrites the delivered css to — otherwise the hint addresses a second url.
+- **`@font-face` blocks mis-delimited by css comments** *(#117)*: The blocks were matched on the raw stylesheet, so a `}` inside a comment ended a face body early, and `font-display:` was detected with a bare substring test that also matched `font-family: 'font-display'` and urls containing the word. Faces are now delimited and read on a comment-masked copy of the stylesheet (comments blanked to spaces, so byte offsets still line up), `font-display` is only recognised at a declaration boundary, and the injected `font-display: swap` is spliced by offset instead of `str_replace` on the body text — which also rewrote an identical `@font-face` body elsewhere in the same file.
+- **Font collection depending on which caller ran first** *(#117)*: Collecting preload candidates is now armed one-shot per `process()` call, so the css resolver plugin relocating urls in a merged stylesheet — long before any response exists to carry a preload link — no longer pushes candidates of its own.
+
+**Behaviour changes:** fonts found in the stylesheets are no longer preloaded after an upgrade — `Max font preloads` defaults to `0`. Every preloaded font is a High priority request competing with the LCP image on the same connection, and with `font-display: swap` injected the fonts do not block rendering anyway, so the setting is opt-in: raise it to `1`–`2` for a weight you know renders above the fold. `Preload` gained a `Config` constructor argument, so run `bin/magento setup:di:compile` after updating.
+
+---
+
+### Version 1.18.8
+
+> August 28, 2026
+
+#### Fixed
+
+- **Third-party script blocked by CORS after receiving a `crossorigin` hint** *(#115)*: `AddLinkPreload` added `crossorigin="anonymous"` to every resource hint whose host differed from the store's base url. That attribute switches the hint to a CORS-mode fetch, so a third-party file whose server sends no `Access-Control-Allow-Origin` had its response blocked by the browser — reported on `s.kk-resources.com/leadtag.js`. Even a permissive third party lost out: a CORS-mode hint never matches the no-cors `<script>` request, so the file was fetched twice. The host check was wrong in the other direction too — `@font-face` fetches in CORS mode even from the store's own domain, so every same-origin font hint was emitted without `crossorigin` and could not be reused by the real font request. `crossorigin` now depends on the asset type alone: fonts always, whatever host they come from; scripts, styles and images never — they mirror the origin element instead. An explicit `crossorigin` from the asset definition or from an existing link is preserved; the rule only governs adding one, and it applies both to newly created preload links and to the ones the theme or a tag manager already placed in `<head>`.
+
+---
+
 ### Version 1.18.7
 
 > August 25, 2026
