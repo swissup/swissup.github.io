@@ -8,6 +8,15 @@ category: Breeze AI
 
 # Changelog
 
+### Version 1.4.0
+
+> August 28, 2026
+
+ -  Added **AI Run History** to the Breeze AI menu, and with it the ability to put back what an AI run overwrote. Every run that replaced something is listed with who started it, which model it used, and how many products, fields and store views it touched. Opening a run shows each value it replaced — the field, the store view, and the old text in full — and it can be put back one field at a time, for one product, for the rows ticked in the grid, or for the whole run at once. Where a store view had no value of its own before the run, restoring removes the value the run created, so the store view inherits from the default scope again as it did before. Restoring is queued like the run itself and reports what it could not put back, for instance a product deleted since — the rest is still restored. A restore records what it replaces, so a restore can itself be undone. Restoring is a separate permission from starting a run: grant **Restore Overwritten Values** to the roles that should hold it. Runs made before version 1.3.0 have nothing recorded and cannot be restored.
+ -  Added a usage log of what the AI actually costs, written to `var/log/breezeai_usage.log`. One line per request, naming the model that answered, the tokens in and out, how long the call took, the cost in US dollars, and the bulk run it belonged to — so the cost of one bulk run can be totalled from the file. Published prices are built in for the OpenAI, Claude and Gemini models the module lists; for a custom model, a proxy, a negotiated rate or a price change, set **Input / Output Price per 1M Tokens** on the model row. A model with no known price is logged with its token counts and no cost, rather than being reported as free.
+ -  Fixed the OpenAI error message advising an upgrade that half the affected stores cannot install: on PHP 8.1 the suggested client version is unavailable, so the message now names the PHP requirement instead.
+ -  Requires PHP 8.1 or later. Earlier versions claimed to support PHP 7.4 and 8.0, but the OpenAI client the module depends on has never worked below 8.1, so no working installation is affected.
+
 ### Version 1.3.0
 
 > August 26, 2026
