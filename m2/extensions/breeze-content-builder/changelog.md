@@ -13,6 +13,43 @@ category: Breeze Content Builder
 
 ## Breeze Content Builder
 
+### 1.2.0
+
+ -  Added new `Map` component — OpenStreetMap (no API key) or Google Maps (API key required), with coordinates or address, zoom, marker and height controls
+ -  Added `H1` to the `Heading Type` options of the `Text` component
+ -  Headings are now rendered as real heading tags instead of a styled `div`
+ -  Improved vertical stretch of the `Columns` component — column content can now fill the full row height
+ -  Components can now be restricted to specific pages — used by the Contact Us support in Breeze Layout Builder
+ -  Added Content Security Policy whitelist for the map embeds
+
+### 1.1.0
+
+ -  AI-generated components from the Breeze AI chat panel are now applied directly to the editor
+ -  Added new `Video` component — YouTube (click-to-load, keeps the player scripts off the page until play), Vimeo and MP4, with poster, caption and aspect ratio options
+ -  Added `5 Columns` layout for the `Columns` component
+
+### 1.0.12
+
+ -  Added new `Accordion/FAQ` component
+ -  Added `H1` option for the `Banner` headline
+ -  Fixed draft modification date not being updated after saving
+
+### 1.0.11
+
+ -  Added `Feature Left` and `Feature Right` layouts to the `Grid` component
+ -  Added font size field and source code button to the WYSIWYG editor
+ -  Heading now uses the text color configured in the `Text` component
+ -  Headings inside the `Banner` component now use the banner text color
+ -  Improved `Grid` component styles on 640px-768px screens
+
+### 1.0.10
+
+ -  Improved drag-and-drop in the components tree
+
+### 1.0.9
+
+ -  Added AI-readable descriptions to the component definitions
+
 ### 1.0.8
 
  -  Performance improvements for random product lists
@@ -90,6 +127,19 @@ category: Breeze Content Builder
 ---
 
 ## Breeze Layout Builder
+
+### 1.2.0
+
+ -  Added Contact Us page support with a new `Contact Form` component
+ -  Added config option for the upcoming TaxVAT switcher in the theme header
+
+### 1.1.1
+
+ -  Improved drag-and-drop in the components tree
+
+### 1.1.0
+
+ -  Added installer command that publishes layout content and enables Layout Builder for a page type during theme installation
 
 ### 1.0.0
 
