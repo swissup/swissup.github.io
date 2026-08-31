@@ -7,6 +7,164 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.54.0
+
+> August 31, 2026
+
+ -  _Argento Blank:_ Synced actions template with Magento to reuse the `addto` block
+ -  _Argento Force:_ Accessibility: heading elements are now in sequentially-descending order
+ -  _Argento Luxury:_ Updated Ajax Search integration
+ -  _All themes:_ Updated critical CSS
+
+**Extensions Updates**
+
+  - [Ajax Pro](/m2/extensions/ajaxpro/) — 1.7.39 (was 1.7.34)
+      + Fixed add-to-cart popup opening on page load when ajaxpro sections expired
+      + Fixed quick view popup not opening on listing pages
+      + Fixed notice messages silently dropped on every ajax request
+      + Fixed infinite section reload loop on website/store mismatch
+      + Fixed modal auto-close timer throwing an error instead of closing the popup
+      + Fixed HTTP 400 on `customer/section/load` for guests with an empty cart (Magento 2.4.9 + Breeze)
+      + Keep the `data-post` attribute intact so third-party widgets can still read it; fixed double submit and duplicated ajax requests on compare links
+      + Bind click handlers synchronously to close the startup window where a click caused a full page reload
+      + Guarded `productInfoResolver` call — fixes add to cart on themes shipping an outdated `catalog-add-to-cart.js`
+      + Namespaced click handlers and dispose customer-data subscriptions to avoid conflicts with other modules
+      + Replaced the `PostHelper` class preference with a plugin
+      + Breeze: added missing imports
+  - [Ajax Search](/m2/extensions/ajaxsearch/) — 1.14.11 (was 1.14.6)
+      + Fullscreen: fixed missing close button, unscrollable content, and results width not matching the input
+      + Fixed autocomplete container scoping to avoid conflicts between multiple search instances
+      + Added ability to remove styling when Ajax Search is enabled
+      + Inherit placeholder color from the theme
+      + Fixed overflowed content in Firefox (Apollo theme)
+      + Fixed layout shift when the result list is long
+      + Breeze: improved dark support, including `header__dark=deep`
+      + Breeze: config changes no longer require redeployment
+      + Breeze 2.0 and Magento 2.4.9 fixes
+  - [AskIt](/m2/extensions/askit/) — 1.14.27 (was 1.14.21)
+      + Added Swissup reCAPTCHA protection for the question form; ajax submits are now blocked when reCAPTCHA or image CAPTCHA validation fails
+      + Regenerated i18n dictionary (106 → 196 phrases), fixed a malformed "Answer" row in 18 locale files, and added cs/sk/hu/ro translations
+      + Fixed Dutch answer(s) translation
+      + Fixed null array offset deprecation on the new product form
+      + Use the frontend URL builder directly in blocks (Breeze Content Builder preview fix)
+      + Fixed PHP 8.4 error: cannot unset property `$totalCount`
+      + Magento 2.4.9 and PHP 8.5 fixes
+  - [AttributePages](/m2/extensions/attributepages/) — 1.8.6 (was 1.8.1)
+      + Added configurable search field to quickly find an option
+      + Added ability to move the description to the bottom
+      + Added styling for mobile view
+      + Hide links from SEO HTML Sitemap based on config
+      + PHP 8.5 fixes
+  - [EasySlide](/m2/extensions/easyslider/) — 1.8.18 (was 1.8.16)
+      + Fixed JS error on hidden slider
+      + Magento 2.4.9 and PHP 8.5 fixes
+  - [EasyBanner](/m2/extensions/easybanners/) — 1.9.24 (was 1.9.23)
+      + PHP 8.5 fix: using null as an array offset is deprecated
+  - [Easy Catalog Images](/m2/extensions/easycatalogimages/) — 1.5.15 (was 1.5.13)
+      + Added ability to set block title and CSS class via XML layout update
+      + Added ability to wrap the block into `block, block-content`
+      + Fixed inability to create a new category on PHP 8.5
+      + Added missing escaping
+  - [EasyTabs](/m2/extensions/easytabs/) — 1.13.4 (was 1.13.2)
+      + Added Category render attribute
+  - **Font Awesome** — 1.4.5 (was 1.4.4)
+      + Added configurable option to disable the Font Awesome preload, which downloaded ~75 KiB on every page
+  - [GDPR](/m2/extensions/gdpr/) — 1.9.2 (was 1.8.5)
+      + Blocked Cookies renamed to Unregistered Cookies; the button label now shows the count of blocked cookies
+      + Added ability to register a selected blocked cookie; matching blocked cookies are cleaned up on save
+      + Blocked cookies are now cleaned up by cron, keeping the 100 latest records
+      + Redirect back to the page where the customer pressed "Allow selection"
+      + Added notice about `*` in cookie names
+      + Breeze: fixed visible built-in cookie notice
+      + PHP 8.5 fixes
+  - [Hreflang](/m2/extensions/hreflang/) — 1.6.12 (was 1.6.11)
+      + Magento 2.4.9 and PHP 8.5 fixes
+  - **Image Optimizer** — 1.0.12 (was 1.0.11)
+      + Magento 2.4.9 fix (CLI execute command)
+  - [NavigationPro](/m2/extensions/navigationpro/) — 1.19.3 (was 1.17.35)
+      + Added ability to respect the "Include in menu" setting
+      + Added ability to set gap for multicolumn layout
+      + Added ability to select all items in the "Mass Edit" form
+      + Breadcrumbs now use the category name from the menu when it was modified
+      + If at least one link is marked as parent, all other parents are highlighted too
+      + Switched to CSS variables; Breeze: reset dark colors only when `header__dark = true`
+      + Fixed broken resizable columns and incorrect column width in backend preview
+      + Fixed unresponsive browser when toggling 7000 categories
+      + Fixed not working ribbon for vertical menu
+      + Fixed invisible loading mask caused by a Magento bug
+      + LESS 5.3.0 compatibility and PHP 8.5 fixes
+  - [Pagespeed](/m2/extensions/pagespeed/) — 1.19.0 (was 1.17.3)
+      + **Breaking:** removed the Expire Header feature along with `pagespeed/expire/*` configuration
+      + Added a dedicated `swissup_pagespeed` cache type, fixing Redis default cache pollution with 1.2M+ entries; optimizer entries got a 30-day TTL and no longer carry the `block_html` tag
+      + Added support for the native Magento 2.4.9 `dev/js/defer_non_critical` option
+      + Fixed WebP `<picture>`/`<img>` offset calculation on pages with script templates, and folded orphan DOM chains so `<picture>` always contains an `<img>`
+      + Fixed product images rendered with each other's `<img>` tag on category pages
+      + DeferJs: New Relic (NREUM) scripts are no longer moved out of `<head>`, the RequireJS bootstrap and bundle pool stay in place, and only executable scripts are counted
+      + Preload: per-type rel/fetchpriority, no double download of scripts already in the DOM, existing preload links keep the CSS order, font preloads are capped, and `crossorigin="anonymous"` is limited to fonts
+      + Fixed script parsing issue caused by New Relic (Unexpected token '<') and double-backslash handling in the JS parser
+      + Fixed `<head>` corruption in FuzzyContentStrategy and preserved the page's own `<meta charset>`
+      + Fixed slow DirectMatch lookups on large non-ASCII patches
+      + Logger extracted into a separate `swissup/module-logger` package
+      + Magento 2.4.9 and PHP 8.5 fixes
+  - [ProLabels](/m2/extensions/prolabels/) — 1.10.1 (was 1.8.1)
+      + Label images now use the "Upload + Media gallery" component, with a media gallery toggle
+      + Added active period for labels
+      + Reworked the admin label preview to be clearer and simpler
+      + Fixed call to undefined method `preloadManualForProducts`
+      + Fixed ParseError with template minification enabled
+      + Added null check for associated products in `getCheapestFromGrouped`
+      + Restored the deprecated `getProductLabels` method for backward compatibility
+      + Fixed PHP < 8.3 support (typed constants); Magento 2.4.9 and PHP 8.5 fixes
+  - [QtySwitcher](/m2/extensions/qty-switcher/) — 1.2.4 (was 1.2.1)
+      + Fixed TypeError when product `type_id` is null in `getMaxQty`
+      + Fixed MSI error for bundle products with no MSI source on the cart page
+      + Fixed arrow spacing lost after the switcher mounts
+  - [Rich Snippets](/m2/extensions/richsnippets/) — 1.8.5 (was 1.7.18)
+      + Added AdditionalProperty support for structured data, with a visual modifier builder
+      + Added `strip_pagebuilder` modifier to remove Page Builder markup and a regex modifier for find-and-replace, with pattern validation
+      + AdditionalProperty now has an `id` field, exported as `propertyID`
+      + Fixed reordered modifiers not being saved
+      + Offers now use PriceFormatter for price formatting
+      + Breeze: fixed not working breadcrumbs when merge is enabled
+      + PHP 8.5 fix
+  - [Canonical URL](/m2/extensions/seo-canonical/) — 1.11.10 (was 1.11.9)
+      + Fall back to the current store when a product is not assigned to the forced store
+  - [Seo Cross Links](/m2/extensions/seo-cross-links/) — 1.2.0 (was 1.1.26)
+      + Added support for CMS blocks
+  - [Seo HTML Sitemap](/m2/extensions/seo-html-sitemap/) — 1.1.23 (was 1.1.21)
+      + Added ability to set a custom sitemap URL per store, plus a canonical tag
+      + Added "Hide Attribute Pages" config option
+  - [SEO Pagination](/m2/extensions/seo-pager/) — 1.4.0 (was 1.3.5)
+      + Added allowlist filter sets configuration for the strategy, with updated canonical URL handling
+  - [Seo Templates](/m2/extensions/seo-templates/) — 1.7.12 (was 1.7.10)
+      + Added FilterValueResolver service for Smile Elasticsuite compatibility
+      + Added an index to `swissup_seotemplates_data` for better query performance
+      + PHP 8.5 fix
+  - [Seo URLs](/m2/extensions/seo-urls/) — 1.5.55 (was 1.5.54)
+      + Preserve query params when redirecting the homepage
+  - [SEO XML Sitemap](/m2/extensions/seo-xml-sitemap/) — 1.2.0 (was 1.1.16)
+      + Added minimum lastmod for products
+      + Dropped Magento 2.1.x support
+  - [SoldTogether](/m2/extensions/soldtogether/) — 1.11.4 (was 1.11.3)
+      + Fixed ability to show the `Customer` block on the shopping cart page
+      + Import/Export 1.0.2: Magento 2.4.9 fix
+      + Magento 2.4.9 and PHP 8.5 fixes
+  - [Testimonials](/m2/extensions/testimonials/) — 1.4.2 (was 1.4.0)
+      + Slider widget: added arrows/dots configuration, show image config, and more options in the visible slides dropdown
+      + Fixed wrong output when rating is not set
+  - **Core Module** — 1.13.1 (was 1.12.26)
+      + Added an outdated modules badge and a Modules configuration group
+      + Remote package data is now kept in files instead of the cache; added `-r` flag to re-check the remote source immediately
+      + Virtual Theme Check now verifies theme source files and shows Path and Status columns
+      + Prevent news retrieval after each cache flush
+      + Don't show non-installed modules when asking for outdated ones
+      + Fixed invisible update instructions when Mollie Payments is installed
+      + Fixed `Undefined array key "type"` warning
+      + Magento 2.4.9 fix (CLI execute command)
+  - **Theme Editor** — 1.12.0 (was 1.11.6)
+      + Fixed "Unable to get content for '_theme-editor.less'"
+      + Fixed missing configurable header on Magento 2.4.9
+
 ### Version 1.53.1
 
 > April 8, 2026
