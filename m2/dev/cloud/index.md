@@ -115,7 +115,7 @@ Default DB name: `magento2`
 #### Start the Docker Environment
 
  -  Execute `bin/magento-docker up` to download containers and start the environment.
-
+ -  Copy the crypt key from the environment `app/etc/env.php` file and save it in the local `app/etc/env.php`.
  -  Run `bin/magento-docker ece-deploy` to install Magento / Adobe Commerce in your Docker environment.
 
 #### Finish the Environment Configuration
