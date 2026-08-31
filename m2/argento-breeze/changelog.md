@@ -7,6 +7,113 @@ category: ArgentoBreeze
 
 # Argento Breeze Changelog
 
+### Version 3.2.0
+
+> August 31, 2026
+
+ - **Contact Us page can now be built with Breeze Layout Builder** — new `Contact Form` component, no layout XML required
+ - **AI Run History** — every Breeze AI bulk run is now recorded and can be rolled back, one field at a time or all at once
+ - **AI chat panel inside the Content Builder editor** — ask for a change and it is applied to the page you are looking at
+ - **Build from screenshot** — attach a design screenshot to a CMS page and Breeze AI composes the Content Builder draft from the components you have installed
+ - Added `Map`, `Video` and `Accordion/FAQ` components to **Breeze Content Builder**
+ - Added Product Listing Item Background to **Theme Editor**, and the Stripes footer now uses Theme Editor colors
+ - Reworked H1-H3 and block title font sizes in the Stripes and Force themes
+
+**Extensions Updates**
+
+- [Ajax Pro](/m2/extensions/ajaxpro/) — 1.7.39 (was 1.7.36)
+    + Fixed quick view popup not opening on listing pages
+    + Fixed HTTP 400 on section load for guests with an empty cart
+    + Third-party widgets can read `data-post` again — fixes Gift Card options not rendering
+    + Fixed double submit and duplicated requests on compare links
+    + Fixed add to cart on themes shipping an outdated `catalog-add-to-cart.js`
+    + Breeze: added missing imports
+
+- [Ajax Search](/m2/extensions/ajaxsearch/) — 1.14.11 (was 1.14.10)
+    + Fixed overflowed content in Firefox (Apollo theme)
+    + Fixed layout shift when the result list is long
+
+- [AskIt](/m2/extensions/askit/) — 1.14.27 (was 1.14.24)
+    + Regenerated translations and fixed a malformed "Answer" row in 18 locale files
+    + Added Czech, Slovak, Hungarian and Romanian translations
+    + Fixed Dutch answer(s) translation
+    + Fixed deprecation warning on the new product form
+
+- [Breeze AI](/m2/extensions/breeze-ai/) — 1.4.0 (was 1.0.7)
+    + Added **AI Run History** — see what a bulk run overwrote and restore it per field, per product or for the whole run; granted separately via the Restore Overwritten Values permission
+    + Added a usage log with per-request model, tokens, duration and cost in `var/log/breezeai_usage.log`
+    + Added an AI chat panel to the Breeze Content Builder editor
+    + Added **Build from screenshot** to the CMS page form
+    + Added landing page building to the Bulk Action wizard, plus a model and free-text brief pinned per run
+    + Added image support to the AI models, with an Image Input flag per model
+    + Fixed a bulk run processing far more entities than were selected
+    + Fixed GPT-5 and o-series models failing every call on OpenAI
+    + Fixed the MCP `graphql` tool accepting mutations
+    + Fixed translations losing content and leaking into the wrong store view
+    + Now requires PHP 8.1 or later
+
+- [Breeze Content Builder](/m2/extensions/breeze-content-builder/) — 1.2.0 (was 1.0.6)
+    + Added `Map` component — OpenStreetMap without an API key, or Google Maps
+    + Added `Video` component — YouTube click-to-load, Vimeo and MP4
+    + Added `Accordion/FAQ` component
+    + Added `5 Columns` layout, and `Feature Left`/`Feature Right` layouts for `Grid`
+    + Headings now render as real heading tags, with `H1` available in `Text` and `Banner`
+    + Components can be restricted to specific pages
+    + Improved drag-and-drop in the components tree
+    + Product list and grid performance improvements
+    + Added font size field and source code button to the WYSIWYG editor
+
+- [Breeze Layout Builder](/m2/extensions/breeze-content-builder/layout-builder/) — 1.2.0 (was 1.0.0)
+    + Added Contact Us page support with a new `Contact Form` component
+    + Added installer command that publishes layout content during theme installation
+    + Improved drag-and-drop in the components tree
+
+- [Easy Catalog Images](/m2/extensions/easycatalogimages/) — 1.5.15 (was 1.5.14)
+    + Fixed inability to create a new category on PHP 8.5
+
+- [GDPR](/m2/extensions/gdpr/) — 1.9.2 (was 1.9.1)
+    + Breeze: fixed visible built-in cookie notice
+
+- [Navigation Pro](/m2/extensions/navigationpro/) — 1.19.3 (was 1.18.0)
+    + Added ability to respect the "Include in menu" setting
+    + Added ability to select all items in the "Mass Edit" form
+    + Breadcrumbs now use the category name from the menu when it was modified
+    + Fixed unresponsive browser when toggling 7000 categories
+    + Fixed not working ribbon for vertical menu
+    + Added LESS 5.3.0 compatibility
+
+- [Page Speed](/m2/extensions/pagespeed/) — 1.19.0 (was 1.18.0)
+    + Fixed product images rendered with each other's image tag on category pages
+    + Fixed the RequireJS bootstrap being deferred, which broke map/paths resolution
+    + Preload: existing links keep the CSS order, font preloads are capped, and `crossorigin` is limited to fonts
+    + Fixed slow patch lookups on large non-ASCII pages
+    + Preserved the page's own `<meta charset>` and guarded against `<head>` corruption
+    + Added PHP 8.5 compatibility fixes
+
+- [ProLabels](/m2/extensions/prolabels/) — 1.10.1 (was 1.10.0)
+    + Fixed error on grouped products that have no associated products
+
+- [Quantity Switcher](/m2/extensions/qty-switcher/) — 1.2.4 (was 1.2.2)
+    + Fixed MSI error for bundle products with no MSI source on the cart page
+    + Fixed arrow spacing lost after the switcher mounts
+
+- [Rich Snippets](/m2/extensions/richsnippets/) — 1.8.5 (was 1.8.4)
+    + Additional properties now carry an `id`, exported as `propertyID`
+    + Offer prices now use the store's price formatting
+
+- [SEO Cross Links](/m2/extensions/seo-cross-links/) — 1.2.0 (was 1.1.26)
+    + Added support for CMS blocks
+
+- [Testimonials](/m2/extensions/testimonials/) — 1.4.2 (was 1.4.0)
+    + Slider widget: added arrows/dots configuration, show image config and more visible slides options
+    + Fixed wrong output when rating is not set
+
+- **Core Module** — 1.13.1 (was 1.12.27)
+    + Added an outdated modules badge and a Modules configuration group
+    + Remote package data is now kept in files instead of the cache
+    + Virtual Theme Check now verifies theme source files
+    + Fixed invisible update instructions when Mollie Payments is installed
+
 ### Version 3.1.0
 
 > July 20, 2026
