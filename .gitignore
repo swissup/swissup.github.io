@@ -3,5 +3,7 @@ _site
 .sass-cache
 .jekyll-metadata
 .idea
+.vscode
+.github
 bower_components
 node_modules
