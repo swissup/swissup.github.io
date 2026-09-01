@@ -8,6 +8,15 @@ category: Breeze AI
 
 # Changelog
 
+### Version 1.5.0
+
+> September 1, 2026
+
+ -  A page built from a screenshot now takes its images from that screenshot. Where a design shows a hero photo, a section background or a row of icons, the picture is cut out of the reference and stored in the store's media, instead of every image coming back as a `dummyimage.com` box to be replaced by hand. It costs nothing extra: the positions come back on the same AI request that lays the page out, and the cropping happens on the server. A region that holds a wireframe's grey box rather than a real picture keeps the placeholder — a grey rectangle presented as the page's hero would be worse — and the build says which images still need a hand. New settings live under Stores > Configuration > Breeze AI > Page Builder: image extraction is on by default, capped at 8 images per page, and crops no page points at are removed by a nightly cleanup after 30 days. Requires GD with WebP support; without it a build behaves as before.
+ -  Added the ability for the AI to place Magento widgets on a generated page, instead of imitating them with ordinary components — tick the testimonials slider and a review section becomes that widget. Widgets are chosen per installation under **Widgets The Builder May Place**, and nothing changes until at least one is ticked. Every widget of every enabled module is available, third-party ones included, except those whose value is a record that has to be picked by hand — a CMS block, a banner, a set of catalogue conditions — which are not offered, because the AI must not invent them. A widget the AI names wrongly, or a parameter that does not exist, is repaired rather than shipped broken: the section keeps its place in the page and the editor shows a widget picker, and the build report says what was changed. Note that a widget renders whatever the store's database holds — the testimonials slider with no approved testimonials produces an empty section.
+ -  Added a complete removal path. `bin/magento module:uninstall Swissup_BreezeAi --remove-data` now takes the module's tables, its configuration and the images it extracted from screenshots, instead of leaving them for a later reinstall to find. Note that pages built from a screenshot point at those images and outlive the module, so leave off `--remove-data` to keep them. The bundled `docs/UNINSTALL.md` covers both switching the module off and removing it.
+ -  Fixed AI action buttons squeezing the field they sit beside, introduced in 1.3.0. On a product or category attribute edited at store-view scope, the buttons pulled the field's note, its error label and the **Use Default Value** checkbox onto the field's own line; the field itself was left a sliver wide and its value looked empty. The buttons now share a row with the field and everything else keeps the row it has always had. Affects store-scoped Text Field and Text Area attributes.
+
 ### Version 1.4.0
 
 > August 28, 2026
