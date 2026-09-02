@@ -8,6 +8,12 @@ category: Breeze AI
 
 # Changelog
 
+### Version 1.6.0
+
+> September 2, 2026
+
+ -  Added generated images for the case a screenshot cannot answer: where the reference is a wireframe and the picture is only a grey box, the image can now be drawn instead of left as a placeholder. Taking images out of a real design still comes first, costs nothing and is always tried before this. Generation is **off by default** and needs its own API key, because it is the one part of a build that costs real money — one picture costs more than the whole page's text — and it is capped per page, three by default, with the most a build can spend shown before it starts. It only ever applies to a section's main image, never to icons, and only where the reference genuinely is a stand-in: a build from a real design generates nothing, so a designer's flat colour band is never painted over with an invented photograph. Settings live under Stores > Configuration > Breeze AI > Page Builder: Generated Images.
+
 ### Version 1.5.1
 
 > September 2, 2026
