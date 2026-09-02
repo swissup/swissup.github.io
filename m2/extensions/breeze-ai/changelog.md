@@ -8,6 +8,12 @@ category: Breeze AI
 
 # Changelog
 
+### Version 1.5.1
+
+> September 2, 2026
+
+ -  Fixed generated pages failing outright when Magento widgets were enabled for the builder in 1.5.0. The AI was asked to name a widget by its PHP class, whose backslashes cannot travel inside the build's reply — one widget could therefore break the whole page instead of one section. Widgets are now named by their widget code, a widget written by hand or inserted through Magento's own Insert Widget modal is still understood, and a widget code that could mean two different widgets is reported rather than guessed at. Anyone who enabled widgets in 1.5.0 should update.
+
 ### Version 1.5.0
 
 > September 1, 2026
