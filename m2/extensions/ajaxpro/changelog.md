@@ -6,6 +6,12 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.7.41
+
+> September 3, 2026
+
+ -  Fixed the product popup resizing the product thumbnails of the listing behind it.
+
 ### Version 1.7.40
 
 > September 3, 2026
