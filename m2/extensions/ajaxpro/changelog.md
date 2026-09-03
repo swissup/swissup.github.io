@@ -6,6 +6,34 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.7.40
+
+> September 3, 2026
+
+ -  Fixed the product options popup not opening when a bundle or grouped product, or a product with required custom options, is added to cart from a category or search listing. The page reloaded silently instead.
+ -  With the product view popup switched off, such a product now opens its product page instead of reloading the listing.
+
+### Version 1.7.39
+
+> August 26, 2026
+
+ -  Fixed a javascript error on add to cart in themes shipping their own outdated `catalog-add-to-cart.js` override.
+
+### Version 1.7.38
+
+> August 26, 2026
+
+ -  Fixed Gift Card product options being lost on add to cart.
+ -  Fixed the compare and wishlist links submitting twice on a single click.
+
+### Version 1.7.37
+
+> August 12, 2026
+
+ -  Fixed the Quick View popup staying silent after the popup gating change made in 1.7.35.
+ -  Fixed `customer/section/load` answering 400 when an AjaxPro section failed to render.
+ -  Breeze: added missing imports.
+
 ### Version 1.7.36
 
 > July 15, 2026
