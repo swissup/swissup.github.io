@@ -8,6 +8,15 @@ category: Breeze AI
 
 # Changelog
 
+### Version 1.6.1
+
+> September 4, 2026
+
+ -  Fixed rows getting a background image nobody asked for — a crop of the whole band, the design's own headline included, sitting behind the real content. A background is now filled only where the design has one.
+ -  Fixed pictures further down a page coming back as placeholders. The image budget was spent top to bottom, so icons and unwanted backgrounds used it up before the photographs; the biggest pictures are now taken first, and a rejected crop hands its slot to the next candidate.
+ -  A build that had to fill a band with a text block now names the widget that could have covered it, so it is clear what to tick under **Widgets The Builder May Place**.
+ -  Fixed the Content Builder chat panel missing when the editor is opened from the admin menu instead of a CMS page's **Open in Content Builder** button. Build refusals and failures are now written to the log.
+
 ### Version 1.6.0
 
 > September 2, 2026
