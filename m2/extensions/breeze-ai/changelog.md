@@ -8,6 +8,16 @@ category: Breeze AI
 
 # Changelog
 
+### Version 1.7.0
+
+> September 7, 2026
+
+ -  Added **Cancel** to the AI Jobs grid, per row and as a mass action, plus `bin/magento breezeai:bulk:cancel`. A run that is stuck or was queued by mistake can now be stopped: everything the queue could still run is rejected, so the run leaves "In Progress" at once. An operation already running cannot be interrupted mid-request — it finishes and reports its own outcome — but the queue behind it stops.
+ -  A queue consumer killed by the hosting (`timeout -s 9`, an out-of-memory kill, a deploy) runs no error handler, so the operation it was working on used to stay open and its run read as in progress with nothing behind it. Cron now finalises such operations every ten minutes — see Stores > Configuration > Breeze AI: *Declare an Operation Interrupted After (minutes)*, 120 by default. `bin/magento breezeai:bulk:sweep` does the same on demand.
+ -  Added a timeout to every text call to OpenAI, Claude and Gemini, which previously had none at all: a provider that stopped answering held the bulk queue until the process was killed from outside. The default is under Stores > Configuration > Breeze AI, and each model can set its own under Swissup > Breeze AI > AI Models, which is the better place to tune it.
+ -  An operation now always ends with a status, whatever went wrong inside it. A `TypeError` or a similar fatal used to pass the error handling by, leaving the operation open and its run hanging forever.
+ -  Upgrade note: runs scheduled by an earlier version recorded an operation only once it finished, so a run interrupted under 1.6.x has no operation rows for the cancel or the sweep to act on. Both apply to runs scheduled from 1.7.0 on.
+
 ### Version 1.6.1
 
 > September 4, 2026
