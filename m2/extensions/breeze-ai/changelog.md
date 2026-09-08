@@ -8,6 +8,16 @@ category: Breeze AI
 
 # Changelog
 
+### Version 1.7.1
+
+> September 8, 2026
+
+ -  **Enabled = No** now switches the module off in the admin as well. It used to stop only the AI buttons and the chat panel from being added to the product, category and CMS forms — **Swissup > Breeze AI** stayed in the menu, and the bulk wizard could still be opened and run. The menu entry is now hidden while the module is off, and its pages refuse to open and send you to the setting with a message saying why.
+ -  A bulk run already waiting in the queue when the module is switched off no longer goes on writing generated text over the catalogue. Each of its operations now ends with a message naming the reason, so the run finishes instead of hanging in progress — it does not resume by itself, so schedule it again once the module is back on.
+ -  **AI Run History stays open while the module is off**, restoring included: a run that overwrote something can still be undone after switching Breeze AI off, which is usually the very reason it was switched off. Its menu entry is hidden with the rest, so reach it from the link in the message on the closed pages or from a bookmark; the **Value Backup** setting still applies, and with that off a restore refuses as before.
+ -  The removal instructions no longer ask you to strip the `Swissup_BreezeAi::*` permissions from admin roles to hide the module — the setting does that now. Removing the permissions is still how to hide Breeze AI from one role while leaving it available to others.
+ -  Upgrade caution: the MCP endpoint at `/rest/V1/breezeai/mcp` now answers 404 whenever **Enabled** is No, where before it served requests on its own switch alone. If you use MCP against an installation with Breeze AI otherwise switched off, set **Enabled** to Yes — the MCP switch now only narrows what that one already allows.
+
 ### Version 1.7.0
 
 > September 7, 2026
