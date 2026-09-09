@@ -8,6 +8,32 @@ category: Breeze Theme Editor
 
 # Changelog
 
+### Version 1.0.16
+
+> Sep 7, 2026
+
+ -  Fixed `Unable to determine theme for scope default / scopeId 0` on installs where the theme is assigned per store view only — Default and Website scopes now fall back to the theme of the store view they preview.
+ -  Fixed the fallback picking a disabled or unrelated store view, which could let the editor save settings for one theme while the preview rendered another.
+ -  Improved the error message when no theme is assigned anywhere — it now names the cause and the fix (assign a theme in Content > Design > Configuration, then flush the config cache).
+
+### Version 1.0.15
+
+> Sep 2, 2026
+
+ -  Added a configurable GraphQL authorization header (Stores > Configuration > Swissup > Breeze Theme Editor > General Settings > GraphQL Authorization Header). On sites behind HTTP Basic Auth the browser asked for the Basic Auth password on every request and no correct password stopped it; moving the admin token to a custom header (e.g. `X-Bte-Authorization`) resolves the conflict. Default is `Authorization` — no change for existing installs.
+
+### Version 1.0.14
+
+> Aug 31, 2026
+
+ -  Raised the minimum `swissup/module-core` version to 1.13.1.
+
+### Version 1.0.13
+
+> Jul 31, 2026
+
+ -  Added the `COLOR_BACKGROUND` field type — a color field that accepts either a solid color or a CSS gradient, with a gradient editor (linear/radial, draggable stops, presets, palette colors) in the admin.
+
 ### Version 1.0.12
 
 > Jul 27, 2026
