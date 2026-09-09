@@ -8,6 +8,13 @@ category: Breeze AI
 
 # Changelog
 
+### Version 1.7.2
+
+> September 9, 2026
+
+ -  The MCP endpoint now negotiates protocol revision **2025-06-18** and still accepts `2025-03-26`, and it checks the `Mcp-Protocol-Version` header instead of ignoring it. A client asking for a revision we do not serve is refused in a reply it can still read, rather than being answered as though the version matched.
+ -  Fixed **Cancel** leaving part of a stuck run behind: an operation the queue could still deliver was skipped, so the run came back to life after the merchant had stopped it. Cancel now closes every operation the queue can act on.
+
 ### Version 1.7.1
 
 > September 8, 2026
