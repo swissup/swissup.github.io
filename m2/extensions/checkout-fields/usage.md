@@ -48,15 +48,21 @@ In order to display checkout fields in order emails, follow next steps:
  5. In `Template Content` place the following code where you want to show checkout fields:
 
     ```txt
-    {% raw %}{{block class="Swissup\CheckoutFields\Block\Adminhtml\Order\View\Fields" area="frontend" template="Swissup_CheckoutFields::email/order/fields.phtml" order_id=$order_id}}{% endraw %}
+    {% raw %}{{block class="Swissup\CheckoutFields\Block\Order\View\Fields" area="frontend" template="Swissup_CheckoutFields::email/order/fields.phtml" order_id=$order_id}}{% endraw %}
     ```
 
     if you want to display only specific fields, list comma-separated attribute codes
     in `fields_to_show` paramether:
 
     ```txt
-    {% raw %}{{block class="Swissup\CheckoutFields\Block\Adminhtml\Order\View\Fields" area="frontend" template="Swissup_CheckoutFields::email/order/fields.phtml" order_id=$order_id fields_to_show="order_comment,favourite_products,delivery_date"}}{% endraw %}
+    {% raw %}{{block class="Swissup\CheckoutFields\Block\Order\View\Fields" area="frontend" template="Swissup_CheckoutFields::email/order/fields.phtml" order_id=$order_id fields_to_show="order_comment,favourite_products,delivery_date"}}{% endraw %}
     ```
+
+    > **Note**: before 1.6.17 these examples used
+    > `Swissup\CheckoutFields\Block\Adminhtml\Order\View\Fields`. That class still
+    > works, but Mage-OS 3.5.0 refuses to render blocks from a `Block\Adminhtml\`
+    > namespace in email templates. See
+    > [Email Templates and Mage-OS 3.5.0](#email-templates-and-mage-os-350) below.
 
  6. Press `Save Template` button
  7. Go to `Stores -> Configuration -> Sales > Sales Emails -> Order`, select new template in
@@ -64,6 +70,29 @@ In order to display checkout fields in order emails, follow next steps:
  8. Check order email with checkout fields:
 
 ![Fields in Order Email](/images/m2/checkout-fields/fields-order-email.png)
+
+### Email Templates and Mage-OS 3.5.0
+
+Mage-OS 3.5.0 added a policy that stops email templates from rendering admin
+blocks. A `{% raw %}{{block class="..."}}{% endraw %}` directive pointing at a class whose name
+contains `\Block\Adminhtml\` renders **an empty string** — the checkout fields
+simply disappear from the email, with a warning written to the log and no
+error shown.
+
+Since 1.6.17 the extension provides
+`Swissup\CheckoutFields\Block\Order\View\Fields` for this purpose. It renders
+exactly the same output as the old block and takes the same `order_id` and
+`fields_to_show` parameters, so switching over is a matter of replacing the
+class name:
+
+```txt
+{% raw %}{{block class="Swissup\CheckoutFields\Block\Order\View\Fields" area="frontend" template="Swissup_CheckoutFields::email/order/fields.phtml" order_id=$order_id}}{% endraw %}
+```
+
+Email templates you already saved keep working after the update — the
+extension explicitly allows the old class — so this is a recommendation, not a
+required migration. Adobe Commerce and Magento Open Source are unaffected;
+they have no such policy.
 
 ### Display Fields at Checkout Success Page
 

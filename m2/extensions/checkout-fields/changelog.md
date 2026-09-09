@@ -8,6 +8,27 @@ category: Checkout Fields
 
 # Changelog
 
+### Version 1.6.17
+
+> Sep 9, 2026
+
+ -  **Mage-OS 3.5.0 support**: checkout fields no longer vanish from order
+    emails. Mage-OS 3.5.0 refuses to render blocks whose class name contains
+    `\Block\Adminhtml\` from an email template, and the directive we
+    documented used such a class — the block rendered an empty string with no
+    error, so the fields silently disappeared from customer and admin emails.
+    Added `Swissup\CheckoutFields\Block\Order\View\Fields`, which renders the
+    same output and accepts the same `order_id` and `fields_to_show`
+    parameters.
+ -  Email templates you already saved keep working — the old
+    `Block\Adminhtml\Order\View\Fields` class stays allowed — but new and
+    edited templates should use `Block\Order\View\Fields`. Adobe Commerce and
+    Magento Open Source are unaffected.
+ -  Fixed line breaks in multiline field values in order emails. They were
+    escaped twice and reached the customer as literal `<br />` text instead of
+    an actual line break. Also removed a stray trailing line break after
+    multiselect values.
+
 ### Version 1.6.16
 
 > May 11, 2026
