@@ -8,6 +8,16 @@ category: Breeze AI
 
 # Changelog
 
+### Version 1.8.0
+
+> September 11, 2026
+
+ -  **Generated images are now on out of the box.** A store with no image credential is not broken by this: the build falls back to taking pictures out of your design exactly as before, and the build note says so instead of failing.
+ -  **The image credential is now a Breeze AI model**, kept in the same grid as your text models rather than in a single configuration field. Your existing *Image API Key* is moved into a model row for you during the upgrade, and the old settings are left untouched. Disabling or deleting that row is how you tell a build to stop using the key.
+ -  **The build cost estimate now states what it is based on** — the provider, the quality tier it will be billed at, and both per-page limits — so the figure on the build button can be checked against the invoice rather than taken on faith.
+ -  Setting *Maximum Generated Pictures Per Page* and *Maximum Generated Icons Per Page* both to zero is now treated as switching generation off: no build notes, no log lines about a key that was never going to be reached.
+ -  **On upgrade:** image generation switches itself on for every store. If you do not want it, turn off **Generate Images** (Stores > Configuration > Breeze AI > Page Builder: Generated Images) or set both per-page limits to zero after updating.
+
 ### Version 1.7.3
 
 > September 11, 2026
