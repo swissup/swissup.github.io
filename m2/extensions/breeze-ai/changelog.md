@@ -8,6 +8,15 @@ category: Breeze AI
 
 # Changelog
 
+### Version 1.7.3
+
+> September 11, 2026
+
+ -  A hero whose photograph runs the full width of a band is now placed **behind the row** as its background, instead of being cropped to a rectangle that clipped the design's own headline. Whether a band counts as full-bleed is decided from the band's own pixels rather than from its outline, so a hero sitting inside a card is still cropped to the card.
+ -  **Icons and band backgrounds are now drawn rather than cut out.** The crop taken from your design becomes the reference handed to the image model, so a 32-pixel icon lifted from a phone-width screenshot no longer arrives blurred. Photographs are still taken from the design itself, which is exact and costs nothing.
+ -  That drawing needs **Generate Images** (Stores > Configuration > Breeze AI > Page Builder: Generated Images), which is off by default and has its own API key. Two separate limits govern what one build may spend: *Maximum Generated Pictures Per Page* and *Maximum Generated Icons Per Page*, so icons can no longer use up a hero's budget.
+ -  AI Jobs grid: a run whose operations were never given a status used to show an empty **Status**. It now reads **Unknown**, and the **Stoppable** column says how much of it a Cancel would still close.
+
 ### Version 1.7.2
 
 > September 9, 2026
