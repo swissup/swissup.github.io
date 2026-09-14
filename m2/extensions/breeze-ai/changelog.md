@@ -8,6 +8,14 @@ category: Breeze AI
 
 # Changelog
 
+### Version 1.8.1
+
+> September 14, 2026
+
+ -  **A run that recorded no work is no longer invisible in AI Jobs.** The grid used to list a build only once it had written at least one operation, so a build that failed before that point left no row at all — nothing to inspect, and nothing to clear away. Such a run is now listed, with its status shown as *Not Recorded*.
+ -  **Those runs offer Remove instead of Cancel.** There is nothing still running to cancel, so the grid no longer offers it; Remove asks for confirmation and then deletes the leftover row. It is withheld from any run that did record work — those are still cancelled the usual way.
+ -  Bulk operations that Magento schedules in the background on its own — saving a store-scoped attribute, for instance — are kept out of AI Jobs rather than listed among your builds.
+
 ### Version 1.8.0
 
 > September 11, 2026
