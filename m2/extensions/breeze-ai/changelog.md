@@ -8,6 +8,24 @@ category: Breeze AI
 
 # Changelog
 
+### Version 1.8.3
+
+> September 15, 2026
+
+ -  **A page built from a screenshot now keeps the design's own words.** The build used to write its own headlines and section titles, so a reproduction came back saying something the design never said. The wording in your reference is now the wording on the page; a brief that asks for new copy still overrides it, as before.
+ -  **Buttons that lead nowhere are no longer added.** A build would invent a call to action — *Shop the offer*, *Explore new arrivals* — with nothing behind it, and the band it sat on became one large dead link. A label with no real destination is now dropped, and the build note says why. A link to a section of the same page still counts as a destination and is kept.
+ -  **Banners keep your theme's colours.** Every banner an AI build produced landed on a near-black band with white text, whatever your theme looks like, because a colour the model deliberately left for the theme to decide was being filled in with the editor's own default. Colours the build does not choose are now left unset, and your theme decides them. Adding a banner by hand in the editor is unchanged — it still comes with a usable look out of the box.
+ -  **The *Image Generation Model* list now accounts for the models it does not offer.** A credential that cannot draw pictures used to be absent from the list with no explanation anywhere. Each one is now named beneath the field with the reason — its provider draws no images, it reads as a text credential, or the row is switched off — and links to its own edit form. When nothing at all can be selected, the field says so and why, instead of showing an empty dropdown.
+
+### Version 1.8.2
+
+> September 15, 2026
+
+ -  **A build reply the AI provider mangles no longer costs you the whole page.** A malformed answer ended the build with *"The AI returned a page layout that is not valid JSON: Syntax error"* and nothing was kept, even when the provider had written most of the page correctly before going wrong. The readable part is now salvaged and built, and the build note says what could not be read.
+ -  **A reply cut short at the model's output limit is now named as one.** Previously it arrived with the same wording as a badly written reply, though the two want opposite answers from you — a larger output limit in one case, a retry in the other.
+ -  **A build that is going to be refused no longer draws pictures first.** If nothing usable survives the salvage, the build stops before any image is generated, so a failed page cannot bill you for artwork it will never show.
+ -  The provider's reply is now recorded in the log when it cannot be read, so a report of this can be answered from the evidence rather than from a reproduction.
+
 ### Version 1.8.1
 
 > September 14, 2026
