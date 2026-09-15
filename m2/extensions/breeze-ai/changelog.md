@@ -16,6 +16,7 @@ category: Breeze AI
  -  **Buttons that lead nowhere are no longer added.** A build would invent a call to action — *Shop the offer*, *Explore new arrivals* — with nothing behind it, and the band it sat on became one large dead link. A label with no real destination is now dropped, and the build note says why. A link to a section of the same page still counts as a destination and is kept.
  -  **Banners keep your theme's colours.** Every banner an AI build produced landed on a near-black band with white text, whatever your theme looks like, because a colour the model deliberately left for the theme to decide was being filled in with the editor's own default. Colours the build does not choose are now left unset, and your theme decides them. Adding a banner by hand in the editor is unchanged — it still comes with a usable look out of the box.
  -  **The *Image Generation Model* list now accounts for the models it does not offer.** A credential that cannot draw pictures used to be absent from the list with no explanation anywhere. Each one is now named beneath the field with the reason — its provider draws no images, it reads as a text credential, or the row is switched off — and links to its own edit form. When nothing at all can be selected, the field says so and why, instead of showing an empty dropdown.
+ -  **On upgrade:** this release adds a new class and changes a constructor, so an install running in production mode needs `bin/magento setup:di:compile` before the new explanation appears under the field.
 
 ### Version 1.8.2
 
