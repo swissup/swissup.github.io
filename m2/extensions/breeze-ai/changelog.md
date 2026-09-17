@@ -8,6 +8,12 @@ category: Breeze AI
 
 # Changelog
 
+### Version 1.8.5
+
+> September 17, 2026
+
+ -  **Icons in your reference design are now picked up by the build.** A screenshot showing a row of feature cards with a small glyph on each came back with the glyphs missing and nothing in the build note to explain it: the model treated a small icon as decoration and never reported where it was. It is now told that every icon the design shows is expected, and that size is never a reason to skip one. A page built from a design with icons comes back with them in place. An icon cut from a small screenshot can land slightly off-centre — send a reference at least 1600 px wide for the cleanest result.
+
 ### Version 1.8.4
 
 > September 17, 2026
