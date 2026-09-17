@@ -8,6 +8,13 @@ category: Breeze AI
 
 # Changelog
 
+### Version 1.8.4
+
+> September 17, 2026
+
+ -  **A small icon in your reference design is now used instead of being thrown away.** When a build found an icon in the screenshot but the screenshot held too few pixels for it, the icon was refused and the card came out with nothing on it — and the build note claimed your theme had supplied its own icon instead, which never happened. The crop is now kept and placed, soft if the reference was small, and the note tells you which images came in under size and what resolution would fix it. Send a reference at least 1600 px wide and they come in sharp.
+ -  **Every build now says where its pictures came from.** A build that worked said nothing at all about its images, so there was no way to tell a page whose photos were taken from your design from one where they were drawn, skipped, or left as placeholders. The build note now opens with that count, and each section says which of its images were cut from the reference.
+
 ### Version 1.8.3
 
 > September 15, 2026
