@@ -8,6 +8,12 @@ category: Breeze AI
 
 # Changelog
 
+### Version 1.8.7
+
+> September 18, 2026
+
+ -  **The *AI Generate* button on Content Builder fields needs Content Builder 1.2.3 or newer**, and the package now says so. On an older Content Builder the buttons simply never appear — the field rows it draws do not announce themselves, so there is nothing for Breeze AI to attach to, and nothing warned you about it. Upgrade Content Builder to 1.2.3 if the buttons are missing after installing 1.8.6 or later.
+
 ### Version 1.8.6
 
 > September 18, 2026
