@@ -7,6 +7,12 @@ category: Delivery Date
 
 # Changelog
 
+### Version 1.9.0
+
+> September 18, 2026
+
+ -  Allow setting delivery date right from PaypalExpress review page.
+
 ### Version 1.8.1
 
 > April 2, 2026

@@ -8,6 +8,25 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.36.0
+
+> September 18, 2026
+
+ -  Improve speed of jsbuild deployment in development mode.
+ -  Added integration with Klarna_Kp payment methods.
+ -  Fixed possible "Maximum call stack size exceeded" when jsbuild is used.
+ -  Fixed inability to use jsbuild in readonly filesystem (Magento Enterprise).
+ -  Allow setting [Delivery date](/m2/extensions/delivery-date/) right from
+    PaypalExpress review page.
+ -  Fixed [CheckoutFields](/m2/extensions/checkout-fields/) compatibility with
+    Mage-OS 3.5.0
+ -  Fixed [AddressAutcomplete](/m2/extensions/address-autocomplete/) city
+    detection for addresses in small towns where Google Places
+    returns `administrative_area_level_3` instead of `locality`.
+ -  [CheckoutConsumerRights](/m2/extensions/checkout-consumer-rights/):
+    - Allow withdrawing the order from customer account page.
+    - Allow sending email notification to customer.
+
 ### Version 1.35.0
 
 > June 8, 2026
