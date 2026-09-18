@@ -8,6 +8,15 @@ category: Breeze AI
 
 # Changelog
 
+### Version 1.8.6
+
+> September 18, 2026
+
+ -  **Every text field in the Content Builder property panel now has its own *AI Generate* button.** Writing a single headline, a subheadline or a button label meant either describing the whole page to the chat panel or typing it yourself; each text, textarea and rich-text field now carries a button that writes just that one value. The request knows which component the field belongs to and what the component's other text already says, so a subheadline is written to follow the headline above it rather than in isolation.
+ -  The generated text replaces the field's contents directly — there is no preview step, and an unwanted result is undone with Ctrl+Z like any other edit. A provider that answers with nothing leaves the field as it was.
+ -  The button is shown only where it can actually work: Breeze AI enabled, at least one AI model enabled, and the admin user holding the generate permission. It needs a CMS page open in the editor and says so plainly if there is not one.
+ -  **On upgrade:** this release adds a new class and new admin assets, so an install running in production mode needs `bin/magento setup:di:compile` and `bin/magento setup:static-content:deploy` before the buttons appear.
+
 ### Version 1.8.5
 
 > September 17, 2026
