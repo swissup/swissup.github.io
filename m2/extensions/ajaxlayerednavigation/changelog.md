@@ -7,6 +7,25 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.6.10
+
+> September 21, 2026
+
+ -  Fixed category filter missing categories with the lowest product counts
+    on catalogs with many categories, even though they still appeared in
+    the store's menu. The search engine only returns the 500 most popular
+    values per filter, so those categories were silently dropped from the
+    aggregation. Now only the category filter is asked to return the full
+    list, to avoid tripping OpenSearch/Elasticsearch's own limit on the
+    total number of buckets across all filters. Fixes #109.
+
+### Version 1.6.9
+
+> September 21, 2026
+
+ -  Fixed PHP warning ("undefined array key") in the price filter when the
+    price range URL parameter had no delimiter.
+
 ### Version 1.6.8
 
 > June 16, 2026
