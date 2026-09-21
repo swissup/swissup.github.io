@@ -8,6 +8,14 @@ category: Breeze AI
 
 # Changelog
 
+### Version 1.8.8
+
+> September 21, 2026
+
+ -  **If you pressed *AI Generate* on a Map component's Title field in 1.8.6 or 1.8.7, rotate your Google Maps API key.** Generating text into one field also sent that component's other text fields to your configured AI provider as context, so the new text would fit what the component already said. The Map component's **Google API Key** is stored in a field of that kind, so pressing *Generate* on a Map's **Title** sent the key to the provider inside the request — with nothing on screen to say so. Only the Map component holds a credential in such a field, and only the 1.8.6 and 1.8.7 releases behaved this way; 1.8.8 sends genuine copy and nothing else. If that was you, treat the key as exposed and issue a replacement in the Google Cloud console.
+ -  **The *AI Generate* button now appears only on fields that hold copy.** In 1.8.6 it was offered on every single-line text field in the property panel, which in Content Builder also covers CSS Class, Min Height, Max Width, Latitude, Longitude, SKUs and the Google API Key — fields where a written sentence is not a useful value. It now appears on Title, Heading, Headline, Subtext, Text, Button Text, Caption and Alt Text, plus every rich-text field. **Buttons you saw on the other rows in 1.8.6 are deliberately gone** — that is this fix, not a regression.
+ -  A correction to the 1.8.6 note below, which said each text, textarea and rich-text field would carry a button: Content Builder declares no textarea fields at all, and "every text field" turned out to include the plumbing fields listed above rather than only the ones you would want written for you.
+
 ### Version 1.8.7
 
 > September 18, 2026
