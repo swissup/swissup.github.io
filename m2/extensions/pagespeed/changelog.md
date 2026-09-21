@@ -8,6 +8,16 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.19.2
+
+> September 21, 2026
+
+#### Fixed
+
+- **WebP variant not served for images with uppercase extensions** *(#120)*: `UrlResolver::resolve()` lowercased the file extension before building the webp candidate filename, but the webp files generated on disk keep the original extension case (`HandGuard.JPG` → `HandGuard.JPG.webp`). The lookup for `HandGuard.jpg.webp` never matched the real file, so the webp version was silently skipped for any image uploaded with an uppercase extension. The resolver now checks both the original-case and lowercased extension when locating the webp file.
+
+---
+
 ### Version 1.19.0
 
 > August 28, 2026
