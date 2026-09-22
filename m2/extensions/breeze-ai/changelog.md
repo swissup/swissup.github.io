@@ -8,6 +8,13 @@ category: Breeze AI
 
 # Changelog
 
+### Version 1.8.9
+
+> September 22, 2026
+
+ -  **Follow-up messages in the Content Builder AI chat panel are now cheaper and faster.** Every message used to resend every page the panel had built earlier in that conversation, so a long chat grew heavier with each turn, cost more per message and eventually risked being refused as too large. The provider is now sent only the page as it stands on screen, with the earlier ones replaced by a one-line note of what they were. The chat still remembers what was said, so "make the hero shorter" works exactly as before.
+ -  **Fixed: a chat that began with a screenshot and no typed message failed on every message after the first.** The first request worked, the second and all that followed came back as a generic error, and the only way out was to reload the page builder and start the conversation over. Such conversations now continue normally. If you gave up on the chat panel because of this, it is worth another try — start with a screenshot and keep typing.
+
 ### Version 1.8.8
 
 > September 21, 2026
