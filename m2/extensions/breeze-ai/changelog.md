@@ -8,6 +8,17 @@ category: Breeze AI
 
 # Changelog
 
+### Version 1.8.10
+
+> September 23, 2026
+
+ -  **Builds on a current Claude model work again.** Every build sent to `claude-sonnet-5` — the Claude model used unless you pick another — and likewise to `claude-opus-5` and `claude-fable-5`, ended with *"The AI returned a page layout that is not valid JSON"*, and the call was billed in full before it did: 844 tokens of a finished page document generated, paid for and thrown away on the last one measured. These models answer with their reasoning first and the page after it, and only the opening part of the answer was ever read. The whole answer is now read. Builds on the older 4.x Claude models were never affected. If you gave up on Claude builds because of this, they are worth another try.
+ -  **Claude builds are given four times the room to answer.** The output limit a model starts with rose from 4096 to 16384 tokens. A build from a screenshot was reaching the old limit every single time and being cut off part-way through the page; the same build now finishes, at 8196 tokens. A limit is a ceiling and not a charge — you pay for what the model writes — so the extra room costs nothing on a build that does not need it. The builds it unblocks do take longer: that screenshot build went from around 47 seconds to around 88. If your store holds requests to a shorter deadline, the **Timeout** field on the model is where to give it more.
+ -  **Repeat builds on OpenAI now cost what the usage log says they cost.** OpenAI has been discounting the unchanged part of a build prompt by itself, with nothing on our side aware of it — measured at 96.3% of the prompt served from its cache on a second identical build — so the log was over-stating every repeat build by about a third. Nothing has become cheaper here; the figures have become true.
+ -  **Repeat builds on Claude are genuinely cheaper.** Claude caches only when it is asked to, and this release asks. On a second build 7753 tokens of the prompt — 99.3% of the input — came back from the cache. Filling the cache carries a one-off premium of about 25% on the first build's input and each later build reads it back at about 90% less, so the pair has paid for itself by the second build. A single build run on its own is slightly more expensive than it was. What is cached is the component catalogue, the widget list and the build rules; your page and your brief are the parts that change and sit outside it. Building from a screenshot follows the same rule — refining the same screenshot reads from the cache, uploading a different one fills it again and pays the premium again.
+ -  **Gemini gets none of this.** Its caching is automatic and not something a request can ask for, and two identical calls reported nothing served from cache, so there is no saving to claim on it in this release.
+ -  **A Claude reply with no usable text in it now names the actual cause.** Whether the model spent its entire output limit before writing an answer or declined the request outright, the message says so, instead of reporting an unreadable reply and sending you off to rewrite a brief that was never the problem.
+
 ### Version 1.8.9
 
 > September 22, 2026
