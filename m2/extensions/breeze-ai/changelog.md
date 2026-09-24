@@ -8,6 +8,13 @@ category: Breeze AI
 
 # Changelog
 
+### Version 1.8.11
+
+> September 24, 2026
+
+ -  **A billed call that failed is no longer invisible in the usage log.** If a Claude reply ran out of its answer limit or came back unusable, the request had already been paid for in full — one measured case cost $0.028 for 844 tokens of output — but nothing showed up in the usage log to account for it, so total spend looked lower than it really was. Such a call is now logged and priced exactly like a successful one, so the log matches what you were actually charged.
+ -  **Choose where a build's images come from, per build, without touching store configuration.** Both the page builder modal and the Content Builder chat panel now offer an **Images** choice — store default, extract from the source, use placeholders, or generate — that applies to that one build only; your store's own settings are left untouched. Picking *Generate* with no image model configured tells you so the moment you choose it, before the build runs and before anything is billed.
+
 ### Version 1.8.10
 
 > September 23, 2026
