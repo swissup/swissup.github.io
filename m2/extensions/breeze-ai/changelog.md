@@ -8,6 +8,12 @@ category: Breeze AI
 
 # Changelog
 
+### Version 1.8.12
+
+> September 25, 2026
+
+ -  **The MCP Server settings can now be set per website and per store view.** **Enabled** and **GraphQL Endpoint Override** were previously a single value for the whole installation; both now carry website and store view scope, so one store can run the MCP server against its own GraphQL endpoint while another keeps it switched off. A value set that way is genuinely honoured at request time — a call made to a store's own REST URL reads that store's setting rather than the installation-wide one. Everything else in the Breeze AI configuration section stays installation-wide on purpose: those settings are read by background jobs and cleanup tasks that run across every store at once, so a per-store value would look like it applied and never be used.
+
 ### Version 1.8.11
 
 > September 24, 2026
