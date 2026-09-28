@@ -8,6 +8,14 @@ category: Breeze AI
 
 # Changelog
 
+### Version 1.8.14
+
+> September 28, 2026
+
+ -  **See which sections the builder intends to build — and edit that list — before a build is paid for.** The Content Builder chat panel now has a **Plan sections** button beside Send. Attach a screenshot of the design, press it, and the list of sections comes back first: *hero banner, three feature cards, quote strip, newsletter sign-up*. Strike a line out and that section is genuinely absent from the page you get — on a four-section mockup, striking out the quote strip produced a three-section page with that band's copy nowhere in it. Where the design could honestly be read two ways, the plan asks which reading you meant instead of guessing. Planning is optional: building straight away is unchanged, still one click, and the build itself is still a single call over the whole page rather than a section-by-section loop. Planning adds one small call in front of that build — on the same four-section mockup it answered in 4.4 seconds and cost $0.0039 on gpt-4o-mini.
+
+ -  **The planning call can run on a cheaper model than the build.** A new **Section-Plan Model** setting under **Page Builder** gives the planning call its own model row; leave it empty and it uses the same model the build runs on, so nothing changes until you set it. The planning call carries none of the component catalogue the build prompt needs, which is why a smaller model usually answers it just as well. The panel also shows what planning first adds to the cost before you choose it — read that as an estimate rather than a quote. It is counted from the size of the text sent, and some models charge for an attached screenshot at a near-fixed rate however short the prompt is, so on those the real difference is bigger than the figure shown: on gpt-4o-mini the measured difference was about 1.7× a plain build where the sentence showed about 1.1×.
+
 ### Version 1.8.13
 
 > September 28, 2026
