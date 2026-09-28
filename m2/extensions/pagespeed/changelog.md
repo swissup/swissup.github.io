@@ -8,6 +8,18 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.19.3
+
+> September 28, 2026
+
+#### Fixed
+
+- **WebP markup cached for the wrong browsers by FPC/Varnish** *(#124, closes #123)*: `Config::isWebPSupport()` decided from the request User-Agent (Chrome/Opera/Android/Firefox ≥ 65) whether to emit WebP markup, but the optimizer runs before the full page cache stores the page and the cache does not vary by User-Agent. The first visitor after a purge chose the variant for everyone: a bot, curl or Safari left all visitors on JPEG, and Chrome served `.webp` to every browser. WebP markup now depends only on the WebP config option.
+
+**Behaviour changes:** with WebP enabled, every visitor gets WebP URLs in `<img>` and inline JS, including inside `<picture>` (kept for Breeze gallery compatibility). Browsers without WebP support (Safari/iOS older than 14) get no fallback; the option comments now say so. A separate "Replace WebP in inline JS" option that would allow a real `<picture>` fallback is tracked in #126.
+
+---
+
 ### Version 1.19.2
 
 > September 21, 2026
