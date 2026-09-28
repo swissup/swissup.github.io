@@ -8,6 +8,12 @@ category: Breeze AI
 
 # Changelog
 
+### Version 1.8.13
+
+> September 28, 2026
+
+ -  **The page builder's settings can now be set per website and per store view, and a build genuinely honours them.** Everything under **Page Builder** and **Page Builder: Generated Images** — whether images are cut out of the reference screenshot and how many, which widgets the builder may place, whether pictures are generated at all, which image model draws them, its quality, the per-page limits on generated pictures and icons, the negotiated price per image and the timeout per image — used to be one value for the whole installation. Each of them now carries website and store view scope. Nothing changes for a merchant who sets nothing: a build reads the same installation-wide values it always did. Where a value is set per store, a build of a page that lives in exactly one store view reads that store's values — so one store view can cap a page at two generated pictures while another allows seven, or draw with a different image model at its own negotiated rate. That holds on every route into a build: the admin build dialog, queued bulk builds, the command line and the MCP server. The estimate shown before a build and the figures written to the usage log are read from the same store, so the two cannot disagree. One boundary worth knowing: a page assigned to several store views, or to All Store Views, has no single store to resolve and reads the installation-wide values on purpose — quietly picking one of the assigned stores and spending that store's image budget would be a surprise rather than a fix. **Keep Unused Images For (days)** also stays installation-wide, because the nightly cleanup sweeps every store in one pass.
+
 ### Version 1.8.12
 
 > September 25, 2026
