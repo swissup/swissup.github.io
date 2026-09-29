@@ -147,6 +147,59 @@ Enable Cron                      | Enable/disable cron schedule(s). (No)
 Cron Limit                       | Limit images per one cron task. (1000)
 
 
+#### WebP for CSS background images
+
+WebP delivery covers `<img>` tags and image URLs in JavaScript. Images set via CSS
+`background-image: url(...)` are **not rewritten** — in theme stylesheets, `<style>`
+blocks and inline `style` attributes alike. They stay in their original format even
+when the `.webp` file exists next to them on disk. This matters most for hero
+banners, where the background image is often the LCP element.
+
+The fix is one CSS rule: declare both formats and let the browser pick.
+
+```css
+.hero {
+    background-image: url("/media/wysiwyg/hero.jpg");
+    background-image: image-set(
+        url("/media/wysiwyg/hero.jpg.webp") type("image/webp") 1x,
+        url("/media/wysiwyg/hero.jpg")      type("image/jpeg") 1x
+    );
+}
+```
+
+Keep the first, plain `url()` declaration — it is the fallback. A browser that does
+not understand `image-set()` with `type()` drops the second declaration and uses the
+first, so the worst case is the original JPEG. There is no double download: a browser
+never fetches the image of an overridden declaration.
+
+`image-set()` with `type()` is supported by about 93% of browsers in use (caniuse, August 2026):
+
+Browser             | First version with `type()`
+--------------------|----------------------------
+Chrome / Edge       | 113
+Firefox             | 89
+Safari / iOS Safari | 17.0
+Opera               | 99
+Samsung Internet    | 23
+
+Safari 14–16 and Firefox 88 support `image-set()` but not `type()`; they fall back to the JPEG.
+
+**Use the exact WebP filename.** The module looks for the WebP file next to the
+original in this order:
+
+1. `{name}.{ext}.webp` — e.g. `hero.jpg.webp`
+2. the same with a lowercased extension — e.g. `hero.JPG` → `hero.jpg.webp`
+3. `{name}.webp` — e.g. `hero.webp`
+
+Generated files normally follow the first form, so for `hero.jpg` it is `hero.jpg.webp`,
+not `hero.webp`. Check that the file really exists on disk before putting it into CSS —
+with `type("image/webp")` the browser commits to the WebP URL, and a missing or broken
+file means no background at all.
+
+> **Breeze / Argento:** where the theme supports it, you can move the image into the
+> `data-background-images` attribute instead of CSS. The module already rewrites WebP
+> URLs in that attribute, so no `image-set()` rule is needed.
+
 #### Lazy loader for images
 
 ![Image Lazy load settings](/images/m2/pagespeed/configuration/image-lazy-settings.png)
