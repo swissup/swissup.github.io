@@ -8,6 +8,24 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.20.0
+
+> September 30, 2026
+
+#### Added
+
+- **Replace WebP in inline JS** *(#129, closes #126)*: New option `pagespeed/image/optimize_webp_js_replace` (default `1`) in the WebP group, shown when WebP and "Add picture tag" are both enabled. Turn it off to get a real `<picture>` fallback: `<img>` `src`/`srcset` and inline JS keep the original jpg/png, and the `.webp` URLs go only into `<source type="image/webp">`, so browsers without WebP support (Safari/iOS older than 14) load the original image. Without the picture tag the option is forced on, because `<img>` always gets the WebP URL and inline JS such as the Breeze gallery JSON has to match it. Images already inside a `<picture>` or without a WebP variant are left untouched when the option is off.
+- **Debug report for CSS background images with a WebP sibling** *(#132, closes #128)*: The module does not rewrite CSS `background-image` to WebP; the documented workaround is a hand-written `image-set()` rule. In debug mode (`?pagespeed=debug` with `pagespeed/main/debug_mode` on), every jpg/jpeg/png `url()` in inline `style` attributes and `<style>` blocks that has a WebP file next to it on disk is now logged to the browser console with where it was found, the exact WebP URL, and a ready-to-paste `image-set()` snippet with the plain `url()` fallback. `data:` URIs and URLs already used in an `image-set()` are skipped, and each URL is reported once. The report never changes the page, does nothing outside debug mode, and does not read linked stylesheet files.
+
+#### Fixed
+
+- **Lazy-load offset cached for the wrong device by FPC/Varnish** *(#127, closes #125)*: `LazyLoad::getOffset()` chose between `lazyload_mobile_offset` and `lazyload_offset` from the request User-Agent, but the optimizer runs before the full page cache stores the page and the cache does not vary by device. The first visitor after a purge chose the offset for everyone: a phone warming the cache lazy-loaded desktop above-the-fold images and hurt LCP, while desktop cache warmers made the mobile offset dead. The offset is now `pagespeed/image/lazyload_offset` for every visitor.
+- **`<picture>` `<source>` losing `srcset` descriptors and `sizes`** *(#131, closes #130)*: With "Add picture tag" on, the module built one `<source>` from `src` and another from `srcset` with bare URLs, dropping the `w`/`x` descriptors and `sizes`. The `src` one came first and the browser always picked it, so every viewport loaded the smallest WebP: blurry images on desktop, responsive images effectively disabled. A single `<source type="image/webp">` is now emitted, from `srcset` when the `<img>` has one (URLs replaced in place, descriptors kept, `sizes` copied) and from `src` only otherwise. If any `srcset` candidate has no WebP variant, no `<source>` is added, so the `<img>` keeps choosing the right size in the original format.
+
+**Behaviour changes:** `pagespeed/image/lazyload_mobile_offset` has no effect any more (kept for backward compatibility, marked deprecated in the admin). Stores with "Add picture tag" on get different `<picture>` markup: one `<source>` with descriptors and `sizes` instead of two. Defaults of the new WebP option keep the previous output. Flush the full page cache after updating.
+
+---
+
 ### Version 1.19.3
 
 > September 28, 2026
@@ -27,6 +45,16 @@ category: Pagespeed
 #### Fixed
 
 - **WebP variant not served for images with uppercase extensions** *(#120)*: `UrlResolver::resolve()` lowercased the file extension before building the webp candidate filename, but the webp files generated on disk keep the original extension case (`HandGuard.JPG` → `HandGuard.JPG.webp`). The lookup for `HandGuard.jpg.webp` never matched the real file, so the webp version was silently skipped for any image uploaded with an uppercase extension. The resolver now checks both the original-case and lowercased extension when locating the webp file.
+
+---
+
+### Version 1.19.1
+
+> September 11, 2026
+
+#### Fixed
+
+- **LCP image lazy-loaded on Argento/Breeze product pages** *(#119)*: The lazy-load optimizer skipped only two Luma class names, so the Argento/Breeze product main image (`main-image`), which is the LCP element, got `loading="lazy"` next to the theme's `fetchpriority="high"`. The LCP request was delayed and Lighthouse failed "Largest Contentful Paint image was lazily loaded". Images marked `fetchpriority="high"` are now never lazy-loaded, whatever the theme, and `main-image` joins the ignore list for themes that mark the LCP element without it.
 
 ---
 
