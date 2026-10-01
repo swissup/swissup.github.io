@@ -8,6 +8,18 @@ category: Breeze AI
 
 # Changelog
 
+### Version 1.8.20
+
+> October 1, 2026
+
+ -  **The AI chat panel in the Content Builder editor completes a request for the first time.** Pressing **Send** — or, since 1.8.14, **Plan sections** — in the editor's chat panel never finished: the loader sat there and the built page never reached the screen, even though the build had already been sent to the provider and billed for in full. The panel has behaved this way since it appeared in 1.3.0. Both buttons now complete normally, the result is applied to the page, and the reply appears in the panel. The build dialog on the CMS page form was never affected, which is why this went so long without being caught. If you tried the editor's chat panel, got nothing back and went back to the page form, it is worth another try.
+
+ -  **Attaching a design now asks what you want done with it.** Attaching a screenshot in the chat panel used to leave you to work out for yourself that there were two ways forward. The panel now asks, and both answers are one click: **Build it now**, which is exactly the behaviour of the previous release, or **Plan it with me first**, which brings back the list of sections to approve before the build is paid for. When a build lands, the panel speaks first — how many sections it built, anything it could not place, and where the pictures on the page came from — and then refining by chat continues as before. Neither the question nor the summary costs anything: no extra call to the provider is made for either. Two long-standing annoyances in the same panel are fixed alongside: long notes now wrap instead of being clipped at the edge of the dock, and **Send** stays reachable on a laptop screen after a five-section plan rather than being pushed out of view.
+
+ -  **Correction to the 1.8.14 release note: leaving Section-Plan Model empty did not use the model the build runs on.** That note said it did. In fact the planning call went to the installation's default model row, so a plan could be billed to a model nobody had chosen, and the cost sentence shown beside the button was priced against a third reading again. On one measured setup — default row `claude-sonnet-5`, the editor's own build model `gpt-4o-mini` — the sentence said planning would add about $0.0002 and it added $0.0065, roughly thirty times the quoted increment. The field, the call and the sentence now all name the same model row. If you left **Section-Plan Model** empty on the strength of that note, your planning calls were going somewhere else until this release.
+
+ -  **Pointing Section-Plan Model at different models in different store views now hides the cost sentence rather than quoting one of them.** The panel has no page open when that sentence is written, so it cannot know which store view's model it would be pricing. An installation that sets this setting once, or never, sees the sentence exactly as before.
+
 ### Version 1.8.14
 
 > September 28, 2026
