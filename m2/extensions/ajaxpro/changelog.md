@@ -6,6 +6,19 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.7.43
+
+> October 2, 2026
+
+ -  Fixed the add to cart popup resizing the product thumbnails of the listing behind it.
+ -  Fixed the "Skip to the end of the images gallery" links inside the Quick View popup sending focus to the page behind the popup instead of its own gallery.
+
+### Version 1.7.42
+
+> September 14, 2026
+
+ -  Fixed stale Quick View markup being injected into every page after a quick view. On themes where the popup styles do not apply, the product block rendered inline in the page, usually below the gallery.
+
 ### Version 1.7.41
 
 > September 3, 2026
