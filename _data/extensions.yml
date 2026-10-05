@@ -262,6 +262,14 @@ countdowntimer:
     m1: /m1/extensions/countdowntimer/
     m2: /m2/extensions/countdown-timer/
 
+css-shake:
+  title: CSS Shake
+  short_description:
+  hyva: true
+  urls:
+    m1:
+    m2: /m2/extensions/css-shake/
+
 customer-field-manager:
   title: Customer Field Manager
   short_description:
