@@ -6,6 +6,23 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.14.12
+
+> October 6, 2026
+
+ -  Security: the category filter (`ajaxsearchCategoryOptions`) no longer reveals the names of disabled categories, or of an inactive parent category, when a disabled category id is requested. It falls back to the store root.
+ -  Security: product, category and CMS page titles in search suggestions, and the category filter dropdown, are now HTML-escaped. Previously a title containing markup was rendered as HTML.
+ -  Popular search terms shown on focus now respect the "Display in Suggested Terms" flag, so terms hidden in the admin are no longer suggested.
+ -  Rejected short-query requests are now logged at debug level, without request arguments or User-Agent, to avoid log flooding.
+ -  Breeze + Luma: fixed layout shift caused by the close button in the folded search form.
+
+### Version 1.14.11
+
+> August 14, 2026
+
+ -  Fixed layout shift when the result list is long.
+ -  Fixed overflowed content in Firefox (Apollo theme).
+
 ### Version 1.14.10
 
 > June 1, 2026
