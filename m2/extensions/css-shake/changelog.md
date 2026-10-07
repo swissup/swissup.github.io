@@ -6,6 +6,12 @@ category: CSS Shake
 
 # Changelog
 
+### Version 1.2.1
+
+> October 7, 2026
+
+ -  Fixed PHP error on `robots.txt` page
+
 ### Version 1.2.0
 
 > October 5, 2026
