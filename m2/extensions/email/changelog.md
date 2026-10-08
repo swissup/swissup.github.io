@@ -8,6 +8,17 @@ category: Email
 
 # Changelog
 
+### Version 0.7.14
+
+> October 8, 2026
+
+ - Security: High — added missing access checks for editing and deleting mail services in the admin. *(#43, closes #42)*
+ - Security: Medium — improved protection against unintended data exposure in the mail log and service grids. *(#43, closes #42)*
+ - Security: Medium — the SSL/TLS option of a mail service is now enforced. *(#43, closes #42)*
+ - Security: Low — the service password is no longer shown in the admin form or sent in URLs. *(#43, closes #42)*
+ - Security: Low — corrected access checks for deleting services and viewing logged emails, and stricter handling of saved fields. *(#43, closes #42)*
+ - Security: Low — logged emails are now deleted after a configurable period (new "Keep Logs" setting, 30 days by default). *(#43, closes #42)*
+
 ### Version 0.7.13
 
 > July 22, 2026
