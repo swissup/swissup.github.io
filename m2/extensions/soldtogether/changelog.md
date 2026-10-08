@@ -8,6 +8,13 @@ category: SoldTogether
 
 # Changelog
 
+### Version 1.11.5
+
+> October 8, 2026
+
+ - Security: Critical — improved protection of promoted product prices in the cart.
+ - Fixed: promoted prices for configurable products are now calculated from the selected option's price.
+
 ### Version 1.11.4
 
 > May 15, 2026

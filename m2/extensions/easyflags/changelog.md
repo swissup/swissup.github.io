@@ -8,6 +8,15 @@ category: Easy Flags
 
 # Changelog
 
+### Version 1.4.5
+
+> October 8, 2026
+
+ -  Security: Medium — improved output handling of flag images on the storefront and in the admin store grid.
+ -  Security: Medium — improved file name validation for flag image uploads.
+ -  Security: Medium — improved output handling in the language switcher.
+ -  Changed: Magento versions older than 2.3 are no longer supported.
+
 ### Version 1.4.4
 
 > Aug 14, 2023

@@ -6,6 +6,12 @@ category: Geo Address IP
 
 # Changelog
 
+### Version 1.6.3
+
+> October 8, 2026
+
+ -  Security: Medium — proxy IP headers are now used only for GeoIP detection and no longer affect visitor IP detection across the rest of the store.
+
 ### Version 1.6.2
 
 > May 21, 2026

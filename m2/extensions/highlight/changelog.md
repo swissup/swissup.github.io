@@ -8,6 +8,13 @@ category: Highlight
 
 # Changelog
 
+### Version 1.11.10
+
+> October 8, 2026
+
+ -  Security: High — strengthened protection of the carousel data loaded on the storefront.
+ -  Security: Medium — hardened the GraphQL product query with limits, stricter input validation, and safer error messages.
+
 ### Version 1.11.9
 
 > December 5, 2025

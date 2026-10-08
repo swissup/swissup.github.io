@@ -8,6 +8,16 @@ category: Easy Banners
 
 # Changelog
 
+### Version 1.9.25
+
+> October 8, 2026
+
+ -  Security: High — strengthened validation of placeholder settings used to build the storefront layout.
+ -  Security: High — improved input handling in banner statistics management.
+ -  Security: Medium — improved file name validation for banner image uploads and resizing.
+ -  Security: Medium — strengthened request protection for admin actions that change data, such as delete, enable/disable, and clear statistics.
+ -  Security: Low — improved validation in the banner conditions editor.
+
 ### Version 1.9.24
 
 > May 15, 2026

@@ -8,6 +8,13 @@ category: Easy Tabs
 
 # Changelog
 
+### Version 1.13.5
+
+> October 8, 2026
+
+ -  Security: Medium — improved protection against disabled products being shown in product tabs.
+ -  Security: Medium — GraphQL now applies the same tab visibility conditions, such as customer group, as the storefront.
+
 ### Version 1.13.4
 
 > July 2, 2026

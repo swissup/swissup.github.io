@@ -8,6 +8,41 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.36.1
+
+> October 8, 2026
+
+**Geo Address IP**
+
+ -  Security: Medium — proxy IP headers are now used only for GeoIP detection and no longer affect visitor IP detection across the rest of the store.
+
+**Checkout Fields**
+
+ -  Security: High — improved output handling for checkout field values shown in the admin order view.
+ -  Security: Medium — strengthened handling of field labels, notices, and options in checkout forms.
+ -  Security: Medium — saving checkout fields now requires the matching admin permission.
+ -  Security — field values are now validated against the field type and store before they are saved, including for admin-created orders.
+ -  Fixed: clearing an optional checkout field now removes the previously saved value.
+
+**Checkout Registration**
+
+ -  Security: High — improved protection of account passwords set during registration at checkout.
+
+**Order Attachments**
+
+ -  Security: High — strengthened file type validation and safer file previews for uploaded attachments.
+ -  Security: Medium — file size and file count limits are now enforced on the server.
+ -  Security: Medium — improved access checks for uploading and editing attachments at checkout.
+ -  Security: Medium — strengthened request protection for uploading, updating, and deleting attachments.
+ -  Security: Medium — attachment preview links are now signed and expire after one week.
+ -  Security: Low — improved error message handling on the storefront.
+
+**Subscribe at Checkout**
+
+ -  Security: Medium — guest newsletter subscription now happens only after the order is placed.
+ -  Improved: the subscription checkbox follows the module and Magento newsletter settings and is hidden when guest subscription isn't allowed.
+ -  Improved: the subscription is linked to the customer account when the guest registers during checkout.
+
 ### Version 1.36.0
 
 > September 18, 2026

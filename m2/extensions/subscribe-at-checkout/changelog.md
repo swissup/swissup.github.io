@@ -8,6 +8,14 @@ category: SubscribeAtCheckout
 
 # Changelog
 
+## Version 1.3.7
+
+> October 8, 2026
+
+ -  Security: Medium — guest newsletter subscription now happens only after the order is placed.
+ -  Improved: the subscription checkbox follows the module and Magento newsletter settings and is hidden when guest subscription isn't allowed.
+ -  Improved: the subscription is linked to the customer account when the guest registers during checkout.
+
 ## Version 1.3.6
 
 > April 9, 2025

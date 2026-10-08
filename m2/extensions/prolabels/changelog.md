@@ -8,6 +8,19 @@ category: Prolabels
 
 # Changelog
 
+### Version 1.9.3
+
+> October 8, 2026
+
+ -  Security: High — improved file name and path validation for label image uploads.
+ -  Security: Medium — improved output handling of product attribute values used in labels.
+ -  Security: Medium — improved output handling of label data on category pages.
+ -  Security: Medium — label text, custom CSS, and URLs are now validated when saved, both on labels and in the module settings.
+ -  Security: Medium — the label "Round Method" setting now accepts only the supported values.
+ -  Security: Medium — the label apply, indexed products, and presets admin actions now require the matching admin permission.
+ -  Fixed: possible PHP error on category pages when label output selectors are left empty.
+ -  Note: labels saved before this update can still be enabled or disabled, but changes to their text, CSS, or URL must pass the new validation.
+
 ### Version 1.9.2
 
 > June 29, 2026

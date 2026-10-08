@@ -8,6 +8,13 @@ category: Delete Orders
 
 # Changelog
 
+### Version 1.3.6
+
+> October 8, 2026
+
+ -  Security: Medium — strengthened request protection for admin mass delete and "un-cancel" actions.
+ -  Improved: logging setup simplified; logs are still written to var/log/delete_orders.log.
+
 ### Version 1.3.5
 
 > May 15, 2026

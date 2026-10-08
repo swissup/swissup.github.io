@@ -8,6 +8,14 @@ category: GDPR
 
 # Changelog
 
+### Version 1.9.2
+
+> October 8, 2026
+
+ -  Security: High — improved output handling on the cookie settings page.
+ -  Security: Medium — strengthened validation and limits for cookies detected on the storefront.
+ -  Security: Medium — improved validation of cookie consents submitted from the storefront.
+
 ### Version 1.9.1
 
 > June 30, 2026

@@ -7,6 +7,17 @@ category: Order Attachments
 
 # Changelog
 
+### Version 1.5.3
+
+> October 8, 2026
+
+ -  Security: High — strengthened file type validation and safer file previews for uploaded attachments.
+ -  Security: Medium — file size and file count limits are now enforced on the server.
+ -  Security: Medium — improved access checks for uploading and editing attachments at checkout.
+ -  Security: Medium — strengthened request protection for uploading, updating, and deleting attachments.
+ -  Security: Medium — attachment preview links are now signed and expire after one week.
+ -  Security: Low — improved error message handling on the storefront.
+
 ### Version 1.5.2
 
 > April 9, 2025

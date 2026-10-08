@@ -7,6 +7,12 @@ category: Checkout Registration
 
 # Changelog
 
+### Version 1.2.4
+
+> October 8, 2026
+
+ -  Security: High — improved protection of account passwords set during registration at checkout.
+
 ### Version 1.2.3
 
 > December 18, 2025

@@ -10,6 +10,16 @@ category: Navigationpro
 
 ### Version 1.19.3
 
+> October 8, 2026
+
+ -  Security: High — restricted the data that menu content directives can access.
+ -  Security: Medium — improved content handling in the admin menu preview.
+ -  Security: Medium — strengthened request protection for admin menu and menu item actions.
+ -  Security: Low — GraphQL no longer exposes internal error details.
+ -  Fixed: GraphQL now returns rendered menu item HTML.
+
+### Version 1.19.3
+
 > August 17, 2026
 
  -  Added ability to select all items in "Mass Edit" form.

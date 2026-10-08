@@ -8,6 +8,29 @@ category: SEO Suite
 
 # Changelog
 
+### Version 1.20.1
+
+> October 8, 2026
+
+**swissup/module-hreflang**
+
+ - Security: High — improved output handling of hreflang links on the storefront.
+ - Security: Low — improved output handling in the admin CMS page form and the XML sitemap.
+
+**swissup/module-rich-snippets**
+
+ - Security: High — improved output handling in structured data (JSON-LD).
+
+**swissup/module-seo-cross-links**
+
+ - Security: Medium — improved URL validation for cross links.
+
+**swissup/module-seo-templates**
+
+ - Security: High — improved input handling when generating SEO data and clearing logs.
+ - Security: Medium — the conditions editor now requires the matching admin permission and validates its input.
+ - Security: Medium — strengthened request protection for admin template and generation actions.
+
 ### Version 1.20.0
 
 > Feb 4, 2026
