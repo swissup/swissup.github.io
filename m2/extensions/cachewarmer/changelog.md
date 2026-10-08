@@ -12,10 +12,10 @@ category: Cachewarmer
 
 > Oct 8, 2026
 
- - Security: Medium — improved validation and limits for the page load statistics requests. *(#19, closes #18)*
- - Security: Low — the Basic Auth password is now stored encrypted. *(#19, closes #18)*
- - Security: Low — warm requests now verify TLS certificates (new setting and CLI option for development sites with self-signed certificates). *(#19, closes #18)*
- - Security: Low — the crawler log is now cleaned regularly. *(#19, closes #18)*
+ - Security: Medium — improved validation and limits for the page load statistics requests.
+ - Security: Low — the Basic Auth password is now stored encrypted.
+ - Security: Low — warm requests now verify TLS certificates (new setting and CLI option for development sites with self-signed certificates).
+ - Security: Low — the crawler log is now cleaned regularly.
 
 **Upgrade note:** the CLI command now verifies certificates; on sites with self-signed certificates add `--insecure` (cron: turn off "Verify SSL Certificate"). A data patch encrypts an already saved password.
 
