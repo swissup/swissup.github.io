@@ -12,10 +12,10 @@ category: KnowledgeBase
 
 > October 8, 2026
 
- - Security: Medium — restricted access to disabled and store-specific articles and categories on the storefront. *(#22, closes #21)*
- - Security: Low — unknown article and category links now return a 404 page. *(#22, closes #21)*
- - Security: Low — the sitemap now lists only enabled articles and categories. *(#22, closes #21)*
- - Security: Low — the GraphQL API now respects the module settings and limits the result size. *(#22, closes #21)*
+ - Security: Medium — restricted access to disabled and store-specific articles and categories on the storefront.
+ - Security: Low — unknown article and category links now return a 404 page.
+ - Security: Low — the sitemap now lists only enabled articles and categories.
+ - Security: Low — the GraphQL API now respects the module settings and limits the result size.
 
 ### Version 1.1.46
 
