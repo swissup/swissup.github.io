@@ -12,7 +12,7 @@ category: Legacy Mysql Search
 
 > Oct 8, 2026
 
- - Security: Low — added limits on search text size to protect the catalog search from excessive load. Closes [#28](https://github.com/swissup/module-search-mysql-legacy/issues/28)
+ - Security: Low — added limits on search text size to protect the catalog search from excessive load.
  - Fixed: multi-word search in "all words" mode now treats every kind of whitespace as a word separator.
 
 ### Version 1.1.13
