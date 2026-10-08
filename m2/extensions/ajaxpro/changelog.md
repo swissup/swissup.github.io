@@ -10,9 +10,9 @@ category: AjaxPro
 
 > October 8, 2026
 
- - Security: Medium — strengthened validation of the return URL parameter sent with ajax requests. *(#72, closes #71)*
- - Security: Low — Quick View no longer renders disabled, hidden or other-website products. *(#72, closes #71)*
- - Security: Low — the add-to-cart response no longer exposes the URL of disabled products. *(#72, closes #71)*
+ - Security: Medium — strengthened validation of the return URL parameter sent with ajax requests.
+ - Security: Low — Quick View no longer renders disabled, hidden or other-website products.
+ - Security: Low — the add-to-cart response no longer exposes the URL of disabled products.
 
 ### Version 1.7.43
 
