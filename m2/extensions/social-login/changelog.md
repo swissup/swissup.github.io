@@ -8,6 +8,12 @@ category: SocialLogin
 
 # Changelog
 
+### Version 1.1.13
+
+> Oct 8, 2026
+
+ -  Security: High - A social account is now permanently tied to one customer; linked accounts stored in a separate table.
+
 ### Version 1.1.12
 
 > December 8, 2025

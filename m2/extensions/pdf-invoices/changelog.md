@@ -8,6 +8,12 @@ category: PDF Invoices
 
 # Changelog
 
+### Version 1.4.12
+
+> Oct 8, 2026
+
+ -  Security: Critical - The frontend document view now checks for ownership, document type, and module enabled.
+
 ### Version 1.4.11
 
 > May 15, 2026

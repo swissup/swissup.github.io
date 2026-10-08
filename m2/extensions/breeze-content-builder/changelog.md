@@ -13,6 +13,31 @@ category: Breeze Content Builder
 
 ## Breeze Content Builder
 
+### 1.2.5
+
+ -  Security: High - More secure component ID rendering and inline SVG preview
+
+### 1.2.4
+
+ -  Added Quantity Switcher integration for the `Featured Product` component
+
+### 1.2.3
+
+ -  Changes for header/footer page: publish spinner, layout picker with images
+ -  Added inline newsletter layout
+ -  Correct page cleanup when BCB is closed
+ -  Accordion/FAQ component: added support for per-item icons and enabled product attribute as body source
+ -  Breeze AI module integration changes
+
+### 1.2.2
+
+ -  Fixed ignored text color when heading used in content
+
+### 1.2.1
+
+ -  Hover zoom only image/background, keep text content static
+ -  Added `Additional HTML` prop for `Banner` component to store animations
+
 ### 1.2.0
 
  -  Added new `Map` component — OpenStreetMap (no API key) or Google Maps (API key required), with coordinates or address, zoom, marker and height controls
@@ -127,6 +152,14 @@ category: Breeze Content Builder
 ---
 
 ## Breeze Layout Builder
+
+### 1.3.1
+
+ -  Security: Critical - Using a signed token for preview; added preview authentication.
+
+### 1.3.0
+
+ -  Header/Footer management with Header Layouts
 
 ### 1.2.0
 

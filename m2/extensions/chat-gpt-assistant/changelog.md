@@ -8,6 +8,18 @@ category: ChatGPT Assistant
 
 # Changelog
 
+### Version 1.1.5
+
+> Oct 8, 2026
+
+ -  Security: High - Restrict attributes where bulk generation can write and escape prompt names before output.
+
+### Version 1.1.4
+
+> June 2, 2025
+
+ -  Exclude useless gallery attribute from filter. Fixed PHP warning: Array to string conversion.
+
 ### Version 1.1.3
 
 > April 9, 2025
