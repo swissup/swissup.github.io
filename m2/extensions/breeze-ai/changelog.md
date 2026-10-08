@@ -12,12 +12,12 @@ category: Breeze AI
 
 > October 8, 2026
 
- - Security: Medium — added missing access checks and input validation for bulk AI actions. *(#196, closes #195)*
- - Security: Low — improved validation of model connection settings. *(#196, closes #195)*
- - Security: Low — improved validation of the MCP endpoint settings. *(#196, closes #195)*
- - Security: Low — improved validation of links in generated page drafts. *(#196, closes #195)*
- - Developer API: AI providers (Claude, Gemini, OpenAI) can now return structured output validated against a schema (`ProviderInterface`). *(#193, closes #187)*
- - Developer API: a curated, per-store-view cached vocabulary of filterable attributes and categories, groundwork for AI product search. No visible change yet. *(#194, closes #191)*
+ - Security: Medium — added missing access checks and input validation for bulk AI actions.
+ - Security: Low — improved validation of model connection settings.
+ - Security: Low — improved validation of the MCP endpoint settings.
+ - Security: Low — improved validation of links in generated page drafts.
+ - Developer API: AI providers (Claude, Gemini, OpenAI) can now return structured output validated against a schema (`ProviderInterface`).
+ - Developer API: a curated, per-store-view cached vocabulary of filterable attributes and categories, groundwork for AI product search. No visible change yet.
 
 **Upgrade note:** admins with the "Bulk AI Action" permission now also need the right to edit the corresponding content.
 
