@@ -11,11 +11,11 @@ category: Ajax Layered Navigation
 
 > October 8, 2026
 
- - Security: Medium — improved protection against unintended data exposure in the AJAX filter responses. *(#112, closes #111)*
- - Security: Low — AJAX filter responses and regular pages are now cached separately. *(#112, closes #111)*
- - Security: Low — cached filter results now respect customer group and currency. *(#112, closes #111)*
- - Security: Low — improved validation of filter parameters. *(#112, closes #111)*
- - Security: Low — improved output handling in the attribute toggle widget. *(#112, closes #111)*
+ - Security: Medium — improved protection against unintended data exposure in the AJAX filter responses.
+ - Security: Low — AJAX filter responses and regular pages are now cached separately.
+ - Security: Low — cached filter results now respect customer group and currency.
+ - Security: Low — improved validation of filter parameters.
+ - Security: Low — improved output handling in the attribute toggle widget.
 
 ### Version 1.6.10
 
