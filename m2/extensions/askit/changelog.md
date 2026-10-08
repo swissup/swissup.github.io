@@ -11,6 +11,12 @@ category: AskIt
 
 # Changelog
 
+### Version 1.14.27
+
+> August 19, 2026
+
+ - Fixed the Dutch translation of "answer(s)".
+
 ### Version 1.14.26
 
 > August 14, 2026
