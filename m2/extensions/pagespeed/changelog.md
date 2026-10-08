@@ -14,10 +14,10 @@ category: Pagespeed
 
 #### Fixed
 
-- Security: Low — debug options are now disabled by default. *(#136, closes #135)*
-- Security: Low — strengthened critical CSS generation: secure connection and content validation. *(#136, closes #135)*
-- Security: Low — improved request handling for critical CSS generation in the admin. *(#136, closes #135)*
-- Security: Low — narrowed Content Security Policy rules on the storefront. *(#136, closes #135)*
+- Security: Low — debug options are now disabled by default.
+- Security: Low — strengthened critical CSS generation: secure connection and content validation.
+- Security: Low — improved request handling for critical CSS generation in the admin.
+- Security: Low — narrowed Content Security Policy rules on the storefront.
 
 **Behaviour changes:** `debug_mode` is now off by default (`?pagespeed=` debug switches work again only after enabling it), and the critical CSS generate buttons now submit a POST form.
 
