@@ -7,6 +7,110 @@ category: ArgentoBreeze
 
 # Argento Breeze Changelog
 
+### Version 3.2.1
+
+> October 8, 2026
+
+ - **Security update** — hardened validation, output escaping and admin permissions across bundled extensions. Update is recommended.
+ - **Header and footer can now be built with Breeze Layout Builder** — new Header Layouts
+ - **AI Generate button** on Content Builder text fields, and **Plan sections** before an AI page build
+ - _Argento Force:_ Fixed incorrect preloaded font URL
+
+**Extensions Updates**
+
+- [Ajax Pro](/m2/extensions/ajaxpro/) — 1.7.44 (was 1.7.39)
+    + Security fixes
+    + Fixed options popup not opening for bundle, grouped and products with required options on listings
+    + Fixed stale Quick View markup injected into the page after a quick view
+    + Fixed popups resizing product thumbnails on the listing behind them
+
+- [Ajax Search](/m2/extensions/ajaxsearch/) — 1.14.12 (was 1.14.11)
+    + Security fixes
+    + Popular search terms now respect the "Display in Suggested Terms" flag
+    + Fixed layout shift caused by the close button in the folded search form
+
+- [AskIt](/m2/extensions/askit/) — 1.14.28 (was 1.14.27)
+    + Security fixes
+    + Voting via GraphQL now requires a signed-in customer
+
+- [Breeze AI](/m2/extensions/breeze-ai/) — 1.8.21 (was 1.4.0)
+    + Security fixes
+    + Added **AI Generate** button to Content Builder text fields
+    + Added **Plan sections** — review and edit the section list before a build, optionally on a cheaper model
+    + Pages built from a screenshot now keep the design's images, icons and wording; missing images can be generated
+    + AI can place Magento widgets on a generated page
+    + Added **Cancel** for stuck runs in the AI Jobs grid
+    + Page builder and MCP settings can be set per website and store view
+    + Fixed the AI chat panel in the Content Builder editor never completing a request
+    + Fixed builds on current Claude models; repeat builds are cheaper thanks to prompt caching
+    + Image generation is enabled by default after upgrade
+
+- [Breeze Content Builder](/m2/extensions/breeze-content-builder/) — 1.2.5 (was 1.2.0)
+    + Security fixes
+    + Added Quantity Switcher to the `Featured Product` component
+    + Added inline newsletter layout and per-item icons in `Accordion/FAQ`
+    + Added `Additional HTML` option to `Banner` for animations
+    + Fixed ignored text color for headings
+
+- [Breeze Layout Builder](/m2/extensions/breeze-content-builder/layout-builder/) — 1.3.1 (was 1.2.0)
+    + Security fixes: preview now requires authentication
+    + Added header and footer management with Header Layouts
+
+- [Breeze Theme Editor](/m2/extensions/breeze-theme-editor/) — 1.0.17 (was 1.0.14)
+    + Security fixes; changing palette colors now requires the "Publish Changes" permission
+    + Fixed "Unable to determine theme" error when the theme is assigned per store view only
+    + Added configurable GraphQL authorization header for sites behind HTTP Basic Auth
+
+- [ChatGPT Assistant](/m2/extensions/chat-gpt-assistant/) — 1.1.5 (was 1.1.4)
+    + Security fixes
+
+- [Easybanners](/m2/extensions/easybanners/) — 1.9.25 (was 1.9.24)
+    + Security fixes
+
+- [Easytabs](/m2/extensions/easytabs/) — 1.13.6 (was 1.13.4)
+    + Security fixes
+    + Fixed ARIA tablist in expanded and accordion layouts
+
+- [GDPR](/m2/extensions/gdpr/) — 1.9.3 (was 1.9.2)
+    + Security fixes
+
+- [Highlight](/m2/extensions/highlight/) — 1.11.10 (was 1.11.9)
+    + Security fixes
+
+- [Hreflang](/m2/extensions/hreflang/) — 1.6.13 (was 1.6.12)
+    + Security fixes
+
+- [Navigation Pro](/m2/extensions/navigationpro/) — 1.19.4 (was 1.19.3)
+    + Security fixes
+    + GraphQL now returns rendered menu item HTML
+
+- [Page Speed](/m2/extensions/pagespeed/) — 1.20.1 (was 1.19.0)
+    + Security fixes; debug mode is now off by default
+    + Fixed LCP image being lazy-loaded on Argento/Breeze product pages
+    + Fixed WebP markup and lazy-load offset cached for the wrong browser/device by full page cache
+    + Fixed `<picture>` losing `srcset` descriptors and `sizes`
+    + Fixed WebP not served for images with uppercase extensions
+    + Added "Replace WebP in inline JS" option for a real `<picture>` fallback
+
+- [ProLabels](/m2/extensions/prolabels/) — 1.10.3 (was 1.10.1)
+    + Security fixes; label text, CSS and URLs are now validated on save
+
+- [Quantity Switcher](/m2/extensions/qty-switcher/) — 1.2.5 (was 1.2.4)
+    + Added support for the Content Builder `Featured Product` component
+
+- [Rich Snippets](/m2/extensions/richsnippets/) — 1.8.6 (was 1.8.5)
+    + Security fixes
+
+- [SEO Cross Links](/m2/extensions/seo-cross-links/) — 1.2.1 (was 1.2.0)
+    + Security fixes
+
+- [SEO Templates](/m2/extensions/seo-templates/) — 1.7.13 (was 1.7.12)
+    + Security fixes
+
+- [Sold Together](/m2/extensions/soldtogether/) — 1.11.5 (was 1.11.4)
+    + Security fixes for promoted product prices in the cart
+    + Fixed promoted prices for configurable products
+
 ### Version 3.2.0
 
 > August 31, 2026

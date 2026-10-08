@@ -7,6 +7,62 @@ category: Argento
 
 # Argento Changelog
 
+### Version 1.54.1
+
+> October 8, 2026
+
+ -  **Security update** — hardened validation, output escaping and admin permissions across bundled extensions.
+ -  _All themes:_ Fixed incorrect preloaded font URL
+ -  _Argento Blank:_ Synced product listing template with Magento's built-in
+
+**Extensions Updates**
+
+  - [Ajax Pro](/m2/extensions/ajaxpro/) — 1.7.44 (was 1.7.39)
+      + Security fixes
+      + Fixed options popup not opening for bundle, grouped and products with required options on listings
+      + Fixed stale Quick View markup injected into the page after a quick view
+      + Fixed popups resizing product thumbnails on the listing behind them
+  - [Ajax Search](/m2/extensions/ajaxsearch/) — 1.14.12 (was 1.14.11)
+      + Security fixes
+      + Popular search terms now respect the "Display in Suggested Terms" flag
+  - [AskIt](/m2/extensions/askit/) — 1.14.28 (was 1.14.27)
+      + Security fixes
+      + Voting via GraphQL now requires a signed-in customer
+  - [ChatGPT Assistant](/m2/extensions/chat-gpt-assistant/) — 1.1.5 (was 1.1.4)
+      + Security fixes
+  - [EasyBanner](/m2/extensions/easybanners/) — 1.9.25 (was 1.9.24)
+      + Security fixes
+  - [EasyTabs](/m2/extensions/easytabs/) — 1.13.6 (was 1.13.4)
+      + Security fixes
+      + Fixed ARIA tablist in expanded and accordion layouts
+  - [GDPR](/m2/extensions/gdpr/) — 1.9.3 (was 1.9.2)
+      + Security fixes
+  - [Highlight](/m2/extensions/highlight/) — 1.11.10 (was 1.11.9)
+      + Security fixes
+  - [Hreflang](/m2/extensions/hreflang/) — 1.6.13 (was 1.6.12)
+      + Security fixes
+  - [NavigationPro](/m2/extensions/navigationpro/) — 1.19.4 (was 1.19.3)
+      + Security fixes
+      + GraphQL now returns rendered menu item HTML
+  - [Pagespeed](/m2/extensions/pagespeed/) — 1.20.1 (was 1.19.0)
+      + Security fixes; debug mode is now off by default
+      + Fixed LCP image being lazy-loaded on Argento product pages
+      + Fixed WebP markup and lazy-load offset cached for the wrong browser/device by full page cache
+      + Fixed `<picture>` losing `srcset` descriptors and `sizes`
+      + Fixed WebP not served for images with uppercase extensions
+      + Added "Replace WebP in inline JS" option for a real `<picture>` fallback
+  - [ProLabels](/m2/extensions/prolabels/) — 1.10.3 (was 1.10.1)
+      + Security fixes; label text, CSS and URLs are now validated on save
+  - [Rich Snippets](/m2/extensions/richsnippets/) — 1.8.6 (was 1.8.5)
+      + Security fixes
+  - [Seo Cross Links](/m2/extensions/seo-cross-links/) — 1.2.1 (was 1.2.0)
+      + Security fixes
+  - [Seo Templates](/m2/extensions/seo-templates/) — 1.7.13 (was 1.7.12)
+      + Security fixes
+  - [SoldTogether](/m2/extensions/soldtogether/) — 1.11.5 (was 1.11.4)
+      + Security fixes for promoted product prices in the cart
+      + Fixed promoted prices for configurable products
+
 ### Version 1.54.0
 
 > August 31, 2026
