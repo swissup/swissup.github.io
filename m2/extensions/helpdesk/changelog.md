@@ -12,9 +12,9 @@ category: Helpdesk
 
 > October 8, 2026
 
- - Security: High — improved protection against unintended file exposure through ticket and message attachments. *(#66, closes #65)*
- - Security: High — strengthened validation of attachments submitted with tickets and messages. *(#66, closes #65)*
- - Improved: inbound email — the mailbox pickup is now skipped with a log message when the required mail library is not installed (Magento 2.4.8 no longer ships it). `laminas/laminas-mail` is now a suggested package. *(#68, closes #67)*
+ - Security: High — improved protection against unintended file exposure through ticket and message attachments.
+ - Security: High — strengthened validation of attachments submitted with tickets and messages.
+ - Improved: inbound email — the mailbox pickup is now skipped with a log message when the required mail library is not installed (Magento 2.4.8 no longer ships it). `laminas/laminas-mail` is now a suggested package.
 
 ### Version 1.4.8
 
