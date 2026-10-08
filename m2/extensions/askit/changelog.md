@@ -11,6 +11,12 @@ category: AskIt
 
 # Changelog
 
+### Version 1.14.26
+
+> August 14, 2026
+
+ - Regenerated the translation dictionary (`en_US.csv`) so all phrases are collected, fixed the malformed "Answer" row in locale files and added Czech, Slovak, Hungarian and Romanian translations.
+
 ### Version 1.14.25
 
 > July 27, 2026
