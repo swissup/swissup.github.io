@@ -12,8 +12,8 @@ category: Speculation Rules
 
 > October 8, 2026
 
- - Security: Medium — rules configuration is now validated and safely output on the storefront. *(#5, closes #4)*
- - Security: Low — default prerender exclusions now match the intended pages. *(#5, closes #4)*
+ - Security: Medium — rules configuration is now validated and safely output on the storefront.
+ - Security: Low — default prerender exclusions now match the intended pages.
 
 ### Version 1.0.4
 
