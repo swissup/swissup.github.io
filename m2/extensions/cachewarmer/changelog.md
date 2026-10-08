@@ -8,6 +8,12 @@ category: Cachewarmer
 
 # Changelog
 
+### Version 1.0.41
+
+> Oct 8, 2026
+
+ - No functional changes (CI maintenance).
+
 ### Version 1.0.40
 
 > Jul 6, 2026
