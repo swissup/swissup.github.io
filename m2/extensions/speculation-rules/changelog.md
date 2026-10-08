@@ -8,6 +8,12 @@ category: Speculation Rules
 
 # Changelog
 
+### Version 1.0.5
+
+> October 8, 2026
+
+ - Security: Medium — rules configuration is now validated and safely output on the storefront. *(#5, closes #4)*
+ - Security: Low — default prerender exclusions now match the intended pages. *(#5, closes #4)*
 
 ### Version 1.0.4
 
