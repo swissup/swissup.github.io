@@ -11,6 +11,23 @@ category: AskIt
 
 # Changelog
 
+### Version 1.14.28
+
+> October 8, 2026
+
+ - Security: High — improved verification of the customer in GraphQL question, answer and vote requests. *(#76, closes #75)*
+ - Security: Medium — strengthened content handling in GraphQL message output. *(#76, closes #75)*
+ - Security: Medium — improved validation of questions and answers submitted on the storefront. *(#76, closes #75)*
+ - Security: Medium — GraphQL submissions now follow the guest and customer posting settings and are rate limited. *(#76, closes #75)*
+ - Security: Medium — improved validation of votes. *(#76, closes #75)*
+ - Security: Medium — added missing permission checks in the admin; deleting now has its own "Delete" permission. *(#76, closes #75)*
+ - Security: Low — improved protection against unintended exposure of author details and private answers in GraphQL and rich snippets. *(#76, closes #75)*
+ - Security: Low — improved handling of answers across store views, and of admin delete and mass actions. *(#76, closes #75)*
+ - Security: Low — improved output handling in the admin assignment form. *(#76, closes #75)*
+ - Fixed: mass Delete in the answers grid of the question edit page.
+ - Fixed: the admin notification subject for new questions.
+ - Changed: voting via GraphQL now requires a signed-in customer.
+
 ### Version 1.14.27
 
 > August 19, 2026
