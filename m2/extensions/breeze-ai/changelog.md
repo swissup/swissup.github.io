@@ -8,6 +8,12 @@ category: Breeze AI
 
 # Changelog
 
+### Version 1.8.22
+
+> October 9, 2026
+
+ - Fixed: `setup:di:compile` failed on Magento 2.4.7 with "Incompatible argument type: Required type: \Exception. Actual type: \Throwable" for `StructuredResponseException`, introduced in 1.8.21. The exception now accepts `\Exception` as its cause, matching `LocalizedException`.
+
 ### Version 1.8.21
 
 > October 8, 2026
