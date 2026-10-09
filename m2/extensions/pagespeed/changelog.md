@@ -8,6 +8,19 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.21.0
+
+> October 9, 2026
+
+#### Changed
+
+- **Advanced JS Bundling moved to a separate package** *(#134)*: the feature now lives in `swissup/module-advanced-js-bundling` (`Swissup_AdvancedJsBundling`), which this version requires, so Composer installs it automatically. Config paths (`pagespeed/js/enable_advanced_js_bundling`, `pagespeed/js/rjs_build_config`) and the bundle directory are unchanged, so existing settings and `app/etc/rjs.json` keep working. The new module rebuilds bundles when the `rjs.json` config changes, has a `swissup:js-bundling:generate` command and an optional dependency resolver.
+- **Advanced JS Bundling is no longer enabled by the marketplace installer.** Measurements on a live store showed it does not improve FCP/LCP and can delay rendering, so enable it only after testing your own pages.
+
+**Behaviour changes:** after the update run `rm -rf generated/code/Swissup/Pagespeed`, `bin/magento setup:upgrade` and `bin/magento cache:flush`. `Helper\Config::isAdvancedJsBundling()` and `getRjsJsonConfig()` were removed from this module; the config path constants are kept as deprecated.
+
+---
+
 ### Version 1.20.1
 
 > October 8, 2026
