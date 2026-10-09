@@ -509,7 +509,7 @@ bin/magento config:set pagespeed/content/css 1
 bin/magento config:set dev/template/minify_html 1
 
 bin/magento config:set dev/js/enable_js_bundling 0
-bin/magento config:set pagespeed/js/enable_advanced_js_bundling 1
+bin/magento config:set pagespeed/js/enable_advanced_js_bundling 0
 bin/magento config:set dev/js/minify_files 1
 bin/magento config:set dev/js/merge_files 1
 bin/magento config:set dev/js/move_inline_to_bottom 1

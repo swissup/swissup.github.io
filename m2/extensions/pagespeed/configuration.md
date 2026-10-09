@@ -40,9 +40,11 @@ Option                                          | Description
 ------------------------------------------------|-------------------------------------------
 Merge JavaScript Files                          | Allows to merge your javascript files (Yes)
 Enable JavaScript Bundling                      | Allows to enable/disable [JavaScript Bundling](https://devdocs.magento.com/guides/v2.2/frontend-dev-guide/themes/js-bundling.html) (No)
-Enable Advanced JavaScript Bundling (RequireJs)*| Allows to enable/disable [Advanced JavaScript Bundling](https://devdocs.magento.com/guides/v2.3/performance-best-practices/advanced-js-bundling.html) (No)
+Enable Advanced JavaScript Bundling (RequireJs)*| Allows to enable/disable [Advanced JavaScript Bundling](https://devdocs.magento.com/guides/v2.3/performance-best-practices/advanced-js-bundling.html) (No). **Experimental**, see the note below
 RequireJS Bundle Generator Build Config         | r.js optimize tool config. [RequireJS bundle config generating](https://github.com/magento/m2-devtools/blob/master/docs/panels/RequireJS.md#bundle-generator)
 Minify JavaScript Files                         | Allows to enable/disable minify javascript files (Yes)
+
+> **Advanced JavaScript Bundling is experimental** and is provided by the separate `swissup/module-advanced-js-bundling` package. It is off by default. On a live store it did not improve FCP/LCP: the bundles are render-blocking and delayed `DOMContentLoaded`, and Lighthouse scores were slightly lower than without bundling (measured on one HTTP/2 store, results may differ on HTTP/1.1 or without a CDN). Enable it only after measuring your own pages with and without it.
 
 <!--
 #### If you want to enable 'Advanced JavaScript Bundling', you have to do some steps first:
