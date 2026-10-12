@@ -16,6 +16,13 @@ category: GDPR
  -  Security: Medium — strengthened validation and limits for cookies detected on the storefront.
  -  Security: Medium — improved validation of cookie consents submitted from the storefront.
 
+### Version 1.9.2
+
+> August 28, 2026
+
+ -  Breeze: fixed the built-in Magento cookie notice staying visible on the
+    storefront when it was shown from a delayed script.
+
 ### Version 1.9.1
 
 > June 30, 2026
