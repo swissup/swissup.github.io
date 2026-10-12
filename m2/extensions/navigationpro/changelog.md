@@ -8,7 +8,7 @@ category: Navigationpro
 
 # Changelog
 
-### Version 1.19.3
+### Version 1.19.4
 
 > October 8, 2026
 
