@@ -8,6 +8,12 @@ category: Email
 
 # Changelog
 
+### Version 0.7.15
+
+> October 12, 2026
+
+ - Fix "Unable to send mail: TLS is required but could not be established" for mail services with the TLS option (STARTTLS on ports 587 / 2525) — 0.7.14 refused to authenticate even after the connection was encrypted. Mail is still never sent over an unencrypted connection.
+
 ### Version 0.7.14
 
 > October 8, 2026
