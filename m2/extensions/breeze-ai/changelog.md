@@ -8,6 +8,12 @@ category: Breeze AI
 
 # Changelog
 
+### Version 1.8.23
+
+> October 12, 2026
+
+ -  **A page build that comes back with nothing now tells you which of three things happened.** Every one of them used to reach you as the same sentence about invalid JSON, including the most common one: a long page cut short by the model's output limit. The three are now worded apart — the reply ran past the output limit, so raise **Max Tokens** on the model row and try again; the provider declined the request, so the brief is the thing to change; or the reply missed the shape that was asked for, which is worth one more try on the same brief. The page layout itself is checked separately, and when it is the part that stops mid-way the message names the output limit as well: the provider reports an ordinary finish in that case, so nothing else would point at it. The same three apply to **Plan sections**. What the model actually sent is now kept in the log alongside the failure, which is what support needs to tell these apart after the fact.
+
 ### Version 1.8.22
 
 > October 9, 2026
