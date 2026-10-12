@@ -17,6 +17,12 @@ category: Easy Flags
  -  Security: Medium — improved output handling in the language switcher.
  -  Changed: Magento versions older than 2.3 are no longer supported.
 
+### Version 1.4.5
+
+> June 11, 2024
+
+ -  Breeze: moved the store switcher script to the dynamic bundle.
+
 ### Version 1.4.4
 
 > Aug 14, 2023
