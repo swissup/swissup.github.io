@@ -8,7 +8,7 @@ category: GDPR
 
 # Changelog
 
-### Version 1.9.2
+### Version 1.9.3
 
 > October 8, 2026
 

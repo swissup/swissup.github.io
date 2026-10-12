@@ -8,7 +8,7 @@ category: Easy Flags
 
 # Changelog
 
-### Version 1.4.5
+### Version 1.4.6
 
 > October 8, 2026
 
