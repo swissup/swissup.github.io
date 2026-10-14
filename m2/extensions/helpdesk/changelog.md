@@ -8,6 +8,14 @@ category: Helpdesk
 
 # Changelog
 
+### Version 1.4.10
+
+> October 14, 2026
+
+ - Security: High — ticket replies are now accepted only from the customer or guest the ticket belongs to.
+ - Security: High — an inbound e-mail is added to an existing ticket only when its sender belongs to that ticket; the sender address is taken from the parsed message header rather than the raw text, and a staff reply is recognised only for the department that owns the ticket.
+ - Improved: inbound email — a message with a missing or unreadable sender no longer stops the mailbox pickup for the remaining departments.
+
 ### Version 1.4.9
 
 > October 8, 2026
