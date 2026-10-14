@@ -2,7 +2,7 @@
 layout: default
 title: Social Applications Configuration
 description: Social Applications Configuration
-keywords: configure facebook api, configure google api, configure twitter api
+keywords: configure facebook api, configure google api, configure twitter api, configure apple api
 category: SocialLogin
 ---
 
@@ -16,3 +16,4 @@ of social applications to use with Swissup Social Login extension.
  1. [Facebook API Configuration](facebook/)
  2. [Google API Configuration](google/)
  3. [Twitter API Configuration](twitter/)
+ 4. [Apple API Configuration](apple/)

@@ -2,14 +2,14 @@
 layout: default
 title: Social Login
 description: Social Login for Magento 2
-keywords: magento 2 social login, facebook login, google login, twitter login
+keywords: magento 2 social login, facebook login, google login, twitter login, apple login
 category: SocialLogin
 extension_id: social-login
 ---
 
 # Social Login
 
-Login or register in Magento 2 store using social account from Facebook, Google or Twitter.
+Login or register in Magento 2 store using social account from Facebook, Google, Twitter or Apple.
 
 {% include gallery.html images=site.data.gallery.m2.social-login.index class="scroll phone-up-1 tablet-up-3 photoswipe" %}
 
