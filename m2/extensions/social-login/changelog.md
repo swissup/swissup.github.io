@@ -8,6 +8,12 @@ category: SocialLogin
 
 # Changelog
 
+### Version 1.2.0
+
+> Oct 14, 2026
+
+ -  Added Apple sign-in feature (**Beta version**)
+
 ### Version 1.1.13
 
 > Oct 8, 2026
