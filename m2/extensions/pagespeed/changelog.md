@@ -8,6 +8,20 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.21.1
+
+> October 15, 2026
+
+#### Fixed
+
+- **Default Critical CSS ignored when "Use built-in critical CSS feature" is off** *(#137, closes #133)*: with `pagespeed/css/critical_enable` on and `dev/css/use_css_critical_path` off, stylesheets were deferred but the "Default Critical CSS" never reached the page, so it rendered unstyled until the CSS loaded. The value was only appended to Magento's critical CSS block, which Magento renders solely when the built-in path is on (regression since 1.10.0). The module now prints the default critical CSS itself in this case, without duplicating it when the built-in path is on.
+- **Stylesheets deferred on pages without critical CSS** *(#138)*: with the built-in path off and an empty "Default Critical CSS", every stylesheet still became `rel="preload"`, causing a flash of unstyled content. Stylesheets are now deferred only when the page has critical CSS. With the built-in path on (including Breeze themes) nothing changes.
+- **Default Critical CSS could close its `<style>` tag** *(#138)*: a `</style` sequence in the admin value is now escaped.
+
+**Behaviour changes:** with `dev/css/use_css_critical_path` off and no Default Critical CSS, stylesheets are no longer deferred.
+
+---
+
 ### Version 1.21.0
 
 > October 9, 2026
