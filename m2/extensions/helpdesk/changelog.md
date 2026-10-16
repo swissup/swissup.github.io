@@ -8,6 +8,24 @@ category: Helpdesk
 
 # Changelog
 
+### Version 1.4.11
+
+> October 16, 2026
+
+ - Security: Medium — message text is run through the CMS template filter only when it was written by an administrator in the backend. Authorship is now recorded on the message (`is_backend_authored`) instead of being inferred from the data.
+ - Note on `is_backend_authored`: there is no backfill. Messages that already exist keep the column empty and are treated as customer-authored; the flag is set only on messages created from this version on. This is deliberate — the authorship of old messages cannot be reconstructed without guessing.
+ - Security: Medium — the attachment upload endpoint now requires POST, a valid form key and passes the rate limit. Files are uploaded one at a time and the upload stops at the first refusal.
+ - Security: Medium — attachment links are signed with a real secret and are refused outright when no crypt key is configured. The visitor is checked against the ticket before an attachment is served, documents are no longer previewed inline, and PDF preview is kept out of the CSP sandbox. A new `Attachment Link Lifetime (days)` option (`helpdesk/security/attachment_link_lifetime`, default `0` — no expiry) makes signed links expire; links that were signed under a longer lifetime age out when the value is lowered.
+ - Security: Medium — a staff reply picked up from e-mail no longer loses its author in `_afterSave()`. Such replies are now internal by default; the new `Send staff e-mail replies to the customer` option (`helpdesk/mail/staff_reply_to_customer`, default `No`) delivers them to the customer as before.
+ - Added: every ticket carries an unguessable access token. Customer notification links carry the token, a guest who opens such a link is no longer asked for the e-mail address, and the token is dropped from the URL once it has been presented. The token is withdrawn when the ticket is moved to another e-mail address and is never written to the ticket archive file. Existing tickets receive a token from a data patch.
+ - Security: Low — rate limiting is keyed on the visitor rather than the remote address, the session id is hashed before it is used as a rate-limit identifier, and an address block takes effect again after re-keying. Attachments that receive no content inspection are logged, the ticket grid controller requires its ACL resource, and an upload no longer fails because a log line could not be written.
+ - Improved: inbound e-mail — the Message-Id is stored and the duplicate check matches on it, so a message picked up twice no longer creates a second ticket. A failing message or mailbox no longer aborts the pickup for the remaining ones.
+ - Fix: the attachment download header states the filename as RFC 6266, the preview MIME type is compared strictly, and the uploader's error text is set rather than interpolated into HTML.
+ - Fix: a malformed upload payload is answered with the JSON error on both the storefront and the admin endpoint instead of an HTML 500.
+ - Fix: the auto-close cron no longer notifies staff as if the customer had updated the ticket.
+ - Documentation: inbound e-mail security depends on SPF, DKIM and DMARC being enforced at the MTA — the e-mail setup documentation now states this.
+ - PHP 8.4 compatibility: an implicitly nullable test parameter is typed explicitly.
+
 ### Version 1.4.10
 
 > October 14, 2026
