@@ -6,6 +6,23 @@ category: AjaxSearch
 
 # Changelog
 
+### Version 1.15.0
+
+> October 20, 2026
+
+ -  Security: rate limiting now also covers the autocomplete controller (`search/ajax/suggest`), which is the transport used by default. Previously only the GraphQL fields were limited, and since GraphQL is disabled by default the protection did not apply to most stores. The controller has its own budget under `Stores > Configuration > Swissup > Ajaxsearch > Rate Limiting (Backpressure)`, defaulting to 1200 requests per hour per client, because it fires once per keystroke. Magento enforces any of this only when a backpressure request logger is configured in `app/etc/env.php` (`backpressure/logger/type`); without it every request is allowed.
+ -  Security: a search of one character, or of whitespace only, no longer returns an HTTP 500 and no longer writes an uncaught error to `exception.log`. The guard added in 1.14.12 read the client IP from the GraphQL context, which has no such method on Magento 2.4.8, so it crashed instead of rejecting the query.
+ -  Security: `%` and `_` typed by a visitor are now matched literally in both category search paths. Previously they acted as SQL `LIKE` wildcards, so a two-character search of `__` satisfied the minimum-length guard and then matched every category, returning the whole tree.
+ -  Security: category names in the `ajaxsearchCategoryOptions` GraphQL field are now HTML-escaped, matching the server-rendered dropdown.
+ -  Search suggestions served over GraphQL `GET` requests are now invalidated correctly by the full page cache. The query declared a cache identity that never produced any tags, so the response was stored untagged and nothing ever purged it — disabled or deleted products stayed in the suggestions, and prices and titles went stale, for the whole cache lifetime.
+ -  The category filter dropdown no longer breaks on a search term containing a double quote or a backslash. The term is now sent as a GraphQL variable instead of being pasted into the query document, where `5" socket` produced a syntax error and left the dropdown empty.
+ -  A search term is no longer URL-encoded by the storefront and decoded again by the server. The round trip corrupted ordinary input — a search for the literal `100%20` arrived as `100 ` — and let a percent-encoded term slip past the minimum-length check.
+ -  Magento's own `quickSearch` widget is now actually removed from the search box when Ajaxsearch is enabled. The pattern that removed it required the attribute's JSON to be on a single line, which no Magento template produces, so both widgets had been initialising together. Where it did fire it also deleted part of the surrounding markup, and silently blanked the whole search block if the regular expression failed.
+ -  A GraphQL document containing more than one `ajaxsearch` field now answers each one with its own results. The second and later fields were served the first field's search term and category.
+ -  The category filter no longer caches a failed request: a term that errored once stayed broken until the page was reloaded.
+ -  `total_count` in `ajaxsearchCategoryOptions` now reports the number of options actually returned. It previously reported the size of the whole filtered set, which the field has no paging arguments to hand out.
+ -  Integrators: the `text` field of `ajaxsearchCategoryOptions` is now HTML-escaped, and the `search` argument of both fields is no longer URL-decoded server-side — a client that percent-encoded the term must stop doing so.
+
 ### Version 1.14.12
 
 > October 6, 2026
