@@ -8,6 +8,16 @@ category: Speculation Rules
 
 # Changelog
 
+### Version 1.0.6
+
+> October 20, 2026
+
+ - Security: Medium — prerender exclusions now apply on stores that use a store code in URLs or a base URL in a subfolder.
+ - Security: Medium — the "Not you?" header link is no longer prerendered, so a returning customer's saved cart is not cleared.
+ - Security: Medium — the language switcher is no longer prerendered, so the store view is not changed unintentionally.
+ - Security: Low — the storefront script now reuses the page's existing CSP nonce instead of adding a second one.
+ - Security: Low — a saved `Speculation Rules` value can now be restored to the module default from the admin.
+
 ### Version 1.0.5
 
 > October 8, 2026
