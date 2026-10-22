@@ -10,6 +10,7 @@ const REGISTRY_URL = `${BASE_URL}/patch-registry.json`;
 const DATA_DIR = new URL('../_data/magento_patches/', import.meta.url);
 const MONTHS = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'];
 const MONTHLY_ID = /^(\w+)-(\d{4})-(\d{2})-\d{3}-(CE|EE)$/;
+const HEADERS = { 'User-Agent': 'swissup-docs-patch-sync (+https://docs.swissuplabs.com/m2/security-patches/)' };
 
 function fail(message) {
     console.error(`::error::${message}`);
@@ -42,39 +43,79 @@ function validate(registry) {
     }
 }
 
-// 200 - public download, redirect to /patch/auth/ - needs Composer keys, 404 - not published.
-async function access(file) {
-    for (let attempt = 1; ; attempt++) {
-        try {
-            const response = await fetch(`${BASE_URL}/${file}`, { method: 'HEAD', redirect: 'manual' });
-            const location = response.headers.get('location') || '';
-
-            if (response.status === 200) return 'public';
-            if (response.status === 404) return 'missing';
-            if (response.status >= 300 && response.status < 400 && location.includes('/patch/auth/')) return 'auth';
-
-            throw new Error(`HTTP ${response.status}`);
-        } catch (e) {
-            if (attempt === 3) {
-                fail(`Unable to check ${file}: ${e.message}`);
-            }
-            await new Promise(resolve => setTimeout(resolve, 2000 * attempt));
-        }
-    }
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
 }
 
+// 200 - public download, redirect to /patch/auth/ - needs Composer keys, 404 - not published.
+// Returns null when repo.magento.com keeps failing, e.g. rate limits on shared CI runners.
+async function access(file) {
+    for (let attempt = 1; attempt <= 5; attempt++) {
+        let response;
+
+        try {
+            response = await fetch(`${BASE_URL}/${file}`, { method: 'HEAD', redirect: 'manual', headers: HEADERS });
+        } catch (e) {
+            console.log(`Retrying ${file}: ${e.message}`);
+            await sleep(5000 * attempt);
+            continue;
+        }
+
+        const location = response.headers.get('location') || '';
+        const retryAfter = Number(response.headers.get('retry-after'));
+
+        if (response.status === 200) return 'public';
+        if (response.status === 404) return 'missing';
+        if (response.status >= 300 && response.status < 400 && location.includes('/patch/auth/')) return 'auth';
+
+        console.log(`Retrying ${file}: HTTP ${response.status}`);
+        await sleep(retryAfter > 0 ? Math.min(retryAfter, 120) * 1000 : 5000 * 2 ** (attempt - 1));
+    }
+
+    return null;
+}
+
+// Checks files one by one to stay below repo.magento.com rate limits.
 async function checkAll(files) {
     const result = {};
-    const queue = [...files];
 
-    await Promise.all(Array.from({ length: 6 }, async () => {
-        while (queue.length) {
-            const file = queue.shift();
-            result[file] = await access(file);
-        }
-    }));
+    for (const file of files) {
+        result[file] = await access(file);
+        await sleep(250);
+    }
 
     return result;
+}
+
+// Falls back to the last synced state for files that could not be checked this time.
+function withPrevious(checked, previous) {
+    const result = {};
+
+    for (const [file, state] of Object.entries(checked)) {
+        if (state) {
+            result[file] = state;
+        } else if (previous[file] && previous[file] !== 'unknown') {
+            console.log(`::warning::Unable to check ${file}, keeping previous state: ${previous[file]}`);
+            result[file] = previous[file];
+        } else {
+            result[file] = null;
+        }
+    }
+
+    return result;
+}
+
+async function readPrevious() {
+    try {
+        const files = JSON.parse(await readFile(new URL('files.json', DATA_DIR), 'utf8'));
+
+        return {
+            diffs: files.diffs || {},
+            zips: Object.fromEntries((files.zips || []).map(zip => [zip.file, zip.access]))
+        };
+    } catch (e) {
+        return { diffs: {}, zips: {} };
+    }
 }
 
 // Monthly zips are not listed in the registry, but follow the 2-4-8-p5-oct-2026.zip convention.
@@ -114,13 +155,20 @@ async function warnUnmappedB2B(patches) {
     }
 }
 
-const response = await fetch(REGISTRY_URL);
+async function downloadRegistry() {
+    for (let attempt = 1; attempt <= 5; attempt++) {
+        const response = await fetch(REGISTRY_URL, { headers: HEADERS });
 
-if (!response.ok) {
-    fail(`Unable to download ${REGISTRY_URL}: HTTP ${response.status}`);
+        if (response.ok) return response.text();
+
+        console.log(`Retrying ${REGISTRY_URL}: HTTP ${response.status}`);
+        await sleep(5000 * 2 ** (attempt - 1));
+    }
+
+    fail(`Unable to download ${REGISTRY_URL}`);
 }
 
-const raw = await response.text();
+const raw = await downloadRegistry();
 let registry;
 
 try {
@@ -132,17 +180,23 @@ try {
 validate(registry);
 
 const patches = registry.patches;
-const diffs = await checkAll(Object.values(patches).map(patch => patch.file_name));
+const previous = await readPrevious();
+const diffs = withPrevious(await checkAll(Object.values(patches).map(patch => patch.file_name)), previous.diffs);
 const candidates = zipCandidates(patches);
-const zipAccess = await checkAll(candidates.map(zip => zip.file));
+const zipAccess = withPrevious(await checkAll(candidates.map(zip => zip.file)), previous.zips);
 const zips = candidates
-    .filter(zip => zipAccess[zip.file] !== 'missing')
+    .filter(zip => zipAccess[zip.file] && zipAccess[zip.file] !== 'missing')
     .map(zip => ({ ...zip, access: zipAccess[zip.file] }))
     .sort((a, b) => a.version.localeCompare(b.version) || a.month.localeCompare(b.month));
 
 for (const [file, state] of Object.entries(diffs)) {
     if (state === 'missing') {
         console.log(`::warning::${file} is listed in the registry but not downloadable`);
+    }
+    // New patch that could not be checked: link it without the lock, the next run will retry.
+    if (!state) {
+        console.log(`::warning::Unable to check ${file}, access is unknown`);
+        diffs[file] = 'unknown';
     }
 }
 
