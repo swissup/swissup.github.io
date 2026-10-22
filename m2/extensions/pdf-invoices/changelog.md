@@ -12,7 +12,7 @@ category: PDF Invoices
 
 > Oct 8, 2026
 
- -  Security: Critical - The frontend document view now checks for ownership, document type, and module enabled.
+ -  Security: Critical — strengthened authorization for frontend document access.
 
 ### Version 1.4.11
 

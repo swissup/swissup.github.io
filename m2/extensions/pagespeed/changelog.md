@@ -15,8 +15,8 @@ category: Pagespeed
 #### Fixed
 
 - **Default Critical CSS ignored when "Use built-in critical CSS feature" is off** *(#137, closes #133)*: with `pagespeed/css/critical_enable` on and `dev/css/use_css_critical_path` off, stylesheets were deferred but the "Default Critical CSS" never reached the page, so it rendered unstyled until the CSS loaded. The value was only appended to Magento's critical CSS block, which Magento renders solely when the built-in path is on (regression since 1.10.0). The module now prints the default critical CSS itself in this case, without duplicating it when the built-in path is on.
-- **Stylesheets deferred on pages without critical CSS** *(#138)*: with the built-in path off and an empty "Default Critical CSS", every stylesheet still became `rel="preload"`, causing a flash of unstyled content. Stylesheets are now deferred only when the page has critical CSS. With the built-in path on (including Breeze themes) nothing changes.
-- **Default Critical CSS could close its `<style>` tag** *(#138)*: a `</style` sequence in the admin value is now escaped.
+- **Stylesheets deferred on pages without critical CSS**: with the built-in path off and an empty "Default Critical CSS", every stylesheet still became `rel="preload"`, causing a flash of unstyled content. Stylesheets are now deferred only when the page has critical CSS. With the built-in path on (including Breeze themes) nothing changes.
+- Security: Low — improved safe handling of configured critical CSS.
 
 **Behaviour changes:** with `dev/css/use_css_critical_path` off and no Default Critical CSS, stylesheets are no longer deferred.
 
@@ -46,7 +46,7 @@ category: Pagespeed
 - Security: Low — improved request handling for critical CSS generation in the admin.
 - Security: Low — narrowed Content Security Policy rules on the storefront.
 
-**Behaviour changes:** `debug_mode` is now off by default (`?pagespeed=` debug switches work again only after enabling it), and the critical CSS generate buttons now submit a POST form.
+**Behaviour changes:** debugging must now be explicitly enabled, and critical CSS generation uses improved request protection.
 
 ---
 
@@ -57,7 +57,7 @@ category: Pagespeed
 #### Added
 
 - **Replace WebP in inline JS** *(#129, closes #126)*: New option `pagespeed/image/optimize_webp_js_replace` (default `1`) in the WebP group, shown when WebP and "Add picture tag" are both enabled. Turn it off to get a real `<picture>` fallback: `<img>` `src`/`srcset` and inline JS keep the original jpg/png, and the `.webp` URLs go only into `<source type="image/webp">`, so browsers without WebP support (Safari/iOS older than 14) load the original image. Without the picture tag the option is forced on, because `<img>` always gets the WebP URL and inline JS such as the Breeze gallery JSON has to match it. Images already inside a `<picture>` or without a WebP variant are left untouched when the option is off.
-- **Debug report for CSS background images with a WebP sibling** *(#132, closes #128)*: The module does not rewrite CSS `background-image` to WebP; the documented workaround is a hand-written `image-set()` rule. In debug mode (`?pagespeed=debug` with `pagespeed/main/debug_mode` on), every jpg/jpeg/png `url()` in inline `style` attributes and `<style>` blocks that has a WebP file next to it on disk is now logged to the browser console with where it was found, the exact WebP URL, and a ready-to-paste `image-set()` snippet with the plain `url()` fallback. `data:` URIs and URLs already used in an `image-set()` are skipped, and each URL is reported once. The report never changes the page, does nothing outside debug mode, and does not read linked stylesheet files.
+- **Improved WebP diagnostics**: debug reporting now helps identify eligible background images in inline styles and suggests compatible fallback styling.
 
 #### Fixed
 

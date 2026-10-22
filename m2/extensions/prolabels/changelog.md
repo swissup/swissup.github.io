@@ -17,7 +17,7 @@ category: Prolabels
  -  Security: Medium — improved output handling of label data on category pages.
  -  Security: Medium — label text, custom CSS, and URLs are now validated when saved, both on labels and in the module settings.
  -  Security: Medium — the label "Round Method" setting now accepts only the supported values.
- -  Security: Medium — the label apply, indexed products, and presets admin actions now require the matching admin permission.
+ -  Security: Medium — strengthened authorization for administrative label operations.
  -  Fixed: possible PHP error on category pages when label output selectors are left empty.
  -  Note: labels saved before this update can still be enabled or disabled, but changes to their text, CSS, or URL must pass the new validation.
 

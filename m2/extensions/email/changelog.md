@@ -18,12 +18,11 @@ category: Email
 
 > October 8, 2026
 
- - Security: High — added missing access checks for editing and deleting mail services in the admin.
- - Security: Medium — improved protection against unintended data exposure in the mail log and service grids.
- - Security: Medium — the SSL/TLS option of a mail service is now enforced.
- - Security: Low — the service password is no longer shown in the admin form or sent in URLs.
- - Security: Low — corrected access checks for deleting services and viewing logged emails, and stricter handling of saved fields.
- - Security: Low — logged emails are now deleted after a configurable period (new "Keep Logs" setting, 30 days by default).
+ - Security: High — strengthened authorization for mail service management.
+ - Security: Medium — strengthened protection for mail logs and service management.
+ - Security: Medium — strengthened transport security enforcement.
+ - Security: Low — strengthened protection of mail service credentials and settings.
+ - Added configurable email log retention with a 30-day default.
 
 ### Version 0.7.13
 

@@ -15,18 +15,13 @@ category: AskIt
 
 > October 8, 2026
 
- - Security: High — improved verification of the customer in GraphQL question, answer and vote requests.
- - Security: Medium — strengthened content handling in GraphQL message output.
- - Security: Medium — improved validation of questions and answers submitted on the storefront.
- - Security: Medium — GraphQL submissions now follow the guest and customer posting settings and are rate limited.
- - Security: Medium — improved validation of votes.
- - Security: Medium — added missing permission checks in the admin; deleting now has its own "Delete" permission.
- - Security: Low — improved protection against unintended exposure of author details and private answers in GraphQL and rich snippets.
- - Security: Low — improved handling of answers across store views, and of admin delete and mass actions.
- - Security: Low — improved output handling in the admin assignment form.
+ - Security: High — strengthened authorization for customer interactions.
+ - Security: Medium — improved API input validation, output safety, and abuse protection.
+ - Security: Medium — strengthened administrative authorization.
+ - Security: Low — improved privacy and store-scope enforcement.
  - Fixed: mass Delete in the answers grid of the question edit page.
  - Fixed: the admin notification subject for new questions.
- - Changed: voting via GraphQL now requires a signed-in customer.
+ - Behaviour change: API voting eligibility requirements have changed; integrators should review client behavior after upgrading.
 
 ### Version 1.14.27
 

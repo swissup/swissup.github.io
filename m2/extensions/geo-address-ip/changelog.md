@@ -10,7 +10,7 @@ category: Geo Address IP
 
 > October 8, 2026
 
- -  Security: Medium — proxy IP headers are now used only for GeoIP detection and no longer affect visitor IP detection across the rest of the store.
+ -  Security: Medium — improved visitor IP handling while preserving GeoIP compatibility with supported proxy configurations.
 
 ### Version 1.6.2
 

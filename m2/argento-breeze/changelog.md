@@ -26,12 +26,12 @@ category: ArgentoBreeze
 
 - [Ajax Search](/m2/extensions/ajaxsearch/) — 1.14.12 (was 1.14.11)
     + Security fixes
-    + Popular search terms now respect the "Display in Suggested Terms" flag
+    + Popular search suggestions now honor configured visibility rules
     + Fixed layout shift caused by the close button in the folded search form
 
 - [AskIt](/m2/extensions/askit/) — 1.14.28 (was 1.14.27)
     + Security fixes
-    + Voting via GraphQL now requires a signed-in customer
+    + API voting eligibility requirements have changed; integrators should review client behavior after upgrading
 
 - [Breeze AI](/m2/extensions/breeze-ai/) — 1.8.21 (was 1.4.0)
     + Security fixes
@@ -53,13 +53,13 @@ category: ArgentoBreeze
     + Fixed ignored text color for headings
 
 - [Breeze Layout Builder](/m2/extensions/breeze-content-builder/layout-builder/) — 1.3.1 (was 1.2.0)
-    + Security fixes: preview now requires authentication
+    + Security: Critical — strengthened authorization for layout previews
     + Added header and footer management with Header Layouts
 
 - [Breeze Theme Editor](/m2/extensions/breeze-theme-editor/) — 1.0.17 (was 1.0.14)
-    + Security fixes; changing palette colors now requires the "Publish Changes" permission
+    + Security fixes; review administrative permissions after updating
     + Fixed "Unable to determine theme" error when the theme is assigned per store view only
-    + Added configurable GraphQL authorization header for sites behind HTTP Basic Auth
+    + Improved API authorization compatibility for protected administrative environments
 
 - [ChatGPT Assistant](/m2/extensions/chat-gpt-assistant/) — 1.1.5 (was 1.1.4)
     + Security fixes

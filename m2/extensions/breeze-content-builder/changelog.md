@@ -15,7 +15,7 @@ category: Breeze Content Builder
 
 ### 1.2.5
 
- -  Security: High - More secure component ID rendering and inline SVG preview
+ -  Security: High — strengthened component rendering and preview safety.
 
 ### 1.2.4
 
@@ -155,7 +155,7 @@ category: Breeze Content Builder
 
 ### 1.3.1
 
- -  Security: Critical - Using a signed token for preview; added preview authentication.
+ -  Security: Critical — strengthened authorization for layout previews.
 
 ### 1.3.0
 

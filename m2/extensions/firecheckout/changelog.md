@@ -14,13 +14,13 @@ category: Firecheckout
 
 **Geo Address IP**
 
- -  Security: Medium — proxy IP headers are now used only for GeoIP detection and no longer affect visitor IP detection across the rest of the store.
+ -  Security: Medium — improved visitor IP handling while preserving GeoIP compatibility with supported proxy configurations.
 
 **Checkout Fields**
 
  -  Security: High — improved output handling for checkout field values shown in the admin order view.
  -  Security: Medium — strengthened handling of field labels, notices, and options in checkout forms.
- -  Security: Medium — saving checkout fields now requires the matching admin permission.
+ -  Security: Medium — strengthened authorization for checkout field management.
  -  Security — field values are now validated against the field type and store before they are saved, including for admin-created orders.
  -  Fixed: clearing an optional checkout field now removes the previously saved value.
 
@@ -30,12 +30,14 @@ category: Firecheckout
 
 **Order Attachments**
 
- -  Security: High — strengthened file type validation and safer file previews for uploaded attachments.
- -  Security: Medium — file size and file count limits are now enforced on the server.
- -  Security: Medium — improved access checks for uploading and editing attachments at checkout.
- -  Security: Medium — strengthened request protection for uploading, updating, and deleting attachments.
- -  Security: Medium — attachment preview links are now signed and expire after one week.
- -  Security: Low — improved error message handling on the storefront.
+ -  Security: High — improved safety when handling and previewing uploaded attachments.
+ -  Security: Medium — attachment size and count limits are now applied consistently.
+ -  Security: Medium — strengthened protection for managing attachments during checkout.
+ -  Security: Medium — improved protection for attachment actions.
+ -  Security: Medium — strengthened attachment preview access.
+ -  Security: Low — improved storefront error handling.
+
+**Behaviour change:** temporary attachment preview access now expires; account for this in long-running workflows.
 
 **Subscribe at Checkout**
 

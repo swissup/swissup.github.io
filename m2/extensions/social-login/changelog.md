@@ -18,7 +18,7 @@ category: SocialLogin
 
 > Oct 8, 2026
 
- -  Security: High - A social account is now permanently tied to one customer; linked accounts stored in a separate table.
+ -  Security: High — strengthened social account linking protections.
 
 ### Version 1.1.12
 

@@ -28,7 +28,7 @@ category: SEO Suite
 **swissup/module-seo-templates**
 
  - Security: High — improved input handling when generating SEO data and clearing logs.
- - Security: Medium — the conditions editor now requires the matching admin permission and validates its input.
+ - Security: Medium — strengthened authorization and input validation in the conditions editor.
  - Security: Medium — strengthened request protection for admin template and generation actions.
 
 ### Version 1.20.0

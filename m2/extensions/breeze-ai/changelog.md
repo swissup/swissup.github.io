@@ -12,7 +12,7 @@ category: Breeze AI
 
 > October 16, 2026
 
- -  **A page build that comes back with nothing now tells you which of three things happened.** Every one of them used to reach you as the same sentence about invalid JSON, including the most common one: a long page cut short by the model's output limit. The three are now worded apart — the reply ran past the output limit, so raise **Max Tokens** on the model row and try again; the provider declined the request, so the brief is the thing to change; or the reply missed the shape that was asked for, which is worth one more try on the same brief. The page layout itself is checked separately, and when it is the part that stops mid-way the message names the output limit as well: the provider reports an ordinary finish in that case, so nothing else would point at it. The same three apply to **Plan sections**. What the model actually sent is now kept in the debug log alongside the failure, which is what support needs to tell these apart after the fact — in production that means switching on **Stores > Configuration > Advanced > Developer > Debug > Log to File** before reproducing it.
+ -  **A page build that comes back with nothing now tells you which of three things happened.** Every one of them used to reach you as the same sentence about invalid JSON, including the most common one: a long page cut short by the model's output limit. The three are now worded apart — the reply ran past the output limit, so raise **Max Tokens** on the model row and try again; the provider declined the request, so the brief is the thing to change; or the reply missed the shape that was asked for, which is worth one more try on the same brief. The page layout itself is checked separately, and when it is the part that stops mid-way the message names the output limit as well: the provider reports an ordinary finish in that case, so nothing else would point at it. The same three apply to **Plan sections**. Debug logs may include provider response content, so enable them only while troubleshooting and disable them afterward.
 
 ### Version 1.8.22
 
@@ -24,14 +24,14 @@ category: Breeze AI
 
 > October 8, 2026
 
- - Security: Medium — added missing access checks and input validation for bulk AI actions.
+ - Security: Medium — strengthened authorization and input validation for bulk AI operations.
  - Security: Low — improved validation of model connection settings.
  - Security: Low — improved validation of the MCP endpoint settings.
  - Security: Low — improved validation of links in generated page drafts.
  - Developer API: AI providers (Claude, Gemini, OpenAI) can now return structured output validated against a schema (`ProviderInterface`).
  - Developer API: a curated, per-store-view cached vocabulary of filterable attributes and categories, groundwork for AI product search. No visible change yet.
 
-**Upgrade note:** admins with the "Bulk AI Action" permission now also need the right to edit the corresponding content.
+**Upgrade note:** permission requirements have changed; review administrative roles that use bulk AI operations.
 
 ### Version 1.8.20
 

@@ -14,7 +14,7 @@ category: Checkout Fields
 
  -  Security: High — improved output handling for checkout field values shown in the admin order view.
  -  Security: Medium — strengthened handling of field labels, notices, and options in checkout forms.
- -  Security: Medium — saving checkout fields now requires the matching admin permission.
+ -  Security: Medium — strengthened authorization for checkout field management.
  -  Security — field values are now validated against the field type and store before they are saved, including for admin-created orders.
  -  Fixed: clearing an optional checkout field now removes the previously saved value.
 

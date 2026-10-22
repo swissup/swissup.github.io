@@ -12,11 +12,9 @@ category: Email Templates
 
 > October 8, 2026
 
- -  Security: High — saving an email template now accepts only the expected template fields.
- -  Security: Medium — the admin email template preview now runs in an isolated frame with scripts disabled.
- -  Security: Medium — the template preview no longer exposes sensitive customer account data.
- -  Security: Medium — the template preview now requires the "edit template" admin permission.
- -  Security: Low — improved output handling in the "View generated CSS" panel.
+ -  Security: High — strengthened email template saving.
+ -  Security: Medium — strengthened protection for admin template previews.
+ -  Security: Low — strengthened output handling in the generated CSS preview.
 
 ### Version 1.2.7
 

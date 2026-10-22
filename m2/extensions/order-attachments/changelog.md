@@ -11,12 +11,14 @@ category: Order Attachments
 
 > October 8, 2026
 
- -  Security: High — strengthened file type validation and safer file previews for uploaded attachments.
- -  Security: Medium — file size and file count limits are now enforced on the server.
- -  Security: Medium — improved access checks for uploading and editing attachments at checkout.
- -  Security: Medium — strengthened request protection for uploading, updating, and deleting attachments.
- -  Security: Medium — attachment preview links are now signed and expire after one week.
- -  Security: Low — improved error message handling on the storefront.
+ -  Security: High — improved safety when handling and previewing uploaded attachments.
+ -  Security: Medium — attachment size and count limits are now applied consistently.
+ -  Security: Medium — strengthened protection for managing attachments during checkout.
+ -  Security: Medium — improved protection for attachment actions.
+ -  Security: Medium — strengthened attachment preview access.
+ -  Security: Low — improved storefront error handling.
+
+**Behaviour change:** temporary attachment preview access now expires; account for this in long-running workflows.
 
 ### Version 1.5.2
 

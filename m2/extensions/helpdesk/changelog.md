@@ -12,33 +12,33 @@ category: Helpdesk
 
 > October 16, 2026
 
- - Security: Medium — message text is run through the CMS template filter only when it was written by an administrator in the backend. Authorship is now recorded on the message (`is_backend_authored`) instead of being inferred from the data.
- - Note on `is_backend_authored`: there is no backfill. Messages that already exist keep the column empty and are treated as customer-authored; the flag is set only on messages created from this version on. This is deliberate — the authorship of old messages cannot be reconstructed without guessing.
- - Security: Medium — the attachment upload endpoint now requires POST, a valid form key and passes the rate limit. Files are uploaded one at a time and the upload stops at the first refusal.
- - Security: Medium — attachment links are signed with a real secret and are refused outright when no crypt key is configured. The visitor is checked against the ticket before an attachment is served, documents are no longer previewed inline, and PDF preview is kept out of the CSP sandbox. A new `Attachment Link Lifetime (days)` option (`helpdesk/security/attachment_link_lifetime`, default `0` — no expiry) makes signed links expire; links that were signed under a longer lifetime age out when the value is lowered.
- - Security: Medium — a staff reply picked up from e-mail no longer loses its author in `_afterSave()`. Such replies are now internal by default; the new `Send staff e-mail replies to the customer` option (`helpdesk/mail/staff_reply_to_customer`, default `No`) delivers them to the customer as before.
- - Added: every ticket carries an unguessable access token. Customer notification links carry the token, a guest who opens such a link is no longer asked for the e-mail address, and the token is dropped from the URL once it has been presented. The token is withdrawn when the ticket is moved to another e-mail address and is never written to the ticket archive file. Existing tickets receive a token from a data patch.
- - Security: Low — rate limiting is keyed on the visitor rather than the remote address, the session id is hashed before it is used as a rate-limit identifier, and an address block takes effect again after re-keying. Attachments that receive no content inspection are logged, the ticket grid controller requires its ACL resource, and an upload no longer fails because a log line could not be written.
- - Improved: inbound e-mail — the Message-Id is stored and the duplicate check matches on it, so a message picked up twice no longer creates a second ticket. A failing message or mailbox no longer aborts the pickup for the remaining ones.
- - Fix: the attachment download header states the filename as RFC 6266, the preview MIME type is compared strictly, and the uploader's error text is set rather than interpolated into HTML.
- - Fix: a malformed upload payload is answered with the JSON error on both the storefront and the admin endpoint instead of an HTML 500.
+ - Security: Medium — strengthened message rendering while preserving template processing for trusted backend messages.
+ - Upgrade note: existing messages use conservative rendering behavior after updating.
+ - Security: Medium — strengthened attachment upload authorization, request validation, and abuse protection.
+ - Security: Medium — strengthened attachment access controls, link protection, content disposition, and preview isolation. Attachment link expiration is now configurable; reducing the lifetime also applies to existing links.
+ - Security: Medium — strengthened handling of staff replies received by e-mail. They remain internal by default, with a new option to deliver them to customers when required.
+ - Added: simplified secure guest access from customer notification links, including existing tickets.
+ - Security: Low — strengthened visitor-aware abuse protection, attachment inspection logging, and administrative access controls. Upload logging is now more resilient.
+ - Improved: inbound e-mail deduplication and fault isolation, so repeated messages do not create duplicate tickets and one failure no longer stops remaining pickup.
+ - Fix: improved attachment filename compatibility and hardened preview and uploader error handling.
+ - Fix: malformed attachment uploads now return consistent errors instead of server failures.
  - Fix: the auto-close cron no longer notifies staff as if the customer had updated the ticket.
- - Documentation: inbound e-mail security depends on SPF, DKIM and DMARC being enforced at the MTA — the e-mail setup documentation now states this.
+ - Documentation: expanded guidance for securing inbound e-mail. Sender authentication must also be enforced by the mail infrastructure.
  - PHP 8.4 compatibility: an implicitly nullable test parameter is typed explicitly.
 
 ### Version 1.4.10
 
 > October 14, 2026
 
- - Security: High — ticket replies are now accepted only from the customer or guest the ticket belongs to.
- - Security: High — an inbound e-mail is added to an existing ticket only when its sender belongs to that ticket; the sender address is taken from the parsed message header rather than the raw text, and a staff reply is recognised only for the department that owns the ticket.
- - Improved: inbound email — a message with a missing or unreadable sender no longer stops the mailbox pickup for the remaining departments.
+ - Security: High — strengthened ticket reply authorization.
+ - Security: High — strengthened security for replies received by e-mail.
+ - Improved: inbound email processing is more resilient, so one malformed message does not interrupt remaining mailbox pickup.
 
 ### Version 1.4.9
 
 > October 8, 2026
 
- - Security: High — improved protection against unintended file exposure through ticket and message attachments.
+ - Security: High — strengthened protection of helpdesk files.
  - Security: High — strengthened validation of attachments submitted with tickets and messages.
  - Improved: inbound email — the mailbox pickup is now skipped with a log message when the required mail library is not installed (Magento 2.4.8 no longer ships it). `laminas/laminas-mail` is now a suggested package.
 

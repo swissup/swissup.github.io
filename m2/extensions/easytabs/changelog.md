@@ -12,8 +12,7 @@ category: Easy Tabs
 
 > October 8, 2026
 
- -  Security: Medium — improved protection against disabled products being shown in product tabs.
- -  Security: Medium — GraphQL now applies the same tab visibility conditions, such as customer group, as the storefront.
+ -  Security: Medium — strengthened product and tab visibility enforcement across storefront interfaces.
 
 ### Version 1.13.4
 

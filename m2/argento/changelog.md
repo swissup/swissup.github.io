@@ -24,10 +24,10 @@ category: Argento
       + Fixed popups resizing product thumbnails on the listing behind them
   - [Ajax Search](/m2/extensions/ajaxsearch/) — 1.14.12 (was 1.14.11)
       + Security fixes
-      + Popular search terms now respect the "Display in Suggested Terms" flag
+      + Popular search suggestions now honor configured visibility rules
   - [AskIt](/m2/extensions/askit/) — 1.14.28 (was 1.14.27)
       + Security fixes
-      + Voting via GraphQL now requires a signed-in customer
+      + API voting eligibility requirements have changed; integrators should review client behavior after upgrading
   - [ChatGPT Assistant](/m2/extensions/chat-gpt-assistant/) — 1.1.5 (was 1.1.4)
       + Security fixes
   - [EasyBanner](/m2/extensions/easybanners/) — 1.9.25 (was 1.9.24)

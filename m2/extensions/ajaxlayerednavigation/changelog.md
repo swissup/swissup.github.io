@@ -11,11 +11,10 @@ category: Ajax Layered Navigation
 
 > October 8, 2026
 
- - Security: Medium — improved protection against unintended data exposure in the AJAX filter responses.
- - Security: Low — AJAX filter responses and regular pages are now cached separately.
- - Security: Low — cached filter results now respect customer group and currency.
+ - Security: Medium — improved security of AJAX filtering.
+ - Security: Low — improved cache correctness across storefront contexts.
  - Security: Low — improved validation of filter parameters.
- - Security: Low — improved output handling in the attribute toggle widget.
+ - Security: Low — improved safety of the attribute toggle widget.
 
 ### Version 1.6.10
 

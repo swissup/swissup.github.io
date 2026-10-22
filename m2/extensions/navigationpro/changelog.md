@@ -12,10 +12,9 @@ category: Navigationpro
 
 > October 8, 2026
 
- -  Security: High — restricted the data that menu content directives can access.
- -  Security: Medium — improved content handling in the admin menu preview.
- -  Security: Medium — strengthened request protection for admin menu and menu item actions.
- -  Security: Low — GraphQL no longer exposes internal error details.
+ -  Security: High — strengthened content isolation.
+ -  Security: Medium — improved admin preview and request safety.
+ -  Security: Low — improved API error handling.
  -  Fixed: GraphQL now returns rendered menu item HTML.
 
 ### Version 1.19.3

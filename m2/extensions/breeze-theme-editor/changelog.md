@@ -12,14 +12,13 @@ category: Breeze Theme Editor
 
 > Oct 8, 2026
 
- - Security: Medium — strengthened validation and output handling of saved theme settings and color palette values.
- - Security: Medium — saving palette colors now requires the "Publish Changes" admin permission.
- - Security: Medium — the live preview of PHP-based settings is now limited to logged-in admins.
- - Security: Medium — improved output handling of saved values in the editor panel.
- - Security: Low — error details are no longer shown in the storefront stylesheet or returned when saving a palette color.
+ - Security: Medium — strengthened validation and safe rendering of theme settings and color palette values.
+ - Security: Medium — improved authorization for palette and live preview operations.
+ - Security: Medium — improved safe rendering of values in the editor panel.
+ - Security: Low — improved error handling in the editor and generated stylesheets.
  - Fixed extracting the clean page path from the iframe URL when the layout builder is used.
 
-**Upgrade note:** admins who only have "Edit Themes" can no longer change palette colors; they need "Publish Changes" too. Saved values that contain markup are neutralized when the stylesheet is generated.
+**Upgrade note:** permission requirements for palette changes have changed; review relevant administrative roles after updating. Custom values may render differently because of stricter output handling.
 
 ### Version 1.0.16
 

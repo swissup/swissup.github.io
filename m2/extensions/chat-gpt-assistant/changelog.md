@@ -12,7 +12,7 @@ category: ChatGPT Assistant
 
 > Oct 8, 2026
 
- -  Security: High - Restrict attributes where bulk generation can write and escape prompt names before output.
+ -  Security: High — improved authorization, validation, and output safety for bulk generation.
 
 ### Version 1.1.4
 
