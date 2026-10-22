@@ -1,0 +1,92 @@
+---
+layout: default
+title: Magento 2 Isolated Security Patches
+description: >
+  All isolated security patches released by Adobe for Magento Open Source,
+  Adobe Commerce and B2B, with patch IDs reported by the Commerce Version Tool
+  and direct download links to repo.magento.com.
+body_class: no-anchors
+---
+
+{% assign registry = site.data.magento_patches.registry %}
+{% assign latest = '' %}
+{% for patch in registry.patches %}
+  {% if patch[1].released > latest %}{% assign latest = patch[1].released %}{% endif %}
+{% endfor %}
+
+<style>{% include security-patches/style.css %}</style>
+
+<h1>Magento 2 Isolated Security Patches</h1>
+
+<p>
+  Since July 2026 Adobe ships security fixes for Magento 2 as monthly isolated patches.
+  Pick your Magento version to see every patch that applies to it, in the order you should
+  apply them. Patch IDs match the output of the
+  <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/tools/commerce-version-tool/intro">Commerce Version Tool</a>
+  (<code>php vendor/bin/patch-status</code>).
+</p>
+
+<div class="sp-filters">
+  <label>
+    <span>Magento version</span>
+    <select id="sp-version"></select>
+  </label>
+  <fieldset id="sp-edition">
+    <legend>Edition</legend>
+    <label><input type="radio" name="edition" value="os" checked> Open Source</label>
+    <label><input type="radio" name="edition" value="commerce"> Adobe Commerce</label>
+    <label><input type="radio" name="edition" value="b2b"> Adobe Commerce + B2B</label>
+  </fieldset>
+  <label id="sp-b2b-field" hidden>
+    <span>B2B version</span>
+    <select id="sp-b2b"></select>
+  </label>
+</div>
+
+<div id="sp-notice" class="sp-notice" hidden></div>
+
+<div id="sp-result">
+  <noscript>This page needs JavaScript to filter patches by version.</noscript>
+</div>
+
+<h2>How to install</h2>
+
+<ol>
+  <li>Download every patch listed above for your version, or the monthly zip that bundles them.</li>
+  <li>Apply them in the listed order. Patches are <strong>not cumulative</strong>: each month requires the previous ones.</li>
+  <li>
+    Follow Adobe's
+    <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/upgrade-guide/patches/apply">patching guide</a>,
+    for example with <code>git apply</code> or <code>patch -p1</code> from the Magento root, then run
+    <code>bin/magento setup:upgrade</code> and redeploy.
+  </li>
+  <li>Run <code>php vendor/bin/patch-status</code> to confirm nothing is missing.</li>
+</ol>
+
+<p>
+  <span class="sp-lock" aria-hidden="true">&#128274;</span>
+  Files marked with a lock are available to Adobe Commerce license holders only.
+  Your browser will ask for credentials: use your
+  <a href="https://experienceleague.adobe.com/en/docs/commerce-operations/installation-guide/prerequisites/authentication-keys">Composer keys</a>,
+  the public key as username and the private key as password.
+</p>
+
+<p class="sp-meta">
+  Data is synced daily from Adobe's
+  <a href="{{ registry._schema.patch_base_url }}/patch-registry.json">patch registry</a>.
+  Latest patch release: <strong>{{ latest }}</strong>.
+  See <a href="{{ site.github.repository_url }}/commits/master/_data/magento_patches/registry.json">registry history</a>
+  and the official <a href="https://www.adobe.com/trust/security/bulletins-and-advisories.html?ch_Products=Adobe%2520Commerce">Adobe Commerce security bulletins</a>.
+  All downloads point to repo.magento.com, nothing is hosted here.
+  This page is not affiliated with Adobe. Magento and Adobe Commerce are trademarks of Adobe Inc.
+</p>
+
+<script type="application/json" id="sp-data">
+{
+  "baseUrl": {{ registry._schema.patch_base_url | jsonify }},
+  "patches": {{ registry.patches | jsonify }},
+  "files": {{ site.data.magento_patches.files | jsonify }},
+  "b2b": {{ site.data.magento_patches.b2b | jsonify }}
+}
+</script>
+<script>{% include security-patches/app.js %}</script>

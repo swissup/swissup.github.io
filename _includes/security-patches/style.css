@@ -1,0 +1,114 @@
+.sp-filters {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 16px 32px;
+    margin: 24px 0;
+}
+.sp-filters label > span,
+.sp-filters legend {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 4px;
+    padding: 0;
+}
+.sp-filters fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+.sp-filters fieldset label {
+    margin-right: 16px;
+    white-space: nowrap;
+}
+.sp-filters select {
+    font: inherit;
+    padding: 6px 8px;
+    min-width: 160px;
+}
+.sp-notice {
+    background: #fff8e1;
+    border-left: 4px solid #ffb300;
+    padding: 8px 16px;
+    margin: 0 0 16px;
+}
+.sp-notice p {
+    margin: 4px 0;
+}
+.sp-toolbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+.sp-table {
+    font-size: 13px;
+}
+.sp-table th {
+    text-align: left;
+    white-space: nowrap;
+}
+.sp-table td {
+    vertical-align: top;
+}
+.sp-table code {
+    white-space: nowrap;
+}
+.sp-table tr:target {
+    background: #e3f2fd;
+}
+.sp-nowrap {
+    white-space: nowrap;
+}
+.sp-cves,
+.sp-requires {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+.sp-cves a {
+    white-space: nowrap;
+}
+.sp-table details {
+    margin: 0;
+    padding: 0;
+}
+.sp-table summary {
+    cursor: pointer;
+    white-space: nowrap;
+    border-bottom: 1px dashed;
+}
+.sp-table details[open] summary {
+    margin: 0 0 4px;
+}
+.sp-missing {
+    color: #c62828;
+}
+.sp-copy {
+    font: inherit;
+    font-size: 12px;
+    margin-top: 4px;
+    padding: 2px 8px;
+    cursor: pointer;
+    background: #fff;
+    border: 1px solid #bbb;
+    border-radius: 3px;
+}
+.sp-toolbar .sp-copy {
+    font-size: 13px;
+    margin: 0;
+    padding: 4px 12px;
+}
+.sp-lock {
+    font-size: 0.9em;
+}
+.sp-zips code {
+    font-size: 12px;
+}
+.sp-meta {
+    font-size: 13px;
+    color: #757575;
+    margin-top: 32px;
+}

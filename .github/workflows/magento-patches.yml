@@ -1,0 +1,48 @@
+name: Sync Magento security patches
+
+on:
+  schedule:
+    - cron: '17 5 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: magento-patches
+
+jobs:
+  sync:
+    if: github.repository == 'swissup/swissup.github.io'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Download Adobe patch registry
+        run: node _scripts/magento-patches.mjs
+
+      - name: Commit changes
+        id: commit
+        run: |
+          git add _data/magento_patches
+          if git diff --cached --quiet; then
+            echo "No changes"
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'security-patches: sync Adobe patch registry'
+          git push
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+      # Pushes made with GITHUB_TOKEN may not trigger the legacy Pages build.
+      - name: Request Pages build
+        if: steps.commit.outputs.changed == 'true'
+        run: gh api -X POST "repos/${{ github.repository }}/pages/builds"
+        env:
+          GH_TOKEN: ${{ github.token }}

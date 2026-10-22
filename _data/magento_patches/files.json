@@ -1,0 +1,225 @@
+{
+  "diffs": {
+    "133p18-2026-07-001-B2B.diff": "auth",
+    "133p18-2026-08-001-B2B.diff": "auth",
+    "133p18-2026-09-001-B2B.diff": "auth",
+    "133p18-2026-10-001-B2B.diff": "auth",
+    "134p17-2026-07-001-B2B.diff": "auth",
+    "134p17-2026-08-001-B2B.diff": "auth",
+    "134p17-2026-09-001-B2B.diff": "auth",
+    "134p17-2026-10-001-B2B.diff": "auth",
+    "142p10-2026-07-001-B2B.diff": "public",
+    "142p10-2026-08-001-B2B.diff": "public",
+    "142p10-2026-09-001-B2B.diff": "auth",
+    "142p10-2026-10-001-B2B.diff": "public",
+    "152p5-2026-07-001-B2B.diff": "public",
+    "152p5-2026-08-001-B2B.diff": "public",
+    "152p5-2026-09-001-B2B.diff": "public",
+    "152p5-2026-10-001-B2B.diff": "public",
+    "153-2026-07-001-B2B.diff": "public",
+    "153-2026-08-001-B2B.diff": "public",
+    "153-2026-09-001-B2B.diff": "public",
+    "153-2026-10-001-B2B.diff": "public",
+    "244p18-2026-07-001-CE.diff": "auth",
+    "244p18-2026-07-001-EE.diff": "auth",
+    "244p18-2026-08-001-CE.diff": "auth",
+    "244p18-2026-08-001-EE.diff": "auth",
+    "244p18-2026-09-001-CE.diff": "auth",
+    "244p18-2026-10-001-CE.diff": "auth",
+    "244p18-2026-10-001-EE.diff": "auth",
+    "245p17-2026-07-001-CE.diff": "auth",
+    "245p17-2026-07-001-EE.diff": "auth",
+    "245p17-2026-08-001-CE.diff": "auth",
+    "245p17-2026-08-001-EE.diff": "auth",
+    "245p17-2026-09-001-CE.diff": "auth",
+    "245p17-2026-10-001-CE.diff": "auth",
+    "245p17-2026-10-001-EE.diff": "auth",
+    "246p15-2026-07-001-CE.diff": "public",
+    "246p15-2026-07-001-EE.diff": "public",
+    "246p15-2026-08-001-CE.diff": "public",
+    "246p15-2026-08-001-EE.diff": "public",
+    "246p15-2026-09-001-CE.diff": "auth",
+    "246p15-2026-10-001-CE.diff": "auth",
+    "246p15-2026-10-001-EE.diff": "auth",
+    "247p10-2026-07-001-CE.diff": "public",
+    "247p10-2026-07-001-EE.diff": "public",
+    "247p10-2026-08-001-CE.diff": "public",
+    "247p10-2026-08-001-EE.diff": "public",
+    "247p10-2026-09-001-CE.diff": "public",
+    "247p10-2026-10-001-CE.diff": "public",
+    "247p10-2026-10-001-EE.diff": "public",
+    "248p5-2026-07-001-CE.diff": "public",
+    "248p5-2026-07-001-EE.diff": "public",
+    "248p5-2026-08-001-CE.diff": "public",
+    "248p5-2026-08-001-EE.diff": "public",
+    "248p5-2026-09-001-CE.diff": "public",
+    "248p5-2026-10-001-CE.diff": "public",
+    "248p5-2026-10-001-EE.diff": "public",
+    "248p5-2026-10-002-CE.diff": "public",
+    "249-2026-07-001-CE.diff": "public",
+    "249-2026-07-001-EE.diff": "public",
+    "249-2026-08-001-CE.diff": "public",
+    "249-2026-08-001-EE.diff": "public",
+    "249-2026-09-001-CE.diff": "public",
+    "249-2026-10-001-CE.diff": "public",
+    "249-2026-10-001-EE.diff": "public",
+    "VULN-39341-244-p18.diff": "public",
+    "VULN-39341-245-p17.diff": "public",
+    "VULN-39341-246-p11.diff": "public",
+    "VULN-39341-246-p13.diff": "public",
+    "VULN-39341-246-p15.diff": "public",
+    "VULN-39341-247-p10.diff": "public",
+    "VULN-39341-247-p5.diff": "public",
+    "VULN-39341-247-p8.diff": "public",
+    "VULN-39341-248-p1.diff": "public",
+    "VULN-39341-248-p3.diff": "public",
+    "VULN-39341-248-p5.diff": "public",
+    "VULN-39341-249.diff": "public"
+  },
+  "zips": [
+    {
+      "version": "2.4.4-p18",
+      "month": "2026-07",
+      "file": "2-4-4-p18-jul-2026.zip",
+      "access": "auth"
+    },
+    {
+      "version": "2.4.4-p18",
+      "month": "2026-08",
+      "file": "2-4-4-p18-aug-2026.zip",
+      "access": "auth"
+    },
+    {
+      "version": "2.4.4-p18",
+      "month": "2026-09",
+      "file": "2-4-4-p18-sep-2026.zip",
+      "access": "auth"
+    },
+    {
+      "version": "2.4.4-p18",
+      "month": "2026-10",
+      "file": "2-4-4-p18-oct-2026.zip",
+      "access": "auth"
+    },
+    {
+      "version": "2.4.5-p17",
+      "month": "2026-07",
+      "file": "2-4-5-p17-jul-2026.zip",
+      "access": "auth"
+    },
+    {
+      "version": "2.4.5-p17",
+      "month": "2026-08",
+      "file": "2-4-5-p17-aug-2026.zip",
+      "access": "auth"
+    },
+    {
+      "version": "2.4.5-p17",
+      "month": "2026-09",
+      "file": "2-4-5-p17-sep-2026.zip",
+      "access": "auth"
+    },
+    {
+      "version": "2.4.5-p17",
+      "month": "2026-10",
+      "file": "2-4-5-p17-oct-2026.zip",
+      "access": "auth"
+    },
+    {
+      "version": "2.4.6-p15",
+      "month": "2026-07",
+      "file": "2-4-6-p15-jul-2026.zip",
+      "access": "public"
+    },
+    {
+      "version": "2.4.6-p15",
+      "month": "2026-08",
+      "file": "2-4-6-p15-aug-2026.zip",
+      "access": "public"
+    },
+    {
+      "version": "2.4.6-p15",
+      "month": "2026-09",
+      "file": "2-4-6-p15-sep-2026.zip",
+      "access": "auth"
+    },
+    {
+      "version": "2.4.6-p15",
+      "month": "2026-10",
+      "file": "2-4-6-p15-oct-2026.zip",
+      "access": "auth"
+    },
+    {
+      "version": "2.4.7-p10",
+      "month": "2026-07",
+      "file": "2-4-7-p10-jul-2026.zip",
+      "access": "public"
+    },
+    {
+      "version": "2.4.7-p10",
+      "month": "2026-08",
+      "file": "2-4-7-p10-aug-2026.zip",
+      "access": "public"
+    },
+    {
+      "version": "2.4.7-p10",
+      "month": "2026-09",
+      "file": "2-4-7-p10-sep-2026.zip",
+      "access": "public"
+    },
+    {
+      "version": "2.4.7-p10",
+      "month": "2026-10",
+      "file": "2-4-7-p10-oct-2026.zip",
+      "access": "public"
+    },
+    {
+      "version": "2.4.8-p5",
+      "month": "2026-07",
+      "file": "2-4-8-p5-jul-2026.zip",
+      "access": "public"
+    },
+    {
+      "version": "2.4.8-p5",
+      "month": "2026-08",
+      "file": "2-4-8-p5-aug-2026.zip",
+      "access": "public"
+    },
+    {
+      "version": "2.4.8-p5",
+      "month": "2026-09",
+      "file": "2-4-8-p5-sep-2026.zip",
+      "access": "public"
+    },
+    {
+      "version": "2.4.8-p5",
+      "month": "2026-10",
+      "file": "2-4-8-p5-oct-2026.zip",
+      "access": "public"
+    },
+    {
+      "version": "2.4.9",
+      "month": "2026-07",
+      "file": "2-4-9-jul-2026.zip",
+      "access": "public"
+    },
+    {
+      "version": "2.4.9",
+      "month": "2026-08",
+      "file": "2-4-9-aug-2026.zip",
+      "access": "public"
+    },
+    {
+      "version": "2.4.9",
+      "month": "2026-09",
+      "file": "2-4-9-sep-2026.zip",
+      "access": "public"
+    },
+    {
+      "version": "2.4.9",
+      "month": "2026-10",
+      "file": "2-4-9-oct-2026.zip",
+      "access": "public"
+    }
+  ]
+}
