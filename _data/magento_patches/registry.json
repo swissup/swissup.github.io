@@ -1098,7 +1098,10 @@
             ],
             "released": "2026-10-13",
             "file_name": "246p15-2026-10-001-EE.diff",
-            "sha256": "a88bc7ae033d92f048f9b97b1053150412c8cfecfae4c57ec348afbca3065a00"
+            "sha256": "a88bc7ae033d92f048f9b97b1053150412c8cfecfae4c57ec348afbca3065a00",
+            "entitlements": [
+                "ee"
+            ]
         },
         "142p10-2026-10-001-B2B": {
             "applies_to": [
@@ -1116,10 +1119,7 @@
             ],
             "released": "2026-10-13",
             "file_name": "142p10-2026-10-001-B2B.diff",
-            "sha256": "4fb8a9837bb086b58c6d7b1030da5abd1a670d632eb5845f710a53b03275ab98",
-            "entitlements": [
-                "ee"
-            ]
+            "sha256": "4fb8a9837bb086b58c6d7b1030da5abd1a670d632eb5845f710a53b03275ab98"
         },
         "152p5-2026-10-001-B2B": {
             "applies_to": [
