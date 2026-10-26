@@ -1,0 +1,56 @@
+{% assign registry = site.data.magento_patches.registry %}
+{% assign latest = '' %}
+{% for patch in registry.patches %}
+  {% if patch[1].released > latest %}{% assign latest = patch[1].released %}{% endif %}
+{% endfor %}
+<style>
+  .security-promo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 16px 24px;
+    padding: 16px 24px;
+    background: #fafafa;
+    border-left: 4px solid #ff4081;
+  }
+  .security-promo .material-icons {
+    font-size: 48px;
+    color: #ff4081;
+  }
+  .security-promo-content {
+    flex: 1 1 320px;
+  }
+  .security-promo-content h4 {
+    margin: 0 0 8px;
+  }
+  .security-promo-content p {
+    margin: 0;
+  }
+  .security-promo-meta {
+    font-size: 13px;
+    color: #757575;
+  }
+</style>
+<div class="clearfix products-group group-security">
+  <h3>
+    Security
+    <a title="Magento 2 Isolated Security Patches" href="{{ '/m2/security-patches/' | prepend: site.baseurl }}">&#8658;</a>
+  </h3>
+  <div class="security-promo">
+    <i class="material-icons" aria-hidden="true">security</i>
+    <div class="security-promo-content">
+      <h4>Magento 2 Isolated Security Patches</h4>
+      <p>
+        Every isolated security patch Adobe released for Magento 2, in one place.
+        Pick your version to get patch IDs used by the Commerce Version Tool
+        and direct download links to repo.magento.com.
+      </p>
+      <p class="security-promo-meta">
+        {{ registry.patches | size }} patches, latest released {{ latest | date: '%B %-d, %Y' }}
+      </p>
+    </div>
+    <div class="actions">
+      <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" href="{{ '/m2/security-patches/' | prepend: site.baseurl }}">Find patches</a>
+    </div>
+  </div>
+</div>

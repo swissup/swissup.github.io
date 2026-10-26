@@ -9,3 +9,5 @@ title: Magento 2.x Products
 {% include extensions/m2.html %}
 
 {% include themes/m2.html %}
+
+{% include security-patches/promo.html %}
