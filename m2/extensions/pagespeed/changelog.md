@@ -8,6 +8,16 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.21.3
+
+> October 27, 2026
+
+#### Fixed
+
+- **Slow HTML processing on pages with thousands of images** *(#145, closes #144)*: every tracked `<img>` (also `<script>`, `<link>` and `<style>`) was matched to its place in the page by comparing its `id`/`src`/`href` with every element of the same tag, so the work grew with the square of the number of images. Pages with 16,000 images took 7.8 s to process, now 0.23 s. Category pages showing all products, brand and attribute pages listing every option logo, lookbooks and image mega menus benefit most. Images whose `src` contains an encoded `&amp;` (for example resized-image URLs with several parameters) are now matched directly instead of through slower fallbacks.
+
+---
+
 ### Version 1.21.2
 
 > October 27, 2026
