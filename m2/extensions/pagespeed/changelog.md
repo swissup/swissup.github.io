@@ -8,6 +8,17 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.21.2
+
+> October 27, 2026
+
+#### Fixed
+
+- **Slow HTML processing on pages with thousands of same-tag elements** *(#142, closes #141)*: since 1.17.4 the module found each tracked element's position by walking all elements with the same tag from the start of the page, so the work grew with the square of their number. On one store's HTML sitemap (~7,500 product links) this step went from 0.7 s to 25 s per request on PHP 8.2 and overloaded the server under crawler traffic. Positions are now built in a single pass over the page. Wrapping many images in `<picture>` for WebP had the same problem and is now linear too.
+- **WebP not applied to product gallery and Page Builder background images** *(#140, #143, closes #139)*: since 1.14.0 "Replace WebP in inline JS" (`pagespeed/image/optimize_webp_js_replace`) had no effect. Images in the `text/x-magento-init` gallery config (fotorama and Breeze) and in Page Builder `data-background-images` kept loading the original jpg/png after JS init, and on mobile product pages that request is often the LCP. These URLs are rewritten to WebP again, including `url(...)` inside CSS strings, comma-separated lists and mixed-case extensions such as `.Jpg`.
+
+---
+
 ### Version 1.21.1
 
 > October 15, 2026
