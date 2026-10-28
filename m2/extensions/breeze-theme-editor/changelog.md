@@ -8,6 +8,12 @@ category: Breeze Theme Editor
 
 # Changelog
 
+### Version 1.0.18
+
+> Oct 28, 2026
+
+ - Fixed color fields showing `#000000` when no saved value exists and the default references a palette property such as `--subtle-color`. Palette defaults and runtime values now resolve correctly, including properties without the `--color-` prefix and reset flows for color and background fields.
+
 ### Version 1.0.17
 
 > Oct 8, 2026
