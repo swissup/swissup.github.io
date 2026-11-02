@@ -13,6 +13,31 @@ category: Breeze Content Builder
 
 ## Breeze Content Builder
 
+### 1.2.10
+
+ -  The editor preview now renders in the storefront theme's context, preparing Content Builder for Hyvä and other non-Breeze themes; the preview script falls back to plain DOM events when Breeze is absent
+ -  Fixed: components placed after a Product Grid, Product Compare, Featured Product or Newsletter rendered in the admin area inside the editor preview
+ -  Fixed: a background image URL containing quotes broke the component's inline style
+ -  Banner is described as a card and Grid as the container for blocks of unequal size, so Breeze AI picks them for product cards and mixed panels
+ -  Text, Row, Columns and Accordion templates now receive prepared values from a view model; output is unchanged, but compare any theme override of these templates with the new versions
+
+### 1.2.9
+
+ -  Added CSS Class picker modal
+
+### 1.2.8
+
+ -  Improved CMS pages selector
+
+### 1.2.7
+
+ -  Added Gallery 2×5 layout for the Grid component
+
+### 1.2.6
+
+ -  New Running Line component
+ -  Added TikTok source to the Video component
+
 ### 1.2.5
 
  -  Security: High — strengthened component rendering and preview safety.
