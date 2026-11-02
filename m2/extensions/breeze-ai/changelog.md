@@ -8,6 +8,20 @@ category: Breeze AI
 
 # Changelog
 
+### Version 1.10.0
+
+> November 2, 2026
+
+ -  **Build from a reference design now plans the page first and asks you to confirm it.** The AI chat panel reads the screenshot and lists one row per section: what the band does for the visitor (hero, benefits, category strip, product carousel, newsletter…), the element it will be built with, and its texts. You can drop a section or change its element before anything is built. The plan's section heights and dark/light backgrounds are measured on the screenshot itself instead of being guessed by the model. **Behaviour change:** a new design is only built from a confirmed plan, and the separate "Build from screenshot" modal is gone — the chat panel replaces it.
+ -  **Each section is built on its own.** With a confirmed plan every section gets its own AI call and the bands are stacked in plan order, so a long page no longer comes back with half-filled containers; each slot of a Columns, Grid or Tabs is asked for by its own key. In our measurements on the same design and model the section score rose from 84.8 to 93.8.
+ -  **A hero slider is created from the design.** When a section is an EasySlide slider, the build creates a new slider with the design's slide picture, heading, copy and button instead of pointing at one of the store's existing sliders — edit its slides and give the button a link under **Swissup > EasySlide**. The slide copy is kept readable over the photo and the button is sized to its label.
+ -  **A category strip renders as category tiles.** An Easy Catalog Images widget now gets its category count, columns and "show image" from the design, instead of the widget defaults that rendered the whole category tree as text links.
+ -  **Cropped images no longer carry the design's own text.** A crop taken from the reference design kept the heading, copy or form baked into it, and the real text was then drawn on top. When an image model is configured under **Generated Images**, every crop with text has the text painted out and keeps the photo (about $0.02 per image at low quality, within the **Max images** limit).
+ -  **Tabs and grids hold the right blocks.** A tab panel keeps its blocks in its own tab instead of spreading them one per tab, and a panel of one large card beside smaller ones is built as a grid of banners. The ten-slot `gallery-2x5` Grid preset of Breeze Content Builder 1.2.7 is supported, a gallery is no longer left with empty cells, and a section title is no longer printed twice.
+ -  **Wide or tall screenshots are placed on the right scale.** A page whose bands ran past the end of the grid is rescaled, and when the crops may still sit on the wrong vertical scale the build says so. A band no widget matches no longer gets a widget hint.
+ -  Developer: test sets under `dev/test-sets/` and `bin/magento breezeai:testset:score`, which scores a build or a plan section by section (element, width, texts, images, data, defects); `--model-id` runs a billed build, `--document` / `--plan-file` score saved ones for free.
+ -  Works best with Breeze Content Builder 1.2.10, whose Banner and Grid descriptions the planner relies on.
+
 ### Version 1.9.0
 
 > October 23, 2026
