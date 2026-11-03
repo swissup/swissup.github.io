@@ -8,6 +8,16 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.21.4
+
+> November 3, 2026
+
+#### Fixed
+
+- **Slow uncached page generation during HTML patching** *(#147, closes #146)*: informational patch diagnostics ran on every uncached response and repeatedly scanned the full HTML. On the reported product page, `applyPatchesToOriginalHtml()` took 517 ms although actual patch application took only 24 ms. Diagnostics now run only with `PAGESPEED_DEBUG`, required structural validation reuses existing counts, and debug script comparison scales linearly. Synthetic script-heavy verification dropped from 18 ms to 1.8 ms for 200 scripts and from 111–113 ms to 4.8 ms for 600 scripts.
+
+---
+
 ### Version 1.21.3
 
 > October 27, 2026
