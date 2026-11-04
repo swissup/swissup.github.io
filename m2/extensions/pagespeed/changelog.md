@@ -8,6 +8,16 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.21.5
+
+> November 4, 2026
+
+#### Fixed
+
+- **Slow uncached pages with many WebP images** *(#149, closes #148)*: wrapping images in `<picture>` for WebP creates new elements whose HTML has to be merged back into the page, and that merge restarted its whole search after every element it placed, so its cost grew with the cube of the number of images. On the product page reported for 1.21.4, with about 80 WebP images, HTML patching (`applyPatchesToOriginalHtml()`) still took about 500 ms after the 1.21.4 diagnostics change; it now takes 39 ms, and PageSpeed processing of that page dropped from about 550 ms to 90 ms. The resulting HTML is byte-for-byte the same. Each patching stage now also has its own Magento Profiler section (`patchManager.groupAndSort`, `patchManager.applyOtherPatches` and others), so a slow stage shows up directly in profiler output.
+
+---
+
 ### Version 1.21.4
 
 > November 3, 2026
