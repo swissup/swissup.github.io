@@ -1,58 +1,79 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
   {% include head.html %}
-  <body class="mdl-color-text--grey-700 {{ page.body_class }}">
-    <!-- <div class="mdl-layout"> -->
-      <div class="page mdl-shadow--2dp mdl-color--white">
-        {% include header.html class="mdl-color--white mdl-color-text--grey-700 mdl-layout__header--transparent" %}
+  {%- assign is_changelog = false -%}
+  {%- assign url_tail = page.url | split: '/' | last -%}
+  {%- if url_tail == 'changelog' -%}{%- assign is_changelog = true -%}{%- endif -%}
+  <body class="{{ page.body_class }}{% if page.layout_style %} layout-{{ page.layout_style }}{% endif %}{% if is_changelog %} changelog-page{% endif %}">
+    <a class="skip-link" href="#main">Skip to content</a>
+    {% include header.html %}
 
-        <main class="mdl-layout__content-off mdl-color-text--grey-800">
-          {% unless page.breadcrumbs == false %}
+    {%- assign extension = site.data.extensions[page.extension_id] -%}
+
+    {%- comment -%} Content with optional notices injected right after the first <h1> {%- endcomment -%}
+    {%- capture after_h1 -%}
+      {%- if extension and page.url == extension.urls.m2 -%}
+        {%- include page-meta.html extension=extension -%}
+      {%- endif -%}
+      {%- if extension.hyva == true -%}{%- include hyva-compatibility.html -%}{%- endif -%}
+    {%- endcapture -%}
+    {%- assign after_h1 = after_h1 | strip -%}
+    {%- if after_h1 != '' and content contains '</h1>' -%}
+      {%- capture marker %}</h1>{{ after_h1 }}{% endcapture -%}
+      {%- assign rendered_content = content | replace_first: '</h1>', marker -%}
+    {%- else -%}
+      {%- assign rendered_content = content -%}
+    {%- endif -%}
+
+    {%- if page.layout_style == 'home' -%}
+      <main id="main" class="home">
+        {{ rendered_content }}
+      </main>
+    {%- else -%}
+      {%- capture sidebar_html %}{% include sidebar.html %}{% endcapture -%}
+      {%- assign sidebar_html = sidebar_html | strip -%}
+      <div class="docs{% if sidebar_html == '' %} no-sidebar{% endif %}{% if page.toc == false %} no-toc{% endif %}">
+        {{ sidebar_html }}
+
+        <main id="main" class="article">
+          {%- unless page.breadcrumbs == false -%}
             {% include breadcrumbs.html %}
-          {% endunless %}
+          {%- endunless -%}
 
-          {% comment %}
-            if page.sidebar is a temporary solution to prevent duplicated page titles
-          {% endcomment %}
+          {%- comment -%} Pages without their own H1 (e.g. with a hand-written sidebar) get the title {%- endcomment -%}
+          {%- unless content contains '<h1' or page.title == nil -%}
+            <h1 class="page-title">{{ page.h1 | default: page.title }}</h1>
+          {%- endunless -%}
 
-          {% if page.sidebar %}
-            <h1>
-              {% if page.h1 %}
-                {{page.h1}}
-              {% else %}
-                {{page.title}}
-              {% endif %}
-            </h1>
-          {% endif %}
+          <article class="prose">
+            {{ rendered_content }}
+          </article>
 
-          {% assign extension = site.data.extensions[page.extension_id] %}
-
-          {% if extension.hyva == true %}
-            {% capture compatibility_notice %}{% include hyva-compatibility.html %}{% endcapture %}
-            {% capture compatibility_marker %}</h1>{{ compatibility_notice }}{% endcapture %}
-            {% assign rendered_content = content | replace_first: '</h1>', compatibility_marker %}
-          {% else %}
-            {% assign rendered_content = content %}
-          {% endif %}
-
-          <section class="main-section">
-            <article>
-              {{ rendered_content }}
-            </article>
-            {% include sidebar.html %}
-          </section>
+          {%- unless page.body_class contains 'no-edit' -%}
+          <footer class="page-foot">
+            <a href="#main" class="to-top">{% include icon.html name='arrowUp' class='i-sm' %}Back to top</a>
+            <a id="edit-page" href="{{ site.github.repository_url }}/edit/master/{{ page.path }}" target="_blank" rel="noopener">{% include icon.html name='github' class='i-sm' %}Edit this page</a>
+          </footer>
+          {%- endunless -%}
         </main>
 
-        {% include footer.html %}
+        {%- unless page.toc == false -%}
+        <aside class="toc" aria-label="On this page" hidden>
+          <div class="side-title">On this page</div>
+          <ul></ul>
+          {%- unless page.body_class contains 'no-edit' -%}
+          <div class="toc-extra">
+            <a href="{{ site.github.repository_url }}/edit/master/{{ page.path }}" target="_blank" rel="noopener">{% include icon.html name='pencil' class='i-sm' %}Edit this page</a>
+            <a href="#main">{% include icon.html name='arrowUp' class='i-sm' %}Back to top</a>
+          </div>
+          {%- endunless -%}
+        </aside>
+        {%- endunless -%}
       </div>
-    <!-- </div> -->
+    {%- endif -%}
 
-    <a id="edit-page"
-      href="{{site.github.repository_url}}/edit/master/{{page.path}}"
-      class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast"
-      target="_blank"
-    >Edit this Page</a>
+    {% include footer.html %}
 
-    <script src="{{ "/assets/all.js?v=16" | prepend: site.baseurl }}" async defer></script>
+    <script src="{{ "/assets/all.js?v=18" | prepend: site.baseurl }}" defer></script>
   </body>
 </html>

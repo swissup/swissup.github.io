@@ -11,6 +11,11 @@ repository: swissup/swissup.github.io
 permalink: pretty
 
 safe: true
+
+plugins:
+  - jekyll-include-cache
+whitelist:
+  - jekyll-include-cache
 lsi: false
 
 markdown: kramdown
@@ -25,6 +30,7 @@ exclude:
   - css/syntax.scss
   - js/app.js
   - node_modules
+  - design-prototype
 
 github:
   repository_url: https://github.com/swissup/swissup.github.io

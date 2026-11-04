@@ -1,18 +1,76 @@
-.mdl-layout__header {
-    border-bottom: 1px solid #eaeaea;
-    display: flex;
+.progress {
+    position: fixed; top: 0; left: 0; z-index: 60;
+    height: 2px; width: 0; background: var(--accent);
+    transition: width .1s linear;
 }
-.mdl-layout__header-row {
-    padding: 0;
-    height: 80px;
+
+.site-header {
+    position: sticky; top: 0; z-index: 50;
+    height: var(--header-h);
+    background: color-mix(in srgb, var(--bg) 85%, transparent);
+    backdrop-filter: saturate(160%) blur(12px);
+    -webkit-backdrop-filter: saturate(160%) blur(12px);
+    border-bottom: 1px solid var(--border);
+
+    .container {
+        max-width: 1320px;
+        height: 100%;
+        display: flex; align-items: center; gap: 16px;
+    }
 }
-@media (max-width: 600px) {
-    .mdl-layout__header-row {
-        display: block;
-        height: auto;
-        text-align: center;
+
+.brand {
+    display: inline-flex; align-items: center; gap: 10px;
+    color: var(--text); font-weight: 600;
+    &:hover { color: var(--text); }
+    img { display: block; width: 164px; height: auto; }
+}
+.brand-tag {
+    padding: 1px 8px; border-radius: 999px;
+    background: var(--bg-muted); color: var(--text-2);
+    font-size: 12.5px; font-weight: 500;
+}
+// The logo has dark text: flip lightness in dark mode, keep hue
+@mixin logo-dark { filter: invert(1) hue-rotate(180deg) saturate(.75) brightness(.95); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .brand img { @include logo-dark; } }
+:root[data-theme="dark"] .brand img { @include logo-dark; }
+
+.nav-main {
+    display: flex; gap: 2px; margin-left: 8px;
+    a {
+        color: var(--text-2); font-size: 14px; font-weight: 500;
+        padding: 6px 10px; border-radius: var(--radius-sm);
+        transition: color .15s, background .15s;
+        &:hover { color: var(--text); background: var(--bg-muted); }
+        &.active { color: var(--text); }
     }
-    .mdl-layout__header-row .mdl-layout-title {
-        margin: 20px 0 10px;
-    }
+}
+.header-spacer { flex: 1; }
+
+.icon-btn {
+    width: 36px; height: 36px; flex: none;
+    display: grid; place-items: center;
+    border: 0; border-radius: 8px; background: transparent;
+    color: var(--text-2); cursor: pointer;
+    transition: background .15s, color .15s;
+    &:hover { background: var(--bg-muted); color: var(--text); }
+    .i-sun { display: none; }
+}
+@mixin sun-icon { .icon-btn .i-sun { display: block; } .icon-btn .i-moon { display: none; } }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { @include sun-icon; } }
+:root[data-theme="dark"] { @include sun-icon; }
+
+.menu-btn { display: none; }
+.menu-btn[hidden] { display: none !important; }
+
+@media (max-width: 1040px) {
+    .nav-main { display: none; }
+}
+@media (max-width: $bp-nav) {
+    .menu-btn { display: grid; }
+}
+@media (max-width: 560px) {
+    .site-header .container { gap: 6px; }
+    .gh-link, .brand-tag { display: none; }
+    .brand img { width: 130px; }
 }

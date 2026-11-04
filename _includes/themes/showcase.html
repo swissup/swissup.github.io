@@ -1,0 +1,88 @@
+{%- comment -%}
+  Magento 2 themes showcase (/m2/themes/). Facts come from _data/argento.yml,
+  _data/themes.yml and the themes' changelogs.
+{%- endcomment -%}
+{%- assign a_breeze = site.data.argento.breeze -%}
+{%- assign a_luma = site.data.argento.m2 -%}
+{%- assign a_hyva = site.data.argento.hyva -%}
+{%- assign shots = '/images/site/homepage/argento/' -%}
+
+<section class="th-section">
+  <div class="th-head reveal">
+    <h2 id="frontends">Choose your frontend</h2>
+    <p>The same Argento designs come in three editions. Each has its own documentation.</p>
+  </div>
+  <div class="th-editions">
+    {%- include latest-version.html url='/m2/argento-breeze/changelog/' -%}
+    <a class="th-edition featured reveal" href="{{ a_breeze.url | prepend: site.baseurl }}">
+      <div class="th-shot"><img src="{{ shots | append: 'breeze-business.webp' | prepend: site.baseurl }}" alt="Argento Breeze Business design" loading="lazy"></div>
+      <div class="th-body">
+        <div class="th-tags"><span class="badge badge-breeze">Breeze</span><span class="badge badge-accent">Recommended</span></div>
+        <h3>Argento Breeze</h3>
+        <p>Argento designs on Breeze, the performant Magento 2 frontend by SwissUpLabs.</p>
+        <ul class="th-meta">
+          <li>{% include icon.html name='palette' class='i-sm' %}{{ a_breeze.themes.size }} designs</li>
+          <li>{% include icon.html name='package' class='i-sm' %}{{ a_breeze.extensions.size }} modules</li>
+          {%- if latest_version != '' -%}<li>{% include icon.html name='clock' class='i-sm' %}v{{ latest_version }}</li>{%- endif -%}
+        </ul>
+        <span class="link-arrow">Open docs {% include icon.html name='arrowRight' class='i-sm' %}</span>
+      </div>
+    </a>
+    {%- include latest-version.html url='/m2/argento/changelog/' -%}
+    <a class="th-edition reveal" href="{{ a_luma.url | prepend: site.baseurl }}">
+      <div class="th-shot"><img src="{{ '/images/site/themes/luma-luxury.webp' | prepend: site.baseurl }}" alt="Argento Luxury design" loading="lazy"></div>
+      <div class="th-body">
+        <div class="th-tags"><span class="badge badge-luma">Luma</span></div>
+        <h3>Argento</h3>
+        <p>The classic Luma-based edition with the widest choice of designs.</p>
+        <ul class="th-meta">
+          <li>{% include icon.html name='palette' class='i-sm' %}{{ a_luma.themes.size }} designs</li>
+          <li>{% include icon.html name='package' class='i-sm' %}{{ a_luma.extensions.size }} modules</li>
+          {%- if latest_version != '' -%}<li>{% include icon.html name='clock' class='i-sm' %}v{{ latest_version }}</li>{%- endif -%}
+        </ul>
+        <span class="link-arrow">Open docs {% include icon.html name='arrowRight' class='i-sm' %}</span>
+      </div>
+    </a>
+    {%- include latest-version.html url='/m2/argento-hyva/changelog/' -%}
+    <a class="th-edition reveal" href="{{ a_hyva.url | prepend: site.baseurl }}">
+      <div class="th-shot"><img src="{{ shots | append: 'breeze-chic.webp' | prepend: site.baseurl }}" alt="Argento Chic design" loading="lazy"></div>
+      <div class="th-body">
+        <div class="th-tags"><span class="badge badge-hyva">Hyvä</span></div>
+        <h3>Argento Hyvä</h3>
+        <p>Argento designs rebuilt for stores that run on the Hyvä frontend.</p>
+        <ul class="th-meta">
+          <li>{% include icon.html name='package' class='i-sm' %}{{ a_hyva.extensions.size }} modules</li>
+          {%- if latest_version != '' -%}<li>{% include icon.html name='clock' class='i-sm' %}v{{ latest_version }}</li>{%- endif -%}
+        </ul>
+        <span class="link-arrow">Open docs {% include icon.html name='arrowRight' class='i-sm' %}</span>
+      </div>
+    </a>
+  </div>
+</section>
+
+{%- assign absolute = site.data.themes.absolute -%}
+{%- if absolute.urls.m2 -%}
+{%- include latest-version.html url='/m2/themes/absolute/changelog/' -%}
+<section class="th-section">
+  <a class="th-absolute reveal" href="{{ absolute.urls.m2 | prepend: site.baseurl }}">
+    <div class="th-shot"><img src="{{ '/images/site/themes/absolute.webp' | prepend: site.baseurl }}" alt="Absolute theme homepage" loading="lazy"></div>
+    <div class="th-body">
+      <div class="th-tags"><span class="badge badge-ok">Free</span>{% if latest_version != '' %}<span class="badge">v{{ latest_version }}</span>{% endif %}</div>
+      <h3>{{ absolute.title }}</h3>
+      <p>A free responsive Magento 2 theme with its own theme editor — a simple way to get a clean storefront.</p>
+      <span class="link-arrow">Open docs {% include icon.html name='arrowRight' class='i-sm' %}</span>
+    </div>
+  </a>
+</section>
+{%- endif -%}
+
+<section class="th-cta reveal">
+  <div>
+    <h2>Ready to launch your store?</h2>
+    <p>Get Argento at argentotheme.com, then follow the installation guide.</p>
+  </div>
+  <div class="actions">
+    <a class="btn btn-primary btn-lg" href="https://argentotheme.com/" target="_blank" rel="noopener">Get Argento{% include icon.html name='external' class='i-sm' %}</a>
+    <a class="btn btn-lg" href="{{ '/m2/argento-breeze/installation/' | prepend: site.baseurl }}">{% include icon.html name='download' class='i-sm' %}Installation guide</a>
+  </div>
+</section>

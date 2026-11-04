@@ -1,0 +1,14 @@
+{%- comment -%}
+  Sets `nav_label`: a page title without the section name at its start,
+  e.g. "Ajaxpro installation" -> "Installation". Params: title, prefix.
+{%- endcomment -%}
+{%- assign nav_label = include.title | strip -%}
+{%- assign nav_prefix = include.prefix | downcase -%}
+{%- assign nav_head = nav_label | slice: 0, nav_prefix.size | downcase -%}
+{%- if nav_prefix != '' and nav_head == nav_prefix and nav_label.size > nav_prefix.size -%}
+  {%- assign nav_label = nav_label | slice: nav_prefix.size, 300 | strip -%}
+  {%- assign nav_c = nav_label | slice: 0 -%}
+  {%- if nav_c == '-' or nav_c == ':' or nav_c == '–' or nav_c == '—' -%}{%- assign nav_label = nav_label | slice: 1, 300 | strip -%}{%- endif -%}
+{%- endif -%}
+{%- assign nav_first = nav_label | slice: 0 | upcase -%}
+{%- assign nav_label = nav_label | slice: 1, 300 | prepend: nav_first -%}

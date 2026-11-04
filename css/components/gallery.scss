@@ -1,45 +1,70 @@
+// _includes/gallery.html (PhotoSwipe). Column classes: phone-up-N, tablet-up-N, desktop-up-N
 .gallery {
+    display: flex; flex-wrap: wrap; gap: 12px;
+    margin: 20px 0;
+
+    figure {
+        margin: 0;
+        flex: 0 0 auto;
+        width: 100%;
+    }
     @for $i from 1 through 6 {
-        &.phone-up-#{$i} {
-            figure {
-                width: 100% / $i;
-            }
-        }
+        &.phone-up-#{$i} figure { width: calc((100% - #{($i - 1) * 12}px) / #{$i}); }
     }
     @media (min-width: 481px) {
         @for $i from 1 through 6 {
-            &.tablet-up-#{$i} {
-                figure {
-                    width: 100% / $i;
-                }
-            }
+            &.tablet-up-#{$i} figure { width: calc((100% - #{($i - 1) * 12}px) / #{$i}); }
         }
     }
     @media (min-width: 992px) {
         @for $i from 1 through 6 {
-            &.desktop-up-#{$i} {
-                figure {
-                    width: 100% / $i;
-                }
-            }
+            &.desktop-up-#{$i} figure { width: calc((100% - #{($i - 1) * 12}px) / #{$i}); }
         }
     }
-    figure {
-        box-sizing: border-box;
-        display: inline-block;
-        vertical-align: top;
-        margin: 0;
-        margin-left: -4px; /* fighting gap between inline-block elements */
-        padding: 5px;
+    a {
+        display: block; overflow: hidden;
+        border: 1px solid var(--border); border-radius: var(--radius);
+        background: var(--bg-subtle);
+        cursor: zoom-in;
     }
-    figcaption {
-        display: none;
+    img {
+        display: block; width: 100%; margin: 0;
+        transition: transform .5s var(--ease);
     }
+    a:hover img { transform: scale(1.03); }
+    figcaption { margin-top: 8px; font-size: 12.5px; color: var(--text-3); white-space: normal; }
 
-    // single row items with native srollbar
+    // Single row with native horizontal scroll
     &.scroll {
-        white-space: nowrap;
-        overflow: auto;
-        margin-bottom: 15px;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        padding-bottom: 6px;
+        scroll-snap-type: x mandatory;
+        scrollbar-width: thin;
+        figure { scroll-snap-align: start; min-width: 240px; }
     }
+}
+
+// PhotoSwipe on top of the sticky header
+.pswp { z-index: 1000; }
+
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .prose img:not([src$=".svg"]) { filter: brightness(.9); } }
+:root[data-theme="dark"] .prose img:not([src$=".svg"]) { filter: brightness(.9); }
+
+// Zoom for single content images (js/docs.js)
+.zoom-box {
+    position: fixed; inset: 0; z-index: 1000;
+    display: grid; place-items: center;
+    padding: 32px;
+    background: rgba(10, 10, 14, .8);
+    opacity: 0; pointer-events: none;
+    transition: opacity .25s;
+    cursor: zoom-out;
+    img {
+        max-width: 100%; max-height: 90vh;
+        border-radius: 10px;
+        transform: scale(.97);
+        transition: transform .3s var(--ease);
+    }
+    &.open { opacity: 1; pointer-events: auto; img { transform: none; } }
 }

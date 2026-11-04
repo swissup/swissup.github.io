@@ -1,36 +1,62 @@
-.btn-clip {
-    position: absolute;
-    right: 25px;
-    top: 0;
+.btn {
+    display: inline-flex; align-items: center; gap: 8px;
+    padding: 8px 14px;
+    border: 1px solid var(--border); border-radius: 8px;
+    background: var(--surface); color: var(--text);
+    font: inherit; font-size: 14px; font-weight: 500; line-height: 1.4;
+    text-decoration: none;
     cursor: pointer;
-    outline: none;
-    color: rgba(0,0,0,.5);
-    font-size: 13px;
-    background-color: rgba(0,0,0,.1);
-    border: none;
-    border-bottom-left-radius: 5px;
-    border-bottom-right-radius: 5px;
-    padding: 3px 10px;
-    min-width: 60px;
-    overflow: visible;
-    line-height: normal;
+    transition: border-color .15s, background .15s, color .15s, transform .15s var(--ease);
+    &:hover { border-color: var(--border-strong); background: var(--bg-subtle); color: var(--text); }
+    &:active { transform: translateY(1px); }
 }
-.btn-clip:active {
-    box-shadow: 0 0 8px rgba(0,0,0,.2) inset;
+.btn-primary {
+    background: var(--accent-soft);
+    border-color: color-mix(in srgb, var(--accent) 22%, transparent);
+    color: var(--accent);
+    &:hover { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
 }
 
-#edit-page {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    z-index: 900;
-    margin: 0 40px 40px 0;
+.badge {
+    display: inline-flex; align-items: center; gap: 5px;
+    padding: 2px 8px; border-radius: 999px;
+    background: var(--bg-muted); color: var(--text-2);
+    font-size: 12px; font-weight: 500; line-height: 18px; white-space: nowrap;
+    .dot { width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
 }
-.no-edit #edit-page {
-    display: none;
-}
-@media (max-width: 480px) {
-    #edit-page {
-        display: none;
+a.badge:hover { filter: brightness(.97); }
+.badge-accent { background: var(--accent-soft); color: var(--accent); }
+.badge-info { background: var(--info-soft); color: var(--info); }
+.badge-ok { background: var(--ok-soft); color: var(--ok); }
+.badge-warn { background: var(--warn-soft); color: var(--warn); }
+.badge-danger { background: var(--danger-soft); color: var(--danger); }
+.badge-breeze { background: var(--breeze-soft); color: var(--breeze); }
+.badge-hyva { background: var(--hyva-soft); color: var(--hyva); }
+.badge-luma { background: var(--luma-soft); color: var(--luma); }
+
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip {
+    padding: 6px 12px; border-radius: 999px;
+    border: 1px solid var(--border); background: var(--surface); color: var(--text-2);
+    font: inherit; font-size: 13px; font-weight: 500; line-height: 1.4;
+    cursor: pointer; transition: all .15s;
+    &:hover { color: var(--text); border-color: var(--border-strong); }
+    &.active {
+        background: var(--accent-soft); color: var(--accent);
+        border-color: color-mix(in srgb, var(--accent) 25%, transparent);
     }
+    .count { opacity: .55; margin-left: 4px; }
+}
+
+.ico {
+    width: 36px; height: 36px; flex: none;
+    display: grid; place-items: center;
+    border-radius: 9px; background: var(--bg-muted); color: var(--text-2);
+}
+.ico-accent { background: var(--accent-soft); color: var(--accent); }
+
+.link-arrow {
+    display: inline-flex; align-items: center; gap: 4px; font-size: 14px; font-weight: 500;
+    svg { transition: transform .2s var(--ease); }
+    &:hover svg { transform: translateX(3px); }
 }

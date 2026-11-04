@@ -1,0 +1,29 @@
+{%- comment -%}
+  Badges and quick actions under the H1 of a module's main page.
+  Params: extension (entry from _data/extensions.yml)
+{%- endcomment -%}
+{%- assign ext = include.extension -%}
+{%- assign base = page.url -%}
+{%- assign changelog_url = base | append: 'changelog/' -%}
+{%- assign install_url = base | append: 'installation/' -%}
+{%- assign changelog_page = site.pages | where: "url", changelog_url | first -%}
+{%- assign install_page = site.pages | where: "url", install_url | first -%}
+{%- assign version = '' -%}
+{%- if changelog_page -%}
+  {%- assign version = changelog_page.content | split: 'Version ' | slice: 1, 1 | first | split: '<' | first | newline_to_br | split: '<br' | first | strip -%}
+  {%- if version.size > 12 -%}{%- assign version = '' -%}{%- endif -%}
+{%- endif -%}
+<div class="page-meta">
+  {%- if ext.short_description -%}<p class="lead">{{ ext.short_description | strip }}</p>{%- endif -%}
+  <div class="badges">
+    {%- if version != '' -%}<a class="badge badge-accent" href="{{ changelog_url | prepend: site.baseurl }}"><span class="dot"></span>v{{ version }}</a>{%- endif -%}
+    <span class="badge">Magento 2</span>
+    {%- if ext.category -%}<span class="badge">{{ ext.category }}</span>{%- endif -%}
+    {%- if ext.hyva == true -%}<span class="badge badge-hyva">Hyvä</span>{%- endif -%}
+  </div>
+  <div class="page-actions">
+    {%- if install_page -%}<a class="btn btn-primary" href="{{ install_url | prepend: site.baseurl }}">{% include icon.html name='download' class='i-sm' %}Install</a>{%- endif -%}
+    {%- if changelog_page -%}<a class="btn" href="{{ changelog_url | prepend: site.baseurl }}">{% include icon.html name='clock' class='i-sm' %}Changelog</a>{%- endif -%}
+    {%- if ext.urls.m1 -%}<a class="btn" href="{{ ext.urls.m1 | prepend: site.baseurl }}">{% include icon.html name='book' class='i-sm' %}Magento 1 docs</a>{%- endif -%}
+  </div>
+</div>

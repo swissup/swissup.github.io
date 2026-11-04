@@ -8,14 +8,19 @@ argento:
     It was created right from the ground based on the best ecommerce stores
     practices and according to Magento developers guidelines.</p>
   images:
-    - title: Argento desktop screenshot
-      src: /images/site/homepage/argento/desktop.png
-    - title: Argento tablet and phone screenshot
-      src: /images/site/homepage/argento/tablet_and_phone.png
+    - title: Argento Breeze Business
+      src: /images/site/homepage/argento/breeze-business.webp
+    - title: Argento Breeze Chic
+      src: /images/site/homepage/argento/breeze-chic.webp
+    - title: Argento Breeze Force
+      src: /images/site/homepage/argento/breeze-force.webp
+    - title: Argento Breeze Stripes
+      src: /images/site/homepage/argento/breeze-stripes.webp
   urls:
     m1: /m1/argento/
     m2: /m2/argento/
     breeze: /m2/argento-breeze/
+    hyva: /m2/argento-hyva/
     sw: /shopware/argento/
 
 extensions:

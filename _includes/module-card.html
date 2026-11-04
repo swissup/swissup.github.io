@@ -1,0 +1,18 @@
+{%- comment -%} Params: extension, url, compact (true|false) {%- endcomment -%}
+{%- assign ext = include.extension -%}
+<a class="card{% unless include.compact %} reveal{% endunless %}" href="{{ include.url | prepend: site.baseurl }}" data-category="{{ ext.category }}"{% if ext.hyva == true %} data-hyva{% endif %}>
+  <div class="card-top">
+    <span class="ico">{% include icon.html name=ext.icon %}</span>
+    {%- if include.compact -%}
+      <h3>{{ ext.title }}</h3>
+      {%- if ext.hyva == true -%}<span class="badge badge-hyva">Hyvä</span>{%- endif -%}
+    {%- else -%}
+      <div><h3>{{ ext.title }}</h3><div class="meta">{{ ext.category }}</div></div>
+    {%- endif -%}
+  </div>
+  {%- unless include.compact -%}
+    {%- if ext.short_description -%}<p>{{ ext.short_description | strip }}</p>{%- endif -%}
+    {%- if ext.hyva == true -%}<div class="badges"><span class="badge badge-hyva">Hyvä compatible</span></div>{%- endif -%}
+    <span class="go">{% include icon.html name='arrowRight' class='i-sm' %}</span>
+  {%- endunless -%}
+</a>

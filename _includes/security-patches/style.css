@@ -23,12 +23,27 @@
 }
 .sp-filters select {
     font: inherit;
-    padding: 6px 8px;
+    font-size: 14px;
+    padding: 6px 10px;
     min-width: 160px;
+    color: var(--text);
+    background: var(--surface);
+    border: 1px solid var(--border-strong);
+    border-radius: 8px;
+}
+.sp-filters select:focus {
+    outline: 0;
+    border-color: var(--accent);
+    box-shadow: 0 0 0 3px var(--accent-soft);
+}
+.sp-filters input[type="radio"] {
+    accent-color: var(--accent);
 }
 .sp-notice {
-    background: #fff8e1;
-    border-left: 4px solid #ffb300;
+    color: var(--text);
+    background: var(--warn-soft);
+    border: 1px solid color-mix(in srgb, var(--warn) 22%, transparent);
+    border-radius: var(--radius);
     padding: 8px 16px;
     margin: 0 0 16px;
 }
@@ -56,8 +71,8 @@
 .sp-table code {
     white-space: nowrap;
 }
-.sp-table tr:target {
-    background: #e3f2fd;
+.sp-table tr:target td {
+    background: var(--info-soft);
 }
 .sp-nowrap {
     white-space: nowrap;
@@ -74,6 +89,8 @@
 .sp-table details {
     margin: 0;
     padding: 0;
+    border: 0;
+    border-radius: 0;
 }
 .sp-table summary {
     cursor: pointer;
@@ -84,22 +101,31 @@
     margin: 0 0 4px;
 }
 .sp-missing {
-    color: #c62828;
+    color: var(--danger);
 }
 .sp-copy {
     font: inherit;
     font-size: 12px;
+    line-height: 1.5;
+    white-space: nowrap;
     margin-top: 4px;
     padding: 2px 8px;
     cursor: pointer;
-    background: #fff;
-    border: 1px solid #bbb;
-    border-radius: 3px;
+    color: var(--text-2);
+    background: var(--surface);
+    border: 1px solid var(--border-strong);
+    border-radius: 6px;
+    transition: border-color .15s, background .15s, color .15s;
+}
+.sp-copy:hover {
+    color: var(--text);
+    background: var(--bg-muted);
 }
 .sp-toolbar .sp-copy {
     font-size: 13px;
     margin: 0;
-    padding: 4px 12px;
+    padding: 6px 12px;
+    border-radius: 8px;
 }
 .sp-lock {
     font-size: 0.9em;
@@ -109,6 +135,6 @@
 }
 .sp-meta {
     font-size: 13px;
-    color: #757575;
+    color: var(--text-3);
     margin-top: 32px;
 }
