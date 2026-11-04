@@ -29,34 +29,60 @@
     return 'improved';
   }
 
-  // Collect releases: each h3 with "version"-like text starts one
-  var heads = Array.prototype.filter.call(article.querySelectorAll('h3'), function (h) {
-    return /\d+\.\d+/.test(h.textContent);
+  // Collect releases: an h2 or h3 like "Version 1.2.3", "1.2.3" or "v1.2.3" starts one
+  // (older entries in some changelogs use h2, newer ones h3)
+  var heads = Array.prototype.filter.call(article.querySelectorAll('h2, h3'), function (h) {
+    return /^\s*(version\s*)?v?\d+\.\d+/i.test(h.textContent);
   });
-  if (heads.length < 2) {
+  if (!heads.length) {
     return;
   }
 
-  var timeline = document.createElement('div');
-  timeline.className = 'timeline';
-  heads[0].parentNode.insertBefore(timeline, heads[0]);
+  // One timeline per section: a changelog may hold several products under their own h2
+  var timelines = [];
+  var timeline = null;
 
   var counts = {};
   var lastYear = null;
   var releases = [];
 
+  // Badge + text column for one change. Any nested lists stay inside the text column.
+  function tagItem(li) {
+    if (li.tagName !== 'LI') { return; }
+    var type = classify(li.textContent);
+    counts[type] = (counts[type] || 0) + 1;
+    li.classList.add('cl-item');
+    li.setAttribute('data-type', type);
+    var text = document.createElement('div');
+    text.className = 'cl-text';
+    while (li.firstChild) {
+      text.appendChild(li.firstChild);
+    }
+    li.innerHTML = '<span class="badge ' + TYPES[type].cls + '">' + TYPES[type].label + '</span>';
+    li.appendChild(text);
+  }
+
   heads.forEach(function (h, index) {
+    if (!timeline || h.previousElementSibling !== timeline) {
+      timeline = document.createElement('div');
+      timeline.className = 'timeline';
+      h.parentNode.insertBefore(timeline, h);
+      timelines.push(timeline);
+      lastYear = null;
+    }
     var version = h.textContent.replace(/^\s*version\s*/i, '').trim();
     var nodes = [];
     var next = h.nextElementSibling;
-    while (next && next !== heads[index + 1] && !/^H[12]$/.test(next.tagName)) {
+    while (next && heads.indexOf(next) === -1 && !/^H[12]$/.test(next.tagName)) {
       nodes.push(next);
       next = next.nextElementSibling;
     }
 
     var date = '';
     if (nodes[0] && nodes[0].tagName === 'BLOCKQUOTE') {
-      date = nodes.shift().textContent.trim();
+      var dateEl = nodes.shift();
+      date = dateEl.textContent.trim();
+      dateEl.remove();
     }
     var year = (date.match(/(19|20)\d\d/) || [])[0];
     if (year && year !== lastYear) {
@@ -68,28 +94,44 @@
       lastYear = year;
     }
 
+    var isLatest = !timeline.querySelector('.release');
     var rel = document.createElement('section');
-    rel.className = 'release' + (index === 0 ? ' latest' : '');
+    rel.className = 'release' + (isLatest ? ' latest' : '');
     rel.id = h.id;
     rel.innerHTML = '<div class="release-meta"><div class="ver"><a href="#' + h.id + '">' + version.replace(/</g, '&lt;') + '</a></div>' +
       (date ? '<time>' + date.replace(/</g, '&lt;') + '</time>' : '') +
-      (index === 0 ? '<span class="badge badge-accent">Latest</span>' : '') + '</div>';
+      (isLatest ? '<span class="badge badge-accent">Latest</span>' : '') + '</div>';
     var bodyEl = document.createElement('div');
     bodyEl.className = 'release-body';
     nodes.forEach(function (n) { bodyEl.appendChild(n); });
     rel.appendChild(bodyEl);
 
-    // Tag top-level list items
-    Array.prototype.forEach.call(bodyEl.querySelectorAll(':scope > ul > li'), function (li) {
-      var type = classify(li.textContent);
-      counts[type] = (counts[type] || 0) + 1;
-      li.setAttribute('data-type', type);
-      var text = document.createElement('span');
-      while (li.firstChild) {
-        text.appendChild(li.firstChild);
+    // "Extensions Updates" (theme changelogs): fold the per-module list into <details>
+    Array.prototype.forEach.call(bodyEl.querySelectorAll(':scope > p'), function (p) {
+      var list = p.nextElementSibling;
+      if (!list || list.tagName !== 'UL' || !/^\s*(extensions?|modules?)\b.*\bupdates?\b|^\s*bundled\b/i.test(p.textContent)) {
+        return;
       }
-      li.innerHTML = '<span class="badge ' + TYPES[type].cls + '">' + TYPES[type].label + '</span>';
-      li.appendChild(text);
+      var details = document.createElement('details');
+      details.className = 'cl-ext';
+      var count = list.querySelectorAll(':scope > li').length;
+      details.innerHTML = '<summary><span>' + p.textContent.trim().replace(/</g, '&lt;') + '</span>' +
+        '<span class="count">' + count + (count === 1 ? ' module' : ' modules') + '</span></summary>';
+      p.parentNode.insertBefore(details, p);
+      details.appendChild(list);
+      p.remove();
+    });
+
+    // Tag changes. A top-level item that holds its own list (e.g. "Business Theme" with
+    // its fixes) becomes a group: its title stays plain, the nested items get the tags.
+    Array.prototype.forEach.call(bodyEl.querySelectorAll(':scope > ul > li'), function (li) {
+      var nested = li.querySelector(':scope > ul, :scope > ol');
+      if (nested && nested.children.length) {
+        li.classList.add('cl-group');
+        Array.prototype.forEach.call(nested.children, tagItem);
+      } else {
+        tagItem(li);
+      }
     });
 
     h.remove();
@@ -106,12 +148,13 @@
     }).join('') + '</div>' +
     '<label class="mini-search"><svg class="i i-sm" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>' +
     '<input type="search" placeholder="Filter changes…" aria-label="Filter changes"></label>';
-  timeline.parentNode.insertBefore(toolbar, timeline);
+  timelines[0].parentNode.insertBefore(toolbar, timelines[0]);
+  var lastTimeline = timelines[timelines.length - 1];
 
   var empty = document.createElement('p');
   empty.className = 'empty';
   empty.textContent = 'No changes match this filter.';
-  timeline.parentNode.insertBefore(empty, timeline.nextSibling);
+  lastTimeline.parentNode.insertBefore(empty, lastTimeline.nextSibling);
 
   var PAGE = 12;
   var limit = window.location.hash ? releases.length : PAGE;
@@ -127,13 +170,25 @@
     var q = state.q.toLowerCase();
     var visible = 0;
     releases.forEach(function (rel, i) {
-      var items = rel.querySelectorAll('.release-body > ul > li');
+      var items = Array.prototype.filter.call(rel.querySelectorAll('.cl-item'), function (li) {
+        return !li.closest('.cl-ext');
+      });
       var any = !items.length && !filtering;
+      // Folded module updates: match the search text, open the block on a hit
+      Array.prototype.forEach.call(rel.querySelectorAll('.cl-ext'), function (d) {
+        var hit = state.type === 'all' && q && d.textContent.toLowerCase().indexOf(q) > -1;
+        if (hit) { d.open = true; any = true; }
+        d.hidden = filtering && !hit;
+      });
       Array.prototype.forEach.call(items, function (li) {
         var ok = (state.type === 'all' || li.getAttribute('data-type') === state.type) &&
           (!q || li.textContent.toLowerCase().indexOf(q) > -1);
         li.classList.toggle('is-hidden', !ok);
         any = any || ok;
+      });
+      // Hide a group when none of its changes match
+      Array.prototype.forEach.call(rel.querySelectorAll('.cl-group'), function (g) {
+        g.classList.toggle('is-hidden', !g.querySelector('.cl-item:not(.is-hidden)'));
       });
       var show = any && (filtering || i < limit);
       rel.classList.toggle('is-hidden', !show);
@@ -141,7 +196,7 @@
         visible++;
       }
     });
-    Array.prototype.forEach.call(timeline.querySelectorAll('.year-sep'), function (sep) {
+    Array.prototype.forEach.call(document.querySelectorAll('.timeline .year-sep'), function (sep) {
       var n = sep.nextElementSibling, has = false;
       while (n && !n.classList.contains('year-sep')) {
         if (!n.classList.contains('is-hidden')) { has = true; }
@@ -173,4 +228,12 @@
   });
 
   apply();
+
+  // Releases were rebuilt after load: scroll to the version from the URL hash again
+  if (window.location.hash) {
+    var target = document.getElementById(decodeURIComponent(window.location.hash.substring(1)));
+    if (target) {
+      target.scrollIntoView();
+    }
+  }
 })();

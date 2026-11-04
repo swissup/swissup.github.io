@@ -1,4 +1,5 @@
 ---
+layout: default
 title: Improved Admin Security Changelog
 description: magento security module changelog
 keywords: " magento security extension, admin security extension, magento
