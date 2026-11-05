@@ -8,6 +8,17 @@ category: Breeze AI
 
 # Changelog
 
+### Version 1.10.1
+
+> November 5, 2026
+
+ -  **Banner images come from the design, never from a made-up address.** A section build could fill banner pictures with addresses the model invented (`example.com/image1.png`), and the page showed broken images with no warning. Images now arrive only as a region of the reference design, which is cropped; any address that is not a stored crop, the placeholder or one written word for word in your brief is dropped, the image is filled like any other, and the build notes which section it was. Crops are also aimed at the card's own picture, so a product card no longer gets a crop of its flat background.
+ -  **Cards side by side inside a tab panel are laid out as a grid.** When the model stacked a tab's cards one under another, the build now reads where they sit in the design and puts them into the matching Grid or Columns layout of that tab, with a warning naming the section. Cards crammed into a single cell of a layout are spread out the same way.
+ -  **Picture cards are built as banners, not as a product grid.** A row of cards with a photo, a title and a line of copy but no price was sometimes built as a Products block listing random catalog products. The layout of a tab panel is now asked for before its blocks, and Breeze Content Builder 1.2.11 tells the model that Products shows live catalog items with price and cart button.
+ -  **Text under a stacked banner is readable.** A banner whose copy sits below its picture kept Content Builder's default white text on a light section. Its text colour is now set to dark or light, whichever contrasts better with the section colour measured on the design.
+ -  The model now sees what each option of a select draws, e.g. `Overlay (text over image)` or `Stack (text below/above image)`, not only its value.
+ -  Works best with Breeze Content Builder 1.2.11.
+
 ### Version 1.10.0
 
 > November 2, 2026
