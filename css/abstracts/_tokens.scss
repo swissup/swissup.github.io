@@ -1,17 +1,18 @@
 // Design tokens. Brand colors come from swissuplabs.com.
 @mixin dark-tokens {
     // Muted accents: same hues as the light theme, lower saturation and brightness
-    --accent: #d77a7d; --accent-hover: #e08f91; --accent-soft: #261c1e; --accent-ink: #ffffff;
-    --hyva: #959dd0; --hyva-soft: #1e2030;
-    --breeze: #8aabc8; --breeze-soft: #1a2129;
-    --luma: #cf918b; --luma-soft: #271d1c;
-    --info: #92aed0; --info-soft: #1a2130;
+    --accent: #df888b; --accent-hover: #e89c9e; --accent-soft: #33221f; --accent-ink: #ffffff;
+    --hyva: #aeb6ee; --hyva-soft: #272c4c;
+    --breeze: #a3c4e2; --breeze-soft: #1f2e3d;
+    --luma: #e6a7a0; --luma-soft: #372422;
+    --info: #a9c2e2; --info-soft: #202b3f;
     --bg: #17171b; --bg-subtle: #1c1c21; --bg-muted: #232329; --surface: #1d1d22;
     --border: #2a2a31; --border-strong: #36363e;
     --text: #dcdce2; --text-2: #a2a2ad; --text-3: #75757f;
-    --ok: #7bae8f; --ok-soft: #1a241e; --warn: #c7a06a; --warn-soft: #27221a;
-    --danger: #d68386; --danger-soft: #291c1d;
+    --ok: #92c9a5; --ok-soft: #1e3026; --warn: #dcb57d; --warn-soft: #342b1c;
+    --danger: #e89a9d; --danger-soft: #382325;
     --code-bg: #202026;
+    --badge-bg: #2d2d35; --badge-fg: #c4c4cc;
     --shadow-md: 0 8px 28px -10px rgba(0, 0, 0, .6);
     color-scheme: dark;
 }
@@ -43,6 +44,7 @@
     --info: #3160e2;    --info-soft: #eef2fd;
 
     --code-bg: #f6f6f8;
+    --badge-bg: var(--bg-muted); --badge-fg: var(--text-2);
     --shadow-sm: 0 1px 2px rgba(16, 16, 24, .05);
     --shadow-md: 0 6px 24px -8px rgba(16, 16, 24, .14);
 
