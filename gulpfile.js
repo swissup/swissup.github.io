@@ -40,13 +40,13 @@ function css() {
     var scss = filter('css/*.scss', {restore: true});
 
     return gulp.src(files)
-        .pipe(sourcemaps.init())
+        // .pipe(sourcemaps.init())
         .pipe(scss)
         .pipe(sass.sync().on('error', sass.logError))
         .pipe(scss.restore)
         .pipe(cleanCSS({keepSpecialComments: 0, rebase: false}))
         .pipe(concat('almost-all.css'))
-        .pipe(sourcemaps.write())
+        // .pipe(sourcemaps.write())
         .pipe(gulp.dest('assets'));
 }
 
