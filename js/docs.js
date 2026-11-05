@@ -228,7 +228,7 @@
     if (window.anchors && !body.classList.contains('no-anchors')) {
       window.anchors.options = { placement: 'right', visible: 'hover', icon: '#' };
       window.anchors.add('.prose h2, .prose h3, .prose h4, .prose h5, .prose h6');
-      window.anchors.remove('.no-anchor, .release h3');
+      window.anchors.remove('.no-anchor, .release h3, .card h3, .theme-card h3, .th-edition h3, .th-absolute h3');
     }
   }
 

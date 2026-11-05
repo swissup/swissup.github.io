@@ -78,7 +78,7 @@ svg.i {
 svg.i-sm { width: 15px; height: 15px; }
 svg.i-lg { width: 22px; height: 22px; }
 
-.container { width: 100%; max-width: 1240px; margin: 0 auto; padding: 0 24px; }
+.container { width: 100%; max-width: $page-max; margin: 0 auto; padding: 0 24px; }
 @media (max-width: $bp-phone) { .container { padding: 0 16px; } }
 
 .sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }

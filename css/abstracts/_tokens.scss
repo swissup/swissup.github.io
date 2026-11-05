@@ -60,6 +60,11 @@
 }
 :root[data-theme="dark"] { @include dark-tokens; }
 
+// One page width for header, footer, home and docs pages
+$page-max: 1320px;
+// Readable text column on documentation pages; the page footer follows it
+$prose-max: 820px;
+
 $bp-toc: 1180px;
 $bp-nav: 900px;
 $bp-phone: 640px;

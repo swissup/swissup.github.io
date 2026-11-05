@@ -3,13 +3,13 @@
     display: grid;
     grid-template-columns: 248px minmax(0, 1fr) 220px;
     gap: 48px;
-    max-width: 1320px;
+    max-width: $page-max;
     margin: 0 auto;
     padding: 0 24px;
 
-    &.no-sidebar { grid-template-columns: minmax(0, 1fr) 220px; max-width: 1180px; }
+    &.no-sidebar { grid-template-columns: minmax(0, 1fr) 220px; }
     &.no-toc { grid-template-columns: 248px minmax(0, 1fr); }
-    &.no-sidebar.no-toc { grid-template-columns: minmax(0, 1fr); max-width: 1080px; }
+    &.no-sidebar.no-toc { grid-template-columns: minmax(0, 1fr); }
 }
 @media (max-width: $bp-toc) {
     .docs { grid-template-columns: 232px minmax(0, 1fr); }
@@ -127,8 +127,8 @@
 
 /* Page footer */
 .page-foot {
+    max-width: $prose-max;  // same width as the text above it
     display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;
-    max-width: 800px;
     margin-top: 48px; padding-top: 20px;
     border-top: 1px solid var(--border);
     font-size: 13px;

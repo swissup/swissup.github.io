@@ -2,12 +2,15 @@
     {% for image in include.images %}
     <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject">
         <a href="{{ image.href | prepend: site.baseurl }}" itemprop="contentUrl" data-size="{{image.w | divided_by: 2}}x{{image.h | divided_by: 2}}">
+            {%- comment -%} Real size of the thumbnail (w/h in gallery data describe the full image) {%- endcomment -%}
+            {% assign thumb_key = image.src | split: '?' | first %}
+            {% assign thumb_size = site.data.image_sizes[thumb_key] %}
             {% if image.alt %}
                 {% assign alt = image.alt %}
             {% else %}
                 {% assign alt = image.title %}
             {% endif %}
-            <img src="{{ image.src | prepend: site.baseurl }}" itemprop="thumbnail" alt="{{ alt| escape }}"{% if image.w and image.h %} width="{{ image.w }}" height="{{ image.h }}"{% endif %} loading="lazy" />
+            <img src="{{ image.src | prepend: site.baseurl }}" itemprop="thumbnail" alt="{{ alt| escape }}"{% if thumb_size %} width="{{ thumb_size[0] }}" height="{{ thumb_size[1] }}"{% endif %} loading="lazy" />
         </a>
         <meta itemprop="width" content="{{ image.w }}">
         <meta itemprop="height" content="{{ image.h }}">

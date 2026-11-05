@@ -31,7 +31,12 @@
     font-size: 12px; font-weight: 500; line-height: 18px; white-space: nowrap;
     .dot { width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
 }
-a.badge:hover { filter: brightness(.97); }
+// Badges that are links keep their own colors on hover (the global a:hover is red)
+a.badge { text-decoration: none; }
+a.badge:hover { color: var(--text-2); filter: brightness(.97); }
+@each $name, $fg in (accent: --accent, info: --info, ok: --ok, warn: --warn, danger: --danger, breeze: --breeze, hyva: --hyva, luma: --luma) {
+    a.badge-#{$name}:hover { color: var(#{$fg}); }
+}
 .badge-accent { background: var(--accent-soft); color: var(--accent); }
 .badge-info { background: var(--info-soft); color: var(--info); }
 .badge-ok { background: var(--ok-soft); color: var(--ok); }

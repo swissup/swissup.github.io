@@ -1,7 +1,7 @@
 // Markdown content (kramdown output). Content files are not changed, so everything
 // here styles plain HTML: headings, lists, tables, blockquotes, images, code.
 .prose {
-    max-width: 820px;
+    max-width: $prose-max;
     color: var(--text-2);
     overflow-wrap: break-word;
 

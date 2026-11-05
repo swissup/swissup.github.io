@@ -61,6 +61,15 @@
 .sp-table {
     font-size: 13px;
 }
+/* Full content width; scrolls inside its own box on narrow screens */
+#sp-result {
+    overflow-x: auto;
+}
+.prose table.sp-table {
+    display: table;
+    width: 100%;
+    max-width: none;
+}
 .sp-table th {
     text-align: left;
     white-space: nowrap;

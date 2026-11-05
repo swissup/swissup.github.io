@@ -170,4 +170,4 @@
 .prose .promo-shots img { margin: 0; border: 0; border-radius: 0; cursor: default; }
 .prose .promo { margin-bottom: 40px; }
 // Catalog and tool pages use the full content width
-.no-anchors .prose { max-width: none; }
+.no-anchors .prose, .no-anchors .page-foot { max-width: none; }
