@@ -9,7 +9,7 @@
 /* Hero */
 .hero {
     position: relative;
-    padding: 72px 0 32px;
+    padding: 72px 0 24px;
     text-align: center;
     overflow: hidden;
     &::before {
@@ -43,23 +43,6 @@
     span { flex: 1; }
     &:hover { border-color: var(--accent); box-shadow: 0 0 0 4px var(--accent-soft), var(--shadow-md); }
 }
-
-.quick-links {
-    display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px;
-    margin-top: 48px; text-align: left;
-}
-.quick-link {
-    display: flex; gap: 12px; align-items: flex-start;
-    padding: 16px;
-    border: 1px solid var(--border); border-radius: var(--radius);
-    background: var(--surface); color: var(--text);
-    transition: border-color .2s, transform .2s var(--ease), box-shadow .2s;
-    &:hover { color: var(--text); border-color: var(--border-strong); transform: translateY(-2px); box-shadow: var(--shadow-md); }
-    strong { display: block; font-size: 14px; font-weight: 600; }
-    small { display: block; margin-top: 2px; color: var(--text-3); font-size: 13px; line-height: 1.45; }
-}
-@media (max-width: $bp-nav) { .quick-links { grid-template-columns: repeat(2, 1fr); } }
-@media (max-width: 480px) { .quick-links { grid-template-columns: 1fr; } }
 
 /* Module cards */
 .toolbar {

@@ -3,7 +3,6 @@ layout: default
 layout_style: home
 body_class: no-anchors no-edit
 ---
-{%- assign registry = site.data.magento_patches.registry -%}
 
 <section class="hero">
   <div class="container">
@@ -18,25 +17,6 @@ body_class: no-anchors no-edit
       <span>Search the docs…</span>
       <kbd>⌘K</kbd>
     </button>
-
-    <div class="quick-links">
-      <a class="quick-link reveal" href="https://breezefront.com/docs/installation">
-        <span class="ico ico-accent">{% include icon.html name='bolt' %}</span>
-        <span><strong>Breeze frontend</strong><small>Performant Magento 2 frontend</small></span>
-      </a>
-      <a class="quick-link reveal" href="{{ '/m2/argento-breeze/' | prepend: site.baseurl }}">
-        <span class="ico">{% include icon.html name='palette' %}</span>
-        <span><strong>Argento Breeze themes</strong><small>Designs, setup and customization</small></span>
-      </a>
-      <a class="quick-link reveal" href="{{ '/m2/extensions/firecheckout/' | prepend: site.baseurl }}">
-        <span class="ico">{% include icon.html name='zap' %}</span>
-        <span><strong>Firecheckout</strong><small>One-step checkout for Magento 2</small></span>
-      </a>
-      <a class="quick-link reveal" href="{{ '/m2/security-patches/' | prepend: site.baseurl }}">
-        <span class="ico">{% include icon.html name='shield' %}</span>
-        <span><strong>Security patches</strong><small>{{ registry.patches | size }} isolated Magento patches</small></span>
-      </a>
-    </div>
   </div>
 </section>
 
