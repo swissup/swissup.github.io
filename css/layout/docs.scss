@@ -32,7 +32,7 @@
     scrollbar-color: transparent transparent;
     &:hover { scrollbar-color: var(--border-strong) transparent; }
 }
-.side-group { display: flex; flex-direction: column; gap: 2px; margin-bottom: 22px; }  // gap: highlighted items never touch
+.side-group { display: flex; flex-direction: column; margin-bottom: 22px; }
 .side-title {
     margin-bottom: 6px; padding: 0 10px;
     font-size: 11.5px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase;
@@ -41,19 +41,23 @@
 .side-link {
     position: relative;
     display: flex; align-items: center; gap: 10px;
-    padding: 6px 10px; border-radius: var(--radius-sm);
+    // Items touch, so there is no dead zone between them (that made the hover flicker);
+    // the transparent border keeps a 2px visual gap between highlighted items.
+    padding: 5px 9px; border: 1px solid transparent; background-clip: padding-box;
+    border-radius: var(--radius-sm);
     color: var(--text-2); font-size: 14px; line-height: 1.4;
-    transition: color .15s, background .15s;
-    &:hover { color: var(--text); background: var(--bg-muted); }
-    &.active { color: var(--accent); background: var(--accent-soft); font-weight: 550; }
+    transition: color .15s;
+    // background-color, not the background shorthand: the shorthand resets background-clip
+    &:hover { color: var(--text); background-color: var(--bg-muted); }
+    &.active { color: var(--accent); background-color: var(--accent-soft); font-weight: 550; }
     svg { color: var(--text-3); }
     &.active svg { color: var(--accent); }
 }
 .side-sub {
-    display: flex; flex-direction: column; gap: 2px;
-    margin: 0 0 4px 19px; padding-left: 10px;
+    display: flex; flex-direction: column;
+    margin: 0 0 0 19px; padding-left: 10px;  // no vertical margin: no hover dead zone
     border-left: 1px solid var(--border);
-    .side-link { font-size: 13.5px; padding: 4px 10px; }
+    .side-link { font-size: 13.5px; padding: 3px 9px; }
 }
 .js .side-sub:not(.open) { display: none; }
 
@@ -73,8 +77,8 @@
 .side-custom {
     font-size: 14px;
     h5, h4 { margin: 0 0 8px; padding: 0 10px; font-size: 11.5px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--text-3); }
-    ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 2px; }
-    ul ul { margin: 2px 0 6px 19px; padding-left: 10px; border-left: 1px solid var(--border); }
+    ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }
+    ul ul { margin: 0 0 0 19px; padding-left: 10px; border-left: 1px solid var(--border); }
     a { @extend .side-link; }
 }
 

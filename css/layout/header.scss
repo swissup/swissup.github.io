@@ -35,12 +35,14 @@
 :root[data-theme="dark"] .brand img { @include logo-dark; }
 
 .nav-main {
-    display: flex; gap: 2px; margin-left: 8px;
+    display: flex; margin-left: 8px;
     a {
         color: var(--text-2); font-size: 14px; font-weight: 500;
-        padding: 6px 10px; border-radius: var(--radius-sm);
-        transition: color .15s, background .15s;
-        &:hover { color: var(--text); background: var(--bg-muted); }
+        // Links touch (no dead zone, no hover flicker); transparent border = visual gap
+        padding: 5px 9px; border: 1px solid transparent; background-clip: padding-box;
+        border-radius: var(--radius-sm);
+        transition: color .15s;
+        &:hover { color: var(--text); background-color: var(--bg-muted); }
         &.active { color: var(--text); }
     }
 }

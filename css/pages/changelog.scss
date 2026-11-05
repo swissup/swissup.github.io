@@ -23,15 +23,21 @@
     margin: 0 0 28px;
 }
 .timeline { position: relative; }
+// Timeline geometry: the line runs through the middle of the gap between
+// the version column and the changes; dots are centred on it.
+$cl-meta: 140px;
+$cl-gap: 24px;
+$cl-line: $cl-meta + $cl-gap * .5;   // x of the line inside .release
+$cl-dot: 9px;
+
 .release {
     position: relative;
-    display: grid; grid-template-columns: 140px 1fr; gap: 24px;
+    display: grid; grid-template-columns: $cl-meta 1fr; gap: $cl-gap;
     padding-bottom: 28px;
     &::before {
         content: "";
-        position: absolute; left: 140px; top: 8px; bottom: 0;
+        position: absolute; left: $cl-line - .5px; top: 8px; bottom: -8px;  // reaches the next dot
         width: 1px; background: var(--border);
-        transform: translateX(11px);
     }
     &:last-child::before { display: none; }
     &.is-hidden { display: none; }
@@ -47,8 +53,9 @@
     position: relative; padding-left: 22px; min-width: 0;
     &::before {
         content: "";
-        position: absolute; left: -2px; top: 6px;
-        width: 9px; height: 9px; border-radius: 50%;
+        position: absolute; top: 6px;
+        left: -($cl-gap * .5) - $cl-dot * .5;   // centred on the line
+        width: $cl-dot; height: $cl-dot; border-radius: 50%;
         background: var(--bg); border: 2px solid var(--border-strong);
     }
     > :last-child { margin-bottom: 0; }
@@ -84,7 +91,7 @@
     color: var(--text-3); font-size: 12px; font-weight: 600; letter-spacing: .06em;
     &::after { content: ""; flex: 1; height: 1px; background: var(--border); }
 }
-.show-more { margin: 8px 0 0 164px; }
+.show-more { margin: 8px 0 0 $cl-meta + $cl-gap; }
 @media (max-width: $bp-phone) {
     .release { grid-template-columns: 1fr; gap: 6px; &::before { display: none; } }
     .release-meta { display: flex; align-items: baseline; gap: 10px; text-align: left; .badge { margin: 0; } }
