@@ -1,4 +1,6 @@
 ---
+# Copy of the Chic manuals: hidden from the menu until Stripes content is written
+nav_exclude: true
 layout: default
 title: Argento Hyvä Chic Footer
 description: Argento Hyvä Chic footer

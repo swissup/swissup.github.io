@@ -10,11 +10,17 @@
   <!-- <link rel="icon" type="image/x-icon" href="{{ "/favicon.ico" | prepend: site.baseurl }}"> -->
   <link rel="icon" type="image/png" sizes="16x16" href="{{ "/favicon.png" | prepend: site.baseurl }}">
 
-  <!-- <link rel="stylesheet" href="{{ "/assets/all.css" | prepend: site.baseurl }}" /> -->
-  <link rel="stylesheet" href="{{ "/css/material.css" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="{{ "/assets/almost-all.css?v=20" | prepend: site.baseurl }}">
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium" type="text/css">
-  <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+  <script>
+    (function () {
+      var d = document.documentElement;
+      d.className = d.className.replace('no-js', 'js');
+      try { var t = localStorage.getItem('docs-theme'); if (t) { d.setAttribute('data-theme', t); } } catch (e) {}
+    })();
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap">
+  <link rel="stylesheet" href="{{ "/assets/almost-all.css" | prepend: site.baseurl }}?v={{ site.time | date: "%s" }}">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@4" />
   <meta name="algolia-site-verification" content="90163BDEEFC0EF05" />
   <script src="https://cdn.jsdelivr.net/npm/@docsearch/js@4" defer></script>

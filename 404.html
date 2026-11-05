@@ -2,24 +2,23 @@
 layout: default
 title: Page Not Found
 permalink: 404.html
+breadcrumbs: false
+body_class: no-anchors no-edit
 ---
 
-<div class="jumbotron">
-  <div class="mdl-grid">
-    <div class="mdl-cell mdl-cell--12-col">
-      <div class="mdl-typography--font-light mdl-typography--display-3">
-        Page Not Found.
-      </div>
-      <div class="mdl-typography--font-light mdl-color-text--grey-700 mdl-typography--headline">
-        <a href="{{ "/" | prepend: site.baseurl }}" id="back" title="Go Back">&#8656;</a> Go Back
-      </div>
-    </div>
+<div class="not-found">
+  <div class="code">404</div>
+  <h1>Page not found</h1>
+  <p>The page may have moved. Try the search or go back.</p>
+  <div class="actions">
+    <a class="btn" href="{{ "/" | prepend: site.baseurl }}" id="back">{% include icon.html name='arrowLeft' class='i-sm' %}Go back</a>
+    <button class="btn btn-primary" type="button" data-action="search">{% include icon.html name='search' class='i-sm' %}Search the docs</button>
   </div>
 </div>
 
 <script>
-document.addEventListener("DOMContentLoaded", function(event) {
-  document.getElementById('back').addEventListener('click', function(e) {
+document.addEventListener("DOMContentLoaded", function () {
+  document.getElementById('back').addEventListener('click', function (e) {
     if (history.length > 1) {
       e.preventDefault();
       history.back();

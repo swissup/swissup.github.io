@@ -230,6 +230,9 @@ hyva:
     - title: Chic
       url: /m2/argento-hyva/chic/
 
+    - title: Stripes
+      url: /m2/argento-hyva/stripes/
+
   extensions:
     - ajaxsearch
     - askit

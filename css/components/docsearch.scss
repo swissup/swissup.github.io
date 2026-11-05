@@ -1,0 +1,53 @@
+// Algolia DocSearch v4 theming. "html.js" beats :root rules of the CDN stylesheet loaded after ours.
+html.js, html.no-js {
+    --docsearch-primary-color: var(--accent);
+    --docsearch-text-color: var(--text);
+    --docsearch-muted-color: var(--text-3);
+    --docsearch-container-background: rgba(16, 16, 24, .38);
+    --docsearch-modal-background: var(--surface);
+    --docsearch-searchbox-background: var(--bg-subtle);
+    --docsearch-searchbox-focus-background: var(--surface);
+    --docsearch-searchbox-shadow: inset 0 0 0 1px var(--accent);
+    --docsearch-hit-color: var(--text-2);
+    --docsearch-hit-active-color: var(--accent-ink);
+    --docsearch-hit-background: var(--surface);
+    --docsearch-hit-shadow: 0 0 0 1px var(--border);
+    --docsearch-key-gradient: var(--bg-muted);
+    --docsearch-key-shadow: inset 0 -1px 0 var(--border-strong);
+    --docsearch-footer-background: var(--bg-subtle);
+    --docsearch-footer-shadow: 0 -1px 0 var(--border);
+    --docsearch-modal-shadow: 0 24px 64px -12px rgba(0, 0, 0, .35);
+    --docsearch-highlight-color: var(--accent);
+    --docsearch-hit-highlight-color: var(--accent-soft);
+    --docsearch-secondary-text-color: var(--text-3);
+    --docsearch-icon-color: var(--text-3);
+    --docsearch-subtle-color: var(--border);
+    --docsearch-background-color: var(--bg-subtle);
+}
+.DocSearch-Hit[aria-selected="true"] a { background-color: var(--accent-soft) !important; }
+.DocSearch-Hit[aria-selected="true"] .DocSearch-Hit-title,
+.DocSearch-Hit[aria-selected="true"] .DocSearch-Hit-icon,
+.DocSearch-Hit[aria-selected="true"] .DocSearch-Hit-action,
+.DocSearch-Hit[aria-selected="true"] .DocSearch-Hit-Select-Icon,
+.DocSearch-Hit[aria-selected="true"] mark { color: var(--accent); }
+
+.header-search { display: flex; flex: none; width: 260px; height: 36px; }  // fixed: reserved before DocSearch renders
+.header-search .DocSearch-Button {
+    width: 100%; height: 36px; margin: 0;
+    padding: 0 8px 0 12px;
+    border: 1px solid var(--border); border-radius: 8px;
+    background: var(--bg-subtle); color: var(--text-3);
+    box-shadow: none;
+    transition: border-color .15s, background .15s;
+    &:hover, &:focus { border-color: var(--border-strong); background: var(--surface); color: var(--text-2); box-shadow: none; }
+    .DocSearch-Search-Icon { width: 15px; height: 15px; color: currentColor; }
+    .DocSearch-Button-Placeholder { font: inherit; font-size: 14px; padding-left: 8px; }
+    .DocSearch-Button-Keys { min-width: auto; }
+    .DocSearch-Button-Key { background: var(--surface); box-shadow: inset 0 -1px 0 var(--border-strong); border: 1px solid var(--border-strong); color: var(--text-3); top: 0; }
+}
+@media (max-width: 1040px) { .header-search { width: 200px; } }
+@media (max-width: 760px) {
+    .header-search { width: 36px; }
+    .header-search .DocSearch-Button { padding: 0; justify-content: center; }
+    .header-search .DocSearch-Button-Placeholder, .header-search .DocSearch-Button-Keys { display: none; }
+}

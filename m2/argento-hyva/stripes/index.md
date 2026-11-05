@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Argento Hyvä Chic
-description: Argento Hyvä Chic for Magento2
-category: Argento Hyvä Chic
+title: Argento Hyvä Stripes
+description: Argento Hyvä Stripes for Magento2
+category: Argento Hyvä Stripes
 ---
 
-# ArgentoHyva Chic
+# ArgentoHyva Stripes
 
-{% include gallery.html images=site.data.gallery.m2.argento-breeze.chic.index class="phone-up-1 tablet-up-3 photoswipe scroll" %}
+{% include gallery.html images=site.data.gallery.m2.argento-breeze.stripes.index class="phone-up-1 tablet-up-3 photoswipe scroll" %}
 
 ### Contents
 

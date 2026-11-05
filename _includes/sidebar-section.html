@@ -1,0 +1,88 @@
+{%- comment -%}
+  Navigation menu of one documentation section, rendered once per section
+  (include_cached from sidebar.html). Active/open state is set in js/docs.js.
+  Params: root (section URL, e.g. /m2/extensions/ajaxpro/), area (m1, m2, shopware...)
+  A page with `nav_exclude: true` in its front matter is left out of the menu.
+{%- endcomment -%}
+{%- assign section_pages = site.pages | where_exp: "p", "p.url contains include.root" | sort: "url" -%}
+  {%- assign root_page = section_pages | where: "url", include.root | first -%}
+  {%- if root_page and section_pages.size > 1 -%}
+    {%- assign root_title = root_page.nav_title | default: root_page.title | default: root_page.category -%}
+    {%- assign extension = site.data.extensions[root_page.extension_id] -%}
+    {%- assign section_icon = extension.icon | default: 'book' -%}
+    {%- if extension == nil and include.root contains 'argento' or extension == nil and include.root contains '/themes/' -%}{%- assign section_icon = 'palette' -%}{%- endif -%}
+
+    <a class="module-switch" href="{{ include.root | prepend: site.baseurl }}">
+      <span class="ico ico-accent">{% include icon.html name=section_icon %}</span>
+      <span><strong>{{ extension.title | default: root_title }}</strong><small>{% if include.area == 'm1' %}Magento 1{% elsif include.area == 'm2' %}Magento 2{% else %}{{ include.area | capitalize }}{% endif %}</small></span>
+    </a>
+
+    {%- assign top_pages = '' | split: '' -%}
+    {%- for p in section_pages -%}
+      {%- assign rel = p.url | remove_first: include.root -%}
+      {%- assign rel_size = rel | split: '/' | size -%}
+      {%- if rel_size == 1 and p.layout != 'redirect' and p.nav_exclude != true -%}
+        {%- assign top_pages = top_pages | push: p -%}
+      {%- endif -%}
+    {%- endfor -%}
+
+    {%- assign head_order = 'installation,upgrade-instructions,upgrade,configuration,settings,usage,backend,customization' | split: ',' -%}
+    {%- assign tail_order = 'third-party-modules,third-party-themes,integrations,faq,troubleshooting,changelog' | split: ',' -%}
+    {%- assign ordered = '' | split: '' -%}
+    {%- for name in head_order -%}
+      {%- assign slug = name | append: '/' -%}
+      {%- for p in top_pages -%}{%- assign rel = p.url | remove_first: include.root -%}{%- if rel == slug -%}{%- assign ordered = ordered | push: p -%}{%- endif -%}{%- endfor -%}
+    {%- endfor -%}
+    {%- for p in top_pages -%}
+      {%- assign rel = p.url | remove_first: include.root | remove: '/' -%}
+      {%- unless head_order contains rel or tail_order contains rel -%}{%- assign ordered = ordered | push: p -%}{%- endunless -%}
+    {%- endfor -%}
+    {%- for name in tail_order -%}
+      {%- assign slug = name | append: '/' -%}
+      {%- for p in top_pages -%}{%- assign rel = p.url | remove_first: include.root -%}{%- if rel == slug -%}{%- assign ordered = ordered | push: p -%}{%- endif -%}{%- endfor -%}
+    {%- endfor -%}
+
+    <nav class="side-group" aria-label="{{ root_title | escape }}">
+      <div class="side-title">{{ root_title }}</div>
+      <a class="side-link" href="{{ include.root | prepend: site.baseurl }}">{% include icon.html name='book' class='i-sm' %}Overview</a>
+      {%- for p in ordered -%}
+        {%- assign rel = p.url | remove_first: include.root -%}
+        {%- assign slug = rel | remove: '/' -%}
+        {%- assign raw_label = p.nav_title | default: p.title | default: slug -%}
+        {%- include nav-label.html title=raw_label prefix=root_title -%}
+        {%- case slug -%}
+          {%- when 'installation' -%}{%- assign ic = 'download' -%}
+          {%- when 'configuration', 'settings' -%}{%- assign ic = 'sliders' -%}
+          {%- when 'changelog' -%}{%- assign ic = 'clock' -%}
+          {%- when 'troubleshooting' -%}{%- assign ic = 'wrench' -%}
+          {%- when 'faq' -%}{%- assign ic = 'help' -%}
+          {%- when 'customization' -%}{%- assign ic = 'pencil' -%}
+          {%- when 'upgrade-instructions', 'upgrade' -%}{%- assign ic = 'layers' -%}
+          {%- else -%}{%- assign ic = 'file' -%}
+        {%- endcase -%}
+        <a class="side-link" href="{{ p.url | prepend: site.baseurl }}">{% include icon.html name=ic class='i-sm' %}{{ nav_label }}</a>
+        {%- if p.url != include.root -%}
+          {%- assign children = '' | split: '' -%}
+          {%- for c in section_pages -%}
+            {%- assign crel = c.url | remove_first: include.root -%}
+            {%- assign crel_size = crel | split: '/' | size -%}
+            {%- assign crel_top = crel | split: '/' | first | append: '/' -%}
+            {%- if crel_size == 2 and crel_top == rel and c.layout != 'redirect' and c.nav_exclude != true -%}{%- assign children = children | push: c -%}{%- endif -%}
+          {%- endfor -%}
+          {%- if children.size > 0 -%}
+            <div class="side-sub">
+            {%- for c in children -%}
+              {%- assign raw_label = c.nav_title | default: c.title -%}
+              {%- if slug == 'installation' and c.nav_title == nil -%}
+                {%- comment -%} Installation sub-pages share titles; name them by URL: composer-update -> Composer update {%- endcomment -%}
+                {%- assign raw_label = c.url | split: '/' | last | replace: '-', ' ' -%}
+              {%- endif -%}
+              {%- include nav-label.html title=raw_label prefix=root_title -%}
+              <a class="side-link" href="{{ c.url | prepend: site.baseurl }}">{{ nav_label }}</a>
+            {%- endfor -%}
+            </div>
+          {%- endif -%}
+        {%- endif -%}
+      {%- endfor -%}
+    </nav>
+  {%- endif -%}

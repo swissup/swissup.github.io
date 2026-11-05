@@ -1,18 +1,12 @@
-<div class="clearfix products-group group-themes-m2">
-  <h3>
-    Magento 2.x Themes
-  </h3>
-  <ul class="list-products onecolumn">
-    {% for hash in site.data.themes %}
-      {% assign theme = hash[1] %}
-
-      {% if theme.urls.m2 == null %}
-        {% continue %}
-      {% endif %}
-
-      <li>
-        <a href="{{ theme.urls.m2 | prepend: site.baseurl }}" title="{{ theme.title }}">{{ theme.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+<div class="products-group group-themes-m2">
+  <h2>{% include icon.html name='palette' %}Magento 2 themes</h2>
+  <div class="grid-cards compact">
+    {%- for hash in site.data.themes -%}
+      {%- assign theme = hash[1] -%}
+      {%- if theme.urls.m2 == null -%}{%- continue -%}{%- endif -%}
+      <a class="card" href="{{ theme.urls.m2 | prepend: site.baseurl }}">
+        <div class="card-top"><span class="ico">{% include icon.html name='palette' %}</span><h3>{{ theme.title }}</h3></div>
+      </a>
+    {%- endfor -%}
+  </div>
 </div>

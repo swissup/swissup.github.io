@@ -1,0 +1,99 @@
+// Inline code
+:not(pre) > code {
+    padding: .1em .4em;
+    border: 1px solid var(--border);
+    border-radius: 5px;
+    background: var(--code-bg);
+    color: var(--text);
+    font-size: .86em;
+    word-break: break-word;
+}
+
+// Code blocks: kramdown + Rouge output, header/copy button added by js/docs.js
+pre {
+    margin: 0 0 16px;
+    padding: 14px 16px;
+    overflow-x: auto;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--code-bg);
+    color: var(--text);
+    font-size: 13px;
+    line-height: 1.7;
+    tab-size: 4;
+    code { padding: 0; border: 0; background: none; font-size: inherit; white-space: pre; }
+}
+.highlighter-rouge, .code-block {
+    position: relative;
+    margin: 0 0 18px;
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    background: var(--code-bg);
+    overflow: hidden;
+    pre { margin: 0; border: 0; border-radius: 0; background: none; }
+    .highlight { background: none; }
+    .scroll & pre { max-height: 300px; }
+}
+// Header with language + Copy (added by js/docs.js). Its space is reserved in CSS
+// when JS is on, so the code does not jump down when the header appears.
+$code-head-h: 34px;
+.code-head {
+    position: absolute; top: 0; left: 0; right: 0;
+    height: $code-head-h;
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 0 8px 0 14px;
+    border-bottom: 1px solid var(--border);
+    font-size: 12px; color: var(--text-3);
+}
+.js .prose div.highlighter-rouge { padding-top: $code-head-h; }
+.js .prose div.highlighter-rouge:has(pre.nocopy) { padding-top: 0; }
+.js .prose pre:not(.highlight):not(.nocopy) { padding-top: 14px + $code-head-h; }
+.js .prose .code-block { padding-top: $code-head-h; margin: 0 0 16px; }
+.js .prose .code-block pre:not(.highlight):not(.nocopy) { padding-top: 14px; }
+.copy-btn {
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 4px 8px; border: 0; border-radius: 6px;
+    background: transparent; color: var(--text-3);
+    font: inherit; font-size: 12px; cursor: pointer;
+    transition: color .15s, background .15s;
+    &:hover { background: var(--bg-muted); color: var(--text); }
+    &.copied { color: var(--ok); }
+}
+
+// Rouge tokens — light
+.highlight {
+    .c, .c1, .cm, .cs, .cd { color: #8a8a94; font-style: italic; }
+    .cp { color: #8a8a94; }
+    .err { color: var(--danger); }
+    .k, .kc, .kd, .kn, .kp, .kr, .kv { color: #b0124f; }
+    .kt { color: #7a3fb8; }
+    .o, .ow { color: #62626d; }
+    .s, .s1, .s2, .sb, .sc, .sd, .se, .sh, .si, .sx, .sr, .ss, .dl { color: #1f7a4d; }
+    .m, .mf, .mh, .mi, .il, .mo, .mb, .mx { color: #b05b00; }
+    .na, .nv, .vc, .vg, .vi { color: #2f5bd8; }
+    .nb, .bp { color: #0f7d8a; }
+    .nc, .nn, .no, .ne { color: #7a3fb8; }
+    .nf, .fm { color: #3157c4; }
+    .nt { color: #b0124f; }
+    .gd { color: var(--danger); background: var(--danger-soft); }
+    .gi { color: var(--ok); background: var(--ok-soft); }
+    .gh, .gu { color: var(--text-3); }
+    .gp, .go { color: var(--text-3); }
+    .ge { font-style: italic; }
+    .gs { font-weight: 600; }
+}
+@mixin rouge-dark {
+    .highlight {
+        .c, .c1, .cm, .cs, .cd, .cp { color: #7d7d88; }
+        .k, .kc, .kd, .kn, .kp, .kr, .kv, .nt { color: #d993b2; }
+        .kt, .nc, .nn, .no, .ne { color: #b7a3d9; }
+        .o, .ow { color: #a2a2ad; }
+        .s, .s1, .s2, .sb, .sc, .sd, .se, .sh, .si, .sx, .sr, .ss, .dl { color: #8fc2a2; }
+        .m, .mf, .mh, .mi, .il, .mo, .mb, .mx { color: #d6ae7e; }
+        .na, .nv, .vc, .vg, .vi { color: #98b0d9; }
+        .nb, .bp { color: #86bcc1; }
+        .nf, .fm { color: #a3b5d9; }
+    }
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { @include rouge-dark; } }
+:root[data-theme="dark"] { @include rouge-dark; }

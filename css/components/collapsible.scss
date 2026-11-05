@@ -1,26 +1,18 @@
+// Headings with {:.collapsible} / {:.collapsible.collapsed}, see js/collapsible.js
 .collapsible {
-    cursor: pointer;
     position: relative;
-    padding-left: 16px;
-
-    &:before,
-    &:after {
-        content: '';
-        position: absolute;
-        left: 2px;
-        top: 50%;
-        width: 11px;
-        height: 1px;
-        background-color: #aaa;
+    padding-left: 24px;
+    cursor: pointer;
+    user-select: none;
+    &::before {
+        content: "";
+        position: absolute; left: 2px; top: 50%;
+        width: 8px; height: 8px;
+        border-right: 2px solid var(--text-3); border-bottom: 2px solid var(--text-3);
+        transform: translateY(-70%) rotate(45deg);
+        transition: transform .2s var(--ease);
     }
-
-    &.collapsed {
-        &:after {
-            transform: rotate(90deg);
-        }
-    }
-
-    &-hidden {
-        display: none;
-    }
+    &.collapsed::before { transform: translateY(-50%) rotate(-45deg); }
+    &:hover::before { border-color: var(--accent); }
+    &-hidden { display: none !important; }
 }

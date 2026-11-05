@@ -1,0 +1,133 @@
+// Raw Markdown is hidden (space kept) until js/changelog.js has built the timeline.
+// The animation shows it anyway after 1.5 s in case the script fails.
+.js .changelog-page:not(.cl-ready) .prose {
+    visibility: hidden;
+    animation: cl-show 0s 1.5s forwards;
+}
+@keyframes cl-show { to { visibility: visible; } }
+
+// Changelog pages (url ends with /changelog/). Markdown: ### Version X / > date / list.
+// js/changelog.js turns it into a timeline; these rules also style the plain HTML.
+.changelog-page .prose {
+    h3 { margin: 32px 0 4px; font-family: var(--mono); font-size: 16px; letter-spacing: -.02em; }
+    h3 + blockquote {
+        margin: 0 0 10px; padding: 0;
+        border: 0; background: none;
+        color: var(--text-3); font-size: 13px;
+        &::before { display: none; }
+    }
+}
+
+.cl-toolbar {
+    display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px;
+    margin: 0 0 28px;
+}
+.timeline { position: relative; }
+// Timeline geometry: the line runs through the middle of the gap between
+// the version column and the changes; dots are centred on it.
+$cl-meta: 140px;
+$cl-gap: 24px;
+$cl-line: $cl-meta + $cl-gap * .5;   // x of the line inside .release
+$cl-dot: 9px;
+
+.release {
+    position: relative;
+    display: grid; grid-template-columns: $cl-meta 1fr; gap: $cl-gap;
+    padding-bottom: 28px;
+    &::before {
+        content: "";
+        position: absolute; left: $cl-line - .5px; top: 8px; bottom: -8px;  // reaches the next dot
+        width: 1px; background: var(--border);
+    }
+    &:last-child::before { display: none; }
+    &.is-hidden { display: none; }
+}
+.release-meta {
+    padding-top: 1px; text-align: right;
+    .ver { color: var(--text); font-family: var(--mono); font-size: 15px; font-weight: 600; letter-spacing: -.02em; }
+    .ver a { color: inherit; text-decoration: none !important; }
+    time { display: block; color: var(--text-3); font-size: 12.5px; }
+    .badge { margin-top: 6px; }
+}
+.release-body {
+    position: relative; padding-left: 22px; min-width: 0;
+    &::before {
+        content: "";
+        position: absolute; top: 6px;
+        left: -($cl-gap * .5) - $cl-dot * .5;   // centred on the line
+        width: $cl-dot; height: $cl-dot; border-radius: 50%;
+        background: var(--bg); border: 2px solid var(--border-strong);
+    }
+    > :last-child { margin-bottom: 0; }
+    > ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+    li { margin: 0; font-size: 14px; }
+    li.is-hidden { display: none; }
+
+    // One change: tag column + text column
+    .cl-item {
+        display: grid; grid-template-columns: 82px minmax(0, 1fr); gap: 10px; align-items: baseline;
+        list-style: none;
+        > .badge { justify-content: center; font-size: 11px; }
+    }
+    .cl-text {
+        min-width: 0;
+        > :last-child { margin-bottom: 0; }
+        ul, ol { margin: 4px 0 0; padding-left: 18px; list-style: disc; }
+        li { margin: 2px 0; font-size: 13.5px; }
+        p { margin: 0 0 6px; }
+    }
+
+    // Item with its own list, e.g. a design name with its changes
+    .cl-group {
+        list-style: none;
+        color: var(--text); font-weight: 500;
+        > ul, > ol { display: grid; gap: 6px; margin: 6px 0 2px; padding: 0; list-style: none; font-weight: 400; color: var(--text-2); }
+    }
+}
+.release.latest .release-body::before { border-color: var(--accent); background: var(--accent); box-shadow: 0 0 0 4px var(--accent-soft); }
+.year-sep {
+    display: flex; align-items: center; gap: 12px;
+    margin: 8px 0 24px;
+    color: var(--text-3); font-size: 12px; font-weight: 600; letter-spacing: .06em;
+    &::after { content: ""; flex: 1; height: 1px; background: var(--border); }
+}
+.show-more { margin: 8px 0 0 $cl-meta + $cl-gap; }
+@media (max-width: $bp-phone) {
+    .release { grid-template-columns: 1fr; gap: 6px; &::before { display: none; } }
+    .release-meta { display: flex; align-items: baseline; gap: 10px; text-align: left; .badge { margin: 0; } }
+    .release-body { padding-left: 0; &::before { display: none; } }
+    .release-body .cl-item { grid-template-columns: 1fr; gap: 2px; > .badge { justify-self: start; } }
+    .show-more { margin-left: 0; }
+}
+
+// Folded "Extensions Updates" block in theme changelogs
+.cl-ext {
+    margin: 12px 0 0 !important; padding: 0 !important;
+    border: 1px solid var(--border) !important; border-radius: var(--radius);
+    background: var(--bg-subtle);
+    summary {
+        display: flex; align-items: center; gap: 10px;
+        padding: 9px 14px;
+        list-style: none; cursor: pointer;
+        color: var(--text) !important; font-size: 13.5px; font-weight: 500;
+        &::-webkit-details-marker { display: none; }
+        &::before {
+            content: ""; flex: none;
+            width: 7px; height: 7px;
+            border-right: 1.5px solid var(--text-3); border-bottom: 1.5px solid var(--text-3);
+            transform: rotate(-45deg);
+            transition: transform .2s var(--ease);
+        }
+        .count { margin-left: auto; color: var(--text-3); font-size: 12.5px; font-weight: 400; }
+        &:hover::before { border-color: var(--accent); }
+    }
+    &[open] summary { margin: 0 !important; border-bottom: 1px solid var(--border); &::before { transform: rotate(45deg); } }
+    > ul {
+        display: grid; gap: 10px;
+        margin: 0 !important; padding: 12px 16px 14px 16px !important;
+        list-style: none;
+        > li { display: block; margin: 0; font-size: 13.5px; color: var(--text); }
+        ul { margin: 4px 0 0 !important; padding-left: 18px !important; list-style: disc; display: block; }
+        ul li { display: list-item; margin: 2px 0; font-size: 13px; color: var(--text-2); }
+    }
+}

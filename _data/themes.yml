@@ -1,23 +1,40 @@
 absolute:
   title: Absolute Theme
+  card_title: Absolute
+  category: Theme
+  icon: palette
+  short_description: Free responsive Magento 2 theme with its own theme editor.
   urls:
     m1: /m1/themes/absolute/
     m2: /m2/themes/absolute/
 
 argento:
   title: Argento Theme
+  card_title: Argento Luma
+  category: Theme
+  icon: palette
+  short_description: The classic Luma-based Argento edition with the widest choice of designs.
   urls:
     m1: /m1/argento/
     m2: /m2/argento/
 
 argento-breeze:
   title: Argento Breeze Theme
+  card_title: Argento Breeze
+  category: Theme
+  icon: bolt
+  short_description: Argento designs on Breeze, the performant Magento 2 frontend by SwissUpLabs.
   urls:
     m1:
     m2: /m2/argento-breeze/
 
 argento-hyva:
   title: Argento Hyva Theme
+  card_title: Argento Hyvä
+  category: Theme
+  icon: layers
+  hyva: true
+  short_description: Argento designs rebuilt for stores that run on the Hyvä frontend.
   urls:
     m1: 
     m2: /m2/argento-hyva/

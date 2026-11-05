@@ -1,21 +1,10 @@
-<div class="clearfix products-group group-extensions">
-  <h3>Magento 2.x Extensions</h3>
-  <ul class="list-products">
-    {% for hash in site.data.extensions %}
-      {% assign extension = hash[1] %}
-
-      {% if extension.urls.m2 == null %}
-        {% continue %}
-      {% endif %}
-
-      <li>
-        <a href="{{ extension.urls.m2 | prepend: site.baseurl }}" title="{{ extension.title }}">{{ extension.title }}</a>
-        {% if extension.hyva == true %}
-          <img src="{{ '/images/argento-hyva/badge_ext.svg' | prepend: site.baseurl }}" alt="Hyvä Themes compatible"
-               width="20" height="20" style="outline: 0; vertical-align: middle; margin: 0 4px;">
-          <span style="font-size: 13px; color: green;">Hyvä compatible</span>
-        {% endif %}
-      </li>
-    {% endfor %}
-  </ul>
+<div class="products-group group-extensions">
+  <h2>{% include icon.html name='package' %}Magento 2 extensions</h2>
+  <div class="grid-cards compact">
+    {%- for hash in site.data.extensions -%}
+      {%- assign extension = hash[1] -%}
+      {%- if extension.urls.m2 == null -%}{%- continue -%}{%- endif -%}
+      {%- include module-card.html extension=extension url=extension.urls.m2 compact=true -%}
+    {%- endfor -%}
+  </div>
 </div>

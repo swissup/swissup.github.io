@@ -1,0 +1,27 @@
+@use "sass:math";
+
+// Minimal replacements for Material Design Lite classes still used inside
+// Markdown content (m1/argento product pages, m1/dev, shopware galleries).
+.mdl-grid { display: flex; flex-wrap: wrap; gap: 16px; margin: 0 0 16px; }
+.mdl-cell { flex: 1 1 100%; min-width: 0; }
+@media (min-width: 840px) {
+    @for $i from 1 through 12 {
+        .mdl-cell--#{$i}-col { flex: 0 0 calc(#{math.percentage(math.div($i, 12))} - 16px); }
+    }
+}
+@media (min-width: 480px) and (max-width: 839px) {
+    @for $i from 1 through 8 {
+        .mdl-cell--#{$i}-col-tablet { flex: 0 0 calc(#{math.percentage(math.div($i, 8))} - 16px); }
+    }
+}
+.mdl-typography--text-center { text-align: center; }
+.mdl-textfield { position: relative; display: inline-block; padding: 8px 0; }
+.mdl-textfield__input, .prose input[type="text"], .prose select {
+    padding: 8px 10px;
+    border: 1px solid var(--border-strong); border-radius: 8px;
+    background: var(--surface); color: var(--text);
+    font: inherit;
+    &:focus { outline: 0; border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+}
+.mdl-textfield__label { display: block; font-size: 13px; color: var(--text-3); margin-bottom: 4px; }
+.mdl-tooltip { display: none; }

@@ -25,10 +25,12 @@ blockquote {
     }
 }
 
-.page {
-    margin: 0 auto;
+.docs {
+    display: block !important;
     max-width: 900px;
+    padding: 0;
 }
+.prose { max-width: none; }
 
 .gallery {
     &.scroll {
@@ -40,11 +42,16 @@ blockquote {
     }
 }
 
-header,
-footer,
-.breadcrumbs,
-.btn-clip,
-#edit-page,
+.site-header,
+.site-footer,
+.sidebar,
+.toc,
+.progress,
+.crumbs,
+.page-foot,
+.code-head,
+.skip-link,
+#next-up,
 #next-up,
 #next-up + ul {
     display: none !important;

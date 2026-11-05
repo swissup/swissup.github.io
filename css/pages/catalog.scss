@@ -1,0 +1,69 @@
+// Catalog includes: extensions/*.html, themes/*.html, argento/view.html
+.products-group {
+    margin: 0 0 40px;
+    // Block, not flex: the "#" heading anchor (absolutely positioned) must follow the text
+    > h2, > h3 {
+        margin: 0 0 16px; font-size: 20px;
+        > svg.i { margin-right: 10px; vertical-align: -2px; }
+    }
+}
+.prose .products-group a { text-decoration: none !important; }
+
+.link-list {
+    display: grid; grid-template-columns: 1fr 1fr; gap: 0 24px;
+    margin: 0 0 24px !important; padding: 0 !important;
+    list-style: none;
+    li { margin: 0; border-bottom: 1px solid var(--border); }
+    a {
+        display: flex; align-items: center; gap: 10px;
+        padding: 11px 2px; color: var(--text); font-size: 14px;
+        svg:first-child { color: var(--text-3); }
+        svg:last-child { margin-left: auto; color: var(--text-3); transition: transform .2s var(--ease), color .2s; }
+        &:hover svg:last-child { transform: translateX(3px); color: var(--accent); }
+    }
+}
+@media (max-width: $bp-phone) { .link-list { grid-template-columns: 1fr; } }
+
+.compat {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px;
+    margin: 0 0 32px;
+    a {
+        display: block; padding: 16px;
+        border: 1px solid var(--border); border-radius: var(--radius);
+        color: var(--text);
+        transition: border-color .2s, transform .2s var(--ease);
+        &:hover { border-color: var(--border-strong); color: var(--text); transform: translateY(-2px); }
+        &.current { border-color: color-mix(in srgb, var(--accent) 40%, transparent); box-shadow: 0 0 0 3px var(--accent-soft); }
+    }
+    strong { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-bottom: 4px; font-size: 14px; }
+    small { display: block; color: var(--text-2); font-size: 13px; line-height: 1.5; }
+}
+@media (max-width: 760px) { .compat { grid-template-columns: 1fr; } }
+
+// Argento design cards
+.theme-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 14px; margin: 0 0 32px; }
+.theme-card {
+    display: block; overflow: hidden;
+    border: 1px solid var(--border); border-radius: var(--radius);
+    background: var(--surface); color: var(--text);
+    transition: transform .25s var(--ease), box-shadow .25s, border-color .2s;
+    &:hover { color: var(--text); transform: translateY(-3px); box-shadow: var(--shadow-md); border-color: var(--border-strong); }
+    .body { display: flex; align-items: center; justify-content: space-between; gap: 8px; padding: 12px 14px; }
+    h3 { margin: 0; font-size: 15px; }
+    .link-arrow { font-size: 12.5px; color: var(--text-3); }
+    &:hover .link-arrow { color: var(--accent); svg { transform: translateX(3px); } }
+}
+.theme-shot {
+    aspect-ratio: 16 / 10; overflow: hidden;
+    display: grid; place-items: center;
+    border-bottom: 1px solid var(--border);
+    background: var(--bg-subtle);
+    img {
+        width: 100%; height: 100%; margin: 0 !important;
+        object-fit: cover; object-position: top;
+        border: 0 !important; border-radius: 0 !important;
+        cursor: pointer !important;
+        transition: transform .6s var(--ease);
+    }
+}
+.theme-card:hover .theme-shot img { transform: scale(1.04); }

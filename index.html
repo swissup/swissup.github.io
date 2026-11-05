@@ -1,54 +1,114 @@
 ---
 layout: default
+layout_style: home
 body_class: no-anchors no-edit
 ---
 
-{% include argento/promo.html %}
+<section class="hero">
+  <div class="container">
+    <a class="eyebrow fade-in" href="{{ '/m2/security-patches/' | prepend: site.baseurl }}">
+      <span class="badge badge-accent">New</span> Magento 2 isolated security patches in one place
+      {% include icon.html name='arrowRight' class='i-sm' %}
+    </a>
+    <h1 class="fade-in" style="animation-delay:.05s">Documentation for SwissUpLabs modules&nbsp;and&nbsp;themes</h1>
+    <p class="lead fade-in" style="animation-delay:.1s">Installation guides, configuration reference and changelogs for every SwissUpLabs extension and theme for Magento&nbsp;2.</p>
+    <label class="hero-search fade-in" style="animation-delay:.15s">
+      {% include icon.html name='search' %}
+      <span class="sr-only">Find a product docs</span>
+      <input type="search" id="module-filter" placeholder="Find a product docs" aria-controls="module-grid" autocomplete="off">
+    </label>
+  </div>
+</section>
 
-{% assign group = site.data.homepage.extensions %}
-<div class="clearfix products-group group-extensions">
-  <h3> 
-    {{ group.title }}
-    {% if group.url %}
-      <a title="{{ group.title }}" href="{{ group.url | prepend: site.baseurl }}">&#8658;</a>
-    {% endif %}
-  </h3>
-  <div class="masonry">
-    {% for id in group.items %}
-      {% assign extension = site.data.extensions[id] %}
-      <div class="brick {{ extension.size | prepend: 'size' }}">
-        <div class="brick-animation">
-          <h4>{{ extension.title }}</h4>
-          <div class="brick-info">
-            <p>{{ extension.short_description }}</p>
-            <div class="actions">
-              {% if extension.urls.m1 %}
-                <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="{{ extension.urls.m1 | prepend: site.baseurl }}">Magento 1.x</a>
-              {% endif %}
-              {% if extension.urls.m2 %}
-                <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="{{ extension.urls.m2 | prepend: site.baseurl }}">Magento 2.x</a>
-              {% endif %}
-            </div>
-          </div>
-        </div>
+<section class="section" id="modules">
+  <div class="container">
+    {%- assign modules = '' | split: '' -%}
+    {%- for hash in site.data.extensions -%}
+      {%- if hash[1].urls.m2 -%}{%- assign modules = modules | push: hash[1] -%}{%- endif -%}
+    {%- endfor -%}
+    {%- assign modules = modules | sort: 'title' -%}
+    {%- assign themes = '' | split: '' -%}
+    {%- for hash in site.data.themes -%}
+      {%- if hash[1].urls.m2 -%}{%- assign themes = themes | push: hash[1] -%}{%- endif -%}
+    {%- endfor -%}
+
+    <div class="section-head reveal">
+      <div>
+        <h2>Swissup products</h2>
+        {%- comment -%} Themes plus all their designs (Argento Luma, Breeze and Hyvä designs) {%- endcomment -%}
+        {%- assign theme_count = themes.size | plus: site.data.argento.m2.themes.size | plus: site.data.argento.breeze.themes.size | plus: site.data.argento.hyva.themes.size -%}
+        <p>{{ theme_count }} themes and {{ modules.size }} extensions for Magento 2.</p>
       </div>
-    {% endfor %}
-    <div class="brick brick-more no-resize size1x1" data-brick-href="{{ '/extensions/' | prepend: site.baseurl }}" title="View All Extensions">
-      <div class="brick-animation">
-        <h4>More</h4>
-      </div>
+      <button type="button" class="chip chip-badge" data-filter="hyva" aria-pressed="false" tabindex="-1"><span class="badge badge-hyva">Hyvä</span>compatible</button>
     </div>
-    <div class="brick-gutter"></div>
-  </div>
-</div>
- 
-<div class="mdl-grid">
-  <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
-    {% include themes/m1.html %}
-  </div>
-  <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
-    {% include themes/m2.html %}
-  </div>
-</div> 
 
-{% include security-patches/promo.html %}
+    <div class="grid-cards" id="module-grid">
+      {%- comment -%} Themes first, then modules: all of them are filtered by the field above {%- endcomment -%}
+      {%- for theme in themes -%}
+        {%- include module-card.html extension=theme url=theme.urls.m2 -%}
+      {%- endfor -%}
+      {%- comment -%}
+        Argento designs (e.g. "Argento Force", "Argento Breeze Chic"): hidden in the list,
+        shown only when the search matches them (see js/home.js, .card-extra)
+      {%- endcomment -%}
+      {%- assign design_groups = "m2|Argento|Argento Luma design;breeze|Argento Breeze|Argento Breeze design;hyva|Argento Hyvä|Argento Hyvä design" | split: ";" -%}
+      {%- for g in design_groups -%}
+        {%- assign gp = g | split: "|" -%}
+        {%- assign group_key = gp[0] -%}
+        {%- assign group = site.data.argento[group_key] -%}
+        {%- for d in group.themes -%}
+          <a class="card card-extra" href="{{ d.url | prepend: site.baseurl }}" data-category="Design"{% if group_key == 'hyva' %} data-hyva{% endif %} hidden>
+            <div class="card-top">
+              <span class="ico">{% include icon.html name='palette' %}</span>
+              <div><h3>{{ gp[1] }} {{ d.title }}</h3><div class="meta">{{ gp[2] }}</div></div>
+            </div>
+            {%- if group_key == 'hyva' -%}<div class="badges"><span class="badge badge-hyva">Hyvä compatible</span></div>{%- endif -%}
+            <span class="go">{% include icon.html name='arrowRight' class='i-sm' %}</span>
+          </a>
+        {%- endfor -%}
+      {%- endfor -%}
+      {%- for ext in modules -%}
+        {%- include module-card.html extension=ext url=ext.urls.m2 -%}
+      {%- endfor -%}
+    </div>
+    <div class="empty" id="module-empty">
+      <p>No modules match your filters.</p>
+      <button type="button" class="btn" id="reset-filters">Reset filters</button>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="themes">
+  <div class="container">
+    {% include argento/promo.html m1=false sw=false %}
+
+    <div class="section-head reveal" style="margin-top:40px">
+      <div>
+        <h2>All themes</h2>
+        <p>Choose the documentation for your frontend.</p>
+      </div>
+      <a class="link-arrow" href="{{ '/m2/themes/' | prepend: site.baseurl }}">Magento 2 themes {% include icon.html name='arrowRight' class='i-sm' %}</a>
+    </div>
+    <div class="grid-cards compact">
+      {%- for hash in site.data.themes -%}
+        {%- assign theme = hash[1] -%}
+        {%- if theme.urls.m2 == null -%}{%- continue -%}{%- endif -%}
+        <a class="card reveal" href="{{ theme.urls.m2 | prepend: site.baseurl }}">
+          <div class="card-top"><span class="ico">{% include icon.html name='palette' %}</span><h3>{{ theme.title }}</h3></div>
+        </a>
+      {%- endfor -%}
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    {% include security-patches/promo.html %}
+
+    <div class="help-box reveal">
+      <span class="ico ico-accent">{% include icon.html name='help' %}</span>
+      <p><strong>Can’t find an answer?</strong>Contact our support team, or browse the <a href="{{ '/m1/' | prepend: site.baseurl }}">Magento 1</a> and <a href="{{ '/shopware/' | prepend: site.baseurl }}">Shopware</a> docs.</p>
+      <a class="btn btn-primary" href="mailto:{{ site.email }}">{% include icon.html name='mail' class='i-sm' %}Contact support</a>
+    </div>
+  </div>
+</section>

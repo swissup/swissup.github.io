@@ -1,0 +1,10 @@
+{%- comment -%}
+  Sets `latest_version` from the first "Version X.Y.Z" heading of a changelog page.
+  Params: url (changelog page URL, e.g. /m2/argento-breeze/changelog/)
+{%- endcomment -%}
+{%- assign latest_version = '' -%}
+{%- assign lv_page = site.pages | where: "url", include.url | first -%}
+{%- if lv_page -%}
+  {%- assign latest_version = lv_page.content | split: 'Version ' | slice: 1, 1 | first | split: '<' | first | newline_to_br | split: '<br' | first | strip -%}
+  {%- if latest_version.size > 12 -%}{%- assign latest_version = '' -%}{%- endif -%}
+{%- endif -%}

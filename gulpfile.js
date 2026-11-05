@@ -11,14 +11,7 @@ var gulp = require('gulp'),
 
 function js() {
     var files = [
-        'node_modules/material-design-lite/material.min.js',
-        'node_modules/jquery/dist/jquery.min.js',
-        'node_modules/packery/dist/packery.pkgd.min.js',
-        'node_modules/flickity/dist/flickity.pkgd.min.js',
-        'node_modules/clipboard/dist/clipboard.min.js',
         'node_modules/anchor-js/anchor.min.js',
-        'node_modules/mustache/mustache.min.js',
-        'node_modules/lunr/lunr.js',
         'node_modules/photoswipe/dist/photoswipe.min.js',
         'node_modules/photoswipe/dist/photoswipe-ui-default.min.js',
         'js/*'
@@ -38,8 +31,6 @@ function js() {
 
 function css() {
     var files = [
-        // 'node_modules/material-design-lite/material.min.css',
-        'node_modules/flickity/dist/flickity.min.css',
         'node_modules/photoswipe/dist/photoswipe.css',
         'node_modules/photoswipe/dist/default-skin/default-skin.css',
         'css/*.css',
@@ -49,13 +40,13 @@ function css() {
     var scss = filter('css/*.scss', {restore: true});
 
     return gulp.src(files)
-        .pipe(sourcemaps.init())
+        // .pipe(sourcemaps.init())
         .pipe(scss)
         .pipe(sass.sync().on('error', sass.logError))
         .pipe(scss.restore)
         .pipe(cleanCSS({keepSpecialComments: 0, rebase: false}))
         .pipe(concat('almost-all.css'))
-        .pipe(sourcemaps.write())
+        // .pipe(sourcemaps.write())
         .pipe(gulp.dest('assets'));
 }
 

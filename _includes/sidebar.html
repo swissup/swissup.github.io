@@ -1,6 +1,47 @@
-{% if page.sidebar %}
-  <aside class="sidebar">
-      {% capture sidebar %}{% include_relative {{page.sidebar}} %}{% endcapture %}
-      {{ sidebar | markdownify }}
-  </aside>
-{% endif %}
+{%- comment -%}
+  Left navigation for documentation sections.
+
+  1. A page with `sidebar: file.md` in its front matter keeps its hand-written menu.
+  2. Otherwise the menu is built from the pages of the current section:
+     /m1|m2/extensions/<id>/, /m1|m2/themes/<id>/, or /<area>/<id>/ (e.g. /m2/argento/).
+     The menu itself lives in sidebar-section.html and is cached per section.
+{%- endcomment -%}
+{%- assign nav_root = '' -%}
+{%- assign url_parts = page.url | split: '/' -%}
+{%- if url_parts[2] == 'extensions' or url_parts[2] == 'themes' -%}
+  {%- assign nav_depth = 4 -%}
+{%- else -%}
+  {%- assign nav_depth = 3 -%}
+{%- endif -%}
+{%- if url_parts.size >= nav_depth and page.layout != 'redirect' -%}
+  {%- assign nav_root = url_parts | slice: 0, nav_depth | join: '/' | append: '/' -%}
+{%- endif -%}
+
+{%- capture sidebar_html -%}
+{%- if page.sidebar -%}
+  {%- capture custom_sidebar %}{% include_relative {{ page.sidebar }} %}{% endcapture -%}
+  <div class="side-custom">{{ custom_sidebar | markdownify }}</div>
+{%- elsif nav_root != '' -%}
+  {%- assign nav_area = url_parts[1] -%}
+  {%- include_cached sidebar-section.html root=nav_root area=nav_area -%}
+{%- endif -%}
+{%- endcapture -%}
+
+{%- assign sidebar_html = sidebar_html | strip -%}
+{%- if sidebar_html != '' -%}
+<aside class="sidebar" id="sidebar" aria-label="Section navigation">
+  {{ sidebar_html }}
+</aside>
+{%- comment -%} Runs before first paint: the menu is cached per section, so the active item is set here {%- endcomment -%}
+<script>
+(function () {
+  var s = document.getElementById('sidebar'), p = location.pathname.replace(/index\.html$/, ''), a = null;
+  [].forEach.call(s.querySelectorAll('a'), function (l) { if (l.getAttribute('href') === p) { a = l; } });
+  if (!a) { return; }
+  a.classList.add('active');
+  a.setAttribute('aria-current', 'page');
+  var sub = a.closest('.side-sub') || (a.nextElementSibling && a.nextElementSibling.classList.contains('side-sub') ? a.nextElementSibling : null);
+  if (sub) { sub.classList.add('open'); }
+})();
+</script>
+{%- endif -%}
