@@ -121,6 +121,7 @@
 }
 .promo-dots {
     display: flex; gap: 6px; justify-content: center; margin-top: 12px;
+    height: 4px;  // dots are added by JS: keep their space from the start
     button {
         width: 22px; height: 4px; padding: 0; border: 0; border-radius: 2px;
         background: var(--border-strong); cursor: pointer;

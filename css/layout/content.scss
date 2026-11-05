@@ -123,7 +123,10 @@
 }
 
 // Heading anchors (anchor-js)
-.anchorjs-link { color: var(--text-3) !important; text-decoration: none !important; font-weight: 400; }
+.anchorjs-link {
+    position: absolute;  // added by JS: must not change the heading width or wrap it
+    color: var(--text-3) !important; text-decoration: none !important; font-weight: 400;
+}
 
 // Title rendered by the layout for pages with a hand-written sidebar
 .page-title { margin: 0 0 14px; }

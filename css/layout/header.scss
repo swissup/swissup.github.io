@@ -61,7 +61,7 @@
 :root[data-theme="dark"] { @include sun-icon; }
 
 .menu-btn { display: none; }
-.menu-btn[hidden] { display: none !important; }
+.menu-btn[hidden], .no-sidebar-page .menu-btn { display: none !important; }
 
 @media (max-width: 1040px) {
     .nav-main { display: none; }

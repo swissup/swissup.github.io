@@ -49,8 +49,8 @@
     --radius: 10px;
     --radius-sm: 6px;
     --header-h: 60px;
-    --font: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
-    --mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+    --font: "Inter", "Inter Fallback", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+    --mono: "JetBrains Mono", "JetBrains Mono Fallback", ui-monospace, SFMono-Regular, Menlo, monospace;
     --ease: cubic-bezier(.2, .7, .2, 1);
     color-scheme: light;
 }

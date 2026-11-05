@@ -6,8 +6,13 @@
     return;
   }
 
+  function ready() {
+    document.body.classList.add('cl-ready');
+  }
+
   var article = document.querySelector('.prose');
   if (!article) {
+    ready();
     return;
   }
 
@@ -35,6 +40,7 @@
     return /^\s*(version\s*)?v?\d+\.\d+/i.test(h.textContent);
   });
   if (!heads.length) {
+    ready();
     return;
   }
 
@@ -228,6 +234,7 @@
   });
 
   apply();
+  ready();
 
   // Releases were rebuilt after load: scroll to the version from the URL hash again
   if (window.location.hash) {

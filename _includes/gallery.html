@@ -7,7 +7,7 @@
             {% else %}
                 {% assign alt = image.title %}
             {% endif %}
-            <img src="{{ image.src | prepend: site.baseurl }}" itemprop="thumbnail" alt="{{ alt| escape }}" />
+            <img src="{{ image.src | prepend: site.baseurl }}" itemprop="thumbnail" alt="{{ alt| escape }}"{% if image.w and image.h %} width="{{ image.w }}" height="{{ image.h }}"{% endif %} loading="lazy" />
         </a>
         <meta itemprop="width" content="{{ image.w }}">
         <meta itemprop="height" content="{{ image.h }}">

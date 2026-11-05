@@ -32,4 +32,16 @@
 <aside class="sidebar" id="sidebar" aria-label="Section navigation">
   {{ sidebar_html }}
 </aside>
+{%- comment -%} Runs before first paint: the menu is cached per section, so the active item is set here {%- endcomment -%}
+<script>
+(function () {
+  var s = document.getElementById('sidebar'), p = location.pathname.replace(/index\.html$/, ''), a = null;
+  [].forEach.call(s.querySelectorAll('a'), function (l) { if (l.getAttribute('href') === p) { a = l; } });
+  if (!a) { return; }
+  a.classList.add('active');
+  a.setAttribute('aria-current', 'page');
+  var sub = a.closest('.side-sub') || (a.nextElementSibling && a.nextElementSibling.classList.contains('side-sub') ? a.nextElementSibling : null);
+  if (sub) { sub.classList.add('open'); }
+})();
+</script>
 {%- endif -%}

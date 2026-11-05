@@ -34,12 +34,22 @@ pre {
     .highlight { background: none; }
     .scroll & pre { max-height: 300px; }
 }
+// Header with language + Copy (added by js/docs.js). Its space is reserved in CSS
+// when JS is on, so the code does not jump down when the header appears.
+$code-head-h: 34px;
 .code-head {
+    position: absolute; top: 0; left: 0; right: 0;
+    height: $code-head-h;
     display: flex; align-items: center; justify-content: space-between;
-    padding: 5px 8px 5px 14px;
+    padding: 0 8px 0 14px;
     border-bottom: 1px solid var(--border);
     font-size: 12px; color: var(--text-3);
 }
+.js .prose div.highlighter-rouge { padding-top: $code-head-h; }
+.js .prose div.highlighter-rouge:has(pre.nocopy) { padding-top: 0; }
+.js .prose pre:not(.highlight):not(.nocopy) { padding-top: 14px + $code-head-h; }
+.js .prose .code-block { padding-top: $code-head-h; margin: 0 0 16px; }
+.js .prose .code-block pre:not(.highlight):not(.nocopy) { padding-top: 14px; }
 .copy-btn {
     display: inline-flex; align-items: center; gap: 6px;
     padding: 4px 8px; border: 0; border-radius: 6px;

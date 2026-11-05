@@ -53,56 +53,29 @@
 
   /* ---------- Sidebar: active page and open branch ---------- */
   function initSidebar() {
+    // Active item and open branch are set by the inline script in _includes/sidebar.html
+    // before first paint; here we only bring the active item into view.
     var sidebar = document.getElementById('sidebar');
-    var menuBtn = document.querySelector('.menu-btn');
-    var path = window.location.pathname.replace(/index\.html$/, '');
-    var active = null;
-
-    if (!sidebar) {
-      if (menuBtn) {
-        menuBtn.hidden = true;
-      }
-      return;
-    }
-
-    each(sidebar.querySelectorAll('a.side-link, .side-custom a'), function (a) {
-      if (a.getAttribute('href') === path) {
-        active = a;
-      }
-    });
-    if (!active) {
-      return;
-    }
-    active.classList.add('active');
-    active.setAttribute('aria-current', 'page');
-
-    // Open the sub-menu that belongs to the active item or contains it
-    var sub = active.closest('.side-sub') ||
-      (active.nextElementSibling && active.nextElementSibling.classList.contains('side-sub') ? active.nextElementSibling : null);
-    if (sub) {
-      sub.classList.add('open');
-    }
-
-    if (active.getBoundingClientRect().bottom > window.innerHeight - 40) {
+    var active = sidebar && sidebar.querySelector('a.active');
+    if (active && active.getBoundingClientRect().bottom > window.innerHeight - 40) {
       sidebar.scrollTop = active.offsetTop - sidebar.clientHeight / 3;
     }
   }
 
   /* ---------- On this page ---------- */
   function initToc() {
-    var docs = document.querySelector('.docs');
+    // The layout decides on the server whether the column is shown (no layout shift);
+    // here we only fill it in.
     var toc = document.querySelector('.toc');
     var article = document.querySelector('.prose');
-    if (!docs || !toc || !article) {
+    if (!toc || !article) {
       return;
     }
 
     var heads = Array.prototype.filter.call(article.querySelectorAll('h2[id], h3[id]'), function (h) {
-      return !h.classList.contains('no_toc') && !h.closest('#markdown-toc, .release, .products-group') && h.offsetParent !== null;
+      return !h.classList.contains('no_toc') && !h.closest('#markdown-toc, .release') && h.offsetParent !== null;
     });
-
-    if (heads.length < 2) {
-      docs.classList.add('no-toc');
+    if (!heads.length) {
       return;
     }
 
@@ -113,8 +86,6 @@
       var text = clone.textContent.trim().replace(/</g, '&lt;');
       return '<li class="lvl-' + h.tagName.charAt(1) + '"><a href="#' + h.id + '">' + text + '</a></li>';
     }).join('');
-    toc.hidden = false;
-    docs.classList.add('has-toc');
 
     var links = list.querySelectorAll('a');
     var ticking = false;

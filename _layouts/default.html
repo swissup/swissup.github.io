@@ -4,7 +4,23 @@
   {%- assign is_changelog = false -%}
   {%- assign url_tail = page.url | split: '/' | last -%}
   {%- if url_tail == 'changelog' -%}{%- assign is_changelog = true -%}{%- endif -%}
-  <body class="{{ page.body_class }}{% if page.layout_style %} layout-{{ page.layout_style }}{% endif %}{% if is_changelog %} changelog-page{% endif %}">
+  {%- comment -%}
+    Everything that changes the page grid is decided here, on the server,
+    so nothing moves after the page is shown (no layout shift).
+  {%- endcomment -%}
+  {%- assign sidebar_html = '' -%}
+  {%- assign show_toc = false -%}
+  {%- unless page.layout_style == 'home' -%}
+    {%- capture sidebar_html %}{% include sidebar.html %}{% endcapture -%}
+    {%- assign sidebar_html = sidebar_html | strip -%}
+    {%- unless page.toc == false or is_changelog -%}
+      {%- assign toc_h2 = content | split: '<h2 id=' | size | minus: 1 -%}
+      {%- assign toc_h3 = content | split: '<h3 id=' | size | minus: 1 -%}
+      {%- assign toc_count = toc_h2 | plus: toc_h3 -%}
+      {%- if toc_count >= 2 -%}{%- assign show_toc = true -%}{%- endif -%}
+    {%- endunless -%}
+  {%- endunless -%}
+  <body class="{{ page.body_class }}{% if page.layout_style %} layout-{{ page.layout_style }}{% endif %}{% if is_changelog %} changelog-page{% endif %}{% if sidebar_html == '' %} no-sidebar-page{% endif %}">
     <a class="skip-link" href="#main">Skip to content</a>
     {% include header.html %}
 
@@ -24,15 +40,17 @@
     {%- else -%}
       {%- assign rendered_content = content -%}
     {%- endif -%}
+    {%- if rendered_content contains '<img src="/' -%}
+      {%- include sized-images.html html=rendered_content -%}
+      {%- assign rendered_content = sized_html -%}
+    {%- endif -%}
 
     {%- if page.layout_style == 'home' -%}
       <main id="main" class="home">
         {{ rendered_content }}
       </main>
     {%- else -%}
-      {%- capture sidebar_html %}{% include sidebar.html %}{% endcapture -%}
-      {%- assign sidebar_html = sidebar_html | strip -%}
-      <div class="docs{% if sidebar_html == '' %} no-sidebar{% endif %}{% if page.toc == false %} no-toc{% endif %}">
+      <div class="docs{% if sidebar_html == '' %} no-sidebar{% endif %}{% if show_toc %} has-toc{% else %} no-toc{% endif %}">
         {{ sidebar_html }}
 
         <main id="main" class="article">
@@ -57,8 +75,8 @@
           {%- endunless -%}
         </main>
 
-        {%- unless page.toc == false -%}
-        <aside class="toc" aria-label="On this page" hidden>
+        {%- if show_toc -%}
+        <aside class="toc" aria-label="On this page">
           <div class="side-title">On this page</div>
           <ul></ul>
           {%- unless page.body_class contains 'no-edit' -%}
@@ -68,12 +86,12 @@
           </div>
           {%- endunless -%}
         </aside>
-        {%- endunless -%}
+        {%- endif -%}
       </div>
     {%- endif -%}
 
     {% include footer.html %}
 
-    <script src="{{ "/assets/all.js?v=25" | prepend: site.baseurl }}" defer></script>
+    <script src="{{ "/assets/all.js?v=26" | prepend: site.baseurl }}" defer></script>
   </body>
 </html>

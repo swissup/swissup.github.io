@@ -1,0 +1,24 @@
+{%- comment -%}
+  Adds the intrinsic size to <img> tags of local images, so the browser reserves
+  their space before they load (no layout shift). Sizes: _data/image_sizes.json,
+  regenerate with `node _scripts/image-sizes.mjs` after adding images.
+  - no width/height: adds width="" height=""
+  - width only (e.g. kramdown {:width="950"}): adds style="aspect-ratio: w / h"
+  - height already set: left as is
+  Params: html. Result: `sized_html`.
+{%- endcomment -%}
+{%- assign img_parts = include.html | split: '<img src="' -%}
+{%- capture sized_html -%}{{ img_parts[0] }}{%- for part in img_parts offset: 1 -%}
+  {%- assign img_path = part | split: '"' | first -%}
+  {%- assign img_tag = part | split: '>' | first -%}
+  {%- assign img_key = img_path | split: '?' | first | split: '#' | first -%}
+  {%- assign img_size = site.data.image_sizes[img_key] -%}
+  {%- assign img_rest = part | remove_first: img_path -%}
+  {%- if img_size == nil or img_tag contains 'height=' -%}
+    <img src="{{ part }}
+  {%- elsif img_tag contains 'width=' -%}
+    {%- if img_tag contains 'style=' -%}<img src="{{ part }}{%- else -%}<img src="{{ img_path }}" style="aspect-ratio: {{ img_size[0] }} / {{ img_size[1] }}{{ img_rest }}{%- endif -%}
+  {%- else -%}
+    <img src="{{ img_path }}" width="{{ img_size[0] }}" height="{{ img_size[1] }}{{ img_rest }}
+  {%- endif -%}
+{%- endfor -%}{%- endcapture -%}

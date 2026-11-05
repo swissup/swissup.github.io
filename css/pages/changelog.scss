@@ -1,3 +1,11 @@
+// Raw Markdown is hidden (space kept) until js/changelog.js has built the timeline.
+// The animation shows it anyway after 1.5 s in case the script fails.
+.js .changelog-page:not(.cl-ready) .prose {
+    visibility: hidden;
+    animation: cl-show 0s 1.5s forwards;
+}
+@keyframes cl-show { to { visibility: visible; } }
+
 // Changelog pages (url ends with /changelog/). Markdown: ### Version X / > date / list.
 // js/changelog.js turns it into a timeline; these rules also style the plain HTML.
 .changelog-page .prose {
