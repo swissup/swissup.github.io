@@ -34,8 +34,14 @@
 @media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .brand img { @include logo-dark; } }
 :root[data-theme="dark"] .brand img { @include logo-dark; }
 
+.header-left, .header-right {
+    flex: 1 1 0; min-width: 0;
+    display: flex; align-items: center; gap: 16px;
+}
+.header-right { justify-content: flex-end; }
+
 .nav-main {
-    display: flex; margin-left: 8px;
+    display: flex; flex: none;
     a {
         color: var(--text-2); font-size: 14px; font-weight: 500;
         // Links touch (no dead zone, no hover flicker); transparent border = visual gap
@@ -46,8 +52,6 @@
         &.active { color: var(--text); }
     }
 }
-.header-spacer { flex: 1; }
-
 .icon-btn {
     width: 36px; height: 36px; flex: none;
     display: grid; place-items: center;
@@ -71,7 +75,7 @@
     .menu-btn { display: grid; }
 }
 @media (max-width: 560px) {
-    .site-header .container { gap: 6px; }
+    .site-header .container, .header-left, .header-right { gap: 6px; }
     .brand-tag { display: none; }
     .brand img { width: 130px; }
 }
