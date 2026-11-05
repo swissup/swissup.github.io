@@ -1,0 +1,12 @@
+{%- comment -%} SEO Suite modules grid (m2/extensions/seo-suite/). Links are relative to that page. {%- endcomment -%}
+{%- assign seo_modules = "Canonical URLs|seo-canonical|bookmark;CrossLinks|seo-cross-links|arrowsLR;HTML Sitemap|seo-html-sitemap|map;Metadata Templates|seo-templates|layoutTemplate;Pagination|seo-pager|bookOpen;Regional and Language URLs|hreflang|languages;Rich Snippets|richsnippets|share;SEO Images|seo-images|image;SEO URLs|seo-urls|link;XML Sitemap|seo-xml-sitemap|code" | split: ";" -%}
+<nav class="seo-modules" aria-label="SEO Suite modules">
+  {%- for item in seo_modules -%}
+    {%- assign m = item | split: "|" -%}
+    {%- assign m_icon = m[2] -%}
+    <a class="seo-module" href="../{{ m[1] }}/">
+      <span class="seo-module-icon">{% include icon.html name=m_icon %}</span>
+      <span class="seo-module-name">{{ m[0] }}</span>
+    </a>
+  {%- endfor -%}
+</nav>

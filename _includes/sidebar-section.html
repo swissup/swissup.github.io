@@ -2,6 +2,7 @@
   Navigation menu of one documentation section, rendered once per section
   (include_cached from sidebar.html). Active/open state is set in js/docs.js.
   Params: root (section URL, e.g. /m2/extensions/ajaxpro/), area (m1, m2, shopware...)
+  A page with `nav_exclude: true` in its front matter is left out of the menu.
 {%- endcomment -%}
 {%- assign section_pages = site.pages | where_exp: "p", "p.url contains include.root" | sort: "url" -%}
   {%- assign root_page = section_pages | where: "url", include.root | first -%}
@@ -20,7 +21,7 @@
     {%- for p in section_pages -%}
       {%- assign rel = p.url | remove_first: include.root -%}
       {%- assign rel_size = rel | split: '/' | size -%}
-      {%- if rel_size == 1 and p.layout != 'redirect' -%}
+      {%- if rel_size == 1 and p.layout != 'redirect' and p.nav_exclude != true -%}
         {%- assign top_pages = top_pages | push: p -%}
       {%- endif -%}
     {%- endfor -%}
@@ -66,7 +67,7 @@
             {%- assign crel = c.url | remove_first: include.root -%}
             {%- assign crel_size = crel | split: '/' | size -%}
             {%- assign crel_top = crel | split: '/' | first | append: '/' -%}
-            {%- if crel_size == 2 and crel_top == rel and c.layout != 'redirect' -%}{%- assign children = children | push: c -%}{%- endif -%}
+            {%- if crel_size == 2 and crel_top == rel and c.layout != 'redirect' and c.nav_exclude != true -%}{%- assign children = children | push: c -%}{%- endif -%}
           {%- endfor -%}
           {%- if children.size > 0 -%}
             <div class="side-sub">

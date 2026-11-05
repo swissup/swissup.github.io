@@ -17,6 +17,13 @@
     &:hover { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
 }
 
+.btn-info {
+    background: var(--info-soft);
+    border-color: color-mix(in srgb, var(--info) 22%, transparent);
+    color: var(--info);
+    &:hover { background: var(--info); border-color: var(--info); color: var(--surface); }
+}
+
 .badge {
     display: inline-flex; align-items: center; gap: 5px;
     padding: 2px 8px; border-radius: 999px;

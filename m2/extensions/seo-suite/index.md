@@ -9,7 +9,7 @@ extension_id: seo-suite
 
 # SEO Suite
 
-![SEO Suite modules](/images/m2/seo-suite/modules.png){:class="noborder"}
+{% include extensions/seo-suite-modules.html %}
 
 SEO Suite is a toolkit to optimize your Magento 2 store for search engines.
 

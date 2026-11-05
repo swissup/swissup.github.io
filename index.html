@@ -12,50 +12,39 @@ body_class: no-anchors no-edit
     </a>
     <h1 class="fade-in" style="animation-delay:.05s">Documentation for SwissUpLabs modules&nbsp;and&nbsp;themes</h1>
     <p class="lead fade-in" style="animation-delay:.1s">Installation guides, configuration reference and changelogs for every SwissUpLabs extension and theme for Magento&nbsp;2.</p>
-    <button class="hero-search fade-in" style="animation-delay:.15s" type="button" data-action="search">
+    <label class="hero-search fade-in" style="animation-delay:.15s">
       {% include icon.html name='search' %}
-      <span>Search the docs…</span>
-      <kbd>⌘K</kbd>
-    </button>
+      <span class="sr-only">Find a product docs</span>
+      <input type="search" id="module-filter" placeholder="Find a product docs" aria-controls="module-grid" autocomplete="off">
+    </label>
   </div>
 </section>
 
 <section class="section" id="modules">
   <div class="container">
     {%- assign modules = '' | split: '' -%}
-    {%- assign categories = '' | split: '' -%}
     {%- for hash in site.data.extensions -%}
-      {%- if hash[1].urls.m2 -%}
-        {%- assign modules = modules | push: hash[1] -%}
-        {%- assign categories = categories | push: hash[1].category -%}
-      {%- endif -%}
+      {%- if hash[1].urls.m2 -%}{%- assign modules = modules | push: hash[1] -%}{%- endif -%}
     {%- endfor -%}
     {%- assign modules = modules | sort: 'title' -%}
-    {%- assign cat_names = categories | uniq | sort -%}
+    {%- assign themes = '' | split: '' -%}
+    {%- for hash in site.data.themes -%}
+      {%- if hash[1].urls.m2 -%}{%- assign themes = themes | push: hash[1] -%}{%- endif -%}
+    {%- endfor -%}
 
     <div class="section-head reveal">
       <div>
-        <h2>Modules</h2>
-        <p>{{ modules.size }} extensions for Magento 2. Filter by area or start typing.</p>
+        <h2>Swissup products</h2>
+        <p>{{ themes.size }} themes and {{ modules.size }} extensions for Magento 2.</p>
       </div>
-      <label class="mini-search">
-        {% include icon.html name='search' class='i-sm' %}
-        <input type="search" id="module-filter" placeholder="Filter modules…" aria-label="Filter modules">
-      </label>
-    </div>
-
-    <div class="toolbar reveal">
-      <div class="chips" id="cat-chips" role="group" aria-label="Category">
-        <button type="button" class="chip active" data-cat="all">All<span class="count">{{ modules.size }}</span></button>
-        {%- for c in cat_names -%}
-          {%- assign n = modules | where: 'category', c | size -%}
-          <button type="button" class="chip" data-cat="{{ c }}">{{ c }}<span class="count">{{ n }}</span></button>
-        {%- endfor -%}
-      </div>
-      <button type="button" class="chip" data-filter="hyva"><span class="badge badge-hyva" style="margin-right:4px">Hyvä</span>compatible</button>
+      <button type="button" class="chip" data-filter="hyva" aria-pressed="false"><span class="badge badge-hyva" style="margin-right:4px">Hyvä</span>compatible</button>
     </div>
 
     <div class="grid-cards" id="module-grid">
+      {%- comment -%} Themes first, then modules: all of them are filtered by the field above {%- endcomment -%}
+      {%- for theme in themes -%}
+        {%- include module-card.html extension=theme url=theme.urls.m2 -%}
+      {%- endfor -%}
       {%- for ext in modules -%}
         {%- include module-card.html extension=ext url=ext.urls.m2 -%}
       {%- endfor -%}

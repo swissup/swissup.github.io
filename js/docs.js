@@ -73,7 +73,8 @@
     }
 
     var heads = Array.prototype.filter.call(article.querySelectorAll('h2[id], h3[id]'), function (h) {
-      return !h.classList.contains('no_toc') && !h.closest('#markdown-toc, .release') && h.offsetParent !== null;
+      // Skip headings inside cards (module, design, edition cards): they are not page sections
+      return !h.classList.contains('no_toc') && !h.closest('#markdown-toc, .release, .card, .theme-card, .th-edition, .th-absolute') && h.offsetParent !== null;
     });
     if (!heads.length) {
       return;

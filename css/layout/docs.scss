@@ -32,7 +32,7 @@
     scrollbar-color: transparent transparent;
     &:hover { scrollbar-color: var(--border-strong) transparent; }
 }
-.side-group { margin-bottom: 22px; }
+.side-group { display: flex; flex-direction: column; gap: 2px; margin-bottom: 22px; }  // gap: highlighted items never touch
 .side-title {
     margin-bottom: 6px; padding: 0 10px;
     font-size: 11.5px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase;
@@ -50,7 +50,8 @@
     &.active svg { color: var(--accent); }
 }
 .side-sub {
-    margin: 2px 0 6px 19px; padding-left: 10px;
+    display: flex; flex-direction: column; gap: 2px;
+    margin: 0 0 4px 19px; padding-left: 10px;
     border-left: 1px solid var(--border);
     .side-link { font-size: 13.5px; padding: 4px 10px; }
 }
@@ -72,7 +73,7 @@
 .side-custom {
     font-size: 14px;
     h5, h4 { margin: 0 0 8px; padding: 0 10px; font-size: 11.5px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; color: var(--text-3); }
-    ul { list-style: none; margin: 0; padding: 0; }
+    ul { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 2px; }
     ul ul { margin: 2px 0 6px 19px; padding-left: 10px; border-left: 1px solid var(--border); }
     a { @extend .side-link; }
 }

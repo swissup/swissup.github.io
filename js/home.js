@@ -5,17 +5,15 @@
   var grid = document.getElementById('module-grid');
   if (grid) {
     var cards = Array.prototype.slice.call(grid.querySelectorAll('.card'));
-    var chips = document.getElementById('cat-chips');
     var input = document.getElementById('module-filter');
     var hyvaChip = document.querySelector('[data-filter="hyva"]');
     var empty = document.getElementById('module-empty');
-    var state = { cat: 'all', hyva: false, q: '' };
+    var state = { hyva: false, q: '' };
 
     var apply = function () {
       var shown = 0, q = state.q.toLowerCase();
       cards.forEach(function (card) {
-        var ok = (state.cat === 'all' || card.getAttribute('data-category') === state.cat) &&
-          (!state.hyva || card.hasAttribute('data-hyva')) &&
+        var ok = (!state.hyva || card.hasAttribute('data-hyva')) &&
           (!q || card.textContent.toLowerCase().indexOf(q) > -1);
         card.classList.toggle('is-hidden', !ok);
         if (ok) {
@@ -26,17 +24,11 @@
       empty.classList.toggle('show', !shown);
     };
 
-    chips.addEventListener('click', function (e) {
-      var b = e.target.closest('[data-cat]');
-      if (!b) { return; }
-      Array.prototype.forEach.call(chips.querySelectorAll('.chip'), function (c) { c.classList.toggle('active', c === b); });
-      state.cat = b.getAttribute('data-cat');
-      apply();
-    });
     if (hyvaChip) {
       hyvaChip.addEventListener('click', function () {
         state.hyva = !state.hyva;
         hyvaChip.classList.toggle('active', state.hyva);
+        hyvaChip.setAttribute('aria-pressed', state.hyva ? 'true' : 'false');
         apply();
       });
     }
@@ -45,12 +37,12 @@
       apply();
     });
     document.getElementById('reset-filters').addEventListener('click', function () {
-      state = { cat: 'all', hyva: false, q: '' };
+      state = { hyva: false, q: '' };
       input.value = '';
-      Array.prototype.forEach.call(document.querySelectorAll('#cat-chips .chip'), function (c) {
-        c.classList.toggle('active', c.getAttribute('data-cat') === 'all');
-      });
-      if (hyvaChip) { hyvaChip.classList.remove('active'); }
+      if (hyvaChip) {
+        hyvaChip.classList.remove('active');
+        hyvaChip.setAttribute('aria-pressed', 'false');
+      }
       apply();
     });
   }
