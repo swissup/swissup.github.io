@@ -60,6 +60,14 @@ a.badge:hover { color: var(--badge-fg); filter: brightness(.97); }
     .count { opacity: .55; margin-left: 4px; }
 }
 
+// Chip that starts with a badge: equal inset on top, bottom and left keeps
+// the inner and outer pill shapes concentric
+.chip-badge {
+    display: inline-flex; align-items: center; gap: 6px;
+    padding: 3px 12px 3px 3px;
+    .badge { padding: 3px 9px; }
+}
+
 .ico {
     width: 36px; height: 36px; flex: none;
     display: grid; place-items: center;

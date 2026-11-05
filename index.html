@@ -39,7 +39,7 @@ body_class: no-anchors no-edit
         {%- assign theme_count = themes.size | plus: site.data.argento.m2.themes.size | plus: site.data.argento.breeze.themes.size | plus: site.data.argento.hyva.themes.size -%}
         <p>{{ theme_count }} themes and {{ modules.size }} extensions for Magento 2.</p>
       </div>
-      <button type="button" class="chip" data-filter="hyva" aria-pressed="false" tabindex="-1"><span class="badge badge-hyva" style="margin-right:4px">Hyvä</span>compatible</button>
+      <button type="button" class="chip chip-badge" data-filter="hyva" aria-pressed="false" tabindex="-1"><span class="badge badge-hyva">Hyvä</span>compatible</button>
     </div>
 
     <div class="grid-cards" id="module-grid">
