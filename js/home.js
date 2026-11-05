@@ -15,6 +15,7 @@
     };
     cards.forEach(function (card) {
       card.setAttribute('data-search', normalize(card.textContent));
+      card.setAttribute('data-title', normalize(card.querySelector('h3').textContent));
     });
     var input = document.getElementById('module-filter');
     var hyvaChip = document.querySelector('[data-filter="hyva"]');
@@ -23,9 +24,28 @@
 
     var apply = function () {
       var shown = 0, q = normalize(state.q);
+      // Typos like "agento force": if nothing contains the query, accept cards whose
+      // title has its letters in order (only for queries of 5+ letters)
+      var contains = function (card) { return card.getAttribute('data-search').indexOf(q) > -1; };
+      var inOrder = function (card) {
+        var text = card.getAttribute('data-title'), pos = 0;
+        for (var i = 0; i < q.length; i++) {
+          pos = text.indexOf(q.charAt(i), pos);
+          if (pos < 0) { return false; }
+          pos++;
+        }
+        return true;
+      };
+      var match = contains;
+      if (q.length >= 5 && !cards.some(function (c) { return contains(c) && (!state.hyva || c.hasAttribute('data-hyva')); })) {
+        match = inOrder;
+      }
       cards.forEach(function (card) {
+        // Argento designs (.card-extra) appear only in search results
+        var extra = card.classList.contains('card-extra');
         var ok = (!state.hyva || card.hasAttribute('data-hyva')) &&
-          (!q || card.getAttribute('data-search').indexOf(q) > -1);
+          (q ? match(card) : !extra);
+        card.hidden = extra && !ok;
         card.classList.toggle('is-hidden', !ok);
         if (ok) {
           shown++;

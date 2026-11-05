@@ -35,7 +35,9 @@ body_class: no-anchors no-edit
     <div class="section-head reveal">
       <div>
         <h2>Swissup products</h2>
-        <p>{{ themes.size }} themes and {{ modules.size }} extensions for Magento 2.</p>
+        {%- comment -%} Themes plus all their designs (Argento Luma, Breeze and Hyvä designs) {%- endcomment -%}
+        {%- assign theme_count = themes.size | plus: site.data.argento.m2.themes.size | plus: site.data.argento.breeze.themes.size | plus: site.data.argento.hyva.themes.size -%}
+        <p>{{ theme_count }} themes and {{ modules.size }} extensions for Magento 2.</p>
       </div>
       <button type="button" class="chip" data-filter="hyva" aria-pressed="false" tabindex="-1"><span class="badge badge-hyva" style="margin-right:4px">Hyvä</span>compatible</button>
     </div>
@@ -44,6 +46,26 @@ body_class: no-anchors no-edit
       {%- comment -%} Themes first, then modules: all of them are filtered by the field above {%- endcomment -%}
       {%- for theme in themes -%}
         {%- include module-card.html extension=theme url=theme.urls.m2 -%}
+      {%- endfor -%}
+      {%- comment -%}
+        Argento designs (e.g. "Argento Force", "Argento Breeze Chic"): hidden in the list,
+        shown only when the search matches them (see js/home.js, .card-extra)
+      {%- endcomment -%}
+      {%- assign design_groups = "m2|Argento|Argento Luma design;breeze|Argento Breeze|Argento Breeze design;hyva|Argento Hyvä|Argento Hyvä design" | split: ";" -%}
+      {%- for g in design_groups -%}
+        {%- assign gp = g | split: "|" -%}
+        {%- assign group_key = gp[0] -%}
+        {%- assign group = site.data.argento[group_key] -%}
+        {%- for d in group.themes -%}
+          <a class="card card-extra" href="{{ d.url | prepend: site.baseurl }}" data-category="Design"{% if group_key == 'hyva' %} data-hyva{% endif %} hidden>
+            <div class="card-top">
+              <span class="ico">{% include icon.html name='palette' %}</span>
+              <div><h3>{{ gp[1] }} {{ d.title }}</h3><div class="meta">{{ gp[2] }}</div></div>
+            </div>
+            {%- if group_key == 'hyva' -%}<div class="badges"><span class="badge badge-hyva">Hyvä compatible</span></div>{%- endif -%}
+            <span class="go">{% include icon.html name='arrowRight' class='i-sm' %}</span>
+          </a>
+        {%- endfor -%}
       {%- endfor -%}
       {%- for ext in modules -%}
         {%- include module-card.html extension=ext url=ext.urls.m2 -%}

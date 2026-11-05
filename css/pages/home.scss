@@ -84,7 +84,7 @@
         transition: all .2s var(--ease);
     }
     &:hover .go { opacity: 1; transform: none; color: var(--accent); }
-    &.is-hidden { display: none; }
+    &.is-hidden, &[hidden] { display: none; }
 }
 .grid-cards.compact {
     grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 10px;
