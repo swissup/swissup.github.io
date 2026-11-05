@@ -13,6 +13,12 @@ category: Breeze Content Builder
 
 ## Breeze Content Builder
 
+### 1.2.11
+
+ -  YouTube and Vimeo embeds no longer rely on Magento_ProductVideo or Magento_PageBuilder for their Content Security Policy: Content Builder whitelists `www.youtube-nocookie.com`, `www.youtube.com`, `player.vimeo.com` and `i.ytimg.com` itself, so videos keep playing when those modules are disabled
+ -  Products is described as live catalog items with price and add-to-cart button, so Breeze AI builds price-less picture cards as Banners
+ -  Banner, Video, Accordion, Tabs and Running line templates now receive prepared values from a view model; output is unchanged, but compare any theme override of these templates with the new versions
+
 ### 1.2.10
 
  -  The editor preview now renders in the storefront theme's context, preparing Content Builder for Hyvä and other non-Breeze themes; the preview script falls back to plain DOM events when Breeze is absent
