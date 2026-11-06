@@ -9,3 +9,9 @@ There are several ways to install extension:
     -   Or, you can manually download and unpack composer archive and then run
         [Install](manual/) or
         [Update](manual-update/) commands.
+{%- assign hyva_path = page.path | replace: 'installation/index.md', 'installation.md' | replace: 'installation.md', 'installation/hyva.md' -%}
+{%- assign hyva_page = site.pages | where: 'path', hyva_path | first -%}
+{%- if hyva_page %}
+ 3. If your store uses the Hyvä Theme - use
+    [Hyvä installation instructions](hyva/)
+{%- endif %}

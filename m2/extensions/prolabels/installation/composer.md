@@ -9,7 +9,7 @@ exclude_from_search: true
 
 # Installation
 
-{% include installation/m2/composer.html package="swissup/pro-labels" hyva_package="swissup/hyva-pro-labels" %}
+{% include installation/m2/composer.html package="swissup/pro-labels" %}
 
 ###### After installing the extension you can go to:
 

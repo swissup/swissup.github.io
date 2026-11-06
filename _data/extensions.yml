@@ -884,7 +884,7 @@ social-login:
   category: Customers
   icon: user
   short_description:
-  hyva:
+  hyva: true
   urls:
     m1:
     m2: /m2/extensions/social-login/

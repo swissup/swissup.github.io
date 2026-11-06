@@ -1,0 +1,49 @@
+{%- comment -%} Params: package (Hyvä compatibility package(s)), tailwind ('false' when the package has no templates) {%- endcomment -%}
+{% include hyva-compatibility.html %}
+
+## Prepare to install
+
+Installation requires Marketplace module. It’s our module that
+registers our packages repository in composer.json file, saves its credentials
+to the auth.json file, automates a bunch of complex commands required to run
+prior and after module installation, and provides easy to use module installer.
+
+```bash
+composer require swissup/module-marketplace &&\
+bin/magento setup:upgrade --safe-mode=1 &&\
+bin/magento marketplace:channel:enable swissuplabs
+```
+
+You'll be asked to activate your domain and enter your key. Get identity key(s)
+and activate the domain on the site where you’ve purchased the product:
+
+ -  [argentotheme.com](https://argentotheme.com/license/customer/activation/)
+ -  [firecheckout.net](https://firecheckout.net/license/customer/activation/)
+ -  [swissuplabs.com](https://swissuplabs.com/license/customer/activation/)
+
+## Install
+
+Install the Hyvä compatibility module. The extension itself is installed
+automatically as its dependency:
+
+```bash
+composer require {{ include.package }} &&\
+bin/magento setup:upgrade --safe-mode=1 &&\
+bin/magento setup:di:compile{% if include.tailwind != 'false' %}
+```
+{% include installation/m2/hyva-tailwind.html %}
+```bash{% else %} &&\{% endif %}
+bin/magento setup:static-content:deploy
+```
+
+## Update
+
+```bash
+composer update {{ include.package }} -w &&\
+bin/magento setup:upgrade --safe-mode=1 &&\
+bin/magento setup:di:compile{% if include.tailwind != 'false' %}
+```
+{% include installation/m2/hyva-tailwind.html %}
+```bash{% else %} &&\{% endif %}
+bin/magento setup:static-content:deploy
+```

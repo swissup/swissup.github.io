@@ -1,0 +1,13 @@
+
+<strong>Before deploying static content, rebuild your Hyvä theme styles:</strong>
+
+```bash
+cd <theme_path>/web/tailwind
+npm ci
+npm run build
+```
+
+Replace `<theme_path>` with the directory of the Hyvä theme your store uses,
+e.g. `app/design/frontend/<Vendor>/<theme>`.
+
+<strong>Then return to the Magento root and deploy static content:</strong>

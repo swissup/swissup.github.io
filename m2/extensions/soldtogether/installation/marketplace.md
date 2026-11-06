@@ -9,7 +9,7 @@ exclude_from_search: true
 
 # Installation from Marketplace
 
-{% include installation/m2/marketplace.html package="swissup/sold-together" hyva_package="swissup/hyva-soldtogether" %}
+{% include installation/m2/marketplace.html package="swissup/sold-together" %}
 
 ###### After installing the extension you can go to:
 

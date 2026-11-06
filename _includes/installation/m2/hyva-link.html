@@ -1,0 +1,12 @@
+{%- comment -%} Links to installation/hyva.md next to the current page, if it exists. Params: anchor (optional, e.g. 'update') {%- endcomment -%}
+{%- assign hyva_path = page.path | split: '/' | pop | push: 'hyva.md' | join: '/' -%}
+{%- assign hyva_page = site.pages | where: 'path', hyva_path | first -%}
+{%- if hyva_page %}
+
+<div class="hyva-section" markdown="1">
+{% include installation/m2/hyva-section-title.html %}
+
+Using the Hyvä Theme? Follow the [Hyvä {% if include.anchor == 'update' %}update{% else %}installation{% endif %} instructions]({{ hyva_page.url | prepend: site.baseurl }}{% if include.anchor %}#{{ include.anchor }}{% endif %}) instead.
+
+</div>
+{% endif -%}

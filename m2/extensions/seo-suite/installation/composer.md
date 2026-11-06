@@ -10,7 +10,6 @@ exclude_from_search: true
 # Installation
 
 {% include installation/m2/composer.html package="swissup/seo-suite" %}
-{% include installation/m2/hyva-seo-suite.html %}
 
 ## Complete the installation
 

@@ -9,7 +9,7 @@ exclude_from_search: true
 
 # Installation from Marketplace
 
-{% include installation/m2/marketplace.html package="swissup/highlight" hyva_package="swissup/hyva-highlight" %}
+{% include installation/m2/marketplace.html package="swissup/highlight" %}
 
 ## Complete the installation
 

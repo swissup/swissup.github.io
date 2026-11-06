@@ -10,7 +10,6 @@ exclude_from_search: true
 # Manual Installation
 
 {% include installation/m2/manual.html package="swissup/seo-suite" %}
-{% include installation/m2/hyva-seo-suite.html %}
 
 ## Complete the installation
 

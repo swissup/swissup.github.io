@@ -9,7 +9,7 @@ exclude_from_search: true
 
 # Installation
 
-{% include installation/m2/composer.html package="swissup/sold-together" hyva_package="swissup/hyva-soldtogether" %}
+{% include installation/m2/composer.html package="swissup/sold-together" %}
 
 ## Build relations
 

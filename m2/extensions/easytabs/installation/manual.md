@@ -10,7 +10,7 @@ exclude_from_search: true
 
 # Manual Installation
 
-{% include installation/m2/manual.html package="swissup/easytabs" hyva_package="swissup/hyva-easytabs" %}
+{% include installation/m2/manual.html package="swissup/easytabs" %}
 
 ## Complete the installation
 
