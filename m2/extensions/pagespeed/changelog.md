@@ -8,6 +8,19 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.21.6
+
+> November 9, 2026
+
+#### Fixed
+
+- **Uncached page time the profiler could not explain** *(#151, closes #150)*: after 1.21.5 a reported product page still spent about 240 ms in PageSpeed, and the Magento Profiler gave no breakdown by optimizer. Two hidden costs are removed. Finding where each inline script ends before DOM parsing walked every script byte by byte (17 ms on a 97 KB page, now under 2 ms). JSMin ran on every `text/x-magento-init` block, spending 20 ms on 39 blocks to save about 370 bytes gzipped; these JSON blocks are now left as they are. Processing of the reported page dropped by about a quarter in local tests. Each optimizer now always has its own Magento Profiler section (`<Optimizer>::processContext`), as do `DomManager.escapeScriptTags`, `DomManager.createTrackedDocument` and `Pipeline.getHtml`, without enabling debug mode.
+- **Scripts merged with the HTML after them** *(#154, closes #153)*: a quote inside a JavaScript regular expression (for example `/'/`) or a closing tag written as `</script >` could make PageSpeed read the following HTML, and the next script, as part of one script, so optimizers worked on the wrong elements. Scripts now end exactly where the browser ends them, which also makes this step faster again.
+
+**Behaviour changes:** `text/x-magento-init` blocks keep their whitespace, so pages grow by a few KB raw (a few hundred bytes gzipped). A `</script>` written inside a JavaScript string now ends the script during processing, as it already does in the browser.
+
+---
+
 ### Version 1.21.5
 
 > November 4, 2026
