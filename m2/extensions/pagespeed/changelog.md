@@ -8,6 +8,19 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.21.7
+
+> November 10, 2026
+
+#### Fixed
+
+- **Broken HTML around nested WebP images** *(#158, closes #157)*: with `pagespeed/image/optimize_webp_picture_add` and `pagespeed/image/optimize_webp_js_replace` both enabled, a block holding an image inside a nested wrapper followed by an image placed directly in the block came out damaged: the nested image kept its original `src` and got no `<picture>`, and the tail of the block was printed a second time after its closing tag. The saved HTML of a parent element went stale when an image inside it was changed later, so the parent was written back over that change. Parent HTML is now brought up to date with later changes of the images inside it, and an image moved into a new element is tracked at its new place. On a synthetic product page with 82 images, all 82 now get a `<picture>` (79 before).
+- **HTML patching time on pages with many WebP images** *(#156, closes #155)*: merging the new `<picture>` elements back into the page compared every new element with every other one. Each element is now compared only with the elements that contain it. In a local test of this change on the same 82-image page, grouping of patches dropped from about 11 ms to 1.4 ms, and from 4.1 ms to 0.8 ms on a real homepage fixture.
+
+**Behaviour changes:** when a parent element holds two identical pieces of markup and PageSpeed cannot tell which one was changed, it no longer guesses: the page is written from the parsed document instead of being patched, the same fallback as for invalid HTML.
+
+---
+
 ### Version 1.21.6
 
 > November 9, 2026
