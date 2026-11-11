@@ -8,6 +8,21 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.21.8
+
+> November 11, 2026
+
+#### Performance
+
+- **WebP lookups done once per image URL** *(#160, closes #159)*: when PageSpeed replaces images with WebP, it checked the disk for the `.webp` file of the same image URL every time it met that URL during a request. The result, including "no WebP file", is now remembered for the rest of the request. On a synthetic page with 82 images, the WebP step dropped from 7.5 ms to 4.7 ms with `pagespeed/image/optimize_webp_js_replace` enabled; on a local product page without WebP files, from 7.9 ms to 2.2 ms.
+- **Faster HTML patching of `<img>`, `<link>` and other void elements** *(#162, closes #161)*: PageSpeed writes its changes back into the original page HTML at the position it recorded for each element, but only used that position when the markup there was byte for byte what the HTML parser produces. Magento templates often write these tags with attributes on separate lines, a closing ` />` or encoded characters in attribute values, so about half of the changes fell back to a search that scans every tag of that name in the page. Such a tag at the recorded position is now recognised by its name and attributes. On local product, home and category pages the fallback search ran for 4–7 changes instead of 13–20, and applying changes to the HTML took 0.8–1.2 ms instead of 1.3–1.8 ms; the page output is byte-identical.
+
+#### Added
+
+- **Profiler sections for HTML minification** *(#162)*: `BodyHtml.minify`, `BodyHtml.minify.js` and `BodyHtml.minify.css` show how much of the HTML optimizer's time goes to minifying the page, its inline scripts and its inline styles.
+
+---
+
 ### Version 1.21.7
 
 > November 10, 2026
