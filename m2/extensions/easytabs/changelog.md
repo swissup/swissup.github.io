@@ -8,11 +8,38 @@ category: Easy Tabs
 
 # Changelog
 
-### Version 1.13.5
+### Version 1.14.1
+
+> November 12, 2026
+
+ -  Fixed: tabs set to "Load content with ajax" were still rendered on the server and the markup thrown away, so the page paid for such a tab twice - once while building the page, and again when the browser requested it. Related, Upsell and Cross-sell tabs are the usual victims: on one store they accounted for 117 ms of the 179 ms spent on the whole tabs block. Empty tabs are still hidden - product list tabs are now asked for their item count instead of their markup.
+ -  Related, Upsell and Cross-sell tabs created by the extension installer now default to "Load content with ajax". Tabs that already exist in your store are not changed.
+ -  Note: an ajax tab is not part of the server-rendered HTML, so links to related, upsell and cross-sell products are not in the page source for crawlers. If internal linking to those products matters to you, uncheck "Load content with ajax" for those tabs in Swissup > General > Easy Tabs.
+
+### Version 1.14.0
+
+> October 19, 2026
+
+ -  Fixed stale full page cache: new or enabled tabs now appear on already cached pages, ajax tab responses carry product cache tags, and GraphQL `getEasyTab` responses carry CMS block cache tags.
+ -  Fixed mass "Enable"/"Disable" in the Easy Tabs grid skipping widget tabs.
+ -  Fixed tab content being double-encoded in the "Content id/code" field when an extension installer updated an existing tab.
+ -  Cached the "no tabs" result, so a page without tabs no longer repeats the same tab query.
+ -  Fixed guest customers failing tab condition validation when the session carried no customer group.
+ -  Ajax tabs: tightened which tab a request may load and how its parameters are read, and the controller now checks that the requested product is really available before rendering.
+ -  Fixed a JavaScript error thrown when tabs were removed from the page, tab anchors containing special characters or umlauts, and the previous/next scroll buttons on the tab strip.
+ -  Fixed the missing `aria-level` attribute on tab headings in the expanded layout, in both the default theme and Breeze.
+
+### Version 1.13.6
 
 > October 8, 2026
 
  -  Security: Medium — strengthened product and tab visibility enforcement across storefront interfaces.
+
+### Version 1.13.5
+
+> October 5, 2026
+
+ -  Fixed the ARIA tablist markup in the expanded and accordion layouts.
 
 ### Version 1.13.4
 
