@@ -12,8 +12,6 @@ exclude_from_search: true
 
 {% include installation/m2/hyva.html package="swissup/module-gdpr-hyva" %}
 
-## Complete the installation
-
 Navigate to `Stores > Configuration` and
 [enable GDPR module](/m2/extensions/gdpr/configuration/).
 

@@ -12,6 +12,8 @@ exclude_from_search: true
 {% include installation/m2/manual.html package="swissup/search-mysql-legacy" %}
 
 
+{% include installation/m2/manual-update.html package="swissup/search-mysql-legacy" %}
+
 ##### Next up
 
 Great! Now you might want to see next:

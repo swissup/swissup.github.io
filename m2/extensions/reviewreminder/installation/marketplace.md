@@ -12,8 +12,6 @@ exclude_from_search: true
 {% include installation/m2/marketplace.html package="swissup/reviewreminder" %}
 {% include installation/m2/hyva-no-extra.html %}
 
-### Complete the installation
-
 Navigate to `Stores > Configuration > Swissup > Review Reminder` and
 enable extension for any store you need.
 

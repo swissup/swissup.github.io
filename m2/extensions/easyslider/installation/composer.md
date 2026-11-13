@@ -13,6 +13,8 @@ exclude_from_search: true
 
 {% include installation/m2/composer.html package="swissup/easy-slide" %}
 
+{% include installation/m2/composer-update.html package="swissup/easy-slide" %}
+
 ##### Next Up
 
  -  [Admin interfaces](../../interfaces/)

@@ -12,8 +12,6 @@ exclude_from_search: true
 {% include installation/m2/marketplace.html package="swissup/checkout-cart" %}
 {% include installation/m2/hyva-checkout.html %}
 
-## Complete the installation
-
 Navigate to `Stores > Configuration > Swissup Checkout > Checkout Cart`. Enable and configure the extension.
 
 #### After installing the extension, you can go to:

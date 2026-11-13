@@ -17,6 +17,8 @@ exclude_from_search: true
 curl -s https://gist.githubusercontent.com/0m3r/a39f76844c465ff1e67d36eaff70592a/raw/634891ed22f2fe3febe806d8eeab0bd9884c6c9b/configure | bash -s
 ```
 
+{% include installation/m2/manual-update.html package="swissup/pagespeed" %}
+
 ##### Next up
 
 Great! Now you might want to see next:

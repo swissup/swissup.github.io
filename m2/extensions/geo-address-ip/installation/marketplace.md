@@ -12,7 +12,5 @@ exclude_from_search: true
 {% include installation/m2/marketplace.html package="swissup/geoip" %}
 {% include installation/m2/hyva-no-extra.html %}
 
-## Complete installation
-
 Navigate to [module configuration](/m2/extensions/geo-address-ip/configuration/) to
 enable and configure the module.

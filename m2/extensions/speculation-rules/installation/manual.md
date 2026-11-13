@@ -12,6 +12,8 @@ exclude_from_search: true
 {% include installation/m2/manual.html package="swissup/module-speculation-rules" %}
 
 
+{% include installation/m2/manual-update.html package="swissup/module-speculation-rules" %}
+
 ##### Next up
 
 Great! Now you might want to see next:

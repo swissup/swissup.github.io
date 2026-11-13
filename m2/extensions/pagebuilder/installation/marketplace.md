@@ -11,8 +11,6 @@ exclude_from_search: true
 
 {% include installation/m2/marketplace.html package="swissup/pagebuilder" %}
 
-## Complete the installation
-
 Navigate to `Stores > Configuration` and
 [enable Pagebuilder module](/m2/extensions/pagebuilder/configuration/).
 

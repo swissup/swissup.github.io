@@ -13,3 +13,5 @@ exclude_from_search: true
 ## That's all. Navigate to you store to check your new theme:
 
 ![Homepage screenshot](/images/m2/themes/absolute/absolute_homepage.png)
+
+{% include installation/m2/manual-update.html package="swissup/absolute-metapackage" %}

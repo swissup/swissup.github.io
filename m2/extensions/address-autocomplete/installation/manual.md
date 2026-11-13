@@ -12,9 +12,9 @@ exclude_from_search: true
 {% include installation/m2/manual.html package="swissup/address-autocomplete" %}
 {% include installation/m2/hyva-no-extra.html %}
 
-## Complete the installation
-
 Navigate to _Stores > Configuration_ and enter your [api key](/m2/extensions/address-autocomplete/get-api-key/).
+
+{% include installation/m2/manual-update.html package="swissup/address-autocomplete" %}
 
 #### Next Up
 

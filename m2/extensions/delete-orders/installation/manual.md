@@ -10,6 +10,8 @@ category: Delete Order
 {% include installation/m2/manual.html package="swissup/module-delete-orders" %}
 {% include installation/m2/hyva-no-extra.html %}
 
+{% include installation/m2/manual-update.html package="swissup/module-delete-orders" %}
+
 ##### Next up
 
 - [Back to docs homepage](/m2/extensions/delete-orders/)

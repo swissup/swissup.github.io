@@ -12,8 +12,6 @@ exclude_from_search: true
 
 {% include installation/m2/composer.html package="swissup/easytabs" %}
 
-## Complete the installation
-
 Right after installation you'll see no differences on product page, three default
 magento 2 tabs will be displayed. You can change it in [Easytabs Grid][easytabs_grid]
 
@@ -22,3 +20,5 @@ magento 2 tabs will be displayed. You can change it in [Easytabs Grid][easytabs_
 * [Easytabs Grid][easytabs_grid]
 
 [easytabs_grid]: /m2/extensions/easytabs/#easytabs-grid
+
+{% include installation/m2/composer-update.html package="swissup/easytabs" %}

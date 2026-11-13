@@ -11,8 +11,6 @@ exclude_from_search: true
 
 {% include installation/m2/manual.html package="swissup/testimonials" %}
 
-## Complete the installation
-
 Now you can add testimonials from admin in [Testimonials Grid][testimonials_grid] and place [Widgets][widgets]
 
 #### After installing the extension you can go to:
@@ -24,3 +22,5 @@ Now you can add testimonials from admin in [Testimonials Grid][testimonials_grid
 [testimonials_grid]: /m2/extensions/testimonials/admin-interfaces/#testimonials-grid
 [widgets]: /m2/extensions/testimonials/widgets
 [configuration]: /m2/extensions/testimonials/configuration
+
+{% include installation/m2/manual-update.html package="swissup/testimonials" %}

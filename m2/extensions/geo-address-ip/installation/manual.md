@@ -12,7 +12,7 @@ exclude_from_search: true
 {% include installation/m2/manual.html package="swissup/geoip" %}
 {% include installation/m2/hyva-no-extra.html %}
 
-## Complete installation
-
 Navigate to [module configuration](/m2/extensions/geo-address-ip/configuration/) to
 enable and confogure the module.
+
+{% include installation/m2/manual-update.html package="swissup/geoip" %}

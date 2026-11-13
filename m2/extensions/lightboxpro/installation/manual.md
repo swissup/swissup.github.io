@@ -11,6 +11,8 @@ exclude_from_search: true
 
 {% include installation/m2/manual.html package="swissup/lightboxpro" %}
 
+{% include installation/m2/manual-update.html package="swissup/lightboxpro" %}
+
 #### Next up
 
  -  [Configuration](/m2/extensions/lightboxpro/configuration/)

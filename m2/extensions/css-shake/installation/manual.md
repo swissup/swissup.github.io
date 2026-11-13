@@ -10,10 +10,10 @@ exclude_from_search: true
 
 {% include installation/m2/manual.html package="swissup/css-shake" %}
 
-## Complete the installation
-
 Navigate to `Stores > Configuration` and
 [enable CSS Shake](/m2/extensions/css-shake/configuration/) module.
+
+{% include installation/m2/manual-update.html package="swissup/css-shake" %}
 
 #### Next up
 

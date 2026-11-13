@@ -11,8 +11,6 @@ exclude_from_search: true
 
 {% include installation/m2/marketplace.html package="swissup/seo-suite" %}
 
-## Complete the installation
-
 Login your store admin and enable extensions in magento configuration. Under section 'Swissup SEO' you can find all SEO related extensions.
 
 ##### Next up

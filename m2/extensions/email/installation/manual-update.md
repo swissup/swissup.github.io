@@ -1,11 +1,5 @@
 ---
-layout: default
-title: Email update
-description: Email update instructions
-category: Email
+layout: redirect
+redirect_to: /m2/extensions/email/installation/manual/#update
 exclude_from_search: true
 ---
-
-# Manual Update
-
-{% include installation/m2/manual-update.html package="swissup/email" %}

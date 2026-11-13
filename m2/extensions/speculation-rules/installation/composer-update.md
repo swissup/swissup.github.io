@@ -1,11 +1,5 @@
 ---
-layout: default
-title: Speculation Rules update via Composer
-description: Speculation Rules update instructions
-category: Speculation Rules
+layout: redirect
+redirect_to: /m2/extensions/speculation-rules/installation/composer/#update
 exclude_from_search: true
 ---
-
-# Update Instructions
-
-{% include installation/m2/composer-update.html package="swissup/module-speculation-rules" %}

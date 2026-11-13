@@ -11,9 +11,9 @@ exclude_from_search: true
 
 {% include installation/m2/composer.html package="swissup/helpdesk" %}
 
-## Complete the installation
-
 [Configuration](/m2/extensions/helpdesk/configuration/).
+
+{% include installation/m2/composer-update.html package="swissup/helpdesk" %}
 
 #### Next up
 

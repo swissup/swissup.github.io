@@ -21,6 +21,8 @@ Navigate to you store with `?amp=1` parameter in url to check how it looks.
 
 {% include gallery.html images=site.data.gallery.m2.amp.index class="phone-up-2 tablet-up-3 photoswipe scroll" %}
 
+{% include installation/m2/manual-update.html package="swissup/amp" %}
+
 ##### Next Up
 {:.no_toc}
 

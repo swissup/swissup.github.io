@@ -10,9 +10,9 @@ exclude_from_search: true
 
 {% include installation/m2/composer.html package="swissup/ajaxpro" %}
 
-## Complete the installation
-
 [Configuration](/m2/extensions/ajaxpro/#configuration/).
+
+{% include installation/m2/composer-update.html package="swissup/ajaxpro" %}
 
 #### Next up
 

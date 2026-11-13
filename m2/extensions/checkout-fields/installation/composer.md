@@ -11,3 +11,5 @@ exclude_from_search: true
 
 {% include installation/m2/composer.html package="swissup/product-checkout-fields" %}
 {% include installation/m2/hyva-checkout.html %}
+
+{% include installation/m2/composer-update.html package="swissup/product-checkout-fields" %}

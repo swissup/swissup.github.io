@@ -12,8 +12,6 @@ exclude_from_search: true
 
 {% include installation/m2/hyva.html package="swissup/hyva-askit" %}
 
-## Complete the installation
-
 [Configuration](/m2/extensions/askit/#settings/).
 
 #### Next up

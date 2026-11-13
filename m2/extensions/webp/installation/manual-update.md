@@ -1,11 +1,5 @@
 ---
-layout: default
-title: Webp update
-description: Webp update instructions
-category: Webp
+layout: redirect
+redirect_to: /m2/extensions/webp/installation/manual/#update
 exclude_from_search: true
 ---
-
-# Manual Update
-
-{% include installation/m2/manual-update.html package="swissup/webp" %}

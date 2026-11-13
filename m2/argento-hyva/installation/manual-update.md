@@ -1,17 +1,5 @@
 ---
-layout: default
-title: ArgentoHyva Manual Update
-description: How to manually update ArgentoHyva
-category: ArgentoHyva
+layout: redirect
+redirect_to: /m2/argento-hyva/installation/manual/#update
 exclude_from_search: true
 ---
-
-# Manual Update
-
-{% include installation/m2/manual-update.html package="swissup/argento-hyva" %}
-
-##### Next up
-{:.no_toc}
-
- -  [Installation instructions](../)
- -  [Back to Main Page](../../)

@@ -12,6 +12,4 @@ exclude_from_search: true
 {% include installation/m2/marketplace.html package="swissup/product-taxvat" %}
 {% include installation/m2/hyva-checkout.html %}
 
-## Complete the installation
-
 Enable and configure extension in `Stores > Configuration > Swissup Checkout > Tax VAT`.

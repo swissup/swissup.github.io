@@ -15,3 +15,5 @@ exclude_from_search: true
 
 * [Configuration](../../configuration/)
 * [Admin Interface](../../interfaces/)
+
+{% include installation/m2/composer-update.html package="swissup/pro-labels" %}

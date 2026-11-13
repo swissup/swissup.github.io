@@ -11,9 +11,9 @@ exclude_from_search: true
 
 {% include installation/m2/manual.html package="swissup/seo-html-sitemap" %}
 
-## Complete the installation
-
 Login your store admin and start to [configure extension](/m2/extensions/seo-html-sitemap/configuration/).
+
+{% include installation/m2/manual-update.html package="swissup/seo-html-sitemap" %}
 
 ##### Next up
 

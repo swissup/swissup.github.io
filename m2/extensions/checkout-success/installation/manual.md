@@ -12,6 +12,6 @@ exclude_from_search: true
 {% include installation/m2/manual.html package="swissup/product-checkout-success" %}
 {% include installation/m2/hyva-checkout.html %}
 
-## Complete the installation
-
 Navigate to `Stores > Configuration > Swissup Checkout > Success Page`. Enable and configure the extension.
+
+{% include installation/m2/manual-update.html package="swissup/product-checkout-success" %}

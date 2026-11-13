@@ -1,15 +1,5 @@
 ---
-layout: default
-title: Customer Field Manager Update
-description: Customer Field Manager module update
-category: Customer Field Manager
+layout: redirect
+redirect_to: /m2/extensions/customer-field-manager/installation/manual/#update
 exclude_from_search: true
 ---
-
-# Manual Update
-
-{% include installation/m2/manual-update.html package="swissup/product-customer-field-manager" %}
-
-#### Next up
-
- -  [Back to Main Page](../../)

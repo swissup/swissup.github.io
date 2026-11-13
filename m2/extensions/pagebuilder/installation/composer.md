@@ -11,10 +11,10 @@ exclude_from_search: true
 
 {% include installation/m2/composer.html package="swissup/pagebuilder" %}
 
-## Complete the installation
-
 Navigate to `Stores > Configuration` and
 [enable Pagebuilder module](/m2/extensions/pagebuilder/configuration/).
+
+{% include installation/m2/composer-update.html package="swissup/pagebuilder" %}
 
 #### Next up
 

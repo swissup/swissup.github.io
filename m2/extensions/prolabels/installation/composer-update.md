@@ -1,11 +1,5 @@
 ---
-layout: default
-title: Prolabels Update via Composer
-description: magento prolabels module update
-category: Prolabels
+layout: redirect
+redirect_to: /m2/extensions/prolabels/installation/composer/#update
 exclude_from_search: true
 ---
-
-# Update Instructions
-
-{% include installation/m2/composer-update.html package="swissup/pro-labels" %}

@@ -1,11 +1,5 @@
 ---
-layout: default
-title: Knowledgebase update via Composer
-description: Knowledgebase update instructions
-category: Knowledgebase
+layout: redirect
+redirect_to: /m2/extensions/knowledgebase/installation/composer/#update
 exclude_from_search: true
 ---
-
-# Update Instructions
-
-{% include installation/m2/composer-update.html package="swissup/knowledge-base" %}

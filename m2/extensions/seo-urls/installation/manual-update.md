@@ -1,16 +1,5 @@
 ---
-layout: default
-title: SEO URLs Update
-description: How to update SEO URLs for Magento 2
-category: Seo Urls
+layout: redirect
+redirect_to: /m2/extensions/seo-urls/installation/manual/#update
 exclude_from_search: true
 ---
-
-# Manual Update
-
-{% include installation/m2/manual-update.html package="swissup/seo-urls" %}
-{% include installation/m2/hyva-no-extra.html %}
-
-##### Next up
-
-- [Back to docs homepage](/m2/extensions/seo-urls/)

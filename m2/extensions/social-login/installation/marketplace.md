@@ -11,8 +11,6 @@ exclude_from_search: true
 
 {% include installation/m2/marketplace.html package="swissup/social-login" %}
 
-## Complete the installation
-
 Login your store admin and enable extension in Magento configuration.
 
 ##### Next up

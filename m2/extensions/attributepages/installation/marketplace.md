@@ -11,8 +11,6 @@ exclude_from_search: true
 
 {% include installation/m2/marketplace.html package="swissup/attributepages" %}
 
-## Complete the installation
-
 Navigate to `Swissup > Attribute Pages > Manage Pages`
 and create your first attribute based page.
 

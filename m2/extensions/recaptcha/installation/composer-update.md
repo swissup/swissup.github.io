@@ -1,11 +1,5 @@
 ---
-layout: default
-title: Recaptcha Update via Composer
-description: How to update recaptcha for Magento 2
-category: reCAPTCHA
+layout: redirect
+redirect_to: /m2/extensions/recaptcha/installation/composer/#update
 exclude_from_search: true
 ---
-
-# Update Instructions
-
-{% include installation/m2/composer-update.html package="swissup/recaptcha" %}

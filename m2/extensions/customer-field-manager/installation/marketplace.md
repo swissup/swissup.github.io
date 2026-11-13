@@ -11,8 +11,6 @@ exclude_from_search: true
 
 {% include installation/m2/marketplace.html package="swissup/product-customer-field-manager" %}
 
-## Complete the installation
-
 Navigate to Swissup > Customer Field Manager and
 [change field values](/m2/extensions/customer-field-manager/usage/) according to your needs.
 

@@ -12,6 +12,8 @@ exclude_from_search: true
 {% include installation/m2/composer.html package="swissup/cache-warmer" %}
 {% include installation/m2/hyva-no-extra.html %}
 
+{% include installation/m2/composer-update.html package="swissup/cache-warmer" %}
+
 ##### Next up
 
 Great! Now you might want to see next:

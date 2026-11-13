@@ -1,11 +1,5 @@
 ---
-layout: default
-title: CSS Shake update instructions (Manual)
-description: How to update CSS Shake for Magento 2
-category: CSS Shake
+layout: redirect
+redirect_to: /m2/extensions/css-shake/installation/manual/#update
 exclude_from_search: true
 ---
-
-# Manual Update
-
-{% include installation/m2/manual-update.html package="swissup/css-shake" %}

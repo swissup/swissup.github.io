@@ -1,11 +1,5 @@
 ---
-layout: default
-title: Ajaxpro update
-description: Ajaxpro update instructions
-category: Ajaxpro
+layout: redirect
+redirect_to: /m2/extensions/ajaxpro/installation/composer/#update
 exclude_from_search: true
 ---
-
-# Update Instructions
-
-{% include installation/m2/composer-update.html package="swissup/ajaxpro" %}

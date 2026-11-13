@@ -11,6 +11,8 @@ exclude_from_search: true
 {% include installation/m2/manual.html package="swissup/chat-gpt-assistant" %}
 {% include installation/m2/hyva-no-extra.html %}
 
+{% include installation/m2/manual-update.html package="swissup/chat-gpt-assistant" %}
+
 ##### Next Up
 
  -  [Configuration](/m2/extensions/chat-gpt-assistant/configuration/)

@@ -10,6 +10,8 @@ exclude_from_search: true
 
 {% include installation/m2/manual.html package="swissup/breeze-content-builder" %}
 
+{% include installation/m2/manual-update.html package="swissup/breeze-content-builder" %}
+
 ##### Next Up
 
  -  [Content Builder](/m2/extensions/breeze-content-builder/content-builder/)

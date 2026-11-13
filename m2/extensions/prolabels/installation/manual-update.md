@@ -1,11 +1,5 @@
 ---
-layout: default
-title: Prolabels Update
-description: magento prolabels module update
-category: Prolabels
+layout: redirect
+redirect_to: /m2/extensions/prolabels/installation/manual/#update
 exclude_from_search: true
 ---
-
-# Manual Update
-
-{% include installation/m2/manual-update.html package="swissup/pro-labels" %}

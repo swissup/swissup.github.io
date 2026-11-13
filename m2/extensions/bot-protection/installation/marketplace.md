@@ -10,8 +10,6 @@ exclude_from_search: true
 
 {% include installation/m2/marketplace.html package="swissup/bot-protection" %}
 
-## Complete the installation
-
 Navigate to `Stores > Configuration` and
 [setup bot protection](/m2/extensions/bot-protection/configuration/) according to your needs.
 

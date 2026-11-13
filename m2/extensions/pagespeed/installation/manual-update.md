@@ -1,11 +1,5 @@
 ---
-layout: default
-title: Pagespeed update
-description: Pagespeed update instructions
-category: Pagespeed
+layout: redirect
+redirect_to: /m2/extensions/pagespeed/installation/manual/#update
 exclude_from_search: true
 ---
-
-# Manual Update
-
-{% include installation/m2/manual-update.html package="swissup/pagespeed" %}

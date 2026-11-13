@@ -1,12 +1,5 @@
 ---
-layout: default
-title: Ajaxsearch update
-description: Ajaxsearch update instructions
-category: Ajaxsearch
+layout: redirect
+redirect_to: /m2/extensions/ajaxsearch/installation/manual/#update
 exclude_from_search: true
 ---
-
-# Manual Update
-
-{% include installation/m2/manual-update.html package="swissup/ajaxsearch" %}
-

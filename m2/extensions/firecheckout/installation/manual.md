@@ -11,6 +11,8 @@ exclude_from_search: true
 {% include installation/m2/manual.html package="swissup/firecheckout" installer="true" %}
 {% include installation/m2/hyva-checkout.html %}
 
+{% include installation/m2/manual-update.html package="swissup/firecheckout" %}
+
 ##### Next up
 
  -  [Installation instructions](../)

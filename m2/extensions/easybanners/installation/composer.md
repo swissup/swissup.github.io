@@ -11,6 +11,8 @@ exclude_from_search: true
 
 {% include installation/m2/composer.html package="swissup/easybanner" %}
 
+{% include installation/m2/composer-update.html package="swissup/easybanner" %}
+
 ##### Next up
 
  -  [Admin interfaces](/m2/extensions/easybanners/interfaces/)

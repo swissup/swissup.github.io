@@ -1,46 +1,25 @@
-## Prepare to update
+## Update
 
-Update requires Marketplace module. It’s our module that
-automates a bunch of complex commands required to run
-prior and after module installation, and provides easy to use module installer.
+Make sure the Marketplace module is installed and the artifacts directory is
+registered (see [Prepare to install](#prepare-to-install)), then:
 
-```bash
-composer require swissup/module-marketplace &&\
-bin/magento setup:upgrade --safe-mode=1
-```
-
-Prepare directory for downloaded archives and register it in `composer.json`:
-
-```bash
-mkdir -p vendor/swissup/artifacts &&\
-composer config repositories.swissupartifacts artifact $(pwd)/vendor/swissup/artifacts
-```
-
-## Download and unpack archive
-
- 1. Open your account page at the site where you purchased the module and download it:{% if include.argentotheme != 'false' %}
+ 1. Download the latest archive from your account page:{% if include.argentotheme != 'false' %}
     -  [argentotheme.com](https://argentotheme.com/license/customer/activation/){% endif %}{% if include.firecheckout != 'false' %}
     -  [firecheckout.net](https://firecheckout.net/license/customer/activation/){% endif %}{% if include.swissuplabs != 'false' %}
     -  [swissuplabs.com](https://swissuplabs.com/license/customer/activation/){% endif %}
 
- 2. Upload this archive to the `<magento_root>` directory, and then unpack it
-    to the `<magento_root>/vendor/swissup/artifacts` folder:
+ 2. Unpack it to the `<magento_root>/vendor/swissup/artifacts` folder:
 
     ```bash
     unzip swissup.<module-version>.zip -d vendor/swissup/artifacts
     ```
 
- 3. Now, proceed to update section.
+ 3. Run the update:
 
-## Update
-
-When Marketplace module is installed you can proceed with update
-in teminal:
-
-```bash
-composer update {{ include.package }} -w &&\
-bin/magento setup:upgrade --safe-mode=1 &&\
-bin/magento setup:di:compile &&\
-bin/magento setup:static-content:deploy
-```
+    ```bash
+    composer update {{ include.package }} -w &&\
+    bin/magento setup:upgrade --safe-mode=1 &&\
+    bin/magento setup:di:compile &&\
+    bin/magento setup:static-content:deploy
+    ```
 {% include installation/m2/hyva-link.html anchor="update" %}

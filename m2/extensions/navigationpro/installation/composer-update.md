@@ -1,15 +1,5 @@
 ---
-layout: default
-title: Navigationpro Update
-description: magento 2 navigationpro module update
-category: Navigationpro
+layout: redirect
+redirect_to: /m2/extensions/navigationpro/installation/composer/#update
 exclude_from_search: true
 ---
-
-# Update Instructions
-
-{% include installation/m2/composer-update.html package="swissup/navigationpro" %}
-
-#### Next up
-
- -  [Back to Main Page](/m2/extensions/navigationpro/)

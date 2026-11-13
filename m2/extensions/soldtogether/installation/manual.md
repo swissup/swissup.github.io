@@ -25,3 +25,5 @@ php bin/magento swissup:soldtogether:order:reindex
 
 * [Support](https://swissuplabs.com/contacts/)
 * [Forum](https://swissuplabs.com/magento-forum/)
+
+{% include installation/m2/manual-update.html package="swissup/sold-together" %}

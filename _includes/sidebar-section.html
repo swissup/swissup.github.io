@@ -50,6 +50,7 @@
         {%- assign slug = rel | remove: '/' -%}
         {%- assign raw_label = p.nav_title | default: p.title | default: slug -%}
         {%- include nav-label.html title=raw_label prefix=root_title -%}
+        {%- if slug == 'installation' and p.nav_title == nil -%}{%- assign nav_label = 'Install and Update' -%}{%- endif -%}
         {%- case slug -%}
           {%- when 'installation' -%}{%- assign ic = 'download' -%}
           {%- when 'configuration', 'settings' -%}{%- assign ic = 'sliders' -%}

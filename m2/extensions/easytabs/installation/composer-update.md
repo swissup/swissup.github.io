@@ -1,12 +1,5 @@
 ---
-layout: default
-title: Easy Tabs Update via Composer
-description: " magento 2 product tabs module update
-magento 2 product page "
-category: Easy Tabs
+layout: redirect
+redirect_to: /m2/extensions/easytabs/installation/composer/#update
 exclude_from_search: true
 ---
-
-# Update Instructions
-
-{% include installation/m2/composer-update.html package="swissup/easytabs" %}

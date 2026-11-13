@@ -1,11 +1,5 @@
 ---
-layout: default
-title: Facebook Like Button update
-description: Facebook Like Button update instructions
-category: Facebook Like Button
+layout: redirect
+redirect_to: /m2/extensions/facebooklikebutton/installation/manual/#update
 exclude_from_search: true
 ---
-
-# Manual Update
-
-{% include installation/m2/manual-update.html package="swissup/fblike" %}

@@ -1,11 +1,5 @@
 ---
-layout: default
-title: Breeze AI update
-description: Breeze AI update instructions
-category: Breeze AI
+layout: redirect
+redirect_to: /m2/extensions/breeze-ai/installation/composer/#update
 exclude_from_search: true
 ---
-
-# Update Instructions
-
-{% include installation/m2/composer-update.html package="swissup/module-breeze-ai" %}

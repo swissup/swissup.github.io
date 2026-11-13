@@ -11,3 +11,5 @@ exclude_from_search: true
 
 {% include installation/m2/manual.html package="swissup/email-templates" %}
 {% include installation/m2/hyva-no-extra.html %}
+
+{% include installation/m2/manual-update.html package="swissup/email-templates" %}

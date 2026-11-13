@@ -1,16 +1,5 @@
 ---
-layout: default
-title: Manual update
-description: How to manually update Abandoned Cart on Magento 2
-category: Abandoned Cart
+layout: redirect
+redirect_to: /m2/extensions/abandoned-cart/installation/manual/#update
 exclude_from_search: true
 ---
-
-# Manual Update
-
-{% include installation/m2/manual-update.html package="swissup/abandoned-cart" %}
-
-##### Next up
-
- -  [Installation instructions](../)
- -  [Back to Main Page](../../)

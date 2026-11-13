@@ -10,6 +10,8 @@ exclude_from_search: true
 
 {% include installation/m2/composer.html package="swissup/instaframe" %}
 
+{% include installation/m2/composer-update.html package="swissup/instaframe" %}
+
 ##### Next up
 
 Great! Now you might want to see next:

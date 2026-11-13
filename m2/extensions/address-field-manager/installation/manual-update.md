@@ -1,15 +1,5 @@
 ---
-layout: default
-title: Address Field Manager Update
-description: Address Field Manager module update
-category: Address Field Manager
+layout: redirect
+redirect_to: /m2/extensions/address-field-manager/installation/manual/#update
 exclude_from_search: true
 ---
-
-# Manual Update
-
-{% include installation/m2/manual-update.html package="swissup/product-address-field-manager" %}
-
-#### Next up
-
- -  [Back to Main Page](../../)

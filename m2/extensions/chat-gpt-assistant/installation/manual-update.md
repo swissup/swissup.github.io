@@ -1,17 +1,5 @@
 ---
-layout: default
-title: Manual update
-description: How to manually update ChatGPT Assistant on Magento 2
-category: ChatGPT Assistant
+layout: redirect
+redirect_to: /m2/extensions/chat-gpt-assistant/installation/manual/#update
 exclude_from_search: true
 ---
-
-# Manual Update
-
-{% include installation/m2/manual-update.html package="swissup/chat-gpt-assistant" %}
-{% include installation/m2/hyva-no-extra.html %}
-
-##### Next up
-
- -  [Installation instructions](../)
- -  [Back to Main Page](../../)

@@ -1,11 +1,5 @@
 ---
-layout: default
-title: Review Reminder Update via Composer
-description: magento review reminder module update
-category: Review Reminder
+layout: redirect
+redirect_to: /m2/extensions/reviewreminder/installation/composer/#update
 exclude_from_search: true
 ---
-
-# Update Instructions
-
-{% include installation/m2/composer-update.html package="swissup/reviewreminder" %}

@@ -1,17 +1,5 @@
 ---
-layout: default
-title: Update Instructions
-description: How to update ChatGPT Assistant on Magento 2 via composer
-category: ChatGPT Assistant
+layout: redirect
+redirect_to: /m2/extensions/chat-gpt-assistant/installation/composer/#update
 exclude_from_search: true
 ---
-
-# Update Instructions
-
-{% include installation/m2/composer-update.html package="swissup/chat-gpt-assistant" %}
-{% include installation/m2/hyva-no-extra.html %}
-
-##### Next up
-
- -  [Installation instructions](../)
- -  [Back to Main Page](../../)

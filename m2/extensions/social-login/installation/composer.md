@@ -11,9 +11,9 @@ exclude_from_search: true
 
 {% include installation/m2/composer.html package="swissup/social-login" %}
 
-## Complete the installation
-
 Login your store admin and enable extension in magento configuration.
+
+{% include installation/m2/composer-update.html package="swissup/social-login" %}
 
 ##### Next up
 

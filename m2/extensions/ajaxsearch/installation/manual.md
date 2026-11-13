@@ -10,9 +10,9 @@ exclude_from_search: true
 
 {% include installation/m2/manual.html package="swissup/ajaxsearch" %}
 
-## Complete the installation
-
 [Configuration](/m2/extensions/ajaxsearch/configuration/).
+
+{% include installation/m2/manual-update.html package="swissup/ajaxsearch" %}
 
 #### Next up
 

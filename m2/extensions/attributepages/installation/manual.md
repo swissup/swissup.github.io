@@ -11,10 +11,10 @@ exclude_from_search: true
 
 {% include installation/m2/manual.html package="swissup/attributepages" %}
 
-## Complete the installation
-
 Navigate to `Swissup > Attribute Pages > Manage Pages`
 and create your first attribute based page.
+
+{% include installation/m2/manual-update.html package="swissup/attributepages" %}
 
 #### Next Up
 

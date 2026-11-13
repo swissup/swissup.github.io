@@ -12,8 +12,6 @@ exclude_from_search: true
 {% include installation/m2/marketplace.html package="swissup/seo-urls" %}
 {% include installation/m2/hyva-no-extra.html %}
 
-## Complete the installation
-
 Login your store admin and enable extension in magento [configuration](/m2/extensions/seo-urls/configuration/).
 
 ##### Next up

@@ -11,6 +11,8 @@ exclude_from_search: true
 {% include installation/m2/composer.html package="swissup/abandoned-cart" %}
 {% include installation/m2/hyva-checkout.html %}
 
+{% include installation/m2/composer-update.html package="swissup/abandoned-cart" %}
+
 ##### Next Up
 
  -  [Configuration](/m2/extensions/abandoned-cart/configuration/)

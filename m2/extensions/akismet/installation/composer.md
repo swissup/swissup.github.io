@@ -9,3 +9,5 @@ exclude_from_search: true
 # Installation
 
 {% include installation/m2/composer.html package="swissup/akismet" %}
+
+{% include installation/m2/composer-update.html package="swissup/akismet" %}

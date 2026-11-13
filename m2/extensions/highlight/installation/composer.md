@@ -11,11 +11,11 @@ exclude_from_search: true
 
 {% include installation/m2/composer.html package="swissup/highlight" %}
 
-## Complete the installation
-
 Now you can add Highlight widgets to each store page by using
 [WYSIWYG editor][usage_wysiwyg_editor] or [CMS > Widgets][usage_widgets_page]
 page.
+
+{% include installation/m2/composer-update.html package="swissup/highlight" %}
 
 ##### Next up
 

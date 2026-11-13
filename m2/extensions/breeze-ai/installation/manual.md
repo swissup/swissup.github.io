@@ -10,6 +10,8 @@ exclude_from_search: true
 
 {% include installation/m2/manual.html package="swissup/module-breeze-ai" %}
 
+{% include installation/m2/manual-update.html package="swissup/module-breeze-ai" %}
+
 #### Next up
 
  -  [Back to Main Page](../../)

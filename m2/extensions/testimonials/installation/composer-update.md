@@ -1,11 +1,5 @@
 ---
-layout: default
-title: Testimonials Update via Composer
-description: magento 2 testimonials module update
-category: Testimonials
+layout: redirect
+redirect_to: /m2/extensions/testimonials/installation/composer/#update
 exclude_from_search: true
 ---
-
-# Update Instructions
-
-{% include installation/m2/composer-update.html package="swissup/testimonials" %}

@@ -1,12 +1,5 @@
 ---
-layout: default
-title: Recaptcha Manual Update
-description: How to update recaptcha for Magento 2
-category: reCAPTCHA
+layout: redirect
+redirect_to: /m2/extensions/recaptcha/installation/manual/#update
 exclude_from_search: true
 ---
-
-# Manual Update
-
-{% include installation/m2/manual-update.html package="swissup/recaptcha" %}
-

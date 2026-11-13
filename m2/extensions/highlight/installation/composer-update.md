@@ -1,11 +1,5 @@
 ---
-layout: default
-title: Highlight update via Composer
-description: Highlight update instructions
-category: Highlight
+layout: redirect
+redirect_to: /m2/extensions/highlight/installation/composer/#update
 exclude_from_search: true
 ---
-
-# Update Instructions
-
-{% include installation/m2/composer-update.html package="swissup/highlight" %}

@@ -28,3 +28,5 @@ That's all. Now you need [Create a New Facebook App][facebook_app] and configure
 
 [facebook_app]: /m2/extensions/facebooklikebutton/app/
 [configuration]: /m2/extensions/facebooklikebutton/configuration/
+
+{% include installation/m2/composer-update.html package="swissup/fblike" %}

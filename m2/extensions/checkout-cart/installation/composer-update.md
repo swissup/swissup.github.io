@@ -1,11 +1,5 @@
 ---
-layout: default
-title: Checkout Cart Update
-description: magento 2 checkout cart module update
-category: Checkout Cart
+layout: redirect
+redirect_to: /m2/extensions/checkout-cart/installation/composer/#update
 exclude_from_search: true
 ---
-
-# Update Instructions
-
-{% include installation/m2/composer-update.html package="swissup/checkout-cart" %}

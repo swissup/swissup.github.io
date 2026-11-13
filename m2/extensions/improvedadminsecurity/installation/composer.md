@@ -44,3 +44,5 @@ To use the two factor authentication, your user will have to install a Google Au
 * [Microsoft Authenticator for Windows Phone](https://www.microsoft.com/en-us/store/apps/authenticator/9wzdncrfj3rj)
 * [LastPass Authenticator for iOS, Android, OS X, Windows](https://lastpass.com/auth/)
 * [1Password for iOS, Android, OS X, Windows](https://1password.com)
+
+{% include installation/m2/composer-update.html package="swissup/tfa" %}

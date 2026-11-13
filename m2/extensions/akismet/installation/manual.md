@@ -9,3 +9,5 @@ exclude_from_search: true
 # Manual Installation
 
 {% include installation/m2/manual.html package="swissup/akismet" %}
+
+{% include installation/m2/manual-update.html package="swissup/akismet" %}

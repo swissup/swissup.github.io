@@ -1,16 +1,5 @@
 ---
-layout: default
-title: Checkout Registration Manual Update
-description: Checkout Registration module update instructions
-category: Checkout Registration
+layout: redirect
+redirect_to: /m2/extensions/checkout-registration/installation/manual/#update
 exclude_from_search: true
 ---
-
-# Manual Update
-
-{% include installation/m2/manual-update.html package="swissup/checkout-registration" %}
-
-##### Next up
-
- -  [Installation instructions](../)
- -  [Back to Main Page](../../)

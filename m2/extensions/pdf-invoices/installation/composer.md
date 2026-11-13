@@ -12,9 +12,9 @@ exclude_from_search: true
 {% include installation/m2/composer.html package="swissup/pdf-invoice" %}
 {% include installation/m2/hyva-no-extra.html %}
 
-## Complete the installation
-
 Now you can enable extension in [Configuration][configuration] and create PDF documents from admin in [PDF Documents Grid][create_pdf]
 
 [create_pdf]: /m2/extensions/pdf-invoices/create-pdf-template
 [configuration]: /m2/extensions/pdf-invoices/configuration
+
+{% include installation/m2/composer-update.html package="swissup/pdf-invoice" %}

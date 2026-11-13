@@ -11,9 +11,9 @@ exclude_from_search: true
 
 {% include installation/m2/composer.html package="swissup/knowledge-base" %}
 
-## Complete the installation
-
 [Configuration](/m2/extensions/knowledgebase/configuration/).
+
+{% include installation/m2/composer-update.html package="swissup/knowledge-base" %}
 
 #### Next up
 

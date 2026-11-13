@@ -1,11 +1,5 @@
 ---
-layout: default
-title: Easy Flags Update
-description: magento 2 easy flags module update
-category: Easy Flags
+layout: redirect
+redirect_to: /m2/extensions/easyflags/installation/manual/#update
 exclude_from_search: true
 ---
-
-# Manual Update
-
-{% include installation/m2/manual-update.html package="swissup/easyflags" %}

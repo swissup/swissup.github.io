@@ -1,17 +1,5 @@
 ---
-layout: default
-title: ArgentoHyva Update Instructions
-description: How to update ArgentoHyva
-category: ArgentoHyva
+layout: redirect
+redirect_to: /m2/argento-hyva/installation/composer/#update
 exclude_from_search: true
 ---
-
-# Update Instructions
-
-{% include installation/m2/composer-update.html package="swissup/argento-hyva" %}
-
-##### Next up
-{:.no_toc}
-
- -  [Installation instructions](../)
- -  [Back to Main Page](../../)

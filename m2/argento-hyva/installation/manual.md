@@ -11,3 +11,5 @@ exclude_from_search: true
 {% include installation/m2/manual.html package="swissup/argento-hyva" installer="true" %}
 
 #### That's all. Navigate to you store to check your new theme.
+
+{% include installation/m2/manual-update.html package="swissup/argento-hyva" %}

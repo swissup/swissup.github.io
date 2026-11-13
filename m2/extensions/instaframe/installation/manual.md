@@ -10,6 +10,8 @@ exclude_from_search: true
 
 {% include installation/m2/manual.html package="swissup/instaframe" %}
 
+{% include installation/m2/manual-update.html package="swissup/instaframe" %}
+
 ##### Next up
 
 Great! Now you might want to see next:

@@ -1,16 +1,5 @@
 ---
-layout: default
-title: Instaframe manual update
-description: Instaframe manual update instructions
-category: Instaframe
+layout: redirect
+redirect_to: /m2/extensions/instaframe/installation/manual/#update
 exclude_from_search: true
 ---
-
-# Manual Update
-
-{% include installation/m2/manual-update.html package="swissup/instaframe" %}
-
-##### Next up
-
- -  [Installation instructions](../)
- -  [Back to Main Page](../../)

@@ -1,15 +1,5 @@
 ---
-layout: default
-title: Order Attachments Update via Composer
-description: Order Attachments module update
-category: Order Attachments
+layout: redirect
+redirect_to: /m2/extensions/order-attachments/installation/composer/#update
 exclude_from_search: true
 ---
-
-# Update Instructions
-
-{% include installation/m2/composer-update.html package="swissup/product-orderattachment" %}
-
-#### Next up
-
- -  [Back to Main Page](../../)

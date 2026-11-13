@@ -56,3 +56,5 @@ ProLabels module does not require any changes in any templates or other source c
 * [Admin Interface](../../interfaces/)
 * [Support](https://swissuplabs.com/contacts/)
 * [Forum](https://swissuplabs.com/magento-forum/)
+
+{% include installation/m2/manual-update.html package="swissup/pro-labels" %}

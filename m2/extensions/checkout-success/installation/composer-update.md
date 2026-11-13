@@ -1,11 +1,5 @@
 ---
-layout: default
-title: Checkout Success Update
-description: magento 2 checkout success page module update
-category: Checkout Success
+layout: redirect
+redirect_to: /m2/extensions/checkout-success/installation/composer/#update
 exclude_from_search: true
 ---
-
-# Update Instructions
-
-{% include installation/m2/composer-update.html package="swissup/product-checkout-success" %}

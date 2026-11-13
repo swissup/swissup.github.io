@@ -12,8 +12,6 @@ exclude_from_search: true
 
 {% include installation/m2/hyva.html package="swissup/hyva-social-login" %}
 
-## Complete the installation
-
 Login your store admin and enable extension in magento configuration.
 
 ##### Next up

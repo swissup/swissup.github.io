@@ -1,14 +1,5 @@
 ---
-layout: default
-title: Delete Orders
-description: Magento 2 Delete Orders allows remove orders from your store
-category: Delete Order
+layout: redirect
+redirect_to: /m2/extensions/delete-orders/installation/manual/#update
+exclude_from_search: true
 ---
-
-# Manual Update
-
-{% include installation/m2/manual-update.html package="swissup/module-delete-orders" %}
-
-##### Next up
-
-- [Back to docs homepage](/m2/extensions/delete-orders/)

@@ -10,9 +10,9 @@ exclude_from_search: true
 
 {% include installation/m2/composer.html package="swissup/askit" %}
 
-## Complete the installation
-
 [Configuration](/m2/extensions/askit/#settings/).
+
+{% include installation/m2/composer-update.html package="swissup/askit" %}
 
 #### Next up
 

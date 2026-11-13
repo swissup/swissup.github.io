@@ -11,11 +11,11 @@ exclude_from_search: true
 {% include installation/m2/composer.html package="swissup/product-subscribe-at-checkout" %}
 {% include installation/m2/hyva-checkout.html %}
 
-### Complete the installation
-
 Navigate to `Stores > Configuration` and
 [setup module](/m2/extensions/subscribe-at-checkout/configuration/) according
 to your needs.
+
+{% include installation/m2/composer-update.html package="swissup/product-subscribe-at-checkout" %}
 
 ##### Next up
 

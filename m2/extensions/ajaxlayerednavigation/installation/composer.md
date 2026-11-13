@@ -10,9 +10,9 @@ exclude_from_search: true
 
 {% include installation/m2/composer.html package="swissup/ajaxlayerednavigation" %}
 
-## Complete the installation
-
 [Configuration](/m2/extensions/ajaxpro/#configuration/).
+
+{% include installation/m2/composer-update.html package="swissup/ajaxlayerednavigation" %}
 
 #### Next up
 

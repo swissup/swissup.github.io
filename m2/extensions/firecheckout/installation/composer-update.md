@@ -1,16 +1,5 @@
 ---
-layout: default
-title: Firecheckout Update Instructions
-description: How to update firecheckout for Magento 2 via composer
-category: Firecheckout
+layout: redirect
+redirect_to: /m2/extensions/firecheckout/installation/composer/#update
 exclude_from_search: true
 ---
-
-# Update Instructions
-
-{% include installation/m2/composer-update.html package="swissup/firecheckout" %}
-
-##### Next up
-
- -  [Installation instructions](../)
- -  [Back to Main Page](../../)

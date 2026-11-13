@@ -11,8 +11,6 @@ exclude_from_search: true
 
 {% include installation/m2/marketplace.html package="swissup/testimonials" %}
 
-## Complete the installation
-
 Now you can add testimonials from admin in [Testimonials Grid][testimonials_grid] and place [Widgets][widgets]
 
 #### After installing the extension you can go to:

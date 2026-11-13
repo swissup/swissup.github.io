@@ -11,8 +11,6 @@ exclude_from_search: true
 
 {% include installation/m2/marketplace.html package="swissup/seo-cross-links" %}
 
-## Complete the installation
-
 Login your store admin and enable extension in magento [configuration](/m2/extensions/seo-cross-links/configuration/).
 
 ##### Next up

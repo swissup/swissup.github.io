@@ -14,7 +14,7 @@ exclude_from_search: true
 {% include installation/m2/composer.html package="swissup/rich-snippets" %}
 {% include installation/m2/hyva-no-extra.html %}
 
-## Complete the installation
-
 Navigate to `Stores > Configuration > Swissup Seo Suite > Rich Snippets` and
 enable extension.
+
+{% include installation/m2/composer-update.html package="swissup/rich-snippets" %}

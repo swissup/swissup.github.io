@@ -1,11 +1,5 @@
 ---
-layout: default
-title: Highlight manual update
-description: Highlight update instructions
-category: Highlight
+layout: redirect
+redirect_to: /m2/extensions/highlight/installation/manual/#update
 exclude_from_search: true
 ---
-
-# Manual Update
-
-{% include installation/m2/manual-update.html package="swissup/highlight" %}

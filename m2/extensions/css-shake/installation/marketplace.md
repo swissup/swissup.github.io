@@ -10,8 +10,6 @@ exclude_from_search: true
 
 {% include installation/m2/marketplace.html package="swissup/css-shake" %}
 
-## Complete the installation
-
 Navigate to `Stores > Configuration` and
 [enable CSS Shake](/m2/extensions/css-shake/configuration/) module.
 

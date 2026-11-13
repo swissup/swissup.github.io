@@ -11,6 +11,6 @@ exclude_from_search: true
 
 {% include installation/m2/manual.html package="swissup/easyflags" %}
 
-## Complete the installation
-
 You can upload flag images for store views at `Stores > Configuration > Swissup > Easy Flags`.
+
+{% include installation/m2/manual-update.html package="swissup/easyflags" %}

@@ -1,11 +1,5 @@
 ---
-layout: default
-title: Easy Slider Update via Composer
-description: How to update Easy Slider module
-category: Easy Slider
+layout: redirect
+redirect_to: /m2/extensions/easyslider/installation/composer/#update
 exclude_from_search: true
 ---
-
-# Update Instructions
-
-{% include installation/m2/composer-update.html package="swissup/easy-slide" %}

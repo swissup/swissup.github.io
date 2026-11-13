@@ -1,11 +1,5 @@
 ---
-layout: default
-title: Legacy Mysql Search update
-description: Legacy Mysql Search update instructions
-category: Legacy Mysql Search
+layout: redirect
+redirect_to: /m2/extensions/search-mysql-legacy/installation/manual/#update
 exclude_from_search: true
 ---
-
-# Manual Update
-
-{% include installation/m2/manual-update.html package="swissup/search-mysql-legacy" %}

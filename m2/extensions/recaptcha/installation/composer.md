@@ -10,3 +10,5 @@ exclude_from_search: true
 # Installation
 
 {% include installation/m2/composer.html package="swissup/recaptcha" %}
+
+{% include installation/m2/composer-update.html package="swissup/recaptcha" %}

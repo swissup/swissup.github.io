@@ -1,11 +1,5 @@
 ---
-layout: default
-title: Knowledgebase update
-description: Knowledgebase update instructions
-category: Knowledgebase
+layout: redirect
+redirect_to: /m2/extensions/knowledgebase/installation/manual/#update
 exclude_from_search: true
 ---
-
-# Manual Update
-
-{% include installation/m2/manual-update.html package="swissup/knowledge-base" %}

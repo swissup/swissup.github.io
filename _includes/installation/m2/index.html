@@ -3,15 +3,14 @@ There are several ways to install extension:
  1. If you've bought the product at Magento's Marketplace - use
     [Marketplace installation instructions](marketplace/)
  2. Otherwise, you have two options:
-    -   [Install](composer/) and
-        [Update](composer-update/) the sources
-        directly from our repository - **recommended**.
-    -   Or, you can manually download and unpack composer archive and then run
-        [Install](manual/) or
-        [Update](manual-update/) commands.
+    -   [Install](composer/) the sources directly from our
+        repository - **recommended**.
+    -   Or, [manually download](manual/) and unpack composer archive.
 {%- assign hyva_path = page.path | replace: 'installation/index.md', 'installation.md' | replace: 'installation.md', 'installation/hyva.md' -%}
 {%- assign hyva_page = site.pages | where: 'path', hyva_path | first -%}
 {%- if hyva_page %}
  3. If your store uses the Hyvä Theme - use
     [Hyvä installation instructions](hyva/)
 {%- endif %}
+
+Each page also contains update instructions at the end.

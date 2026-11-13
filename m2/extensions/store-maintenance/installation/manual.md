@@ -11,6 +11,8 @@ exclude_from_search: true
 
 {% include installation/m2/manual.html package="swissup/maintenance" %}
 
+{% include installation/m2/manual-update.html package="swissup/maintenance" %}
+
 ##### Next up
 
 - [Module settings](../../settings/)

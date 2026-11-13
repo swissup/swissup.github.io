@@ -14,6 +14,8 @@ exclude_from_search: true
 
 {% include gallery.html images=site.data.gallery.m2.argento.installation.result class="phone-up-1 tablet-up-3 photoswipe scroll" %}
 
+{% include installation/m2/manual-update.html package="swissup/argento-m2" %}
+
 ##### Next up
 
 - [Small css customizations](/m2/argento/customization/custom-css/)

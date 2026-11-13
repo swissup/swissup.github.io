@@ -12,8 +12,6 @@ exclude_from_search: true
 
 {% include installation/m2/hyva.html package="swissup/hyva-easycatalogimg" %}
 
-## Complete the installation
-
 Navigate to _Products > Categories_ and
 [assign thumbnails](../../usage/#add-category-thumbnail) to categories.
 
