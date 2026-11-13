@@ -6,11 +6,9 @@ keywords: hover gallery installation
 category: Hover Gallery
 ---
 
-# Manual Installation
+# Installation
 
-{% include installation/m2/manual.html package="swissup/hover-gallery" %}
-
-## Complete the installation
+{% include installation/m2/composer.html package="swissup/hover-gallery" %}
 
 In your theme template `/Magento_Catalog/templates/product/list.phtml` find block of code that might be looking like this (**please make sure you have a backup before overwriting your current files**):
 
@@ -31,6 +29,8 @@ Insert this code right below:
 ```
 
 Login your store admin and [enable extension](/m2/extensions/hover-gallery/configuration/).
+
+{% include installation/m2/composer-update.html package="swissup/hover-gallery" %}
 
 ##### Next up
 
