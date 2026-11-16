@@ -237,6 +237,17 @@ checkoutconsumerrights:
     m1:
     m2: /m2/extensions/checkout-consumer-rights/
 
+checkoutdoctor:
+  title: Checkout Doctor
+  category: Checkout
+  icon: file
+  short_description: Identify and fix problems in the checkout process
+  size: 1x1
+  hyva: true
+  urls:
+    m1:
+    m2: /m2/extensions/checkout-doctor/
+
 checkoutfields:
   title: Checkout Fields
   category: Checkout
