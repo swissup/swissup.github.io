@@ -7,7 +7,7 @@ category: Checkout Doctor
 
 # Changelog
 
-### Version 1.0.6
+### Version 1.0.7
 
 > November 16, 2026
 
