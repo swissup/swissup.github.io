@@ -6,6 +6,13 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.7.45
+
+> November 17, 2026
+
+ -  Fixed the theme's own mini cart opening behind the Ajax Pro cart popup, leaving two carts on screen at once. It happened on every click of the header cart icon when `Replace minicart` is enabled under `Stores > Configuration > Swissup > Ajax Pro`. Until 1.7.36 the extension cleared every click handler from the cart icon before adding its own; after that it cleared only its own, so the theme's handler stayed behind and opened its mini cart first. Affected both Breeze and Luma based themes.
+ -  The header cart icon now opens the shopping cart page when the Ajax Pro cart popup is not present on a page, instead of doing nothing.
+
 ### Version 1.7.44
 
 > October 8, 2026
