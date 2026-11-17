@@ -8,6 +8,16 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.21.9
+
+> November 17, 2026
+
+#### Performance
+
+- **Faster grouping of HTML patches on pages with many WebP images** *(#164, closes #163)*: after new elements such as WebP `<picture>` were folded into each other, the ones left over were each checked with a text search against every other change on the page before being written as a standalone patch. On a real product page with 69 `<picture>` elements that was about 15,600 searches through 78 MB of HTML, and none of them found a match. Each element is now looked up only among the changes of the same element and of the elements that contain it. In local tests on that page, grouping of patches dropped from 9.3 ms to 5.7 ms and the whole PageSpeed step from 73.6 ms to 68.6 ms. The page output is byte-identical.
+
+---
+
 ### Version 1.21.8
 
 > November 11, 2026
