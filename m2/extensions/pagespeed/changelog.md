@@ -14,7 +14,7 @@ category: Pagespeed
 
 #### Performance
 
-- **Faster grouping of HTML patches on pages with many WebP images** *(#164, closes #163)*: after new elements such as WebP `<picture>` were folded into each other, the ones left over were each checked with a text search against every other change on the page before being written as a standalone patch. On a real product page with 69 `<picture>` elements that was about 15,600 searches through 78 MB of HTML, and none of them found a match. Each element is now looked up only among the changes of the same element and of the elements that contain it. In local tests on that page, grouping of patches dropped from 9.3 ms to 5.7 ms and the whole PageSpeed step from 73.6 ms to 68.6 ms. The page output is byte-identical.
+- **Faster pages with many product images**: pages with lots of WebP images are prepared a little faster before they are cached. Nothing changes in how your pages look.
 
 ---
 
@@ -24,12 +24,7 @@ category: Pagespeed
 
 #### Performance
 
-- **WebP lookups done once per image URL** *(#160, closes #159)*: when PageSpeed replaces images with WebP, it checked the disk for the `.webp` file of the same image URL every time it met that URL during a request. The result, including "no WebP file", is now remembered for the rest of the request. On a synthetic page with 82 images, the WebP step dropped from 7.5 ms to 4.7 ms with `pagespeed/image/optimize_webp_js_replace` enabled; on a local product page without WebP files, from 7.9 ms to 2.2 ms.
-- **Faster HTML patching of `<img>`, `<link>` and other void elements** *(#162, closes #161)*: PageSpeed writes its changes back into the original page HTML at the position it recorded for each element, but only used that position when the markup there was byte for byte what the HTML parser produces. Magento templates often write these tags with attributes on separate lines, a closing ` />` or encoded characters in attribute values, so about half of the changes fell back to a search that scans every tag of that name in the page. Such a tag at the recorded position is now recognised by its name and attributes. On local product, home and category pages the fallback search ran for 4–7 changes instead of 13–20, and applying changes to the HTML took 0.8–1.2 ms instead of 1.3–1.8 ms; the page output is byte-identical.
-
-#### Added
-
-- **Profiler sections for HTML minification** *(#162)*: `BodyHtml.minify`, `BodyHtml.minify.js` and `BodyHtml.minify.css` show how much of the HTML optimizer's time goes to minifying the page, its inline scripts and its inline styles.
+- **Faster product, category and home pages**: PageSpeed prepares pages with many images faster before they are cached, especially when WebP is enabled. Your pages look exactly the same.
 
 ---
 
@@ -39,10 +34,10 @@ category: Pagespeed
 
 #### Fixed
 
-- **Broken HTML around nested WebP images** *(#158, closes #157)*: with `pagespeed/image/optimize_webp_picture_add` and `pagespeed/image/optimize_webp_js_replace` both enabled, a block holding an image inside a nested wrapper followed by an image placed directly in the block came out damaged: the nested image kept its original `src` and got no `<picture>`, and the tail of the block was printed a second time after its closing tag. The saved HTML of a parent element went stale when an image inside it was changed later, so the parent was written back over that change. Parent HTML is now brought up to date with later changes of the images inside it, and an image moved into a new element is tracked at its new place. On a synthetic product page with 82 images, all 82 now get a `<picture>` (79 before).
-- **HTML patching time on pages with many WebP images** *(#156, closes #155)*: merging the new `<picture>` elements back into the page compared every new element with every other one. Each element is now compared only with the elements that contain it. In a local test of this change on the same 82-image page, grouping of patches dropped from about 11 ms to 1.4 ms, and from 4.1 ms to 0.8 ms on a real homepage fixture.
+- **Fixed broken layout around some product images**: with the *Add picture tag* and *Replace WebP in inline JS* options enabled, a block with several images could show one of them in its old format and repeat part of its content. All images are now shown correctly and in WebP.
+- **Faster pages with many WebP images**: pages with many WebP images are prepared several times faster before they are cached.
 
-**Behaviour changes:** when a parent element holds two identical pieces of markup and PageSpeed cannot tell which one was changed, it no longer guesses: the page is written from the parsed document instead of being patched, the same fallback as for invalid HTML.
+**Please note:** on rare pages where PageSpeed cannot safely tell where a change belongs, it now builds the page in a slower but safe way instead of guessing. No action needed.
 
 ---
 
@@ -52,10 +47,10 @@ category: Pagespeed
 
 #### Fixed
 
-- **Uncached page time the profiler could not explain** *(#151, closes #150)*: after 1.21.5 a reported product page still spent about 240 ms in PageSpeed, and the Magento Profiler gave no breakdown by optimizer. Two hidden costs are removed. Finding where each inline script ends before DOM parsing walked every script byte by byte (17 ms on a 97 KB page, now under 2 ms). JSMin ran on every `text/x-magento-init` block, spending 20 ms on 39 blocks to save about 370 bytes gzipped; these JSON blocks are now left as they are. Processing of the reported page dropped by about a quarter in local tests. Each optimizer now always has its own Magento Profiler section (`<Optimizer>::processContext`), as do `DomManager.escapeScriptTags`, `DomManager.createTrackedDocument` and `Pipeline.getHtml`, without enabling debug mode.
-- **Scripts merged with the HTML after them** *(#154, closes #153)*: a quote inside a JavaScript regular expression (for example `/'/`) or a closing tag written as `</script >` could make PageSpeed read the following HTML, and the next script, as part of one script, so optimizers worked on the wrong elements. Scripts now end exactly where the browser ends them, which also makes this step faster again.
+- **Faster first load of product pages**: pages that are not cached yet are processed about a quarter faster.
+- **Fixed optimizations landing in the wrong place**: on some pages PageSpeed could mistake the content after a script for part of that script and change the wrong elements. Scripts are now recognised exactly the way the browser reads them.
 
-**Behaviour changes:** `text/x-magento-init` blocks keep their whitespace, so pages grow by a few KB raw (a few hundred bytes gzipped). A `</script>` written inside a JavaScript string now ends the script during processing, as it already does in the browser.
+**Please note:** Magento's built-in page configuration blocks are no longer compressed, so pages become a few hundred bytes larger. No action needed.
 
 ---
 
@@ -65,7 +60,7 @@ category: Pagespeed
 
 #### Fixed
 
-- **Slow uncached pages with many WebP images** *(#149, closes #148)*: wrapping images in `<picture>` for WebP creates new elements whose HTML has to be merged back into the page, and that merge restarted its whole search after every element it placed, so its cost grew with the cube of the number of images. On the product page reported for 1.21.4, with about 80 WebP images, HTML patching (`applyPatchesToOriginalHtml()`) still took about 500 ms after the 1.21.4 diagnostics change; it now takes 39 ms, and PageSpeed processing of that page dropped from about 550 ms to 90 ms. The resulting HTML is byte-for-byte the same. Each patching stage now also has its own Magento Profiler section (`patchManager.groupAndSort`, `patchManager.applyOtherPatches` and others), so a slow stage shows up directly in profiler output.
+- **Much faster first load of pages with many WebP images**: on a product page with about 80 WebP images, PageSpeed now needs less than a tenth of a second instead of more than half a second. Pages look exactly the same.
 
 ---
 
@@ -75,7 +70,7 @@ category: Pagespeed
 
 #### Fixed
 
-- **Slow uncached page generation during HTML patching** *(#147, closes #146)*: informational patch diagnostics ran on every uncached response and repeatedly scanned the full HTML. On the reported product page, `applyPatchesToOriginalHtml()` took 517 ms although actual patch application took only 24 ms. Diagnostics now run only with `PAGESPEED_DEBUG`, required structural validation reuses existing counts, and debug script comparison scales linearly. Synthetic script-heavy verification dropped from 18 ms to 1.8 ms for 200 scripts and from 111–113 ms to 4.8 ms for 600 scripts.
+- **Faster first load of product pages**: PageSpeed no longer runs its internal self-checks on every page, only in debug mode. On the product page that reported the slowdown, this saved about half a second.
 
 ---
 
@@ -85,7 +80,7 @@ category: Pagespeed
 
 #### Fixed
 
-- **Slow HTML processing on pages with thousands of images** *(#145, closes #144)*: every tracked `<img>` (also `<script>`, `<link>` and `<style>`) was matched to its place in the page by comparing its `id`/`src`/`href` with every element of the same tag, so the work grew with the square of the number of images. Pages with 16,000 images took 7.8 s to process, now 0.23 s. Category pages showing all products, brand and attribute pages listing every option logo, lookbooks and image mega menus benefit most. Images whose `src` contains an encoded `&amp;` (for example resized-image URLs with several parameters) are now matched directly instead of through slower fallbacks.
+- **Pages with thousands of images are fast again**: category pages that show all products, brand pages with many logos, lookbooks and large image menus are now processed in a fraction of a second instead of several seconds.
 
 ---
 
@@ -95,8 +90,8 @@ category: Pagespeed
 
 #### Fixed
 
-- **Slow HTML processing on pages with thousands of same-tag elements** *(#142, closes #141)*: since 1.17.4 the module found each tracked element's position by walking all elements with the same tag from the start of the page, so the work grew with the square of their number. On one store's HTML sitemap (~7,500 product links) this step went from 0.7 s to 25 s per request on PHP 8.2 and overloaded the server under crawler traffic. Positions are now built in a single pass over the page. Wrapping many images in `<picture>` for WebP had the same problem and is now linear too.
-- **WebP not applied to product gallery and Page Builder background images** *(#140, #143, closes #139)*: since 1.14.0 "Replace WebP in inline JS" (`pagespeed/image/optimize_webp_js_replace`) had no effect. Images in the `text/x-magento-init` gallery config (fotorama and Breeze) and in Page Builder `data-background-images` kept loading the original jpg/png after JS init, and on mobile product pages that request is often the LCP. These URLs are rewritten to WebP again, including `url(...)` inside CSS strings, comma-separated lists and mixed-case extensions such as `.Jpg`.
+- **Fixed very slow pages with thousands of links**: a large page such as an HTML sitemap could take up to 25 seconds to build and overload the server when search engine bots visited it. Such pages are now processed in under a second.
+- **WebP images are back in the product gallery and Page Builder backgrounds**: since version 1.14.0 the *Replace WebP in inline JS* option had no effect, so gallery and Page Builder background images still loaded as JPG or PNG. They load as WebP again, which makes product pages faster on mobile.
 
 ---
 
@@ -106,11 +101,11 @@ category: Pagespeed
 
 #### Fixed
 
-- **Default Critical CSS ignored when "Use built-in critical CSS feature" is off** *(#137, closes #133)*: with `pagespeed/css/critical_enable` on and `dev/css/use_css_critical_path` off, stylesheets were deferred but the "Default Critical CSS" never reached the page, so it rendered unstyled until the CSS loaded. The value was only appended to Magento's critical CSS block, which Magento renders solely when the built-in path is on (regression since 1.10.0). The module now prints the default critical CSS itself in this case, without duplicating it when the built-in path is on.
-- **Stylesheets deferred on pages without critical CSS**: with the built-in path off and an empty "Default Critical CSS", every stylesheet still became `rel="preload"`, causing a flash of unstyled content. Stylesheets are now deferred only when the page has critical CSS. With the built-in path on (including Breeze themes) nothing changes.
+- **Pages no longer show without styles while loading**: with Critical CSS enabled and *Use built-in critical CSS feature* off, the *Default Critical CSS* you entered never reached the page, so it briefly appeared unstyled. It is now added to the page.
+- **Styles load normally on pages without critical CSS**: when no critical CSS is set, stylesheets are no longer delayed, so the page does not flash unstyled.
 - Security: Low — improved safe handling of configured critical CSS.
 
-**Behaviour changes:** with `dev/css/use_css_critical_path` off and no Default Critical CSS, stylesheets are no longer deferred.
+**Please note:** stores with *Use built-in critical CSS feature* on, including Breeze themes, are not affected.
 
 ---
 
@@ -120,10 +115,10 @@ category: Pagespeed
 
 #### Changed
 
-- **Advanced JS Bundling moved to a separate package** *(#134)*: the feature now lives in `swissup/module-advanced-js-bundling` (`Swissup_AdvancedJsBundling`), which this version requires, so Composer installs it automatically. Config paths (`pagespeed/js/enable_advanced_js_bundling`, `pagespeed/js/rjs_build_config`) and the bundle directory are unchanged, so existing settings and `app/etc/rjs.json` keep working. The new module rebuilds bundles when the `rjs.json` config changes, has a `swissup:js-bundling:generate` command and an optional dependency resolver.
-- **Advanced JS Bundling is no longer enabled by the marketplace installer.** Measurements on a live store showed it does not improve FCP/LCP and can delay rendering, so enable it only after testing your own pages.
+- **Advanced JS Bundling moved to its own module**: the feature now comes as a separate module that is installed automatically with this update. Your existing settings keep working, and bundles are rebuilt automatically when their configuration changes.
+- **Advanced JS Bundling is no longer turned on during installation**: tests on a live store showed it does not make pages appear faster and can even delay them. Turn it on only after testing your own pages.
 
-**Behaviour changes:** after the update run `rm -rf generated/code/Swissup/Pagespeed`, `bin/magento setup:upgrade` and `bin/magento cache:flush`. `Helper\Config::isAdvancedJsBundling()` and `getRjsJsonConfig()` were removed from this module; the config path constants are kept as deprecated.
+**Please note:** after updating, ask your developer to run `rm -rf generated/code/Swissup/Pagespeed`, `bin/magento setup:upgrade` and `bin/magento cache:flush`.
 
 ---
 
