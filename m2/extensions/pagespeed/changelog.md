@@ -8,6 +8,16 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.21.11
+
+> November 19, 2026
+
+#### Fixed
+
+- **Fixed scripts loading twice on some pages**: on some stores, a few scripts were added to the page twice. This could cause errors on the page and stop search analytics from working. Now each script is added only once.
+
+---
+
 ### Version 1.21.10
 
 > November 19, 2026
