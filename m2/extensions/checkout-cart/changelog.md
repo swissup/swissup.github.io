@@ -8,6 +8,12 @@ category: Checkout Cart
 
 # Changelog
 
+### Version 1.5.11
+
+> November 19, 2026
+
+ -  Security: improved output escaping and product data handling at checkout.
+
 ### Version 1.5.10
 
 > Dec 18, 2025

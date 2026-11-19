@@ -8,6 +8,12 @@ category: SubscribeAtCheckout
 
 # Changelog
 
+## Version 1.3.8
+
+> November 19, 2026
+
+ -  Security: added proper admin permissions for the module configuration.
+
 ## Version 1.3.7
 
 > October 8, 2026

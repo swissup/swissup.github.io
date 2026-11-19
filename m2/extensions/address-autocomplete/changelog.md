@@ -7,6 +7,13 @@ category: Address Autocomplete
 
 # Changelog
 
+### Version 1.8.5
+
+> November 19, 2026
+
+ -  Fixed form filling for select options with values containing spaces or quotes.
+ -  Fixed country-specific address mapping persisting for later address picks on the same page.
+
 ### Version 1.8.4
 
 > June 16, 2026

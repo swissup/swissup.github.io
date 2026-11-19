@@ -8,6 +8,12 @@ category: Checkout Success
 
 # Changelog
 
+### Version 2.0.13
+
+> November 19, 2026
+
+ -  Security: strengthened access to the success page preview and its admin settings.
+
 ### Version 2.0.12
 
 > June 22, 2026

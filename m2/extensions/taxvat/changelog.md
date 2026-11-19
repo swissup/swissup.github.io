@@ -8,6 +8,19 @@ category: Checkout VAT
 
 # Changelog
 
+### Version 1.4.10
+
+> November 19, 2026
+
+ -  Security: stricter validation of VAT numbers and addresses before remote checks.
+
+### Version 1.4.9
+
+> November 29, 2024
+
+ -  Fixed invisible country multiselect on store level.
+ -  Fixed VAT validation when allowed countries list is empty.
+
 ### Version 1.4.8
 
 > October 31, 2024

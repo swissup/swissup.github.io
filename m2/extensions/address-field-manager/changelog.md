@@ -8,6 +8,12 @@ category: Address Field Manager
 
 # Changelog
 
+### Version 1.6.22
+
+> November 19, 2026
+
+ -  Security: stricter validation of attribute codes when saving fields.
+
 ### Version 1.6.21
 
 > Oct 9, 2025

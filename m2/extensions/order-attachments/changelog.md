@@ -7,7 +7,15 @@ category: Order Attachments
 
 # Changelog
 
-### Version 1.5.3
+### Version 1.5.5
+
+> November 19, 2026
+
+ -  Security: strengthened access checks and file validation for attachment upload, preview, and admin actions.
+ -  Added cron job that deletes attachments uploaded at checkout that never got an order (after 30 days).
+ -  Fixed drag and drop upload.
+
+### Version 1.5.4
 
 > October 8, 2026
 
@@ -19,6 +27,12 @@ category: Order Attachments
  -  Security: Low — improved storefront error handling.
 
 **Behaviour change:** temporary attachment preview access now expires; account for this in long-running workflows.
+
+### Version 1.5.3
+
+> June 19, 2025
+
+ -  Security fixes.
 
 ### Version 1.5.2
 

@@ -7,6 +7,15 @@ category: Checkout Registration
 
 # Changelog
 
+### Version 1.2.5
+
+> November 19, 2026
+
+ -  Security: password strength is now enforced on the server side.
+ -  Fixed incorrect API request detection when checkout is opened via direct link.
+ -  Do not try creating account when order already has a customer assigned (compatibility with order import extensions).
+ -  Do not try creating account if email is already registered (when guest login if disabled).
+
 ### Version 1.2.4
 
 > October 8, 2026

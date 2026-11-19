@@ -8,6 +8,12 @@ category: Checkout Fields
 
 # Changelog
 
+### Version 1.6.19
+
+> November 19, 2026
+
+ -  Security: strengthened authorization and input validation in field management.
+
 ### Version 1.6.18
 
 > Oct 8, 2026

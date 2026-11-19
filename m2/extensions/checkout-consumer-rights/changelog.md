@@ -7,6 +7,12 @@ category: Checkout Consumer Rights
 
 # Changelog
 
+### Version 1.1.1
+
+> November 19, 2026
+
+ -  Security: strengthened protection of order withdrawal requests.
+
 ### Version 1.1.0
 
 > August 14, 2026

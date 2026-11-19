@@ -7,6 +7,18 @@ category: Delivery Date
 
 # Changelog
 
+### Version 1.9.2
+
+> November 19, 2026
+
+ -  Security: stricter validation of delivery date and time.
+
+### Version 1.9.1
+
+> October 19, 2026
+
+ -  Fixed delivery date validation for virtual quotes when using PayPal.
+
 ### Version 1.9.0
 
 > September 18, 2026

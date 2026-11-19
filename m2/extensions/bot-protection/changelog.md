@@ -6,6 +6,12 @@ category: Bot Protection
 
 # Changelog
 
+### Version 1.0.2
+
+> October 1, 2024
+
+ -  Fixed "date column not found" error when cron job is executed.
+
 ### Version 1.0.1
 
 > Sep 16, 2024

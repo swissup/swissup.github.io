@@ -8,6 +8,47 @@ category: Firecheckout
 
 # Changelog
 
+### Version 1.37.0
+
+> November 19, 2026
+
+**New module: [Checkout Doctor](/m2/extensions/checkout-doctor/)** — collects
+data about checkout sessions and errors to help you find and fix problems in
+the checkout process.
+
+**Firecheckout**
+
+ -  Security: improved rendering of inline scripts on the checkout page.
+ -  Fixed header minicart styles being changed on the checkout page.
+ -  Fixed possible jsbuild error on Magento 2.4.7 and 2.4.8.
+ -  **Address Autocomplete**: Fixed form filling for select options with values containing spaces or quotes.
+ -  **Address Field Manager**: stricter validation of attribute codes when saving fields.
+ -  **Address Validation**: improved output escaping and handling of remote validation requests.
+ -  **Checkout Cart**: improved output escaping and product data handling at checkout.
+ -  **Checkout Consumer Rights**: strengthened protection of order withdrawal requests.
+ -  **Checkout Fields**: strengthened authorization and input validation in field management.
+ -  **Checkout Success**: strengthened access to the success page preview and its admin settings.
+ -  **Subscribe at Checkout**: added proper admin permissions for the module configuration.
+ -  **Taxvat**: stricter validation of VAT numbers and addresses before remote checks.
+
+**Checkout Registration**
+
+ -  Security: password strength is now enforced on the server side.
+ -  Fixed incorrect API request detection when checkout is opened via direct link.
+ -  Fixed compatibility with order import extensions.
+ -  Do not try creating account if email is already registered (when guest login if disabled).
+
+**Delivery Date**
+
+ -  Security: stricter validation of delivery date and time.
+ -  Fixed delivery date validation for virtual quotes when using PayPal.
+
+**Order Attachments**
+
+ -  Security: strengthened access checks and file validation for attachment upload, preview, and admin actions.
+ -  Added cron job that deletes attachments uploaded at checkout that never got an order (after 30 days).
+ -  Fixed drag and drop upload.
+
 ### Version 1.36.1
 
 > October 8, 2026
