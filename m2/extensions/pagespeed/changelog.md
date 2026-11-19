@@ -8,6 +8,16 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.21.10
+
+> November 19, 2026
+
+#### Fixed
+
+- **Main product image shows up sooner on mobile**: with *Enable Responsive Support* turned on, phones downloaded the main product photo twice, first a small copy, then the full one. They now download it only once, so the product page looks ready sooner.
+
+---
+
 ### Version 1.21.9
 
 > November 17, 2026
