@@ -7,6 +7,13 @@ category: Checkout Doctor
 
 # Changelog
 
+### Version 1.0.13
+
+> November 24, 2026
+
+ -  Better ignoring of the third-party fetch request blocked by adblockers.
+ -  Store longer backtraces for js errors.
+
 ### Version 1.0.10
 
 > November 20, 2026
