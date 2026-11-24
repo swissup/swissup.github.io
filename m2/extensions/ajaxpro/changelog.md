@@ -6,6 +6,20 @@ category: AjaxPro
 
 # Changelog
 
+### Version 1.7.46
+
+> November 24, 2026
+
+ -  Security: Medium — a crafted link can no longer make your store answer with an error page instead of the shopping cart, mini cart and messages.
+ -  Security: Medium — a crafted link can no longer make a product page answer with an error page.
+ -  Fixed Add to Cart in the price popup of products under Minimum Advertised Price adding the product twice, when the popup was opened from a product list.
+ -  Fixed the Instant Purchase button inside the Quick View popup ordering the product from the page behind it instead of the one on screen. The button is no longer shown inside Quick View; it keeps working on product pages.
+ -  Fixed Add to Wishlist and Add to Compare inside the popup sending your customer to a blank page with technical content instead of back to the page they were on.
+ -  Fixed a JavaScript error on CMS pages that show products with Minimum Advertised Price.
+ -  Fixed Add to Compare and Add to Wishlist reloading the whole page after the first use instead of staying on it.
+ -  Quick View now loads about a third less data, so the popup opens sooner — the extension no longer sends along parts of the product page that the popup never shows.
+ -  **Please note:** opening a product in Quick View no longer adds it to Recently Viewed Products. Visiting the product page still does.
+
 ### Version 1.7.45
 
 > November 17, 2026
