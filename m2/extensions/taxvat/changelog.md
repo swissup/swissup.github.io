@@ -8,6 +8,18 @@ category: Checkout VAT
 
 # Changelog
 
+### Version 1.4.11
+
+> November 24, 2026
+
+ -  UK and Isle of Man VAT numbers are validated with the HMRC "Check a UK VAT
+    number" API v2. Enter your HMRC application credentials at
+    *Stores > Configuration > Swissup Checkout > Tax VAT > UK VAT Validation (HMRC)*.
+    Without credentials UK VAT numbers are accepted at checkout but never qualify
+    for tax-free purchases.
+ -  Fixed VAT validation for stores outside the EU (e.g. UK stores): the store VAT
+    number is no longer sent to VIES as the requester.
+
 ### Version 1.4.10
 
 > November 19, 2026
