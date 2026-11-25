@@ -8,6 +8,20 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.21.12
+
+> November 25, 2026
+
+#### Fixed
+
+- Security: Low — *Enable debug mode* can now be returned to its safe default in the admin.
+- Security: Low — improved safe handling of critical CSS when *Use built-in critical CSS feature* is on.
+- Security: Low — the *Default Critical CSS* field now accepts only CSS.
+
+**Please note:** if *Enable debug mode* was ever saved in your store, it stays on after this update. Open *Stores › Configuration › Swissup › Pagespeed › Main Section* and tick *Use system value* next to *Enable debug mode*, or set it to *No*. If saving Pagespeed settings then shows "Critical CSS contains HTML markup and was rejected", remove the HTML from *Critical CSS Settings › Default Critical CSS*.
+
+---
+
 ### Version 1.21.11
 
 > November 19, 2026
