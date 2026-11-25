@@ -8,6 +8,16 @@ category: Pagespeed
 
 # Changelog
 
+### Version 1.21.13
+
+> November 25, 2026
+
+#### Improved
+
+- Internal improvements, no visible changes.
+
+---
+
 ### Version 1.21.12
 
 > November 25, 2026
