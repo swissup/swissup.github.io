@@ -112,10 +112,11 @@
     nodes.forEach(function (n) { bodyEl.appendChild(n); });
     rel.appendChild(bodyEl);
 
-    // "Extensions Updates" (theme changelogs): fold the per-module list into <details>
+    // "Extensions Updates", "Hyva Extensions Updates", "SEO Modules Updates" (theme changelogs):
+    // fold each per-module list into its own <details>
     Array.prototype.forEach.call(bodyEl.querySelectorAll(':scope > p'), function (p) {
       var list = p.nextElementSibling;
-      if (!list || list.tagName !== 'UL' || !/^\s*(extensions?|modules?)\b.*\bupdates?\b|^\s*bundled\b/i.test(p.textContent)) {
+      if (!list || list.tagName !== 'UL' || !/^\s*(hyv[aä]\s+)?(extensions?|modules?)\b.*\bupdates?\b|^[\w ]{0,30}\bmodules\s+updates?\s*$|^\s*bundled\b/i.test(p.textContent)) {
         return;
       }
       var details = document.createElement('details');
