@@ -1,4 +1,4 @@
-{%- comment -%} Params: package (Hyvä compatibility package(s)), tailwind ('false' when the package has no templates) {%- endcomment -%}
+{%- comment -%} Params: package (Hyvä compatibility package(s)), tailwind ('false' when the package has no templates), installer (package to run marketplace installer for) {%- endcomment -%}
 {% include hyva-compatibility.html %}
 
 ## Prepare to install
@@ -33,7 +33,8 @@ bin/magento setup:di:compile{% if include.tailwind != 'false' %}
 ```
 {% include installation/m2/hyva-tailwind.html %}
 ```bash{% else %} &&\{% endif %}
-bin/magento setup:static-content:deploy
+bin/magento setup:static-content:deploy{% if include.installer %} &&\
+bin/magento marketplace:package:install {{ include.installer }}{% endif %}
 ```
 
 ## Update

@@ -651,7 +651,7 @@ navigationpro:
   icon: menu
   short_description: Born to build powerful menus with multiple posibilities.
   size: 2x1
-  hyva:
+  hyva: true
   urls:
     m1: /m1/extensions/navigationpro/
     m2: /m2/extensions/navigationpro/
