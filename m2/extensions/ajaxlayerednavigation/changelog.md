@@ -7,6 +7,13 @@ category: Ajax Layered Navigation
 
 # Changelog
 
+### Version 1.7.0
+
+> November 26, 2026
+
+ - **Help tooltips for filters**: you can now add a short help text to any attribute filter. A small "?" icon appears next to the filter name, and customers see the text when they hover over or tap it. Set it in *Stores > Attributes > Product > Layered Navigation Tooltip*, with a separate text per store view if needed.
+ - **Please note:** this version adds a new database table, so run `bin/magento setup:upgrade` after updating. Until then, filters keep working, just without tooltips.
+
 ### Version 1.6.11
 
 > October 8, 2026
