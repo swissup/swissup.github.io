@@ -9,7 +9,7 @@ extension_id: breeze-theme-editor
 
 # Breeze Theme Editor
 
-Visual theme customization tool for Magento 2 Breeze themes.
+Visual theme customization tool for Magento 2 Breeze and Hyvä themes.
 
 ## Features
 
@@ -86,7 +86,8 @@ See [Theme Developer Guide](theme-developer-guide/) for complete documentation.
 
 - Magento 2.4.x or higher
 - PHP 7.4, 8.0, 8.1, or 8.2
-- Breeze Frontend (v2.0+ for RGB format, v3.0+ for HEX format)
+- Breeze Frontend (v2.0+ for RGB format, v3.0+ for HEX format), or a Hyvä theme with
+  `etc/theme_editor/settings.json` (included in Argento Hyvä Chic 1.4.0+ and Stripes 1.2.0+)
 
 ## Installation
 

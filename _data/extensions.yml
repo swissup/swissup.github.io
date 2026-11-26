@@ -156,7 +156,7 @@ breeze-content-builder:
   category: Breeze
   icon: layers
   short_description: Visual drag-and-drop page and layout builder for Breeze
-  hyva:
+  hyva: true
   urls:
     m1:
     m2: /m2/extensions/breeze-content-builder/
@@ -166,7 +166,7 @@ breeze-theme-editor:
   category: Breeze
   icon: palette
   short_description: Visual theme customization tool for Breeze
-  hyva:
+  hyva: true
   urls:
     m1:
     m2: /m2/extensions/breeze-theme-editor/
