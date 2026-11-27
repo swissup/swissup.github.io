@@ -487,3 +487,72 @@ category: Easy Tabs
 ### Version 1.0.0
 
  -  Initial Release
+
+## Hyvä Compatibility {#hyva}
+
+Changes in the [`swissup/hyva-easytabs`](/m2/extensions/easytabs/installation/hyva/) module.
+
+### Version 1.1.7
+
+> August 28, 2026
+
+ -  Fixed expanded layout styles.
+
+### Version 1.1.6
+
+> August 28, 2026
+
+ -  Added CSS classes for theme styling.
+
+### Version 1.1.5
+
+> July 31, 2026
+
+ -  Minor code improvements.
+
+### Version 1.1.4
+
+> June 29, 2026
+
+ -  Fixed expanded tabs and sticky titles.
+
+### Version 1.1.3
+
+> June 7, 2026
+
+ -  Fixed accessibility: accordion tabs no longer use the tablist role.
+
+### Version 1.1.2
+
+> February 28, 2026
+
+ -  Fixed unescaped output in templates.
+ -  Improved tab and accordion templates.
+
+### Version 1.1.1
+
+> February 13, 2026
+
+ -  Accordion toggle icon moved to a separate template for easier customization.
+
+### Version 1.1.0
+
+> February 11, 2026
+
+ -  Module renamed to follow Swissup naming conventions.
+ -  Fixed active tab initialization.
+ -  Faster accordion: removed the content transition.
+
+### Version 1.0.0
+
+> August 13, 2025
+
+ -  First stable release: tabs, accordion, collapsible and expanded layouts, expanded layout with sticky toolbar.
+ -  Ajax tabs, also updated after a configurable product option is selected.
+ -  Product reviews tab.
+
+### Version 0.1.0
+
+> July 24, 2025
+
+ -  Initial package.

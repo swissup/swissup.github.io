@@ -48,7 +48,6 @@
   var timelines = [];
   var timeline = null;
 
-  var counts = {};
   var lastYear = null;
   var releases = [];
 
@@ -56,7 +55,6 @@
   function tagItem(li) {
     if (li.tagName !== 'LI') { return; }
     var type = classify(li.textContent);
-    counts[type] = (counts[type] || 0) + 1;
     li.classList.add('cl-item');
     li.setAttribute('data-type', type);
     var text = document.createElement('div');
@@ -101,8 +99,11 @@
     }
 
     var isLatest = !timeline.querySelector('.release');
+    // Position inside its own timeline: each timeline shows its first PAGE releases
+    var pos = timeline.querySelectorAll('.release').length;
     var rel = document.createElement('section');
     rel.className = 'release' + (isLatest ? ' latest' : '');
+    rel.setAttribute('data-pos', pos);
     rel.id = h.id;
     rel.innerHTML = '<div class="release-meta"><div class="ver"><a href="#' + h.id + '">' + version.replace(/</g, '&lt;') + '</a></div>' +
       (date ? '<time>' + date.replace(/</g, '&lt;') + '</time>' : '') +
@@ -146,37 +147,163 @@
     releases.push(rel);
   });
 
-  // Toolbar with filters
+  function esc(text) {
+    return String(text).replace(/&/g, '&amp;').replace(/</g, '&lt;');
+  }
+
+  // Tabs: a changelog with several products under their own h2 (e.g. "## Hyvä Compatibility")
+  // shows one product at a time. A timeline without an h2 is named after the module.
+  var panels = [];
+  if (timelines.length > 1) {
+    var moduleName = document.querySelector('.module-switch strong');
+    timelines.forEach(function (t) {
+      var panel = document.createElement('div');
+      panel.className = 'cl-panel';
+      var intro = [];
+      var title = '';
+      var prev = t.previousElementSibling;
+      while (prev && !prev.classList.contains('timeline') && !prev.classList.contains('cl-panel')) {
+        if (prev.tagName === 'H2') {
+          title = prev.textContent.trim();
+          panel.id = prev.id;
+          prev.remove();
+          break;
+        }
+        intro.unshift(prev);
+        prev = prev.previousElementSibling;
+      }
+      t.parentNode.insertBefore(panel, t);
+      if (title) {
+        intro.forEach(function (n) { panel.appendChild(n); });
+      }
+      panel.appendChild(t);
+      var latest = t.querySelector('.release .ver a');
+      panels.push({
+        el: panel,
+        timeline: t,
+        label: title || (moduleName ? moduleName.textContent.trim() : 'Changelog'),
+        version: latest ? latest.textContent : ''
+      });
+    });
+  }
+  var current = panels[0] || null;
+
+  function scope() {
+    return current ? current.el : article;
+  }
+
+  // Toolbar with filters, counts are for the active tab
   var toolbar = document.createElement('div');
   toolbar.className = 'cl-toolbar';
-  toolbar.innerHTML = '<div class="chips" role="group" aria-label="Filter by type"><button type="button" class="chip active" data-type="all">All</button>' +
-    ORDER.filter(function (t) { return counts[t]; }).map(function (t) {
-      return '<button type="button" class="chip" data-type="' + t + '">' + TYPES[t].label + '<span class="count">' + counts[t] + '</span></button>';
-    }).join('') + '</div>' +
+  toolbar.innerHTML = '<div class="chips" role="group" aria-label="Filter by type"></div>' +
     '<label class="mini-search"><svg class="i i-sm" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>' +
     '<input type="search" placeholder="Filter changes…" aria-label="Filter changes"></label>';
-  timelines[0].parentNode.insertBefore(toolbar, timelines[0]);
-  var lastTimeline = timelines[timelines.length - 1];
+  var chips = toolbar.querySelector('.chips');
+  var first = current ? current.el : timelines[0];
+  first.parentNode.insertBefore(toolbar, first);
+
+  var tabs = null;
+  if (panels.length) {
+    tabs = document.createElement('div');
+    tabs.className = 'cl-tabs';
+    tabs.setAttribute('role', 'tablist');
+    tabs.innerHTML = panels.map(function (p, i) {
+      return '<button type="button" role="tab" class="cl-tab" data-tab="' + i + '">' + esc(p.label) +
+        (p.version ? '<span class="ver">' + esc(p.version) + '</span>' : '') + '</button>';
+    }).join('');
+    toolbar.parentNode.insertBefore(tabs, toolbar);
+  }
+
+  // Search hits in the other tabs
+  var elsewhere = document.createElement('p');
+  elsewhere.className = 'cl-elsewhere';
+  elsewhere.hidden = true;
+  toolbar.parentNode.insertBefore(elsewhere, toolbar.nextSibling);
 
   var empty = document.createElement('p');
   empty.className = 'empty';
   empty.textContent = 'No changes match this filter.';
-  lastTimeline.parentNode.insertBefore(empty, lastTimeline.nextSibling);
 
+  // A link to an older version shows all releases, a link to a tab does not
+  function linksVersion(id) {
+    var target = id && document.getElementById(id);
+    return !!target && !target.classList.contains('cl-panel');
+  }
+
+  var hashId = decodeURIComponent(window.location.hash.substring(1));
   var PAGE = 12;
-  var limit = window.location.hash ? releases.length : PAGE;
+  var limit = linksVersion(hashId) ? releases.length : PAGE;
+  var older = 0;
   var more = document.createElement('div');
   more.className = 'show-more';
-  more.innerHTML = '<button type="button" class="btn">Show older releases (' + (releases.length - PAGE) + ')</button>';
-  empty.parentNode.insertBefore(more, empty.nextSibling);
+  more.innerHTML = '<button type="button" class="btn"></button>';
 
   var state = { type: 'all', q: '' };
+
+  function renderChips() {
+    var counts = {};
+    Array.prototype.forEach.call(scope().querySelectorAll('.cl-item'), function (li) {
+      var type = li.getAttribute('data-type');
+      counts[type] = (counts[type] || 0) + 1;
+    });
+    if (state.type !== 'all' && !counts[state.type]) {
+      state.type = 'all';
+    }
+    chips.innerHTML = '<button type="button" class="chip' + (state.type === 'all' ? ' active' : '') + '" data-type="all">All</button>' +
+      ORDER.filter(function (t) { return counts[t]; }).map(function (t) {
+        return '<button type="button" class="chip' + (state.type === t ? ' active' : '') + '" data-type="' + t + '">' +
+          TYPES[t].label + '<span class="count">' + counts[t] + '</span></button>';
+      }).join('');
+  }
+
+  // Place the "Show older" button and the empty notice in the active tab
+  function layout() {
+    var timeline = current ? current.timeline : timelines[timelines.length - 1];
+    var inScope = releases.filter(function (rel) { return scope().contains(rel); });
+    older = inScope.filter(function (rel) { return +rel.getAttribute('data-pos') >= PAGE; }).length;
+    more.querySelector('button').textContent = 'Show older releases (' + older + ')';
+    // Right below the timeline it unfolds (the first one with older releases), not after a later section
+    var moreAfter = timeline;
+    if (!current) {
+      timelines.some(function (t) {
+        if (t.querySelector('.release[data-pos="' + PAGE + '"]')) { moreAfter = t; return true; }
+        return false;
+      });
+    }
+    moreAfter.parentNode.insertBefore(more, moreAfter.nextSibling);
+    timeline.parentNode.insertBefore(empty, timeline.nextSibling);
+  }
+
+  function activate(panel) {
+    current = panel;
+    panels.forEach(function (p, i) {
+      var on = p === panel;
+      p.el.hidden = !on;
+      var tab = tabs.querySelector('[data-tab="' + i + '"]');
+      tab.setAttribute('aria-selected', on ? 'true' : 'false');
+      tab.tabIndex = on ? 0 : -1;
+    });
+    renderChips();
+    layout();
+    apply();
+  }
+
+  // The tab that holds an element from the URL hash (a version or a section)
+  function panelOf(id) {
+    var target = id && document.getElementById(id);
+    if (!target) { return null; }
+    for (var i = 0; i < panels.length; i++) {
+      if (panels[i].el === target || panels[i].el.contains(target)) { return panels[i]; }
+    }
+    return null;
+  }
 
   function apply() {
     var filtering = state.type !== 'all' || state.q;
     var q = state.q.toLowerCase();
     var visible = 0;
-    releases.forEach(function (rel, i) {
+    var hits = panels.map(function () { return 0; });
+    releases.forEach(function (rel) {
       var items = Array.prototype.filter.call(rel.querySelectorAll('.cl-item'), function (li) {
         return !li.closest('.cl-ext');
       });
@@ -197,10 +324,13 @@
       Array.prototype.forEach.call(rel.querySelectorAll('.cl-group'), function (g) {
         g.classList.toggle('is-hidden', !g.querySelector('.cl-item:not(.is-hidden)'));
       });
-      var show = any && (filtering || i < limit);
+      var show = any && (filtering || +rel.getAttribute('data-pos') < limit);
       rel.classList.toggle('is-hidden', !show);
-      if (show) {
+      if (show && scope().contains(rel)) {
         visible++;
+      }
+      if (any && filtering) {
+        panels.forEach(function (p, i) { if (p.el.contains(rel)) { hits[i]++; } });
       }
     });
     Array.prototype.forEach.call(document.querySelectorAll('.timeline .year-sep'), function (sep) {
@@ -212,14 +342,20 @@
       sep.hidden = !has;
     });
     empty.classList.toggle('show', !visible);
-    more.hidden = filtering || limit >= releases.length;
+    more.hidden = filtering || !older || limit >= releases.length;
+
+    var links = panels.map(function (p, i) {
+      return p !== current && hits[i] ? '<button type="button" data-tab="' + i + '">' + esc(p.label) + ' (' + hits[i] + ')</button>' : '';
+    }).filter(Boolean);
+    elsewhere.innerHTML = links.length ? 'Also found in: ' + links.join(', ') : '';
+    elsewhere.hidden = !links.length;
   }
 
-  toolbar.addEventListener('click', function (e) {
+  chips.addEventListener('click', function (e) {
     var b = e.target.closest('[data-type]');
     if (!b) { return; }
-    Array.prototype.forEach.call(toolbar.querySelectorAll('.chip'), function (c) { c.classList.toggle('active', c === b); });
     state.type = b.getAttribute('data-type');
+    Array.prototype.forEach.call(chips.querySelectorAll('.chip'), function (c) { c.classList.toggle('active', c === b); });
     apply();
   });
   toolbar.querySelector('input').addEventListener('input', function () {
@@ -230,16 +366,47 @@
     limit = releases.length;
     apply();
   });
+
+  function onTab(e) {
+    var b = e.target.closest('[data-tab]');
+    if (!b) { return; }
+    var panel = panels[+b.getAttribute('data-tab')];
+    activate(panel);
+    // Keep the tab in the URL, so the link opens the same tab
+    var hash = panel === panels[0] || !panel.el.id ? '' : '#' + panel.el.id;
+    history.replaceState(null, '', window.location.pathname + window.location.search + hash);
+  }
+  if (tabs) {
+    tabs.addEventListener('click', onTab);
+    elsewhere.addEventListener('click', onTab);
+    tabs.addEventListener('keydown', function (e) {
+      if (e.key !== 'ArrowLeft' && e.key !== 'ArrowRight') { return; }
+      var i = panels.indexOf(current) + (e.key === 'ArrowRight' ? 1 : -1);
+      var panel = panels[(i + panels.length) % panels.length];
+      tabs.querySelector('[data-tab="' + panels.indexOf(panel) + '"]').focus();
+      onTab({ target: tabs.querySelector('[data-tab="' + panels.indexOf(panel) + '"]') });
+    });
+  }
+
   window.addEventListener('hashchange', function () {
-    if (limit < releases.length) { limit = releases.length; apply(); }
+    var id = decodeURIComponent(window.location.hash.substring(1));
+    var panel = panelOf(id);
+    if (panel && panel !== current) { activate(panel); }
+    if (linksVersion(id) && limit < releases.length) { limit = releases.length; apply(); }
   });
 
-  apply();
+  if (current) {
+    activate(panelOf(hashId) || current);
+  } else {
+    renderChips();
+    layout();
+    apply();
+  }
   ready();
 
   // Releases were rebuilt after load: scroll to the version from the URL hash again
   if (window.location.hash) {
-    var target = document.getElementById(decodeURIComponent(window.location.hash.substring(1)));
+    var target = document.getElementById(hashId);
     if (target) {
       target.scrollIntoView();
     }

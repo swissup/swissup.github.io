@@ -744,3 +744,40 @@ category: AjaxSearch
 ### Version 1.0.0
 
 -  Initial Release
+
+## Hyvä Compatibility {#hyva}
+
+Changes in the [`swissup/hyva-ajaxsearch`](/m2/extensions/ajaxsearch/installation/hyva/) module.
+
+### Version 1.0.4
+
+> November 26, 2026
+
+ -  Search form template is switched with layout settings.
+ -  Fixed keyboard shortcut hint styles.
+
+### Version 1.0.3
+
+> August 28, 2026
+
+ -  Fixed search popup overlapped by other page elements.
+
+### Version 1.0.2
+
+> August 26, 2026
+
+ -  Improved search input.
+ -  Fixed button and input position on mobile.
+
+### Version 1.0.1
+
+> June 30, 2026
+
+ -  Added layout with an initially visible search form.
+ -  Added RTL support.
+
+### Version 1.0.0
+
+> April 24, 2026
+
+ -  Initial release: Ajax Search for Hyvä themes with mobile styles and CSP support.

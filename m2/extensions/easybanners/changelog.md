@@ -376,3 +376,37 @@ IMPORTANT: [**Upgrade Instructions**](/m2/extensions/easybanners/upgrade-instruc
 ### Version 1.0.0
 
 - Initial Release
+
+## Hyvä Compatibility {#hyva}
+
+Changes in the [`swissup/hyva-easybanner`](/m2/extensions/easybanners/installation/hyva/) module.
+
+### Version 1.0.4
+
+> September 15, 2026
+
+ -  Fixed exit intent trigger in Firefox.
+
+### Version 1.0.3
+
+> April 2, 2026
+
+ -  Fixed forced reflow.
+
+### Version 1.0.2
+
+> March 10, 2026
+
+ -  Reduced forced reflows.
+
+### Version 1.0.1
+
+> March 6, 2026
+
+ -  Banners are filtered by store view.
+
+### Version 1.0.0
+
+> February 13, 2026
+
+ -  Initial release: Easy Banners for Hyvä themes.

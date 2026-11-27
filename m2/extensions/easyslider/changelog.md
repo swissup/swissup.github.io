@@ -360,3 +360,25 @@ category: Easy Slider
 ### Version 1.0.7
 
  -  Code cleanup
+
+## Hyvä Compatibility {#hyva}
+
+Changes in the [`swissup/hyva-easy-slide`](/m2/extensions/easyslider/installation/hyva/) module.
+
+### Version 1.0.2
+
+> February 26, 2026
+
+ -  Faster image loading.
+
+### Version 1.0.1
+
+> February 25, 2026
+
+ -  Slider styles moved to Tailwind CSS.
+
+### Version 1.0.0
+
+> February 2, 2026
+
+ -  Initial release: Easy Slide sliders for Hyvä themes.

@@ -70,3 +70,13 @@ Moved module configuration to Swissup submenu
 ### Version 1.0.0
 
  -  First release. Login with Facebook, Google and Twitter.
+
+## Hyvä Compatibility {#hyva}
+
+Changes in the [`swissup/hyva-social-login`](/m2/extensions/social-login/installation/hyva/) module.
+
+### Version 1.0.0
+
+> October 23, 2026
+
+ -  Initial release: social login buttons on the customer login and registration pages and in the checkout authentication popup on Hyvä themes.

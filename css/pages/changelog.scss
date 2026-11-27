@@ -90,6 +90,7 @@ $cl-dot: 9px;
     margin: 8px 0 24px;
     color: var(--text-3); font-size: 12px; font-weight: 600; letter-spacing: .06em;
     &::after { content: ""; flex: 1; height: 1px; background: var(--border); }
+    &[hidden] { display: none; }
 }
 .show-more { margin: 8px 0 0 $cl-meta + $cl-gap; }
 @media (max-width: $bp-phone) {
@@ -98,6 +99,31 @@ $cl-dot: 9px;
     .release-body { padding-left: 0; &::before { display: none; } }
     .release-body .cl-item { grid-template-columns: 1fr; gap: 2px; > .badge { justify-self: start; } }
     .show-more { margin-left: 0; }
+}
+
+// Tabs: one product per tab when a changelog holds several (module and its Hyvä compatibility module)
+.cl-tabs {
+    display: flex; flex-wrap: wrap; gap: 0 4px;
+    margin: 0 0 20px;
+    border-bottom: 1px solid var(--border);
+    .cl-tab {
+        display: inline-flex; align-items: baseline; gap: 8px; flex: none;
+        margin-bottom: -1px; padding: 10px 14px;
+        border: 0; border-bottom: 2px solid transparent; background: none;
+        color: var(--text-2); font: inherit; font-size: 14px; font-weight: 500;
+        cursor: pointer;
+        .ver { color: var(--text-3); font-family: var(--mono); font-size: 12px; font-weight: 500; }
+        &:hover { color: var(--text); }
+        &[aria-selected="true"] { color: var(--text); border-bottom-color: var(--accent); }
+        &:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; border-radius: var(--radius-sm) var(--radius-sm) 0 0; }
+    }
+}
+// A link to a tab (#hyva) keeps the page at the top: the tabs are right below the title
+.cl-panel { scroll-margin-top: 100vh; }
+.cl-panel[hidden] { display: none; }
+.cl-elsewhere {
+    margin: -8px 0 16px; color: var(--text-2); font-size: 13px;
+    button { padding: 0; border: 0; background: none; color: var(--accent); font: inherit; cursor: pointer; text-decoration: underline; }
 }
 
 // Folded "Extensions Updates" block in theme changelogs

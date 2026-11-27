@@ -137,3 +137,32 @@ category: SEO CrossLinks
 ### Version 1.0.0
 
  -  Initial release
+
+## Hyvä Compatibility {#hyva}
+
+Changes in the [`swissup/hyva-seo-cross-links`](/m2/extensions/seo-cross-links/installation/hyva/) module.
+
+### Version 1.1.0
+
+> February 28, 2026
+
+ -  Module renamed to follow Swissup naming conventions.
+
+### Version 1.0.0
+
+> September 25, 2025
+
+ -  Cross link tooltips, underline and color animation, and highlight on Hyvä themes.
+ -  Cross links in product short description.
+
+### Version 0.1.1
+
+> September 16, 2025
+
+ -  Fixed package name and autoload paths.
+
+### Version 0.1.0
+
+> September 12, 2025
+
+ -  Initial release.

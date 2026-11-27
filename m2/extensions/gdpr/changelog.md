@@ -491,3 +491,14 @@ category: GDPR
     - Registration
     - Product Reviews
  -  Ability to request account deletion from Privacy Tools page
+
+## Hyvä Compatibility {#hyva}
+
+Changes in the [`swissup/module-gdpr-hyva`](/m2/extensions/gdpr/installation/hyva/) module.
+
+### Version 1.0.0
+
+> January 2, 2026
+
+ -  Initial release: cookie bar, cookie settings and consent checkboxes for Hyvä 1.4.0+.
+ -  Unknown cookies are registered in batches.

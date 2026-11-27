@@ -614,3 +614,21 @@ This fixes PHP error with Mageplaza_Blog module.
 - Fix grid massactions logic
 - Fix grid filterpool index search
 - etc.
+
+## Hyvä Compatibility {#hyva}
+
+Changes in the [`swissup/hyva-askit`](/m2/extensions/askit/installation/hyva/) module.
+
+### Version 1.0.1
+
+> November 26, 2026
+
+ -  The first page of questions is rendered with the page.
+ -  Smoother pagination: smaller loaders, the list is dimmed while the next page loads and scrolled into view.
+ -  Fixed reCAPTCHA validation and guest answers in AskIt forms.
+
+### Version 1.0.0
+
+> June 9, 2026
+
+ -  Initial release: AskIt questions and forms for Hyvä themes with reCAPTCHA and GDPR consent support.

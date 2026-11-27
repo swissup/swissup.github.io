@@ -535,3 +535,74 @@ It's not a regular update. It's a fresh start for Prolabels module on Magento 2!
 
  -  Fix missing labels after cron run at some Magento instances.
  -  ACL improvements according latest Magento requirements.
+
+## Hyvä Compatibility {#hyva}
+
+Changes in the [`swissup/hyva-pro-labels`](/m2/extensions/prolabels/installation/hyva/) module.
+
+### Version 1.1.0
+
+> February 28, 2026
+
+ -  Module vendor renamed from Hyva to Swissup.
+
+### Version 1.0.3
+
+> July 17, 2025
+
+ -  Removed unused script template.
+
+### Version 1.0.2
+
+> May 19, 2025
+
+ -  Labels are rendered directly with the Pro Labels script.
+ -  Inline CSS moved from the labels template to layout XML.
+
+### Version 1.0.1
+
+> April 9, 2025
+
+ -  Fixed labels rendering in Safari.
+
+### Version 1.0.0
+
+> March 27, 2025
+
+ -  Vanilla JS labels renderer on category and product pages, with async and on-reveal rendering.
+ -  Support for Pro Labels Configurable Product.
+
+### Version 0.0.1
+
+> February 22, 2025
+
+ -  Initial package.
+
+
+## Hyvä Configurable Product {#hyva-configurable}
+
+Changes in the [`swissup/hyva-pro-labels-configurable-product`](/m2/extensions/prolabels/installation/hyva/) module.
+
+### Version 1.1.0
+
+> February 28, 2026
+
+ -  Module renamed to follow Swissup naming conventions.
+
+### Version 1.0.1
+
+> August 13, 2025
+
+ -  Child product label is updated on Hyvä product option change events.
+
+### Version 1.0.0
+
+> May 19, 2025
+
+ -  Labels of the selected child product are shown and updated on swatch change.
+
+### Version 0.0.1
+
+> May 17, 2025
+
+ -  Initial package.

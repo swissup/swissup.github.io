@@ -259,3 +259,13 @@ category: EasyCatalogImages
 ### Version 1.0.0
 
 - Initial Release
+
+## Hyvä Compatibility {#hyva}
+
+Changes in the [`swissup/hyva-easycatalogimg`](/m2/extensions/easycatalogimages/installation/hyva/) module.
+
+### Version 1.0.0
+
+> December 16, 2025
+
+ -  Initial release: Easy Catalog Images widget and departments block for Hyvä themes.

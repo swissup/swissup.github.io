@@ -433,3 +433,82 @@ category: Highlight
 ### Version 1.0.1
 
  -  Added ability to set custom url for "See all products" link
+
+## Hyvä Compatibility {#hyva}
+
+Changes in the [`swissup/hyva-highlight`](/m2/extensions/highlight/installation/hyva/) module.
+
+### Version 1.1.7
+
+> November 26, 2026
+
+ -  Fixed slider pages in the Content Builder preview, Ajax cache tags and dropped requests.
+ -  Removed vertical margin from list and block templates.
+
+### Version 1.1.6
+
+> September 15, 2026
+
+ -  Improved slider accessibility, empty titles are hidden.
+ -  Updated default heading tag and title class.
+
+### Version 1.1.5
+
+> September 8, 2026
+
+ -  Faster image loading for highlighted products.
+ -  Default pager is hidden in the widget items template.
+
+### Version 1.1.4
+
+> August 14, 2026
+
+ -  Fixed Ajax requests.
+
+### Version 1.1.3
+
+> August 14, 2026
+
+ -  Ajax requests use a dedicated layout.
+
+### Version 1.1.2
+
+> August 14, 2026
+
+ -  Fixed config validation.
+
+### Version 1.1.1
+
+> July 7, 2026
+
+ -  Fixed slider.
+
+### Version 1.1.0
+
+> July 5, 2026
+
+ -  Added grid slider.
+
+### Version 1.0.4
+
+> April 9, 2026
+
+ -  Content update event is triggered after new slides are added.
+
+### Version 1.0.3
+
+> April 2, 2026
+
+ -  New slider view.
+
+### Version 1.0.1
+
+> February 25, 2026
+
+ -  Slider script moved to a separate JS file.
+
+### Version 1.0.0
+
+> January 19, 2026
+
+ -  Initial release: Highlight widgets with slider and pager for Hyvä themes.

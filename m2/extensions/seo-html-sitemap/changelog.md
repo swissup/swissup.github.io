@@ -129,3 +129,31 @@ category: SEO HTML Sitemap
 > Dec 14, 2017
 
  -  Initial release
+
+## Hyvä Compatibility {#hyva}
+
+Changes in the [`swissup/hyva-seo-html-sitemap`](/m2/extensions/seo-html-sitemap/installation/hyva/) module.
+
+### Version 1.1.0
+
+> February 28, 2026
+
+ -  Module renamed to follow Swissup naming conventions.
+
+### Version 1.0.0
+
+> August 29, 2025
+
+ -  HTML sitemap pages for Hyvä themes.
+
+### Version 0.1.1
+
+> August 28, 2025
+
+ -  Fixed package name.
+
+### Version 0.1.0
+
+> August 28, 2025
+
+ -  Initial release.

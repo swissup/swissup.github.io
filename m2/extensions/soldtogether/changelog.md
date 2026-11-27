@@ -409,3 +409,81 @@ category: SoldTogether
 ### Version 1.1.8
 
  -  ACL improvements according latest Magento requirements.
+
+## Hyvä Compatibility {#hyva}
+
+Changes in the [`swissup/hyva-sold-together`](/m2/extensions/soldtogether/installation/hyva/) module.
+
+### Version 1.2.6
+
+> November 26, 2026
+
+ -  Optional "Add to Cart" checkboxes in Customers Who Bought This Item Also Bought.
+ -  Item details slide down, the card is dimmed while they are open.
+ -  Fixed vertical scrollbar in the Frequently Bought Together images list.
+
+### Version 1.2.5
+
+> September 9, 2026
+
+ -  Improved accessibility.
+
+### Version 1.2.4
+
+> August 28, 2026
+
+ -  Improved styles.
+
+### Version 1.2.3
+
+> August 4, 2026
+
+ -  Fixed Customers Who Bought This Item Also Bought block.
+ -  Improved mobile layout and messages.
+
+### Version 1.2.2
+
+> July 21, 2026
+
+ -  Updated Amazon style, improved RTL.
+
+### Version 1.2.1
+
+> July 8, 2026
+
+ -  Compatibility with Hyvä 1.5.1.
+ -  Fixed configurable products.
+
+### Version 1.2.0
+
+> February 28, 2026
+
+ -  Dropdown renderer for configurable product options.
+ -  Improved swatches styling and accessibility.
+ -  Templates are easier to customize in a theme.
+
+### Version 1.1.0
+
+> February 20, 2026
+
+ -  Escaped output in carousel and order templates.
+ -  Module renamed to follow Swissup naming conventions.
+
+### Version 1.0.0
+
+> July 19, 2025
+
+ -  Customers Who Bought This Item Also Bought carousel uses checkboxes instead of Add to Cart buttons.
+
+### Version 0.9.0
+
+> July 17, 2025
+
+ -  Frequently Bought Together block for Hyvä themes: Amazon and Stripe layouts, swatches, Add to Cart validation.
+ -  Customers Who Bought This Item Also Bought block.
+
+### Version 0.0.1
+
+> May 8, 2025
+
+ -  Initial package.

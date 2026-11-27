@@ -8,6 +8,12 @@ category: Navigationpro
 
 # Changelog
 
+### Version 1.19.5
+
+> October 12, 2026
+
+ -  Fixed menu styles in the Argento Essence theme broken in 1.19.4.
+
 ### Version 1.19.4
 
 > October 8, 2026
@@ -744,3 +750,16 @@ LESS variables inside [third-party themes](/m2/extensions/navigationpro/customiz
 ### Version 1.0.0
 
  -  Initial Release
+
+## Hyvä Compatibility {#hyva}
+
+Changes in the [`swissup/hyva-navigationpro`](/m2/extensions/navigationpro/installation/hyva/) module.
+
+### Version 1.0.0
+
+> November 26, 2026
+
+ -  Initial release: Navigation Pro menus look and behave on Hyvä themes as in Luma.
+ -  The top menu replaces the Hyvä desktop menu with all its settings: mega menus, columns, thumbnails, themes, effects and dropdown positions.
+ -  On small screens menu items are shown in the Hyvä mobile menu, down to the menu's Maximal Depth.
+ -  Navigation Pro widgets work on any page, including slideout, accordion, nowrap ("More") and sticky menus.

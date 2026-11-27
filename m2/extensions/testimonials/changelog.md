@@ -268,3 +268,25 @@ for testimonials review widget
 ### Version 1.0.0
 
  -  Initial release
+
+## Hyvä Compatibility {#hyva}
+
+Changes in the [`swissup/hyva-testimonials`](/m2/extensions/testimonials/installation/hyva/) module.
+
+### Version 1.0.2
+
+> March 2, 2026
+
+ -  Fixed testimonials list.
+
+### Version 1.0.1
+
+> February 25, 2026
+
+ -  Removed unused CSS.
+
+### Version 1.0.0
+
+> December 22, 2025
+
+ -  Initial release: testimonials list, submit form and widgets for Hyvä themes.

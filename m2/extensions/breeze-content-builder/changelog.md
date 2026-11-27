@@ -7,10 +7,6 @@ category: Breeze Content Builder
 
 # Changelog
 
-- [Breeze Content Builder](#breeze-content-builder)
-- [Breeze Layout Builder](#breeze-layout-builder)
-- [Breeze Content Builder Migration](#breeze-content-builder-migration)
-
 ## Breeze Content Builder
 
 ### 1.2.11
@@ -233,3 +229,34 @@ category: Breeze Content Builder
 - Three import modes: Replace, Append, Prepend
 - Migration report with per-component status
 - EasySlide integration for Page Builder sliders
+
+## Hyvä Compatibility {#hyva}
+
+Changes in the [`swissup/hyva-content-builder`](/m2/extensions/breeze-content-builder/installation/hyva/) module.
+
+### 1.1.0
+
+> November 25, 2026
+
+ -  Tailwind classes entered in the "CSS Class" fields are compiled in the editor.
+ -  Slider height accepts CSS functions such as `min()` and `clamp()`. Requires Breeze Content Builder 1.3.1.
+ -  Page cache is cleaned only for Tailwind CSS that the storefront already uses.
+ -  Fixed the Slider in the editor preview: it keeps the current slide after the preview is updated.
+ -  Removed outdated stored CSS.
+
+### 1.0.0
+
+> November 14, 2026
+
+ -  Added Hyvä templates and styles for Banner, Video, Accordion, Tabs, Running line, Featured Product, Newsletter, Products grid and carousel, Product Compare, Slider, Image and Map components.
+ -  Added mobile slider for Columns and Grid.
+ -  Component scripts are loaded only on pages that use them.
+ -  Hyvä product cards are shown in the live preview.
+ -  Fixed swatches in the Featured Product component.
+ -  The package is renamed from `swissup/hyva-breeze-content-builder` to `swissup/hyva-content-builder`.
+
+### 0.1.0
+
+> October 31, 2026
+
+ -  Initial release: Hyvä templates for Columns and Grid components.
