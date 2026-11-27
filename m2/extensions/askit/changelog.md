@@ -11,6 +11,18 @@ category: AskIt
 
 # Changelog
 
+### Version 1.14.29
+
+> November 27, 2026
+
+ - Security: High — private and unapproved questions could be shown to other visitors on CMS and category pages.
+ - Security: Medium — limited how many questions and answers one visitor can post.
+ - Security: Low — a question can no longer be attached to a hidden product, category or page, or to one from another store view.
+ - Security: Low — the questions counter on the product page now counts published questions only.
+ - Fixed: the captcha on the question form showed every visitor the same picture, so nobody could post.
+ - Fixed: with several questions on a page, only one answer form accepted the captcha.
+ - Behaviour change: on CMS and category pages the question list now loads right after the page. No action needed.
+
 ### Version 1.14.28
 
 > October 8, 2026
