@@ -7,6 +7,12 @@ category: Delivery Date
 
 # Changelog
 
+### Version 1.9.3
+
+> November 27, 2026
+
+ -  Fixed missing Terms and Conditions checkbox on PaypalExpress review page.
+
 ### Version 1.9.2
 
 > November 19, 2026
